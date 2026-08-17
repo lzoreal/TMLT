@@ -147,8 +147,6 @@ def get_archive():
 
         print("Found:", found)
 
-        break
-
         pager = soup.select_one("a.pager")
 
         if not pager:
@@ -566,7 +564,6 @@ def main():
     print("Cached episodes:", len(episodes_cache))
 
     archive = get_archive()
-    archive = dict(list(archive.items())[:5])
 
     print("Archive episodes:", len(archive))
 
