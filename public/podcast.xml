@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <rss version="2.0"
+xmlns:atom="http://www.w3.org/2005/Atom"
 xmlns:podcast="https://podcastindex.org/namespace/1.0">
 
 <channel>
 
-<title>
-This American Life Transcript Feed
-</title>
-
+<title>This American Life Transcript Feed</title>
 
 <link>
 https://www.thisamericanlife.org/
 </link>
 
+<atom:link
+href="https://lzoreal.github.io/TMLT/podcast.xml"
+rel="self"
+type="application/rss+xml"/>
 
 <description>
 Unofficial This American Life feed with VTT transcripts
 </description>
+
+<language>en-us</language>
+
+<generator>TMLT Transcript Generator</generator>
 
 
 
@@ -27,12 +33,13 @@ Unofficial This American Life feed with VTT transcripts
 895: Label Maker!
 </title>
 
+
 <link>
 https://www.thisamericanlife.org/895/label-maker
 </link>
 
 
-<guid>
+<guid isPermaLink="true">
 https://www.thisamericanlife.org/895/label-maker
 </guid>
 
@@ -43,7 +50,7 @@ Labels and the havoc they wreak.
 
 
 <pubDate>
-2026-07-31T10:58:25-04:00
+Fri, 31 Jul 2026 10:58:25 -0400
 </pubDate>
 
 
@@ -55,6 +62,7 @@ type="audio/mpeg"
 
 />
 
+
 <podcast:transcript
 
 url="https://lzoreal.github.io/TMLT/transcripts/895.vtt"
@@ -64,6 +72,7 @@ type="text/vtt"
 language="en"
 
 />
+
 
 </item>
 
@@ -75,12 +84,13 @@ language="en"
 894: I Couldn&#x27;t Help but Notice
 </title>
 
+
 <link>
 https://www.thisamericanlife.org/894/i-couldnt-help-but-notice
 </link>
 
 
-<guid>
+<guid isPermaLink="true">
 https://www.thisamericanlife.org/894/i-couldnt-help-but-notice
 </guid>
 
@@ -91,7 +101,7 @@ People dealing with new, glaring, massive changes happening right where they liv
 
 
 <pubDate>
-2026-07-24T10:15:26-04:00
+Fri, 24 Jul 2026 10:15:26 -0400
 </pubDate>
 
 
@@ -103,6 +113,7 @@ type="audio/mpeg"
 
 />
 
+
 <podcast:transcript
 
 url="https://lzoreal.github.io/TMLT/transcripts/894.vtt"
@@ -112,6 +123,7 @@ type="text/vtt"
 language="en"
 
 />
+
 
 </item>
 
@@ -123,12 +135,13 @@ language="en"
 893: Testosterone
 </title>
 
+
 <link>
 https://www.thisamericanlife.org/893/testosterone
 </link>
 
 
-<guid>
+<guid isPermaLink="true">
 https://www.thisamericanlife.org/893/testosterone
 </guid>
 
@@ -139,7 +152,7 @@ Everyone at This American Life tests their testosterone and compares results.
 
 
 <pubDate>
-2026-07-24T14:08:50-04:00
+Fri, 24 Jul 2026 14:08:50 -0400
 </pubDate>
 
 
@@ -151,6 +164,7 @@ type="audio/mpeg"
 
 />
 
+
 <podcast:transcript
 
 url="https://lzoreal.github.io/TMLT/transcripts/893.vtt"
@@ -160,6 +174,7 @@ type="text/vtt"
 language="en"
 
 />
+
 
 </item>
 
@@ -171,12 +186,13 @@ language="en"
 892: Trapped on a Bus
 </title>
 
+
 <link>
 https://www.thisamericanlife.org/892/trapped-on-a-bus
 </link>
 
 
-<guid>
+<guid isPermaLink="true">
 https://www.thisamericanlife.org/892/trapped-on-a-bus
 </guid>
 
@@ -187,7 +203,7 @@ People on journeys they did not intend — or agree to.
 
 
 <pubDate>
-2026-07-16T11:08:38-04:00
+Thu, 16 Jul 2026 11:08:38 -0400
 </pubDate>
 
 
@@ -199,6 +215,7 @@ type="audio/mpeg"
 
 />
 
+
 <podcast:transcript
 
 url="https://lzoreal.github.io/TMLT/transcripts/892.vtt"
@@ -208,6 +225,7 @@ type="text/vtt"
 language="en"
 
 />
+
 
 </item>
 
@@ -219,12 +237,13 @@ language="en"
 443: Amusement Park
 </title>
 
+
 <link>
 https://www.thisamericanlife.org/443/amusement-park
 </link>
 
 
-<guid>
+<guid isPermaLink="true">
 https://www.thisamericanlife.org/443/amusement-park
 </guid>
 
@@ -235,7 +254,7 @@ We head to some of the happiest places on earth: amusement parks!
 
 
 <pubDate>
-2011-08-12T00:00:00-04:00
+Fri, 12 Aug 2011 00:00:00 -0400
 </pubDate>
 
 
@@ -247,6 +266,7 @@ type="audio/mpeg"
 
 />
 
+
 <podcast:transcript
 
 url="https://lzoreal.github.io/TMLT/transcripts/443.vtt"
@@ -256,6 +276,7 @@ type="text/vtt"
 language="en"
 
 />
+
 
 </item>
 
