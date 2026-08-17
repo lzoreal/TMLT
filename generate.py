@@ -6,7 +6,8 @@ import html
 import random
 import re
 import time
-
+from datetime import datetime
+from email.utils import format_datetime
 from pathlib import Path
 
 import requests
@@ -351,6 +352,21 @@ def create_vtt(lines):
 
     return "\n".join(output)
 
+def rss_date(date_string):
+
+    if not date_string:
+        return ""
+
+    try:
+        dt = datetime.fromisoformat(
+            date_string.replace("Z", "+00:00")
+        )
+
+        return format_datetime(dt)
+
+    except Exception:
+        return date_string
+
 
 # =====================
 # RSS generator
@@ -362,29 +378,41 @@ def create_rss(episodes, base_url):
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 
 <rss version="2.0"
+xmlns:atom="http://www.w3.org/2005/Atom"
 xmlns:podcast="https://podcastindex.org/namespace/1.0">
 
 <channel>
 
-<title>
-This American Life Transcript Feed
-</title>
-
+<title>This American Life Transcript Feed</title>
 
 <link>
 https://www.thisamericanlife.org/
 </link>
 
+<atom:link
+href="{base_url}/podcast.xml"
+rel="self"
+type="application/rss+xml"/>
 
 <description>
 Unofficial This American Life feed with VTT transcripts
 </description>
 
+<language>en-us</language>
+
+<generator>TMLT Transcript Generator</generator>
+
 """
 
-    for episode in sorted(episodes.keys(), key=lambda x: int(x), reverse=True):
+
+    for episode in sorted(
+        episodes.keys(),
+        key=lambda x: int(x),
+        reverse=True
+    ):
 
         item = episodes[episode]
+
 
         rss += f"""
 
@@ -394,12 +422,13 @@ Unofficial This American Life feed with VTT transcripts
 {html.escape(item.get("title",""))}
 </title>
 
+
 <link>
 {html.escape(item.get("url",""), quote=True)}
 </link>
 
 
-<guid>
+<guid isPermaLink="true">
 {html.escape(item.get("url",""), quote=True)}
 </guid>
 
@@ -410,7 +439,7 @@ Unofficial This American Life feed with VTT transcripts
 
 
 <pubDate>
-{item.get("pubDate","")}
+{rss_date(item.get("pubDate",""))}
 </pubDate>
 
 
@@ -422,9 +451,10 @@ type="audio/mpeg"
 
 />
 
+
 <podcast:transcript
 
-url="{html.escape(base_url + "/transcripts/" + episode + ".vtt", quote=True)}"
+url="{base_url}/transcripts/{episode}.vtt"
 
 type="text/vtt"
 
@@ -432,9 +462,11 @@ language="en"
 
 />
 
+
 </item>
 
 """
+
 
     rss += """
 
@@ -442,6 +474,7 @@ language="en"
 
 </rss>
 """
+
 
     return rss
 
