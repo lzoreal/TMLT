@@ -1,221 +1,542 @@
 #!/usr/bin/env python3
+
 import argparse
-import html
 import json
+import html
+import random
 import re
 import time
+
 from pathlib import Path
 
-import feedparser
 import requests
 from bs4 import BeautifulSoup
 
-TAL_RSS = "https://feeds.thisamericanlife.org/talpodcast"
+BASE = "https://www.thisamericanlife.org"
+
+
+# =====================
+# Session
+# =====================
 
 session = requests.Session()
-session.headers.update({
-    "User-Agent": "TAL-Podcast20-Transcript-RSS/1.0"
-})
 
-def get(url):
-    r = session.get(url, timeout=30)
-    r.raise_for_status()
-    return r.text
 
-def episode_number(entry):
-    text = " ".join([
-        str(entry.get("title", "")),
-        str(entry.get("link", "")),
-        str(entry.get("id", "")),
-    ])
-    m = re.search(r"\b(\d{1,4})\b", text)
-    return int(m.group(1)) if m else None
+session.headers.update(
+    {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 "
+        "Chrome/126.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml," "application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://www.thisamericanlife.org/",
+    }
+)
 
-def transcript_url(ep):
-    return f"https://www.thisamericanlife.org/{ep}/transcript"
 
-def clean_text(value):
-    s = BeautifulSoup(str(value), "html.parser").get_text(" ", strip=True)
-    return re.sub(r"\s+", " ", html.unescape(s)).strip()
+# =====================
+# HTTP Request
+# =====================
 
-def parse_clock(value):
-    x = str(value).strip().replace(",", ".")
-    parts = x.split(":")
+
+def fetch(url, retries=5):
+
+    for attempt in range(retries):
+
+        try:
+
+            r = session.get(url, timeout=30)
+
+            if r.status_code == 429:
+
+                wait = 30 * (attempt + 1)
+
+                print(f"Rate limited: {url}")
+
+                print(f"Sleep {wait}s")
+
+                time.sleep(wait)
+
+                continue
+
+            r.raise_for_status()
+
+            return r.text
+
+        except Exception as e:
+
+            if attempt == retries - 1:
+
+                raise e
+
+            wait = 10 + attempt * 10
+
+            print(f"Request failed: {e}")
+
+            time.sleep(wait)
+
+    raise Exception("Unable to fetch " + url)
+
+
+# =====================
+# JSON Cache
+# =====================
+
+
+def load_json(path, default):
+
+    if not path.exists():
+
+        return default
+
     try:
-        if len(parts) == 3:
-            return int(parts[0]) * 3600 + int(parts[1]) * 60 + float(parts[2])
-        if len(parts) == 2:
-            return int(parts[0]) * 60 + float(parts[1])
-        return float(parts[0])
-    except ValueError:
+
+        return json.loads(path.read_text(encoding="utf-8"))
+
+    except Exception:
+
+        return default
+
+
+def save_json(path, data):
+
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+# =====================
+# Archive crawler
+# =====================
+
+
+def get_archive():
+
+    episodes = {}
+
+    archive_page = "/archive"
+
+    while True:
+
+        print("Fetching archive:", archive_page)
+
+        content = fetch(BASE + archive_page)
+
+        soup = BeautifulSoup(content, "html.parser")
+
+        found = 0
+
+        for a in soup.select("a.goto-episode"):
+
+            href = a.get("href")
+
+            if not href:
+
+                continue
+
+            m = re.search(r"^/(\d+)/", href)
+
+            if not m:
+
+                continue
+
+            episode = m.group(1)
+
+            episodes[episode] = BASE + href
+
+            found += 1
+
+        print("Found:", found)
+
+        break
+
+        pager = soup.select_one("a.pager")
+
+        if not pager:
+
+            break
+
+        next_page = pager.get("href")
+
+        if not next_page or next_page == archive_page:
+
+            break
+
+        archive_page = next_page
+
+        time.sleep(random.uniform(5, 10))
+
+    return episodes
+
+
+# =====================
+# Episode parser
+# =====================
+
+
+def get_episode_info(url):
+
+    print("Fetching episode:", url)
+
+    content = fetch(url)
+
+    soup = BeautifulSoup(content, "html.parser")
+
+    title = ""
+
+    h1 = soup.find("h1")
+
+    if h1:
+
+        title = h1.get_text(" ", strip=True)
+
+    audio = ""
+
+    playlist = soup.select_one("script#playlist-data")
+
+    if playlist and playlist.string:
+
+        try:
+
+            data = json.loads(playlist.string)
+
+            audio = data.get("audio", "")
+
+            title = data.get("title", title)
+
+        except Exception:
+
+            pass
+
+    pub_date = ""
+
+    meta = soup.select_one("meta[property='article:published_time']")
+
+    if meta:
+
+        pub_date = meta.get("content", "")
+
+    description = ""
+
+    desc = soup.select_one("meta[name='description']")
+
+    if desc:
+
+        description = desc.get("content", "")
+
+    return {
+        "title": title,
+        "audio": audio,
+        "url": url,
+        "pubDate": pub_date,
+        "description": description,
+    }
+
+
+# =====================
+# Transcript parser
+# =====================
+
+
+def parse_time(value):
+
+    if not value:
+
         return None
 
-def fmt_vtt(sec):
-    total = int(sec)
-    ms = int(round((sec - total) * 1000))
-    if ms >= 1000:
-        total += 1
-        ms -= 1000
-    h, rem = divmod(total, 3600)
-    m, s = divmod(rem, 60)
-    return f"{h:02d}:{m:02d}:{s:02d}.{ms:03d}"
+    try:
 
-def extract_from_embedded_json(soup):
-    out = []
+        parts = value.split(":")
 
-    def walk(x):
-        if isinstance(x, dict):
-            lower = {str(k).lower(): k for k in x}
-            start = next((x[k] for k in lower if k in ("start", "starttime", "start_time", "begin")), None)
-            end = next((x[k] for k in lower if k in ("end", "endtime", "end_time", "stop")), None)
-            text = next((x[k] for k in lower if k in ("text", "body", "transcript", "content")), None)
-            if start is not None and end is not None and text:
-                try:
-                    st = float(start)
-                    en = float(end)
-                    txt = clean_text(text)
-                    if en > st and txt:
-                        out.append((st, en, txt))
-                except Exception:
-                    pass
-            for v in x.values():
-                walk(v)
-        elif isinstance(x, list):
-            for v in x:
-                walk(v)
+        if len(parts) == 3:
 
-    for tag in soup.find_all("script"):
-        raw = tag.string or tag.get_text()
-        if not raw or len(raw) > 5_000_000:
+            h = float(parts[0])
+
+            m = float(parts[1])
+
+            s = float(parts[2])
+
+            return h * 3600 + m * 60 + s
+
+        elif len(parts) == 2:
+
+            m = float(parts[0])
+
+            s = float(parts[1])
+
+            return m * 60 + s
+
+    except Exception:
+
+        return None
+
+    return None
+
+
+def get_transcript(episode):
+
+    url = f"{BASE}/{episode}/transcript"
+
+    print("Fetching transcript:", episode)
+
+    content = fetch(url)
+
+    soup = BeautifulSoup(content, "html.parser")
+
+    lines = []
+
+    # TAL transcript 结构可能变化
+    # 尝试带 begin 属性的段落
+
+    for p in soup.find_all("p"):
+
+        begin = p.get("begin")
+
+        if not begin:
+
             continue
-        raw = raw.strip()
-        if not (raw.startswith("{") or raw.startswith("[")):
+
+        start = parse_time(begin)
+
+        if start is None:
+
             continue
-        try:
-            walk(json.loads(raw))
-        except Exception:
-            continue
 
-    return out
+        text = p.get_text(" ", strip=True)
 
-def extract_timestamped_html(soup):
-    out = []
-    for el in soup.find_all(True):
-        attrs = {str(k).lower(): v for k, v in el.attrs.items()}
-        start = next((attrs[k] for k in attrs if k in (
-            "data-start", "data-start-time", "data-starttime", "start", "starttime"
-        )), None)
-        end = next((attrs[k] for k in attrs if k in (
-            "data-end", "data-end-time", "data-endtime", "end", "endtime"
-        )), None)
-        if start is None or end is None:
-            continue
-        st = parse_clock(start)
-        en = parse_clock(end)
-        txt = clean_text(el)
-        if st is not None and en is not None and en > st and txt:
-            out.append((st, en, txt))
-    return dedupe(out)
+        if text:
 
-def dedupe(items):
-    seen = set()
-    result = []
-    for st, en, txt in sorted(items, key=lambda x: x[0]):
-        key = (round(st, 3), round(en, 3), txt)
-        if key not in seen:
-            seen.add(key)
-            result.append((st, en, txt))
-    return result
+            lines.append((start, text))
 
-def make_vtt(segments):
-    lines = ["WEBVTT", ""]
-    for st, en, text in segments:
-        lines += [f"{fmt_vtt(st)} --> {fmt_vtt(en)}", text, ""]
-    return "\n".join(lines)
+    return lines
 
-def esc(s):
-    return html.escape(str(s), quote=True)
 
-def build_rss(entries, base_url, available):
-    items = []
-    for e in entries:
-        ep = episode_number(e)
-        if not ep or ep not in available:
-            continue
-        enclosures = e.get("enclosures", [])
-        if not enclosures:
-            continue
-        audio = enclosures[0]
-        title = e.get("title", f"This American Life #{ep}")
-        link = e.get("link", f"https://www.thisamericanlife.org/{ep}")
-        desc = e.get("summary", e.get("description", ""))
-        guid = e.get("id", link)
-        vtt_url = f"{base_url.rstrip('/')}/transcripts/{ep}.vtt"
-        items.append(f"""    <item>
-      <title>{esc(title)}</title>
-      <link>{esc(link)}</link>
-      <guid isPermaLink="false">{esc(guid)}</guid>
-      <pubDate>{esc(e.get("published", ""))}</pubDate>
-      <description>{esc(desc)}</description>
-      <enclosure url="{esc(audio.get("href", ""))}" length="{esc(audio.get("length", "0"))}" type="{esc(audio.get("type", "audio/mpeg"))}" />
-      <podcast:transcript url="{esc(vtt_url)}" type="text/vtt" language="en" rel="captions" />
-    </item>""")
+# =====================
+# VTT generator
+# =====================
 
-    return """<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
-  <channel>
-    <title>This American Life — Podcasting 2.0 Transcript Mirror</title>
-    <link>https://www.thisamericanlife.org/</link>
-    <description>Unofficial RSS mirror adding Podcasting 2.0 WebVTT transcript links.</description>
-    <language>en-us</language>
-""" + "\n".join(items) + """
-  </channel>
+
+def format_vtt_time(seconds):
+
+    seconds = int(seconds)
+
+    hour = seconds // 3600
+
+    minute = (seconds % 3600) // 60
+
+    second = seconds % 60
+
+    return f"{hour:02}:" f"{minute:02}:" f"{second:02}.000"
+
+
+def create_vtt(lines):
+
+    output = ["WEBVTT", ""]
+
+    for index, item in enumerate(lines):
+
+        start, text = item
+
+        if index + 1 < len(lines):
+
+            end = lines[index + 1][0]
+
+        else:
+
+            end = start + 5
+
+        output.append(f"{format_vtt_time(start)} --> " f"{format_vtt_time(end)}")
+
+        output.append(text)
+
+        output.append("")
+
+    return "\n".join(output)
+
+
+# =====================
+# RSS generator
+# =====================
+
+
+def create_rss(episodes, base_url):
+
+    rss = f"""<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+xmlns:podcast="https://podcastindex.org/namespace/1.0">
+
+<channel>
+
+<title>
+This American Life Transcript Feed
+</title>
+
+
+<link>
+https://www.thisamericanlife.org/
+</link>
+
+
+<description>
+Unofficial This American Life feed with VTT transcripts
+</description>
+
+"""
+
+    for episode in sorted(episodes.keys(), key=lambda x: int(x), reverse=True):
+
+        item = episodes[episode]
+
+        rss += f"""
+
+<item>
+
+<title>
+{html.escape(item.get("title",""))}
+</title>
+
+
+<podcast:transcript
+
+url="{html.escape(base_url + "/transcripts/" + episode + ".vtt", quote=True)}"
+
+type="text/vtt"
+
+language="en"
+
+/>
+
+
+<description>
+{html.escape(item.get("description",""))}
+</description>
+
+
+<pubDate>
+{item.get("pubDate","")}
+</pubDate>
+
+
+<enclosure
+
+url="{html.escape(item.get("audio",""), quote=True)}"
+
+type="audio/mpeg"
+
+/>
+
+
+<podcast:transcript
+
+url="{base_url}/transcripts/{episode}.vtt"
+
+type="text/vtt"
+
+language="en"
+
+/>
+
+
+</item>
+
+"""
+
+    rss += """
+
+</channel>
+
 </rss>
 """
 
+    return rss
+
+
+# =====================
+# Main
+# =====================
+
+
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--episodes", type=int, default=20)
-    ap.add_argument("--base-url", required=True)
-    ap.add_argument("--output", default="public")
-    ap.add_argument("--sleep", type=float, default=0.8)
-    args = ap.parse_args()
 
-    out = Path(args.output)
-    (out / "transcripts").mkdir(parents=True, exist_ok=True)
+    parser = argparse.ArgumentParser()
 
-    feed = feedparser.parse(TAL_RSS)
-    entries = feed.entries[:args.episodes]
-    available = {}
+    parser.add_argument("--base-url", required=True)
 
-    for entry in entries:
-        ep = episode_number(entry)
-        if not ep:
+    parser.add_argument("--output", default="public")
+
+    args = parser.parse_args()
+
+    output = Path(args.output)
+
+    output.mkdir(parents=True, exist_ok=True)
+
+    transcript_dir = output / "transcripts"
+
+    transcript_dir.mkdir(parents=True, exist_ok=True)
+
+    cache_file = output / "episodes.json"
+
+    episodes_cache = load_json(cache_file, {})
+
+    print("Cached episodes:", len(episodes_cache))
+
+    archive = get_archive()
+    archive = dict(
+    list(archive.items())[:5]
+)
+
+    print("Archive episodes:", len(archive))
+
+    new_count = 0
+
+    for episode, url in archive.items():
+
+        if episode in episodes_cache:
+
             continue
-        print(f"[{ep}] fetching {transcript_url(ep)}")
+
+        print("New episode:", episode)
+
         try:
-            soup = BeautifulSoup(get(transcript_url(ep)), "lxml")
-            segments = extract_from_embedded_json(soup)
-            if not segments:
-                segments = extract_timestamped_html(soup)
-            segments = dedupe(segments)
-            if not segments:
-                print("  SKIP: no real timestamped data found")
+
+            info = get_episode_info(url)
+
+            if not info["audio"]:
+
+                print("No audio:", episode)
+
                 continue
 
-            (out / "transcripts" / f"{ep}.vtt").write_text(
-                make_vtt(segments), encoding="utf-8"
-            )
-            available[ep] = True
-            print(f"  OK: {len(segments)} cues")
-        except Exception as ex:
-            print(f"  ERROR: {ex}")
-        time.sleep(args.sleep)
+            vtt_file = transcript_dir / f"{episode}.vtt"
 
-    (out / "podcast.xml").write_text(
-        build_rss(entries, args.base_url, available), encoding="utf-8"
-    )
-    print(f"Generated {len(available)} VTT files.")
+            transcript = get_transcript(episode)
+
+            if transcript:
+
+                vtt_file.write_text(create_vtt(transcript), encoding="utf-8")
+
+            episodes_cache[episode] = info
+
+            new_count += 1
+
+        except Exception as e:
+
+            print("Failed:", episode, e)
+
+        time.sleep(random.uniform(5, 10))
+
+    print("New episodes added:", new_count)
+
+    save_json(cache_file, episodes_cache)
+
+    rss = create_rss(episodes_cache, args.base_url)
+
+    rss_file = output / "podcast.xml"
+
+    rss_file.write_text(rss, encoding="utf-8")
+
+    print("RSS generated:", rss_file)
+
 
 if __name__ == "__main__":
+
     main()
