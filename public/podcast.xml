@@ -27,16 +27,14 @@ Unofficial This American Life feed with VTT transcripts
 895: Label Maker!
 </title>
 
+<link>
+https://www.thisamericanlife.org/895/label-maker
+</link>
 
-<podcast:transcript
 
-url="https://lzoreal.github.io/TMLT/transcripts/895.vtt"
-
-type="text/vtt"
-
-language="en"
-
-/>
+<guid>
+https://www.thisamericanlife.org/895/label-maker
+</guid>
 
 
 <description>
@@ -57,7 +55,6 @@ type="audio/mpeg"
 
 />
 
-
 <podcast:transcript
 
 url="https://lzoreal.github.io/TMLT/transcripts/895.vtt"
@@ -67,7 +64,6 @@ type="text/vtt"
 language="en"
 
 />
-
 
 </item>
 
@@ -79,16 +75,14 @@ language="en"
 894: I Couldn&#x27;t Help but Notice
 </title>
 
+<link>
+https://www.thisamericanlife.org/894/i-couldnt-help-but-notice
+</link>
 
-<podcast:transcript
 
-url="https://lzoreal.github.io/TMLT/transcripts/894.vtt"
-
-type="text/vtt"
-
-language="en"
-
-/>
+<guid>
+https://www.thisamericanlife.org/894/i-couldnt-help-but-notice
+</guid>
 
 
 <description>
@@ -109,7 +103,6 @@ type="audio/mpeg"
 
 />
 
-
 <podcast:transcript
 
 url="https://lzoreal.github.io/TMLT/transcripts/894.vtt"
@@ -119,7 +112,6 @@ type="text/vtt"
 language="en"
 
 />
-
 
 </item>
 
@@ -131,16 +123,14 @@ language="en"
 893: Testosterone
 </title>
 
+<link>
+https://www.thisamericanlife.org/893/testosterone
+</link>
 
-<podcast:transcript
 
-url="https://lzoreal.github.io/TMLT/transcripts/893.vtt"
-
-type="text/vtt"
-
-language="en"
-
-/>
+<guid>
+https://www.thisamericanlife.org/893/testosterone
+</guid>
 
 
 <description>
@@ -161,7 +151,6 @@ type="audio/mpeg"
 
 />
 
-
 <podcast:transcript
 
 url="https://lzoreal.github.io/TMLT/transcripts/893.vtt"
@@ -171,7 +160,6 @@ type="text/vtt"
 language="en"
 
 />
-
 
 </item>
 
@@ -183,16 +171,14 @@ language="en"
 892: Trapped on a Bus
 </title>
 
+<link>
+https://www.thisamericanlife.org/892/trapped-on-a-bus
+</link>
 
-<podcast:transcript
 
-url="https://lzoreal.github.io/TMLT/transcripts/892.vtt"
-
-type="text/vtt"
-
-language="en"
-
-/>
+<guid>
+https://www.thisamericanlife.org/892/trapped-on-a-bus
+</guid>
 
 
 <description>
@@ -213,7 +199,6 @@ type="audio/mpeg"
 
 />
 
-
 <podcast:transcript
 
 url="https://lzoreal.github.io/TMLT/transcripts/892.vtt"
@@ -223,7 +208,6 @@ type="text/vtt"
 language="en"
 
 />
-
 
 </item>
 
@@ -235,16 +219,14 @@ language="en"
 443: Amusement Park
 </title>
 
+<link>
+https://www.thisamericanlife.org/443/amusement-park
+</link>
 
-<podcast:transcript
 
-url="https://lzoreal.github.io/TMLT/transcripts/443.vtt"
-
-type="text/vtt"
-
-language="en"
-
-/>
+<guid>
+https://www.thisamericanlife.org/443/amusement-park
+</guid>
 
 
 <description>
@@ -265,7 +247,6 @@ type="audio/mpeg"
 
 />
 
-
 <podcast:transcript
 
 url="https://lzoreal.github.io/TMLT/transcripts/443.vtt"
@@ -275,7 +256,6 @@ type="text/vtt"
 language="en"
 
 />
-
 
 </item>
 
