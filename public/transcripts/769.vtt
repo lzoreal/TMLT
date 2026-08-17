@@ -1,0 +1,904 @@
+WEBVTT
+
+00:00:01.120 --> 00:00:22.800
+<v Ira Glass>So a little while back, this guy named Ken Irwin started reaching out to people here at This American Life. Emanuele got a voicemail that was both very insistent and deeply apologetic.
+
+00:00:22.800 --> 00:00:31.220
+<v Ken Erwin>Hi, I'm so sorry for calling you. I'm just trying to get ahold of someone at This American Life or New York Times. I'm so sorry for interrupting you on your weekend.
+
+00:00:31.220 --> 00:00:38.810
+<v Ira Glass>Chloee got messages on LinkedIn saying, quote, "If you can give me five minutes to tell you what I know so far, I promise it's a crazy story."
+
+00:00:38.810 --> 00:00:49.880
+<v Ken Erwin>And today is about to be a million times crazier. Two weeks ago, my life was normal. I literally was just working for Amazon. I was a normal person.
+
+00:00:49.880 --> 00:00:57.090
+<v Ira Glass>On Dana's voicemail, he said he was sure she was way too busy to call back herself. But he swore a factchecker could confirm everything he's saying.
+
+00:00:57.090 --> 00:01:05.600
+<v Ken Erwin>Basically, I became a multimillionaire over the last week and a half, which is insane. And the story is so much crazier than what I'm even saying.
+
+00:01:05.600 --> 00:01:19.750
+<v Ira Glass>To Brian, this guy wrote on Twitter, "I have no idea where the story will go as I'm stuck in it trying to figure it out. But I think you're exactly the type of person that could figure it out. So they all passed that information to me.
+
+00:01:19.750 --> 00:01:22.040
+<v Ira Glass>[RINGTONE]
+
+00:01:22.040 --> 00:01:23.240
+<v Ira Glass>Then I called the guy.
+
+00:01:23.240 --> 00:01:24.380
+<v Ken Erwin>Hi, this is Ken.
+
+00:01:24.380 --> 00:01:27.650
+<v Ira Glass>Hey, Ken. This is Ira Glass from This American Life.
+
+00:01:27.650 --> 00:01:31.190
+<v Ken Erwin>Oh my god. That is amazing. Hi.
+
+00:01:31.190 --> 00:01:31.520
+<v Ira Glass>Hi.
+
+00:01:31.520 --> 00:01:32.220
+<v Ken Erwin>Nice to meet you.
+
+00:01:32.220 --> 00:01:33.930
+<v Ira Glass>Nice to meet you.
+
+00:01:33.930 --> 00:01:40.970
+<v Ken Erwin>Thank you for calling. I did not expect to be talking to you. I'm so sorry for spamming your entire company.
+
+00:01:40.970 --> 00:01:54.020
+<v Ira Glass>Right off the bat, he asked me if I knew what NFTs are. And I had a general idea that they're images and other things in the crypto world that people are selling to each other for a lot of money. For now, can I say, that's all you need to know for this to make sense.
+
+00:01:54.020 --> 00:01:59.360
+<v Ira Glass>He told me that this all began for him two weeks before our conversation on August 22nd.
+
+00:01:59.360 --> 00:02:12.500
+<v Ken Erwin>So the person named Adam McBride reached out. If you Google him, he calls himself an NFT archaeologist. I don't know how to describe him. He has a podcast.
+
+00:02:12.500 --> 00:02:19.820
+<v Ken Erwin>So he reached on LinkedIn and Gmail and basically told me, hey, if you're the owner of PixelMap, I need to talk to you immediately.
+
+00:02:19.820 --> 00:02:23.000
+<v Ira Glass>PixelMap was a website that Ken created in 2016.
+
+00:02:23.000 --> 00:02:36.940
+<v Ken Erwin>He wants to tell me that basically, I could make a lot of money if I brought the site back up. And I immediately assumed he was scamming me. Because we all get emails like that all the time.
+
+00:02:36.940 --> 00:02:49.010
+<v Ken Erwin>And the only reason I talked to him was he mentioned PixelMap. The site has been down literally since 2017. So I just wanted to know how he even knew that word.
+
+00:02:49.010 --> 00:03:03.830
+<v Ira Glass>Ken has made PixelMap just for fun and to teach himself a new programming language. He's somebody who was always tinkering, inventing things, a hovercraft that could carry a dog. He has three dachshunds and a fourth dog that he refers to as the randomly generated dog.
+
+00:03:03.830 --> 00:03:20.630
+<v Ira Glass>One of his recent projects, he used a 3D printer to create another, better 3D printer. His real job was he worked for Amazon's web services company. He was one of the lead engineers developing code for big companies like Snapchat and Pinterest. He's 33, lives in Indiana.
+
+00:03:20.630 --> 00:03:22.190
+<v Ira Glass>As for PixelMap--
+
+00:03:22.190 --> 00:03:26.120
+<v Ken Erwin>You can see it. Actually, you're going to think it looks stupid, probably. But-- [LAUGHS]
+
+00:03:26.120 --> 00:03:46.400
+<v Ira Glass>This is the kind of self-deprecating remark I've learned that Ken does reflexively a lot. But in this case, the PixelMap.io website does look kind of primitive when you first see it, like early 8-bit Nintendo or something. It's a grid of tiles, a picture of 4,000 little tiles, and they're tiny. Each is 16 by 16 pixels.
+
+00:03:46.400 --> 00:04:05.820
+<v Ira Glass>And the idea is anybody can buy the tiles, own them, and decorate them how they want. So people have different cartoons in them and words they've posted. When Ken created this back in 2016, barely anybody noticed or cared. Maybe 20 or 30 people bought tiles. Within a year, he was pretty much done with PixelMap.
+
+00:04:05.820 --> 00:04:15.120
+<v Ira Glass>So that is the project that this guy Adam McBride wanted to talk to him about. And so the same day that Ken gets Adam's email, that afternoon, he gets on a Zoom with him.
+
+00:04:15.120 --> 00:04:40.350
+<v Ken Erwin>He said basically what he does is he goes in and tries to find really old NFT projects and that he does it as a hobby and really enjoys doing it. And he said that mine would be one of the earliest, even though 2016 is not that long ago. In the NFT space, that's almost the oldest you can go. And that I'm probably sitting on a ton of money and I don't realize it.
+
+00:04:40.350 --> 00:04:59.260
+<v Ira Glass>Sitting on a ton of money because in the crypto world, one kind of NFT that people get excited about and pay money for is what they call historic NFTs, the first NFTs that ever existed. Ken tells Adam that's all great, what's an NFT? Adam give him a quick primer.
+
+00:04:59.260 --> 00:05:03.830
+<v Ira Glass>And had it ever occurred to you that what you had made was an NFT?
+
+00:05:03.830 --> 00:05:26.660
+<v Ken Erwin>No, because when I made it, there were no NFTs. The only time I had heard of NFT since then, I had heard in the news that Steph Curry had one. And I really hadn't even looked to see what an NFT was, which I know sounds really stupid. I had truly completely forgotten about my site.
+
+00:05:26.660 --> 00:05:42.590
+<v Ken Erwin>And I was saying, how much do you think I could get for it? And he said, I've seen projects like this. I had one that the developer got over 100,000. But looking at yours, I think you could probably get 500 grand out of it.
+
+00:05:42.590 --> 00:05:54.440
+<v Ken Erwin>And at that point, I thought he was really nice. I didn't think there was any chance on earth of that actually happening. [LAUGHS]
+
+00:05:54.440 --> 00:06:12.380
+<v Ira Glass>Adam McBride tells him, I can help you set this up and get it relaunched, and people will pay you gobs of money for the rest of those 4,000 tiles. He said he knows a group of guys who love the early historic NFTs, like this one. And they'll all talk it up on Twitter. They'll encourage people to buy. He says he's done this for a bunch of other old NFTs.
+
+00:06:12.380 --> 00:06:49.340
+<v Ira Glass>But Adam tells him there was one little snag. Ken needs to lower the price of each tile. That's because back in 2016, Ken set the price of each tile at 2 Ether. Now, Ether-- I didn't know anything about this. Ken I to explain this to me-- is the name of one of the big cryptocurrencies, like Bitcoin. And 2 Ether back in 2016 was around 20 bucks. The problem, Adam explained, was the value of Ether had blown up. And 2 Ether these days was now more than $6,000, way too high for most people.
+
+00:06:49.340 --> 00:06:56.810
+<v Ken Erwin>He said I would be a lot better off and a lot more successful if I would set all of them to 0.35 Eth.
+
+00:06:56.810 --> 00:07:06.080
+<v Ira Glass>0.35 Eth. In other words, each image would cost 0.35 Ether, a third of an Ether-- at the time, around $1,000.
+
+00:07:06.080 --> 00:07:08.930
+<v Ken Erwin>And for me, that made complete sense.
+
+00:07:08.930 --> 00:07:13.280
+<v Ira Glass>He told me he didn't really believe any of this was going to work anyway. But he figured, what's he got to lose?
+
+00:07:13.280 --> 00:07:15.560
+<v Ken Erwin>So I'm just like, I'll go with it.
+
+00:07:15.560 --> 00:07:32.630
+<v Ira Glass>So Ken started knocking down the price of his 4,000 tiles, which actually took some time. Because the way he wrote the original code, the original program for PixelMap, repricing each tile took a few minutes. And had to do them by hand one at a time for hundreds and hundreds of tiles.
+
+00:07:32.630 --> 00:07:47.090
+<v Ira Glass>Now, he could have written code to automate that process. But he said he wasn't thinking straight that particular week. Because that week, his dad had a heart attack and went to the hospital for bypass surgery. And so Ken was spending a lot of time at the hospital with his dad.
+
+00:07:47.090 --> 00:08:04.670
+<v Ira Glass>Adam was sending messages to the buyers, who were, quote, "pounding at the door." Hurry up, do them faster. And some people were so impatient, they just paid the higher price, over $6,000 2 Ether, which leads to an obvious question.
+
+00:08:04.670 --> 00:08:11.630
+<v Ira Glass>Why lower the price if people were paying 2 Ethereum for them?
+
+00:08:11.630 --> 00:08:33.870
+<v Ken Erwin>Because I'm a moron. And he said that the whole reason that he was doing this big campaign-- I have no idea. My wife-- she's not my wife, but I've been with her for 11 years. She basically was like, if they're buying them at this, shouldn't we raise the price to 0.5 or 1 or just leave it at 2? Like, it looks like they want it.
+
+00:08:33.870 --> 00:08:37.690
+<v Ken Erwin>And I was like, no. It was not smart. It was--
+
+00:08:37.690 --> 00:08:38.000
+<v Ira Glass>[LAUGHS]
+
+00:08:38.000 --> 00:08:59.270
+<v Ken Erwin>I was worried that-- what if they all of a sudden disappear or change their mind? I have no idea like why they want it, what's going on. All I know is if we sell them right now, I had done the math. I was like, we're looking at 2 million or more if we sell all of them.
+
+00:08:59.270 --> 00:09:09.280
+<v Ken Erwin>And I've never had that kind of money. Literally, all I could think about was like, I'm about to become a millionaire. And then the weird part of the story started happening.
+
+00:09:09.280 --> 00:09:12.920
+<v Ira Glass>Wait, wait, the weird part of the story hasn't even happened yet?
+
+00:09:12.920 --> 00:09:18.770
+<v Ken Erwin>Correct, yes.
+
+00:09:18.770 --> 00:09:35.150
+<v Ira Glass>What transpired next, he got a phone call that made him rethink everything that had happened to this point and look very differently at this guy Adam McBride, who seemed so nice and helpful at first. He and I had a series of conversations over the course of weeks where all of this unfolded.
+
+00:09:35.150 --> 00:09:59.930
+<v Ira Glass>Basically, Ken started off like most of us, I think. He hadn't been following this whole NFT thing, didn't know what they were. And then suddenly, like, I don't know, somebody in a fairy tale who's transported to a strange new world where he learns he's a prince or a knight or something, Ken gets pulled into this crypto world where he finds he has all this cred, all this street cred as one of the first pioneers.
+
+00:09:59.930 --> 00:10:17.420
+<v Ira Glass>And once he's there, he starts to take a look around at the NFT world, sort of dazed. Like, OK, you just made me a millionaire. Who are you people? And he does not like what he sees. And then some other things happen after that, which you'll hear.
+
+00:10:17.420 --> 00:10:30.410
+<v Ira Glass>From WBEZ Chicago, it's This American Life. I'm Ira Glass. Seriously, stay with us.
+
+00:10:30.410 --> 00:10:42.910
+<v Ira Glass>Act One, Planet of the Apes. OK, so Ken repriced his tiles, and things went even better than Adam McBride said they might. He sold 3,000 tiles, earning him a total of $3.5 million.
+
+00:10:42.910 --> 00:11:01.510
+<v Ira Glass>And the amount of time that took from Adam's first email to $3.5 million, two days and six hours. Six days after that, basically the first Monday that rolled around after he had all that money, he did what many people dream of doing if they hit the lottery or something. He quit his job.
+
+00:11:01.510 --> 00:11:09.910
+<v Ira Glass>Not that he disliked his job. Just the opposite, he says. He really enjoyed his job. But he wanted to devote his time to developing PixelMap in various ways.
+
+00:11:09.910 --> 00:11:18.650
+<v Ira Glass>Demand had pushed the price of PixelMap so high, $15,000 to $18,000 per tile. He decided to keep 900 of them for himself.
+
+00:11:18.650 --> 00:11:21.820
+<v Ken Erwin>But that's-- I'm not at the weird part of the story yet.
+
+00:11:21.820 --> 00:11:25.330
+<v Ira Glass>OK. All right, so let's get to the weird part of the story.
+
+00:11:25.330 --> 00:11:45.340
+<v Ken Erwin>So the weird part-- I mean, it's all weird. But the part that changed that was this guy reached out to me and basically said, hey, I've seen some things concerning on the transactions of PixelMap. I wanted to reach out and see if I can talk to you about it. And he sounded like he was ticked off.
+
+00:11:45.340 --> 00:11:51.040
+<v Ken Erwin>So I was like, sure. I called him. I've been talking to him literally every day since then.
+
+00:11:51.040 --> 00:12:02.380
+<v Ira Glass>The guy was calling from Australia. He told him he'd been looking at all the PixelMap sales, which is not something that's hard to do. Because every transaction with NFTs and with crypto is all public. That's how crypto works.
+
+00:12:02.380 --> 00:12:17.440
+<v Ira Glass>And this guy was looking at the transactions, and the whole thing looked fishy to him. Why, he asked, were you lowering the price of all the tiles when demand for them was so high? He said he didn't know exactly what kind of ripoff Ken was running, but it made no sense.
+
+00:12:17.440 --> 00:12:28.090
+<v Ken Erwin>He was positive it had to be a scam, or else I was a complete moron, like that's the only two options. And I was like, I think I might be a moron then.
+
+00:12:28.090 --> 00:12:30.900
+<v Ken Erwin>And then he told me about CryptoPunks.
+
+00:12:30.900 --> 00:12:43.000
+<v Ira Glass>OK, CryptoPunks. CryptoPunks are this big iconic NFT. And they're these little cartoons. They're like punks, like '80s punks with mohawks or dyed hair, all of them slightly different.
+
+00:12:43.000 --> 00:12:57.640
+<v Ira Glass>There are 10,000 of them. Cute, easy to understand, and they caught on. Celebrities bought them, Jay-Z, Serena Williams, Heidi Klum, Snoop Dogg. And a big part of their value supposedly was that they were among the earliest NFTs anyone ever made.
+
+00:12:57.640 --> 00:13:13.180
+<v Ira Glass>And they were marketed that way, as the original NFT, the first NFT. The average price of a CryptoPunk when Ken was talking to the guy in Australia, $300,000 to $400,000 each. Each!
+
+00:13:13.180 --> 00:13:19.810
+<v Ira Glass>Guy in Australia was like, PixelMap is a year older than CryptoPunks. And so--
+
+00:13:19.810 --> 00:13:36.610
+<v Ken Erwin>There's absolutely no reason why yours wouldn't be worth even more than that. You're sitting on not a couple of million, most likely several hundred million, unless you keep screwing up, essentially. But he said that with, like, Australian words, which are less friendly.
+
+00:13:36.610 --> 00:13:39.220
+<v Ira Glass>What were the words he used?
+
+00:13:39.220 --> 00:13:43.720
+<v Ken Erwin>Like, you need to stop being a fucking idiot.
+
+00:13:43.720 --> 00:14:04.840
+<v Ira Glass>The guy from Australia said it didn't make sense to lower PixelMap's price at all. Again, CryptoPunks are selling for $400,000. And Ken was reducing PixelMap to $1,000. And the guy in Australia had a prime suspect for who might be benefiting most from this odd behavior, for who might be behind all of it.
+
+00:14:04.840 --> 00:14:21.730
+<v Ira Glass>There was a bot, a bot that purchased 1,000 PixelMap tiles at the lowest price and then watched the price double and double again and again and again. The bot, the bot was the biggest owner of PixelMap. Whoever was behind the bot had made a ton of money.
+
+00:14:21.730 --> 00:14:26.140
+<v Ken Erwin>I remember him saying, who do you think owns the bot?
+
+00:14:26.140 --> 00:14:44.200
+<v Ira Glass>Ken's first thought, Adam McBride. After all, it was Adam McBride who talked him into doing this illogical thing of lowering the price. But then he thought, did Adam McBride have that kind of money? 1,000 tiles cost more than a million dollars.
+
+00:14:44.200 --> 00:14:55.720
+<v Ira Glass>So he had another suspect, a rich guy, somebody who could be the money behind Adam McBride. And I just want to say, I know that this is a very random name to be pulling out of the air and putting into the story.
+
+00:14:55.720 --> 00:15:19.330
+<v Ira Glass>But the rich guy Ken suspected was the president of the Philadelphia 76ers, Daryl Morey. Daryl Morey who very publicly has talked about loving NFTs, and who Ken suspected because Adam showed him that Morey had bought a few tiles of PixelMap very early, even before Adam relaunched the site officially, before Adam told the world about it.
+
+00:15:19.330 --> 00:15:28.620
+<v Ira Glass>How did he know to do that? Maybe he also created the bot to quietly snag an extra 1,000 tiles.
+
+00:15:28.620 --> 00:15:46.260
+<v Ken Erwin>So I'm almost certain that it's either Adam or Daryl or a combination that got those. I am trying to prove it. But I don't know for sure. It's just literally, those are the only two that would have known that early on. Because the thousand were basically right at the very beginning.
+
+00:15:46.260 --> 00:16:02.080
+<v Ken Erwin>And they had a right to get it. But Adam told me-- he was specifically telling me the only way it would work is if I-- and I sound like a moron right now even saying this-- but to lower the price and making the mil as fast as possible.
+
+00:16:02.080 --> 00:16:10.660
+<v Ira Glass>I don't want to be rude, but it sounds like Adam probably asked you to lower the price so he could buy more of them. Because he knew the price was going to go up.
+
+00:16:10.660 --> 00:16:13.660
+<v Ken Erwin>Yes. And he got 1,000 of them.
+
+00:16:13.660 --> 00:16:16.000
+<v Ira Glass>So have you asked Adam?
+
+00:16:16.000 --> 00:16:17.710
+<v Ken Erwin>No.
+
+00:16:17.710 --> 00:16:19.650
+<v Ira Glass>Why not?
+
+00:16:19.650 --> 00:16:37.740
+<v Ken Erwin>So I'm basically still playing the stupid card because I'm trying to get proof of it. There is the 0.01% chance that he didn't do-- I don't even know how it would be possible that it's not him. But I want to know if it's him, or if it's him and Daryl, or who it is.
+
+00:16:37.740 --> 00:17:07.860
+<v Ira Glass>Ken, can I ask you, why be so mad at Adam? You didn't know what you had. He let you know. He made you a millionaire. And he's also on the internet making the market for you. He's actually finding buyers for you. He's talking it up. He's making the whole thing happen. Why shouldn't he make money? Like, who cares he owns 1,000 of them? You own 900 of them, and you'll make a lot of money.
+
+00:17:07.860 --> 00:17:31.920
+<v Ken Erwin>You sound like my wife. So [LAUGHS] no, so two reasons. And one, I gave him a half million dollars as a thank you, because I went full moron. I cannot tell you how bad that sucks that I did that. But I am just adding that to the story.
+
+00:17:31.920 --> 00:17:33.120
+<v Ira Glass>OK, OK.
+
+00:17:33.120 --> 00:17:43.670
+<v Ken Erwin>But the other part of that, though, was when he was talking to me the first day, he told me, I'm not-- because I was like, there has to be something in it for you. Why would you just do this?
+
+00:17:43.670 --> 00:17:58.290
+<v Ken Erwin>And he told me he's basically doing it because he enjoys making people happy. And if I want to reward him at the end of it, I can. If not, he just likes to do it. So part of it is him just lying outright and grabbing the thousand.
+
+00:17:58.290 --> 00:18:04.650
+<v Ken Erwin>It's more about him just lying to me. It's just not nice.
+
+00:18:04.650 --> 00:18:18.420
+<v Ira Glass>It was galling and sort of mindbending this guy who'd seemed like such a pal, so supportive, could have been playing him for a sucker all along, ripping him off at the exact moment he was making Ken richer than he'd ever imagined he'd be.
+
+00:18:18.420 --> 00:18:29.840
+<v Ira Glass>You don't have to know much about crypto to know that it is rife with scams of all kinds. Ken wanted to figure out who was behind the bot. Because he wanted to understand, what had just happened to him?
+
+00:18:29.840 --> 00:18:48.840
+<v Ira Glass>Was he like the rube who was so naive that he didn't even realize that his pocket was being picked? What was real and what was not in this new world he suddenly found himself in? We agreed to stay in touch.
+
+00:18:48.840 --> 00:18:59.730
+<v Ira Glass>Four days later, Ken texts me saying there's news. And we get on the phone. It's September 11th, his birthday. We chat a little about how it's been kind of a weird birthday to have, most of his life.
+
+00:18:59.730 --> 00:19:07.470
+<v Ira Glass>But that's not the news. He also has COVID, but it's a mild case. That's also not the news. And so what's new?
+
+00:19:07.470 --> 00:19:19.710
+<v Ira Glass>Well, he's been spending a lot of time trying to understand what's really happening with NFTs, especially with Adam McBride and the guys who buy these historic NFTs. And he's convinced it's pretty ugly.
+
+00:19:19.710 --> 00:19:34.240
+<v Ken Erwin>Yeah, it's not like a maybe. I have proof out the ass-- sorry for language. I have a lot of fucking proof. They are doing this actively, project after project. It's really fucking horrible what they're doing.
+
+00:19:34.240 --> 00:19:50.820
+<v Ken Erwin>I don't think it's illegal. I'm not saying any of it's illegal. I think it's hugely wrong and unethical, but there's no laws about it. But honestly, this is coming from the person that made the second NFT, if I have it right. I don't think they should fucking exist.
+
+00:19:50.820 --> 00:19:52.320
+<v Ira Glass>He means NFTs.
+
+00:19:52.320 --> 00:19:57.240
+<v Ken Erwin>I think it's a horrible scam that's screwing over people, the whole thing.
+
+00:19:57.240 --> 00:20:12.720
+<v Ira Glass>Ken said that he sees everything that Adam McBride and his guys are doing because they've kind of adopted him and included him in their chat groups on Discord. Discord, if you don't know, is a chat site. Adam refers to the guys in his discord group as the apes.
+
+00:20:12.720 --> 00:20:26.940
+<v Ken Erwin>And I had no idea what an ape was, other than a monkey. It's just people that are ridiculously enthusiastic about NFTs. And when they find out about one, they just go in and grab them like crazy.
+
+00:20:26.940 --> 00:20:42.550
+<v Ira Glass>That's called aping in. Ape is a word that you actually hear a lot in the NFT world. One big NFT is the Bored Apes Yacht Club. To show me what is so horrible about what Adam's doing, Ken calls me back from his computer so he can share his screen.
+
+00:20:42.550 --> 00:20:43.480
+<v Ken Erwin>Testing.
+
+00:20:43.480 --> 00:20:45.550
+<v Ira Glass>There we go.
+
+00:20:45.550 --> 00:20:48.850
+<v Ken Erwin>Sorry it took me a while. My microphone wasn't plugged in.
+
+00:20:48.850 --> 00:21:06.040
+<v Ira Glass>This is the moment I see him for the first time. He's clean-cut with short hair, neatly trimmed beard, and the general vibe of the friendliest, most sincere tech support guy in the world. For his job, he did his video calls in front of a green screen with a really nice microphone. And that's what he has in this call.
+
+00:21:06.040 --> 00:21:13.390
+<v Ira Glass>He goes to open up Adam's discord group, NFT Archaeologist.
+
+00:21:13.390 --> 00:21:28.900
+<v Ken Erwin>Here it is. So this just happened. So at 2:44 PM, just a few minutes ago, Adam said, "all right, everyone. Please do not tweet or send this out to anyone. I want to keep this opportunity to this community only."
+
+00:21:28.900 --> 00:21:33.080
+<v Ken Erwin>And this is how he always does it. This is what he did with PixelMap. I just didn't know the group yet.
+
+00:21:33.080 --> 00:21:50.080
+<v Ira Glass>What Adam McBride is doing right here is he is rolling out another one of these historic NFTs. This particular one is called Aether, A-E-T-H-E-R. It was created in 2018, two years after PixelMap. Like PixelMap, most people never noticed it back when it was created.
+
+00:21:50.080 --> 00:22:02.770
+<v Ira Glass>But now Adam's going to help relaunch it the way that Adam relaunched PixelMap. He'll get people to finally pay money for what are basically in this case virtual imaginary buildings in a virtual digital city.
+
+00:22:02.770 --> 00:22:12.670
+<v Ira Glass>Ken and I read the conversation that's happening in the chat. McBride is telling the apes, let's all buy into this and get out there on Twitter and tell everybody we know to buy it as well.
+
+00:22:12.670 --> 00:22:18.340
+<v Ken Erwin>So he's basically saying, go crazy on Aether, Ether. I don't know how to say it.
+
+00:22:18.340 --> 00:22:31.360
+<v Ira Glass>And to make this especially appealing to the apes, McBride says that he has negotiated with the guy who created Aether to offer Aether to his apes at a special low price, quote, "well below what I think they're going to sell for."
+
+00:22:31.360 --> 00:22:50.830
+<v Ira Glass>And to get the special low price, he tells them he's going to hold a live event on Discord at 9:00 AM Eastern time on Sunday. The apes respond, Adam, that's a fantastic opportunity for us all. Thanks for this, much appreciated. You're the GOAT, Adam.
+
+00:22:50.830 --> 00:22:54.580
+<v Ira Glass>Sunday's the next day. At 9:00 AM, the apes gather.
+
+00:22:54.580 --> 00:22:58.130
+<v Adam McBride>So get ready. It's coming up at any second here, OK?
+
+00:22:58.130 --> 00:23:05.350
+<v Ira Glass>That right there is the voice of Adam McBride in the Discord. You hear him, but you do not see him. You see his screenshare as he clicks on various stuff.
+
+00:23:05.350 --> 00:23:22.720
+<v Ira Glass>And to give you a sense of the very happy Let's Make a Deal, take a look at what's behind the curtain vibe of the whole thing, here is the moment when he gave 50 of his apes the chance to sign up to buy Aether on the cheap for around $340. He told the apes a sign-up sheet was about to go live.
+
+00:23:22.720 --> 00:23:38.080
+<v Adam McBride>I am going to, in the next minute or so, make that public. And the first 50 of you guys who paste your name in there, we're going to give you a private sale link. So get ready. Get your stuff ready. I hope you're all ready right now. Be ready.
+
+00:23:38.080 --> 00:23:48.850
+<v Adam McBride>So at some point in the next seconds, you guys tell me if you see the-- oh my god. Boom, ape-age.
+
+00:23:48.850 --> 00:23:52.270
+<v Ira Glass>The sign-up has appeared, names start filling in.
+
+00:23:52.270 --> 00:24:09.190
+<v Adam McBride>You guys are fast. I see my man Curio Collector got in there. Let's see who else got in the top for sure. Chibbers got in there. Ugly Punky got in there for sure. Bottom Bally, nice. Space Llama, good to see you, brother. He got in there for sure.
+
+00:24:09.190 --> 00:24:28.700
+<v Adam McBride>I wanted to have some sort of ape-age possible. I think ape-age is always appreciated and fun. Man, I hope you guys enjoyed this. I definitely, I always enjoy this stuff. And of course, I'm always available--
+
+00:24:28.700 --> 00:24:45.680
+<v Ira Glass>All this stuff that Adam McBride did, it was effective. It pushed up the price of Aether. At some point in this, Ken took me to a site called Opensea, which is the big trading platform where people buy and sell NFTs. And we watch as the apes descend from the trees and grab Aether.
+
+00:24:45.680 --> 00:25:01.790
+<v Ken Erwin>Yeah. So see where it says-- see, two minutes, three minutes, four minutes, and see the price is going up. It was 0.14 or whatever. There's one that just went for 3.9. I guarantee it's going to be going crazy. By this evening, it's going to be crazy.
+
+00:25:01.790 --> 00:25:11.150
+<v Ken Erwin>Actually, right now you should go buy Aether. Because it's about to go up. [LAUGHS] Yeah. I'm not saying to do that, but yeah, that's what's going to happen shortly.
+
+00:25:11.150 --> 00:25:29.020
+<v Ira Glass>I have to say, it is kind of amazing sitting there watching the numbers go up, knowing that this was as close to a sure thing as I would ever get. It was like free money, right there. But I didn't buy anything.
+
+00:25:29.020 --> 00:25:46.870
+<v Ira Glass>By Monday, the average price of Aether had risen from $2,000 to $5,000. That's in one day, it more than doubled. And it also meant that the 50 apes who signed up on Adam's list for the special low price of $340, each of them now owned something worth $5,000.
+
+00:25:46.870 --> 00:25:49.670
+<v Ken Erwin>A little higher, yeah, a little bit better.
+
+00:25:49.670 --> 00:25:54.010
+<v Ira Glass>So those guys could just get out and they'll have just made out like bandits already.
+
+00:25:54.010 --> 00:25:55.540
+<v Ken Erwin>Yes, yeah.
+
+00:25:55.540 --> 00:26:00.490
+<v Ira Glass>So what Adam's doing is working.
+
+00:26:00.490 --> 00:26:02.420
+<v Ken Erwin>Yes.
+
+00:26:02.420 --> 00:26:07.850
+<v Ira Glass>You just literally kind of rolled your eyes.
+
+00:26:07.850 --> 00:26:21.620
+<v Ken Erwin>No matter-- so the reason that I rolled my eyes is because it's a zero-sum thing. So someone's making money, no matter what. And when they do, that means someone's losing money.
+
+00:26:21.620 --> 00:26:33.410
+<v Ken Erwin>And basically, the earlier you are, the better it is. If you know news before other people, basically, if you're one of these people, you're going to make out really well.
+
+00:26:33.410 --> 00:26:56.570
+<v Ira Glass>And lots of other people, Ken believes, will lose money. What we're seeing in his view is a classic pump and dump, something that if you did it in the stock market would be totally illegal. The apes get in early, talk up Aether on Twitter, encourage other people to buy, which pushes up the price. And in a couple of days when the price is at the highest, they sell, taking a quick and sizeable profit.
+
+00:26:56.570 --> 00:27:15.770
+<v Ira Glass>Without the hype, the NFTs price falls. And anybody left holding it takes a beating, loses money. In fact today, in the months since that day when Adam relaunched Aether, the price has plummeted. It's now down as low as $900 some days, very different from those early, booming days when it was $5,000.
+
+00:27:15.770 --> 00:27:26.840
+<v Ken Erwin>And I don't think as many people as you think are going to make the money. Like, every ape in here is probably going to do OK. But it's not going to be good for the people outside of it that hop on the train last.
+
+00:27:26.840 --> 00:27:45.560
+<v Ira Glass>And that's what Ken thinks is kind of evil about the world of NFTs, why he thinks they're a scam and shouldn't exist. Seeing all this made me wonder if any of this is actually illegal. And I've now talked to a bunch of lawyers about it, lawyers who deal with NFTs and crypto and security fraud, including two who advise companies that release NFTs.
+
+00:27:45.560 --> 00:28:03.560
+<v Ira Glass>And I described what I saw Adam McBride do in relaunching Aether. And all of them told me that NFTs are so new, the law is still pretty vague. There haven't been many lawsuits or much government enforcement in NFTs. But they pointed to two things that could be problematic.
+
+00:28:03.560 --> 00:28:29.370
+<v Ira Glass>OK, first, if Adam and the apes were pumping and dumping-- specifically, if they were lying about Aether or about their own trading, that would be an issue. Like if they were going onto Twitter and telling people that Aether is a great investment, worth seeking money into for the long run, but then if they themselves only held onto it for a few days until the price rose and then they sold it, that would be illegal. That would be market manipulation.
+
+00:28:29.370 --> 00:28:44.000
+<v Ira Glass>The second thing the lawyers pointed to, transparency is key. If Adam was going out giving a special price to 50 people to generate buzz and excitement, that is a normal kind of promotion in lots of industries, one of the lawyers says. He said that could be fine.
+
+00:28:44.000 --> 00:29:04.160
+<v Ira Glass>But the key to that being OK is that Adam would need to disclose it all publicly so that any possible investor can find out that some people got a special cheaper price. If Adam didn't do that, he would be in danger of some investor, maybe somebody who lost money, later suing him over holding back that information.
+
+00:29:04.160 --> 00:29:18.900
+<v Ira Glass>OK, so was Adam crossing the line into illegality with either of those things? Ken still didn't have proof of that, either way.
+
+00:29:18.900 --> 00:29:38.690
+<v Ira Glass>As for the bot, that mysterious bot that purchased 1,000 PixelMap tiles, a fourth of all the tiles, Ken started to worry that it was someone much more sinister than Adam behind the bot. One day he texts me panicked about what he's learning about the bot, so scared about it that he doesn't know if he wants to go on the radio anymore.
+
+00:29:38.690 --> 00:29:53.220
+<v Ken Erwin>I guess the short part is just I'm kind of freaked out. It's just it's so much bigger than what I-- the bot account that I was telling you about is just much, much bigger.
+
+00:29:53.220 --> 00:30:02.790
+<v Ira Glass>He sent me a screenshot that showed that the account had done nearly $2 billion in trades-- specifically, it's 1.84 billion-- since it was created 14 months before.
+
+00:30:02.790 --> 00:30:15.870
+<v Ken Erwin>This is not some normal person. This is a legitimately smart probably group of bad people. It's a very well-organized thing.
+
+00:30:15.870 --> 00:30:18.050
+<v Ira Glass>You don't think it's possible that it's just a bunch of investors--
+
+00:30:18.050 --> 00:30:18.450
+<v Ken Erwin>No.
+
+00:30:18.450 --> 00:30:19.590
+<v Ira Glass>--like the group that--
+
+00:30:19.590 --> 00:30:19.890
+<v Ken Erwin>No.
+
+00:30:19.890 --> 00:30:22.030
+<v Ira Glass>--Adam has assembled around him where it's like--
+
+00:30:22.030 --> 00:30:22.360
+<v Ken Erwin>No.
+
+00:30:22.360 --> 00:30:24.870
+<v Ira Glass>--100 people and together, they have a lot of money?
+
+00:30:24.870 --> 00:30:38.850
+<v Ken Erwin>I don't think he's sophisticated-- or, yes, he might be working for this group or something. But I don't think he's smart enough to be like this. He wouldn't be doing what he was doing if he had this much money.
+
+00:30:38.850 --> 00:30:57.290
+<v Ken Erwin>This is a totally different league of someone. It could be like, the Russian mafia or something. I know that sounds ridiculous. But this is only one account. People that have that much money and are doing that type of behavior are not into people blowing the whistle on them.
+
+00:30:57.290 --> 00:31:00.740
+<v Ira Glass>Blowing the whistle, he means talking about them publicly on the radio.
+
+00:31:00.740 --> 00:31:13.030
+<v Ken Erwin>I don't know. There are no good movies where the person that plays me makes it to the end and has like a happy life. It's usually like, the person that's like me gets killed.
+
+00:31:13.030 --> 00:31:18.060
+<v Ira Glass>Wait, there are whistleblower movies where the whistleblower makes it to the end and lives.
+
+00:31:18.060 --> 00:31:40.990
+<v Ken Erwin>I don't know. I literally don't have-- I don't have a fence-- not that a fence would stop anything. I have like, no-- I live in Indiana. I'm probably the only person that doesn't have a gun in the state. I seriously legitimately feel like my name being on a story could result in me not existing, or my family. I legitimately feel that way.
+
+00:31:40.990 --> 00:31:42.130
+<v Ira Glass>Wow.
+
+00:31:42.130 --> 00:31:49.230
+<v Ken Erwin>I'm not exaggerating. That's how I feel.
+
+00:31:49.230 --> 00:32:00.120
+<v Ira Glass>I tell him on the call, and later in email, that I respect any choice he makes. And of course, it's fine if he drops out of the story. But is he right about that 1.8 billion in trades?
+
+00:32:00.120 --> 00:32:10.530
+<v Ira Glass>Couldn't the bot just be making a ton of trades with a much smaller amount of money? Maybe the bot's even buying from itself to drive up the price of NFTs. That's something that happens in the NFT world.
+
+00:32:10.530 --> 00:32:26.400
+<v Ira Glass>Ken emails back, says maybe I'm right but maybe not. Though, he's getting a new tool that could tell us how much money is really behind all those trades so he could decide if he really thinks it's a criminal syndicate behind all this and get a better sense of how much risk there is for him.
+
+00:32:26.400 --> 00:32:45.410
+<v Ira Glass>What he's getting is software developed by a company called Chainalysis. And it's usually used by governments and law enforcement and financial institutions to track who's doing what in NFTs and crypto. It could tell Ken what the bot was buying and selling and to who, what other accounts it interacted with.
+
+00:32:45.410 --> 00:32:56.750
+<v Ira Glass>"I'm talking to the Chainalysis people today," Ken wrote me. A few days pass while Ken uses the Chainalysis tool to look at who bought and sold PixelMap tiles, look at what the bot was doing.
+
+00:32:56.750 --> 00:33:05.390
+<v Ira Glass>And then he texts me, "I have lots of updates. I was wrong about pretty much everything."
+
+00:33:05.390 --> 00:33:18.250
+<v Ira Glass>What he found, and my conversation with the bot-- or anyway, the guys behind the bot-- that's in a minute from Chicago Public Radio when our program continues.
+
+00:33:18.250 --> 00:33:32.990
+<v Ira Glass>It's This American Life. I'm Ira Glass. Today's program, The Reluctant Explorer. We have the story of somebody who finds himself in this new world that he never asked to be part of. And he decides to take a look around to figure out the truth of what is going on. I came along for the ride.
+
+00:33:32.990 --> 00:33:47.300
+<v Ira Glass>We're right now in the middle of our story about Ken Erwin and PixelMap. And before we go further in that story, I'm thinking that this might be a good moment to explain what NFTs are in a little more detail for everyone who's gotten this far in our story and still actually does not know what they are.
+
+00:33:47.300 --> 00:34:06.790
+<v Ira Glass>So OK, NFTs, they're images or artwork or video clips, so basically that you can post online. The key thing that makes them an NFT is that someone can say they own it. And ownership is possible because a record of who owns the NFT gets stored on something called a blockchain.
+
+00:34:06.790 --> 00:34:29.080
+<v Ira Glass>And lots of people know what a blockchain is, but lots of people do not. So I'm just going to say the blockchain is a set of computers that are all over the world, and they all store exactly the same data. And anybody can look at that data. They're like a public ledger that anybody can read. So blockchains store the records of who owns which NFTs, who owns cryptocurrencies.
+
+00:34:29.080 --> 00:34:51.370
+<v Ira Glass>And right now, all kinds of people are inventing all kinds of things to throw up on the blockchain. It's a messy, anarchic chaos, really. One end of things, you have the NBA selling videos of great dunks as NFTs, basically reinventing sports trading cards for the crypto world, very old school, very commercial.
+
+00:34:51.370 --> 00:35:13.570
+<v Ira Glass>At the other end, you have stuff like some people who burned a Banksy print and then sold a digital copy of the print, like a picture of the print, for way more than the original ever cost. That one was like a lot of crypto stuff in that it was kind of making fun of the whole idea that anybody would think that the NFT was worth anything.
+
+00:35:13.570 --> 00:35:27.160
+<v Ira Glass>The original Banksy print actually had this sentence as part of the image. Quote, "I can't believe you morons actually buy this shit." So let's pick up our story where we left off.
+
+00:35:27.160 --> 00:35:31.690
+<v Ira Glass>Act Two, In the Time of Chimpanzees, I was a Monkey.
+
+00:35:31.690 --> 00:35:34.630
+<v Ira Glass>So what have you figured out since we last spoke?
+
+00:35:34.630 --> 00:35:41.080
+<v Ken Erwin>Everything, literally everything. Yeah. Do you want me to show you how I found out?
+
+00:35:41.080 --> 00:35:56.980
+<v Ira Glass>Ken screenshares me so I can see how the Chainalysis software maps somebody's crypto transactions. And I have to say, it is a very satisfying chart to look at, with dots of different colors and lines and arrows connecting them. It took him days to look into all these transactions.
+
+00:35:56.980 --> 00:36:11.940
+<v Ira Glass>But when he did, he learned for once and for all, Adam was not the bot. The rich guy he suspected, Daryl Morey, president of the 76ers, also not the bot. So who was the bot?
+
+00:36:11.940 --> 00:36:24.200
+<v Ira Glass>Ken started to look at everything the bot was doing. And he found that whoever made the bot had not covered their tracks completely. Ken spotted this one address that the bot sent money to that was different from all the others.
+
+00:36:24.200 --> 00:36:26.380
+<v Ken Erwin>So I got really lucky on this one.
+
+00:36:26.380 --> 00:36:36.430
+<v Ira Glass>Lucky because he also found the same address on a message board asking for fake Ether. Yes, fake Ether. Programmers use fake Ether to test new pieces of code they're writing.
+
+00:36:36.430 --> 00:36:42.040
+<v Ken Erwin>You never do this with someone else's address. You always do it with your own. I actually did this with my own.
+
+00:36:42.040 --> 00:36:44.830
+<v Ira Glass>This address led Ken to an account on GitHub.
+
+00:36:44.830 --> 00:36:55.420
+<v Ken Erwin>GitHub is where pretty much everyone on the planet stores their source code. There's other competitors. But Microsoft owns it now. It's wonderful.
+
+00:36:55.420 --> 00:37:06.220
+<v Ira Glass>The GitHub account name was a pretty unusual name. And then Ken found a Twitter account with the same name. That Twitter user had to be the bot.
+
+00:37:06.220 --> 00:37:15.310
+<v Ken Erwin>And he has an awesome little avatar. It's a Pikachu with a little headband belt thing. And he looks a little angry.
+
+00:37:15.310 --> 00:37:18.310
+<v Ira Glass>Ken reaches out, DMs him on Twitter.
+
+00:37:18.310 --> 00:37:27.550
+<v Ken Erwin>So I said, I'm the creator of PixelMap. I would love to talk to you if you have any time. And when I typed this, I was freaking out. I was so excited.
+
+00:37:27.550 --> 00:37:38.410
+<v Ken Erwin>Then I said, I'm relatively certain that you bought over 1,000 and just wanted to talk with you if you'd be open to that. And then a smiley, because I was like-- my smiley was just like to not freak him out.
+
+00:37:38.410 --> 00:37:41.260
+<v Ira Glass>Then the guy writes back.
+
+00:37:41.260 --> 00:38:00.730
+<v Ken Erwin>So he said, hmm, interesting. I'm curious, how did you come to this conclusion? Which is a really good freaking question. So I said, ah, I found your address connected to the bot account on both receiving and sending funds. And then I added another smiley to keep it-- I didn't want him to think that I'm trying to threaten him or-- you know what I mean?
+
+00:38:00.730 --> 00:38:01.810
+<v Ira Glass>Yeah.
+
+00:38:01.810 --> 00:38:16.480
+<v Ira Glass>Ken asked the guy how he found PixelMap and started buying so quickly. The guy says he saw Adam's tweet. And he asks again, how'd you find me on Twitter? With a little puzzle smiley. Ken explains how he found him.
+
+00:38:16.480 --> 00:38:31.270
+<v Ken Erwin>So then I wanted confirmation, I wanted him to validate that I was right. I said, ah, is it you? Did you get over 1,000? No connection to Daryl or Adam other than his tweet? And at this point I'm thinking that there is no connection, but I'm just double checking.
+
+00:38:31.270 --> 00:38:38.380
+<v Ken Erwin>So he goes, yes, I own a lot of tiles but don't know who Daryl is. I saw this as a historical project and aped in.
+
+00:38:38.380 --> 00:38:53.620
+<v Ira Glass>After that, it's very amicable. They chat about collaborating maybe someday. The guy tells Ken he as a partner that he does all this with, tells him how to get in touch with the partner. He and the partner also agreed to talk to me on the condition that I wouldn't give their real names or record their voices.
+
+00:38:53.620 --> 00:39:11.570
+<v Ira Glass>We did a session over Zoom. The two guys behind the bot are living in the mideast, both in their 20s. Though when they turned on the camera, one of them said, I know I don't look like I'm in my 20s. Crypto makes you age faster. A week in crypto is like a year. It's 24/7. A lot of things happen.
+
+00:39:11.570 --> 00:39:24.350
+<v Ira Glass>They both got into crypto in 2016, 2017. One of them was making money selling digital weapons to gamers for games like Counter Strike Global Offensive, started doing a lot of those transactions in Bitcoin. And then Bitcoin blew up.
+
+00:39:24.350 --> 00:39:48.770
+<v Ira Glass>They got into NFTs, were liquidators for decentralized finance sites, which is like being a crypto repo man. They just launched an NFT trading site of their own to compete with Opensea that they're calling Golom. They're big Lord of the Rings fans. I asked them about the $1.84 billion in transactions. And they said they have about $100 million that they invest with, and they just spend that over and over.
+
+00:39:48.770 --> 00:40:04.700
+<v Ira Glass>They totally nerded out when we talked about PixelMap. They've decorated a bunch of their tiles. If you go to the PixelMap.io website, you can see where they combined a bunch of their tiles to write Golom and some others to write Donda. They're big Kanye fans.
+
+00:40:04.700 --> 00:40:16.460
+<v Ira Glass>This is all, can I say, very different from Ken imagined, that the bot was controlled by a murderous criminal syndicate or by somebody in league with Adam McBride, trying to swindle him.
+
+00:40:16.460 --> 00:40:20.870
+<v Ken Erwin>It was definitely shocking. But probably impressed was the biggest thing.
+
+00:40:20.870 --> 00:40:26.570
+<v Ira Glass>Impressed because when Ken found the first guy's GitHub account, he looked at the code he'd written.
+
+00:40:26.570 --> 00:40:38.830
+<v Ken Erwin>And looking through his stuff, I was like, this guy's got some good code. Like, just as a developer, he's a good dev, just super impressed. So for me, I don't know. He's like one of my people.
+
+00:40:38.830 --> 00:40:45.870
+<v Ira Glass>Which, of course, was kind of reassuring in a small world, the monsters we imagine are not real sort of way. But at the same time--
+
+00:40:45.870 --> 00:41:05.260
+<v Ken Erwin>I would honestly say there was some disappointment, which sounds weird-- I definitely did not want to get attacked by the Russian mafia. But I really thought that I was going to blow the cover on this huge thing. And I thought that was going to be super cool.
+
+00:41:05.260 --> 00:41:11.290
+<v Ira Glass>Yeah. There's something exciting about the thought of like, I'm going to uncover a massive criminal syndicate.
+
+00:41:11.290 --> 00:41:25.040
+<v Ken Erwin>Or at least like, the president of the 76ers. Yeah, that's a cooler story.
+
+00:41:25.040 --> 00:41:43.560
+<v Ira Glass>OK, so if the bot's not Adam and doesn't have anything to do with Adam, what was Adam's angle? Why did he insist on lowering the price of PixelMap so much? Was he pumping and dumping PixelMap and other NFTs? And did he know that Ken suspected him of being this two-faced mastermind, up to no good?
+
+00:41:43.560 --> 00:41:48.480
+<v Adam McBride>Never. I had no idea, literally no idea that he was suspecting me.
+
+00:41:48.480 --> 00:42:03.930
+<v Ira Glass>This, of course, is Adam McBride. When we talked, I went into detail about all of the things that Ken had suspected him of. I read him quotes where Ken said that there was 0.01% chance that Adam wasn't deliberately ripping him off. Adam seemed truly amused by this.
+
+00:42:03.930 --> 00:42:18.840
+<v Adam McBride>It's just crazy, man. [LAUGHS] It's crazy. But I get it. I understand his thought process. It makes sense. But when I hear it, it's shocking. I wouldn't have even thought about doing that.
+
+00:42:18.840 --> 00:42:33.360
+<v Ira Glass>I was surprised to learn when I talk to Adam that Adam got hooked on NFTs only six months before he pulled Ken into that world. Basically what happened is March of last year, a bunch of these, quote unquote, "historic, old NFTs were rediscovered and started making tons of money."
+
+00:42:33.360 --> 00:42:46.230
+<v Adam McBride>I mean, it just flipped the switch in my brain, like, holy cow. It was literally like, oh my god, there's gold. Get your shovel. Go dig. Because there's gold there. All you got to do is go find it.
+
+00:42:46.230 --> 00:43:05.970
+<v Ira Glass>The next four months, he says he spent 10 hours a day searching for other early NFTs by googling phrases like digital collectibles, blockchain art, blockchain collectibles. He found 15 or 20 old NFTs that seemed like they might work. But most of them, he says there was some problem in the original programming or whatever they made them unsuitable to sell today.
+
+00:43:05.970 --> 00:43:22.320
+<v Ira Glass>He did find a few that were suitable. And then he and a friend found PixelMap. And from the beginning, they thought it would be a big hit if they could just convince its creator to lower the price. And the reason that they lowered it so much? Well, by that point, Adam had a little experience.
+
+00:43:22.320 --> 00:43:28.410
+<v Adam McBride>And the one NFT relaunch I failed at, we set that price too high, and it failed.
+
+00:43:28.410 --> 00:43:29.470
+<v Ira Glass>Which one was this?
+
+00:43:29.470 --> 00:43:31.170
+<v Adam McBride>It's called Etherization.
+
+00:43:31.170 --> 00:43:32.430
+<v Ira Glass>People didn't buy enough of them.
+
+00:43:32.430 --> 00:43:34.110
+<v Adam McBride>They didn't buy enough of it.
+
+00:43:34.110 --> 00:43:40.840
+<v Ira Glass>So he made his best guess for PixelMap's price. And it worked out better than any NFT he's done before or since. People just went nuts.
+
+00:43:40.840 --> 00:43:43.920
+<v Adam McBride>Yeah, it was a rocket ship, a complete rocket ship.
+
+00:43:43.920 --> 00:43:45.780
+<v Ira Glass>How many tiles did you buy?
+
+00:43:45.780 --> 00:44:09.120
+<v Adam McBride>Three. [LAUGHS] I'm an idiot. I'm an idiot. It's funny because I was more looking for the fame and recognition than the money. I don't even know what to say. Yeah. It was more about like, look at McBride. He rediscovered this. This is awesome.
+
+00:44:09.120 --> 00:44:22.370
+<v Ira Glass>OK, to be clear, he did make a half million dollars off this, the money that Ken handed him as a thank you. But he didn't know that was going to happen. Usually, he says, the NFT creators give him nothing. And nobody's given him close to this much.
+
+00:44:22.370 --> 00:44:39.080
+<v Ira Glass>He does want to make money in NFTs. But what Adam McBride also wants, just as much, it seems, is that he wants to make historic NFTs a thing, get them respect, create a much larger community that's into them. That's his angle.
+
+00:44:39.080 --> 00:44:50.150
+<v Ira Glass>If he succeeds, yeah, he'll make money on all the historical NFTs that he owns personally. But it's also now become kind of a personal mission for him. He wants historic NFTs to be remembered and valued.
+
+00:44:50.150 --> 00:45:15.480
+<v Ira Glass>And for that reason, he's not pumping and dumping with his own NFTs. There's no dumping. He's still holding on to his tiles of PixelMap and the other historic NFTs he's launched. Ken actually looked at Adams transactions with the Chainalysis tool and confirmed that in all the transactions that he could find, Adam buys a few NFTs of each of his projects and then basically just holds onto them.
+
+00:45:15.480 --> 00:45:48.320
+<v Ira Glass>As for the other big feature of a pump and dump scheme, deception, I couldn't find any examples of Adam lying about the NFTs he promotes or making false promises about how much money people would make. When it comes to the other concerns of the lawyers that I talked to about Adam and the way that he released that NFT Aether to 50 of his apes at a special low price-- just to remind you, they said, basically, if people were getting a lower price, Adam needed to disclose that to the world, to anybody who might be considering buying Aether.
+
+00:45:48.320 --> 00:46:02.480
+<v Adam McBride>Well, I actually do do that. Like with Aether, it was on Twitter before we did any sort of giveaway or opportunity. Anybody could have joined that Discord. Anybody could have gotten in. We wanted more people in.
+
+00:46:02.480 --> 00:46:16.910
+<v Ira Glass>That's not true at all. After we talked, I went back and looked at Adam's tweets from back then. And he never tweeted about the fact that you could get a really low price on Aether by coming to this event, or that he had held the event at all.
+
+00:46:16.910 --> 00:46:34.690
+<v Ira Glass>In fact, on Discord, he is saying to his followers things like, "Do not tweet or send this out, I want to keep this opportunity to this community only. Keep it on the down low." He did mention the giveaway in a post that he did on Medium after it happened. So we got back on the line.
+
+00:46:34.690 --> 00:46:36.340
+<v Adam McBride>Hey, Ira, how you doing?
+
+00:46:36.340 --> 00:46:38.530
+<v Ira Glass>I'm doing good. How are you doing?
+
+00:46:38.530 --> 00:46:43.520
+<v Adam McBride>Pretty good. Memory is a funny thing, isn't it? [LAUGHS]
+
+00:46:43.520 --> 00:46:44.490
+<v Ira Glass>Indeed it is.
+
+00:46:44.490 --> 00:46:48.490
+<v Adam McBride>Oh, the webs we weave with our brain, man, it is funny.
+
+00:46:48.490 --> 00:47:00.040
+<v Ira Glass>He told me that when he went back and looked at what happened with Aether, he realized back then, he saw a chance to use the discounted NFTs to reward the people in his Discord, which he calls the Alpha Discord.
+
+00:47:00.040 --> 00:47:08.950
+<v Adam McBride>Even though it's a public community, anybody can join it. At that point in time, people were like, why are we in the Alpha Discord if we're not getting any alpha?
+
+00:47:08.950 --> 00:47:14.380
+<v Ira Glass>Alpha in the NFT world means special information, intel, stuff everybody else doesn't have yet.
+
+00:47:14.380 --> 00:47:23.710
+<v Adam McBride>Right? Why are we here if you're not going to give us some awesome info? And so I was trying to reward people who were in there for a while.
+
+00:47:23.710 --> 00:47:44.320
+<v Ira Glass>He told me that this was all in the spirit of creating a larger community of people who value these historic NFTs. In general, I have to say, the fact that Adam did not think to disclose this special giveaway that he did for the apes just shows how much he and so much of the NFT world is just making it up as they go along. Everyone is still figuring out what laws are going to apply to them.
+
+00:47:44.320 --> 00:47:55.220
+<v Ira Glass>Like, there was this moment when I was talking to Adam where I told him exactly how much disclosure the lawyers thought would be smart for him to do to avoid lawsuits. And it was news to Adam.
+
+00:47:55.220 --> 00:48:08.950
+<v Adam McBride>No, it's good advice. And I hear it. I think I've acted appropriately. I think intention matters. So I feel pretty good about what I've done.
+
+00:48:08.950 --> 00:48:10.780
+<v Ira Glass>Well, that's what all the criminals say.
+
+00:48:10.780 --> 00:48:27.160
+<v Adam McBride>[LAUGHS] Well, we'll see. Come visit me in jail, Ira. Will you please come visit me in jail?
+
+00:48:27.160 --> 00:48:42.010
+<v Ira Glass>It's now been a half year since my initial phone calls with Ken, half a year where he's been traipsing around the NFT world that he found himself transported to. And he's acting more and more like a local, not exactly an ape yet, but definitely more ape-tolerant.
+
+00:48:42.010 --> 00:49:01.330
+<v Ira Glass>NFTs don't seem so evil to him anymore. In fact, the exact thing that he thought was so terrible-- NFTs that get hyped, everybody piles on as the price rises, and then people sell and take a quick profit, leaving lots of losers in their wake-- he's now speculated like that himself, made money on a few things, lost money on others.
+
+00:49:01.330 --> 00:49:09.070
+<v Ira Glass>He says with those NFTs, with most NFTs, he thinks, actually, everybody knows the price is going to go up for a little while and then crash.
+
+00:49:09.070 --> 00:49:12.220
+<v Ken Erwin>And everyone knows that, and everyone's just trying to time it.
+
+00:49:12.220 --> 00:49:13.540
+<v Ira Glass>Time when they'll sell.
+
+00:49:13.540 --> 00:49:37.950
+<v Ken Erwin>And if you time it right, then you do pretty well. And it definitely feels like a game, sort of. The more I am in the space, the more it feels like we're all kind of at a casino. And because there aren't any rules, it's fair. Everyone is doing this type of thing. And I don't think there's anything morally wrong with it.
+
+00:49:37.950 --> 00:49:38.770
+<v Ira Glass>Oh my god, listen to you.
+
+00:49:38.770 --> 00:49:39.130
+<v Ken Erwin>I don't think--
+
+00:49:39.130 --> 00:49:41.100
+<v Ira Glass>You are so different than you were.
+
+00:49:41.100 --> 00:49:44.280
+<v Ken Erwin>[LAUGHS] Maybe I've been corrupted.
+
+00:49:44.280 --> 00:49:56.130
+<v Ira Glass>What changed him, exactly? The whole NFT world started to look different to him the moment he realized he wasn't being scammed. Suddenly it didn't seem like he'd landed in a dark woods full of thieves trying to take advantage of him.
+
+00:49:56.130 --> 00:50:13.470
+<v Ken Erwin>Yeah, the reason why I was so angry until that point was I thought that it was an in-house, that I'd been lied to by Adam this entire time. And then to find out that he actually did a really good job of relaunching it and he actually was helping me--
+
+00:50:13.470 --> 00:50:18.720
+<v Ira Glass>Right. So you realized, oh, wait a second. Oh no, this stranger actually did something good for me.
+
+00:50:18.720 --> 00:50:41.930
+<v Ken Erwin>Yes, and he literally didn't charge me. Like, yes, I tipped him. But I know if he never existed and I somehow knew that I should relaunch PixelMap and list it, I would not have done as good of a job. I had no idea-- anything like that is not my skill set. Yeah, no, he was legit.
+
+00:50:41.930 --> 00:50:52.580
+<v Ira Glass>Ken also met a bunch of developers like him, who weren't scammers. They were just buying NFTs for fun. It was like he found his people, and the whole NFT world seemed less ominous.
+
+00:50:52.580 --> 00:51:14.630
+<v Ira Glass>Not that he thinks very much of most NFTs, 99% of them, he thinks, are pretty much junk, either intended as junk to make a quick buck or just misconceived ideas in the first place. Actually, this is not an unusual opinion. It was interesting to me that the biggest NFT enthusiasts that I talked to for this story, people who really love NFTs, they pretty much agreed with that.
+
+00:51:14.630 --> 00:51:40.910
+<v Ira Glass>Adam McBride says 99% of all NFTs released today will probably end up being worth nothing. He says that most people probably should not get into NFTs right now. The Bot Guys put the number at 90% worthless. I read that one of the big NFT moguls, Gary Vaynerchuk, predicted that 98% of NFTs would lose money.
+
+00:51:40.910 --> 00:52:00.020
+<v Ira Glass>Ken's life these days, he's still in the same house he was before all this, a Victorian with turquoise shutters and gnomes and trinkets and dachshunds everywhere. He's paid off the mortgage with his PixelMap money, bought himself a nicer computer and a fancy sports car that now he thinks he's going to get rid of, paid over a million dollars in taxes.
+
+00:52:00.020 --> 00:52:19.750
+<v Ira Glass>I was like, is most of your money still in Ether, whose price goes up and down? And he explained that, no, he's converted more than half of it into regular US dollars, for safety's sake. But he said that having all that money hasn't really changed much in a day-to-day way. He's working more than ever, he said, except now it's all on PixelMap.
+
+00:52:19.750 --> 00:52:38.020
+<v Ira Glass>I feel like you're in this weird situation where most of your working life, you were actually doing things and developing code for big companies, Amazon and Snapchat, and people would use the code, like, it would do stuff all over the world. And then this thing that you build that's completely useless--
+
+00:52:38.020 --> 00:52:40.090
+<v Ken Erwin>I hate you. I'm just playing
+
+00:52:40.090 --> 00:52:41.830
+<v Ira Glass>--that doesn't contribute to society really--
+
+00:52:41.830 --> 00:52:58.450
+<v Ken Erwin>No, what you don't realize is I have been contributing to pointless causes my entire career. So when I worked at Salesforce, it was to help make sure that on Black Friday, you get spam emails from like, Best Buy and every other company. And that's like--
+
+00:52:58.450 --> 00:53:03.670
+<v Ira Glass>So are you saying this idea of before you were a productive, contributing member of society is ridiculousness?
+
+00:53:03.670 --> 00:53:07.030
+<v Ken Erwin>I'm saying I was never a productive member.
+
+00:53:07.030 --> 00:53:13.630
+<v Ira Glass>But do you think about the fact that the thing that made you rich is this thing that doesn't--
+
+00:53:13.630 --> 00:53:31.000
+<v Ken Erwin>It's very odd that I've written probably like a million-- I don't know how many lines, but a lot of lines of code, and PixelMap is 70 lines. So it is very odd that 70 lines that I wrote for fun-- yes, it's very odd.
+
+00:53:31.000 --> 00:53:50.610
+<v Ken Erwin>I think the best way I can describe it is it feels like I found a cheat code, like in a game, but for real life. Like, you type in the thing and then all of a sudden, your bank account isn't an issue. It's very odd.
+
+00:53:50.610 --> 00:54:09.870
+<v Ira Glass>The time he spends working on PixelMap every day, a couple of hours of that is chatting on Discord with the people who own tiles. But what's sucking up most of his time, Ken's designing a video game for the PixelMap site. He's paying a musician and an artist and a game developer and a project manager and doing lots of coding himself. He's always wanted to make a video game.
+
+00:54:09.870 --> 00:54:35.230
+<v Ira Glass>And now he has the luxury of being able to spend as much time as he wants doing that. He knows this video game is not going to make him any money. But he just likes making stuff. That's the impulse that led him to create PixelMap in the first place.
+
+00:54:35.230 --> 00:55:02.160
+<v Ira Glass>[MUSIC - "WHERE AM I" BY DUFFY POWER]
+
+00:55:02.160 --> 00:55:21.810
+<v Ira Glass>Well, our program was produced today by Michelle Navarro with David Kestenbaum. The people who put together today's show include Elna Baker, Chris Benderev, Susan Burton, Zoe Chace, Sean Cole, Michal Comite, Miki Meek, Stowe Nelson, Katherine Rae Mondo, Alix Spiegel, Robyn Semien and Alissa Shipp, Laura Starcheski, Christopher Swetala, Matt Tierney, Julie Whitaker, and Diane Wu. Our managing editor is Sarah Abdurrahman. Our executive editor is Emanuele Berry.
+
+00:55:21.810 --> 00:55:48.000
+<v Ira Glass>Special thanks today to Kevin Roose, Timothy Massad, Howell Jackson, Matt Levine, Aaron Klein, Samantha Ventura, Chris Crawford, and a bunch of people in the NFT world who asked not to be named but who know who they are. This episode right now is our last episode with one of our longtime producers, Robyn Semien, she's been here for nearly 15 years, produced so much memorable stuff, including our live show at BAM and what may be my favorite episode we've ever done, 129 Cars, about a car dealership trying to make its monthly quota.
+
+00:55:48.000 --> 00:56:01.740
+<v Ira Glass>She won us a Peabody with her episode Anatomy of Doubt. She's a force behind the scenes here too. She will be very much missed. She's off to create a new podcast series that she's been thinking about for years. I definitely know I'll be listening.
+
+00:56:01.740 --> 00:56:16.740
+<v Ira Glass>Our website, thisamericanlife.org. You can stream our archive of over 750 episodes for absolutely free. Also, there's videos. There's lists of favorite programs. If you're looking for something to listen to, there's tons of other stuff there. Again, thisamericanlife.org.
+
+00:56:16.740 --> 00:56:37.590
+<v Ira Glass>This American Life is delivered to public radio stations by PRX, the Public Radio Exchange. Thanks, as always, to our program's co-founder, Mr. Torey Malatia. You know, before he got into radio, he worked for years as a field biologist. He was actually Jane Goodall's assistant for a long time. But she fired him because whenever they would sneak up close to a pack of chimps, he'd yell--
+
+00:56:37.590 --> 00:56:40.980
+<v Adam McBride>Oh my god, boom, ape-age.
+
+00:56:40.980 --> 00:56:46.350
+<v Ira Glass>I'm Ira Glass, back next week with more stories of This American Life.
+
+00:56:46.350 --> 00:56:51.350
+<v Ira Glass>[MUSIC - "WHERE AM I" BY DUFFY POWER]
