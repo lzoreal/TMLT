@@ -1,49 +1,119 @@
-name: Build and deploy TAL Podcasting 2.0 RSS
+name: Update TAL transcript feed
 
 on:
+
+  # 手动运行
   workflow_dispatch:
+
+  # 每天自动更新（UTC 03:00）
   schedule:
-    - cron: "20 6 * * 1"
-  push:
-    branches: ["main"]
+  - cron: "0 5 * * 1"
 
 permissions:
-  contents: read
+
+  # 需要提交 public 更新
+  contents: write
+
+  # GitHub Pages
   pages: write
+
   id-token: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 jobs:
-  build:
+
+  update:
+
     runs-on: ubuntu-latest
+
+
     steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+
+      # 拉取仓库（包含之前生成的 public）
+      - name: Checkout repository
+
+        uses: actions/checkout@v4
+
         with:
-          python-version: "3.12"
+          fetch-depth: 0
 
-      - run: pip install -r requirements.txt
 
-      - name: Build RSS and VTT
+
+      # Python环境
+      - name: Setup Python
+
+        uses: actions/setup-python@v5
+
+        with:
+          python-version: "3.11"
+
+
+
+      # 安装依赖
+      - name: Install dependencies
+
         run: |
+
+          pip install -r requirements.txt
+
+
+
+      # 增量生成 RSS 和 VTT
+      - name: Generate TAL transcript feed
+
+        run: |
+
           python generate.py \
-            --episodes 30 \
-            --base-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+          --base-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" \
+          --output public
 
-      - uses: actions/upload-pages-artifact@v3
+
+
+      # 保存生成结果到仓库
+      #
+      # 下一次运行 checkout 时会拿到这些文件
+      #
+      - name: Commit generated files
+
+        run: |
+
+          git config user.name "github-actions"
+
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+
+          git add public
+
+
+          git diff --cached --quiet || git commit -m "Update TAL transcript feed"
+
+
+          git push
+
+
+
+      # 配置 GitHub Pages
+      - name: Setup Pages
+
+        uses: actions/configure-pages@v5
+
+
+
+      # 上传 Pages 内容
+      - name: Upload Pages artifact
+
+        uses: actions/upload-pages-artifact@v3
+
         with:
-          path: public
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
+          path: ./public
+
+
+
+      # 部署 GitHub Pages
+      - name: Deploy GitHub Pages
+
+        id: deployment
+
         uses: actions/deploy-pages@v4
