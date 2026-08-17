@@ -2,11 +2,20 @@
 
 <rss version="2.0"
 xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
 xmlns:podcast="https://podcastindex.org/namespace/1.0">
 
 <channel>
 
 <title>This American Life Transcript Feed</title>
+
+<itunes:image
+href="https://www.thisamericanlife.org/sites/default/files/images/promo/tal_partners_blue_-_16x9.jpg"
+/>
+
+<podcast:image
+href="https://www.thisamericanlife.org/sites/default/files/images/promo/tal_partners_blue_-_16x9.jpg"
+/>
 
 <link>
 https://www.thisamericanlife.org/
@@ -48,6 +57,14 @@ https://www.thisamericanlife.org/895/label-maker
 Labels and the havoc they wreak.
 </description>
 
+<itunes:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/TAL-895-labelmaker-MattChase.jpg?itok=G1svUoTj"
+/>
+
+
+<podcast:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/TAL-895-labelmaker-MattChase.jpg?itok=G1svUoTj"
+/>
 
 <pubDate>
 Fri, 31 Jul 2026 10:58:25 -0400
@@ -99,6 +116,14 @@ https://www.thisamericanlife.org/894/i-couldnt-help-but-notice
 People dealing with new, glaring, massive changes happening right where they live.
 </description>
 
+<itunes:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/TAL-894-ICouldntHelpButNotice-ValeroDoval.jpg?itok=WJCDnjX_"
+/>
+
+
+<podcast:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/TAL-894-ICouldntHelpButNotice-ValeroDoval.jpg?itok=WJCDnjX_"
+/>
 
 <pubDate>
 Fri, 24 Jul 2026 10:15:26 -0400
@@ -150,6 +175,14 @@ https://www.thisamericanlife.org/893/testosterone
 Everyone at This American Life tests their testosterone and compares results.
 </description>
 
+<itunes:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/istock-838386570-bw.jpg?itok=gI1SEDu2"
+/>
+
+
+<podcast:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/istock-838386570-bw.jpg?itok=gI1SEDu2"
+/>
 
 <pubDate>
 Fri, 24 Jul 2026 14:08:50 -0400
@@ -201,6 +234,14 @@ https://www.thisamericanlife.org/892/trapped-on-a-bus
 People on journeys they did not intend — or agree to.
 </description>
 
+<itunes:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/Reuters-RC2L9KABE4CY-CUBA-CRISIS-POWER.jpg?itok=p05ydmOz"
+/>
+
+
+<podcast:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/Reuters-RC2L9KABE4CY-CUBA-CRISIS-POWER.jpg?itok=p05ydmOz"
+/>
 
 <pubDate>
 Thu, 16 Jul 2026 11:08:38 -0400
@@ -252,6 +293,14 @@ https://www.thisamericanlife.org/443/amusement-park
 We head to some of the happiest places on earth: amusement parks!
 </description>
 
+<itunes:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/istock-139717376_0.jpg?itok=WFDFlUei"
+/>
+
+
+<podcast:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/istock-139717376_0.jpg?itok=WFDFlUei"
+/>
 
 <pubDate>
 Fri, 12 Aug 2011 00:00:00 -0400
