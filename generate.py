@@ -394,16 +394,14 @@ Unofficial This American Life feed with VTT transcripts
 {html.escape(item.get("title",""))}
 </title>
 
+<link>
+{html.escape(item.get("url",""), quote=True)}
+</link>
 
-<podcast:transcript
 
-url="{html.escape(base_url + "/transcripts/" + episode + ".vtt", quote=True)}"
-
-type="text/vtt"
-
-language="en"
-
-/>
+<guid>
+{html.escape(item.get("url",""), quote=True)}
+</guid>
 
 
 <description>
@@ -424,17 +422,15 @@ type="audio/mpeg"
 
 />
 
-
 <podcast:transcript
 
-url="{base_url}/transcripts/{episode}.vtt"
+url="{html.escape(base_url + "/transcripts/" + episode + ".vtt", quote=True)}"
 
 type="text/vtt"
 
 language="en"
 
 />
-
 
 </item>
 
