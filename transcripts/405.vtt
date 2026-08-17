@@ -1,0 +1,640 @@
+WEBVTT
+
+00:00:00.600 --> 00:00:22.020
+<v Ira Glass>A friend of mine ran her own small business. It was just her and this guy, the bookkeeper. And she loved the bookkeeper. The bookkeeper did the billing. He kept the accounts. He saw that vendors were paid on time. He did basically all the stuff that, to my friend, was just kind of drudgery. She used to say that she didn't know what she would do without him. They were really close. So it was this great setup for years.
+
+00:00:22.020 --> 00:00:48.080
+<v Ira Glass>And then one day, the bookkeeper disappeared with her money. Classic inside job. Perfect one. The bookkeeper knew everything. My friend totally trusted him. And sometimes I wondered, was the idea of using what he knew and taking the money like this little bug in his brain eating away at him for years. Once he figured out that he could take the money, was it hard for him not to take the money?
+
+00:00:48.080 --> 00:01:09.440
+<v Ira Glass>Well, today on our radio show, we have two stories of people who get inside. They get inside some system. They truly understand the system. And then they have to figure out what to do with their insider knowledge. One of the stories is this incredible tale of money guys on the make right when the housing market was starting to collapse. The other is this story of cops and robbers, drug busts and drug users playing a cat and mouse game.
+
+00:01:09.440 --> 00:01:24.660
+<v Ira Glass>From WBEZ Chicago, it's This American Life distributed by Public Radio International. I'm Ira Glass. Stay with us.
+
+00:01:24.660 --> 00:01:33.420
+<v Ira Glass>Act One, Eat My Shorts. Something you hear from a lot of people on Wall Street, this crisis that we're going through now, nobody saw it coming.
+
+00:01:33.420 --> 00:01:35.170
+<v Angelo Mozilo>Nobody saw this coming.
+
+00:01:35.170 --> 00:01:42.360
+<v Ira Glass>See what I mean? This is Angelo Mozilo, the former CEO of the failed mortgage lender Countrywide on Australia Broadcasting.
+
+00:01:42.360 --> 00:01:51.250
+<v Angelo Mozilo>S&P and Moody's didn't see it coming. Bear Stearns certainly didn't see it coming. Merrill Lynch didn't see it coming. Nobody saw this coming.
+
+00:01:51.250 --> 00:01:54.870
+<v Ira Glass>Brian Moynihan, head of Bank of America, told a congressional hearing he didn't either.
+
+00:01:54.870 --> 00:02:05.580
+<v Brian Moynihan>No one involved in the housing system, lenders, rating agencies, investors, insurers, consumers, regulators, and policy makers foresaw a dramatic and rapid depreciation in home prices.
+
+00:02:05.580 --> 00:02:13.070
+<v Ira Glass>Even Robert Rubin, former treasury secretary, former chairman of the executive committee of Citigroup's Board of Directors said just this week--
+
+00:02:13.070 --> 00:02:32.480
+<v Robert Rubin>Almost all of us, including me, who were involved in the financial system, that is to say, financial firms, regulators, rating agencies, analysts, and commentators, missed the powerful combination of factors that led to this crisis and the serious possibility of a massive crisis.
+
+00:02:32.480 --> 00:02:51.340
+<v Ira Glass>The recent collapse of the financial system has been described as a 100-year flood, a perfect storm, a force of nature. And it is so frustrating to hear it described that way, as something that happened to Wall Street instead of something that Wall Street brought on itself.
+
+00:02:51.340 --> 00:03:18.930
+<v Ira Glass>At the height of the boom, Wall Street was doing such strange, dangerous things, bankers and brokers all over the country were giving huge mortgages to people who could not afford to pay them back. Investors were then buying and selling these terrible mortgages to each other as if they were worth something. Banks convinced analysts to rate this stuff as completely safe. And then they believed their own lousy ratings. They believed their own hype. And really, nobody suspected this could all come crashing down?
+
+00:03:18.930 --> 00:03:48.540
+<v Ira Glass>Here on our radio show, we have never believed that this was true. We've never believed this idea that nobody knew. That really, we're all to blame because all of us, from homeowners to investment bankers, all got caught in this irrational exuberance in the housing bubble. We didn't believe it. After two years of reporting on this crisis, we felt pretty sure that not only must there be some people on Wall Street who figured out what would happen, there must have been people who helped bring on the crisis, who fed the fire, and who figured out ways to profit from that.
+
+00:03:48.540 --> 00:04:10.890
+<v Ira Glass>And so we wanted to find some of those people. To do that, we and our regular team of crack economics reporters at Planet Money asked the investigative reporting outfit ProPublica to join up with us. ProPublica spent seven months conducting dozens of interviews, pouring over thousands of pages of financial documents. And they uncovered some things no one has ever heard before in all the reporting that's been done on the crisis.
+
+00:04:10.890 --> 00:04:33.400
+<v Ira Glass>And today, with their help, we bring you this story of people at one company and their associates who took home hundreds of millions of dollars in personal income while, at the same time, helping to worsen the crisis that taxpayers, that you and I, will be paying off for years to come. Here's Alex Blumberg with the reporting team from ProPublica, Jake Bernstein and Jesse Eisinger, to bring you the story of this inside job.
+
+00:04:33.400 --> 00:05:00.780
+<v Alex Blumberg>This inside job takes place deep in the heart of Wall Street financial engineering. It's full of intrigue and genius and questionable behavior. And it resembles, in ways that will eventually be revealed, the plot of a Mel Brooks musical. But it begins far from Wall Street, on the shores of Lake Michigan in Chicago, where a man named Alec Litowitz was starting a new hedge fund. We'll get to what exactly a hedge fund is in a minute. First though, here's Jake Bernstein from ProPublica with the hedge fund's name.
+
+00:05:00.780 --> 00:05:17.330
+<v Jake Bernstein>Magnetar. And that's because Litowitz, the guy who started Magnetar, is a big astronomy buff. A magnetar is kind of like a black hole. It's a star that's burned out. And it is the most magnetic force in the universe.
+
+00:05:17.330 --> 00:05:18.930
+<v Jesse Eisinger>And they have a marketing spiel.
+
+00:05:18.930 --> 00:05:24.740
+<v Alex Blumberg>You may not have noticed, but that was the other half of the ProPublica duo entering the conversation, Jesse Eisinger.
+
+00:05:24.740 --> 00:05:55.370
+<v Jesse Eisinger>And they have a marketing spiel. They say that this firm is going to attract the best employees, the best investors. We're going to have the highest returns. And they give t-shirts to people that say, "Very bright. Very magnetic." And sometimes employees would joke that they're named after a black hole. But for the most part, they start out with these high ambitions and excitement, and they're really enthusiastic about it.
+
+00:05:55.370 --> 00:06:28.730
+<v Alex Blumberg>So what do hedge funds do anyway? Well basically, they gather a bunch of money from investors, and they try to get that money to grow using whatever strategy they think will make them and their investors rich. Magnetar decided that one of the ways it was going to make money was by investing in a corner of the financial markets we've heard a lot about lately, securities made of subprime mortgages, and was going to go for one of the more esoteric of these securities, collateralized debt obligations or CDOs. Such are the times that we live in that CDOs have appeared on more than one episode of This American Life lately.
+
+00:06:28.730 --> 00:06:59.990
+<v Alex Blumberg>CDOs have the distinction of being the single most toxic financial instruments of the financial crisis. The instruments that did more damage to the world's financial system than any other single instrument out there. And what you need to know about a CDO to understand this story is pretty simple. A CDO, at least the kind Magnetar was interested  in, is a financial security that's made up of dozens of bonds. And each bond is itself made up of hundreds of individual mortgages and not safe mortgages. These were pretty risky ones to borrowers with poor credit.
+
+00:06:59.990 --> 00:07:33.670
+<v Alex Blumberg>Now Alec Litowitz, who was only 38 when he started Magnetar, had already amassed a personal fortune in finance. This allowed him and his wife to take a couple of years kicking around Europe, collecting antiques for a big house they were building on the shores of Lake Michigan. And during the time they were away, CDOs were becoming the hot, new thing on Wall Street. A record number were on their way to being sold in 2005, which would shatter the previous record set in 2004. But by the time Alec Litowitz was back and had his new hedge fund up and running at the end of 2005, things were starting to change in the CDO world.
+
+00:07:33.670 --> 00:07:48.090
+<v Alex Blumberg>We talked to a guy named Bill Tomljanovic a guy on Wall Street who put together CDOs. He said that at the end of 2005, people on Wall Street were starting to worry about the housing market. Unfortunately, since Bill is in finance, he doesn't say it like that. He says it like this--
+
+00:07:48.090 --> 00:07:54.690
+<v Bill Tomljanovic>In 2005, the summer, spreads on RMBS collateral started expanding.
+
+00:07:54.690 --> 00:08:00.580
+<v Jesse Eisinger>And that is banker-speak for people started to worry about the housing market?
+
+00:08:00.580 --> 00:08:01.930
+<v Bill Tomljanovic>Yes, ah yes.
+
+00:08:01.930 --> 00:08:33.350
+<v Alex Blumberg>Now what Bill is saying here, which sounds really boring, it is huge. It means that part of our theory, the theory that got us into this story in the first place, was correct. There was a group of people on Wall Street who are not like most people in America. They were not caught by surprise. In 2005, two full years before the collapse of the major subprime lenders like New Century and Countrywide, three full years before the failure of Lehman Brothers and AIG and the big government bailout, a lot of people on Wall Street were looking at housing prices around the country and seeing signs that things were not well.
+
+00:08:33.350 --> 00:08:49.380
+<v Bill Tomljanovic>Las Vegas had an overheated market. Certain sectors of California were looking very aggressive in terms of real estate valuation. Was it enough-- Was the bubble ready to burst?
+
+00:08:49.380 --> 00:09:23.360
+<v Alex Blumberg>You could see this uncertainty showing up in bond prices in 2005, long before everything crashed. The anxiety is right there in the interest rate numbers. Some of the people on Wall Street who buy bonds that are made up of hundreds of home mortgages were starting to demand more interest for their investment, saying essentially, we'll buy this bond, but you have to pay us more because it's looking riskier to us. Which is just another way of saying, we're worried. And because of this, people like Bill Tomljanovic were thinking that the good times might be coming to an end in the CDO world.
+
+00:09:23.360 --> 00:09:41.870
+<v Bill Tomljanovic>The level of difficulty to replicate the business plan of '05 in '06 was pretty-- I mean, everyone was worried, how are we going to keep volume up, make the same amount of money for the firm? How are we going to recreate this in '06 because it was such a great year in '05.
+
+00:09:41.870 --> 00:09:52.660
+<v Alex Blumberg>So here's all these people on Wall Street in late 2005 thinking, the CDO business might be slowing down, housing might be cooling off, things might be returning to normal. And then in walks Magnetar.
+
+00:09:52.660 --> 00:10:11.570
+<v Jake Bernstein>Magnetar spends the first quarter of '06 talking to as many people as possible in the CDO business, really understanding it, interviewing people, getting a good sort of lay of the land. And then, they put out the word that they want to buy equity.
+
+00:10:11.570 --> 00:10:36.810
+<v Alex Blumberg>OK. Equity. A quick word of explanation. Every CDO was divided into layers. A layer at the top that was considered the safest, the layers below that, which were considered semi-safe, and then the bottom layer, which was considered the riskiest. Of course, after the crash, we learned that no part of the CDO was safe. Every part of most subprime CDOs is now worthless. But back in 2005 and 2006, they were still making these distinctions.
+
+00:10:36.810 --> 00:11:04.450
+<v Alex Blumberg>So the part at the bottom, that riskiest part, that was called the equity tranche. Tranche is just Wall Street lingo for layer. The equity tranche, the equity layer paid a lot more interest than the top layers, the idea being, if you bought that risky equity, you got paid for that risk. But still, it was the riskiest part of a CDO that was made up of risky bonds backed by risky mortgages. It was not an easy sell. Here's Bill Tomljanovic.
+
+00:11:04.450 --> 00:11:12.470
+<v Bill Tomljanovic>The equity was the toughest part when the business-- early 2000s either analyzing--
+
+00:11:12.470 --> 00:11:13.990
+<v Jesse Eisinger>Finding somebody to take the riskiest portion.
+
+00:11:13.990 --> 00:11:15.120
+<v Bill Tomljanovic>Riskiest portion.
+
+00:11:15.120 --> 00:11:16.320
+<v Jesse Eisinger>That was the hardest part to find?
+
+00:11:16.320 --> 00:11:18.570
+<v Bill Tomljanovic>It was very difficult, yes.
+
+00:11:18.570 --> 00:11:28.700
+<v Alex Blumberg>So here we are in early 2006. CDO managers and investment banks are thinking the CDO party is ending. And in comes this hedge fund saying not only do they want to buy CDOs, but--
+
+00:11:28.700 --> 00:11:34.220
+<v Jake Bernstein>They want to buy that lowest tranche, that lowest piece of the CDO.
+
+00:11:34.220 --> 00:11:35.400
+<v Alex Blumberg>The one that was hardest to place?
+
+00:11:35.400 --> 00:11:50.040
+<v Jake Bernstein>The one that was hardest to place. And they want to buy lots and lots and lots of it. As one banker said to us, it was like a miracle. Suddenly, this big equity buyer shows up.
+
+00:11:50.040 --> 00:12:14.040
+<v Alex Blumberg>In other words, it seemed like Wall Street felt it had found its sucker. An article in Business Week later wondered if Magnetar was poised to get "shredded." Magnetar's entrance into the CDO market in 2006 had a huge impact though. If they were willing to buy the equity piece, it became easier for Wall Street banks to make the CDO. Buyers were easier to find for the parts that were less risky.
+
+00:12:14.040 --> 00:12:44.050
+<v Alex Blumberg>Magnetar, as the equity buyer, was often called the sponsor of the CDOs in which it bought the equity since, without Magnetar, the CDO probably wouldn't have gotten made in the first place. Magnetar's entry into the market helped the CDO business, which insiders worried was petering out in 2005, roar back to life. 2006 ended up being even bigger than 2005. In fact, it became the best year in CDO history. A lot of CDO deals got done, and a lot of that had to do with Magnetar.
+
+00:12:44.050 --> 00:12:57.850
+<v Jake Bernstein>Their pace of production was extraordinary by any estimation. In a year's time, from the middle of '06 to the middle of '07, they do 28 deals worth an estimated $40 billion.
+
+00:12:57.850 --> 00:13:04.010
+<v Alex Blumberg>Just to put that in perspective, that's about a third to a half of this corner of the subprime CDO market that they were operating in.
+
+00:13:04.010 --> 00:13:08.280
+<v Jesse Eisinger>And for one hedge fund to account for that much was very rare.
+
+00:13:08.280 --> 00:13:21.580
+<v Alex Blumberg>In fact, we ran this by Bill Tomljanovic, the CDO manager. He was familiar with Magnetar, but he didn't know how many deals they'd been a part of. And when we ran that number by him, he was pretty impressed.
+
+00:13:21.580 --> 00:13:24.520
+<v Bill Tomljanovic>That's a lot of deals. That's a lot of deals.
+
+00:13:24.520 --> 00:13:28.310
+<v Jake Bernstein>Is that enough to sort of be an influence in the market?
+
+00:13:28.310 --> 00:13:36.120
+<v Bill Tomljanovic>I would say that-- wow-- it sounds big.
+
+00:13:36.120 --> 00:14:01.120
+<v Alex Blumberg>Now most insiders who knew Magnetar would not have described them as suckers. In fact, every single person that Jake and Jesse and I have talked to about Magnetar uses the same word to describe them, smart. Sometimes they'll say, really smart. And yet, here they were going on this huge spending spree, buying the riskiest parts of these financial products that were all backed by a housing market insiders were starting to view with more and more suspicion. And that caused a lot of people to wonder, why?
+
+00:14:01.120 --> 00:14:27.680
+<v Jake Bernstein>People puzzled it out. And they talked about it. And they tried to figure out, well, what's the strategy here? Why would they like such risky stuff? And then they figured it out. As one CDO manager said to us, "At a certain point, we were in on the joke." The joke being that Magnetar was also betting against the very CDOs that it was creating.
+
+00:14:27.680 --> 00:14:39.810
+<v Alex Blumberg>So how do you bet against a CDO? You don't need to go to Vegas. You don't even need to leave Wall Street. There's another type of financial product that Wall Street had created. It's called a credit default swap. You may have heard that term before as well.
+
+00:14:39.810 --> 00:15:04.780
+<v Alex Blumberg>A credit default swap can be used to bet that some part of a CDO will fail. And the way it works, you pick a CDO that you think might fail, and then you pay some Wall Street firm a little bit of money a few times a year. If the CDO does fine, the Wall Street firm keeps your money. But if it fails, the Wall Street firm pays you the entire value of the part of the CDO that you're betting against, a massive amount of money.
+
+00:15:04.780 --> 00:15:35.070
+<v Alex Blumberg>The theory on the street was Magnetar didn't care in the long term whether the equity it was buying survived. They made the equity investment mainly as a catalyst for the creation of the rest of the CDO. Magnetar would cause these CDOs to be created by buying this tiny equity portion, which was typically just 5% or 6% of the value of the entire CDO. And then, they'd place a bet, take out a credit default swap on one of the larger sections above. They also placed bets against other, similar CDOs out there.
+
+00:15:35.070 --> 00:16:04.460
+<v Alex Blumberg>So the theory among many of the people Jake and Jesse interviewed-- and I should emphasize, Magnetar disputes this theory-- but the theory was, say the equity portion cost Magnetar $10 million to buy, but the entire CDO itself is a hundred times that, $1 billion or even $2 billion. If one of the upper sections of the CDO goes bust, and Magnetar is betting against it, they stood to make a lot more than $10 million, potentially hundreds of millions of dollars. It was such a brilliant idea, soon others got in on the act.
+
+00:16:04.460 --> 00:16:33.220
+<v Jesse Eisinger>This strategy was being employed by some hedge funds, but Magnetar was the biggest. They did it the most. They put the most money toward it. And in fact, on Wall Street, it became known-- according to the people we've talked to-- as the Magnetar trade.
+
+00:16:33.220 --> 00:16:52.780
+<v Alex Blumberg>OK. Here's another piece of jargon. The strategy of betting that something will go down in value, in the language of Wall Street, it's called shorting or taking a short position. And there were a handful of other hedge funds out there shorting housing-related securities like CDOs. A new book by author Michael Lewis, The Big Short, tells several of their stories.
+
+00:16:52.780 --> 00:17:18.530
+<v Alex Blumberg>And generally, there's nothing wrong with shorting. In fact, many people argue that shorting, which happens millions and millions of times a day, every single day on Wall Street, is actually a good thing because it keeps prices more tethered to reality. It's harder for a mania to develop if people who have a dim view of things can bet on that view. But the Magnetar trade was not shorting in the traditional sense, betting against something which already exists.
+
+00:17:18.530 --> 00:17:53.010
+<v Alex Blumberg>The Magnetar trade was betting against something Magnetar itself helped create, which is the exact opposite of what you want shorting to do. In traditional shorting, by betting, essentially, that certain things out there are crappy and overvalued, you are helping to rid the world of those crappy, overvalued things. But a lot of people thought that what Magnetar was doing was bringing crappy, overvalued things into the world in order to bet against them. We talked to Jon Pickhardt, a lawyer whose firm is suing an investment bank that helped set up some of the deals with Magnetar and with other hedge funds that were doing what Magnetar was doing.
+
+00:17:53.010 --> 00:18:04.230
+<v Jon Pickhardt>Yeah, a number of the hedge funds, they were simultaneously entering into significant short positions with respect to the CDO or its collateral.
+
+00:18:04.230 --> 00:18:09.720
+<v Jesse Eisinger>In other words, were they being basically built to fail?
+
+00:18:09.720 --> 00:18:12.910
+<v Jon Pickhardt>In some cases, yes.
+
+00:18:12.910 --> 00:18:22.360
+<v Jesse Eisinger>In trying to come up with an accurate metaphor, have you ever seen The Producers ?
+
+00:18:22.360 --> 00:18:24.060
+<v Jon Pickhardt>Yes.
+
+00:18:24.060 --> 00:18:34.320
+<v Jesse Eisinger>So in the plot of The Producers, there's a scene where he hires an accountant, and he says, where he's sort of murmuring to himself, and he's like, hm, you could almost make more money if the play fails than if it succeeds.
+
+00:18:34.320 --> 00:18:47.310
+<v Leo Bloom>Carry the 3, divided by 4-- amazing! It's absolutely amazing, but under the right circumstances, a producer could make more money with a flop than he could with a hit.
+
+00:18:47.310 --> 00:18:49.630
+<v Jesse Eisinger>It feels very similar. Is it?
+
+00:18:49.630 --> 00:19:01.200
+<v Jon Pickhardt>Well, from the hedge fund standpoint, that clearly was the case. Clearly, they would benefit more if the CDO ultimately failed.
+
+00:19:01.200 --> 00:19:13.340
+<v Max Bialystock>Don't you see Bloom? Darling Bloom, glorious Bloom. It's so simple. Step one, we find the  worst play ever written. Step two, we hire the worst director in town. Step three, I raise $2 million.
+
+00:19:13.340 --> 00:19:13.820
+<v Leo Bloom>Two?
+
+00:19:13.820 --> 00:19:25.140
+<v Max Bialystock>Yes, one for me, one for you. Step four, we hire the worst actors in New York and open on Broadway. And before you can say step  five, we close on Broadway, take our $2 million and go to Rio.
+
+00:19:25.140 --> 00:19:27.600
+<v Leo Bloom>Oh, Rio? Nah, that would never work.
+
+00:19:27.600 --> 00:19:30.520
+<v Max Bialystock>Oh, ye of little faith.
+
+00:19:30.520 --> 00:19:48.290
+<v Alex Blumberg>Jake and Jesse have had several conversations with Magnetar, and they say, what they were doing was nothing like what Nathan Lane is singing about here. Magnetar says, "We didn't have an opinion on whether the housing market would crash or soar. We weren't hoping the CDOs would fail. We weren't betting against them. We were simply hedging ourselves."
+
+00:19:48.290 --> 00:20:17.890
+<v Alex Blumberg>Now this is something you hear a lot on Wall Street, the great hedge versus bet debate. A hedge is like insurance. If you're making an investment in something like a house, you expect the house to stay standing, you expect to live in it, but something could happen. It could catch fire or get swept away by a tornado or fall into a sinkhole. So you buy insurance. In other words, you hedge. You pay a little bit a year in case those things happen. But that doesn't mean you're betting that they will.
+
+00:20:17.890 --> 00:20:46.940
+<v Alex Blumberg>And in fact, hedge funds originally got their name because, in the early days of hedge funds, they hedged all kinds of bets. And that is exactly what Magnetar said it was doing, being a classic hedge fund. By buying credit defaults swaps on the CDOs it was helping create, it was simply protecting itself if something unforeseen happened to them. The problem with figuring out whether it's a bet or a hedge, is that the action of betting and the action of hedging look exactly the same. The only difference is intent.
+
+00:20:46.940 --> 00:21:16.100
+<v Alex Blumberg>But there are some clues to look for that help figure out intent. For example, is the size of the bet against the investment bigger than the investment itself? Are they taking out a million dollar insurance policy on a hundred thousand dollar house? So in Magnetar's case, it would be interesting to see how many bets did they make on which CDOs for how much money. Unfortunately, none of this information is public. Still in the case of the Magnetar deals, there is some evidence that the play was expected to flop.
+
+00:21:16.100 --> 00:21:42.560
+<v Alex Blumberg>To understand this evidence, you have to know a little bit about how a CDO gets marketed and sold. OK. So first, you have the investors. This can be anyone who wanted buy a layer of a CDO, could be a hedge fund like Magnetar, a pension fund, an insurance company. They're the buyer. Then you have the seller. That was the Wall Street bank. They were the ones who went out and found the investors, said, "Hey, we're putting together this CDO. Would you like to buy a piece of it?"
+
+00:21:42.560 --> 00:21:56.610
+<v Alex Blumberg>And in the CDO business, there was often a third party, the CDO manager. The CDO manager is the one person in this transaction who has what's called fiduciary duty. They're there to make sure that investors aren't being ripped off, that the game is played honestly.
+
+00:21:56.610 --> 00:22:06.870
+<v Jake Bernstein>The CDO manager was sort of like the referee. He would be the entity that stood between the investors and the bank.
+
+00:22:06.870 --> 00:22:33.600
+<v Alex Blumberg>The CDO manager had one other very important function. The CDO manager picked the assets that went into the CDO. OK. Assets. Remember, CDOs are a bunch of mortgage-backed loans bunched together. These mortgage-backed loans, in Wall Street parlance, were called the CDO's assets. They were also called the collateral. It's basically the stuff that goes in to making the CDOs. The CDO manager picked that stuff. Again, here's Jake and Jesse.
+
+00:22:33.600 --> 00:22:44.650
+<v Jesse Eisinger>So we interviewed a lot a bankers and CDO managers and others in the business, and they told us something interesting. They said that Magnetar was frequently pushing for riskier assets to be put into the CDOs.
+
+00:22:44.650 --> 00:22:47.370
+<v Alex Blumberg>All right. I'm going to play that last bit again because that is key.
+
+00:22:47.370 --> 00:22:52.400
+<v Jesse Eisinger>They said that Magnetar was frequently pushing for riskier assets to be put into the CDOs.
+
+00:22:52.400 --> 00:23:11.810
+<v Alex Blumberg>In other words, Magnetar was targeting the referees, the CDO managers. Jake and Jesse have compiled seven different cases where Magnetar actively tried to influence the CDO managers to get them to put riskier assets into their CDOs. For example, in Magnetar's very first deal to put together a CDO--
+
+00:23:11.810 --> 00:23:38.520
+<v Jake Bernstein>We spoke to a person who was involved in the deal. And right away, it became clear to the CDO manager, according to this person, that Magnetar wanted influence. They would ask for specific bonds to buy. They'd say, would you consider these bonds? And according to this person that we talked to, they said, let's just say that we didn't think their suggestions made a lot of sense.
+
+00:23:38.520 --> 00:24:11.560
+<v Alex Blumberg>You are understanding this right. The CDO manager was confused because the investor, Magnetar, was putting pressure on him to put riskier assets into the CDO that that very same investor was buying. And this happened over and over with Magnetar CDOs. There was another banker involved in the creation of another Magnetar CDO who described a "back and forth fight" between Magnetar and the CDO manager over the quality of the assets, again, with Magnetar pushing for riskier ones. And there was another deal where the fight took place over email, which Jake and Jesse got copies of.
+
+00:24:11.560 --> 00:24:41.040
+<v Jesse Eisinger>In an email that one Magnetar person wrote in September of 2006 said, "The original portfolio target spreadsheet that I have had a strangely low spread target. That, of course, would not at all be beneficial to us. I've attached the target portfolio that I would like for this deal with target spreads." So basically, in the email, they're saying, these are the kinds of assets we want, and this is how risky we want it to be.
+
+00:24:41.040 --> 00:25:06.260
+<v Jesse Eisinger>Well, the CDO manager was not terribly excited about this. And he sent an email back rather forcefully saying, "We will not assemble a portfolio we are not proud of and feel strongly about in the name of a spread target." And so the two sides drifted apart and the CDO was never consummated in part because of the CDO manager's concern about Magnetar's need for riskier assets.
+
+00:25:06.260 --> 00:25:21.060
+<v Alex Blumberg>And finally, there was a meeting Jesse and Jake had over lunch with a former banker, who worked on one of Magnetar's CDOs. He lost his job soon after. At lunch, they showed this banker the list of unusually risky assets that were in the CDO that he'd helped put together with Magnetar.
+
+00:25:21.060 --> 00:25:49.940
+<v Jesse Eisinger>And he looked at it. And he went down the list. And he said, "Yeah, they asked for this one, and they got it. They asked for this one, and they got it. They asked for this one, and it went in." And then he said, "After looking at this, I deserved to lose my job."
+
+00:25:49.940 --> 00:26:04.950
+<v Alex Blumberg>There are other clues as well that Magnetar was trying to produce a flop. Magnetar's CDOs, in an independent analysis commissioned by ProPublica, went bad faster than other, similar CDOs. And then, of course, there's this.
+
+00:26:04.950 --> 00:26:21.250
+<v Alex Blumberg>For a company that came in at the height of the housing mania, invested in the riskiest parts of the dodgiest subprime-related CDOs out there, CDOs which got completely wiped out in the crash-- a crash which started just months after it finished making its last purchase-- Magnetar sure did make a lot of money.
+
+00:26:21.250 --> 00:26:51.890
+<v Jake Bernstein>2007 was a very profitable year for Magnetar. We know that one of their funds, the constellation fund-- which presumably had some of the profits from their CDO business-- was up 76%. And we know that the firm Magnetar grew rapidly during this period. When Litowitz, its founder, Alec Litowitz, started Magnetar in 2005, he had $1.7 billion under management. And by the end of 2007, he had $8 billion.
+
+00:26:51.890 --> 00:26:52.600
+<v Jesse Eisinger>Almost $8.
+
+00:26:52.600 --> 00:26:53.940
+<v Jake Bernstein>Almost $8 billion.
+
+00:26:53.940 --> 00:27:00.730
+<v Alex Blumberg>So within the span of almost three years, he'd increased the amount of money under management by $6 billion.
+
+00:27:00.730 --> 00:27:12.220
+<v Jesse Eisinger>Right. And while some of that, I'm sure, was new investors, some of that was also profit from the business that they were doing.
+
+00:27:12.220 --> 00:27:23.130
+<v Alex Blumberg>If Magnetar was making a lot of money on these CDOs, there was another group that wasn't. And that was the group of people who were buying the top-rated portions of these CDOs that Magnetar was sponsoring and then betting against.
+
+00:27:23.130 --> 00:27:46.880
+<v Alex Blumberg>There was a group of mutual funds in Tennessee that lost a bunch of money on Magnetar CDOs. There was a regional bank in Ohio. A Lutheran fraternal organization in Minnesota. But surprisingly, the biggest purchasers of Magnetar CDOs, we now know, were the very same investment banks that put these CDOs together in the first place. That's right. The banks were making these CDOs and essentially selling them to themselves.
+
+00:27:46.880 --> 00:28:31.810
+<v Alex Blumberg>For example, one CDO deal that Jake and Jesse have managed to learn a lot about, a CDO that Magnetar put together with J.P. Morgan. Magnetar bought the equity portion of the deal for around $10 million. J.P. Morgan bought the top portion for almost 100 times that, nearly $1 billion, which was strange because some of the bankers at J.P. Morgan knew that Magnetar had selected especially risky assets to go into the CDO and that Magnetar had placed a bet against the middle portion of the CDO. But they went ahead and put the deal together and then bought the biggest piece of it without hedging themselves either because they convinced themselves it still wasn't that risky or because they just didn't give a damn about the risk or some combination of the two. What they were certain about was how much money they'd make in fees.
+
+00:28:31.810 --> 00:28:37.520
+<v Jake Bernstein>J.P. Morgan made, we understand, $20 million in fees for the bank, but--
+
+00:28:37.520 --> 00:28:42.420
+<v Alex Blumberg>Probably about half of which was distributed in bonuses to the bankers who worked on it.
+
+00:28:42.420 --> 00:28:43.020
+<v Jesse Eisinger>Yeah, roughly.
+
+00:28:43.020 --> 00:28:43.430
+<v Jake Bernstein>Generally.
+
+00:28:43.430 --> 00:28:44.430
+<v Alex Blumberg>Generally.
+
+00:28:44.430 --> 00:28:58.500
+<v Jake Bernstein>And yet the bank retained the top-rated, safest portion of the deal. That eventually got wiped out and they took about an $880 million loss on the deal according to people we've spoken to.
+
+00:28:58.500 --> 00:29:51.800
+<v Jesse Eisinger>We talked to one banker in this world who did CDO business. And he described what had happened as a success. We were sort of taken aback by this because most of these CDOs failed, and the banks ended up saddled with huge losses, which the taxpayers will be paying off for a long time to come. And so we asked, "How could this be a success?" And he said, "Well, the bankers did very well. Their bottom lines, their bank accounts are still quite full. They might not be at those banks anymore, but they're doing all right." So in the eyes of individual actors, this was not a complete and total debacle.
+
+00:29:51.800 --> 00:30:23.930
+<v Alex Blumberg>This is an important thing to understand. Bankers made money even when they were buying things that eventually blew up the bank. We talked to another CDO manager, Jim Finkel, who said that for every CDO that a bank put together, it got a fee, usually 1% or 2% of the overall value of the CDO. And remember, CDOs were often worth a billion dollars or more. 1% of a billion? That's $10 million. And the bank earned this fee the minute it finished putting the CDO together, not 7 or 10 years later when the CDO was supposed to finish paying off.
+
+00:30:23.930 --> 00:30:43.800
+<v Jim Finkel>Every deal would get 1% or 2% fee so let's just keep doing billions of dollars of deals, and that'll rack up the tens and twenties millions of dollars in fees. I think Merrill Lynch made $700 million in CDO fees in 2006. I mean, that's just an enormous amount of money.
+
+00:30:43.800 --> 00:30:47.210
+<v Alex Blumberg>How many people is that going to inside Merrill Lynch?
+
+00:30:47.210 --> 00:30:53.330
+<v Jim Finkel>That was going to somewhere between 50 and 80 people.
+
+00:30:53.330 --> 00:30:55.780
+<v Jesse Eisinger>That's a lot per person. That's a lot per person.
+
+00:30:55.780 --> 00:31:16.830
+<v Jim Finkel>That whole $700 million was not going to their personal pockets, right? The firm probably created a bonus pool of, say, $100 to $150 million out of that. But still, you're talking about the head of the group probably walked home with $10-plus million, $15 million.
+
+00:31:16.830 --> 00:31:37.020
+<v Alex Blumberg>This situation, where the individual bankers made money whether or not the investments they sold collapsed, should be added to the list of causes of the financial crisis that we're still living out. It helps explain why the crisis was as big as it was. And it also helps explain the answer to the question, wait, why were the CDO managers and investment banks so eager to help Magnetar do this in the first place?
+
+00:31:37.020 --> 00:31:56.180
+<v Jesse Eisinger>I think this is where we have a rousing defense of Magnetar. I mean, essentially Magnetar was doing right by its investors. They found a weakness in the Wall Street machine, and they exploited it. But there were other actors in this drama.
+
+00:31:56.180 --> 00:32:13.900
+<v Alex Blumberg>Those other actors were the CDO managers and investment banks that put these deals together. The ones that Jake and Jesse have spoken to, they knew what Magnetar was doing. They knew that Magnetar was asking for riskier and riskier assets to go into the deal. And they knew that they were placing bets against other parts of the CDOs that they were helping to spawn.
+
+00:32:13.900 --> 00:32:39.130
+<v Alex Blumberg>And yet, this information wasn't in any of the documents that were available to the Lutherans in Minnesota or the banks in Ohio or the mutual funds in Tennessee or any of the other investors out there, who were buying the other parts of the CDOs that Magnetar was sponsoring. When you look at it this way, if the investment banks and CDO managers had been doing their jobs, actually explaining to their investors what was behind these CDOs, well, the Magnetar trade might not have been possible.
+
+00:32:39.130 --> 00:33:03.220
+<v Jesse Eisinger>So if the investment bank came to an investor and said, we have got an investment for you. A hedge fund actually asked us to create it, and they asked us to put riskier assets into the deal, and, oh, by the way, they're betting against it. Would you like to buy it? And the answer is going to be obvious. They're not going to do it.
+
+00:33:03.220 --> 00:33:38.880
+<v Jake Bernstein>The role of Magnetar, both as equity investor and in their bets against the very CDOs they helped create, were not disclosed in any way to investors in the written documents about the deals. Not the marketing material, not the prospectuses, not in the hundreds of pages that an investor could get to see information about the deal was it disclosed that it was, in fact, Magnetar who had helped create the deal and who bet against it.
+
+00:33:38.880 --> 00:33:52.890
+<v Alex Blumberg>There is an argument to be made that the fact that investment banks and CDO managers weren't disclosing this information might present securities law violations. It might be worth looking into anyway, if you were, say, I don't know, the Securities and Exchange Commission.
+
+00:33:52.890 --> 00:34:15.100
+<v Jesse Eisinger>Did the banks represent this thing that they're selling fairly and accurately and disclose or tell the investors all the material information? And the question revolves around this concept in the securities law of materiality, which is extremely difficult to define.
+
+00:34:15.100 --> 00:34:24.730
+<v Alex Blumberg>And the materiality issue is just basically what is material, what do the investors need to know, and what do they not need to know basically? Like what is material for them to know?
+
+00:34:24.730 --> 00:34:25.190
+<v Jesse Eisinger>Exactly.
+
+00:34:25.190 --> 00:34:29.200
+<v Jake Bernstein>Right. To make their decision on whether they want to invest or not.
+
+00:34:29.200 --> 00:35:00.060
+<v Alex Blumberg>In the conversations that you've had with the people on Wall Street and the people in the CDO managers and the people from Magnetar and everybody who you've talked to on the inside, was there ever outrage expressed? Did anybody ever say to you, man, what those guys were doing, that was questionable, or that seemed wrong, or that seemed ethically dubious, or anything like that?
+
+00:35:00.060 --> 00:35:31.730
+<v Jesse Eisinger>The answer is yes. But I think within Wall Street, there's a sense that Magnetar was a predator, a shark, if you will, and that you don't blame the predator for hunting the prey. That's what predators do. But I recall one banker, who we spoke to, who said, "When Magnetar arrived on the scene, we all should have gone running. We all should have taken off."
+
+00:35:31.730 --> 00:35:39.070
+<v Jake Bernstein>Yeah, yeah, he said, "We should have run for the hills, everyone, all of us in America."
+
+00:35:39.070 --> 00:35:43.320
+<v Alex Blumberg>And what did he see as the problem?
+
+00:35:43.320 --> 00:36:11.180
+<v Jesse Eisinger>What he saw was that Magnetar had figured out how dysfunctional the system had become and was going to exploit that dysfunction. And that it should have been a sign to everybody that there was something wrong. There was something wrong with the way Wall Street was operating.
+
+00:36:11.180 --> 00:36:36.330
+<v Alex Blumberg>Even if what was happening here wasn't illegal, it had profound consequences for the financial system, the taxpayers, and the global economy. If the CDO market had been allowed to cool off at the end of 2005, as market insiders thought it might, the financial crisis almost certainly would not have been as bad as it was. Magnetar, by entering the market when it did, by catalyzing the volume of production that it did, extended the mania and exacerbated the crash.
+
+00:36:36.330 --> 00:37:02.810
+<v Alex Blumberg>Of the 24 Magnetar CDOs that ProPublica was able to track down, 23 of them are nearly worthless today. In total, nearly $40 billion evaporated. A good portion of that $40 billion was held by the banks, no doubt part of the hole the taxpayers had to cover when we bailed out the financial system.
+
+00:37:02.810 --> 00:37:34.220
+<v Alex Blumberg>The Magnetar trade also had a direct impact on the housing market all over the country. If the CDO business had gone down, as people were predicting in 2005, home mortgages would've been less available in 2006 and 2007 for people buying houses in California and Florida. There would have been less money out there looking for riskier and riskier mortgages to stuff into mortgage-backed securities to feed the CDOs that Magnetar was helping to create. There would have been, in short, fewer people in houses they couldn't afford then and fewer people facing foreclosure today.
+
+00:37:34.220 --> 00:37:51.750
+<v Alex Blumberg>People making short-term decisions for their own short-term profit added to the pain we're all going through now. Fortunes were made on CDO desks all over Wall Street in 2006 and 2007. Some of the banks where those fortunes were made may be gone, but the people who made them and the fortunes themselves remain.
+
+00:37:51.750 --> 00:38:19.100
+<v Alex Blumberg>According to a magazine which tracks hedge fund pay, Alec Litowitz, the head of Magnetar, personally took home an estimated $280 million in 2007. Magnetar declined to comment on that figure. Unlike some of the Wall Street banks with whom the fund worked, Magnetar is still open for business and still looking for ways to make its clients money.
+
+00:38:19.100 --> 00:38:46.230
+<v Ira Glass>Alex Blumberg, who's part of our Planet Money team. Planet Money is a co-production between our program and NPR News. This story was done as a collaboration with ProPublica and the reporters Jake Bernstein and Jesse Eisinger. A statement from Magnetar and its full response to our questions, emails between a CDO manager and Magnetar, a timeline of the deals, analysis, lots of documents, a more detailed version of this story are all at ProPublica's website propublica.org.
+
+00:38:46.230 --> 00:39:28.880
+<v Ira Glass>By the way, just this week, the former CEO of Citigroup, Charles Prince, testified before the financial crisis inquiry commission about CDOs. Citigroup did several CDO deals with Magnetar. The names of those deals, Cetus 2 and 4, Octans 3, Lacerta, each of these deals was over $1 billion. Now they're almost worthless, of course. Charles Prince told the commission that CDOs made up most of the losses at Citigroup. He said, these were the losses, CDOs, that required the government to bail out the bank even though at the time, he said, everyone believed they were totally safe investments. Citi bought the best parts of the CDOs, what Prince called--
+
+00:39:28.880 --> 00:39:51.140
+<v Charles Prince>--super senior tranches of CDOs that carried the lowest possible risk of default. It bears emphasis that Citi was by no means alone in this view, and that everyone, including our risk managers, government regulators, other banks, and CDO structurers, all believed that these securities held virtually no risk.
+
+00:39:51.140 --> 00:40:03.450
+<v Ira Glass>Prince emphasized that even the Citibank employees who made the decisions to keep these CDOs on the books had no reason to suspect that they might go bad. In other words, no one saw it coming.
+
+00:40:03.450 --> 00:40:03.920
+<v Ira Glass>[MUSIC - "BET AGAINST THE AMERICAN DREAM"]
+
+00:40:03.920 --> 00:41:31.250
+<v Broadway-style Singers>Step one, we write a check for $10 million, hand the check to a Wall Street bank and ask them to make us a CDO. Step two, they create the CDO using risky stuff, very risky stuff, extremely risky stuff. Step three, other investors commit hundreds of millions of dollars to the CDO. Step four, we bet against the CDO using a credit default swap. Step five, the housing market crashes, the CDO's value drops to 0, our bet pays off, and we make hundreds of millions of dollars. And before you can say, step six, we're rich. We're gonna bet against the American dream. We're gonna be on the winning team. Purchase risky debt on a massive scale, then place a bet that the debt will fail. Hundreds of millions for Magnetar, the economy collapsing like a dying star. No one will know 'til it's on NPR. And who cares? It's time to hit the town. This sucker could go down. The housing market's losing steam. And all we gotta do to make our dreams come true, is bet against the American dream.
+
+00:41:31.250 --> 00:42:02.660
+<v Ira Glass>John Treacy Eagan and Christian Borle on vocals. "Bet Against The American Dream," the music and lyrics were written for our show by Robert Lopez, produced by music supervisor Steven Oremus. The orchestrator was Bruce Coughlin. To see a video of these amazing Broadway performers recording the song, go to Planet Money's website npr.org/money. Coming up, what cops know about cops. That's in a minute from Chicago Public Radio and Public Radio International when our program continues.
+
+00:42:02.660 --> 00:42:20.430
+<v Ira Glass>It's This American Life . I'm Ira Glass. Each week on our program, of course, we choose a theme, bring you reporting, interviews, songs, anything we can think of on that theme. Today's show, Inside Job. We've arrived at Act Two of our show. Act Two, Taking A Big Pink Eraser To The Thin Blue Line.
+
+00:42:20.430 --> 00:42:35.510
+<v Ira Glass>You may have heard of these self-produced DVDs called Never Get Busted Again. In them, there's a guy named Barry Cooper who shows small-time pot growers how to avoid trouble with the police. For example, how to handle yourself when a cop stops you on the highway with his drug-sniffing dog.
+
+00:42:35.510 --> 00:42:49.050
+<v Barry Cooper>It's a good idea to carry a cat in your car if you're going to have a couple of marijuana cigarettes. This confuses the dog, where his drive is channeled to chasing these things instead of looking for the marijuana.
+
+00:42:49.050 --> 00:42:59.980
+<v Ira Glass>He also explains how to grow pot without getting caught indoors or out, how to spot undercovers and informants, how to handle knock and talks and rap and taps-- that's when a cop tries to talk his way into your house.
+
+00:42:59.980 --> 00:43:15.900
+<v Barry Cooper>If you hear a knock at your door and, upon investigating, you notice it's the police, if your door is not locked, go ahead and lock it right then. I don't open the door for police.
+
+00:43:15.900 --> 00:43:38.970
+<v Ira Glass>That's Barry demonstrating how you should yell through the window at the officer. All this advice could really only come from a consummate insider. And Barry Cooper is one. He's a former narcotics cop and a dirty narcotics cop at that. And recently he has moved on from the DVDs to a new venture, again, drawing on his experience in law enforcement. Michael May tells the story from Austin.
+
+00:43:38.970 --> 00:43:51.870
+<v Michael May>I've watched videos taken from the dashboard camera on Barry Cooper's squad car in the mid-'90s. Back then, he had short, cropped hair, cop mustache. He liked to lean into a suspect with a smirk that said, I know you're lying.
+
+00:43:51.870 --> 00:43:53.910
+<v Barry Cooper>OK. Where's the marijuana at?
+
+00:43:53.910 --> 00:43:54.520
+<v Man>I ain't got none.
+
+00:43:54.520 --> 00:43:56.810
+<v Barry Cooper>These two ladies in here been smoking weed too?
+
+00:43:56.810 --> 00:43:57.300
+<v Man>No.
+
+00:43:57.300 --> 00:44:29.800
+<v Michael May>Barry was a member of the Permian Basin Drug Task Force, a west Texas unit that became notorious for using unscrupulous tactics in the war on drugs. It was eventually shut down by the FBI in the late '90s. But to Barry, it was a great assignment. He learned all the ways to bend the law to rack up, harass, and chase down suspects. Barry was in his early 20s, and he says, the thing he loved most about being a cop was the adrenaline rush. One of his favorite things to do was to pull people over on the highway, and then, just for kicks, incite a chase. How?
+
+00:44:29.800 --> 00:45:17.200
+<v Barry Cooper>They taught us in the academy that once we found drugs on somebody to handcuff them immediately. Instead of doing that, I would look at the suspect and say, "Hmm, well, some crack cocaine I found in your pocket. You're under arrest for a felony. You're going to go to prison for life." Whether he was or not, he didn't know that. And I would just turn around and walk to the patrol car to get my paperwork ready and to radio it in, giving that suspect time to run. And they often did. And then the foot chase would be on, and then the fight would ensue, and that would get my adrenaline fix.
+
+00:45:17.200 --> 00:45:55.470
+<v Barry Cooper>I was one of the biggest [BLEEP] you'd ever want to meet in a drug deal. A lot of what I was doing was doing illegal searches, such as making my dog false alert or saying, I had an informant to raid a house when I never did. And we would raid a house. It's called using a ghost informant. Or conducting illegal searches on citizens to seize narcotics. It also includes stealing money. I never planted drugs, but I often threatened to to scare citizens into becoming my informant.
+
+00:45:55.470 --> 00:46:30.950
+<v Michael May>Barry served eight years on the force, but after getting caught doing an overzealous search of a black man's underwear looking for drugs, his department was sued in a federal civil rights case. They settled, but Barry left the force anyway, frustrated and angry that his superiors didn't defend him. He bounced around for a few years after that, opening several used car lots, founding a church, even starting a cage fighting business. But it was his next step that truly changed his life when he fell in love with his current wife, Candi, and began smoking the substance he'd spent years arresting people for.
+
+00:46:30.950 --> 00:47:34.120
+<v Barry Cooper>I spent the next year literally in her bedroom, her and I growing close together, talking and smoking pot. I'd never eaten a pizza in bed in my life until then. We would order pizza and smoke marijuana. And the first thing I did was laugh and laugh and laugh and laugh. And I just couldn't believe the joy I was feeling. That would turn into crying. And she knew I had a lot of guilt. I'd start talking to her about how bad I felt about the stuff I did to people for this marijuana that I was enjoying and that was healing me. So she was smart enough to help me get through those flashbacks. And she'd tell me, "That was rotten what you did, Barry, but you were doing what you thought was right. And the important thing is now, humans can change, and people will forgive you."
+
+00:47:34.120 --> 00:48:07.020
+<v Michael May>Barry wanted to atone. So this is when he created the Never Get Busted DVDs. In three years, he says, he sold over 50,000. Today, Barry had long hair, a goatee, hoop earrings, and a pin-up girl tattooed on his neck. He smiles a lot and cries easily and says, "I love you" as a casual greeting, part redneck, part hippie, part ex-cop. When I introduced him to my wife, she told me she felt like she'd just walked into a Coen brothers movie. And Barry's next big idea was like something straight out of one of those movies.
+
+00:48:07.020 --> 00:48:53.070
+<v Michael May>He decided he wanted to do more than just help potheads. He wanted to expose and punish the cops that put them in prison. Barry says, the war on drugs has warped the priorities of law enforcement. Small-town police fund their own salaries by seizing cash and property in drug raids. Incredibly, they don't even have to charge someone with a crime to keep the stuff. And he says, that's given cops a reason to routinely bend the law to bust people. Which brings us to Barry's latest great idea. It involves chases and traps and suspicious props and anonymous tips and TV. Barry would set up elaborate stings to catch cops in the act of breaking the law. And he'd film it for a reality TV show he wanted to create called KopBusters, spelled with a K.
+
+00:48:53.070 --> 00:49:00.440
+<v Announcer>Every year, thousands of innocent people are sent to prison, many because of corrupt cops.
+
+00:49:00.440 --> 00:49:02.400
+<v Barry Cooper>Do you have a search warrant?
+
+00:49:02.400 --> 00:49:26.470
+<v Michael May>This is the KopBusters trailer. Barry put it together to shop his idea around to TV networks. And in 2008, Barry decides to test his premise by stinging cops in Odessa, where he once worked on the task force. He believed that cops were corrupt there and had a plan to prove it. And Barry also had a secret weapon, an unlikely benefactor, one with deep pockets.
+
+00:49:26.470 --> 00:49:58.450
+<v Michael May>His name was Raymond Madden, and he was a conservative middle-aged businessman. For most of his life, Raymond trusted the police and voted tough on crime. Then his daughter, Yolanda, was arrested for having an ounce of meth and sentenced to eight years in prison. Madden was convinced the police had planted the drugs on her. A police informant even testified at her trial that he'd framed her. Madden spent years trying to get activists and reporters interested in the case to no avail. Then he came across Barry Cooper on the internet.
+
+00:49:58.450 --> 00:50:34.400
+<v Raymond Madden>The first thing I got of Barry was his videos. And I thought, "What a nut job this guy is." But I was desperate. So you're talking about a father who's desperate. I mean, I was running out of options. Barry knew a lot of the players in this deal because he had been involved in the Odessa scene. And he had a knowledge that I didn't have. He knew how cops think. I didn't. That's where I always kept making my mistakes is I went up to people thinking they were going to be honest. But he knew how they thought.
+
+00:50:34.400 --> 00:51:02.290
+<v Raymond Madden>And so I kind of think of Barry as like some of these-- I call them blue-haired biddies of [? Baptist, ?] they're blue-haired-- that used to smoke and don't smoke. My gosh, there's nothing worse than a reformed smoker to be around. You know? Or a reformed drunk. Well, Barry was a reformed cop. And my gosh, there's probably nothing more sanctimonious.
+
+00:51:02.290 --> 00:51:27.800
+<v Michael May>Barry told Raymond he couldn't get Yolanda out of prison, but he could embarrass the police and get the press to look into her case. His plan went like this: set up a fake marijuana grow house and get the Odessa police to raid it illegally. Inside, he put a single grow light over a couple of Christmas trees, Barry's idea of a punch line. He'd invite local media along to catch the police looking like fools when they busted in.
+
+00:51:27.800 --> 00:52:09.100
+<v Michael May>Raymond spent over $30,000 setting this all up. Barry rented a house, wired it with four cameras, bought laptops to watch the video streaming live, hired a crew and a lawyer and put them all up in hotels while they set the trap. To bait the police, Barry's crew sends an anonymous letter to a local church, promising a house full of pot plants and $19,000 in drug money. An anonymous tip alone is not enough for a search warrant. Barry was hoping they'd search the house illegally, while, of course, he filmed everything. So the letter goes out to the church. Oh yeah, it also mentions the money is going to be gone by the next day. 14 hours later--
+
+00:52:09.100 --> 00:52:10.650
+<v Barry Cooper>[UNINTELLIGIBLE] Back up. Zoom out. Zoom out.
+
+00:52:10.650 --> 00:52:11.320
+<v Man>And here come the cops.
+
+00:52:11.320 --> 00:52:18.640
+<v Michael May>Barry and his team are sitting in the hotel room watching the scene on computers when the cops burst in the back door of the house with guns drawn.
+
+00:52:18.640 --> 00:52:19.580
+<v Man>They're in. They're in.
+
+00:52:19.580 --> 00:52:20.410
+<v Barry Cooper>They're raiding it.
+
+00:52:20.410 --> 00:52:31.040
+<v Michael May>The police walk in the living room and stand in front of a poster Barry has hung on the wall. It tells them they're on KopBusters. They lower their guns. One says, "We've been set up, huh?"
+
+00:52:31.040 --> 00:52:31.510
+<v Barry Cooper>Let's go.
+
+00:52:31.510 --> 00:52:41.790
+<v Michael May>Barry jumps in the car to go confront the cops before they leave. He's clearly high on adrenaline at this point just like the old days. He jumps out of his car.
+
+00:52:41.790 --> 00:52:46.020
+<v Barry Cooper>Hey, I'm Barry Cooper with KopBusters. Why are you in my house?
+
+00:52:46.020 --> 00:52:55.930
+<v Michael May>Barry runs into the street wearing a bright red t-shirt with the words "Free Yolanda" printed on it. He starts hollering at the police. They tell him if he doesn't get on the sidewalk, they're going to arrest him.
+
+00:52:55.930 --> 00:52:57.560
+<v Policeman>We're not giving nobody no hassle.
+
+00:52:57.560 --> 00:53:02.750
+<v Barry Cooper>Y'all planted drugs on Yolanda, and she's in prison because of it. That's giving people a hassle.
+
+00:53:02.750 --> 00:53:05.580
+<v Policeman>Sir, you've been warned. You've been warned. I'm glad that--
+
+00:53:05.580 --> 00:53:06.550
+<v Barry Cooper>You've been warned.
+
+00:53:06.550 --> 00:53:07.130
+<v Policeman>You've been warned.
+
+00:53:07.130 --> 00:53:07.410
+<v Barry Cooper>You've been warned.
+
+00:53:07.410 --> 00:53:09.480
+<v Policeman>You're blocking the roadway. You can go to jail for it.
+
+00:53:09.480 --> 00:53:16.720
+<v Newscaster>Video cameras, plants masquerading as drugs, and a message are what police found while serving a search warrant today.
+
+00:53:16.720 --> 00:53:37.700
+<v Michael May>Barry had invited the local TV news to film the raid, and people got the point. Folks in west Texas didn't like the fact that cops busted in on a home on such flimsy evidence. And the police alienated even more residents when they threatened to subpoena the local paper, The Odessa American, to get the names of people posting anti-police comments on the newspaper's website.
+
+00:53:37.700 --> 00:53:44.860
+<v Newscaster>The reality show team out of Austin has been setting up the fake drug den for six months. But why all the trouble?
+
+00:53:44.860 --> 00:53:47.960
+<v Barry Cooper>Get Yolanda Madden out of prison.
+
+00:53:47.960 --> 00:54:22.850
+<v Michael May>Raymond got the publicity he was after. A quarter million people watched the raid on YouTube. Newspapers started covering the Yolanda case. A year later, a judge released Yolanda from prison on the grounds that the prosecution had withheld documents. She's now awaiting retrial. For their part, the Odessa police department released a statement saying, the raid was a waste of law enforcement time and taxpayer money. The police threatened to charge Barry for staging the sting, but they never did.
+
+00:54:22.850 --> 00:54:44.940
+<v Michael May>After Odessa, Barry went looking for more dirty cops to bust. Without Raymond's money to spend, these were pretty low-budget affairs. Barry dressed up a duffel bag to look like something a drug dealer would tote around, including a crack pipe and $45 in cash, hoping cops would find it and take the money. He did the sting three times. Then the police struck back.
+
+00:54:44.940 --> 00:55:19.640
+<v Michael May>Five days after Barry posted a video on YouTube of a cop in Williamson County finding the $45 in the bag and pocketing it, Williamson County police arrested Barry. And they did something police almost never do. They raided his home on a misdemeanor charge. The charge was false report to a peace officer for a phone call made to police about one of the duffel bags. Barry's wife, Candi, his 14-year-old daughter, and 8-year-old stepson were home during the raid. Barry was in handcuffs, but he still knew how police think. So he was sure he knew what this was all about.
+
+00:55:19.640 --> 00:56:01.230
+<v Barry Cooper>And I explained to them, after they had pointed those guns at my wife and then walked me into the house, I said, "Before any of you mother [BLEEP] are going to search any bit of my house, you're going to have to listen to me." And one of them tried to quiet me down. I said, "Mother [BLEEP], are you kidding me? This is a misdemeanor raid. I'm in handcuffs. I'm going to have my moment, or I'm not cooperating." So they stood down. And I went one by one, shaming every one of them, female officers and male officers, explaining to them that we were non-violent, that this was activism, that we know this is retaliation.
+
+00:56:01.230 --> 00:56:24.160
+<v Michael May>The police included narcotics officers who obviously hoped to find drugs in the house. They found a little pot, only enough for a misdemeanor possession charge. The police also referred Barry and Candi to Child Protective Services, charging that they were providing their teenage daughter with pot. After a visit, CPS dismissed the case. But the investigation took its toll.
+
+00:56:24.160 --> 00:56:37.790
+<v Michael May>Two weeks ago, Zach, Barry's 8-year-old stepson, visited his father for spring break and still hasn't been returned to Candi and Barry. Zach's father heard about the raid and filed for custody. Here's Barry.
+
+00:56:37.790 --> 00:57:09.060
+<v Barry Cooper>Our son being taken from us was so hard that, for the safety of my family, we decided that we're not going to do any more cop stings. You know, I was expecting-- I never would have done those bag drops, if I would have known it would have led to this.
+
+00:57:09.060 --> 00:57:30.740
+<v Michael May>KopBusters was over. Barry had thought his first-hand knowledge of the system would keep him a step ahead. But the cops didn't need an elaborate ruse to sting Barry. They didn't need to plan for months and set a trap and get it all on video. They just needed a reason to come bursting in the front door.
+
+00:57:30.740 --> 00:57:38.800
+<v Ira Glass>Michael May is the culture editor at The Texas Observer, whose website, texasobserver.org, is linking to all of the YouTube videos of Barry's police raids.
+
+00:57:38.800 --> 00:58:01.960
+<v Ira Glass>[MUSIC - "GOOD GUYS AND BAD GUYS" BY CAMPER VAN BEETHOVEN]
+
+00:58:01.960 --> 00:58:15.490
+<v Ira Glass>Our program was produced today by Jane Feltes, with Alex Blumberg, Ben Calhoun, Sarah Koenig, Lisa Pollak, Robyn Semien, Alissa Shipp and Nancy Updike. Our senior producer is Julie Snyder. Production help from Brian Reed. Seth Lind is our production manager. Emily Condon is our office manager.
+
+00:58:15.490 --> 00:58:31.780
+<v Ira Glass>[ACKNOWLEDGEMENTS]
+
+00:58:31.780 --> 00:59:02.350
+<v Ira Glass>Our website thisamericanlife.org, where you can listen to any of our shows for absolutely free. And this week, you can get your own free MP3 of our original Broadway number "Bet Against The American Dream" and, of course, sheet music for any high school drama departments who want to do their own production of today's show. Musicians in our original Broadway number, Mark Hummel, Randy Cohen, Dave Phillips, Sean McDaniel, Dave Mann, Charles Pillow, Dave Riekenberg, Tony Kadleck, Bud Burridge, and Randy Andos. Studio engineer for this song John Kilgore. Music contractor Michael Keller. Copyist Karl Mansfield.
+
+00:59:02.350 --> 00:59:14.590
+<v Ira Glass>This American Life is distributed by Public Radio International. WBEZ management oversight for our program by our boss, Mr. Torey Malatia. When we ran out of doughnuts and bagels on staff doughnut day this week, he made such a moving speech.
+
+00:59:14.590 --> 00:59:26.580
+<v Robert Rubin>Almost all of us, including me, missed the powerful combination of factors that led to this crisis and the serious possibility of a massive crisis.
+
+00:59:26.580 --> 00:59:30.680
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life.
+
+00:59:30.680 --> 00:59:36.210
+<v Ira Glass>[MUSIC - "GOOD GUYS AND BAD GUYS" BY CAMPER VAN BEETHOVEN]
+
+00:59:36.210 --> 00:59:41.210
+<v Announcer>PRI, Public Radio International.

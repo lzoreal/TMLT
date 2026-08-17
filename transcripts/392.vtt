@@ -1,0 +1,811 @@
+WEBVTT
+
+00:00:00.560 --> 00:00:24.650
+<v Ira Glass>Here's how it works. You're a doctor, you help some patient, and you want to get paid for it. So you have to choose a code that describes what you did to put on the insurance form. And it's an arcane language of its own, with tens of thousands of codes. And just make things more confusing, every insurance company interprets the codes differently. So even a simple procedure, the simplest procedure, giving somebody a shot, can become fantastically complex if you want to be reimbursed for it by insurance.
+
+00:00:24.650 --> 00:00:50.540
+<v Ira Glass>Take the new swine flu vaccine. The American Academy of Family Physicians put out a guide for physicians on how to code this. CIGNA uses a new G9141 code, but Aetna wants you to use codes that indicate the age of the patient, 90465 to 90468 for kids, 90471 to 90474 for adults. The vaccine itself is free, but United Health Care wants you to say it costs $0.01 because its computers won't recognize a 0.
+
+00:00:50.540 --> 00:01:04.010
+<v Ira Glass>And if you're giving somebody the swine flu shot at the same time as the regular flu shot, well then you do a 90470 plus the other codes. Though if you used the 90470, you shouldn't use any codes written since the 2010 code book came out. Lost yet?
+
+00:01:04.010 --> 00:01:14.600
+<v Rob Lamberts>There are things daily that are hard to code. People, when they come into your office, they come in with my arms feel weak. Well, there is no code for that.
+
+00:01:14.600 --> 00:01:20.140
+<v Ira Glass>Rob Lamberts is a doctor in suburban Georgia. He also writes a blog called, "Musings of a Distractible Mind."
+
+00:01:20.140 --> 00:01:47.360
+<v Rob Lamberts>I mean, when you think about it, we have four physicians in our practice and two mid-levels. And we have, I think, four full-time billing staff to help us figure out this whole process. Well, that's a lot of percent of money of our practice that's going towards just making sure our billing is working well. I suppose it helps the recession to have this complexity because it hires more people to do coding.
+
+00:01:47.360 --> 00:01:49.250
+<v Ira Glass>It's a growing part of the economy.
+
+00:01:49.250 --> 00:01:50.950
+<v Rob Lamberts>Yeah, unfortunately.
+
+00:01:50.950 --> 00:02:16.040
+<v Ira Glass>There is no joke. There are schools to teach you medical coding. There are conferences whose seminars have titles like, "Keep Your 99214 and 99215 Use on the Up and Up." The American Association of Professional Coders-- and yes, there is such a thing-- says there are now 200,000 medical coders in the United States. And the Bureau of Labor Statistics says these jobs are on the rise. They're going to rise 18% in a decade. Quote, "faster than the average for all occupations."
+
+00:02:16.040 --> 00:02:44.270
+<v Ira Glass>Dr. Lamberts estimates that he and his partner spend 20% to 25% of their revenue on the billing department, and on codes that don't go through. When they send in a wrong code, write 401 instead of 401.0, or we've got a modifier, or don't realize that they've changed the codes, the insurance company doesn't pay. He points out that you and I are paying for these armies of coders, who work with doctors and hospitals on one side, and insurance companies on the other. All this money spent that doesn't make anybody healthier. And by the way, doesn't go to doctors.
+
+00:02:44.270 --> 00:02:50.480
+<v Rob Lamberts>What I'm being paid per visit has not really changed. If anything, it's dropped a little bit.
+
+00:02:50.480 --> 00:03:31.460
+<v Ira Glass>Well today on our program we bring you the second of two hours that we're doing on health care in America. The first was last week. Today we look at the crazy Rube Goldberg system that we have for insurance in this country, where there's a code for an injury involving spacecraft, E845, but not one for weak arms. We look at how our insurance system affects everything else in our health care system. From WBEZ Chicago it's This American Life distributed by Public Radio International, I'm Ira Glass. Our show today in four acts. We guarantee you the most entertaining hour you're ever going to hear on the insurance industry. Stay with us.
+
+00:03:31.460 --> 00:03:35.040
+<v Ira Glass>"Act One, One Pill, Two Pill, Red Pill, Blue Pill."
+
+00:03:35.040 --> 00:03:42.510
+<v Ira Glass>Today's show by the way, is a co-production with NPR News . We have three stories today from the Planet Money team of economics reporters.
+
+00:03:42.510 --> 00:04:01.760
+<v Ira Glass>One thing that makes our insurance system so hard to understand is that so much of it is invisible to us. We get these insurance statements that are nearly incomprehensible with those insurance codes and prices that make no sense, and some things get covered, and some don't. As President Obama's put it, "If we knew more about our health care choices, we'd choose better."
+
+00:04:01.760 --> 00:04:14.630
+<v Barack Obama>If there's a blue pill and red pill, and the blue pill is half the price of the red pill and works just as well, why not pay half price?
+
+00:04:14.630 --> 00:04:26.760
+<v Ira Glass>Thing is, the fight over red pills and blue pills is decades old. It's one of those things that our insurance companies are deeply involved in that we are barely aware of. Planet Money reporter Chana  Joffe-Walt tells more.
+
+00:04:26.760 --> 00:04:43.650
+<v Chana Joffe-Walt>Ted Sarah is in the middle of a war. It's been going on for many years and involves billions of dollars. A lot of us are in this war, and like Ted, we don't even know it. He stumbled onto the battlefield because he's got pimples. Pimples and a card.
+
+00:04:43.650 --> 00:04:47.070
+<v Ted>It is called the SOLODYN Patient Access Card.
+
+00:04:47.070 --> 00:04:49.300
+<v Chana Joffe-Walt>What's it look like?
+
+00:04:49.300 --> 00:04:53.080
+<v Ted>It looks like a little credit card. It's white and blue.
+
+00:04:53.080 --> 00:05:15.800
+<v Chana Joffe-Walt>The SOLODYN Patient Access Card is just the latest weapon in this war. It's an arms race, really, that's been escalating for decades. There have been moves and counter-moves before. This war, it is a war over drug copayments.
+
+00:05:15.800 --> 00:05:54.840
+<v Chana Joffe-Walt>If you don't, say, run an insurance company, you probably hate copays. They're a way to make you pay for your drugs at the pharmacy, even though you're insured. Which seems kind of evil, right? But I tracked down an evil insurance VP, Eileen Wood, who actually was pretty personable. And she said, no, no, no. Copays are an insurers special little way of yelling at us. There are drugs that cost $1,000, there are drugs that cost $5. When you're insured, you don't care. You don't even know. So the insurers put a $30 copay on one and $10 copay on the other. They're giving you a hint that there is a difference in the drug's total cost.
+
+00:05:54.840 --> 00:06:03.260
+<v Eileen Wood>And the consumer doesn't see that, and so we struggle to try to shine the light on that and get called the bad guy.
+
+00:06:03.260 --> 00:06:04.610
+<v Chana Joffe-Walt>You do get called the bad guy a lot?
+
+00:06:04.610 --> 00:06:06.870
+<v Eileen Wood>Yeah, we do.
+
+00:06:06.870 --> 00:06:27.080
+<v Chana Joffe-Walt>So copays were basically a bad guy's way of doing something good for everyone. That's the way Eileen sees it, except for the bad guy thing. Because if insurers could discourage us from buying expensive drugs, it's not just that they would save money, we would save money. They could charge us less in premiums, which we all want.
+
+00:06:27.080 --> 00:06:47.500
+<v Chana Joffe-Walt>By the 1990s, insurance companies had it down. Copays were working really well. The insurers felt like they were winning the war, which was pretty gratifying to people like Eileen Wood. She had watched for years as drug companies came out with slightly tweaked versions of existing generics and sold them for 10 times the cost.
+
+00:06:47.500 --> 00:07:00.170
+<v Chana Joffe-Walt>Our doctors told us there was a drug to help us, we went out and got it, brand name, generic, whatever, and no one cared. No one cared because no one saw it. No one but Eileen.
+
+00:07:00.170 --> 00:07:07.250
+<v Eileen Wood>Let's look at Kapidex-- oh, that's this one. I love this one. That's the Minocin, but this company-- this is the original Minocin--
+
+00:07:07.250 --> 00:07:35.840
+<v Chana Joffe-Walt>Eileen works in a tidy office park in Albany, New York, for an insurance company called Capital Districts Physicians Health Plan, CDPHP. And in her file cabinets, she's got plastic zipped-up pouches of her least favorite brand name drugs. She collects them. Minocin, that one she's talking about, there's a generic version that costs about $50 a month. Minocin PAC, which Eileen is now waving in my face is a newer brand name drug. It costs $668.
+
+00:07:35.840 --> 00:07:59.780
+<v Eileen Wood>So what's different? It has a couple little extra items that are not prescription items in there. It has this lovely calming wipe, so that when your skin's all red and you can pat this on and it's supposed to bring the redness down. It's not a prescription item. Calming serum and a calming mask. It's basically stuff you could buy over the counter. But behind the scenes, it's--
+
+00:07:59.780 --> 00:08:01.800
+<v Chana Joffe-Walt>$668.
+
+00:08:01.800 --> 00:08:02.160
+<v Eileen Wood>Yeah.
+
+00:08:02.160 --> 00:08:04.330
+<v Chana Joffe-Walt>And the only difference in this is that it has wipes?
+
+00:08:04.330 --> 00:08:09.960
+<v Eileen Wood>It has these. That's it. That's the only difference. You could probably buy them for $10.
+
+00:08:09.960 --> 00:08:27.570
+<v Eileen Wood>So those three products are added to the Minocin PAC and I guess that must be what costs the extra $600, I'm not sure. It's very slick.
+
+00:08:27.570 --> 00:08:41.210
+<v Chana Joffe-Walt>Eileen has dozens of stories like this, that do seem ridiculous. An acne medication that comes with green tea swabs? It's kind of like a prescription for Viagra that comes with a Hustler magazine that costs an extra $500.
+
+00:08:41.210 --> 00:09:05.120
+<v Chana Joffe-Walt>Now, not all brand names are like this. There are brands that are better than existing generic options that are the only thing that work for some people. And with copays, you can still get the brands, it's just the more expensive choice. You want the green tea swabs? You pay $40 of the $668 for it. If you just want Minocin generic, you pay $10 of the $50.
+
+00:09:05.120 --> 00:09:32.690
+<v Chana Joffe-Walt>The copay strategy worked so well that in 2003, generics passed the 50% mark. Meaning more than 50% of the drugs people went and picked up from pharmacies were generics. It was probably around then that it happened. The drug companies, they noticed. People like Sally Beatty at Pfizer. That's the company that makes, among other things, the world's most popular drug, Lipitor.
+
+00:09:32.690 --> 00:09:36.080
+<v Chana Joffe-Walt>Sally, not a fan of copays.
+
+00:09:36.080 --> 00:09:49.950
+<v Sally Beatty>The issue with that is that we want treatment decisions to be made based on what the physician feels is medically best for the patient not just the cost to the patient, or what another player may decide is in their interest.
+
+00:09:49.950 --> 00:10:05.200
+<v Chana Joffe-Walt>Another player like Eileen Wood and her insurance industry buddies with their copays that were hurting the drug companies. Lipitor was facing major competition from generics. In July 2007, sales were down 13%.
+
+00:10:05.200 --> 00:11:02.230
+<v Chana Joffe-Walt>Now, there is no approved generic for Lipitor. Sally Beatty from Pfizer will say this three times in 15 minutes. And what that means is that there is no drug that is chemically identical to Lipitor. What there are, are generic drugs in the same class of cholesterol reducing drugs. That's what Lipitor does, reduce cholesterol. And those generics are effective for most people. But there are some people who respond better to Lipitor. And for some of those patients, a $40 copay stops them from getting the medication. And so in 2007, the pharmaceutical industry marshaled its counterattack, that mysterious card you heard at the beginning of this story, their central weapon-- coupons, a whole bunch of coupons.
+
+00:11:02.230 --> 00:11:06.820
+<v Ted>OK, so I've always sort of had a little bit of acne.
+
+00:11:06.820 --> 00:11:14.600
+<v Chana Joffe-Walt>Enter: Ted Sarah, the paralegal with the card and the pimples. Pimples that just a few months ago were in need of drugs.
+
+00:11:14.600 --> 00:11:26.150
+<v Ted>Yeah, it sort of comes and goes, and it generally-- when I'm sort of going through more periods of stress, either at work or just as a course of life, it sort of gets worse.
+
+00:11:26.150 --> 00:11:56.840
+<v Chana Joffe-Walt>Ted walked into the doctor's office. She poked at him with gloved hands and told him, OK, we're going to put you on a couple topical creams and some antibiotics, a drug called Solodyn. Ted was tentative, but he mentioned he'd been on a generic before, worked pretty well, called minocycline. And the doc said, yeah, that's great. Basically that's the same as Solodyn, but Solodyn is time release. That means, as opposed to minocycline, which you have to remember to take in the morning and in the evening, you only have to take Solodyn once a day.
+
+00:11:56.840 --> 00:12:21.630
+<v Ted>It didn't really sound that big of a deal to me, but it is, I guess, to anyone, slightly easier to take one pill per day instead of two, so I went with it. And I asked, in terms of the cost of it, just to pay the extra money to take it once a day, if that was going to be a big difference. It wouldn't really be something I'd be interested in. And then she presented this card.
+
+00:12:21.630 --> 00:12:22.800
+<v Chana Joffe-Walt>You remember the card.
+
+00:12:22.800 --> 00:12:26.490
+<v Ted>It is called the Solodyn patient access card.
+
+00:12:26.490 --> 00:13:01.580
+<v Chana Joffe-Walt>It's actually called Solo-DINE not Solo-DIN. Who knows where they come up with these names? Point is, this is the moment, the moment that the drug makers weapon makes its way into the hands of its oblivious soldier, Ted. Ted was going to get a deal. The doctor explained that this card, it's a coupon. Give it to the pharmacist and it should make your copay very affordable. Which is exactly what happened. Without the card Ted's copay would have been $154.28. But when Ted got to the pharmacy, he presented his card.
+
+00:13:01.580 --> 00:13:07.910
+<v Ted>They went to ring it up at the register and when it came up the price was $10.
+
+00:13:07.910 --> 00:13:08.940
+<v Chana Joffe-Walt>$10.
+
+00:13:08.940 --> 00:13:09.880
+<v Ted>$10.
+
+00:13:09.880 --> 00:13:12.220
+<v Chana Joffe-Walt>That's pretty good for drugs.
+
+00:13:12.220 --> 00:13:14.170
+<v Ted>Yeah, it was great.
+
+00:13:14.170 --> 00:13:22.380
+<v Chana Joffe-Walt>Solodyn access achieved.
+
+00:13:22.380 --> 00:13:50.900
+<v Chana Joffe-Walt>Ted's insurance company was then charged $655 a month for Ted's once-a-day Solodyn. For reasons too complicated to go into here, they only paid $514. Minocycline, the one that you have to take twice a day costs $109 a month, total. $514, $109.
+
+00:13:50.900 --> 00:14:10.000
+<v Chana Joffe-Walt>Ted never saw those numbers. So you think, OK, well Ted used a coupon because he didn't really know any better. He thought he was getting a deal. Who wouldn't go for that, right? But the doctor, what was up with the doctor handing out these cards? Luckily, Dr. Elena Allbritton, was generous enough to answer some questions.
+
+00:14:10.000 --> 00:14:12.380
+<v Chana Joffe-Walt>Do you know the price difference between those two drugs?
+
+00:14:12.380 --> 00:14:13.350
+<v Dr. Elena Allbritton>I don't.
+
+00:14:13.350 --> 00:14:52.980
+<v Chana Joffe-Walt>Like Ted, and the majority of Americans, Dr. Allbritton has no idea what drugs actually cost. Not because she's lazy, but because these numbers are really hard to find out. The insurance companies, they all individually negotiate with drug companies. And they each pay a slightly different amount. So no, Dr. Allbritton is not thinking about prices when prescribing, she's thinking, what is the best thing available for this patient? Solodyn is better. It's easier to take a pill once a day instead of twice. It's easier for Dr. Allbritton to get the dosage just right. And Dr. Allbritton wants her patients to have the best.
+
+00:14:52.980 --> 00:15:02.000
+<v Dr. Elena Allbritton>I think if I can get a discount for most patients, I think it's great because the cost of medications can be very high. It's like a free gift to them.
+
+00:15:02.000 --> 00:15:12.560
+<v Chana Joffe-Walt>Dr. Allbritton just wants it to be easy for patients to access the drugs she thinks they need. Truthfully, she doesn't really want to keep track of all the prices. That's not her job.
+
+00:15:12.560 --> 00:15:33.810
+<v Dr. Elena Allbritton>I just don't think that it's realistic to have that responsibility fall on the physician. I mean then are you going to start saying, well, should I really do this biopsy because I'm not really sure that it's really that significant of a difference in that mole and it might cost you $1,200 in the end if this doesn't get covered. I mean you don't want to start thinking about price tags with everything.
+
+00:15:33.810 --> 00:15:50.740
+<v Chana Joffe-Walt>Actually, when people talk about how to reform health care in our country, this is one of the things they talk about changing. That doctors should know the prices of things, and at least play some role in deciding whether a time release version of a pill is worth $400 more to everyone.
+
+00:15:50.740 --> 00:16:04.980
+<v Chana Joffe-Walt>The maker of Solodyn is Medicis. They wouldn't talk to me. By the way, in the month since Ted started taking Solodyn, a generic version has come out. And, the war has escalated. Another tactical maneuver.
+
+00:16:04.980 --> 00:16:27.850
+<v Chana Joffe-Walt>Drug makers used to just give cards to doctors. Now, they distribute them to patients too. But pharmaceuticals did not announce their counterattack to insurers. Eileen Wood at CDPHP, she had to figure it out by putting much of her staff on a hunt, reporting back to her on what cards are out there, who put them out, and how people are getting them.
+
+00:16:27.850 --> 00:16:37.490
+<v Eileen Wood>Because they're like everywhere. You can go online and get these. You can open up a women's magazine and get these. I mean they're everywhere.
+
+00:16:37.490 --> 00:16:45.970
+<v Chana Joffe-Walt>So this little purple card, is their way of saying, fine, you're going to put a $30 copay on us. Take that.
+
+00:16:45.970 --> 00:17:01.760
+<v Eileen Wood>Yes, that's exactly what's happening. They're trying to say, fine, you're promoting generic, CDPHP. We've got to do something about this. We're going to waive our copay. We'll fix you. We'll be zero copay. We'll be cheaper than you and we'll keep our market share.
+
+00:17:01.760 --> 00:17:21.740
+<v Chana Joffe-Walt>Eileen sounds a little crazy when she starts to talk like this. Like multibillion dollar companies are setting out to punish her, personally, Eileen Wood, for her copays. But when you think about it from her perspective, she is the only one who sees this stuff. We don't. We see a deal. And like Ted, we like deals.
+
+00:17:21.740 --> 00:17:27.000
+<v Eileen Wood>I can't argue with that argument, except to say there is a consequence for that.
+
+00:17:27.000 --> 00:17:32.060
+<v Chana Joffe-Walt>Because what will you have to do if everybody gets the more expensive drug?
+
+00:17:32.060 --> 00:17:40.050
+<v Eileen Wood>We'd have to raise premiums. I think there is no question about that. It would have an impact on him and everybody that sits next to him.
+
+00:17:40.050 --> 00:17:40.650
+<v Chana Joffe-Walt>At work.
+
+00:17:40.650 --> 00:17:44.490
+<v Eileen Wood>At work and their families and so forth. Yes.
+
+00:17:44.490 --> 00:17:49.020
+<v Ted>I don't want to pay more in premiums next year. I don't want everyone around me to have to either.
+
+00:17:49.020 --> 00:17:55.220
+<v Chana Joffe-Walt>Do you think your coworkers are going to hear this and go, well, thanks a lot, Ted? You and your fancy acne medicine.
+
+00:17:55.220 --> 00:18:15.730
+<v Ted>Probably. But there I was sitting in the dermatologist's office and I have no idea. Again, like I had never heard of this medicine, had no idea how much it costs. I know it's brand name, but I certainly never would have dreamed that it would have cost $655 sticker price.
+
+00:18:15.730 --> 00:18:37.160
+<v Chana Joffe-Walt>Looking at this war laid out like this, it's a view of a health care system that is comprised of enormous insurance companies throwing their weight around, just as enormous drug companies striking back, and then all these idiots in the middle-- us. You, me, and our doctors. Pesky interlopers who don't even know the price of the pills we're buying.
+
+00:18:37.160 --> 00:18:54.060
+<v Chana Joffe-Walt>President Obama wants us to choose the blue pill and not the red pill. Because the blue is just as effective, but half the price. But with these cards, which one is the blue one? We have no idea.
+
+00:18:54.060 --> 00:19:08.450
+<v Ira Glass>Chana Joffe-Walt.
+
+00:19:08.450 --> 00:19:11.730
+<v Ira Glass>Act Two, Let's Take Your Medical History.
+
+00:19:11.730 --> 00:19:33.530
+<v Ira Glass>If you think about it, it's very strange how we do insurance in our country. Including, for example, the fact that most of us do not buy our own insurance. Our employers buy it for us. Whatever we're doing, it's not working so great. Health costs are rising so fast that they're threatening our entire economy. A third of all health care is waste, unnecessary procedures and tests, according to the Dartmouth Atlas of Health.
+
+00:19:33.530 --> 00:19:38.290
+<v Ira Glass>How did we get here? Alex Blumberg and Adam Davidson have been looking into that.
+
+00:19:38.290 --> 00:19:50.880
+<v Alex Blumberg>The more you study the roots of our modern health care system, the more you realize that nobody ever planned for it to be this way. What we have right now is the result of lots of historical accidents over the last hundred years.
+
+00:19:50.880 --> 00:19:58.910
+<v Adam Davidson>So let's start at the beginning, at the turn of the last century, and get a sense of what health care looked like, let's say, circa 1900.
+
+00:19:58.910 --> 00:20:09.820
+<v Adam Davidson>In a lot of ways the world then was starting to look like the one we have today. There were electric lights going up in cities. Henry Ford produced the first car made in Detroit. The Boston Marathon was already four years old.
+
+00:20:09.820 --> 00:20:23.830
+<v Adam Davidson>But health care, health care was still basically stuck in the Middle Ages. Some doctors in the US were still using leeches and bleeding people. There were medicines to mask your symptoms and relieve your pain, but there was nothing that could actually cure you.
+
+00:20:23.830 --> 00:20:35.320
+<v Alex Blumberg>And hospitals, at least what we would think of as a hospital, they didn't really even exist. There were things by that name, but they were basically poor houses for the sick. Dark, dirty places where the indigent went to die.
+
+00:20:35.320 --> 00:20:41.510
+<v Adam Davidson>But you know, there was a big plus side. Health care was cheap. It was really, really cheap.
+
+00:20:41.510 --> 00:20:52.060
+<v Alex Blumberg>They might kill you, but they didn't charge you very much to do it. The average person spent $5 a year on health care. Even back then that wasn't very much. That's less than $100 a year in today's dollars.
+
+00:20:52.060 --> 00:21:03.800
+<v Adam Davidson>So, how do we get from that system, that pre-modern system, to our current health care system? We got there in four simple steps. Step one: start curing some illnesses.
+
+00:21:03.800 --> 00:21:29.040
+<v Alex Blumberg>This year is the 100th anniversary of a remarkable discovery. 1909, the very first drug ever to actually cure an illness. It was something called Salvarsan, a treatment for syphilis. And it was different from the usual potions and nostrums. With Salvarsan, you took a pill and then you weren't sick anymore. More of these medicines followed and once health care actually starts to work, it launches a revolution.
+
+00:21:29.040 --> 00:21:40.100
+<v Adam Davidson>In the 1910s and the 1920s, people start expecting their doctors to actually know how to cure them. To actually have an education from some decent medical school. Maybe even to have a medical license.
+
+00:21:40.100 --> 00:21:51.360
+<v Alex Blumberg>Melissa Thomasson is an economic historian at Miami University in Ohio. She focuses on the history of modern health care and she says, the medical revolution was especially apparent in hospitals.
+
+00:21:51.360 --> 00:22:14.540
+<v Melissa Thomasson>Hospitals have a radical transformation in the early part of the 20th century. So that instead of being these poor houses, these alms houses where unwed mothers and people with no family go, hospitals are actually marketing themselves as places to have babies, do appendectomies, take your tonsils out. They're focusing on, generally things with happy outcomes. Painting themselves as clean and full of sunshine.
+
+00:22:14.540 --> 00:22:17.970
+<v Adam Davidson>And not a dark, Victorian place for poor people to die.
+
+00:22:17.970 --> 00:22:19.330
+<v Melissa Thomasson>Exactly.
+
+00:22:19.330 --> 00:22:20.800
+<v Alex Blumberg>So two points.
+
+00:22:20.800 --> 00:22:37.350
+<v Alex Blumberg>All these clean hospitals with educated doctors and effective medicines, they cost more. Also, since they actually work, more and more people start using them. The cost to provide health care is increasing, the demand for health care is increasing. All of which means health care is now more expensive. A lot more.
+
+00:22:37.350 --> 00:22:43.940
+<v Adam Davidson>Which brings us to step two of how you get to our modern health care system. Step two: have a great depression.
+
+00:22:43.940 --> 00:22:57.220
+<v Alex Blumberg>It's hard to imagine what our modern health care system would be like if it wasn't for the Great Depression. By the 1920s, even before the crash, the cost of health care had gotten so high that a lot of people stopped going to the hospital unless they were so sick they had no choice.
+
+00:22:57.220 --> 00:23:28.550
+<v Adam Davidson>An official at Baylor University Hospital in Dallas, Texas, noticed that most of their hospital beds were going empty every night because of that high cost. But he also noticed that Americans, on average, were spending more on cosmetics than on medical care. He said specifically-- I have the quote right here, "We spend a dollar or so at a time for cosmetics and do not notice the high cost. The ribbon counter clerk can pay $0.50, $0.75, or $1.00 a month, yet it would take about 20 years to set aside a large hospital bill."
+
+00:23:28.550 --> 00:23:38.180
+<v Alex Blumberg>So Baylor Hospital wanted to figure out how to get ribbon counter clerks and anyone else they could find in Dallas to pay for health care like they pay for lipstick, a tiny bit every month.
+
+00:23:38.180 --> 00:23:57.710
+<v Adam Davidson>Baylor started small. They offered a deal to a group of public school teachers in Dallas. They told them, you pay us $6 a year. That's just $0.50 a month, cheaper than rouge, and we'll give you up to 21 days of hospital visits a year. The math was simple. In any given year, only a few of the teachers would need a hospital visit.
+
+00:23:57.710 --> 00:24:15.370
+<v Alex Blumberg>A few hospitals copied the Baylor approach, and then the Depression hit. Almost every hospital in the country saw their patient load disappear. All their patients were broke. So the Baylor idea became hugely popular. And eventually, it got a name: Blue Cross. Again, Melissa Thomasson.
+
+00:24:15.370 --> 00:24:38.080
+<v Melissa Thomasson>The genius in marketing this by Blue Cross is marketing it to groups of workers. You know, when I actually started studying this stuff, I got interested in it because I wondered why we have an employment-based health insurance plan. It doesn't seem very logical. But it comes right out of Blue Cross selling insurance to groups of people who probably wouldn't need it. That is, people who were healthy enough to work.
+
+00:24:38.080 --> 00:24:44.320
+<v Alex Blumberg>I see. So how did that work? Blue Cross representatives went around to factories and what did they do?
+
+00:24:44.320 --> 00:25:09.340
+<v Melissa Thomasson>Right. Exactly. They went around to factories. Here, give your employees this benefit. And it appealed to corporations then because the '20s and the '30s is the great period of corporate welfare capitalism too. Employers want to improve their workers' lives. They're starting to offer other benefits, like pensions and group life insurance at this time too.
+
+00:25:09.340 --> 00:25:21.430
+<v Alex Blumberg>The Baylor plan, this Blue Cross plan, fulfilled two goals. They got people spending their money on health care, and it also got them to use health care more. To visit the hospital, to see it as a place where you go even if you weren't at death's door.
+
+00:25:21.430 --> 00:25:36.750
+<v Adam Davidson>By the middle of the Depression, there are Blue Cross programs in most states. So by the start of World War II, this employer-based health insurance is spreading. But still only around 9% of Americans have it. It's still pretty obscure. It's nothing like our modern system.
+
+00:25:36.750 --> 00:25:42.220
+<v Adam Davidson>To get to our modern system you need another step. Step three: go to war.
+
+00:25:42.220 --> 00:25:51.370
+<v Alex Blumberg>If the Great Depression inadvertently inspired employer-based health insurance, World War II accidentally spread the idea everywhere. Again, economic historian, Melissa Thomasson.
+
+00:25:51.370 --> 00:26:17.050
+<v Melissa Thomasson>The war economy is an entirely different ball game. Think of government rationing on all levels. And so what they tell people is you legally cannot raise prices. You can't raise wages. At the same time, lots of people are joining the military and labor is scarce. So you can't find workers. Can you imagine in today's environment, you can't find workers who can work for you. You can't lure them by increasing wages.
+
+00:26:17.050 --> 00:26:20.480
+<v Alex Blumberg>And at the same time, you need to produce enormous amounts of stuff for the war effort?
+
+00:26:20.480 --> 00:26:31.750
+<v Melissa Thomasson>Exactly. So what's a poor employer to do? They turn to fringe benefits. And they just started offering more and more generous health insurance plans, and pensions, and everything else actually.
+
+00:26:31.750 --> 00:26:38.950
+<v Alex Blumberg>So you would say, Rosie, come work at my riveting factory because I can offer you this boutique insurance package versus--
+
+00:26:38.950 --> 00:26:42.980
+<v Melissa Thomasson>Exactly.
+
+00:26:42.980 --> 00:26:58.390
+<v Alex Blumberg>The war sets the stage for step four, the final step in the transformation to the health care system we have today. This step plays out over a number of years and it starts, like all the other steps, almost completely by accident, in a bureaucrat's office at the Internal Revenue Service.
+
+00:26:58.390 --> 00:27:24.980
+<v Alex Blumberg>Now, this bureaucrat is one of the key figures, it turns out, in our American health insurance saga. But his or her name has been lost to history. What we do know is in 1943, this bureaucrat, or possibly a panel of bureaucrats-- we don't even know that-- made a routine ruling. Possibly in response to a question from an accountant at some company. The ruling was, at least in some cases, employers don't have to pay taxes on health insurance premiums for their workers.
+
+00:27:24.980 --> 00:27:36.200
+<v Alex Blumberg>Now this ruling, it was actually vaguely worded and pretty confusing. But the response was huge. Because what it seemed to imply was, you get a huge tax break for offering health insurance to your workers.
+
+00:27:36.200 --> 00:28:06.600
+<v Adam Davidson>Now I want to jump in here and really focus on this. Because this is such a perfect case study in how we get a health care system that nobody ever planned for. Accountants notice that they can get their firms a tax break, so more and more employers get in on the deal. Soon they start demanding the government set it into law. And in 1954, Congress does just that. They pass the Updated Internal Revenue Code, which clearly and unambiguously states employers don't have to pay taxes on health insurance premiums.
+
+00:28:06.600 --> 00:28:19.650
+<v Alex Blumberg>And if you don't think a tax law change can have a huge impact on health care, Melissa Thomasson has some data for you, pal. Just look at how the number of people with employer-based health insurance changes over time.
+
+00:28:19.650 --> 00:28:42.640
+<v Melissa Thomasson>You start from 9% of the population in 1940 to 63% of the population in 1953. Everybody starts getting in on it. It just grows like gangbusters. And by the 1960s, roughly 70% of the population is covered by some kind of private-- what the AMA would say, "voluntary health insurance plan."
+
+00:28:42.640 --> 00:29:01.160
+<v Alex Blumberg>So employer-based health insurance, which only started because Baylor University was able to sell to teachers in Texas, and which spread because of government price controls and tax breaks, that became our system.
+
+00:29:01.160 --> 00:29:13.300
+<v Melissa Thomasson>Employer-based insurance is a horrible system. I mean, why would you want your employer buying your health insurance? Why on earth would you want your employer buying your groceries? You certainly wouldn't want that.
+
+00:29:13.300 --> 00:29:29.130
+<v Adam Davidson>Just imagine it. Your employer has a contract with a grocery store. You go in, you pay your $20 copay, and then you get to take whatever you want. You'd probably go home with a lot more groceries, and you wouldn't skimp on the luxuries. Why get hot dogs when you can have lobster?
+
+00:29:29.130 --> 00:29:43.770
+<v Adam Davidson>And from the grocery store's point of view, it would have no incentive to keep prices down. Your plan is paying the bill. Pretty soon they might get so high that people without employer provided food plans could no longer afford to eat. They'd call Congress, demand universal food coverage.
+
+00:29:43.770 --> 00:30:03.090
+<v Adam Davidson>To economists like Thomasson, that's exactly the system we have with health. We, the consumers, are totally separated from the cost of what we're consuming. We get tests and procedures we don't need because, well, why not? We're not paying for it a la carte. Our employer's paying for part of it. Our government is paying for part of it through those tax incentives.
+
+00:30:03.090 --> 00:30:52.310
+<v Adam Davidson>Melissa Thomasson says that what we have combines the worst of the market and the worst of government. Markets are usually really good at controlling costs. When they work best, products come into existence, like cellphones, or stockings. They start expensive and then they get cheaper and better. But markets don't guarantee that everyone can afford the things they need. Government can be good at that, ensuring universal access. But when you're paying for everybody, it's hard to control costs. For Melissa Thomasson, she says that either extreme, a competitive market system where consumers know what price they're paying, what they're getting, which would probably drive the price of health care down, or a government run system, which would cover everyone would be better than the accidental mixture that we have today. A really expensive system that doesn't cover us all.
+
+00:30:52.310 --> 00:31:08.680
+<v Ira Glass>Alex Blumberg and Adam Davidson from the Planet Money team. Coming up, a journey to the very frontier of health insurance. That's in a minute. From Chicago Public Radio and Public Radio International, when our program continues.
+
+00:31:08.680 --> 00:31:32.250
+<v Ira Glass>This American Life , I'm Ira Glass. Today's show, Someone Else's Money. Stories about the insurance industry and how it shapes everybody's health care. This is the second of two programs that we're doing explaining health care in America. And both are co-productions with NPR News . If you missed last week's show, you can hear it on the Internet for free. We've arrived at act three of our program. "Act Three, Insurance? Ruh Roh!"
+
+00:31:32.250 --> 00:31:42.660
+<v Ira Glass>We have a story for you know about the newest frontier for health insurance, a place where it's just starting out, although you can hear it right there. There it is. Here's Dave Kestenbaum from the NPR Planet Money team.
+
+00:31:42.660 --> 00:32:14.020
+<v David Kestenbaum>If you can't tell from all the beeps, this is an operating room. On the table, one of the millions of this country's uninsured. The patient lies motionless connected by tubes and wires to various machines. The surgeon is about to make a cut just below the knee. The operation this patient's having done is one I've had done, or close to it. We both tore the interior cruciate ligament that holds the knee together. Actually, I've had two operations, both knees, and this is his second also. There's one big difference though, he's a dog.
+
+00:32:14.020 --> 00:32:49.390
+<v David Kestenbaum>The bill for the surgery? About $3,500 per knee. Looking around this veterinary hospital, you realize pet health care, more and more, is looking a lot like human health care. This is Chesapeake Veterinary Surgical Specialists in Annapolis, Maryland. In the next room, a weimaraner has been knocked out and is being prepped for surgery. Actually, he's being vacuumed. It turns out, when a dog is unconscious, you can vacuum it. Down the hall, dogs with cancer are getting chemotherapy. The knee surgeon, Dr. Daran Roa, says not long ago, places like this just did not exist.
+
+00:32:49.390 --> 00:33:08.060
+<v Dr. Daren Roa>The numbers of surgeons and internists and cardiologists and large mega practices like this across the country has gotten astronomical. 25 years ago, you couldn't find a surgeon but at a university. And then, if you were lucky. But now there's thousands of them.
+
+00:33:08.060 --> 00:33:24.930
+<v David Kestenbaum>And so pet health care is now crossing a magic threshold, one human health care crossed long ago. It's getting good and it's getting expensive. Expensive enough that people start thinking, wouldn't it be nice if someone else paid for this? Wouldn't it be nice to have insurance?
+
+00:33:24.930 --> 00:33:41.210
+<v David Kestenbaum>Only a handful of pet owners that come here have pet insurance. Nationwide it's a few percent or so. But the business is growing rapidly at a pace of 15% or 20% a year. And you wonder if pet health care is about to import one of the major problems with human health care.
+
+00:33:41.210 --> 00:33:46.800
+<v Dennis Drent>My name is Dennis Drent and I'm the president and CEO of Veterinary Pet Insurance Company.
+
+00:33:46.800 --> 00:33:49.340
+<v David Kestenbaum>And you're the largest pet insurance company in the United States, right?
+
+00:33:49.340 --> 00:33:55.200
+<v Dennis Drent>We are, yes. By a lot. By a lot. Knock wood we stay that way.
+
+00:33:55.200 --> 00:34:03.130
+<v David Kestenbaum>Veterinary Pet Insurance, VPI, is a subsidiary of Nationwide Insurance. And Dennis Drent comes from the car insurance, house insurance world.
+
+00:34:03.130 --> 00:34:04.830
+<v David Kestenbaum>Do you have pet?
+
+00:34:04.830 --> 00:34:10.200
+<v Dennis Drent>I have two. I have two miniature dachshunds. They're 10 years old, Willie and Charlie.
+
+00:34:10.200 --> 00:34:12.090
+<v David Kestenbaum>And, are they insured?
+
+00:34:12.090 --> 00:34:50.870
+<v Dennis Drent>Absolutely. And I'll tell you why. The veterinarians have something called stop treatment, which is a concept where they actually measure how much will somebody spend on medical procedures until they'll say it's too much and we're just going to put the pet down. So I was talking with my wife one night saying, OK, Susan, how much would you spend? What's your stop treatment point? And we got to $10,000 and she wasn't even close to stopping treatment. And I know, being in this business now, that you can run up bills over $10,000 pretty easily. So at that point our dogs have been insured ever since.
+
+00:34:50.870 --> 00:35:05.710
+<v David Kestenbaum>Let's just back up there. That idea of stop treatment level, how much would you pay to save your cat or your dog? That is the hardest question you can ask a pet owner. But let's face it, most people have a number. And it's a number that the industry measures.
+
+00:35:05.710 --> 00:35:44.290
+<v David Kestenbaum>In 1997, it was $576. In 2007, just 10 years later, it more than doubled to $1,451. Insurance for a dog per month is something like $35. Dennis Drent sees pet insurance as a win-win. Actually, a win-win-win. Pets' lives get saved, the insurance company makes a little money, and the vets also make more money. But that win-win-win in the human health care world, it creates big problems. Doctors feel free to order more tests, patients don't care because they're not paying the bill. Everyone is so busy winning the system wastes money.
+
+00:35:44.290 --> 00:35:57.460
+<v David Kestenbaum>I found a report that was refreshingly blunt about the money that veterinarians can make from all this. It was put together by the National Commission on Veterinary Economic Affairs. It's hard to imagine the American Medical Association putting out something like this for doctors.
+
+00:35:57.460 --> 00:36:17.010
+<v David Kestenbaum>The report says on page four that with pet insurance, clients quote, "likely will use your services even more often and opt for more advanced medical procedures." It points out that insurance can reduce quote, "price resistance on the part of the client." Quote, "with cost concerns removed, clients become more engaged and more responsive."
+
+00:36:17.010 --> 00:36:21.470
+<v David Kestenbaum>I read that part of the report to Dennis Drent, who said, "yeah, that's right."
+
+00:36:21.470 --> 00:36:47.060
+<v Dennis Drent>Historically, veterinarians haven't made as much money as, for example, doctors. So we're trying to make them help them understand that through insurance they can make more money. And by making more money, they can afford better procedures, better equipment, and provide better care for the animals. So again, I keep getting back to this win-win all around.
+
+00:36:47.060 --> 00:36:53.900
+<v Susan Markham>Ready for me to go? A big fat thank-you from me and VPI for all you do for pets and their peeps every day.
+
+00:36:53.900 --> 00:37:08.720
+<v David Kestenbaum>This is Susan Markham, who also works for VPI, the pet insurance company. I tagged along when she made her pitch to a veterinary hospital outside of Atlanta. The staff sat around listening politely, some in scrubs, eating barbecue that the pet insurance company had paid for.
+
+00:37:08.720 --> 00:37:33.180
+<v David Kestenbaum>Now in a lot of markets, you could just make the pitch, this will make you a lot of money, and that would work really well. But it turns out, animal doctors, like people doctors, don't like thinking that money matters to them. Their job after all, is supposed to be about something bigger: saving lives. And Susan Markham's pitch has nothing to do with profit. She has a much more powerful weapon: kittens. A particular kitten named Minnie.
+
+00:37:33.180 --> 00:37:56.050
+<v Susan Markham>A young mother and her 8-year-old son brought Minnie in. He was crying; he'd stepped on Minnie's leg and it was fractured. And Dr. McCarthy said, good news. She'll go home with you tomorrow. You won't notice that anything has happened to her six months from now. She'll heal up and be just fine. But sadly that young mother declined that treatment. Who can tell me why she might have done that?
+
+00:37:56.050 --> 00:38:03.480
+<v David Kestenbaum>The story has a bad ending. The owner felt she couldn't afford to get Minnie's leg fixed. And overnight, she took Minnie to be euthanized.
+
+00:38:03.480 --> 00:38:16.210
+<v Susan Markham>So Minnie's mom spent much more to have a very upset family and son, and a dead kitten than she would have had she had pet insurance. And she would have had a well kitten.
+
+00:38:16.210 --> 00:38:27.860
+<v David Kestenbaum>Veterinarians are animal people. And one thing they hate possibly more than anything else is having to kill an animal they can fix. Which of course, is the upside to insurance. It saves lives.
+
+00:38:27.860 --> 00:38:44.420
+<v David Kestenbaum>Veterinarians have been wary of pet insurance though. They're afraid it will become more like human health care. In particular, they're afraid of three letters: HMO. Managed care. They don't want an insurance company telling them how to practice medicine. But these kind of presentations do seem to work.
+
+00:38:44.420 --> 00:38:45.540
+<v Susan Markham>So I've got these for you.
+
+00:38:45.540 --> 00:38:49.340
+<v David Kestenbaum>Susan leaves a pile of pet insurance brochures and giveaway pens on the table.
+
+00:38:49.340 --> 00:38:55.390
+<v Susan Markham>And prizes. And I'm going to leave you another one in case you want that to be in reception or if you want to give it to a client or--
+
+00:38:55.390 --> 00:39:03.480
+<v David Kestenbaum>Win, win, win.
+
+00:39:03.480 --> 00:39:19.960
+<v David Kestenbaum>So if you're trying to decide how you feel about this whole thing, whether insurance is distorting pet health care, sending us into a world where lots of dogs will be getting $7,000 knee surgeries, or whether it's meeting a need, or both. I think it's time to meet someone who actually has pet insurance.
+
+00:39:19.960 --> 00:39:26.700
+<v Kristen Zorbini Bongard>We first noticed that something was up with Harriet in March.
+
+00:39:26.700 --> 00:39:31.800
+<v David Kestenbaum>This is Kristen Zorbini Bongard, she lives in Janesville, Wisconsin.
+
+00:39:31.800 --> 00:39:39.620
+<v Kristen Zorbini Bongard>I started doing some snuggle time with Harriet and noticed that she had a lump.
+
+00:39:39.620 --> 00:39:57.770
+<v David Kestenbaum>Before we go any further into the surgeries and the tests, I have to tell you that Harriet is a hedgehog. A hedgehog with health insurance. If that seems crazy to you, you do not know Kristen, and you do not know hedgehogs. One of the many great things about hedgehogs, she says, is that they can roll up into little balls.
+
+00:39:57.770 --> 00:40:22.020
+<v Kristen Zorbini Bongard>It's adorable. It's a very wonderful thing to see. When you turn them over on their backs, all of a sudden, all you see is quills. And it's a wonderful defense mechanism. That's what it is. But then all of sudden, you see a nose pop out, and two eyes, and maybe the front two paws. And then some ears. It's a very cute thing to watch.
+
+00:40:22.020 --> 00:40:40.110
+<v David Kestenbaum>Dogs will trust just about anyone, she says, but hedgehogs, you have to earn their trust. And she likes that. So Harriet had a lump and Kristin brought her into the vet. A test showed the lump was cancerous. The vet, she says, told her this in a calm, factual way. And Kristen scheduled a date for surgery.
+
+00:40:40.110 --> 00:40:44.270
+<v Kristen Zorbini Bongard>The anesthesia that they give is a gas anesthesia.
+
+00:40:44.270 --> 00:40:48.400
+<v David Kestenbaum>They put a little mask over the nose?
+
+00:40:48.400 --> 00:40:54.220
+<v Kristen Zorbini Bongard>Usually what they do is they put a giant mask over the entire hedgehog.
+
+00:40:54.220 --> 00:40:55.110
+<v David Kestenbaum>I see.
+
+00:40:55.110 --> 00:40:57.180
+<v Kristen Zorbini Bongard>Yeah, it's rather funny to watch.
+
+00:40:57.180 --> 00:40:59.880
+<v David Kestenbaum>The lump came right out, but there were complications.
+
+00:40:59.880 --> 00:41:38.390
+<v Kristen Zorbini Bongard>It seems like she had a reaction to the sutures and she has ripped open the sutures a couple times. Had to be stapled shut. And we actually ended up going in and doing the full surgical suite to see if there was anything left in there that was bothering her. She did end up healing, but continues to scrape at it infrequently. And so we've had to do some experimenting on her. She's on some hedgehog-- and I say "hedgehog" loosely-- anti-psychotics.
+
+00:41:38.390 --> 00:41:40.710
+<v David Kestenbaum>Meaning they weren't developed for hedgehogs?
+
+00:41:40.710 --> 00:41:48.740
+<v Kristen Zorbini Bongard>Oh no. And as far as we know, we don't actually know that any other hedgehogs have ever been prescribed anti-psychotics.
+
+00:41:48.740 --> 00:41:55.680
+<v David Kestenbaum>So Harriet gets 0.06 milliliters of medicine twice a day, and she's back to her snugly self?
+
+00:41:55.680 --> 00:41:59.780
+<v Kristen Zorbini Bongard>Yeah, she is very snugly. She's very snugly.
+
+00:41:59.780 --> 00:42:03.150
+<v David Kestenbaum>So how much did that cost? Do you actually have the bill?
+
+00:42:03.150 --> 00:42:35.170
+<v Kristen Zorbini Bongard>I do. In the beginning the bills were relatively low. You know, $374, $150, $366. And VPI paid 70% of the first bill, 60% of the second bill, 43% of the third bill.
+
+00:42:35.170 --> 00:42:36.570
+<v David Kestenbaum>VPI is the pet insurance?
+
+00:42:36.570 --> 00:42:37.560
+<v Kristen Zorbini Bongard>Yes.
+
+00:42:37.560 --> 00:42:53.130
+<v David Kestenbaum>Health insurance for a hedgehog costs about $80 a year. And in the end, VPI put out $802 for Harriet's care. Kristen and her husband had to pay the rest, $1,911.20 of their own money.
+
+00:42:53.130 --> 00:43:09.390
+<v David Kestenbaum>Kristen says she's not rich. She says things are actually kind of tough for her and her husband. She says, like a lot of people, they've been scaling back. And at the same time, she says having insurance did make her spend more on Harriet than she would have without insurance. On the other hand, it saved Harriet's life.
+
+00:43:09.390 --> 00:43:12.310
+<v David Kestenbaum>I wish you had Harriet there, you could bring her up to the phone.
+
+00:43:12.310 --> 00:43:16.080
+<v Kristen Zorbini Bongard>Oh yeah. I can mimic the noise she would make.
+
+00:43:16.080 --> 00:43:17.030
+<v David Kestenbaum>Go ahead.
+
+00:43:17.030 --> 00:43:29.280
+<v Kristen Zorbini Bongard>[UNINTELLIGIBLE PHRASE] That's pretty much it.
+
+00:43:29.280 --> 00:43:38.880
+<v David Kestenbaum>I asked Kristen about the downside of insurance, that it can lead to all kinds of unnecessary tests and procedures. And she agreed that could be a problem for certain pets.
+
+00:43:38.880 --> 00:43:46.510
+<v Kristen Zorbini Bongard>That's an interesting argument. I can see how that could be, especially for dogs or cats.
+
+00:43:46.510 --> 00:43:48.300
+<v David Kestenbaum>How come?
+
+00:43:48.300 --> 00:44:04.120
+<v Kristen Zorbini Bongard>Hey, you know, we have this new vaccine, why don't we try it on Rover? Hey, sure. Why not? No skin off my back. It's covered by my insurance. But I guess for me, as a hedgehog owner, there's just not that much to do.
+
+00:44:04.120 --> 00:44:05.880
+<v David Kestenbaum>Harriet is on anti-psychotics?
+
+00:44:05.880 --> 00:44:20.790
+<v Kristen Zorbini Bongard>Yes. Yeah, she  is. That's not covered by insurance, though. We pay for that out of pocket. I know she's on anti-psychotics. Oh my gosh, I know.
+
+00:44:20.790 --> 00:44:25.400
+<v David Kestenbaum>Can you tell she's less psychotic?
+
+00:44:25.400 --> 00:44:40.140
+<v Kristen Zorbini Bongard>How can you tell if a hedgehog is psychotic? Oh my God.
+
+00:44:40.140 --> 00:44:44.690
+<v David Kestenbaum>I was curious to know what an actual economist made of all this, so I called up Tim Harford.
+
+00:44:44.690 --> 00:44:46.270
+<v Tim Harford>Hi, David, how are you?
+
+00:44:46.270 --> 00:44:47.100
+<v David Kestenbaum>OK.
+
+00:44:47.100 --> 00:44:53.290
+<v Ira Glass>Tim writes a column for The Financial Times called, "Dear Economist," where people write in with all kinds of crazy questions.
+
+00:44:53.290 --> 00:44:57.620
+<v David Kestenbaum>OK, dear economist, I have a letter I wrote out here to you.
+
+00:44:57.620 --> 00:44:59.550
+<v Tim Harford>Sure.
+
+00:44:59.550 --> 00:45:07.750
+<v David Kestenbaum>Dear economist, is health insurance for pets good or bad? That's it. That's the whole question.
+
+00:45:07.750 --> 00:45:11.980
+<v Tim Harford>Like any good economist, I'm going to say yes and no. How's that?
+
+00:45:11.980 --> 00:45:31.310
+<v David Kestenbaum>Harford was a little shocked by the whole hedgehog thing. He's not an animal lover. He says his parents cats used to spray his books. But when I explained how pet insurance worked, he actually got excited. From an economic perspective, he says, we've set up a better system for our pets than we have for ourselves. One that could actually contain costs.
+
+00:45:31.310 --> 00:45:52.630
+<v David Kestenbaum>He likes that owners have to pay part of say, pet surgery. More than that $20 copay some of us have to cough up when we go to the doctor. He says that forces people who have insurance to think about how much things cost. He also likes that pet insurance is not bundled with our jobs. People can comparison shop, buy it on the open market, find the plan that gives them exactly what they need.
+
+00:45:52.630 --> 00:46:12.710
+<v Tim Harford>You're making me very hopeful actually, David. I now have a vision that people are going to see pet insurance, maybe they'll see that there's a better way. Maybe pet insurance is going to be the beacon that inspires us to reform human health care insurance.
+
+00:46:12.710 --> 00:46:37.290
+<v David Kestenbaum>The real downside, he says, is that pet insurance, human health insurance, they're all insurance. And insurance fundamentally, is a lousy way to pay for things. It separates people from the money they're spending. Which inevitably leads to us winding up with tests and drugs and procedures we don't really need, just to be safe. But there's one important difference between health insurance for pets and health insurance for us.
+
+00:46:37.290 --> 00:47:05.210
+<v David Kestenbaum>With pets, I think we're used to the idea that they're going to die at some point. We all have that stop treatment level. And that alone will probably keep spending from getting too out of hand. But if my wife gets in a car accident, or my kids, my stop treatment level? It doesn't exist. I want that insurance company to meet me at the hospital loading dock with a truck full of money. Lots and lots of money.
+
+00:47:05.210 --> 00:47:13.130
+<v Ira Glass>David Kestenbaum.
+
+00:47:13.130 --> 00:47:16.630
+<v Ira Glass>"Act Four, Sorry Johnny, It's Only Business."
+
+00:47:16.630 --> 00:47:37.330
+<v Ira Glass>Last week on our show, one of our producers, Sarah Koenig, did a story about the insurance industry and health care costs, where she talked to some of the people who run the insurance company, Aetna, and to an economist who studies all this. And she found out some things about the economics of the insurance industry that were so illuminating and counter-intuitive that we asked her to put together another story about what she learned, starting with Aetna.
+
+00:47:37.330 --> 00:47:58.130
+<v Sarah Koenig>Back in 2001, Aetna was a company on the verge of collapse. It had bought up three other big companies to become the biggest health insurer in the country. It covered 21 million people. But its cash flow problem was so dire it had to cut costs or go under. And the thing it did to stay solvent has been making the rounds of left leaning media lately. Because on its face it's kind of shocking.
+
+00:47:58.130 --> 00:48:02.990
+<v Sarah Koenig>Wendell Potter, a former health insurance executive for Cigna, talked about it on Bill Moyers.
+
+00:48:02.990 --> 00:48:05.820
+<v Wendell Potter>They shed eight million members.
+
+00:48:05.820 --> 00:48:07.560
+<v Bill Moyers>Eight million policyholders?
+
+00:48:07.560 --> 00:48:10.390
+<v Wendell Potter>Eight million people. Men, women, and children. Yes.
+
+00:48:10.390 --> 00:48:20.220
+<v Sarah Koenig>Potter quit the insurance business last year and is now spreading the word pretty effectively about all the tactics insurance companies use to avoid paying for sick people's treatment, so they can boost their own profits.
+
+00:48:20.220 --> 00:48:31.530
+<v Wendell Potter>They intentionally had this program to purge these accounts. Eight million fewer people were enrolled in Aetna's plans. Many of them, undoubtedly, joined the ranks of the uninsured because their employers had been purged.
+
+00:48:31.530 --> 00:48:33.860
+<v Bill Moyers>So what happened to Aetna's stock?
+
+00:48:33.860 --> 00:48:34.910
+<v Wendell Potter>Went up.
+
+00:48:34.910 --> 00:48:46.070
+<v Sarah Koenig>Not only did the stock go up, it quadrupled in value. And the story of Aetna's turnaround became something of a Wall Street legend. Potter also used Aetna as an example when he spoke to a US senate committee in June.
+
+00:48:46.070 --> 00:49:03.740
+<v Sarah Koenig>The implication of course, is that Aetna singled out its sickest and therefore, most expensive patients, and dumped them. It sounds really bad. It's the kind of story we've gotten used to hearing about insurance companies. But the truth of this story is a little more complicated, a little less Machiavellian, and tells you a lot about how the insurance industry works.
+
+00:49:03.740 --> 00:49:17.460
+<v Sarah Koenig>If you ask Jack Rowe, the Aetna CEO who engineered the turnaround, Aetna's main problem in 2001, was that it simply wasn't charging enough for its health plans. Customers weren't paying enough in premiums to cover what Aetna was paying out for their medical claims.
+
+00:49:17.460 --> 00:49:21.520
+<v Jack Rowe>The entire year of 2001, Aetna wound up losing a million dollars a day.
+
+00:49:21.520 --> 00:49:39.790
+<v Sarah Koenig>So his solution, or at least a big part of it, was to raise premiums on those accounts by 10%, 20%, 30%. In some cases, they shot up by more than 50%. Many, many customers who couldn't pay the increased rates dropped Aetna's insurance. And Aetna did one other thing, something he says you have to do if you're in this situation.
+
+00:49:39.790 --> 00:49:47.940
+<v Jack Rowe>What you do is you get out of the markets that you cannot effectively price your products in.
+
+00:49:47.940 --> 00:49:49.740
+<v Sarah Koenig>And what were those markets for you guys?
+
+00:49:49.740 --> 00:50:07.600
+<v Jack Rowe>Well, the most important characteristic, what did they have in common, Jack? The answer is that they were in markets in which we did not have very significant presence. So that the contracts that we had with the doctors and the hospitals were not as favorable as that of our competitors.
+
+00:50:07.600 --> 00:50:19.280
+<v Sarah Koenig>This is the heart of how Jack Rowe explains what happened back in 2001. Contrary to what his critics allege, Jack Rowe says Aetna did not drop customers because they were sick. It dropped them because they were expensive.
+
+00:50:19.280 --> 00:50:35.570
+<v Jack Rowe>You're assuming that the patients are more expensive because they're sick. And the fact is the patients were more expensive because we were paying the doctors and the hospitals more for the same services than our competitors were.
+
+00:50:35.570 --> 00:50:50.430
+<v Sarah Koenig>So Aetna simply folded in places where it was, say, fourth or fifth in the market and couldn't hack it against the bigger guys. But taking a former CEO's word for all this didn't seem wise. So I ran Jack Rowe's explanation by Uwe Reinhardt, a health care economist at Princeton University.
+
+00:50:50.430 --> 00:50:58.220
+<v Sarah Koenig>When he's talking about, we didn't have good contracts with hospitals, does that ring true to you?
+
+00:50:58.220 --> 00:51:15.690
+<v Uwe Reinhardt>Oh, yes. The insurance market is quite fragmented, which means that in a market, unless you have a large market share, you really don't have any market power in bargaining with doctors and hospital over prices.
+
+00:51:15.690 --> 00:51:49.080
+<v Sarah Koenig>In other words, in a market where everyone can cut their own deal, the big insurer who brings a hospital a lot of patients, say, 75,000 a year, has a lot of leverage. It can demand discounted rates from the hospital. Because the hospital can't survive without those 75,000 sick people. But to cover all its costs, the hospital's overhead, the hospital has to make up for that money it's not getting from the discounted guys. So it sticks higher prices to the littler insurers who have no leverage. Because the hospital can live without their, say, 600 patients. The little guy either has to eat the higher costs or pull out of that market.
+
+00:51:49.080 --> 00:52:14.500
+<v Uwe Reinhardt>This is called the cost shift in the business. And that is what happens in spades in the private insurance industry. It is a constant game of shifting costs from one payer to the other. So that's one thing, the more competitors you have in this insurance industry, the weaker each will be in bargaining with doctors and hospitals.
+
+00:52:14.500 --> 00:52:33.160
+<v Sarah Koenig>So in the health insurance world, more competition does not necessarily equal lower prices for consumers. This is one of the many things Reinhardt told me that blew my mind. That ran counter to everything I assumed about how the free market is supposed to work. Another thing he told me was that there was a period when insurers were able to successfully bargain hospital prices down.
+
+00:52:33.160 --> 00:52:51.450
+<v Sarah Koenig>It was in the mid '90s when big insurance companies got a lot tougher about cutting costs, and started ramming contracts down hospitals' throats. Contracts hospitals found it hard to live by. So in response, hospitals and other health care providers beefed up and consolidated, forming these huge health care systems that could effectively fight back against the large insurers.
+
+00:52:51.450 --> 00:53:14.100
+<v Uwe Reinhardt>And the argument was always beautifully put. The consolidation was to have more coordinated patient care. This it was all just bullshine. What they really wanted is to have a powerful block to negotiate with the insurer. Most health economists will tell you, the hospital sector probably is too consolidated, too powerful.
+
+00:53:14.100 --> 00:53:23.900
+<v Sarah Koenig>What that means is that big insurers are less and less able to resist rate hikes demanded by big providers. Plus the very act of negotiating all these rates with all these different hospitals is expensive.
+
+00:53:23.900 --> 00:54:23.880
+<v Uwe Reinhardt>Imagine now, Aetna has a huge number of people who all year long go around bargaining over prices with each hospital and doctor. And out comes a pricing system that is simply laughable. Why should, for example, in California, if you look at WellPoint, as an insurer, for an appendectomy for some hospitals they pay them maybe $1,500. In other hospitals, they pay $13,000. Explain to me where that could possibly make any sense at all. And that is why I just say the insurance industry is congenitally weak in bargaining with the supply side of the American health sector. And the result has been that we're spending twice as much per capita on health care than most countries without, however, the commensurate benefits that go with that.
+
+00:54:23.880 --> 00:54:35.080
+<v Uwe Reinhardt>Now pick your favorite theory. A, Americans are really dumb, or B, American suppliers are unbelievably clever.
+
+00:54:35.080 --> 00:54:43.600
+<v Sarah Koenig>This isn't at all the picture we got from President Obama's big health care speech in September. When he characterized the lack of competition among insurance companies as the problem.
+
+00:54:43.600 --> 00:54:52.350
+<v Barack Obama>Without competition, the price of insurance goes up, and quality goes down. And it makes it easier for insurance companies to treat their customers badly.
+
+00:54:52.350 --> 00:54:58.380
+<v Sarah Koenig>That's the foundation for his argument for a public insurance option. That more competition will keep the big guys in check.
+
+00:54:58.380 --> 00:55:08.260
+<v Barack Obama>An additional step we can take to keep insurance companies honest is by making a not for profit public option available in the insurance exchange.
+
+00:55:08.260 --> 00:55:11.270
+<v Sarah Koenig>Has he got this picture right?
+
+00:55:11.270 --> 00:55:43.640
+<v Uwe Reinhardt>I don't think he does. I wish I had a half hour with him to explain it to him. If you pit hundreds of little insurers against each other, what makes any one think that each of them has enough market clout to bargain successfully with a hospital? So I don't think this public health plan, adding yet one more competitor, is going to bring costs down at all. I don't think many economists would actually buy that argument.
+
+00:55:43.640 --> 00:56:09.960
+<v Sarah Koenig>Reinhardt says if the public health plan was able to get low rates, Medicare-style rates from doctors and hospitals, one result could be that the hospitals would just shift their costs over to the private insurers, who would either absorb them, or in some cases, pass them on to customers in the form of higher premiums. There's a lot of disagreement about that right now. About how or if the public option would affect cost shifting. In any case, Reinhardt thinks we should consider a whole other way.
+
+00:56:09.960 --> 00:56:23.210
+<v Uwe Reinhardt>What the president at some point-- maybe not now, he's busy. But at some point, needs to talk about is the virtue of an all payer system, like Maryland. Look to Maryland as where America ought to be.
+
+00:56:23.210 --> 00:56:43.070
+<v Sarah Koenig>In Maryland, for the past 30-plus years, a state commission has set prices for all procedures at all hospitals. There's no cost shifting. So that every single person who ends up in the hospital, regardless of whether they've got private insurance, Medicare, Medicaid, or no insurance at all, gets the same price. Beth Sammis is a deputy commissioner at the Maryland Insurance Administration.
+
+00:56:43.070 --> 00:56:54.660
+<v Beth Sammis>So the bill is just, you came in, you had an appendectomy. The price of the appendectomy is x amount, and that's the bill that goes out. Everyone is treated fairly.
+
+00:56:54.660 --> 00:57:01.650
+<v Sarah Koenig>So, regardless of their market share, no insurance company gets a discount. And no insurance company gets screwed.
+
+00:57:01.650 --> 00:57:22.300
+<v Beth Sammis>I mean we think that one of the strengths of our system is that they are not competing on hospital prices. And thus, in order to be able to differentiate themselves within the marketplace, they have to pay more attention to things that are within their own control. Care management and how efficient they are in delivering the benefits.
+
+00:57:22.300 --> 00:57:45.560
+<v Sarah Koenig>So wait, the crazy commies in Maryland think insurance companies should compete on quality, not quantity? But Maryland is just one state. If the whole country operated like Maryland, Aetna might not have had to drop 8 million customers back in 2001. Instead, for the former CEO, Jack Rowe, it was the only solution that made practical sense. And that strategy was a big success. Things haven't been as heady since then.
+
+00:57:45.560 --> 00:58:04.020
+<v Sarah Koenig>This past July, Aetna released its second quarter earnings and the company's profits were down 28%. Aetna's chief executives assured Wall Street they'd right the ship in the next year by cracking down on excessive claims. And by turning to their old standby, pretty much every company's standby, raising premiums.
+
+00:58:04.020 --> 00:58:22.770
+<v Sarah Koenig>An analyst for Barclays estimates Aetna will lose 600,000 members in the next year to meet its profit goals. It's the same strategy they used in 2001. Aetna's options haven't changed because our health care system hasn't changed. Uwe Reinhardt, the health care economist, says we shouldn't blame insurance companies for how this business works.
+
+00:58:22.770 --> 00:59:03.640
+<v Uwe Reinhardt>Insurance executives are not evil people. If you ever had a brew with Jack Rowe, you would find that. They're not evil people, but this is the game into which they are thrust. For them, given the thin margins they work on, this is all they can really do. In fact, I once wrote a paper bringing out the worst in an otherwise good people. It was a paper delivered to the insurance industry. And I said, you're all good guys. You go to church and synagogue, but you do some awfully mean things. And you do them because you're in a structure that makes you do these things.
+
+00:59:03.640 --> 00:59:28.040
+<v Ira Glass>That story from Sarah Koenig.
+
+00:59:28.040 --> 00:59:42.190
+<v Ira Glass>Our program was produced today by Jane Feltes and myself with Alex Blumberg, Sean Cole, Sarah Koenig, Lisa  Pollak, Alissa Shipp and Nancy Updike. Our senior producer is Julie Snyder. Production help from Aaron Scott. Seth Lind is our production manager. Emily Condon is our office manager. Our music consultant is Jessica Hopper.
+
+00:59:42.190 --> 00:59:56.330
+<v Ira Glass>[ACKKNOWLEDGEMENTS]
+
+00:59:56.330 --> 01:00:14.510
+<v Ira Glass>Planet Money is a co-production of our program and NPR News. If you like the kind of stories you heard today, you can hear jargon free explanations just like it about what's going on in the economy and in the health care system. You can hear them three times a week on their podcasts, www.npr.org/money.
+
+01:00:14.510 --> 01:00:19.510
+<v Ira Glass>This American Life is distributed by Public Radio International. WBEZ management oversight for our program by our boss, Mr. Torey Malatia. You know, when you roll him into a little ball he makes the most adorable noise. Seriously, it sounds like this. [UNINTELLIGIBLE PHRASE] So snugly. I'm Ira Glass, back next week with a program that will not mention health care at all on This American Life .
