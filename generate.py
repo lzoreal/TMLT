@@ -223,12 +223,37 @@ def get_episode_info(url):
 
         description = desc.get("content", "")
 
+    # =====================
+    # Episode image
+    # =====================
+
+    image = ""
+
+    # TAL 官方 episode 图片
+
+    episode_img = soup.select_one("figure.tal-episode-image img")
+
+    if episode_img:
+
+        image = episode_img.get("src", "")
+
+    # fallback
+
+    if not image:
+
+        og_image = soup.select_one("meta[property='og:image']")
+
+        if og_image:
+
+            image = og_image.get("content", "")
+
     return {
         "title": title,
         "audio": audio,
         "url": url,
         "pubDate": pub_date,
         "description": description,
+        "image": image,
     }
 
 
@@ -284,16 +309,9 @@ def get_transcript(episode):
 
     lines = []
 
-    # TAL transcript 结构可能变化
-    # 尝试带 begin 属性的段落
-
-    for p in soup.find_all("p"):
+    for p in soup.select("p[begin]"):
 
         begin = p.get("begin")
-
-        if not begin:
-
-            continue
 
         start = parse_time(begin)
 
@@ -301,11 +319,29 @@ def get_transcript(episode):
 
             continue
 
+        speaker = ""
+
+        # 向上寻找 h4
+
+        parent = p
+
+        while parent:
+
+            h4 = parent.find("h4")
+
+            if h4:
+
+                speaker = h4.get_text(" ", strip=True)
+
+                break
+
+            parent = parent.parent
+
         text = p.get_text(" ", strip=True)
 
         if text:
 
-            lines.append((start, text))
+            lines.append({"start": start, "speaker": speaker, "text": text})
 
     return lines
 
@@ -317,15 +353,18 @@ def get_transcript(episode):
 
 def format_vtt_time(seconds):
 
-    seconds = int(seconds)
+    milliseconds = int(round(seconds * 1000))
 
-    hour = seconds // 3600
+    hour = milliseconds // 3600000
+    milliseconds %= 3600000
 
-    minute = (seconds % 3600) // 60
+    minute = milliseconds // 60000
+    milliseconds %= 60000
 
-    second = seconds % 60
+    second = milliseconds // 1000
+    ms = milliseconds % 1000
 
-    return f"{hour:02}:" f"{minute:02}:" f"{second:02}.000"
+    return f"{hour:02}:{minute:02}:{second:02}.{ms:03}"
 
 
 def create_vtt(lines):
@@ -334,11 +373,15 @@ def create_vtt(lines):
 
     for index, item in enumerate(lines):
 
-        start, text = item
+        start = item["start"]
+
+        text = item["text"]
+
+        speaker = item.get("speaker", "")
 
         if index + 1 < len(lines):
 
-            end = lines[index + 1][0]
+            end = lines[index + 1]["start"]
 
         else:
 
@@ -346,11 +389,18 @@ def create_vtt(lines):
 
         output.append(f"{format_vtt_time(start)} --> " f"{format_vtt_time(end)}")
 
-        output.append(text)
+        if speaker:
+
+            output.append(f"<v {speaker}>{text}")
+
+        else:
+
+            output.append(text)
 
         output.append("")
 
     return "\n".join(output)
+
 
 def rss_date(date_string):
 
@@ -358,9 +408,7 @@ def rss_date(date_string):
         return ""
 
     try:
-        dt = datetime.fromisoformat(
-            date_string.replace("Z", "+00:00")
-        )
+        dt = datetime.fromisoformat(date_string.replace("Z", "+00:00"))
 
         return format_datetime(dt)
 
@@ -379,11 +427,20 @@ def create_rss(episodes, base_url):
 
 <rss version="2.0"
 xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
 xmlns:podcast="https://podcastindex.org/namespace/1.0">
 
 <channel>
 
 <title>This American Life Transcript Feed</title>
+
+<itunes:image
+href="https://www.thisamericanlife.org/sites/default/files/images/promo/tal_partners_blue_-_16x9.jpg"
+/>
+
+<podcast:image
+href="https://www.thisamericanlife.org/sites/default/files/images/promo/tal_partners_blue_-_16x9.jpg"
+/>
 
 <link>
 https://www.thisamericanlife.org/
@@ -404,15 +461,9 @@ Unofficial This American Life feed with VTT transcripts
 
 """
 
-
-    for episode in sorted(
-        episodes.keys(),
-        key=lambda x: int(x),
-        reverse=True
-    ):
+    for episode in sorted(episodes.keys(), key=lambda x: int(x), reverse=True):
 
         item = episodes[episode]
-
 
         rss += f"""
 
@@ -437,6 +488,14 @@ Unofficial This American Life feed with VTT transcripts
 {html.escape(item.get("description",""))}
 </description>
 
+<itunes:image
+href="{html.escape(item.get("image",""), quote=True)}"
+/>
+
+
+<podcast:image
+href="{html.escape(item.get("image",""), quote=True)}"
+/>
 
 <pubDate>
 {rss_date(item.get("pubDate",""))}
@@ -467,14 +526,12 @@ language="en"
 
 """
 
-
     rss += """
 
 </channel>
 
 </rss>
 """
-
 
     return rss
 
@@ -509,9 +566,7 @@ def main():
     print("Cached episodes:", len(episodes_cache))
 
     archive = get_archive()
-    archive = dict(
-    list(archive.items())[:5]
-)
+    archive = dict(list(archive.items())[:5])
 
     print("Archive episodes:", len(archive))
 
