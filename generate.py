@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 import argparse
-import html
 import json
+import html
 import random
 import re
 import time
@@ -10,7 +10,6 @@ import time
 from datetime import datetime
 from email.utils import format_datetime
 from pathlib import Path
-from urllib.parse import urlparse, unquote
 
 import requests
 from bs4 import BeautifulSoup
@@ -43,7 +42,7 @@ session.headers.update(
 
 
 # ============================================================
-# HTTP
+# HTTP Request
 # ============================================================
 
 def fetch(url, retries=5):
@@ -52,10 +51,11 @@ def fetch(url, retries=5):
 
         try:
 
+            print(f"Fetching: {url}")
+
             r = session.get(
                 url,
                 timeout=30,
-                allow_redirects=True,
             )
 
             if r.status_code == 429:
@@ -76,7 +76,7 @@ def fetch(url, retries=5):
         except Exception as e:
 
             if attempt == retries - 1:
-                raise
+                raise e
 
             wait = 10 + attempt * 10
 
@@ -85,13 +85,11 @@ def fetch(url, retries=5):
 
             time.sleep(wait)
 
-    raise Exception(
-        "Unable to fetch " + url
-    )
+    raise Exception("Unable to fetch " + url)
 
 
 # ============================================================
-# JSON
+# JSON Cache
 # ============================================================
 
 def load_json(path, default):
@@ -110,8 +108,7 @@ def load_json(path, default):
     except Exception as e:
 
         print(
-            f"Warning: failed to load "
-            f"{path}: {e}"
+            f"⚠️ JSON 读取失败: {path}: {e}"
         )
 
         return default
@@ -130,739 +127,174 @@ def save_json(path, data):
 
 
 # ============================================================
-# URL / Audio helpers
+# Resolve audio URL
 # ============================================================
 
-AUDIO_EXTENSIONS = (
-    ".mp3",
-    ".m4a",
-    ".aac",
-    ".ogg",
-    ".opus",
-    ".wav",
-    ".flac",
-    ".mp4",
-)
-
-
-def clean_url(url):
-
-    if not url:
-        return ""
-
-    url = html.unescape(url)
-
-    url = url.replace(
-        "\\/",
-        "/",
-    )
-
-    url = url.strip()
-
-    # 去掉 JSON / HTML / XML 周围可能存在的字符
-    url = url.strip(
-        "\"'<>[](){}"
-    )
-
-    return url
-
-
-def path_looks_like_audio(url):
-
+def resolve_audio_url(url):
     """
-    不检查域名，只看 URL path。
+    从包装后的 audio URL 中解析 /s/ 后面的真实音频地址。
 
     例如：
 
-    https://abc.example.com/foo/bar.mp3
+    https://pfx.vpixl.com/xxx/pdst.fm/e/prefix.up.audio/s/
+    npr.simplecastaudio.com/xxx/episodes/xxx/audio/128/default.mp3?xxx
+
+    解析为：
+
+    https://npr.simplecastaudio.com/xxx/episodes/xxx/audio/128/default.mp3?xxx
+
+    不限制任何域名。
+
+    不判断：
+
+    - castfire
+    - megaphone
+    - simplecast
+    - npr
+    - spotify
+    - podtrac
+
+    只按照 /s/ 规则解析。
     """
 
     if not url:
-        return False
+        return url
 
-    try:
+    marker = "/s/"
 
-        parsed = urlparse(url)
+    if marker not in url:
 
-        path = unquote(
-            parsed.path
-        ).lower()
-
-        return path.endswith(
-            AUDIO_EXTENSIONS
+        print(
+            "   ℹ️ 未找到 /s/，保留原 audio"
         )
 
-    except Exception:
+        return url
 
-        return False
+    _, rest = url.split(
+        marker,
+        1
+    )
 
+    if not rest:
 
-def is_http_url(url):
-
-    if not url:
-        return False
-
-    try:
-
-        parsed = urlparse(url)
-
-        return (
-            parsed.scheme.lower()
-            in ("http", "https")
-            and bool(parsed.netloc)
+        print(
+            "   ⚠️ /s/ 后面没有内容，"
+            "保留原 audio"
         )
 
-    except Exception:
+        return url
 
-        return False
-
-
-def extract_nested_urls(text):
-
-    """
-    从一个包装 URL 中提取所有嵌套的
-    http:// / https:// URL。
-
-    不限制域名。
-
-    例如：
-
-    https://wrapper.com/a/
-    https://foo.example.com/file.mp3
-
-    会找到：
-
-    https://wrapper.com/a/...
-    https://foo.example.com/file.mp3
-    """
-
-    if not text:
-        return []
-
-    text = html.unescape(
-        text
-    )
-
-    text = text.replace(
-        "\\/",
-        "/",
-    )
-
-    pattern = re.compile(
-        r"https?://[^\s\"'<>]+",
-        re.IGNORECASE,
-    )
-
-    matches = pattern.findall(
-        text
-    )
-
-    result = []
-
-    for item in matches:
-
-        item = clean_url(item)
-
-        if item and item not in result:
-
-            result.append(item)
-
-    return result
-
-
-def extract_host_path_candidates(url):
-
-    """
-    不依赖域名白名单。
-
-    从：
-
-    /foo/bar/audio.example.com/path/file.mp3
-
-    这种 URL 中寻找：
-
-    audio.example.com/path/file.mp3
-
-    并转换成：
-
-    https://audio.example.com/path/file.mp3
-
-    """
-
-    if not url:
-        return []
-
-    text = html.unescape(
-        url
-    )
-
-    text = text.replace(
-        "\\/",
-        "/",
-    )
-
-    candidates = []
-
-    # --------------------------------------------------------
-    # 找类似：
-    #
-    # xxx.example.com/path/file.mp3
-    #
-    # 这里不规定具体域名。
-    # --------------------------------------------------------
-
-    pattern = re.compile(
-        r"(?<![/A-Za-z0-9._-])"
-        r"([A-Za-z0-9][A-Za-z0-9.-]*"
-        r"\.[A-Za-z]{2,}"
-        r"/[^?\s\"'<>]+"
-        r"(?:\?[^?\s\"'<>]*)?)",
-        re.IGNORECASE,
-    )
-
-    for match in pattern.findall(
-        text
-    ):
-
-        candidate = (
-            "https://"
-            + match
-        )
-
-        candidate = clean_url(
-            candidate
-        )
-
-        if candidate not in candidates:
-
-            candidates.append(
-                candidate
-            )
-
-    return candidates
-
-
-def score_audio_candidate(url):
-
-    """
-    给候选 URL 打分。
-
-    不使用任何域名白名单。
-
-    只是判断这个 URL 看起来是不是
-    更像最终音频地址。
-    """
-
-    if not url:
-        return -999999
-
-    score = 0
-
-    try:
-
-        parsed = urlparse(url)
-
-        if parsed.scheme in (
-            "http",
-            "https",
-        ):
-            score += 10
-
-        if parsed.netloc:
-            score += 10
-
-        path = unquote(
-            parsed.path
-        ).lower()
-
-        # 真正的音频扩展名
-        for ext in AUDIO_EXTENSIONS:
-
-            if path.endswith(ext):
-
-                score += 100
-                break
-
-        # URL 中出现 audio
-        if "/audio/" in path:
-            score += 20
-
-        if "episode" in path:
-            score += 5
-
-        if "redirect" in path:
-            score -= 20
-
-        if "tracking" in path:
-            score -= 20
-
-        if "track" in path:
-            score -= 10
-
-        if "redirect.mp" in path:
-            score -= 30
-
-        if "pdst.fm" in parsed.netloc.lower():
-            score -= 30
-
-        # 包装 URL 往往 path 很长
-        # 但最终音频也可能很长，所以这里只做轻微扣分
-        if len(path) > 300:
-            score -= 5
-
-    except Exception:
-
-        return -999999
-
-    return score
-
-
-def resolve_audio_url(audio_url):
-
-    """
-    通用解析器。
-
-    不指定任何域名。
-
-    思路：
-
-    1. 如果已经是普通音频 URL，直接返回。
-    2. URL decode / HTML decode。
-    3. 从包装 URL 中寻找嵌套 http(s) URL。
-    4. 从路径中寻找 xxx.example.com/path/file.mp3。
-    5. 从所有候选中选择最像最终音频地址的一个。
-    """
-
-    original = clean_url(
-        audio_url
-    )
-
-    if not original:
-        return ""
+    resolved = "https://" + rest
 
     print(
         "   🔎 解析原始 audio:"
     )
 
     print(
-        f"      {original}"
+        f"      {url}"
     )
 
-    # ========================================================
-    # 第一层：URL decode
-    # ========================================================
+    print(
+        "   ✅ 解析后的 audio:"
+    )
 
-    decoded = original
+    print(
+        f"      {resolved}"
+    )
 
-    for _ in range(3):
+    return resolved
 
-        new_value = unquote(
-            decoded
-        )
 
-        if new_value == decoded:
+# ============================================================
+# Archive crawler
+# ============================================================
+
+def get_archive():
+
+    episodes = {}
+
+    archive_page = "/archive"
+
+    visited_pages = set()
+
+    while True:
+
+        if archive_page in visited_pages:
             break
 
-        decoded = new_value
-
-    decoded = html.unescape(
-        decoded
-    )
-
-    decoded = decoded.replace(
-        "\\/",
-        "/",
-    )
-
-    # ========================================================
-    # 如果本身已经明显是最终音频
-    # ========================================================
-
-    if (
-        is_http_url(decoded)
-        and path_looks_like_audio(decoded)
-    ):
+        visited_pages.add(archive_page)
 
         print(
-            "   ✅ 已经是直接音频地址"
+            "Fetching archive:",
+            archive_page
         )
 
-        print(
-            f"      {decoded}"
+        content = fetch(
+            BASE + archive_page
         )
 
-        return decoded
-
-    # ========================================================
-    # 候选集合
-    # ========================================================
-
-    candidates = []
-
-    # --------------------------------------------------------
-    # 1. 原始 URL
-    # --------------------------------------------------------
-
-    candidates.append(
-        original
-    )
-
-    if decoded not in candidates:
-
-        candidates.append(
-            decoded
+        soup = BeautifulSoup(
+            content,
+            "html.parser"
         )
 
-    # --------------------------------------------------------
-    # 2. 嵌套 http(s)
-    # --------------------------------------------------------
+        found = 0
 
-    nested_urls = extract_nested_urls(
-        decoded
-    )
-
-    for candidate in nested_urls:
-
-        if candidate not in candidates:
-
-            candidates.append(
-                candidate
-            )
-
-    # --------------------------------------------------------
-    # 3. host/path
-    # --------------------------------------------------------
-
-    host_candidates = (
-        extract_host_path_candidates(
-            decoded
-        )
-    )
-
-    for candidate in host_candidates:
-
-        if candidate not in candidates:
-
-            candidates.append(
-                candidate
-            )
-
-    # ========================================================
-    # 4. 对候选进行多轮解包
-    # ========================================================
-
-    expanded = []
-
-    for candidate in candidates:
-
-        candidate = clean_url(
-            candidate
-        )
-
-        if not candidate:
-            continue
-
-        if candidate not in expanded:
-
-            expanded.append(
-                candidate
-            )
-
-        # 候选本身里面还可能嵌套 URL
-        nested = extract_nested_urls(
-            candidate
-        )
-
-        for nested_url in nested:
-
-            nested_url = clean_url(
-                nested_url
-            )
-
-            if (
-                nested_url
-                and nested_url not in expanded
-            ):
-
-                expanded.append(
-                    nested_url
-                )
-
-    # ========================================================
-    # 5. 再从 expanded 候选里找 host/path
-    # ========================================================
-
-    more_candidates = []
-
-    for candidate in expanded:
-
-        for item in extract_host_path_candidates(
-            candidate
+        for a in soup.select(
+            "a.goto-episode"
         ):
 
-            if item not in more_candidates:
+            href = a.get("href")
 
-                more_candidates.append(
-                    item
-                )
+            if not href:
+                continue
 
-    expanded.extend(
-        more_candidates
-    )
-
-    # ========================================================
-    # 6. 清理
-    # ========================================================
-
-    final_candidates = []
-
-    for candidate in expanded:
-
-        candidate = clean_url(
-            candidate
-        )
-
-        if not is_http_url(
-            candidate
-        ):
-            continue
-
-        if candidate not in final_candidates:
-
-            final_candidates.append(
-                candidate
+            m = re.search(
+                r"^/(\d+)/",
+                href
             )
 
-    # ========================================================
-    # 7. 打印候选
-    # ========================================================
+            if not m:
+                continue
 
-    if final_candidates:
+            episode = m.group(1)
 
-        print(
-            "   🔍 找到候选地址:"
-        )
-
-        for candidate in final_candidates:
-
-            print(
-                "      "
-                f"[{score_audio_candidate(candidate):4d}] "
-                f"{candidate}"
+            episodes[episode] = (
+                BASE + href
             )
 
-    # ========================================================
-    # 8. 选择得分最高
-    # ========================================================
-
-    audio_candidates = [
-        item
-        for item in final_candidates
-        if path_looks_like_audio(item)
-    ]
-
-    if audio_candidates:
-
-        best = max(
-            audio_candidates,
-            key=score_audio_candidate,
-        )
+            found += 1
 
         print(
-            "   🎯 选择最终音频地址:"
+            "Found:",
+            found
         )
 
-        print(
-            f"      {best}"
+        pager = soup.select_one(
+            "a.pager"
         )
 
-        return best
+        if not pager:
+            break
 
-    # ========================================================
-    # 9. 没有 .mp3 等扩展名
-    #
-    # 仍然选择最可能的候选。
-    # ========================================================
+        next_page = pager.get("href")
 
-    if final_candidates:
+        if not next_page:
+            break
 
-        best = max(
-            final_candidates,
-            key=score_audio_candidate,
-        )
+        if next_page == archive_page:
+            break
 
-        # 如果 best 不是原始包装 URL，
-        # 说明至少剥掉了一层包装。
-        if best != original:
+        archive_page = next_page
 
-            print(
-                "   🎯 选择解析后的 URL:"
+        time.sleep(
+            random.uniform(
+                5,
+                10
             )
-
-            print(
-                f"      {best}"
-            )
-
-            return best
-
-    # ========================================================
-    # 10. 无法解析
-    # ========================================================
-
-    print(
-        "   ⚠️ 未能从 URL 中提取更深层地址"
-    )
-
-    print(
-        "   ↩️ 保留原始 audio"
-    )
-
-    return original
-
-
-# ============================================================
-# Resolve cache
-# ============================================================
-
-def resolve_episode_audio(
-    episode,
-    info,
-    force=False,
-):
-
-    original_audio = (
-        info.get(
-            "audio",
-            "",
-        )
-        or ""
-    ).strip()
-
-    cached_resolved = (
-        info.get(
-            "resolved_audio",
-            "",
-        )
-        or ""
-    ).strip()
-
-    if not original_audio:
-
-        print(
-            f"[{episode}] ❌ 没有 audio"
         )
 
-        return info
-
-    # ========================================================
-    # 已经成功解析
-    # ========================================================
-
-    if (
-        cached_resolved
-        and cached_resolved != original_audio
-        and not force
-    ):
-
-        print(
-            f"[{episode}] ♻️ "
-            "使用缓存 resolved_audio"
-        )
-
-        print(
-            f"   {cached_resolved}"
-        )
-
-        return info
-
-    # ========================================================
-    # 旧数据：
-    #
-    # resolved_audio == audio
-    #
-    # 不能认为成功。
-    # ========================================================
-
-    if (
-        cached_resolved
-        and cached_resolved == original_audio
-        and not force
-    ):
-
-        print(
-            f"[{episode}] ⚠️ "
-            "resolved_audio == audio"
-        )
-
-        print(
-            "   旧版本没有成功解析"
-        )
-
-        print(
-            "   🔄 重新解析"
-        )
-
-    # ========================================================
-    # force
-    # ========================================================
-
-    if force:
-
-        print(
-            f"[{episode}] 🔄 "
-            "强制重新解析"
-        )
-
-    # ========================================================
-    # 实际解析
-    # ========================================================
-
-    resolved = resolve_audio_url(
-        original_audio
-    )
-
-    info[
-        "resolved_audio"
-    ] = resolved
-
-    # ========================================================
-    # 状态
-    # ========================================================
-
-    if (
-        resolved
-        and resolved != original_audio
-    ):
-
-        info[
-            "audio_resolved"
-        ] = True
-
-        info[
-            "audio_resolved_at"
-        ] = (
-            datetime.utcnow()
-            .isoformat()
-            + "Z"
-        )
-
-        print(
-            f"[{episode}] ✅ "
-            "解析成功"
-        )
-
-    else:
-
-        info[
-            "audio_resolved"
-        ] = False
-
-        print(
-            f"[{episode}] ⚠️ "
-            "没有得到新的地址"
-        )
-
-    return info
+    return episodes
 
 
 # ============================================================
@@ -880,8 +312,12 @@ def get_episode_info(url):
 
     soup = BeautifulSoup(
         content,
-        "html.parser",
+        "html.parser"
     )
+
+    # --------------------------------------------------------
+    # Title
+    # --------------------------------------------------------
 
     title = ""
 
@@ -891,8 +327,12 @@ def get_episode_info(url):
 
         title = h1.get_text(
             " ",
-            strip=True,
+            strip=True
         )
+
+    # --------------------------------------------------------
+    # Audio
+    # --------------------------------------------------------
 
     audio = ""
 
@@ -910,20 +350,25 @@ def get_episode_info(url):
 
             audio = data.get(
                 "audio",
-                "",
+                ""
             )
 
             title = data.get(
                 "title",
-                title,
+                title
             )
 
         except Exception as e:
 
             print(
-                "Playlist JSON error:",
-                e,
+                "⚠️ playlist-data JSON "
+                "解析失败:",
+                e
             )
+
+    # --------------------------------------------------------
+    # Publication date
+    # --------------------------------------------------------
 
     pub_date = ""
 
@@ -935,8 +380,12 @@ def get_episode_info(url):
 
         pub_date = meta.get(
             "content",
-            "",
+            ""
         )
+
+    # --------------------------------------------------------
+    # Description
+    # --------------------------------------------------------
 
     description = ""
 
@@ -948,8 +397,12 @@ def get_episode_info(url):
 
         description = desc.get(
             "content",
-            "",
+            ""
         )
+
+    # --------------------------------------------------------
+    # Episode image
+    # --------------------------------------------------------
 
     image = ""
 
@@ -961,7 +414,7 @@ def get_episode_info(url):
 
         image = episode_img.get(
             "src",
-            "",
+            ""
         )
 
     if not image:
@@ -974,7 +427,7 @@ def get_episode_info(url):
 
             image = og_image.get(
                 "content",
-                "",
+                ""
             )
 
     return {
@@ -988,94 +441,7 @@ def get_episode_info(url):
 
 
 # ============================================================
-# Archive crawler
-# ============================================================
-
-def get_archive():
-
-    episodes = {}
-
-    archive_page = "/archive"
-
-    while True:
-
-        print(
-            "Fetching archive:",
-            archive_page
-        )
-
-        content = fetch(
-            BASE + archive_page
-        )
-
-        soup = BeautifulSoup(
-            content,
-            "html.parser",
-        )
-
-        found = 0
-
-        for a in soup.select(
-            "a.goto-episode"
-        ):
-
-            href = a.get("href")
-
-            if not href:
-                continue
-
-            m = re.search(
-                r"^/(\d+)/",
-                href,
-            )
-
-            if not m:
-                continue
-
-            episode = m.group(1)
-
-            episodes[
-                episode
-            ] = BASE + href
-
-            found += 1
-
-        print(
-            "Found:",
-            found,
-        )
-
-        pager = soup.select_one(
-            "a.pager"
-        )
-
-        if not pager:
-            break
-
-        next_page = pager.get(
-            "href"
-        )
-
-        if (
-            not next_page
-            or next_page == archive_page
-        ):
-            break
-
-        archive_page = next_page
-
-        time.sleep(
-            random.uniform(
-                5,
-                10,
-            )
-        )
-
-    return episodes
-
-
-# ============================================================
-# Transcript
+# Transcript parser
 # ============================================================
 
 def parse_time(value):
@@ -1099,7 +465,7 @@ def parse_time(value):
                 + s
             )
 
-        if len(parts) == 2:
+        elif len(parts) == 2:
 
             m = float(parts[0])
             s = float(parts[1])
@@ -1131,7 +497,7 @@ def get_transcript(episode):
 
     soup = BeautifulSoup(
         content,
-        "html.parser",
+        "html.parser"
     )
 
     lines = []
@@ -1153,19 +519,21 @@ def get_transcript(episode):
 
         speaker = ""
 
+        # ----------------------------------------------------
+        # 向上寻找 speaker
+        # ----------------------------------------------------
+
         parent = p
 
         while parent:
 
-            h4 = parent.find(
-                "h4"
-            )
+            h4 = parent.find("h4")
 
             if h4:
 
                 speaker = h4.get_text(
                     " ",
-                    strip=True,
+                    strip=True
                 )
 
                 break
@@ -1174,7 +542,7 @@ def get_transcript(episode):
 
         text = p.get_text(
             " ",
-            strip=True,
+            strip=True
         )
 
         if text:
@@ -1191,7 +559,7 @@ def get_transcript(episode):
 
 
 # ============================================================
-# VTT
+# VTT generator
 # ============================================================
 
 def format_vtt_time(seconds):
@@ -1219,10 +587,7 @@ def format_vtt_time(seconds):
         // 1000
     )
 
-    ms = (
-        milliseconds
-        % 1000
-    )
+    ms = milliseconds % 1000
 
     return (
         f"{hour:02}:"
@@ -1241,26 +606,20 @@ def create_vtt(lines):
 
     for index, item in enumerate(lines):
 
-        start = item[
-            "start"
-        ]
+        start = item["start"]
 
-        text = item[
-            "text"
-        ]
+        text = item["text"]
 
         speaker = item.get(
             "speaker",
-            "",
+            ""
         )
 
         if index + 1 < len(lines):
 
             end = lines[
                 index + 1
-            ][
-                "start"
-            ]
+            ]["start"]
 
         else:
 
@@ -1279,15 +638,11 @@ def create_vtt(lines):
 
         else:
 
-            output.append(
-                text
-            )
+            output.append(text)
 
         output.append("")
 
-    return "\n".join(
-        output
-    )
+    return "\n".join(output)
 
 
 # ============================================================
@@ -1304,13 +659,11 @@ def rss_date(date_string):
         dt = datetime.fromisoformat(
             date_string.replace(
                 "Z",
-                "+00:00",
+                "+00:00"
             )
         )
 
-        return format_datetime(
-            dt
-        )
+        return format_datetime(dt)
 
     except Exception:
 
@@ -1318,12 +671,172 @@ def rss_date(date_string):
 
 
 # ============================================================
-# RSS
+# Migrate / resolve old cache
+# ============================================================
+
+def update_resolved_audio(
+    episodes_cache
+):
+    """
+    检查历史 episodes.json。
+
+    情况：
+
+    1. 没有 resolved_audio
+       -> 解析 audio
+
+    2. resolved_audio == audio
+       -> 说明旧版本没有成功解析
+       -> 重新解析 audio
+
+    3. resolved_audio != audio
+       -> 已经成功解析
+       -> 不重新解析
+
+    最终把 resolved_audio 写回缓存。
+    """
+
+    print(
+        "\n"
+        + "=" * 70
+    )
+
+    print(
+        "检查历史 episode 的 resolved_audio..."
+    )
+
+    changed = 0
+
+    for episode in sorted(
+        episodes_cache.keys(),
+        key=lambda x: int(x)
+        if str(x).isdigit()
+        else 0,
+        reverse=True,
+    ):
+
+        item = episodes_cache[
+            episode
+        ]
+
+        audio = item.get(
+            "audio",
+            ""
+        )
+
+        if not audio:
+
+            print(
+                f"[{episode}] ⚠️ 没有 audio"
+            )
+
+            continue
+
+        resolved_audio = item.get(
+            "resolved_audio"
+        )
+
+        # ----------------------------------------------------
+        # 没有 resolved_audio
+        # ----------------------------------------------------
+
+        if not resolved_audio:
+
+            print(
+                f"[{episode}] "
+                "⚠️ 没有 resolved_audio"
+            )
+
+            print(
+                "   🔄 重新解析"
+            )
+
+            new_resolved = (
+                resolve_audio_url(
+                    audio
+                )
+            )
+
+            item[
+                "resolved_audio"
+            ] = new_resolved
+
+            changed += 1
+
+            continue
+
+        # ----------------------------------------------------
+        # resolved_audio == audio
+        #
+        # 旧版本可能把原始地址错误地保存成
+        # resolved_audio。
+        # ----------------------------------------------------
+
+        if resolved_audio == audio:
+
+            print(
+                f"[{episode}] "
+                "⚠️ resolved_audio == audio"
+            )
+
+            print(
+                "   旧版本没有成功解析"
+            )
+
+            print(
+                "   🔄 重新解析"
+            )
+
+            new_resolved = (
+                resolve_audio_url(
+                    audio
+                )
+            )
+
+            if new_resolved != resolved_audio:
+
+                item[
+                    "resolved_audio"
+                ] = new_resolved
+
+                changed += 1
+
+                print(
+                    "   💾 resolved_audio "
+                    "已更新"
+                )
+
+            else:
+
+                print(
+                    "   ℹ️ 解析结果仍然相同"
+                )
+
+            continue
+
+        # ----------------------------------------------------
+        # 已经成功解析
+        # ----------------------------------------------------
+
+        print(
+            f"[{episode}] "
+            "✅ resolved_audio 已存在"
+        )
+
+    print(
+        f"历史缓存更新: {changed} 条"
+    )
+
+    return changed
+
+
+# ============================================================
+# RSS generator
 # ============================================================
 
 def create_rss(
     episodes,
-    base_url,
+    base_url
 ):
 
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -1352,8 +865,7 @@ https://www.thisamericanlife.org/
 <atom:link
 href="{html.escape(base_url, quote=True)}/podcast.xml"
 rel="self"
-type="application/rss+xml"
-/>
+type="application/rss+xml"/>
 
 <description>
 Unofficial This American Life feed with VTT transcripts
@@ -1367,9 +879,15 @@ TMLT Transcript Generator
 
 """
 
+    # --------------------------------------------------------
+    # 最新 episode 在前
+    # --------------------------------------------------------
+
     for episode in sorted(
         episodes.keys(),
-        key=lambda x: int(x),
+        key=lambda x: int(x)
+        if str(x).isdigit()
+        else 0,
         reverse=True,
     ):
 
@@ -1380,14 +898,14 @@ TMLT Transcript Generator
         title = html.escape(
             item.get(
                 "title",
-                "",
+                ""
             )
         )
 
-        url = html.escape(
+        episode_url = html.escape(
             item.get(
                 "url",
-                "",
+                ""
             ),
             quote=True,
         )
@@ -1395,14 +913,14 @@ TMLT Transcript Generator
         description = html.escape(
             item.get(
                 "description",
-                "",
+                ""
             )
         )
 
         image = html.escape(
             item.get(
                 "image",
-                "",
+                ""
             ),
             quote=True,
         )
@@ -1410,41 +928,31 @@ TMLT Transcript Generator
         pub_date = rss_date(
             item.get(
                 "pubDate",
-                "",
+                ""
             )
         )
 
-        # ====================================================
+        # ----------------------------------------------------
         # 关键：
         #
         # RSS enclosure 使用 resolved_audio
         #
-        # 如果没有解析成功，就使用原始 audio。
-        # ====================================================
+        # 如果没有 resolved_audio，
+        # 才 fallback 到 audio。
+        # ----------------------------------------------------
 
         resolved_audio = (
             item.get(
-                "resolved_audio",
-                "",
+                "resolved_audio"
             )
-            or ""
-        ).strip()
-
-        original_audio = (
-            item.get(
+            or item.get(
                 "audio",
-                "",
+                ""
             )
-            or ""
-        ).strip()
-
-        enclosure_audio = (
-            resolved_audio
-            or original_audio
         )
 
-        enclosure_audio = html.escape(
-            enclosure_audio,
+        resolved_audio = html.escape(
+            resolved_audio,
             quote=True,
         )
 
@@ -1457,11 +965,11 @@ TMLT Transcript Generator
 </title>
 
 <link>
-{url}
+{episode_url}
 </link>
 
 <guid isPermaLink="true">
-{url}
+{episode_url}
 </guid>
 
 <description>
@@ -1481,15 +989,12 @@ href="{image}"
 </pubDate>
 
 <enclosure
-url="{enclosure_audio}"
+url="{resolved_audio}"
 type="audio/mpeg"
 />
 
 <podcast:transcript
-url="{html.escape(
-    base_url,
-    quote=True,
-)}/transcripts/{episode}.vtt"
+url="{html.escape(base_url, quote=True)}/transcripts/{episode}.vtt"
 type="text/vtt"
 language="en"
 />
@@ -1526,12 +1031,6 @@ def main():
         default="public",
     )
 
-    parser.add_argument(
-        "--force-resolve",
-        action="store_true",
-        help="强制重新解析所有 audio URL",
-    )
-
     args = parser.parse_args()
 
     output = Path(
@@ -1556,6 +1055,10 @@ def main():
         output / "episodes.json"
     )
 
+    # ========================================================
+    # Load cache
+    # ========================================================
+
     episodes_cache = load_json(
         cache_file,
         {},
@@ -1567,7 +1070,7 @@ def main():
     )
 
     # ========================================================
-    # Archive
+    # Crawl archive
     # ========================================================
 
     archive = get_archive()
@@ -1578,7 +1081,7 @@ def main():
     )
 
     # ========================================================
-    # 新 episode
+    # Process new episodes
     # ========================================================
 
     new_count = 0
@@ -1589,17 +1092,21 @@ def main():
 
             continue
 
-        print()
         print(
-            "=" * 70
+            "\n"
+            + "=" * 70
         )
 
         print(
             "New episode:",
-            episode,
+            episode
         )
 
         try:
+
+            # ------------------------------------------------
+            # Episode information
+            # ------------------------------------------------
 
             info = get_episode_info(
                 url
@@ -1610,21 +1117,29 @@ def main():
             ):
 
                 print(
-                    "No audio:",
-                    episode,
+                    "❌ No audio:",
+                    episode
                 )
 
                 continue
 
             # ------------------------------------------------
-            # 解析真实音频
+            # Resolve audio
             # ------------------------------------------------
 
-            info = resolve_episode_audio(
-                episode,
-                info,
-                force=args.force_resolve,
+            print(
+                "🔎 解析音频地址..."
             )
+
+            resolved_audio = (
+                resolve_audio_url(
+                    info["audio"]
+                )
+            )
+
+            info[
+                "resolved_audio"
+            ] = resolved_audio
 
             # ------------------------------------------------
             # Transcript
@@ -1635,8 +1150,10 @@ def main():
                 / f"{episode}.vtt"
             )
 
-            transcript = get_transcript(
-                episode
+            transcript = (
+                get_transcript(
+                    episode
+                )
             )
 
             if transcript:
@@ -1649,16 +1166,20 @@ def main():
                 )
 
                 print(
-                    "VTT saved:",
-                    vtt_file,
+                    "VTT generated:",
+                    vtt_file
                 )
 
             else:
 
                 print(
                     "⚠️ No transcript:",
-                    episode,
+                    episode
                 )
+
+            # ------------------------------------------------
+            # Cache
+            # ------------------------------------------------
 
             episodes_cache[
                 episode
@@ -1669,173 +1190,52 @@ def main():
         except Exception as e:
 
             print(
-                "Failed:",
+                "❌ Failed:",
                 episode,
-                e,
+                e
             )
 
         time.sleep(
             random.uniform(
                 5,
-                10,
+                10
             )
         )
 
-    print()
     print(
-        "New episodes added:",
-        new_count,
+        "\nNew episodes added:",
+        new_count
     )
 
     # ========================================================
-    # 修复历史数据
+    # IMPORTANT:
+    #
+    # 检查历史 episode。
+    #
+    # 解决旧版本 episodes.json 没有
+    # resolved_audio 的问题。
     # ========================================================
 
-    repaired_count = 0
-
-    print()
-    print(
-        "=" * 70
-    )
-
-    print(
-        "检查历史 episode 的 resolved_audio..."
-    )
-
-    for episode, info in episodes_cache.items():
-
-        original_audio = (
-            info.get(
-                "audio",
-                "",
-            )
-            or ""
-        ).strip()
-
-        cached_resolved = (
-            info.get(
-                "resolved_audio",
-                "",
-            )
-            or ""
-        ).strip()
-
-        if not original_audio:
-
-            print(
-                f"[{episode}] ⚠️ "
-                "没有原始 audio，跳过"
-            )
-
-            continue
-
-        # ----------------------------------------------------
-        # 已经成功解析过
-        # ----------------------------------------------------
-
-        if (
-            cached_resolved
-            and cached_resolved != original_audio
-            and not args.force_resolve
-        ):
-
-            print(
-                f"[{episode}] ✅ "
-                "已有成功的 resolved_audio"
-            )
-
-            continue
-
-        # ----------------------------------------------------
-        # 没有 resolved_audio
-        # ----------------------------------------------------
-
-        if not cached_resolved:
-
-            print(
-                f"[{episode}] ⚠️ "
-                "没有 resolved_audio"
-            )
-
-        # ----------------------------------------------------
-        # resolved_audio == audio
-        # ----------------------------------------------------
-
-        elif cached_resolved == original_audio:
-
-            print(
-                f"[{episode}] ⚠️ "
-                "resolved_audio == audio"
-            )
-
-            print(
-                "   重新解析旧缓存"
-            )
-
-        # ----------------------------------------------------
-        # force
-        # ----------------------------------------------------
-
-        if args.force_resolve:
-
-            print(
-                f"[{episode}] 🔄 "
-                "force resolve"
-            )
-
-        old_resolved = (
-            cached_resolved
-        )
-
-        info = resolve_episode_audio(
-            episode,
-            info,
-            force=args.force_resolve,
-        )
-
-        new_resolved = (
-            info.get(
-                "resolved_audio",
-                "",
-            )
-            or ""
-        ).strip()
-
-        episodes_cache[
-            episode
-        ] = info
-
-        if new_resolved != old_resolved:
-
-            repaired_count += 1
-
-            print(
-                f"[{episode}] 🔧 "
-                "resolved_audio 已更新"
-            )
-
-    print()
-    print(
-        "Historical audio repaired:",
-        repaired_count,
+    update_resolved_audio(
+        episodes_cache
     )
 
     # ========================================================
-    # 保存 episodes.json
+    # Save cache
     # ========================================================
 
     save_json(
         cache_file,
-        episodes_cache,
+        episodes_cache
     )
 
     print(
         "Episodes cache saved:",
-        cache_file,
+        cache_file
     )
 
     # ========================================================
-    # 生成 RSS
+    # Generate RSS
     # ========================================================
 
     rss = create_rss(
@@ -1852,15 +1252,30 @@ def main():
         encoding="utf-8",
     )
 
-    print()
     print(
         "RSS generated:",
-        rss_file,
+        rss_file
+    )
+
+    # ========================================================
+    # Show summary
+    # ========================================================
+
+    print(
+        "\n"
+        + "=" * 70
     )
 
     print(
-        "Total episodes:",
-        len(episodes_cache),
+        "完成"
+    )
+
+    print(
+        f"Episodes: {len(episodes_cache)}"
+    )
+
+    print(
+        f"RSS: {rss_file}"
     )
 
 
@@ -1869,5 +1284,4 @@ def main():
 # ============================================================
 
 if __name__ == "__main__":
-
     main()
