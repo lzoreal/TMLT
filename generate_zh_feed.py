@@ -3,6 +3,8 @@
 import argparse
 from pathlib import Path
 import xml.etree.ElementTree as ET
+import os
+import sys
 
 
 PODCAST_NS = (
@@ -27,6 +29,15 @@ ET.register_namespace(
 
 
 
+def log(msg):
+
+    print(
+        f"[ZH-FEED] {msg}",
+        flush=True
+    )
+
+
+
 def main():
 
     parser = argparse.ArgumentParser()
@@ -39,6 +50,29 @@ def main():
 
 
     args = parser.parse_args()
+
+
+    log(
+        "===================================="
+    )
+
+    log(
+        "Generate Chinese Podcast Feed"
+    )
+
+    log(
+        "===================================="
+    )
+
+
+    log(
+        f"Current directory: {os.getcwd()}"
+    )
+
+
+    log(
+        f"Base URL: {args.base_url}"
+    )
 
 
     docs = Path(
@@ -58,84 +92,167 @@ def main():
     )
 
 
-    print(
-        "Reading:",
-        source
+    # --------------------------------------------------------
+    # Check files
+    # --------------------------------------------------------
+
+    log(
+        f"Input RSS: {source}"
     )
 
 
-    tree = ET.parse(
-        source
+    if not source.exists():
+
+        log(
+            "ERROR: podcast.xml not found"
+        )
+
+        sys.exit(1)
+
+
+    log(
+        f"Input size: {source.stat().st_size} bytes"
     )
+
+
+
+    # --------------------------------------------------------
+    # Parse XML
+    # --------------------------------------------------------
+
+    log(
+        "Parsing XML..."
+    )
+
+
+    try:
+
+        tree = ET.parse(
+            source
+        )
+
+    except Exception as e:
+
+        log(
+            f"XML parse failed: {e}"
+        )
+
+        sys.exit(1)
+
 
 
     root = tree.getroot()
 
 
-    # --------------------------------------------------------
-    # Channel
-    # --------------------------------------------------------
+    log(
+        f"Root tag: {root.tag}"
+    )
+
+
 
     channel = root.find(
         "channel"
     )
 
 
-    if channel is not None:
+    if channel is None:
+
+        log(
+            "ERROR: channel missing"
+        )
+
+        sys.exit(1)
 
 
-        title = channel.find(
-            "title"
+
+    # --------------------------------------------------------
+    # Channel update
+    # --------------------------------------------------------
+
+    log(
+        "Updating channel metadata..."
+    )
+
+
+    title = channel.find(
+        "title"
+    )
+
+    if title is not None:
+
+        log(
+            f"Old title: {title.text}"
+        )
+
+        title.text = (
+            "This American Life "
+            "中文双语 Transcript Feed"
         )
 
 
-        if title is not None:
+    language = channel.find(
+        "language"
+    )
 
-            title.text = (
-                "This American Life "
-                "中文双语 Transcript Feed"
-            )
+    if language is not None:
 
+        log(
+            f"Old language: {language.text}"
+        )
 
-        language = channel.find(
-            "language"
+        language.text = (
+            "zh-CN"
         )
 
 
-        if language is not None:
 
-            language.text = (
-                "zh-CN"
-            )
+    description = channel.find(
+        "description"
+    )
 
+    if description is not None:
 
-        description = channel.find(
-            "description"
+        description.text = (
+            "This American Life "
+            "English Chinese bilingual "
+            "transcript feed"
         )
 
 
-        if description is not None:
 
-            description.text = (
-                "This American Life "
-                "English Chinese bilingual "
-                "transcript feed"
-            )
+    atom_link = channel.find(
+        "{http://www.w3.org/2005/Atom}link"
+    )
 
 
-        atom_link = channel.find(
-            "{http://www.w3.org/2005/Atom}link"
+    if atom_link is not None:
+
+        old_link = atom_link.get(
+            "href"
         )
 
 
-        if atom_link is not None:
+        log(
+            f"Old self link: {old_link}"
+        )
 
-            atom_link.set(
-                "href",
-                args.base_url
-                +
-                "/podcast-zh.xml"
-            )
+
+        new_link = (
+            args.base_url
+            +
+            "/podcast-zh.xml"
+        )
+
+
+        atom_link.set(
+            "href",
+            new_link
+        )
+
+
+        log(
+            f"New self link: {new_link}"
+        )
 
 
 
@@ -143,12 +260,45 @@ def main():
     # Items
     # --------------------------------------------------------
 
-    count = 0
-
-
-    for item in root.findall(
+    items = channel.findall(
         "item"
-    ):
+    )
+
+
+    log(
+        f"Total episodes: {len(items)}"
+    )
+
+
+    updated = 0
+    skipped = 0
+    missing = 0
+
+
+
+    for index, item in enumerate(items, 1):
+
+
+        title_node = item.find(
+            "title"
+        )
+
+
+        title_text = (
+            title_node.text
+            if title_node is not None
+            else "UNKNOWN"
+        )
+
+
+        log(
+            ""
+        )
+
+        log(
+            f"[{index}/{len(items)}] {title_text}"
+        )
+
 
 
         transcript = item.find(
@@ -157,6 +307,12 @@ def main():
 
 
         if transcript is None:
+
+            log(
+                "  WARNING: no transcript tag"
+            )
+
+            missing += 1
 
             continue
 
@@ -168,28 +324,57 @@ def main():
         )
 
 
-        if "/transcripts/" in old_url:
+        log(
+            f"  Original VTT: {old_url}"
+        )
 
 
-            episode = (
-                old_url
-                .split(
-                    "/transcripts/"
-                )[-1]
+
+        if "/transcripts/zh/" in old_url:
+
+            log(
+                "  Already Chinese feed"
             )
 
+            skipped += 1
 
-            transcript.set(
+            continue
 
-                "url",
 
-                args.base_url
-                +
-                "/transcripts/zh/"
-                +
-                episode
 
+        if "/transcripts/" not in old_url:
+
+            log(
+                "  WARNING: unexpected URL"
             )
+
+            missing += 1
+
+            continue
+
+
+
+        episode = (
+            old_url
+            .split(
+                "/transcripts/"
+            )[-1]
+        )
+
+
+        new_url = (
+            args.base_url
+            +
+            "/transcripts/zh/"
+            +
+            episode
+        )
+
+
+        transcript.set(
+            "url",
+            new_url
+        )
 
 
         transcript.set(
@@ -198,13 +383,25 @@ def main():
         )
 
 
-        count += 1
+        log(
+            f"  New VTT: {new_url}"
+        )
+
+
+        updated += 1
 
 
 
-    print(
-        "Updated transcripts:",
-        count
+    # --------------------------------------------------------
+    # Write
+    # --------------------------------------------------------
+
+    log(
+        ""
+    )
+
+    log(
+        "Writing output..."
     )
 
 
@@ -215,9 +412,39 @@ def main():
     )
 
 
-    print(
-        "Generated:",
-        output
+    log(
+        f"Output: {output}"
+    )
+
+
+    log(
+        f"Output size: {output.stat().st_size} bytes"
+    )
+
+
+    log(
+        "===================================="
+    )
+
+    log(
+        "SUMMARY"
+    )
+
+    log(
+        f"Updated: {updated}"
+    )
+
+    log(
+        f"Skipped: {skipped}"
+    )
+
+    log(
+        f"Missing: {missing}"
+    )
+
+
+    log(
+        "Done"
     )
 
 

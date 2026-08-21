@@ -1,276 +1,26 @@
 #!/usr/bin/env python3
 
-import os
-import re
-import json
-import time
-import hashlib
+import argparse
 from pathlib import Path
-from datetime import datetime, timezone
+import time
+import re
+import sys
 
-from google import genai
+
+from translatepy import Translator
+
 
 
 # ============================================================
-# Config
+# Logger
 # ============================================================
 
-INPUT_DIR = Path(
-    "docs/transcripts"
-)
+def log(message):
 
-OUTPUT_DIR = Path(
-    "docs/transcripts/zh"
-)
-
-CACHE_FILE = Path(
-    "docs/translations.json"
-)
-
-
-MODEL = "gemini-2.5-flash"
-
-
-MAX_FILES = int(
-    os.environ.get(
-        "MAX_FILES",
-        "10"
+    print(
+        f"[TRANSLATE] {message}",
+        flush=True
     )
-)
-
-
-MAX_REQUESTS = int(
-    os.environ.get(
-        "MAX_REQUESTS",
-        "300"
-    )
-)
-
-
-REQUEST_INTERVAL = 5
-
-
-
-client = genai.Client(
-    api_key=os.environ[
-        "GEMINI_API_KEY"
-    ]
-)
-
-
-
-request_count = 0
-
-
-
-# ============================================================
-# Cache
-# ============================================================
-
-
-def load_cache():
-
-    if not CACHE_FILE.exists():
-
-        return {}
-
-
-    try:
-
-        return json.loads(
-            CACHE_FILE.read_text(
-                encoding="utf-8"
-            )
-        )
-
-    except Exception:
-
-        return {}
-
-
-
-def save_cache(data):
-
-    CACHE_FILE.write_text(
-        json.dumps(
-            data,
-            indent=2,
-            ensure_ascii=False,
-        ),
-        encoding="utf-8",
-    )
-
-
-
-# ============================================================
-# Hash
-# ============================================================
-
-
-def file_hash(path):
-
-    sha = hashlib.sha256()
-
-    with path.open(
-        "rb"
-    ) as f:
-
-        for chunk in iter(
-            lambda:
-            f.read(8192),
-            b"",
-        ):
-
-            sha.update(
-                chunk
-            )
-
-
-    return sha.hexdigest()
-
-
-
-# ============================================================
-# Gemini
-# ============================================================
-
-
-def gemini_translate(text):
-
-    global request_count
-
-
-    if request_count >= MAX_REQUESTS:
-
-        raise RuntimeError(
-            "MAX_REQUESTS reached"
-        )
-
-
-    request_count += 1
-
-
-
-    prompt = f"""
-Translate this English podcast transcript into Simplified Chinese.
-
-Rules:
-
-- Only output Chinese translation.
-- Do not summarize.
-- Do not explain.
-- Keep names accurate.
-- Preserve punctuation.
-
-Text:
-
-{text}
-"""
-
-
-    for retry in range(5):
-
-        try:
-
-            response = (
-                client.models.generate_content(
-                    model=MODEL,
-                    contents=prompt,
-                )
-            )
-
-
-            return (
-                response.text
-                .strip()
-            )
-
-
-        except Exception as e:
-
-
-            print(
-                "Gemini error:",
-                e
-            )
-
-
-            wait = (
-                30 *
-                (retry + 1)
-            )
-
-
-            print(
-                "Retry after",
-                wait,
-                "seconds"
-            )
-
-
-            time.sleep(
-                wait
-            )
-
-
-    raise RuntimeError(
-        "Gemini failed"
-    )
-
-
-
-# ============================================================
-# Speaker protection
-# ============================================================
-
-
-def protect_speaker(text):
-
-
-    speakers = {}
-
-
-    def repl(match):
-
-        key = (
-            f"__SPEAKER_{len(speakers)}__"
-        )
-
-
-        speakers[key] = (
-            match.group(0)
-        )
-
-
-        return key
-
-
-
-    protected = re.sub(
-        r"<v [^>]+>",
-        repl,
-        text
-    )
-
-
-    return protected, speakers
-
-
-
-def restore_speaker(
-    text,
-    speakers
-):
-
-    for key, value in speakers.items():
-
-        text = text.replace(
-            key,
-            value
-        )
-
-
-    return text
 
 
 
@@ -278,153 +28,261 @@ def restore_speaker(
 # VTT parser
 # ============================================================
 
+def parse_vtt(text):
 
-def split_blocks(content):
-
-    return re.split(
-        r"\n\n+",
-        content.strip()
+    blocks = re.split(
+        r"\n\s*\n",
+        text.strip()
     )
 
+    result = []
+
+    for block in blocks:
+
+        lines = block.splitlines()
+
+        if len(lines) < 3:
+            result.append(block)
+            continue
 
 
-def translate_block(block):
+        timestamp_index = None
 
 
-    lines = block.splitlines()
+        for i, line in enumerate(lines):
+
+            if "-->" in line:
+
+                timestamp_index = i
+                break
 
 
+        if timestamp_index is None:
 
-    if len(lines) < 3:
+            result.append(block)
 
-        return block
-
-
-
-    # WEBVTT
-
-    if lines[0].strip() == "WEBVTT":
-
-        return block
-
-
-
-    timestamp = None
-
-    text_lines = []
+            continue
 
 
 
-    for line in lines:
+        header = lines[:timestamp_index+1]
+
+        content = lines[
+            timestamp_index+1:
+        ]
 
 
-        if "-->" in line:
+        result.append(
+            (
+                header,
+                content
+            )
+        )
 
-            timestamp = line
 
-        elif timestamp:
+    return result
 
-            text_lines.append(
-                line
+
+
+# ============================================================
+# Translate
+# ============================================================
+
+
+translator = Translator()
+
+
+
+def translate_text(
+    text,
+    retries=3
+):
+
+    if not text.strip():
+
+        return text
+
+
+
+    for attempt in range(
+        1,
+        retries+1
+    ):
+
+
+        try:
+
+            log(
+                f"    API translate attempt {attempt}"
             )
 
 
+            result = translator.translate(
+                text,
+                "Chinese"
+            )
 
-    if not timestamp:
 
-        return block
+            translated = str(
+                result
+            )
+
+
+            if translated:
+
+                return translated
 
 
 
-    original = "\n".join(
-        text_lines
+        except Exception as e:
+
+
+            log(
+                f"    ERROR: {e}"
+            )
+
+
+            if attempt < retries:
+
+                wait = (
+                    attempt * 5
+                )
+
+                log(
+                    f"    Retry after {wait}s"
+                )
+
+                time.sleep(
+                    wait
+                )
+
+
+
+    log(
+        "    Translation failed, keep original"
     )
 
 
-    if not original.strip():
-
-        return block
-
-
-
-    protected, speakers = (
-        protect_speaker(
-            original
-        )
-    )
-
-
-    translated = (
-        gemini_translate(
-            protected
-        )
-    )
-
-
-    translated = (
-        restore_speaker(
-            translated,
-            speakers
-        )
-    )
-
-
-    return (
-        timestamp
-        +
-        "\n"
-        +
-        original
-        +
-        "\n"
-        +
-        translated
-    )
+    return text
 
 
 
 # ============================================================
-# Translate file
+# Translate VTT file
 # ============================================================
 
 
-def translate_file(
+def translate_vtt(
     source,
     target
 ):
 
 
-    print(
-        "Translating:",
-        source
+    log(
+        ""
     )
 
 
-    content = source.read_text(
+    log(
+        f"Processing: {source.name}"
+    )
+
+
+    log(
+        f"Input size: {source.stat().st_size} bytes"
+    )
+
+
+
+    text = source.read_text(
         encoding="utf-8"
     )
 
 
-    blocks = split_blocks(
-        content
+    blocks = parse_vtt(
+        text
     )
 
 
-    result = []
+    log(
+        f"VTT blocks: {len(blocks)}"
+    )
+
+
+
+    output = []
+
+
+    translated_lines = 0
+
 
 
     for block in blocks:
 
 
-        result.append(
-            translate_block(
+        if isinstance(
+            block,
+            str
+        ):
+
+            output.append(
                 block
             )
-        )
+
+            continue
 
 
-        time.sleep(
-            REQUEST_INTERVAL
+
+        header, lines = block
+
+
+
+        new_lines = []
+
+
+        for line in lines:
+
+
+            if not line.strip():
+
+                new_lines.append(
+                    line
+                )
+
+                continue
+
+
+
+            log(
+                f"    EN: {line[:80]}"
+            )
+
+
+            zh = translate_text(
+                line
+            )
+
+
+            log(
+                f"    ZH: {zh[:80]}"
+            )
+
+
+            new_lines.append(
+                zh
+            )
+
+
+            translated_lines += 1
+
+
+
+        output.append(
+            "\n".join(
+                header
+                +
+                new_lines
+            )
         )
 
 
@@ -435,20 +293,28 @@ def translate_file(
     )
 
 
-    tmp = target.with_suffix(
-        ".tmp"
-    )
-
-
-    tmp.write_text(
-        "\n\n".join(result),
+    target.write_text(
+        "\n\n".join(output),
         encoding="utf-8"
     )
 
 
-    tmp.replace(
-        target
+
+    log(
+        f"Output: {target}"
     )
+
+
+    log(
+        f"Output size: {target.stat().st_size} bytes"
+    )
+
+
+    log(
+        f"Translated lines: {translated_lines}"
+    )
+
+
 
 
 
@@ -460,112 +326,183 @@ def translate_file(
 def main():
 
 
-    OUTPUT_DIR.mkdir(
-        parents=True,
-        exist_ok=True
+    parser = argparse.ArgumentParser()
+
+
+    parser.add_argument(
+        "--input",
+        default="docs/transcripts"
     )
 
 
-    cache = load_cache()
+    parser.add_argument(
+        "--output",
+        default="docs/transcripts/zh"
+    )
+
+
+    args = parser.parse_args()
+
+
+
+    source_dir = Path(
+        args.input
+    )
+
+
+    target_dir = Path(
+        args.output
+    )
+
+
+
+    log(
+        "================================"
+    )
+
+
+    log(
+        "VTT Translation Start"
+    )
+
+
+    log(
+        f"Input: {source_dir}"
+    )
+
+
+    log(
+        f"Output: {target_dir}"
+    )
+
+
+
+    if not source_dir.exists():
+
+        log(
+            "ERROR: input directory missing"
+        )
+
+        sys.exit(1)
+
+
+
+    files = sorted(
+        source_dir.glob(
+            "*.vtt"
+        )
+    )
+
+
+
+    log(
+        f"Found VTT files: {len(files)}"
+    )
+
 
 
     translated = 0
+    skipped = 0
+    failed = 0
 
 
 
-    for source in sorted(
-
-        INPUT_DIR.glob(
-            "*.vtt"
-        ),
-
-        key=lambda x:
-        int(x.stem)
-
+    for index, file in enumerate(
+        files,
+        1
     ):
 
 
-        episode = source.stem
-
-
         target = (
-            OUTPUT_DIR /
-            source.name
+            target_dir
+            /
+            file.name
         )
 
 
-        sha = file_hash(
-            source
+        log(
+            ""
         )
 
 
-        old = cache.get(
-            episode
+        log(
+            f"[{index}/{len(files)}]"
         )
 
 
-        if (
 
-            old
+        if target.exists():
 
-            and old.get(
-                "hash"
-            ) == sha
-
-            and target.exists()
-
-        ):
-
-            print(
-                "Skip:",
-                episode
+            log(
+                "Already exists, skip"
             )
+
+            skipped += 1
 
             continue
 
 
 
-        if translated >= MAX_FILES:
-
-            break
+        try:
 
 
-
-        translate_file(
-            source,
-            target
-        )
-
-
-        cache[episode] = {
-
-            "hash": sha,
-
-            "translated": True,
-
-            "updated":
-
-            datetime.now(
-                timezone.utc
+            translate_vtt(
+                file,
+                target
             )
-            .isoformat()
-
-        }
 
 
-        save_cache(
-            cache
-        )
-
-
-        translated += 1
+            translated += 1
 
 
 
-    print(
-        "Finished:",
-        translated
+        except Exception as e:
+
+
+            log(
+                f"FAILED: {e}"
+            )
+
+
+            failed += 1
+
+
+
+
+    log(
+        ""
     )
+
+
+    log(
+        "================================"
+    )
+
+
+    log(
+        "SUMMARY"
+    )
+
+
+    log(
+        f"Translated: {translated}"
+    )
+
+
+    log(
+        f"Skipped: {skipped}"
+    )
+
+
+    log(
+        f"Failed: {failed}"
+    )
+
+
+    log(
+        "Finished"
+    )
+
 
 
 if __name__ == "__main__":

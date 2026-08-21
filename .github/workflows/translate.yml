@@ -73,7 +73,7 @@ jobs:
 
         run: |
 
-          python translate_vtt.py
+          python -u translate_vtt.py
 
 
 
@@ -81,7 +81,7 @@ jobs:
 
         run: |
 
-          python generate_zh_feed.py \
+          python -u generate_zh_feed.py \
 
           --base-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
 
