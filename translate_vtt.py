@@ -163,12 +163,13 @@ Translate English subtitles into Simplified Chinese.
 
 Rules:
 
-1. Keep speaker names unchanged.
-2. Do NOT translate names.
-3. Preserve the original meaning.
-4. Do NOT summarize.
-5. Keep every subtitle block.
-6. Translate only the subtitle content.
+1. WebVTT speaker names are metadata, not subtitle text.
+2. Never output speaker names.
+3. Only translate subtitle content.
+4. Preserve the original meaning.
+5. Do NOT summarize.
+6. Keep every subtitle block.
+7. Translate only the subtitle content.
 
 Output format:
 
@@ -398,28 +399,13 @@ def extract_speaker(text):
 
 
 def prepare_gemini_text(text):
-    """
-    Convert WebVTT speaker tag
-    into readable Gemini input.
-
-    Keep speaker name unchanged.
-
-    Example:
-
-    <v Ira Glass>Hello
-
-    becomes:
-
-    Ira Glass: Hello
-    """
 
     speaker, content = extract_speaker(text)
 
     if speaker:
+        return content
 
-        return f"{speaker}: {content}"
-
-    return content
+    return text
 
 
 def restore_speaker_translation(original, translated):
