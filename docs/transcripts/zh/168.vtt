@@ -1,0 +1,1149 @@
+WEBVTT
+
+00:00:00.920 --> 00:00:39.960
+<v Ira Glass>From WBEZ Chicago, it's This American Life distributed by Public Radio International. I'm Ira Glass. And today's program is one that we first ran back in the year 2000. And we're rerunning it today because most of the show is about an FBI informant named Mark Whitacre. When this first aired, a screenwriter heard it on the radio. And he thought, this would make a good film. And this week, nine years later, that film, starring Matt Damon, directed by Steven Soderbergh, is opening around the country. And we thought it would be fun to listen back to the amazing, true story. It's really quite something, what really happened.
+<v Ira Glass>这里是芝加哥WBEZ电台的《美国生活》，由国际公共广播电台发行。我是艾拉·格拉斯。今天的节目是我们最初在2000年播出过的一期。今天重播是因为节目的大部分内容讲述的是一位名叫马克·惠特克（Mark Whitacre）的FBI线人。节目首次播出时，一位编剧在广播里听到了，他觉得这会是一个好电影。九年后的本周，这部由马特·达蒙主演、史蒂文·索德伯格导演的电影即将在全国上映。我们认为重温这个令人惊叹的真实故事会很有趣。这确实非同寻常，事情的真相究竟如何。
+
+00:00:39.960 --> 00:00:56.880
+<v Ira Glass>But before we get to that story, just to kind of set things up and sort of set the stage for it, consider for a moment all the situations where you stop and you wonder, am I being paranoid? Is something wrong happening right in front of me here or is that just my imagination?
+<v Ira Glass>但在进入那个故事之前，为了铺陈背景、搭建舞台，试着想一想那些让你停下来思考的瞬间：我是不是多疑了？我眼前正在发生某种错误的事情，还是仅仅是我的想象？
+
+00:00:56.880 --> 00:01:09.180
+<v Andy Hail>People I know were complaining about the high price of milk. And my father-in-law, for example, who lives in Detroit, would come into town and say, my gosh, your milk is like a dollar higher that what we pay.
+<v Andy Hail>我认识的人一直在抱怨牛奶价格太高。例如，住在底特律的我的岳父来城里时会说，天哪，你们这里的牛奶比我们那儿贵了一美元。
+
+00:01:09.180 --> 00:01:28.220
+<v Ira Glass>This is Andy Hail, an attorney here in Chicago. A year ago, he'd already sued a grocery store for anti-competitive practices. And when he looked into the price of milk, he found that the two big supermarkets in town, Dominick's and Jewel, not only had the same price, but it was more than anyone else's price in town. And it always seemed to change at the same time.
+<v Ira Glass>这是安迪·黑尔（Andy Hail），芝加哥的一位律师。一年前，他已经起诉过一家杂货店存在反竞争行为。当他调查牛奶价格时，他发现城里的两家大型超市——Dominick's和Jewel，不仅价格相同，而且比城里其他任何地方的售价都要高。而且它们似乎总是同时变价。
+
+00:01:28.220 --> 00:01:49.680
+<v Andy Hail>Because we followed the price of milk from about $3.09 up to $3.19 to $3.29. I forget how many exact price bumps there were. But we get to $3.69 And as far as we could tell, whenever one changed it seemed like the other one changed simultaneously.
+<v Andy Hail>因为我们跟踪了牛奶的价格，从约3.09美元涨到3.19美元，再到3.29美元。我忘了具体有多少次提价了。但最终涨到了3.69美元。据我们所知，每当其中一家变价，似乎另一家也会同时变价。
+
+00:01:49.680 --> 00:02:04.390
+<v Andy Hail>At most grocery stores at other cities in the country, it was about a dollar cheaper. And in fact, farmers are getting the lowest price they've gotten in two decades. But at the same time, milk in Chicago was at its highest level historically.
+<v Andy Hail>在全国其他城市的大多数杂货店，牛奶大约便宜一美元。事实上，农民们正拿着二十年来最低的收购价。但与此同时，芝加哥的牛奶价格却处于历史最高水平。
+
+00:02:04.390 --> 00:02:19.330
+<v Ira Glass>But here's the crazy thing, even though Andy Hail knows all that, that still doesn't prove that anything illegal is going on. It still doesn't mean that the two stores are sitting down in a back room somewhere, and hatching evil plans to drive up the prices of the dairy products that make the city run.
+<v Ira Glass>但最疯狂的是，即便安迪·黑尔知道这一切，这仍然无法证明任何违法行为正在发生。这并不意味着这两家商店坐在某个后屋里，密谋着推高城市乳制品的价格。
+
+00:02:19.330 --> 00:02:35.610
+<v Ira Glass>After all, it's legal for stores to see what their competition is doing. It's legal for them to match prices that fit well, to stay competitive. We all benefit from that. It's legal for them to raise prices if they think they can get away with it. Dominick's and Jewell say that that is all that is going on here. And Andy Hail does not have proof of anything else.
+<v Ira Glass>毕竟，商店观察竞争对手的举动是合法的。它们为了保持竞争力而调整价格是合法的。我们大家都从中受益。如果它们认为自己能涨价且不会有损失，那么涨价也是合法的。Dominick's和Jewel表示，这里发生的仅此而已。而安迪·黑尔也没有其他证据。
+
+00:02:35.610 --> 00:02:50.360
+<v Andy Hail>The difficult thing with price fixing cases, the difficult with conspiracy cases is proving an agreement. And usually it's very difficult because people don't admit to that.
+<v Andy Hail>价格操纵案和共谋案的难点在于证明协议的存在。通常这非常困难，因为人们不会承认这一点。
+
+00:02:50.360 --> 00:03:28.930
+<v Ira Glass>Is the fix in or is it just our imagination. Consider this case, our state legislature here in Illinois recently passed a bill. It was signed into law and it said that if you were a company that made liquor, any kind of liquor product, and you had some distributor in Illinois, who was doing what a liquor distributor does, which is buying from you and shipping to stores and bars and whoever, and if you decided at some point that you wanted to switch to a different distributor, somebody whose service was better, somebody more reliable, whatever, this law said that unless a special board ruled that you had a good reason to switch, and the reasons had to be really, really good, you were not allowed to switch.
+<v Ira Glass>这种操控是真的存在，还是我们自己的想象？考虑这个案例，我们伊利诺伊州的州议会最近通过了一项法案。该法案被签署成为法律，规定如果你是一家生产酒精饮料的公司，并且在伊利诺伊州有分销商在做分销商该做的事——即向商店、酒吧等买家进货和发货，那么如果你在某个时候决定换一家服务更好、更可靠的分销商，除非有一个专门的委员会裁定你有正当理由进行更换——而且这个理由必须非常、非常充分，否则你是不被允许更换的。
+
+00:03:28.930 --> 00:03:48.920
+<v Ira Glass>Basically it was a law that stopped you from freely choosing who you wanted to do business with. And who was the main force behind this law? Cindi Canary, the head of the Illinois Campaign for Political Reform, will tell you the answer. And be forewarned, it may sound suspicious. It was a man named Bill Wirtz. And his job?
+<v Ira Glass>从根本上说，这是一项禁止你自由选择业务合作伙伴的法律。那么谁是这项法律背后的主要推手呢？伊利诺伊州政治改革运动负责人辛迪·卡纳里（Cindi Canary）会告诉你答案。请预先警告，这听起来可能很可疑。是一个名叫比尔·沃茨（Bill Wirtz）的人。他的工作是？
+
+00:03:48.920 --> 00:03:53.610
+<v Cindy Canary>He owns the largest liquor distributorship in the state.
+<v Cindy Canary>他拥有该州最大的酒类分销公司。
+
+00:03:53.610 --> 00:03:58.570
+<v Ira Glass>What was the rationale that they had for this bill when it was debated?
+<v Ira Glass>在辩论这项法案时，他们的理由是什么？
+
+00:03:58.570 --> 00:04:16.240
+<v Cindy Canary>Well, what they lobbied on in the legislature was they took the tack that if manufacturers could go wherever they wanted, all of these liquor distributor jobs would go to foreigners. They would all go overseas.
+<v Cindy Canary>嗯，他们在议会游说时采取的立场是：如果制造商可以随意选择分销商，那么所有这些酒类分销工作都会流向外国人。它们都会流向海外。
+
+00:04:16.240 --> 00:04:17.450
+<v Ira Glass>But wait a second--
+<v Ira Glass>等等——
+
+00:04:17.450 --> 00:04:18.660
+<v Cindy Canary>I know. It's crazy.
+<v Cindy Canary>我知道。这太疯狂了。
+
+00:04:18.660 --> 00:04:26.660
+<v Ira Glass>If they're distributing liquor in Illinois, then that would pretty much mean that these are trucks that are delivering alcohol--
+<v Ira Glass>如果他们在伊利诺伊州分销酒类，那基本上意味着这些卡车是在……运送酒精。
+
+00:04:26.660 --> 00:04:27.070
+<v Cindy Canary>I know.
+<v Cindy Canary>我知道。
+
+00:04:27.070 --> 00:04:28.660
+<v Ira Glass>--in the state of Illinois. Right.
+<v Ira Glass>——在伊利诺伊州。没错。
+
+00:04:28.660 --> 00:04:39.620
+<v Cindy Canary>I know. But the big pitch was we were going to lose all these jobs.
+<v Cindy Canary>我知道。但他们大肆宣传的是我们要失去所有这些工作岗位。
+
+00:04:39.620 --> 00:04:52.150
+<v Ira Glass>The Federal Trade Commission examined the bill and concluded that there was no evidence of any need for it. And that in fact it would protect liquor distributors, like Bill Wirtz, from normal market forces. And would probably increase alcohol prices besides.
+<v Ira Glass>联邦贸易委员会审查了该法案，结论是没有任何证据表明有此需要。事实上，它反而会保护像比尔·沃茨这样的酒类分销商免受正常的市场力量竞争。此外还可能会提高酒精价格。
+
+00:04:52.150 --> 00:05:05.620
+<v Ira Glass>Cindy Canary says that a year before the bill passed, legislators used to point to this bill as an example of the kinds of special interest proposals they were protecting us from every day. Proposals that could never actually get to be real laws.
+<v Ira Glass>辛迪·卡纳里说，在该法案通过前一年，立法者们曾将此法案作为一种特殊利益提案的典型案例，称他们每天都在抵制这种提案。那些根本不可能成为现实法律的提案。
+
+00:05:05.620 --> 00:05:40.800
+<v Cindy Canary>I was on a panel out in the suburbs with a number of other panelists, including some members of the Illinois legislature. And one state senator said to me, he said, now you campaign finance people, you always make such a big deal about quid pro quo and graft. You always say there's something there, he goes. And I'll give you an example there's nothing there. This Wirtz bill, it'll never pass. If it passes, I'll take everyone in this room out to dinner. There were at least 70 people in the room. We've yet to take him up on his invitation.
+<v Cindy Canary>我曾在郊区参加过一个小组讨论，成员包括一些伊利诺伊州议会的议员。一位州参议员对我说，他说，你们这些搞竞选财务的人，总是把“利益交换”（quid pro quo）和贪污看得太严重。他总说那里面有猫腻。他说，我给你们举个例子，说明那里面什么都没有。这个沃茨法案，它永远不会通过。如果它通过了，我就请在场的所有人吃饭。当时房间里至少有70人。我们还没能让他兑现邀请。
+
+00:05:40.800 --> 00:05:44.440
+<v Ira Glass>And that legislator, he voted against it, I presume.
+<v Ira Glass>而那位立法者，我想他投了反对票吧。
+
+00:05:44.440 --> 00:05:46.200
+<v Cindy Canary>No, he voted for it.
+<v Cindy Canary>不，他投了赞成票。
+
+00:05:46.200 --> 00:05:49.610
+<v Ira Glass>Wait. What happened?
+<v Ira Glass>等等。发生了什么？
+
+00:05:49.610 --> 00:06:03.860
+<v Cindy Canary>I don't know. This is Illinois. And things can change with the wind blowing a different direction.
+<v Cindy Canary>我不知道。这就是伊利诺伊州。事情会随着风向的变化而改变。
+
+00:06:03.860 --> 00:06:08.330
+<v Ira Glass>As you may have heard, the wind shifts directions a lot in these parts around Chicago.
+<v Ira Glass>如你所闻，在芝加哥这些地方，风向确实经常变。
+
+00:06:08.330 --> 00:06:31.340
+<v Ira Glass>And some really beautiful reporting, in the Chicago Tribune , pointed out how Bill Wirtz may have helped the wind blow through numerous $10,000 and $15,000 contributions to key legislators and by hiring 28 lobbyists. 28! Including a former governor, Jim Thompson. But, is it fair to say that Wirtz just put the fix in, just bought this vote?
+<v Ira Glass>《芝加哥论坛报》的一些非常精彩的报道指出，比尔·沃茨可能通过向关键议员提供大量1万美元和1.5万美元的捐款，以及雇佣28名说客，从而助推了风向。28名！其中包括前州长吉姆·汤普森（Jim Thompson）。但是，说沃茨只是搞了利益输送、买通了投票，这公平吗？
+
+00:06:31.340 --> 00:06:54.920
+<v Cindy Canary>I think there's always a hazy area. You can never know for sure. If it's a for sure thing, then you get into the area of bribery. If you say here's $10,000 for your campaign committee. I want you to vote this way. That's bribery. If you say, here's $10,000, we just really like you and we'd like you to hear our position, that's just a campaign contribution.
+<v Cindy Canary>我认为总有一个模糊地带。你永远无法确定。如果是确定无疑的交易，那就进入了贿赂的范畴。如果你说“这是给你们竞选委员会的1万美元，我希望你这样投票”，那是贿赂。如果你说“这是1万美元，我们真的很喜欢你，希望你能听听我们的立场”，那只是竞选捐款。
+
+00:06:54.920 --> 00:07:09.410
+<v Ira Glass>So even in the case of a bill like this, where there doesn't seem to be any public merit to it at all, unless you happen to be an alcohol distributor, even in this case we can't say for sure that money bought this vote?
+<v Ira Glass>所以即使是在这种法案的情况下，除非你正好是酒类分销商，否则它似乎没有任何公共价值，即便在这种情况下，我们也不能肯定地说金钱买通了投票？
+
+00:07:09.410 --> 00:07:18.920
+<v Cindy Canary>There's no way to absolutely nail that down.
+<v Cindy Canary>没有办法绝对敲定这一点。
+
+00:07:18.920 --> 00:07:33.990
+<v Ira Glass>My friend, yes we suspect all kinds of conspiracies. And the problem is we almost never find out if we're right. Well today, on our program, for once we find out. We get the most definitive, satisfying proof possible.
+<v Ira Glass>我的朋友，没错，我们怀疑各种阴谋。问题是我们几乎永远无法证实自己是否正确。嗯，今天在我们的节目中，我们破天荒地找到了真相。我们得到了最确凿、最令人满意的证据。
+
+00:07:33.990 --> 00:07:58.330
+<v Ira Glass>Today we're devoting our program to one story, in which we get a look inside the back rooms of one international business. And we see the intricate workings, recorded on tape, tapes we have, of people putting the fix in. This is also the story of an FBI informant, an informant who had so many different lies going, with so many different people, that eventually he got caught by his own lies.
+<v Ira Glass>今天我们将节目全部献给一个故事，让我们得以一窥一家国际企业的内幕。我们将看到那些极其复杂的运作，并听到我们拥有的录音带——关于人们进行利益输送的证据。这也是一个关于FBI线人的故事，这位线人与不同的人撒了太多的谎，以至于最终他被自己的谎言所困。
+
+00:07:58.330 --> 00:08:12.450
+<v Ira Glass>Today's program, The "Fix Is In". Stay with us.
+<v Ira Glass>今天的节目主题是“利益输送”（The Fix Is In）。请继续收听。
+
+00:08:12.450 --> 00:08:44.280
+<v Ira Glass>Act One. This is the story of the fix being in on a global scale. Five companies, from Japan, Korea, and the United States, including a company called ADM, Archer Daniels Midland, based in Decatur, Illinois. A company that is perhaps best known to Public Radio listeners for their underwriting spots on many of our programs, a company that donates aggressively to both political parties, a company whose chairman has been close to a number of presidents and senators, a company that has the fix in so thoroughly that you, I, all of us, are ADM consumers, and we don't even have any choice about it.
+<v Ira Glass>第一幕。这是一个全球范围内的利益输送故事。来自日本、韩国和美国的五家公司，其中包括一家名为ADM（Archer Daniels Midland）的公司，总部位于伊利诺伊州迪凯特。这家公司可能因资助了我们的许多节目而为公共广播听众所熟知，这是一家积极向两大政党捐款的公司，其董事长与多位总统和参议员关系密切，这是一家将利益输送做得如此彻底的公司，以至于你、我，我们所有人，都是ADM的消费者，我们甚至对此毫无选择。
+
+00:08:44.280 --> 00:08:53.870
+<v Kurt Eichenwald>I mean literally if you walk into an American kitchen and start taking away all the things that have ADM ingredients in them, pretty soon you're not going to be able to make dinner.
+<v Kurt Eichenwald>我的意思是，如果你走进一个美式厨房，拿走所有含有ADM配料的产品，很快你就会发现自己连饭都做不了。
+
+00:08:53.870 --> 00:09:02.420
+<v Ira Glass>Kurt Eichenwald covered the fix at ADM for The New York Times and then consolidated his reporting into a rather gripping account of what happened in ADM in a book called The Informant.
+<v Ira Glass>库尔特·艾肯沃尔德（Kurt Eichenwald）曾为《纽约时报》报道过ADM的利益输送内幕，随后将他的报道整理成了一本关于ADM事件的引人入胜的著作，名为《告密者》（The Informant）。
+
+00:09:02.420 --> 00:09:39.640
+<v Kurt Eichenwald>They're in Kellogg's corn flakes, they're in waffles, they're in Gerber cereals, they're in popsicles, they're in pepperoni, they're in pudding. They sell an additive that goes into laundry detergent. There isn't a single laundry detergent that doesn't have citric acid in it. The same product is found in every form of a soft drink that's available on the market. So if you have a Coke, you have a Pepsi, you're dealing with ADM for a couple of different ingredients.
+<v Kurt Eichenwald>它们出现在家乐氏玉米片里，出现在华夫饼里，出现在嘉宝谷物食品里，出现在冰棒里，出现在意大利辣香肠里，出现在布丁里。他们销售一种添加在洗衣粉里的添加剂。没有哪一种洗衣粉里不含有柠檬酸。同样的成分也存在于市面上所有的软饮料中。所以如果你喝可口可乐或百事可乐，你就在为ADM的几种不同成分买单。
+
+00:09:39.640 --> 00:10:08.780
+<v Ira Glass>This is the story of how ADM's stock price dropped by 50%, how the president of one of its largest divisions went to prison with the company's vice chairman, the son of its chairman, after the FBI caught ADM red-handed, on videotape, engaged in an international criminal conspiracy. The FBI's key witness was an informant inside ADM, an informant who helped the FBI record what are probably the most remarkable videotapes ever made of an America corporation right in the middle of committing a crime.
+<v Ira Glass>这是关于ADM的股票价格如何暴跌50%，其最大部门之一的总裁如何与公司的副董事长（即董事长的儿子）一起入狱的故事，此前FBI在摄像机录像中当场抓获了参与国际刑事共谋的ADM。FBI的关键证人是ADM内部的一名线人，这位线人帮助FBI录下了可能是美国企业在犯罪过程中被拍下的最引人注目的录像带。
+
+00:10:08.780 --> 00:10:23.170
+<v Ira Glass>And the whole case dropped into the FBI's lap as a kind of fluke, because of a lie. A lie that later turned out to be relatively small, compared with the lies that were later revealed, a lie told by a young executive, who wasn't meeting his production goals at ADM.
+<v Ira Glass>而整个案件就像是一种巧合，因一个谎言而落入FBI的手中。这个谎言后来被证明相对较小，与后来揭露的谎言相比，这是一个年轻高管为了掩盖未能达到ADM生产目标而编造的谎言。
+
+00:10:23.170 --> 00:10:36.600
+<v Kurt Eichenwald>Mark Whitacre was a very young, whiz kid executive, who'd been hired by ADM to run its newest and most high tech division, the bioproducts division.
+<v Kurt Eichenwald>马克·惠特克是一位非常年轻的天才高管，被ADM聘请来运营其最新、最高科技的部门——生物产品部。
+
+00:10:36.600 --> 00:10:51.980
+<v Ira Glass>This division used biotechnology to make all sorts of food additives. And ADM's first big foray into the field was a product called lysine, an additive to hog and chicken feed, that helps fatten them up fast. Mark was 32, boyish looking and outgoing, but things were not going well.
+<v Ira Glass>该部门利用生物技术生产各种食品添加剂。ADM在该领域的首次大举进军是一种名为赖氨酸的产品，这是一种猪和鸡饲料的添加剂，有助于它们快速增重。马克当时32岁，长相稚嫩、性格外向，但事情进展并不顺利。
+
+00:10:51.980 --> 00:11:22.290
+<v Kurt Eichenwald>The problem was that the lysine plant wasn't working. And one day, Mark Whitacre came into the office, and he said, I just received a phone call at my home from one of our competitors and they have a saboteur in our plant. The man who called me said he would identify the saboteur if we paid him $10 million. And what should we do?
+<v Kurt Eichenwald>问题是赖氨酸工厂无法运转。有一天，马克·惠特克走进办公室说：“我刚才在家接到一个竞争对手的电话，他们工厂里有破坏者。那个给我打电话的人说，如果我们付他1000万美元，他就会指认破坏者。我们该怎么办？”
+
+00:11:22.290 --> 00:11:38.040
+<v Kurt Eichenwald>And ADM reacted to that, first by alerting the Central Intelligence Agency, which determined that they had no authority over this matter. So the matter was turned over to the Federal Bureau of Investigation.
+<v Kurt Eichenwald>ADM对此的反应是，首先通知了中央情报局（CIA），中情局认定他们对此事没有管辖权。于是这件事被移交给了联邦调查局（FBI）。
+
+00:11:38.040 --> 00:11:43.100
+<v Ira Glass>And much, much later Mark Whitacre admitted that he had made this up actually.
+<v Ira Glass>很久很久以后，马克·惠特克承认他其实是编造了这个故事。
+
+00:11:43.100 --> 00:11:47.460
+<v Kurt Eichenwald>The whole story of the saboteur was fictitious.
+<v Kurt Eichenwald>关于破坏者的整个故事都是虚构的。
+
+00:11:47.460 --> 00:12:07.180
+<v Ira Glass>It's possible that Whitaker told the story to buy himself more time to get the plant running. In any case, this one lie gets the FBI involved. And they start poking around at ADM. And one night, November 5, 1992, a special agent named Brian Shepard drops in on Mark Whitacre at his house, to put a device on his phone which would tap his calls.
+<v Ira Glass>惠特克编这个故事可能是为了给自己争取更多时间来启动工厂。无论如何，这个谎言让FBI卷入了进来。他们开始在ADM周围探听。1992年11月5日的一个晚上，一位名叫布莱恩·谢泼德（Brian Shepard）的特工到马克·惠特克家安装电话监听设备。
+
+00:12:07.180 --> 00:13:05.780
+<v Kurt Eichenwald>Whitaker was supposedly getting these phone calls from the competitor asking for money. And so the FBI wanted to get that on tape. He hooked up the device. He was about to head out the door. Mark Whitacre's wife, who was aware that there were other things going on at ADM that her husband had not told the FBI, was pushing him to open up. He wasn't going to. As Shepard literally was headed out to his car, she began to push past her husband to go outside and tell the agent what she knew. And instead, Whitacre called out to agent Shepherd and said, do you have a moment?
+<v Kurt Eichenwald>惠特克本应收到竞争对手索要钱财的电话，所以FBI想把那个过程录下来。他连接好设备后正要出门。马克·惠特克的妻子知道ADM内部还有其他事情发生，丈夫并没有告诉FBI，她一直在催促丈夫说出真相。但他本来没打算说。当谢泼德特工正走向车子时，她开始推开丈夫，想冲出去告诉特工她所知道的一切。这时，惠特克叫住了谢泼德特工说：“你有时间吗？”
+
+00:13:05.780 --> 00:13:10.400
+<v Ira Glass>So he stops the agent. And he tells the agent, what?
+<v Ira Glass>于是他叫住了特工，然后他告诉特工什么？
+
+00:13:10.400 --> 00:13:53.700
+<v Kurt Eichenwald>Well, he and Shepherd go into Shepherd's car. And they're sitting there. And he, after dancing around the topic for some time, he tells Shepherd, I have been working with ADM to fix worldwide prices of lysine. And it's not just lysine. We fix prices in a number of products. What Whitaker was telling Shepard that night was ADM is in a massive conspiracy with all of its competitors in this market to rip off its customers.
+<v Kurt Eichenwald>好吧，他和谢泼德走进谢泼德的车里，坐在里面。在绕了半天圈子后，他告诉谢泼德：“我一直与ADM合作，操纵全世界赖氨酸的价格。而且不仅仅是赖氨酸。我们操纵了许多产品的价格。”惠特克那天晚上告诉谢泼德的是，ADM正在与该市场的所有竞争对手进行大规模的共谋，以敲诈客户。
+
+00:13:53.700 --> 00:14:07.340
+<v Ira Glass>At one level this is a completely foolhardy thing to say to a federal agent. And if you asked Mark Whitacre today about why he did it, he'd tell you that he felt boxed in, that his wife would have told them anyway, or that the FBI would figure out that something was going on by listening to his phone calls.
+<v Ira Glass>在某种程度上，对联邦特工说这种话是极其愚蠢的。如果你今天问马克·惠特克为什么这么做，他会告诉你他觉得被逼到了墙角，他的妻子无论如何都会说出来，或者FBI通过监听他的电话也会发现事情不对劲。
+
+00:14:07.340 --> 00:14:19.130
+<v Ira Glass>But once he said it, the FBI asked them to prove it by recording some conversations that would confirm this rather incredible story. So Mark agree, not thinking it would take much time. Here he is.
+<v Ira Glass>但一旦说出口，FBI就要求他通过录下那些证实这一惊人故事的对话来证明这一点。马克同意了，没认为这会花多长时间。这就是他当时的说法。
+
+00:14:19.130 --> 00:14:40.090
+<v Mark Whitacre>Well, my goal was, and what I was hoping was, was that we would have that meeting that night. I would have verified it in a tape, a couple days later. And that would have been it. I would never dreamed it would have been almost three years of helping them.
+<v Mark Whitacre>好吧，我的目标和当时我所希望的是，那天晚上能进行那次会议。几天后我会在录音带上进行核实，然后就结束了。我做梦也没想到会花将近三年时间帮助他们。
+
+00:14:40.090 --> 00:14:55.800
+<v Mark Whitacre>I met with the FBI sometimes two nights a week. It ended up being a second job for me. I mean it took tremendous amount of hours over the 33 months while I made literally hundreds of tapes. I think over 200 hours of tapes and hundreds of tapes themself.
+<v Mark Whitacre>我有时一周两次与FBI会面。这最终成了我的第二份工作。我的意思是，在33个月里，我花费了大量时间，录制了数百盘录音带。我想有超过200小时的录音，以及数百盘带子。
+
+00:14:55.800 --> 00:15:00.050
+<v Kurt Eichenwald>I've spoken to a lot of people in law enforcement about Whitacre did,--
+<v Kurt Eichenwald>我和许多执法部门的人谈过惠特克所做的事情——
+
+00:15:00.050 --> 00:15:01.910
+<v Ira Glass>Again, reported Kirk Eichenwald.
+<v Ira Glass>又是库尔特·艾肯沃尔德报道。
+
+00:15:01.910 --> 00:15:13.340
+<v Kurt Eichenwald>--and again and again, I have heard phrases like there has never been a cooperating witness like this guy. I've never seen anybody who was so skilled at doing it.
+<v Kurt Eichenwald>——一遍又一遍地，我听到诸如“从来没有过像这家伙这样配合的证人”之类的短语。我从未见过任何人在做这件事上如此熟练。
+
+00:15:13.340 --> 00:15:22.270
+<v Mark Whitacre>They told me a few times I was the best, the best informant they've ever had, the FBI. They told me that a lot.
+<v Mark Whitacre>FBI的人曾几次告诉我，我是最棒的，是我见过最出色的线人。他们经常这样说。
+
+00:15:22.270 --> 00:15:42.910
+<v Kurt Eichenwald>He was a cooperating witness on a scale like there has never been seen. I mean this was an individual at the highest reaches of a Fortune 500 company, who was walking around, wired, all the time.
+<v Kurt Eichenwald>他是一个前所未有的合作证人。我的意思是，这是一个身处财富500强企业最高层的人，他一直在走动，身上带着窃听器。
+
+00:15:42.910 --> 00:15:44.060
+<v Tani Mimoto>Hello.
+<v Tani Mimoto>你好。
+
+00:15:44.060 --> 00:15:45.280
+<v Mark Whitacre>Hey, Mr. Tani.
+<v Mark Whitacre>嘿，谷先生（Mr. Tani）。
+
+00:15:45.280 --> 00:15:46.570
+<v Tani Mimoto>Ahh, how are you?
+<v Tani Mimoto>啊，你好吗？
+
+00:15:46.570 --> 00:15:48.280
+<v Mark Whitacre>Fine, how are you?
+<v Mark Whitacre>很好，你呢？
+
+00:15:48.280 --> 00:15:50.100
+<v Tani>Fine. And thank you very much for your telephone call.
+<v Tani>很好。非常感谢你的来电。
+
+00:15:50.100 --> 00:15:52.880
+<v Kurt Eichenwald>And he was very, very good at it.
+<v Kurt Eichenwald>他非常、非常擅长这一点。
+
+00:15:52.880 --> 00:15:53.240
+<v Mark Whitacre>No problem.
+<v Mark Whitacre>没问题。
+
+00:15:53.240 --> 00:16:15.760
+<v Kurt Eichenwald>He was very good at drawing people out. He was very good at making sure people were positioned in front of the cameras that were hidden away in a room somewhere. He was very good at getting them to repeat themselves. In other words, if there was an earlier conversation that was missed on tape, so he got them to repeat everything when the tapes were rolling.
+<v Kurt Eichenwald>他非常擅长引导人们说话。他非常擅长确保人们站在某个房间里隐藏的摄像头前。他非常擅长让他们重复自己的话。换句话说，如果之前的谈话没录上，他会让他们在录音带转动时把一切重说一遍。
+
+00:16:15.760 --> 00:16:21.210
+<v Mark Whitacre>How do you feel the meeting in Paris last week, the October 5 meeting? How do you feel about it?
+<v Mark Whitacre>你觉得上周在巴黎的会议，也就是10月5日的会议怎么样？你觉得如何？
+
+00:16:21.210 --> 00:16:42.270
+<v Tani Mimoto>I think-- how do I feel? I think I appreciate that meeting for the price. Because if there was no such meeting, I think we were about to decrease the price.
+<v Tani Mimoto>我想……我怎么觉得？我认为那次会议对价格很有意义。因为如果没有那次会议，我想我们当时就准备降价了。
+
+00:16:42.270 --> 00:17:10.020
+<v Ira Glass>Bob Herndon was one of the two FBI agents who worked most closely with Mark Whitacre. He says that one of Whitacre's most impressive moments was right at the beginning in the investigation, when the FBI had this problem that they did not know how to solve with the case. They knew the five companies that make lysine were meeting. There were two from Korea, two from Japan, and ADM. But the companies always met overseas, outside the reach of US law enforcement, in countries where the FBI was not allowed to set up secret cameras and videotape them.
+<v Ira Glass>鲍勃·赫恩登（Bob Herndon）是与马克·惠特克联系最紧密的两位FBI特工之一。他说惠特克最令人印象深刻的时刻之一是在调查开始时，当时FBI在案件中遇到了一个不知道如何解决的问题。他们知道五家生产赖氨酸的公司在开会。两家来自韩国，两家来自日本，还有ADM。但这些公司总是在海外开会，超出了美国执法部门的范围，在那些FBI不允许设置秘密摄像头进行拍摄的国家。
+
+00:17:10.020 --> 00:17:14.860
+<v Ira Glass>So how to get them to meet in the US. Here's agent Herndon.
+<v Ira Glass>那么如何让他们在美国开会呢？这是赫恩登特工。
+
+00:17:14.860 --> 00:17:21.950
+<v Bob Herndon>We would have these debriefing sessions about once a week. In this particular one, in July of 1993,--
+<v Bob Herndon>我们大约每周进行一次汇报。在1993年7月那次特定的会议上——
+
+00:17:21.950 --> 00:17:27.060
+<v Ira Glass>By the way, one sign that you have testified in a federal trial, you remember the dates of everything.
+<v Ira Glass>顺便说一句，证明你在联邦审判中作证过的一个迹象，就是你记得所有事情的日期。
+
+00:17:27.060 --> 00:17:51.750
+<v Bob Herndon>--in July of 1993, that night, myself and Brian Shepard, the other agent I worked with on this case, we're kind of hitting him hard about well Mark, what suggestions can you come up with, how could we get this next meeting between all of the competitors in the United States? And it was Mark Whitacre himself who suggested golf.
+<v Bob Herndon>——在1993年7月那个晚上，我和与我一起工作的另一位特工布莱恩·谢泼德，有点强硬地逼问马克，你有什么建议吗？我们要如何促成下一次所有竞争对手在美国的会面？正是马克·惠特克本人提议去打高尔夫球。
+
+00:17:51.750 --> 00:17:56.280
+<v Kurt Eichenwald>And so they think about it. Hawaii has great golf courses.
+<v Kurt Eichenwald>于是他们开始考虑。夏威夷有很棒的高尔夫球场。
+
+00:17:56.280 --> 00:17:58.080
+<v Ira Glass>Again, reporter Kurt Eichenwald.
+<v Ira Glass>又是记者库尔特·艾肯沃尔德。
+
+00:17:58.080 --> 00:18:16.080
+<v Kurt Eichenwald>And so they tell Whitacre to dangle the prospect of a golf game on a stellar course in Hawaii to the Japanese competitors as a means of enticing them to come to the United States.
+<v Kurt Eichenwald>于是他们告诉惠特克，以在夏威夷顶级球场打高尔夫球为诱饵，吸引日本竞争对手来美国。
+
+00:18:16.080 --> 00:18:17.140
+<v Tani Mimoto>Hello.
+<v Tani Mimoto>你好。
+
+00:18:17.140 --> 00:18:18.090
+<v Mark Whitacre>Hello.
+<v Mark Whitacre>你好。
+
+00:18:18.090 --> 00:18:19.170
+<v Tani Mimoto>Ahh, yes.
+<v Tani Mimoto>啊，是。
+
+00:18:19.170 --> 00:18:20.380
+<v Mark Whitacre>Mr. Mimoto?
+<v Mark Whitacre>是三本先生（Mr. Mimoto）吗？
+
+00:18:20.380 --> 00:18:22.890
+<v Tani Mimoto>Yes, speaking. Is it Mark speaking?
+<v Tani Mimoto>是的，我是。是马克吗？
+
+00:18:22.890 --> 00:18:36.940
+<v Bob Herndon>While we were listening to the call while the call was going on and Mark Whitacre asked Mr. Mimoto to think about coming to the United States for the next lysine meeting.
+<v Bob Herndon>通话时我们在监听，马克·惠特克请三本先生考虑为了下一次赖氨酸会议来美国。
+
+00:18:36.940 --> 00:18:42.530
+<v Mark Whitacre>I think in our next meeting, since you guys hosted the Vancouver meeting, I think ADM should host the next meeting, don't you think?
+<v Mark Whitacre>我认为下一次会议，既然你们主持了温哥华的会议，我觉得应该由ADM来主持，你觉得呢？
+
+00:18:42.530 --> 00:18:43.790
+<v Tani Mimoto>Yeah. That's fine.
+<v Tani Mimoto>好的，没问题。
+
+00:18:43.790 --> 00:18:46.730
+<v Mark Whitacre>And maybe we host it in Maui?
+<v Mark Whitacre>也许我们在茂宜岛举行？
+
+00:18:46.730 --> 00:18:48.680
+<v Tani Mimoto>Maui?
+<v Tani Mimoto>茂宜岛？
+
+00:18:48.680 --> 00:18:55.500
+<v Mark Whitacre>The lysine-- have the lysine meeting, the group meeting like we had last time in Vancouver, the group lysine meeting, to have it in Maui, Hawaii.
+<v Mark Whitacre>赖氨酸……举行赖氨酸会议，就像我们上次在温哥华那样，进行小组会议，在夏威夷茂宜岛举行。
+
+00:18:55.500 --> 00:18:58.770
+<v Tani Mimoto>Maui, Hawaii is still the United States.
+<v Tani Mimoto>夏威夷茂宜岛仍然是美国领土。
+
+00:18:58.770 --> 00:19:10.700
+<v Kurt Eichenwald>Now of course, Whitacre knows exactly what the man means. What's wrong with still in the United States? He knows what it means. But rather than letting it drop, he says well, what does that mean, still in the United States, because he wants it on tape.
+<v Kurt Eichenwald>当然，惠特克很清楚对方的意思。“仍然是美国”有什么不对劲吗？他知道这意味着什么。但比起顺水推舟，他说：“嗯，那是什么意思？仍然是美国。”因为他想把这段话录下来。
+
+00:19:10.700 --> 00:19:12.740
+<v Mark Whitacre>Yeah, but what's that mean? Still in the United States.
+<v Mark Whitacre>是啊，但那是什么意思？仍然是美国。
+
+00:19:12.740 --> 00:19:19.190
+<v Tani Mimoto>Still in the United States means the United States is very severe for the control of antitrust activity, no?
+<v Tani Mimoto>“仍然是美国”意味着美国对反垄断活动的监管非常严厉，不是吗？
+
+00:19:19.190 --> 00:19:30.090
+<v Kurt Eichenwald>Well, there's your bingo moment. The man just stated, still in the United States means that the United States is very severe for the control of antitrust activities.
+<v Kurt Eichenwald>好了，你的“宾果”时刻到了。那个人刚刚声明，“仍然是美国”意味着美国对反垄断活动的监管非常严厉。
+
+00:19:30.090 --> 00:19:31.380
+<v Bob Herndon>That statement there--
+<v Bob Herndon>那句声明——
+
+00:19:31.380 --> 00:19:32.850
+<v Ira Glass>Agent Bob Herndon.
+<v Ira Glass>鲍勃·赫恩登探员。
+
+00:19:32.850 --> 00:19:51.050
+<v Bob Herndon>Mimoto's explanation about the laws of the United States became a very key statement in the prosecution of him and his company. That statement showed that the competitors knew what they were doing was violating the law of the United States.
+<v Bob Herndon>三本关于美国法律的解释，成了起诉他和他的公司的关键声明。那句话表明，这些竞争对手明知他们的行为违反了美国法律。
+
+00:19:51.050 --> 00:20:03.160
+<v Kurt Eichenwald>And as soon as he gets that on tape, Whitacre moves on. He goes back to trying to lure him. His next big phrase is well, Hawaii, next to an 18-hole hole golf course. He's not going to let it go.
+<v Kurt Eichenwald>一旦录下这段话，惠特克就继续前进。他回到诱导对方的计划中。他的下一个大诱饵是：“嗯，夏威夷，就在18洞高尔夫球场旁边。”他绝不会放过这个机会。
+
+00:20:03.160 --> 00:20:11.060
+<v Mark Whitacre>Yeah, but you think in Hawaii next to an 18-hole golf course.
+<v Mark Whitacre>是啊，但你想想，在夏威夷，就在18洞高尔夫球场旁边。
+
+00:20:11.060 --> 00:20:30.330
+<v Tani Mimoto>Maui is very convenient for us. But I don't know. Or if your company does it, no problem. Maybe I will consult with legal department.
+<v Tani Mimoto>茂宜岛对我们来说很方便。但我不知道。或者如果你们公司做，没问题。也许我会咨询法律部门。
+
+00:20:30.330 --> 00:20:32.470
+<v Ira Glass>Again, Mark Whitacre.
+<v Ira Glass>又是马克·惠特克。
+
+00:20:32.470 --> 00:20:37.570
+<v Mark Whitacre>I was intense about it. If they wanted something, I was going to get it for them.
+<v Mark Whitacre>我当时非常投入。如果他们想要什么，我就一定要为他们弄到。
+
+00:20:37.570 --> 00:20:46.190
+<v Ira Glass>Would you psych up before one of these meetings? In other words, would you have a thing, you'd tell yourself, I'm going to do this, I'm going to do this, I'm going to do this. Here's the way I'm going to play this off. Would you go through that in your head?
+<v Ira Glass>在这些会议之前你会自我暗示吗？换句话说，你会有一种状态，告诉自己：我要这样做，我要这样做，我要这样做。这就是我打算如何周旋的方式。你会在这脑子里过一遍吗？
+
+00:20:46.190 --> 00:21:11.330
+<v Mark Whitacre>I would. I would mentally go over every detail, every detail. And they would tell me three or four things they needed in particular. And I didn't have to write them down. And I would make sure in each one of those meetings that I hit all three or four of those things, in every single meeting. I was obsessed with it.
+<v Mark Whitacre>我会的。我会在脑海中反复检查每一个细节。他们会告诉我三四件他们特别需要的东西。我甚至不需要写下来。在每次会议中，我都会确保我触及了那三四件事。我对此非常着迷。
+
+00:21:11.330 --> 00:21:15.210
+<v Ira Glass>The phone calls worked. And they had the meeting in Hawaii, and other meetings as well.
+<v Ira Glass>电话奏效了。他们在夏威夷举行了会议，也举行了其他会议。
+
+00:21:15.210 --> 00:21:34.180
+<v Ira Glass>For one get together in Atlanta, a tape recorder that was concealed inside Whitacre's briefcase wasn't working. So he left it with FBI agents, who frantically tried to fix it. And then he went to the meeting room, where the big five lysine producers were getting together, where a secret camera was already concealed inside a lamp.
+<v Ira Glass>在亚特兰大的一次聚会上，藏在惠特克公文包里的录音机坏了。于是他把它留给了FBI特工，他们疯狂地试图修理它。然后他去了会议室，那里的五大赖氨酸生产商正在集合，而一支秘密摄像头早就藏在了一盏灯里。
+
+00:21:34.180 --> 00:22:03.620
+<v Kurt Eichenwald>So they arrive in this very nice room. And it's the very opening of the meeting. And they're just sort of, for lack of a better term, taking attendance. And Whitacre says to the assembled group, now we have a couple of other people joining us, I think, don't we. And one of the executives, yeah, we have a couple more. Then one of the execs says, well is this two more from this Korean company?
+<v Kurt Eichenwald>他们来到了这个非常好的房间，会议刚开始。他们就像，用个不太恰当的词，在点名。惠特克对聚集在一起的人群说：“我们还有另外几个人要加入，我想，对吗？”其中一个高管说：“是的，我们还有几个人。”然后其中一个高管说：“哦，那是韩国公司又来了两个人吗？”
+
+00:22:03.620 --> 00:22:06.400
+<v Mark Whitacre>And then come two more, right? Two more at that point?
+<v Mark Whitacre>然后又来了两个，对吧？当时又来了两个？
+
+00:22:06.400 --> 00:22:06.840
+<v Man>Two more.
+<v Man>两个。
+
+00:22:06.840 --> 00:22:09.740
+<v Mark Whitacre>Two more. Two. Because I've got plenty of space. Yeah.
+<v Mark Whitacre>两个。两个。因为我空间很充足。是的。
+
+00:22:09.740 --> 00:22:11.350
+<v Man>Two more from Miwon.
+<v Man>米元（Miwon）公司又来了两个。
+
+00:22:11.350 --> 00:22:25.280
+<v Kurt Eichenwald>And one of the European executives is over fixing himself a drink at the banquet cart. And he says, no, no. It's two more from the Korean company and one from Tyson and one from ConAgra.
+<v Kurt Eichenwald>其中一位欧洲高管正在餐车旁给自己调酒。他说：“不，不。是韩国公司又来了两个，泰森（Tyson）公司一个，康尼格拉（ConAgra）公司一个。”
+
+00:22:25.280 --> 00:22:28.780
+<v Man>One from Tyson. One from ConAgra. One from--
+<v Man>泰森一个。康尼格拉一个。一个……
+
+00:22:28.780 --> 00:22:29.220
+<v Man>[LAUGHTER]
+<v Man>（笑声）
+
+00:22:29.220 --> 00:22:46.760
+<v Kurt Eichenwald>Now this is, I guess price fixing humor. Tyson and ConAgra are the customers among those who are being cheated. And so one of the Japanese executives jumps in with his own joke. He looks straight Whitacre and says--
+<v Kurt Eichenwald>我想这就是“价格操纵幽默”吧。泰森和康尼格拉是那些被欺诈的客户。于是其中一位日本高管插了一句他自己的笑话。他直视惠特克说——
+
+00:22:46.760 --> 00:22:49.210
+<v Man>And one from FBI.
+<v Man>还有一个是FBI的。
+
+00:22:49.210 --> 00:22:49.700
+<v Man>[LAUGHTER]
+<v Man>（笑声）
+
+00:22:49.700 --> 00:22:51.470
+<v Kurt Eichenwald>And one from FBI.
+<v Kurt Eichenwald>还有一个是FBI的。
+
+00:22:51.470 --> 00:22:54.370
+<v Kurt Eichenwald>[LAUGHTER]
+<v Kurt Eichenwald>（笑声）
+
+00:22:54.370 --> 00:23:27.510
+<v Kurt Eichenwald>Which in fact is exactly what Whitacre was. Now as all this is going on, in the other room the FBI at that moment has successfully fixed the briefcase recorder. And so they need to get it back to him. So the conspirators are laughing about FBI, FTC. There's a knock at the door. And one of the Japanese executives looks up and says yes, FTC?
+<v Kurt Eichenwald>这确实正是惠特克的身份。而就在这一切发生时，在隔壁房间，FBI那一刻已经成功修好了公文包里的录音机。所以他们需要把它还给他。参与密谋的人们正在嘲笑FBI、FTC（联邦贸易委员会）。这时有人敲门。其中一位日本高管抬头说：“是的，FTC？”
+
+00:23:27.510 --> 00:23:32.270
+<v Man>Yes? FTC?
+<v Man>是的？FTC？
+
+00:23:32.270 --> 00:23:40.040
+<v Kurt Eichenwald>And Whitacre walks over and opens the door. And no, it wasn't the FTC. It was the FBI.
+<v Kurt Eichenwald>惠特克走过去开门。不，那不是FTC。那是FBI。
+
+00:23:40.040 --> 00:23:41.960
+<v Bob Herndon>I hope I have the right room.
+<v Bob Herndon>希望我没进错房间。
+
+00:23:41.960 --> 00:23:42.450
+<v Mark Whitacre>Yeah.
+<v Mark Whitacre>是的。
+
+00:23:42.450 --> 00:23:43.410
+<v Bob Herndon>This was left out in the cafeteria.
+<v Bob Herndon>这东西落在了自助餐厅。
+
+00:23:43.410 --> 00:23:44.010
+<v Mark Whitacre>OK.
+<v Mark Whitacre>好的。
+
+00:23:44.010 --> 00:23:53.430
+<v Ira Glass>At this point the agent, Bob Herndon, pretends he works for the hotel and says, I hope I have the right room. This was left down in the cafeteria and hands Whitacre the briefcase with the secret recorder.
+<v Ira Glass>此时，探员鲍勃·赫恩登假装在酒店工作，说道：“希望我没进错房间。这东西落在了自助餐厅。”然后把那个藏有秘密录音机的公文包递给了惠特克。
+
+00:23:53.430 --> 00:23:57.610
+<v Ira Glass>When they said that, did your heart just sink?
+<v Ira Glass>当他们这么说时，你的心沉下去了吗？
+
+00:23:57.610 --> 00:24:10.510
+<v Mark Whitacre>No, at that point I've already made tapes for well over two years at that point. And I knew they were just joking. And they had 100% trust in me.
+<v Mark Whitacre>没有，那时我已经做了两年多的录音了。我知道他们只是在开玩笑。而且他们对我有着百分之百的信任。
+
+00:24:10.510 --> 00:24:13.940
+<v Ira Glass>Did you imagine to yourself what would have happened if they would caught you in one of these meetings?
+<v Ira Glass>你有没有想象过如果他们在这些会议中抓住你，会发生什么？
+
+00:24:13.940 --> 00:24:33.290
+<v Mark Whitacre>No. I just went in with the impression that I'm never going to get caught. Never. I mean I was very trusted within those groups. I mean I was even being discussed to be the next president of the whole company. And I was so trusted within that company, and also among the Japanese and Korean companies, that there was just no way that I was even concern about it.
+<v Mark Whitacre>没有。我只是带着一种“我绝不会被抓住”的印象走进去的。绝不会。我的意思是，在这些小组中我非常受信任。我的意思是，我甚至被讨论要成为整个公司的下一任总裁。而且我在那家公司，以及在那些日本和韩国公司中都深受信赖，所以根本没想过会出问题。
+
+00:24:33.290 --> 00:24:38.360
+<v Ira Glass>Did you have a plan for what you would say if in fact somebody noticed the wire on?
+<v Ira Glass>如果有人真的注意到了你身上的窃听器，你有没有准备好怎么说？
+
+00:24:38.360 --> 00:24:43.670
+<v Mark Whitacre>Well, I really didn't a plan. I was just counting on not getting caught.
+<v Mark Whitacre>嗯，我真的没有计划。我只是指望不会被抓住。
+
+00:24:43.670 --> 00:24:54.490
+<v Ira Glass>I told writer Kurt Eigenwald, who spent years getting to know Mark Whitacre, how surprised I was when Whitacre told me he never considered the possibility that he'd be caught. I wasn't sure if he was telling me the truth.
+<v Ira Glass>我告诉过作家库尔特·艾肯沃尔德，他花了几年时间才真正了解马克·惠特克，当我听到惠特克说他从未考虑过自己会被抓住的可能性时，我有多惊讶。我不确定他是否在说实话。
+
+00:24:54.490 --> 00:25:14.860
+<v Kurt Eichenwald>I totally believe that. Whitaker always believed that no one would ever question him. He would sometimes come into the United States carrying cash in his suitcase that he did not declare, effectively committing a crime.
+<v Kurt Eichenwald>我完全相信。惠特克总是认为没人会质疑他。他有时会带着公文包里的现金进入美国，而不向海关申报，实际上是在犯罪。
+
+00:25:14.860 --> 00:25:16.190
+<v Ira Glass>Like thousands and thousands of dollars cash.
+<v Ira Glass>就像成千上万的现金。
+
+00:25:16.190 --> 00:25:56.080
+<v Kurt Eichenwald>Thousands and thousands of dollars in cash. And when asked, well what would you have done if you had been caught, he just looked at the person asking the question and blinked and said well, it never occurred to me they'd stop me. Why would they? I'm a respectable looking guy. I wear a suit. I am an executive. Why would why would they ever stop me? And that's kind of attitude-- he just always believes that he's got control of the situation. And in the end, that's also the trait that led him to become completely undone.
+<v Kurt Eichenwald>成千上万的现金。当被问到“如果你被抓住了怎么办”时，他只是看着问话的人，眨了眨眼说：“嗯，我从来没想过他们会拦住我。他们为什么要拦？我看起来是个体面的人。我穿着西装。我是个高管。他们为什么会拦住我？”这就是那种态度——他总是认为自己掌控了一切。最后，这也是导致他彻底崩溃的特质。
+
+00:25:56.080 --> 00:25:58.520
+<v Ira Glass>It was also one of the traits that made him such a good witness.
+<v Ira Glass>这也是让他成为一名优秀证人的特质之一。
+
+00:25:58.520 --> 00:26:06.850
+<v Kurt Eichenwald>Absolutely.
+<v Kurt Eichenwald>绝对是。
+
+00:26:06.850 --> 00:26:29.030
+<v Ira Glass>On these tapes, the other men at the price fixing meetings also seem to have remarkable faith that they won't get caught. What's striking is not how nervous they all seem, as they set up an international criminal conspiracy, but how at ease. When people come to deliver lunch, they do not even bother to hide the chart that they've made, dividing the world market among themselves. If anything, they make world domination seem profoundly banal.
+<v Ira Glass>在这些录音带上，那些在价格操纵会议上的人似乎也对不会被抓持有惊人的信心。令人震惊的不是他们密谋发起国际犯罪时显得多么紧张，而是他们有多么放松。当人们送午餐进来时，他们甚至懒得掩饰他们绘制的瓜分世界市场的图表。如果说有什么不同的话，那就是他们让“统治世界”看起来深刻而平庸。
+
+00:26:29.030 --> 00:26:50.910
+<v Ira Glass>In a typical tape, the scene is a Marriott hotel conference in Irvine, California, half-eaten breakfast rolls on the table, hotel coffee cooling in the air conditioning, there's an easel, one of those big corporate presentation notepads. And, can't take over the world without, magic markers.
+<v Ira Glass>在一个典型的录音中，场景是加州尔湾的万豪酒店会议室，桌上放着吃了一半的早餐卷，酒店咖啡在空调下变凉，旁边有一个画架，上面放着那种大号企业演示记事本。而且，没有马克笔就统治不了世界。
+
+00:26:50.910 --> 00:26:52.380
+<v Man 1>87.
+<v Man 1>87。
+
+00:26:52.380 --> 00:26:54.210
+<v Man 2>87. And 60--
+<v Man 2>87。还有60——
+
+00:26:54.210 --> 00:26:55.230
+<v Man 1>65.
+<v Man 1>65。
+
+00:26:55.230 --> 00:26:56.020
+<v Man 2>[UNINTELLIGIBLE].
+<v Man 2>（听不清）
+
+00:26:56.020 --> 00:26:57.010
+<v Man 1>Not this year.
+<v Man 1>今年不行。
+
+00:26:57.010 --> 00:26:59.490
+<v Man 2>[UNINTELLIGIBLE].
+<v Man 2>（听不清）
+
+00:26:59.490 --> 00:27:27.240
+<v Ira Glass>In the movies, this would happen somewhere in a hollowed out volcano on a remote Pacific island. But fixing the world market turns out to involve dozens of picky little details. If you're going to raise the price, should you do it all at once or gradually? How gradually? What should the prices be for bushels and car loads, for delivered and undelivered, for full or half orders. There is a surprising amount of long division, and fractions, and multiplication, with long pauses, as they work out the math.
+<v Ira Glass>在电影里，这会发生在遥远太平洋岛屿上火山内部的藏身处。但事实证明，操纵全球市场需要数十个精细琐碎的细节。如果你要涨价，应该是一次性涨还是逐步涨？多慢才算逐步？每蒲式耳和每车皮的定价应该是什么？是交货还是未交货？全订单还是半订单？他们花了大量时间在长除法、分数和乘法上，中间有惊人的停顿，因为他们在进行数学计算。
+
+00:27:27.240 --> 00:27:28.170
+<v Man 1>8%.
+<v Man 1>8%。
+
+00:27:28.170 --> 00:27:31.910
+<v Man 2>OK. 230 times--
+<v Man 2>好的。230乘以——
+
+00:27:31.910 --> 00:27:32.400
+<v Man 1>6.
+<v Man 1>6。
+
+00:27:32.400 --> 00:27:37.230
+<v Man 2>6. OK.
+<v Man 2>6。好的。
+
+00:27:37.230 --> 00:27:43.970
+<v Man 1>Times 10 is 23, divided by 2, 11.5. 6% is 12.5.
+<v Man 1>乘以10等于23，除以2等于11.5。6%等于12.5。
+
+00:27:43.970 --> 00:27:58.180
+<v Ira Glass>It's sickening and a little thrilling to think that any bright fifth grader has the math skills necessary to fix a global market. If any young people listening to radio right now have ever asked the eternal question, when in real life will I ever use long division, now you know when.
+<v Ira Glass>想到任何聪明的五年级学生都具备操纵全球市场所需的数学技能，这既令人作呕又有些惊悚。如果现在有任何年轻人正在听广播，曾问过那个永恒的问题：“我在现实生活中到底什么时候会用到长除法？”现在你知道答案了。
+
+00:27:58.180 --> 00:28:23.250
+<v Kurt Eichenwald>There is one point in this conspiracy where these conspirators sit and they're ready to fix the Canadian market. And they do so by flipping open the paper-- the newspaper-- checking the exchange rate for that day, running a quick calculation saying, OK, here's the price in Canada and moving on. And they literally fixed a $100 million market in two minutes.
+<v Kurt Eichenwald>在这个阴谋中有一个节点，这些密谋者坐在那里，准备操纵加拿大市场。他们翻开报纸——查看当天的汇率，进行快速计算说：“好吧，这是加拿大的价格。”然后继续前进。他们竟然在两分钟内操纵了一个价值1亿美元的市场。
+
+00:28:23.250 --> 00:28:38.630
+<v Ira Glass>The only hard parts of running an international criminal conspiracy are kind of what you'd expect, they have trouble trusting each other. And it's not clear how to verify that everyone is sticking by the agreement. They talk a lot about that. At one point somebody even suggests calling in auditors from an accounting firm.
+<v Ira Glass>运营国际犯罪集团唯一困难的地方就是你想的那样，他们很难互相信任。而且尚不清楚如何核实每个人是否都在遵守协议。他们对此谈论了很多。有一次甚至有人建议聘请会计师事务所的审计员。
+
+00:28:38.630 --> 00:29:01.210
+<v Ira Glass>And it's not clear how to divide all the profits. And this is a very interesting business problem, if they are essentially bypassing the workings of the free market, that is, if they're not going to be competing for customers anymore, if they're all going to have the same price, if the fix is really in, then they have to decide upfront how much of the world market in lysine each of the five companies will be allowed to have.
+<v Ira Glass>而且还不清楚如何分配所有利润。这是一个非常有趣的商业问题，如果他们本质上绕过了自由市场的运作，也就是说，如果他们不再竞争客户，如果他们都制定相同的价格，如果这个“利益输送”是真的，那么他们必须提前决定五家公司中的每一家将被允许拥有多少赖氨酸的世界市场份额。
+
+00:29:01.210 --> 00:29:02.700
+<v Man 1>So that's 2,000 tons, out of that.
+<v Man 1>那么这就是2000吨。
+
+00:29:02.700 --> 00:29:03.760
+<v Man 2>So they want two.
+<v Man 2>所以他们想要两千吨。
+
+00:29:03.760 --> 00:29:04.630
+<v Man 1>They want two.
+<v Man 1>他们想要两千吨。
+
+00:29:04.630 --> 00:29:06.910
+<v Man 2>Kyoto wants two.
+<v Man 2>京都（Kyoto）公司想要两千吨。
+
+00:29:06.910 --> 00:29:08.780
+<v Man 1>Miwon, stay the same?
+<v Man 1>米元公司，保持不变？
+
+00:29:08.780 --> 00:29:11.410
+<v Man 3>They say it's probably six tons.
+<v Man 3>他们说是六吨。
+
+00:29:11.410 --> 00:29:12.250
+<v Man 1>Plus two.
+<v Man 1>加两吨。
+
+00:29:12.250 --> 00:29:15.380
+<v Man 2>Miwon wants two.
+<v Man 2>米元想要两吨。
+
+00:29:15.380 --> 00:29:16.970
+<v Man 3>OK.
+<v Man 3>好的。
+
+00:29:16.970 --> 00:29:21.690
+<v Man 2>Tell them they can't have anymore than the other big guys there. You're two.
+<v Man 2>告诉他们，他们不能拥有超过其他大公司的份额。你是两吨。
+
+00:29:21.690 --> 00:29:23.630
+<v Man 1>So it's six. And there's are seven or eight left.
+<v Man 1>所以是六吨。还剩下七或八吨。
+
+00:29:23.630 --> 00:29:26.230
+<v Man 2>So there's eight left. Is that right?
+<v Man 2>所以还剩八吨，对吧？
+
+00:29:26.230 --> 00:29:27.170
+<v Man 1>Yeah.
+<v Man 1>是的。
+
+00:29:27.170 --> 00:29:28.320
+<v Man 2>There's eight left.
+<v Man 2>还剩八吨。
+
+00:29:28.320 --> 00:29:54.170
+<v Ira Glass>Also, if you're no longer working in a real competitive market, it kind of destroys the normal ways that your sales force is going to work. No longer will your salesmen be able to get business by for example offering a lower price to a good customer. So what are they going to do instead? Lose the sale, says an ADM executive. Completely counterintuitive. And it's going to be very hard to explain to your sales team, since they will not know that the fix is in.
+<v Ira Glass>此外，如果你不再处于一个真正的竞争市场，这会破坏你销售团队的正常运作方式。你的推销员将无法通过例如向优质客户提供更低的价格来争取业务。那么他们该怎么办？损失掉这笔生意，一位ADM高管说。完全违反常理。而且这将非常难以向销售团队解释，因为他们不知道这里有利益输送。
+
+00:29:54.170 --> 00:30:03.340
+<v Man>It's tough to do. If you lose the business, you're just going to have to be patient. Somebody is going to get the order.
+<v Man>这很难做。如果你丢了生意，你只能保持耐心。总有人会接到订单的。
+
+00:30:03.340 --> 00:30:08.880
+<v Kurt Eichenwald>I've written a lot about corporate crime over the years. And I'll often give speeches--
+<v Kurt Eichenwald>多年来我写了很多关于企业犯罪的文章。我经常发表演讲——
+
+00:30:08.880 --> 00:30:10.830
+<v Ira Glass>Again, reporter Kurt Eichenwald.
+<v Ira Glass>又是记者库尔特·艾肯沃尔德。
+
+00:30:10.830 --> 00:30:31.550
+<v Kurt Eichenwald>--and one of the things I used to say that I don't say anymore is the misconception of white collar crime is that it starts off with some top-level executive sitting down, pointing at an underling, and saying, let's go break the law. I said it's usually much more subtle than that.
+<v Kurt Eichenwald>——我过去常说的一件事，现在不说了，那就是对白领犯罪的误解，认为它始于某个顶级高管坐下来，指着手下说“我们去违法吧”。我过去说它通常比那微妙得多。
+
+00:30:31.550 --> 00:30:39.660
+<v Kurt Eichenwald>Well, boy was I wrong. You look at these tapes and it is indisputable that that is exactly what was happening at ADM.
+<v Kurt Eichenwald>好吧，我错得太离谱了。看看这些录音带，无可争辩的是，这正是ADM当时发生的事情。
+
+00:30:39.660 --> 00:30:54.910
+<v Man>I want to be closer to you than I am to any customer. They are not your friend. They are not my friend. We've got to have them. Thank God, we've got to have them. But they are not my friends. You're my friend.
+<v Man>“我想和你比和任何客户都亲近。他们不是你的朋友。他们不是我的朋友。我们必须拥有他们。谢天谢地，我们必须拥有他们。但他们不是我的朋友。你是我的朋友。”
+
+00:30:54.910 --> 00:30:58.430
+<v Mark Whitacre>That's really how it was in that company.
+<v Mark Whitacre>那家公司确实就是这样。
+
+00:30:58.430 --> 00:31:02.110
+<v Ira Glass>Again, FBI informant and former ADM executive, Mark Whitacre.
+<v Ira Glass>再次是FBI线人、前ADM高管马克·惠特克。
+
+00:31:02.110 --> 00:31:11.300
+<v Mark Whitacre>The customer is our enemy and the competitor is our friend. And I heard that hundreds of times. That should be the slogan, not "Supermarket to the World."
+<v Mark Whitacre>“客户是我们的敌人，竞争对手是我们的朋友。”这句话我听了几百遍。这才是我们的标语，而不是“世界超市”。
+
+00:31:11.300 --> 00:31:14.400
+<v Ira Glass>Did you all ever talk about that slogan, supermarket to the world?
+<v Ira Glass>你们有没有谈论过“世界超市”这个标语？
+
+00:31:14.400 --> 00:31:43.010
+<v Mark Whitacre>I would see them on Sunday on like Meet The Press. And ADM's ad would come on, "Supermarket to the World." And we're so customer focused. And we're so people focused. And I'm thinking, well shoot, this whole week we've been fixing prices in order to rip off the consumers. I mean we're not the supermarket to the world. We were the super criminals of the world, is what we were.
+<v Mark Whitacre>周日我会在《面对新闻界》（Meet The Press）之类的节目上看到他们。ADM的广告会跳出来：“世界超市”。我们是多么以客户为中心。我们是多么以人为本。我心想，该死，整个这一周我们一直在为了敲诈消费者而操纵价格。我的意思是，我们不是世界超市。我们是世界级罪犯，这就是我们。
+
+00:31:43.010 --> 00:32:05.500
+<v Ira Glass>The US Justice Department estimates that ADM made $80 million by fixing the price of lysine. The biotech division, which has been in the red, turned into a huge profit center. Mark Whitacre claims that they went from $7 million a month in losses to $7 million in revenue. This presumably nudged up the price of chickens and pork for you and me by a few pennies. But for agricultural businesses, it a meant a lot more than that.
+<v Ira Glass>美国司法部估计，ADM通过操纵赖氨酸价格获利8000万美元。一直亏损的生物技术部门变成了一个巨大的利润中心。马克·惠特克声称，他们从每月亏损700万美元转变为收入700万美元。这大概让鸡肉和猪肉的价格对你和我每磅涨了几分钱。但对于农业企业来说，这意味着远不止这些。
+
+00:32:05.500 --> 00:32:16.760
+<v Ira Glass>During the secret investigation, one of the FBI agents on the case, a man named John Hoyt, visited his and his brother-in-law. The brother-in-law just started his own feed business. Kurt Eichenwald tells the story.
+<v Ira Glass>在秘密调查期间，案件的一位FBI特工，一个名叫约翰·霍伊特（John Hoyt）的人，去拜访了他的妹夫。他妹夫刚开始做自己的饲料生意。库尔特·艾肯沃尔德讲述了这个故事。
+
+00:32:16.760 --> 00:32:52.950
+<v Kurt Eichenwald>As a farmer, he was always dependent on the banks and the weather and a lot of things beyond his control. And he had decided to try and take control of his life. And this agent is sitting there after dinner with his brother-in-law, and they're just you're looking up at the stars, and his brother-in-law starts spilling this story of how troubled his business is, how much difficulty he's having because lysine prices are going through the roof. And he doesn't know how he's going to keep the business going.
+<v Kurt Eichenwald>作为一名农民，他总是依赖银行、天气和许多他无法控制的事情。他决定尝试掌控自己的生活。这位特工在晚餐后和妹夫坐在外面，看着星空，他的妹夫开始倾诉生意有多困难，因为赖氨酸价格暴涨，他不知道该如何维持生意。
+
+00:32:52.950 --> 00:33:12.730
+<v Kurt Eichenwald>And the agent is listening to this, knowing not only that prices are not going to come down any time soon, they're going to go up further. And he can't say anything about it.
+<v Kurt Eichenwald>特工听着这一切，不仅知道价格短期内不会降下来，还会涨得更高。但他什么都不能说。
+
+00:33:12.730 --> 00:33:23.910
+<v Ira Glass>Well, coming up after the break, what happens when the person who is lying to everyone so he can help the FBI, turns out to be lying to the FBI as well? Lying in a big, big way.
+<v Ira Glass>那么，休息后，当那个为了帮助FBI而向所有人撒谎的人，结果发现也对FBI撒谎时会发生什么？撒了一个大大的谎。
+
+00:33:23.910 --> 00:33:31.040
+<v Ira Glass>That's in a minute, from Public Radio International, when our program continues.
+<v Ira Glass>一分钟后，国际公共广播电台节目继续。
+
+00:33:31.040 --> 00:34:01.800
+<v Ira Glass>It's This American Life. I'm Ira Glass. Each week on our show of course we choose some theme, bring you stories on that theme. Today's show, "The Fix Is In". And we're devoting most of our program today to one story that we originally ran on our show in the year 2000. We're rerunning it today because it was just made into a movie called The Informant , starring Matt Damon. It's a story about an international criminal conspiracy and it involves a company called ADM, Archer Daniels Midland, and an FBI informant, who revealed the conspiracy, Mark Whitacre.
+<v Ira Glass>这里是《美国生活》，我是艾拉·格拉斯。每周我们都会选择一个主题，带来相关故事。今天的节目是“利益输送”。我们今天的大部分节目都献给一个我们最初在2000年播出的故事。今天重播是因为它刚刚被拍成了电影《告密者》，由马特·达蒙主演。这是一个关于国际刑事共谋的故事，涉及一家名为ADM的公司和揭露这一共谋的FBI线人马克·惠特克。
+
+00:34:01.800 --> 00:34:26.910
+<v Ira Glass>One of the most stressful things for any person to do is to lie, to maintain a secret. Mark Whitacre worked as a double agent in his own life for three years. And at times, his behavior got a little strange. For instance, he firmly believed up until the end that when it was revealed that he had been spying on his co-workers, including people who were running the company, the company would reward him by promoting him to president.
+<v Ira Glass>一个人能做的压力最大的事情就是撒谎，维持一个秘密。马克·惠特克在三年的时间里过着双重间谍的生活。有时他的行为变得有点怪异。例如，他一直坚定地认为，当他监视同事（包括经营公司的人）的事情被揭露时，公司会通过提拔他当总裁来奖励他。
+
+00:34:26.910 --> 00:34:38.530
+<v Ira Glass>Or he would do things like trying to talk to an FBI agent about the case while they were in a public restroom, at great risk to himself. The executives who he was taping and spying on me were just outside the restroom.
+<v Ira Glass>或者他会做一些事情，比如在公共厕所里试图与FBI特工讨论案件，这使他自己处于巨大风险之中。那些被他录音和监视的高管们就在厕所外面。
+
+00:34:38.530 --> 00:34:40.270
+<v Ira Glass>Here's reporter Kurt Eichenwald.
+<v Ira Glass>这是记者库尔特·艾肯沃尔德。
+
+00:34:40.270 --> 00:35:04.410
+<v Kurt Eichenwald>The truth is that Mark Whitacre had some, and I believe has some, psychological issues that drive a lot of what he did here. I mean this was a man who in the course of this investigation was literally coming apart. This was a man who stopped sleeping.
+<v Kurt Eichenwald>事实是，马克·惠特克有一些，而且我相信现在还有一些心理问题，这些问题驱动了他在这里所做的很多事情。我的意思是，这是一个在调查过程中实际上正在分崩离析的男人。这是一个停止睡眠的男人。
+
+00:35:04.410 --> 00:35:29.170
+<v Mark Whitacre>Being in this situation, during the time I would not have said that my mental state was deteriorating. But I'm just hearing things that my wife tells me and other friends have told me since that time. Now it's been awhile, its been five years since 1995. But my wife's told me there are many times that I would be out in the driveway at two or three in the morning, blowing the driveway off with a gas blower, blowing the leaves off, and it would be raining.
+<v Mark Whitacre>在这种情况下，当时我不会说我的心理状态在恶化。但我只是听到了我妻子告诉我的话，以及从那时起其他朋友告诉我的话。现在已经有一段时间了，离1995年已经五年了。但我妻子告诉我，我有很多次在凌晨两三点在车道上，用气动吹叶机吹掉车道上的叶子，当时还在下雨。
+
+00:35:29.170 --> 00:35:33.890
+<v Ira Glass>So you're standing out there in the middle of the night, and a leaf falls in the driveway. And you use the leaf blower and just knock it away?
+<v Ira Glass>所以你半夜站在那里，一片叶子落在车道上。然后你就用吹叶机把它吹走？
+
+00:35:33.890 --> 00:35:36.120
+<v Mark Whitacre>Yeah.
+<v Mark Whitacre>是的。
+
+00:35:36.120 --> 00:35:58.860
+<v Mark Whitacre>I mean my wife and kids remember that frequently. And it would be raining. I mean it would be raining. I'd be blowing leaves as it rained. I became over compulsive as a result of all this stress. Over compulsive on certain things. And the driveway was one thing I became addicted to. And my wife constantly said, you've got to get some sleep. But what I felt like why lay there, if you can't sleep.
+<v Mark Whitacre>我的意思是，我妻子和孩子经常记得这一点。而且那是在下雨。我甚至在下雨的时候也在吹叶子。因为所有的压力，我变得过度强迫。对某些事情过度强迫。车道就是我变得上瘾的一件事。我妻子经常说，你必须睡点觉。但我感觉，如果你睡不着，躺在那儿有什么意义。
+
+00:35:58.860 --> 00:36:18.000
+<v Mark Whitacre>So I'd go up and do things. I'd go over to the horse stable. I'd be riding horses at 3:00 or 4:00 in the morning. Come over, sleep for an hour, take a shower, and go to work. And work until 6:00 or 7:00, meet the FBI in the evening, and come back and start the routine all over again.
+<v Mark Whitacre>所以我起来做事。我会去马厩。我会在凌晨3点或4点骑马。回来，睡一个小时，洗个澡，然后去上班。一直工作到6点或7点，晚上见FBI，回来后又开始同样的例行公事。
+
+00:36:18.000 --> 00:36:23.600
+<v Ira Glass>But before this, were you especially close to any of these guys who you were working with?
+<v Ira Glass>但在那之前，你和你一起工作的这些人特别亲近吗？
+
+00:36:23.600 --> 00:36:34.650
+<v Mark Whitacre>No. Not at all. None of them. I mean I was close with a lot of people within the company. But not the ones that were the targets of this investigation. Not at all.
+<v Mark Whitacre>没有。一点也不。他们中间一个也没有。我的意思是，我和公司里的很多人都很亲近。但不是那些被调查目标的人。一点也不。
+
+00:36:34.650 --> 00:36:45.350
+<v Ira Glass>What was it like for you, knowing that you were taping them and building a case against them. And here they are. And you're going out and playing golf with them. What was that like for you?
+<v Ira Glass>当你录下他们并建立案件时，那对你来说是什么感觉？他们就在那里，你还要出去和他们打高尔夫球。这对你意味着什么？
+
+00:36:45.350 --> 00:37:07.920
+<v Mark Whitacre>It was nerve wracking. I mean there was just so much deception. There was so much deception for so long. I mean you're acting as their friend. In reality, you're taping them. I mean, your whole life is deception.
+<v Mark Whitacre>那简直让人神经紧绷。我的意思是，有太多的欺骗。太长时间有太多的欺骗了。我的意思是，你在扮演他们的朋友。实际上，你在录音。我的意思是，你的整个生活都是欺骗。
+
+00:37:07.920 --> 00:37:25.180
+<v Ira Glass>There were three distinct lives that Mark was leading. He was deceiving some people about the fact that he was cooperating with his competitors. He was deceiving others about the fact that he was cooperating with the FBI. And after three years of meeting several nights a week with the FBI, collaborating with them, it turned out that he was deceiving the FBI as well.
+<v Ira Glass>马克当时过着三种截然不同的生活。他欺骗了一些人，说他在与竞争对手合作。他欺骗了另一些人，说他在与FBI合作。而在与FBI每周见几次面、与他们协作了三年之后，事实证明他也在欺骗FBI。
+
+00:37:25.180 --> 00:37:33.440
+<v Bob Herndon>During one lunch, over moo shu pork I believe, it all unraveled.
+<v Bob Herndon>在一次午餐中，我想是吃木须肉的时候，一切都败露了。
+
+00:37:33.440 --> 00:37:35.170
+<v Ira Glass>Again, special agent Bob Herndon.
+<v Ira Glass>又是特工鲍勃·赫恩登。
+
+00:37:35.170 --> 00:37:56.190
+<v Bob Herndon>On the first week of August of '95, myself and Brian Shepard picked Mark Whitacre up at his house. And we went to a Chinese restaurant. Just from the very beginning, after knowing Mark for two and a half years, it was pretty easy to see that something was on his mind.
+<v Bob Herndon>95年8月的第一周，我和布莱恩·谢泼德在马克·惠特克家接了他。我们去了一家中国餐馆。刚开始，在认识马克两年半之后，很容易看出他有心事。
+
+00:37:56.190 --> 00:37:57.050
+<v Ira Glass>Umhum.
+<v Ira Glass>嗯哼。
+
+00:37:57.050 --> 00:38:13.890
+<v Bob Herndon>He wanted to tell us something. In fact, he started out the conversation by saying my attorney does not want me to tell you this, but I need to tell you something. Well, right there I said, Mark, time out. You're not going to tell us anything your attorney does not want you to tell us.
+<v Bob Herndon>他想告诉我们一些事情。事实上，他开始谈话时说：“我的律师不想让我告诉你这个，但我必须告诉你一些事情。”好吧，就在那里，我说：“马克，暂停。你不能告诉我们任何你律师不想让你告诉我们的事情。”
+
+00:38:13.890 --> 00:38:15.390
+<v Ira Glass>Reporter Kurt Eichenwald.
+<v Ira Glass>记者库尔特·艾肯沃尔德。
+
+00:38:15.390 --> 00:38:28.530
+<v Kurt Eichenwald>But Whitacre can't stop himself. And while they're at lunch, Whitacre finally begins to spill his story.
+<v Kurt Eichenwald>但惠特克无法阻止自己。在吃午饭时，惠特克终于开始吐露他的故事。
+
+00:38:28.530 --> 00:38:40.660
+<v Bob Herndon>He starts talking about-- giving us examples. He starts saying, is this a crime? For example, he starts talking about employees taking pens and pencils from the company.
+<v Bob Herndon>他开始谈论——给我们举例子。他开始说，这是犯罪吗？例如，他开始谈论员工从公司拿走笔和铅笔。
+
+00:38:40.660 --> 00:38:42.780
+<v Ira Glass>[LAUGHTER].
+<v Ira Glass>（笑声）
+
+00:38:42.780 --> 00:39:02.160
+<v Bob Herndon>Yeah. And they tell him this is not a big deal, don't worry about it. And Whitacre says well, suppose an executive used a corporate airplane for personal use? Well, the agents tell him there may be some tax implications. But it's not really a major problem.
+<v Bob Herndon>是的。他们告诉他这没什么大不了的，别担心。惠特克说，嗯，假设一位高管将公司飞机用于个人用途？好吧，探员告诉他可能涉及一些税务影响。但这并不是什么大问题。
+
+00:39:02.160 --> 00:39:42.840
+<v Bob Herndon>And Whitacre says well, let me give you one more. OK. Well, what if the activity involved was kickbacks to corporate executives? At that point in time I said, Mark, what is it that you want to tell us? What is on your mind? And then after asking that question he says well, I need to tell you guys something. And he starts to tell us about his embezzlement of $500,000 from ADM.
+<v Bob Herndon>惠特克又说，好吧，让我再给你们一个。好吧，如果涉及的活动是向公司高管提供回扣呢？就在那时我说：“马克，你到底想告诉我们什么？你心里在想什么？”然后问了那个问题后，他说：“嗯，我必须告诉你们这些家伙一些事情。”然后他开始告诉我们关于他从ADM挪用了50万美元的事情。
+
+00:39:42.840 --> 00:39:48.800
+<v Ira Glass>What'd you say to him?
+<v Ira Glass>你对他说了什么？
+
+00:39:48.800 --> 00:40:16.010
+<v Bob Herndon>Why? Why didn't you tell us before? What is wrong with you? What were you thinking? And is this it? Is there anything else? Are there any other skeletons in your closet? Did you take any more than just $500,000? Is this it? And he swore up and down that $500,000 was it.
+<v Bob Herndon>为什么？你为什么不早告诉我们？你怎么了？你在想什么？这就是全部吗？还有别的吗？你衣橱里还有其他骷髅吗？除了50万美元，你还拿了更多吗？就是这些吗？他指天发誓说50万美元就是全部。
+
+00:40:16.010 --> 00:40:18.970
+<v Ira Glass>And that turned out not to be truthful over time.
+<v Ira Glass>结果随着时间的推移，这并不是实话。
+
+00:40:18.970 --> 00:40:30.940
+<v Bob Herndon>No. It turned out that he embezzled over $9 million.
+<v Bob Herndon>没有。结果是他挪用了超过900万美元。
+
+00:40:30.940 --> 00:40:42.720
+<v Ira Glass>Jim Griffin is a Deputy Assistant Attorney General at the Justice Department's antitrust division in Washington, DC. He was one of the lead prosecutors in the ADM case. And he remembers hearing the news about the embezzling.
+<v Ira Glass>吉姆·格里芬（Jim Griffin）是华盛顿特区司法部反垄断局的副助理总检察长。他是ADM案件的首席检察官之一。他记得听到挪用公款的消息。
+
+00:40:42.720 --> 00:40:57.450
+<v Jim Griffin>I could hardly forget that. It was August 3, 1995. And it ranked right up there with one of the worst days of my professional career, yes.
+<v Jim Griffin>我几乎忘不掉。那是1995年8月3日。这确实是我职业生涯中最糟糕的一天之一。
+
+00:40:57.450 --> 00:41:06.870
+<v Ira Glass>At that point was your feeling that he could very seriously jeopardize the case?
+<v Ira Glass>当时你的感觉是他会严重危及案件吗？
+
+00:41:06.870 --> 00:41:36.510
+<v Jim Griffin>It's not a happy day when you hear that the cooperating witness you anticipated relying on telling the story to a jury and describing the events leading up to and captured on tape, has so destroyed his credibility that he's probably useless as a witness and has engaged in criminal activity that you're going to have to investigate and prosecute.
+<v Jim Griffin>当你听说你预期的配合证人——他本应向陪审团讲述故事并描述录音带上发生的事件——已经严重破坏了他的可信度，以至于他作为证人可能毫无用处，并且还参与了你将不得不调查和起诉的犯罪活动时，这绝不是快乐的一天。
+
+00:41:36.510 --> 00:42:00.880
+<v Ira Glass>One frightening possibility for the prosecution that none of those beautiful videotapes, unprecedented videotapes, of corporate officials conspiring to fix prices, all painstakingly shot over three years, that none of them would be usable in court because they wouldn't have a witness who would confirm what they were and who the people were and when they all happened. The Justice Department solved this by getting some of the foreign businessmen at the meetings to testify against ADM.
+<v Ira Glass>对检方来说一个可怕的可能性是，那些精美的录像带——史无前例的关于企业官员密谋操纵价格、三年来辛苦拍摄的那些录像——在法庭上可能都无法使用，因为他们没有一个能确认这些是什么、确认这些人是谁、确认什么时候发生的证人。司法部通过让会议上的一些外国商人作证指控ADM解决了这个问题。
+
+00:42:00.880 --> 00:42:21.310
+<v Ira Glass>By concealing his embezzlement from the FBI for three years during the investigation, Mark Whitacre violated the terms of what it meant to be a cooperating witness. Not only would he be prosecuted for the $9.5 million, he would also be prosecuted for price fixing. In other words, the videotape said he had made so carefully would be used as evidence against him.
+<v Ira Glass>在调查期间的三年来对FBI隐瞒了挪用公款的行为，马克·惠特克违反了合作证人的条件。他不仅会因那950万美元被起诉，还会因操纵价格被起诉。换句话说，他精心录制的录像带将被用作对他不利的证据。
+
+00:42:21.310 --> 00:42:33.060
+<v Ira Glass>To this day, Mark Whitacre insists that it was common in ADM for executives to siphon off money, like he did, to themselves. That it was expected. That the only reason that ADM told the federal government about it was to punish him.
+<v Ira Glass>直到今天，马克·惠特克仍坚持认为，高管像他一样挪用钱财在ADM是常见的。这是预料之中的事。ADM告诉联邦政府这件事的唯一原因是为了惩罚他。
+
+00:42:33.060 --> 00:42:51.960
+<v Ira Glass>Federal authorities and journalists, including Kurt Eichenwald, have investigated this claim and found no evidence that it is true. ADM, by the way, declined to comment about this, or Mark Whitacre, or price fixing on our program.
+<v Ira Glass>包括库尔特·艾肯沃尔德在内的联邦当局和记者已经调查了这一说法，没有发现任何证据证明它是真实的。顺便说一句，ADM拒绝对此、对马克·惠特克或我们的节目中提到的价格操纵发表评论。
+
+00:42:51.960 --> 00:43:06.380
+<v Ira Glass>Whitacre spiraled downward. He revealed all sorts of damaging information about his case to reporters. He claimed he was abducted by kidnappers. He wrote fake letters and faxes to all sorts of people. He tried to kill himself. He undermined his own attorney, Jim Epstein.
+<v Ira Glass>惠特克陷入了螺旋式下降。他向记者透露了关于他案件的各种破坏性信息。他声称他被绑匪绑架了。他给各种人写假信和假传真。他试图自杀。他破坏了他自己的律师吉姆·爱泼斯坦（Jim Epstein）。
+
+00:43:06.380 --> 00:43:22.010
+<v Ira Glass>At one point, Epstein flew to the Justice Department in Washington, DC. The government had great evidence to convict Whitacre, if they decided to use it. Epstein wanted to convince them to offer Whitacre a plea bargain deal, a guilty plea in exchange for a shorter sentence. Kurt Eichenwald.
+<v Ira Glass>有一次，爱泼斯坦飞往华盛顿特区的司法部。政府有确凿证据可以定罪惠特克（如果他们决定使用的话）。爱泼斯坦想说服他们给惠特克一个认罪协议，以认罪换取较短的刑期。库尔特·艾肯沃尔德。
+
+00:43:22.010 --> 00:43:43.380
+<v Kurt Eichenwald>Epstein went to Washington and made what by all accounts was a stellar presentation, where he talked about-- rather than talking about Mark Whitacre, the person, he talked about Mark Whitacre, the symbol. Mark Whitacre as what this means for law enforcement.
+<v Kurt Eichenwald>爱泼斯坦去了华盛顿，做了所有人都认为非常出色的陈述，在那里他谈到了——与其谈论马克·惠特克这个个人，他谈到了马克·惠特克这个符号。马克·惠特克意味着什么，这对执法意味着什么。
+
+00:43:43.380 --> 00:44:17.600
+<v Kurt Eichenwald>Yes, Mark stole $9 million. But he gave you people who were committing crimes, many, many multiples of that. And if what ends up happening here is you guys insist on having a very long sentence, then we will have a sentencing hearing. And I will lay out everything that has happened to Mark, good, bad, indifferent. I will lay out how he has been out there by himself for two years. I will lay out how he had no training, how he had no support.
+<v Kurt Eichenwald>是的，马克偷了900万美元。但他给了你们这些正在犯罪的人，那可是那金额的很多很多倍。如果最后发生的事情是你们坚持要判很长的刑期，那么我们将举行听证会。我将列出发生在马克身上的一切，好的、坏的、无关紧要的。我将列出他如何独自一人在外待了两年。我将列出他没有任何培训，没有任何支持。
+
+00:44:17.600 --> 00:44:38.660
+<v Kurt Eichenwald>And the statement he made that just rang throughout the room is-- and then all of my words will be picked up in newspapers all around the country, everyone will read it, and you will never, ever, get a phone call from somebody who might be a cooperating witness again.
+<v Kurt Eichenwald>他所说的在房间里回响的一句话是：“然后我所说的一切都将被全国各地的报纸刊登，每个人都会读到它，你将永远，永远，再也接不到来自可能成为合作证人的电话。”
+
+00:44:38.660 --> 00:44:54.170
+<v Kurt Eichenwald>And it's true. I mean it was a true statement. And it was very powerful. There was the possibility that Whitacre would end up with as little as three years.
+<v Kurt Eichenwald>这是真的。我的意思是，这是一句真话。它非常有力量。当时惠特克最终可能只会被判三年。
+
+00:44:54.170 --> 00:45:20.020
+<v Kurt Eichenwald>Epstein was very happy about this. But when he presented it to Whitacre, Whitacre reacted to that by deciding if this person wants me to plead guilty, essentially he decided that Epstein must be part of the government conspiracy to get him.
+<v Kurt Eichenwald>爱泼斯坦对此很高兴。但当他把这提给惠特克时，惠特克的反应是：如果这个人想让我认罪，他本质上认为爱泼斯坦一定是政府阴谋的一环，目的是为了抓住他。
+
+00:45:20.020 --> 00:45:25.770
+<v Ira Glass>Whitacre fired Epstein and got himself a new lawyer, somebody without much experience in these kind of cases.
+<v Ira Glass>惠特克解雇了爱泼斯坦，换了一个在这些案件中没什么经验的新律师。
+
+00:45:25.770 --> 00:45:43.070
+<v Ira Glass>In some sense, the last straw came for Whitaker when he accused the FBI agent who had contacted him in the first place, Brian Shepard, of ordering him to destroy evidence and denying him access to doctors and lawyers. Serious charges, that he later admitted that he'd made up. But they did a lot of damage, mostly to himself.
+<v Ira Glass>在某种意义上，当惠特克指责最初联系他的FBI特工布莱恩·谢泼德命令他销毁证据并拒绝让他接触医生和律师时，最后一根稻草来了。这是严重的指控，他后来承认是编造的。但这造成了很大损害，主要是对他自己。
+
+00:45:43.070 --> 00:46:21.980
+<v Kurt Eichenwald>Whitacre didn't know that behind the scenes, the people in the antitrust case, were trying to get things to work out for him. Whitacre did have this thing of turning against people who were his allies. He turned against Jim Epstein, his first lawyer. He turned against the FBI that worked with him on the antitrust case. And he turns around and goes after a beloved member of this team with a story that upends this man's career. They have to open up an investigation. He has to end up with a lawyer. He has a lawsuit he has to deal with.
+<v Kurt Eichenwald>惠特克不知道在幕后，反垄断案件中的人们正在试图为他解决问题。惠特克确实有转而攻击盟友的倾向。他转而攻击了他的第一任律师吉姆·爱泼斯坦。他转而攻击了在反垄断案件中与他合作的FBI。他转过身去攻击了这个团队中一位受人爱戴的成员，并用一个颠覆了此人职业生涯的故事。他们不得不开启一项调查。他不得不最终请律师。他有一场不得不处理的官司。
+
+00:46:21.980 --> 00:46:37.400
+<v Kurt Eichenwald>At that point, Mark Whitacre had nobody in the government who could even in the slightest way care one whit about what happened to him.
+<v Kurt Eichenwald>在那一刻，马克·惠特克在政府中没有人能哪怕有一点点在乎他的遭遇。
+
+00:46:37.400 --> 00:46:53.790
+<v Kurt Eichenwald>In the end, Whitaker was sentenced to 10 and 1/2 years. The ADM executives convicted of price fixing only had to serve sentences of three years. ADM paid a fine of $100 million, which was 10 times bigger than any previous antitrust fine. It was a landmark case.
+<v Kurt Eichenwald>最终，惠特克被判处10年半监禁。因价格操纵被定罪的ADM高管只需服刑三年。ADM支付了1亿美元罚款，这是此前任何反垄断罚款的10倍。这是一个具有里程碑意义的案件。
+
+00:46:53.790 --> 00:47:03.590
+<v Jim Mutchnik>It changed how the antitrust division, and the entire Justice Department frankly, viewed business conduct.
+<v Jim Mutchnik>它改变了反垄断局，坦率地说，整个司法部审视企业行为的方式。
+
+00:47:03.590 --> 00:47:07.060
+<v Ira Glass>This is Jim Muchnick, one of the federal prosecutors in the case.
+<v Ira Glass>这是吉姆·马奇尼克（Jim Muchnick），案件的一位联邦检察官。
+
+00:47:07.060 --> 00:47:36.310
+<v Jim Mutchnik>In the sense that when I started in the antitrust division in 1991, antitrust prosecutions were more white glove in orientation. For example, it was virtually unheard of to conduct search warrants, to use tape recorded evidence, to engage in confrontational interviewing, meaning that unannounced, drop-in interviews by agents and attorneys of suspected price fixers. It just didn't happen.
+<v Jim Mutchnik>在某种意义上，当我在1991年进入反垄断局时，反垄断起诉的方向更像是“白手套”。例如，进行搜查令、使用录音证据、进行对抗式采访，这意味着特工和律师对可疑的价格操纵者进行突击采访，这在当时闻所未闻。这根本不会发生。
+
+00:47:36.310 --> 00:47:44.570
+<v Ira Glass>It's interesting to think to what degree that change in law enforcement is due to Mark Whitacre.
+<v Ira Glass>思考执法部门的这种变化在多大程度上归功于马克·惠特克是件有趣的事。
+
+00:47:44.570 --> 00:47:59.820
+<v Jim Mutchnik>I don't think any of the people still in the division would like to admit it, how much he's meant to antitrust enforcement. But if you're asking me, he was it. He totally changed the antitrust enforcement policy.
+<v Jim Mutchnik>我不认为局里还留着的人会愿意承认，他在反垄断执行方面意味着什么。但如果你问我，他就是一切。他彻底改变了反垄断执行政策。
+
+00:47:59.820 --> 00:48:04.710
+<v Ira Glass>What a flawed vessel for doing good he turned out to be.
+<v Ira Glass>结果他竟是个用来做好事的有缺陷的器皿。
+
+00:48:04.710 --> 00:48:06.420
+<v Jim Mutchnik>Yes, he did.
+<v Jim Mutchnik>是的，他是。
+
+00:48:06.420 --> 00:48:51.000
+<v Ira Glass>ADM didn't exactly lead the antitrust division to tackle more cases. It's still about 85 or 90 active cases each year. But now half the cases are international ones, like ADM's. The investigations are more aggressive. To give you a sense of just how quickly the fines have grown, ADM was the largest fine ever back in 1995. By 2000, it was only the fifth largest. Antitrust prosecutions netted over $1 billion in fines in just those four years, half of that from just one case. A half billion dollar penalty to Hoffman-La Roche for fixing prices in vitamins. Ever wonder why they're so expensive? And to get at the question that we all wonder about when we hear about these kinds of cases, here's a little talk that I had with special agent Herndon.
+<v Ira Glass>ADM并没有真正促使反垄断局处理更多的案件。它每年仍然有大约85到90个活跃案件。但现在有一半案件是国际性的，就像ADM那样。调查更具攻击性。为了让你了解罚款增长的速度，ADM在1995年是史上最大的罚款。到2000年，它只排在第五位。反垄断起诉在短短四年内就净赚了超过10亿美元的罚款，其中一半仅来自一个案件。罗氏（Hoffman-La Roche）公司因操纵维生素价格而被罚款5亿美元。有没有想过为什么它们那么贵？为了回答我们听到这类案件时都会感到好奇的问题，这是我和鲍勃·赫恩登特工的一次小谈话。
+
+00:48:51.000 --> 00:48:55.820
+<v Ira Glass>How typical do you think this is?
+<v Ira Glass>你认为这有多典型？
+
+00:48:55.820 --> 00:49:05.150
+<v Bob Herndon>Well, strictly speaking from what the evidence in the case showed us, it appears to me that this is more typical than we realize.
+<v Bob Herndon>嗯，严格来说，从案件证据显示的情况来看，在我看来，这比我们意识到的要典型得多。
+
+00:49:05.150 --> 00:49:06.210
+<v Ira Glass>Yeah.
+<v Ira Glass>是的。
+
+00:49:06.210 --> 00:49:28.030
+<v Bob Herndon>We saw how casual these business executives were in dealing with one another. We used to joke at one point in the case that if you saw a group of middle-aged white males with gray hair getting together in a hotel room during the middle the day, no good can come from that.
+<v Bob Herndon>我们看到了这些企业高管在处理彼此事务时是多么随意。我们在案件进行到一半时曾开玩笑说，如果你看到一群头发花白的中年白人男性在白天在酒店房间里聚集在一起，那绝对没好事。
+
+00:49:28.030 --> 00:49:32.500
+<v Ira Glass>So when you're in the grocery store, do you think about this stuff?
+<v Ira Glass>所以当你去杂货店时，你会想到这些吗？
+
+00:49:32.500 --> 00:49:34.670
+<v Bob Herndon>I do now.
+<v Bob Herndon>我现在会了。
+
+00:49:34.670 --> 00:49:41.470
+<v Kurt Eichenwald>I didn't just look at the products in the supermarket with suspicion, I looked at everything that's on sale everywhere.
+<v Kurt Eichenwald>我不只是怀着怀疑看着超市里的产品，我看着到处打折的所有东西。
+
+00:49:41.470 --> 00:49:42.750
+<v Ira Glass>Writer Kurt Eichenwald.
+<v Ira Glass>作家库尔特·艾肯沃尔德。
+
+00:49:42.750 --> 00:50:00.840
+<v Kurt Eichenwald>It went through my head when I was driving. It went through my head when I was going to sleep. It went through my head when I was walking through the grocery store. It went through my head when I opened my refrigerator. I used to look at the ingredients labels on the Hellman's Mayonnaise and see what the ingredients were from ADM.
+<v Kurt Eichenwald>当我开车时，这个念头出现在我脑海里。当我睡觉时，这个念头出现在我脑海里。当我走过杂货店时，这个念头出现在我脑海里。当我打开冰箱时，这个念头出现在我脑海里。我过去常看海尔曼（Hellman's）蛋黄酱上的配料标签，看看哪些配料来自ADM。
+
+00:50:00.840 --> 00:50:06.870
+<v Kurt Eichenwald>There is no way to watch these tapes and to listen to these tapes and not wonder.
+<v Kurt Eichenwald>没有办法观看这些录像带并听这些录像带而不感到怀疑。
+
+00:50:06.870 --> 00:50:12.270
+<v Man>All of this an official agenda for the meeting?
+<v Man>这一切都是会议的官方议程？
+
+00:50:12.270 --> 00:50:15.430
+<v Man>[LAUGHTER].
+<v Man>（笑声）
+
+00:50:15.430 --> 00:50:28.290
+<v Kurt Eichenwald>Am I right now being a victim of a criminal conspiracy? And to this day, I don't know the answer to that question.
+<v Kurt Eichenwald>我现在是不是正在遭受犯罪共谋的受害者？直到今天，我仍然不知道这个问题的答案。
+
+00:50:28.290 --> 00:50:59.820
+<v Ira Glass>In light of how everything unfolded, one of the most intriguing questions about this entire case has to do that very first night that Whitacre spoke to an FBI agent in his car, admitting that he was part of a conspiracy and agreeing to help the FBI. Whitacre says to this day that he only did that because of his wife's insistence and because of the possibility that he would be caught by the FBI for price fixing himself. But maybe, just maybe, he agreed to cooperate with the FBI because he suddenly realized that they were snooping around and they might discover that he was embezzling.
+<v Ira Glass>鉴于事情的发展方式，关于整个案件最耐人寻味的问题之一，与惠特克在车里对FBI特工说话的那第一个晚上有关，他承认自己参与了阴谋并同意帮助FBI。惠特克直到今天还说，他那样做完全是因为妻子的坚持，以及他自己可能因价格操纵而被FBI抓住的可能性。但也许，仅仅是也许，他同意与FBI合作是因为他突然意识到他们在到处窥探，他们可能会发现他在挪用公款。
+
+00:50:59.820 --> 00:51:01.000
+<v Ira Glass>Kurt Eichenwald.
+<v Ira Glass>库尔特·艾肯沃尔德。
+
+00:51:01.000 --> 00:51:35.500
+<v Kurt Eichenwald>If you think about it, he knew the entire saboteur story, the thing that had gotten the FBI there was a fake. He knew he had made it up. And that they weren't going to be able to find any evidence that this in fact was occurring. He knew that if anybody started scratching the surface of him, which would certainly be what would happen, since he had just lied to federal agents in telling the story, that it would not take very long that there was the potential they would start finding all of these embezzlements he had engaged in.
+<v Kurt Eichenwald>如果你想一想，他知道整个关于破坏者的故事——那个把FBI引到那里的东西——是一个假的。他知道他编造了它。而且他们将无法找到任何证据证明这确实发生了。他知道，如果有人开始挖掘他的底细（这肯定会发生，因为他刚刚向联邦特工编造了这个故事），用不了多久他们就会开始发现他所从事的所有挪用公款的行为。
+
+00:51:35.500 --> 00:51:45.240
+<v Kurt Eichenwald>He's like, you're looking at the saboteur. Well, wait. Look over here at price fixing. And the FBI looked over there.
+<v Kurt Eichenwald>就像是说：“你们在找破坏者吗？等一下，看看这边操纵价格的事。”于是FBI看了那边。
+
+00:51:45.240 --> 00:51:46.820
+<v Bob Herndon>I've often thought about that.
+<v Bob Herndon>我经常想到这一点。
+
+00:51:46.820 --> 00:51:48.370
+<v Ira Glass>FBI agent, Bob Herndon.
+<v Ira Glass>FBI特工，鲍勃·赫恩登。
+
+00:51:48.370 --> 00:52:06.050
+<v Bob Herndon>And I think my conclusion now is, in a ironic twist, that it was the embezzlement scheme that forced him to cooperate with the FBI and that led to all of the convictions in the price fixing investigation.
+<v Bob Herndon>我的结论现在是，一个讽刺的转折是，正是挪用公款的计划迫使他与FBI合作，从而导致了所有价格操纵调查中的定罪。
+
+00:52:06.050 --> 00:52:09.060
+<v Ira Glass>So it's something good that came out of something bad, really?
+<v Ira Glass>所以这真的是一件坏事里产生的好事吗？
+
+00:52:09.060 --> 00:52:32.980
+<v Bob Herndon>Yeah. Exactly. That's not unusual. In my line of work, it often takes a crook to catch a crook. It's just that in this case, we thought we had the exception, that he was going to turn out to be doing the right thing for all of the right reasons.
+<v Bob Herndon>是的。完全正确。这并不罕见。在我的工作中，通常需要骗子去抓骗子。只是在这个案例中，我们以为我们找到了例外，他会为了所有正确的理由做正确的事情。
+
+00:52:32.980 --> 00:52:58.150
+<v Mark Whitacre>It's like the FBI, well we're going to say you're a hero for what you did right. But you did right because you were so well at deceiving. But in the same way, we're going to smack you down and give you a 10 and 1/2 year sentence for what you did wrong. To me, they both come in the same package. I mean I was only a good informant because of what I did well for them.
+<v Mark Whitacre>就像FBI说，好吧，我们会说你是英雄，因为你做了正确的事。但你做对了是因为你非常擅长欺骗。但同样，我们会重重惩罚你，因为你做错了事，给你10年半监禁。对我来说，它们都是同一个包裹。我的意思是，我能成为好线人完全是因为我为他们做的那些事。
+
+00:52:58.150 --> 00:53:00.260
+<v Ira Glass>A lot.
+<v Ira Glass>很多。
+
+00:53:00.260 --> 00:53:11.850
+<v Mark Whitacre>Yeah. Both. This is the package.
+<v Mark Whitacre>是的。两者都是。这就是这个包裹。
+
+00:53:11.850 --> 00:53:29.640
+<v Ira Glass>In the end, one of the most surprising facts about this case is that it ever happened at all. It was pure accident that the FBI stumbled upon it. It was luck that they found a guy who was simultaneously well connected, skilled at gathering evidence, and willing to become a cooperating witness before any lawyer had a chance to tell him not to.
+<v Ira Glass>最后，关于这个案件最令人惊讶的事实之一是，它竟然发生了。FBI偶然撞见它纯属意外。运气好的是，他们发现了一个人，他不仅人脉广泛、擅长收集证据，而且在任何律师有机会告诉他不要这样做之前，就愿意成为一名合作证人。
+
+00:53:29.640 --> 00:53:42.340
+<v Ira Glass>Today, Mark Whitacre says that the only reason that he continued taping people after the first week or two is that he thought that if he didn't, the FBI would get enough evidence without him to throw him in prison, which agent Herndon admits today, isn't true.
+<v Ira Glass>今天，马克·惠特克说，他在前一两周之后继续录音的唯一原因是他认为如果不这样做，FBI会在没有他的情况下获得足够的证据把他扔进监狱，赫恩登探员今天承认这不是真的。
+
+00:53:42.340 --> 00:53:45.320
+<v Ira Glass>The FBI's case would have probably have fallen apart without him.
+<v Ira Glass>没有他，FBI的案件可能早就分崩离析了。
+
+00:53:45.320 --> 00:53:54.410
+<v Bob Herndon>Mark Whitacre was simply the only person in a position to gather the evidence that we needed to prove what was going on.
+<v Bob Herndon>马克·惠特克是唯一有能力收集我们证明事情真相所需证据的人。
+
+00:53:54.410 --> 00:54:01.410
+<v Ira Glass>I asked Mark Whitacre about this during our interview at a minimum security federal prison in Edgefield, South Carolina.
+<v Ira Glass>在我们南卡罗来纳州埃奇菲尔德的一所最低安全级别的联邦监狱采访时，我问了马克·惠特克这个问题。
+
+00:54:01.410 --> 00:54:33.520
+<v Mark Whitacre>Knowing what I know now, I was only seven or eight years out of college at that point, and I didn't know anything about law enforcement at that stage. Knowing what I know now, there is no way they would had hardly any evidence to do anything. And all I would have had to do is go to ADM and tell them what was going on. And ADM would have worked with me so much and put so much behind it, that there's no way they could have done anything. There's no way.
+<v Mark Whitacre>以我现在所知道的情况来看，我当时大学毕业才七八年，我当时对执法一窍不通。以我现在所知道的，他们根本不可能有任何证据去做任何事。我所要做的就是去ADM告诉他们发生了什么。ADM会和我合作，并在背后全力支持，他们根本不可能做任何事。根本不可能。
+
+00:54:33.520 --> 00:54:52.310
+<v Mark Whitacre>I definitely regret my part of it because to me, my family's more important than solving the price fixing problems of the world. And therefore I wish I just would have left and been with my family instead being sent in here as a result of working on a big price fixing case.
+<v Mark Whitacre>我绝对后悔我参与了其中，因为对我来说，我的家庭比解决世界价格操纵问题更重要。因此，我希望我当时只是离开，和我的家人在一起，而不是因为在一个重大的价格操纵案上工作而被关在这里。
+
+00:54:52.310 --> 00:54:53.820
+<v Ira Glass>You did good, by accident.
+<v Ira Glass>你做了一件好事，通过意外。
+
+00:54:53.820 --> 00:54:59.970
+<v Mark Whitacre>Yeah, by accident. Purely by accident, believe me.
+<v Mark Whitacre>是的，通过意外。纯粹通过意外，相信我。
+
+00:54:59.970 --> 00:55:23.290
+<v Ira Glass>And with that, the guards took Mark Whitacre away to dinner. He looks good by the way. He's tan, slim, runs every day. His wife and kids visit every weekend. Prison suits him.
+<v Ira Glass>就这样，守卫带马克·惠特克去吃晚饭了。顺便说一句，他看起来不错。他晒得黝黑，身材苗条，每天跑步。他的妻子和孩子每个周末都来看他。监狱生活很适合他。
+
+00:55:23.290 --> 00:55:47.750
+<v Ira Glass>I didn't see Mark again for nine years. And then in 2009, just this week, I caught up with him at the premiere of The Informant , from when Matt Damon plays him. I asked Mike if he remembered me and producer Alex Blumberg visiting him in prison in South Carolina? And he said sure. He said it was September 10, 2000, which I don't know if that's right or not. He says he likes the film. And people sitting near him heard him laughing all the way through.
+<v Ira Glass>我九年没有再见到马克了。然后在2009年，就在本周，我在马特·达蒙主演的电影《告密者》的首映式上赶上了他。我问马克他还记不记得我和制作人亚历克斯·布隆伯格（Alex Blumberg）在南卡罗来纳州探监的事？他说记得。他说那是2000年9月10日，我不知道准不准。他说他喜欢这部电影。坐在他附近的人听到他在整场电影中一直笑个不停。
+
+00:55:47.750 --> 00:57:19.960
+<v Ira Glass>My guess is that a lot of what he did back in those days was a result of a bipolar disorder. He's on meds now. He told me all about them. I sure did a lot of crazy stuff back then, he told me.
+<v Ira Glass>我的猜测是，他当时所做的大部分事情都是双相情感障碍的结果。他现在在吃药。他告诉我所有关于它们的事。“那时我确实做了很多疯狂的事情，”他告诉我。
+
+00:57:19.960 --> 00:57:27.110
+<v Mark Whitacre>I mean you're acting as their friend. In reality, you're taping them. And I mean your whole life is deception.
+<v Mark Whitacre>我的意思是，你在扮演他们的朋友。实际上，你在录音。我的意思是，你的整个生活都是欺骗。
+
+00:57:27.110 --> 00:57:56.570
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯。下周再带着更多《美国生活》的故事回来。
+
+00:57:56.570 --> 00:58:01.570
+<v Announcer>PRI, Public Radio International.
+<v Announcer>国际公共广播电台。
