@@ -64,3 +64,27 @@ jobs:
           git add docs
           git diff --cached --quiet || git commit -m "Add Chinese transcripts feed"
           git push
+      # 配置 GitHub Pages
+      - name: Setup Pages
+
+        uses: actions/configure-pages@v5
+
+
+
+      # 上传 Pages 内容
+      - name: Upload Pages artifact
+
+        uses: actions/upload-pages-artifact@v3
+
+        with:
+
+          path: ./docs
+
+
+
+      # 部署 GitHub Pages
+      - name: Deploy GitHub Pages
+
+        id: deployment
+
+        uses: actions/deploy-pages@v4
