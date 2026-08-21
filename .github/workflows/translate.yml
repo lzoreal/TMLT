@@ -1,57 +1,36 @@
 name: Translate VTT and Generate Chinese Feed
 
-
 on:
-
   workflow_dispatch:
-
     inputs:
-
       max_files:
-
         description: "Maximum VTT files to translate"
 
         required: false
 
         default: "10"
 
-
 permissions:
-
   contents: write
 
-
 jobs:
-
-
   translate:
-
-
     runs-on: ubuntu-latest
 
-
     steps:
-
-
       - name: Checkout repository
 
         uses: actions/checkout@v4
 
         with:
-
           fetch-depth: 0
-
-
 
       - name: Setup Python
 
         uses: actions/setup-python@v5
 
         with:
-
           python-version: "3.11"
-
-
 
       - name: Install dependencies
 
@@ -59,23 +38,18 @@ jobs:
 
           pip install -r requirements-translate.txt
 
-
-
       - name: Translate VTT
 
         env:
-
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-          MAX_FILES: 10
+          MAX_FILES: ${{ github.event.inputs.max_files }}
 
           MAX_REQUESTS: 300
 
         run: |
 
           python -u translate_vtt.py
-
-
 
       - name: Generate Chinese RSS
 
@@ -85,23 +59,11 @@ jobs:
 
           --base-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
 
-
-
       - name: Commit changes
 
-
         run: |
-
-
           git config user.name "github-actions"
-
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-
           git add docs
-
-
           git diff --cached --quiet || git commit -m "Add Chinese transcripts feed"
-
-
           git push

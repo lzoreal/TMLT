@@ -5,55 +5,80 @@ import re
 import json
 import time
 import hashlib
-
 from pathlib import Path
 from datetime import datetime, timezone
 
+
 from google import genai
-from google.genai import types
 
 # ============================================================
 # Config
 # ============================================================
 
 
-INPUT_DIR = Path(os.environ.get("INPUT_DIR", "docs/transcripts"))
+INPUT_DIR = Path("docs/transcripts")
 
 
-OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "docs/transcripts/zh"))
+OUTPUT_DIR = Path("docs/transcripts/zh")
 
 
-CACHE_FILE = Path(os.environ.get("CACHE_FILE", "docs/translations.json"))
+CACHE_FILE = Path("docs/translations.json")
 
 
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
 
 
-# 每次发送多少个字幕给 Gemini
-
-BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "10"))
+BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "50"))
 
 
 MAX_FILES = int(os.environ.get("MAX_FILES", "10"))
 
 
-MAX_REQUESTS = int(os.environ.get("MAX_REQUESTS", "300"))
+MAX_REQUESTS = int(os.environ.get("MAX_REQUESTS", "100"))
 
 
-REQUEST_INTERVAL = int(os.environ.get("REQUEST_INTERVAL", "3"))
+REQUEST_INTERVAL = int(os.environ.get("REQUEST_INTERVAL", "15"))
+
+
+MAX_RETRY = 8
+
+
+API_KEY = os.environ.get("GEMINI_API_KEY")
+
+
+if not API_KEY:
+    raise RuntimeError("Missing GEMINI_API_KEY")
+
+
+print()
+print("=" * 70)
+print("🚀 Translate VTT started")
+print("=" * 70)
+
+print("Model:", MODEL)
+
+print("Input:", INPUT_DIR)
+
+print("Output:", OUTPUT_DIR)
+
+print("Batch size:", BATCH_SIZE)
+
+print("Max files:", MAX_FILES)
+
+print("Max requests:", MAX_REQUESTS)
+
+print("Request interval:", REQUEST_INTERVAL)
 
 
 # ============================================================
-# Gemini Client
+# Gemini init
 # ============================================================
 
 
 print("Initializing Gemini...")
 
 
-client = genai.Client(
-    api_key=os.environ["GEMINI_API_KEY"], http_options=types.HttpOptions(timeout=600000)
-)
+client = genai.Client(api_key=API_KEY)
 
 
 print("✅ Gemini initialized")
@@ -98,442 +123,11 @@ def save_cache(data):
         json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8"
     )
 
+    print("💾 Cache saved:", CACHE_FILE)
+
 
 # ============================================================
 # Hash
-# ============================================================
-
-
-def file_hash(path):
-
-    sha = hashlib.sha256()
-
-    with path.open("rb") as f:
-
-        for chunk in iter(lambda: f.read(8192), b""):
-
-            sha.update(chunk)
-
-    return sha.hexdigest()
-
-
-# ============================================================
-# Gemini translate
-# ============================================================
-
-
-def gemini_translate(text):
-
-    global request_count
-
-    if not text.strip():
-        return ""
-
-    if request_count >= MAX_REQUESTS:
-
-        raise RuntimeError(f"MAX_REQUESTS reached: {MAX_REQUESTS}")
-
-    request_count += 1
-
-    print(f"\n🤖 Gemini request #{request_count}")
-
-    print(f"   Input chars: {len(text)}")
-
-    prompt = f"""
-Translate this English podcast transcript into Simplified Chinese.
-
-Requirements:
-
-1. Only output the Chinese translation.
-2. Do not summarize.
-3. Do not explain.
-4. Keep speaker names unchanged.
-5. Keep punctuation natural.
-6. Preserve the original meaning.
-
-English:
-
-{text}
-"""
-
-    start = time.time()
-
-    for retry in range(5):
-
-        try:
-
-            print(f"   Gemini attempt {retry + 1}/5")
-
-            response = client.models.generate_content(
-                model=MODEL,
-                contents=prompt,
-            )
-
-            if not response.text:
-
-                raise RuntimeError("Gemini returned empty response")
-
-            result = response.text.strip()
-
-            elapsed = time.time() - start
-
-            print("   ✅ Gemini success")
-
-            print(f"   Output chars: {len(result)}")
-
-            print(f"   Time: {elapsed:.2f}s")
-
-            return result
-
-        except Exception as e:
-
-            print("   ❌ Gemini error:", e)
-
-            wait = 10 * (retry + 1)
-
-            print(f"   ⏳ Retry after {wait}s")
-
-            time.sleep(wait)
-
-    raise RuntimeError("Gemini translation failed after retries")
-
-
-# ============================================================
-# Protect VTT speaker tag
-# ============================================================
-
-
-def protect_speaker(text):
-
-    speakers = {}
-
-    def replace(match):
-
-        key = f"__SPEAKER_{len(speakers)}__"
-
-        speakers[key] = match.group(0)
-
-        return key
-
-    protected = re.sub(r"<v [^>]+>", replace, text)
-
-    if speakers:
-
-        print("   🔒 Protected speakers:", list(speakers.values()))
-
-    return protected, speakers
-
-
-def restore_speaker(text, speakers):
-
-    for key, value in speakers.items():
-
-        text = text.replace(key, value)
-
-    return text
-
-
-# ============================================================
-# VTT split
-# ============================================================
-
-
-def split_blocks(content):
-
-    blocks = re.split(r"\n\s*\n", content.strip())
-
-    print("VTT blocks:", len(blocks))
-
-    return blocks
-
-
-# ============================================================
-# Translate single block
-# ============================================================
-
-
-def translate_block(block, index):
-
-    lines = block.splitlines()
-
-    if not lines:
-
-        return block
-
-    if lines[0].strip() == "WEBVTT":
-
-        print(f"Block {index}: WEBVTT")
-
-        return block
-
-    timestamp = None
-
-    text_lines = []
-
-    for line in lines:
-
-        if "-->" in line:
-
-            timestamp = line.strip()
-
-        elif timestamp:
-
-            text_lines.append(line)
-
-    if not timestamp:
-
-        print(f"Block {index}: skip(no timestamp)")
-
-        return block
-
-    original = "\n".join(text_lines).strip()
-
-    if not original:
-
-        print(f"Block {index}: empty")
-
-        return block
-
-    print(f"\nBlock {index}")
-
-    print(" Time:", timestamp)
-
-    print(" Text:", original[:120])
-
-    protected, speakers = protect_speaker(original)
-
-    translated = gemini_translate(protected)
-
-    translated = restore_speaker(translated, speakers)
-
-    print(" Translation:", translated[:120])
-
-    # 双语 VTT
-    return timestamp + "\n" + original + "\n" + translated
-
-
-# ============================================================
-# Batch translate blocks
-# ============================================================
-
-
-def translate_blocks_batch(blocks, batch_size=10):
-    """
-    将多个字幕合并请求 Gemini。
-
-    原版：
-        201 blocks
-        = 201 API requests
-
-    新版：
-        201 blocks
-        = 约 20 API requests
-
-    大幅降低 Gemini 免费额度压力。
-    """
-
-    results = []
-
-    pending = []
-
-    pending_index = []
-
-    for index, block in enumerate(blocks):
-
-        lines = block.splitlines()
-
-        if not lines:
-
-            results.append(block)
-
-            continue
-
-        if lines[0].strip() == "WEBVTT":
-
-            results.append(block)
-
-            continue
-
-        timestamp = None
-
-        text_lines = []
-
-        for line in lines:
-
-            if "-->" in line:
-
-                timestamp = line.strip()
-
-            elif timestamp:
-
-                text_lines.append(line)
-
-        if not timestamp:
-
-            results.append(block)
-
-            continue
-
-        original = "\n".join(text_lines).strip()
-
-        if not original:
-
-            results.append(block)
-
-            continue
-
-        pending.append(original)
-
-        pending_index.append((index, timestamp, original))
-
-        if len(pending) >= batch_size:
-
-            translated = translate_batch(pending)
-
-            results.extend(build_batch_result(pending_index, translated))
-
-            pending.clear()
-
-            pending_index.clear()
-
-    # remaining
-
-    if pending:
-
-        translated = translate_batch(pending)
-
-        results.extend(build_batch_result(pending_index, translated))
-
-    return results
-
-
-# ============================================================
-# Gemini batch
-# ============================================================
-
-
-def translate_batch(texts):
-
-    global request_count
-
-    if request_count >= MAX_REQUESTS:
-
-        raise RuntimeError("MAX_REQUESTS reached")
-
-    request_count += 1
-
-    print("\n" + "=" * 60)
-
-    print(f"🤖 Gemini batch request #{request_count}")
-
-    print("Blocks:", len(texts))
-
-    joined = ""
-
-    for i, text in enumerate(texts):
-
-        joined += f"\n\n" f"<<<BLOCK {i}>>>\n" f"{text}" f"\n<<<END {i}>>>"
-
-    prompt = f"""
-Translate the following English podcast subtitles
-into Simplified Chinese.
-
-Rules:
-
-- Return ONLY translated Chinese.
-- Keep every BLOCK marker unchanged.
-- Do not summarize.
-- Do not remove information.
-
-{text}
-"""
-
-    for retry in range(5):
-
-        try:
-
-            start = time.time()
-
-            response = client.models.generate_content(
-                model=MODEL,
-                contents=prompt,
-            )
-
-            result = response.text.strip()
-
-            elapsed = time.time() - start
-
-            print("✅ Gemini batch success")
-
-            print(f"Time: {elapsed:.2f}s")
-
-            return parse_batch_result(result)
-
-        except Exception as e:
-
-            print("❌ Gemini batch error:", e)
-
-            wait = 20 * (retry + 1)
-
-            print(f"⏳ Retry after {wait}s")
-
-            time.sleep(wait)
-
-    raise RuntimeError("Gemini batch failed")
-
-
-# ============================================================
-# Parse Gemini batch output
-# ============================================================
-
-
-def parse_batch_result(text):
-
-    results = []
-
-    pattern = r"<<<BLOCK\s+\d+>>>" r"(.*?)" r"<<<END\s+\d+>>>"
-
-    matches = re.findall(pattern, text, flags=re.S)
-
-    for item in matches:
-
-        results.append(item.strip())
-
-    print("Parsed translations:", len(results))
-
-    return results
-
-
-# ============================================================
-# Build VTT result
-# ============================================================
-
-
-def build_batch_result(metadata, translations):
-
-    output = []
-
-    for i, item in enumerate(metadata):
-
-        index, timestamp, original = item
-
-        if i < len(translations):
-
-            zh = translations[i]
-
-        else:
-
-            print(f"⚠️ Missing translation block {index}")
-
-            zh = ""
-
-        output.append(timestamp + "\n" + original + "\n" + zh)
-
-    return output
-
-
-# ============================================================
-# File hash
 # ============================================================
 
 
@@ -548,7 +142,6 @@ def file_hash(path):
             chunk = f.read(8192)
 
             if not chunk:
-
                 break
 
             sha.update(chunk)
@@ -557,86 +150,536 @@ def file_hash(path):
 
 
 # ============================================================
-# Cache
+# VTT parser
 # ============================================================
 
 
-def load_cache():
+def split_blocks(content):
 
-    if not CACHE_FILE.exists():
+    blocks = re.split(r"\n\s*\n", content.strip())
 
-        print("ℹ️ Cache not found")
+    return [x.strip() for x in blocks if x.strip()]
+
+
+def parse_block(block):
+
+    lines = block.splitlines()
+
+    if len(lines) < 2:
+        return None
+
+    if lines[0].strip() == "WEBVTT":
+
+        return None
+
+    timestamp = None
+
+    text = []
+
+    for line in lines:
+
+        if "-->" in line:
+
+            timestamp = line
+
+        elif timestamp:
+
+            text.append(line)
+
+    if not timestamp:
+
+        return None
+
+    return {"timestamp": timestamp, "text": "\n".join(text).strip()}
+
+
+# ============================================================
+# Gemini Translation
+# ============================================================
+
+
+def build_prompt(items):
+
+    payload = []
+
+    for item in items:
+
+        payload.append({"id": item["id"], "text": item["text"]})
+
+    return f"""
+You are a professional podcast subtitle translator.
+
+Translate the following English podcast subtitles into Simplified Chinese.
+
+Return ONLY valid JSON.
+
+Required JSON format:
+
+{{
+  "translations": [
+    {{
+      "id": 1,
+      "text": "Chinese translation"
+    }}
+  ]
+}}
+
+
+Rules:
+
+1. Do not summarize.
+2. Do not explain.
+3. Translate every item.
+4. Keep speaker tags like <v Name>.
+5. Keep the same id.
+6. Output JSON only.
+
+Input subtitles:
+
+{json.dumps(
+    payload,
+    ensure_ascii=False,
+    indent=2
+)}
+"""
+
+
+def extract_json(text):
+    """
+    Gemini sometimes returns markdown.
+    Remove ```json blocks.
+    """
+
+    text = text.strip()
+
+    if text.startswith("```"):
+
+        text = re.sub(r"^```(?:json)?", "", text)
+
+        text = re.sub(r"```$", "", text)
+
+    text = text.strip()
+
+    start = text.find("{")
+
+    end = text.rfind("}")
+
+    if start >= 0 and end > start:
+
+        text = text[start : end + 1]
+
+    return json.loads(text)
+
+
+def gemini_batch_translate(items):
+
+    global request_count
+
+    if not items:
 
         return {}
 
-    try:
+    if request_count >= MAX_REQUESTS:
 
-        data = json.loads(CACHE_FILE.read_text(encoding="utf-8"))
+        raise RuntimeError("MAX_REQUESTS reached")
 
-        print("✅ Cache loaded:", len(data))
+    request_count += 1
 
-        return data
+    print()
+    print("=" * 60)
 
-    except Exception as e:
+    print(f"🤖 Gemini request #{request_count}")
 
-        print("⚠️ Cache load failed:", e)
+    print("Blocks:", len(items))
 
-        return {}
+    prompt = build_prompt(items)
 
+    for retry in range(MAX_RETRY):
 
-def save_cache(data):
+        try:
 
-    CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
+            start = time.time()
 
-    tmp = CACHE_FILE.with_suffix(".tmp")
+            response = client.models.generate_content(
+                model=MODEL,
+                contents=prompt,
+                config={"response_mime_type": "application/json"},
+            )
 
-    tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+            elapsed = time.time() - start
 
-    tmp.replace(CACHE_FILE)
+            print("Gemini response time:", f"{elapsed:.2f}s")
 
-    print("💾 Cache saved:", CACHE_FILE)
+            raw = response.text or ""
+
+            print("Response length:", len(raw))
+
+            data = extract_json(raw)
+
+            translations = {}
+
+            for item in data.get("translations", []):
+
+                try:
+
+                    idx = int(item["id"])
+
+                    translations[idx] = item.get("text", "")
+
+                except Exception:
+
+                    continue
+
+            print("Parsed translations:", len(translations))
+
+            return translations
+
+        except Exception as e:
+
+            message = str(e)
+
+            print()
+
+            print("❌ Gemini error:", message)
+
+            # --------------------------------------------
+            # Rate limit
+            # --------------------------------------------
+
+            if "429" in message or "RESOURCE_EXHAUSTED" in message:
+
+                wait = min(120, 20 * (retry + 1))
+
+                print("⏳ Rate limited.")
+
+                print("Sleep:", wait, "seconds")
+
+                time.sleep(wait)
+
+                continue
+
+            # --------------------------------------------
+            # Server unavailable
+            # --------------------------------------------
+
+            if "503" in message or "UNAVAILABLE" in message:
+
+                wait = min(120, 15 * (retry + 1))
+
+                print("⏳ Server busy.")
+
+                print("Sleep:", wait, "seconds")
+
+                time.sleep(wait)
+
+                continue
+
+            # Other errors
+
+            print("Retry:", retry + 1, "/", MAX_RETRY)
+
+            time.sleep(10)
+
+    raise RuntimeError("Gemini translation failed")
 
 
 # ============================================================
-# Translate single VTT file
+# Batch helper
 # ============================================================
 
 
-def translate_file(source, target):
+def translate_blocks(blocks):
+    """
+    blocks:
 
-    print("\n" + "=" * 70)
+    [
+      {
+        id,
+        timestamp,
+        text
+      }
+    ]
+
+    return:
+
+    {
+      id: translated_text
+    }
+
+    """
+
+    result = {}
+
+    total = len(blocks)
+
+    print()
+
+    print("Total blocks:", total)
+
+    for start in range(0, total, BATCH_SIZE):
+
+        batch = blocks[start : start + BATCH_SIZE]
+
+        print()
+
+        print("-" * 60)
+
+        print("Batch:", start, "-", start + len(batch) - 1)
+
+        translated = gemini_batch_translate(batch)
+
+        result.update(translated)
+
+        missing = [x["id"] for x in batch if x["id"] not in translated]
+
+        if missing:
+
+            print("⚠️ Missing:", missing)
+
+        else:
+
+            print("✅ Batch complete")
+
+        time.sleep(REQUEST_INTERVAL)
+
+    return result
+
+
+# ============================================================
+# VTT Generator
+# ============================================================
+
+
+def create_bilingual_vtt(original_blocks, translations):
+
+    output = []
+
+    output.append("WEBVTT")
+
+    output.append("")
+
+    for block in original_blocks:
+
+        idx = block["id"]
+
+        timestamp = block["timestamp"]
+
+        original = block["text"]
+
+        translated = translations.get(idx)
+
+        output.append(timestamp)
+
+        # --------------------------------------------
+        # English
+        # --------------------------------------------
+
+        if original:
+
+            output.append(original)
+
+        # --------------------------------------------
+        # Chinese
+        # --------------------------------------------
+
+        if translated:
+
+            output.append(translated)
+
+        output.append("")
+
+    return "\n".join(output)
+
+
+# ============================================================
+# Parse VTT
+# ============================================================
+
+
+def parse_vtt_blocks(content):
+
+    raw_blocks = split_blocks(content)
+
+    blocks = []
+
+    counter = 1
+
+    for raw in raw_blocks:
+
+        parsed = parse_block(raw)
+
+        if not parsed:
+
+            continue
+
+        blocks.append(
+            {"id": counter, "timestamp": parsed["timestamp"], "text": parsed["text"]}
+        )
+
+        counter += 1
+
+    return blocks
+
+
+# ============================================================
+# Cache helpers
+# ============================================================
+
+
+def get_episode_cache(cache, episode):
+
+    if episode not in cache:
+
+        cache[episode] = {"hash": "", "updated": "", "blocks": {}}
+
+    return cache[episode]
+
+
+def save_block_cache(cache, episode, sha, blocks):
+
+    item = get_episode_cache(cache, episode)
+
+    item["hash"] = sha
+
+    item["updated"] = datetime.now(timezone.utc).isoformat()
+
+    if "blocks" not in item:
+
+        item["blocks"] = {}
+
+    for block in blocks:
+
+        item["blocks"][str(block["id"])] = block["translation"]
+
+
+# ============================================================
+# Translate one VTT file
+# ============================================================
+
+
+def translate_file(source, target, cache):
+
+    print()
+
+    print("=" * 70)
 
     print("📄 Translating:", source.name)
 
-    start_time = time.time()
+    print("=" * 70)
+
+    sha = file_hash(source)
+
+    episode = source.stem
+
+    episode_cache = get_episode_cache(cache, episode)
+
+    # --------------------------------------------
+    # Already finished
+    # --------------------------------------------
+
+    if episode_cache.get("hash") == sha and target.exists():
+
+        print("⏭ Skip cached:", episode)
+
+        return False
 
     content = source.read_text(encoding="utf-8")
 
-    blocks = split_blocks(content)
+    blocks = parse_vtt_blocks(content)
 
-    print("Original blocks:", len(blocks))
+    print("VTT blocks:", len(blocks))
 
-    print("🚀 Start Gemini batch translation...")
+    if not blocks:
 
-    translated_blocks = translate_blocks_batch(blocks, batch_size=10)
+        print("⚠️ Empty VTT")
 
-    print("Translated blocks:", len(translated_blocks))
+        return False
 
-    result = "\n\n".join(translated_blocks)
+    translations = {}
+
+    # --------------------------------------------
+    # Load existing block cache
+    # --------------------------------------------
+
+    old_blocks = episode_cache.get("blocks", {})
+
+    pending = []
+
+    for block in blocks:
+
+        cached = old_blocks.get(str(block["id"]))
+
+        if cached:
+
+            translations[block["id"]] = cached
+
+        else:
+
+            pending.append(block)
+
+    print("Cached blocks:", len(translations))
+
+    print("Need translate:", len(pending))
+
+    # --------------------------------------------
+    # Gemini translate
+    # --------------------------------------------
+
+    if pending:
+
+        new_translations = translate_blocks(pending)
+
+        translations.update(new_translations)
+
+        # save partial cache immediately
+
+        for idx, text in new_translations.items():
+
+            episode_cache.setdefault("blocks", {})[str(idx)] = text
+
+        save_cache(cache)
+
+    # --------------------------------------------
+    # Missing fallback
+    # --------------------------------------------
+
+    missing = [b["id"] for b in blocks if b["id"] not in translations]
+
+    if missing:
+
+        print("⚠️ Missing blocks:", missing)
+
+        for idx in missing:
+
+            translations[idx] = ""
+
+    # --------------------------------------------
+    # Generate bilingual VTT
+    # --------------------------------------------
+
+    vtt = create_bilingual_vtt(blocks, translations)
 
     target.parent.mkdir(parents=True, exist_ok=True)
 
     tmp = target.with_suffix(".tmp")
 
-    tmp.write_text(result, encoding="utf-8")
+    tmp.write_text(vtt, encoding="utf-8")
 
     tmp.replace(target)
 
-    elapsed = time.time() - start_time
-
     print("✅ Saved:", target)
 
-    print(f"⏱ Time: {elapsed:.2f}s")
+    # --------------------------------------------
+    # Update cache
+    # --------------------------------------------
+
+    episode_cache["hash"] = sha
+
+    episode_cache["updated"] = datetime.now(timezone.utc).isoformat()
+
+    save_cache(cache)
+
+    return True
 
 
 # ============================================================
@@ -646,109 +689,107 @@ def translate_file(source, target):
 
 def main():
 
-    print("\n" + "=" * 70)
-
-    print("🚀 Translate VTT started")
+    print()
 
     print("=" * 70)
 
-    print("Model:", MODEL)
+    print("🚀 Starting translation job")
 
-    print("Input:", INPUT_DIR)
-
-    print("Output:", OUTPUT_DIR)
-
-    print("Max files:", MAX_FILES)
-
-    print("Max requests:", MAX_REQUESTS)
-
-    print("\nInitializing Gemini...")
-
-    try:
-
-        client.models.list()
-
-        print("✅ Gemini initialized")
-
-    except Exception as e:
-
-        print("❌ Gemini init failed:", e)
-
-        return
+    print("=" * 70)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     cache = load_cache()
 
+    if not INPUT_DIR.exists():
+
+        raise RuntimeError(f"Input directory not found: {INPUT_DIR}")
+
     files = sorted(
-        INPUT_DIR.glob("*.vtt"), key=lambda x: int(x.stem) if x.stem.isdigit() else 0
+        INPUT_DIR.glob("*.vtt"),
+        key=lambda x: int(x.stem) if x.stem.isdigit() else 999999,
     )
 
-    print("\nFound VTT:", len(files))
+    print()
 
-    translated_count = 0
+    print("Found VTT:", len(files))
 
-    skipped_count = 0
+    translated_files = 0
 
-    failed_count = 0
+    skipped_files = 0
 
-    for source in files:
+    failed_files = 0
 
-        episode = source.stem
+    start_time = time.time()
 
-        target = OUTPUT_DIR / source.name
+    for index, source in enumerate(files):
 
-        sha = file_hash(source)
+        if translated_files >= MAX_FILES:
 
-        old = cache.get(episode)
+            print()
 
-        if old and old.get("hash") == sha and target.exists():
-
-            print("⏭ Skip:", episode)
-
-            skipped_count += 1
-
-            continue
-
-        if translated_count >= MAX_FILES:
-
-            print("MAX_FILES reached")
+            print("Reached MAX_FILES:", MAX_FILES)
 
             break
 
+        target = OUTPUT_DIR / source.name
+
+        print()
+
+        print(f"[{index+1}/{len(files)}]", source.name)
+
         try:
 
-            translate_file(source, target)
+            changed = translate_file(source, target, cache)
 
-            cache[episode] = {
-                "hash": sha,
-                "translated": True,
-                "updated": datetime.now(timezone.utc).isoformat(),
-            }
+            if changed:
 
-            save_cache(cache)
+                translated_files += 1
 
-            translated_count += 1
+            else:
+
+                skipped_files += 1
 
         except Exception as e:
 
-            failed_count += 1
+            failed_files += 1
 
-            print("❌ Failed:", episode, e)
+            print()
 
-    print("\n" + "=" * 70)
+            print("❌ Failed:", source.name)
 
-    print("🎉 Finished")
+            print(repr(e))
 
-    print("Translated:", translated_count)
+        # protect API
 
-    print("Skipped:", skipped_count)
+        time.sleep(2)
 
-    print("Failed:", failed_count)
+    elapsed = time.time() - start_time
+
+    print()
+
+    print("=" * 70)
+
+    print("🎉 Translation finished")
+
+    print("=" * 70)
+
+    print("Translated files:", translated_files)
+
+    print("Skipped files:", skipped_files)
+
+    print("Failed files:", failed_files)
 
     print("Gemini requests:", request_count)
 
+    print("Time:", f"{elapsed:.2f}s")
+
     print("=" * 70)
+
+
+# ============================================================
+# Entry
+# ============================================================
 
 
 if __name__ == "__main__":
