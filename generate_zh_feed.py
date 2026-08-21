@@ -3,6 +3,7 @@
 import argparse
 from pathlib import Path
 import xml.etree.ElementTree as ET
+import json
 import os
 import sys
 
@@ -16,9 +17,48 @@ ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
 ET.register_namespace("podcast", PODCAST_NS)
 
 
-def log(msg):
+# ============================================================
+# Log
+# ============================================================
 
+
+def log(msg):
     print(f"[ZH-FEED] {msg}", flush=True)
+
+
+# ============================================================
+# Load translation status
+# ============================================================
+
+
+def load_status():
+
+    path = Path("docs/translations.json")
+
+    if not path.exists():
+
+        log("WARNING: translations.json missing")
+
+        return {}
+
+    try:
+
+        data = json.loads(path.read_text(encoding="utf-8"))
+
+        log(f"Loaded translation status: {len(data)} episodes")
+
+        return data
+
+    except Exception as e:
+
+        log(f"Failed loading status: {e}")
+
+        return {}
+
+
+# ============================================================
+# Main
+# ============================================================
 
 
 def main():
@@ -35,9 +75,9 @@ def main():
 
     log("====================================")
 
-    log(f"Current directory: {os.getcwd()}")
-
     log(f"Base URL: {args.base_url}")
+
+    status = load_status()
 
     docs = Path("docs")
 
@@ -45,39 +85,17 @@ def main():
 
     output = docs / "podcast-zh.xml"
 
-    # --------------------------------------------------------
-    # Check files
-    # --------------------------------------------------------
+    if not source.exists():
+
+        log("ERROR: podcast.xml missing")
+
+        sys.exit(1)
 
     log(f"Input RSS: {source}")
 
-    if not source.exists():
-
-        log("ERROR: podcast.xml not found")
-
-        sys.exit(1)
-
-    log(f"Input size: {source.stat().st_size} bytes")
-
-    # --------------------------------------------------------
-    # Parse XML
-    # --------------------------------------------------------
-
-    log("Parsing XML...")
-
-    try:
-
-        tree = ET.parse(source)
-
-    except Exception as e:
-
-        log(f"XML parse failed: {e}")
-
-        sys.exit(1)
+    tree = ET.parse(source)
 
     root = tree.getroot()
-
-    log(f"Root tag: {root.tag}")
 
     channel = root.find("channel")
 
@@ -87,17 +105,13 @@ def main():
 
         sys.exit(1)
 
-    # --------------------------------------------------------
-    # Channel update
-    # --------------------------------------------------------
-
-    log("Updating channel metadata...")
+    # ========================================================
+    # Channel metadata
+    # ========================================================
 
     title = channel.find("title")
 
     if title is not None:
-
-        log(f"Old title: {title.text}")
 
         title.text = "This American Life " "中文双语 Transcript Feed"
 
@@ -105,119 +119,123 @@ def main():
 
     if language is not None:
 
-        log(f"Old language: {language.text}")
-
         language.text = "zh-CN"
 
     description = channel.find("description")
 
     if description is not None:
 
-        description.text = (
-            "This American Life " "English Chinese bilingual " "transcript feed"
-        )
+        description.text = "English Chinese " "bilingual transcript feed"
 
-    atom_link = channel.find("{http://www.w3.org/2005/Atom}link")
-
-    if atom_link is not None:
-
-        old_link = atom_link.get("href")
-
-        log(f"Old self link: {old_link}")
-
-        new_link = args.base_url + "/podcast-zh.xml"
-
-        atom_link.set("href", new_link)
-
-        log(f"New self link: {new_link}")
-
-    # --------------------------------------------------------
+    # ========================================================
     # Items
-    # --------------------------------------------------------
+    # ========================================================
 
     items = channel.findall("item")
 
-    log(f"Total episodes: {len(items)}")
+    log(f"Original episodes: {len(items)}")
 
-    updated = 0
-    skipped = 0
-    missing = 0
+    kept = 0
 
-    for index, item in enumerate(items, 1):
+    removed = 0
+
+    for item in list(items):
 
         title_node = item.find("title")
 
         title_text = title_node.text if title_node is not None else "UNKNOWN"
 
-        log("")
-
-        log(f"[{index}/{len(items)}] {title_text}")
-
         transcript = item.find(f"{{{PODCAST_NS}}}transcript")
 
         if transcript is None:
 
-            log("  WARNING: no transcript tag")
+            log(f"REMOVE {title_text}: no transcript")
 
-            missing += 1
+            channel.remove(item)
+
+            removed += 1
 
             continue
 
         old_url = transcript.get("url", "")
 
-        log(f"  Original VTT: {old_url}")
-
-        if "/transcripts/zh/" in old_url:
-
-            log("  Already Chinese feed")
-
-            skipped += 1
-
-            continue
+        #
+        # 从原 VTT:
+        #
+        # .../transcripts/123.vtt
+        #
+        # 得到 episode id
+        #
 
         if "/transcripts/" not in old_url:
 
-            log("  WARNING: unexpected URL")
+            log(f"REMOVE {title_text}: bad url")
 
-            missing += 1
+            channel.remove(item)
+
+            removed += 1
 
             continue
 
-        episode = old_url.split("/transcripts/")[-1]
+        episode = old_url.split("/transcripts/")[-1].replace(".vtt", "")
 
-        new_url = args.base_url + "/transcripts/zh/" + episode
+        info = status.get(episode)
+
+        if not info:
+
+            log(f"REMOVE {episode}: not translated")
+
+            channel.remove(item)
+
+            removed += 1
+
+            continue
+
+        if not info.get("translated", False):
+
+            log(f"REMOVE {episode}: translation incomplete")
+
+            channel.remove(item)
+
+            removed += 1
+
+            continue
+
+        new_url = args.base_url + "/transcripts/zh/" + episode + ".vtt"
 
         transcript.set("url", new_url)
 
         transcript.set("language", "zh-CN")
 
-        log(f"  New VTT: {new_url}")
+        log(f"KEEP {episode}: {new_url}")
 
-        updated += 1
+        kept += 1
 
-    # --------------------------------------------------------
+    # ========================================================
+    # Atom self link
+    # ========================================================
+
+    atom_link = channel.find("{http://www.w3.org/2005/Atom}link")
+
+    if atom_link is not None:
+
+        atom_link.set("href", args.base_url + "/podcast-zh.xml")
+
+    # ========================================================
     # Write
-    # --------------------------------------------------------
-
-    log("")
-
-    log("Writing output...")
+    # ========================================================
 
     tree.write(output, encoding="utf-8", xml_declaration=True)
-
-    log(f"Output: {output}")
-
-    log(f"Output size: {output.stat().st_size} bytes")
 
     log("====================================")
 
     log("SUMMARY")
 
-    log(f"Updated: {updated}")
+    log(f"Kept translated episodes: {kept}")
 
-    log(f"Skipped: {skipped}")
+    log(f"Removed episodes: {removed}")
 
-    log(f"Missing: {missing}")
+    log(f"Output: {output}")
 
     log("Done")
 
