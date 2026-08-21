@@ -113,5 +113,14 @@
     "hash": "8095381466392721327ddc646d7e89883d408a5bfc0ac33854614963a9c24429",
     "translated": true,
     "updated": "2026-08-21T03:12:30.203405+00:00"
+  },
+  "__meta__": {
+    "date": "2026-08-21",
+    "daily_requests": 1
+  },
+  "11": {
+    "hash": "489ca5a5c1e013cff3b730e8caa46756116591582afa75b54d6a4772b3deb8f1",
+    "translated": true,
+    "updated": "2026-08-21T03:41:28.695242+00:00"
   }
 }
