@@ -1,39 +1,24 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-Translate English VTT transcript into bilingual English + Chinese VTT
-
-Features:
-- Gemini batch translation
-- Episode level cache only
-- No translation memory
-- No speaker translation
-- GitHub Actions friendly logs
-"""
 
 import os
 import re
 import json
 import time
 import hashlib
+import traceback
+
 from pathlib import Path
 from datetime import datetime, timezone
 
-
 from google import genai
-from google.genai import types
 
 # ============================================================
-# Configuration
+# Config
 # ============================================================
-
 
 INPUT_DIR = Path("docs/transcripts")
 
-
 OUTPUT_DIR = Path("docs/transcripts/zh")
-
 
 CACHE_FILE = Path("docs/translations.json")
 
@@ -47,26 +32,13 @@ MAX_FILES = int(os.environ.get("MAX_FILES", "10"))
 MAX_REQUESTS = int(os.environ.get("MAX_REQUESTS", "300"))
 
 
-# Gemini batch size
-
 BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "20"))
 
 
-# request retry
-
-MAX_RETRY = 5
+RETRY_COUNT = 5
 
 
-# statistics
-
-request_count = 0
-
-success_blocks = 0
-
-failed_blocks = 0
-
-
-start_time = time.time()
+RETRY_BASE = 20
 
 
 # ============================================================
@@ -79,43 +51,39 @@ def log(msg=""):
     print(msg, flush=True)
 
 
-def section(title):
-
-    log()
-
-    log("=" * 70)
-
-    log(title)
+def separator():
 
     log("=" * 70)
 
 
 # ============================================================
-# Gemini Initialize
+# Gemini
 # ============================================================
 
 
-def init_gemini():
+log("Initializing Gemini...")
 
-    section("Initializing Gemini...")
 
-    api_key = os.environ.get("GEMINI_API_KEY")
+try:
 
-    if not api_key:
-
-        raise RuntimeError("GEMINI_API_KEY missing")
-
-    client = genai.Client(api_key=api_key)
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
     log("✅ Gemini initialized")
 
-    log(f"Model: {MODEL}")
 
-    return client
+except Exception as e:
+
+    log("❌ Gemini initialization failed")
+
+    raise e
+
+
+request_count = 0
 
 
 # ============================================================
 # Cache
+# only episode status
 # ============================================================
 
 
@@ -137,7 +105,7 @@ def load_cache():
 
     except Exception as e:
 
-        log(f"⚠️ Cache read failed: {e}")
+        log(f"⚠️ Cache load failed: {e}")
 
         return {}
 
@@ -150,7 +118,7 @@ def save_cache(cache):
         json.dumps(cache, indent=2, ensure_ascii=False), encoding="utf-8"
     )
 
-    log(f"💾 Cache saved: {CACHE_FILE}")
+    log("💾 Cache saved")
 
 
 # ============================================================
@@ -178,139 +146,82 @@ def file_hash(path):
 
 
 # ============================================================
-# Text helpers
-# ============================================================
-
-
-def clean_text(text):
-
-    if not text:
-
-        return ""
-
-    return text.replace("\r\n", "\n").strip()
-
-
-def extract_speaker(text):
-    """
-    Keep speaker English.
-
-    Example:
-
-    <v Ira Glass>Hello
-
-    return:
-
-    speaker:
-        Ira Glass
-
-    content:
-        Hello
-    """
-
-    match = re.match(r"<v\s+([^>]+)>(.*)", text, re.S)
-
-    if not match:
-
-        return None, text
-
-    speaker = match.group(1).strip()
-
-    content = match.group(2).strip()
-
-    return speaker, content
-
-
-# ============================================================
-# Prompt builder
+# Gemini Batch Translation
 # ============================================================
 
 
 def build_prompt(blocks):
 
-    items = []
+    content = []
 
-    for index, block in blocks:
+    for idx, text in blocks:
 
-        speaker, text = extract_speaker(block["text"])
+        content.append(f"{idx}|||{text}")
 
-        items.append({"id": index, "speaker": speaker, "text": text})
-
-    payload = json.dumps(items, ensure_ascii=False, indent=2)
+    joined = "\n\n".join(content)
 
     prompt = f"""
+You are translating podcast subtitles.
 
-You are translating an English podcast transcript.
-
-Translate ONLY the "text" field into Simplified Chinese.
+Translate English subtitles into Simplified Chinese.
 
 Rules:
 
 1. Keep speaker names unchanged.
-2. Do not translate names.
-3. Do not summarize.
-4. Keep punctuation.
-5. Return ONLY valid JSON.
-6. Keep the same id.
+2. Do NOT translate names.
+3. Preserve meaning.
+4. Do NOT summarize.
+5. Keep every block.
+6. Output ONLY:
 
-Output format:
+0|||Chinese translation
+1|||Chinese translation
 
-{{
- "translations":[
-   {{
-    "id":1,
-    "text":"Chinese translation"
-   }}
- ]
-}}
+No markdown.
+No explanation.
 
-Input:
 
-{payload}
+Subtitle blocks:
+
+{joined}
 
 """
 
     return prompt
 
 
-# End of Part 1
-# ============================================================
-# Gemini Batch Translation
-# ============================================================
+def parse_translation_response(text):
+
+    result = {}
+
+    if not text:
+
+        return result
+
+    lines = text.splitlines()
+
+    for line in lines:
+
+        if "|||" not in line:
+
+            continue
+
+        try:
+
+            idx, value = line.split("|||", 1)
+
+            idx = int(idx.strip())
+
+            result[idx] = value.strip()
+
+        except Exception:
+
+            continue
+
+    return result
 
 
-def parse_retry_seconds(error_text):
-    """
-    Extract retry seconds from Gemini error.
-
-    Example:
-
-    Please retry in 13.255561766s
-
-    return:
-
-    14
-    """
-
-    match = re.search(r"retry in\s+([0-9.]+)s", error_text, re.I)
-
-    if match:
-
-        return int(float(match.group(1))) + 1
-
-    return None
-
-
-def call_gemini(client, prompt):
-    """
-    Gemini request wrapper.
-
-    Handles:
-
-    429 RESOURCE_EXHAUSTED
-    503 UNAVAILABLE
-    timeout
-    """
+def gemini_batch_translate(blocks):
 
     global request_count
 
@@ -318,452 +229,232 @@ def call_gemini(client, prompt):
 
         raise RuntimeError("MAX_REQUESTS reached")
 
-    for retry in range(MAX_RETRY):
+    prompt = build_prompt(blocks)
+
+    for attempt in range(1, RETRY_COUNT + 1):
 
         request_count += 1
 
-        log()
+        start = time.time()
+
+        log("")
 
         log(f"🤖 Gemini request #{request_count}")
 
+        log(f"Blocks: {len(blocks)}")
+
         try:
 
-            request_start = time.time()
+            response = client.models.generate_content(model=MODEL, contents=prompt)
 
-            response = client.models.generate_content(
-                model=MODEL,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    temperature=0.2, response_mime_type="application/json"
-                ),
-            )
+            elapsed = time.time() - start
 
-            elapsed = time.time() - request_start
+            raw = response.text or ""
 
-            log(f"✅ Gemini success " f"{elapsed:.2f}s")
+            parsed = parse_translation_response(raw)
 
-            if not response.text:
+            log(f"✅ Gemini success {elapsed:.2f}s")
 
-                raise RuntimeError("Empty Gemini response")
+            log(f"Parsed: {len(parsed)}")
 
-            return response.text
+            if len(parsed) == 0:
+
+                log("⚠️ Empty parse result")
+
+                log(raw[:500])
+
+            return parsed
 
         except Exception as e:
 
-            error = str(e)
+            log(f"❌ Gemini error: {e}")
 
-            log()
+            if attempt >= RETRY_COUNT:
 
-            log("❌ Gemini error:")
+                raise
 
-            log(error)
-
-            retry_seconds = parse_retry_seconds(error)
-
-            if retry_seconds:
-
-                wait = min(retry_seconds, 120)
-
-            else:
-
-                wait = min(15 * (retry + 1), 120)
+            wait = RETRY_BASE * attempt
 
             log(f"⏳ Retry after {wait}s")
 
             time.sleep(wait)
 
-    raise RuntimeError("Gemini failed after retries")
+    return {}
 
 
-def parse_translation_json(raw, expected_ids):
-    """
-    Parse Gemini JSON response.
-
-    Expected:
-
-    {
-      "translations":[
-        {
-          "id":1,
-          "text":"xxx"
-        }
-      ]
-    }
-
-    Return:
-
-    {
-      1:"xxx"
-    }
-
-    """
-
-    result = {}
-
-    try:
-
-        data = json.loads(raw)
-
-        translations = data.get("translations", [])
-
-        for item in translations:
-
-            item_id = item.get("id")
-
-            text = item.get("text")
-
-            if item_id is not None and text:
-
-                result[int(item_id)] = text.strip()
-
-    except Exception as e:
-
-        log()
-
-        log("⚠️ JSON parse failed")
-
-        log(raw[:500])
-
-        log(str(e))
-
-    log(f"Parsed translations: {len(result)}")
-
-    missing = set(expected_ids) - set(result.keys())
-
-    for mid in sorted(missing):
-
-        log(f"⚠️ Missing translation id: {mid}")
-
-    return result
-
-
-def translate_batch(client, blocks):
-    """
-    Translate one batch.
-
-    blocks:
-
-    [
-       (
-        id,
-        {
-          timestamp:"",
-          text:""
-        }
-       )
-    ]
-
-    """
-
-    global success_blocks
-
-    global failed_blocks
-
-    batch_items = []
-
-    for index, block in blocks:
-
-        batch_items.append((index, block))
-
-    prompt = build_prompt(batch_items)
-
-    expected_ids = [x[0] for x in batch_items]
-
-    raw = call_gemini(client, prompt)
-
-    translations = parse_translation_json(raw, expected_ids)
-
-    output = {}
-
-    for block_id in expected_ids:
-
-        if block_id in translations:
-
-            output[block_id] = translations[block_id]
-
-            success_blocks += 1
-
-        else:
-
-            failed_blocks += 1
-
-    return output
-
-
-# ============================================================
-# Batch Runner
-# ============================================================
-
-
-def translate_all_batches(client, blocks):
-    """
-    Split VTT blocks into batches.
-
-    """
-
-    translated = {}
-
-    total = len(blocks)
-
-    total_batches = (total + BATCH_SIZE - 1) // BATCH_SIZE
-
-    for start in range(0, total, BATCH_SIZE):
-
-        batch_no = (start // BATCH_SIZE) + 1
-
-        end = min(start + BATCH_SIZE, total)
-
-        section(f"Batch {batch_no}/{total_batches}")
-
-        log(f"Blocks: {start} - {end-1}")
-
-        batch = []
-
-        for i in range(start, end):
-
-            batch.append((i, blocks[i]))
-
-        result = translate_batch(client, batch)
-
-        translated.update(result)
-
-        log(f"Batch translated: {len(result)}/{len(batch)}")
-
-    return translated
-
-
-# End of Part 2
 # ============================================================
 # VTT Parser
 # ============================================================
 
 
 def split_vtt_blocks(content):
-    """
-    Split VTT into blocks.
-
-    Keep:
-
-    WEBVTT
-
-    timestamps
-
-    cues
-
-    """
 
     return re.split(r"\n\s*\n", content.strip())
 
 
-def parse_vtt_blocks(content):
+def parse_cue(block):
 
-    raw_blocks = split_vtt_blocks(content)
+    lines = block.splitlines()
 
-    blocks = []
+    if len(lines) < 2:
 
-    for raw in raw_blocks:
+        return None
 
-        lines = raw.splitlines()
+    timestamp = None
 
-        if not lines:
+    text_lines = []
 
-            continue
+    for line in lines:
 
-        # header
+        if "-->" in line:
 
-        if lines[0].strip() == "WEBVTT":
+            timestamp = line.strip()
 
-            blocks.append({"type": "header", "raw": raw})
+        elif timestamp:
 
-            continue
+            text_lines.append(line)
 
-        timestamp = None
+    if not timestamp:
 
-        text_lines = []
+        return None
 
-        for line in lines:
+    text = "\n".join(text_lines).strip()
 
-            if "-->" in line:
+    if not text:
 
-                timestamp = line.strip()
+        return None
 
-            elif timestamp:
+    return {"timestamp": timestamp, "text": text}
 
-                text_lines.append(line)
 
-        if not timestamp:
+def clean_speaker(text):
+    """
+    Keep speaker name in English.
 
-            blocks.append({"type": "raw", "raw": raw})
+    <v Ira Glass>Hello
+    =>
+    Ira Glass：Hello
+    """
 
-            continue
-
-        text = "\n".join(text_lines).strip()
-
-        blocks.append({"type": "cue", "timestamp": timestamp, "text": text})
-
-    return blocks
+    return re.sub(r"<v\s+([^>]+)>", r"\1：", text)
 
 
 # ============================================================
-# Build bilingual VTT
+# Translate Episode
 # ============================================================
 
 
-def build_bilingual_vtt(blocks, translations):
+def translate_episode(source, target):
 
-    output = []
+    separator()
 
-    for index, block in enumerate(blocks):
+    log(f"📄 Translating {source.name}")
 
-        if block["type"] == "header":
-
-            output.append(block["raw"])
-
-            continue
-
-        if block["type"] == "raw":
-
-            output.append(block["raw"])
-
-            continue
-
-        timestamp = block["timestamp"]
-
-        original = block["text"]
-
-        translated = translations.get(index)
-
-        if not translated:
-
-            raise RuntimeError(f"Missing translation block {index}")
-
-        speaker, _ = extract_speaker(original)
-
-        #
-        # Keep speaker name
-        #
-        # Original:
-        #
-        # <v Ira Glass>Hello
-        #
-        #
-        # Chinese:
-        #
-        # Ira Glass：你好
-        #
-
-        if speaker:
-
-            chinese = speaker + "：" + translated
-
-        else:
-
-            chinese = translated
-
-        output.append(timestamp + "\n" + original + "\n" + chinese)
-
-    return "\n\n".join(output)
-
-
-# ============================================================
-# Translate one VTT file
-# ============================================================
-
-
-def translate_file(client, source, target):
-
-    section(f"📄 Translating {source.name}")
+    separator()
 
     content = source.read_text(encoding="utf-8")
 
-    blocks = parse_vtt_blocks(content)
+    blocks = split_vtt_blocks(content)
 
     log(f"Total blocks: {len(blocks)}")
 
-    cue_blocks = []
+    cues = []
 
-    for index, block in enumerate(blocks):
+    for block in blocks:
 
-        if block["type"] == "cue":
+        cue = parse_cue(block)
 
-            cue_blocks.append((index, block))
+        if cue:
 
-    log(f"Cue blocks: {len(cue_blocks)}")
+            cues.append(cue)
 
-    if not cue_blocks:
+    log(f"Cue blocks: {len(cues)}")
 
-        raise RuntimeError("No subtitle blocks found")
+    translated = {}
 
-    translations = translate_all_batches(client, cue_blocks)
+    # ----------------------------
+    # Batch translate
+    # ----------------------------
 
-    log()
+    for start in range(0, len(cues), BATCH_SIZE):
 
-    log(f"Translated blocks: " f"{len(translations)}/{len(cue_blocks)}")
+        end = min(start + BATCH_SIZE, len(cues))
 
-    #
-    # Safety check
-    #
+        batch = []
 
-    if len(translations) != len(cue_blocks):
+        for i in range(start, end):
 
-        raise RuntimeError("Translation incomplete, abort saving")
+            text = clean_speaker(cues[i]["text"])
 
-    result = build_bilingual_vtt(blocks, translations)
+            batch.append((i, text))
+
+        separator()
+
+        log(f"Batch {start//BATCH_SIZE+1}")
+
+        log(f"Blocks: {start} - {end-1}")
+
+        result = gemini_batch_translate(batch)
+
+        for idx, value in result.items():
+
+            translated[idx] = value
+
+        time.sleep(2)
+
+    # ----------------------------
+    # Check result
+    # ----------------------------
+
+    missing = []
+
+    for i in range(len(cues)):
+
+        if i not in translated:
+
+            missing.append(i)
+
+    if missing:
+
+        log(f"⚠️ Missing blocks: {len(missing)}")
+
+        for i in missing[:10]:
+
+            log(f"Missing block {i}")
+
+        raise RuntimeError("Translation incomplete")
+
+    # ----------------------------
+    # Generate bilingual VTT
+    # ----------------------------
+
+    output = []
+
+    output.append("WEBVTT")
+
+    for i, cue in enumerate(cues):
+
+        output.append(cue["timestamp"])
+
+        original = clean_speaker(cue["text"])
+
+        chinese = translated[i]
+
+        output.append(original)
+
+        output.append(chinese)
+
+        output.append("")
 
     target.parent.mkdir(parents=True, exist_ok=True)
 
-    tmp = target.with_suffix(".tmp")
+    temp = target.with_suffix(".tmp")
 
-    tmp.write_text(result, encoding="utf-8")
+    temp.write_text("\n".join(output), encoding="utf-8")
 
-    tmp.replace(target)
+    temp.replace(target)
 
     log(f"✅ Saved: {target}")
-
-
-# ============================================================
-# Episode cache update
-# ============================================================
-
-
-def update_episode_cache(cache, episode, sha, blocks):
-
-    cache[episode] = {
-        "hash": sha,
-        "translated": True,
-        "blocks": blocks,
-        "updated": datetime.now(timezone.utc).isoformat(),
-    }
-
-
-# End of Part 3
-# ============================================================
-# GitHub Actions helpers
-# ============================================================
-
-
-def github_notice(message):
-    """
-    GitHub Actions annotation
-    """
-
-    print(f"::notice title=Translate VTT::{message}", flush=True)
-
-
-# ============================================================
-# Read environment config
-# ============================================================
-
-
-def get_env_int(name, default):
-
-    try:
-
-        return int(os.environ.get(name, default))
-
-    except Exception:
-
-        return default
 
 
 # ============================================================
@@ -773,9 +464,13 @@ def get_env_int(name, default):
 
 def main():
 
-    global start_time
+    separator()
 
-    section("🚀 Translate VTT started")
+    log("🚀 Translate VTT started")
+
+    separator()
+
+    log(f"Model: {MODEL}")
 
     log(f"Input: {INPUT_DIR}")
 
@@ -784,10 +479,6 @@ def main():
     log(f"Max files: {MAX_FILES}")
 
     log(f"Max requests: {MAX_REQUESTS}")
-
-    log(f"Batch size: {BATCH_SIZE}")
-
-    client = init_gemini()
 
     cache = load_cache()
 
@@ -798,120 +489,67 @@ def main():
         key=lambda x: int(x.stem) if x.stem.isdigit() else 999999,
     )
 
-    log()
-
     log(f"Found VTT: {len(files)}")
 
-    translated_files = 0
-
-    skipped_files = 0
-
-    failed_files = 0
+    processed = 0
 
     for source in files:
 
-        if translated_files >= MAX_FILES:
-
-            log("Reached MAX_FILES")
-
-            break
-
         episode = source.stem
 
-        target = OUTPUT_DIR / source.name
+        separator()
+
+        log(f"Processing episode {episode}")
 
         sha = file_hash(source)
 
         old = cache.get(episode)
 
+        target = OUTPUT_DIR / source.name
+
         if old and old.get("hash") == sha and old.get("translated") and target.exists():
 
-            log()
-
-            log(f"⏭ Skip {episode}: cached")
-
-            skipped_files += 1
+            log("⏭ Already translated")
 
             continue
 
-        log()
+        if processed >= MAX_FILES:
 
-        log("=" * 60)
+            log("MAX_FILES reached")
 
-        log(f"Processing episode {episode}")
-
-        log("=" * 60)
+            break
 
         try:
 
-            translate_file(client, source, target)
+            translate_episode(source, target)
 
-            update_episode_cache(cache, episode, sha, count_blocks(source))
+            cache[episode] = {
+                "hash": sha,
+                "translated": True,
+                "updated": datetime.now(timezone.utc).isoformat(),
+            }
 
             save_cache(cache)
 
-            translated_files += 1
-
-            github_notice(f"Episode {episode} translated")
+            processed += 1
 
         except Exception as e:
-
-            failed_files += 1
-
-            log()
 
             log(f"❌ Episode {episode} failed")
 
             log(str(e))
 
-            github_notice(f"Episode {episode} failed")
+            traceback.print_exc()
 
-    elapsed = time.time() - start_time
+            continue
 
-    section("SUMMARY")
+    separator()
 
-    log(f"Translated files: {translated_files}")
+    log("Finished")
 
-    log(f"Skipped files: {skipped_files}")
+    log(f"Translated episodes: {processed}")
 
-    log(f"Failed files: {failed_files}")
-
-    log(f"Gemini requests: {request_count}")
-
-    log(f"Translated blocks: {success_blocks}")
-
-    log(f"Failed blocks: {failed_blocks}")
-
-    log(f"Time: {elapsed:.2f}s")
-
-    log()
-
-    log("✅ Finished")
-
-
-# ============================================================
-# Count blocks helper
-# ============================================================
-
-
-def count_blocks(source):
-
-    try:
-
-        content = source.read_text(encoding="utf-8")
-
-        blocks = parse_vtt_blocks(content)
-
-        return len([b for b in blocks if b["type"] == "cue"])
-
-    except Exception:
-
-        return 0
-
-
-# ============================================================
-# Entry
-# ============================================================
+    separator()
 
 
 if __name__ == "__main__":
