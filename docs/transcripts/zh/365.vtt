@@ -1,0 +1,805 @@
+WEBVTT
+
+00:00:00.480 --> 00:00:29.580
+<v Ira Glass>Well, it's This American Life from WBEZ Chicago, distributed by Public Radio International. And I'm recording this on Friday afternoon, October 3. It's a little after 3:00, just a couple of hours after the House of Representatives voted in favor of bailing out Wall Street. And I'm standing in Union Square in New York City, maybe a 15-minute subway ride from Wall Street.
+<v Ira Glass>这里是WBEZ芝加哥电台为您制作的《美国生活》，由公共广播国际发行。我是在10月3日星期五下午录制这段节目的。现在是3点刚过，距离众议院投票通过华尔街救市方案才过去几个小时。我现在站在纽约市的联合广场，离华尔街大概只需坐15分钟地铁。
+
+00:00:29.580 --> 00:01:26.050
+<v Ira Glass>It's been a week and two days since President Bush declared that we're in a serious economic crisis. It's been two weeks and a day since the Chairman of the Federal Reserve reportedly told congressional leaders that without a bailout plan we might not have an economy. But standing here, I think maybe for most of us going about our daily lives, it doesn't feel like we're on the edge of a disaster. There are people streaming in and out of the Virgin Megastore with packages. A guy just unwrapped a cellphone that he bought in there, about three feet from me. There's a huge farmer's market going in the park. And so there's this disconnect. Even for people who have seen the value of their homes and their retirement plans drop, it's just hard to know what to believe about how bad things really are and how bad they might get.
+<v Ira Glass>距离布什总统宣布我们正处于严重的经济危机中已经过去了一周零两天。距离美联储主席据称告知国会领导人如果不采取救市计划我们将面临经济崩溃，已经过去了两周零一天。但站在这里，我想对我们大多数过着日常生活的人来说，感觉并不像是身处灾难边缘。人们拿着购物袋进出维珍大卖场。就在离我三英尺远的地方，一个人刚拆开了他在那儿买的手机。公园里有个大型农贸市场正在营业。所以这里存在一种割裂感。即使对于那些眼看着房产价值和退休计划缩水的人来说，也很难判断究竟该相信局势有多糟糕，以及未来可能会恶化到什么程度。
+
+00:01:26.050 --> 00:02:18.630
+<v Ira Glass>Well, a few months ago in our program, Alex Blumberg and NPR Economics Correspondent Adam Davidson put together an hour explaining-- in terms that anybody could understand-- how the subprime mortgage crisis happened in the first place. And after that aired, we were flooded with emails about that show. It was all over the internet. The New York Times wrote an article about it, how helpful it was. And so today we asked those guys to come back and explain some of the things that have happened since that first show, including how bad are things, really? And is this bailout a good idea? It's another frightening hour about the economy. Stay with us.
+<v Ira Glass>几个月前在我们的节目中，亚历克斯·布伦伯格（Alex Blumberg）和NPR经济记者亚当·戴维森（Adam Davidson）做了一期节目，以任何人都能听懂的方式解释了次贷危机最初是如何发生的。节目播出后，我们收到了大量关于那期节目的邮件。它在互联网上疯传。《纽约时报》甚至写了一篇文章称赞它有多么实用。所以今天我们请他们回来，解释一下自那期节目以来发生的一些事情，包括现在的局势到底有多糟糕？以及这个救市方案是否是个好主意？这是一期关于经济的、令人恐惧的节目。请继续收听。
+
+00:02:18.630 --> 00:02:20.120
+<v Ira Glass>Well, hi, fellows.
+<v Ira Glass>嘿，伙计们。
+
+00:02:20.120 --> 00:02:20.620
+<v Adam Davidson>Hey Ira.
+<v Adam Davidson>嘿，艾拉（Ira）。
+
+00:02:20.620 --> 00:02:21.610
+<v Alex Blumberg>Hey. How's it going?
+<v Alex Blumberg>嘿，最近怎么样？
+
+00:02:21.610 --> 00:02:43.510
+<v Ira Glass>Well, let's start with what Treasury Secretary Henry Paulson and Fed Chairman Ben Bernanke saw that made them believe that the economy is in terrible, imminent danger. You guys did a story on All Things Considered that you've expanded to play here on our program about some events that began two weeks ago, specifically that began on Wednesday, September 17.
+<v Ira Glass>那么，让我们从财政部长亨利·保尔森（Henry Paulson）和美联储主席本·伯南克（Ben Bernanke）所看到的情况开始，是什么让他们相信经济正处于可怕的迫在眉睫的危险之中。你们在《综合报道》（All Things Considered）节目中做过一个故事，你们把它扩充后放在我们节目中播放，讲的是两周前开始的一些事件，具体来说是9月17日星期三开始的。
+
+00:02:43.510 --> 00:02:58.870
+<v Alex Blumberg>I'll give you a sense of what government officials saw that freaked them out. A lot of it probably had to do with conversations with people like Mark Peterson, who's not on Wall Street. He's in Memphis. He has nothing to do with the subprime mortgage industry. And that week, two weeks ago, that had him shaking, almost literally.
+<v Alex Blumberg>我让你们感受一下政府官员们看到了什么，以至于把他们吓坏了。这很大程度上可能与像马克·彼得森（Mark Peterson）这样的人的对话有关，他不在华尔街，他在孟菲斯。他与次贷抵押行业毫无关系。而两周前的那一周，让他几乎颤抖，是真的在颤抖。
+
+00:02:58.870 --> 00:03:19.750
+<v Mark Peterson>I don't know. For those of who have experienced an earthquake, some people say it's a soul-wrenching experience, because you realize there's a power out there that's doing something that you have no control over whatsoever. And it's massively moving everything. And that's last week. Last week, there was a monster that was unleashed.
+<v Mark Peterson>我不知道。对于那些经历过地震的人来说，有些人说这是一种摧毁灵魂的体验，因为你意识到有一种力量在那儿做着你完全无法控制的事情。它正在大规模地移动一切。那是上周的事。上周，有一个怪物被释放了出来。
+
+00:03:19.750 --> 00:03:24.350
+<v Alex Blumberg>Now, you may be surprised to learn the name of that monster, the commercial paper market.
+<v Alex Blumberg>现在，你们可能会惊讶于这个怪物的名字，商业票据市场。
+
+00:03:24.350 --> 00:03:56.130
+<v Adam Davidson>Technically, actually, it's the freezing of the commercial paper market that was the monster. Let's explain with the commercial paper market is. It's a way for companies to borrow money, the easiest way for big companies. And here how it works. A guy like Mark Peterson-- he's the Treasurer, sort of the money manager, for ServiceMaster International, a company which owns, among other things, a lawn care company, Merry Maids, and Terminix, which will get rid of your termites. Every day, Mark comes into the office at 8:00 in the morning and asks the same question. How much money do we have?
+<v Adam Davidson>严格来说，其实是商业票据市场的冻结才是那个怪物。让我们解释一下什么是商业票据市场。这是一种公司借钱的方式，也是大公司最简便的方式。它是这样运作的。像马克·彼得森这样的人——他是ServiceMaster International的财务主管，某种意义上的资金经理，该公司旗下拥有草坪护理公司、Merry Maids和专门灭白蚁的Terminix等业务。马克每天早上8点来到办公室，问同一个问题。我们有多少钱？
+
+00:03:56.130 --> 00:04:09.530
+<v Mark Peterson>Let's just say that you have Terminix come out and treat your house. You write a check. When they deposit it in our account, they send us the information off of that check that says this person paid their bill.
+<v Mark Peterson>假设你让Terminix来家里治理虫害。你开了一张支票。当他们把支票存入我们的账户时，他们会把支票上的信息发给我们，说明这个人已经付账了。
+
+00:04:09.530 --> 00:04:24.900
+<v Alex Blumberg>So every day, thousands or hundreds of thousands, or tens of thousands of Terminix customers, and other people, are writing checks. That data then get sent to you on a daily basis. And you have the position of what's our cash position now for the day in this company?
+<v Alex Blumberg>所以每天，成千上万的Terminix客户和其他人都在开支票。这些数据每天都会发送给你。然后你就能掌握公司当天的现金状况了？
+
+00:04:24.900 --> 00:04:29.680
+<v Mark Peterson>Yep. Either we're going to have too much money at the end of the day or we're not going to have enough money at the end of day.
+<v Mark Peterson>是的。要么我们在一天结束时钱太多，要么我们没有足够的钱。
+
+00:04:29.680 --> 00:04:32.810
+<v Adam Davidson>Today, do you have money or do you need money?
+<v Adam Davidson>今天，你们是有钱还是需要钱？
+
+00:04:32.810 --> 00:04:35.860
+<v Mark Peterson>Today, our company, we have money.
+<v Mark Peterson>今天，我们公司有钱。
+
+00:04:35.860 --> 00:04:50.830
+<v Alex Blumberg>But tomorrow they might not. Maybe they need to buy a lot of termite poison or upgrade their fleet of termite fighting vans, for example. It's no big deal. You just borrow some more money. Every company works like this. Some days they have extra money, and some days they need to borrow extra money.
+<v Alex Blumberg>但明天可能就不一定了。也许他们需要买大量的白蚁药，或者升级他们的白蚁防治车队。这没什么大不了的。你只需要再借点钱。每家公司都是这样运作的。有些日子他们有余钱，有些日子他们需要借入额外的资金。
+
+00:04:50.830 --> 00:05:02.380
+<v Adam Davidson>And if you're a regular person and you need to borrow money, of course, you probably use your credit card. If you're a gigantic company, you use the commercial paper market, which is basically an industrial-sized IOU.
+<v Adam Davidson>如果你是一个普通人，你需要借钱，你可能会用信用卡。如果你是一家大型公司，你会使用商业票据市场，这本质上就是工业级的借据（IOU）。
+
+00:05:02.380 --> 00:05:22.510
+<v Mark Peterson>We would say, I'm going to give you $1 million tomorrow if you give me $999,000 today. So tomorrow, whoever sent the $999,000 in, he's going to get an extra $1,000 tomorrow. And that's his interest rate.
+<v Mark Peterson>我们会说，如果你今天给我99.9万美元，我明天给你100万美元。所以明天，那个寄出99.9万美元的人，明天会多得到1000美元。这就是他的利率。
+
+00:05:22.510 --> 00:05:33.910
+<v Alex Blumberg>And so every day, treasurers all over America, and all over the world, are getting into their office at 8:00, they're surveying their data, and then they're going and they're issuing commercial paper. How much money are we talking about?
+<v Alex Blumberg>所以每天，全美国乃至全世界的财务主管们都在8点走进办公室，查看他们的数据，然后去发行商业票据。我们要说的金额是多少？
+
+00:05:33.910 --> 00:05:35.660
+<v Mark Peterson>It's hundreds of billions of dollars.
+<v Mark Peterson>是数千亿美元。
+
+00:05:35.660 --> 00:05:36.390
+<v Alex Blumberg>Every day?
+<v Alex Blumberg>每天？
+
+00:05:36.390 --> 00:05:37.910
+<v Mark Peterson>Every single day.
+<v Mark Peterson>每一天。
+
+00:05:37.910 --> 00:05:57.390
+<v Adam Davidson>How do treasurers like Mark Peterson connect with the people who want to loan them money? They do it through banks on Wall Street. The treasurer of a big company, or someone on his staff, usually, calls some guy they know on Wall Street and says, hey, we need some money. Sell some commercial paper. Issue those IOUs. That is the commercial paper market.
+<v Adam Davidson>像马克·彼得森这样的财务主管是如何与那些想借钱给他们的人建立联系的呢？他们通过华尔街的银行来做。大公司的财务主管，或者他手下的人，通常会打电话给他们在华尔街认识的人，说，嘿，我们需要钱。卖掉一些商业票据。发行那些借据。这就是商业票据市场。
+
+00:05:57.390 --> 00:06:04.000
+<v Alex Blumberg>And this happens every day, the US economy could hardly function without it, and yet almost no one has heard of it. Why?
+<v Alex Blumberg>而这种情况每天都在发生，美国经济几乎离不开它，然而几乎没有人听说过它。为什么？
+
+00:06:04.000 --> 00:06:46.060
+<v Mark Peterson>It's been a relatively boring business. Your commercial paper desks, in many companies, it could be somebody down at almost a clerical level calling every single day to Merrill Lynch and saying, I need to borrow $50 million. At what rate can I borrow at? Post that rate, and let's get it done by 11:00 in the morning. The Merrill Lynch salespeople go off and sell the commercial paper to money market funds and trust departments and investors all across the world. They confirm that the money has been funded into the clerk's account. And then the clerk turns it over to the treasurer and says, your 50 million is here, by 11:00 in the morning.
+<v Mark Peterson>这一直是一个相对无聊的生意。在许多公司，你的商业票据部门可能只是某个近乎文职级别的人，每天给美林证券打个电话，说，我需要借5000万美元。我能以什么利率借？定下那个利率，让我们在上午11点前搞定。美林证券的推销员去把商业票据卖给世界各地的货币市场基金、信托部门和投资者。他们确认资金已经汇入该职员的账户。然后职员把钱交给财务主管，说，你的5000万在上午11点前到了。
+
+00:06:46.060 --> 00:06:47.630
+<v Alex Blumberg>And it's just that straightforward?
+<v Alex Blumberg>就是这么简单？
+
+00:06:47.630 --> 00:06:48.910
+<v Mark Peterson>It's that straightforward.
+<v Mark Peterson>就是这么简单。
+
+00:06:48.910 --> 00:06:52.000
+<v Adam Davidson>It stopped being boring some time this year?
+<v Adam Davidson>今年什么时候它不再无聊了？
+
+00:06:52.000 --> 00:07:27.160
+<v Mark Peterson>Well, as a good friend of mine, who is on Wall Street, made the comment, he said, I've never seen anything like this before. He said, there's no bid in the market for paper. There's nobody willing to transact with each other. The commercial paper market-- which is the most liquid market, probably, in the world for high-grade financial players-- basically froze up.
+<v Mark Peterson>嗯，正如我在华尔街的一位好朋友所说，他说，我从来没见过这样的事。他说，市场上没有人对票据出价。没有人愿意互相交易。商业票据市场——这可能是世界上对于高级金融参与者来说流动性最强的市场——基本上冻结了。
+
+00:07:27.160 --> 00:07:46.010
+<v Paul Balika>As a person involved in the front end, I don't think I've ever been this nervous in my career. Because I think the financial system was so close to locking up, I think we were real close to the abyss, the ultimate freezing of the financial system.
+<v Paul Balika>作为一个参与前线的人，我认为我的职业生涯中从未如此紧张过。因为我认为金融系统非常接近停摆，我想我们离深渊真的很近，即金融系统的彻底冻结。
+
+00:07:46.010 --> 00:08:04.060
+<v Adam Davidson>This is Paul Balika, another guy with a front-seat view of this credit seize up. He works at Daiwa Securities. And Alex and I spent a lot of time with Paul, and other traders like him, trying to get a sense of what that abyss looks like.
+<v Adam Davidson>这是保罗·巴利卡（Paul Balika），另一个人在前排目睹了这次信贷紧缩。他在大和证券工作。我和亚历克斯与保罗以及其他像他一样的交易员花了很多时间，试图感受那个深渊是什么样子。
+
+00:08:04.060 --> 00:08:45.310
+<v Alex Blumberg>Like here, at Tradition Securities. They're a commercial paper trading company in lower Manhattan near Wall Street. And I'm here to see a trader named Tom Corona. As I walk across the huge trading floor with my headset and microphone, traders are shouting out, Teasing Tom, asking about his new friend, which is me. He says he's going to do an interview for the radio, and I hear one of his buddies mutter, this won't end well. Now, most of the companies that Tom works with aren't consumer companies like ServiceMaster where Mark Peterson works. They're banks, big huge banks that you've probably heard of. The treasurer's assistants at those big banks call Tom every day. And they say, I want to borrow some money. But since about two weeks ago, that's been almost impossible.
+<v Alex Blumberg>就像在Tradition Securities这里。他们是曼哈顿下城靠近华尔街的一家商业票据交易公司。我来这里见一位名叫汤姆·科罗纳（Tom Corona）的交易员。当我戴着耳机和麦克风走过巨大的交易大厅时，交易员们在大喊大叫，调侃汤姆，问起他的新朋友，也就是我。他说他要为广播做个采访，我听到他的一位伙伴嘟囔道，这不会有什么好结果。现在，汤姆合作的大多数公司不像马克·彼得森工作的ServiceMaster那样是消费型公司。它们是银行，你们可能听说过的大型巨型银行。那些大银行的财务助理每天都会打电话给汤姆。他们说，我想借点钱。但自两周前开始，这几乎变得不可能了。
+
+00:08:45.310 --> 00:09:18.120
+<v Tom Corona>A bank will call me up in the morning and say, what are you seeing in the marketplace today? And unfortunately, at this point, I say, it's the same thing I see every day-- is the bank's trying to raise money and nobody willing to lend them money. And if you needed to get money, this is the rate you would have to pay. And even if they could get money, they could only get 50 or a $100 million. Now, I don't mean to let 50 and 100 million sound like a little, but in our market, it's nothing. It's so small. These banks normally, at that spread, could raise billions in an eye blink.
+<v Tom Corona>银行早上会打电话给我说，你今天在市场上看到了什么？遗憾的是，此时此刻，我只能说，和我每天看到的一样——银行在努力筹集资金，但没有人愿意借钱给他们。如果你需要钱，这就是你必须支付的利率。而且即使他们能弄到钱，也只能弄到5000万或1亿美元。现在，我不是要把5000万和1亿听起来说得很少，但在我们的市场里，这算不了什么。太小了。这些银行通常在那个价差下，眨眼间就能筹集到数十亿。
+
+00:09:18.120 --> 00:09:19.480
+<v Alex Blumberg>And what do they say to you?
+<v Alex Blumberg>他们对你说什么？
+
+00:09:19.480 --> 00:09:37.110
+<v Tom Corona>Well, they're as concerned as I am. And you could sense the frustration in everybody's voice. I hear constantly on the phone now, everybody having trouble sleeping. They don't see a light at the end of the tunnel. And if it is a light they see, it's another train coming at them.
+<v Tom Corona>嗯，他们和我一样担心。你可以从每个人的声音中感觉到沮丧。我现在在电话里经常听到，每个人都睡不好觉。他们看不到隧道尽头的曙光。如果他们真的看到了光，那也是迎面撞来的另一列火车。
+
+00:09:37.110 --> 00:09:47.550
+<v Alex Blumberg>OK, for those keeping track, this market freeze up has been compared, so far in our story, to an oncoming train, an abyss, a monster, and an earthquake. All we need now is a serial killer.
+<v Alex Blumberg>好，对于那些一直在追踪的人，这个市场冻结在我们的故事中已经被比作迎面而来的火车、深渊、怪物和地震。我们现在只差一个连环杀手了。
+
+00:09:47.550 --> 00:10:06.190
+<v Adam Davidson>And what made this abyss, earthquake, train, monster materialize all of a sudden? There was one event in particular that frightened the commercial paper market and made it seize up. Explaining it, I'm afraid, means using another finance term-- although this one might be a little more familiar-- the money market mutual fund.
+<v Adam Davidson>是什么让这个深渊、地震、火车、怪物突然显现？有一个特殊的事件吓坏了商业票据市场并导致其陷入停滞。恐怕解释这一点意味着要使用另一个金融术语——尽管这个词可能稍微熟悉一点——货币市场共同基金。
+
+00:10:06.190 --> 00:10:24.840
+<v Alex Blumberg>And we should say here, a money market mutual fund is just like a savings account. There's a good chance you even have one. It is, in normal times, one of the safest places to keep your money. You put $1,000 in, you know for sure you'll get $1,000 out. Maybe even $1,010. And you're happy with just that little return because you know at least your money is secure.
+<v Alex Blumberg>我们在这里应该说，货币市场共同基金就像储蓄账户一样。你很可能甚至拥有一个。在正常时期，它是存放资金最安全的地方之一。你存入1000美元，你确定你能取出1000美元。也许甚至是1010美元。你对那点回报感到满意，因为你知道至少你的钱是安全的。
+
+00:10:24.840 --> 00:10:51.570
+<v Adam Davidson>Now one of the main things that money market managers do to get that little return is they lend money out on the commercial paper market. They give guys like Mark Peterson at ServiceMaster that $999,000. He gives them $1 million back the next day. It's an OK return, but the main thing is it's safe. Their money is safe because they're lending it to huge, trusted companies, many of which have been around for decades, reliably paying back these loans.
+<v Adam Davidson>现在，货币市场经理为了获得那点回报所做的一项主要工作就是把钱贷到商业票据市场上。他们给像ServiceMaster的马克·彼得森那样的人99.9万美元。第二天他退回给他们100万美元。这是一个还可以的回报，但最主要的是它很安全。他们的钱很安全，因为他们把它借给了巨大的、受信任的公司，其中许多公司已经存在了几十年，可靠地偿还了这些贷款。
+
+00:10:51.570 --> 00:11:02.830
+<v Adam Davidson>At least that's the way it was until two weeks ago, when one of the most dreaded things happened-- at least in the world of money market managers. It's the thing they have nightmares about.
+<v Adam Davidson>至少在两周前情况是这样的，当时发生了一件最可怕的事情——至少在货币市场经理的世界里。那是他们梦魇般的事情。
+
+00:11:02.830 --> 00:11:24.010
+<v Alex Blumberg>One of the biggest and oldest funds, called the Reserve Fund-- that was its name. It broke the buck. What that means is, for the first time ever, it lost its depositors money. For every dollar they put in, they were left with only $0.97. It's like going to your savings account and seeing that your money's gone, but you haven't made any withdrawals. It's a big deal.
+<v Alex Blumberg>其中一家最大且历史最悠久的基金，名为储备基金（Reserve Fund）——那是它的名字。它跌破了净值。这意味着，这是有史以来第一次，它损失了储户的钱。他们投入的每一美元，最后只剩下97美分。就像去你的储蓄账户却发现你的钱没了，但你并没有提取。这是一件大事。
+
+00:11:24.010 --> 00:11:45.090
+<v Paul Balika>Breaking the buck is sort of like having a serial killer in a high school. It causes a little bit of panic. Take a look at some of the returns. People are not concerned about getting a return on capital. They just want the return of capital. So that is panic. That is fear.
+<v Paul Balika>跌破净值就像在高中里出现了一个连环杀手。它引起了一点点恐慌。看看一些回报率。人们不再关心资本的回报。他们只想要资本的收回。所以这就是恐慌。这就是恐惧。
+
+00:11:45.090 --> 00:12:00.490
+<v Adam Davidson>That panic and fear caused an old-fashioned bank run. People, and more importantly pension funds and big endowments, called their brokers and said get me out of those funds. The government had to step in and guarantee the money market funds.
+<v Adam Davidson>那种恐慌和恐惧导致了老式的银行挤兑。人们，更重要的是养老基金和大型捐赠基金，打电话给他们的经纪人，说让我退出那些基金。政府不得不介入并担保货币市场基金。
+
+00:12:00.490 --> 00:12:31.110
+<v Alex Blumberg>And this right here, as near as we can tell, this is what freaked out Henry Paulson and Ben Bernanke. Because this right here is the mortgage crisis spreading out into the rest of the world. This fund that broke the buck, they weren't investing in risky mortgages or anything related to the housing industry. They were not freewheeling Wall Street fat cats taking big risks and hoping for a windfall. They were investing in investments that those fat cats laughed at. These were fund managers doing everything possible to be totally safe, doing what they always did, buying very safe, very short-term commercial paper.
+<v Alex Blumberg>而这一点，据我们所知，正是吓坏了亨利·保尔森和本·伯南克的原因。因为这一块正是抵押贷款危机蔓延到世界其他地方。这个跌破净值的基金，并没有投资于高风险抵押贷款或任何与住房产业相关的东西。他们不是在华尔街横冲直撞、冒大风险并希望获得横财的肥猫。他们投资的是那些肥猫嘲笑的投资。这些基金经理尽一切可能做到绝对安全，做他们一直做的事情，购买非常安全、非常短期的商业票据。
+
+00:12:31.110 --> 00:12:55.390
+<v Alex Blumberg>It just so happened that the company they bought it from was Lehman Brothers. And the day before, Lehman had gone bankrupt, in part because of its exposure to risky mortgage products. So all the money this money market mutual fund, The Reserve Fund, had lent to Lehman was suddenly gone. And the Reserve Fund, a mutual fund that had nothing at all to do with mortgages or the housing market, was all of a sudden in trouble.
+<v Alex Blumberg>刚好他们从雷曼兄弟（Lehman Brothers）那里买了这些票据。而前一天，雷曼破产了，部分原因就是它暴露在有风险的抵押贷款产品中。所以这个货币市场共同基金——储备基金贷给雷曼的所有钱突然都没了。而储备基金，一个与抵押贷款或住房市场完全无关的共同基金，突然陷入了困境。
+
+00:12:55.390 --> 00:13:30.070
+<v Adam Davidson>That's what caused the panic. All the other money market mutual fund managers freaked out. They wondered, who's going to be next? And then like a horror movie-- at least a horror movie made for money market mutual fund managers-- another fund broke the buck. And then AIG, the largest insurance company in the world, nearly collapsed. That was it. Many fund managers decided, we're not lending any more money out to companies at all. That Wednesday and Thursday, over $100 billion flowed out of the commercial paper market. Most of it went into treasury bills, government securities.
+<v Adam Davidson>这就是导致恐慌的原因。所有其他货币市场共同基金经理都吓坏了。他们想，下一个会是谁？然后就像一部恐怖电影——至少是为货币市场共同基金经理制作的恐怖电影——另一个基金跌破了净值。然后，全球最大的保险公司AIG几乎倒闭。就是这样。许多基金经理决定，我们根本不再借钱给公司了。那个周三和周四，超过1000亿美元从商业票据市场流出。大部分流入了国库券，政府证券。
+
+00:13:30.070 --> 00:13:44.650
+<v Alex Blumberg>And that's why Tom Corona, the commercial paper trader, can't get any money for his clients. The people who used to lend it to them have hunkered down and stashed it in what amounts to the largest mattress in the world, the US government. The perception is, that's the only safe place to be right now.
+<v Alex Blumberg>这就是为什么汤姆·科罗纳，这个商业票据交易员，无法为他的客户弄到任何钱。那些曾经借钱给他们的人已经躲起来，把钱存进了相当于世界上最大的一张床垫里，也就是美国政府。普遍的看法是，那是目前唯一安全的地方。
+
+00:13:44.650 --> 00:14:08.350
+<v Tom Corona>In the financial markets, perception is everything. They don't know who has losses and who doesn't have losses and who really is hiding losses, who has revealed all their losses. Nobody trusts each other anymore. So the money funds look at each bank. And everybody looks with a wary eye because they don't know who's in solid footing.
+<v Tom Corona>在金融市场，感知就是一切。他们不知道谁有损失，谁没有损失，谁真正隐瞒了损失，谁揭露了所有损失。没有人再信任对方。所以货币基金看着每家银行。每个人都用警惕的眼光看着，因为他们不知道谁站得稳。
+
+00:14:08.350 --> 00:14:20.180
+<v Adam Davidson>Ben Bernanke and Henry Paulson are afraid that this situation could spread even further. It won't just be money market mutual funds who won't want to lend money. Nobody will want to lend money. Here's Paul Balika.
+<v Adam Davidson>本·伯南克和亨利·保尔森担心这种情况会进一步蔓延。不仅仅是货币市场共同基金不想借钱。没有人会想借钱。这是保罗·巴利卡。
+
+00:14:20.180 --> 00:14:54.180
+<v Paul Balika>What would happen is no one would be able to borrow money. And then, how does capitalism work if you can't borrow money? You're back to bartering pretty much. No working capital-- the extension of credit just almost came to a halt. Just ended, period. I don't mean to be histrionic, but from my perspective, if Paulson and the government didn't step in with this plan, the banks would not be able to create enough credit to make the economy function. That's all.
+<v Paul Balika>会发生的情况是没人能借到钱。然后，如果你不能借钱，资本主义怎么运作？你基本回到了以物易物。没有营运资本——信贷扩张几乎停止了。只是结束了，句号。我不想表现得歇斯底里，但从我的角度来看，如果保尔森和政府没有介入这个计划，银行将无法创造足够的信贷来维持经济运作。就是这样。
+
+00:14:54.180 --> 00:14:55.760
+<v Mark Peterson>The stakes are this--
+<v Mark Peterson>赌注是这样的——
+
+00:14:55.760 --> 00:15:01.800
+<v Alex Blumberg>Again, Mark Peterson at ServiceMaster International. He says, imagine a company that wants to build a new factory.
+<v Alex Blumberg>还是ServiceMaster International的马克·彼得森。他说，想象一家想建新工厂的公司。
+
+00:15:01.800 --> 00:15:39.370
+<v Mark Peterson>Normally, they would just borrow it and pay it back over a period of time. But if they have to now wait five years before they have enough capital to build that plant, they'll delay that. You might sit back in your little-- here in Memphis, and say that doesn't really affect you. But if 20,000 treasurers and CFOs throughout the world are having that problem collectively because their banks are all frozen, what you've got is something that will affect every single person in America, ultimately.
+<v Mark Peterson>通常，他们会借钱并在一段时间内还清。但如果他们现在必须等五年才有足够的资本来建那个工厂，他们就会推迟。你可能会坐在你那个小小的——在这里孟菲斯，说这真的不影响你。但如果全世界2万名财务主管和首席财务官都因为他们的银行全部冻结而集体遇到这个问题，你得到的结果就是一件最终会影响美国每一个人的事情。
+
+00:15:39.370 --> 00:16:07.900
+<v Alex Blumberg>And right now, this is starting to happen. Every day there's news of companies canceling plans because they can't get loans. There were reports that McDonald's had to postpone a plan to get latte machines in its stores because it couldn't borrow the money. The company that makes Thomas the Tank Engine toys had to cancel a merger. And General Electric, the second largest US company, owner of NBC and maker of aircraft engines and nuclear power plants, saw its stock fall nearly 10% because of concerns that it couldn't borrow the money it needed to continue to function.
+<v Alex Blumberg>而现在，这种情况正在开始发生。每天都有关于公司取消计划的新闻，因为他们借不到钱。有报道称，麦当劳不得不推迟在店内安装拿铁机的计划，因为它借不到钱。制造托马斯小火车玩具的公司不得不取消了一次合并。而通用电气，美国第二大公司，NBC的所有者和飞机引擎及核电站的制造商，由于担心其无法借到继续运作所需的资金，股价下跌了近10%。
+
+00:16:07.900 --> 00:16:34.760
+<v Adam Davidson>Now, we should say, Alex, that all of these companies deny any serious problems. And there's a lot of businesses that still seem fine. Mark Peterson of ServiceMaster International says banks still lend his company money at slightly higher rates than last year, but nothing his firm can't handle. Small businesses can still get lines of credit. People can get auto loans or mortgages or credit cards. Rates might be creeping up a bit, but walking around outside, it definitely doesn't feel like the next Great Depression.
+<v Adam Davidson>现在，亚历克斯，我们应该说，所有这些公司都否认有任何严重的问题。还有很多企业似乎依然很好。ServiceMaster International的马克·彼得森说，银行仍然以略高于去年的利率借钱给他的公司，但没什么他的公司应付不了的。小企业仍然可以获得信贷额度。人们可以获得汽车贷款或抵押贷款或信用卡。利率可能在缓慢上涨，但在外面走走，绝对感觉不到像是下一次大萧条。
+
+00:16:34.760 --> 00:16:59.790
+<v Alex Blumberg>For most people. And that's why for most people outside the financial sector, it's hard to grasp this dire need for a $700 billion bailout package. The doomsday scenarios are scary, but will they really happen? It turns out even if you have a seat at the epicenter of the crisis, like Tom Corona, the commercial paper trader who's seeing firsthand how credit has frozen up for all his big clients, and who has everything to lose if the situation doesn't improve, even he has conflicted feelings about it.
+<v Alex Blumberg>对大多数人来说。这就是为什么对于金融部门以外的大多数人来说，很难理解这7000亿美元救市方案的迫切需求。世界末日的场景很吓人，但它们真的会发生吗？事实证明，即使你身处危机的中心，就像汤姆·科罗纳，那个商业票据交易员，他亲眼目睹了所有大客户的信贷是如何冻结的，而且如果情况不改善他有一切损失，甚至他本人对这件事也有矛盾的情绪。
+
+00:16:59.790 --> 00:17:42.590
+<v Tom Corona>I'm sort of stuck between a rock and a hard place, because I'm watching the career I've chosen, and it's been very good for me, but I'm watching the whole system implode. And yes, I want the bailout to save Wall Street because this is where I work. But then I look at a bigger picture, what's better for the country and for my children. I have three boys. And I do not believe this billion dollar bailout helps out my children, or anybody's children, over the long run. People made stupid loans, and now they want the government to bail them out. And I'm sorry. At this point, it's my tax dollars. It's your tax dollars. I just think we have to say no.
+<v Tom Corona>我有点进退两难，因为我在观察我选择的职业，它对我很好，但我看到整个系统在内爆。是的，我想救市以挽救华尔街，因为这是我工作的地方。但随后我看到更大的图景，什么对国家和我的孩子更好。我有三个儿子。而且我不认为这十亿（原文如此，实为7000亿）美元的救市方案从长远来看能帮助我的孩子，或者任何人的孩子。人们制造了愚蠢的贷款，现在他们想要政府救助他们。我很抱歉。在这一点上，这是我的税款。这是你们的税款。我只是认为我们必须说不。
+
+00:17:42.590 --> 00:17:45.690
+<v Alex Blumberg>And did you actually call your congressman?
+<v Alex Blumberg>你真的给你的国会议员打电话了吗？
+
+00:17:45.690 --> 00:18:04.270
+<v Tom Corona>Yes, I sent all of them emails. And my email basically said I was against any sort of bailout plan, that there were other issues to deal with, and that I was a 27-year Wall Street veteran in the institutional money markets, and if he would like to discuss it any further, I would gladly take his call.
+<v Tom Corona>是的，我给他们发了所有的邮件。我的邮件基本是说我反对任何形式的救市计划，还有其他问题要处理，而且我是一个在机构货币市场有27年经验的华尔街老手，如果他想进一步讨论，我很乐意接听他的电话。
+
+00:18:04.270 --> 00:18:05.460
+<v Alex Blumberg>Has anybody called?
+<v Alex Blumberg>有人打过电话吗？
+
+00:18:05.460 --> 00:18:15.950
+<v Tom Corona>Nobody has called. I don't take it personally.
+<v Tom Corona>没有人打过。我没有把它个人化。
+
+00:18:15.950 --> 00:18:49.130
+<v Alex Blumberg>But to give you a sense of how fast things are changing, that tape of Tom Corona is from a week ago. And when we talked to him today, he said he does support the bailout bill now, for two reasons. There have been changes made to the law, which he likes. But also, and probably more importantly, he's a lot more scared now than he was just seven days ago. This last week has convinced him that the crisis is spreading, and that the bigger risk to his children now is doing nothing.
+<v Alex Blumberg>但为了让你们感受一下事情变化得有多快，汤姆·科罗纳的那段录音是一周前的。而当我们今天和他交谈时，他说他现在确实支持救市法案，有两个原因。法律做出了一些他喜欢的改变。但也有，可能更重要的是，他现在比七天前害怕多了。这过去的一周让他确信危机正在蔓延，他孩子面临的更大风险现在是不采取任何行动。
+
+00:18:49.130 --> 00:19:09.050
+<v Ira Glass>Alex Blumberg and NPR's Adam Davidson. Coming up, you want to know, we want to know, is this Wall Street bailout good or bad? That, and a whole lot more, in a minute. From Chicago Public Radio and Public Radio International when our program continues.
+<v Ira Glass>亚历克斯·布伦伯格和NPR的亚当·戴维森。稍后，你想知道，我们也想知道，这次华尔街救市是好是坏？那一问题，以及更多内容，稍后揭晓。来自芝加哥公共广播电台和公共广播国际，节目继续。
+
+00:19:09.050 --> 00:19:48.590
+<v Ira Glass>It's This American Life, I'm Ira Glass. Each week on our program, of course, we choose a theme, bring you different kinds of stories on that theme. Today we have another frightening program about the economy. Today's show is a co-production with NPR News. Alex Blumberg and Adam Davidson return to our airwaves to explain what exactly all these complicated things that we hear about the current financial crisis really mean. And before we go any further, I want to say that there's so much happening each day in the financial news, that Alex and Adam and some colleagues at NPR have started a daily podcast explaining all this stuff. It's called the Planet Money podcast. You can find it by googling, or by going to the iTunes store. It is free. It is very, very helpful.
+<v Ira Glass>这里是《美国生活》，我是艾拉·格拉斯。每周在我们的节目中，我们当然会选择一个主题，带给你们关于该主题的不同故事。今天我们有另一期关于经济的可怕节目。今天的节目是与NPR新闻的联合制作。亚历克斯·布伦伯格和亚当·戴维森重返我们的电台，解释我们听到的关于当前金融危机的这些复杂事情究竟意味着什么。在继续之前，我想说，每天金融新闻中发生的事情太多了，亚历克斯和亚当以及NPR的一些同事已经开始了一个每日播客，解释所有这些东西。它叫“Planet Money”播客。你们可以通过谷歌搜索，或者去iTunes商店找到它。它是免费的。它非常、非常有帮助。
+
+00:19:48.590 --> 00:20:38.110
+<v Ira Glass>Right now, though, we have arrived at act two of our program. Act Two, Out of the Hedges and Into the Woods. One way that you can tell that things are really bad in this country is that you find yourself suddenly trying to understand things that you really never cared about at all. Case in point, before we invaded Iraq, be honest, did you actually know the difference between the Sunnis and the Shias? OK, another case in point. Act one of our show today was about the commercial paper market, something I really never imagined that we'd spend much time investigating on our program. Now in act two, we have one more confusing financial product that is bringing down the global economy. And one way to think about this product is this. If bad mortgages got the financial system sick, this next thing you're about to hear about helped spread the sickness into an epidemic. These are credit default swaps. Alex explains.
+<v Ira Glass>不过，现在，我们已经到了节目的第二幕。第二幕，走出对冲，进入森林。你可以看出这个国家情况真的很糟糕的一种方式是，你突然发现自己试图理解那些你以前根本不关心的事情。举个例子，在我们入侵伊拉克之前，老实说，你真的知道逊尼派和什叶派的区别吗？好吧，再举个例子。我们今天节目第一幕是关于商业票据市场的，我真的从未想过我们会在节目中花那么多时间去调查。现在在第二幕，我们还有一种更令人困惑的金融产品，它正在拖垮全球经济。思考这种产品的一种方式是这样的。如果糟糕的抵押贷款让金融系统生病了，这接下来你要听到的东西则帮助这种疾病传播成了流行病。这就是信用违约互换（CDS）。亚历克斯来解释。
+
+00:20:38.110 --> 00:20:48.560
+<v Alex Blumberg>Like many parts of the financial system these days, credit default swaps are so complicated simple bankers couldn't have created them. They were invented by people like this guy, Gregg Berman.
+<v Alex Blumberg>像如今金融系统的许多部分一样，信用违约互换太复杂了，简单的银行家根本创造不出它们。它们是由像格雷格·伯曼（Gregg Berman）这样的人发明的。
+
+00:20:48.560 --> 00:20:56.790
+<v Gregg Berman>Actually, my formal training is in physics. So I studied experimental physics and nuclear physics before joining finance in 1993.
+<v Gregg Berman>其实，我的正式训练是在物理学。所以我在1993年加入金融业之前，学习的是实验物理学和核物理学。
+
+00:20:56.790 --> 00:21:24.960
+<v Alex Blumberg>Now normally when you think of physicists inventing scary things, atomic weapons come to mind. And in fact, credit default swaps have been called-- by no less an expert than billionaire Warren Buffett-- financial weapons of mass destruction. And just be clear, Gregg didn't actually invent these things. But he works for a company, Risk Metrics Group, which-- you won't be surprised to learn-- helps companies manage risk. And so he thinks about them a lot. And he's good at explaining what they are. Imagine, he says, you buy a bond from Ford for $100--
+<v Alex Blumberg>现在，通常当你想到物理学家发明可怕的东西时，原子武器就会浮现在脑海中。事实上，信用违约互换被——不少于专家亿万富翁沃伦·巴菲特——称为金融大规模杀伤性武器。并且要明确一点，格雷格实际上并没有发明这些东西。但他为一家公司工作，Risk Metrics Group，这——你不会惊讶地发现——帮助公司管理风险。所以他经常思考它们。而且他很擅长解释它们是什么。想象一下，他说，你以100美元从福特公司买了一张债券——
+
+00:21:24.960 --> 00:22:05.290
+<v Gregg Berman>You're holding the bond and you are worried about Ford's credit. So you enter into an agreement with another party where you say to the other party, I will pay you some money. I'll pay you 2% a year, 3% a year, 4% a year. And what you need to do is give me protection. If Ford should go bankrupt, then I'm going to give you back this perhaps worthless bond, and you're going to give me my $100 back. In the big context of things, it looks like insurance. So it sort of looks like you bought an insurance contract, and you're paying a bit of a premium, as you would if you were buying fire insurance on your home.
+<v Gregg Berman>你拿着债券，你担心福特的信用。所以你与另一方达成协议，你对另一方说，我会付给你一些钱。我会付给你每年2%、3%、4%。你需要做的是给我保护。如果福特公司应该破产，那么我要把你这也许毫无价值的债券还给你，你要把我的100美元还给我。在大环境上看，它看起来像保险。所以它看起来像是你买了一份保险合同，并且你正在支付一点保费，就像你为你的家买火灾保险一样。
+
+00:22:05.290 --> 00:22:16.440
+<v Alex Blumberg>So insurance? That's what we're talking about here? People with bonds, which are already considered safe and boring, trying to make them even safer and more boring? Well, let's just say it didn't stay that way.
+<v Alex Blumberg>所以保险？这就是我们要谈论的？拥有债券的人，那些已经被认为是安全且无聊的，试图让它们变得更安全、更无聊？嗯，只能说它并没有保持那个样子。
+
+00:22:16.440 --> 00:22:22.920
+<v Satyajit Das>I think Mae West once said it very, very well, when she said, "I used to be Snow White, but I drifted."
+<v Satyajit Das>我想梅·韦斯特（Mae West）曾经说得非常好，她说：“我曾经是白雪公主，但我偏离了。”
+
+00:22:22.920 --> 00:22:43.410
+<v Alex Blumberg>This is Satyajit Das. He just calls himself Das. And he's a risk consultant who was around when credit default swaps first appeared. Adam and I talked to him and heard stories from his 30 years working with hedge funds and bankers all over the world as a sort of financial hired gun. And he saw firsthand how what started as insurance morphed into something else entirely.
+<v Alex Blumberg>这是萨蒂亚吉特·达斯（Satyajit Das）。他自称达斯。他是一位风险顾问，在信用违约互换首次出现时他就在那里。亚当和我与他交谈，听到了他在全球各地与对冲基金和银行家一起工作，作为一种金融雇佣兵的30年里的故事。他亲眼目睹了最初作为保险的东西是如何完全演变成别的东西的。
+
+00:22:43.410 --> 00:23:12.360
+<v Satyajit Das>In the 1990's, and probably until about 2003, 2004, when I was working with this stuff, I was a great advocate of this whole movement to manage risk better, and so forth. I've spent all my life in that area. But by about 2003, 2004, I was starting to get very nervous because what I could see was the market had gone from a very legitimate purpose to something which was much more racy and interesting, but also much more dangerous.
+<v Satyajit Das>在90年代，可能直到2003年、2004年左右，当我处理这些东西时，我是整个管理风险更好等运动的伟大倡导者。我一生都在那个领域。但到2003年、2004年左右，我开始感到非常紧张，因为我能看到市场已经从一个非常合法的目的变成了一些更刺激、更有趣，但也危险得多的东西。
+
+00:23:12.360 --> 00:23:16.450
+<v Adam Davidson>So these clearly had stopped being insurance somewhere along the way.
+<v Adam Davidson>所以这些在沿途的某个地方已经不再是保险了。
+
+00:23:16.450 --> 00:23:18.620
+<v Satyajit Das>Oh, absolutely. It stopped being insurance.
+<v Satyajit Das>噢，当然。它不再是保险了。
+
+00:23:18.620 --> 00:23:21.150
+<v Adam Davidson>And it became gambling?
+<v Adam Davidson>然后它变成了赌博？
+
+00:23:21.150 --> 00:23:30.990
+<v Satyajit Das>Well, the line between investing and speculation, or gambling, in financial markets is always a pretty gray one. But yes.
+<v Satyajit Das>嗯，投资和投机，或者说赌博，在金融市场之间的界限一直是非常模糊的。但是的。
+
+00:23:30.990 --> 00:23:44.830
+<v Alex Blumberg>So how did we get from one of the safest activities on the planet, insurance, to one of the riskiest, gambling? Well, to understand, you have to understand the key difference between a real insurance policy and a credit default swap. Here, I'll let Gregg Berman explain.
+<v Alex Blumberg>那么我们是如何从地球上最安全的活动之一（保险），走到最危险的活动之一（赌博）的呢？嗯，要理解这一点，你必须理解真正的保险单和信用违约互换之间的关键区别。在这里，我让格雷格·伯曼来解释。
+
+00:23:44.830 --> 00:23:58.810
+<v Gregg Berman>The way that I first described the credit default swap is that you own the bond, and you'd like to transfer that risk to someone else. But what if I want to buy protection, but I don't own the bond?
+<v Gregg Berman>我最初描述信用违约互换的方式是你拥有债券，你想把那个风险转移给别人。但如果我想买保护，但我没有债券怎么办？
+
+00:23:58.810 --> 00:24:02.970
+<v Adam Davidson>Why would I want to buy protection-- that's like buying insurance for a house I don't own.
+<v Adam Davidson>我为什么要买保护——那就像为我不拥有的房子买保险。
+
+00:24:02.970 --> 00:24:21.890
+<v Gregg Berman>It is exactly like buying insurance for a house you don't own. So it's like, you took out fire insurance on your home. And now, I also took out fire insurance on your home. And 1,000 other people took out fire insurance on your home. When that happens, what you're doing is you're betting on the house.
+<v Gregg Berman>这完全就像为你不拥有的房子买保险。所以就像，你为你的家投保了火灾保险。现在，我也为你家投保了火灾保险。还有1000个人为你家投保了火灾保险。当这种情况发生时，你所做的是你在拿房子打赌。
+
+00:24:21.890 --> 00:24:54.160
+<v Alex Blumberg>So did you get that? It's like you're using an insurance policy to make a bet. Like, let's say there's a guy named Frank, and he has a life insurance policy. When he dies, the beneficiary will get $1 million. Now, imagine a whole bunch of other people saying, I want $1 million if Frank dies also. And so they all take out insurance policies on him. And then let's say Frank starts to get sick. More people might want an insurance policy on Frank. And the closer he gets to death, the more people buy insurance policies on Frank. That's basically what happens in the credit default swap market.
+<v Alex Blumberg>所以你们明白了吗？这就像你在用一份保险单来下注。比如，假设有一个人叫弗兰克，他有一份人寿保险单。当他去世时，受益人将得到100万美元。现在，想象一大群其他人说，如果弗兰克去世，我也想要100万美元。于是他们都对他投了保险单。然后假设弗兰克开始生病了。更多的人可能想要一份弗兰克的保险单。他离死亡越近，买弗兰克保险单的人就越多。这基本上就是信用违约互换市场上发生的事情。
+
+00:24:54.160 --> 00:25:23.930
+<v Alex Blumberg>And here's how it works. A credit default swap is what they call an over-the-counter instrument, meaning simply it's not something that's traded publicly on an exchange, like a stock. It's a private deal between two people. Those two people can be anyone. Well, anyone with more than $5 million. So that means, effectively, someone at an investment bank or a hedge fund or a big commercial bank like Citibank or Credit Suisse. They all have Credit Default Swap, or CDS, desks.
+<v Alex Blumberg>这就是它的运作方式。信用违约互换是他们所谓的场外交易工具，简单来说，它不是像股票那样在交易所公开交易的东西。它是两个人之间的私人交易。那两个人可以是任何人。嗯，任何拥有超过500万美元的人。所以这意味着，实际上，是投资银行、对冲基金或像花旗银行或瑞士信贷这样的大型商业银行里的人。他们都有信用违约互换（CDS）部门。
+
+00:25:23.930 --> 00:25:28.760
+<v Alex Blumberg>So I'm sitting at a CDS desk. And there's a division--
+<v Alex Blumberg>所以我坐在一个CDS部门。有一个部门——
+
+00:25:28.760 --> 00:25:30.910
+<v Satyajit Das>Yes, you're one of the broker/dealers, or one of the major investment banks.
+<v Satyajit Das>是的，你是经纪商/交易商之一，或者主要投资银行之一。
+
+00:25:30.910 --> 00:25:34.750
+<v Alex Blumberg>And how many guys like me are there? There's like, 100, 150, 1,000?
+<v Alex Blumberg>像我这样的人有多少？有100、150、1000个？
+
+00:25:34.750 --> 00:25:41.540
+<v Satyajit Das>Oh, no. There wouldn't be that many. There would probably be, in the bigger desks, about, say, between 15 and 30.
+<v Satyajit Das>噢，不。不会有那么多。在较大的部门，大概会有，比如说，15到30个之间。
+
+00:25:41.540 --> 00:26:17.630
+<v Alex Blumberg>Now, every day this desk is getting thousands of emails and calls from people wanting to enter into credit default swap contracts. Now, sometimes those people want it for insurance. They have a bond from, say, the ABC Company. They're a little worried about the ABC Company's financial health. And so they'll call up and say, will you sell me credit default swap protection? Will you promise that if ABC Company goes down, you'll guarantee the full value of their bond? But sometimes, often, in fact, the people that are calling don't actually own the bond. They just have a hunch about ABC Company.
+<v Alex Blumberg>现在，这个部门每天都在收到成千上万来自想进入信用违约互换合同的人的电子邮件和电话。现在，有时那些人是为了保险。他们有ABC公司的债券。他们有点担心ABC公司的财务健康。所以他们会打电话说，你会卖给我信用违约互换保护吗？你会保证如果ABC公司倒闭，你会保证他们债券的全部价值吗？但有时，事实上通常，打电话的人实际上并没有拥有债券。他们只是对ABC公司有一个直觉。
+
+00:26:17.630 --> 00:26:32.290
+<v Satyajit Das>So they want to essentially bet that ABC Company will default. So he and I agree that if ABC Company defaults, I will pay him a certain amount. And in return, he pays me some fees.
+<v Satyajit Das>所以他们想本质上打赌ABC公司会违约。所以我和他达成一致，如果ABC公司违约，我会付给他一定金额。作为交换，他付给我一些费用。
+
+00:26:32.290 --> 00:26:48.560
+<v Alex Blumberg>Das says that during his time in the industry, the amount of credit default swaps that were used for speculation grew to dwarf the amount that were actually used for insurance. The numbers are staggering. This is Andrew Ang, a professor at Columbia Business School, who studies the credit default swap market.
+<v Alex Blumberg>达斯说，在他从事该行业的期间，用于投机的信用违约互换数量增长到使实际上用于保险的数量相形见绌。这些数字是惊人的。这是哥伦比亚商学院教授安德鲁·昂（Andrew Ang），他研究信用违约互换市场。
+
+00:26:48.560 --> 00:26:58.850
+<v Andrew Ang>The corporate bond cash market's approximately $5 trillion. And the notional amount of CDS outstanding is approximately $60 trillion.
+<v Andrew Ang>公司债券现金市场大约是5万亿美元。而未偿付CDS的名义金额大约是60万亿美元。
+
+00:26:58.850 --> 00:27:16.590
+<v Alex Blumberg>In other words, there are $5 trillion worth of bonds issued in the world, but the total amount that people have bet on those bonds is $60 trillion. For every bond, there are 10 people promising to pay the full amount if the bond goes bad. Oh, and there's one more thing.
+<v Alex Blumberg>换句话说，世界上发行了价值5万亿美元的债券，但人们在这些债券上打赌的总额是60万亿美元。对于每一张债券，都有10个人承诺如果债券变坏就支付全部金额。哦，还有一件事。
+
+00:27:16.590 --> 00:27:22.460
+<v Andrew Ang>All of this is unregulated, partly because they wanted it to be unregulated.
+<v Andrew Ang>所有这一切都是不受监管的，部分原因是他们希望它不受监管。
+
+00:27:22.460 --> 00:27:29.760
+<v Alex Blumberg>One of the reasons that they wanted it to be unregulated has to do with a word you hear a lot when you talk to finance people. That word is leverage. Here, I'll show you.
+<v Alex Blumberg>他们希望它不受监管的原因之一与你与金融人士交谈时经常听到的一个词有关。那个词是杠杆。在这里，我给你们展示。
+
+00:27:29.760 --> 00:27:31.630
+<v Gregg Berman>When you operate on leverage--
+<v Gregg Berman>当你利用杠杆操作时——
+
+00:27:31.630 --> 00:27:36.950
+<v Satyajit Das>The market had become extremely driven by its lust for leverage.
+<v Satyajit Das>市场已经变得极其受其对杠杆渴望的驱动。
+
+00:27:36.950 --> 00:27:43.490
+<v Andrew Ang>Part of the problem with these swap contracts, they actually have extraordinarily high leverage.
+<v Andrew Ang>这些互换合同的问题的一部分是，它们实际上具有极高的杠杆作用。
+
+00:27:43.490 --> 00:28:19.270
+<v Alex Blumberg>See what I mean? Anyway, this is yet one more finance word out there that people who work with money understand instinctively. But the rest of us have only a vague notion of what it means. And the way finance people talk about leverage has changed a little. It used to be spoken of approvingly. Now when the mention it, it's with a little more fear. That's because leverage is one of those things that when it's going your way, it's great. But when it turns on you, it's all over. And leverage is currently wreaking havoc in the credit default swap market. Here's a very basic example of how leverage gives and how it takes away.
+<v Alex Blumberg>明白我的意思了吗？无论如何，这又是一个金融术语，那些与钱打交道的人凭直觉就能理解。但我们其余人对此只有模糊的概念。金融人士谈论杠杆的方式已经有了一点变化。过去它常被赞许地提及。现在当他们提到它时，带着多一点的恐惧。这是因为杠杆是那种当它如你所愿时，它很棒的东西。但当它反过来对付你时，一切都结束了。而杠杆目前正在信用违约互换市场上造成严重破坏。这里有一个关于杠杆如何给予和如何剥夺的非常基本的例子。
+
+00:28:19.270 --> 00:28:48.810
+<v Alex Blumberg>Let's imagine I have a hedge fund with $100 million. And I want to make a killing in the credit default swap market. I start calling and emailing to all those credit default swap desks and hedge funds out there, saying, I'm selling protection, who wants to buy? Someone calls me up and says, I have a billion-dollar bond from Lehman Brothers, and I want to insure it. I say, great, I'll insure your bond for 2% of its value every year. You say fine. And we're in business.
+<v Alex Blumberg>让我们想象我有一个拥有1亿美元的对冲基金。我想在信用违约互换市场上大赚一笔。我开始给所有那些信用违约互换部门和对冲基金打电话发邮件，说，我正在卖保护，谁想买？有人打电话给我说，我有一张雷曼兄弟的10亿美元债券，我想为它投保。我说，太棒了，我每年为你债券价值的2%投保。你说好。我们开始做生意了。
+
+00:28:48.810 --> 00:29:39.550
+<v Alex Blumberg>Now, let's review these numbers. 2% of $1 billion, that's 20 million, which I'm getting every year. My hedge fund, $100 million. So effectively, I've signed one piece of paper, and in five years, I'll double my money. I'm psyched, my investors are psyched. That is the upside of leverage. I'm making profits on $1 billion, even though I only have $100 million. The downside of leverage is that now I'm on the hook for up to $1 billion if their bond defaults, and I don't have $1 billion. In 2005, though, this particular bet on a Lehman Brothers bond seemed like a sure thing. The idea that Lehman Brothers, one of the oldest and largest investment banks in the world, could possibly default seemed crazy. In 2008, it became scarily, unbelievably real.
+<v Alex Blumberg>现在，让我们回顾一下这些数字。10亿美元的2%，那是2000万，我每年都在得到。我的对冲基金，1亿美元。所以实际上，我签了一张纸，五年后，我的钱翻了一番。我很兴奋，我的投资者很兴奋。这就是杠杆的上行空间。我从10亿美元中获利，尽管我只有1亿美元。杠杆的下行空间是，如果他们的债券违约，我现在背负高达10亿美元的债务，但我没有10亿美元。不过，在2005年，这个对雷曼兄弟债券的特定赌注看起来像是一个肯定的事情。雷曼兄弟，世界上最古老、最大的投资银行之一，可能违约的想法看起来很疯狂。在2008年，它变得可怕得不可思议地真实。
+
+00:29:39.550 --> 00:30:05.920
+<v Alex Blumberg>Just ask AIG. Now, AIG, you may remember, was the big insurance company that had to be rescued by the government two weeks ago. And they had to be rescued because they were about to go bankrupt. And they were about to go bankrupt-- as great reporting in the New York Times, among other places, has revealed-- because of exactly this scenario. They'd promised over $400 billion to people holding credit default swap agreements with them, $400 billion that they didn't have.
+<v Alex Blumberg>问问AIG。现在，AIG，你们可能记得，就是两周前必须由政府救援的大型保险公司。他们必须被救援是因为他们即将破产。正如《纽约时报》等媒体的伟大报道所揭示的那样，他们即将破产——正是因为这个场景。他们承诺给持有他们信用违约互换协议的人超过4000亿美元，这4000亿美元他们根本没有。
+
+00:30:05.920 --> 00:30:31.830
+<v Alex Blumberg>But the fact that the biggest insurance company in the world was brought down by these unregulated securities might not even be the scariest part. Because actually, the case of AIG is anomalous. Usually, people who traded them did something different than AIG did, something which was supposed to make them safer, but might possibly have made the whole system more dangerous. They did something called netting.
+<v Alex Blumberg>但全球最大的保险公司被这些不受监管的证券拖垮的事实可能甚至不是最可怕的部分。因为实际上，AIG的例子是异常的。通常，交易它们的人所做的与AIG不同，这本应使他们更安全，但可能使整个系统更危险。他们做了一些叫“轧差”（netting）的事情。
+
+00:30:31.830 --> 00:31:01.410
+<v Alex Blumberg>So let's go back to my previous example. And let's start with a whole new scenario. I'm the same hedge fund. I've got $100 million. And this time I have a hunch that Lehman Brothers is going to go down. So I go to some company, let's just say AIG. I go to AIG, and I say, I want to buy a credit default swap. I'm not selling this time. I'm buying. I say to them, I will pay you $20 million a year. And the deal is, if Lehman goes down, you will owe me $1 billion.
+<v Alex Blumberg>所以让我们回到我之前的例子。让我们从一个全新的场景开始。我还是同一个对冲基金。我有1亿美元。这一次我有一个直觉，雷曼兄弟要倒下了。所以我去找某家公司，就说是AIG。我去找AIG，我说，我想买一个信用违约互换。这一次我不是在卖。我在买。我对他们说，我每年付给你2000万美元。交易是，如果雷曼倒下，你将欠我10亿美元。
+
+00:31:01.410 --> 00:31:30.340
+<v Alex Blumberg>Now, over the next few months, my hunch starts to look more likely because Lehman starts looking riskier. Their profits go down, unfavorable news reports come out about them. And when this happens, they become, basically, more expensive to insure. Just like the more traffic accidents you have, the higher your insurance premiums go. The sicker you look as a company, the more it costs to buy credit default swap protection against you.
+<v Alex Blumberg>现在，在接下来的几个月里，我的直觉开始看起来更有可能，因为雷曼开始看起来风险更高。他们的利润下降了，关于他们的不利新闻报道出来了。当这种情况发生时，他们基本变得更贵去投保。就像你发生的交通事故越多，你的保险费就越高。作为一家公司你看起来越病，购买针对你的信用违约互换保护的成本就越高。
+
+00:31:30.340 --> 00:32:11.430
+<v Alex Blumberg>And I, now, am perfectly poised to take advantage of this situation. I now go out on the market and I sell credit default swap protection. But because people are more scared about Lehman, the price is higher. I can now sell it for $40 million a year. So I'm paying 20, but taking in 40, again, a net profit of $20 million a year. But this time, my position is what they call hedged. My position is totally safe. If Lehman defaults, I will owe my buyer $1 billion, but AIG will owe me $1 billion. The trade totally nets out.
+<v Alex Blumberg>而我，现在，准备好充分利用这种情况了。我现在进入市场卖出信用违约互换保护。但因为人们对雷曼更害怕，价格更高了。我现在可以以每年4000万美元卖出它。所以我付2000万，但收进4000万，再次，每年净利润2000万美元。但这一次，我的头寸是他们所谓的对冲过的。我的头寸是绝对安全的。如果雷曼违约，我将欠我的买家10亿美元，但AIG将欠我10亿美元。交易完全轧差了。
+
+00:32:11.430 --> 00:32:36.890
+<v Alex Blumberg>And this situation, where every trade was matched on the other side with another trade, that was much more common. I would sell protection to Morgan Stanley, say, but buy it from Goldman Sachs. Goldman Sachs would sell protection to a hedge fund, who, in turn, would buy from another hedge fund. And so on, down the line. Every party netting their position with a counter party. Again, here's Das.
+<v Alex Blumberg>而这种情况，即每一笔交易都在另一方以另一笔交易匹配，这更普遍。我会卖保护给摩根士丹利，比如说，但从高盛那里买入。高盛会卖保护给对冲基金，对冲基金反过来又从另一个对冲基金购买。依此类推，顺着链条。每一方都与交易对手轧差他们的头寸。再次，这是达斯。
+
+00:32:36.890 --> 00:32:59.270
+<v Satyajit Das>And the real problem is that if the chain breaks down anywhere, where one party does not actually honor their contracts, then the losses multiply very rapidly. It links everybody together in this unholy chain. And so what happens is if somebody has a problem, then everybody else has a problem.
+<v Satyajit Das>真正的麻烦在于如果链条在任何地方断裂，如果其中一方实际上没有履行他们的合同，那么损失就会成倍地迅速增加。它把每个人都链接在这个不圣洁的链条里。所以发生的事情是如果一个人有了问题，那么每个人都有了问题。
+
+00:32:59.270 --> 00:33:03.070
+<v Jon Zucker>The greatest danger-- that's a tough question.
+<v Jon Zucker>最大的危险——这是一个难题。
+
+00:33:03.070 --> 00:33:38.840
+<v Alex Blumberg>This is John Zucker, who worked at a credit default swap desk at a major bank for five years. He left in 2007. And he-- like a lot of people I talked to, a lot of people in this field-- has a very mathematical mind. He thinks in probabilities, risk spreads, modeling potential outcomes. And if you ask him what the greatest danger is, after careful deliberation, he arrives at a conclusion which is basically this. If everyone in the chain knew the financial stability of everyone else in the chain, then all this would be fine. But the problem is because every deal is private, they don't know.
+<v Alex Blumberg>这是乔恩·祖克（John Zucker），他在一家大银行的信用违约互换部门工作了五年。他在2007年离开。他——像我交谈过的许多人一样，这个领域的许多人——有一个非常数学化的头脑。他以概率、风险价差、建模潜在结果来思考。如果你问他最大的危险是什么，在仔细审议后，他得出的结论基本上是这样的。如果链条中的每个人都知道链条中每个人的财务稳定性，那么这一切都很好。但问题是，因为每一笔交易都是私人的，他们不知道。
+
+00:33:38.840 --> 00:33:56.350
+<v Jon Zucker>You don't know. It's far from transparent. The notion is that I'm working here at a New York money center bank, and some small bank in Asia goes down. And suddenly it just hits the tipping point, and several other banks fail. And suddenly it's affecting me. I never had a clue.
+<v Jon Zucker>你不知道。它远非透明。概念是我在这里的一家纽约货币中心银行工作，而亚洲的一家小银行倒闭了。突然它就到了临界点，其他几家银行也倒闭了。突然它影响到了我。我从来没有头绪。
+
+00:33:56.350 --> 00:34:24.300
+<v Alex Blumberg>And this, lack of information, is causing huge problems. That's one reason credit is freezing up. Banks don't want to trade with each other because they don't know what bets anyone's made, and who they've made them with, and who those people have made them with. And this, in turn, becomes one reason that the government felt it had to step in with a bailout. Because all these banks are linked through these credit default swap contracts. If one bank goes down, they all could.
+<v Alex Blumberg>而这，信息匮乏，导致了巨大的问题。这也是信贷冻结的一个原因。银行不想互相交易，因为他们不知道任何人做了什么赌注，和谁做的，以及那些人又和谁做的。而这，反过来，成了政府觉得必须介入救市的一个原因。因为所有这些银行都是通过这些信用违约互换合同链接在一起的。如果一家银行倒闭，它们都可能倒闭。
+
+00:34:24.300 --> 00:34:48.180
+<v Alex Blumberg>I guess the question is, that I'm wondering about, basically I'm being affected by people doing this unregulated thing that is speculative in nature, and then things blow up, and then my tax dollars have to be used to come in and bail this out, and I'm mad. First of all, is it fair for me to be mad, and who should I be mad at?
+<v Alex Blumberg>我想我想知道的问题是，基本上我受到人们做这种本质上是投机的、不受监管的事情的影响，然后事情爆发了，然后我的税款必须被用来进来救助这个，我很生气。首先，我生气公平吗，我应该对谁生气？
+
+00:34:48.180 --> 00:35:02.080
+<v Jon Zucker>That's a great line. "Is it fair for me to be mad, and who should I be mad at?" Um, is it fair for me to be mad? Um--
+<v Jon Zucker>那是个很好的台词。“我生气公平吗，我应该对谁生气？”嗯，我生气公平吗？嗯——
+
+00:35:02.080 --> 00:35:25.550
+<v Alex Blumberg>In keeping with his analytical nature, Jon Zucker didn't answer this question right away. He posed hypothetical scenarios going back to the Great Depression. He talked about consequences that could have been foreseen versus consequences that could not have been foreseen. But it didn't seem, at least to me, an attempt to dodge the question so much as an attempt to formulate, right there on the spot, an objective value for my potential outrage.
+<v Alex Blumberg>为了保持他的分析性质，乔恩·祖克没有立刻回答这个问题。他提出了回到大萧条的假设场景。他谈到了可以预见的后果与无法预见的后果。但这看起来，至少对我来说，与其说是试图回避问题，不如说是试图当场制定一个客观的价值来衡量我的潜在愤怒。
+
+00:35:25.550 --> 00:35:31.290
+<v Jon Zucker>I guess what's going through my head is everybody wants to punish the people who made money in the past 10 years on this business.
+<v Jon Zucker>我想我脑子里在想的是每个人都想惩罚过去10年在这个生意中赚钱的人。
+
+00:35:31.290 --> 00:35:41.030
+<v Alex Blumberg>I don't care about that. I want people to be able to make money. I just don't want their mistakes to cost me. And that's all I'm asking about.
+<v Alex Blumberg>我不关心那个。我希望人们能够赚钱。我只是不希望他们的错误花费我（的钱）。这就是我所问的一切。
+
+00:35:41.030 --> 00:35:46.700
+<v Jon Zucker>So are you asking the question, can I set up a system where their mistakes will never affect you?
+<v Jon Zucker>所以你是在问这个问题，我能建立一个系统让他们的错误永远不会影响你吗？
+
+00:35:46.700 --> 00:35:54.100
+<v Alex Blumberg>Yeah. That's a long pause, Jon.
+<v Alex Blumberg>是啊。那是很长的停顿，乔恩。
+
+00:35:54.100 --> 00:35:55.330
+<v Jon Zucker>Yeah, sorry about that.
+<v Jon Zucker>是啊，抱歉。
+
+00:35:55.330 --> 00:35:56.210
+<v Alex Blumberg>No, no. It's OK, it's OK.
+<v Alex Blumberg>不，不。没关系，没关系。
+
+00:35:56.210 --> 00:36:29.980
+<v Jon Zucker>Look, I'm a quantitative guy. So I tend to think of the world in terms of models. And the thing that I'm trying to be evenhanded about is to say that the regulators completely screwed up. There is a lot of 20/20 hindsight review of this and saying, people should have caught all this stuff. I'm not 100% sure of that. But one thing I do know is that in terms of intent, there was no intent to regulate. And from that point of view, they should be held accountable for some of the mistakes.
+<v Jon Zucker>看，我是个定量分析的人。所以我倾向于用模型的角度看世界。我试图公平对待的事情是说监管者完全搞砸了。对这一点有很多事后诸葛亮的评论，说，人们本应该抓住所有这些东西。我不是100%确定。但我知道的一件事是，在意图方面，没有任何意图去监管。从那个角度来看，他们应该为其中的一些错误负责。
+
+00:36:29.980 --> 00:36:39.460
+<v Satyajit Das>Well, I think the real problem is the only people who understand the system now are the technocrats at the banks, and so forth, who worked within that.
+<v Satyajit Das>嗯，我认为真正的问题是现在唯一了解系统的人是银行里的技术官僚等，他们在那里面工作。
+
+00:36:39.460 --> 00:36:58.640
+<v Alex Blumberg>Everyone I talked to agreed that someone, some regulator, someone in power, should have pushed to set up an exchange for credit default swaps, so they could be publicly traded, like options or commodity futures or all these other financial terms that you've heard of but don't understand, but that, as far as we know, are not out destabilizing the global economy.
+<v Alex Blumberg>我和每个人交谈都同意某人，某个监管者，某个有权力的人，本应该推动建立一个信用违约互换的交易所，这样它们就可以公开交易，像期权或大宗商品期货，或所有这些你听过但不懂，但据我们所知，并没有在外面破坏全球经济的其他金融术语一样。
+
+00:36:58.640 --> 00:37:23.990
+<v Alex Blumberg>Professor Andrew Ang said that since they were essentially insurance, they should be regulated like insurance, where strict requirements are set for the companies that sell it. But everyone also seemed to think, it's a complex world. And the people who invent these financial products are making small fortunes and employ armies of people to help them, and that the regulators-- in many cases, people working at government central banks at government salaries-- will always be playing catch up.
+<v Alex Blumberg>安德鲁·昂教授说，既然它们本质上是保险，它们就应该像保险一样受到监管，对出售它的公司设定严格的要求。但每个人也都觉得，这是一个复杂的世界。发明这些金融产品的人正在赚小钱，并雇佣军队来帮助他们，而监管者——在许多情况下，是在政府中央银行拿着政府薪水工作的人——将永远在追赶。
+
+00:37:23.990 --> 00:38:04.910
+<v Satyajit Das>Over the last few years, I have had quite a lot to do with central banks. And the central bankers are all very earnest. They're very intelligent people and very well meaning. But the problem is they've relied heavily on the banks to tell them what's going on. And there is obviously a conflict of interest. And they have never quite got the full picture. And often when I explain to them something quite minor, like how the CDS market works, their response is, oh, I thought it was only for hedging. I didn't realize it was just purely speculative. So there is this information gap which is now having to be filled at very short notice, which is obviously extremely problematic.
+<v Satyajit Das>在过去的几年里，我与中央银行有很多往来。中央银行家们都非常诚恳。他们是非常聪明的人，而且非常善意。但问题是他们非常依赖银行来告诉他们发生了什么。而且明显存在利益冲突。他们从来没有完全得到全貌。而且通常当我向他们解释一些相当次要的东西，比如CDS市场是如何运作时，他们的反应是，噢，我以为它只是为了对冲。我没有意识到它只是纯粹的投机。所以存在这种信息鸿沟，现在必须在非常短的时间内填补，这显然是非常有问题的。
+
+00:38:04.910 --> 00:38:19.230
+<v Adam Davidson>Can I ask you, when you think about the current global crisis, is this a credit default swap crisis? Is this a mortgage backed security crisis? Is this something bigger than all of those, and they are just symptoms?
+<v Adam Davidson>我能问你，当你思考当前的全球危机时，这是一个信用违约互换危机吗？这是一个抵押贷款支持证券危机吗？这是一个比所有这些都更大的东西，它们只是症状？
+
+00:38:19.230 --> 00:39:00.050
+<v Satyajit Das>Oh, I very definitely think all of these are just symptoms. Essentially, the world just has far too much debt. What has happened over the last 30 years is essentially the amounts of debt in the financial system has exploded. And I think the problem is the amount of debt that's been created has been made extremely complicated by the financial engineers. There will be enormous, enormous losses, which will beg of belief. When economic historians come to write the history of this period, they will look at this and go, my God, how did they manage to do this? We don't even understand the actual quantum of the problem.
+<v Satyajit Das>噢，我非常肯定地认为所有这些都只是症状。本质上，世界拥有的债务实在太多了。在过去的30年里发生的事情本质上是金融系统中的债务金额爆炸了。我认为问题是已创造的债务金额被金融工程师变得极其复杂。将会有巨大的、巨大的损失，这令人难以置信。当经济历史学家来写这一时期的历史时，他们会看着这个然后说，天哪，他们是怎么设法做到这一点的？我们甚至不了解问题的实际数量。
+
+00:39:00.050 --> 00:39:02.130
+<v Adam Davidson>You mean how big the problem is?
+<v Adam Davidson>你的意思是问题有多大？
+
+00:39:02.130 --> 00:39:17.390
+<v Satyajit Das>Correct. To give you some perspective, less than 18 months ago, Ben Bernanke gave testimony to the effect that he thought the losses from subprime would be $50 billion, and the problems were contained. And he's not an unintelligent man.
+<v Satyajit Das>正确。为了给你一些视角，不到18个月前，本·伯南克给出的证词是，他认为次贷损失将是500亿美元，问题被控制住了。而且他不是一个不聪明的人。
+
+00:39:17.390 --> 00:39:20.170
+<v Alex Blumberg>Right. In fact, he's an expert on the Great Depression.
+<v Alex Blumberg>对。事实上，他是大萧条的专家。
+
+00:39:20.170 --> 00:39:31.820
+<v Satyajit Das>Exactly. So the fact that he could get it so wrong, that perhaps the people who think they understand and think they know perhaps know less than we think they know.
+<v Satyajit Das>正是如此。所以他会搞得这么错这一事实，可能认为他们了解并认为他们知道的人可能知道得比我们想的要少。
+
+00:39:31.820 --> 00:39:57.900
+<v Alex Blumberg>The thing that everyone says about Ben Bernanke is that he runs the fed very differently than his predecessor, Alan Greenspan. He holds meetings that are much more open. Dissenting opinion is encouraged. He listens. He's learning. People have criticized him for this. But today, it might be just what we need.
+<v Alex Blumberg>每个人关于本·伯南克说的一件事是他管理美联储的方式与他的前任艾伦·格林斯潘（Alan Greenspan）非常不同。他举行的会议更加开放。鼓励持不同意见。他倾听。他在学习。人们因为这个批评他。但今天，这可能正是我们所需要的。
+
+00:39:57.900 --> 00:40:23.020
+<v Ira Glass>Act Three, Swap Cops. This last couple weeks, whenever anybody discusses what the government could have done to prevent this financial crisis from happening, it seems to instantly turn into partisan finger pointing in a way that doesn't seem to shed much light on anything. And so this week, I called around to a bunch of people who'd been federal regulators to try to sidestep that and understand what went wrong. And people talked about a lot of different examples.
+<v Ira Glass>第三幕，互换警察。这过去几周，每当有人讨论政府本可以做些什么来预防这场金融危机发生时，它似乎立刻就变成了党派指责，这种方式似乎不能照亮任何事情。所以这周，我给一堆曾经是联邦监管者的人打了电话，试图回避这一点，并了解出了什么问题。人们谈论了很多不同的例子。
+
+00:40:23.020 --> 00:40:49.220
+<v Ira Glass>But the biggest single place that people pointed to, where there could have been regulations but there was just nothing, were these credit default swaps Alex has been talking about. Just last week, the chairman of the Securities Exchange Commission, Christopher Cox-- a man who, as we have reported on our program, has mostly sat on the sidelines as this crisis has grown-- went before congress. And he said, we've got to go in and regulate what he called the CDS market, Credit Default Swaps.
+<v Ira Glass>但人们指出的最大的单一地方，本可以有监管但却什么都没有的地方，就是亚历克斯一直在谈论的这些信用违约互换。就在上周，证券交易委员会主席克里斯托弗·考克斯（Christopher Cox）——一个正如我们在节目中所报道的，在危机加剧时基本坐在场边的人——来到了国会。他说，我们必须进去监管他所说的CDS市场，信用违约互换。
+
+00:40:49.220 --> 00:41:05.360
+<v Christopher Cox>Neither the SEC nor any regulator has authority over the CDS market, even to require minimum disclosure to the market. As the Congress considers reform of the financial system in the current crisis, I urge you to provide in statute for regulatory authority over the CDS market.
+<v Christopher Cox>无论是SEC还是任何监管者都对CDS市场没有管辖权，甚至不能要求向市场进行最低限度的披露。当国会考虑在当前危机中改革金融系统时，我敦促你们在法规中提供对CDS市场的监管权力。
+
+00:41:05.360 --> 00:41:11.240
+<v Ira Glass>In fact, lawmakers rejected this very idea, back when it could have made a difference, all the way back in 1998.
+<v Ira Glass>事实上，立法者拒绝了这个想法，早在1998年，当它本可以有所作为的时候。
+
+00:41:11.240 --> 00:41:18.680
+<v Michael Greenberger>In 1998, I was serving as the director of the division of trading and markets at the Commodity Futures Trading Commission.
+<v Michael Greenberger>1998年，我担任商品期货交易委员会交易与市场部门的主任。
+
+00:41:18.680 --> 00:41:40.170
+<v Ira Glass>That's Michael Greenberger. Now he teaches about these markets in law school and runs the University of Maryland's Center for Health and Homeland Security. But back in 1998, during the Clinton administration, he and his boss at the Commodity Futures Trading Commission noticed that these swaps were becoming more and more prevalent. And they thought the securities was pretty clear that this market should be regulated. The only question was how.
+<v Ira Glass>那是迈克尔·格林伯格（Michael Greenberger）。现在他在法学院教授这些市场，并管理马里兰大学的健康与国土安全中心。但在1998年，克林顿政府期间，他和他在商品期货交易委员会的老板注意到这些互换越来越普遍。他们认为证券非常明确这个市场应该受到监管。唯一的问题是如何监管。
+
+00:41:40.170 --> 00:42:11.550
+<v Michael Greenberger>And we essentially put out an extensive questionnaire to the public, including the financial services institutions, and said, we think it should be regulated. We have a lot of flexibility under our statute about how to regulate this market. And that was met with huge resistance, not only within the rest of the Clinton administration, with regard to financial regulators there, but in Congress. And a fairly lengthy battle ensued.
+<v Michael Greenberger>我们本质上向公众，包括金融服务机构，发出了一份广泛的调查问卷，说，我们认为它应该受到监管。我们的法规下有很大的灵活性来监管这个市场。这受到了巨大的阻力，不仅是在克林顿政府的其他部门，关于那里的金融监管者，而且在国会。一场相当漫长的战斗随之而来。
+
+00:42:11.550 --> 00:42:14.390
+<v Ira Glass>And what was the argument against regulating them?
+<v Ira Glass>反对监管它们的论点是什么？
+
+00:42:14.390 --> 00:43:00.010
+<v Michael Greenberger>The argument against regulating them was that these products are entered into by very sophisticated financial institutions. You can't walk in off the street and buy them. You and I couldn't buy them. But that insurance companies, endowments, pension funds, hedge funds are dealing in these products. And these people are very, very smart. And it's a mistake to let government get in their way. And essentially, on that thesis, especially, if you'll recall when we were in the middle of the dot com boom, the economy was in surplus. There was not a lot of people who sided with the position that wait, these things can be very toxic and will lead to problems.
+<v Michael Greenberger>反对监管它们的论点是这些产品是由非常复杂的金融机构进入的。你不能从街上走进来买它们。你和我买不到它们。但保险公司、捐赠基金、养老基金、对冲基金正在这些产品中交易。这些人非常、非常聪明。让政府挡在他们路中间是一个错误。本质上，基于那个论文，特别是在我们处于互联网泡沫期间，你们记得吗，经济处于盈余状态。没有多少人支持等待的立场，认为等一下，这些东西可能是非常有毒的并将导致问题。
+
+00:43:00.010 --> 00:43:25.220
+<v Ira Glass>Finally, in December 2000, Congress ended the debate by passing a law that said that credit default swaps, and other swaps like them, would not be regulated. And among people who want to bash Republicans and blame this whole mess on them, the way that this bill came to the floor has become something of a little legend. The bill had been debated and passed by the House of Representatives in the middle of 2000. But by December, it still hadn't been introduced in the Senate and was considered dead.
+<v Ira Glass>终于，在2000年12月，国会通过一项法律结束了辩论，该法律称信用违约互换和其他类似的互换将不受监管。在那些想要抨击共和党并将这场混乱归咎于他们的人中间，这个法案提交到议会的方式已经成了一个小小的传奇。该法案在2000年中期在众议院辩论并获得通过。但到了12月，它仍然没有在参议院提出，并被认为是死的。
+
+00:43:25.220 --> 00:43:47.520
+<v Ira Glass>Then Senator Phil Gramm entered the story. Gramm may be a familiar name to you because, until very recently, he was John McCain's economic adviser in John McCain's presidential campaign-- until Gramm declared that our economic problems really stem from the fact that Americans are a nation of whiners. Gramm got this bill back into consideration in the last few hours before Congress went on Christmas break.
+<v Ira Glass>然后参议员菲尔·格拉姆（Phil Gramm）进入了故事。格拉姆对你们来说可能是一个熟悉的名字，因为，直到最近，他还是约翰·麦凯恩（John McCain）总统竞选中约翰·麦凯恩的经济顾问——直到格拉姆宣称我们的经济问题实际上源于美国人是一个发牢骚的民族这一事实。格拉姆在国会去休圣诞假之前的最后几个小时里，让这个法案重新进入审议。
+
+00:43:47.520 --> 00:44:27.370
+<v Michael Greenberger>And it is true that it was brought to the floor of the Senate for the first time on Friday evening, December 15, 2000, which was the last day of that lame-duck session of Congress. And it came to the floor as a 262 page rider to an 11,000 page appropriation bill. There was a debate on it. Several members of the Senate spoke. But in that environment, when the real focus was on funding the entire federal government for fiscal year 2001, there was no substantive discussion. It passed 95 to nothing, if memory serves.
+<v Michael Greenberger>确实它是在2000年12月15日星期五晚上首次被提交到参议院议会，那是国会那次“跛脚鸭”会议的最后一天。它作为一个1.1万页拨款法案的262页附加条款提交到了议会。对此有辩论。几位参议院成员发表了讲话。但在那种环境下，当真正的重点是为2001财政年度资助整个联邦政府时，没有任何实质性的讨论。如果我没记错的话，它以95比0通过了。
+
+00:44:27.370 --> 00:44:42.400
+<v Ira Glass>In other words, this cannot be laid at the feet of Phil Gramm. This was a bipartisan decision, with Clinton appointees at the Treasury Department and Securities and Exchange Commission joining Fed Chairman Alan Greenspan, all saying that credit default swaps, and things like them, should not be regulated.
+<v Ira Glass>换句话说，这不能归咎于菲尔·格拉姆。这是一个两党共同的决定，克林顿在财政部和证券交易委员会的任命人加入美联储主席艾伦·格林斯潘，都说信用违约互换以及类似的东西不应该受到监管。
+
+00:44:42.400 --> 00:44:47.020
+<v Michael Greenberger>Quite frankly, I think at the time, anybody who opposed it was deemed to be a little bit crazy.
+<v Michael Greenberger>坦白说，我认为当时，任何反对它的人都被认为有点疯狂。
+
+00:44:47.020 --> 00:45:06.990
+<v Ira Glass>Looking back, Greenberger thinks that regulating this market would have made a huge difference in our current situation. Back in the heyday of subprime mortgages, when an investor would buy a risky subprime mortgage backed security, it was common to also buy a credit default swap that would pay him back if that security went bad. It was like an insurance policy. It helped drive the market.
+<v Ira Glass>回顾过去，格林伯格认为监管这个市场会在我们当前的情况中产生巨大的差异。在次贷鼎盛时期，当投资者购买高风险的次贷抵押支持证券时，通常也会购买一份如果该证券变坏就会支付给他的信用违约互换。它就像一份保险单。它帮助推动了市场。
+
+00:45:06.990 --> 00:45:19.540
+<v Michael Greenberger>But they weren't regulated like insurance policies. If an insurance company had issued this as normal insurance, state insurance regulators would have required that they have adequate capital reserves.
+<v Michael Greenberger>但它们没有像保险单那样被监管。如果一家保险公司将其作为普通保险发行，州保险监管者会要求他们拥有足够的资本储备。
+
+00:45:19.540 --> 00:45:34.630
+<v Ira Glass>So if there had been regulation, there would have been capital reserves. And just to be sure I understand what you're saying here, that would have helped in two ways. For one thing, there would have been money to pay back when these things went bad. They would have had capital reserves to pay out.
+<v Ira Glass>所以如果当时有监管，就会有资本储备。为了确定我理解你在这里说的，这会在两个方面有所帮助。一方面，当这些东西变坏时，会有钱赔偿。他们会有资本储备来支付。
+
+00:45:34.630 --> 00:45:52.140
+<v Michael Greenberger>That's right. But even more than that, the one thing financial institutions hate to do is set aside capital as a reserve. And they didn't have to do it for these instruments because it wasn't regulated. Had they had to do it, many of them would have never gotten in the business to begin with.
+<v Michael Greenberger>没错。但甚至比那更多的是，金融机构最讨厌做的一件事就是留出资本作为储备。他们不必为这些工具这样做，因为它不受监管。如果他们必须这样做，他们中的许多人一开始就不会进入这个行业。
+
+00:45:52.140 --> 00:46:26.110
+<v Ira Glass>If companies had to set aside capital for each credit default swap, it would have limited how many they could have done, and it would have made the ones that they did safer. Now this alone would not have prevented all the mess that we're in. Huge macroeconomic forces were at work, driving the global pool of investment into lousy mortgages. And if investors did not have credit default swaps, they probably would have invented something else just as opaque and risky. But this gets us to the bigger point. Nobody was even trying to restrain the investors. Regulators didn't understand many of these newfangled financial instruments, and they didn't see a problem with the rest.
+<v Ira Glass>如果公司必须为每一份信用违约互换留出资本，这会限制他们能做的数量，并且会使他们做的那些更安全。现在，仅仅这一点并不能防止我们现在所处的混乱。巨大的宏观经济力量正在起作用，驱动全球投资池进入糟糕的抵押贷款。如果投资者没有信用违约互换，他们可能会发明其他同样不透明和有风险的东西。但这把我们带到了更大的点。没有人甚至试图限制投资者。监管者不了解许多这些新奇的金融工具，他们也没看到其他方面有什么问题。
+
+00:46:26.110 --> 00:46:56.500
+<v Michael Greenberger>If your back door is open in a dangerous neighborhood, the first thing you want to do is close it. Now, you could argue that people would break windows. But the first thing you do is close the back door. And the idea that you can have $60 trillion in a financial market-- which is more than all the stock sold anywhere in the world-- and not have any oversight whatsoever, is self-evidently absurd. And we're seeing the end result of that today.
+<v Michael Greenberger>如果你在危险的社区里后门开着，你想做的第一件事就是把它关上。现在，你可以争辩说人们会打破窗户。但你做的第一件事是关上后门。而你可以拥有60万亿美元金融市场——这比世界上任何地方卖出的所有股票都多——并且没有任何监管，这种想法明显是荒谬的。我们今天看到了那个最终结果。
+
+00:46:56.500 --> 00:47:17.850
+<v Michael Greenberger>[MUSIC - "BANKRUPT ON SELLING" BY MODEST MOUSE]
+<v Michael Greenberger>[音乐 - "BANKRUPT ON SELLING" BY MODEST MOUSE]
+
+00:47:17.850 --> 00:48:05.040
+<v Ira Glass>Act Four, Now What? Well, we got an email on Wednesday from a listener named Will Chen. Let me just read this. Dear Ira, Alex, Adam, and gang-- I hate it when they call us gang-- you are our only hope. Please do a show that clearly explains the question, should we support the bailout. If the answer is no, what other options do we have? I'm not dumb or lazy. In addition to listening to NPR and the BBC religiously, I also read-- and then he lists all the publications that he reads. There's so much confusion out there, I really don't know who to trust. After a lot of soul searching in the last couple days, I realize there is only one source of information I trust without question. And that is This American Life.
+<v Ira Glass>第四幕，现在怎么办？嗯，我们在周三收到了一封来自听众Will Chen的邮件。让我读一下这个。亲爱的艾拉、亚历克斯、亚当和伙计们——我讨厌他们叫我们伙计——你们是我们唯一的希望。请做一个清楚解释这个问题的节目，我们应该支持救市吗？如果答案是否定的，我们还有什么其他选择？我不笨也不懒。除了宗教般地收听NPR和BBC，我也读——然后他列出了他读的所有出版物。外面有太多的困惑，我真的不知道该相信谁。在过去几天进行了大量自我反省后，我意识到只有一个我毫无疑问信任的信息来源。那就是《美国生活》。
+
+00:48:05.040 --> 00:48:06.450
+<v Adam Davidson>Yeah, that is a sad state of affairs.
+<v Adam Davidson>是啊，那是一个悲哀的状态。
+
+00:48:06.450 --> 00:48:23.160
+<v Ira Glass>That is a really sad-- poor guy. Please help us understand this bailout. OK, so Adam? the bailout is passed. What's the answer? Is the bailout a good idea or not?
+<v Ira Glass>那真的是一个悲哀的——可怜的家伙。请帮助我们理解这个救市。好吧，那么亚当？救市已经通过了。答案是什么？救市是个好主意还是不好？
+
+00:48:23.160 --> 00:49:06.490
+<v Adam Davidson>All right, let me say what is crystal clear to me after spending the last several weeks doing nothing but reporting this crisis. It is a severe and scary crisis. And the more I report it, the more scared I have been. It is also clear that spending $700 billion will help. I mean, you throw $700 billion at a problem, you're going to make the problem less bad. But it's also very clear that the plan we've been hearing all about, the Paulson plan, has a lot of problems. There are a lot of things that a lot of people do not like about it.
+<v Adam Davidson>好吧，让我说在过去几周除了报道这场危机什么都没做之后，对我来说什么是非常清楚的。这是一场严重且可怕的危机。我报道得越多，我就越害怕。也很清楚，花费7000亿美元会有帮助。我的意思是，你向问题扔7000亿美元，你会使问题变轻。但也很清楚，我们一直在听说的那个计划，保尔森计划，有很多问题。有很多很多人们不喜欢它的地方。
+
+00:49:06.490 --> 00:49:10.480
+<v Ira Glass>Right, and we've been hearing about that in the news. But we want to just run through some of the big points.
+<v Ira Glass>对，我们在新闻里一直在听说那个。但我们只想快速浏览一些大点。
+
+00:49:10.480 --> 00:49:43.050
+<v Adam Davidson>Yeah, so some of the big things people don't like about the plan, the main thing is there's all these crappy assets that the banks don't want, and the US Government is about to buy them. And so we're about to be the proud owners of $700 billion of crap. Also, these assets have absolutely no price. That is the cause of this crisis. These assets are not moving. These are these mortgage-related investments, these mortgage-related securities that no one is willing to buy. And when you can't buy anything, you don't know what the price of it is.
+<v Adam Davidson>是啊，所以人们不喜欢该计划的一些大事，主要的事情是银行不想要所有这些垃圾资产，而美国政府正要购买它们。所以我们正要成为7000亿美元垃圾的骄傲所有者。此外，这些资产绝对没有价格。那是这场危机的原因。这些资产没有流动。这些是这些与抵押贷款相关的投资，这些没有人愿意购买的与抵押贷款相关的证券。而当你不能买任何东西时，你不知道它的价格是多少。
+
+00:49:43.050 --> 00:50:03.160
+<v Adam Davidson>So by definition, the government is going to have to invent a price. And if they go too low, they're going to ruin the banks. They're going to give them too little money to save them. They're actually going to make the problem worse. If the government pays too much, well, then the taxpayer has lost out a lot of money. And the banks--
+<v Adam Davidson>所以根据定义，政府将不得不发明一个价格。如果他们压得太低，他们会毁了银行。他们会给他们太少的钱去救他们。他们实际上会使问题变坏。如果政府付得太多，嗯，那纳税人损失了很多钱。而银行——
+
+00:50:03.160 --> 00:50:03.990
+<v Ira Glass>Right. Then we're just getting ripped off.
+<v Ira Glass>对。那我们只是被宰了。
+
+00:50:03.990 --> 00:50:13.040
+<v Adam Davidson>Then we're just getting ripped off. So you have to find this magical price that no one knows what it is, so it's really, really complicated.
+<v Adam Davidson>那我们只是被宰了。所以你必须找到这个没人知道是什么的神奇价格，所以它真的、真的很复杂。
+
+00:50:13.040 --> 00:50:17.280
+<v Ira Glass>So they're going to have to invent a way to do that. And it's going to be some sort of difficult process.
+<v Ira Glass>所以他们将不得不发明一种方法来做到这一点。并且这将是一个某种困难的过程。
+
+00:50:17.280 --> 00:50:32.540
+<v Adam Davidson>Yes. It's a very circuitous way to solve the problem. The problem is banks don't have enough money. So they're not lending money. And that's freezing up the economy. And this is a very complicated way to get money to the banks.
+<v Adam Davidson>是的。这是一种解决问题的非常迂回的方式。问题是银行没有足够的钱。所以他们没有借钱。而那正在冻结经济。而这是一种给银行弄钱的非常复杂的方式。
+
+00:50:32.540 --> 00:50:47.490
+<v Ira Glass>Now, for the last few weeks while Congress has been debating the Paulson plan and various versions of that, I understand that there has been another way to do the bailout. There's a whole different approach to doing the bailout that lots of economists say is better in a bunch of ways.
+<v Ira Glass>现在，在过去几周当国会一直在辩论保尔森计划及其各种版本时，我了解到还有另一种方式来做救市。有一种做救市的全新方法，很多经济学家说在很多方面更好。
+
+00:50:47.490 --> 00:51:19.970
+<v Adam Davidson>Yeah. Alex and I have been surveying as many economists as we can find. We've been calling and reading. And you can never get a whole lot of economists to agree on anything. But I would say, of the economists we've surveyed-- and I mean, left wing, right wing, libertarian, more progressive-- a clear majority of the ones we've surveyed, well over half, prefer another plan. They don't like the Paulson plan as the best plan. They say there's this other thing called a stock-injection plan that is clearly better.
+<v Adam Davidson>是啊。亚历克斯和我一直在调查我们能找到的所有经济学家。我们一直在打电话和阅读。你永远不能让很多经济学家在任何事情上达成一致。但我会说，在我们调查的经济学家中——我的意思是，左翼、右翼、自由意志主义、更进步——我们调查的大多数，超过一半，更喜欢另一个计划。他们不喜欢保尔森计划作为最佳计划。他们说有另一种叫股票注入计划的东西是显然更好的。
+
+00:51:19.970 --> 00:51:23.260
+<v Ira Glass>OK, stock-injection plan. Now, how does this one work?
+<v Ira Glass>好的，股票注入计划。现在，这个怎么运作？
+
+00:51:23.260 --> 00:51:33.000
+<v Adam Davidson>All right, so in the Paulson plan, what we're doing is giving $700 billion to the banks. And then in return, we get all these toxic assets, these crappy assets.
+<v Adam Davidson>好吧，所以在保尔森计划里，我们正在做的是给银行7000亿美元。然后作为回报，我们得到所有这些有毒资产，这些垃圾资产。
+
+00:51:33.000 --> 00:51:33.870
+<v Ira Glass>We take it off their hands.
+<v Ira Glass>我们从他们手中接过它。
+
+00:51:33.870 --> 00:51:50.820
+<v Adam Davidson>We take it off their hands. With the stock-injection plan, we still give something like $700 billion to the bank. But in return, we get an ownership share of the bank. We get to become stockholders, owners. The taxpayer, the government becomes stockholders and owners of the banks.
+<v Adam Davidson>我们从他们手中接过它。有了股票注入计划，我们仍然给银行7000亿美元左右。但作为回报，我们得到银行的所有权份额。我们得到成为股东，所有者。纳税人，政府成为银行的股东和所有者。
+
+00:51:50.820 --> 00:51:53.010
+<v Ira Glass>And so how is that better?
+<v Ira Glass>所以那怎么会更好？
+
+00:51:53.010 --> 00:52:23.140
+<v Adam Davidson>First of all, it's just simpler. You avoid that whole crazy pricing of mysterious, mystical asset problem because you just give $10 billion to a bank and then you get a $10 billion share in the bank. It's a much simpler mathematical problem. Also, a lot of the economists I talked to say it's just fairer. It's a better deal for the taxpayer. Because in the Paulson plan, we end up owning all these lousy assets. We don't know what they're worth. If they go down in value, we're just on the hook for all of that.
+<v Adam Davidson>首先，它只是更简单。你避免了那个整个疯狂的神秘的、玄学的资产定价问题，因为你只是给银行100亿美元，然后你得到银行的100亿美元份额。这是一个更简单的数学问题。此外，我交谈过的很多经济学家说它只是更公平。这对纳税人来说是一个更好的交易。因为在保尔森计划里，我们最终拥有所有这些糟糕的资产。我们不知道它们值多少钱。如果它们价值下跌，我们只是要为所有这一切承担责任。
+
+00:52:23.140 --> 00:52:47.180
+<v Adam Davidson>In the stock-injection plan, not only on stock, we would own something called preferred stock, which means-- it's kind of complicated how it works, but basically-- the taxpayer is the last one to lose money. The shareholders of the bank would lose their money before we taxpayers would lose money. So we're more protected. We're more likely to actually make money out of this deal and less likely to lose money.
+<v Adam Davidson>在股票注入计划中，不仅是股票，我们将拥有叫优先股的东西，这意味着——它运作起来有点复杂，但基本上——纳税人是最后一个损失钱的人。银行的股东会先于我们纳税人损失他们的钱。所以我们受到了更多保护。我们更有可能实际上从这笔交易中赚钱，而不太可能亏钱。
+
+00:52:47.180 --> 00:52:52.730
+<v Ira Glass>So if this is better for the taxpayers, why wouldn't we do that? Who's against this?
+<v Ira Glass>所以如果这对纳税人更好，为什么我们不那样做？谁反对这个？
+
+00:52:52.730 --> 00:53:27.830
+<v Adam Davidson>There are a bunch of people against it. One big group is conservative Republicans. They just don't fundamentally, in their guts, don't like the idea of the US government owning shares of private companies. It just smells like socialism to them. And they can't support it. But maybe more importantly, banks really, really hate this idea. Look at what happened to AIG, the big insurance giant. Because that's sort of what the government did. They bought a huge share of the bank, they all but zeroed out the value of the shares. So all the current shareholders of AIG just lost billions of dollars.
+<v Adam Davidson>有一群人反对它。一个大群体是保守的共和党人。他们只是在根本上，在他们的直觉里，不喜欢美国政府拥有私人公司份额的想法。那对他们来说闻起来像社会主义。而且他们不能支持它。但也许更重要的是，银行真的、真的很讨厌这个想法。看看AIG发生了什么，那个大型保险巨头。因为那某种程度上是政府所做的。他们买了银行的巨大份额，他们把股票的价值几乎归零了。所以AIG的所有当前股东只是损失了数十亿美元。
+
+00:53:27.830 --> 00:53:29.180
+<v Ira Glass>Their stock is just worth--
+<v Ira Glass>他们的股票只是值——
+
+00:53:29.180 --> 00:53:37.760
+<v Adam Davidson>Yeah, virtually nothing. And the government fired the chief executive of AIG, completely took it over.
+<v Adam Davidson>是啊，几乎什么都没有。而且政府解雇了AIG的首席执行官，完全接管了它。
+
+00:53:37.760 --> 00:53:44.380
+<v Ira Glass>See, I like that. I like that these guys end up getting punished under this plan.
+<v Ira Glass>看，我喜欢那个。我喜欢这些家伙最终在这个计划下得到惩罚。
+
+00:53:44.380 --> 00:54:40.310
+<v Adam Davidson>Yeah, that's not just a moral issue or a political issue. That's an actual economic issue. An economy works better when people pay the cost for bad decisions. And the Paulson plan doesn't do that as much as a stock-injection plan. So from the banks' perspective, this is absolutely a no-brainer. Let's say I give you two options, Ira. One option is, I come, I give you $1,000 and I take all the crap out of your basement, and you get to keep the $1,000. That's the Paulson plan. The other option is, I come, I give you $1,000 and I get to move into your house. I become a co-owner of the house. I might get to kick you out of the house and take all your stuff. I mean, from the bank's perspective, from the shareholders, from the executives, it's a no-brainer. Of course they like the Paulson plan. And the bank lobby is a powerful, huge lobby. You can just imagine how powerful they are, how many strings they can pull on Capitol Hill.
+<v Adam Davidson>是啊，那不仅仅是一个道德问题或政治问题。那是一个实际的经济问题。当人们为错误的决定支付代价时，经济运作得更好。而保尔森计划不如股票注入计划那样做。所以从银行的角度来看，这绝对是不用动脑筋的。假设我给你两个选择，艾拉。一个选择是，我过来，我给你1000美元，我从你地下室取出所有垃圾，而你得以保留1000美元。那是保尔森计划。另一个选择是，我过来，我给你1000美元，我得以搬进你的房子。我成为房子的共同所有者。我可能得以把你赶出房子，拿走你所有的东西。我的意思是，从银行的角度，从股东的角度，从高管的角度，这是不用动脑筋的。当然他们喜欢保尔森计划。而银行游说团体是一个强大的、巨大的游说团体。你可以想象他们有多强大，他们能在国会山上拉动多少绳子。
+
+00:54:40.310 --> 00:54:43.430
+<v Ira Glass>And they would oppose anything like that?
+<v Ira Glass>而他们会反对任何那样的东西？
+
+00:54:43.430 --> 00:54:57.670
+<v Adam Davidson>I talked to a bank lobbyist. He told me there are over 600 professional lobbying groups, thousands of people are working hard to promote the Paulson plan and to weaken any stock-injection plan.
+<v Adam Davidson>我交谈过一个银行游说者。他告诉我超过600个专业游说团体，数千人正在努力工作来推广保尔森计划并削弱任何股票注入计划。
+
+00:54:57.670 --> 00:55:02.470
+<v Ira Glass>Well, weaken-- that is, as if it were ever actually seriously considered.
+<v Ira Glass>嗯，削弱——那就像如果它曾经真正被认真考虑过一样。
+
+00:55:02.470 --> 00:55:32.710
+<v Adam Davidson>Well, that's what's interesting. Until last night, Thursday, I, and everyone-- all the experts I talked to, all the people on Capitol Hill-- were under the impression the stock injection plan was simply not on the table. You and I worked late last night. I was in a cab on the way home. I got a call from a guy I know who's pretty well-connected right around midnight. And he told me guess what, the stock-injection plan is in the Senate bill that was passed, and it's in the House bill.
+<v Adam Davidson>嗯，这就是有趣的。直到昨晚，周四，我，以及每个人——所有我交谈过的专家，所有国会山上的人——都以为股票注入计划根本不在桌面上。你和我昨晚工作得很晚。我在回家的出租车上。我接到一个我认识的人的电话，他在午夜左右非常吃得开。他告诉我猜怎么着，股票注入计划在通过的参议院法案里，并且在众议院法案里。
+
+00:55:32.710 --> 00:55:57.630
+<v Adam Davidson>I woke up this morning, and I still could barely believe it. I've been calling around. It was kind of a dramatic morning. The first few people I called said, no, that's ridiculous. There's no way that could have gotten in. It's impossible. Over the course of the morning, I got more and more confirmation. And basically, what happened is someone, and we still don't know who, put in very subtle language, into the Senate bill, that gives this as an option to the Treasury Secretary.
+<v Adam Davidson>我今天早上醒来，我仍然几乎不敢相信。我一直在打电话。这是一个相当戏剧性的早晨。我打的前几个电话说，不，那很荒谬。那不可能进去。那是不可能的。在整个早晨，我得到了越来越多的证实。并且基本上，发生的事情是某人，我们仍然不知道是谁，放入了非常微妙的语言，进参议院法案，那给财政部长作为一个选择。
+
+00:55:57.630 --> 00:56:08.670
+<v Ira Glass>And so is this in the bill that got taken up in the House on Friday-- you and I are talking Friday afternoon at around 4:30 Eastern time-- and that the President just signed into law? Is it in that bill that got signed into law?
+<v Ira Glass>所以这是在周五众议院拿出来的法案里吗——你和我正在周五下午4:30左右东部时间交谈——并且总统刚刚签署成为法律？它在那个签署成为法律的法案里吗？
+
+00:56:08.670 --> 00:56:28.710
+<v Adam Davidson>That's our understanding, yeah. There's still the main plan, which is buying the crappy assets. That's still the core idea. But the Treasury Secretary has, as an option, at his discretion, the ability to do this other plan, the one that many economists prefer, the stock-injection plan.
+<v Adam Davidson>那是我们的理解，是啊。仍然有主要计划，也就是购买垃圾资产。那仍然是核心想法。但财政部长有，由他决定，做这个其他计划的能力，那个许多经济学家更喜欢的，股票注入计划。
+
+00:56:28.710 --> 00:56:39.180
+<v Ira Glass>OK, so at least that's in there. But to get back to the original question, this thing has now been signed into law, how should we feel about this?
+<v Ira Glass>好的，所以至少那个在里面。但回到原来的问题，这个东西现在已经签署成为法律，我们应该怎么看待它？
+
+00:56:39.180 --> 00:57:01.390
+<v Adam Davidson>It is not hyperbole to say that there is a severe financial crisis. All these dire warnings you're hearing, this is not Wall Street fat cats trying to make some money. This is serious. Alex and I have seen it. This week we saw the crisis spread to Europe, which had been saying that they were immune to it. It's already seeping out to Main Street, or whatever cliche you want.
+<v Adam Davidson>说有一场严重的金融危机并非夸张。你听到的所有这些可怕的警告，这不是华尔街肥猫试图赚一些钱。这是严重的。亚历克斯和我已经看到了它。这周我们看到危机蔓延到欧洲，他们一直在说他们对它免疫。它已经渗漏到主流，或者无论你想用的什么陈词滥调。
+
+00:57:01.390 --> 00:57:03.420
+<v Ira Glass>Right, in the ways that we reported earlier in the show.
+<v Ira Glass>对，以我们在节目早期报道的方式。
+
+00:57:03.420 --> 00:57:26.770
+<v Adam Davidson>In the ways we've been telling you about. The majority of economists I have talked to would say the following. This crisis is severe. It's going to get worse. Something needs to be done. The original plan was not great. This plan is a lot better. This plan is probably the best we can get. And something has to happen sooner than later.
+<v Adam Davidson>以我们一直在告诉你们的方式。我交谈过的大多数经济学家会说以下内容。这场危机是严重的。它会变得更糟。需要做点什么。原来的计划并不好。这个计划好多了。这个计划可能是我们能得到的最好的。并且事情必须比以后更早发生。
+
+00:57:26.770 --> 00:57:31.140
+<v Ira Glass>Well, Adam, thank you for another frightening hour.
+<v Ira Glass>嗯，亚当，谢谢你又一期可怕的节目。
+
+00:57:31.140 --> 00:57:34.290
+<v Adam Davidson>Yeah, this one scares me a lot more than the last one.
+<v Adam Davidson>是啊，这一期比上一期让我害怕多了。
+
+00:57:34.290 --> 00:58:09.060
+<v Ira Glass>All right, well, thank you, Adam.
+<v Ira Glass>好吧，好吧，谢谢你，亚当。
+
+00:58:09.060 --> 00:58:34.180
+<v Ira Glass>Well, our program was produced today by Alex Blumberg, with Jane Feltes, Sarah Koenig, Lisa Pollak, Robyn Semien, Alissa Shipp, and Nancy Updike. Our senior producer is Julie Snyder. Adrianne Mathiowetz runs our website. Production help from Molly Messick, Seth Lind, and P.J. Vogt. Music help from Jessica Hopper. Today's show was a co-production with NPR News. Our website is thisamericanlife.org. The Planet Money podcast, you can find it on the web at npr.org/blogs/money.
+<v Ira Glass>嗯，我们的节目今天由亚历克斯·布伦伯格制作，与简·费尔特斯（Jane Feltes）、萨拉·凯尼格（Sarah Koenig）、丽莎·波拉克（Lisa Pollak）、罗宾·塞米恩（Robyn Semien）、艾丽莎·希普（Alissa Shipp）和南希·厄普代克（Nancy Updike）一起。我们的高级制作人是朱莉·斯奈德（Julie Snyder）。艾德里安·马西奥韦茨（Adrianne Mathiowetz）运营我们的网站。制作帮助来自莫莉·梅西克（Molly Messick）、塞斯·林德（Seth Lind）和P.J.沃格特（P.J. Vogt）。音乐帮助来自杰西卡·霍珀（Jessica Hopper）。今天的节目是与NPR新闻的联合制作。我们的网站是thisamericanlife.org。Planet Money播客，你可以在网上找到它，在npr.org/blogs/money。
+
+00:58:34.180 --> 00:58:38.230
+<v Ira Glass>[ACKNOWLEDGEMENTS]
+<v Ira Glass>[致谢]
+
+00:58:38.230 --> 00:58:41.190
+<v Ira Glass>This American Life is distributed by Public Radio International.
+<v Ira Glass>《美国生活》由公共广播国际发行。
+
+00:58:41.190 --> 00:58:56.130
+<v Ira Glass>[FUNDING CREDITS]
+<v Ira Glass>[资金来源]
+
+00:58:56.130 --> 00:59:04.120
+<v Ira Glass>WBEZ management oversight for our program by our boss, Mr. Torey Malatia, who explains his behavior at last year's Christmas party this way.
+<v Ira Glass>WBEZ管理层对我们节目的监督由我们的老板，托里·马拉蒂亚（Torey Malatia）先生，他这样解释他在去年圣诞派对上的行为。
+
+00:59:04.120 --> 00:59:06.910
+<v Satyajit Das>"I used to be Snow White, but I drifted."
+<v Satyajit Das>“我曾经是白雪公主，但我偏离了。”
+
+00:59:06.910 --> 00:59:11.910
+<v Ira Glass>I'm Ira Glass. back next week with more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯。下周带着《美国生活》的更多故事回来。

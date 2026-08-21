@@ -1,0 +1,865 @@
+WEBVTT
+
+00:00:00.090 --> 00:00:04.590
+<v Ira Glass>From WBEZ Chicago, it's This American Life, distributed by Public Radio International. I'm Ira Glass.
+<v Ira Glass>这里是芝加哥WBEZ电台的《美国生活》，由国际公共广播电台发行。我是艾拉·格拉斯。
+
+00:00:04.590 --> 00:00:21.750
+<v Howard Stern>I give up. I mean, I want to leave the radio. The government is closing in on me. They've already won. They've got these broadcasters in such a snit that they're hitting buttons on me. And I'm not--
+<v Howard Stern>我放弃了。我是说，我想离开广播界。政府正在向我施压。他们已经赢了。他们把这些广播公司逼到了这种地步：他们因为害怕而开始限制我。而我并没有——
+
+00:00:21.750 --> 00:00:24.270
+<v Renee Montagne>--firing people.
+<v Renee Montagne>——解雇任何人。
+
+00:00:24.270 --> 00:00:39.530
+<v Ira Glass>Like a lot of you, I switch back and forth between Howard Stern and Morning Edition every morning. The Howard Stern, NPR crossover audience exists everywhere. Here in Chicago, it's 10,000 people a day, an equal number of men and women, average age in their 40s, good incomes.
+<v Ira Glass>和你们许多人一样，我每天早上都在霍华德·斯特恩（Howard Stern）的节目和《早间新闻》（Morning Edition）之间换台。霍华德·斯特恩与NPR（美国国家公共电台）的重叠受众无处不在。在芝加哥，每天有1万名这样的听众，男女比例均衡，平均年龄在40岁左右，收入水平良好。
+
+00:00:39.530 --> 00:01:07.070
+<v Ira Glass>And in the last two weeks, as Congress has moved forward with bills raising FCC fines from tiny to a half million dollars each, Howard has been kicked off six stations owned by the conglomerate, Clear Channel. And Howard has told his audience that, because of the fines, he might be off the rest of his stations soon. And how you see all of this really depends on how you frame the issue. Howard Stern frames it as a simple, First Amendment issue. He's not going too far, the government's going too far.
+<v Ira Glass>过去两周里，随着国会推进提高FCC（美国联邦通信委员会）罚款的法案，将单次罚款从微不足道提高到50万美元，霍华德已经被Clear Channel公司旗下的六家电台解雇。霍华德已经告诉他的听众，由于这些罚款，他很快可能失去剩余的所有电台节目。而你怎么看待这一切，完全取决于你如何界定这个问题。霍华德·斯特恩将其界定为一个简单的“第一修正案”问题。他认为自己并没有越界，是政府越界了。
+
+00:01:07.070 --> 00:01:26.540
+<v Ira Glass>In the news media, this story has often been framed as, kind of, wacky news. There goes that crazy Howard Stern, running his mouth again, getting in trouble. Maybe there's some theoretical First Amendment issue here, but this guy, in this guy's case, he definitely goes too far. He's crazy.
+<v Ira Glass>在新闻媒体中，这个故事经常被描述为一种“古怪新闻”。又是那个疯狂的霍华德·斯特恩，胡说八道，又惹麻烦了。也许这里存在某种理论上的“第一修正案”问题，但在他这个个案中，他绝对是走得太远了。他是个疯子。
+
+00:01:26.540 --> 00:02:14.360
+<v Ira Glass>I have to say, this seems like the least useful way to view this story. For one thing, it's just weirdly condescending. For some reason, lots of people get this strange condescending tone when they talk about Howard Stern. And, most importantly, it sidesteps the bigger issue, which is that, for better or worse, what we're witnessing here is a real sea change in how government is regulating radio and television, making it much easier to revoke station's licenses for indecency, fining the actual people on the air up to a half million dollars. You may like that. You may not like that. But let's acknowledge what it is and talk about it like adults. It'll change the environment, even for what we do here on This American Life.
+<v Ira Glass>我不得不说，这似乎是对这个故事最无用的看法。首先，这显得奇怪地居高临下。出于某种原因，许多人在谈论霍华德·斯特恩时，会带上这种奇怪的傲慢语调。最重要的是，它回避了更大的问题：无论好坏，我们正在见证政府如何监管广播和电视的巨大转变，现在更容易以“猥亵”为由吊销电台执照，并对节目上的个人处以高达50万美元的罚款。你可能喜欢这样，也可能不喜欢。但让我们承认事实并像成年人一样讨论它。这将会改变环境，甚至包括我们在这里做《美国生活》节目的环境。
+
+00:02:14.360 --> 00:02:30.850
+<v Ira Glass>One of our contributors, Sandra Tsing Loh-- maybe some of you have heard about this in the media already-- has already been fired from the public radio station that used to run her comments every week, under a so-called zero-tolerance policy. This is a big change.
+<v Ira Glass>我们的撰稿人之一桑德拉·青·罗（Sandra Tsing Loh）——也许你们中一些人已经在媒体上听说过这件事——已经因为所谓的“零容忍政策”被一家每周播放她评论的公共广播电台解雇了。这是一个巨大的改变。
+
+00:02:30.850 --> 00:03:13.330
+<v Ira Glass>Though, fascinatingly-- again, it all comes down to how you frame what the issue-- when I talked to the head of the congressional committee that's behind the fines-- this is Fred Upton of Michigan, a congressman-- he framed the whole thing much differently. He downplayed all of this. He said it is much simpler. It is much smaller and, at its heart, it's completely uncontroversial, the way that he frames it. This is actually one of the arguments that got the new fines approved by the House, overwhelmingly, 391 to 22. That argument is, Congress isn't doing anything fancy or radical here, Congress is just bringing the FCC fines up-to-date with the times. That's it.
+<v Ira Glass>不过，令人着迷的是——同样，这一切都归结于你如何界定问题——当我采访支持这项罚款的国会委员会负责人时——那是密歇根州的国会议员弗雷德·厄普顿（Fred Upton）——他以截然不同的方式界定了整件事。他淡化了所有这些。他说这非常简单、非常小，而且本质上完全没有争议。事实上，这也是让众议院以391票对22票的压倒性优势通过新罚款的论点之一。那个论点是：国会在这里并没有做任何花哨或激进的事情，国会只是让FCC的罚款与时俱进。就是这样。
+
+00:03:13.330 --> 00:03:36.020
+<v Fred Upton>The fines were peanuts. And, in fact, at some of the hearings that we held, we learned that the Justice Department has actually balked at collecting the fines because it often costs more to them to saddle up their attorneys and to go file that claim in Federal Court than they're going to recoup in the payment of that fine.
+<v Fred Upton>以前的罚款简直是毛毛雨。事实上，在我们举行的一些听证会上，我们了解到司法部实际上一直不愿收取罚款，因为派遣律师去联邦法院提起诉讼的成本，往往比他们能收回的罚款数额还要高。
+
+00:03:36.020 --> 00:03:56.750
+<v Ira Glass>The activist groups fighting for the fine say that what all this is about is kids, protecting kids. Brent Bozell heads the Parents Television Council, one of those groups. A quick warning that, in this little snippet of tape, he and I discuss an adult sex act very, very briefly, so protect your kids. Mr. Bozell and I don't need a half million dollar fine each.
+<v Ira Glass>为罚款而战的激进组织声称，这一切都是为了孩子，为了保护孩子。布伦特·博泽尔（Brent Bozell）领导着家长电视委员会（Parents Television Council），这是其中一个组织。一个小警告：在这段录音片段中，我和他非常非常简短地讨论了一种成人性行为，所以请保护好你们的孩子。博泽尔先生和我可不需要各自支付50万美元的罚款。
+
+00:03:56.750 --> 00:04:02.560
+<v Brent Bozell>If there's one thing that is upsetting is the assault on the innocence of children.
+<v Brent Bozell>如果说有什么令人不安的事情，那就是对儿童纯真的侵犯。
+
+00:04:02.560 --> 00:04:16.970
+<v Ira Glass>And what harm does it do? For example, one of the fines that Howard Stern is facing from the FCC is for talking about or referring to anal sex on his show. If a child were to hear him refer to that, what harm does that do, specifically? How do you envision the harm of that?
+<v Ira Glass>这有什么害处呢？例如，霍华德·斯特恩面临的FCC罚款之一，是因为他在节目中谈论或提到肛交。如果一个孩子听到他提到这个，具体会造成什么伤害？你是如何设想这种伤害的？
+
+00:04:16.970 --> 00:04:41.940
+<v Brent Bozell>Well, first of all, there is right and there is wrong, two concepts that are utterly alien to Howard Stern. There is also the idea that a child, a young child, ought not to have messages of anal sex or any other kind of sex. They can't comprehend these notions. They can't understand these notions fully.
+<v Brent Bozell>首先，是非对错，这两个概念对霍华德·斯特恩来说是完全陌生的。还有一个观念是，儿童，尤其是幼儿，不应该接触关于肛交或任何其他性行为的信息。他们无法理解这些概念。他们无法充分领会这些概念。
+
+00:04:41.940 --> 00:04:44.770
+<v Ira Glass>Right. But if they don't understand it, then how does it actually hurt them?
+<v Ira Glass>对。但如果他们不理解，那怎么会真正伤害到他们呢？
+
+00:04:44.770 --> 00:04:58.330
+<v Brent Bozell>No, they don't understand it in its fullest. It's a simple proposition, my friend. These are adult messages being addressed to children.
+<v Brent Bozell>不，他们并没有完全理解。这是一个简单的命题，我的朋友。这些是针对儿童传播的成人信息。
+
+00:04:58.330 --> 00:05:30.410
+<v Ira Glass>I think the people who disagree about all this are never going to see eye to eye. I kept asking Brent Bozell to explain this part of the whole issue that I've never understood, which is, what was the big deal about Janet Jackson's breast? What harm did it do to anybody, young or old, to see that for a moment? He said that kids would imitate it in school. That was the harm. But, of course, if that were true, why haven't we seen a rash of playground shirt tear-off offenses? You know?
+<v Ira Glass>我认为在这个问题上持不同意见的人永远无法达成共识。我一直要求布伦特·博泽尔解释我从未理解过的整个问题的这一部分，那就是：珍妮特·杰克逊的乳房有什么大不了的？看到那一瞬间对任何人，无论老幼，有什么伤害？他说孩子们会在学校里模仿。这就是伤害。但当然，如果那是真的，为什么我们没有看到校园里出现大量的撕衣丑闻呢？你懂的？
+
+00:05:30.410 --> 00:05:59.080
+<v Ira Glass>And, in a sense, it doesn't really do any good to talk about this stuff because you just go around, and around, and around. And, on this issue and on most issues, we're never going to have a meeting of the minds because we don't even agree what the issue is. Is it First Amendment rights? Or is it children's innocence? Is gay marriage a question of the Bible or of equal rights under the Constitution? Iraq, the deficit, in the end, because we don't agree on what the issue is, the facts don't matter.
+<v Ira Glass>而且，从某种意义上说，讨论这些事情并没有什么意义，因为你只会原地打转。在这个问题上，以及在大多数问题上，我们永远不会达成共识，因为我们甚至无法就“问题本身是什么”达成一致。是“第一修正案”权利问题？还是儿童纯真问题？同性婚姻是《圣经》问题，还是宪法下的平等权利问题？伊拉克、赤字问题，最终因为我们无法就问题本身达成一致，事实也就不重要了。
+
+00:05:59.080 --> 00:06:25.850
+<v Ira Glass>Well, today on our program, we have two stories about this, of people in a situation where the facts don't matter. Act One is about something that happened during World War II, where the government covered some things up and the facts only came out much later. Act Two happens right now, during the presidential primaries. Stay with us.
+<v Ira Glass>好吧，今天在我们的节目中，我们有两个关于这个主题的故事，是关于那些处于“事实不重要”处境中的人们的故事。第一幕是关于二战期间发生的事情，政府掩盖了一些事实，而真相直到很久之后才大白于天下。第二幕发生在当下，在总统初选期间。请继续收听。
+
+00:06:25.850 --> 00:06:29.850
+<v Ira Glass>Act One, Straight Eyes On The Quirin Guys.
+<v Ira Glass>第一幕：直视奎林案的当事人。
+
+00:06:29.850 --> 00:06:42.050
+<v Ira Glass>Three weeks ago, in Washington, military officials announced that two men with ties to Al Qaeda, one suspected of smuggling weapons, the other of spreading propaganda, will be tried outside US Civil Court in military tribunals.
+<v Ira Glass>三周前，华盛顿的军事官员宣布，两名与基地组织有联系的人——一名涉嫌走私武器，另一名涉嫌传播宣传——将在美国民事法院之外，通过军事法庭进行审判。
+
+00:06:42.050 --> 00:07:11.000
+<v Ira Glass>And, if you've been paying attention to the debate over these tribunals, you may have heard reference to a Supreme Court case, which the Administration uses as the legal precedent for their existence, it's called the Quirin case. The original Quirin decision involved eight Nazi saboteurs who snuck ashore on Long Island, in Florida back in 1942. With Quirin, the Supreme Court changed what had been the law until that time. The Supreme Court said that it was now OK to try enemies captured on US soil in military courts not civilian courts.
+<v Ira Glass>而且，如果你一直关注关于这些法庭的辩论，你可能听说过一个最高法院的案件，行政当局将其用作这些法庭存在的法律先例，它被称为“奎林案”（Quirin case）。最初的“奎林案”裁决涉及1942年潜入长岛和佛罗里达州的八名纳粹破坏分子。通过奎林案，最高法院改变了当时一直以来的法律。最高法院表示，现在可以在军事法庭而非民事法庭审判在美国本土抓获的敌人。
+
+00:07:11.000 --> 00:07:29.050
+<v Ira Glass>But a look back at the facts of the original case reveals a rather more complicated story, part spy thriller, part farce. When you look at the facts of the story, it's not only unclear whether they support the policies of our current administration, but whether they even supported the original decision. Chris Neary reports.
+<v Ira Glass>但回顾原始案件的事实，揭示了一个相当复杂的故事，既有间谍惊悚片的成分，也有闹剧的色彩。当你审视这个故事的事实时，不仅不清楚它们是否支持我们现任政府的政策，甚至不清楚它们是否支持最初的裁决。克里斯·尼里（Chris Neary）报道。
+
+00:07:29.050 --> 00:07:39.400
+<v Chris Neary>What the Quirin decision has come to stand for and what actually happened in the case have grown so far apart it's probably best to start with the facts. Here's what everyone agrees on.
+<v Chris Neary>奎林案的裁决所代表的意义，与案件中实际发生的情况，已经相去甚远，最好还是从事实开始讲起。这是大家公认的事实。
+
+00:07:39.400 --> 00:08:06.280
+<v Chris Neary>On June 13, 1942, on a beach in Amagansett, Long Island, four men dressed in Nazi uniforms rowed ashore with a huge cache of weapons. By sheer chance, they were stumbled upon by a 21-year-old Coast Guardsman named John Cullen. Cullen, who's still alive and living in Virginia, declined to be interviewed on the radio, but he did talk with Michael Dobbs, a reporter for The Washington Post who's written a book about the case called, Saboteurs: The Nazi Raid on America. Dobbs says Cullen remembers the night vividly.
+<v Chris Neary>1942年6月13日，在长岛阿马甘塞特（Amagansett）的海滩上，四名身穿纳粹军服的男子划船上岸，带着大量的武器装备。纯属巧合，他们被一名21岁的海岸警卫队员约翰·卡伦（John Cullen）撞见了。卡伦目前还健在，住在弗吉尼亚州，他拒绝了电台采访，但他确实与《华盛顿邮报》记者迈克尔·多布斯（Michael Dobbs）谈过，多布斯写了一本关于此案的书，叫《破坏分子：纳粹对美国的袭击》。多布斯说卡伦对那个夜晚记忆犹新。
+
+00:08:06.280 --> 00:08:30.930
+<v Michael Dobbs>It was a very foggy night, the night of June 13, 1942. He walked, I guess, about a half a mile along the beach when he saw two men pulling a little rubber dinghy in from the sea, which was very unusual because there was a blackout. People shouldn't have been out that late at night.
+<v Michael Dobbs>那是1942年6月13日的夜晚，雾很大。他沿着海滩走了大概半英里，看到两个人在把一艘小橡皮艇从海里拖出来，这非常不寻常，因为当时实行灯火管制。人们在那深更半夜不应该出现在外面。
+
+00:08:30.930 --> 00:09:00.560
+<v Michael Dobbs>He went up to one of the men, asked him what he was doing. The man said he was fishing. The man had a strong German accent, so Cullen immediately started getting suspicious. The men were also drenched, so Cullen suggested they come back to the Coast Guard station with him. And the men refused, and that's when he really started getting suspicious of what was happening.
+<v Michael Dobbs>他走到其中一个人身边，问他在干什么。那人说他在钓鱼。那人有浓重的德国口音，所以卡伦立刻开始怀疑起来。那些人浑身湿透，所以卡伦建议他们和他一起回海岸警卫队站。那几个人拒绝了，这时他开始真正怀疑到底发生了什么。
+
+00:09:00.560 --> 00:09:12.140
+<v Chris Neary>Cullen would have had to have been pretty suspicious to fully imagine the situation he found himself in. The men he found on the beach had come from a German U-boat still 200 yards offshore and stuck on a sand bar.
+<v Chris Neary>卡伦得有极强的怀疑心，才能充分想象出他所处的境地。他在海滩上发现的那些人来自一艘仍停在近海200码处并搁浅在沙洲上的德国U型潜艇。
+
+00:09:12.140 --> 00:09:30.090
+<v Chris Neary>For the last two months, they'd been trained in the art of espionage at a secret camp disguised as a farm in the German countryside. In their pockets were sea-soaked lists of key factories and bridges along the Eastern seaboard. If they successfully completed their mission, the aluminum industry, relied on in making things like tanks and planes, would be crippled.
+<v Chris Neary>在过去的两个月里，他们一直在德国乡村一个伪装成农场的秘密训练营里接受间谍艺术培训。他们的口袋里装着浸透了海水的美国东海岸关键工厂和桥梁的名单。如果他们成功完成了任务，美国用于制造坦克和飞机等物资的铝工业将瘫痪。
+
+00:09:30.090 --> 00:09:50.790
+<v Chris Neary>There were eight men all together: four that night on Long Island, and four still on another U-boat preparing to land off the coast of Florida. And though they were all foreign spies, they were all very familiar with the United States. Most of them had left Germany in the '20s, had come to America looking for jobs. But when jobs dried up in the Depression, they'd returned to Germany, leaving behind wives, girlfriends, and family.
+<v Chris Neary>总共有八个人：那晚在长岛有四个人，另有四个人还在另一艘U型潜艇上准备在佛罗里达海岸登陆。虽然他们都是外国间谍，但他们都对美国非常熟悉。他们中的大多数人在20年代离开德国，来到美国找工作。但当大萧条时期工作岗位减少时，他们回到了德国，留下妻子、女友和家人。
+
+00:09:50.790 --> 00:10:23.210
+<v Michael Dobbs>Many of them had personal problems that they wanted to resolve. For example, the leader of the Florida group, Eddie Kerling, who was probably the most fanatic Nazi of all eight saboteurs, he had not only a wife in the United States, but he also had a mistress. So when he got back to New York, he quickly set up meetings with his mistress in Central Park. And he was about to meet his wife the day he was arrested. So, even in his case, he had mixed motives for coming back.
+<v Michael Dobbs>他们中的许多人有需要解决的个人问题。例如，佛罗里达小组的头目埃迪·克林（Eddie Kerling），他可能是八名破坏分子中最狂热的纳粹分子，他在美国不仅有妻子，还有一个情妇。所以当他回到纽约时，他很快安排了在中央公园与情妇见面。而且在他被捕那天，他正准备见他的妻子。所以，即使在他这个案子里，他回来也有复杂的动机。
+
+00:10:23.210 --> 00:10:28.510
+<v Chris Neary>For any of them, was sabotage their first motivation when they came over?
+<v Chris Neary>对他们任何人来说，来到美国时的首要动机是破坏吗？
+
+00:10:28.510 --> 00:10:32.510
+<v Michael Dobbs>I think that many of them simply wanted to get back to America.
+<v Michael Dobbs>我认为他们中的许多人只是想回到美国。
+
+00:10:32.510 --> 00:10:48.790
+<v Chris Neary>We know this about how committed they were to their mission. That night, on the beach in 1942, though they were under orders to kill anyone they encountered, instead, George Dasch, the leader of the group, handed the young Coast Guardsman $300 and told him to get lost while the rest stood by and did nothing.
+<v Chris Neary>关于他们对任务的忠诚度，我们知道这一点：那晚，在1942年的海滩上，虽然他们有命令杀掉遇到的任何人，但小组头目乔治·达什（George Dasch）却给了那个年轻的海岸警卫队员300美元，叫他滚开，而其他人站在一旁什么也没做。
+
+00:10:48.790 --> 00:10:59.100
+<v Chris Neary>Then, before authorities arrived, the Germans had time to dig a hole, hide their explosives, and walk to a commuter train station, where they hopped a train to New York, but not to commit sabotage.
+<v Chris Neary>然后，在当局赶到之前，德国人有时间挖了一个坑，把炸药藏起来，走到一个通勤火车站，跳上一列去纽约的火车，但并不是为了去搞破坏。
+
+00:10:59.100 --> 00:11:28.440
+<v Michael Dobbs>They had spent the last few months, in some cases several years, in Nazi Germany where there was nothing to buy in the stores. They had $100,000 in their pockets, which is the equivalent of over $1 million today. So, when they got back to the United States, the first thing that came to their minds was to go on a shopping spree. And the first thing they did was to head for Macy's.
+<v Michael Dobbs>在过去的几个月里，有时甚至是几年，他们一直待在纳粹德国，商店里什么东西都买不到。他们口袋里有10万美元，相当于今天的100多万美元。所以，当他们回到美国，脑子里想的第一件事就是疯狂购物。他们做的第一件事就是直奔梅西百货（Macy's）。
+
+00:11:28.440 --> 00:11:58.120
+<v Michael Dobbs>Also, Dasch loved a place called Horn & Hardart. I guess Horn & Hardart was the McDonald's of the time. It was the largest fast food operation in the world at the time. It was an Automat, so you put in your nickel and you got out a cup of coffee, or a piece of pie, or a sandwich from a bank of dispensers. And he loved to go to that place. They had many assignations at the Horn & Hardart.
+<v Michael Dobbs>此外，达什喜欢一个叫霍恩与哈达特（Horn & Hardart）的地方。我想那可能是当时麦当劳的角色。它是当时世界上最大的快餐运营商。那是一家自动售货餐厅，你投入镍币，就能从一排自动售货机里买到一杯咖啡、一块馅饼或三明治。他非常喜欢去那个地方。他们在霍恩与哈达特有过多次秘密会面。
+
+00:11:58.120 --> 00:12:10.300
+<v Michael Dobbs>They also visited a lot of movie houses. And, in Dasch's case, he'd been a waiter. And he spent some time with his old waiter buddies at a waiter's club in New York.
+<v Michael Dobbs>他们也去了很多电影院。而在达什的例子中，他曾做过服务员。他在纽约的一个服务员俱乐部里和他的旧服务员伙伴待过一段时间。
+
+00:12:10.300 --> 00:12:25.810
+<v Chris Neary>Dasch spent two days and nights playing cards to calm his nerves while he hatched a plan. He was deciding how to give himself up. During training sessions in Germany, he thought he might have detected that another man on the mission, Peter Burger, shared his feelings about defecting.
+<v Chris Neary>达什花了两个昼夜打牌来平复情绪，同时策划一个计划。他正在决定如何自首。在德国的训练期间，他认为自己可能发现任务中的另一个人，彼得·伯格（Peter Burger），也有叛逃的想法。
+
+00:12:25.810 --> 00:12:43.110
+<v Chris Neary>One night, while the two saboteurs were having dinner in a posh New York restaurant with the money they were supposed to be using for the mission, Dasch decided to risk revealing his intentions to Burger. "There's something I need to tell you," Dasch said. "I know what you're going to tell me," Burger answered. "And I'm quite sure our intentions are very similar."
+<v Chris Neary>一天晚上，当这两名破坏分子在纽约一家高级餐厅里用他们本应用于执行任务的钱吃晚餐时，达什决定冒险向伯格透露他的意图。“有些事我需要告诉你，”达什说。“我知道你要告诉我什么，”伯格回答道。“而且我敢肯定我们的意图非常相似。”
+
+00:12:43.110 --> 00:13:06.320
+<v Chris Neary>In choosing eight spies for its first espionage team, Germany managed to select, not one, but two who wanted to defect. They struck a deal. Burger would occupy the other men on the mission while Dasch figured out the best way to give them up. And you might think Dasch had the easier of the two jobs, but he soon found out that, even when you're a spy trying to give yourself up, the FBI is not an accommodating organization.
+<v Chris Neary>德国在选择其首个间谍小组的八名成员时，竟挑中了两个想要叛逃的人。他们达成了一项协议。伯格负责牵制任务中的其他人，而达什想办法将他们供出来。你可能认为达什的任务更简单，但他很快发现，即使你是想自首的间谍，联邦调查局（FBI）也不是一个好相处的机构。
+
+00:13:06.320 --> 00:13:33.830
+<v Chris Neary>On June 14th, just a day after landing, Dasch called the FBI office in New York saying he had statements of military and political importance to make. Immediately, he was transferred to something called the "nutters" desk and forgotten. Undeterred, Dasch got on a train and traveled to Washington, determined to turn himself in directly to FBI Chief, J. Edgar Hoover. But, in Washington, this Nazi traitor, who really did have statements of military and political importance to make, was only slightly more successful.
+<v Chris Neary>6月14日，登陆仅仅一天后，达什致电FBI纽约办公室，称他有具有军事和政治重要性的声明要发表。他立刻被转接到了所谓的“疯子”专线，然后被遗忘了。达什并没有气馁，他坐上火车前往华盛顿，决心直接向FBI局长埃德加·胡佛（J. Edgar Hoover）自首。但在华盛顿，这个纳粹叛徒，虽然确实有重要的军事和政治声明要发表，却也只是稍微成功了一点点。
+
+00:13:33.830 --> 00:13:42.620
+<v Duane Traynor>He first called the FBI headquarters and wanted to talk with Mr. Hoover.
+<v Duane Traynor>他首先给FBI总部打了电话，想和胡佛先生通话。
+
+00:13:42.620 --> 00:13:54.200
+<v Chris Neary>Here's Duane Traynor, now a dapper 94-year-old living in a retirement home in Springfield, Illinois. But, at the time, a 35-year-old special agent in FBI headquarters when Dasch tried to turn himself in.
+<v Chris Neary>这是杜安·特雷纳（Duane Traynor），现在是一位住在伊利诺伊州斯普林菲尔德一家退休之家的94岁老人。但在当时，他是FBI总部的一名35岁特别探员，正是达什试图自首时的接线人。
+
+00:13:54.200 --> 00:14:27.000
+<v Duane Traynor>The [? officiant ?] Secretary says, what do you want to talk about? It has something to do with sabotage. Well, that's in Mr. Ladd's department. The [? officiant ?] secretary then wanted to know what he wanted to talk about. It was sabotage. And the call was referred to Mr. Russell Kramer. The same thing went on. What do you want to talk about? Sabotage. They said, well, that's Mr. Traynor's section. And they referred the telephone call to me.
+<v Duane Traynor>那位秘书问，你想谈什么？这和破坏活动有关。嗯，那是拉德（Ladd）先生的部门。秘书又想知道他想谈什么。是破坏活动。电话被转到了拉塞尔·克雷默（Russell Kramer）先生那里。同样的事情发生了。你想谈什么？破坏活动。他们说，嗯，那是特雷纳先生的部门。然后他们把电话转给了我。
+
+00:14:27.000 --> 00:14:38.090
+<v Chris Neary>Dasch told Traynor everything, that the other sub had already landed in Florida, that the two teams were supposed to rendezvous in Chicago, and that they planned to target US aluminum factories.
+<v Chris Neary>达什告诉特雷纳一切，另一艘潜艇已经在佛罗里达登陆，两个小组本应在芝加哥汇合，而且他们计划以美国的铝工厂为目标。
+
+00:14:38.090 --> 00:15:17.280
+<v Chris Neary>But Dasch didn't confine himself to just the mission. He was a talker. A team of six secretaries took turns transcribing Dasch's rambling testimony. Traynor ended up staying with Dasch overnight in a hotel to get everything. He came away with 240 pages of information about, among other things, the state of Nazi Germany, Dasch's service in the US Army, and a laundry list of his remarkable personal ambitions. The only thing Dasch didn't claim expertise in, in fact, was the thing he'd been sent to do: spy. For example, he'd paid so little attention to his mission that he couldn't remember the name of one of the men he was supposed to be in charge of.
+<v Chris Neary>但达什并没有局限于任务本身。他是个话痨。六名秘书轮流记录达什漫无边际的供词。特雷纳最终和达什在酒店住了一夜以获取所有信息。他得到了240页关于——除其他事项外——纳粹德国状况、达什在美国陆军服役经历，以及他惊人个人抱负的一长串清单的信息。实际上，达什唯一没有声称精通的事情，正是他被派去做的事：间谍活动。例如，他对任务的关注太少了，甚至记不起他本应负责的其中一个人的名字。
+
+00:15:17.280 --> 00:15:48.980
+<v Duane Traynor>Dasch had a little trouble with the name of one of the individuals. He couldn't remember it at first, except it was to say, T- The- The-, something. So I took out a Washington telephone book and started reading the names of all the people whose names started with T. And I kept going down the list. Finally, I got to the name Thiel, and he said that's it, Werner Thiel.
+<v Duane Traynor>达什在记住其中一个人的名字时有点困难。他起初记不起来了，只说是“T- Th- The-”，什么的。所以我拿出一本华盛顿电话簿，开始读所有名字以T开头的人。我一直往下读。最后，我读到了“Thiel”这个名字，他说就是这个，维尔纳·蒂尔（Werner Thiel）。
+
+00:15:48.980 --> 00:15:52.610
+<v Chris Neary>And for a trained spy, well, he was no James Bond.
+<v Chris Neary>对于一个受过训练的间谍来说，嗯，他绝对不是詹姆斯·邦德。
+
+00:15:52.610 --> 00:16:33.170
+<v Duane Traynor>I said, is there any way you can get in touch with the leader of the other group? And he said, well, yes. I had him write the name of somebody on a handkerchief. And he picked the hankie out of his pocket. And the name of this individual and his address is written in secret ink on this handkerchief. And I said to him, well, how do you develop it? And he said, I can't remember. He says, it was some smelly stuff.
+<v Duane Traynor>我说，有什么办法能联系到另一组的头目吗？他说，嗯，有。我让他把某人的名字写在手帕上。他从口袋里掏出那块手帕。这个人的名字和地址是用隐形墨水写在那块手帕上的。我对他说，嗯，怎么显影呢？他说，我不记得了。他说，那是一种有臭味的东西。
+
+00:16:33.170 --> 00:17:07.860
+<v Chris Neary>Crack scientists back at the FBI lab determine what that mysterious smelly stuff was: household ammonia. George Dasch is one of the great enigmas of this story, not because he didn't talk about his reasons for doing things-- he did, a lot-- but because it's hard to believe him. He said that he hatched a plan to defect way back at the secret training camp in Germany. He said many times that, when Hitler declared war on America, I declared war on Hitler. But grandiose statements like that made people suspect less pure motives, especially for a man who had already betrayed one country.
+<v Chris Neary>FBI实验室的顶尖科学家确定了那种神秘的臭味东西是什么：家用氨水。乔治·达什是这个故事中最大的谜团之一，不是因为他不谈论自己做事的动机——他谈了很多——而是因为很难相信他。他说他在德国的秘密训练营时就策划了叛逃计划。他多次说，当希特勒对美国宣战时，我也对希特勒宣战。但像这样浮夸的陈述让人们怀疑动机是否纯粹，尤其是对于一个已经背叛过一个国家的人来说。
+
+00:17:07.860 --> 00:17:22.170
+<v Chris Neary>At the trial, the government argued that Dasch didn't decide to defect until much later, and then only because he was scared. Whatever the case, he clearly didn't consider himself a Nazi saboteur. Again, writer, Michael Dobbs.
+<v Chris Neary>在审判中，政府辩称达什直到很久以后才决定叛逃，而且是因为害怕。不管怎样，他显然并不把自己看作纳粹破坏分子。再次请出撰稿人迈克尔·多布斯。
+
+00:17:22.170 --> 00:17:38.540
+<v Michael Dobbs>He thought that, if he went to the FBI, turned himself in, they would welcome him with open arms and allow him to launch a propaganda campaign by radio against Hitler. So he imagined a starring role for himself.
+<v Michael Dobbs>他认为，如果他去找FBI自首，他们会张开双臂欢迎他，并允许他发起一场针对希特勒的无线电宣传活动。所以他为自己设想了一个主角。
+
+00:17:38.540 --> 00:18:07.910
+<v Chris Neary>But J. Edgar Hoover had other ideas. On June 27, 1942, The New York Times headline read: "FBI Seizes Eight Sabateurs Landed by U-Boats Here and in Florida to Blow Up War Plants." The article doesn't mention that the FBI was only able to crack the case because one of the saboteurs literally walked into their headquarters to confess. This is the first moment in this adventure where the official story diverges from the facts, and for decades the two don't find their way back to each other.
+<v Chris Neary>但埃德加·胡佛有别的想法。1942年6月27日，《纽约时报》的头条写道：“FBI抓获八名在此地和佛罗里达州登陆、企图炸毁战争工厂的纳粹破坏分子。”文章没有提到，FBI之所以能破案，是因为其中一名破坏分子亲自走进他们总部坦白。这是这段冒险中官方叙述与事实背离的第一个时刻，并且在接下来的几十年里，两者再也没有交集。
+
+00:18:07.910 --> 00:18:15.380
+<v Lloyd Cutler>The FBI decided the case would be conducted in secret before a military commission.
+<v Lloyd Cutler>FBI决定秘密审理此案，由一个军事委员会处理。
+
+00:18:15.380 --> 00:18:35.430
+<v Chris Neary>Lloyd Cutler's been a White House Counsel for two presidents, helped ratify the SALT II Treaty, and negotiated with Iran during the hostage crisis. He's the kind of guy that, when reporters ask to talk with him, his secretaries ask, regarding which famous case? His first one came 60 years ago, when he was appointed to the legal team prosecuting the Nazi saboteurs.
+<v Chris Neary>劳埃德·卡特勒（Lloyd Cutler）曾担任两任总统的白宫法律顾问，协助批准了《第二阶段限制战略武器条约》，并在人质危机期间与伊朗进行了谈判。他就是那种当记者要求采访时，秘书会问“是指哪件著名案件？”的人物。他的第一个案件发生在60年前，当时他被任命为起诉纳粹破坏分子的法律团队成员。
+
+00:18:35.430 --> 00:19:11.780
+<v Lloyd Cutler>Of course, the decision to have a military commission was the President's decision under our Military Code of Justice. And the reason it was all done in secret was because we had a dirty, little secret of our own. And that was, although the FBI was trying to create the impression that it had itself penetrated the German saboteur school and the German army, and were waiting on the beaches to catch these fellows, the fact is that the FBI knew nothing about it at all.
+<v Lloyd Cutler>当然，根据我们的《军事司法法典》，由军事委员会审判是总统的决定。之所以全部保密，是因为我们自己也有一个肮脏的小秘密。那就是，虽然FBI试图制造一种印象，仿佛他们亲自渗透了德国破坏分子学校和德国军队，并守在海滩上抓获了这些人，但事实是FBI对此一无所知。
+
+00:19:11.780 --> 00:19:19.280
+<v Chris Neary>So the trial was held in secret more so that the FBI could create an image rather than for national security?
+<v Chris Neary>所以秘密审理更多是为了让FBI打造形象，而不是为了国家安全？
+
+00:19:19.280 --> 00:20:17.570
+<v Lloyd Cutler>Correct. And it was not just the FBI, it was President Roosevelt himself, because, remember, this was six months after Pearl Harbor. Half of our fleet had been destroyed. General MacArthur was being isolated on Bataan in the Philippines. And the fact that these saboteurs fell into our laps was the first chance to show that the United States was doing something to defend itself. In fact, at one point, according to the attorney general's memoir-- his name was Francis Biddle-- President Roosevelt said to him, "Francis, you'd better not lose this case." It was clear from the beginning that President Roosevelt had every intention of trying and convicting these fellows before a military commission, and then executing as many of them as he could.
+<v Lloyd Cutler>正确。这不仅仅是FBI的事，更是罗斯福总统本人的事，因为记住，那时是珍珠港事件六个月后。我们的一半舰队被摧毁了。麦克阿瑟将军在菲律宾巴丹半岛被孤立。而这些破坏分子落入我们手中，是展示美国正在为自卫采取行动的第一次机会。事实上，据司法部长弗朗西斯·比德尔（Francis Biddle）的回忆录记载，罗斯福总统曾对他说：“弗朗西斯，你最好别输掉这个案子。”很明显，从一开始，罗斯福总统就打算通过军事委员会审判并定罪这些人，然后处决尽可能多的人。
+
+00:20:17.570 --> 00:20:34.430
+<v Michael Dobbs>Roosevelt decided at the outset that, as he put it, they were as guilty as can be. He wanted them to be executed. The civilian court would not have returned death sentences against them, so he decided that the matter would have to be resolved by the military court.
+<v Michael Dobbs>罗斯福从一开始就断定，正如他所说的，他们罪大恶极。他想让他们被处死。民事法院不会对他们判处死刑，所以他决定这个问题必须由军事法庭解决。
+
+00:20:34.430 --> 00:20:35.570
+<v Chris Neary>Writer, Michael dobbs.
+<v Chris Neary>撰稿人迈克尔·多布斯。
+
+00:20:35.570 --> 00:21:06.170
+<v Michael Dobbs>So the question for Roosevelt was not whether or not they should be put to death, but how they should die. And he had discussions with his aides over whether they should be shot or whether they should be hung. So there was a kind of a bloodthirsty side to FDR. In fact, when he first heard about the arrests of the saboteurs, he told Francis Biddle, the attorney general, that they should be taken around the country in cages and displayed like trophies.
+<v Michael Dobbs>所以对罗斯福来说，问题不在于他们是否应该被处死，而在于他们该怎么死。他和助手们讨论过是枪毙还是绞死。所以富兰克林·罗斯福（FDR）有一种嗜血的一面。事实上，当他第一次听说抓获破坏分子时，他告诉司法部长弗朗西斯·比德尔，应该把他们关在笼子里巡游全国，像战利品一样展示。
+
+00:21:06.170 --> 00:21:20.080
+<v Chris Neary>If anything, this wasn't quite harsh enough for the population at large. An article in Life magazine, entitled "The Eight Nazi Spies Should Die," shows a picture of militia men with rifles who had volunteered their services as a firing squad.
+<v Chris Neary>即使这样，对大众来说还不够严厉。《生活》杂志上一篇题为《八名纳粹间谍应处死》的文章，展示了一张民兵手持步枪的照片，他们自愿担任行刑队。
+
+00:21:20.080 --> 00:21:37.620
+<v Chris Neary>And it's at this moment of heightened national anxiety that the story of the saboteurs drifts still further away from the actual facts. Here's why. People thought they were calling for the blood of Nazi spies but, at least in one case, what they were getting was the blood of a 22-year-old American citizen.
+<v Chris Neary>正是在这种国家焦虑加剧的时刻，破坏分子的故事离实际事实进一步远去。原因如下。人们以为他们是在要求纳粹间谍的鲜血，但至少在一个案例中，他们得到的是一名22岁美国公民的鲜血。
+
+00:21:37.620 --> 00:21:58.240
+<v Chris Neary>Hans Herbert Haupt, one of the eight saboteurs, had lived in the United States since he was a small boy and, more than anyone, seemed to stumble into this case through a series of unlucky accidents. The misadventures that brought him there began less than a year before the trial, when he was busy chasing girls on the north side of Chicago in his brand-new Chevy, and was known as Herbie to his best friend, Wolfgang Wergin.
+<v Chris Neary>汉斯·赫伯特·豪普特（Hans Herbert Haupt），八名破坏分子之一，他很小的时候就住在美国，而且比起任何人都更像是通过一系列倒霉的意外陷入了这起案件。带他走向这一步的历险记，始于审判前不到一年，当时他正忙着在他那辆全新的雪佛兰里在芝加哥北区追女孩，他最好的朋友沃尔夫冈·沃金（Wolfgang Wergin）管他叫“赫比”（Herbie）。
+
+00:21:58.240 --> 00:22:15.660
+<v Wolfgang Wergin>Herbie and I worked together in a place called Simpson Optical. He was always ready to have fun, to dance, to spend money, especially spend money. He was just a great guy.
+<v Wolfgang Wergin>赫比和我曾在一家叫辛普森光学（Simpson Optical）的地方一起工作。他总是准备好去玩、去跳舞、去花钱，尤其是花钱。他真是个好家伙。
+
+00:22:15.660 --> 00:22:35.440
+<v Chris Neary>Wolfgang Wergin is 81 years old today, and lives in San Pedro, California. And in a way, his life is a shadow life of what Haupt's might have been. Wergin was intimately involved in the story of how Herbie Haupt ended up on trial for sabotage. And if not for what amounted to one bad job interview, he could have been there on trial with him.
+<v Chris Neary>沃尔夫冈·沃金今年81岁，住在加利福尼亚州的圣佩德罗。在某种程度上，他的人生就是豪普特本可能拥有的人生的一道影子。沃金密切参与了赫比·豪普特最终如何因破坏活动受审的故事。如果不是因为那次糟糕的工作面试，他可能也会和他一起受审。
+
+00:22:35.440 --> 00:23:02.630
+<v Chris Neary>It all started the summer of 1941, before Pearl Harbor, when America still hoped it might avoid a war. On a lark, the two friends took Wolf's 1934 Chevy and drove down to Mexico City. Wolf was 18. Herbie was 21. They had $180 between the two of them, and they spent their time in Mexico blowing through it. During one particularly expensive night of buying rounds for some dates, they ran out. They had to sell Wolf's car just to afford the trip back home.
+<v Chris Neary>这一切始于1941年夏天，珍珠港事件之前，当时美国还希望避免战争。朋友俩心血来潮，开着沃尔夫那辆1934年的雪佛兰去了墨西哥城。沃尔夫18岁，赫比21岁。他们两人身上总共只有180美元，他们花时间在墨西哥挥霍一空。在那个特别奢侈的、为约会对象买酒的晚上，他们花光了钱。他们不得不卖掉沃尔夫的车才付得起回家的路费。
+
+00:23:02.630 --> 00:23:34.160
+<v Wolfgang Wergin>We had enough money to go back on the train. But they wouldn't let us over the border because, in those days, you used to have to have a tourist card. And on the back of the tourist card, my tourist card, which I didn't notice that, but it had a little stamp: intro automobile. In other words, that I had entered an automobile.
+<v Wolfgang Wergin>我们有足够的钱坐火车回去。但他们不让我们过边境，因为在那个年代，你得有一张游客卡。在我的游客卡背面，我没注意到，上面有一个小印章：intro automobile。换句话说，我是开着汽车进来的。
+
+00:23:34.160 --> 00:23:53.440
+<v Wolfgang Wergin>And of course, they wanted to know where the car was. And we said, well, it broke down. They said, well, you have to go back and bring it back or prove that you didn't sell it, because they wanted the tax money.
+<v Wolfgang Wergin>当然，他们想知道车在哪儿。我们说，哦，抛锚了。他们说，嗯，你得回去把车带回来，或者证明你没卖掉它，因为他们要税钱。
+
+00:23:53.440 --> 00:24:26.240
+<v Wolfgang Wergin>So we just went back to Mexico and told that guy that we were living with, that rented us the room. And he says, oh, that's no problem. He says, I have my friend who's the Chief of [UNINTELLIGIBLE], in Manzanillo, and he'll get you on a boat going to Los Angeles. And then you can hitchhike from there. And then we thought, oh, that was great.
+<v Wolfgang Wergin>所以我们只好回墨西哥，告诉那个租我们房子的家伙。他说，哦，那没问题。他说，我有位朋友是曼萨尼约（Manzanillo）港口的官员，他会把你们送上一艘去洛杉矶的船。然后你们可以从那里搭便车。我们就想，哦，那太好了。
+
+00:24:26.240 --> 00:24:33.600
+<v Chris Neary>The two set off for the port city of Manzanillo, and two days later they went to sea aboard a freighter, Wergin says, they thought was bound for California.
+<v Chris Neary>两人出发前往港口城市曼萨尼约，两天后，他们登上一艘货船出海了，沃金说，他们以为那是开往加利福尼亚的。
+
+00:24:33.600 --> 00:24:49.420
+<v Wolfgang Wergin>It was called the Genyo Maru, and it was supposed to go to from Manzanillo to Los Angeles, and from there to Seattle to pick up some more scrap metal.
+<v Wolfgang Wergin>它叫“源洋丸”（Genyo Maru），本应从曼萨尼约开往洛杉矶，再从那里去西雅图装载更多的废金属。
+
+00:24:49.420 --> 00:25:05.390
+<v Wolfgang Wergin>But about three days later, we talked to the steward and he says, oh, we having trouble. Anyway, we got no answer at all. And then, two weeks later, we were in Yokohama.
+<v Wolfgang Wergin>但大概三天后，我们和乘务员谈了谈，他说，哦，我们遇到麻烦了。总之，我们没得到任何答案。然后，两周后，我们就到了横滨。
+
+00:25:05.390 --> 00:25:08.120
+<v Wolfgang Wergin>[LAUGHS]
+<v Wolfgang Wergin>[笑声]
+
+00:25:08.120 --> 00:25:24.860
+<v Chris Neary>So there they were in Japan, four months before Pearl Harbor. Later on, in trial transcripts, Herbie said he'd gotten on the freighter because he'd heard there was work in Japan, but when he and Wolf arrived they couldn't find any. They went to the US Embassy, but found no help there either.
+<v Chris Neary>所以他们就这样到了日本，在珍珠港事件发生四个月前。后来在审判笔录中，赫比说他上了那艘货船是因为听说日本有工作，但他和沃尔夫到达后却没找到。他们去了美国大使馆，也没得到任何帮助。
+
+00:25:24.860 --> 00:25:36.650
+<v Chris Neary>Broke and not sure where to turn, they finally got work on a German freighter they thought was headed for neutral Portugal. Just a couple of days after arriving in Japan, they found themselves, once again, on the high seas.
+<v Chris Neary>身无分文，不知何去何从，他们最终在一艘德国货船上找到工作，以为那是开往中立的葡萄牙。到达日本仅仅几天后，他们又一次回到了大海上。
+
+00:25:36.650 --> 00:25:41.520
+<v Chris Neary>What did you guys think of the United States at that time? What were your feelings towards it?
+<v Chris Neary>你们当时怎么看美国？你们对它有什么感觉？
+
+00:25:41.520 --> 00:26:10.280
+<v Wolfgang Wergin>Oh, home. Nothing but home. My parents were there. I had a brand-new drum set that my dad bought for me. We had a little neighborhood band, you know. We used to play for bar mitzvahs and things like that. It was our home.
+<v Wolfgang Wergin>哦，家。除了家什么也不是。我的父母在那里。我父亲给我买了一套崭新的鼓组。我们有一个小社区乐队，你知道的。我们常在犹太教成年礼之类的地方演出。那是我们的家。
+
+00:26:10.280 --> 00:26:13.520
+<v Chris Neary>And how did Herbie feel about it, about the US?
+<v Chris Neary>那赫比对它感觉如何？关于美国？
+
+00:26:13.520 --> 00:26:26.200
+<v Wolfgang Wergin>Oh, he was same thing. He was no Nazi. I mean, we had no more interest in politics than the man in the moon.
+<v Wolfgang Wergin>哦，他也一样。他根本不是纳粹。我是说，我们对政治的兴趣还不如月球上的人。
+
+00:26:26.200 --> 00:26:43.530
+<v Chris Neary>The boat sailed down the coast of Africa and around the Cape of Good Hope. And while it did, the home they'd left behind slipped into war. During the time they were at sea, Prime Minister Tojo came to power, Pearl Harbor was bombed, and the US sent fleets into the Pacific.
+<v Chris Neary>船沿着非洲海岸航行，绕过好望角。而在航行期间，他们留下的家园滑入了战争。当他们在海上时，东条首相上台，珍珠港被炸，美国派遣舰队进入太平洋。
+
+00:26:43.530 --> 00:26:57.760
+<v Chris Neary>On the day they hit dry land, more than three months after they'd first set sail, Germany formally declared war on the United States. And unfortunately, they hadn't landed in neutral Portugal, but in the German-occupied French port of Bordeaux.
+<v Chris Neary>在他们登陆那天，距离他们首次启航已经过去了三个多月，德国正式对美国宣战。不幸的是，他们没有登陆在中立的葡萄牙，而是在德国占领的法国港口波尔多。
+
+00:26:57.760 --> 00:27:17.390
+<v Chris Neary>Not surprisingly, the two men were taken to be Americans and put in an internment camp. After a couple of days, though, interpreters came around and discovered that both Wolf and Herbie had been born in Germany and left for America as little kids. Herbie was sent to relatives in the German town of Stettin, Wolf to his grandparents in Konigsberg.
+<v Chris Neary>不出所料，两人被当成了美国人并关进了拘留营。不过几天后，翻译员来了，发现沃尔夫和赫比都是在德国出生，小时候就去了美国。赫比被送往德国城镇斯德丁（Stettin）的亲戚家，沃尔夫被送到柯尼斯堡（Konigsberg）的祖父母家。
+
+00:27:17.390 --> 00:27:23.100
+<v Wolfgang Wergin>That was funny, too, because they couldn't speak English and I couldn't speak German.
+<v Wolfgang Wergin>那也很有趣，因为他们不会说英语，我也不会说德语。
+
+00:27:23.100 --> 00:27:25.940
+<v Wolfgang Wergin>[LAUGHS]
+<v Wolfgang Wergin>[笑声]
+
+00:27:25.940 --> 00:27:33.080
+<v Wolfgang Wergin>The only thing that my mother ever said to me or I ever said to her was nach de tur: close the door.
+<v Wolfgang Wergin>我母亲对我说的或我对她说的唯一一句话就是“nach de tur”：关门。
+
+00:27:33.080 --> 00:27:59.150
+<v Chris Neary>In Stettin, Herbie was contacted by a man named Walter Kappe. Kappe was the head of the espionage program that recruited the saboteurs and sent them to the US. A blustery man full of ideas, Kappe had also spent decades in America before the war and had come back when Hitler came to power. In Herbie, he saw an affable young man, a perfect double agent. In the eager Kappe, Herbie saw a ticket back home.
+<v Chris Neary>在斯德丁，赫比被一个叫瓦尔特·卡佩（Walter Kappe）的人联系上。卡佩是负责招募破坏分子并派往美国的间谍项目的负责人。卡佩是一个满脑子主意的吹牛大王，他在战前也在美国生活了几十年，希特勒上台后才回来。在赫比身上，他看到了一个和蔼可亲的年轻人，一个完美的双重间谍。在热切的卡佩身上，赫比看到了回家的机票。
+
+00:27:59.150 --> 00:28:05.320
+<v Chris Neary>Herbie sent a letter to Wolf explaining it all and inviting him to Berlin to a meeting in Kappe's office.
+<v Chris Neary>赫比发信给沃尔夫解释了一切，并邀请他去柏林参加卡佩办公室的一个会议。
+
+00:28:05.320 --> 00:28:48.240
+<v Wolfgang Wergin>And we sat down, and he give us this spiel, you know, we would be doing our thing for the Fatherland and that kind of stuff. But it seemed, to me, that he had a dislike for me right from the beginning, maybe because I didn't immediately take to his scheme here. And, for some reason, we just never even considered me being part of it, but Herbie was.
+<v Wolfgang Wergin>我们坐下来，他给我们这一套说辞，你知道的，我们是在为祖国做贡献之类的。但对我来说，似乎从一开始他就对我有些反感，也许是因为我没有立即接受他的阴谋。出于某种原因，我们甚至从未考虑过让我参与其中，但赫比参与了。
+
+00:28:48.240 --> 00:28:52.240
+<v Chris Neary>After the meeting, the two went back to Stettin to talk things over.
+<v Chris Neary>会议结束后，两人回到斯德丁商量事情。
+
+00:28:52.240 --> 00:29:36.490
+<v Wolfgang Wergin>The last time I saw Herbie was in Stettin. We were at his uncle's house, and we had a little bit of wine and things. And what Herbie told me was that, when he found out that they were going to have this school and they were going to send the saboteurs back to the United States, he said, well, it's great. I can't wait to get back. And I said to him, Herbie.
+<v Wolfgang Wergin>最后一次见赫比是在斯德丁。我们在他叔叔家，喝了一点酒之类的。赫比告诉我的是，当他发现他们要办这个学校，要派破坏分子回美国时，他说，哦，这太棒了。我迫不及待想回去了。我对他说，赫比。
+
+00:29:36.490 --> 00:29:53.590
+<v Wolfgang Wergin>Now in those days-- we grew up in Chicago-- you've got to remember that the G-men, the FBI, were the big thing. There was Dillinger, they gunned down Dillinger.
+<v Wolfgang Wergin>在那个年代——我们在芝加哥长大——你必须记住，G人（联邦调查局探员）是大事。那时有迪林杰（Dillinger），他们击毙了迪林杰。
+
+00:29:53.590 --> 00:30:11.540
+<v Wolfgang Wergin>And I said Herbie, you're not going to make it. You go back and the G-men is going to get you and put your ass in jail. And he said, no, no, no. I'm going to go over there and I'm going to disappear.
+<v Wolfgang Wergin>我说赫比，你不会成功的。你回去的话，G人会抓住你，把你关进监狱。他说，不，不，不。我要去那边，然后我会消失。
+
+00:30:11.540 --> 00:31:08.530
+<v Wolfgang Wergin>Herbie thought he was putting one over on them. And, for some reason, he was almost jovial. And then he just burst out crying. There was no words. There was just sobs. And I don't know what made him start bawling like that. That's the thing that bothers me today, is why would he, all of a sudden? Was it the fear of going into something that he had no intention of completing? Or was it the fear that what I'd said was probably true, that he would be put in jail? I don't know. The only thing I can say is that I was embarrassed. That's all.
+<v Wolfgang Wergin>赫比以为他能骗过他们。出于某种原因，他几乎是兴高采烈的。然后他突然放声大哭。没有言语。只有啜泣。我不知道是什么让他突然哭得那样。今天困扰我的事情就是，他为什么要突然这样？是因为害怕去做一些他根本没打算完成的事情吗？还是害怕我说的可能是真的，他会被关进监狱？我不知道。我唯一能说的是，我感到尴尬。就这样。
+
+00:31:08.530 --> 00:31:10.070
+<v Chris Neary>Embarrassed?
+<v Chris Neary>尴尬？
+
+00:31:10.070 --> 00:31:12.400
+<v Wolfgang Wergin>I was embarrassed for him.
+<v Wolfgang Wergin>我为他感到尴尬。
+
+00:31:12.400 --> 00:31:28.750
+<v Chris Neary>Wolf went back to his grandmother's house, where within a week he was drafted into the German army and sent to the Russian front. He spent two years there in slimy foxholes, in some of the bloodiest battles of World War II. Herbie got on the U-boat to America.
+<v Chris Neary>沃尔夫回到了祖母家，一周内就被征召进德国军队并被派往俄国前线。他在那里污秽的战壕里待了两年，经历了二战中最血腥的几场战斗。赫比登上了去美国的U型潜艇。
+
+00:31:28.750 --> 00:31:49.640
+<v Chris Neary>There's still a question about how serious he and the other seven saboteurs were in their intention to commit sabotage. And people who've studied the case say that one of them was an ideologically committed Nazi. Three of the men, Herbie, Dasch, and Burger, seemed to have had no interest in the mission, and the rest are anyone's guess. They're described as a not very impressive bunch, in over their heads.
+<v Chris Neary>关于他和另外七名破坏分子是否真心打算搞破坏，仍然存在疑问。研究过此案的人说，其中一人是意识形态上坚定的纳粹分子。赫比、达什和伯格这三人，似乎对任务毫无兴趣，其余的人就随便猜了。他们被描述为一群不太令人印象深刻、力不从心的家伙。
+
+00:31:49.640 --> 00:32:09.240
+<v Jonathan Mann>Let's see here. All right. These are copies of the official stenographic transcript of the proceeding before the military commission to try persons charged with offenses against the Law of War and The Articles of War.
+<v Jonathan Mann>看看这里。好的。这些是针对违反战争法和《战争条款》指控人员的军事委员会程序官方速记副本。
+
+00:32:09.240 --> 00:32:27.520
+<v Chris Neary>In his office, Jonathan Mann flips through one of his many binders of trial transcripts. Mann got interested in the Quirin case in the early '80s, the result, he says, of a history thesis gone awry. He'd spent years tracking down all the living participants in the case and these formerly secret trial transcripts.
+<v Chris Neary>在办公室里，乔纳森·曼（Jonathan Mann）翻阅着他那许多装订好的审判笔录之一。曼在80年代初对奎林案产生了兴趣，他说这是历史论文出错的结果。他花了几年时间追寻此案的所有在世参与者和这些以前保密的审判笔录。
+
+00:32:27.520 --> 00:32:44.180
+<v Chris Neary>There are 18 binders in all. And reading through them, you get a sense for what the proceedings were like. They were held on the sixth floor of the Justice Department. No press was allowed. Photos from the time show the defendants in the double-breasted suits and two-toned shoes that they had bought on their shopping spree.
+<v Chris Neary>总共有18本装订册。读着这些内容，你会对程序是什么样子的有一个感觉。它们是在司法部六楼举行的。不允许媒体进入。当时的照片显示被告穿着他们在疯狂购物时买的双排扣西装和双色鞋。
+
+00:32:44.180 --> 00:32:50.340
+<v Jonathan Mann>And here's Eddie Kerling, Neubauer, Quirin, Thiel.
+<v Jonathan Mann>这是埃迪·克林、纽鲍尔（Neubauer）、奎林、蒂尔。
+
+00:32:50.340 --> 00:33:19.480
+<v Chris Neary>They were defended by an army officer named Colonel Kenneth Royall. Colonel Royall didn't relish the idea of defending eight of his country's sworn enemies, but he took his job seriously. And right away, he realized that, if he was after a fair trial for them, he was in the wrong place. In the transcripts, the very first argument he makes to the commission is the same argument that those assigned to defend the detainees at Guantanamo are making today, namely that his clients should be allowed access to civilian courts.
+<v Chris Neary>他们由一名叫肯尼斯·罗亚尔（Kenneth Royall）上校的陆军军官辩护。罗亚尔上校并不喜欢为八名国家的宿敌辩护，但他很严肃地对待自己的工作。他立刻意识到，如果他要为他们争取公正的审判，那他来错地方了。在笔录中，他向委员会提出的第一个论点，与今天那些被指派为关塔那摩被拘留者辩护的律师所提出的论点相同，即他的客户应该被允许进入民事法院。
+
+00:33:19.480 --> 00:33:43.830
+<v Jonathan Mann>Colonel Royall immediately stands up and he says, "In deference to the commission and in order that we may not waive, for our clients, any rights which may belong to them, we desire to state that, in our opinion, the order of the President of the United States creating this court is invalid and unconstitutional."
+<v Jonathan Mann>罗亚尔上校立刻站起来说：“出于对委员会的尊重，为了不放弃我们的客户可能享有的任何权利，我们想声明，在我们看来，美国总统建立这个法院的命令是无效和违宪的。”
+
+00:33:43.830 --> 00:33:52.630
+<v Chris Neary>Lloyd Cutler, who was a lawyer with the prosecution, says Royall's arguments fell on deaf ears, which isn't surprising considering who his audience was.
+<v Chris Neary>身为控方律师之一的劳埃德·卡特勒说，罗亚尔的论点没有被听进去，考虑到他的听众是谁，这并不奇怪。
+
+00:33:52.630 --> 00:34:27.240
+<v Lloyd Cutler>The judges were seven major generals, of whom only one was a lawyer. And Attorney General Biddle asked the first question of one of the defendants, because all of them took the stand. Colonel Royall, who was assigned to defend those people, stood up and objected that no proper foundation for the question had been laid. He was perfectly right, but under the military procedure, the court adjourned to decide how to deal with the motion.
+<v Lloyd Cutler>法官是七名少将，其中只有一人是律师。司法部长比德尔对其中一名被告提出了第一个问题，因为他们所有人都出庭作证了。被指派为这些人辩护的罗亚尔上校站起来提出反对，说该问题的适当基础尚未建立。他是完全正确的，但根据军事程序，法院休庭以决定如何处理该动议。
+
+00:34:27.240 --> 00:34:59.290
+<v Lloyd Cutler>And they stayed out for 45 minutes, which was just about long enough to smoke a good cigar. And they came back in and they denied the motion. The next moment, the Attorney General asked the second question. Colonel Royall objected a second time. The same thing happened: another 45-minute adjournment. The generals came back: motion denied. And as a result, Royall never made another objection.
+<v Lloyd Cutler>他们休庭了45分钟，这时间刚好够抽根好雪茄。他们回来后，驳回了动议。下一刻，司法部长提出了第二个问题。罗亚尔上校第二次提出反对。同样的事情发生了：又一次45分钟的休庭。将军们回来了：动议驳回。结果，罗亚尔再也没有提出过反对意见。
+
+00:34:59.290 --> 00:35:17.940
+<v Chris Neary>But if the defense could read the writing on the wall, the men they were defending had a harder time. The gulf between the facts as they understood them, and the story that was being told about them was so huge that, while the entire country was calling for them to be executed, they were thinking about their future. Again, writer, Michael Dobbs.
+<v Chris Neary>但如果辩方能读懂墙上的字，那么他们所辩护的人却更难理解。他们理解的事实与关于他们的故事之间的鸿沟太大了，以至于当整个国家呼吁处决他们时，他们正在考虑未来。再次请出撰稿人迈克尔·多布斯。
+
+00:35:17.940 --> 00:35:55.660
+<v Michael Dobbs>They didn't really understand the extent of the trouble that they were in. After all, they hadn't actually carried out any sabotage against the United States. And at one point, Herbie Haupt said in the trial that the prosecutor asked him whether he said that he had intended to turn everybody in himself. And the FBI said, oh, what would you do then? And he said, well, then I intended to go off on my honeymoon with my old girlfriend from Chicago, who he had, in the meantime, proposed to.
+<v Michael Dobbs>他们并不真正理解自己所处困境的程度。毕竟，他们实际上并没有对美国进行任何破坏。有一次，赫比·豪普特在审判中提到，检察官问他是否说过他打算把每个人都供出来。FBI说，那你打算怎么办？他说，嗯，那我打算和我在芝加哥的老女友去度蜜月，期间他还向她求了婚。
+
+00:35:55.660 --> 00:36:30.230
+<v Michael Dobbs>And the prosecutor was incredulous and said, how can you think you'd go off on a honeymoon when you've just admitted to being part of a sabotage mission against the US? And he said, well, if I turned everybody in, there'd be no reason to be guilty of anything, so I could go off on my honeymoon. And I think that reflects the kind of naive attitude that he had to this mission. He thought that, if he cooperated with the FBI, then perhaps they'd hold him for a little bit, but then they'd let him go.
+<v Michael Dobbs>检察官表示怀疑，说你怎么能认为你在承认参与了针对美国的破坏任务后还能去度蜜月？他说，嗯，如果我把大家都供出来，就没有任何理由被定罪了，所以我可以去度蜜月。我认为这反映了对待这项任务的那种幼稚态度。他认为，如果他与FBI合作，那么也许他们会扣留他一小会儿，但之后会放了他。
+
+00:36:30.230 --> 00:36:46.580
+<v Chris Neary>On July 27th, after making his final arguments before the commission, Colonel Royall sent an appeal to the Supreme Court. That appeal would become the Quirin case. In it, Royall argued that all legal precedent suggested that the saboteurs should be tried in civilian courts.
+<v Chris Neary>7月27日，在委员会面前做完最后辩论后，罗亚尔上校向最高法院提出上诉。该上诉将成为奎林案。在书中，罗亚尔辩称，所有法律先例都建议应该在民事法院审判破坏分子。
+
+00:36:46.580 --> 00:37:11.120
+<v Chris Neary>Under intense pressure from the Administration, the Supreme Court took the highly unusual step of meeting out of session. Three days after hearing arguments, blinding speed for a Supreme Court, the Justices refused Royall's appeal, but they did settle in an even more unusual manner. They offered their decision without any supporting opinions, saying, in effect, it's fine for now. You don't have to free them. We'll explain our reason soon.
+<v Chris Neary>在行政当局的巨大压力下，最高法院采取了非常不寻常的步骤，在休庭期间开会。在听取辩论三天后——对于最高法院来说是惊人的速度——大法官们拒绝了罗亚尔的上诉，但他们以一种更不寻常的方式解决问题。他们提出了没有支持意见的裁决，实际上说：现在这样就行了。你们不需要释放他们。我们很快会解释原因。
+
+00:37:11.120 --> 00:37:38.090
+<v Chris Neary>But nine days later, long before the opinions could possibly be issued, Roosevelt pronounced the sentences. Dasch and Burger were given long jail time. The other six, including Herbie Haupt, were executed in the electric chair. At the time, most people had no problem with that. And even today, Lloyd Cutler, who was one of the prosecutors, and Duane Traynor, the FBI agent, say it was the right decision. It was wartime.
+<v Chris Neary>但九天后，在意见发表之前，罗斯福宣布了判决。达什和伯格被判长期监禁。其他六人，包括赫比·豪普特，在电椅上被处决。当时，大多数人对此没有意见。即使在今天，担任检察官之一的劳埃德·卡特勒和FBI探员杜安·特雷纳也说这是正确的决定。那是战争时期。
+
+00:37:38.090 --> 00:37:59.280
+<v Duane Traynor>All six of them that got executed, you feel sorry for them. They really didn't want to do it. But they were allegedly trying to hurt the United States.
+<v Duane Traynor>那六个被处决的人，你为他们感到遗憾。他们真的不想那样做。但他们据称在试图伤害美国。
+
+00:37:59.280 --> 00:38:08.130
+<v Chris Neary>They were allegedly trying to do this, but you knew that at least six out of the eight of them really had no intention of doing anything.
+<v Chris Neary>他们据称在试图这样做，但你知道他们八人中至少有六个真的没有任何搞破坏的打算。
+
+00:38:08.130 --> 00:38:14.790
+<v Duane Traynor>Oh, it doesn't make any difference. You have to make an example of them.
+<v Duane Traynor>哦，那没什么区别。你必须以他们为例。
+
+00:38:14.790 --> 00:38:19.060
+<v Chris Neary>Why was it important to make an example of them?
+<v Chris Neary>为什么以他们为例很重要？
+
+00:38:19.060 --> 00:38:54.650
+<v Duane Traynor>Oh, you had to. You know, you're in war. A lot of people in war get killed for no other reason that they're against it. People over there in Iraq are getting killed all the time, but it's war. You have to look at them as enemies. As enemies, you have to deal with them that way.
+<v Duane Traynor>哦，必须这样。你知道，你处于战争中。战争中很多人被杀，原因仅仅是他们站在对立面。伊拉克的那些人一直被杀，但这就是战争。你必须把他们视为敌人。作为敌人，你必须那样对待他们。
+
+00:38:54.650 --> 00:39:16.150
+<v Chris Neary>The Quirin case authorized this notion of wartime justice, that, in times of war, we don't have the luxury of normal procedures and civil liberties. But it didn't take until the end of the war for the Supreme Court justices, who made the Quirin decision, to start regretting it. Justice Stone had second thoughts the day he sat down to write the opinion for the court in 1942.
+<v Chris Neary>奎林案授权了这种战时正义的概念：在战争时期，我们没有奢侈去进行正常程序和民事自由。但这并没让做出奎林案裁决的最高法院大法官们等到战争结束就开始后悔。斯通（Stone）大法官在1942年坐下来为法院撰写意见时，有了第二次想法。
+
+00:39:16.150 --> 00:39:30.670
+<v Michael Greenberger>It is clear that four of the nine justices, after the fact, believed they had made a mistake and pretty quickly came to the conclusion that they'd been buffaloed into this and regretted what they had done.
+<v Michael Greenberger>很明显，九位大法官中有四位事后认为他们犯了错，并且很快得出结论，他们是被忽悠进了这件事，并为他们所做的一切感到后悔。
+
+00:39:30.670 --> 00:39:38.660
+<v Chris Neary>Michael Greenberger, a Law professor at the University of Maryland and head of the school's Center for Health and Homeland Security, has studied the Quirin case.
+<v Chris Neary>马里兰大学法律教授、该校健康与国土安全中心负责人迈克尔·格林伯格（Michael Greenberger）研究过奎林案。
+
+00:39:38.660 --> 00:40:24.080
+<v Michael Greenberger>Justice Black, in memos to other justices, for example, said that he felt as if he were involved in a meat market slaughtering cattle, and that it was a lesson to him that you could never decide a case by an order and then sit down and write out why you decided the case the way you did, that the writing itself evinces issues that you don't think about when you're just deciding thumbs up or thumbs down. So there's every sign that, if they'd given themselves the time to think it through, the decision would have been different, and they would have ruled that these people should have been tried in a civilian court, and this precedent wouldn't even exist.
+<v Michael Greenberger>例如，布莱克（Black）大法官在给其他大法官的备忘录中说，他感觉自己参与了一个屠宰牛群的肉类市场，这给了他一个教训：你永远不能通过命令来决定案件，然后坐下来写出你为什么那样决定，书写本身揭示了你在决定赞成或反对时没有考虑的问题。所以有充分迹象表明，如果他们给自己时间去思考，裁决会是不同的，他们会裁定这些人应该在民事法院受审，而这个先例甚至不会存在。
+
+00:40:24.080 --> 00:40:46.080
+<v Chris Neary>Because of the special history of the case, the fact that it was written in haste in the early, dark hours of World War II, the fact that several justices regretted the decision, Quirin was a footnote for 60 years. If anything, Quirin was a cautionary tale about the extremes courts go to in wartime, like the Korematsu case, which allowed the internment of Japanese-Americans. It wasn't used as a precedent.
+<v Chris Neary>由于案件的特殊历史，因为它是在二战黑暗的早期匆忙写成的，因为几位大法官后悔了这个决定，奎林案在60年里一直是一个脚注。如果说有什么不同的话，奎林案是一个关于法院在战时走极端的警示故事，就像允许拘禁日裔美国人的“是松案”（Korematsu case）一样。它并没有被用作先例。
+
+00:40:46.080 --> 00:41:06.260
+<v Chris Neary>But after September 11th, the Bush administration started citing the case, saying that, again, we're a nation at war and that enemies captured on US soil should be tried in military courts. Greenberger says he understands the impulse to hold military trials, but says the danger of reviving the Quirin case like this is that we'll end up with show trials just like the saboteurs got.
+<v Chris Neary>但在9月11日之后，布什政府开始引用该案，称我们再次处于战争状态，在美国本土抓获的敌人应该在军事法庭受审。格林伯格说他理解进行军事审判的冲动，但表示像这样重提奎林案的危险在于，我们会以一场像破坏分子那样得到的“表演性审判”而告终。
+
+00:41:06.260 --> 00:41:36.440
+<v Michael Greenberger>When you use a process that does not really help you get to the truth, you can easily commit injustices. Had these people been tried in a civilian court, the lack of threat these people posed to the United States would have been clearer. And to the extent ex parte Quirin is being used today to say that people are guilty without giving them some kind of process, we are falling into the same pattern.
+<v Michael Greenberger>当你使用一个并不能真正帮助你获得真相的程序时，你很容易犯下不公。如果这些人是在民事法院受审，这些人对美国构成的威胁之小将会更清晰。而就目前引用“奎林案”来声称人们有罪却不给他们任何程序而言，我们正在陷入同样的模式。
+
+00:41:36.440 --> 00:41:52.860
+<v Chris Neary>This April, the Supreme Court will take up the case of Jose Padilla, a US citizen seized and held without charges for two years, and will decide, by summer, weather Quirin justifies that kind of treatment today. The verdict in the sabotage trial will be back in court again.
+<v Chris Neary>今年4月，最高法院将审理乔斯·帕迪利亚（Jose Padilla）的案件，这是一名美国公民，被扣押且两年未受指控，最高法院将在夏季前决定“奎林案”是否能证明今天那种对待方式是正当的。破坏审判的判决将再次回到法庭。
+
+00:41:52.860 --> 00:43:04.180
+<v Ira Glass>Chris Neary. Coming up, we sit the pollsters down and we ask the questions. That's in a minute, from Chicago Public Radio and Public Radio International, when our program continues.
+<v Ira Glass>克里斯·尼里。接下来，我们将让民调机构坐下来，我们问一些问题。那一分钟之后，来自芝加哥公共广播电台和国际公共广播电台，当我们的节目继续时。
+
+00:43:04.180 --> 00:43:13.270
+<v Ira Glass>It's This American Life. I'm Ira Glass. Today on our program, The Facts Don't Matter. We have arrived at Act Two of our program. Act Two, Mush Polling.
+<v Ira Glass>这是《美国生活》。我是艾拉·格拉斯。今天在我们的节目中：事实不重要。我们已经到了节目的第二幕。第二幕：模糊民调。
+
+00:43:13.270 --> 00:43:37.810
+<v Ira Glass>Whenever poll results have shown up in the news these last few months, I've thought about this story that one of our producers tells. She was a reporter at The Baltimore Sun. And the newspaper commissioned polls on elections that were coming up. And it was our producer Sarah Koenig's job to call up the people who'd already been polled by this fancy polling organization, and ask them to shed some light on why they had chosen the particular candidates they had chosen, to put some quotes into a story about the poll.
+<v Ira Glass>每当过去几个月新闻中出现民调结果时，我都会想到我们的制片人讲的这个故事。她曾经是《巴尔的摩太阳报》的记者。报纸委托民调机构调查即将到来的选举。我们的制片人莎拉·柯尼格（Sarah Koenig）的工作是打电话给那些已经被这家高级民调机构调查过的人，问他们能否解释为什么选择他们所选的候选人，以便为关于民调的报道增加一些引用语。
+
+00:43:37.810 --> 00:44:04.470
+<v Ira Glass>And Sarah says that the problem was so many of the people who she called didn't really know much about the candidates who they had chosen. They didn't know what they stood for, or they had it wrong what they stood for. They'd say things like, oh, wait, is he that tall one? The poll presented their opinions as hard fact, but really their opinions were kind of a vague cloud of feelings, wispy and malleable still.
+<v Ira Glass>莎拉说问题在于，她打电话的许多人对他们选择的候选人并不真正了解。他们不知道候选人代表什么，或者对候选人的立场有误解。他们会说：“哦，等下，他是那个高个子吗？”民调将他们的观点呈现为硬事实，但实际上他们的观点就像一团模糊的感觉，依然缥缈且可塑。
+
+00:44:04.470 --> 00:44:21.360
+<v Ira Glass>And poll numbers, especially during elections, are a huge, big deal. They dictate which candidate is going to get covered on the news, which dictates who's going to be able to raise campaign dollars. They have real-world consequences. So how wispy are they? How worrisome is this? Sarah went to find out.
+<v Ira Glass>而民调数字，特别是在选举期间，是一件天大的事。它们决定了哪位候选人会在新闻中得到报道，这决定了谁能筹集到竞选资金。它们具有现实世界的后果。那么它们有多缥缈？这有多令人担忧？莎拉去寻找了答案。
+
+00:44:21.360 --> 00:44:37.140
+<v Sarah Koenig>I called Zogby International, one of the country's main polling operations. It's run by John Zogby, who agreed to let me watch his callers conduct a tracking poll he was doing for Reuters and MSNBC of Wisconsin's presidential primary.
+<v Sarah Koenig>我给佐格比国际（Zogby International）打了电话，这是全国主要的民调机构之一。它由约翰·佐格比（John Zogby）经营，他同意让我观察他的接线员为路透社和MSNBC进行的威斯康星州总统初选追踪民调。
+
+00:44:37.140 --> 00:45:03.340
+<v Sarah Koenig>Zogby's call center in Utica, New York is on the third floor of an old General Electric factory. The rest of the million-square-foot building is basically empty, so the feeling is of this one, buzzing cell inside a huge industrial carcass. The room is row after row of about 100 cubicles, but each contain a computer and that's it, no photos of kids or beanie babies on top of the machines. Supervisors walk up and down the aisles, making sure people are pronouncing words properly and sticking to the script.
+<v Sarah Koenig>佐格比在纽约尤蒂卡（Utica）的呼叫中心位于一家老通用电气工厂的三楼。剩下的百万平方英尺建筑基本上是空的，所以感觉就像在一个巨大的工业残骸中，有一个嗡嗡作响的细胞。房间里排满了大约100个隔间，但每个隔间都只有一台电脑，仅此而已，机器上没有孩子或豆豆玩偶的照片。主管们在过道里走来走去，确保人们读音正确并遵守脚本。
+
+00:45:03.340 --> 00:45:15.770
+<v Aileen>As a Protestant, dear, do you consider yourself to be a born-again Christian, an Evangelical, or a Fundamentalist? Born again? That's wonderful. I'll see you in heaven one day. The Lord says we'll know one another.
+<v Aileen>作为新教徒，亲爱的，你认为自己是重生基督徒、福音派还是原教旨主义者？重生？那太棒了。我有一天会在天堂见到你。主说我们会认识彼此的。
+
+00:45:15.770 --> 00:45:16.940
+<v Aileen>[LAUGHS]
+<v Aileen>[笑声]
+
+00:45:16.940 --> 00:45:18.060
+<v Aileen>Oh, thank you.
+<v Aileen>哦，谢谢。
+
+00:45:18.060 --> 00:45:22.430
+<v Sarah Koenig>Of course, some people have a much harder time sticking to the script than others.
+<v Sarah Koenig>当然，有些人比其他人更难遵守脚本。
+
+00:45:22.430 --> 00:45:41.450
+<v Aileen>Which of the following best describes your status in life, dear. Are you married? Single? Oh, I know you were married. Are you a widow, dear? I am very sorry. I'm a widow also. Trust me when I tell you my heart goes out to you. Yes, I do appreciate where widows are coming from. Do you, or does anyone in your household, keep a gun for, like, personal--
+<v Aileen>以下哪项最能描述你的生活状态，亲爱的。你结婚了吗？单身？哦，我知道你结过婚。你是寡妇吗，亲爱的？我很遗憾。我也是寡妇。相信我，我对你的遭遇感同身受。是的，我理解寡妇们的处境。你或者你家里有人为了个人原因持有枪支吗……
+
+00:45:41.450 --> 00:45:55.400
+<v Sarah Koenig>The Wisconsin poll was short, a handful of questions about the general and primary elections and how the person felt about the candidates: very favorable, somewhat favorable, et cetera. Then there were a bunch of demographic questions. The whole thing took about seven minutes.
+<v Sarah Koenig>威斯康星州的民调很短，有少数几个关于大选和初选的问题，以及个人对候选人的感觉：非常赞同、有些赞同等等。然后有一堆人口统计问题。整个过程大概花了七分钟。
+
+00:45:55.400 --> 00:46:15.500
+<v Sarah Koenig>The Zogby staff I talked to were surprisingly idealistic about how important polling was for democracy. Aileen, the born-again widow you just heard, calls each respondent a good, American citizen at the end of the survey, and has been known to salute her computer. Another caller told me answering a poll is more effective than voting because politicians actually listen to polls.
+<v Sarah Koenig>我交谈过的佐格比员工对民调对民主有多重要有着令人惊讶的理想主义。刚才你听到的那个重生基督徒寡妇艾琳，在调查结束时称每位受访者为“好美国公民”，而且据说还会向她的电脑敬礼。另一位接线员告诉我，回答民调比投票更有效，因为政客们真的会听民调。
+
+00:46:15.500 --> 00:46:24.280
+<v Boden>Hello. Good afternoon. My name is Boden and I'm calling from Zogby International. Today, we're doing a poll of Wisconsin voters for Reuters MSNBC News.
+<v Boden>你好。下午好。我是博登（Boden），来自佐格比国际。今天，我们正在为路透社MSNBC新闻进行威斯康星州选民的民调。
+
+00:46:24.280 --> 00:46:54.490
+<v Sarah Koenig>I watched Boden [? Kwazoski ?] a farmer, and DJ, and MIT-trained physicist, make his calls for about an hour. I wanted to see how often people are undecided, vague, or simply uninformed, and end up in the results anyway. The first thing I discovered is it's really hard to get someone to answer a poll. For Zogby's Wisconsin sample of 600 completed surveys, they had to call almost 10,000 telephone numbers. In an hour, Boden reaches three people who are willing to stay on the phone to take the poll, which is average.
+<v Sarah Koenig>我观察博登·克瓦佐斯基（Boden Kwazoski）——一个农民、DJ和麻省理工学院毕业的物理学家——打电话大约一个小时。我想看看人们有多少时候是不确定的、模糊的或者干脆一无所知，却最终还是出现在结果中。我发现的第一件事是，要让人回答民调真的很难。对于佐格比威斯康星州600份完成的调查样本，他们必须拨打近10,000个电话号码。一个小时内，博登联系到了三个人愿意留在电话上完成调查，这是平均水平。
+
+00:46:54.490 --> 00:47:01.460
+<v Boden>And how likely are you to vote in the national elections: very likely, somewhat likely, or not likely? Very likely.
+<v Boden>你参加全国选举的可能性有多大：非常可能、有些可能还是不太可能？非常可能。
+
+00:47:01.460 --> 00:47:12.600
+<v Sarah Koenig>The very first voter I watch him get is a woman: age 41, union member, separated, college graduate, white, conservative, makes between $35,000 and $50,000 a year. And she turns out to be exactly what I'm looking for.
+<v Sarah Koenig>我观察他联系到的第一个选民是一位女性：41岁，工会成员，分居，大学毕业生，白人，保守派，年收入在35,000到50,000美元之间。她正好是我要找的人。
+
+00:47:12.600 --> 00:47:39.720
+<v Boden>And the Democratic candidates, the Democratic candidates for president in 2004 are Howard Dean, John Edwards, John Kerry, Dennis Kucinich, and Al Sharpton. If the primary were held today, for whom would you vote out of these Democrats? OK. You sure you're not sure? Or might you be leaning towards one? You're not sure at this point. OK.
+<v Boden>2004年的民主党总统候选人有霍华德·迪恩（Howard Dean）、约翰·爱德华兹（John Edwards）、约翰·克里（John Kerry）、丹尼斯·库西尼奇（Dennis Kucinich）和阿尔·夏普顿（Al Sharpton）。如果今天举行初选，你会投票给这些民主党人中的哪一位？好的。你确定不确定？还是你可能倾向于其中一个？你现在还不确定。好的。
+
+00:47:39.720 --> 00:47:46.400
+<v Sarah Koenig>He enters undecided into his computer, and a screen comes up with this question, which is basically the same question asked in a different way.
+<v Sarah Koenig>他把“不确定”输入电脑，屏幕上跳出了这个问题，基本上是以另一种方式询问同一个问题。
+
+00:47:46.400 --> 00:48:16.940
+<v Boden>And, if you had to choose today, if you had to choose, which candidate might you just be leaning towards: Dean, Edwards, Kerry, Kucinich, or Sharpton? Just the slightest lean towards one of them, if you had to choose today? Dean, Edwards, Kerry, Kucinich, or Sharpton? Dean? OK. Thank you.
+<v Boden>而且，如果你今天必须做出选择，如果你必须做出选择，你会倾向于哪位候选人：迪恩、爱德华兹、克里、库西尼奇还是夏普顿？如果你今天必须选择，哪怕是一点点倾向于其中一个？迪恩、爱德华兹、克里、库西尼奇还是夏普顿？迪恩？好的。谢谢。
+
+00:48:16.940 --> 00:48:28.820
+<v Sarah Koenig>And there you have it. She's officially a leaner. She'll now be counted as a Dean voter. In this particular poll, 7% of all the respondents were just like her, leaners who had to be prodded.
+<v Sarah Koenig>就这样。她正式成为了一个“倾向者”。现在她将被算作迪恩的选民。在这次特定的民调中，所有受访者中有7%像她一样，是必须被引导才能做出选择的倾向者。
+
+00:48:28.820 --> 00:48:52.250
+<v Sarah Koenig>There is an I don't know button Boden can push for almost every question on the poll, but he's not allowed to offer it to the respondent. He can only use it if they say they don't know. Everyone at Zogby seemed to truly care about getting an accurate poll, and none of them worried about whether they were pushing undecideds to choose. In fact, the only person in the building who had any problem with how the poll dealt with uncertainty was me.
+<v Sarah Koenig>博登可以点击民调中几乎每个问题下的“我不知道”按钮，但他不被允许向受访者提供这个选项。他只能在受访者自己说不知道时使用它。佐格比的每个人似乎都真诚地关心得到准确的民调，没有人担心他们是否在推动不确定的选民做出选择。事实上，大楼里唯一对民调如何处理不确定性有意见的人是我。
+
+00:48:52.250 --> 00:49:05.950
+<v Sarah Koenig>So I called someone outside the building. I described what I'd seen at Zogby to Daniel Yankelovich, a famous, old-school pollster who started The New York Times Yankelovich Poll in the 1970s. Now he's chairman of two organizations, Viewpoint Learning and Public Agenda.
+<v Sarah Koenig>所以我给大楼外面的人打了电话。我向丹尼尔·扬克洛维奇（Daniel Yankelovich）描述了我所见，他是著名的老派民调专家，在1970年代发起了《纽约时报》扬克洛维奇民调。现在他是Viewpoint Learning和Public Agenda两个组织的董事长。
+
+00:49:05.950 --> 00:49:44.410
+<v Daniel Yankelovich>Yeah. You were observing something that's very familiar, which is, on issues where people haven't made up their mind and where they haven't given the matter a lot of thought, that their points of view are inconclusive, vague, mushy, volatile, they could change their mind in a minute or overnight. And when you see these nice, crisp numbers on polls, they can be very misleading because they seem to suggest a definiteness and precision that is not really the case.
+<v Daniel Yankelovich>是的。你观察到的是非常熟悉的情况，即在人们没有拿定主意且没有深入思考的问题上，他们的观点是不确定的、模糊的、平庸的、不稳定的，他们可能在一分钟或一夜之间改变主意。当你看到民调中那些漂亮的、清晰的数字时，它们可能会产生极大的误导，因为它们似乎暗示了一种并不存在的明确性和精确性。
+
+00:49:44.410 --> 00:50:20.980
+<v Sarah Koenig>Yankelovich has spent a lot of his career studying exactly what I was worried about. He first noticed the problem in the 1970s, and came up with a method of asking four questions on a poll that pinpointed exactly how strongly a person held his or her opinion. They were simple, like, on a scale of one to six, where one means that the issue affects you personally very little, and six means that you really feel deeply involved in this issue, where would you place yourself? Then he rated the totals on a scale of firm to mushy. In published reports, the mushy answers would be indicated by an asterisk. His system was dubbed The Mushiness Index by Time Magazine , one of his clients at the time.
+<v Sarah Koenig>扬克洛维奇职业生涯的大部分时间都在研究我所担心的问题。他首先在1970年代发现了这个问题，并想出了一种在民调中问四个问题的方法，以精准定位一个人持有其观点的力度。它们很简单，比如，“在1到6的量表上，1意味着这个问题对你的个人影响很小，6意味着你深入参与了这个问题，你会给自己排在哪里？”然后他将总分按“坚定”到“平庸”量表进行分级。在出版的报告中，平庸的回答会用星号标出。他的系统被他的客户《时代》杂志戏称为“平庸指数”（The Mushiness Index）。
+
+00:50:20.980 --> 00:50:47.090
+<v Daniel Yankelovich>And they were quite enthusiastic. And then they found, when the reporters and writers sat down to write the stories, they found it slowed them up. It slowed up the storytelling and, as a result, they just didn't use it. And it's one of the many clashes between journalistic values and polling values.
+<v Daniel Yankelovich>他们非常热情。然后他们发现，当记者和作家坐下来写文章时，发现它拖慢了进度。它减缓了叙事速度，结果他们就没再使用它。这是新闻价值观和民调价值观之间的众多冲突之一。
+
+00:50:47.090 --> 00:51:05.120
+<v Sarah Koenig>Not only is there a simple fix to mushy polls that's almost universally ignored, Yankelovich says some topics just generate more mushiness by their nature. The newer and more complicated the issue, the mushier the polls, and the higher the likelihood that the results will cause problems. It's happened many times in recent history.
+<v Sarah Koenig>平庸的民调不仅有一个几乎被普遍忽略的简单解决方法，扬克洛维奇说，某些话题本身就会产生更多的平庸。问题越新、越复杂，民调就越平庸，结果导致问题的可能性就越高。在近现代史上这种情况发生过很多次。
+
+00:51:05.120 --> 00:51:42.090
+<v Daniel Yankelovich>I mean, for example, when the Clinton Health Care Plan first surfaced in the early '90s, polls uniformly showed a more than 70% acceptance. And when we dug behind the numbers, people were so vague and the answers were so mushy, people were just sort of uttering a truism, yeah, that would be very nice. But if they had to go to any expense, or sacrifice on equality, or give up anything else, they weren't willing to do it.
+<v Daniel Yankelovich>比如，当克林顿的医疗保健计划在90年代初首次浮出水面时，民调一致显示接受度超过70%。当我们深究这些数字时，人们非常模糊，回答也非常平庸，人们只是在表达一种老生常谈，“是的，那会很好。”但如果他们必须支付任何费用，或者在平等上做出牺牲，或者放弃其他任何东西，他们就不愿意了。
+
+00:51:42.090 --> 00:52:00.920
+<v Daniel Yankelovich>And we came to the conclusion that it was not a 70% level of support. The real level of support was somewhere between 30% and 40%. Well, that's the difference between success and failure. That was the first real setback for the Clintons early in his term.
+<v Daniel Yankelovich>我们得出的结论是，并没有70%的支持水平。真正的支持水平在30%到40%之间。嗯，这就是成功与失败的区别。那是克林顿任期初期遭受的第一个真正挫折。
+
+00:52:00.920 --> 00:52:07.120
+<v Sarah Koenig>On some big issues like this, he says it takes years, decades, for people to work out their opinions.
+<v Sarah Koenig>关于这样的一些大问题，他说人们需要几年、几十年的时间才能理清自己的观点。
+
+00:52:07.120 --> 00:52:33.880
+<v Daniel Yankelovich>Take, for example, the gay marriage issue. It's new, it's just come up. There are fierce advocates on both extremes. But the mass of the public is going to have the most mushy attitudes toward it. So the fact that it's so new, it's controversial, it's full of moral ambiguity, you'd be crazy to trust poll results on a question of that sort.
+<v Daniel Yankelovich>以同性婚姻问题为例。它是新的，刚刚出现。两端都有激烈的支持者。但公众大众对它的态度将会是最平庸的。所以，由于它如此新颖、具有争议性，且充满了道德模棱两可，如果你去信任这类问题的民调结果，那你就是疯了。
+
+00:52:33.880 --> 00:52:44.710
+<v Sarah Koenig>But we do. I mean, like every day you hear people say, well, the majority of Americans agree with the Administration. There shouldn't be-- 60% of-- you know, whatever the number is. You hear it all the time.
+<v Sarah Koenig>但我们确实信了。我是说，就像每天你听到人们说，“嗯，大多数美国人同意行政当局的观点。不应该有——60%的……你知道，无论数字是多少。”你一直都能听到这种话。
+
+00:52:44.710 --> 00:52:48.170
+<v Daniel Yankelovich>Well, I mean, they're misleading.
+<v Daniel Yankelovich>好吧，我是说，它们具有误导性。
+
+00:52:48.170 --> 00:52:57.640
+<v Reporter>And as we do at the top and bottom of every hour, now here are your latest headlines. Senator John Kerry says he is fighting for every vote in Wisconsin despite a commanding lead over his Democratic rivals.
+<v Reporter>正如我们在每小时整点和半点所做的那样，现在是你们的最新头条。参议员约翰·克里说，尽管他在民主党竞争对手中领先，但他仍在为威斯康星州的每一张选票而战。
+
+00:52:57.640 --> 00:53:01.770
+<v Sarah Koenig>Zogby's poll aired on MSNBC the morning before Election Day.
+<v Sarah Koenig>佐格比的民调在选举日前一天早上在MSNBC播出。
+
+00:53:01.770 --> 00:53:12.740
+<v Reporter>According to our MSNBC Reuters Zogby poll, Senator John Kerry is leading Howard Dean 47 to 23. Senator John Edwards is in a close third with 20%.
+<v Reporter>根据我们的MSNBC路透社佐格比民调，参议员约翰·克里以47比23领先霍华德·迪恩。参议员约翰·爱德华兹以20%紧随其后。
+
+00:53:12.740 --> 00:53:43.420
+<v Sarah Koenig>Commanding lead is the same language John Zogby used in a press release to describe John Kerry's chances. His quote was used by The Associated Press in a story that ran in many newspapers, including The Boston Globe and The LA Times , the day before the Wisconsin primary. The problem was, Kerry ended up with a skimpy lead instead. He won, but only beat John Edwards by four percentage points, not 27. And Dean, instead of coming in second, as Zogby's poll showed, was a distant third.
+<v Sarah Koenig>“遥遥领先”是约翰·佐格比在新闻发布会上用来描述约翰·克里胜算的同样语言。他的引用被美联社在一篇报道中使用，该报道在威斯康星州初选前一天出现在许多报纸上，包括《波士顿环球报》和《洛杉矶时报》。问题是，克里最终只获得了微弱的领先优势。他赢了，但只比约翰·爱德华兹高出4个百分点，而不是27个。而迪恩，没有像佐格比民调显示的那样获得第二，而是以巨大的差距排在第三。
+
+00:53:43.420 --> 00:54:21.810
+<v Sarah Koenig>Zogby wasn't the only pollster who got it wrong. The day after the election, the power of incorrect polling was laid out like a textbook example. Edwards was on the front page of The New York Times , not because he'd beaten Kerry, but because he'd beaten the polls predictions. Some people complained all this gave Edwards an artificial boost, which helped him raise $310,000 on the internet the day after the election. And, they said, the faulty numbers make Kerry look like more of a loser than he really was. Newspaper stories talked of Kerry scratching out a victory and Edwards as a serious challenger in a sudden two-man race.
+<v Sarah Koenig>佐格比并不是唯一弄错的民调机构。选举后的一天，错误民调的威力就像教科书案例一样被展示出来。爱德华兹出现在了《纽约时报》头版，不是因为他击败了克里，而是因为他击败了民调的预测。有些人抱怨这一切给了爱德华兹人为的推动，帮助他在选举后一天在互联网上筹集了31万美元。而且，他们说，错误的数字让克里看起来比他实际情况更像个失败者。报纸文章谈论克里艰难夺取胜利，而爱德华兹成为了两雄争霸中的严肃挑战者。
+
+00:54:21.810 --> 00:54:43.480
+<v Sarah Koenig>I called Zogby to find out what happened. He was in LA and spoke to me from his cell phone. If he sounds a little defensive, it's because he was. Zogby is a controversial figure in polling circles. Some of his colleagues claim his methods aren't rigorous enough, and that he hypes his results in order to market his company. On the other hand, his polls are accurate enough, often enough, that he has some major clients.
+<v Sarah Koenig>我给佐格比打了电话想弄清发生了什么。他在洛杉矶，用手机和我通话。如果他听起来有点防御性，那是因为他确实如此。佐格比在民调圈是一个充满争议的人物。他的一些同事声称他的方法不够严谨，他大肆宣传结果是为了推销公司。另一方面，他的民调足够准确，次数足够多，以至于他拥有一些主要客户。
+
+00:54:43.480 --> 00:54:53.580
+<v Sarah Koenig>Is this an example where the vagueness of those people's answers played out in a way that you couldn't anticipate what's going to happen?
+<v Sarah Koenig>这是一个例子吗？那些人回答的模糊性以一种你无法预见会发生什么的方式表现了出来？
+
+00:54:53.580 --> 00:55:30.390
+<v John Zogby>All right. That's an interesting question. But look, all we're doing is taking a snapshot of a moment in time. Polls should not be seen as being predictors, even though we try to do that. Polls need to be seen as taking a temperature at a given point in time. And there is not a doubt in my mind that my poll was relatively accurate Friday, Saturday, and Sunday.
+<v John Zogby>好吧。那是个有趣的问题。但是看，我们所做的只是拍摄一个时刻的快照。民调不应该被视为预测工具，尽管我们确实尝试那样做。民调需要被视为在特定时间点测量体温。毫无疑问，我的民调在周五、周六和周日是相对准确的。
+
+00:55:30.390 --> 00:55:54.790
+<v Sarah Koenig>Zogby told me he had to stop Sunday afternoon because his client needed the numbers for Monday morning's Today Show . The problem was, after Zogby's callers stopped their work, Edwards was endorsed by Wisconsin's biggest newspaper and then did very well in a televised debate, and people changed their minds. Some pollsters I talked to said stuff like that happens all the time, and Zogby should have known better than to stop Sunday afternoon, Today Show or no Today Show.
+<v Sarah Koenig>佐格比告诉我他周日下午必须停止，因为他的客户需要数字用于周一早上的《今日秀》。问题是，佐格比的接线员停止工作后，爱德华兹获得了威斯康星州最大报纸的支持，然后在电视辩论中表现非常好，人们改变了主意。我交谈过的一些民调人员说这种事一直发生，佐格比应该知道周日下午不要停止工作，不管有没有《今日秀》。
+
+00:55:54.790 --> 00:56:14.960
+<v Sarah Koenig>I conducted a miniature poll of my own, just to see if something else could have affected the Wisconsin results. I got the phone numbers for Zogby's respondents and spoke to 15 of them. Most people said they voted for the person they told Zogby they would vote for, and some had well-thought-out reasons why. Two people said they never made it to the polls at all. And then there was Douglas Wills.
+<v Sarah Koenig>我进行了我自己的微型民调，只是为了看看是否有其他事情可能影响了威斯康星州的结果。我得到了佐格比受访者的电话号码，并与其中15人进行了交谈。大多数人说他们投票给了他们告诉佐格比会投票的人，有些人有很深思熟虑的理由。两个人说他们根本没有去投票。然后还有道格拉斯·威尔斯（Douglas Wills）。
+
+00:56:14.960 --> 00:56:16.620
+<v Douglas Wills>Hello.
+<v Douglas Wills>你好。
+
+00:56:16.620 --> 00:56:19.340
+<v Sarah Koenig>Wills was listed as a Dean voter in the poll results.
+<v Sarah Koenig>威尔斯在民调结果中被列为迪恩选民。
+
+00:56:19.340 --> 00:56:26.450
+<v Douglas Wills>Well, they said, if I had to choose one of the Democratic candidates, who would I vote for?
+<v Douglas Wills>嗯，他们说，如果我必须在民主党候选人中选择一个，我会投票给谁？
+
+00:56:26.450 --> 00:56:28.870
+<v Sarah Koenig>OK. And what was your answer to that?
+<v Sarah Koenig>好的。那你对那个问题的回答是什么？
+
+00:56:28.870 --> 00:56:29.310
+<v Douglas Wills>Dean, I believe.
+<v Douglas Wills>迪恩，我想是。
+
+00:56:29.310 --> 00:56:33.450
+<v Sarah Koenig>Dean. OK. Did you, in fact, end up voting for Dean?
+<v Sarah Koenig>迪恩。好的。你实际上最后投给了迪恩吗？
+
+00:56:33.450 --> 00:56:35.750
+<v Douglas Wills>No, I voted for Bush.
+<v Douglas Wills>不，我投给了布什。
+
+00:56:35.750 --> 00:56:41.870
+<v Sarah Koenig>So in the poll, though, when they gave you the choice, you decided to pick one.
+<v Sarah Koenig>所以在民调中，当他们给你选择时，你决定挑选一个。
+
+00:56:41.870 --> 00:56:42.710
+<v Douglas Wills>Yes.
+<v Douglas Wills>是的。
+
+00:56:42.710 --> 00:56:44.220
+<v Sarah Koenig>OK. How did you come up with Dean?
+<v Sarah Koenig>好的。你是怎么想出迪恩的？
+
+00:56:44.220 --> 00:57:04.160
+<v Douglas Wills>Oh, I really don't know. I just picked one. I said, to whoever called me, I said, well, I didn't think that I would vote for a Democrat. And they said, well, if you did vote for a Democrat, which one would you vote for? And they kind of forced me into making a choice.
+<v Douglas Wills>哦，我真的不知道。我就选了一个。我对打电话给我的那个人说，嗯，我不认为我会投票给民主党。他们说，嗯，如果你确实要投票给民主党，你会投给谁？他们有点强迫我做出选择。
+
+00:57:04.160 --> 00:57:15.890
+<v Sarah Koenig>Harley Schmieden was also listed as a Dean voter and said he liked what Dean had done about health care in Vermont, and did, in fact, vote for him. Here's why he chose Dean over John Kerry, because of a mistake I'm sure a lot of people make.
+<v Sarah Koenig>哈雷·施密登（Harley Schmieden）也被列为迪恩选民，他说他喜欢迪恩在佛蒙特州医疗保健方面的做法，并且确实投给了他。他选择迪恩而不是约翰·克里，原因是一个我相信很多人都会犯的错误。
+
+00:57:15.890 --> 00:57:24.350
+<v Harley Schmieden>I'm a World War II veteran. Anyway, and Kerry was boasting about his Vietnam record, but what he didn't tell you was when he mowed down the women and children over there one time.
+<v Harley Schmieden>我是二战老兵。总之，克里在吹嘘他的越南记录，但没告诉你的是他曾经在某次屠杀妇女和儿童。
+
+00:57:24.350 --> 00:57:25.110
+<v Sarah Koenig>He did?
+<v Sarah Koenig>他做了吗？
+
+00:57:25.110 --> 00:57:31.440
+<v Harley Schmieden>I don't know if you're even familiar with that story. Oh, yeah. He shouldn't boast about his war record.
+<v Harley Schmieden>我不知道你是否熟悉那个故事。哦，是的。他不应该吹嘘他的战争记录。
+
+00:57:31.440 --> 00:57:35.010
+<v Sarah Koenig>I thought the Kerry who got in trouble in Vietnam was Bob Kerrey.
+<v Sarah Koenig>我以为在越南惹麻烦的克里是鲍勃·克里（Bob Kerrey）。
+
+00:57:35.010 --> 00:57:37.460
+<v Harley Schmieden>Far as I know it was John Kerry.
+<v Harley Schmieden>据我所知是约翰·克里。
+
+00:57:37.460 --> 00:57:43.160
+<v Sarah Koenig>No, I'm pretty sure it's Bob Kerrey, who is also a Democrat.
+<v Sarah Koenig>不，我确定是鲍勃·克里，他也是民主党人。
+
+00:57:43.160 --> 00:57:44.730
+<v Harley Schmieden>Is that his brother?
+<v Harley Schmieden>那是他的兄弟吗？
+
+00:57:44.730 --> 00:57:48.220
+<v Sarah Koenig>No, there's no relation. In fact, Kerry is spelled slightly differently.
+<v Sarah Koenig>不，没有任何关系。事实上，Kerrey的拼写略有不同。
+
+00:57:48.220 --> 00:57:51.900
+<v Harley Schmieden>Then I'm mistaken, but that's what I thought. I thought it was John.
+<v Harley Schmieden>那我记错了，但我就是那样想的。我以为是约翰。
+
+00:57:51.900 --> 00:57:58.440
+<v Sarah Koenig>Then there was Melanie Faith, who was watching TV when I called. She was counted as voting for Dennis Kucinich.
+<v Sarah Koenig>还有梅兰妮·菲斯（Melanie Faith），我打电话给她时她正在看电视。她被算作投票给丹尼斯·库西尼奇。
+
+00:57:58.440 --> 00:58:00.970
+<v Melanie Faith>Who is it? I don't even know who he is.
+<v Melanie Faith>他是谁？我甚至不知道他是谁。
+
+00:58:00.970 --> 00:58:01.830
+<v Sarah Koenig>Oh, you don't?
+<v Sarah Koenig>哦，你不知道？
+
+00:58:01.830 --> 00:58:07.930
+<v Melanie Faith>No, I don't. Is he running for state?
+<v Melanie Faith>不，我不知道。他在竞选州长吗？
+
+00:58:07.930 --> 00:58:10.370
+<v Sarah Koenig>No. He is running for President.
+<v Sarah Koenig>不。他在竞选总统。
+
+00:58:10.370 --> 00:58:14.470
+<v Melanie Faith>Oh, no, no, no. I was not interested in him. No.
+<v Melanie Faith>哦，不，不，不。我不对他感兴趣。不。
+
+00:58:14.470 --> 00:58:14.690
+<v Sarah Koenig>You weren't?
+<v Sarah Koenig>你不感兴趣？
+
+00:58:14.690 --> 00:58:15.970
+<v Melanie Faith>No, I wasn't.
+<v Melanie Faith>不，我不感兴趣。
+
+00:58:15.970 --> 00:58:17.490
+<v Sarah Koenig>Did you end up voting in the primary?
+<v Sarah Koenig>你在初选中投票了吗？
+
+00:58:17.490 --> 00:58:18.540
+<v Melanie Faith>Yes, I did.
+<v Melanie Faith>是的，我投了。
+
+00:58:18.540 --> 00:58:19.590
+<v Sarah Koenig>And for who did you vote?
+<v Sarah Koenig>你投给了谁？
+
+00:58:19.590 --> 00:58:21.240
+<v Melanie Faith>I'd rather keep that to myself.
+<v Melanie Faith>我宁愿自己留着。
+
+00:58:21.240 --> 00:58:23.470
+<v Sarah Koenig>OK. But it was not for Kucinich?
+<v Sarah Koenig>好的。但不是投给库西尼奇？
+
+00:58:23.470 --> 00:58:25.600
+<v Melanie Faith>No. No, it wasn't.
+<v Melanie Faith>不。不，不是。
+
+00:58:25.600 --> 00:58:52.470
+<v Sarah Koenig>Several other people I talked to reminded me of the Baltimore Sun poll respondents. Like this one woman who had an opinion, she voted for Kerry, but she really just couldn't say why. The thing she liked about Kerry was Kerry. Only about half the electorate turns out for presidential elections and, of those, one prominent pollster told me, only about 20% are paying close attention to the race. In primaries, the percentages are even smaller.
+<v Sarah Koenig>我和其他几个人谈过，这让我想起了《巴尔的摩太阳报》的民调受访者。比如这位女士，她有观点，她投给了克里，但她真的说不出为什么。她喜欢克里是因为“克里”。只有大约一半的选民会参加总统选举，其中一位著名的民调专家告诉我，只有20%的人在密切关注比赛。在初选中，比例甚至更小。
+
+00:58:52.470 --> 00:59:24.630
+<v Sarah Koenig>That means that, most of the time, what political pollsters end up measuring are those mushy feelings that lead to big, general conclusions about a candidate. The classic lesson on this was the presidential election in 1984. At the end of the campaign, a Gallup poll asked people a series of policy questions. Who do you agree with, Walter Mondale or Ronald Reagan? And most people said Mondale. Then they asked them who they planned to vote for, and most people said Reagan.
+<v Sarah Koenig>这意味着，大多数时候，政治民调机构最终测量的是那些导致对候选人做出重大普遍结论的“平庸”感觉。这方面经典的教训是1984年的总统选举。在竞选结束时，盖洛普民调向人们询问了一系列政策问题。你同意沃尔特·蒙代尔（Walter Mondale）还是罗纳德·里根（Ronald Reagan）？大多数人说蒙代尔。然后他们问他们计划投票给谁，大多数人说里根。
+
+00:59:24.630 --> 00:59:35.690
+<v Ira Glass>Sarah Koenig.
+<v Ira Glass>莎拉·柯尼格。
+
+00:59:35.690 --> 00:59:44.910
+<v Ira Glass>You know, you can download audio of our program at audible.com/thisamericanlife. They have public radio programs, bestselling books, even The New York Times , all at audible.com.
+<v Ira Glass>你知道，你可以在audible.com/thisamericanlife下载我们节目的音频。他们有公共广播节目、畅销书，甚至《纽约时报》，都在audible.com。
+
+00:59:44.910 --> 00:59:47.530
+<v Ira Glass>This American Life is distributed by Public Radio International.
+<v Ira Glass>《美国生活》由国际公共广播电台分发。
+
+00:59:47.530 --> 00:59:55.650
+<v Ira Glass>[FUNDING CREDITS]
+<v Ira Glass>[资助名单]
+
+00:59:55.650 --> 00:59:59.480
+<v Ira Glass>WBEZ management oversight by Mr. Torey Malatia, who says--
+<v Ira Glass>WBEZ的管理由托里·马拉蒂亚（Torey Malatia）先生负责，他说——
+
+00:59:59.480 --> 01:00:02.620
+<v Howard Stern>The government is closing in on me.
+<v Howard Stern>政府正在向我施压。
+
+01:00:02.620 --> 01:00:10.820
+<v Ira Glass>I'm Ira Glass, back next week with more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯，下周带着更多《美国生活》的故事回来。
+
+01:00:10.820 --> 01:00:15.820
+<v Announcer>PRI, Public Radio International.
+<v Announcer>国际公共广播电台，PRI。

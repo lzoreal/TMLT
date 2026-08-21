@@ -1,0 +1,881 @@
+WEBVTT
+
+00:00:00.140 --> 00:00:37.660
+<v Ira Glass>A couple weeks ago I got into an argument with a 13 year old about algebra. "Why should I bother learning algebra?" He asked me. "Have you ever used algebra as an adult?" You know, every possible thing you could say as an adult in this situation, you've heard adults say. And you know how stupid they sound. When you're a kid, you're expected to be a renaissance man. You're supposed to be interested in math and science. You're supposed to read literature, you write poetry, maybe you play an instrument. You're athletic, you play sports, you learn a foreign language.
+<v Ira Glass>几周前，我和一个13岁的孩子因为代数问题吵了一架。“我为什么要费劲学代数？”他问我。“你成年后用过代数吗？”你知道，作为一个成年人，在这种情况下你能说的每一种话，你都听过别的成年人说过。而且你知道他们听起来有多蠢。当你还是个孩子的时候，大家期望你成为一个全才。你应该对数学和科学感兴趣。你应该阅读文学作品，写诗，也许还要演奏一种乐器。你还得擅长体育，参加运动，学习外语。
+
+00:00:37.660 --> 00:01:01.870
+<v Ira Glass>And you're supposed to be enthusiastic. You're actually graded on effort. You get a grade for the effort, not just for the work. And somehow, in America especially I think, this idea that you're supposed to put your heart into everything. Any test that you're given, you're supposed to show a can do spirit. You're supposed to show enthusiasm no matter what the task.
+<v Ira Glass>而且你应该充满热情。你实际上是根据努力程度来评分的。你获得的成绩不仅是因为你的作品，还因为你的努力。我觉得尤其是在美国，有一种想法认为你应该把你的一切都投入进去。无论给你什么考验，你都应该表现出一种“我能行”的精神。无论任务是什么，你都应该表现出热情。
+
+00:01:01.870 --> 00:01:16.980
+<v Ira Glass>It's been transferred to all sorts of things in adult life where it really, probably doesn't belong. Kenneth for example got a job as a greeter at a create your own stir-fry chain restaurant.
+<v Ira Glass>这种想法被带到了成年生活的方方面面，而这些地方实际上并不需要这种热情。例如，肯尼斯在一家自选炒菜连锁餐厅找到了一份迎宾员的工作。
+
+00:01:16.980 --> 00:01:51.730
+<v Kenneth>As a host, I just stayed at the door, and I greeted people as they came in, and the manager is supposed to seat them. Say someone walks in the door. I'm like, Hi, how are you doing? And they'd say hello. And then I'd say, And they'd say two. Then I would turn to the person standing next to me and say, two people for dinner. So I think I could do it very, very well. Hi, how  many? Three? All right, she'll be right back over  to seat you. And that was it. I mean pretty much a five year old could handle that. Say hi to people and repeat the number that they say to you.
+<v Kenneth>作为接待员，我只是站在门口，客人们进来时我就迎接他们，经理负责给他们安排座位。比如说有人走进门。我说：“嗨，你好吗？”他们会说你好。然后我会说：“几位？”他们会说两位。然后我会转头对身边的人说：“两位用餐。”我觉得我能做得非常好。嗨，几位？三位？好的，她马上回来带您入座。就是这样。我的意思是，五岁的孩子都能处理好。跟人打招呼，然后重复他们告诉你的数字。
+
+00:01:51.730 --> 00:02:13.480
+<v Kenneth>So the owner always had a problem because he said I wasn't enthusiastic enough in my job. I needed to smile wider. And his exact words were I had no sense of urgency. And I didn't realize what was so urgent about getting people to sit down and have stir-fry that they make themselves.
+<v Kenneth>但老板总是有问题，因为他说我在工作中不够热情。我需要笑得更灿烂。他的原话是我没有紧迫感。我真的没意识到，让人坐下来吃自己做的炒菜有什么好紧急的。
+
+00:02:13.480 --> 00:02:25.750
+<v Kenneth>Every time that he would run the floor, which he was not very good at, you could really see how people would get scared when they walked in the door. As soon as the people would come, he would jump in front of me, literally jump in front of me and go, hi, how are you doing?
+<v Kenneth>每次他亲自在大厅巡视时——其实他并不擅长——你真的能看出人们走进门时有多害怕。一旦有人进来，他就会跳到我面前，真的是跳到我面前说：“嗨，你好吗？”
+
+00:02:25.750 --> 00:02:46.680
+<v Kenneth>And then every now and then customers, as they were going to the table would even look back at me and shoot me a glance like, what's up with dude? Is everything OK? And then he would always turn around and be like, see that's how you're supposed to do it. And I used to just shrug my shoulders at him, like, yeah, don't worry about it.
+<v Kenneth>偶尔顾客在走向餐桌时甚至会回头看我，眼神好像在说：那家伙怎么回事？他没事吧？然后他总是会转过身来说：“看，这才是你应该做的。”我通常只是耸耸肩，好像在说：没关系，别管他。
+
+00:02:46.680 --> 00:03:05.960
+<v Kenneth>Coming from me it woulnd't have been genuine. I don't really want to be giving anybody food. But I make money doing it. And I want to have a phone, and light and water. So that's why I do it. But it's not something that I really love or care about.
+<v Kenneth>如果由我来做，那就太不真诚了。我并不真的想给任何人端食物。但我靠这个赚钱。我想要有手机，有电，有水。所以我才这么做。但这不是我真正热爱或关心的东西。
+
+00:03:05.960 --> 00:03:27.060
+<v Ira Glass>Going through the motions has a bad name in our culture, phoning it in, walking through it, putting on. But there are so many situations where that is the only path of dignity. Today on our radio program, three stories of people deciding whether to take that path. From WBEZ Chicago, it's This American Life , distributed by Public Radio International. I'm Ira Glass.
+<v Ira Glass>在我们文化中，“走过场”名声不好，比如敷衍了事、应付差事。但在很多情况下，这是唯一的尊严之道。今天我们的广播节目将讲述三个关于人们决定是否要走那条路的故事。来自芝加哥WBEZ电台，这是《美国生活》，由国际公共广播电台发行。我是艾拉·格拉斯。
+
+00:03:27.060 --> 00:04:13.780
+<v Ira Glass>Act One of our show today, Farm Eye for the Farm Guy. In that act, a Pennsylvania farmer needs somebody to throw his heart and soul into his vegetable patch. And we step in to help. Act Two, Diary of a Long Shot, a candidate in this fall's elections keeps an amazingly frank audio diary in which he says a few things that you wonder if politicians ever actually feel. And puts everything he has on the line for an unlikely cause. Act Three, Contrails of My Tears. In that act, we believe we have discovered a human phenomenon never before documented involving airplanes and Reese Witherspoon. Stay with us.
+<v Ira Glass>今天节目的第一幕，“农夫的农场之眼”。在那一幕中，一位宾夕法尼亚州的农民需要有人能全心全意投入到他的菜园里。我们介入并提供帮助。第二幕，“长线选手的日记”，今年秋季选举中的一位候选人写了一份非常坦率的音频日记，他在里面说了一些让你怀疑政客们是否真的会有这种感受的话。为了一个不太可能成功的理由，他孤注一掷。第三幕，“我的泪水的凝结尾迹”。在那一幕中，我们相信我们发现了一个从未被记录过的人类现象，涉及飞机和瑞茜·威瑟斯彭。请继续收听。
+
+00:04:13.780 --> 00:04:43.110
+<v Ira Glass>Act One, Farm Eye for a Farm Guy. Things aren't going so well on Hilary's farm. He bought 75 acres in Western Pennsylvania five years ago, put all his money into it, moved from the city, had a dream. To grow his own food, make little money, never wear a tie again. In five years, he has not only not turned a profit, he's not even close. His back hurts all the time. He did something to his thumb. He gets headaches from all the muscle strains. His best customer is his chiropractor. And he's thinking of quitting.
+<v Ira Glass>第一幕，农夫的农场之眼。希拉里的农场情况不太好。五年前，他在宾夕法尼亚州西部买下了75英亩土地，投入了他所有的积蓄，从城市搬了过来，怀揣着一个梦想。自己种粮食，赚点小钱，再也不用系领带。五年过去了，他不仅没有盈利，甚至离盈利还很远。他的背一直很痛。他的拇指受了伤。肌肉拉伤让他头痛。他最好的顾客是他的脊椎按摩师。他正考虑放弃。
+
+00:04:43.110 --> 00:05:05.700
+<v Hilary Hoffman>I vacillate between wanting to give it up and wanting to continue. And even sometimes while I'm out there working I'm like, this is so great. I get to watch the sky and see the whether. And then I work for a few hours at it and see how much more I have to do. And it's like, this is too hard.
+<v Hilary Hoffman>我总是摇摆不定，一会儿想放弃，一会儿又想坚持。有时候甚至当我在外面工作时，我觉得：这太棒了。我能看天空，看天气。但接着我做了几个小时，看到还有那么多活儿要做，我又觉得：这太难了。
+
+00:05:05.700 --> 00:05:28.600
+<v Ira Glass>He's a soft spoken kind of guy. A little shy, wears a big beard. When I press him for details about what's going wrong on the farm, he gets vague. Not like somebody trying to hide the facts exactly, more like somebody who hasn't been keeping track of the facts too closely in the first place. Fortunately, his wife Sun Yung is right there and is happy to give particulars, like about the lettuce harvest, which Hilary actually saw as a success.
+<v Ira Glass>他是一个说话温柔的人。有点害羞，留着大胡子。当我追问他农场里到底出了什么问题时，他回答得很模糊。不是那种试图隐瞒事实的人，更像是那种一开始就没有仔细追踪事实的人。幸运的是，他的妻子孙英就在旁边，很乐意提供细节，比如关于生菜收成，希拉里实际上将其视为成功。
+
+00:05:28.600 --> 00:05:51.780
+<v Sun Yung>We worked so hard until after midnight. We had harvested at night so it wouldn't get wilted. And we washed it one by one. And we put it in the bag and everything. And we had to get up at 7:00 AM to get ready. And we went to the market. And we made like $15.
+<v Sun Yung>我们一直辛苦干到午夜过后。我们是在晚上收割的，这样它就不会枯萎。我们逐一清洗，装进袋子里，诸如此类。然后我们必须在早上7点起床准备。我们去了市场。结果只赚了15美元左右。
+
+00:05:51.780 --> 00:05:52.750
+<v Hilary Hoffman>Wasn't it $16?
+<v Hilary Hoffman>不是16美元吗？
+
+00:05:52.750 --> 00:05:55.060
+<v Ira Glass>Wasn't it $16? Hilary asks.
+<v Ira Glass>不是16美元吗？希拉里问道。
+
+00:05:55.060 --> 00:06:20.510
+<v Sun Yung>No, and I was thinking I worked so many hours, so hard. And while everybody's sleeping, I was working. And it was only $15. And the table fee was $7 $8 or something like that. And I felt really bad.
+<v Sun Yung>不，我在想我工作了这么多小时，这么辛苦。当所有人在睡觉时，我在工作。结果只有15美元。摊位费还要7、8美元左右。我感觉真的很糟糕。
+
+00:06:20.510 --> 00:06:44.930
+<v Ira Glass>Sun Yung and Hilary are in a whole Green Acres situation with each other. He wants the country. She's trained as a clothing designer, sells her work in a boutique on Madison Avenue in New York City. She's applying for fashion jobs in cities around the country. She helped Hilary grow vegetables for two years, but then she hurt her back so badly bending over that she was stuck in bed for a month. And that was it for her. Farming was never her dream anyway.
+<v Ira Glass>孙英和希拉里正陷入一种像美剧《绿亩情缘》一样的困境。他想要乡村生活。而她是一名受过培训的服装设计师，在纽约曼哈顿麦迪逊大道的一家精品店卖她的作品。她正在全国各地的城市申请时尚类工作。她帮了希拉里两年农活，但后来她因为弯腰导致背部严重受伤，在床上躺了一个月。这成了她的底线。无论如何，务农从来不是她的梦想。
+
+00:06:44.930 --> 00:06:57.930
+<v Ira Glass>She grew up in Seoul, South Korea, which she describes as being like Manhattan, but bigger. When she imagined what their farming homesteading life would be like, she remembered this TV show that was popular back in Korea when she was a little girl.
+<v Ira Glass>她在韩国首尔长大，她形容那里就像曼哈顿，只是更大。当她想象他们的农场生活会是什么样子时，她想起了她小时候在韩国很流行的一部电视剧。
+
+00:06:57.930 --> 00:07:05.880
+<v Sun Yung>I was picturing Little House On The Prairie , but that was no way.
+<v Sun Yung>我当时想象的是《草原小屋》，但根本不是那回事。
+
+00:07:05.880 --> 00:07:09.990
+<v Ira Glass>And so when you moved in, was there indoor plumbing? Was there electricity?
+<v Ira Glass>那么你们搬进去的时候，有室内管道吗？有电吗？
+
+00:07:09.990 --> 00:07:36.730
+<v Sun Yung>Electricity was there. And plumbing was there. But one winter our kitchen plumbing was frozen and there was no water for a while. And he fixed it. And after that the water smelled like really [BLEEP]. And it still smells not good. It's more than a year now. We have hot water, but cold water smells really bad, like really.
+<v Sun Yung>有电。也有管道。但有一个冬天我们的厨房管道冻住了，有一段时间没水。他修好了。从那以后水闻起来味道很奇怪。现在已经一年多了。我们有热水，但冷水闻起来真的很糟糕，真的。
+
+00:07:36.730 --> 00:07:42.500
+<v Hilary Hoffman>It's not that bad, but it is-- all right, it's a little bad.
+<v Hilary Hoffman>没那么糟，但确实——好吧，确实有点糟。
+
+00:07:42.500 --> 00:08:14.600
+<v Ira Glass>We're standing in the unkempt front yard by their house, which I would describe as midway between messy and squalid. Half the windows are boarded up. Shingles are falling down. It's so badly heated that during the winter, the cat bowl of water in the kitchen has frozen. And they're the kind of back-to-the-landers who not only believe in conserving the Earth's resources and composting, but in the bathroom there's a note telling you not to use the toilet but to use a big, plastic bucket with sawdust that sits there neatly across from it as a replacement. Sun Yung says this is not how a person should farm.
+<v Ira Glass>我们站在他们屋前杂乱的院子里，我会把这形容为介于凌乱和肮脏之间。窗户有一半被木板封死。瓦片正在掉落。屋里供暖很差，冬天厨房里猫碗里的水都结冰了。他们是那种不仅相信保护地球资源和堆肥的“回归土地者”，而且在厕所里贴了纸条，告诉你不要使用马桶，而是使用对面摆放整齐的一个大塑料桶加锯末作为替代。孙英说，这不应该是一个人务农的方式。
+
+00:08:14.600 --> 00:08:33.030
+<v Sun Yung>But he's not a real morning person. So he can't do anything in the morning. So he can start around noon. Sometimes he would just stay up until 3:00 AM, 4:00 AM. He's doing his photography work on the computer.
+<v Sun Yung>但他不是个早起的人。所以他早上什么都做不了。他通常要到中午才能开始。有时他会一直待到凌晨3点、4点。他在电脑上做摄影工作。
+
+00:08:33.030 --> 00:09:01.050
+<v Hilary Hoffman>I don't know about the stying up until 4:00. I've only done that a few times. But yeah, in the mornings I need to warm up before I can start doing a lot of activity I'd say. But then some people will work from 7:00 to 5:00 or 6:00 or whatever. And then they'll have quiet time in the evening. But I just have my quiet time in the morning is how I figure it, anyway.
+<v Hilary Hoffman>我不知道熬到4点的事。我只做过几次。但是是的，早上我需要热身才能开始进行大量活动。但有些人从7点工作到5点或6点之类。然后他们晚上会有休息时间。但我认为我是在早上休息的。
+
+00:09:01.050 --> 00:09:32.590
+<v Ira Glass>We heard about Hilary from somebody who met him at a conference on sustainable farming. Hilary was there getting tips, going to seminars. He's at a point now where his savings are running down and he's thinking that he either has to make a big change in how he farms or get out. And hearing about his situation, we thought you know what this guy needs is a makeover. Like on "Queer Eye For the Straight Guy" or "Trading Spaces" or "The Swan" Or "Extreme Makeover" or "Extreme Makeover Home Edition." He needs a makeover, a farming makeover.
+<v Ira Glass>我们从一个在可持续农业会议上遇见希拉里的人那里听说了他。希拉里当时在那里寻求建议，参加研讨会。他现在的积蓄快用完了，他认为要么必须对务农方式进行重大改变，要么就得退出。听到他的情况，我们想，你知道这家伙需要的是一次彻底改造。就像《粉雄救兵》或《交易空间》或《天鹅》或者《改头换面》或者《改头换面：家庭版》。他需要改造，一次农业改造。
+
+00:09:32.590 --> 00:10:02.450
+<v Ira Glass>Here, we thought, are two areas where America excels. Two areas where America can compete with any nation on Earth, agriculture and makeover programs. And we at This American Life are proud to be the ones to bring these two great traditions together. We would bring in an expert for a farm makeover.
+<v Ira Glass>我们认为，这是美国擅长的两个领域。美国可以在地球上任何国家竞争的两个领域：农业和改造节目。我们《美国生活》很自豪能把这两个伟大的传统结合在一起。我们将带一位专家来进行农场改造。
+
+00:10:02.450 --> 00:10:03.220
+<v George Devault>Hi there.
+<v George Devault>你好。
+
+00:10:03.220 --> 00:10:03.480
+<v Ira Glass>Ira.
+<v Ira Glass>艾拉。
+
+00:10:03.480 --> 00:10:04.340
+<v George Devault>Ira, nice to meet you.
+<v George Devault>艾拉，很高兴见到你。
+
+00:10:04.340 --> 00:10:05.310
+<v Hilary Hoffman>Hi, I'm Hilary Hoffman.
+<v Hilary Hoffman>嗨，我是希拉里·霍夫曼。
+
+00:10:05.310 --> 00:10:07.100
+<v George Devault>Hi Hilary. How are you?
+<v George Devault>嗨，希拉里。你好吗？
+
+00:10:07.100 --> 00:10:13.670
+<v Ira Glass>The farm expert we brought in for the makeover is George DeVault, a wiry, sunburned man in a farmer's cap and aviator glasses.
+<v Ira Glass>我们请来的农场专家是乔治·德沃特，一个戴着农民帽和飞行员太阳镜、身形瘦削、晒得黝黑的男人。
+
+00:10:13.670 --> 00:10:14.490
+<v George Devault>I want see everything.
+<v George Devault>我想看所有东西。
+
+00:10:14.490 --> 00:10:15.380
+<v Ira Glass>You want to see everything?
+<v Ira Glass>你想看所有东西？
+
+00:10:15.380 --> 00:10:24.080
+<v George Devault>All the machinery, all the buildings. Kick the tires. I'm serious.
+<v George Devault>所有的机器，所有的建筑。检查一下。我是认真的。
+
+00:10:24.080 --> 00:10:26.200
+<v Ira Glass>So what do you hope to get from George today?
+<v Ira Glass>那你今天希望从乔治那里得到什么？
+
+00:10:26.200 --> 00:10:53.710
+<v Hilary Hoffman>Well if had some secret plant that was easy to grow and easy to harvest. And everybody wanted it. And here's how you do it without having to bend down all the time. That would work. Or maybe he'll say, if you don't think you can do this kind of hard work then you better find something else to do. Sun Yung is nodding.
+<v Hilary Hoffman>嗯，如果有一种秘密植物，容易种植和收获。大家都想要它。而且教我怎么做才不用总是弯腰。那就有用了。或者也许他会说，如果你觉得你做不了这种重活，那你最好找点别的事做。孙英点头表示赞同。
+
+00:10:53.710 --> 00:10:57.320
+<v Ira Glass>Do you want George to say something to talk him out of farming today?
+<v Ira Glass>你今天想让乔治说点什么劝他放弃务农吗？
+
+00:10:57.320 --> 00:11:01.270
+<v Sun Yung>We'll of course, yeah, yeah.
+<v Sun Yung>当然，是的，是的。
+
+00:11:01.270 --> 00:11:13.550
+<v Hilary Hoffman>So the truth comes out. She wants me to quit.
+<v Hilary Hoffman>真相大白了。她想让我放弃。
+
+00:11:13.550 --> 00:11:30.530
+<v Ira Glass>George owns a farm in southeastern Pennsylvania that grows organic vegetables and flowers. He's also a writer and editor at Rodale Press. He's put out a half dozen books and tons of articles about this kind of organic farming. He gives lots of tours of his own farm to people who are thinking about getting into agriculture. Hilary shows him around.
+<v Ira Glass>乔治在宾夕法尼亚州东南部拥有一座农场，种植有机蔬菜和花卉。他也是Rodale出版社的作家和编辑。他出版了半打关于这种有机农业的书籍和大量文章。他给许多考虑进入农业领域的人提供参观自己农场的机会。希拉里带他四处看看。
+
+00:11:30.530 --> 00:11:43.150
+<v Hilary Hoffman>Here's some grapevines. It's all a very small farm, very small. The first year, I managed to grow a lot of stuff. The second year, the deer found it and just totally ate everything.
+<v Hilary Hoffman>这是些葡萄藤。这是一个非常小的农场，非常小。第一年，我设法种了很多东西。第二年，鹿发现了它，几乎吃光了一切。
+
+00:11:43.150 --> 00:11:44.650
+<v George Devault>Vegetables mostly?
+<v George Devault>主要是蔬菜吗？
+
+00:11:44.650 --> 00:11:47.680
+<v Hilary Hoffman>Even my cover crops just were all gone.
+<v Hilary Hoffman>甚至连我的覆盖作物都被吃光了。
+
+00:11:47.680 --> 00:11:56.150
+<v George Devault>They did that to my potatoes last year, about a quarter acre of potatoes we did not have fenced. Ate them right off of the ground. I couldn't believe it.
+<v George Devault>它们去年对我的土豆也做了同样的事，大约四分之一英亩没有围栏的土豆。就在地里全吃光了。我简直不敢相信。
+
+00:11:56.150 --> 00:12:16.030
+<v Ira Glass>This is pretty much George's technique with Hilary. No matter what kind of calamity Hilary describes, George reassures him that it's happened to him too and lots of other farmers besides. He looks on the bright side. Standing in front of a strawberry patch infested with weeds, weeds are standing over a foot high in every direction. It's bad enough even I can tell it's bad. George declares--
+<v Ira Glass>这基本上是乔治对待希拉里的方法。无论希拉里描述什么样的灾难，乔治都会向他保证他也经历过，而且其他很多农民也经历过。他看重光明的一面。站在一个长满杂草的草莓地前，杂草在各个方向都有一英尺高。情况糟糕到连我都能看出来很严重。乔治宣称——
+
+00:12:16.030 --> 00:12:19.200
+<v George Devault>I mean you can see the strawberries. It's not hopeless.
+<v George Devault>我是说你能看到草莓。还没到绝望的地步。
+
+00:12:19.200 --> 00:12:24.440
+<v Ira Glass>In front of a patch of vegetables that he confides later he found surprisingly small, George proclaims--
+<v Ira Glass>在一块蔬菜地前，乔治事后向我透露他觉得这块地小得惊人，但他宣称——
+
+00:12:24.440 --> 00:12:29.440
+<v George Devault>I'm seeing some very nice, healthy happy potato plants about to blossom.
+<v George Devault>我看到了一些非常不错、健康、快乐的土豆植株，快要开花了。
+
+00:12:29.440 --> 00:12:43.020
+<v Ira Glass>When he spots a broken down structure the size of a small shed, white, wooden window frames for walls and ceiling, concrete floor, George is all can-do American optimism. Hilary is Soviet Russia circa 1973, the Brezhnev era.
+<v Ira Glass>当他发现一个小型棚屋大小的破烂建筑时，白色木窗框作为墙壁和天花板，水泥地板，乔治充满了美国式的乐观精神。而希拉里像是1973年左右苏联勃列日涅夫时代的人。
+
+00:12:43.020 --> 00:12:44.500
+<v George Devault>I see a greenhouse here.
+<v George Devault>我在这里看到一个温室。
+
+00:12:44.500 --> 00:12:45.170
+<v Hilary Hoffman>Do you?
+<v Hilary Hoffman>是吗？
+
+00:12:45.170 --> 00:12:48.330
+<v George Devault>Oh yeah. Do you even have a sink in it?
+<v George Devault>哦，是的。你里面甚至有水槽吗？
+
+00:12:48.330 --> 00:12:51.370
+<v Hilary Hoffman>Yeah but there's no water.
+<v Hilary Hoffman>有，但没水。
+
+00:12:51.370 --> 00:12:56.890
+<v George Devault>Well, that's why plastic pipe was invented. You have a well somewhere.
+<v George Devault>嗯，这就是发明塑料管的原因。你某处肯定有口井。
+
+00:12:56.890 --> 00:13:00.140
+<v Hilary Hoffman>I can't use the well for watering.
+<v Hilary Hoffman>我不能用那口井来浇水。
+
+00:13:00.140 --> 00:13:06.750
+<v George Devault>Well with the roof on here and the bigger roof on the big barn over here, you could collect an awful lot of rain water.
+<v George Devault>好吧，这儿有屋顶，旁边大谷仓上也有个更大的屋顶，你可以收集很多雨水。
+
+00:13:06.750 --> 00:13:14.060
+<v Hilary Hoffman>I can't afford the containers for it.
+<v Hilary Hoffman>我买不起装雨水的容器。
+
+00:13:14.060 --> 00:13:17.920
+<v George Devault>OK.
+<v George Devault>好吧。
+
+00:13:17.920 --> 00:13:50.710
+<v Ira Glass>Geoge offered lots of advice that Hilary had no interest in. To fix the greenhouse of course so he'd have a place to start his seedlings. To stop mulching in this labor-intensive way that Hilary had learned back as a gardener, way too time consuming for fields of crops, George said. To build something called a hoop house, where Hilary could grow more months of the year. Hilary needed to triple his production just to start to become economically viable, George said. And George suggested that he trade his 68 horsepower tractor in for something smaller, that he'd use the extra money for things that the farm needed more urgently. And George thought that Hilary might fix up the 100 year old barn.
+<v Ira Glass>乔治提供了希拉里毫无兴趣的许多建议。当然是修复温室，这样他就有地方培育幼苗。停止希拉里学到的那种劳动密集型的覆盖耕作方式，乔治说这对大片农作物来说太耗时了。建造一种叫做“拱形屋”的东西，让希拉里可以在一年中更多的月份里耕作。乔治说，希拉里需要将产量提高两倍才能开始具备经济可行性。而且乔治建议他把68马力的拖拉机换成小一点的，把额外的钱用到农场更急需的地方。乔治认为希拉里可以翻修一下那座有100年历史的谷仓。
+
+00:13:50.710 --> 00:13:53.650
+<v Hilary Hoffman>Now this barn is pretty ratty.
+<v Hilary Hoffman>现在这座谷仓很破旧。
+
+00:13:53.650 --> 00:13:57.560
+<v George Devault>OK, so?
+<v George Devault>所以呢？
+
+00:13:57.560 --> 00:13:59.830
+<v Hilary Hoffman>I just haven't cleaned it up yet.
+<v Hilary Hoffman>我只是还没清理它。
+
+00:13:59.830 --> 00:14:00.640
+<v George Devault>Why not?
+<v George Devault>为什么不呢？
+
+00:14:00.640 --> 00:14:02.460
+<v Hilary Hoffman>Lazy.
+<v Hilary Hoffman>懒。
+
+00:14:02.460 --> 00:14:11.160
+<v George Devault>You said it. I didn't. Get your butt in gear.
+<v George Devault>你自己说的。我可没说。快行动起来。
+
+00:14:11.160 --> 00:14:12.180
+<v Hilary Hoffman>I think so.
+<v Hilary Hoffman>我想也是。
+
+00:14:12.180 --> 00:14:17.360
+<v George Devault>You've been here, what, five years now? Are you are you happy with your progress?
+<v George Devault>你来这儿多久了，五年了？你对自己的进展满意吗？
+
+00:14:17.360 --> 00:14:19.160
+<v Hilary Hoffman>No.
+<v Hilary Hoffman>不。
+
+00:14:19.160 --> 00:14:20.980
+<v George Devault>OK.
+<v George Devault>好吧。
+
+00:14:20.980 --> 00:14:29.950
+<v Ira Glass>George, there was something that Hilary's wife was talking about it earlier. She was saying that he gets up too late in the day to be a farmer. Does it matter what time you get up?
+<v Ira Glass>乔治，希拉里的妻子早些时候提到过一件事。她说他起得太晚了，不适合当农民。起得晚有关系吗？
+
+00:14:29.950 --> 00:14:34.140
+<v George Devault>Yeah it does. Sure it matters what time you get up. What time do you get up farmer?
+<v George Devault>有的。当然有关系。农民，你几点起床？
+
+00:14:34.140 --> 00:14:36.200
+<v Hilary Hoffman>Depends on the day. 8:00, 10:00.
+<v Hilary Hoffman>看那天情况。8点，10点。
+
+00:14:36.200 --> 00:14:38.330
+<v George Devault>What?
+<v George Devault>什么？
+
+00:14:38.330 --> 00:14:46.140
+<v Hilary Hoffman>But then I work till dark. I mean I'm out here doing that. Don't you come in at 7:00, 8:00 and take a couple hours to relax?
+<v Hilary Hoffman>但我一直工作到天黑。我是说我在这里确实在做。你难道不是7点、8点进来休息几个小时吗？
+
+00:14:46.140 --> 00:14:46.990
+<v George Devault>Hell no.
+<v George Devault>见鬼，不。
+
+00:14:46.990 --> 00:14:47.830
+<v Hilary Hoffman>Well I want to.
+<v Hilary Hoffman>嗯，我想休息。
+
+00:14:47.830 --> 00:14:50.180
+<v George Devault>Well some days you can't.
+<v George Devault>有些日子你没法休息。
+
+00:14:50.180 --> 00:14:52.280
+<v Hilary Hoffman>Well that's true.
+<v Hilary Hoffman>嗯，那倒是真的。
+
+00:14:52.280 --> 00:14:58.990
+<v George Devault>You might as well forget the greenhouses then because it can't get up and ventilate it before the sun gets hot, you're going to cook everything.
+<v George Devault>那你就忘了温室吧，因为如果不能早起在太阳变热之前通风，你会把一切都煮熟的。
+
+00:14:58.990 --> 00:15:01.120
+<v Hilary Hoffman>Oh well I can get up and do that.
+<v Hilary Hoffman>噢，我可以起来做那个。
+
+00:15:01.120 --> 00:15:03.790
+<v George Devault>Oh OK, all right.
+<v George Devault>噢，好吧，没问题。
+
+00:15:03.790 --> 00:15:12.510
+<v Hilary Hoffman>Well I guess there's some truth-- I'm just not a morning person. I have to exercise before I can start working and do anything. I have two herniated discs from many years ago.
+<v Hilary Hoffman>嗯，我想确实有些道理——我只是不是个早起的人。我必须先锻炼才能开始工作和做任何事。我多年前有两个椎间盘突出。
+
+00:15:12.510 --> 00:15:13.110
+<v George Devault>Ouch.
+<v George Devault>哎哟。
+
+00:15:13.110 --> 00:15:17.080
+<v Hilary Hoffman>But it still affects me.
+<v Hilary Hoffman>但这仍然影响我。
+
+00:15:17.080 --> 00:15:42.600
+<v Ira Glass>George explains that some tasks you just have to do in the cool morning hours. If you pick delicate produce in the middle of the afternoon under the sun, it'll go limp the minute you pick it. It'll be junk. We sit down on chairs under a tree in front of the house. George has a friend who tried what Hilary is trying, left a regular job to take up farming. Tried to make a go of it. Said this guy totally put his heart into it, was working his crops all the time, sun up till way past sundown.
+<v Ira Glass>乔治解释说，有些任务你必须在凉爽的早晨完成。如果你在下午太阳底下采摘娇嫩的农产品，它们摘下来那一刻就会蔫掉。就成垃圾了。我们坐在树下的椅子上，屋子前。乔治有一个朋友尝试过希拉里正在做的事，放弃了常规工作去务农。试图成功。他说这家伙完全全心投入，一直盯着农作物，从日出到日落很久之后。
+
+00:15:42.600 --> 00:16:05.590
+<v George Devault>I mean there suddenly ceased to be a family life. He tried to get his two kids to help him out there is as much as they could. They were 9 and 11. And there were limits to how much they could or would or should do. And he sunk a ton of money into it and basically lost it all.
+<v George Devault>我是说，家庭生活突然就不存在了。他试着让两个孩子尽可能帮他。他们分别是9岁和11岁。他们能做、愿意做或应该做的事情是有限的。他投入了大量金钱，基本上全部赔光了。
+
+00:16:05.590 --> 00:16:08.010
+<v Ira Glass>And what wasn't coming together?
+<v Ira Glass>什么地方没搞好？
+
+00:16:08.010 --> 00:16:27.830
+<v George Devault>He was producing a lot of stuff. His crop mix could have been better, more diverse. He wasn't charging enough for things, didn't have maybe enough customers to make it work. Production and weather threw some curves at him. It was a lot of things combined.
+<v George Devault>他生产了很多东西。他的作物品种组合可以更好，更多样化。他对东西收费不够高，可能没有足够的客户来支撑。生产和天气给他出了难题。是很多因素结合在一起。
+
+00:16:27.830 --> 00:17:04.630
+<v George Devault>I mean when you look at the numbers involved in agriculture today, it is really grim what's going on. Say there are 60,000 farms in the state. At least 30,000 of them have annual sales of less than $5,000. Not just net but gross. Less than $5,000 in sales a year. Yet that's half the farms in the state. The numbers are grim. Don't feel bad. We feel like I drove out here and rained on your parade.
+<v George Devault>我是说，当你审视当今农业的数据时，情况确实很严峻。假设州里有60,000个农场。至少有30,000个年销售额不到5,000美元。不是净利，是毛利。一年销售额不到5,000美元。但这却是州里一半的农场。数据很严峻。别难过。我们感觉像是我开车来这儿给你泼了冷水。
+
+00:17:04.630 --> 00:17:06.100
+<v Hilary Hoffman>No, I wasn't having a parade.
+<v Hilary Hoffman>不，我没在举办游行。
+
+00:17:06.100 --> 00:17:08.620
+<v George Devault>Oh, OK.
+<v George Devault>噢，好的。
+
+00:17:08.620 --> 00:17:14.090
+<v Hilary Hoffman>I had this great bit hot air balloon. I was hoping you would fill it up and make it rise.
+<v Hilary Hoffman>我有一个很棒的热气球。我本希望你能把它充满气让它升空。
+
+00:17:14.090 --> 00:17:41.450
+<v Ira Glass>In the end, this is what Hilary's up against. One of the open secrets about farming in this country is just how few farmers actually make their full livings from farming. In Pennsylvania, it's only 8,000 out of 60,000 farms. Nearly half the farmers in the state say their primary occupation is something besides framing. And that's true of the country as a whole. Out of 2 million farms in America, 1.5 million lost money in 2002, the most recent year we have agricultural census data for.
+<v Ira Glass>归根结底，这就是希拉里所面临的。在这个国家务农的一个公开秘密是，真正靠务农完全维持生计的农民太少了。在宾夕法尼亚州，60,000个农场中只有8,000个。州里近一半的农民说他们的主要职业不是务农。对于整个国家来说也是如此。在美国200万个农场中，150万个在2002年亏损，这是我们拥有农业普查数据的最近一年。
+
+00:17:41.450 --> 00:18:11.570
+<v Ira Glass>If Hilary truly buckled down, tripled production next year, did everything right, kept expanding production, in a few years, George says, he might expect total profits of $10,000 to $15,000 a year. Which Hilary says would be enough. They're living pretty cheaply, And which would actually put him into an elite in agriculture. Only 300,000 of the 2 million farms in America make $15,000 a year or more in net profits. But if he's going to do that, Hilary would have to rethink everything, be working all the time.
+<v Ira Glass>如果希拉里真的下定决心，明年产量增加两倍，一切都做对，继续扩大生产，乔治说，几年后他可能会期望每年总利润达到10,000到15,000美元。希拉里说这足够了。他们生活费很低，而且这实际上会让他进入农业精英行列。在美国200万个农场中，只有30万个每年净利润达到15,000美元或以上。但如果要那样做，希拉里必须重新思考一切，一直工作。
+
+00:18:11.570 --> 00:18:16.580
+<v Hilary Hoffman>Well that's it. I quit. I quit. You've convinced me.
+<v Hilary Hoffman>好吧，这就算了。我放弃。我放弃。你说服我了。
+
+00:18:16.580 --> 00:18:24.590
+<v George Devault>Well. I didn't come here to talk you out of the farming but--
+<v George Devault>嗯。我来这儿不是为了劝你放弃务农，但——
+
+00:18:24.590 --> 00:18:31.250
+<v Hilary Hoffman>I don't think I can physically do that much work to make that much money. Just doesn't seem possible.
+<v Hilary Hoffman>我觉得我体力上做不到那么多工作来赚那么多钱。看起来根本不可能。
+
+00:18:31.250 --> 00:18:42.090
+<v George Devault>I'm working part time three or four jobs plus farming. There are very few farmers I know who do absolutely nothing but farm.
+<v George Devault>我做着兼职，三四份工作，加上务农。我认识的农民中，几乎没有只做务农这一件事的。
+
+00:18:42.090 --> 00:18:49.520
+<v Hilary Hoffman>I mean I just wanted to live in the country. And I thought I could do it by growing vegetables. And I really like it out here in the country.
+<v Hilary Hoffman>我是说我只是想住在乡村。我以为通过种蔬菜就能做到。我真的很喜欢乡村生活。
+
+00:18:49.520 --> 00:18:55.210
+<v George Devault>Yeah, and you have a great spot here.
+<v George Devault>是的，你这里位置很好。
+
+00:18:55.210 --> 00:18:57.460
+<v Hilary Hoffman>Even when it gets cold I like it.
+<v Hilary Hoffman>即使天冷的时候我也喜欢。
+
+00:18:57.460 --> 00:19:04.600
+<v Ira Glass>This is what it comes down to for Hilary. He was never dying to be a farmer. He just wanted to live closer to nature, live more simply.
+<v Ira Glass>这就是希拉里最终面临的情况。他从未渴望成为一名农民。他只是想更接近自然，生活得更简单。
+
+00:19:04.600 --> 00:19:09.220
+<v Hilary Hoffman>My dream was to be able to just watch the sky all day.
+<v Hilary Hoffman>我的梦想就是能整天看着天空。
+
+00:19:09.220 --> 00:19:13.940
+<v Ira Glass>But you don't have to actually run a farm as a business to have that.
+<v Ira Glass>但你不需要真正经营一个农场作为生意才能拥有那个。
+
+00:19:13.940 --> 00:19:34.280
+<v Hilary Hoffman>Well you have to make some kind of income. But I think there must be an easier way really. I think it is too much work for me. And I will probably spend time looking at another way to make a living out in the country.
+<v Hilary Hoffman>嗯，你总得有某种收入。但我认为一定有更容易的方法。我认为这对我来说工作量太大了。我可能会花时间寻找另一种在乡村谋生的方式。
+
+00:19:34.280 --> 00:19:38.560
+<v George Devault>I hate to be the bearer of bad news but you picked a tough road to hoe pal.
+<v George Devault>我很抱歉带来坏消息，但你选择了一条艰难的路，伙计。
+
+00:19:38.560 --> 00:19:45.000
+<v Hilary Hoffman>Yeah I know. I knew it was. And I thought I could do it. But now I'm just not so sure.
+<v Hilary Hoffman>是的，我知道。我知道会很难。我以为我能做到。但现在我不太确定了。
+
+00:19:45.000 --> 00:19:46.420
+<v George Devault>Well.
+<v George Devault>好吧。
+
+00:19:46.420 --> 00:19:51.840
+<v Ira Glass>Later, when we get George away from the farm, away from Hilary, he's pretty blunt about what he thinks Hillary should do.
+<v Ira Glass>后来，当我们把乔治带离农场，带离希拉里时，他对希拉里应该做什么直言不讳。
+
+00:19:51.840 --> 00:20:09.950
+<v George Devault>Sell the place, yeah. I mean more than anything he wants to live in the country. That's great. So quit kidding yourself about the idea of making a living from the farm. He'll still have a garden. I'm sure of that.
+<v George Devault>卖掉那地方，是的。我的意思是比起任何事情，他更想住在乡村。那很好。所以别再自欺欺人，想着靠农场谋生了。他还是会有个花园的。我肯定这一点。
+
+00:20:09.950 --> 00:20:19.280
+<v Ira Glass>At the end of the day, the person who was happiest to watch how everything unfolded, as you might imagine, was Sun Yung. After all, George was saying the same things to Hilary that she's been saying.
+<v Ira Glass>最终，如你所料，最乐于见到一切如何展开的人是孙英。毕竟，乔治对希拉里说的话跟她一直说的如出一辙。
+
+00:20:19.280 --> 00:20:51.570
+<v Sun Yung>I really liked his idea. If you want to do something, commit yourself until you can't do it anymore. Or sick and tired of it or until you die. Or don't do it. But if you want to try, try really hard. And I thought that Hilary with the farming was like that. So I told him that I don't think you really want to be a farmer. I told him maybe thousands of times.
+<v Sun Yung>我真的很喜欢他的想法。如果你想做某事，就全身心投入，直到你再也做不到，或者厌倦了，或者直到你死去。否则就别做。但如果你想尝试，就努力去尝试。我觉得希拉里对务农就是这样。所以我告诉他，我不认为你真的想成为一名农民。我大概告诉过他几千次了。
+
+00:20:51.570 --> 00:21:10.790
+<v Ira Glass>Indecision is a powerful force, more powerful than reason sometimes. And the next day, despite everything that had been said during George's visit, Hilary had declared himself completely undecided about whether he should quit agriculture. He'd actually gotten up early that morning to pick strawberries, thinking that maybe, just maybe, the farm life might still be right for him.
+<v Ira Glass>犹豫不决是一种强大的力量，有时比理智更强大。第二天，尽管在乔治访问期间说了那么多，希拉里还是宣称自己在是否放弃农业的问题上完全无法决定。他甚至那天早上早早起来采草莓，心想也许，只是也许，农场生活可能真的适合他。
+
+00:21:10.790 --> 00:21:33.780
+<v Ira Glass>In the months since that day, Sun Yung got a job offer in the Bronx. And she said yes. She's planning on moving away from the farm in November, which will leave Hilary alone to figure out his next move. Find a job near the farm to support himself, or just leave the farm. Just last week he started shopping around for a camera, which would allow him to get back to the line of work he was in before he moved to the farm in the first place, taking pictures for newspapers.
+<v Ira Glass>自那以后的几个月里，孙英在布朗克斯得到了一份工作。她答应了。她计划11月搬离农场，这将留下希拉里独自思考他的下一步。在农场附近找份工作养活自己，或者干脆离开农场。就在上周，他开始四处选购相机，这将使他能重操旧业，回到他搬到农场之前的工作，为报社拍照。
+
+00:21:33.780 --> 00:21:36.700
+<v Ira Glass>What do you think is going to happen?
+<v Ira Glass>你觉得会发生什么？
+
+00:21:36.700 --> 00:21:52.200
+<v Sun Yung>Well I don't think anything is going to happen within a year or two, maybe longer. But eventually, he's going to live with me where my job is.
+<v Sun Yung>嗯，我认为一两年内什么都不会发生，也许更久。但最终，他会和我一起住，在我工作的地方。
+
+00:21:52.200 --> 00:21:54.210
+<v Ira Glass>And what do you think's going to happen?
+<v Ira Glass>你觉得会发生什么？
+
+00:21:54.210 --> 00:21:57.890
+<v Hilary Hoffman>I think she's going to move back.
+<v Hilary Hoffman>我觉得她会搬回来。
+
+00:21:57.890 --> 00:21:58.700
+<v Ira Glass>To the farm?
+<v Ira Glass>回农场？
+
+00:21:58.700 --> 00:22:12.150
+<v Hilary Hoffman>Yes. It'll be really nice and fixed up, no air leaks in the winter. And warm and spacious, the opposite of what it is now.
+<v Hilary Hoffman>是的。它会被修理得很好，冬天不再漏风。温暖宽敞，与现在截然不同。
+
+00:22:12.150 --> 00:22:17.450
+<v Sun Yung>How? How would you like to do it?
+<v Sun Yung>怎么做？你想怎么做？
+
+00:22:17.450 --> 00:22:18.240
+<v Hilary Hoffman>Magic.
+<v Hilary Hoffman>魔法。
+
+00:22:18.240 --> 00:22:28.620
+<v Sun Yung>Yeah, that sounds good.
+<v Sun Yung>是的，听起来不错。
+
+00:22:28.620 --> 00:23:12.360
+<v Ira Glass>As for the dream of farming, the one that gets so many city people to buy farms of their own, George took time away from his own pea harvest to visit Hilary and to give advice. Partly because in some basic, neighborly way, he wants to get the word out that this kind of farming can be done. He knows lots of people who are doing it happily. You just have to be careful not to get too romantic about it. The dream of farming is like anything else, he says. Like the dream of owning your own business or writing for a living. Or acting, or making a movie, or getting married. You need the romantic vision to get you started. But the reality, it's always more complicated.
+<v Ira Glass>至于务农的梦想，那个让这么多城市人买下自己农场的梦想，乔治抽出时间离开自己的豌豆收成去拜访希拉里并提供建议。部分原因是出于邻里间基本的善意，他想让人们知道这种务农是可以做到的。他认识很多快乐地做着这件事的人。你只需要小心不要对它过于浪漫化。务农的梦想就像其他任何事一样，他说。就像拥有自己企业的梦想，或者以写作为生。或者表演，或者拍电影，或者结婚。你需要浪漫的愿景来开始。但现实，总是更复杂。
+
+00:23:12.360 --> 00:24:31.520
+<v Ira Glass>Coming up, in just 11 years he can run for President. You can get in on the ground floor right now. Here are the audio diaries of his very first race this fall at age 24. That's in a minute from Chicago Public Radio and Public Radio International, when our program continues.
+<v Ira Glass>即将播出，再过11年他就能竞选总统了。你现在就可以从底层参与。以下是他今年秋天24岁时第一次竞选的音频日记。一分钟后，从芝加哥公共广播电台和国际公共广播电台，我们的节目继续。
+
+00:24:31.520 --> 00:24:55.730
+<v Ira Glass>It's This American Life . I'm Ira Glass. Each week on our program of course we choose some theme, bring you a variety of different kinds of stories on that theme. Today's show, Put Your Heart Into It. We've arrived at Act Two, which is about somebody in the opposite situation of Hilary, the farmer in the first half of our show. This act is about somebody who is not holding back, not waiting. He has thrown himself completely into an unlikely and difficult cause.
+<v Ira Glass>这是《美国生活》。我是艾拉·格拉斯。每周在我们的节目中，我们当然会选择一个主题，带给你关于这个主题的各种故事。今天的节目，“投入你的心”。我们来到了第二幕，关于一个与第一部分农夫希拉里情况相反的人。这一幕是关于一个不保留、不等待的人。他完全投入了一个不太可能成功且困难的事业。
+
+00:24:55.730 --> 00:25:19.850
+<v Ira Glass>Sam Brooks is 24, grew up in Washington, DC and wanted to be a politician. And so a year ago, he decided to run for one of the top jobs in the city, a job that usually goes to a much more experienced politician, at large city councilman. These are the city councilmen who don't just represent one neighborhood in the city. Their constituency is the entire city. DC is mostly black. Sam Brooks is white.
+<v Ira Glass>萨姆·布鲁克斯24岁，在华盛顿特区长大，想成为一名政客。所以一年前，他决定竞选城市最高职位之一，这个职位通常由更有经验的政客担任——全市议员。这些是不仅仅代表城市中一个街区的议员。他们的选民是整个城市。华盛顿特区主要是黑人。萨姆·布鲁克斯是白人。
+
+00:25:19.850 --> 00:25:43.850
+<v Ira Glass>But he felt sort of outraged at one of the guys serving as at large councilman, a man who had been in the job since Sam was 10, a man named Harold Brazil. Brazil had a reputation for being out of touch. The Washington Post called him disengaged and a disappointment. Washington City Paper called him "Number one in the city for legislative wishy-washyness, non-sequiturs and other buffoonery."
+<v Ira Glass>但他对其中一位担任全市议员的人感到愤怒，那个人从萨姆10岁起就担任这个职位，名叫哈罗德·巴西尔。巴西尔以脱离现实而闻名。《华盛顿邮报》称他“心不在焉，令人失望”。《华盛顿城市报》称他为“立法优柔寡断、不合逻辑和各种滑稽行为的城市第一名”。
+
+00:25:43.850 --> 00:26:06.210
+<v Ira Glass>So Sam Brooks entered the race. He started walking door to door in every neighborhood in the city, hundreds of miles. His other opponent, besides the incumbent, was Kwame Brown, who was well known partly because his dad was a big civil rights leader in DC. Sam Brooks kept an audio diary of everything that happened, the fundraising, the ups, the downs. Here it is.
+<v Ira Glass>所以萨姆·布鲁克斯加入了竞选。他开始在城市的每个街区挨家挨户走访，走了数百英里。除了现任者，他的另一个对手是夸梅·布朗，他出名部分是因为他父亲是华盛顿特区著名的民权领袖。萨姆·布鲁克斯记录了发生的一切，筹款，起起落落。在这里。
+
+00:26:06.210 --> 00:26:30.920
+<v Sam Brooks>It is about 5:15 on Tuesday, January 27. I feel like we've done everything we can to raise money this quarter. We have one more fundraiser on Thursday night. I think we basically hit our number. And maybe people will look at our number and say well, it's what you get when you're a rich white kid and you grow up in Georgetown.
+<v Sam Brooks>现在是1月27日星期二下午5点15分。我觉得在这个季度我们已经尽了一切努力来筹集资金。我们周四晚上还有最后一场筹款活动。我认为我们基本达到了我们的目标。也许人们看到我们的目标会说，好吧，这就是你作为一个富有的白人孩子在乔治敦长大所能得到的。
+
+00:26:30.920 --> 00:27:22.700
+<v Sam Brooks>I think something like over 85% of my money has come from three zip codes in DC, 20007, 20008 and 20016. And for anybody that has been in DC for a while, you know what that is. That's just rich, white. There's no way around it. I mean it just doesn't look good. Our answer I think is OK. When you're a first time candidate and you grew up in one neighborhood, you raise your money from that neighborhood. If I had grown up in Ivy City Northeast, most of my money would come from there. I grew up in Georgetown, so most of my money will come from there. And hopefully that answer flies.
+<v Sam Brooks>我想我超过85%的资金来自华盛顿特区的三个邮政编码，20007，20008和20016。任何在特区待过一段时间的人都知道那意味着什么。那就是富有，白人。没法绕开。我是说这看起来不太好。我们的答案我觉得还可以。当你第一次参加竞选，在某个街区长大，你就会从那个街区筹款。如果我是在东北部常春藤城市长大的，我的大部分钱就会来自那里。我在乔治敦长大，所以我的大部分钱来自那里。希望这个答案能过关。
+
+00:27:22.700 --> 00:27:38.890
+<v Sam Brooks>The question for voters this September is going to be real simple. If you think that this city is going in the right direction, then this room isn't for you. And certainly I'm not the candidate for you. You've got a candidate in Harold Brazil whose campaign slogan "Keep the Momentum Going."
+<v Sam Brooks>今年9月选民面临的问题会很简单。如果你认为这个城市正在朝着正确的方向前进，那么这个房间就不适合你。当然，我也不是适合你的候选人。你有一个候选人，哈罗德·巴西尔，他的竞选口号是“保持势头”。
+
+00:27:38.890 --> 00:28:06.740
+<v Sam Brooks>I look at this city, and I think most of the people in this room look at this city. They look at our schools, 13 kids, now 14 kids have been murdered this year. They look at scandal after scandal in terms of the government wasting taxpayer dollars. we need a fresh start. And that's what this campaign offers you. So thank you and now keep drinking and keep talking. Thank you.
+<v Sam Brooks>我看着这个城市，我想这个房间里的大多数人也看着这个城市。他们看看我们的学校，今年有13个孩子，现在是14个孩子被谋杀了。他们看看政府在浪费纳税人金钱方面的丑闻接连不断。我们需要一个新的开始。这就是这次竞选能提供给你的。所以谢谢大家，现在继续喝酒谈话吧。谢谢。
+
+00:28:06.740 --> 00:28:43.640
+<v Sam Brooks>It is 5:34 on Thursday afternoon. Woke up today hoping that there'd be a story in the Washington City paper. There was. Said that Sam Brooks had raised an impressive amount of money. And that was exciting. But the story was not that. The story is that council member Jim Graham might run, who's a white, gay member of the council. And who from Ward 1 might challenge Harold citywide. Jim Graham effectively kills my candidacy if he gets in the race.
+<v Sam Brooks>现在是周四下午5点34分。今天醒来时希望《华盛顿城市报》会有一篇报道。确实有。说萨姆·布鲁克斯筹集了可观的资金。那很令人兴奋。但故事不是那个。故事是市议会议员吉姆·格雷厄姆可能会参选，他是议会的一名白人、同性恋成员。他可能会从第1区挑战哈罗德。如果吉姆·格雷厄姆加入竞争，他实际上终结了我的候选资格。
+
+00:28:43.640 --> 00:29:24.050
+<v Sam Brooks>So this has been certainly the biggest day of the campaign so far. And the most stressful day of my life. The problem is that his resume from before being on the council is impressive. And people really respect him. And I really respect the man. He's director of Whitman-Walker. He was a clerk for Jimmy Carter well before that. And in between the two, he had just done an incredible amount of things. So the questions have been all day are, am I going to stay in the race? What's my message now?
+<v Sam Brooks>所以这无疑是竞选至今最重大的一天。也是我一生中最有压力的一天。问题在于他在担任议员之前的简历令人印象深刻。人们真的很尊重他。我也真的很尊重这个人。他是惠特曼-沃克诊所的负责人。在此之前很久，他曾是吉米·卡特的职员。在这两者之间，他做过不可思议多的事情。所以整天都在被问：我还要留在比赛中吗？我现在的信息是什么？
+
+00:29:24.050 --> 00:29:57.180
+<v Sam Brooks>I mean the message is now just totally different, literally. Jim Graham gets in the race, this whole message of hard work, doing whatever it takes with a fresh approach to tackle these big issues, all of a sudden that's not the message. Because Jim Graham works hard. It's funny. You feel like your message is also why you're running. So you'd think that with Jim Graham in the race, my message no longer has any real rationale, this message of hard work.
+<v Sam Brooks>我的意思是，信息现在完全不同了，从字面上看。吉姆·格雷厄姆加入比赛，这整个努力工作、不惜一切代价用新方法解决这些大问题的努力，突然间这就不是信息了。因为吉姆·格雷厄姆工作努力。真有趣。你觉得你的信息也是你参选的原因。所以你会认为吉姆·格雷厄姆加入比赛后，我的信息不再有任何真正的逻辑，这个努力工作的信息。
+
+00:29:57.180 --> 00:30:49.290
+<v Sam Brooks>But he's only going to announce an exploratory committee, so there's some question we might be able to bump him out of the race. That's the hope. He knows that if I'm in the race raising money, continuing to get support, it's going to be really tough for him to win. Because basically when you're a white member of the council, particularly in Jim's case when you're gay, you basically need all of the white vote behind you. You can't have another white candidate in the race and expect to win. And Jim has to know that if I'm in the race continuing to fight, I'm going to get at least 5,000 votes. And so that might just kill Jim and his chances.
+<v Sam Brooks>但他只会宣布一个探索委员会，所以有一个问题，我们也许能把他挤出竞选。这就是希望。他知道如果我在竞选中筹集资金，继续获得支持，他将很难获胜。因为基本上，当你是议会的白人成员时，特别是在吉姆的情况下，当你还是同性恋时，你基本上需要所有白人选票支持你。你不能让另一个白人候选人在比赛中，还指望获胜。而且吉姆必须知道，如果我在竞选中继续战斗，我至少会得到5,000张选票。那可能就会终结吉姆和他的机会。
+
+00:30:49.290 --> 00:30:59.580
+<v Rally Announcer>So I want to welcome a friend to the stage, someone who's fighting the front lines of youth politics by being a young person, showing our generation does count. So please a round of applause--
+<v Rally Announcer>所以我想欢迎一位朋友上台，一个通过作为年轻人站在青年政治前线战斗的人，展示我们这一代人确实很重要。所以请掌声鼓励——
+
+00:30:59.580 --> 00:31:13.760
+<v Sam Brooks>We're at a rally in downtown DC organized by Mobilizing America's Youth. Hardly anyone is here. And it's pretty much a joke to try to deliver a speech when 15 people are watching.
+<v Sam Brooks>我们正在华盛顿特区市中心的一个集会上，由“动员美国青年”组织。几乎没有人在这里。当只有15个人在看时，试图发表演讲简直是个笑话。
+
+00:31:13.760 --> 00:31:25.120
+<v Sam Brooks>You know I think for far too long we've pushed away from an idealism that this country and this city would be well served by.
+<v Sam Brooks>你知道我认为太久以来，我们一直远离一种理想主义，而这种理想主义对这个国家和这个城市都会有很好的贡献。
+
+00:31:25.120 --> 00:32:01.100
+<v Sam Brooks>It is 7:36 on Wednesday, February 25. Just a combination of things really led to a rough few days. Of course the Jim Graham thing continues to hurt. And I had an email from somebody that almost dropped out of having a big fundraiser for me because of Jim Graham. I convinced her to continue to have it. But I don't get the sense she's even probably going to vote for me.
+<v Sam Brooks>现在是2月25日星期三下午7点36分。只是各种事情加在一起导致了这几天很艰难。当然，吉姆·格雷厄姆的事情继续造成伤害。我收到了一封电子邮件，有人因为吉姆·格雷厄姆差点取消为我举办大型筹款活动。我劝说她继续举办。但我不觉得她甚至可能会投我一票。
+
+00:32:01.100 --> 00:32:35.160
+<v Sam Brooks>And then there's also the fact that this has just been a terrible month for fundraising. I have raised I think no more than $1,500. So I'll get another $800 from my dad. Get him to max out. So that gets us less than $2,500. And so that's disappointing. And people will look at this and be disappointed. And so I'm trying to spin this. But I'm not getting-- people I don't think are liking my spin of the money.
+<v Sam Brooks>还有个事实是，这个月筹款简直太糟糕了。我想我筹到的不超过1,500美元。所以我从我爸那里再得到800美元。让他筹到上限。所以我们得到不到2,500美元。这很令人失望。人们会看着这个，感到失望。所以我正在试图美化这件事。但我没得到——我觉得人们不喜欢我对钱的美化。
+
+00:32:35.160 --> 00:33:00.670
+<v Sam Brooks>And then my Blackberry wasn't working. And I ended up having to buy a new one. And then I get home, charge the Blackberry. I'm taking it the five feet from the charger to the computer to sync it up and I dropped it and broke it. And I didn't have insurance on it. Pretty much felt like I was making a bunch of 24 year old mistakes.
+<v Sam Brooks>还有我的黑莓手机坏了。最后不得不买个新的。回家后给黑莓充电。我把它从充电器拿出来走了五英尺去同步电脑，结果掉了，摔坏了。我还没买保险。简直觉得我在犯一堆24岁年轻人会犯的错误。
+
+00:33:00.670 --> 00:33:46.410
+<v Sam Brooks>It's Monday, 11:54. And a lot of people have been telling me that Jim Graham could give me a deal to get out of the race. Could either offer to endorse me in a race in Ward 1. One, assuming he wins and gives up that seat. Or get me a job or all these things. But the argument has been made to me that maybe it makes sense to do it. I had been worried and it's just-- I do it out of self interest. And my friend Brian's point is the self interested thing to do is to stay in the race.
+<v Sam Brooks>现在是周一11点54分。很多人告诉我吉姆·格雷厄姆可能会给我一个条件让我退出比赛。可以提出支持我在第1区竞选。假设他获胜并放弃那个席位。或者给我一份工作或所有这些事情。但有人向我指出，也许这样做有道理。我一直很担心，这只是——我是出于私利这么做。我朋友布莱恩的观点是，出于私利，正确的做法是留在竞选中。
+
+00:33:46.410 --> 00:34:20.070
+<v Sam Brooks>And I'm staying in a race that I'm not likely to win. Very unlikely to win. Very, very unlikely to win. And if I take the deal, I have a chance to win in Ward 1. The self serving thing is to stay in the race and basically stay in just to self-promote all over the city, which is one way of looking at what I'm doing. I don't know. I don't totally agree with that but it's resonating with me for some reason right now.
+<v Sam Brooks>我留在一个我不大可能获胜的竞选中。极不可能获胜。非常、非常不可能获胜。如果我接受这个条件，我有机会在第1区获胜。出于私利，正确的做法是留在竞选中，基本上只是为了在全城自我推销，这是我所做事情的一种看法。我不知道。我并不完全同意这一点，但出于某种原因，它现在引起了我的共鸣。
+
+00:34:20.070 --> 00:35:14.000
+<v Sam Brooks>You know a guy like Jim Graham has a lifetime of incredible service to the city and to his community. I think that's just makes him want to get in the race. He just feels like he'd be better, and more qualified and more deserving. And it's hard to argue with that to be honest. He is more deserving. That's the honest truth. Jim Graham is more deserving. I mean if I'm watching this as a voter, watching another 24 year old with the same qualifications, watching this race if it happened it Philadelphia, I'd probably vote for John Graham. I'd probably want Jim Graham to win. Or think he should win.
+<v Sam Brooks>你知道，像吉姆·格雷厄姆这样的人为城市和社区服务了一辈子。我觉得这只是让他想加入竞选。他只是觉得他会更好，更合格，更值得。老实说，很难反驳这一点。他确实更值得。这是诚实的真相。吉姆·格雷厄姆更值得。我是说，如果我作为选民看着这个，看着另一个有同样资历的24岁年轻人，如果这个竞选发生在费城，我可能会投约翰·格雷厄姆。我可能想让吉姆·格雷厄姆获胜。或者认为他应该获胜。
+
+00:35:14.000 --> 00:35:41.020
+<v Sam Brooks>God I'd love to stay in the race. I would love to stay in the race. I just don't know if I'm going to be able to withstand the pressure to get out. And I don't know whether I'm going to have it in my heart to keep it going.
+<v Sam Brooks>天哪，我很想留在竞选中。我很想留在竞选中。我只是不知道我是否能承受退出的压力。我不知道我是否有心一直坚持下去。
+
+00:35:41.020 --> 00:36:04.380
+<v Sam Brooks>It is 6:32 on Wednesday, May 5. And if it's possible to have more of an emotional roller coaster in the past 24 four hours, then I'd be really surprised.
+<v Sam Brooks>现在是5月5日星期三下午6点32分。如果能在过去24小时内有更多情绪波动的话，那我真的会很惊讶。
+
+00:36:04.380 --> 00:36:32.770
+<v Kojo Nnamdi>From WAMU at American University in Washington welcome to the Kojo Nnamdi Show. It's the DC Politics Hour. On this edition of the DC Politics Hour, Ward 1 council member Jim Graham will join us to explain why he decided against running for the at large seat on the council that Harold Brazil now occupies. Council member Brazil will tell us how he feels about that. How long does it take to say, gleeful, overjoyed, triumphant?
+<v Kojo Nnamdi>来自华盛顿美利坚大学的WAMU电台，欢迎收听《科乔·纳姆迪秀》。这是华盛顿特区政治时段。在这一期的DC政治时段，第1区议员吉姆·格雷厄姆将加入我们，解释他为什么决定不竞选哈罗德·巴西尔现在占据的议会全市席位。巴西尔议员会告诉我们他的感受。要说“欢欣鼓舞、欣喜若狂、凯旋而归”需要多长时间？
+
+00:36:32.770 --> 00:36:46.630
+<v Kojo Nnamdi>But Kwame Brown and Sam Brooks will be along to say, wait a minute. Hold the glee. Forget the joy. There will be no triumph for Harold Brazil in this race. Council member Jim Graham joins us in the studio now. He is the council member representing Ward 1. Jim Graham, welcome.
+<v Kojo Nnamdi>但夸梅·布朗和萨姆·布鲁克斯会过来，说：“等等，等等。收起那股喜悦。忘掉欢欣。哈罗德·巴西尔在这场比赛中不会有任何胜利。”议员吉姆·格雷厄姆现在加入我们的演播室。他是代表第1区的议员。吉姆·格雷厄姆，欢迎。
+
+00:36:46.630 --> 00:36:47.980
+<v Jim Graham>Thank you very much Kojo.
+<v Jim Graham>非常感谢科乔。
+
+00:36:47.980 --> 00:36:52.550
+<v Kojo Nnamdi>Always a pleasure to see you. Enquiring minds want to know, why Jim, why?
+<v Kojo Nnamdi>见到你总是很高兴。好奇的人们想知道，为什么吉姆，为什么？
+
+00:36:52.550 --> 00:37:23.020
+<v Jim Graham>Well in fact at 10 o'clock on Tuesday night there was no doubt in my mind that I was running. We had a press conference scheduled. We had assembled supporters. We were going. And so it took me a little time myself to reorient to the ultimate decision not to run. I think what it came down to was the fact that it was-- I'm going to use a word I used to use when I was a kid. What I was looking at coming down the road was really going to be icky.
+<v Jim Graham>嗯，事实上在周二晚上10点，我毫无疑问会参加竞选。我们安排了新闻发布会。我们集结了支持者。我们要出发了。所以即使是我自己，也花了一点时间来重新定位最终不参选的决定。我想归根结底是因为——我会用一个我小时候常说的词。我预见到即将发生的事情真的很糟糕。
+
+00:37:23.020 --> 00:37:57.670
+<v Jim Graham>I mean I represent the most diverse ward in the District of Columbia. And thus I'm especially sensitive to the issues of race and ethnicity. And in the final analysis when I looked at this, even though I know I had African American support. I have no crystal ball to say I would definitely win. I thought I would win. And I know I had African American votes. But it would have been a divisive campaign. And I think the incumbent would have been very likely to have made hay on that issue.
+<v Jim Graham>我是说，我代表哥伦比亚特区最多元化的选区。因此，我对种族和族裔问题特别敏感。归根结底，当我审视这一点时，尽管我知道我有非裔美国人的支持。我没有水晶球说我肯定会赢。我以为我会赢。而且我知道我有非裔美国人的选票。但这会是一场导致分裂的竞选。而且我认为现任者很有可能会在那个问题上大做文章。
+
+00:37:57.670 --> 00:38:43.210
+<v Sam Brooks>This might be the day it turned around. I mean it's incredible. This time three nights ago, my campaign was over. And the only thing I was thinking about was my next job, my next move. It wasn't if I was going to drop out, it was when. And the next day Jim Graham end his bid. Right now it's Harold Brazil, Kwame Brown and Sam Brooks are the only candidates in the race. And all of a sudden Sam Brooks's prospects went from about 0% of winning to a legitimate, though certainly what would have to be a historic victory, no longer a total impossibility.
+<v Sam Brooks>这可能是局面扭转的一天。我是说，这太不可思议了。就在三天前的那个晚上，我的竞选已经结束了。我脑子里想的唯一一件事就是下一份工作，下一步行动。不是如果我会退出，而是何时。第二天吉姆·格雷厄姆结束了他的申办。现在是哈罗德·巴西尔，夸梅·布朗和萨姆·布鲁克斯是竞选中唯一的候选人。萨姆·布鲁克斯的获胜前景突然从0%变成了合法的，尽管肯定是一场具有历史意义的胜利，不再是完全不可能。
+
+00:38:43.210 --> 00:38:53.730
+<v Kojo Nnamdi>Jim Graham, thank you for joining us. But as we said, there are other candidates in the at large city council race. And one of them is Sam Brooks. He joins us now by telephone. Sam Brooks, welcome.
+<v Kojo Nnamdi>吉姆·格雷厄姆，感谢你加入我们。但正如我们所说，全市议会竞选中还有其他候选人。其中之一就是萨姆·布鲁克斯。他现在通过电话加入我们。萨姆·布鲁克斯，欢迎。
+
+00:38:53.730 --> 00:38:55.050
+<v Sam Brooks>Kojo, thank you for having me.
+<v Sam Brooks>科乔，谢谢你邀请我。
+
+00:38:55.050 --> 00:39:02.870
+<v Kojo Nnamdi>Another young candidate. Are you also saying that it's time for a change? Time for some youth on the District of Columbia's city council? Is that your main message?
+<v Kojo Nnamdi>另一位年轻的候选人。你也是在说到了做出改变的时候了吗？是时候在哥伦比亚特区议会里注入一些青春活力了？这是你的主要信息吗？
+
+00:39:02.870 --> 00:39:17.200
+<v Sam Brooks>Oh absolutely. I mean I think I hope to bring a new generation of leadership to the city. I think it's time and certainly this seat and this incumbent, his time has come and gone I think.
+<v Sam Brooks>噢，当然。我是说，我想我希望给这个城市带来新一代的领导力。我认为是时候了，当然这个席位和这位现任者，他的时代我想已经过去了。
+
+00:39:17.200 --> 00:39:27.680
+<v Woman 1>How do you get past the age question because you're only 23 years old. Some people will say that you're not politically mature. And that in fact there needs to be a little bit more growing.
+<v Woman 1>你是如何克服年龄问题的，因为你才23岁。有些人会说你政治上不成熟。事实上还需要成长。
+
+00:39:27.680 --> 00:39:34.680
+<v Sam Brooks>Jeanette it's a great question. It's a question I don't shy away from for a second. I'd correct you, I'm 24.
+<v Sam Brooks>珍妮特，这是个很好的问题。这是一个我一秒钟都不会回避的问题。我要纠正你，我24岁。
+
+00:39:34.680 --> 00:39:37.160
+<v Subject>24, OK. You just had a birthday.
+<v Subject>24，好的。你刚过生日。
+
+00:39:37.160 --> 00:39:41.310
+<v Sam Brooks>Every year counts here. But it's a question I don't shy away from. I also don't shy away from--
+<v Sam Brooks>在这里每年都很重要。但这是一个我不会回避的问题。我也不回避——
+
+00:39:41.310 --> 00:40:02.370
+<v Ira Glass>Today when we went on probably the biggest radio show in the city, which I'd been trying to get on for eight months. My interview, which I thought went terribly because I was so nervous-- I was literally shaking on the telephone-- went pretty well. It went well. I mean if I was happy with how it sounded.
+<v Ira Glass>今天当我们上了可能是这个城市最大的广播节目时，我尝试了八个月才上去。我的采访，我原以为进行得很糟糕，因为我太紧张了——我在电话里简直在发抖——进行得相当好。进行得很顺利。我是说，如果我对自己听起来的效果感到满意的话。
+
+00:40:02.370 --> 00:40:12.230
+<v Kojo Nnamdi>Race was one of the reasons that Jim Graham said he was dropping out of the race. Is that something that you have considered? After all, Brazil is African American. You're white.
+<v Kojo Nnamdi>种族是吉姆·格雷厄姆说他退出比赛的原因之一。这是你考虑过的事情吗？毕竟，巴西尔是非裔美国人。你是白人。
+
+00:40:12.230 --> 00:40:39.970
+<v Sam Brooks>Yeah, it is something I've considered. I mean I didn't hear a lot of people talk about that until this week. And certainly as I've walked through every neighborhood in this city in the last 550 miles that I've walked, I don't hear a lot of Washingtonians talk about the color the skin they want this member of the council to be in this seat. They want somebody that's going to fix their schools. And that they want somebody that is committed to the issues that are important to them. And I don't think at the end of the day, it's an issue that going to play very prominently.
+<v Sam Brooks>是的，这是我考虑过的事情。我是说，直到本周之前，我没听到多少人谈论那个。当然，在过去550英里我走过的这个城市的每个街区，我没听到多少华盛顿人讨论他们希望这位议员的肤色是什么样的。他们想要一个能解决学校问题的人。他们想要一个致力于对他们重要问题的人。归根结底，我不认为这是一个会非常突出的问题。
+
+00:40:39.970 --> 00:41:01.980
+<v Ira Glass>And it was the first time literally in eight months that I felt like I belonged in the race. I mean I really felt like this was an endeavor in which I could be successful.
+<v Ira Glass>这真的是八个月来我第一次觉得我属于这场竞选。我是说我真的觉得这是一个我可以成功的努力。
+
+00:41:01.980 --> 00:41:10.890
+<v Ira Glass>[PARADE SOUNDS]
+<v Ira Glass>[游行声]
+
+00:41:10.890 --> 00:41:37.500
+<v Ira Glass>Summer has been going well. I mean since Jim got out of the race it's been a lot of fun to be running for this office. They haven't all been good days, but there have been a lot of good days. The Fourth of July parade was a lot of fun. Felt like I was a real candidate running for office that I had a chance of winning, which was fun.
+<v Ira Glass>夏天过得不错。我是说，自从吉姆退出比赛，竞选这个职位一直很有趣。并不是每天都很好，但有很多好日子。国庆游行很有趣。感觉就像我是一个真正的候选人，在竞选一个我有机会获胜的职位，那很有趣。
+
+00:41:37.500 --> 00:41:48.850
+<v Ira Glass>So what we're doing now is doing a lot of candidate forums at night, trying to get in front of any group of people I can every night.
+<v Ira Glass>所以我们现在做的是晚上参加很多候选人论坛，试图每晚出现在我能接触到的任何群体面前。
+
+00:41:48.850 --> 00:42:05.700
+<v Man 1>Sam Brooks, some people might say, you're just too young and inexperienced and we can't entrust such a responsibility to somebody who is so unseasoned. What would your response be?
+<v Man 1>萨姆·布鲁克斯，有些人可能会说，你太年轻、太缺乏经验，我们不能把这样的责任交给一个如此不老练的人。你的回应是什么？
+
+00:42:05.700 --> 00:42:20.880
+<v Sam Brooks>I'll tell you, for everybody that tells me it's too young, there are nine people that say I am so excited you're running. There are a lot of people who are very excited. Councilman Brazil has this idea that the only person qualified for this job is the person that's already there.
+<v Sam Brooks>我告诉你，对于每一个告诉我太年轻的人，有九个人说我很兴奋你参选。有很多人非常兴奋。巴西尔议员有一种想法，认为这个职位唯一合格的人就是已经在位的人。
+
+00:42:20.880 --> 00:42:31.460
+<v Ira Glass>I've always had good luck in debates. I've looked forward to debating Harold Brazil since I filed papers to declare my candidacy on August 1 of '03.
+<v Ira Glass>我辩论运一直很好。自从我于03年8月1日提交文件宣布参选以来，我就一直期待着与哈罗德·巴西尔辩论。
+
+00:42:31.460 --> 00:42:37.660
+<v Man 1>Mr. Brazil, are you too old to serve on the city council?
+<v Man 1>巴西尔先生，你太老了不适合在市议会服务了吗？
+
+00:42:37.660 --> 00:42:48.800
+<v Brazil>I'm old enough to be on city council and I'm not too old to have the experience and leadership on the council. To know the store, to know how it works.
+<v Brazil>我有足够的年龄进入市议会，而且我不老，在议会有经验和领导力。了解商店，了解它是如何运作的。
+
+00:42:48.800 --> 00:43:19.370
+<v Sam Brooks>It's at once exciting to do well in these debates and to really feel like I'm winning and like I'm the strongest candidate in the field. But the same time I get in the car and go home and realize, really only 20 or 30 people that didn't have an idea about where they were going to vote were showing up at the debates.
+<v Sam Brooks>在辩论中表现出色，真的感觉自己要赢了，感觉自己是场上最强的候选人，这既让人兴奋。但同时我上车回家时意识到，真正参加辩论的那些不知道该投给谁的人，只有20或30个。
+
+00:43:19.370 --> 00:44:07.140
+<v Sam Brooks>During the debates there's what essentially amounts to straw polls of the community groups. And we're just getting killed in the straw polls. But they're just not representative of ordinary voters. They're representative of the campaign's ability to turn out people that will vote for them. So if you're Harold Brazil, that means busing in literally busloads of senior citizens. Kwame Brown uses a network that his dad has developed over what's almost two dozen years of activism in DC. And I'm working on a network that's existed for really a couple of months. And it's really not even a very good network.
+<v Sam Brooks>辩论期间，社区群体进行了实质上的民意测验。我们在测验中被击败了。但他们不能代表普通选民。他们代表的是竞选团队动员愿意投票给他们的人的能力。所以如果你是哈罗德·巴西尔，那意味着动用车辆运来大批老年人。夸梅·布朗利用他父亲在华盛顿特区近24年的活动中建立的网络。而我正在努力运作一个实际上只有几个月历史的网络。而且这甚至不是一个很好的网络。
+
+00:44:07.140 --> 00:44:18.550
+<v Brazil>--with some experience and leadership on the council. No time for on the job training baby.
+<v Brazil>——带着一些经验和领导力进入议会。没有时间进行在职培训，宝贝。
+
+00:44:18.550 --> 00:45:16.270
+<v Sam Brooks>There's this weird thing that happens that some people are turned off by because when you're 24 years old, you're not supposed to be running for office, particularly citywide. And so to even have the idea that I could do that is almost bizarrely just really self centered. To think that I'm so great that I can do it. I'm a lot of times almost embarrassed by it just because I always worry it almost does come across as being just really an incredible ego. And some people I think, or at least I worry that some people are turned off by that.
+<v Sam Brooks>发生了一件奇怪的事情，让一些人感到反感，因为当你24岁时，你不应该参选，特别是全市范围的。所以甚至有我可以做到那种想法几乎极其古怪，简直太以自我为中心了。认为我是那么棒，我可以做到。很多时候我甚至为此感到尴尬，因为我总是担心它看起来简直就是不可思议的自我膨胀。我觉得有些人，或者至少我担心有些人因此感到反感。
+
+00:45:16.270 --> 00:45:54.110
+<v Sam Brooks>But having said all that, this is what I really feel in my gut I should be doing. It's what every instinct I have tells me. It's just a faith that we can be doing better than we're doing. And the faith that I could be somebody that could bring about the changes that would let us do better than we're doing.
+<v Sam Brooks>但说完了所有这一切，这确实是我从内心深处觉得我应该做的事。这是我所有的本能告诉我的。这只是一个信念，我们可以比现在做得更好。一个信念，我可能是那个带来变化的人，让我们比现在做得更好。
+
+00:45:54.110 --> 00:46:15.640
+<v Ira Glass>Sam Brooks. His primary election was two weeks ago. The results, Kwame Brown came in first with 54% of the vote. The incumbent Harold Brazil got 32% of the vote. Sam Brooks, 13%. His new ambition, he hopes to get a job working for a city councilman this fall. His diaries were produced for radio by Teal Krech.
+<v Ira Glass>萨姆·布鲁克斯。他的初选是两周前。结果，夸梅·布朗以54%的选票获胜。现任者哈罗德·巴西尔获得了32%的选票。萨姆·布鲁克斯，13%。他新的抱负是希望在今年秋天得到一份为市议员工作的工作。他的日记由泰尔·克雷奇制作。
+
+00:46:15.640 --> 00:46:32.340
+<v Ira Glass>[MUSIC - "YOU'RE STILL A YOUNG MAN" BY TOWER OF POWER]
+<v Ira Glass>[音乐 - 电力之塔乐队演唱的《你仍然是个年轻人》]
+
+00:46:32.340 --> 00:46:45.180
+<v Ira Glass>Act Three, Contrails of my Tears. Well, we end our show today with this story of people putting their heart into something whether they want to or not. Brett Martin says it's happened to him.
+<v Ira Glass>第三幕，“我的泪水的凝结尾迹”。嗯，今天我们以这个故事结束节目，关于人们无论是否愿意都把心投入到某件事中的故事。布雷特·马丁说这发生在他身上。
+
+00:46:45.180 --> 00:47:07.820
+<v Brett Martin>A couple of years ago, I was on a flight from New York to San Juan, Puerto Rico. The movie was Sweet Home Alabama , which you'll remember is about a southern girl played by Reese Witherspoon who moves to New York, joins the fashion industry and then is forced to return home and come to terms with her white trash roots. At the end, there's a wedding scene when the character has to explain to her big city husband to be that she's leaving him for her earthy, down home high school sweetheart.
+<v Brett Martin>几年前，我在从纽约飞往波多黎各圣胡安的航班上。电影是《美丽俏佳人》，你会记得它是关于南方女孩，瑞茜·威瑟斯彭饰演，搬到纽约，进入时尚界，然后被迫回家并与她白垃圾的根源达成和解。最后有一个婚礼场景，角色必须向她的大城市未婚夫解释她为了她朴实、家乡的高中甜心要离开他。
+
+00:47:07.820 --> 00:47:28.740
+<v Reese Witherspoon As Melanie Smooter>You see, the truth is I gave my heart away a long time ago, my whole heart. And I never really got it back. And I don't even know what else to say but I'm sorry, I can't marry you.
+<v Reese Witherspoon As Melanie Smooter>你看，事实是我很久以前就把心交出去了，我的整个心。我再也没有找回来。我甚至不知道还能说什么，对不起，我不能嫁给你。
+
+00:47:28.740 --> 00:47:55.080
+<v Brett Martin>Into the stunned silence that follows walks Candice Bergen as the jilted fiance's dragon lady of a mother, who coincidentally also happens to be the mayor of New York. After a volley of insults, Witherspoon decks Bergen. And it is at this moment, somewhere between when Witherspoon drawled, "Nobody talks to my mama like that." And her father, Earl Smooter raised his face to the heavens and declared "Praise the Lord. The south has risen again," that something began to happen to me.
+<v Brett Martin>在随后惊愕的沉默中，坎迪斯·伯根作为被抛弃未婚夫的“龙女”母亲走进来，巧合的是她也是纽约市长。在一阵侮辱之后，威瑟斯彭推倒了伯根。就在这一刻，在威瑟斯彭拖着声音说“没人能这样跟我妈妈说话。”和她父亲厄尔·斯穆特向苍天举起脸宣告“赞美主。南方再次崛起。”之间，某件事开始发生在我身上。
+
+00:47:55.080 --> 00:48:11.730
+<v Brett Martin>My face got hot and constricted. A softball rose in my throat that required a surprisingly loud snore to choke back. My breathing grew rapid. In short, I lost it and started to cry.
+<v Brett Martin>我的脸发热并收紧。我的喉咙里升起一个软球，需要一个惊人的响亮吸鼻声才能忍住。我的呼吸变快。简而言之，我失控并开始哭泣。
+
+00:48:11.730 --> 00:48:53.900
+<v Brett Martin>I should say that Sweet Home Alabama is not a very good movie. It's actually a pretty terrible movie. I have no particular attachment to Reese Witherspoon, and I'm not from the South. Also, this was the fourth time I'd seen it. See, my name is Brett. And I cry at movies on airplanes. Not sometimes, always. And not some movies, all movies. Don't believe me? Here's a by no means complete list-- Bend It Like Beckham, 101 Dalmatians, What a Girl Wants , Daredevil .
+<v Brett Martin>我应该说《美丽俏佳人》不是一部很好的电影。实际上是一部相当糟糕的电影。我对瑞茜·威瑟斯彭没有特别的依恋，我也不是来自南方。另外，这是我第四次看它。你看，我叫布雷特。我在飞机上看着电影哭。不是有时候，总是。不是某些电影，所有电影。不信我？这里有一份绝对不完整的清单——《我爱贝克汉姆》、《101忠狗》、《少年追梦》、、《夜魔侠》。
+
+00:48:53.900 --> 00:49:17.720
+<v Brett Martin>Let me be clear. I'm not afraid of flying. I like flying. And I'm not a crier, at least not on land. Like many men I know, even sensitive ones who know that having a cry can be healthy and good, I passed some invisible line in adolescence when I simply stopped doing it. There have been many times in life that I probably should have cried, actually tried to cry and wasn't able to. Because, of course, I didn't happen to be a 30,000 feet.
+<v Brett Martin>让我说清楚。我不怕飞行。我喜欢飞行。我不是个爱哭的人，至少在陆地上不是。像我认识的许多男人一样，即使是那些知道哭泣是健康和好事的人，我在青春期跨过了一条无形的线，我只是停止了那样做。生活中有很多时候我本应该哭，实际上试图哭却哭不出来。因为，当然，我当时不在30,000英尺的高空。
+
+00:49:17.720 --> 00:50:02.050
+<v Brett Martin>Needless to say, this can be embarrassing. I once confessed my problem to a friend, and he thought for a long moment before saying, "I'm sorry to hear that. Does it make your mascara run?" Earlier this year, I was flying from Denver to New York and found myself seated next to a big, burly guy with a cowboy shirt a Western belt buckle. Before takeoff we talked about football or college basketball or something. Then they announced the movie. It was Under the Tuscan Sun . I glanced at my macho new buddy. Thought about watching Diane Lane experience love and loss while rediscovering her inner strength at a farmhouse in the Italian countryside. And read the Sky Mall catalog instead.
+<v Brett Martin>不用说，这可能很尴尬。我曾经向朋友坦白过我的问题，他想了很久才说：“很遗憾听到这个。这会让你的睫毛膏花掉吗？”今年早些时候，我从丹佛飞往纽约，发现自己坐在一个穿着牛仔衬衫、西部皮带扣的彪形大汉旁边。起飞前我们谈论了足球或大学篮球之类。然后他们宣布了电影。是《托斯卡纳艳阳下》。我瞥了一眼我那阳刚的新伙伴。想过看黛安·莱恩在意大利乡村的农舍重新发现她内在力量的同时经历爱与失。结果看了空中购物目录。
+
+00:50:02.050 --> 00:50:20.950
+<v Brett Martin>For a long time, I thought I was alone in this. Then a few months ago I was at a party and overheard another guest describe how he fell to pieces watching an episode of Everybody Loves Raymond on a flight to California. I started asking around and found I wasn't completely alone. Greg is 32 year old guy in jeans and a Mets hat who just finished writing a book about college sports.
+<v Brett Martin>很长一段时间，我以为我是独自一人。然后几个月前我参加了一个派对，偶然听到另一个客人描述他如何在飞往加州的航班上看着一集《人人都爱雷蒙德》而崩溃。我开始四处打听，发现我不完全孤单。格雷格是一个32岁的家伙，穿着牛仔裤，戴着大都会队的帽子，刚写完一本关于大学体育的书。
+
+00:50:20.950 --> 00:50:47.520
+<v Greg>I think it might have been only movie available, Dirty Dancing II : Havana Nights . The parents watch them dance. And they see how special this relationship is. And at that moment they've gone from angry parents to accepting of Javier. I mean I got choked up.
+<v Greg>我想那可能是唯一可用的电影，《辣身舞2：哈瓦那之夜》。父母看着他们跳舞。他们看到这段关系有多特别。那一刻他们从愤怒的父母转变为接受了哈维尔。我是说，我哽咽了。
+
+00:50:47.520 --> 00:50:53.700
+<v Brett Martin>As my fellow weepers will tell you, even not watching the movie is no guarantee of safety. Here's my friend Lindsey.
+<v Brett Martin>正如我的同伴们会告诉你的，即使不看电影也不是安全的保证。这是我的朋友琳赛。
+
+00:50:53.700 --> 00:51:32.930
+<v Lindsey>So I was on a flight, I believe California to New York. The specifics don't really stand out. But I do remember that it required a $2 deposit for earphones or something. And I wasn't ready to pay the $2 or I didn't have $2. And I decided I'd read my book. But the movie is playing. And I see it, and I can't take my eyes off of it. So I end up watching the entire duration of the movie without sound. And at various points throughout it I started welling up, thinking, wow I can't believe I'm crying at a movie. I can't hear the sound too. And it's Freaky Friday .
+<v Lindsey>所以我当时在飞机上，我相信是加州飞往纽约。具体细节并不突出。但我记得它需要2美元押金买耳机之类。我没准备好付2美元或者我没2美元。我决定我看书。但电影正在播放。我看到了，我无法将视线从它身上移开。所以我最后在没声音的情况下看完了电影全程。在整个过程中的不同时间，我开始涌出泪水，心想，哇，不敢相信我竟然在看一部电影哭。我甚至听不到声音。而且那是《辣妈辣妹》。
+
+00:51:32.930 --> 00:51:42.700
+<v Brett Martin>Or take Stephen, an avid film festival goer and a professional movie critic who can discourse at length on the differences between early and late period Kurosawa. His plane hadn't even taken off.
+<v Brett Martin>或者以斯蒂芬为例，一位热心的电影节常客和专业电影评论家，他能详尽地谈论早期和晚期黑泽明电影的区别。他的飞机甚至还没起飞。
+
+00:51:42.700 --> 00:52:28.070
+<v Stephen>And they were just running this loop of commercials and in-flight programming and stuff. They hadn't started the movie. It was very early on. And there was this Amex commercial. A man traveling through Europe, and I think it was nighttime. I want to say it was raining or something. And this kind of haggard traveler, this businessmen, is walking briskly through the street. And then they close up on a wallet, clearly his, that he had left behind unknowingly. And then you see cut to the hotel where he's checking in. And the woman asks for a credit card. Then he pats himself down and realizes he doesn't have it. He goes into a state of panic. I think that's when I started choking up.
+<v Stephen>他们只是在循环播放商业广告和机上节目之类。他们还没开始放电影。时间还很早。有一个美国运通的广告。一个人在欧洲旅行，我想是晚上。我想是下雨之类。这位疲惫的旅行者，这位商人，正快步穿过街道。然后镜头特写在一个显然是他的钱包上，他不知情地遗漏了。然后你看到切到他在办理入住的酒店。女人要信用卡。然后他拍了拍自己，意识到他没有。他陷入了恐慌。我想那就是我开始哽咽的时候。
+
+00:52:28.070 --> 00:53:00.250
+<v Stephen>And then he gets American Express on the phone. They explain that it'll be OK. He'll have a credit card in the morning. And then I start to relax a little bit. And then he says, wait I'm not going to be in this city tomorrow. I have to travel. And then I started choking up again. And then they said, oh, we'll have it waiting for you in that city. And then I just started crying after that. I was so happy for him and relieved. And it was a pretty tense situation there for about 15 or 20 seconds.
+<v Stephen>然后他接到了美国运通的电话。他们解释说会没事的。他早上就会有信用卡。然后我开始放松一点。然后他说，等等，我明天不在这个城市。我必须旅行。然后我开始再次哽咽。然后他们说，噢，我们会在那个城市为你准备好。然后我就开始哭泣了。我为他感到如此高兴和宽慰。在那儿紧张了大约15或20秒。
+
+00:53:00.250 --> 00:53:30.480
+<v Brett Martin>This is one of the strange features of our problem. We're less likely to cry at the sad parts of a movie, or financial services industry commercial, than at the happy ones, the parts where everything turns out all right. For instance, in the movie Larger Than Life , which I saw somewhere over the Atlantic a few years ago, it wasn't the moment when Bill Murray is separated from the elephant that his dead, circus clown father has left him as a means to change his life as a down on his luck motivational speaker that had me reaching for the tissues. It was when they were reunited.
+<v Brett Martin>这是我们问题的一个奇怪特征。我们不太可能在电影的悲伤部分，或金融服务业广告中哭泣，而是在快乐的部分，那些一切都好转的部分。例如，在电影《更大于生命》中，我几年前在横跨大西洋的某个地方看过，当比尔·默瑞与他那死去的、马戏团小丑父亲留给他作为改变他作为走下坡路励志演说家生活的手段的大象分离时，那不是让我去拿纸巾的时刻。而是当他们重聚时。
+
+00:53:30.480 --> 00:54:16.630
+<v Brett Martin>In fact, the first time this happened to me was during one of the happy scenes I'd ever seen. It was in Big Night , Stanley Tucci's movie about paternal love and Italian food. Midway through the movie, Tucci's character and his brother stage a feast in their New Jersey restaurant. And at one point bring out a whole roast pig. The camera pans across the faces of the guests just amazed by this unbelievable bounty being wheeled into the room. And the lump began to rise in my throat. I found myself brimming over with joy with the sense that somewhere in the darkness miles below, just like on screen, people were laughing, communing, sharing a meal. It was impossibly beautiful, and there was just nothing to do but cry.
+<v Brett Martin>事实上，第一次发生这种事是在我看过的场景之一，快乐的场景。是在《大夜宴》中，斯坦利·图齐关于父爱和意大利食物的电影。电影中段，图齐的角色和他的兄弟在他们新泽西的餐厅举办了一场盛宴。在某个时刻推出来一整只烤猪。镜头扫过客人的脸，他们对被推进房间的难以置信的丰盛食物感到惊奇。我的喉咙里开始涌起哽咽。我发现自己充满了喜悦，意识到在下面黑暗的几英里之外，就像屏幕上一样，人们在欢笑，交流，分享一顿饭。它美得令人难以置信，除了哭泣别无他法。
+
+00:54:16.630 --> 00:54:23.910
+<v Brett Martin>I've never heard of anyone crying inappropriately on trains, or on buses, or in boats or cars. What is it about airplanes?
+<v Brett Martin>我从未听说过有人在火车上、公共汽车上、船上或汽车上不合时宜地哭泣。飞机有什么特别之处？
+
+00:54:23.910 --> 00:54:39.410
+<v Lindsey>I remember getting off the plane thinking I should really actually be embarrassed by the fact that I just cried during Freaky Friday , and I didn't even hear the sound to it. But I wasn't It's like, what happens in the air, stays in the air, I guess.
+<v Lindsey>我记得下飞机时心想，我刚才竟然在《辣妈辣妹》播放时哭泣，甚至没听到声音，我真的应该感到尴尬。但我没有。我想这就是，在空中发生的事，留在空中，我猜。
+
+00:54:39.410 --> 00:55:08.730
+<v Brett Martin>The people I talked to offered a lot of excuses. It's the recirculated air, your eyes are dry, you're often tired and leaving people behind. And of course, there's the obvious conclusion. We're all scared to death. But I've been on hundreds of planes, including quite a few tiny ones. One sea plane that landed on water, and one blimp. I've taken the controls of a plane. I've jumped out of a plane. I've searched my soul and honest to god, I find no fear of flying. And all the frequent criers I interviewed felt the same.
+<v Brett Martin>我采访的人提供了一堆借口。是再循环的空气，你的眼睛干涩，你经常很累，把人们留在身后。当然，有个明显的结论。我们都被吓死了。但我坐过数百次飞机，包括不少微型飞机。一架在水上降落的水上飞机，和一个飞艇。我控制过飞机。我跳过伞。我审视过我的灵魂，向上帝发誓，我没发现对飞行的恐惧。所有我采访过的常哭旅客感觉都一样。
+
+00:55:08.730 --> 00:55:27.470
+<v Brett Martin>No, something else happens up there in that weird, hanging state between where you're going and where you've left. Where there's no phone calls to take, nowhere to go, nothing to do. Some strange, overhead compartment of the heart opens up. And critical judgment grabs its flotational seat cushion and follows a lighted pathway to the big yellow slide.
+<v Brett Martin>不，在那儿发生了一些别的事情，那种悬浮状态，在你去的地方和你离开的地方之间。没有电话要接，没地方去，没事可做。心的某个奇怪的头顶舱打开了。而批判性判断抓住了它的漂浮垫，跟着照明通道滑向了大黄色滑梯。
+
+00:55:27.470 --> 00:55:39.080
+<v Brett Martin>Our friend Greg says this actually makes the ride better. Think about it. You're stuck in a seat for five, or 10 or 5 hours. And how would you rather pass the time? Sitting there being a critic? Or just simply giving in?
+<v Brett Martin>我们的朋友格雷格说这实际上让旅程更好。想想看。你被困在一个座位上5、10或5小时。你愿意怎么打发时间？坐在那儿当评论家？还是只是简单地屈服？
+
+00:55:39.080 --> 00:56:02.470
+<v Greg>I mean I wouldn't have watched Havana Nights in the waiting area, waiting to get the plane on Earth. No, not a chance. But once you step on the plane, I'm open to and accepting the movie. And then once you do that, it's going to leave you jelly. It turned me into jelly.
+<v Greg>我的意思是，在等待区，在地球上等待上飞机时，我不会看《哈瓦那之夜》。不，没可能。但一旦你踏上飞机，我就开放并接受这部电影。一旦你那样做，它就会让你变成软糖。它把我变成了软糖。
+
+00:56:02.470 --> 00:56:32.260
+<v Brett Martin>My own theory goes something like this. My father once told me that the reason squirrels get hit by cars is that evolutionarily, nothing in their little hard wired brains is capable of understanding a large object hurtling toward them at 70 miles per hour. Well even though I fly all the time, nothing in my little hard wired brain is capable of understanding, I mean really understanding, stepping onto a metal tube, hanging in space for a while and then stepping off 6,000 miles away in a place with different weather, different stars, different time.
+<v Brett Martin>我自己的理论是这样的。我父亲曾经告诉我，松鼠被车撞的原因是，在进化上，它们那小小的硬连线大脑里没有任何东西能理解一个以每小时70英里速度冲向它们的大型物体。虽然我一直飞行，但我那小小的硬连线大脑里没有任何东西能理解，我是说真正理解，踏入一个金属管，在太空中悬浮一段时间，然后6,000英里外走下飞机，在有着不同天气、不同星星、不同时间的地方。
+
+00:56:32.260 --> 00:57:04.300
+<v Brett Martin>It puts you into a kind of sterile, infantalizing, travel purgatory. Your'e strapped in, given a blanket, a little sippy cup and tiny silverware. Forced to do whatever you're told and borne away at speeds you can't conceive without seeing where you're going. We all deal with this dislocation differently. Many times I've thought, why can't I just have air rage? Why can't I be the guy drinking 14 mini-bottles of Amaretto, surfing down the aisle on the dinner cart, groping stewardesses and cursing? But then, I do a lot of yelling and screaming down here on the ground, even a little groping.
+<v Brett Martin>它把你放进了一种无菌的、婴儿化的、旅行炼狱。你被绑在里面，给一条毯子，一个小吸口杯和微小的银餐具。被迫做任何被告知的事情，并以你无法想象的速度被带走，而看不到你要去哪里。我们所有人以不同的方式处理这种错位。很多次我想，为什么我不能只是有飞行愤怒？为什么我不能是那个喝14瓶阿玛雷托小瓶酒、在晚餐车过道上冲浪、骚扰空姐并咒骂的家伙？但后来，我在地面上确实叫喊和尖叫很多，甚至有一点骚扰。
+
+00:57:04.300 --> 00:57:40.710
+<v Brett Martin>What I don't do is cry, not over breakups or reunions or triumphs or deaths. Or leaving home, or coming back, or any of life's other bumps and transformations. And maybe that's the key to my air, what, sorrow? Maybe I cry the tears I should be shedding on Earth. And all you people who don't cry on airplanes, you're probably the ones I see sobbing on the subway, or on street corners or at funerals. You probably get it all out at home. Well boo hoo. Do us all a favor and keep it in the air, you babies.
+<v Brett Martin>我不做的是哭泣，不是因为分手、重聚、胜利或死亡。或者是离开家，或者回来，或者生活中任何其他的颠簸和变化。也许这就是我空中哀伤的关键？也许我哭的是我本应在地球上流下的眼泪。而你们所有不在飞机上哭泣的人，你们可能就是我在地铁上，或街角，或葬礼上看到呜咽的人。你们可能在家里就把它们都发泄出来了。嗯，呜呜。帮帮我们所有人，把它留在空中吧，你们这些宝宝。
+
+00:57:40.710 --> 00:57:54.350
+<v Ira Glass>Brett Martin in New York. Our program was produced today by Jane Feltes and myself, with Alex Blumberg, Diane Cook, Wendy Dorr, Sarah Koenig, and Lisa. Pollack Our senior producer is Julie Snyder. Elizabeth Meister runs our website. Production help from Todd Bachmann and Amy O'Leary.
+<v Ira Glass>布雷特·马丁在纽约。我们的节目今天由简·费尔特斯和我制作，还有亚历克斯·布隆伯格、黛安·库克、温迪·多尔、萨拉·柯尼格和莉萨·波拉克。我们的资深制作人是朱莉·斯奈德。伊丽莎白·迈斯特负责我们的网站。托德·巴赫曼和艾米·奥利里提供制作帮助。
+
+00:57:54.350 --> 00:58:11.250
+<v Ira Glass>[ACKNOWLEDGEMENTS]
+<v Ira Glass>[鸣谢]
+
+00:58:11.250 --> 00:58:17.990
+<v Ira Glass>[FUNDING CREDITS]
+<v Ira Glass>[资助信用]
+
+00:58:17.990 --> 00:58:20.770
+<v Ira Glass>This American Life is distributed by Public Radio International.
+<v Ira Glass>《美国生活》由国际公共广播电台发行。
+
+00:58:20.770 --> 00:58:35.310
+<v Ira Glass>[FUNDING CREDITS]
+<v Ira Glass>[资助信用]
+
+00:58:35.310 --> 00:58:42.160
+<v Ira Glass>WBEZ management oversight for our program by Torey Malatia, who wants to replace our program with Howard Stern's.
+<v Ira Glass>WBEZ对我们节目的管理监督由托里·马拉蒂亚负责，他想用霍华德·斯特恩的节目替换我们的节目。
+
+00:58:42.160 --> 00:58:45.500
+<v Sam Brooks>He just feels like he'd be better, and more qualified, and more deserving.
+<v Sam Brooks>他只是觉得他会更好，更合格，更值得。
+
+00:58:45.500 --> 00:58:56.940
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life .
+<v Ira Glass>我是艾拉·格拉斯。下周回来，带给你更多《美国生活》的故事。
+
+00:58:56.940 --> 00:59:01.940
+<v Announcer>P R I. Public Radio International.
+<v Announcer>P R I。国际公共广播电台。
