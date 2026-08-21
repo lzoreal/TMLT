@@ -5,93 +5,82 @@ on:
     inputs:
       max_files:
         description: "Maximum VTT files to translate"
-
         required: false
-
         default: "10"
 
+# 防止多个 workflow 并发运行，避免同时消耗 Gemini RPD
+concurrency:
+  group: translate-and-deploy
+  cancel-in-progress: false
+
 permissions:
-
-  # 需要提交 public 更新
   contents: write
-
-  # GitHub Pages
   pages: write
-
   id-token: write
 
 jobs:
   translate:
     runs-on: ubuntu-latest
+    # 免费层 500 RPD 约 30–40 分钟跑完，90 分钟足够保守
+    timeout-minutes: 90
 
     steps:
       - name: Checkout repository
-
         uses: actions/checkout@v4
-
         with:
           fetch-depth: 0
 
       - name: Setup Python
-
         uses: actions/setup-python@v5
-
         with:
           python-version: "3.11"
 
       - name: Install dependencies
-
         run: |
-
           pip install -r requirements-translate.txt
 
       - name: Translate VTT
-
+        id: translate
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-
           MAX_FILES: ${{ github.event.inputs.max_files }}
-
-          MAX_REQUESTS: 300
-
+          # 免费层配额，写在这里方便随时改
+          DAILY_REQUEST_LIMIT: 500
+          RPM_LIMIT: 14
+          MAX_BATCH_CHARS: 120000
+          # 让脚本知道自己在 Actions 里，启用日志分组
+          GITHUB_ACTIONS: "true"
         run: |
-
           python -u translate_vtt.py
 
       - name: Generate Chinese RSS
+        # 即使翻译因限额或某集失败而停止，也重新生成 RSS
+        if: success() || failure()
         run: |
           python -u generate_zh_feed.py \
             --base-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
 
       - name: Commit changes
-
+        # 只要没被用户手动取消，就提交已完成的进度（包括 translations.json）
+        if: success() || failure()
         run: |
           git config user.name "github-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs
           git diff --cached --quiet || git commit -m "Add Chinese transcripts feed"
           git push
-      # 配置 GitHub Pages
-      - name: Setup Pages
 
+      - name: Setup Pages
+        if: success() || failure()
         uses: actions/configure-pages@v5
 
-
-
-      # 上传 Pages 内容
       - name: Upload Pages artifact
-
+        if: success() || failure()
         uses: actions/upload-pages-artifact@v3
-
         with:
-
           path: ./docs
 
-
-
-      # 部署 GitHub Pages
       - name: Deploy GitHub Pages
-
+        if: success() || failure()
         id: deployment
-
         uses: actions/deploy-pages@v4
