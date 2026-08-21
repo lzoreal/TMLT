@@ -23,7 +23,7 @@ OUTPUT_DIR = Path("docs/transcripts/zh")
 CACHE_FILE = Path("docs/translations.json")
 
 
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.1-flash-lite")
 
 
 MAX_FILES = int(os.environ.get("MAX_FILES", "10"))
