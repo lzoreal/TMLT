@@ -25,6 +25,40 @@ TMLT Transcript Generator
 
 
 
+<item>
+
+<title>
+1: New Beginnings
+</title>
+
+<link>
+https://www.thisamericanlife.org/1/new-beginnings
+</link>
+
+<guid isPermaLink="true">
+https://www.thisamericanlife.org/1/new-beginnings
+</guid>
+
+<description>
+Our very first broadcast.
+</description>
+
+<itunes:image href="https://www.thisamericanlife.org/sites/default/files/styles/large_portrait/public/episodes/images/1.jpg?itok=j0Dtaaut" />
+
+<podcast:image href="https://www.thisamericanlife.org/sites/default/files/styles/large_portrait/public/episodes/images/1.jpg?itok=j0Dtaaut" />
+
+<pubDate>
+Fri, 17 Nov 1995 00:00:00 -0500
+</pubDate>
+
+<enclosure url="https://www.thisamericanlife.org/sites/default/files/audio/1/f4vcq5NjNe6sLhpHCrnrYIwy4MDsnHERXNinV2Es-cg/1.mp3" type="audio/mpeg" />
+
+<podcast:transcript url="https://lzoreal.github.io/TMLT/transcripts/zh/1.vtt" type="text/vtt" language="zh-CN" />
+
+</item>
+
+
+
 </channel>
 
 </rss>
