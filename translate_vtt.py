@@ -32,11 +32,11 @@ MAX_FILES = int(os.environ.get("MAX_FILES", "10"))
 MAX_REQUESTS = int(os.environ.get("MAX_REQUESTS", "300"))
 
 
-BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "20"))
+# Increased batch size
+BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "80"))
 
 
 RETRY_COUNT = 5
-
 
 RETRY_BASE = 20
 
@@ -47,19 +47,16 @@ RETRY_BASE = 20
 
 
 def log(msg=""):
-
     print(msg, flush=True)
 
 
 def separator():
-
     log("=" * 70)
 
 
 # ============================================================
 # Gemini
 # ============================================================
-
 
 log("Initializing Gemini...")
 
@@ -83,7 +80,6 @@ request_count = 0
 
 # ============================================================
 # Cache
-# only episode status
 # ============================================================
 
 
@@ -146,7 +142,7 @@ def file_hash(path):
 
 
 # ============================================================
-# Gemini Batch Translation
+# Gemini Translation
 # ============================================================
 
 
@@ -169,28 +165,46 @@ Rules:
 
 1. Keep speaker names unchanged.
 2. Do NOT translate names.
-3. Preserve meaning.
+3. Preserve the original meaning.
 4. Do NOT summarize.
-5. Keep every block.
-6. Output ONLY:
+5. Keep every subtitle block.
+6. Translate only the subtitle content.
+
+Output format:
 
 0|||Chinese translation
 1|||Chinese translation
 
-No markdown.
-No explanation.
+Important:
 
+- Output exactly one line per block.
+- Do not add markdown.
+- Do not add explanations.
+- Do not add introductions.
+- Do not use code blocks.
 
 Subtitle blocks:
 
 {joined}
-
 """
 
     return prompt
 
 
 def parse_translation_response(text):
+    """
+    Parse Gemini output.
+
+    Accept:
+
+    0|||translation
+
+    0 | translation
+
+    Ignore:
+    markdown
+    explanations
+    """
 
     result = {}
 
@@ -202,17 +216,41 @@ def parse_translation_response(text):
 
     for line in lines:
 
-        if "|||" not in line:
+        line = line.strip()
+
+        if not line:
 
             continue
 
+        # Remove markdown bullets
+
+        line = re.sub(r"^[\-\*\s]+", "", line)
+
         try:
 
-            idx, value = line.split("|||", 1)
+            if "|||" in line:
 
-            idx = int(idx.strip())
+                idx, value = line.split("|||", 1)
 
-            result[idx] = value.strip()
+            elif "|" in line:
+
+                idx, value = line.split("|", 1)
+
+            else:
+
+                continue
+
+            idx = re.sub(r"[^0-9]", "", idx.strip())
+
+            if not idx:
+
+                continue
+
+            value = value.strip()
+
+            if value:
+
+                result[int(idx)] = value
 
         except Exception:
 
@@ -288,6 +326,11 @@ def gemini_batch_translate(blocks):
 
 
 def split_vtt_blocks(content):
+    """
+    Split VTT cue blocks.
+
+    Keep WEBVTT header.
+    """
 
     return re.split(r"\n\s*\n", content.strip())
 
@@ -327,16 +370,86 @@ def parse_cue(block):
     return {"timestamp": timestamp, "text": text}
 
 
-def clean_speaker(text):
+# ============================================================
+# WebVTT Speaker handling
+# ============================================================
+
+
+def extract_speaker(text):
     """
-    Keep speaker name in English.
+    Extract WebVTT voice tag.
+
+    Example:
 
     <v Ira Glass>Hello
-    =>
-    Ira Glass：Hello
+
+    returns:
+
+    ("Ira Glass", "Hello")
     """
 
-    return re.sub(r"<v\s+([^>]+)>", r"\1：", text)
+    match = re.match(r"<v\s+([^>]+)>(.*)", text, re.DOTALL)
+
+    if match:
+
+        return (match.group(1).strip(), match.group(2).strip())
+
+    return (None, text)
+
+
+def prepare_gemini_text(text):
+    """
+    Convert WebVTT speaker tag
+    into readable Gemini input.
+
+    Keep speaker name unchanged.
+
+    Example:
+
+    <v Ira Glass>Hello
+
+    becomes:
+
+    Ira Glass: Hello
+    """
+
+    speaker, content = extract_speaker(text)
+
+    if speaker:
+
+        return f"{speaker}: {content}"
+
+    return content
+
+
+def restore_speaker_translation(original, translated):
+    """
+    Restore WebVTT speaker tag.
+
+    Example:
+
+    original:
+
+    <v Ira Glass>Hello
+
+
+    translated:
+
+    你好
+
+
+    result:
+
+    <v Ira Glass>你好
+    """
+
+    speaker, _ = extract_speaker(original)
+
+    if speaker:
+
+        return f"<v {speaker}>" f"{translated}"
+
+    return translated
 
 
 # ============================================================
@@ -384,13 +497,13 @@ def translate_episode(source, target):
 
         for i in range(start, end):
 
-            text = clean_speaker(cues[i]["text"])
+            text = prepare_gemini_text(cues[i]["text"])
 
             batch.append((i, text))
 
         separator()
 
-        log(f"Batch {start//BATCH_SIZE+1}")
+        log(f"Batch {start // BATCH_SIZE + 1}")
 
         log(f"Blocks: {start} - {end-1}")
 
@@ -436,13 +549,13 @@ def translate_episode(source, target):
 
         output.append(cue["timestamp"])
 
-        original = clean_speaker(cue["text"])
+        # Original English
 
-        chinese = translated[i]
+        output.append(cue["text"])
 
-        output.append(original)
+        # Chinese translation
 
-        output.append(chinese)
+        output.append(restore_speaker_translation(cue["text"], translated[i]))
 
         output.append("")
 
@@ -479,6 +592,8 @@ def main():
     log(f"Max files: {MAX_FILES}")
 
     log(f"Max requests: {MAX_REQUESTS}")
+
+    log(f"Batch size: {BATCH_SIZE}")
 
     cache = load_cache()
 
