@@ -11,7 +11,14 @@ on:
         default: "10"
 
 permissions:
+
+  # 需要提交 public 更新
   contents: write
+
+  # GitHub Pages
+  pages: write
+
+  id-token: write
 
 jobs:
   translate:
