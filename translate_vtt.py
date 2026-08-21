@@ -291,7 +291,10 @@ def gemini_batch_translate(blocks, cache_meta):
         )
 
         try:
-            response = client.models.generate_content(model=MODEL, contents=prompt)
+            response = client.models.generate_content(
+                model=MODEL,
+                contents=prompt
+            )
             elapsed = time.time() - start
             raw = response.text or ""
             parsed = parse_translation_response(raw)
@@ -496,15 +499,9 @@ def translate_episode(source, target, cache_meta):
     output = ["WEBVTT", ""]
 
     for i, cue in enumerate(cues):
-        # 原文 cue
-        output.append(f"{cue['timestamp']} line:0%")
+        output.append(cue["timestamp"])
         output.append(cue["text"])
-        output.append("")
-
-        # 译文 cue
-        cn_text = restore_speaker_translation(cue["text"], translated[i])
-        output.append(f"{cue['timestamp']} line:80%")
-        output.append(cn_text)
+        output.append(restore_speaker_translation(cue["text"], translated[i]))
         output.append("")
 
     target.parent.mkdir(parents=True, exist_ok=True)
