@@ -1,0 +1,853 @@
+WEBVTT
+
+00:00:00.600 --> 00:00:22.020
+<v Ira Glass>A friend of mine ran her own small business. It was just her and this guy, the bookkeeper. And she loved the bookkeeper. The bookkeeper did the billing. He kept the accounts. He saw that vendors were paid on time. He did basically all the stuff that, to my friend, was just kind of drudgery. She used to say that she didn't know what she would do without him. They were really close. So it was this great setup for years.
+<v Ira Glass>我的一位朋友曾经营自己的小企业。公司里只有她和那个负责记账的人。她很信任那个记账员。记账员负责开账单、管理账户、确保供应商按时收到货款。基本上，她认为所有繁琐的工作都是由他完成的。她过去常说，没有他她不知道该怎么办。他们关系非常亲密。所以，多年来这是一种非常好的合作模式。
+
+00:00:22.020 --> 00:00:48.080
+<v Ira Glass>And then one day, the bookkeeper disappeared with her money. Classic inside job. Perfect one. The bookkeeper knew everything. My friend totally trusted him. And sometimes I wondered, was the idea of using what he knew and taking the money like this little bug in his brain eating away at him for years. Once he figured out that he could take the money, was it hard for him not to take the money?
+<v Ira Glass>后来有一天，记账员卷着她的钱消失了。经典的监守自盗。极其完美的一案。记账员了解一切。我的朋友完全信任他。有时我纳闷，利用他所知的内部信息去偷钱这个想法，是不是像个在他脑子里啃噬了多年的小虫子。一旦他意识到自己可以拿走这笔钱，再让他不这么做是不是很难？
+
+00:00:48.080 --> 00:01:09.440
+<v Ira Glass>Well, today on our radio show, we have two stories of people who get inside. They get inside some system. They truly understand the system. And then they have to figure out what to do with their insider knowledge. One of the stories is this incredible tale of money guys on the make right when the housing market was starting to collapse. The other is this story of cops and robbers, drug busts and drug users playing a cat and mouse game.
+<v Ira Glass>今天我们的广播节目有两个关于“深入内部”的故事。人们潜入某个系统，真正了解这个系统，然后不得不面对如何利用这些内部知识的问题。其中一个故事是关于住房市场开始崩溃时，金融从业者大肆敛财的不可思议的故事。另一个则是关于警察与罪犯、毒品扫荡与吸毒者之间玩着猫鼠游戏的故事。
+
+00:01:09.440 --> 00:01:24.660
+<v Ira Glass>From WBEZ Chicago, it's This American Life distributed by Public Radio International. I'm Ira Glass. Stay with us.
+<v Ira Glass>这里是芝加哥 WBEZ 电台，我是 Ira Glass，正在为您播出由公共广播国际（Public Radio International）发行的《美国生活》（This American Life）。请继续收听。
+
+00:01:24.660 --> 00:01:33.420
+<v Ira Glass>Act One, Eat My Shorts. Something you hear from a lot of people on Wall Street, this crisis that we're going through now, nobody saw it coming.
+<v Ira Glass>第一幕，吃我的短裤（Eat My Shorts）。华尔街许多人经常说的一句话是，我们现在经历的这场危机，没人预见到它会发生。
+
+00:01:33.420 --> 00:01:35.170
+<v Angelo Mozilo>Nobody saw this coming.
+<v Angelo Mozilo>没人预见到会发生这种事。
+
+00:01:35.170 --> 00:01:42.360
+<v Ira Glass>See what I mean? This is Angelo Mozilo, the former CEO of the failed mortgage lender Countrywide on Australia Broadcasting.
+<v Ira Glass>明白我的意思吗？这是倒闭的抵押贷款机构 Countrywide 的前首席执行官 Angelo Mozilo 在澳大利亚广播公司（Australia Broadcasting）上的言论。
+
+00:01:42.360 --> 00:01:51.250
+<v Angelo Mozilo>S&P and Moody's didn't see it coming. Bear Stearns certainly didn't see it coming. Merrill Lynch didn't see it coming. Nobody saw this coming.
+<v Angelo Mozilo>标普（S&P）和穆迪（Moody's）没预见到；贝尔斯登（Bear Stearns）肯定没预见到；美林证券（Merrill Lynch）也没预见到。没人预见到这一点。
+
+00:01:51.250 --> 00:01:54.870
+<v Ira Glass>Brian Moynihan, head of Bank of America, told a congressional hearing he didn't either.
+<v Ira Glass>美国银行（Bank of America）总裁 Brian Moynihan 在国会听证会上也表示他没预见到。
+
+00:01:54.870 --> 00:02:05.580
+<v Brian Moynihan>No one involved in the housing system, lenders, rating agencies, investors, insurers, consumers, regulators, and policy makers foresaw a dramatic and rapid depreciation in home prices.
+<v Brian Moynihan>住房系统中的任何人，无论是贷款机构、评级机构、投资者、保险公司、消费者、监管机构还是政策制定者，都没有预见到房价会出现剧烈且迅速的贬值。
+
+00:02:05.580 --> 00:02:13.070
+<v Ira Glass>Even Robert Rubin, former treasury secretary, former chairman of the executive committee of Citigroup's Board of Directors said just this week--
+<v Ira Glass>甚至连前财政部长、花旗集团董事会执行委员会前主席 Robert Rubin 本周都说——
+
+00:02:13.070 --> 00:02:32.480
+<v Robert Rubin>Almost all of us, including me, who were involved in the financial system, that is to say, financial firms, regulators, rating agencies, analysts, and commentators, missed the powerful combination of factors that led to this crisis and the serious possibility of a massive crisis.
+<v Robert Rubin>我们中几乎所有人，包括我在内，那些参与金融体系的人，也就是金融公司、监管机构、评级机构、分析师和评论员，都错过了导致这场危机的强大因素组合，以及发生大规模危机的严重可能性。
+
+00:02:32.480 --> 00:02:51.340
+<v Ira Glass>The recent collapse of the financial system has been described as a 100-year flood, a perfect storm, a force of nature. And it is so frustrating to hear it described that way, as something that happened to Wall Street instead of something that Wall Street brought on itself.
+<v Ira Glass>近期的金融体系崩溃被描述为百年一遇的洪水、完美风暴、自然力量。听到这种描述让人感到非常沮丧，仿佛这是发生在华尔街身上的事，而不是华尔街自找的。
+
+00:02:51.340 --> 00:03:18.930
+<v Ira Glass>At the height of the boom, Wall Street was doing such strange, dangerous things, bankers and brokers all over the country were giving huge mortgages to people who could not afford to pay them back. Investors were then buying and selling these terrible mortgages to each other as if they were worth something. Banks convinced analysts to rate this stuff as completely safe. And then they believed their own lousy ratings. They believed their own hype. And really, nobody suspected this could all come crashing down?
+<v Ira Glass>在繁荣的顶峰时期，华尔街正在做着如此奇怪、危险的事情：全国各地的银行家和经纪人都在向那些根本无力偿还的人发放巨额抵押贷款。然后，投资者又像这些贷款很有价值一样，把这些糟糕的抵押贷款买来卖去。银行说服分析师将这些东西评为绝对安全。然后，他们相信了自己拙劣的评级。他们相信了自己的炒作。难道真的没人怀疑这一切会崩溃吗？
+
+00:03:18.930 --> 00:03:48.540
+<v Ira Glass>Here on our radio show, we have never believed that this was true. We've never believed this idea that nobody knew. That really, we're all to blame because all of us, from homeowners to investment bankers, all got caught in this irrational exuberance in the housing bubble. We didn't believe it. After two years of reporting on this crisis, we felt pretty sure that not only must there be some people on Wall Street who figured out what would happen, there must have been people who helped bring on the crisis, who fed the fire, and who figured out ways to profit from that.
+<v Ira Glass>在我们的广播节目中，我们从未相信这是真的。我们从未相信“没人知道”这种说法。我们认为我们都有责任，因为我们所有人，从房主到投资银行家，都陷入了住房泡沫中那种非理性的繁荣。我们不相信。在报道这场危机两年后，我们相当确定，华尔街不仅肯定有人预见到了会发生什么，而且肯定有人推波助澜，助长了这场火势，并找到了从中牟利的方法。
+
+00:03:48.540 --> 00:04:10.890
+<v Ira Glass>And so we wanted to find some of those people. To do that, we and our regular team of crack economics reporters at Planet Money asked the investigative reporting outfit ProPublica to join up with us. ProPublica spent seven months conducting dozens of interviews, pouring over thousands of pages of financial documents. And they uncovered some things no one has ever heard before in all the reporting that's been done on the crisis.
+<v Ira Glass>所以我们想找到其中的一些人。为了做到这一点，我们和 Planet Money 节目的专业经济报道团队请求调查报道机构 ProPublica 与我们合作。ProPublica 花了七个月时间进行了数十次采访，查阅了数千页的财务文件。他们发现了一些在所有关于这场危机的报道中从未被提及的事实。
+
+00:04:10.890 --> 00:04:33.400
+<v Ira Glass>And today, with their help, we bring you this story of people at one company and their associates who took home hundreds of millions of dollars in personal income while, at the same time, helping to worsen the crisis that taxpayers, that you and I, will be paying off for years to come. Here's Alex Blumberg with the reporting team from ProPublica, Jake Bernstein and Jesse Eisinger, to bring you the story of this inside job.
+<v Ira Glass>今天，在他们的帮助下，我们将为您讲述一家公司的员工及其合伙人是如何在个人收入中赚取数亿美元，同时又加剧了这场将让纳税人，也就是你和我，在未来几年持续买单的危机。接下来是 Alex Blumberg 与 ProPublica 的报道团队 Jake Bernstein 和 Jesse Eisinger，为您讲述这个监守自盗的故事。
+
+00:04:33.400 --> 00:05:00.780
+<v Alex Blumberg>This inside job takes place deep in the heart of Wall Street financial engineering. It's full of intrigue and genius and questionable behavior. And it resembles, in ways that will eventually be revealed, the plot of a Mel Brooks musical. But it begins far from Wall Street, on the shores of Lake Michigan in Chicago, where a man named Alec Litowitz was starting a new hedge fund. We'll get to what exactly a hedge fund is in a minute. First though, here's Jake Bernstein from ProPublica with the hedge fund's name.
+<v Alex Blumberg>这个监守自盗的故事发生在华尔街金融工程的核心地带。它充满了阴谋、天才和可疑的行为。而且，最终你会发现，它很像一部梅尔·布鲁克斯（Mel Brooks）的音乐剧的情节。但它始于远离华尔街的地方——芝加哥密歇根湖畔，一个叫 Alec Litowitz 的人正在筹建一个新的对冲基金。我们一会儿再来谈什么是对冲基金。首先，这是 ProPublica 的 Jake Bernstein 带来的关于这个基金名字的介绍。
+
+00:05:00.780 --> 00:05:17.330
+<v Jake Bernstein>Magnetar. And that's because Litowitz, the guy who started Magnetar, is a big astronomy buff. A magnetar is kind of like a black hole. It's a star that's burned out. And it is the most magnetic force in the universe.
+<v Jake Bernstein>Magnetar。那是因为创立 Magnetar 的 Litowitz 是个天文迷。Magnetar（磁星）有点像黑洞。它是一颗燃烧殆尽的恒星。它是宇宙中最强的磁力源。
+
+00:05:17.330 --> 00:05:18.930
+<v Jesse Eisinger>And they have a marketing spiel.
+<v Jesse Eisinger>而且他们有一套营销说辞。
+
+00:05:18.930 --> 00:05:24.740
+<v Alex Blumberg>You may not have noticed, but that was the other half of the ProPublica duo entering the conversation, Jesse Eisinger.
+<v Alex Blumberg>你可能没注意到，刚才加入对话的是 ProPublica 团队的另一位成员，Jesse Eisinger。
+
+00:05:24.740 --> 00:05:55.370
+<v Jesse Eisinger>And they have a marketing spiel. They say that this firm is going to attract the best employees, the best investors. We're going to have the highest returns. And they give t-shirts to people that say, "Very bright. Very magnetic." And sometimes employees would joke that they're named after a black hole. But for the most part, they start out with these high ambitions and excitement, and they're really enthusiastic about it.
+<v Jesse Eisinger>而且他们有一套营销说辞。他们说这家公司会吸引最优秀的员工、最优秀的投资者。我们将获得最高的回报。他们会给员工发放印有“非常聪明，非常有吸引力”（Very bright. Very magnetic.）的 T 恤。有时员工会开玩笑说，他们是以黑洞的名字命名的。但大多数时候，他们一开始就怀着远大的志向和兴奋，对此充满热情。
+
+00:05:55.370 --> 00:06:28.730
+<v Alex Blumberg>So what do hedge funds do anyway? Well basically, they gather a bunch of money from investors, and they try to get that money to grow using whatever strategy they think will make them and their investors rich. Magnetar decided that one of the ways it was going to make money was by investing in a corner of the financial markets we've heard a lot about lately, securities made of subprime mortgages, and was going to go for one of the more esoteric of these securities, collateralized debt obligations or CDOs. Such are the times that we live in that CDOs have appeared on more than one episode of This American Life lately.
+<v Alex Blumberg>那么对冲基金到底是做什么的呢？简单来说，他们从投资者那里募集一笔钱，然后尝试通过他们认为能让他们和投资者致富的任何策略，让这笔钱增值。Magnetar 决定，他们赚钱的方式之一就是投资于我们最近常听到的金融市场的一个角落，即由次级抵押贷款组成的证券，而且他们打算选择这些证券中更深奥的一种，即担保债务凭证（CDO）。现在的时代就是这样，CDO 最近在《美国生活》节目中已经出现过不止一次了。
+
+00:06:28.730 --> 00:06:59.990
+<v Alex Blumberg>CDOs have the distinction of being the single most toxic financial instruments of the financial crisis. The instruments that did more damage to the world's financial system than any other single instrument out there. And what you need to know about a CDO to understand this story is pretty simple. A CDO, at least the kind Magnetar was interested  in, is a financial security that's made up of dozens of bonds. And each bond is itself made up of hundreds of individual mortgages and not safe mortgages. These were pretty risky ones to borrowers with poor credit.
+<v Alex Blumberg>CDO 被认为是金融危机中最有毒的金融工具。这些工具对全球金融体系造成的损害比其他任何单一工具都要大。要理解这个故事，关于 CDO 你只需要知道一点：CDO，至少是 Magnetar 感兴趣的那种，是一种由几十种债券组成的金融证券。而每一种债券本身又由数百笔个人抵押贷款组成，而且还不是安全的贷款。这些贷款对于信用较差的借款人来说是非常有风险的。
+
+00:06:59.990 --> 00:07:33.670
+<v Alex Blumberg>Now Alec Litowitz, who was only 38 when he started Magnetar, had already amassed a personal fortune in finance. This allowed him and his wife to take a couple of years kicking around Europe, collecting antiques for a big house they were building on the shores of Lake Michigan. And during the time they were away, CDOs were becoming the hot, new thing on Wall Street. A record number were on their way to being sold in 2005, which would shatter the previous record set in 2004. But by the time Alec Litowitz was back and had his new hedge fund up and running at the end of 2005, things were starting to change in the CDO world.
+<v Alex Blumberg>Alec Litowitz 在创立 Magnetar 时年仅 38 岁，他已经在金融界积累了个人财富。这使他和妻子能够花几年时间在欧洲游历，为他们正在密歇根湖畔建造的一座大房子收集古董。在他们离开期间，CDO 成了华尔街炙手可热的新宠。2005 年售出的 CDO 数量创下了历史纪录，打破了 2004 年创下的前纪录。但当 Alec Litowitz 回来并于 2005 年底创办他的新对冲基金时，CDO 世界的情况开始发生变化。
+
+00:07:33.670 --> 00:07:48.090
+<v Alex Blumberg>We talked to a guy named Bill Tomljanovic a guy on Wall Street who put together CDOs. He said that at the end of 2005, people on Wall Street were starting to worry about the housing market. Unfortunately, since Bill is in finance, he doesn't say it like that. He says it like this--
+<v Alex Blumberg>我们采访了一个叫 Bill Tomljanovic 的人，他是华尔街从事 CDO 业务的从业者。他说，2005 年底，华尔街的人们开始担心住房市场。不幸的是，因为 Bill 是搞金融的，他没这么说。他是这样说的——
+
+00:07:48.090 --> 00:07:54.690
+<v Bill Tomljanovic>In 2005, the summer, spreads on RMBS collateral started expanding.
+<v Bill Tomljanovic>2005 年夏天，住宅抵押贷款支持证券（RMBS）的利差开始扩大。
+
+00:07:54.690 --> 00:08:00.580
+<v Jesse Eisinger>And that is banker-speak for people started to worry about the housing market?
+<v Jesse Eisinger>那是银行家的黑话，意思是人们开始担心住房市场了吗？
+
+00:08:00.580 --> 00:08:01.930
+<v Bill Tomljanovic>Yes, ah yes.
+<v Bill Tomljanovic>是的，啊，是的。
+
+00:08:01.930 --> 00:08:33.350
+<v Alex Blumberg>Now what Bill is saying here, which sounds really boring, it is huge. It means that part of our theory, the theory that got us into this story in the first place, was correct. There was a group of people on Wall Street who are not like most people in America. They were not caught by surprise. In 2005, two full years before the collapse of the major subprime lenders like New Century and Countrywide, three full years before the failure of Lehman Brothers and AIG and the big government bailout, a lot of people on Wall Street were looking at housing prices around the country and seeing signs that things were not well.
+<v Alex Blumberg>Bill 在这里所说的，听起来非常枯燥，但这意义重大。这意味着我们的理论，也就是让我们最初深入这个故事的理论，是正确的。华尔街有一群人与美国的大多数人不同。他们并没有被突如其来的崩溃吓到。2005 年，也就是 New Century 和 Countrywide 等主要次贷机构倒闭前整整两年，雷曼兄弟、AIG 和政府大规模救助发生前整整三年，华尔街的许多人就已经在观察全国各地的房价，并看到了局势不妙的迹象。
+
+00:08:33.350 --> 00:08:49.380
+<v Bill Tomljanovic>Las Vegas had an overheated market. Certain sectors of California were looking very aggressive in terms of real estate valuation. Was it enough-- Was the bubble ready to burst?
+<v Bill Tomljanovic>拉斯维加斯市场过热。加州的某些区域在房地产估值方面看起来非常激进。这足够了吗？泡沫准备好破裂了吗？
+
+00:08:49.380 --> 00:09:23.360
+<v Alex Blumberg>You could see this uncertainty showing up in bond prices in 2005, long before everything crashed. The anxiety is right there in the interest rate numbers. Some of the people on Wall Street who buy bonds that are made up of hundreds of home mortgages were starting to demand more interest for their investment, saying essentially, we'll buy this bond, but you have to pay us more because it's looking riskier to us. Which is just another way of saying, we're worried. And because of this, people like Bill Tomljanovic were thinking that the good times might be coming to an end in the CDO world.
+<v Alex Blumberg>你可以在 2005 年的债券价格中看到这种不确定性，远在一切崩溃之前。这种焦虑直接体现在利率数字上。华尔街一些购买由数百笔住房抵押贷款组成的债券的人开始要求更高的投资回报，本质上是在说：我们会买这种债券，但你必须付给我们更多钱，因为在我们看来它看起来风险更高了。这只是换个说法，意思是我们很担心。正因为如此，像 Bill Tomljanovic 这样的人认为 CDO 世界的好日子可能要到头了。
+
+00:09:23.360 --> 00:09:41.870
+<v Bill Tomljanovic>The level of difficulty to replicate the business plan of '05 in '06 was pretty-- I mean, everyone was worried, how are we going to keep volume up, make the same amount of money for the firm? How are we going to recreate this in '06 because it was such a great year in '05.
+<v Bill Tomljanovic>要在 2006 年复制 2005 年的商业计划的难度相当……我的意思是，每个人都很担心，我们该如何保持交易量，为公司赚取同样多的钱？我们该如何能在 2006 年重现这一点，因为 2005 年是如此美好的一年。
+
+00:09:41.870 --> 00:09:52.660
+<v Alex Blumberg>So here's all these people on Wall Street in late 2005 thinking, the CDO business might be slowing down, housing might be cooling off, things might be returning to normal. And then in walks Magnetar.
+<v Alex Blumberg>所以，2005 年底，华尔街所有这些人都认为 CDO 业务可能会放缓，房地产可能会降温，一切可能会回归正常。然后，Magnetar 入场了。
+
+00:09:52.660 --> 00:10:11.570
+<v Jake Bernstein>Magnetar spends the first quarter of '06 talking to as many people as possible in the CDO business, really understanding it, interviewing people, getting a good sort of lay of the land. And then, they put out the word that they want to buy equity.
+<v Jake Bernstein>Magnetar 花了 2006 年第一季度的时间，与 CDO 行业内尽可能多的人交谈，真正理解这个行业，采访相关人员，理清局势。然后，他们放出口风，说他们想要购买权益。
+
+00:10:11.570 --> 00:10:36.810
+<v Alex Blumberg>OK. Equity. A quick word of explanation. Every CDO was divided into layers. A layer at the top that was considered the safest, the layers below that, which were considered semi-safe, and then the bottom layer, which was considered the riskiest. Of course, after the crash, we learned that no part of the CDO was safe. Every part of most subprime CDOs is now worthless. But back in 2005 and 2006, they were still making these distinctions.
+<v Alex Blumberg>好的，权益。简单解释一下。每个 CDO 都分为若干层。最顶层被认为是风险最低的，下面是半安全的层级，最底层被认为是风险最高的。当然，崩溃后我们才知道，CDO 的任何部分都不安全。大多数次贷 CDO 的各个部分现在都已经一文不值了。但在 2005 年和 2006 年，他们还在做这些区分。
+
+00:10:36.810 --> 00:11:04.450
+<v Alex Blumberg>So the part at the bottom, that riskiest part, that was called the equity tranche. Tranche is just Wall Street lingo for layer. The equity tranche, the equity layer paid a lot more interest than the top layers, the idea being, if you bought that risky equity, you got paid for that risk. But still, it was the riskiest part of a CDO that was made up of risky bonds backed by risky mortgages. It was not an easy sell. Here's Bill Tomljanovic.
+<v Alex Blumberg>所以最底部的那部分，也就是风险最高的那部分，被称为权益层（equity tranche）。Tranche 是华尔街对“层”的行话。权益层支付的利息比顶层高得多，意思就是，如果你买了那部分高风险权益，你就会因为承担这种风险而得到报酬。但无论如何，它是 CDO 中风险最高的部分，而该 CDO 本身由以高风险抵押贷款为后盾的高风险债券组成。这并不容易卖出去。这是 Bill Tomljanovic 的说法。
+
+00:11:04.450 --> 00:11:12.470
+<v Bill Tomljanovic>The equity was the toughest part when the business-- early 2000s either analyzing--
+<v Bill Tomljanovic>当业务处于……2000 年代早期分析时，权益是最难的部分……
+
+00:11:12.470 --> 00:11:13.990
+<v Jesse Eisinger>Finding somebody to take the riskiest portion.
+<v Jesse Eisinger>寻找愿意承担最高风险部分的人。
+
+00:11:13.990 --> 00:11:15.120
+<v Bill Tomljanovic>Riskiest portion.
+<v Bill Tomljanovic>最高风险部分。
+
+00:11:15.120 --> 00:11:16.320
+<v Jesse Eisinger>That was the hardest part to find?
+<v Jesse Eisinger>那是寻找起来最难的部分吗？
+
+00:11:16.320 --> 00:11:18.570
+<v Bill Tomljanovic>It was very difficult, yes.
+<v Bill Tomljanovic>是的，非常困难。
+
+00:11:18.570 --> 00:11:28.700
+<v Alex Blumberg>So here we are in early 2006. CDO managers and investment banks are thinking the CDO party is ending. And in comes this hedge fund saying not only do they want to buy CDOs, but--
+<v Alex Blumberg>所以现在是 2006 年初。CDO 经理和投资银行认为 CDO 派对即将结束。这时，这家对冲基金进场了，不仅说他们想买 CDO，而且——
+
+00:11:28.700 --> 00:11:34.220
+<v Jake Bernstein>They want to buy that lowest tranche, that lowest piece of the CDO.
+<v Jake Bernstein>他们想买最低的那一层，CDO 中最低的那一部分。
+
+00:11:34.220 --> 00:11:35.400
+<v Alex Blumberg>The one that was hardest to place?
+<v Alex Blumberg>也就是最难卖出去的那部分？
+
+00:11:35.400 --> 00:11:50.040
+<v Jake Bernstein>The one that was hardest to place. And they want to buy lots and lots and lots of it. As one banker said to us, it was like a miracle. Suddenly, this big equity buyer shows up.
+<v Jake Bernstein>也就是最难卖出去的那部分。而且他们想买很多很多很多。正如一位银行家对我们所说，这就像奇迹一样。突然间，出现了一个巨大的权益买家。
+
+00:11:50.040 --> 00:12:14.040
+<v Alex Blumberg>In other words, it seemed like Wall Street felt it had found its sucker. An article in Business Week later wondered if Magnetar was poised to get "shredded." Magnetar's entrance into the CDO market in 2006 had a huge impact though. If they were willing to buy the equity piece, it became easier for Wall Street banks to make the CDO. Buyers were easier to find for the parts that were less risky.
+<v Alex Blumberg>换句话说，华尔街似乎觉得它找到了冤大头。《商业周刊》后来甚至猜测 Magnetar 是否准备被“撕碎”。不过，Magnetar 在 2006 年进入 CDO 市场产生了巨大的影响。如果他们愿意购买权益部分，华尔街银行制造 CDO 就变得更容易了。对于风险较低的部分，买家也更容易找到。
+
+00:12:14.040 --> 00:12:44.050
+<v Alex Blumberg>Magnetar, as the equity buyer, was often called the sponsor of the CDOs in which it bought the equity since, without Magnetar, the CDO probably wouldn't have gotten made in the first place. Magnetar's entry into the market helped the CDO business, which insiders worried was petering out in 2005, roar back to life. 2006 ended up being even bigger than 2005. In fact, it became the best year in CDO history. A lot of CDO deals got done, and a lot of that had to do with Magnetar.
+<v Alex Blumberg>作为权益买家，Magnetar 通常被称为其购买权益的 CDO 的“发起人”，因为如果没有 Magnetar，CDO 可能根本就不会被制造出来。Magnetar 进入市场帮助了 CDO 业务，该业务原本在 2005 年被业内人士担心正在消亡，结果却轰轰烈烈地复活了。2006 年最终比 2005 年还要大。事实上，它成了 CDO 历史上最好的一年。大量的 CDO 交易得以达成，而这很大程度上与 Magnetar 有关。
+
+00:12:44.050 --> 00:12:57.850
+<v Jake Bernstein>Their pace of production was extraordinary by any estimation. In a year's time, from the middle of '06 to the middle of '07, they do 28 deals worth an estimated $40 billion.
+<v Jake Bernstein>按照任何估计，他们的生产速度都是非同寻常的。在一年时间里，从 06 年年中到 07 年年中，他们做了 28 笔交易，估计价值 400 亿美元。
+
+00:12:57.850 --> 00:13:04.010
+<v Alex Blumberg>Just to put that in perspective, that's about a third to a half of this corner of the subprime CDO market that they were operating in.
+<v Alex Blumberg>为了说明这一点，这大约占他们所经营的次贷 CDO 市场这个角落的三分之一到二分之一。
+
+00:13:04.010 --> 00:13:08.280
+<v Jesse Eisinger>And for one hedge fund to account for that much was very rare.
+<v Jesse Eisinger>对于一个对冲基金来说，占据这么大的份额是非常罕见的。
+
+00:13:08.280 --> 00:13:21.580
+<v Alex Blumberg>In fact, we ran this by Bill Tomljanovic, the CDO manager. He was familiar with Magnetar, but he didn't know how many deals they'd been a part of. And when we ran that number by him, he was pretty impressed.
+<v Alex Blumberg>事实上，我们把这个数字告诉了 CDO 经理 Bill Tomljanovic。他熟悉 Magnetar，但他不知道他们参与了多少笔交易。当我们告诉他这个数字时，他非常震惊。
+
+00:13:21.580 --> 00:13:24.520
+<v Bill Tomljanovic>That's a lot of deals. That's a lot of deals.
+<v Bill Tomljanovic>那是很多交易。那是很多交易。
+
+00:13:24.520 --> 00:13:28.310
+<v Jake Bernstein>Is that enough to sort of be an influence in the market?
+<v Jake Bernstein>这足以在市场上产生影响了吗？
+
+00:13:28.310 --> 00:13:36.120
+<v Bill Tomljanovic>I would say that-- wow-- it sounds big.
+<v Bill Tomljanovic>我会说……哇……这听起来很大。
+
+00:13:36.120 --> 00:14:01.120
+<v Alex Blumberg>Now most insiders who knew Magnetar would not have described them as suckers. In fact, every single person that Jake and Jesse and I have talked to about Magnetar uses the same word to describe them, smart. Sometimes they'll say, really smart. And yet, here they were going on this huge spending spree, buying the riskiest parts of these financial products that were all backed by a housing market insiders were starting to view with more and more suspicion. And that caused a lot of people to wonder, why?
+<v Alex Blumberg>现在，大多数认识 Magnetar 的内部人士不会把他们描述为冤大头。事实上，Jake、Jesse 和我谈过的每一个人在提到 Magnetar 时都用同一个词来形容他们：聪明。有时他们会说，非常聪明。然而，他们却在这场巨大的消费狂潮中，购买这些金融产品中风险最高的部分，而这些产品都是由住房市场支持的，而内部人士正开始对该市场持越来越多的怀疑态度。这让许多人想知道，为什么？
+
+00:14:01.120 --> 00:14:27.680
+<v Jake Bernstein>People puzzled it out. And they talked about it. And they tried to figure out, well, what's the strategy here? Why would they like such risky stuff? And then they figured it out. As one CDO manager said to us, "At a certain point, we were in on the joke." The joke being that Magnetar was also betting against the very CDOs that it was creating.
+<v Jake Bernstein>人们苦思冥想。他们谈论它。他们试图弄明白，好吧，这里的策略是什么？为什么他们会喜欢这么高风险的东西？然后他们想通了。正如一位 CDO 经理对我们所说：“在某个时刻，我们成了这个笑话的一部分。”笑话的内容是，Magnetar 实际上在做空它自己正在制造的 CDO。
+
+00:14:27.680 --> 00:14:39.810
+<v Alex Blumberg>So how do you bet against a CDO? You don't need to go to Vegas. You don't even need to leave Wall Street. There's another type of financial product that Wall Street had created. It's called a credit default swap. You may have heard that term before as well.
+<v Alex Blumberg>那么你如何做空一个 CDO 呢？你不需要去拉斯维加斯。你甚至不需要离开华尔街。华尔街创造了另一种金融产品，叫作信用违约掉期（Credit Default Swap）。你可能也听说过这个词。
+
+00:14:39.810 --> 00:15:04.780
+<v Alex Blumberg>A credit default swap can be used to bet that some part of a CDO will fail. And the way it works, you pick a CDO that you think might fail, and then you pay some Wall Street firm a little bit of money a few times a year. If the CDO does fine, the Wall Street firm keeps your money. But if it fails, the Wall Street firm pays you the entire value of the part of the CDO that you're betting against, a massive amount of money.
+<v Alex Blumberg>信用违约掉期可以用来赌 CDO 的某一部分会失败。它的运作方式是：你挑选一个你认为可能会失败的 CDO，然后每年支付给某家华尔街公司一点小钱。如果 CDO 表现良好，华尔街公司就保留你的钱。但如果它失败了，华尔街公司就会支付给你你所押注的那部分 CDO 的全部价值，这是一笔巨额资金。
+
+00:15:04.780 --> 00:15:35.070
+<v Alex Blumberg>The theory on the street was Magnetar didn't care in the long term whether the equity it was buying survived. They made the equity investment mainly as a catalyst for the creation of the rest of the CDO. Magnetar would cause these CDOs to be created by buying this tiny equity portion, which was typically just 5% or 6% of the value of the entire CDO. And then, they'd place a bet, take out a credit default swap on one of the larger sections above. They also placed bets against other, similar CDOs out there.
+<v Alex Blumberg>华尔街的理论是，Magnetar 根本不在乎它购买的权益在长期内是否存活。他们进行权益投资主要就是为了推动其余 CDO 的创造。Magnetar 会通过购买这种微小的权益部分（通常仅占整个 CDO 价值的 5% 或 6%）来促使这些 CDO 被创造出来。然后，他们会在上方较大的部分中进行押注，购买信用违约掉期。他们也押注于其他类似的 CDO。
+
+00:15:35.070 --> 00:16:04.460
+<v Alex Blumberg>So the theory among many of the people Jake and Jesse interviewed-- and I should emphasize, Magnetar disputes this theory-- but the theory was, say the equity portion cost Magnetar $10 million to buy, but the entire CDO itself is a hundred times that, $1 billion or even $2 billion. If one of the upper sections of the CDO goes bust, and Magnetar is betting against it, they stood to make a lot more than $10 million, potentially hundreds of millions of dollars. It was such a brilliant idea, soon others got in on the act.
+<v Alex Blumberg>所以，在 Jake 和 Jesse 采访的许多人中，理论是——我应该强调，Magnetar 反驳这一理论——理论是：假设权益部分花费了 Magnetar 1000 万美元，但整个 CDO 本身价值是其百倍，即 10 亿甚至 20 亿美元。如果 CDO 的上方部分破产了，而 Magnetar 押注了它，他们赚到的钱将远超 1000 万美元，潜在收益可达数亿美元。这是一个如此天才的想法，很快其他人也加入了行动。
+
+00:16:04.460 --> 00:16:33.220
+<v Jesse Eisinger>This strategy was being employed by some hedge funds, but Magnetar was the biggest. They did it the most. They put the most money toward it. And in fact, on Wall Street, it became known-- according to the people we've talked to-- as the Magnetar trade.
+<v Jesse Eisinger>这一策略被一些对冲基金采用，但 Magnetar 是规模最大的。他们做得最多。他们投入了最多的资金。事实上，据我们交谈过的人说，这在华尔街被称为“Magnetar 交易”（The Magnetar trade）。
+
+00:16:33.220 --> 00:16:52.780
+<v Alex Blumberg>OK. Here's another piece of jargon. The strategy of betting that something will go down in value, in the language of Wall Street, it's called shorting or taking a short position. And there were a handful of other hedge funds out there shorting housing-related securities like CDOs. A new book by author Michael Lewis, The Big Short, tells several of their stories.
+<v Alex Blumberg>好的，这里还有另一个术语。赌某样东西价值会下跌的策略，在华尔街的语言中，叫作“做空”或“持空头头寸”。在华尔街，有少数几家对冲基金在做空与房地产相关的证券，比如 CDO。作者 Michael Lewis 的新书《大空头》（The Big Short）讲述了他们的几个故事。
+
+00:16:52.780 --> 00:17:18.530
+<v Alex Blumberg>And generally, there's nothing wrong with shorting. In fact, many people argue that shorting, which happens millions and millions of times a day, every single day on Wall Street, is actually a good thing because it keeps prices more tethered to reality. It's harder for a mania to develop if people who have a dim view of things can bet on that view. But the Magnetar trade was not shorting in the traditional sense, betting against something which already exists.
+<v Alex Blumberg>总的来说，做空并没有什么问题。事实上，许多人认为做空（华尔街每天发生数百万次）实际上是一件好事，因为它使价格更贴近现实。如果那些对事物持有负面看法的人能够根据自己的看法进行押注，泡沫就更难形成。但 Magnetar 交易并非传统意义上的做空，即赌已经存在的东西会失败。
+
+00:17:18.530 --> 00:17:53.010
+<v Alex Blumberg>The Magnetar trade was betting against something Magnetar itself helped create, which is the exact opposite of what you want shorting to do. In traditional shorting, by betting, essentially, that certain things out there are crappy and overvalued, you are helping to rid the world of those crappy, overvalued things. But a lot of people thought that what Magnetar was doing was bringing crappy, overvalued things into the world in order to bet against them. We talked to Jon Pickhardt, a lawyer whose firm is suing an investment bank that helped set up some of the deals with Magnetar and with other hedge funds that were doing what Magnetar was doing.
+<v Alex Blumberg>Magnetar 交易是押注于 Magnetar 自己参与创造的东西，这与你想要的做空作用完全相反。在传统做空中，通过押注某些东西很烂且被高估，你实际上是在帮助世界摆脱那些烂的、被高估的东西。但许多人认为，Magnetar 所做的是把烂的、被高估的东西带到世界上，以便押注它们。我们采访了律师 Jon Pickhardt，他的公司正在起诉一家投资银行，该银行帮助 Magnetar 和其他采取类似策略的对冲基金建立了一些交易。
+
+00:17:53.010 --> 00:18:04.230
+<v Jon Pickhardt>Yeah, a number of the hedge funds, they were simultaneously entering into significant short positions with respect to the CDO or its collateral.
+<v Jon Pickhardt>是的，许多对冲基金在就 CDO 或其抵押品持有重大空头头寸。
+
+00:18:04.230 --> 00:18:09.720
+<v Jesse Eisinger>In other words, were they being basically built to fail?
+<v Jesse Eisinger>换句话说，它们基本上是为了失败而建立的？
+
+00:18:09.720 --> 00:18:12.910
+<v Jon Pickhardt>In some cases, yes.
+<v Jon Pickhardt>在某些情况下，是的。
+
+00:18:12.910 --> 00:18:22.360
+<v Jesse Eisinger>In trying to come up with an accurate metaphor, have you ever seen The Producers ?
+<v Jesse Eisinger>为了找到一个准确的比喻，你看过《制片人》（The Producers）吗？
+
+00:18:22.360 --> 00:18:24.060
+<v Jon Pickhardt>Yes.
+<v Jon Pickhardt>看过。
+
+00:18:24.060 --> 00:18:34.320
+<v Jesse Eisinger>So in the plot of The Producers, there's a scene where he hires an accountant, and he says, where he's sort of murmuring to himself, and he's like, hm, you could almost make more money if the play fails than if it succeeds.
+<v Jesse Eisinger>那么在《制片人》的剧情中，有一个场景是他雇了一名会计，他在嘟囔着什么，他说：嗯，如果剧失败了，你赚的钱可能比它成功时还要多。
+
+00:18:34.320 --> 00:18:47.310
+<v Leo Bloom>Carry the 3, divided by 4-- amazing! It's absolutely amazing, but under the right circumstances, a producer could make more money with a flop than he could with a hit.
+<v Leo Bloom>进位 3，除以 4……太神奇了！这真是太神奇了，但在适当的情况下，制片人赚翻车的钱可能比赚热门剧的钱更多。
+
+00:18:47.310 --> 00:18:49.630
+<v Jesse Eisinger>It feels very similar. Is it?
+<v Jesse Eisinger>感觉非常相似。是这样吗？
+
+00:18:49.630 --> 00:19:01.200
+<v Jon Pickhardt>Well, from the hedge fund standpoint, that clearly was the case. Clearly, they would benefit more if the CDO ultimately failed.
+<v Jon Pickhardt>嗯，从对冲基金的角度来看，情况确实如此。很显然，如果 CDO 最终失败，他们会受益更多。
+
+00:19:01.200 --> 00:19:13.340
+<v Max Bialystock>Don't you see Bloom? Darling Bloom, glorious Bloom. It's so simple. Step one, we find the  worst play ever written. Step two, we hire the worst director in town. Step three, I raise $2 million.
+<v Max Bialystock>你不明白吗，Bloom？亲爱的 Bloom，光荣的 Bloom。这太简单了。第一步，我们找到史上最烂的剧本。第二步，我们雇佣镇上最烂的导演。第三步，我筹集 200 万美元。
+
+00:19:13.340 --> 00:19:13.820
+<v Leo Bloom>Two?
+<v Leo Bloom>两百万？
+
+00:19:13.820 --> 00:19:25.140
+<v Max Bialystock>Yes, one for me, one for you. Step four, we hire the worst actors in New York and open on Broadway. And before you can say step  five, we close on Broadway, take our $2 million and go to Rio.
+<v Max Bialystock>是的，一份给我，一份给你。第四步，我们雇佣纽约最烂的演员，在百老汇首演。在你还没来得及说第五步之前，我们就在百老汇谢幕，带着我们的 200 万美元去里约热内卢。
+
+00:19:25.140 --> 00:19:27.600
+<v Leo Bloom>Oh, Rio? Nah, that would never work.
+<v Leo Bloom>哦，里约？不，那永远不会成功。
+
+00:19:27.600 --> 00:19:30.520
+<v Max Bialystock>Oh, ye of little faith.
+<v Max Bialystock>哦，你这信心不足的人。
+
+00:19:30.520 --> 00:19:48.290
+<v Alex Blumberg>Jake and Jesse have had several conversations with Magnetar, and they say, what they were doing was nothing like what Nathan Lane is singing about here. Magnetar says, "We didn't have an opinion on whether the housing market would crash or soar. We weren't hoping the CDOs would fail. We weren't betting against them. We were simply hedging ourselves."
+<v Alex Blumberg>Jake 和 Jesse 与 Magnetar 进行过多次交谈，他们说，他们的所作所为与 Nathan Lane 唱的完全不同。Magnetar 说：“对于房地产市场是会崩溃还是飙升，我们没有立场。我们不是在希望 CDO 失败。我们没有押注它们。我们只是在做对冲。”
+
+00:19:48.290 --> 00:20:17.890
+<v Alex Blumberg>Now this is something you hear a lot on Wall Street, the great hedge versus bet debate. A hedge is like insurance. If you're making an investment in something like a house, you expect the house to stay standing, you expect to live in it, but something could happen. It could catch fire or get swept away by a tornado or fall into a sinkhole. So you buy insurance. In other words, you hedge. You pay a little bit a year in case those things happen. But that doesn't mean you're betting that they will.
+<v Alex Blumberg>这是你在华尔街经常听到的话：对冲与赌博的大辩论。对冲就像保险。如果你在房子之类的地方进行投资，你会期望房子保持屹立，期望住在里面，但可能会发生什么事。它可能会着火，或被龙卷风扫走，或掉进沉洞。所以你购买保险。换句话说，你对冲。你每年付一点钱以防万一。但这并不意味着你是在赌它一定会发生。
+
+00:20:17.890 --> 00:20:46.940
+<v Alex Blumberg>And in fact, hedge funds originally got their name because, in the early days of hedge funds, they hedged all kinds of bets. And that is exactly what Magnetar said it was doing, being a classic hedge fund. By buying credit defaults swaps on the CDOs it was helping create, it was simply protecting itself if something unforeseen happened to them. The problem with figuring out whether it's a bet or a hedge, is that the action of betting and the action of hedging look exactly the same. The only difference is intent.
+<v Alex Blumberg>事实上，对冲基金之所以得名，是因为在早期的对冲基金中，他们对冲各种赌注。这正是 Magnetar 所说的它在做的事情，即作为一个经典的对冲基金。通过购买它帮助创造的 CDO 的信用违约掉期，如果它们发生不可预见的情况，它只是在保护自己。搞清楚这是赌博还是对冲的问题在于，赌博的行为和对冲的行为看起来完全一样。唯一的区别在于意图。
+
+00:20:46.940 --> 00:21:16.100
+<v Alex Blumberg>But there are some clues to look for that help figure out intent. For example, is the size of the bet against the investment bigger than the investment itself? Are they taking out a million dollar insurance policy on a hundred thousand dollar house? So in Magnetar's case, it would be interesting to see how many bets did they make on which CDOs for how much money. Unfortunately, none of this information is public. Still in the case of the Magnetar deals, there is some evidence that the play was expected to flop.
+<v Alex Blumberg>但有一些线索可以帮助找出意图。例如，押注于投资的金额是否大于投资本身？他们是在为一栋 10 万美元的房子购买价值 100 万美元的保险单吗？所以，在 Magnetar 的案例中，看看他们对哪些 CDO 押了多少钱是很有趣的。不幸的是，这些信息都不是公开的。尽管如此，在 Magnetar 的交易案例中，确实有一些证据表明该项目被预期会失败。
+
+00:21:16.100 --> 00:21:42.560
+<v Alex Blumberg>To understand this evidence, you have to know a little bit about how a CDO gets marketed and sold. OK. So first, you have the investors. This can be anyone who wanted buy a layer of a CDO, could be a hedge fund like Magnetar, a pension fund, an insurance company. They're the buyer. Then you have the seller. That was the Wall Street bank. They were the ones who went out and found the investors, said, "Hey, we're putting together this CDO. Would you like to buy a piece of it?"
+<v Alex Blumberg>要理解这些证据，你必须了解一点 CDO 是如何营销和销售的。好的。首先，你有投资者。这可以是任何想购买 CDO 一层的人，可以是像 Magnetar 这样的对冲基金、养老基金、保险公司。他们是买方。然后你有卖方。那是华尔街银行。他们是那些走出去寻找投资者的人，说：“嘿，我们正在组建这个 CDO。你想买一块吗？”
+
+00:21:42.560 --> 00:21:56.610
+<v Alex Blumberg>And in the CDO business, there was often a third party, the CDO manager. The CDO manager is the one person in this transaction who has what's called fiduciary duty. They're there to make sure that investors aren't being ripped off, that the game is played honestly.
+<v Alex Blumberg>在 CDO 业务中，经常有第三方，CDO 经理。CDO 经理是交易中唯一拥有所谓“受托责任”（fiduciary duty）的人。他们在那里的目的是确保投资者不会被敲诈，确保游戏公平进行。
+
+00:21:56.610 --> 00:22:06.870
+<v Jake Bernstein>The CDO manager was sort of like the referee. He would be the entity that stood between the investors and the bank.
+<v Jake Bernstein>CDO 经理有点像裁判。他将是站在投资者和银行之间的实体。
+
+00:22:06.870 --> 00:22:33.600
+<v Alex Blumberg>The CDO manager had one other very important function. The CDO manager picked the assets that went into the CDO. OK. Assets. Remember, CDOs are a bunch of mortgage-backed loans bunched together. These mortgage-backed loans, in Wall Street parlance, were called the CDO's assets. They were also called the collateral. It's basically the stuff that goes in to making the CDOs. The CDO manager picked that stuff. Again, here's Jake and Jesse.
+<v Alex Blumberg>CDO 经理还有另一个非常重要的职能。CDO 经理选择了进入 CDO 的资产。好的，资产。记住，CDO 是一堆抵押贷款捆绑在一起。这些抵押贷款，用华尔街的行话来说，被称为 CDO 的“资产”。它们也被称为抵押品。它基本上是组建 CDO 的东西。CDO 经理选择了这些东西。再说一次，这是 Jake 和 Jesse 的话。
+
+00:22:33.600 --> 00:22:44.650
+<v Jesse Eisinger>So we interviewed a lot a bankers and CDO managers and others in the business, and they told us something interesting. They said that Magnetar was frequently pushing for riskier assets to be put into the CDOs.
+<v Jesse Eisinger>我们采访了很多银行家、CDO 经理和业务中的其他人，他们告诉我们一些有趣的事情。他们说 Magnetar 经常推动将风险更高的资产放入 CDO 中。
+
+00:22:44.650 --> 00:22:47.370
+<v Alex Blumberg>All right. I'm going to play that last bit again because that is key.
+<v Alex Blumberg>好吧，我要再重播一遍最后那段，因为那是关键。
+
+00:22:47.370 --> 00:22:52.400
+<v Jesse Eisinger>They said that Magnetar was frequently pushing for riskier assets to be put into the CDOs.
+<v Jesse Eisinger>他们说 Magnetar 经常推动将风险更高的资产放入 CDO 中。
+
+00:22:52.400 --> 00:23:11.810
+<v Alex Blumberg>In other words, Magnetar was targeting the referees, the CDO managers. Jake and Jesse have compiled seven different cases where Magnetar actively tried to influence the CDO managers to get them to put riskier assets into their CDOs. For example, in Magnetar's very first deal to put together a CDO--
+<v Alex Blumberg>换句话说，Magnetar 将目标对准了裁判，即 CDO 经理。Jake 和 Jesse 汇编了七个不同的案例，其中 Magnetar 积极试图影响 CDO 经理，促使他们将风险更高的资产放入 CDO。例如，在 Magnetar 的第一笔 CDO 交易中——
+
+00:23:11.810 --> 00:23:38.520
+<v Jake Bernstein>We spoke to a person who was involved in the deal. And right away, it became clear to the CDO manager, according to this person, that Magnetar wanted influence. They would ask for specific bonds to buy. They'd say, would you consider these bonds? And according to this person that we talked to, they said, let's just say that we didn't think their suggestions made a lot of sense.
+<v Jake Bernstein>我们采访了一位参与该交易的人。据此人说，CDO 经理很快就清楚了 Magnetar 想要施加影响。他们会要求购买特定的债券。他们会说，你会考虑这些债券吗？据我们交谈的这个人说，他们说，我们只能说，我们觉得他们的建议没什么意义。
+
+00:23:38.520 --> 00:24:11.560
+<v Alex Blumberg>You are understanding this right. The CDO manager was confused because the investor, Magnetar, was putting pressure on him to put riskier assets into the CDO that that very same investor was buying. And this happened over and over with Magnetar CDOs. There was another banker involved in the creation of another Magnetar CDO who described a "back and forth fight" between Magnetar and the CDO manager over the quality of the assets, again, with Magnetar pushing for riskier ones. And there was another deal where the fight took place over email, which Jake and Jesse got copies of.
+<v Alex Blumberg>你没理解错。CDO 经理感到困惑，因为投资者 Magnetar 正在向他施压，要求将更高风险的资产放入该投资者自己购买的 CDO 中。这种情况在 Magnetar 的 CDO 中反复发生。还有另一位银行家参与了另一个 Magnetar CDO 的创造，他描述了 Magnetar 和 CDO 经理之间关于资产质量的“反复争斗”，同样，Magnetar 在推动风险更高的资产。还有另一笔交易，争斗发生在邮件中，Jake 和 Jesse 拿到了副本。
+
+00:24:11.560 --> 00:24:41.040
+<v Jesse Eisinger>In an email that one Magnetar person wrote in September of 2006 said, "The original portfolio target spreadsheet that I have had a strangely low spread target. That, of course, would not at all be beneficial to us. I've attached the target portfolio that I would like for this deal with target spreads." So basically, in the email, they're saying, these are the kinds of assets we want, and this is how risky we want it to be.
+<v Jesse Eisinger>在 2006 年 9 月的一封邮件中，一位 Magnetar 的人写道：“我拥有的原始投资组合目标表有一个奇怪的低利差目标。这当然对我们一点好处都没有。我附上了我想要用于此交易的目标投资组合和目标利差。”所以基本上，在邮件中，他们是在说，这就是我们想要的资产类型，这就是我们想要的风险水平。
+
+00:24:41.040 --> 00:25:06.260
+<v Jesse Eisinger>Well, the CDO manager was not terribly excited about this. And he sent an email back rather forcefully saying, "We will not assemble a portfolio we are not proud of and feel strongly about in the name of a spread target." And so the two sides drifted apart and the CDO was never consummated in part because of the CDO manager's concern about Magnetar's need for riskier assets.
+<v Jesse Eisinger>嗯，CDO 经理对这并不怎么兴奋。他回了一封邮件，相当强硬地写道：“我们绝不会以利差目标的名义，组建一个我们不引以为傲且感觉不强烈的文件。”于是双方分道扬镳，该 CDO 从未完成，部分原因就是 CDO 经理对 Magnetar 对高风险资产需求的不安。
+
+00:25:06.260 --> 00:25:21.060
+<v Alex Blumberg>And finally, there was a meeting Jesse and Jake had over lunch with a former banker, who worked on one of Magnetar's CDOs. He lost his job soon after. At lunch, they showed this banker the list of unusually risky assets that were in the CDO that he'd helped put together with Magnetar.
+<v Alex Blumberg>最后，Jesse 和 Jake 在午餐时会见了一位前银行家，他曾参与过一个 Magnetar 的 CDO。没过多久他就失业了。在午餐时，他们向这位银行家展示了他在 Magnetar 帮助下组建的 CDO 中异常高风险的资产清单。
+
+00:25:21.060 --> 00:25:49.940
+<v Jesse Eisinger>And he looked at it. And he went down the list. And he said, "Yeah, they asked for this one, and they got it. They asked for this one, and they got it. They asked for this one, and it went in." And then he said, "After looking at this, I deserved to lose my job."
+<v Jesse Eisinger>他看了看。他看完整个清单。他说：“是的，他们要了这个，他们得到了；他们要了那个，他们得到了；他们要了那个，它就进去了。”然后他说：“看了这个之后，我被解雇是活该。”
+
+00:25:49.940 --> 00:26:04.950
+<v Alex Blumberg>There are other clues as well that Magnetar was trying to produce a flop. Magnetar's CDOs, in an independent analysis commissioned by ProPublica, went bad faster than other, similar CDOs. And then, of course, there's this.
+<v Alex Blumberg>还有其他线索表明 Magnetar 试图制造失败。在 ProPublica 委托进行的独立分析中，Magnetar 的 CDO 比其他类似的 CDO 恶化得更快。然后，当然，还有这个。
+
+00:26:04.950 --> 00:26:21.250
+<v Alex Blumberg>For a company that came in at the height of the housing mania, invested in the riskiest parts of the dodgiest subprime-related CDOs out there, CDOs which got completely wiped out in the crash-- a crash which started just months after it finished making its last purchase-- Magnetar sure did make a lot of money.
+<v Alex Blumberg>对于一家在住房热潮顶峰时进入，投资于最卑劣的次贷相关 CDO 中风险最高部分（这些 CDO 在崩盘中完全化为乌有，而崩盘在它完成最后一次购买后仅几个月就开始了）的公司来说，Magnetar 确实赚了很多钱。
+
+00:26:21.250 --> 00:26:51.890
+<v Jake Bernstein>2007 was a very profitable year for Magnetar. We know that one of their funds, the constellation fund-- which presumably had some of the profits from their CDO business-- was up 76%. And we know that the firm Magnetar grew rapidly during this period. When Litowitz, its founder, Alec Litowitz, started Magnetar in 2005, he had $1.7 billion under management. And by the end of 2007, he had $8 billion.
+<v Jake Bernstein>2007 年对 Magnetar 来说是非常有利可图的一年。我们知道他们的其中一个基金，星座基金（constellation fund）——据推测拥有他们 CDO 业务的一些利润——上涨了 76%。我们知道 Magnetar 这家公司在此期间迅速增长。当其创始人 Alec Litowitz 在 2005 年创立 Magnetar 时，他管理着 17 亿美元的资产。到 2007 年底，他管理着 80 亿美元。
+
+00:26:51.890 --> 00:26:52.600
+<v Jesse Eisinger>Almost $8.
+<v Jesse Eisinger>将近 80 亿。
+
+00:26:52.600 --> 00:26:53.940
+<v Jake Bernstein>Almost $8 billion.
+<v Jake Bernstein>将近 80 亿美元。
+
+00:26:53.940 --> 00:27:00.730
+<v Alex Blumberg>So within the span of almost three years, he'd increased the amount of money under management by $6 billion.
+<v Alex Blumberg>所以在不到三年的时间里，他将管理的资金增加了 60 亿美元。
+
+00:27:00.730 --> 00:27:12.220
+<v Jesse Eisinger>Right. And while some of that, I'm sure, was new investors, some of that was also profit from the business that they were doing.
+<v Jesse Eisinger>没错。虽然我相信其中一些是新投资者，但其中一些也是来自他们所从事业务的利润。
+
+00:27:12.220 --> 00:27:23.130
+<v Alex Blumberg>If Magnetar was making a lot of money on these CDOs, there was another group that wasn't. And that was the group of people who were buying the top-rated portions of these CDOs that Magnetar was sponsoring and then betting against.
+<v Alex Blumberg>如果 Magnetar 在这些 CDO 上赚了很多钱，那么还有另一群人没有。那就是那些购买 Magnetar 发起并做空的 CDO 最高评级部分的人。
+
+00:27:23.130 --> 00:27:46.880
+<v Alex Blumberg>There was a group of mutual funds in Tennessee that lost a bunch of money on Magnetar CDOs. There was a regional bank in Ohio. A Lutheran fraternal organization in Minnesota. But surprisingly, the biggest purchasers of Magnetar CDOs, we now know, were the very same investment banks that put these CDOs together in the first place. That's right. The banks were making these CDOs and essentially selling them to themselves.
+<v Alex Blumberg>田纳西州有一群共同基金在 Magnetar 的 CDO 上损失了一大笔钱。俄亥俄州有一家地区银行。明尼苏达州有一个路德教会兄弟会。但令人惊讶的是，我们现在知道，Magnetar CDO 的最大购买者正是当初组建这些 CDO 的投资银行本身。没错。银行组建了这些 CDO，本质上是把它们卖给了自己。
+
+00:27:46.880 --> 00:28:31.810
+<v Alex Blumberg>For example, one CDO deal that Jake and Jesse have managed to learn a lot about, a CDO that Magnetar put together with J.P. Morgan. Magnetar bought the equity portion of the deal for around $10 million. J.P. Morgan bought the top portion for almost 100 times that, nearly $1 billion, which was strange because some of the bankers at J.P. Morgan knew that Magnetar had selected especially risky assets to go into the CDO and that Magnetar had placed a bet against the middle portion of the CDO. But they went ahead and put the deal together and then bought the biggest piece of it without hedging themselves either because they convinced themselves it still wasn't that risky or because they just didn't give a damn about the risk or some combination of the two. What they were certain about was how much money they'd make in fees.
+<v Alex Blumberg>例如，Jake 和 Jesse 已经了解到很多关于一笔 CDO 交易的信息，这是一个 Magnetar 与摩根大通（J.P. Morgan）共同组建的 CDO。Magnetar 以大约 1000 万美元的价格购买了该交易的权益部分。摩根大通购买了其顶部的部分，价值几乎是权益部分的 100 倍，近 10 亿美元，这很奇怪，因为摩根大通的一些银行家知道 Magnetar 选择了一些特别高风险的资产放入 CDO，并且 Magnetar 对该 CDO 的中间部分进行了押注。但他们还是继续完成了这笔交易，然后买下了其中最大的一块，而且他们自己也没有进行对冲，要么是因为他们说服自己风险没那么大，要么是因为他们根本不在乎风险，或者两者兼而有之。他们确定的是他们会赚多少手续费。
+
+00:28:31.810 --> 00:28:37.520
+<v Jake Bernstein>J.P. Morgan made, we understand, $20 million in fees for the bank, but--
+<v Jake Bernstein>据我们了解，摩根大通为该行赚取了 2000 万美元的手续费，但——
+
+00:28:37.520 --> 00:28:42.420
+<v Alex Blumberg>Probably about half of which was distributed in bonuses to the bankers who worked on it.
+<v Alex Blumberg>其中大约一半可能作为奖金分给了参与该交易的银行家。
+
+00:28:42.420 --> 00:28:43.020
+<v Jesse Eisinger>Yeah, roughly.
+<v Jesse Eisinger>是的，大约。
+
+00:28:43.020 --> 00:28:43.430
+<v Jake Bernstein>Generally.
+<v Jake Bernstein>通常情况。
+
+00:28:43.430 --> 00:28:44.430
+<v Alex Blumberg>Generally.
+<v Alex Blumberg>通常情况。
+
+00:28:44.430 --> 00:28:58.500
+<v Jake Bernstein>And yet the bank retained the top-rated, safest portion of the deal. That eventually got wiped out and they took about an $880 million loss on the deal according to people we've spoken to.
+<v Jake Bernstein>然而，该行保留了交易中最高评级、最安全的部分。据我们采访的人士称，那最终化为乌有，他们在这笔交易中损失了大约 8.8 亿美元。
+
+00:28:58.500 --> 00:29:51.800
+<v Jesse Eisinger>We talked to one banker in this world who did CDO business. And he described what had happened as a success. We were sort of taken aback by this because most of these CDOs failed, and the banks ended up saddled with huge losses, which the taxpayers will be paying off for a long time to come. And so we asked, "How could this be a success?" And he said, "Well, the bankers did very well. Their bottom lines, their bank accounts are still quite full. They might not be at those banks anymore, but they're doing all right." So in the eyes of individual actors, this was not a complete and total debacle.
+<v Jesse Eisinger>我们采访过这个领域的一位做 CDO 业务的银行家。他将发生的事情描述为一次成功。我们对此感到有些震惊，因为这些 CDO 大多数都失败了，银行最终背负了巨大的损失，这将由纳税人在很长一段时间内买单。所以我们问：“这怎么能算成功呢？”他说：“嗯，银行家们做得很好。他们的利润底线、他们的银行账户仍然非常充实。他们可能不在那些银行工作了，但他们过得很好。”所以，在个人行为者的眼中，这并不是一场彻底的灾难。
+
+00:29:51.800 --> 00:30:23.930
+<v Alex Blumberg>This is an important thing to understand. Bankers made money even when they were buying things that eventually blew up the bank. We talked to another CDO manager, Jim Finkel, who said that for every CDO that a bank put together, it got a fee, usually 1% or 2% of the overall value of the CDO. And remember, CDOs were often worth a billion dollars or more. 1% of a billion? That's $10 million. And the bank earned this fee the minute it finished putting the CDO together, not 7 or 10 years later when the CDO was supposed to finish paying off.
+<v Alex Blumberg>这是理解这一点的重要事情。即使在购买最终导致银行爆炸的东西时，银行家也赚了钱。我们采访了另一位 CDO 经理 Jim Finkel，他说，对于银行组建的每一个 CDO，它都能获得一笔费用，通常是 CDO 总价值的 1% 或 2%。记住，CDO 的价值通常在 10 亿美元甚至更多。10 亿的 1%？那是 1000 万美元。银行在完成 CDO 组建的那一刻就赚到了这笔钱，而不是 7 或 10 年后当 CDO 本应偿还完毕时。
+
+00:30:23.930 --> 00:30:43.800
+<v Jim Finkel>Every deal would get 1% or 2% fee so let's just keep doing billions of dollars of deals, and that'll rack up the tens and twenties millions of dollars in fees. I think Merrill Lynch made $700 million in CDO fees in 2006. I mean, that's just an enormous amount of money.
+<v Jim Finkel>每一笔交易都会得到 1% 或 2% 的手续费，所以我们只要继续做几十亿美元的交易，就能积攒起数千万美元的手续费。我认为美林证券（Merrill Lynch）在 2006 年赚取了 7 亿美元的 CDO 手续费。我的意思是，那是一笔巨款。
+
+00:30:43.800 --> 00:30:47.210
+<v Alex Blumberg>How many people is that going to inside Merrill Lynch?
+<v Alex Blumberg>在美林证券内部，这分给了多少人？
+
+00:30:47.210 --> 00:30:53.330
+<v Jim Finkel>That was going to somewhere between 50 and 80 people.
+<v Jim Finkel>那大约分给了 50 到 80 人。
+
+00:30:53.330 --> 00:30:55.780
+<v Jesse Eisinger>That's a lot per person. That's a lot per person.
+<v Jesse Eisinger>那每人分到的很多。那每人分到的很多。
+
+00:30:55.780 --> 00:31:16.830
+<v Jim Finkel>That whole $700 million was not going to their personal pockets, right? The firm probably created a bonus pool of, say, $100 to $150 million out of that. But still, you're talking about the head of the group probably walked home with $10-plus million, $15 million.
+<v Jim Finkel>那整个 7 亿美元并没有进入他们的个人口袋，对吧？公司可能从中设立了 1 亿到 1.5 亿美元的奖金池。但即便如此，你说的部门主管可能还是带走了 1000 多万，甚至 1500 万美元。
+
+00:31:16.830 --> 00:31:37.020
+<v Alex Blumberg>This situation, where the individual bankers made money whether or not the investments they sold collapsed, should be added to the list of causes of the financial crisis that we're still living out. It helps explain why the crisis was as big as it was. And it also helps explain the answer to the question, wait, why were the CDO managers and investment banks so eager to help Magnetar do this in the first place?
+<v Alex Blumberg>这种情况，即个人银行家无论他们出售的投资是否崩溃都能赚钱，应该被加入到我们至今仍在承受的金融危机成因列表中。它有助于解释为什么危机如此严重。它也有助于回答这个问题：等等，为什么 CDO 经理和投资银行如此急于帮助 Magnetar 做这件事？
+
+00:31:37.020 --> 00:31:56.180
+<v Jesse Eisinger>I think this is where we have a rousing defense of Magnetar. I mean, essentially Magnetar was doing right by its investors. They found a weakness in the Wall Street machine, and they exploited it. But there were other actors in this drama.
+<v Jesse Eisinger>我认为在这里我们可以为 Magnetar 进行一次激动人心的辩护。我的意思是，本质上 Magnetar 是为它的投资者做了正确的事。他们发现了华尔街机器中的弱点，并利用了它。但在这出戏中还有其他演员。
+
+00:31:56.180 --> 00:32:13.900
+<v Alex Blumberg>Those other actors were the CDO managers and investment banks that put these deals together. The ones that Jake and Jesse have spoken to, they knew what Magnetar was doing. They knew that Magnetar was asking for riskier and riskier assets to go into the deal. And they knew that they were placing bets against other parts of the CDOs that they were helping to spawn.
+<v Alex Blumberg>这些其他演员是组建这些交易的 CDO 经理和投资银行。Jake 和 Jesse 采访过的那些人，他们知道 Magnetar 在做什么。他们知道 Magnetar 在要求将更高风险的资产放入交易中。他们知道他们正在押注于他们帮助催生的 CDO 的其他部分。
+
+00:32:13.900 --> 00:32:39.130
+<v Alex Blumberg>And yet, this information wasn't in any of the documents that were available to the Lutherans in Minnesota or the banks in Ohio or the mutual funds in Tennessee or any of the other investors out there, who were buying the other parts of the CDOs that Magnetar was sponsoring. When you look at it this way, if the investment banks and CDO managers had been doing their jobs, actually explaining to their investors what was behind these CDOs, well, the Magnetar trade might not have been possible.
+<v Alex Blumberg>然而，这些信息在提供给明尼苏达州的路德教会、俄亥俄州的银行、田纳西州的共同基金，或任何其他正在购买 Magnetar 发起的 CDO 其他部分的外部投资者的任何文件中都没有出现。从这个角度来看，如果投资银行和 CDO 经理尽职尽责，真正向投资者解释了这些 CDO 背后的内容，那么，Magnetar 交易可能就不会发生。
+
+00:32:39.130 --> 00:33:03.220
+<v Jesse Eisinger>So if the investment bank came to an investor and said, we have got an investment for you. A hedge fund actually asked us to create it, and they asked us to put riskier assets into the deal, and, oh, by the way, they're betting against it. Would you like to buy it? And the answer is going to be obvious. They're not going to do it.
+<v Jesse Eisinger>所以如果投资银行来找投资者说：我们为你准备了一项投资。一家对冲基金实际上要求我们创建它，他们要求我们放入更高风险的资产，而且顺便说一句，他们正在做空它。你想买吗？答案是不言而喻的。他们不会那样做。
+
+00:33:03.220 --> 00:33:38.880
+<v Jake Bernstein>The role of Magnetar, both as equity investor and in their bets against the very CDOs they helped create, were not disclosed in any way to investors in the written documents about the deals. Not the marketing material, not the prospectuses, not in the hundreds of pages that an investor could get to see information about the deal was it disclosed that it was, in fact, Magnetar who had helped create the deal and who bet against it.
+<v Jake Bernstein>Magnetar 作为权益投资者及其对他们帮助创造的 CDO 的押注，在关于该交易的书面文件中没有任何披露。不在营销材料中，不在招股说明书中，在投资者可以看到关于交易信息的数百页文件中，也没有披露事实上是 Magnetar 帮助创建了该交易并对其进行了押注。
+
+00:33:38.880 --> 00:33:52.890
+<v Alex Blumberg>There is an argument to be made that the fact that investment banks and CDO managers weren't disclosing this information might present securities law violations. It might be worth looking into anyway, if you were, say, I don't know, the Securities and Exchange Commission.
+<v Alex Blumberg>有一种观点认为，投资银行和 CDO 经理没有披露这一事实，可能违反了证券法。如果你是，比如说，证券交易委员会（SEC），这可能无论如何都值得调查一下。
+
+00:33:52.890 --> 00:34:15.100
+<v Jesse Eisinger>Did the banks represent this thing that they're selling fairly and accurately and disclose or tell the investors all the material information? And the question revolves around this concept in the securities law of materiality, which is extremely difficult to define.
+<v Jesse Eisinger>银行是否公平、准确地代表了他们正在销售的东西，并披露或告知了投资者所有重大信息？这个问题围绕着证券法中“重大性”（materiality）的概念，这极其难以定义。
+
+00:34:15.100 --> 00:34:24.730
+<v Alex Blumberg>And the materiality issue is just basically what is material, what do the investors need to know, and what do they not need to know basically? Like what is material for them to know?
+<v Alex Blumberg>关于重大性的问题基本上就是：什么是重大的？投资者需要知道什么，他们不需要知道什么？基本上，什么是他们需要知道的重大事项？
+
+00:34:24.730 --> 00:34:25.190
+<v Jesse Eisinger>Exactly.
+<v Jesse Eisinger>没错。
+
+00:34:25.190 --> 00:34:29.200
+<v Jake Bernstein>Right. To make their decision on whether they want to invest or not.
+<v Jake Bernstein>对。为了让他们决定是否要投资。
+
+00:34:29.200 --> 00:35:00.060
+<v Alex Blumberg>In the conversations that you've had with the people on Wall Street and the people in the CDO managers and the people from Magnetar and everybody who you've talked to on the inside, was there ever outrage expressed? Did anybody ever say to you, man, what those guys were doing, that was questionable, or that seemed wrong, or that seemed ethically dubious, or anything like that?
+<v Alex Blumberg>在你们与华尔街人士、CDO 经理、Magnetar 人员以及你们交谈过的所有内部人员的对话中，有没有人表达过愤怒？有没有人对你说：伙计，那些家伙做的事太可疑了，或者看起来不对，或者看起来在道德上是有问题的？
+
+00:35:00.060 --> 00:35:31.730
+<v Jesse Eisinger>The answer is yes. But I think within Wall Street, there's a sense that Magnetar was a predator, a shark, if you will, and that you don't blame the predator for hunting the prey. That's what predators do. But I recall one banker, who we spoke to, who said, "When Magnetar arrived on the scene, we all should have gone running. We all should have taken off."
+<v Jesse Eisinger>答案是肯定的。但我认为在华尔街内部，有一种感觉是 Magnetar 是掠食者，如果你愿意的话，就是鲨鱼，你不能责怪掠食者去捕猎猎物。这就是掠食者做的事。但我记得我们采访过的一位银行家说：“当 Magnetar 出现时，我们所有人都应该逃跑。我们所有人都应该离开。”
+
+00:35:31.730 --> 00:35:39.070
+<v Jake Bernstein>Yeah, yeah, he said, "We should have run for the hills, everyone, all of us in America."
+<v Jake Bernstein>是的，是的，他说：“我们都应该逃到山里去，每个人，我们美国所有人。”
+
+00:35:39.070 --> 00:35:43.320
+<v Alex Blumberg>And what did he see as the problem?
+<v Alex Blumberg>他认为问题是什么？
+
+00:35:43.320 --> 00:36:11.180
+<v Jesse Eisinger>What he saw was that Magnetar had figured out how dysfunctional the system had become and was going to exploit that dysfunction. And that it should have been a sign to everybody that there was something wrong. There was something wrong with the way Wall Street was operating.
+<v Jesse Eisinger>他所看到的是，Magnetar 已经弄清楚这个系统变得多么功能失调，并准备利用这种功能失调。这应该给所有人敲响警钟：出了问题。华尔街的运作方式出了问题。
+
+00:36:11.180 --> 00:36:36.330
+<v Alex Blumberg>Even if what was happening here wasn't illegal, it had profound consequences for the financial system, the taxpayers, and the global economy. If the CDO market had been allowed to cool off at the end of 2005, as market insiders thought it might, the financial crisis almost certainly would not have been as bad as it was. Magnetar, by entering the market when it did, by catalyzing the volume of production that it did, extended the mania and exacerbated the crash.
+<v Alex Blumberg>即使这里发生的事情并不违法，它也对金融体系、纳税人和全球经济产生了深远的影响。如果 CDO 市场在 2005 年底被允许降温（正如市场内部人士所预期的那样），那么金融危机几乎肯定不会像现在这样糟糕。Magnetar 通过在那个时候进入市场，通过催化其所实现的生产规模，延长了狂热并加剧了崩溃。
+
+00:36:36.330 --> 00:37:02.810
+<v Alex Blumberg>Of the 24 Magnetar CDOs that ProPublica was able to track down, 23 of them are nearly worthless today. In total, nearly $40 billion evaporated. A good portion of that $40 billion was held by the banks, no doubt part of the hole the taxpayers had to cover when we bailed out the financial system.
+<v Alex Blumberg>在 ProPublica 能够追踪到的 24 个 Magnetar CDO 中，23 个在今天几乎一文不值。总共有近 400 亿美元化为乌有。这 400 亿美元中很大一部分是由银行持有的，毫无疑问，这也是我们在救助金融体系时纳税人必须填补的黑洞的一部分。
+
+00:37:02.810 --> 00:37:34.220
+<v Alex Blumberg>The Magnetar trade also had a direct impact on the housing market all over the country. If the CDO business had gone down, as people were predicting in 2005, home mortgages would've been less available in 2006 and 2007 for people buying houses in California and Florida. There would have been less money out there looking for riskier and riskier mortgages to stuff into mortgage-backed securities to feed the CDOs that Magnetar was helping to create. There would have been, in short, fewer people in houses they couldn't afford then and fewer people facing foreclosure today.
+<v Alex Blumberg>Magnetar 交易对全国各地的住房市场也产生了直接影响。如果 CDO 业务正如 2005 年人们预测的那样倒闭，那么 2006 年和 2007 年，在加州和佛罗里达州购房的人将更难获得住房抵押贷款。市场上将没有那么多资金寻找风险越来越高的抵押贷款来填充抵押贷款支持证券，从而去喂养 Magnetar 帮助创建的 CDO。简而言之，那时就不会有那么多人在负担不起的房子里，今天面临止赎的人也会更少。
+
+00:37:34.220 --> 00:37:51.750
+<v Alex Blumberg>People making short-term decisions for their own short-term profit added to the pain we're all going through now. Fortunes were made on CDO desks all over Wall Street in 2006 and 2007. Some of the banks where those fortunes were made may be gone, but the people who made them and the fortunes themselves remain.
+<v Alex Blumberg>为了短期利润而做出短期决策的人加剧了我们现在正在经历的痛苦。2006 年和 2007 年，华尔街各地的 CDO 部门创造了财富。那些创造财富的银行可能已经不复存在，但创造财富的人和财富本身依然存在。
+
+00:37:51.750 --> 00:38:19.100
+<v Alex Blumberg>According to a magazine which tracks hedge fund pay, Alec Litowitz, the head of Magnetar, personally took home an estimated $280 million in 2007. Magnetar declined to comment on that figure. Unlike some of the Wall Street banks with whom the fund worked, Magnetar is still open for business and still looking for ways to make its clients money.
+<v Alex Blumberg>据一本追踪对冲基金薪酬的杂志报道，Magnetar 的负责人 Alec Litowitz 在 2007 年个人进账估计达 2.8 亿美元。Magnetar 对该数字拒绝置评。与该基金合作过的一些华尔街银行不同，Magnetar 仍在营业，并仍在寻找为其客户赚钱的方法。
+
+00:38:19.100 --> 00:38:46.230
+<v Ira Glass>Alex Blumberg, who's part of our Planet Money team. Planet Money is a co-production between our program and NPR News. This story was done as a collaboration with ProPublica and the reporters Jake Bernstein and Jesse Eisinger. A statement from Magnetar and its full response to our questions, emails between a CDO manager and Magnetar, a timeline of the deals, analysis, lots of documents, a more detailed version of this story are all at ProPublica's website propublica.org.
+<v Ira Glass>Alex Blumberg，他是我们 Planet Money 团队的成员。Planet Money 是我们节目与 NPR 新闻的联合制作。这个故事是与 ProPublica 合作完成的，报道者是 Jake Bernstein 和 Jesse Eisinger。关于 Magnetar 的一份声明及其对我们问题的全面回复、CDO 经理与 Magnetar 之间的电子邮件、交易时间表、分析、大量文件以及这个故事的更详细版本，都在 ProPublica 的网站 propublica.org 上。
+
+00:38:46.230 --> 00:39:28.880
+<v Ira Glass>By the way, just this week, the former CEO of Citigroup, Charles Prince, testified before the financial crisis inquiry commission about CDOs. Citigroup did several CDO deals with Magnetar. The names of those deals, Cetus 2 and 4, Octans 3, Lacerta, each of these deals was over $1 billion. Now they're almost worthless, of course. Charles Prince told the commission that CDOs made up most of the losses at Citigroup. He said, these were the losses, CDOs, that required the government to bail out the bank even though at the time, he said, everyone believed they were totally safe investments. Citi bought the best parts of the CDOs, what Prince called--
+<v Ira Glass>顺便提一下，就在本周，花旗集团（Citigroup）前首席执行官 Charles Prince 在金融危机调查委员会作证时谈到了 CDO。花旗集团与 Magnetar 做了几笔 CDO 交易。这些交易的名字分别是 Cetus 2 和 4、Octans 3、Lacerta，每一笔交易的规模都超过 10 亿美元。当然，现在它们几乎一文不值了。Charles Prince 告诉委员会，CDO 造成了花旗集团的大部分损失。他说，正是这些损失，这些 CDO，导致政府必须救助银行，尽管当时他说，每个人都相信它们是完全安全的投资。花旗购买了 CDO 的最佳部分，也就是 Prince 所说的——
+
+00:39:28.880 --> 00:39:51.140
+<v Charles Prince>--super senior tranches of CDOs that carried the lowest possible risk of default. It bears emphasis that Citi was by no means alone in this view, and that everyone, including our risk managers, government regulators, other banks, and CDO structurers, all believed that these securities held virtually no risk.
+<v Charles Prince>……CDO 的超高级层（super senior tranches），承担了最低的违约风险。值得强调的是，花旗绝对不是唯一持这种观点的人，每个人，包括我们的风险经理、政府监管机构、其他银行和 CDO 构建者，都相信这些证券几乎没有任何风险。
+
+00:39:51.140 --> 00:40:03.450
+<v Ira Glass>Prince emphasized that even the Citibank employees who made the decisions to keep these CDOs on the books had no reason to suspect that they might go bad. In other words, no one saw it coming.
+<v Ira Glass>Prince 强调，甚至连那些决定将这些 CDO 保留在账面上的花旗银行员工也没有理由怀疑它们可能会变坏。换句话说，没人预见到会发生。
+
+00:40:03.450 --> 00:40:03.920
+<v Ira Glass>[MUSIC - "BET AGAINST THE AMERICAN DREAM"]
+<v Ira Glass>[音乐 - “做空美国梦”（BET AGAINST THE AMERICAN DREAM）]
+
+00:40:03.920 --> 00:41:31.250
+<v Broadway-style Singers>Step one, we write a check for $10 million, hand the check to a Wall Street bank and ask them to make us a CDO. Step two, they create the CDO using risky stuff, very risky stuff, extremely risky stuff. Step three, other investors commit hundreds of millions of dollars to the CDO. Step four, we bet against the CDO using a credit default swap. Step five, the housing market crashes, the CDO's value drops to 0, our bet pays off, and we make hundreds of millions of dollars. And before you can say, step six, we're rich. We're gonna bet against the American dream. We're gonna be on the winning team. Purchase risky debt on a massive scale, then place a bet that the debt will fail. Hundreds of millions for Magnetar, the economy collapsing like a dying star. No one will know 'til it's on NPR. And who cares? It's time to hit the town. This sucker could go down. The housing market's losing steam. And all we gotta do to make our dreams come true, is bet against the American dream.
+<v Broadway-style Singers>第一步，我们开出一张 1000 万美元的支票，交给一家华尔街银行，让他们为我们做一个 CDO。第二步，他们用高风险的东西创建 CDO，非常高风险的东西，极其高风险的东西。第三步，其他投资者向该 CDO 投入数亿美元。第四步，我们利用信用违约掉期对 CDO 进行做空。第五步，住房市场崩溃，CDO 的价值降为 0，我们的赌注成功，我们赚了数亿美元。在你来得及说第六步之前，我们就富了。我们将做空美国梦。我们将进入获胜的团队。大规模购买高风险债务，然后押注债务会失败。Magnetar 赚取数亿，经济像垂死的恒星一样崩溃。在 NPR 报道之前没人会知道。谁在乎呢？是时候去城里庆祝了。这个冤大头可能会倒下。房地产市场正在失去动力。为了实现我们的梦想，我们所要做的就是做空美国梦。
+
+00:41:31.250 --> 00:42:02.660
+<v Ira Glass>John Treacy Eagan and Christian Borle on vocals. "Bet Against The American Dream," the music and lyrics were written for our show by Robert Lopez, produced by music supervisor Steven Oremus. The orchestrator was Bruce Coughlin. To see a video of these amazing Broadway performers recording the song, go to Planet Money's website npr.org/money. Coming up, what cops know about cops. That's in a minute from Chicago Public Radio and Public Radio International when our program continues.
+<v Ira Glass>John Treacy Eagan 和 Christian Borle 主唱。《做空美国梦》，音乐和歌词是 Robert Lopez 为我们的节目创作的，由音乐主管 Steven Oremus 制作。编曲是 Bruce Coughlin。要观看这些神奇的百老汇表演者录制这首歌的视频，请访问 Planet Money 的网站 npr.org/money。接下来，警察对警察了解些什么。请在一分钟后收听，节目来自芝加哥公共广播（Chicago Public Radio）和公共广播国际（Public Radio International）。
+
+00:42:02.660 --> 00:42:20.430
+<v Ira Glass>It's This American Life . I'm Ira Glass. Each week on our program, of course, we choose a theme, bring you reporting, interviews, songs, anything we can think of on that theme. Today's show, Inside Job. We've arrived at Act Two of our show. Act Two, Taking A Big Pink Eraser To The Thin Blue Line.
+<v Ira Glass>这里是《美国生活》。我是 Ira Glass。当然，每周我们都会在我们的节目中选择一个主题，为您带来关于该主题的报道、采访、歌曲以及我们能想到的任何内容。今天的节目是“监守自盗”。我们已经到了节目的第二幕。第二幕，“用巨大的粉色橡皮擦擦掉那条细细的蓝线”。
+
+00:42:20.430 --> 00:42:35.510
+<v Ira Glass>You may have heard of these self-produced DVDs called Never Get Busted Again. In them, there's a guy named Barry Cooper who shows small-time pot growers how to avoid trouble with the police. For example, how to handle yourself when a cop stops you on the highway with his drug-sniffing dog.
+<v Ira Glass>你可能听说过这些名为《绝不再被捕》（Never Get Busted Again）的自制 DVD。里面有一个叫 Barry Cooper 的家伙，他向小规模的大麻种植者展示如何避免与警察发生麻烦。例如，当警察带着缉毒犬在高速公路上拦下你时，你该如何应对。
+
+00:42:35.510 --> 00:42:49.050
+<v Barry Cooper>It's a good idea to carry a cat in your car if you're going to have a couple of marijuana cigarettes. This confuses the dog, where his drive is channeled to chasing these things instead of looking for the marijuana.
+<v Barry Cooper>如果你打算带几支大麻烟卷，在车里带一只猫是个好主意。这会干扰狗，它的驱动力会转而去追逐这些东西，而不是寻找大麻。
+
+00:42:49.050 --> 00:42:59.980
+<v Ira Glass>He also explains how to grow pot without getting caught indoors or out, how to spot undercovers and informants, how to handle knock and talks and rap and taps-- that's when a cop tries to talk his way into your house.
+<v Ira Glass>他还解释了如何在室内或室外种植大麻而不被抓，如何识别便衣警察和告密者，如何处理警察敲门盘查和轻敲传唤——也就是警察试图通过谈话进入你家的情况。
+
+00:42:59.980 --> 00:43:15.900
+<v Barry Cooper>If you hear a knock at your door and, upon investigating, you notice it's the police, if your door is not locked, go ahead and lock it right then. I don't open the door for police.
+<v Barry Cooper>如果你听到敲门声，检查后发现是警察，如果你的门没锁，立刻锁上。我不给警察开门。
+
+00:43:15.900 --> 00:43:38.970
+<v Ira Glass>That's Barry demonstrating how you should yell through the window at the officer. All this advice could really only come from a consummate insider. And Barry Cooper is one. He's a former narcotics cop and a dirty narcotics cop at that. And recently he has moved on from the DVDs to a new venture, again, drawing on his experience in law enforcement. Michael May tells the story from Austin.
+<v Ira Glass>那是 Barry 在演示你应该如何通过窗户对警察大喊。所有这些建议确实只能来自一位彻底的内部人士。Barry Cooper 就是这样的人。他曾是一名缉毒警察，而且还是个脏警察。最近，他从 DVD 转到了一个新的领域，同样是借鉴了他在执法方面的经验。Michael May 在奥斯汀讲述了这个故事。
+
+00:43:38.970 --> 00:43:51.870
+<v Michael May>I've watched videos taken from the dashboard camera on Barry Cooper's squad car in the mid-'90s. Back then, he had short, cropped hair, cop mustache. He liked to lean into a suspect with a smirk that said, I know you're lying.
+<v Michael May>我看过 90 年代中期 Barry Cooper 警车仪表盘摄像头拍摄的视频。那时，他留着短平头，留着警察胡子。他喜欢倾斜身子对着嫌疑人，脸上带着一种表情，仿佛在说：“我知道你在撒谎。”
+
+00:43:51.870 --> 00:43:53.910
+<v Barry Cooper>OK. Where's the marijuana at?
+<v Barry Cooper>好的，大麻在哪儿？
+
+00:43:53.910 --> 00:43:54.520
+<v Man>I ain't got none.
+<v Man>我没有。
+
+00:43:54.520 --> 00:43:56.810
+<v Barry Cooper>These two ladies in here been smoking weed too?
+<v Barry Cooper>这两个女士也在抽大麻吗？
+
+00:43:56.810 --> 00:43:57.300
+<v Man>No.
+<v Man>不。
+
+00:43:57.300 --> 00:44:29.800
+<v Michael May>Barry was a member of the Permian Basin Drug Task Force, a west Texas unit that became notorious for using unscrupulous tactics in the war on drugs. It was eventually shut down by the FBI in the late '90s. But to Barry, it was a great assignment. He learned all the ways to bend the law to rack up, harass, and chase down suspects. Barry was in his early 20s, and he says, the thing he loved most about being a cop was the adrenaline rush. One of his favorite things to do was to pull people over on the highway, and then, just for kicks, incite a chase. How?
+<v Michael May>Barry 是二叠纪盆地（Permian Basin）缉毒特遣部队的成员，这是一个西德克萨斯单位，以在禁毒战争中使用不择手段的策略而闻名。它最终在 90 年代末被 FBI 关闭。但对 Barry 来说，这是一份很棒的差事。他学会了所有歪曲法律、诬陷、骚扰和追捕嫌疑人的方法。Barry 那时才 20 多岁出头，他说，他作为警察最喜欢的就是肾上腺素的冲动。他最喜欢做的事情之一就是在高速公路上拦下人，然后，仅仅是为了好玩，引诱他们逃跑。怎么做？
+
+00:44:29.800 --> 00:45:17.200
+<v Barry Cooper>They taught us in the academy that once we found drugs on somebody to handcuff them immediately. Instead of doing that, I would look at the suspect and say, "Hmm, well, some crack cocaine I found in your pocket. You're under arrest for a felony. You're going to go to prison for life." Whether he was or not, he didn't know that. And I would just turn around and walk to the patrol car to get my paperwork ready and to radio it in, giving that suspect time to run. And they often did. And then the foot chase would be on, and then the fight would ensue, and that would get my adrenaline fix.
+<v Barry Cooper>他们在学院教我们，一旦我们在某人身上发现毒品，就立即给他们戴上手铐。我不这样做，我会看着嫌疑人说：“嗯，我在你口袋里发现了一些快克可卡因。你因重罪被捕。你要去监狱蹲一辈子。”无论他是否真的会蹲监狱，他自己不知道。然后我就会转过身走向警车准备文书工作并呼叫总部，给嫌疑人逃跑的时间。他们经常这样做。然后步行的追逐就开始了，接着是搏斗，那能让我获得肾上腺素的快感。
+
+00:45:17.200 --> 00:45:55.470
+<v Barry Cooper>I was one of the biggest [BLEEP] you'd ever want to meet in a drug deal. A lot of what I was doing was doing illegal searches, such as making my dog false alert or saying, I had an informant to raid a house when I never did. And we would raid a house. It's called using a ghost informant. Or conducting illegal searches on citizens to seize narcotics. It also includes stealing money. I never planted drugs, but I often threatened to to scare citizens into becoming my informant.
+<v Barry Cooper>在毒品交易中，我是你能见到的最糟糕的混蛋之一。我做的很多事情都是非法搜查，比如让我的狗发出假警报，或者说我有告密者去突袭一所房子，而我根本没有。我们会突袭一所房子。这叫使用“幽灵告密者”。或者对公民进行非法搜查以查获毒品。这还包括偷钱。我从没栽赃毒品，但我经常威胁要这么做，以恐吓公民成为我的告密者。
+
+00:45:55.470 --> 00:46:30.950
+<v Michael May>Barry served eight years on the force, but after getting caught doing an overzealous search of a black man's underwear looking for drugs, his department was sued in a federal civil rights case. They settled, but Barry left the force anyway, frustrated and angry that his superiors didn't defend him. He bounced around for a few years after that, opening several used car lots, founding a church, even starting a cage fighting business. But it was his next step that truly changed his life when he fell in love with his current wife, Candi, and began smoking the substance he'd spent years arresting people for.
+<v Michael May>Barry 在警队服役了八年，但在因为搜查一名黑人的内衣搜寻毒品过于狂热被捕后，他的部门在一场联邦民权诉讼中被起诉。他们和解了，但 Barry 还是离开了警队，因为他的上级没有维护他而感到沮丧和愤怒。之后他跳槽了好几年，开了几家二手车行，创立了一所教会，甚至还创办了一家笼斗生意。但真正改变他人生的是他的下一步：他爱上了现在的妻子 Candi，并开始抽起他多年来一直为此逮捕别人的大麻。
+
+00:46:30.950 --> 00:47:34.120
+<v Barry Cooper>I spent the next year literally in her bedroom, her and I growing close together, talking and smoking pot. I'd never eaten a pizza in bed in my life until then. We would order pizza and smoke marijuana. And the first thing I did was laugh and laugh and laugh and laugh. And I just couldn't believe the joy I was feeling. That would turn into crying. And she knew I had a lot of guilt. I'd start talking to her about how bad I felt about the stuff I did to people for this marijuana that I was enjoying and that was healing me. So she was smart enough to help me get through those flashbacks. And she'd tell me, "That was rotten what you did, Barry, but you were doing what you thought was right. And the important thing is now, humans can change, and people will forgive you."
+<v Barry Cooper>我在她卧室里度过了接下来的一整年，她和我变得亲近，聊天、抽大麻。在此之前，我一生中从未在床上吃过披萨。我们会点披萨，抽大麻。我做的第一件事就是大笑，不停地笑。我简直不敢相信我感到的快乐。那会转变为哭泣。她知道我有很深的罪恶感。我会开始告诉她，对于我为了现在正在享受并治愈我的大麻而对人们做的事情，我感到有多么糟糕。所以她足够聪明，帮我度过了那些闪回。她会告诉我：“Barry，你做的事很烂，但你是在做你认为对的事。重要的是现在，人类是可以改变的，人们会原谅你的。”
+
+00:47:34.120 --> 00:48:07.020
+<v Michael May>Barry wanted to atone. So this is when he created the Never Get Busted DVDs. In three years, he says, he sold over 50,000. Today, Barry had long hair, a goatee, hoop earrings, and a pin-up girl tattooed on his neck. He smiles a lot and cries easily and says, "I love you" as a casual greeting, part redneck, part hippie, part ex-cop. When I introduced him to my wife, she told me she felt like she'd just walked into a Coen brothers movie. And Barry's next big idea was like something straight out of one of those movies.
+<v Michael May>Barry 想赎罪。所以就在这时，他制作了《绝不再被捕》系列 DVD。他说，三年里他卖了 5 万多套。今天，Barry 留着长发，蓄着山羊胡，戴着圈形耳环，脖子上纹着一个海报女郎。他经常微笑，很容易流泪，并把“我爱你”作为随意的问候语，他部分是红脖子，部分是嬉皮士，部分是前警察。当我把他介绍给我妻子时，她告诉我，她觉得好像走进了一部科恩兄弟的电影。而 Barry 的下一个宏大想法就像直接出自那些电影一样。
+
+00:48:07.020 --> 00:48:53.070
+<v Michael May>He decided he wanted to do more than just help potheads. He wanted to expose and punish the cops that put them in prison. Barry says, the war on drugs has warped the priorities of law enforcement. Small-town police fund their own salaries by seizing cash and property in drug raids. Incredibly, they don't even have to charge someone with a crime to keep the stuff. And he says, that's given cops a reason to routinely bend the law to bust people. Which brings us to Barry's latest great idea. It involves chases and traps and suspicious props and anonymous tips and TV. Barry would set up elaborate stings to catch cops in the act of breaking the law. And he'd film it for a reality TV show he wanted to create called KopBusters, spelled with a K.
+<v Michael May>他决定他想做的不仅仅是帮助大麻客。他想揭露并惩罚那些把他们送进监狱的警察。Barry 说，禁毒战争已经扭曲了执法的优先事项。小镇警察通过在突袭毒品行动中查获现金和财产来资助他们自己的工资。令人难以置信的是，他们甚至不需要指控某人犯有罪行就能保留这些东西。他说，这给了警察 routinely 歪曲法律以抓捕人的理由。这就引出了 Barry 最新的伟大想法。它涉及追逐、陷阱、可疑的道具、匿名线索和电视。Barry 会设立精心设计的圈套来抓捕正在触犯法律的警察。而且他会为了他想创造的一个叫作“KopBusters”（用 K 开头拼写）的现实电视节目拍下来。
+
+00:48:53.070 --> 00:49:00.440
+<v Announcer>Every year, thousands of innocent people are sent to prison, many because of corrupt cops.
+<v Announcer>每年，成千上万无辜的人被送进监狱，许多是因为腐败的警察。
+
+00:49:00.440 --> 00:49:02.400
+<v Barry Cooper>Do you have a search warrant?
+<v Barry Cooper>你有搜查证吗？
+
+00:49:02.400 --> 00:49:26.470
+<v Michael May>This is the KopBusters trailer. Barry put it together to shop his idea around to TV networks. And in 2008, Barry decides to test his premise by stinging cops in Odessa, where he once worked on the task force. He believed that cops were corrupt there and had a plan to prove it. And Barry also had a secret weapon, an unlikely benefactor, one with deep pockets.
+<v Michael May>这是 KopBusters 的预告片。Barry 把这个整合起来，向电视网推销他的想法。2008 年，Barry 决定通过在 Odessa（他曾在那里的特遣部队工作过）设置陷阱来测试他的前提。他相信那里的警察很腐败，并计划证明这一点。而且 Barry 还有一件秘密武器，一位不太可能的捐赠者，一位财大气粗的捐赠者。
+
+00:49:26.470 --> 00:49:58.450
+<v Michael May>His name was Raymond Madden, and he was a conservative middle-aged businessman. For most of his life, Raymond trusted the police and voted tough on crime. Then his daughter, Yolanda, was arrested for having an ounce of meth and sentenced to eight years in prison. Madden was convinced the police had planted the drugs on her. A police informant even testified at her trial that he'd framed her. Madden spent years trying to get activists and reporters interested in the case to no avail. Then he came across Barry Cooper on the internet.
+<v Michael May>他的名字叫 Raymond Madden，他是一位保守的中年商人。在他生命的大部分时间里，Raymond 信任警察并对犯罪投下严厉打击的一票。然后他的女儿 Yolanda 被捕，因持有一盎司甲基苯丙胺被判入狱八年。Madden 确信警察在她身上栽赃了毒品。一名警方告密者甚至在她的审判中作证说他陷害了她。Madden 花了几年时间试图让活动家和记者对这个案件感兴趣，但无济于事。然后他在网上遇到了 Barry Cooper。
+
+00:49:58.450 --> 00:50:34.400
+<v Raymond Madden>The first thing I got of Barry was his videos. And I thought, "What a nut job this guy is." But I was desperate. So you're talking about a father who's desperate. I mean, I was running out of options. Barry knew a lot of the players in this deal because he had been involved in the Odessa scene. And he had a knowledge that I didn't have. He knew how cops think. I didn't. That's where I always kept making my mistakes is I went up to people thinking they were going to be honest. But he knew how they thought.
+<v Raymond Madden>我从 Barry 那里得到的第一样东西是他的视频。我想：“这个家伙是个疯子。”但我绝望了。所以你面对的是一个绝望的父亲。我的意思是，我的选择用完了。Barry 对这笔交易中的许多参与者都很了解，因为他曾经参与过 Odessa 的现场。他拥有我没有的知识。他知道警察是怎么想的。我不知道。这就是我总是不断犯错的地方，我走近人们，认为他们会诚实。但他知道他们是怎么想的。
+
+00:50:34.400 --> 00:51:02.290
+<v Raymond Madden>And so I kind of think of Barry as like some of these-- I call them blue-haired biddies of [? Baptist, ?] they're blue-haired-- that used to smoke and don't smoke. My gosh, there's nothing worse than a reformed smoker to be around. You know? Or a reformed drunk. Well, Barry was a reformed cop. And my gosh, there's probably nothing more sanctimonious.
+<v Raymond Madden>所以我有点把 Barry 看作是那些——我称他们为浸信会的蓝发老太，他们是蓝头发——曾经抽烟现在不抽了。天哪，没有什么比改邪归正的吸烟者更难相处了。你知道吗？或者一个改邪归正的酒鬼。嗯，Barry 是一个改邪归正的警察。天哪，可能没有什么比这更自以为是的了。
+
+00:51:02.290 --> 00:51:27.800
+<v Michael May>Barry told Raymond he couldn't get Yolanda out of prison, but he could embarrass the police and get the press to look into her case. His plan went like this: set up a fake marijuana grow house and get the Odessa police to raid it illegally. Inside, he put a single grow light over a couple of Christmas trees, Barry's idea of a punch line. He'd invite local media along to catch the police looking like fools when they busted in.
+<v Michael May>Barry 告诉 Raymond，他无法让 Yolanda 出狱，但他可以使警察尴尬，并让媒体去调查她的案件。他的计划是这样的：设置一个假的室内大麻种植屋，让 Odessa 警察非法突袭它。在里面，他在几棵圣诞树上放了一盏单一的生长灯，这是 Barry 对笑话的构思。他会邀请当地媒体陪同，捕捉警察在闯入时看起来像傻瓜的样子。
+
+00:51:27.800 --> 00:52:09.100
+<v Michael May>Raymond spent over $30,000 setting this all up. Barry rented a house, wired it with four cameras, bought laptops to watch the video streaming live, hired a crew and a lawyer and put them all up in hotels while they set the trap. To bait the police, Barry's crew sends an anonymous letter to a local church, promising a house full of pot plants and $19,000 in drug money. An anonymous tip alone is not enough for a search warrant. Barry was hoping they'd search the house illegally, while, of course, he filmed everything. So the letter goes out to the church. Oh yeah, it also mentions the money is going to be gone by the next day. 14 hours later--
+<v Michael May>Raymond 花了超过 3 万美元设置这一切。Barry 租了一间房子，安装了四台摄像头，买了笔记本电脑观察直播视频，雇了一个团队和一名律师，并将他们全部安置在酒店里，同时他们设置了这个陷阱。为了引诱警察，Barry 的团队向当地的一家教会发送了一封匿名信，承诺有一屋子大麻植物和 1.9 万美元的毒资。仅凭匿名举报不足以获得搜查证。Barry 希望他们非法搜查房子，当然，他拍摄了一切。所以信发到了教会。哦对了，它还提到钱第二天就会消失。14 小时后——
+
+00:52:09.100 --> 00:52:10.650
+<v Barry Cooper>[UNINTELLIGIBLE] Back up. Zoom out. Zoom out.
+<v Barry Cooper>[听不清] 后退。缩放。缩放。
+
+00:52:10.650 --> 00:52:11.320
+<v Man>And here come the cops.
+<v Man>警察来了。
+
+00:52:11.320 --> 00:52:18.640
+<v Michael May>Barry and his team are sitting in the hotel room watching the scene on computers when the cops burst in the back door of the house with guns drawn.
+<v Michael May>Barry 和他的团队坐在酒店房间里通过电脑观看现场，这时警察拔着枪闯入了房子的后门。
+
+00:52:18.640 --> 00:52:19.580
+<v Man>They're in. They're in.
+<v Man>他们进来了。他们进来了。
+
+00:52:19.580 --> 00:52:20.410
+<v Barry Cooper>They're raiding it.
+<v Barry Cooper>他们在突袭。
+
+00:52:20.410 --> 00:52:31.040
+<v Michael May>The police walk in the living room and stand in front of a poster Barry has hung on the wall. It tells them they're on KopBusters. They lower their guns. One says, "We've been set up, huh?"
+<v Michael May>警察走进客厅，站在 Barry 挂在墙上的海报前。它告诉他们他们正在上 KopBusters。他们放下了枪。一个警察说：“我们被陷害了，哈？”
+
+00:52:31.040 --> 00:52:31.510
+<v Barry Cooper>Let's go.
+<v Barry Cooper>我们走。
+
+00:52:31.510 --> 00:52:41.790
+<v Michael May>Barry jumps in the car to go confront the cops before they leave. He's clearly high on adrenaline at this point just like the old days. He jumps out of his car.
+<v Michael May>Barry 跳上车去在警察离开前与他们对峙。他在此时显然像过去一样，处于肾上腺素飙升的状态。他跳下车。
+
+00:52:41.790 --> 00:52:46.020
+<v Barry Cooper>Hey, I'm Barry Cooper with KopBusters. Why are you in my house?
+<v Barry Cooper>嘿，我是 KopBusters 的 Barry Cooper。你们为什么在我家里？
+
+00:52:46.020 --> 00:52:55.930
+<v Michael May>Barry runs into the street wearing a bright red t-shirt with the words "Free Yolanda" printed on it. He starts hollering at the police. They tell him if he doesn't get on the sidewalk, they're going to arrest him.
+<v Michael May>Barry 穿着一件印有“释放 Yolanda”字样的亮红色 T 恤跑进街上。他开始对警察大喊大叫。他们告诉他如果他不走到人行道上，他们就要逮捕他。
+
+00:52:55.930 --> 00:52:57.560
+<v Policeman>We're not giving nobody no hassle.
+<v Policeman>我们没给任何人添麻烦。
+
+00:52:57.560 --> 00:53:02.750
+<v Barry Cooper>Y'all planted drugs on Yolanda, and she's in prison because of it. That's giving people a hassle.
+<v Barry Cooper>你们在 Yolanda 身上栽赃了毒品，她因为这个在监狱里。那才叫给人们添麻烦。
+
+00:53:02.750 --> 00:53:05.580
+<v Policeman>Sir, you've been warned. You've been warned. I'm glad that--
+<v Policeman>先生，你已经被警告了。你已经被警告了。我很高兴——
+
+00:53:05.580 --> 00:53:06.550
+<v Barry Cooper>You've been warned.
+<v Barry Cooper>你已经被警告了。
+
+00:53:06.550 --> 00:53:07.130
+<v Policeman>You've been warned.
+<v Policeman>你已经被警告了。
+
+00:53:07.130 --> 00:53:07.410
+<v Barry Cooper>You've been warned.
+<v Barry Cooper>你已经被警告了。
+
+00:53:07.410 --> 00:53:09.480
+<v Policeman>You're blocking the roadway. You can go to jail for it.
+<v Policeman>你挡住了车道。你可以因此坐牢。
+
+00:53:09.480 --> 00:53:16.720
+<v Newscaster>Video cameras, plants masquerading as drugs, and a message are what police found while serving a search warrant today.
+<v Newscaster>摄像机、伪装成毒品的植物和一条留言，是警察今天在执行搜查证时发现的。
+
+00:53:16.720 --> 00:53:37.700
+<v Michael May>Barry had invited the local TV news to film the raid, and people got the point. Folks in west Texas didn't like the fact that cops busted in on a home on such flimsy evidence. And the police alienated even more residents when they threatened to subpoena the local paper, The Odessa American, to get the names of people posting anti-police comments on the newspaper's website.
+<v Michael May>Barry 邀请了当地电视新闻来拍摄突袭，人们理解了重点。德克萨斯州西部的人们不喜欢警察在如此脆弱的证据下闯入民宅的事实。当警察威胁要传唤当地报纸《Odessa American》以获取在报纸网站上发布反警察评论的人的姓名时，警察甚至疏远了更多的居民。
+
+00:53:37.700 --> 00:53:44.860
+<v Newscaster>The reality show team out of Austin has been setting up the fake drug den for six months. But why all the trouble?
+<v Newscaster>来自奥斯汀的现实秀团队已经设置这个假毒品窝点六个月了。但这所有的麻烦是为了什么？
+
+00:53:44.860 --> 00:53:47.960
+<v Barry Cooper>Get Yolanda Madden out of prison.
+<v Barry Cooper>让 Yolanda Madden 出狱。
+
+00:53:47.960 --> 00:54:22.850
+<v Michael May>Raymond got the publicity he was after. A quarter million people watched the raid on YouTube. Newspapers started covering the Yolanda case. A year later, a judge released Yolanda from prison on the grounds that the prosecution had withheld documents. She's now awaiting retrial. For their part, the Odessa police department released a statement saying, the raid was a waste of law enforcement time and taxpayer money. The police threatened to charge Barry for staging the sting, but they never did.
+<v Michael May>Raymond 得到了他想要的宣传。25 万人在 YouTube 上观看了这次突袭。报纸开始报道 Yolanda 案。一年后，一名法官以检方扣留文件为由将 Yolanda 从监狱释放。她现在正在等待重审。至于 Odessa 警察局，他们发表声明称，这次突袭浪费了执法部门的时间和纳税人的钱。警察威胁要以策划圈套为由指控 Barry，但他们从未这样做过。
+
+00:54:22.850 --> 00:54:44.940
+<v Michael May>After Odessa, Barry went looking for more dirty cops to bust. Without Raymond's money to spend, these were pretty low-budget affairs. Barry dressed up a duffel bag to look like something a drug dealer would tote around, including a crack pipe and $45 in cash, hoping cops would find it and take the money. He did the sting three times. Then the police struck back.
+<v Michael May>Odessa 之后，Barry 去寻找更多脏警察来抓捕。由于没有 Raymond 的钱可以花，这些都是低成本的事务。Barry 把一个行李袋装饰得像毒贩随身携带的东西，包括一个快克烟斗和 45 美元现金，希望警察会发现它并拿走钱。他做了三次这个圈套。然后警察进行了反击。
+
+00:54:44.940 --> 00:55:19.640
+<v Michael May>Five days after Barry posted a video on YouTube of a cop in Williamson County finding the $45 in the bag and pocketing it, Williamson County police arrested Barry. And they did something police almost never do. They raided his home on a misdemeanor charge. The charge was false report to a peace officer for a phone call made to police about one of the duffel bags. Barry's wife, Candi, his 14-year-old daughter, and 8-year-old stepson were home during the raid. Barry was in handcuffs, but he still knew how police think. So he was sure he knew what this was all about.
+<v Michael May>在 Barry 在 YouTube 上发布一段 Williamson 县警察发现包里 45 美元并私吞的视频五天后，Williamson 县警察逮捕了 Barry。而且他们做了一件警察几乎从不做的事。他们以轻罪指控突袭了他的家。指控是向和平官员做虚假报告，因为对有关其中一个行李袋的电话拨打了警察。Barry 的妻子 Candi、14 岁的女儿和 8 岁的继子在突袭时都在家。Barry 被戴上手铐，但他仍然知道警察是怎么想的。所以他确信他知道这是关于什么的。
+
+00:55:19.640 --> 00:56:01.230
+<v Barry Cooper>And I explained to them, after they had pointed those guns at my wife and then walked me into the house, I said, "Before any of you mother [BLEEP] are going to search any bit of my house, you're going to have to listen to me." And one of them tried to quiet me down. I said, "Mother [BLEEP], are you kidding me? This is a misdemeanor raid. I'm in handcuffs. I'm going to have my moment, or I'm not cooperating." So they stood down. And I went one by one, shaming every one of them, female officers and male officers, explaining to them that we were non-violent, that this was activism, that we know this is retaliation.
+<v Barry Cooper>在他们把枪指着我妻子然后把我带进屋子后，我向他们解释说：“在你们这些混蛋去搜查我房子的任何部分之前，你们得听我说。”其中一个试图让我安静下来。我说：“混蛋，你在开玩笑吗？这是一次轻罪突袭。我戴着手铐。我要有我的时刻，否则我不合作。”所以他们撤退了。我一个接一个地羞辱了他们中的每一个，女警官和男警官，向他们解释说我们是非暴力的，这是一场激进主义活动，我们知道这是报复。
+
+00:56:01.230 --> 00:56:24.160
+<v Michael May>The police included narcotics officers who obviously hoped to find drugs in the house. They found a little pot, only enough for a misdemeanor possession charge. The police also referred Barry and Candi to Child Protective Services, charging that they were providing their teenage daughter with pot. After a visit, CPS dismissed the case. But the investigation took its toll.
+<v Michael May>警察包括显然希望在屋里找到毒品的缉毒警察。他们找到了一点大麻，只够轻罪持有指控。警察还将 Barry 和 Candi 转介给儿童保护服务中心（CPS），指控他们正在给十几岁的女儿提供大麻。访问后，CPS 驳回了此案。但这起调查带来了损失。
+
+00:56:24.160 --> 00:56:37.790
+<v Michael May>Two weeks ago, Zach, Barry's 8-year-old stepson, visited his father for spring break and still hasn't been returned to Candi and Barry. Zach's father heard about the raid and filed for custody. Here's Barry.
+<v Michael May>两周前，Barry 8 岁的继子 Zach 去看望他的父亲过春假，至今尚未归还给 Candi 和 Barry。Zach 的父亲听说了这次突袭并申请了监护权。这是 Barry。
+
+00:56:37.790 --> 00:57:09.060
+<v Barry Cooper>Our son being taken from us was so hard that, for the safety of my family, we decided that we're not going to do any more cop stings. You know, I was expecting-- I never would have done those bag drops, if I would have known it would have led to this.
+<v Barry Cooper>我们的儿子被从我们身边带走太难了，以至于为了我家人的安全，我们决定不再做任何警察圈套了。你知道，如果我知道这会导致这种情况，我绝不会做那些放包的行为。
+
+00:57:09.060 --> 00:57:30.740
+<v Michael May>KopBusters was over. Barry had thought his first-hand knowledge of the system would keep him a step ahead. But the cops didn't need an elaborate ruse to sting Barry. They didn't need to plan for months and set a trap and get it all on video. They just needed a reason to come bursting in the front door.
+<v Michael May>KopBusters 结束了。Barry 曾以为他对系统的第一手了解会让他领先一步。但警察不需要精心设计的诡计来惩罚 Barry。他们不需要策划几个月并设置陷阱并全部拍摄视频。他们只需要一个冲进前门的理由。
+
+00:57:30.740 --> 00:57:38.800
+<v Ira Glass>Michael May is the culture editor at The Texas Observer, whose website, texasobserver.org, is linking to all of the YouTube videos of Barry's police raids.
+<v Ira Glass>Michael May 是《德克萨斯观察家》（The Texas Observer）的文化编辑，其网站 texasobserver.org 链接到了 Barry 警察突袭的所有 YouTube 视频。
+
+00:57:38.800 --> 00:58:01.960
+<v Ira Glass>[MUSIC - "GOOD GUYS AND BAD GUYS" BY CAMPER VAN BEETHOVEN]
+<v Ira Glass>[音乐 - Camper Van Beethoven 的“好人和坏人”（GOOD GUYS AND BAD GUYS）]
+
+00:58:01.960 --> 00:58:15.490
+<v Ira Glass>Our program was produced today by Jane Feltes, with Alex Blumberg, Ben Calhoun, Sarah Koenig, Lisa Pollak, Robyn Semien, Alissa Shipp and Nancy Updike. Our senior producer is Julie Snyder. Production help from Brian Reed. Seth Lind is our production manager. Emily Condon is our office manager.
+<v Ira Glass>我们的节目今天由 Jane Feltes 制作，团队成员包括 Alex Blumberg、Ben Calhoun、Sarah Koenig、Lisa Pollak、Robyn Semien、Alissa Shipp 和 Nancy Updike。我们的资深制作人是 Julie Snyder。制作帮助来自 Brian Reed。Seth Lind 是我们的制作经理。Emily Condon 是我们的办公室经理。
+
+00:58:15.490 --> 00:58:31.780
+<v Ira Glass>[ACKNOWLEDGEMENTS]
+<v Ira Glass>[鸣谢]
+
+00:58:31.780 --> 00:59:02.350
+<v Ira Glass>Our website thisamericanlife.org, where you can listen to any of our shows for absolutely free. And this week, you can get your own free MP3 of our original Broadway number "Bet Against The American Dream" and, of course, sheet music for any high school drama departments who want to do their own production of today's show. Musicians in our original Broadway number, Mark Hummel, Randy Cohen, Dave Phillips, Sean McDaniel, Dave Mann, Charles Pillow, Dave Riekenberg, Tony Kadleck, Bud Burridge, and Randy Andos. Studio engineer for this song John Kilgore. Music contractor Michael Keller. Copyist Karl Mansfield.
+<v Ira Glass>我们的网站 thisamericanlife.org，在那里你可以绝对免费收听我们的任何节目。本周，你可以获得我们原创百老汇曲目“做空美国梦”的免费 MP3，当然，还有为任何想要制作自己版本节目的高中戏剧部门提供的乐谱。我们原创百老汇曲目的音乐家：Mark Hummel、Randy Cohen、Dave Phillips、Sean McDaniel、Dave Mann、Charles Pillow、Dave Riekenberg、Tony Kadleck、Bud Burridge 和 Randy Andos。这首歌的录音室工程师 John Kilgore。音乐承包商 Michael Keller。抄谱员 Karl Mansfield。
+
+00:59:02.350 --> 00:59:14.590
+<v Ira Glass>This American Life is distributed by Public Radio International. WBEZ management oversight for our program by our boss, Mr. Torey Malatia. When we ran out of doughnuts and bagels on staff doughnut day this week, he made such a moving speech.
+<v Ira Glass>《美国生活》由公共广播国际发行。WBEZ 对我们节目的管理监督由我们的老板 Torey Malatia 先生负责。本周在员工甜甜圈日我们甜甜圈和百吉饼吃完时，他发表了非常感人的演讲。
+
+00:59:14.590 --> 00:59:26.580
+<v Robert Rubin>Almost all of us, including me, missed the powerful combination of factors that led to this crisis and the serious possibility of a massive crisis.
+<v Robert Rubin>我们中几乎所有人，包括我在内，都错过了导致这场危机的强大因素组合，以及发生大规模危机的严重可能性。
+
+00:59:26.580 --> 00:59:30.680
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life.
+<v Ira Glass>我是 Ira Glass。下周将带着更多《美国生活》的故事回来。
+
+00:59:30.680 --> 00:59:36.210
+<v Ira Glass>[MUSIC - "GOOD GUYS AND BAD GUYS" BY CAMPER VAN BEETHOVEN]
+<v Ira Glass>[音乐 - Camper Van Beethoven 的“好人和坏人”]
+
+00:59:36.210 --> 00:59:41.210
+<v Announcer>PRI, Public Radio International.
+<v Announcer>公共广播国际（PRI）。
