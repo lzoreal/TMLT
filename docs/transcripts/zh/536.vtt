@@ -1,0 +1,941 @@
+WEBVTT
+
+00:00:00.340 --> 00:00:23.050
+<v Ira Glass>Hey there, everybody. Today we have secret recordings taped inside one of the most powerful institutions in this country. It's a place that we pretty much almost never get a glimpse inside. And they're revealing and in lots of ways very disturbing. But to understand what they're about and why they're so interesting, you actually need a little context, so I need to take you back to the financial crisis.
+<v Ira Glass>大家好。今天我们要公开一些秘密录音，这些录音是在这个国家权力最大的机构之一内部录制的。那是一个我们几乎从未有机会一窥其内部的地方。这些录音不仅具有揭示性，而且在许多方面令人非常不安。但要理解它们的内容以及为什么它们如此重要，实际上需要一点背景，所以我需要带你们回到金融危机时期。
+
+00:00:23.050 --> 00:00:58.060
+<v Ira Glass>After the financial meltdown in 2008, there was a lot of attention and a lot of blame heaped on the one institution that was in a position to notice the problems that led to the meltdown and to do something about them before disaster hit. That institution is the Federal Reserve, the Fed, and in particular, its office in New York City, the Federal Reserve Bank of New York. It's responsible for regulating the banks on Wall Street, which is to say some of the biggest banks in the world. It's supposed to monitor what they do. It's supposed to make sure that they don't break rules or take risks that could bring down the financial system.
+<v Ira Glass>2008年金融崩溃后，人们将大量关注和指责集中在唯一一个有能力察觉到导致崩溃的问题，并在灾难发生前采取行动的机构身上。那个机构就是联邦储备系统，即美联储，特别是其位于纽约市的办事处，即纽约联邦储备银行。它负责监管华尔街的银行，也就是世界上一些最大的银行。它本应监督它们的所作所为。它本应确保它们不违反规定或承担可能导致金融体系崩溃的风险。
+
+00:00:58.060 --> 00:01:11.700
+<v Ira Glass>After they failed at that so spectacularly with the financial crisis, even people at the Fed admitted they should've done a better job. And to figure out how to do a better job, one of the things they did is they commissioned a report, a secret report that you and I were never supposed to see.
+<v Ira Glass>在金融危机中如此惨败之后，即使是美联储内部的人也承认他们本应做得更好。为了找出如何做得更好，他们所做的事情之一就是委托一份报告，一份你我永远都不该看到的秘密报告。
+
+00:01:11.700 --> 00:01:21.080
+<v David Beim>Well it was supposed to be completely confidential. As you can probably gather from the tone, it is totally candid and highly self-critical.
+<v David Beim>嗯，它本应是完全保密的。正如你可能从语气中感受到的那样，它非常坦率且高度自我批评。
+
+00:01:21.080 --> 00:01:42.690
+<v Ira Glass>This is David Beim, author of the secret report. These days, actually, anybody can read this confidential and candid report because a government commission released the report to the public. Some people at the Fed were actually surprised at that, but they got lucky. Because the report had been released in a flood of hundreds of other documents, the press didn't really notice it. Nobody paid attention to this report.
+<v Ira Glass>这是大卫·拜姆（David Beim），那份秘密报告的作者。实际上，如今任何人都可以阅读这份保密且坦率的报告，因为一个政府委员会将该报告公之于众。美联储的一些人对此感到惊讶，但他们很走运。由于该报告是在成百上千份其他文件中被一并公布的，媒体并没有真正注意到它。没人关注这份报告。
+
+00:01:42.690 --> 00:02:08.450
+<v Ira Glass>The report was written back in 2009. The president of the New York Fed, Bill Dudley, asked Beim to do an investigation. Beim, he had been a banker. He was a finance professor from Columbia. And he had studied the New York Fed in the past. Dudley gave Beim a team of Fed managers, and they went around interviewing people at the New York Fed. And what they found were a whole range of problems, all of them distressing to read about.
+<v Ira Glass>该报告写于2009年。纽约联储主席比尔·达德利（Bill Dudley）要求拜姆进行调查。拜姆曾是一名银行家。他是哥伦比亚大学的金融学教授。他过去也研究过纽约联储。达德利给了拜姆一个由美联储管理人员组成的团队，他们到处采访纽约联储的人员。他们发现了一系列问题，读起来都令人担忧。
+
+00:02:08.450 --> 00:02:33.580
+<v Ira Glass>They found deference to the banks. They found an unwillingness to take action, extreme passivity. And they found what experts call regulatory capture. Regulatory capture is when a regulator gets too cozy with the company that he's supposed to be monitoring. He's like a watchdog who licks the face of an intruder and plays catch with the intruder instead of barking at him. Beim says that people inside the Fed told him, yeah, capture was an issue for them.
+<v Ira Glass>他们发现美联储对银行存在顺从心理。他们发现了不愿意采取行动，表现出极端的被动。他们还发现了专家所说的“监管俘获”（regulatory capture）。监管俘获是指监管者与其本应监管的公司走得太近。他就好比是一只看着入侵者却舔入侵者的脸，并和入侵者玩抛接球游戏，而不是对他吠叫的看门狗。拜姆说，美联储内部的人告诉他，是的，俘获对他们来说是一个问题。
+
+00:02:33.580 --> 00:02:43.210
+<v David Beim>In fact, I have one footnote where one of the senior officers said that he had been only working at the Fed for three weeks on a particular account when, quote, "I saw the capture set in."
+<v David Beim>事实上，我有一个脚注，其中一位高级官员说他在美联储负责某个特定账户仅工作了三周时，引用他的话说：“我就看到了俘获的发生。”
+
+00:02:43.210 --> 00:03:04.990
+<v Ira Glass>Keep in mind, Beim says this senior officer, he wasn't making an observation about somebody else. He was talking about himself succumbing to capture and his team. And this idea that somebody in the Fed could become captured so quickly, this was such an unsettling thought that even in this secret, highly confidential, totally candid report, Beim says--
+<v Ira Glass>请记住，拜姆说这位高级官员并不是在观察别人。他是在谈论他自己和他的团队屈服于俘获。而这种美联储内部的人竟然能如此迅速地被俘获的想法，是一个令人不安的念头，以至于即使在这份秘密的、高度保密的、完全坦率的报告中，拜姆说——
+
+00:03:04.990 --> 00:03:17.220
+<v David Beim>Some of the most senior officers in the Fed wanted that footnote taken out, and we didn't take it out, but there were some people embarrassed by it.
+<v David Beim>美联储一些最高级别的官员希望把那个脚注删掉，我们没有删掉，但确实有一些人为此感到尴尬。
+
+00:03:17.220 --> 00:03:38.060
+<v Ira Glass>Beim's report lays out recommendations for how the New York Fed could become more effective. And one of his recommendations was to hire a new kind of employee-- outspoken, unafraid, somebody who would not get captured. And after that, the Fed did go on a hiring spree. It needed more examiners because Congress gave the Fed more responsibilities in the wake of the crisis.
+<v Ira Glass>拜姆的报告提出了关于纽约联储如何变得更有效的建议。他的一项建议是聘用一种新型员工——直言不讳、无所畏惧，不会被俘获的人。在那之后，美联储确实进行了大量招聘。它需要更多的审查员，因为国会在危机后赋予了美联储更多的责任。
+
+00:03:38.060 --> 00:03:59.770
+<v Ira Glass>And one of the people they hired was a lawyer named Carmen Segarra. And whether they meant to or not, with Carmen Segarra, they got the kind of employee Beim said they needed-- confident, independent-minded. For over 10 years, she'd worked for big banks in the private sector, Citigroup, MBNA. But starting at the Fed after the financial crisis, she was idealistic.
+<v Ira Glass>他们聘用的人之一是一位名叫卡门·塞加拉（Carmen Segarra）的律师。无论他们是否有意，卡门·塞加拉正是拜姆所说的那种他们需要的员工——自信、有独立思考能力。十多年来，她一直在私营部门为大银行工作，包括花旗集团和MBNA。但在金融危机后进入美联储工作时，她充满理想主义。
+
+00:03:59.770 --> 00:04:24.930
+<v Carmen Segarra>Having seen so many of my friends that work in different divisions of banks, but also that work in all sorts of other industries, you know, teachers, police officers, getting laid off and suffering the consequences of the crisis, I felt like I had the correct skill set to be able to go into a place like the Fed and actually contribute and make a difference.
+<v Carmen Segarra>看到我那么多在银行不同部门工作的朋友，还有在各种其他行业工作的人，你知道，老师、警察，被解雇并遭受危机后果，我觉得我有正确的技能组合，能够进入像美联储这样的地方，并真正做出贡献，产生影响。
+
+00:04:24.930 --> 00:04:50.640
+<v Ira Glass>Which brings us to the secret recordings. For over 100 years, the Fed has done everything it could to keep its behind the scenes interactions with banks from being seen by the public. But what Carmen Segarra witnessed going on at the Fed was so alarming, she started secretly making recordings of what she experienced as a bank examiner, recordings that raised serious questions about whether the Fed has changed enough since 2008 to protect us from another financial disaster.
+<v Ira Glass>这就引出了那些秘密录音。100多年来，美联储竭尽全力不让公众看到其与银行在幕后的互动。但卡门·塞加拉在美联储所见所闻令她十分震惊，她开始秘密地录下她作为银行审查员的经历，这些录音提出了严重的疑问：美联储自2008年以来是否已经做出了足够的改变，以保护我们免受另一次金融灾难。
+
+00:04:50.640 --> 00:05:29.430
+<v Ira Glass>This is a spoiler, but just to put it out there, things went very badly for Carmen Segarra at her new job. She's currently suing the Fed over this. So what you're going to hear today is a dispute between an employee and her bosses, though of course, what we're interested in is not the he said, she said of all that, but in what her secret recordings show us about how the Fed works. Throughout this hour, you're going to hear her recordings of what she saw at the Fed, and you're also going to hear more from David Beim's 2009 report, which lays out the way that the Fed should be operating. He explained the changes the Fed needed to make. With Carmen's tapes, we get to see if they actually made those changes, and it is not reassuring.
+<v Ira Glass>这算是一个剧透，但还是先说出来吧，卡门·塞加拉在新工作中过得非常糟糕。她目前正因此起诉美联储。所以你今天将要听到的是一名员工与其老板之间的纠纷，当然，我们感兴趣的不是那些各执一词的争论，而是她的秘密录音向我们展示了美联储是如何运作的。在这一个小时里，你将听到她录下的在美联储所见所闻，你还将听到更多来自大卫·拜姆2009年报告的内容，该报告阐述了美联储应该运作的方式。他解释了美联储需要做出的改变。通过卡门的录音，我们得以看到他们是否真的做出了那些改变，结果并不让人放心。
+
+00:05:29.430 --> 00:05:33.990
+<v Ira Glass>From WBEZ Chicago, it's This American Life. I'm Ira Glass. Stay with us.
+<v Ira Glass>来自芝加哥WBEZ广播电台，这是《这种美国生活》（This American Life）。我是艾拉·格拉斯（Ira Glass）。请继续收听。
+
+00:05:33.990 --> 00:05:58.240
+<v Ira Glass>We produced today's program in collaboration with our colleagues at ProPublica. Investigative reporter Jake Bernstein takes it from here. A little footnote before we begin for policy nerds-- we know that officially in the context that we have today, the Federal Reserve is not properly called a regulator. It's called a supervisor. We're using the word regulator throughout this hour because it's easier for us normal people to understand. OK, here's Jake.
+<v Ira Glass>我们与ProPublica的同事合作制作了今天的节目。调查记者杰克·伯恩斯坦（Jake Bernstein）将接手报道。在我们开始之前，给政策书呆子们一个小提示——我们知道，在今天我们所处的背景下，联邦储备系统官方并不被称为监管者。它被称为监督者。我们在这一小时里使用“监管者”这个词，因为这对我们普通人来说更容易理解。好了，有请杰克。
+
+00:05:58.240 --> 00:06:36.160
+<v Jake Bernstein>Here's a little known fact about being a bank examiner. You actually spend your days working inside the banks you're examining, like you have a desk there and your own phone. At some of the biggest banks, examiners even have half a floor reserved just for them to constantly track what the bank is doing. And in the past, many of those Fed examiners inside the banks had been generalists. If they needed an expert in liquidity risk or market risk or whatever, they had to call one in from Fed HQ. But one of the reforms after the financial crisis was to hire lots of experts and station them inside the banks too.
+<v Jake Bernstein>关于银行审查员，有一个鲜为人知的事实。你实际上每天都在你审查的银行内部工作，就像你在那里有一张办公桌和你自己的电话一样。在一些最大的银行，审查员甚至有半层楼专门留给他们，以持续跟踪银行的业务。过去，许多在银行内部的美联储审查员都是通才。如果他们需要流动性风险或市场风险等方面的专家，他们必须从美联储总部调人。但金融危机后的改革之一就是雇佣大量专家，并把他们也派驻到银行内部。
+
+00:06:36.160 --> 00:07:04.220
+<v Jake Bernstein>Carmen Segarra was one of these experts. Her expertise was helping big banks with the procedures and systems they need to comply with the many rules and regulations they face here and overseas. She'd done it for over a decade. Like any good overachiever, she speaks four languages-- French, Italian, Spanish, English. She's currently learning Dutch. She has degrees from Harvard, Cornell, and Columbia, and studied international law at the Sorbonne.
+<v Jake Bernstein>卡门·塞加拉就是这些专家之一。她的专长是帮助大银行建立程序和系统，以遵守它们在这里和海外面临的许多规则和条例。她做这一行已经超过十年了。像任何优秀的“拼命三郎”一样，她会说四种语言——法语、意大利语、西班牙语、英语。她目前正在学习荷兰语。她拥有哈佛、康奈尔和哥伦比亚大学的学位，并在索邦大学学习过国际法。
+
+00:07:04.220 --> 00:07:13.560
+<v Jake Bernstein>When Carmen showed up at the Fed for her first day at the end of October, 2011, she didn't know which bank she was going to be assigned to. Then she bumped into her supervisor.
+<v Jake Bernstein>当卡门在2011年10月底第一天出现在美联储时，她不知道自己会被分配到哪家银行。然后她遇到了她的主管。
+
+00:07:13.560 --> 00:07:22.560
+<v Carmen Segarra>He said, do you know where you're going? And I said, no. He said, you're going to Goldman. And my thought was, uh-oh.
+<v Carmen Segarra>他说，你知道你要去哪里吗？我说，不知道。他说，你要去高盛。我的想法是，噢，不。
+
+00:07:22.560 --> 00:07:25.240
+<v Jake Bernstein>Goldman being, of course, Goldman Sachs.
+<v Jake Bernstein>高盛，当然就是高盛集团（Goldman Sachs）。
+
+00:07:25.240 --> 00:07:54.570
+<v Carmen Segarra>The look on his face was like he was very much looking for my reaction. And when I-- I think after so many years of practicing law, when you see someone that is just looking to see what your reaction is going to be, my first instinct is, let me make sure that I don't give a reaction, which is very difficult because I have a very expressive face. I know this is a radio show, so you guys, you know, you can't see that.
+<v Carmen Segarra>他脸上的表情好像非常期待我的反应。我觉得在从事法律工作多年后，当你看到有人只是想看看你的反应会是什么时，我的第一本能是，确保我没有任何反应，这非常困难，因为我的脸部表情非常丰富。我知道这是一个广播节目，所以你们，你知道，看不到。
+
+00:07:54.570 --> 00:07:58.980
+<v Brian Reed>We can vouch. We're looking at it. You do have an expressive face.
+<v Brian Reed>我们可以作证。我们正看着呢。你的脸部表情确实很丰富。
+
+00:07:58.980 --> 00:08:02.440
+<v Carmen Segarra>Poker face is a real problem for me.
+<v Carmen Segarra>扑克脸（面无表情）对我来说是个大问题。
+
+00:08:02.440 --> 00:08:35.270
+<v Jake Bernstein>That was Brian Reed, by the way, the This American Life producer working with me on this story. You'll hear him in some of these interviews. When Carmen embedded at Goldman Sachs, it was probably the firm that, for Americans, most symbolized what was wrong with Wall Street, deservedly or not. In 2010, the year before she started, the SEC hit it with one of the biggest fines in history at the time, more than half a billion dollars for misleading investors in a deal right before the financial crisis. That same year, Goldman executives were hauled before Congress and berated for contributing to the collapse of the economy.
+<v Jake Bernstein>顺便说一下，刚才那是布莱恩·里德（Brian Reed），他是和我一起制作这个故事的《这种美国生活》制作人。你会在一些采访中听到他的声音。当卡门进驻高盛时，它可能是对美国人而言最能象征华尔街弊病的机构，无论是否名副其实。2010年，也就是她入职的前一年，美国证券交易委员会对其处以了当时历史上最大的罚款之一，超过5亿美元，原因是在金融危机前的一笔交易中误导了投资者。同一年，高盛的高管们被传唤到国会，并因导致经济崩溃而受到严厉斥责。
+
+00:08:35.270 --> 00:08:55.550
+<v Jake Bernstein>One popular view of Goldman was captured in this mild little metaphor from a Rolling Stone article, which compared the firm to, quote, "a great vampire squid wrapped around the face of humanity, relentlessly jamming its blood funnel into anything that smells like money."
+<v Jake Bernstein>关于高盛的一个普遍观点被《滚石》杂志一篇报道中这个温和的小隐喻所捕捉到，该报道将该公司比作，“一条巨大的吸血乌贼缠绕在人类的脸上，无情地将它的吸血漏斗塞进任何闻起来像钱的东西里。”
+
+00:08:55.550 --> 00:09:19.470
+<v Jake Bernstein>So Carmen was part of this new wave of experts examiners. And soon after she arrived, she says her bosses started asking the team if they were getting any opposition from the old guard, the generalists at the Fed who'd been working there for years. Many of these old guard examiners had a jargony and confusing sounding job title you'll hear now and then as we talk about this. They were called business line specialists.
+<v Jake Bernstein>所以卡门是这波新审查员专家的一员。她到任后不久，她说她的老板们开始问团队，他们是否受到了旧派势力的阻挠，那些在美联储工作了多年的通才。许多这些旧派审查员有一个晦涩难懂的职位头衔，我们在谈论这件事时会偶尔提到。他们被称为“业务线专家”。
+
+00:09:19.470 --> 00:09:41.890
+<v Jake Bernstein>Carmen says it didn't take long before she did start to notice pushback from the old guard. For instance, at one meeting, she says-- and this is documented in the minutes from the meeting-- a senior executive from Goldman was talking about all sorts of things and mentioned that Goldman's view was that once clients were wealthy enough, certain consumer laws didn't apply to them.
+<v Jake Bernstein>卡门说没过多久，她就开始注意到旧派势力的阻挠。例如，在一次会议上，她说——会议纪要中记录了这一点——一位高盛的高管谈到了各种各样的事情，并提到高盛的观点是，一旦客户足够富有，某些消费者法律就不适用于他们。
+
+00:09:41.890 --> 00:09:55.910
+<v Carmen Segarra>I was shocked. A senior compliance officer from Goldman Sachs saying something like that is a natural red flag. I mean, you definitely want to take a look at what it is that they're doing there.
+<v Carmen Segarra>我当时惊呆了。高盛的一位高级合规官说出那样的话是一个天然的危险信号。我的意思是，你肯定想看看他们在那里到底在做什么。
+
+00:09:55.910 --> 00:10:16.950
+<v Jake Bernstein>Maybe Goldman was doing nothing wrong, but this is a big part of a bank examiner's job, to follow up on leads like this. And after that meeting, Carmen sat down with examiners who'd been there, from the Fed, but also from the FDIC and the New York State banking authority. Carmen told them she wanted to follow up on that comment, and then a Fed examiner piped up.
+<v Jake Bernstein>也许高盛什么也没做错，但这正是银行审查员工作的重要组成部分，即跟进这样的线索。在那次会议之后，卡门与那里的审查员坐下来讨论，他们不仅来自美联储，也来自联邦存款保险公司（FDIC）和纽约州银行管理局。卡门告诉他们她想跟进那个评论，然后一位美联储审查员插话了。
+
+00:10:16.950 --> 00:10:37.150
+<v Carmen Segarra>This colleague at the Fed basically said, you know, oh, that point? Oh, you didn't hear that. And I looked over at the New York bank examiner and the FDIC bank examiner, and we sort of looked at each other, and we said, yes, we did. We did hear that.
+<v Carmen Segarra>这位美联储的同事基本上说，你知道，噢，那一点？噢，你没听见。我看向纽约银行审查员和FDIC银行审查员，我们互相看了看，我们说，是的，我们听到了。我们确实听到了。
+
+00:10:37.150 --> 00:10:45.680
+<v Jake Bernstein>One of the other people in this conversation confirmed this for me. The Fed examiner responded, well, he-- the Goldman executive-- he didn't mean it.
+<v Jake Bernstein>这次谈话中的另一个人向我证实了这一点。那位美联储审查员回答说，嗯，他——那位高盛高管——他不是那个意思。
+
+00:10:45.680 --> 00:10:53.620
+<v Carmen Segarra>You know, I was floored. It was the moment when I realized, oh, so this is what pushback looks like.
+<v Carmen Segarra>你知道，我彻底被击垮了。那一刻我意识到，噢，原来这就是所谓的阻挠。
+
+00:10:53.620 --> 00:11:14.270
+<v Jake Bernstein>Carmen says this wasn't an isolated incident. In December, not even two months into her job, a business line specialist came to Carmen and told her that her minutes from a key meeting with Goldman executives were wrong, that people didn't say some of the things Carmen noted in the minutes. The business line specialist wanted her to change them. Carmen didn't.
+<v Jake Bernstein>卡门说这并不是孤立事件。12月，也就是她入职不到两个月，一位业务线专家找到卡门，告诉她，她关于与高盛高管关键会议的纪要写错了，人们并没有说过卡门在纪要中记录的一些话。这位业务线专家想要她修改纪要。卡门没有。
+
+00:11:14.270 --> 00:11:31.560
+<v Jake Bernstein>That same day, Carmen was called into the office of a guy named Mike Silva. Silva had worked at the Fed for almost 20 years. He was now the senior Fed official stationed inside Goldman. What Mike Silva said to Carmen made her very uncomfortable. She scribbled notes as he talked to her.
+<v Jake Bernstein>就在那天，卡门被叫到了一个叫迈克·席尔瓦（Mike Silva）的人的办公室。席尔瓦在美联储工作了近20年。他现在是驻扎在高盛的资深美联储官员。迈克·席尔瓦对卡门所说的话让她非常不舒服。她在听他说话时潦草地记下了笔记。
+
+00:11:31.560 --> 00:11:57.250
+<v Carmen Segarra>I mean, even looking at my own meeting minutes, I see the handwriting is like nervous handwriting. It's like you can tell. He started off by talking about he wanted to give me some mentoring feedback. And then he started about talking about the importance of credibility, and he said, you know, credibility at the Fed is about subtleties and about perceptions as opposed to reality.
+<v Carmen Segarra>我的意思是，即使看着我自己的会议纪要，我都能看出字迹是很紧张的。就像你能看出来一样。他一开始谈论的是想给我一些指导性的反馈。然后他开始谈论可信度的重要性，他说，你知道，美联储的可信度关乎微妙之处和感知，而不是现实。
+
+00:11:57.250 --> 00:11:58.050
+<v Brian Reed>Wait, he said that?
+<v Brian Reed>等等，他说了那个？
+
+00:11:58.050 --> 00:11:59.830
+<v Carmen Segarra>Yes.
+<v Carmen Segarra>是的。
+
+00:11:59.830 --> 00:12:01.800
+<v Brian Reed>What does that even mean?
+<v Brian Reed>那甚至是什么意思？
+
+00:12:01.800 --> 00:12:26.070
+<v Carmen Segarra>I found it to be completely incredible for somebody to tell me that credibility is about perception as opposed to reality. I mean, I come from the world of legal and compliance. We deal with hard evidence. It's like we don't deal with perceptions.
+<v Carmen Segarra>我发现有人告诉我“可信度是关于感知而不是现实”，这简直令人难以置信。我的意思是，我来自法律和合规领域。我们处理的是硬证据。我们不处理感知。
+
+00:12:26.070 --> 00:12:29.460
+<v Jake Bernstein>What else did he say?
+<v Jake Bernstein>他还说了什么？
+
+00:12:29.460 --> 00:12:44.300
+<v Carmen Segarra>It was interesting because he said, you know, the Fed takes most seriously those employees which are the most quiet ones, and that it was important, essentially, that I understand this because otherwise I would be frozen out.
+<v Carmen Segarra>很有趣，因为他说，你知道，美联储最看重的是那些最安静的员工，如果我不理解这一点，我就基本会被孤立。
+
+00:12:44.300 --> 00:13:02.760
+<v Jake Bernstein>Mike Silva would go on to play a big part in Carmen's tenure at the Fed. We reached out to him several times, but he didn't want to take part in this story because of the fact that Carmen's suing, because there's a regulation that makes the Fed's dealing with Goldman confidential. So it's impossible to know his side of this.
+<v Jake Bernstein>迈克·席尔瓦后来在卡门于美联储的任期中扮演了重要角色。我们曾多次试图联系他，但他不愿参与这个故事，因为卡门正在起诉，因为有一项规定使得美联储与高盛的交易保密。所以不可能知道他那一面的说法。
+
+00:13:02.760 --> 00:13:37.250
+<v Jake Bernstein>Carmen says she was so shaken by these incidents-- someone telling her she didn't hear something she knew she heard, another colleague asking to alter minutes that Carmen believed were accurate, and then the Fed's top guy at Goldman telling her that perceptions are more important than reality. She says it was like reality itself was being questioned at the Fed. She realized she wanted a clear record of what was really happening in case there were ever any disputes about it. So she went to the spy store, bought a tiny audio recorder, put it on her key chain, and started switching it on secretly at important meetings.
+<v Jake Bernstein>卡门说这些事件让她感到非常动摇——有人告诉她她没听到她明明确确听到的东西，另一位同事要求修改卡门认为准确的纪要，然后美联储在高盛的头号人物告诉她感知比现实更重要。她说就像美联储的现实本身受到了质疑。她意识到她想要一份关于真正发生的事情的明确记录，以防将来出现任何争议。所以她去了间谍商店，买了一个微型录音机，把它挂在钥匙链上，并开始在重要会议上秘密地打开它。
+
+00:13:37.250 --> 00:13:39.740
+<v Carmen Segarra>Mike had called me into his office--
+<v Carmen Segarra>迈克曾把我叫进他的办公室——
+
+00:13:39.740 --> 00:13:50.720
+<v Jake Bernstein>This is one of the first recordings she made. It's with her supervisor. His name is Jonathan Kim. She's talking to him about the meeting that she had with Mike Silva and how upset she was by what he told her.
+<v Jake Bernstein>这是她录下的第一批录音之一。这是与她的主管进行的。他的名字是乔纳森·金（Jonathan Kim）。她正在和他谈论她与迈克·席尔瓦的那次谈话，以及她对他所说的话感到多么沮丧。
+
+00:13:50.720 --> 00:13:55.470
+<v Carmen Segarra>Credibility at the Fed is about subtleties, perceptions as opposed to reality.
+<v Carmen Segarra>美联储的可信度关乎微妙之处、感知，而不是现实。
+
+00:13:55.470 --> 00:14:14.120
+<v Jake Bernstein>Kim had done Carmen's job before her and told her he'd experienced opposition from the same people. Kim's advice was to be patient. The Fed was trying to change, and moving the Fed, he said in an unfortunate metaphor, was slow, like moving the Titanic.
+<v Jake Bernstein>金以前做过卡门的工作，并告诉她他也经历过同样人的阻挠。金的建议是保持耐心。美联储正在试图改变，而推动美联储，他用了一个不幸的隐喻，是缓慢的，就像推动泰坦尼克号一样。
+
+00:14:14.120 --> 00:14:34.320
+<v Jake Bernstein>Meanwhile, in those early months, Carmen started looking at one deal that had caught the attention of the Fed's team at Goldman. It's a deal that gave her a chance to really see the Fed in action, to see what the Fed did when faced with a situation where Goldman had done something regulators thought was questionable. Carmen remembers the moment she first learned about the deal.
+<v Jake Bernstein>与此同时，在那些最初的几个月里，卡门开始研究一笔引起美联储高盛团队注意的交易。这笔交易让她有机会真正看到美联储的行动，看到当面对高盛做了监管者认为有问题的事情时，美联储做了什么。卡门记得她第一次听说这笔交易的时刻。
+
+00:14:34.320 --> 00:14:42.000
+<v Carmen Segarra>Friday, January 6, at 3:54 PM, we get an email from Goldman sort of alerting us to this transaction that they're planning to close.
+<v Carmen Segarra>1月6日星期五，下午3点54分，我们收到了一封来自高盛的电子邮件，算是提醒我们这笔他们计划完成的交易。
+
+00:14:42.000 --> 00:15:23.800
+<v Jake Bernstein>The email said that Goldman wanted to notify the Fed about a fast moving negotiation between it and a large Spanish bank. The Spanish bank has operations all over the world. It's called Banco Santander. Santander and Goldman both declined to comment about the deal for our story. This email raised questions for Carmen. First of all, an alert like this was unusual. Goldman had employees conducting deals all over the world every day and hardly ever wrote emails to the Fed about them. And then there was the timing, late in the afternoon on Friday, January 6th, a date which may not mean anything to you, but Carmen knew that it was Three Kings Day, one of the biggest national holidays in Spain.
+<v Jake Bernstein>电子邮件说，高盛想通知美联储关于它与一家大型西班牙银行之间的一场快速谈判。这家西班牙银行在世界各地都有业务。它叫桑坦德银行（Banco Santander）。桑坦德和高盛都拒绝就此交易为我们的报道置评。这封邮件对卡门来说引起了质疑。首先，这样的提醒是不寻常的。高盛每天都在世界各地进行交易，几乎从不就这些事给美联储写邮件。然后是时间，1月6日星期五下午很晚的时候，这个日期对你来说可能没什么意义，但卡门知道那是三王节（Three Kings Day），西班牙最大的全国性节日之一。
+
+00:15:23.800 --> 00:15:53.050
+<v Carmen Segarra>My first reaction was why are we getting this email? And then my second thought was Banco Santander closing a deal on the equivalent of Christmas Eve in Spain? That's interesting. So we get back to work after the weekend and Mike Silva is quite upset about this transaction.
+<v Carmen Segarra>我的第一反应是为什么我们会收到这封邮件？然后我的第二个想法是桑坦德银行在相当于西班牙平安夜的日子关闭一笔交易？这很有趣。所以我们在周末之后回到工作岗位，迈克·席尔瓦对这笔交易非常不满。
+
+00:15:53.050 --> 00:16:29.860
+<v Jake Bernstein>Mike Silva, remember, was the Fed's top official inside Goldman, the one who talked to Carmen about perceptions verse reality. It's helpful to know a bit about Mike Silva before you hear how the Fed reacted to this deal. From everything we can tell, he seems like a regulator who's trying to do a good job. In the tapes, Silva talks about the Fed's duty to serve the public. He'd been in the Navy, volunteered with disabled Veterans, and he'd gone to Iraq after the invasion to help get the country's national bank on its feet. And at a staff meeting once, he told his employees a story from the darkest days of the financial crisis about what motivated him as a regulator.
+<v Jake Bernstein>迈克·席尔瓦，请记住，是美联储在高盛内部的头号官员，那个和卡门谈论感知与现实的人。在听美联储对这笔交易的反应之前，了解一点迈克·席尔瓦的情况很有帮助。从我们能了解的一切来看，他看起来像是一个试图做好工作的监管者。在录音中，席尔瓦谈到了美联储服务公众的责任。他曾在海军服役，为残疾退伍军人做过志愿者，并在入侵后去伊拉克帮助建立该国的国家银行。有一次在员工会议上，他向员工讲述了金融危机最黑暗时期的故事，讲述了作为一名监管者的动力是什么。
+
+00:16:29.860 --> 00:16:38.550
+<v Mike Silva>I have to tell you, that night that the reserve fund broke the buck and we got that word--
+<v Mike Silva>我必须告诉你们，就在储备基金跌破面值的那天晚上，我们得到那个消息——
+
+00:16:38.550 --> 00:16:54.330
+<v Jake Bernstein>It was a moment when it looked like the financial system was going to come crashing down. Big firms were frantically calling the Fed, terrified that economic Armageddon had arrived. When this happened, Silva was chief of staff for Tim Geithner, who at the time was president of the New York Fed.
+<v Jake Bernstein>那一刻看起来金融体系即将崩溃。大型公司疯狂地打电话给美联储，害怕经济末日已经到来。当这种情况发生时，席尔瓦是时任纽约联储主席蒂姆·盖特纳（Tim Geithner）的幕僚长。
+
+00:16:54.330 --> 00:17:13.400
+<v Mike Silva>And when I realized that nobody had any idea how to respond that, I went into the bathroom and threw up, because I realized this is it. It's just this small group of people and right now, at this moment, we have no clue. I never want to get close to that moment again.
+<v Mike Silva>当我意识到没有人知道该如何回应时，我走进洗手间吐了，因为我意识到就是现在。这只是这一小群人，而就在此刻，我们毫无头绪。我再也不想接近那一刻了。
+
+00:17:13.400 --> 00:17:37.670
+<v Jake Bernstein>Silva told the staff that this was a very powerful experience that still influenced his thinking, and you could hear that in the recordings after the unusual deal came down late that Friday afternoon involving the overseas bank, Banco Santander. What upset Mike Silva about it was that it seemed like the entire purpose of the transaction was for Goldman Sachs to help Banco Santander appear healthier than it actually was.
+<v Jake Bernstein>席尔瓦告诉员工，这是一次非常强大的经历，至今仍在影响他的思考，你可以在那笔异常交易于那个周五下午晚些时候发生后涉及海外银行桑坦德银行的录音中听到这一点。迈克·席尔瓦对此感到不满的是，这笔交易的全部目的似乎是让高盛帮助桑坦德银行显得比实际更健康。
+
+00:17:37.670 --> 00:18:10.140
+<v Jake Bernstein>All banks have to keep some capital on hand. The more deals and loans they do, the more capital they have to keep around as a safety cushion in case things go bad. Santander was under pressure from its own regulators back in Europe to hold more capital. And this deal with Goldman Sachs helped solve the problem for Santander, not by giving Santander more capital, but by taking stuff off their books and putting it on to Goldman's books. Having less stuff meant Santander needed less capital. Mission accomplished.
+<v Jake Bernstein>所有银行都必须持有一定数量的资本。他们做的交易和贷款越多，为了以防万一，他们必须持有的资本缓冲就越多。桑坦德银行正面临来自其欧洲监管机构要求持有更多资本的压力。而这笔与高盛的交易帮助桑坦德解决了问题，不是通过给予桑坦德更多资本，而是通过将东西从他们的账簿上移走，放在高盛的账簿上。东西少了意味着桑坦德需要更少的资本。任务完成。
+
+00:18:10.140 --> 00:18:24.920
+<v Jake Bernstein>One Fed employee likened it to Goldman getting paid to hold on to a briefcase. And as best as they could tell, Goldman was paid a lot, at least $40 million, with the potential to make hundreds of millions in the end. Mike Silva referred to the deal this way.
+<v Jake Bernstein>一位美联储员工将其比作高盛因拿住一个公文包而获得报酬。据他们所知，高盛获得了丰厚的报酬，至少4000万美元，最终有可能赚取数亿美元。迈克·席尔瓦是这样称呼这笔交易的。
+
+00:18:24.920 --> 00:18:37.350
+<v Mike Silva>It's pretty apparent when you think this thing through that it's basically window dressing that's designed to help Banco Santander artificially enhance its capital.
+<v Mike Silva>当你仔细考虑这件事时，很明显，这基本上是一种旨在帮助桑坦德银行人为提升其资本的窗饰。
+
+00:18:37.350 --> 00:19:06.670
+<v Jake Bernstein>To be clear, the deal appeared to be perfectly legal. Silva knew that. But still, he wondered, did they want banks doing these sorts of transactions in the future? If this kind of deal took off and became more popular, could it be a problem? And in a sense, this is what you'd hope a Fed manager would be doing in the aftermath of the financial crisis. Mike Silva learned about this new kind of deal that had come into the world, one with potential risks that they didn't fully understand yet, and he set his team to work scrutinizing it.
+<v Jake Bernstein>明确一点，这笔交易看起来完全合法。席尔瓦知道这一点。但尽管如此，他想知道，他们希望银行将来进行这类交易吗？如果这种交易流行起来并变得更受欢迎，会是个问题吗？在某种意义上，这就是你希望美联储管理人员在金融危机后所做的事情。迈克·席尔瓦了解到了世界上出现的这种新型交易，一种他们尚未完全理解其潜在风险的交易，于是他让他的团队着手审查它。
+
+00:19:06.670 --> 00:19:40.640
+<v Jake Bernstein>Carmen and the others began to pore over documents for this complex transaction, which had tentacles in Brazil, Spain, the US, and the Middle East. And one of the things that caught Carmen's eye was a short paragraph that the banks had written into the agreement. It said that Goldman had to notify the Fed about the Santander deal and obtain a, quote, "no objection." In other words, it looked like Goldman was required to get the Fed to officially sign off on the deal before it could close, maybe because Goldman and Santander worried that regulators might find this new kind of transaction hard to swallow.
+<v Jake Bernstein>卡门和其他人开始仔细研究这笔复杂交易的文件，其触角遍布巴西、西班牙、美国和中东。卡门注意到的事情之一是银行在协议中写的一小段话。它说高盛必须通知美联储关于桑坦德的交易并获得，引用“无异议”。换句话说，看起来高盛在交易结束前必须让美联储正式签字同意，也许是因为高盛和桑坦德担心监管机构可能觉得这种新型交易很难接受。
+
+00:19:40.640 --> 00:19:47.620
+<v Jake Bernstein>But now the two banks had closed the deal. Did Goldman satisfy that part of the contract? Here's what Mike Silva had to say about it.
+<v Jake Bernstein>但现在两家银行已经完成了交易。高盛履行了合同的那部分吗？迈克·席尔瓦对此有话要说。
+
+00:19:47.620 --> 00:19:52.190
+<v Mike Silva>The one thing I know as a lawyer that they never got from me was a no objection.
+<v Mike Silva>作为一个律师，我知道他们从我这里永远没有得到的是无异议。
+
+00:19:52.190 --> 00:19:55.850
+<v Woman 1>Oh, OK. So you literally have to say, I do not object?
+<v Woman 1>噢，好。所以你必须字面上说，我不反对？
+
+00:19:55.850 --> 00:19:57.740
+<v Mike Silva>Yeah, I have to-- giving them some sort of--
+<v Mike Silva>是的，我必须——给他们某种——
+
+00:19:57.740 --> 00:19:58.160
+<v Woman 1>And by not reponding--
+<v Woman 1>而通过不回复——
+
+00:19:58.160 --> 00:20:00.300
+<v Woman 2>And to Carmen's point--
+<v Woman 2>针对卡门的观点——
+
+00:20:00.300 --> 00:20:28.560
+<v Jake Bernstein>The fact that Goldman didn't get the approval from the Fed didn't endanger the financial system or Goldman itself. It's a small thing. But later, if the deal ever went bad, it would look like the Fed had approved it. It's right there in the paperwork. They could get dragged into the mess. The Fed team called a big meeting with Goldman executives to question them about the Santander deal. Before they went in, they held a prep session, and Silva told Carmen and the team this was one of the things he wanted to ask Goldman about.
+<v Jake Bernstein>高盛没有获得美联储的批准这一事实并没有危及金融体系或高盛本身。这是一件小事。但后来，如果交易搞砸了，看起来就像美联储批准了它。它就在文书工作里。他们可能会被卷入混乱。美联储团队与高盛高管召开了一次大型会议，就桑坦德交易向他们质询。在进入之前，他们进行了预备会议，席尔瓦告诉卡门和团队，这是他想问高盛的事情之一。
+
+00:20:28.560 --> 00:20:37.770
+<v Mike Silva>I never gave you a no objection. What happened? So that'll be interesting.
+<v Mike Silva>我从来没有给过你们无异议。发生了什么？所以那会很有趣。
+
+00:20:37.770 --> 00:20:46.180
+<v Carmen Segarra>He was excited about it, and he was the one who wanted to ask that particular question. He sort of said, can I be the one who asks it? And I said, sure.
+<v Carmen Segarra>他对此感到兴奋，而且正是他想问那个特定问题。他算是说，我可以是那个提问的人吗？我说，当然。
+
+00:20:46.180 --> 00:20:59.860
+<v Jake Bernstein>So Mike Silva was rallying his team. Goldman had embarked on this new kind of deal, and there was a lot of interest in it from different parts of the Fed, he said. They needed to understand it better, and he wanted Goldman to know that the Fed was paying close attention.
+<v Jake Bernstein>所以迈克·席尔瓦正在团结他的团队。高盛开始进行这种新型交易，美联储的不同部门对此有很大兴趣，他说。他们需要更好地了解它，他想让高盛知道美联储正在密切关注。
+
+00:20:59.860 --> 00:21:39.650
+<v Mike Silva>My own personal thinking right now is that we're looking at a transaction that's legal, but shady. I want to put a big shot across their bow on that. Poking at it, maybe we find something even shadier than we already know. So let's poke at this thing. Let's poke at it with our usual poker faces. I'd like these guys to come away from this meeting confused as to what we think about it. I want to keep them nervous. Does that make sense?
+<v Mike Silva>我现在的个人想法是，我们正在审视一笔合法但阴暗的交易。我想在那上面打一发大炮。戳一下它，也许我们会发现比我们已知更阴暗的东西。所以让我们戳一下这件事。用我们通常的扑克脸戳一下。我希望这些人从会议中出来时，对我们的看法感到困惑。我想让他们保持紧张。这说得通吗？
+
+00:21:39.650 --> 00:21:41.460
+<v Woman>Yeah. Yeah, it does.
+<v Woman>是的。是的，说得通。
+
+00:21:41.460 --> 00:21:44.030
+<v Jake Bernstein>People are amped. They're excited about this.
+<v Jake Bernstein>人们很兴奋。他们对这个很感兴趣。
+
+00:21:44.030 --> 00:21:54.510
+<v Carmen Segarra>Yeah, his team was definitely excited. They thought, oh, we're definitely going to do something here. It felt like this was-- this was action for them, you know?
+<v Carmen Segarra>是的，他的团队绝对很兴奋。他们想，噢，我们肯定要在那里做点什么。他们感觉这就像——这对他们来说是行动，你知道吗？
+
+00:21:54.510 --> 00:21:55.490
+<v Jake Bernstein>Let's regulate.
+<v Jake Bernstein>让我们监管。
+
+00:21:55.490 --> 00:21:56.870
+<v Carmen Segarra>Yeah, let's regulate.
+<v Carmen Segarra>是的，让我们监管。
+
+00:21:56.870 --> 00:21:59.020
+<v Woman>This is fun.
+<v Woman>这很有趣。
+
+00:21:59.020 --> 00:22:01.910
+<v Carmen Segarra>Yeah, well I think that he's going to have a lot of fun--
+<v Carmen Segarra>是的，嗯，我想他会玩得很开心——
+
+00:22:01.910 --> 00:22:39.900
+<v Jake Bernstein>This is what Carmen and her colleagues said to each other as they marched over to the conference room where the Goldman executives awaited them. They dialed up more people on the phone. And the meeting began. And this, this is something we never get to hear-- Federal Reserve examiners going mano a mano with a bank. Goldman executives kicked it off with a summary about the Santander deal, and the examiners started asking questions, some of them specific and technical, others quite broad, touching on the big issue Mike Silva had raised about whether banks should be doing deals like this at all. 30 minutes went by.
+<v Jake Bernstein>这就是卡门和她的同事们在走向高盛高管等待他们的会议室时所说的话。他们拨通了更多人的电话。会议开始了。而且这个，这是我们永远无法听到的——联邦储备审查员与银行一对一的对质。高盛高管以桑坦德交易的摘要开始了会议，审查员开始提问，有些是具体和技术的，另一些相当广泛，触及了迈克·席尔瓦提出的关于银行是否应该完全进行此类交易的大问题。30分钟过去了。
+
+00:22:39.900 --> 00:22:43.110
+<v Man>And were there any similar transactions?
+<v Man>还有类似的交易吗？
+
+00:22:43.110 --> 00:22:44.140
+<v Jake Bernstein>45 minutes.
+<v Jake Bernstein>45分钟。
+
+00:22:44.140 --> 00:22:46.160
+<v Man>What risks do you see to Goldman?
+<v Man>你认为高盛面临什么风险？
+
+00:22:46.160 --> 00:23:04.750
+<v Jake Bernstein>And still, Mike Silva had not hit Goldman with a question he'd been so eager to ask about the requirement that Goldman was supposed to get the Fed to OK the deal before it went through. In their presentation, Goldman executives had briefly brought it up on their own. They claimed the clause didn't actually require them to get Fed approval. It just seemed that way.
+<v Jake Bernstein>然而，迈克·席尔瓦仍然没有用他如此渴望问的问题去质询高盛，关于高盛在交易通过前被要求让美联储批准交易的规定。在他们的演示中，高盛高管简要地提到了这一点。他们声称该条款实际上并没有要求他们获得美联储的批准。它只是看起来像那样。
+
+00:23:04.750 --> 00:23:25.570
+<v Jake Bernstein>Silva wasn't satisfied. Finally, after more than an hour, he went for it. It's the only time in the whole meeting he brings it up. We play it now not because this is an important piece of financial policy, but to give you a chance to hear what it sounds like, at least on this one day, when the top Fed official on site at Goldman Sachs questions Goldman Sachs.
+<v Jake Bernstein>席尔瓦并不满意。终于，在一个多小时后，他行动了。这是他在整个会议中唯一一次提出这个问题。我们现在播放它，不是因为这是一项重要的金融政策，而是让你有机会听到，至少在这一天，当现场的高盛美联储头号官员质询高盛时，听起来是什么样子。
+
+00:23:25.570 --> 00:23:38.730
+<v Mike Silva>Just to button up one point. I know the term sheet called for a notice to your regulator. The original term sheet also called for expression of non-objection. Sounds like that dropped out at some point, or?
+<v Mike Silva>只是为了敲定一点。我知道条款清单要求通知监管机构。原始条款清单还要求表达无异议。听起来那个在某个时候掉线了，还是？
+
+00:23:38.730 --> 00:23:41.920
+<v Jake Bernstein>That's everything he says on the topic in this meeting. Here it is again.
+<v Jake Bernstein>那是他在会议上关于这个话题所说的全部。再来一遍。
+
+00:23:41.920 --> 00:23:45.420
+<v Mike Silva>Sounds like that dropped out at some point, or?
+<v Mike Silva>听起来那个在某个时候掉线了，还是？
+
+00:23:45.420 --> 00:23:50.990
+<v Jake Bernstein>That's it? That's him poking Goldman on this?
+<v Jake Bernstein>就这些？这就是他在这个问题上戳高盛？
+
+00:23:50.990 --> 00:23:58.990
+<v Carmen Segarra>Yeah. That's what-- you know, that's what passes for poking. That's what passes for poking at the Fed.
+<v Carmen Segarra>是的。那就是——你知道，那就是在美联储被视为“戳”的东西。那就是美联储被视为戳的东西。
+
+00:23:58.990 --> 00:24:02.690
+<v Jake Bernstein>I mean, I can't imagine that making them very nervous.
+<v Jake Bernstein>我的意思是，我无法想象那会让它们非常紧张。
+
+00:24:02.690 --> 00:24:09.610
+<v Carmen Segarra>Yeah. Yeah. It's just not the way that I would have asked it.
+<v Carmen Segarra>是的。是的。那不是我会问的方式。
+
+00:24:09.610 --> 00:24:17.810
+<v Jake Bernstein>In that moment, Carmen says, she saw clearly that when some of her colleagues talked about holding Goldman to account, they meant something very different than what she thought it should mean.
+<v Jake Bernstein>在那一刻，卡门说，她清楚地看到，当她的一些同事谈论让高盛负责时，他们指的意思与她认为应该的意思截然不同。
+
+00:24:17.810 --> 00:24:32.590
+<v Carmen Segarra>You acknowledge that these are facts, you know? Fact, this was required. Fact, I didn't give it. And then you ask, what are the consequences?
+<v Carmen Segarra>你承认这些是事实，你知道吗？事实，这是必需的。事实，我没有给予。然后你问，后果是什么？
+
+00:24:32.590 --> 00:24:36.620
+<v Jake Bernstein>After the meeting, the Fed team went back to their floor, and Mike Silva called a de-brief.
+<v Jake Bernstein>会后，美联储团队回到他们的楼层，迈克·席尔瓦召开了复盘会议。
+
+00:24:36.620 --> 00:24:40.000
+<v Mike Silva>Why don't we just have a quick pow-wow right here?
+<v Mike Silva>我们要不要在这里简单开个会？
+
+00:24:40.000 --> 00:24:48.330
+<v Jake Bernstein>This was just the regulators, nobody from Goldman, so they could be frank. So Carmen was puzzled when one of her colleagues said how impressed he was with Goldman.
+<v Jake Bernstein>这只是监管者，没有高盛的人，所以他们可以坦率。所以当她的一位同事说他对高盛印象深刻时，卡门感到困惑。
+
+00:24:48.330 --> 00:24:57.840
+<v Man>I would just say that from a process perspective, I think there's a lot to be said for the thoroughness of the process that they engaged in.
+<v Man>我只想说，从流程角度来看，我认为他们所参与的流程的彻底性有很多可说之处。
+
+00:24:57.840 --> 00:25:16.340
+<v Jake Bernstein>This surprised Carmen because it seemed premature. They were only at the beginning of their fact finding. They'd requested documents and minutes of meetings that Goldman still had to give them. They were federal regulators. Their job was to ask questions and demand answers. And yet, these colleagues sounded almost apologetic about it.
+<v Jake Bernstein>这让卡门很惊讶，因为这似乎太早了。他们只是处于事实调查的开始阶段。他们要求提供文件和会议纪要，高盛还没有给他们。他们是联邦监管者。他们的工作是提出问题并要求答案。然而，这些同事听起来对此几乎是道歉的。
+
+00:25:16.340 --> 00:25:36.920
+<v Man>I would add to his comments in that I think we don't want to discourage Goldman from disclosing these types of things in the future. And therefore, maybe some comment that says, don't mistake our inquisitiveness and our desire to understand more about the marketplace in general as a criticism of you as a firm, necessarily. Like--
+<v Man>我会补充他的评论，因为我认为我们不想阻碍高盛在将来披露这些类型的事情。因此，也许可以说一些评论，即不要把我们的好奇心和我们对更广泛市场的了解欲望误认为是将你们作为一个公司进行批评。就像——
+
+00:25:36.920 --> 00:25:37.720
+<v Man>Well I've been very clear with them on that.
+<v Man>嗯，我在这方面对他们说得很清楚。
+
+00:25:37.720 --> 00:25:43.100
+<v Man>I don't want to hit them on the bat with a head and then they're going to say, screw it. We're doing this again. We're not going to disclose it again. We don't need to.
+<v Man>我不想用棒子打他们的头，然后他们会说，见鬼去吧。我们再次做这个。我们不会再披露它了。我们不需要。
+
+00:25:43.100 --> 00:25:48.080
+<v Jake Bernstein>Wait a second. You guys are the Federal Reserve. Doesn't Goldman have to give you what you ask for?
+<v Jake Bernstein>等等。你们是联邦储备系统。难道高盛不需要给你们要的东西吗？
+
+00:25:48.080 --> 00:25:49.790
+<v Carmen Segarra>Absolutely.
+<v Carmen Segarra>当然需要。
+
+00:25:49.790 --> 00:25:55.380
+<v Jake Bernstein>So where is he coming from?
+<v Jake Bernstein>那么他这是从哪儿来的？
+
+00:25:55.380 --> 00:25:57.700
+<v Carmen Segarra>A place of fear.
+<v Carmen Segarra>源于恐惧。
+
+00:25:57.700 --> 00:26:02.800
+<v Jake Bernstein>Fear of ticking off Goldman, though Carmen couldn't imagine why anyone at the Fed would be afraid.
+<v Jake Bernstein>不过卡门无法想象美联储内部的人为什么要害怕。
+
+00:26:02.800 --> 00:26:17.280
+<v Carmen Segarra>The Fed has both the power to get the information and the ability to punish the bank if it chooses to withhold it. And some of these powers involve criminal action, so there's no reason to be afraid.
+<v Carmen Segarra>美联储既有获得信息的权力，也有选择在银行扣留信息时惩罚银行的能力。而且这些权力中的一些涉及刑事行动，所以没有理由害怕。
+
+00:26:17.280 --> 00:26:26.060
+<v Brian Reed>Did you get the sense that other people around you were taken aback by that comment at the time, or did that seem like not such a strange comment for someone to make?
+<v Brian Reed>你是否感觉到周围其他人当时被那个评论吓了一跳，或者那对于某人来说似乎不是一个奇怪的评论？
+
+00:26:26.060 --> 00:26:29.690
+<v Carmen Segarra>No, I think business line specialists were very much in agreement with that comment.
+<v Carmen Segarra>不，我认为业务线专家非常同意那个评论。
+
+00:26:29.690 --> 00:26:38.400
+<v Man>Don't mistake our inquisitiveness and our desire to understand more about the marketplace in general as a criticism of you as a firm, necessarily.
+<v Man>不要把我们的好奇心和我们对更广泛市场的了解欲望误认为是将你们作为一个公司进行批评。
+
+00:26:38.400 --> 00:27:16.100
+<v Carmen Segarra>I mean, they were all sort of afraid of Goldman and I think they were a little bit confused as to who they were working for. What I was sort of seeing and experiencing was this level of deference to the banks, this level of fear, and just not really showing a lot of interest in putting two and two together. It's not like we would walk out of a meeting and they would be like, oh my god, when they said that, what did that mean? Let's go research it. It was like, oh well, next meeting.
+<v Carmen Segarra>我的意思是，他们都因为某种原因害怕高盛，我认为他们对自己为谁工作感到有点困惑。我看到和经历的是这种对银行的顺从程度、这种恐惧，以及并没有真正表现出把事情串联起来的很大兴趣。并不是说我们会走出会议，他们就会说，噢，天哪，当他们那样说时，那是什么意思？让我们去研究一下。而是说，噢，好的，下一次会议。
+
+00:27:16.100 --> 00:27:23.970
+<v Brian Reed>I mean, the obvious question from what you're describing is, is that regulatory capture?
+<v Brian Reed>我的意思是，从你描述的情况来看，明显的问题是，那是监管俘获吗？
+
+00:27:23.970 --> 00:27:28.070
+<v Carmen Segarra>You know, if that isn't, I don't know what is.
+<v Carmen Segarra>你知道，如果那不是，我不知道什么才是。
+
+00:27:28.070 --> 00:28:11.290
+<v Jake Bernstein>Regulatory capture-- again, it's when a regulator gets too cozy with the banks they're regulating. It was one of the problems David Beim spotted at the New York Fed in 2009 when he wrote his secret report for them about what the Fed needed to fix after the financial crisis. Remember that report from the beginning of the show? Beim found that one of the causes of regulatory capture at the Fed was simple. Examiners see bank employees every day at work. It's just human nature to try to get along with them. And many examiners feel that the easiest way to get information is by cultivating a friendly relationship, being non-confrontational. Beim says it's tricky walking the line between being friendly and being captured.
+<v Jake Bernstein>监管俘获——再次重申，是指监管者与其监管的银行走得太近。这是大卫·拜姆在2009年为纽约联储撰写关于金融危机后美联储需要修复什么的秘密报告时发现的问题之一。还记得节目开头那份报告吗？拜姆发现美联储监管俘获的原因很简单。审查员每天在工作中见到银行员工。试图与他们相处是人之常情。许多审查员认为获取信息的最好方式是建立友好的关系，不搞对抗。拜姆说，在友好和被俘获之间划清界限是很棘手的。
+
+00:28:11.290 --> 00:28:44.490
+<v Jake Bernstein>I spoke with one former Fed examiner who said he and his coworkers used to joke about one of their Fed colleagues deserving an employee of the month award-- not from the Fed, but from the bank they regulated. And employees at the Fed do go to work for banks. A quick internet search reveals at least seven former Fed bank examiners who now work at Goldman. They include the colleague who, according to Carmen, asked her to change her meeting notes.
+<v Jake Bernstein>我采访了一位前美联储审查员，他说他和同事们过去常开玩笑说，他们的一位美联储同事值得一个月度最佳员工奖——不是从美联储，而是从他们监管的银行那里获得的。美联储的员工确实会去银行工作。简单的网络搜索显示，至少有七名前美联储银行审查员现在在高盛工作。其中包括那位根据卡门说法要求她修改会议记录的同事。
+
+00:28:44.490 --> 00:29:01.430
+<v Jake Bernstein>As Beim and his team spoke to Fed employees about what went wrong leading up to the financial crisis, one problem in particular arose again and again, and that problem was the Fed's culture. That's the epiphany of Beim's report. It was that basic, culture. He was surprised.
+<v Jake Bernstein>当拜姆和他的团队与美联储员工谈论导致金融危机的错误时，一个问题特别是一再出现，那个问题就是美联储的文化。那是拜姆报告的顿悟。就是那么基础，文化。他感到很惊讶。
+
+00:29:01.430 --> 00:29:15.260
+<v David Beim>Yeah, I was. I was interested that what started out looking like a financial discussion was going to turn into a cultural discussion, what the culture expected of people, and what the culture induced people to do.
+<v David Beim>是的，我是。我感兴趣的是，最初看起来像是一场金融讨论的事情竟然变成了一场文化讨论，文化对人们有什么期望，以及文化诱导人们做什么。
+
+00:29:15.260 --> 00:29:38.010
+<v Jake Bernstein>For instance, there was a kind of fear Beim writes about in his report. Not fear of the banks, like Carmen was just talking about, but fear inside the Fed itself. Fed employees told Beim's team they were afraid of contradicting their bosses, afraid of saying what they really thought, afraid of having views that were too different from what everyone else had. Beim lists these fears in his report.
+<v Jake Bernstein>例如，拜姆在报告中写到了一种恐惧。不是像卡门刚才所说的那样对银行的恐惧，而是美联储内部的恐惧。美联储员工告诉拜姆的团队，他们害怕反驳他们的老板，害怕说出他们的真实想法，害怕持有与其他人过于不同的观点。拜姆在他的报告中列出了这些恐惧。
+
+00:29:38.010 --> 00:29:59.940
+<v David Beim>So I could just read the fear of speaking up list of quotations. And it goes like this-- don't want to be too far outside from where management is thinking. The organization does not encourage thinking outside the box. After you get shot down a couple of times, you tend not to go there anymore. Until I know what my boss thinks, I don't want to tell you.
+<v David Beim>所以我可以直接读那个“害怕说出来”的引语列表。它是这样的——不想与管理层的想法相差太远。该组织不鼓励打破常规思考。在被拒绝几次后，你往往就不会再那样做了。直到我知道我的老板怎么想，我不想告诉你。
+
+00:29:59.940 --> 00:30:15.220
+<v Jake Bernstein>According to Beim's report, this culture of fear paralyzed the Fed in the years leading up to the financial crisis and prevented it from taking action. It's not that the Fed regulators didn't notice the problems accumulating in the financial system that eventually brought it down.
+<v Jake Bernstein>根据拜姆的报告，这种恐惧文化在金融危机前的几年里使美联储瘫痪，并阻止它采取行动。并不是美联储监管者没有注意到金融体系中不断积累并最终导致其崩溃的问题。
+
+00:30:15.220 --> 00:30:31.670
+<v David Beim>They were aware of those problems coming. There were lengthy presentations on subjects like that within the organization. It's just that none of those meetings ever ended with anyone saying, and therefore, let's take the following steps right now.
+<v David Beim>他们意识到了那些问题的到来。组织内部有关于这类主题的冗长介绍。只是那些会议从来没有以任何人说“因此，让我们现在采取以下步骤”而结束。
+
+00:30:31.670 --> 00:30:37.280
+<v Carmen Segarra>I mean they're just-- there are meetings without a clear agenda. There are meetings without clear objectives.
+<v Carmen Segarra>我的意思是他们只是——有会议却没有明确的议程。有会议却没有明确的目标。
+
+00:30:37.280 --> 00:30:44.750
+<v Jake Bernstein>Carmen was used to the private sector, where she says meetings ended with specific action items. People knew what they were supposed to do.
+<v Jake Bernstein>卡门习惯了私营部门，她说在那里会议结束时会有具体的行动项目。人们知道他们被要求做什么。
+
+00:30:44.750 --> 00:31:01.730
+<v Carmen Segarra>None of that happens at the Fed. It's like the information is discussed, and then it just ends up in a vacuum, floating on air, not acted upon. And the mere act of having this meeting, for them, is almost like akin to having done something about it.
+<v Carmen Segarra>美联储没有发生任何这种情况。这就像信息被讨论了，然后它就进入了一个真空，悬浮在空中，没有被采取行动。而且举行这次会议的行为本身，对他们来说，几乎就等同于已经为此做了什么。
+
+00:31:01.730 --> 00:31:31.480
+<v Jake Bernstein>Take the issue in the Santander deal that was most important to Mike Silva, the question of whether Goldman should be doing these new kinds of deals, deals whose whole purpose was to make foreign banks look better to their regulators. As months passed, you could hear on Carmen's recordings the team debating what to do about it, what action they should take. As best as we can tell, the most forceful action they consider is a letter to Goldman, and not even a stern letter, necessarily. The simple fact of a letter, one guy says, will send the message they need.
+<v Jake Bernstein>以迈克·席尔瓦最关注的桑坦德交易中的问题为例，关于高盛是否应该进行这些新型交易的问题，这些交易的全部目的是为了让外国银行在其监管者面前显得更好。随着月份的流逝，你可以在卡门的录音中听到团队在辩论该怎么办，他们应该采取什么行动。据我们所知，他们考虑的最强有力的行动是一封给高盛的信，甚至未必是一封严厉的信。一个人说，信件这一简单事实就会发出他们需要的信息。
+
+00:31:31.480 --> 00:31:38.800
+<v Man>The only downside risk is that they choose to ignore us. We're not obligating them to do anything, necessarily.
+<v Man>唯一的下行风险是他们选择忽略我们。我们未必强迫他们做任何事情。
+
+00:31:38.800 --> 00:31:55.100
+<v Jake Bernstein>He says Goldman generally takes these letters seriously, but banks do ignore them sometimes. We don't know if the Fed ever sent the letter, but even if they never did, Mike Silva said they'd already accomplished something important. They'd brought up the deal in conversations with Goldman and held that meeting you heard.
+<v Jake Bernstein>他说高盛通常认真对待这些信，但银行有时确实会忽略它们。我们不知道美联储是否真的寄出了那封信，但即使他们从来没有寄出，迈克·席尔瓦说他们已经完成了重要的事情。他们在与高盛的对话中提到了这笔交易，并召开了你听到的那次会议。
+
+00:31:55.100 --> 00:32:06.260
+<v Mike Silva>At minimum, we made them think. I guarantee they'll think twice about the next one because by putting them through their paces and having that large Fed crowd come in, and you know, we fussed at them pretty good.
+<v Mike Silva>至少，我们让他们思考了。我保证他们会为下一次交易三思而后行，因为通过让他们经历挑战，并让那大群美联储人员进来，你知道，我们对他们大发雷霆了一顿。
+
+00:32:06.260 --> 00:32:21.510
+<v Jake Bernstein>In case you didn't hear that, Silva said, "I guarantee they'll think twice about the next one. We fussed at them pretty good."
+<v Jake Bernstein>以防你没听见，席尔瓦说，“我保证他们会为下一次三思而后行。我们对他们大发雷霆了一顿。”
+
+00:32:21.510 --> 00:32:32.180
+<v Ira Glass>Jake Bernstein from ProPublica. Coming up, everything you're hearing, we ran all this by the Fed. Their response when our program continues.
+<v Ira Glass>来自ProPublica的杰克·伯恩斯坦。接下来，你听到的一切，我们都让美联储看了。我们节目继续时，他们的回应。
+
+00:32:32.180 --> 00:32:58.420
+<v Ira Glass>It's This American Life. I'm Ira Glass. Today on our program, we're hearing never before heard recordings made secretly by a bank examiner named Carmen Segarra at the New York Fed. They give an unprecedented look inside is very secretive, very powerful, very important financial regulator. A note, we have done the normal kinds of editing to these recordings for pacing and clarity that we do to any recordings on our program. Again, here's investigative reporter Jake Bernstein.
+<v Ira Glass>这是《这种美国生活》。我是艾拉·格拉斯。今天在我们的节目中，我们正在听到由一位名叫卡门·塞加拉的银行审查员在纽约联储秘密录制的从未听过的录音。它们提供了一个对这个非常隐秘、非常强大、非常重要的金融监管机构前所未有的窥视。注意，我们已经对这些录音进行了正常的编辑，以保证节奏和清晰度，就像我们对节目中任何录音所做的那样。再次，有请调查记者杰克·伯恩斯坦。
+
+00:32:58.420 --> 00:33:29.330
+<v Jake Bernstein>We first approached the New York Fed to request an interview in July. They declined. We then told him we had Carmen's secret recordings and invited them to comment on the sections we're using here on the radio. They declined to comment, but two Fed officials came to This American Life's office to listen and take notes. We sent them 13 pages of questions. They sent us a two page statement. It begins, "the New York Fed categorically rejects the allegations being made about the integrity of its supervision of financial institutions."
+<v Jake Bernstein>我们第一次在7月接触纽约联储请求采访。他们拒绝了。我们随后告诉他们我们有卡门的秘密录音，并邀请他们对我们在电台使用的部分进行评论。他们拒绝置评，但两名美联储官员来到《这种美国生活》的办公室听取并做记录。我们给他们发了13页的问题。他们给我们发了一份两页的声明。它开头写道，“纽约联储断然拒绝关于其监督金融机构完整性的指控。”
+
+00:33:29.330 --> 00:34:07.440
+<v Jake Bernstein>Unlike the Beim report, their statement acknowledges no problems at the Fed. They say that in 2011, they began implementing some of Beim's recommendations, and they list a few. But that list doesn't include any of the recommendations Beim made about the central problem he saw, the problem of the Fed's culture-- the fear of speaking up and the deference to the banks. We asked many questions about this. The Fed didn't respond to those directly, but did say in its statement, quote, "examiners are encouraged to speak up and escalate any concerns they may have regarding the New York Fed or the institutions that we supervise."
+<v Jake Bernstein>与拜姆报告不同，他们的声明承认美联储没有问题。他们说，在2011年，他们开始实施拜姆的一些建议，并列举了几个。但该名单不包括拜姆关于他所见到的中心问题提出的任何建议，即美联储的文化问题——害怕说出来和对银行的顺从。我们问了很多关于这个问题的问题。美联储没有直接回应，但在声明中确实说，引用，“鼓励审查员说出来，并向上汇报他们对纽约联储或我们监督的机构可能有的任何担忧。”
+
+00:34:07.440 --> 00:34:36.920
+<v Jake Bernstein>They point out that the Fed has lots of ways, quote, "to help ensure that its employees freely express their views and concerns, including the Ethics Office, employee hotline, and internal ombudsman." We asked questions about regulatory capture. Again, the Fed didn't respond directly, but said they ensured examiner independence by regularly rotating people from bank to bank.
+<v Jake Bernstein>他们指出，美联储有很多方式，引用，“帮助确保其员工自由表达观点和担忧，包括道德办公室、员工热线和内部监察员。”我们询问了关于监管俘获的问题。同样，美联储没有直接回应，但表示他们通过定期将人员从一家银行轮换到另一家银行来确保审查员的独立性。
+
+00:34:36.920 --> 00:34:54.700
+<v Jake Bernstein>David Beim writes in his report that when it comes to hiring bank examiners, the Fed, quote, "should be willing to take chances on individuals with the confidence to speak their convictions, even at the risk of getting somewhat disruptive personalities." Beim says they should be like the kid who cries out that the emperor has no clothes.
+<v Jake Bernstein>大卫·拜姆在他的报告中写道，在雇佣银行审查员时，美联储，引用，“应该愿意在个人身上冒险，他们有自信说出自己的信念，即使有被视为破坏性个性的风险。”拜姆说他们应该像那个大喊“皇帝没穿衣服”的孩子。
+
+00:34:54.700 --> 00:35:17.010
+<v David Beim>He's the only one who dares say it because he doesn't have ordinary social instincts. He doesn't act politely. And somebody he like that-- or a number of people like that-- have to be employed by organizations that want to be able to catch a big systemic problem brewing. They're willing to say what they think is right, even if people don't like them as a result. They don't care.
+<v David Beim>他是唯一敢于说出来的人，因为他没有普通的社交本能。他不表现得礼貌。而且像这样的人——或者这样的一些人——必须被想要能够捕捉到正在酝酿的大型系统性问题的组织所雇佣。他们愿意说出他们认为是正确的事情，即使结果导致人们不喜欢他们。他们不在乎。
+
+00:35:17.010 --> 00:35:27.720
+<v Jake Bernstein>Apparently, Carmen's style of examining did make her a disruptive personality to some Fed employees. You can hear her in the recordings, when she feels she has the facts, speaking critically of Goldman.
+<v Jake Bernstein>显然，卡门的审查风格确实使她对一些美联储员工来说是一个破坏性的个性。你可以在录音中听到她，当她觉得掌握了事实时，对高盛进行了批判。
+
+00:35:27.720 --> 00:35:47.200
+<v Carmen Segarra>I feel bad, but having worked on the international regulatory setup at more than one bank in my life, I can really tell you that in comparison to their peers, they are behind. And it's not by a little. It's by a lot. And it's a real problem and it's really obvious.
+<v Carmen Segarra>我感到很遗憾，但在我的一生中，在不止一家银行工作过国际监管架构，我可以真诚地告诉你，与同行相比，他们落后了。而且不是落后一点点。是落后很多。这是一个真正的问题，而且非常明显。
+
+00:35:47.200 --> 00:36:03.510
+<v Jake Bernstein>Carmen was also vocal with her bosses and coworkers about the shortcomings she saw in the Fed's management. She complained that managers were not settling disputes between the new wave of experts like Carmen and other examiners. Again and again in the tapes, Carmen asks her managers to intervene.
+<v Jake Bernstein>卡门还就她所见到的美联储管理上的缺陷，向她的老板和同事畅所欲言。她抱怨经理们没有解决像卡门这样的新一代专家与其他审查员之间的纠纷。在录音中，卡门一次又一次地要求她的经理干预。
+
+00:36:03.510 --> 00:36:09.580
+<v Carmen Segarra>I think that management needs to do a better job of managing those people.
+<v Carmen Segarra>我认为管理层需要做更好的工作来管理这些人。
+
+00:36:09.580 --> 00:36:29.710
+<v Jake Bernstein>But not much changed. And then, on a Tuesday in late February, Carmen went in for her weekly meeting with her supervisor, Jonathan Kim. For a while, it was like any other meeting. They talked about examinations and things like that. But then about an hour into the conversation, Kim surprised Carmen by switching the subject to her job performance.
+<v Jake Bernstein>但没有太多改变。然后，在2月下旬的一个星期二，卡门去参加与她的主管乔纳森·金的每周例会。有一段时间，它就像任何其他会议一样。他们谈论了审查和诸如此类的事情。但在谈话进行大约一个小时后，金通过将话题转向她的工作表现，让卡门感到惊讶。
+
+00:36:29.710 --> 00:36:42.550
+<v Jonathan Kim>I want to manage your sort of career and expectations, right? I want you to be successful. There's information that's coming in. There's opinions that are coming in.
+<v Jonathan Kim>我想管理你的那种职业和期望，对吧？我希望你成功。有信息进来了。有意见进来了。
+
+00:36:42.550 --> 00:36:52.690
+<v Jake Bernstein>Kim tells her she does a good job of looking at issues, identifying problems, figuring out what to do next, in short, the duties of a bank examiner. But then he goes on.
+<v Jake Bernstein>金告诉她，她在审视问题、识别问题、找出下一步要做什么方面做得很好，简而言之，就是银行审查员的职责。但随后他继续说。
+
+00:36:52.690 --> 00:37:36.630
+<v Jonathan Kim>I'm never questioning about sort of the knowledge base or the assessments or those things, right? It's really about how you are perceived, right? And so if there's more of a general sort of feedback that says, OK, it's not only one person, it's not only two persons who are perceiving that you're-- you have more sharper elbows or that you're sort of breaking eggs. And obviously, I don't know what the right word is.
+<v Jonathan Kim>我从来没有质疑过那种知识库或评估或那些事情，对吧？这真的是关于你是如何被感知的，对吧？所以如果有一个更普遍的反馈说，好的，不仅仅是一个人，不仅仅是两个人感知到你——你有更多的尖锐肘部或你有点打破鸡蛋。显然，我不知道正确的词是什么。
+
+00:37:36.630 --> 00:37:49.790
+<v Jake Bernstein>Kim wouldn't tell Carmen who the complaints came from, but she assumed it was the old guard, the business line specialists. Kim told Carmen she needed to approach things differently. She needed to be more-- to use Kim's word-- relational.
+<v Jake Bernstein>金没有告诉卡门投诉来自谁，但她假设是旧派势力，即业务线专家。金告诉卡门，她需要用不同的方式接近事情。她需要更——用金的话说——善于沟通。
+
+00:37:49.790 --> 00:38:03.580
+<v Jonathan Kim>And I think the messages come back to me saying that you really need to make these changes quickly in order for you to be successful--
+<v Jonathan Kim>我认为传回给我的信息说，你真的需要迅速做出这些改变，以便你成功——
+
+00:38:03.580 --> 00:38:04.140
+<v Carmen Segarra>Not fired?
+<v Carmen Segarra>不被解雇？
+
+00:38:04.140 --> 00:38:05.680
+<v Jonathan Kim>--successful as part of the team.
+<v Jonathan Kim>——作为团队的一部分成功。
+
+00:38:05.680 --> 00:38:08.480
+<v Carmen Segarra>Not fired, basically?
+<v Carmen Segarra>基本上不是被解雇？
+
+00:38:08.480 --> 00:38:14.640
+<v Jonathan Kim>Well, I don't even want to get there because-- and here's why.
+<v Jonathan Kim>嗯，我甚至不想谈到那里，因为——原因如下。
+
+00:38:14.640 --> 00:38:21.670
+<v Carmen Segarra>Well, I think that it would be unfair to fire me when I am, at the end of the day, doing a good job.
+<v Carmen Segarra>嗯，我认为当我最终做得很好时，解雇我是不公平的。
+
+00:38:21.670 --> 00:38:32.910
+<v Jonathan Kim>Look, I'm here to change sort of that definition of what a good job is, right? Couple of things--
+<v Jonathan Kim>看，我在这里改变那种“什么是一份好工作”的定义，对吧？几件事——
+
+00:38:32.910 --> 00:38:34.760
+<v Carmen Segarra>I can see it a mile away.
+<v Carmen Segarra>我可以从一英里外就看出来。
+
+00:38:34.760 --> 00:38:58.870
+<v Jonathan Kim>Couple of things that I would suggest, have a sense of humility, because a lot of the things that you say-- and this is the way you're coming across, I think I know you well enough that that's not what you're saying, right? But if I were to be a new person, I would say, Carmen, you're very arrogant.
+<v Jonathan Kim>我有几点建议，要有谦逊感，因为你说的很多事情——这就是你的表达方式，我想我足够了解你，知道那不是你的本意，对吧？但如果我是一个新人，我会说，卡门，你太傲慢了。
+
+00:38:58.870 --> 00:39:18.960
+<v Jake Bernstein>We asked Carmen how much of this she thought might have to do with her being a woman and a minority, and she says it's hard to say how much of a factor it was. She says it's impossible for her to know if things would have played out differently if she were a guy. We reached out to Jonathan Kim, but he didn't respond, so we couldn't talk to him about this meeting.
+<v Jake Bernstein>我们问卡门她认为这在多大程度上可能与她是女性和少数族裔有关，她说很难说这在多大程度上是一个因素。她说如果她是个男人，事情是否会以不同的方式发展，她不可能知道。我们联系了乔纳森·金，但他没有回应，所以我们无法与他谈论这次会议。
+
+00:39:18.960 --> 00:39:41.170
+<v Jake Bernstein>But we did listen to 46 hours of recordings of Carmen at her job, which Carmen says is everything she ever recorded. It's a grab bag of different kinds of meetings. And there are key meetings that, for one reason or another, she says she didn't record. Carmen pre-approved the selections we're using in this story, though there was nothing we wanted to use that she said we couldn't.
+<v Jake Bernstein>但我们确实听了46个小时卡门在工作时的录音，卡门说这是她录下的一切。这是一个各种会议的杂包。而且有一些关键会议，由于某种原因，她说她没有录。卡门预先批准了我们在本故事中使用的选段，虽然没有什么我们想用但她说不能用的。
+
+00:39:41.170 --> 00:40:17.840
+<v Jake Bernstein>Listening to Carmen's recordings, you can sometimes hear her do the things that Jonathan Kim is talking about. He talks about sharper elbows, breaking eggs. There are times when Carmen cuts people off, including her bosses, times when she sounds riled up or brusque. It's clear that the friction she's running into from other Fed employees is real. Her managers acknowledge it. And there's a recording of Fed experts like her who work inside other banks where they gripe about facing the same pushback. But Carmen's the kind of person who doesn't let it slide. She complains about her colleagues a lot, though she's never unprofessional.
+<v Jake Bernstein>听卡门的录音，你有时可以听到她做乔纳森·金所谈论的那些事情。他谈到尖锐的肘部，打破鸡蛋。有些时候卡门打断别人，包括她的老板，有时她听起来很烦躁或唐突。很明显，她从其他美联储员工那里遇到的阻力是真实的。她的经理们承认这一点。并且有像她一样在其他银行工作的内部美联储专家的录音，他们抱怨面临同样的阻力。但卡门是那种不让它滑过去的人。她抱怨她的同事很多，虽然她从来都不显得不专业。
+
+00:40:17.840 --> 00:40:50.640
+<v Jake Bernstein>One of Carmen's colleagues while she was at the Fed told me Carmen did ask direct questions, sometimes embarrassingly direct. But this person said they were all questions that needed to be asked and that Carmen was, quote, "a breath of fresh air." I also spoke to three people who worked with Carmen at jobs she'd had before the Fed, and none of them remembered Carmen behaving unprofessionally, disrespectfully, or arrogantly.
+<v Jake Bernstein>卡门在美联储时的一位同事告诉我，卡门确实提出了直接的问题，有时是令人尴尬的直接。但这人说，这些都是需要提出的问题，而且卡门是一个，引用，“一股清新的空气”。我还采访了三位在卡门去美联储之前与她共事过的人，他们都不记得卡门表现得不专业、不尊重或傲慢。
+
+00:40:50.640 --> 00:41:30.630
+<v Jake Bernstein>Before we go back to this meeting with Jonathan Kim, I just want to read you something. This is from David Beim's report from page 22. He writes that the only way bank regulators can be effective at spotting the next financial crisis is if the Fed's culture, quote, "opens up and encourages people to speak up more." According to Beim, this all depends on managers. Quote, "They need to encourage dissent rather than stifle it." Quote, "This is a cultural issue of the greatest importance," end quote. And yet, more than 2 and 1/2 years after David Beim personally handed these prescriptions to the president of the New York Fed, in this meeting with Carmen Segarra, Jonathan Kim said this.
+<v Jake Bernstein>在我们回到与乔纳森·金的这次会议之前，我只是想读给你一些东西。这是大卫·拜姆报告第22页的内容。他写道，银行监管者能够有效地发现下一次金融危机的唯一途径是美联储的文化，引用，“开放并鼓励人们更多地说出来。”根据拜姆的说法，这一切取决于经理。引用，“他们需要鼓励异议，而不是扼杀它。”引用，“这是一个具有重大意义的文化问题，”引用结束。然而，在大卫·拜姆亲自将这些处方交给纽约联储主席2年半多之后，在这次与卡门·塞加拉的会议中，乔纳森·金说了这样的话。
+
+00:41:30.630 --> 00:41:37.610
+<v Jonathan Kim>So what I would ask you to think about a little bit more is nothing so conclusory.
+<v Jonathan Kim>所以我请求你多思考一下的是，不要那么结论性。
+
+00:41:37.610 --> 00:41:38.730
+<v Carmen Segarra>I'm writing this down so I remember.
+<v Carmen Segarra>我把它写下来，免得我忘了。
+
+00:41:38.730 --> 00:41:57.690
+<v Jonathan Kim>Like this is it. They're definitely going in that direction, right? And you use the word definitely a lot too. It's like if you use that, then you want to have a consensus view of definitely, not only your view.
+<v Jonathan Kim>就像这样。他们肯定是在往那个方向走，对吧？而且你也经常使用“绝对”这个词。如果你用这个词，那么你想有一个一致的“绝对”观点，不仅是你的观点。
+
+00:41:57.690 --> 00:42:44.210
+<v Jake Bernstein>There are a handful of behaviors that Beim singles out as being particularly destructive to the Fed's mission, and one is consensus. On page nine, he notes that consensus is usually a healthy goal that leads to better decisions. But then he goes on, quote, "achieving consensus has costs. One is delay. Ideas get vetted to death. Consensus leadership is seen by some as a way to deflect accountability. Building consensus can result in a whittling down of issues or a smoothing of exam findings so that only the most black and white issues will be taken forward as concerns with the bank. Compromise often results in less forceful language and demands on the banks involved." Again, that was 2009. Here's Jonathan Kim in 2012.
+<v Jake Bernstein>有一些行为是拜姆挑选出来认为对美联储的使命特别具有破坏性的，其中一个是共识。在第9页，他指出共识通常是一个导致更好决策的健康目标。但随后他继续说，引用，“达成共识是有成本的。一个是延迟。想法被仔细审核到死。共识领导力被一些人视为转移问责制的一种方式。建立共识可能导致议题的削减或审查结果的平滑，因此只有最黑白分明的问题才会被作为对银行的担忧向前推进。妥协通常导致语言不那么有力，对相关银行的要求也不那么高。”再次重申，那是2009年。这是2012年的乔纳森·金。
+
+00:42:44.210 --> 00:43:01.990
+<v Jonathan Kim>So a lot of it is consensus building, right? Hey, you know, what do you think? Oh, OK. That's a good thought. It's a possibility, right?
+<v Jonathan Kim>所以其中很多是共识构建，对吧？嘿，你知道，你觉得呢？噢，好的。那是好的想法。这是一种可能性，对吧？
+
+00:43:01.990 --> 00:43:24.510
+<v Jake Bernstein>At this point, Carmen had been at the Fed less than four months-- four months since she had walked through the doors of the country's most powerful financial regulator, excited to join an institution dedicated to safeguarding the financial system. It was not working out like she'd hoped. And what was jarring to Carmen was the Fed had the authority it needed to be a good regulator, but it chose not to exercise that authority.
+<v Jake Bernstein>此时，卡门在美联储不到四个月——距离她走进这个国家最强大的金融监管机构的大门已经四个月了，很高兴加入一个致力于保护金融体系的机构。它没有像她希望的那样运作。而让卡门感到震惊的是，美联储拥有成为一名优秀监管者所需的权威，但它选择不行使该权威。
+
+00:43:24.510 --> 00:43:29.100
+<v Carmen Segarra>I mean, it's almost like a giant afraid of its own power.
+<v Carmen Segarra>我的意思是，它几乎就像一个害怕自己力量的巨人。
+
+00:43:29.100 --> 00:43:36.830
+<v Jake Bernstein>She doesn't think the Fed should transform itself into a domineering schoolmarm for the financial system, badgering the banks over every little infraction.
+<v Jake Bernstein>她认为美联储不应该把自己转型为一个为了金融体系的跋扈女学究，对每一件小事都对银行进行骚扰。
+
+00:43:36.830 --> 00:44:15.900
+<v Carmen Segarra>I think it would have been just as scary if I had gone in there and found an aggressive Fed that was really mean and sort of trying to nit pick. I think that all that power sort of being abused, that's a very scary thing. But when you find the opposite, the absence of exercise of power, the absence of the exercise of responsibility, then you are just like, this is a problem because you've been made the overarching regulator and the country is looking to you to make things better after the crisis. And if you can't do it, then we need to talk about who can.
+<v Carmen Segarra>我想如果我进去发现一个激进的美联储，真的很卑鄙，那种试图吹毛求疵，那也会很可怕。我认为所有这些权力被滥用，那是一件非常可怕的事情。但当你发现相反的情况，权力的行使缺失，责任的行使缺失，那么你只会像这样，这是一个问题，因为你已经被指定为全面监管者，而国家在危机后指望你让事情变得更好。如果你不能做到，那么我们需要谈谈谁能做到。
+
+00:44:15.900 --> 00:44:28.650
+<v Jake Bernstein>Carmen's reluctance to obediently join the consensus at the Fed led to a showdown between her and her bosses. The issue was an aspect of Goldman Sachs's business that had earned it lots of scorn, conflicts of interest.
+<v Jake Bernstein>卡门不愿顺从地加入美联储的共识，导致了她和她的老板之间的摊牌。这个问题是高盛集团业务的一个方面，它为它赢得了许多嘲笑，利益冲突。
+
+00:44:28.650 --> 00:44:31.610
+<v Man>There were fireworks on display in Delaware Chancery Court.
+<v Man>特拉华州衡平法院正在进行表演。
+
+00:44:31.610 --> 00:44:34.140
+<v Jake Bernstein>This is a Bloomberg report from March 2012.
+<v Jake Bernstein>这是2012年3月的一份彭博社报道。
+
+00:44:34.140 --> 00:44:50.040
+<v Man>--when Judge Leo Strine rebuked investment banking firm Goldman Sachs for the way it handled a potential conflict of interest in advising natural gas pipeline operator El Paso. The entire episode has led to a re-evaluation of how investment banking firms should handle conflicts of interest.
+<v Man>——当利奥·斯特莱恩（Leo Strine）法官指责投资银行公司高盛在处理建议天然气管道运营商埃尔帕索（El Paso）的潜在利益冲突方面的方式时。整个事件导致了对投资银行公司应如何处理利益冲突的重新评估。
+
+00:44:50.040 --> 00:45:11.520
+<v Jake Bernstein>This is one of several deals around the time when Carmen was at the Fed that put Goldman in the news for having conflicts of interest. In this deal, Goldman was getting paid to advise one company, an energy firm called El Paso, as El Paso was being purchased by another company, Kinder Morgan. The conflict was this. Goldman owned a large stake in Kinder Morgan.
+<v Jake Bernstein>这是卡门在美联储时期的几笔交易之一，使高盛因利益冲突而登上新闻。在那笔交易中，高盛因在能源公司埃尔帕索被另一家公司金德摩根（Kinder Morgan）收购时为埃尔帕索提供建议而获得报酬。冲突就在这里。高盛拥有金德摩根的大量股份。
+
+00:45:11.520 --> 00:45:27.010
+<v Man>Some shareholders are extremely angry that Goldman stands basically on both sides of this transaction. They're up for a $20 million fee for advising El Paso, and at the same time, the firm has a $4 billion stake in purchaser Kinder Morgan.
+<v Man>一些股东非常愤怒，因为高盛基本上站在了这笔交易的两边。他们因建议埃尔帕索而获得2000万美元的费用，同时该公司在买方金德摩根持有40亿美元的股份。
+
+00:45:27.010 --> 00:45:58.870
+<v Jake Bernstein>Just to clarify, Kinder Morgan wanted to buy El Paso as cheaply as possible. This would make tons of money for Goldman, since it had a large investment in Kinder Morgan. Meanwhile, El Paso, which wanted to be bought for as much as possible, of course, was paying millions to Goldman for advice on the sale, hence Goldman's conflict. As if that wasn't enough, it eventually came out that the lead Goldman banker advising El Paso had a personal stake in Kinder Morgan worth hundreds of thousands of dollars.
+<v Jake Bernstein>为了明确起见，金德摩根想尽可能便宜地买下埃尔帕索。这会为高盛带来巨大的利润，因为它在金德摩根有大量投资。与此同时，埃尔帕索希望以尽可能高的价格被收购，当然，正在向高盛支付数百万美元以获取关于销售的建议，因此高盛存在利益冲突。如果这还不够，最终披露的情况是，建议埃尔帕索的首席高盛银行家个人持有价值数十万美元的金德摩根股份。
+
+00:45:58.870 --> 00:46:23.850
+<v Jake Bernstein>Carmen says this deal and others like it led to one of the first assignments her bosses gave her when she started at the Fed-- to examine how Goldman handled, or failed to handle, conflicts of interest. One of the Fed's guidelines is that banks of Goldman's size and complexity need to have a conflicts of interest policy that applies to everyone at the firm. The Fed has criteria for what such a policy should look like.
+<v Jake Bernstein>卡门说，这笔交易和其他类似交易导致了她刚入职美联储时老板交给她的首要任务之一——审查高盛如何处理，或未能处理，利益冲突。美联储的指导方针之一是，像高盛这种规模和复杂性的银行需要拥有适用于公司所有人的利益冲突政策。美联储有关于这种政策应该是什么样子的标准。
+
+00:46:23.850 --> 00:46:40.180
+<v Jake Bernstein>Carmen was familiar with this. She'd worked for years at banks that had policy, she says, and she'd helped put policies, including conflicts of interest policies, into action. So what Carmen found when she looked into whether Goldman had a conflict of interest policy was shocking to her.
+<v Jake Bernstein>卡门对此很熟悉。她说她曾在有政策的银行工作多年，并且她曾帮助将政策，包括利益冲突政策，付诸实施。所以当卡门深入调查高盛是否拥有利益冲突政策时，她发现的事情让她感到震惊。
+
+00:46:40.180 --> 00:46:49.470
+<v Carmen Segarra>They really didn't have a firm-wide conflicts of interest policy. They didn't have anything close to being adequate on that score.
+<v Carmen Segarra>他们真的没有公司范围内的利益冲突政策。他们在那个分数上没有任何接近足够的东西。
+
+00:46:49.470 --> 00:46:58.450
+<v Jake Bernstein>For instance, one thing Carmen looked into was something you'd think would be a basic building block of a good policy, a definition of the thing the policy is about.
+<v Jake Bernstein>例如，卡门调查的一件事是你认为是一个好的政策的基本构件，对该政策所涉及的事物的定义。
+
+00:46:58.450 --> 00:47:05.660
+<v Carmen Segarra>Do you have it in the policy the definition of a conflict of interest and what that is and what that means?
+<v Carmen Segarra>在政策中你有关于利益冲突的定义吗，它是什么，那意味着什么？
+
+00:47:05.660 --> 00:47:14.800
+<v Jake Bernstein>During her examination, Carmen asked Goldman's head of conflicts if their policy had a definition of what a conflict is. And Goldman's head of conflicts answered--
+<v Jake Bernstein>在她的审查期间，卡门询问了高盛的冲突负责人，他们的政策是否有冲突的定义。高盛的冲突负责人回答说——
+
+00:47:14.800 --> 00:47:15.790
+<v Woman>No.
+<v Woman>没有。
+
+00:47:15.790 --> 00:47:18.270
+<v Carmen Segarra>OK.
+<v Carmen Segarra>好的。
+
+00:47:18.270 --> 00:47:52.580
+<v Jake Bernstein>That's right. According to the person in charge of evaluating conflicts of interest at Goldman Sachs, the firm's policy did not have a definition of what constituted a conflict. This was just one detail in a stack of evidence Carmen collected showing that Goldman Sachs lacked a proper policy. There was the meeting in November, where Fed examiners asked Goldman for the conflicts of interest policy, and Goldman told them one didn't exist. According to the meeting minutes, one Goldman executive said, quote, "It's probably more than one document. There's no one policy, per se."
+<v Jake Bernstein>那是对的。根据高盛集团利益冲突评估负责人的说法，该公司的政策没有定义什么是冲突。这只是卡门收集的一堆证据中的一个细节，表明高盛缺乏适当的政策。在11月的会议上，美联储审查员向高盛索要利益冲突政策，高盛告诉他们不存在。根据会议纪要，一位高盛高管说，引用，“它可能不仅仅是一份文件。没有一项政策，本身。”
+
+00:47:52.580 --> 00:48:28.880
+<v Jake Bernstein>Goldman eventually gave Carmen these documents. We've reviewed them ourselves. They're policies for individual divisions at Goldman. The documents clearly state that two of Goldman's six divisions had no conflict of interest policies for the period she was examining. Another division's policy, Goldman acknowledged, wasn't complete. For the three divisions that did have complete policies, Carmen says, they weren't up to snuff. They didn't meet the Fed's criteria. In other words, Goldman had no firm-wide policy at that time.
+<v Jake Bernstein>高盛最终给了卡门这些文件。我们自己审查了它们。它们是高盛各个部门的政策。这些文件明确指出，卡门审查期间，高盛六个部门中的两个没有利益冲突政策。另一个部门的政策，高盛承认，是不完整的。对于拥有完整政策的三个部门，卡门说，它们并不达标。它们不符合美联储的标准。换句话说，高盛当时没有任何公司范围内的政策。
+
+00:48:28.880 --> 00:48:57.770
+<v Jake Bernstein>Carmen worked on this examination for nearly seven months. She has records showing that there were at least 15 meetings where conflicts of interest were covered. Her supervisors attended many of them, and she believed they were on board with her conclusion, until one day they weren't. It was a Friday in May, 2012. Carmen says a colleague came up to her very upset. He'd been in a meeting that morning with the Fed team at Goldman that Carmen had missed.
+<v Jake Bernstein>卡门在这个审查项目上工作了近七个月。她有记录显示至少有15次会议涵盖了利益冲突。她的主管参加了其中的许多会议，她认为他们对她的结论表示赞同，直到有一天他们不再赞同。那是2012年5月的一个星期五。卡门说一位同事非常不安地来到她面前。他参加了当天早上卡门错过的美联储高盛团队的会议。
+
+00:48:57.770 --> 00:49:13.660
+<v Jake Bernstein>The Fed's top guy at Goldman, Mike Silva, had said that Goldman didn't have a conflict of interest policy, which Silva himself confirmed later in an email that we've seen. And another examiner had challenged him and said they did. After the meeting, according to Carmen's colleague--
+<v Jake Bernstein>美联储在高盛的头号人物，迈克·席尔瓦，曾说过高盛没有利益冲突政策，席尔瓦本人后来在我们看到的一封电子邮件中确认了这一点。而另一位审查员质疑了他，并说他们有。会议后，根据卡门的同事——
+
+00:49:13.660 --> 00:49:35.920
+<v Carmen Segarra>Mike seemed to be sort of backtracking and saying well, you know, that he was considering adopting the view that Goldman had a conflicts of interest policy. And I could not believe what I had heard because it's so many months, so many meetings, and just so much evidence.
+<v Carmen Segarra>迈克似乎在某种程度上退缩了，说，嗯，你知道，他正在考虑采纳高盛有利益冲突政策的观点。我简直不敢相信我所听到的，因为它是这么多月，这么多会议，只是这么多证据。
+
+00:49:35.920 --> 00:50:02.360
+<v Jake Bernstein>So when Carmen heard that Silva was about to change his view, she immediately wrote him and Jonathan Kim an email. Goldman Sachs does not have a firm-wide conflict of interest policy, she reminded them. And she and her legal and compliance team were actually preparing a formal finding about it to issue to the bank. A formal finding in this world is the Fed using its regulatory power to force the bank to do something-- in this case, get together a policy that met the Fed's guideline.
+<v Jake Bernstein>所以当卡门听说席尔瓦要改变观点时，她立即给席尔瓦和乔纳森·金写了一封电子邮件。高盛集团没有公司范围内的利益冲突政策，她提醒他们。她和她的法律合规团队实际上正在准备一份正式发现报告提交给银行。在这个领域，正式发现报告是美联储利用其监管权力强制银行做某事——在这种情况下，制定一份符合美联储指导方针的政策。
+
+00:50:02.360 --> 00:50:20.090
+<v Jake Bernstein>Silva and Kim both wrote back saying that she was getting ahead of herself. Her conclusions still had to be vetted. Considering the more than a dozen meetings they'd already had on the topic, the hundreds of pages of documents she'd amassed, and Goldman executives' own statements on the subject, Carmen was stunned at what she was reading.
+<v Jake Bernstein>席尔瓦和金都写信回复说她太操之过急。她的结论仍然需要审核。考虑到他们已经就此话题进行了十几次会议，她积累的数百页文件，以及高盛高管自己对此事的陈述，卡门对她所读到的内容感到震惊。
+
+00:50:20.090 --> 00:50:42.290
+<v Carmen Segarra>Are you serious? I mean, it's like this has been vetted to death at this point. What do you mean? What remains to be-- how many times do you have to ask and in how many different ways do you have to ask Goldman these questions before you are convinced that the answer that you're consistently getting is, in fact, the truth?
+<v Carmen Segarra>你是认真的吗？我的意思是，这在这一点上已经被审核到死了。你的意思是什么？还有什么剩下的——在你确信你一直得到的答案实际上是真相之前，你必须问多少次，你必须以多少种不同的方式问高盛这些问题？
+
+00:50:42.290 --> 00:51:09.290
+<v Jake Bernstein>In his email to Carmen, Silva said, quote, "In the light of your repeated and quite adamant assertions that Goldman has no written conflicts of interest policy, you can understand why I was surprised to find a conflicts of interest section in Goldman's code of conduct," end quote. We've seen this conflicts of interest section. It's just a few paragraphs long and very general. Carmen says it didn't come close to meeting all the Fed's criteria for a policy.
+<v Jake Bernstein>在给卡门的电子邮件中，席尔瓦说，引用，“鉴于你反复且相当坚决地断言高盛没有书面的利益冲突政策，你可以理解为什么我惊讶地发现高盛行为准则中有一个利益冲突部分，”引用结束。我们已经看到了这个利益冲突部分。它只有几段话长，非常笼统。卡门说它完全不符合美联储的所有政策标准。
+
+00:51:09.290 --> 00:51:39.190
+<v Jake Bernstein>We showed it to two experts, former Fed examiners familiar with the Fed's guidance on this issue. They both said it wouldn't qualify as a policy. One said it looked more like a vision-type statement. Silva also cited a report Goldman had released talking about how it was improving its conflicts policy-- also not a policy, Carmen says. She'd seen that document, and the document itself explained that it was a report on what Goldman needed to do to improve. It doesn't claim to be a policy itself.
+<v Jake Bernstein>我们把它展示给两位专家，那是熟悉美联储此项指导方针的前审查员。他们都说它不符合政策资格。一个人说它看起来更像是一种愿景类型的声明。席尔瓦还援引了高盛发布的一份报告，谈论它是如何改善其冲突政策的——这也是一个非政策，卡门说。她看过那份文件，文件本身解释说，它是一份关于高盛需要做什么来改进的报告。它本身并不声称是一项政策。
+
+00:51:39.190 --> 00:52:06.310
+<v Jake Bernstein>We reached out to Goldman Sachs with 10 pages of detailed questions. Goldman replied with a three paragraph statement. In it, they point out that Carmen Segarra had unsuccessfully interviewed for jobs at Goldman three years in a row. Carmen says this is true, and that she interviewed at a bunch of banks multiple times. In our questions, we asked point blank whether Goldman had a firm-wide conflict of interest policy for the period Carmen was examining.
+<v Jake Bernstein>我们联系了高盛，提出了10页详细的问题。高盛回复了一份三段话的声明。其中，他们指出卡门·塞加拉曾连续三年面试高盛工作失败。卡门说这是事实，她在多所银行多次面试过。在我们的问题中，我们直截了当地询问高盛在卡门审查期间是否有公司范围内的利益冲突政策。
+
+00:52:06.310 --> 00:52:35.890
+<v Jake Bernstein>Goldman doesn't answer that question, but says instead, quote, "Goldman Sachs has long had a comprehensive approach for addressing potential conflicts." And quote, "a quick Google search shows publicly available Goldman Sachs documents outlining the management of conflicts. Ms. Segarra's supervisors made that same discovery." Then the statement goes on to quote from the Mike Silva email I just told you about.
+<v Jake Bernstein>高盛没有回答这个问题，而是说，引用，“高盛长期以来有一种解决潜在冲突的综合方法。”而且引用，“一个快速的谷歌搜索显示了公开可用的概述冲突管理的高盛文件。塞加拉女士的主管做出了同样的发现。”然后声明继续引用我刚才告诉你的迈克·席尔瓦电子邮件。
+
+00:52:35.890 --> 00:52:50.870
+<v Jake Bernstein>Before Carmen could respond to Mike Silva's email, she was summoned to his office by his deputy. She made an excuse to grab something from her desk and flicked on her recorder. Silva and his deputy motioned her to a small table, and Silva got straight to the point.
+<v Jake Bernstein>在卡门回复迈克·席尔瓦的邮件之前，她被他的副手传唤到他的办公室。她找了个借口从桌子上抓了点东西，并打开了她的录音机。席尔瓦和他的副手示意她坐到一张小桌子旁，席尔瓦直奔主题。
+
+00:52:50.870 --> 00:52:57.680
+<v Carmen Segarra>Mike Silva sort of said, you have to come off the view that Goldman doesn't have any kind of conflicts of interest policy.
+<v Carmen Segarra>迈克·席尔瓦算是说，你必须放弃高盛没有任何利益冲突政策的观点。
+
+00:52:57.680 --> 00:53:09.370
+<v Mike Silva>Carmen, you have to come off the view that Goldman doesn't have any kind of conflict of interest policy. We can say they have to improve it--
+<v Mike Silva>卡门，你必须放弃高盛没有任何利益冲突政策的观点。我们可以说他们必须改进它——
+
+00:53:09.370 --> 00:53:49.810
+<v Jake Bernstein>The recording is muddy. Silva says, "We can say they have to improve it. Maybe they have to improve it a lot." Then he says, "But we're losing credibility saying they don't have one at all." Silva tells Carmen this isn't just coming from him, that lawyers, presumably the Fed's lawyers, say her conclusion's not valid. To claim that Goldman doesn't have a policy, he says, is, quote, "patently wrong." What Carmen does in this meeting is exactly what David Beim called her Fed examiners to do. She stands by her convictions, stands by her expert opinion. She stands up to her boss, even as he tells her she's wrong.
+<v Jake Bernstein>录音很模糊。席尔瓦说，“我们可以说他们必须改进它。也许他们必须改进很多。”然后他说，“但我们说他们根本没有，这正在失去可信度。”席尔瓦告诉卡门，这不仅仅是他一个人的意思，律师，大概是美联储的律师，说她的结论无效。他说，宣称高盛没有政策，引用，“显然是错误的。”卡门在这次会议中所做的是大卫·拜姆呼吁他的美联储审查员去做的事情。她坚持自己的信念，坚持自己的专家意见。她站起来面对她的老板，即使他告诉她她错了。
+
+00:53:49.810 --> 00:53:55.010
+<v Mike Silva>Carmen, I don't understand why your fixation on whether they do or don't have a policy.
+<v Mike Silva>卡门，我不明白为什么你固执于他们是否有政策。
+
+00:53:55.010 --> 00:53:59.070
+<v Jake Bernstein>He says he doesn't understand her fixation about whether Goldman has a policy or not.
+<v Jake Bernstein>他说他不明白她对高盛是否有政策的固执。
+
+00:53:59.070 --> 00:54:05.240
+<v Mike Silva>Why can't we just say they have basic pieces of a policy, but they have to dramatically improve it?
+<v Mike Silva>为什么我们不能仅仅说他们有政策的基本部分，但他们必须大幅改进它？
+
+00:54:05.240 --> 00:54:32.610
+<v Jake Bernstein>He asks, why can't we just say they have basic pieces of a policy, but they have to dramatically improve it? Carmen suggests two ways to handle their disagreement. She can meet with anybody at the Fed who doesn't see this the way she does, and walk them through the evidence. Or, she tells Silva, she can formally submit her findings and conclusions, and they can override them. They're her bosses, after all. She says she knows she's the low person on the totem pole.
+<v Jake Bernstein>他问，为什么我们不能仅仅说他们有政策的基本部分，但他们必须大幅改进它？卡门建议两种处理他们分歧的方式。她可以与美联储中任何不这么看的人见面，并带他们浏览证据。或者，她告诉席尔瓦，她可以正式提交她的发现和结论，他们可以推翻它们。毕竟，他们是她的老板。她说她知道她是图腾柱上最低的人。
+
+00:54:32.610 --> 00:55:04.050
+<v Jake Bernstein>We have no idea why Silva didn't go for that, why he needed his underling to agree. Carmen speculates that if she submitted her conclusions, it would create a formal record that her bosses didn't want. And if some day Goldman had other conflicts of interest problems, and there was some sort of congressional or outside investigation, it could make the Fed look bad. In the meeting, Silva will not let it go. He asks her over and over to change her conclusion, repeating at least seven times some version of, why do you have to say they don't have a policy?
+<v Jake Bernstein>我们不知道为什么席尔瓦没有那样做，为什么他需要他的下属同意。卡门推测，如果她提交了她的结论，它会创建一个她的老板们不想要的正式记录。如果有一天高盛有其他利益冲突问题，并且有某种国会或外部调查，它可能会使美联储看起来很糟糕。在会议中，席尔瓦不愿罢休。他一次又一次地要求她改变结论，至少七次重复了某种形式的，“为什么你必须说他们没有政策？”
+
+00:55:04.050 --> 00:55:10.190
+<v Mike Silva>Why do we have to say they don't have a policy? They have one. We can say it's a miserable one.
+<v Mike Silva>为什么我们必须说他们没有政策？他们有一个。我们可以说它是一个糟糕的。
+
+00:55:10.190 --> 00:55:17.000
+<v Jake Bernstein>Silva and Carmen go back and forth. Finally, after more than 30 minutes of this, Silva asks one last time.
+<v Jake Bernstein>席尔瓦和卡门来回辩论。最终，经过30多分钟的辩论，席尔瓦最后一次询问。
+
+00:55:17.000 --> 00:55:21.130
+<v Mike Silva>Can you tell me again, why do you have to say there's not a policy?
+<v Mike Silva>你能再告诉我一遍，为什么你必须说没有政策？
+
+00:55:21.130 --> 00:55:33.490
+<v Jake Bernstein>Can you tell me again, why do you have to say there's not a policy? Why can't you just say there's a very poor policy? Carmen says she was desperate to get out of that office. She relented.
+<v Jake Bernstein>你能再告诉我一遍，为什么你必须说没有政策？为什么你不能仅仅说有一个非常差的政策？卡门说她迫切想离开那个办公室。她让步了。
+
+00:55:33.490 --> 00:55:40.030
+<v Carmen Segarra>OK. I can work with you on that. I hear your plea. I hear your plea.
+<v Carmen Segarra>好的。我可以就此与你合作。我听到了你的恳求。我听到了你的恳求。
+
+00:55:40.030 --> 00:55:50.630
+<v Jake Bernstein>OK, I can work with you on that, she says. I hear your plea. I hear your plea. I can say it's a poor policy. Only she doesn't stop there. She can't help herself.
+<v Jake Bernstein>好的，我可以就此与你合作，她说。我听到了你的恳求。我听到了你的恳求。我可以说是政策很差。只是她没有就此停止。她无法控制自己。
+
+00:55:50.630 --> 00:55:53.530
+<v Carmen Segarra>Between you and me and these four walls--
+<v Carmen Segarra>在你我之间和这四面墙里——
+
+00:55:53.530 --> 00:55:56.360
+<v Jake Bernstein>Between you and me and these four walls, she says.
+<v Jake Bernstein>在你我之间和这四面墙里，她说。
+
+00:55:56.360 --> 00:55:59.540
+<v Carmen Segarra>No way. No way this is a policy.
+<v Carmen Segarra>没门。没门，这是一个政策。
+
+00:55:59.540 --> 00:56:02.510
+<v Jake Bernstein>No way. No way this is a policy.
+<v Jake Bernstein>没门。没门，这是一个政策。
+
+00:56:02.510 --> 00:56:03.530
+<v Carmen Segarra>I will work with you.
+<v Carmen Segarra>我会与你合作。
+
+00:56:03.530 --> 00:56:07.620
+<v Jake Bernstein>I will work with you, she says. I will say they have a very poor policy.
+<v Jake Bernstein>我会与你合作，她说。我会说他们有一个非常差的政策。
+
+00:56:07.620 --> 00:56:10.420
+<v Carmen Segarra>But professionally, I cannot agree.
+<v Carmen Segarra>但在专业上，我不能同意。
+
+00:56:10.420 --> 00:56:28.730
+<v Jake Bernstein>But professionally, I cannot agree. At this point, you can hear the life drain out of Silva's voice. He wearily tells her that he doesn't want to put her in a position where she has to say something she doesn't agree with. The conversation is over.
+<v Jake Bernstein>但在专业上，我不能同意。在这一点上，你可以听到席尔瓦声音中生命的流失。他疲惫地告诉她，他不想把她置于一个不得不说出她不同意的事情的位置。谈话结束了。
+
+00:56:28.730 --> 00:56:32.110
+<v Mike Silva>Thanks for coming in.
+<v Mike Silva>谢谢你的到来。
+
+00:56:32.110 --> 00:56:42.560
+<v Jake Bernstein>All right, Silva says, thanks for coming in.
+<v Jake Bernstein>好了，席尔瓦说，谢谢你的到来。
+
+00:56:42.560 --> 00:57:37.780
+<v Jake Bernstein>In 2009, David Beim wrote in his report on how the New York Fed must change to prevent the next financial crisis, quote, "Because so many seem to fear contradicting their bosses, senior managers must now repeatedly tell subordinates that they have a duty to speak up, even if that contradicts the boss. Evaluation of employees at year end might include specific categories, like willingness to speak up, willingness to contradict me." Mike Silva was actually part of the team that worked with Beim to come up with these recommendations. The following week, he had Carmen in for a meeting, and he fired her.
+<v Jake Bernstein>2009年，大卫·拜姆在他的报告中写道，关于纽约联储必须如何改变以防止下一次金融危机，引用，“因为许多人似乎害怕反驳他们的老板，高级管理人员现在必须反复告诉下属，他们有责任说出来，即使那反驳了老板。年底员工的评估可能包括特定的类别，例如说出来的意愿，反驳我的意愿。”迈克·席尔瓦实际上是与拜姆合作提出这些建议的团队的一员。接下来的一周，他召开了一次与卡门的会议，并解雇了她。
+
+00:57:37.780 --> 00:58:22.410
+<v Jake Bernstein>In a two page statement the Fed sent us last week, they say Carmen's concerns about the conflict of interest policy were, quote, "taken seriously and escalated by senior members of the team while she was inside Goldman Sachs." We asked a number of questions about consensus at the Fed and this is the closest thing they say in response. Quote, "Because of the potential impact of our decisions and actions, we review our determinations very thoroughly. To vet ideas and conclusions, we have developed a multi-step checks and balances review process, in which the supervisory team and its lead supervisor play a key role."
+<v Jake Bernstein>在上周美联储发给我们的两页声明中，他们说卡门关于利益冲突政策的担忧，引用，“在她进入高盛集团时，被团队的资深成员认真对待并向上汇报了。”我们询问了关于美联储共识的若干问题，这是他们回应中最接近的说法。引用，“由于我们的决定和行动的潜在影响，我们非常彻底地审查了我们的决心。为了审核想法和结论，我们开发了一个多步检查与平衡审查流程，其中监管团队及其首席主管发挥了关键作用。”
+
+00:58:22.410 --> 00:58:50.310
+<v Jake Bernstein>It's been almost 2 and 1/2 years since Carmen was fired. Last December, Mike Silva left the Fed. He now works for GE Capital. Jonathan Kim is still at the Fed. As for Carmen, in October, 2013, she sued the New York Fed as well as Mike Silva and Jonathan Kim for wrongful termination. She claims she was fired for simply performing her duties as a bank examiner. She sued for monetary damages, and for her job back.
+<v Jake Bernstein>距离卡门被解雇已经过去将近2年半了。去年12月，迈克·席尔瓦离开了美联储。他现在为通用电气资本（GE Capital）工作。乔纳森·金仍然在美联储。至于卡门，在2013年10月，她起诉了纽约联储以及迈克·席尔瓦和乔纳森·金非法解雇。她声称她被解雇仅仅是因为她履行了作为银行审查员的职责。她起诉要求经济赔偿，并要求复职。
+
+00:58:50.310 --> 00:59:23.670
+<v Jake Bernstein>In the statement the Fed sent us last week they say, quote, "The decision to terminate Ms. Segarra's employment with the New York Fed was based entirely on performance grounds, not because she raised concerns as a member of an examination team about any institution." In the spring, a judge threw Carmen's suit out, saying the law Carmen sued the Fed under did not apply in this case. Carmen is going to appeal.
+<v Jake Bernstein>在上周美联储发给我们的声明中，他们说，引用，“终止塞加拉女士与纽约联储雇佣关系的决定完全基于工作表现，而不是因为她作为审查团队成员向任何机构提出了担忧。”在春天，一名法官驳回了卡门的诉讼，称卡门起诉美联储所依据的法律不适用于本案。卡门正在上诉。
+
+00:59:23.670 --> 00:59:54.600
+<v Jake Bernstein>I've done interviews with other former Fed employees, and they all say there are competent, conscientious people working at the Fed. Carmen agrees with that, and on her recordings, we heard people like that. And in the aftermath of the financial crisis, the Fed has tried to fix some things. In its statement to us, it says it's always trying to improve. People who work with banks told us that the Fed and other regulators have gotten tougher recently, but culture is insidious. It's tough to change.
+<v Jake Bernstein>我采访了其他前美联储员工，他们都说美联储有称职、尽责的人在工作。卡门同意这一点，在她的录音中，我们听到了像那样的人。而在金融危机后，美联储试图修复一些事情。在给我们的声明中，它说它一直在试图改进。与银行一起工作的人告诉我们，美联储和其他监管者最近变得更强硬了，但文化是阴险的。它很难改变。
+
+00:59:54.600 --> 01:00:33.570
+<v Jake Bernstein>Employees who work at the Fed as recently as last year told me they witnessed some of the same cultural problems David Beim documented and Carmen Segarra encountered, the same deference to the banks, and a lack of inquisitiveness and mismanagement. We don't know if the culture at the New York Fed is improving. And because it's such a secretive place, we probably won't know unless someone comes out with more secret recordings, or Congress forces them to answer some questions, or there's another financial crisis.
+<v Jake Bernstein>像去年一样在美联储工作的员工告诉我，他们见证了与大卫·拜姆记录和卡门·塞加拉遇到的相同的文化问题，即对银行的相同顺从，缺乏好奇心和管理不善。我们不知道纽约联储的文化是否在改善。而且因为那是一个如此隐秘的地方，除非有人带出更多秘密录音，或者国会强迫他们回答一些问题，或者发生另一次金融危机，否则我们可能不会知道。
+
+01:00:33.570 --> 01:00:53.940
+<v Ira Glass>Jake Bernstein. His online version of this story is at propublica.org. At our website, we'll be posting the questions that we sent to the Fed and to Goldman Sachs as well as their full responses. That's at thisamericanlife.org.
+<v Ira Glass>杰克·伯恩斯坦。他的这个故事的在线版本在propublica.org。在我们的网站上，我们将发布我们发送给美联储和高盛的问题，以及他们的完整回应。网址是thisamericanlife.org。
+
+01:00:53.940 --> 01:01:19.050
+<v Ira Glass>Our story was produced today by Brian Reed, who also did research and reporting on the story. Our show is produced with help from Alex Blumberg, Ben Calhoun, Stephanie Foo, Chana Joffee-Walt, Sarah Koenig, Miki Meek, Jonathan Menjivar, Robyn Semien, Alissa Shipp, and Nancy Updike. Our Senior Producer is Julie Snyder, production help from J.P. Dukes. Seth Lind is our Operations Director. Emily Condon's our Production Manager. Elise Bergerson's our office manager. Adrianne Mathiowetz runs our website.
+<v Ira Glass>我们的故事今天由布莱恩·里德制作，他也做了故事的研究和报道。我们的节目由亚历克斯·布隆伯格（Alex Blumberg）、本·卡尔霍恩（Ben Calhoun）、斯蒂芬妮·福（Stephanie Foo）、查纳·乔菲-沃尔特（Chana Joffee-Walt）、莎拉·柯尼格（Sarah Koenig）、美纪·米克（Miki Meek）、乔纳森·门吉瓦尔（Jonathan Menjivar）、罗宾·塞米恩（Robyn Semien）、艾丽莎·希普（Alissa Shipp）和南希·厄普代克（Nancy Updike）协助制作。我们的资深制作人是朱莉·斯奈德（Julie Snyder），J.P.杜克斯（J.P. Dukes）提供制作帮助。塞思·林德（Seth Lind）是我们的运营总监。艾米丽·康登（Emily Condon）是我们的制作经理。埃莉斯·伯格森（Elise Bergerson）是我们的办公室经理。阿德里安娜·马西奥韦茨（Adrianne Mathiowetz）负责我们的网站。
+
+01:01:19.050 --> 01:01:39.090
+<v Ira Glass>Our partner's at ProPublica-- Tom Detzel, Steve Engelberg, Robin Fields, Dick Tofel, Abby Nearing, and Nicole Collins Bronzan. Thanks today to Rob Rosenthal, Mark Phillips, and Lou Teti. Research help today from Christopher Swetala, music help from Damien Graef. This American Life is delivered to public radio stations by PRX, the Public Radio Exchange.
+<v Ira Glass>我们的合作伙伴在ProPublica——汤姆·德策尔（Tom Detzel）、史蒂夫·恩格尔伯格（Steve Engelberg）、罗宾·菲尔兹（Robin Fields）、迪克·托费尔（Dick Tofel）、艾比·尼林（Abby Nearing）和尼科尔·柯林斯·布隆赞（Nicole Collins Bronzan）。今天感谢罗布·罗森塔尔（Rob Rosenthal）、马克·菲利普斯（Mark Phillips）和卢·泰蒂（Lou Teti）。今天的研究帮助来自克里斯托弗·斯威塔拉（Christopher Swetala），音乐帮助来自达米安·格拉夫（Damien Graef）。《这种美国生活》由PRX（公共广播交流中心）分发到公共广播电台。
+
+01:01:39.090 --> 01:01:52.670
+<v Ira Glass>Thanks, as always, to our program's cofounder, Mr. Torey Malatia. Whenever he and I need to get a cab together, Torey always says, you know, the best way to get the cab is to walk into the middle of the street, stand directly in the cab's path. They will totally see us and come to a halt.
+<v Ira Glass>感谢，一如既往，我们节目的联合创始人，托雷·马拉蒂亚（Torey Malatia）先生。每当他和我要一起打车时，托雷总是说，你知道，打车最好的方法是走到街道中间，直接站在出租车的路径上。他们会完全看到我们并停下来。
+
+01:01:52.670 --> 01:01:55.390
+<v Torey Malatia>The only downside risk is that they choose to ignore us.
+<v Torey Malatia>唯一的下行风险是他们选择忽略我们。
+
+01:01:55.390 --> 01:02:00.390
+<v Ira Glass>I'm Ira Glass, back next week with more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯，下周带回更多《这种美国生活》的故事。

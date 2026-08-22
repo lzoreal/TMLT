@@ -1,0 +1,1397 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:23.170
+<v Ira Glass>From WBEZ Chicago, it's This American Life . I'm Ira Glass. OK, so for months around here at our radio show, we have all been preparing for this day today. The date of this day has been written on our white board in big letters for months, because this is the day that we launch our first real spin-off. As of today, we're not making just one weekly show here, but two shows.
+<v Ira Glass>来自芝加哥WBEZ电台，《美国生活》节目。我是艾拉·格拉斯。好的，我们广播节目组为了今天这一天，已经准备了好几个月。这个日期几个月前就被用大号字体写在我们的白板上了，因为今天是我们推出首个真正衍生节目的日子。从今天起，我们每周制作的节目将不再是一档，而是两档。
+
+00:00:23.170 --> 00:00:44.860
+<v Ira Glass>Our second show is called Serial . That's not like breakfast, but the kind of serial where one thing follows another. And I've mentioned this show on the air before. But just in case you missed that, here's the premise of the new show. Instead of each episode bringing you a different theme and different stories, every episode of Serial brings you back to the exact same story and tells you the next chapter in that story.
+<v Ira Glass>我们的第二个节目叫《Serial》。它不是早餐那种麦片，而是指一件事接着另一件事的那种“连载”。我之前在节目里提到过这个新节目。但以防你错过了，这里介绍一下新节目的前提：每一集不再是不同的主题和故事，每一集《Serial》都会带你回到同一个故事中，为你讲述该故事的下一个章节。
+
+00:00:44.860 --> 00:00:59.270
+<v Ira Glass>This is a long story told over a dozen episodes, a true story. One of our producers and regular contributors, Sarah Koenig, is going to be hosting the new series. And the first story Serial is taking on is about a murder.
+<v Ira Glass>这是一个横跨十几集的真实故事。我们的制片人兼常驻撰稿人之一莎拉·凯尼格将担任新系列的讲述人。《Serial》处理的第一个故事是一起谋杀案。
+
+00:00:59.270 --> 00:01:13.210
+<v Ira Glass>It's a case where what really happened is actually much more complicated than the jury ever heard when this thing went to trial. And each week we will go with Sarah on her hunt to figure out what really happened. And we will learn the answers as she does.
+<v Ira Glass>这是一个案件，其中真正发生的事情比陪审团在审判时听到的要复杂得多。每周，我们将跟随莎拉一起去探寻真相，并在她发现答案的同时，我们也会了解真相。
+
+00:01:13.210 --> 00:01:28.010
+<v Ira Glass>Our new show, by the way, is not a radio show. It's a podcast. I'll explain more about that later in the hour. And what we're going to do today here on the radio is play you the first episode. OK, and so with that, here's Sarah. And I really hope you like this.
+<v Ira Glass>顺便说一下，我们的新节目不是广播节目，它是播客。稍后我会详细解释。今天在广播里，我们要做的就是播放它的第一集。好了，那么，有请莎拉。我真诚地希望你们会喜欢。
+
+00:01:28.010 --> 00:01:55.720
+<v Sarah Koenig>For the last year, I've spent every working day trying to figure out where a high school kid was for an hour after school one day in 1999-- or if you want to get technical about it, and apparently I do, where a high school kid was for 21 minutes after school one day in 1999. This search sometimes feels undignified on my part. I've had to ask about teenagers' sex lives, where, how often, with whom, about notes they passed in class, about their drug habits, their relationships with their parents.
+<v Sarah Koenig>过去这一年，我每天都在试图弄清楚一个高中生在1999年某天放学后的那一小时在哪里——或者，如果你想扣细节的话，显然我也得这么做，弄清楚他在放学后的21分钟里在哪里。这种搜寻有时让我觉得有些没尊严。我不得不询问青少年的性生活、地点、频率、对象，询问他们在课堂上传的纸条，他们的毒品习惯，以及他们与父母的关系。
+
+00:01:55.720 --> 00:02:16.710
+<v Sarah Koenig>And I'm not a detective or a private investigator. I've not even a crime reporter. But, yes, every day this year, I've tried to figure out the alibi of a 17-year-old boy. Before I get into why I've been doing this, I just want to point out something I'd never really thought about before I started working on this story. And that is, it's really hard to account for your time, in a detailed way, I mean.
+<v Sarah Koenig>我不是侦探，也不是私家侦探，甚至不是犯罪记者。但是，是的，今年每一天，我都在试图理清一个17岁男孩的不在场证明。在我说明为什么要这样做之前，我想指出一点，这是我在开始这个故事之前从未真正想过的：要详细地交代你的时间去向，真的非常困难。
+
+00:02:16.710 --> 00:02:23.350
+<v Sarah Koenig>How'd you get to work last Wednesday, for instance? Drive? Walk? Bike? Was it raining? Are you sure?
+<v Sarah Koenig>例如，上周三你是怎么去上班的？开车？走路？骑车？下雨了吗？你确定吗？
+
+00:02:23.350 --> 00:02:32.720
+<v Sarah Koenig>Did you go to any stores that day? If so, what did you buy? Who did you talk to? The entire day, name every person you talked to. It's hard.
+<v Sarah Koenig>那天你去过商店吗？如果去了，买了什么？你和谁交谈过？想想这一整天，列出你交谈过的每一个人。这很难。
+
+00:02:32.720 --> 00:02:49.730
+<v Sarah Koenig>Now imagine you have to account for a day that happened six weeks back. Because that's the situation in the story I'm working on in which a bunch of teenagers had to recall a day six weeks earlier. And it was 1999, so they had to do it without the benefit of texts or Facebook or Instagram. Just for a lark, I asked some teenagers to try it.
+<v Sarah Koenig>现在想象一下，你要交代六周前某一天的情况。因为这就是我正在研究的故事中的情况，一群青少年不得不回忆起六周前的一天。那是1999年，他们没有短信、Facebook或Instagram来辅助。我只是出于好奇，请一些青少年尝试了一下。
+
+00:02:49.730 --> 00:02:51.540
+<v Sarah Koenig>Do you remember what you did on that Friday?
+<v Sarah Koenig>你还记得那个周五你做了什么吗？
+
+00:02:51.540 --> 00:02:57.130
+<v Tyler>No. Not at all. I can't remember anything.
+<v Tyler>不记得。一点都不记得。我什么都不记得了。
+
+00:02:57.130 --> 00:02:58.010
+<v Sarah Koenig>Wait, nothing?
+<v Sarah Koenig>等等，什么都不记得？
+
+00:02:58.010 --> 00:03:06.860
+<v Tyler>No. I can't remember anything that far back. I'm pretty sure I was in school. I think-- no?
+<v Tyler>不记得。太久远的事情我什么都记不起来。我挺确定我当时在学校。我想——不对吗？
+
+00:03:06.860 --> 00:03:11.630
+<v Sarah Koenig>That's Tyler. He's 18. I asked my nephew Sam. He's 18, too.
+<v Sarah Koenig>那是泰勒，他18岁。我问了我的侄子萨姆，他也18岁。
+
+00:03:11.630 --> 00:03:23.980
+<v Sam>Not a clue. In school, probably. I would be in school. Actually, I think I worked that day. Yeah, I worked that day. And I went to school. That was about it.
+<v Sam>毫无头绪。可能在学校吧。我应该在学校。实际上，我想那天我工作了。是的，那天我工作了，而且我也去了学校。大概就这些。
+
+00:03:23.980 --> 00:03:25.910
+<v Sarah Koenig>Actually, on second thought?
+<v Sarah Koenig>其实，再仔细想想？
+
+00:03:25.910 --> 00:03:27.310
+<v Sam>I don't think I went to school that day.
+<v Sam>我觉得那天我没去学校。
+
+00:03:27.310 --> 00:03:28.780
+<v Sarah Koenig>You don't think you went.
+<v Sarah Koenig>你觉得你没去。
+
+00:03:28.780 --> 00:03:31.240
+<v Sam>Yeah, no, I didn't. I definitely didn't.
+<v Sam>对，没去，我确定一定没去。
+
+00:03:31.240 --> 00:03:34.660
+<v Sarah Koenig>Here's Sam's friend Elliot. He seemed to have better recall.
+<v Sarah Koenig>这是萨姆的朋友埃利奥特。他似乎记得清楚一些。
+
+00:03:34.660 --> 00:03:37.990
+<v Elliot>Actually, I may have gone to the movies that night later.
+<v Elliot>其实，那天晚上我可能去看了电影。
+
+00:03:37.990 --> 00:03:39.100
+<v Sarah Koenig>Do you remember what you saw?
+<v Sarah Koenig>记得看了什么吗？
+
+00:03:39.100 --> 00:03:42.490
+<v Elliot>Now that I'm thinking. I'm sorry? Yeah, I think I saw 22 Jump Street .
+<v Elliot>让我想想。抱歉？噢，是的，我想我看了《龙虎少年队2》。
+
+00:03:42.490 --> 00:03:45.590
+<v Sarah Koenig>OK. And did you go with friends?
+<v Sarah Koenig>好的，你是和朋友一起去的吗？
+
+00:03:45.590 --> 00:03:51.640
+<v Elliot>Yeah. I went with Sam and this kid Sean, Carter, a bunch of people.
+<v Elliot>对，我和萨姆还有那个叫肖恩的孩子，卡特，还有一堆人一起去的。
+
+00:03:51.640 --> 00:03:54.120
+<v Sarah Koenig>Wait, Sam, my nephew Sam?
+<v Sarah Koenig>等等，萨姆，我的侄子萨姆？
+
+00:03:54.120 --> 00:03:55.080
+<v Elliot>Yeah, yeah.
+<v Elliot>对，是啊。
+
+00:03:55.080 --> 00:03:58.480
+<v Sarah Koenig>Oh, OK. So Sam says he was at work.
+<v Sarah Koenig>噢，好吧。所以萨姆说他那天在上班。
+
+00:03:58.480 --> 00:04:02.180
+<v Elliot>Oh, then it wasn't that night, then.
+<v Elliot>噢，那应该就不是那天晚上。
+
+00:04:02.180 --> 00:04:20.980
+<v Sarah Koenig>One kid did actually remember pretty well, because it was the last day of state testing at his school and he'd saved up to go to a nightclub. That's the main thing I learned from this exercise, which is no big shocker, I guess. If some significant event happened that day, you remember that, plus you remember the entire day much better.
+<v Sarah Koenig>确实有一个孩子记得很清楚，因为那天是他学校州统考的最后一天，他攒钱去了一家夜店。这就是我从这个练习中学到的主要东西，我想这并不令人惊讶：如果那天发生了什么重要的事情，你会记得，而且你会把那一整天记得更清楚。
+
+00:04:20.980 --> 00:04:32.710
+<v Sarah Koenig>If nothing significant happened, then the answers get very general. I most likely did this, or I most likely did that. These are words I've heard a lot lately. Here's the case I've been working on.
+<v Sarah Koenig>如果没有发生什么重要的事情，那么答案就会变得非常笼统。我很有可能做了这个，或者我很有可能做了那个。这些话我最近听了很多。这就是我一直在研究的案子。
+
+00:04:32.710 --> 00:04:50.840
+<v Sarah Koenig>Almost 15 years ago, on January 13, 1999, a girl named Hae Min Lee disappeared. She was a senior at Woodlawn High School in Baltimore County in Maryland. She was Korean. She was smart, and beautiful, and cheerful, and a great athlete. She played field hockey and lacrosse. And she was responsible.
+<v Sarah Koenig>将近15年前，即1999年1月13日，一个叫李海敏的女孩失踪了。她是马里兰州巴尔的摩县伍德劳恩高中的高年级学生。她是韩国裔，聪明、漂亮、开朗，还是一位出色的运动员，打曲棍球和长曲棍球。她很有责任心。
+
+00:04:50.840 --> 00:05:01.680
+<v Sarah Koenig>Right after school she was supposed to pick up her little cousin from kindergarten and drop her home. But she didn't show. That's when Hae Lee's family knew something was up, when the cousin's school called.
+<v Sarah Koenig>放学后她本该去幼儿园接小表妹并送她回家，但她没出现。当表妹学校打来电话时，李海家人才意识到出事了。
+
+00:05:01.680 --> 00:05:17.340
+<v Sarah Koenig>About a month later, on February 9, Hae's body was found in a big park in Baltimore, really a rambling forest. A maintenance guy who said he'd stopped to take a leak on his way to work discovered her there. He'd noticed a bit of her black hair poking out of a shallow grave.
+<v Sarah Koenig>大约一个月后，即2月9日，海的尸体在巴尔的摩的一个大公园里被发现，其实就是一片荒凉的树林。一个维护工人说他在上班路上停下来撒尿时发现了她。他注意到她的一点黑头发从浅浅的坟墓里露了出来。
+
+00:05:17.340 --> 00:05:39.230
+<v Sarah Koenig>The cause of death was manual strangulation, meaning someone did it with their hands. A couple weeks after that, so six weeks after she first went missing, Hae's ex-boyfriend, a guy named Adnan Syed, was arrested for her murder. He's been in prison ever since.
+<v Sarah Koenig>死因是手工勒死，意味着有人用双手行凶。在那之后几周，也就是她失踪六周后，海的前男友，一个叫阿德南·赛义德的家伙，因谋杀她而被捕。从那以后他一直被关在监狱里。
+
+00:05:39.230 --> 00:05:51.030
+<v Sarah Koenig>I first heard about this story more than a year ago when I got an email from a woman named Rabia Chaudry. Rabia knows Adnan pretty well. Her younger brother Saad is Adnan's best friend. And they believe he's innocent.
+<v Sarah Koenig>我第一次听说这个故事是在一年多前，当时我收到了一位叫拉比娅·乔杜里的女士发来的邮件。拉比娅很了解阿德南。她的弟弟萨阿德是阿德南最好的朋友。他们相信他是无辜的。
+
+00:05:51.030 --> 00:06:09.110
+<v Sarah Koenig>Rabia was writing to me because, way back when, I used to be a reporter for the Baltimore Sun , and she'd come across some stories I'd written about a well-known defense attorney in Baltimore who'd been disbarred for mishandling client money. That attorney was the same person who defended Adnan, her last major trial, in fact.
+<v Sarah Koenig>拉比娅给我写信是因为，很久以前，我曾是《巴尔的摩太阳报》的记者，她偶然看到了我写的一些关于巴尔的摩一位知名辩护律师的文章，那名律师因挪用客户资金而被取消律师资格。那位律师正是阿德南的辩护人，事实上，那是她最后的一场大审判。
+
+00:06:09.110 --> 00:06:20.220
+<v Sarah Koenig>Rabia told me she thought the attorney botched the case-- not just botched it, actually, but threw the case on purpose so she could get more money for the appeal. The lawyer had died a few years later. She'd been sick.
+<v Sarah Koenig>拉比娅告诉我，她认为那个律师搞砸了案子——其实不仅是搞砸，而是故意输掉官司，这样她就能在申诉中赚更多钱。那名律师几年后去世了，她当时病得很重。
+
+00:06:20.220 --> 00:06:27.510
+<v Sarah Koenig>Rabia asked if I would please just take a look at Adnan's case. I don't get emails like this every day. So I thought, sure, why not?
+<v Sarah Koenig>拉比娅问我是否能看看阿德南的案子。我每天不会收到这样的邮件。所以我想，当然，为什么不呢？
+
+00:06:27.510 --> 00:06:53.830
+<v Sarah Koenig>I read a few newspaper clips about the case, looked up a few trial records. And on paper, the case was like a Shakespearean mashup-- young lovers from different worlds thwarting their families, secret assignations, jealousy, suspicion, and honor besmirched, the villain not a Moor exactly, but a Muslim all the same, and a final act of murderous revenge. And the main stage? A regular old high school across the street from a 7-Eleven.
+<v Sarah Koenig>我阅读了一些关于此案的报纸剪辑，查阅了一些审判记录。纸面上看，这个案子就像莎士比亚作品的杂烩——来自不同世界的年轻恋人违抗家人、秘密约会、嫉妒、猜疑和受损的荣誉，反派虽然不是摩尔人，但依然是穆斯林，最终还有谋杀性的复仇结局。而主要舞台？一家7-Eleven对面的普通旧高中。
+
+00:06:53.830 --> 00:06:56.820
+<v Sarah Koenig>Hi, are you Rabia? Hi. Am I saying your name correctly?
+<v Sarah Koenig>你好，你是拉比娅吗？你好。你的名字我发音对吗？
+
+00:06:56.820 --> 00:06:57.220
+<v Rabia>Rabia.
+<v Rabia>拉比娅。
+
+00:06:57.220 --> 00:06:57.720
+<v Sarah Koenig>Rabia. OK.
+<v Sarah Koenig>拉比娅。好的。
+
+00:06:57.720 --> 00:07:10.240
+<v Sarah Koenig>I went to go see Rabia. She was surrounded by paper-- files, loose stacks, binders, some crappy looking boxes-- all court documents and attorney's files from Adnan's case. Some of the papers were warped and discolored.
+<v Sarah Koenig>我去看望了拉比娅。她被各种文件包围着——档案、松散的文件堆、活页夹、一些看起来破旧的盒子——全都是阿德南案的法庭文件和律师卷宗。有些文件已经变形且褪色了。
+
+00:07:10.240 --> 00:07:12.550
+<v Sarah Koenig>Why do they look wet? They look wet.
+<v Sarah Koenig>它们看起来为什么湿湿的？看起来是湿的。
+
+00:07:12.550 --> 00:07:14.520
+<v Rabia>These have been damaged, because these--
+<v Rabia>这些损坏了，因为这些——
+
+00:07:14.520 --> 00:07:29.910
+<v Sarah Koenig>She explained that it was because the boxes had been in her car, on and off, for 15 years. Rabia is a lawyer herself. She mostly does immigration stuff. Her office takes up the corner of a much larger open space that I think is a Pakistani travel agency, though it's hard to tell.
+<v Sarah Koenig>她解释说这是因为这些盒子断断续续在她的车里放了15年。拉比娅自己也是一名律师，主要处理移民案件。她的办公室占据了一个更大开放空间的一角，我想那是一家巴基斯坦旅行社，虽然很难辨认。
+
+00:07:29.910 --> 00:07:41.920
+<v Sarah Koenig>It's in this little strip mall. Across the parking lot, there's a new Pakistani restaurant, an African evangelical church, an Indian clothing shop, a convenience store. On the sidewalk outside, I found a teeny weeny bag of marijuana.
+<v Sarah Koenig>它在一个小购物中心里。在停车场对面，有一家新的巴基斯坦餐馆、一家非洲福音派教堂、一家印度服装店和一家便利店。在外面的人行道上，我发现了一小袋大麻。
+
+00:07:41.920 --> 00:07:52.970
+<v Sarah Koenig>Baltimore County is like this, at least on the west side. It's where a lot of middle class and working class people go, many immigrants included, to get their kids out of the badass city. Though the badass city is close by.
+<v Sarah Koenig>巴尔的摩县就是这样，至少在西区是这样。许多中产阶级和工薪阶层，包括许多移民，都去那里让他们的孩子远离糟糕的城市。虽然那个糟糕的城市离得很近。
+
+00:07:52.970 --> 00:08:03.940
+<v Sarah Koenig>Rabia is 40. She's short, and she's got a beautiful round face framed by hijab. She's adorable looking, but you definitely shouldn't mess with her. She's very smart and very tough, and she could crush you.
+<v Sarah Koenig>拉比娅40岁。她个子不高，有一张美丽的圆脸，戴着头巾。她看起来很可爱，但你绝对不该招惹她。她非常聪明且强硬，能把你压垮。
+
+00:08:03.940 --> 00:08:23.280
+<v Sarah Koenig>Her brother Saad was at Rabia's office too the first time I went. He's 33, a mortgage broker, more laid back than Rabia. They told me about Adnan Syed, their friend-- not just a good kid, but an especially good kid-- smart, kind, goofy, handsome. So that when he was arrested for murder, so many people who know him were stunned.
+<v Sarah Koenig>我第一次去的时候，她的弟弟萨阿德也在拉比娅的办公室。他33岁，是抵押贷款经纪人，比拉比娅随和。他们跟我讲了他们的朋友阿德南·赛义德——不仅是个好孩子，还是个特别好的孩子——聪明、善良、傻乎乎、英俊。所以当他因谋杀罪被捕时，所有认识他的人都惊呆了。
+
+00:08:23.280 --> 00:08:26.150
+<v Rabia>He was like the community's golden child.
+<v Rabia>他就像社区里的“金童”。
+
+00:08:26.150 --> 00:08:27.500
+<v Sarah Koenig>Oh, really? Talk more about that.
+<v Sarah Koenig>噢，真的吗？多说说这个。
+
+00:08:27.500 --> 00:08:49.480
+<v Rabia>He was an honor roll student, volunteer EMT. He was on the football team. He was a star runner on the track team. He was the homecoming king. He led prayers at the mosque. Everybody knew Adnan to be somebody who was going to do something really big.
+<v Rabia>他是荣誉学生、志愿急救员。他是足球队的，也是田径队的明星短跑选手。他是返校节国王。他在清真寺领祷。每个人都知道阿德南是一个注定会成就大事的人。
+
+00:08:49.480 --> 00:09:06.160
+<v Sarah Koenig>I later fact checked all these accolades, of course, and learned that Rabia was mostly right, though she sometimes gets a little loosey-goosey with the details. Adnan was an EMT, but he didn't volunteer. He was paid for it. He was on the track team, but he wasn't a star. He did play football. And he did lead prayers on occasion.
+<v Sarah Koenig>我后来当然核实了所有这些赞美之词，了解到拉比娅大多是正确的，尽管她有时在细节上有点随意。阿德南确实是急救员，但他不是志愿者，他是拿工资的。他确实在田径队，但他不是明星。他确实打过橄榄球。他偶尔也领祷。
+
+00:09:06.160 --> 00:09:18.850
+<v Sarah Koenig>He wasn't homecoming king. But he was prince of his junior prom, and this at a high school that was majority black. They picked the Pakistani Muslim kid. So you get the picture. He was an incredibly likable and well-liked kid.
+<v Sarah Koenig>他不是返校节国王。但他曾是高二舞会的王子，而那所高中主要是黑人学生。他们选了这个巴基斯坦穆斯林孩子。所以你大概明白了。他是一个非常有感染力且深受欢迎的孩子。
+
+00:09:18.850 --> 00:09:41.210
+<v Sarah Koenig>This conversation with Rabia and Saad, this is what launched me on this yearlong-- "obsession" is maybe too strong a word-- let's say fascination with this case. By the end of this hour, you're going to hear different people tell different versions of what happened the day Hae Lee was killed. But let's start with the most important version of the story, the one Rabia told me first. And that's the one that was presented at trial.
+<v Sarah Koenig>这次与拉比娅和萨阿德的对话，开启了我这一年的——“痴迷”这个词或许太重了——姑且说是对这个案子的着迷吧。在这一小时结束时，你会听到不同的人讲述关于海·李遇害那天发生的事情的不同版本。但我们先从故事最核心的版本开始，即拉比娅最先告诉我的那个。也就是法庭上提交的版本。
+
+00:09:41.210 --> 00:09:56.250
+<v Sarah Koenig>The state's case against Adnan went like this. He and Hae had been going out since junior prom. But Adnan wasn't supposed to be dating at all. Adnan was born in the US, but his parents are from Pakistan. And they're conservative Muslims-- no drinking, no smoking, no girls, all that.
+<v Sarah Koenig>州政府对阿德南的诉讼是这样的：他和海从高二舞会开始就在交往。但阿德南本不该谈恋爱的。阿德南出生在美国，但他的父母来自巴基斯坦，他们是保守的穆斯林——不喝酒、不抽烟、不接触女生，诸如此类。
+
+00:09:56.250 --> 00:10:08.780
+<v Sarah Koenig>Saad and Rabia's parents are the same way. Their families are friends. But even though Adnan and Saad and their buddies were Muslims, they were also, shall we say, healthy American teenagers who were going to do what teenagers do, so long as they didn't get caught.
+<v Sarah Koenig>萨阿德和拉比娅的父母也是这样。他们的家庭是朋友。但尽管阿德南、萨阿德和他们的哥们儿都是穆斯林，他们也是，我们姑且称之为健康的美国青少年，他们会做青少年该做的事，只要不被抓住就行。
+
+00:10:08.780 --> 00:10:28.960
+<v Sarah Koenig>So Adnan had to keep his relationship with Hae secret. The state used this against him in two ways. First, they argued, he put everything on the line-- his family, his relationships at the mosque-- to run around with this girl. So that when she broke up with him eight months later, he was left with nothing, and he was outraged. He couldn't take it, and he killed her.
+<v Sarah Koenig>所以阿德南不得不向海隐瞒他们的关系。州政府以两种方式利用了这一点针对他。首先，他们辩称，他押上了一切——他的家庭、他在清真寺的关系——去和这个女孩交往。所以当八个月后她和他分手时，他一无所有，他感到愤怒。他无法接受，于是杀害了她。
+
+00:10:28.960 --> 00:10:40.140
+<v Sarah Koenig>And the second way they used it, as they said-- look at what a liar he is, how duplicitous. He plays the good Muslim son at home and at the mosque, but look what he was up to. Saad remembers the prosecutor's closing argument at trial.
+<v Sarah Koenig>第二种方式，他们说——看看他是个多大的骗子，多么虚伪。他在家里和清真寺扮演好穆斯林儿子的角色，但看看他私下里都在干什么。萨阿德记得检察官在审判时的结案陈词。
+
+00:10:40.140 --> 00:10:45.130
+<v Saad>His family didn't know that he actually drank, he smoked, he was having sex.
+<v Saad>他的家人不知道他其实喝酒、抽烟，还在发生性行为。
+
+00:10:45.130 --> 00:10:53.960
+<v Sarah Koenig>This was proof of bad character, someone who could be a murderer. But Saad says, if Adnan is guilty of anything, it's of being a normal kid with immigrant parents.
+<v Sarah Koenig>这是他品行恶劣的证据，证明他是一个可能成为杀人犯的人。但萨阿德说，如果说阿德南有什么罪的话，那就是他是一个有移民父母的正常孩子。
+
+00:10:53.960 --> 00:11:02.590
+<v Saad>So the prosecution had painted Adnan as a totally bipolar or a maniacal dual personality.
+<v Saad>所以控方把阿德南描绘成了一个彻底的双重人格，或者是精神分裂的狂人。
+
+00:11:02.590 --> 00:11:05.380
+<v Sarah Koenig>We all grew up with that dual personality.
+<v Sarah Koenig>我们都是在那样的双重人格中长大的。
+
+00:11:05.380 --> 00:11:12.340
+<v Saad>I know, it was forced. I'm the same way. I was like, they could paint the same thing. Because I was actually homecoming king, which I don't know if my sister even knows.
+<v Saad>我知道，这是被迫的。我也是这样。我当时想，他们可以描绘相同的东西。因为我实际上就是返校节国王，我甚至不知道我姐姐是否知道。
+
+00:11:12.340 --> 00:11:12.920
+<v Rabia>I did not know this.
+<v Rabia>我不知道这个。
+
+00:11:12.920 --> 00:11:16.620
+<v Saad>She did not know. So I was dating a girl that was--
+<v Saad>她不知道。所以我当时在和一个女孩约会，那是——
+
+00:11:16.620 --> 00:11:20.020
+<v Sarah Koenig>And why is homecoming king bad? That sounds like a good thing.
+<v Sarah Koenig>为什么返校节国王是不好的？听起来是个好事情。
+
+00:11:20.020 --> 00:11:21.640
+<v Rabia>We don't go to homecoming. We don't--
+<v Rabia>我们不去返校节。我们不——
+
+00:11:21.640 --> 00:11:22.430
+<v Sarah Koenig>Because it's a dance.
+<v Sarah Koenig>因为它是个舞会。
+
+00:11:22.430 --> 00:11:24.600
+<v Rabia>It's a dance. It's a mixed gender--
+<v Rabia>它是个舞会。这是混合性别的——
+
+00:11:24.600 --> 00:11:42.740
+<v Saad>So I was in the same boat. My parents, my sister, they didn't know about this at all. Right now, more than 10 year later, she's finding out. I know, I'll admit. On one side, my family thinks I'm a virgin. But on the other hand, I play-- you know.
+<v Saad>所以我和他是一样的。我的父母，我的姐姐，他们根本不知道这些。现在，十年多以后，她才发现。我知道，我承认。一方面，我的家人认为我是处男。但另一方面，我玩——你知道。
+
+00:11:42.740 --> 00:11:43.480
+<v Rabia>--way too much.
+<v Rabia>——太多了。
+
+00:11:43.480 --> 00:11:44.390
+<v Saad>But it's the truth.
+<v Saad>但这是事实。
+
+00:11:44.390 --> 00:11:45.500
+<v Sarah Koenig>TMI, TMI, TMI.
+<v Sarah Koenig>信息量太大，信息量太大。
+
+00:11:45.500 --> 00:11:50.830
+<v Saad>See that? That right there is kind of making her feel uncomfortable. She's like, whoa, whoa, whoa.
+<v Saad>看到了吗？那确实让她感到不舒服。她会觉得，哇，哇，哇。
+
+00:11:50.830 --> 00:12:09.800
+<v Sarah Koenig>So just on motive alone, Saad and Rabia found the whole thing ridiculous. As for physical evidence, there was none-- nothing. Apart from some fingerprints in Hae's car, which Adnan had been in many times, there was nothing linking him to the crime-- no DNA, no fibers, no hairs, no matching soil from the bottom of his boots.
+<v Sarah Koenig>所以仅从动机来看，萨阿德和拉比娅认为整件事很荒谬。至于物证，根本没有——什么都没有。除了海车里的一些指纹，阿德南进去过很多次，没有东西将他和犯罪联系起来——没有DNA，没有纤维，没有毛发，靴底没有匹配的土壤。
+
+00:12:09.800 --> 00:12:22.460
+<v Sarah Koenig>Instead, what they had on Adnan was one guy's story, a guy named Jay. He's the third person you need to remember in this crime story besides Hae and Adnan. Jay was a friend of Adnan's. They'd been in school together since middle school.
+<v Sarah Koenig>相反，他们掌握的是一个人的故事，一个叫杰伊的人。他是你在海和阿德南之外，在这个犯罪故事中需要记住的第三个人。杰伊是阿德南的朋友。他们从初中起就在一起上学。
+
+00:12:22.460 --> 00:12:39.680
+<v Sarah Koenig>They weren't super close, but they had mutual friends. Jay sold weed, and he and Adnan smoked together. The story Jay told police had problems, because it kept changing from telling to telling. But they were able to bolster the main plot points using cell records from Adnan's phone.
+<v Sarah Koenig>他们并不是特别亲近，但有共同的朋友。杰伊卖大麻，他和阿德南一起抽过。杰伊告诉警察的故事有问题，因为它一直在变。但他们能够通过阿德南手机的通话记录来充实主要情节。
+
+00:12:39.680 --> 00:12:58.610
+<v Sarah Koenig>By the time I left Rabia's office that first day, I understood only one thing clearly, though maybe not the thing Rabia and Saad wanted me to understand. But what I took away from the visit was, somebody is lying here. Maybe Adnan really is innocent. But what if he isn't? What if he did do it, and he's got all these good people thinking he didn't?
+<v Sarah Koenig>第一天我离开拉比娅办公室时，我只清楚地明白了一件事，尽管可能不是拉比娅和萨阿德想要我明白的那件事。我此行带走的是：这里有人在撒谎。也许阿德南真的是无辜的。但如果他不是呢？如果他真的做了，而他让所有这些好人都以为他没做呢？
+
+00:12:58.610 --> 00:13:13.070
+<v Sarah Koenig>So either it's Jay or it's Adnan. But someone is lying. And I really wanted to figure out who.
+<v Sarah Koenig>所以要么是杰伊，要么是阿德南。但有人在撒谎。我真的很想找出是谁。
+
+00:13:13.070 --> 00:13:32.420
+<v Sarah Koenig>In the early morning of February 28, 1999, Adnan was arrested by Baltimore City detectives. He was asleep in his bed when they showed up at his house. They took him straight from his untidy bedroom to an interrogation room at Homicide downtown. What Adnan didn't know is that just hours before they picked him up, the cops had interviewed his friend Jay.
+<v Sarah Koenig>1999年2月28日清晨，阿德南被巴尔的摩市警探逮捕。他们出现在他家时，他正在床上睡觉。他们直接把他从他那凌乱的卧室带到了市中心的凶杀组审讯室。阿德南不知道的是，就在警察抓他前几个小时，他们已经采访了他的朋友杰伊。
+
+00:13:32.420 --> 00:13:42.200
+<v Detective>This is a taped interview of Jay, black male, 19 years of age. We're at the offices of Homicide, specifically the colonel's conference room.
+<v Detective>这是一份杰伊的录音采访，黑人男性，19岁。我们在凶杀组办公室，具体是在上校会议室。
+
+00:13:42.200 --> 00:13:53.260
+<v Sarah Koenig>The police recorded two taped interviews with Jay. And I'm going to play you the second one from a couple weeks later, only because the sound quality is much better. Just a warning that the tape is a little upsetting to hear in parts.
+<v Sarah Koenig>警方对杰伊进行了两次录音采访。我要播放几周后的第二次采访，只是因为音质好得多。只是提醒一下，录音的部分内容可能会让人感到不安。
+
+00:13:53.260 --> 00:13:59.190
+<v Detective>Why don't you go ahead and tell us what you know about the death of Hae Lee.
+<v Detective>你为什么不继续告诉我们你知道关于海·李死亡的事情。
+
+00:13:59.190 --> 00:14:29.490
+<v Jay>OK. I'd left out, went shopping with a friend of mine, an ex-friend of mine, Adnan. We had had a conversation. During the conversation he stated that he was going to kill that bitch, referring to Hae Lee. I took it with context. It didn't stand out in my head any.
+<v Jay>好的。我离开了，和我的一位朋友，我的一位前朋友，阿德南去购物。我们进行了一次谈话。在谈话中他声称他要杀了那个婊子，指海·李。我结合语境理解了。那并没有在我的脑海中留下什么深刻印象。
+
+00:14:29.490 --> 00:14:44.130
+<v Sarah Koenig>Jay said he didn't take it too seriously. The cops have him start again from the top. On the morning of the 13th, Jay says, Adnan had left school and driven to Jay's house. Jay had graduated from school the year before and was working, but not on that day.
+<v Sarah Koenig>杰伊说他没太当真。警察让他从头开始讲。杰伊说，13号那天早上，阿德南离开了学校开车去杰伊家。杰伊前一年刚毕业并在工作，但那天没上班。
+
+00:14:44.130 --> 00:14:55.020
+<v Sarah Koenig>January 13 happens to be the birthday of Jay's girlfriend, Stephanie. And Jay, who didn't have his own car, needed to go buy something for her. So Adnan comes over. According to Jay, they go shopping at the mall.
+<v Sarah Koenig>1月13日正好是杰伊女友斯蒂芬妮的生日。而没有自己车的杰伊需要去给她买点东西。所以阿德南过来了。据杰伊说，他们去商场购物。
+
+00:14:55.020 --> 00:14:56.380
+<v Detective>When did you do that?
+<v Detective>你们什么时候做的？
+
+00:14:56.380 --> 00:15:14.000
+<v Jay>We left the mall. I took him to school. I dropped him off in the back of the school. He went up to class. He left his cell phone in the car with me, told me he'd call me. I went back to my friend James' house and waited for him to call.
+<v Jay>我们离开了商场。我带他去学校。我把他送到学校后面。他去上课了。他把手机留在车里给我，说他会打给我。我回到我朋友詹姆斯家等他电话。
+
+00:15:14.000 --> 00:15:18.200
+<v Detective>OK, now at this point, you know why he's leaving the car with you.
+<v Detective>好的，现在这个时候，你知道他为什么要留车给你。
+
+00:15:18.200 --> 00:15:18.790
+<v Jay>Yes.
+<v Jay>是的。
+
+00:15:18.790 --> 00:15:20.460
+<v Detective>And why is that?
+<v Detective>那是为什么？
+
+00:15:20.460 --> 00:15:22.210
+<v Jay>Because he said he was going to kill Hae.
+<v Jay>因为他说他要杀了海。
+
+00:15:22.210 --> 00:15:26.740
+<v Detective>And the reason you have the car and the cell phone was why?
+<v Detective>而你拿到车和手机的原因是为什么？
+
+00:15:26.740 --> 00:15:31.140
+<v Jay>To pick him up from wherever he was going to do this at.
+<v Jay>去接他，无论他在哪里做这件事。
+
+00:15:31.140 --> 00:15:37.610
+<v Detective>OK, and you had talked about this while you were shopping that day?
+<v Detective>好的，你们那天购物时谈过这个吗？
+
+00:15:37.610 --> 00:15:40.110
+<v Jay>The details of the car and all?
+<v Jay>车和所有这些细节？
+
+00:15:40.110 --> 00:15:44.170
+<v Detective>The events, how they were going to plan out.
+<v Detective>事件，计划如何进行。
+
+00:15:44.170 --> 00:15:50.690
+<v Jay>That day he told me, yes. He told me, I'm going to leave you with my cellphone and my car, and I need you to come get me. Yes.
+<v Jay>那天他告诉了我，是的。他告诉我，我要把你和我的手机、我的车留给你，我需要你来接我。是的。
+
+00:15:50.690 --> 00:15:52.130
+<v Detective>After--
+<v Detective>在——
+
+00:15:52.130 --> 00:15:53.870
+<v Jay>After he had killed Hae, yes.
+<v Jay>在他杀了海之后，是的。
+
+00:15:53.870 --> 00:15:54.740
+<v Detective>OK.
+<v Detective>好的。
+
+00:15:54.740 --> 00:15:56.760
+<v Sarah Koenig>Later that afternoon, the call comes.
+<v Sarah Koenig>那天下午晚些时候，电话来了。
+
+00:15:56.760 --> 00:15:59.050
+<v Detective>You received a phone call from Adnan.
+<v Detective>你接到了阿德南的电话。
+
+00:15:59.050 --> 00:15:59.440
+<v Jay>Yes.
+<v Jay>是的。
+
+00:15:59.440 --> 00:16:00.190
+<v Detective>On his cellphone.
+<v Detective>在他的手机上。
+
+00:16:00.190 --> 00:16:00.690
+<v Jay>Yes.
+<v Jay>是的。
+
+00:16:00.690 --> 00:16:01.760
+<v Detective>Which is in your possession.
+<v Detective>而手机在你手里。
+
+00:16:01.760 --> 00:16:02.580
+<v Jay>Yes.
+<v Jay>是的。
+
+00:16:02.580 --> 00:16:07.660
+<v Detective>And the conversation was what?
+<v Detective>谈话内容是什么？
+
+00:16:07.660 --> 00:16:11.990
+<v Jay>That bitch is dead. Come and get me. I'm at Best Buy.
+<v Jay>那个婊子死了。来接我。我在百思买。
+
+00:16:11.990 --> 00:16:14.840
+<v Sarah Koenig>Jay drives to Best Buy and sees Adnan in the parking lot.
+<v Sarah Koenig>杰伊开车去百思买，在停车场看到了阿德南。
+
+00:16:14.840 --> 00:16:26.280
+<v Jay>I noticed that Hae wasn't with him. I parked next to him. He asked me to get out the car. I get out the car. He asks me, am I ready for this? And I say, ready for what?
+<v Jay>我注意到海没和他在一起。我停在他旁边。他让我下车。我下车了。他问我，准备好了吗？我说，准备好什么？
+
+00:16:26.280 --> 00:16:37.670
+<v Jay>And he takes the keys. He opens the trunk. And all I can see is Hae's lips are all blue, and she's pretzeled up in the back of the trunk. And she's dead.
+<v Jay>然后他拿了钥匙。他打开后备箱。我能看到的只有海的嘴唇全是蓝色的，她像椒盐卷饼一样蜷缩在后备箱里。她死了。
+
+00:16:37.670 --> 00:16:57.470
+<v Sarah Koenig>They leave the parking lot. Adnan's driving Hae's car with her body in the trunk. Jay's driving Adnan's car. They ditch Hae's car at the I-70 park and ride. And then, to hear Jay tell it, they just kind of tool around Baltimore County together for a while as if nothing had happened-- buy some weed, cruise around, make some calls. After a while, Jay drives Adnan back to Woodlawn High School.
+<v Sarah Koenig>他们离开了停车场。阿德南开着海的车，尸体在后备箱。杰伊开着阿德南的车。他们把海的车丢在I-70高速公路的换乘站。然后，按照杰伊的说法，他们只是在巴尔的摩县一起晃荡了一会儿，就好像什么都没发生过一样——买点大麻，到处兜风，打几个电话。过了一会儿，杰伊把阿德南送回了伍德劳恩高中。
+
+00:16:57.470 --> 00:16:59.480
+<v Detective>Why did you take him back to school?
+<v Detective>你为什么带他回学校？
+
+00:16:59.480 --> 00:17:06.340
+<v Jay>He told me that I had to take him back to school because he needed to be seen there.
+<v Jay>他告诉我必须带他回学校，因为他需要被人看见。
+
+00:17:06.340 --> 00:17:08.100
+<v Detective>Was he going to a certain event?
+<v Detective>他要参加什么活动吗？
+
+00:17:08.100 --> 00:17:09.330
+<v Jay>It was practice, track practice.
+<v Jay>是训练，田径训练。
+
+00:17:09.330 --> 00:17:10.050
+<v Detective>Track practice.
+<v Detective>田径训练。
+
+00:17:10.050 --> 00:17:10.360
+<v Jay>Yes.
+<v Jay>是的。
+
+00:17:10.360 --> 00:17:11.980
+<v Detective>So he wanted an alibi?
+<v Detective>所以他想要不在场证明？
+
+00:17:11.980 --> 00:17:12.690
+<v Jay>Yes.
+<v Jay>是的。
+
+00:17:12.690 --> 00:17:15.220
+<v Detective>He wanted to be seen by people at track.
+<v Detective>他想被田径队的人看见。
+
+00:17:15.220 --> 00:17:15.460
+<v Jay>Yes.
+<v Jay>是的。
+
+00:17:15.460 --> 00:17:18.020
+<v Detective>And you guys had discussed that?
+<v Detective>你们讨论过这个吗？
+
+00:17:18.020 --> 00:17:20.140
+<v Jay>He just told me that he needed to be seen.
+<v Jay>他只是告诉我他需要被人看见。
+
+00:17:20.140 --> 00:17:20.630
+<v Detective>Yes.
+<v Detective>是的。
+
+00:17:20.630 --> 00:17:22.340
+<v Jay>He told me that he needed to be seen.
+<v Jay>他告诉我他需要被人看见。
+
+00:17:22.340 --> 00:17:25.160
+<v Detective>At track practice. You took him back?
+<v Detective>在田径训练时。你带他回去了？
+
+00:17:25.160 --> 00:17:25.510
+<v Jay>Yes.
+<v Jay>是的。
+
+00:17:25.510 --> 00:17:31.200
+<v Detective>Are you having any conversation with Adnan at the time?
+<v Detective>那时你和阿德南有谈话吗？
+
+00:17:31.200 --> 00:17:46.460
+<v Jay>To the effect, yes. Don't tell anyone. He said that he couldn't believe he killed somebody with his bare hands, that all the other mother [BLEEP] referring to hoods and thugs and stuff think they're hard core. But he just killed a person with his bare hands.
+<v Jay>有的，关于不要告诉任何人。他说他不敢相信他亲手杀了一个人，说所有其他那些[脏话]指的是那些混混和流氓觉得他们很强硬。但他刚刚亲手杀了一个人。
+
+00:17:46.460 --> 00:17:49.570
+<v Detective>So at this point he's bragging about it?
+<v Detective>所以那时他在吹嘘这件事？
+
+00:17:49.570 --> 00:17:52.000
+<v Jay>Basically.
+<v Jay>基本上。
+
+00:17:52.000 --> 00:17:54.510
+<v Detective>He was proud of it?
+<v Detective>他为此感到自豪？
+
+00:17:54.510 --> 00:17:56.240
+<v Jay>Yes.
+<v Jay>是的。
+
+00:17:56.240 --> 00:18:08.240
+<v Sarah Koenig>After track practice, Jay picks Adnan up again. They drive around some more. By this time, Hae's family was worried, and they'd called the police, who in turn called a couple of Hae's friends, including Adnan.
+<v Sarah Koenig>田径训练后，杰伊再次接走阿德南。他们又开车到处转悠。这时候，海的家人很担心，并报了警，警察随后给海的几个朋友打了电话，包括阿德南。
+
+00:18:08.240 --> 00:18:28.160
+<v Sarah Koenig>The call comes in on his cell. The cops ask if he's seen Hae or knows where she is. Jay says after the call, they drive to Jay's to get some shovels, go retrieve Hae's car from the park and ride. They drive around some more and finally end up at Lincoln Park, where Adnan proceeds to bury Hae. It's evening by now, maybe 7:00 or 8:00 PM.
+<v Sarah Koenig>电话打到了他的手机上。警察问他是否见过海或知道她在哪里。杰伊说在那个电话之后，他们开车去杰伊家拿铲子，去换乘站取回海的车。他们又转了一会儿，最后到了林肯公园，阿德南开始在那里掩埋海。当时已经是傍晚，大概7点或8点。
+
+00:18:28.160 --> 00:18:43.200
+<v Jay>And he asked me if I was going to help. And I told him, [BLEEP] no. And he starts just shoveling dirt on top of her. After we leave there--
+<v Jay>他问我是否要帮忙。我告诉他，[脏话]别想。他开始往她身上铲土。我们离开那里之后——
+
+00:18:43.200 --> 00:18:44.310
+<v Detective>Let me stop there.
+<v Detective>我在这儿打断一下。
+
+00:18:44.310 --> 00:18:46.650
+<v Jay>Yes.
+<v Jay>是的。
+
+00:18:46.650 --> 00:18:48.120
+<v Detective>You helped him dig the hole.
+<v Detective>你帮他挖了坑。
+
+00:18:48.120 --> 00:18:50.760
+<v Jay>Yes.
+<v Jay>是的。
+
+00:18:50.760 --> 00:18:55.750
+<v Detective>How long did it take you both to dig the hole?
+<v Detective>你们两个挖坑用了多久？
+
+00:18:55.750 --> 00:18:57.160
+<v Jay>20, 25 minutes.
+<v Jay>20，25分钟。
+
+00:18:57.160 --> 00:18:58.930
+<v Detective>How deep did you make the hole?
+<v Detective>你们把坑挖多深？
+
+00:18:58.930 --> 00:19:05.190
+<v Jay>Oh, maybe six inches at the most. It wasn't very deep at all.
+<v Jay>噢，最多六英寸。一点也不深。
+
+00:19:05.190 --> 00:19:06.600
+<v Detective>Who did most of the digging?
+<v Detective>谁挖得最多？
+
+00:19:06.600 --> 00:19:10.970
+<v Jay>Uh, it was--
+<v Jay>嗯，是——
+
+00:19:10.970 --> 00:19:11.810
+<v Detective>Both of you?
+<v Detective>你们两个？
+
+00:19:11.810 --> 00:19:13.250
+<v Jay>Yeah.
+<v Jay>对。
+
+00:19:13.250 --> 00:19:14.810
+<v Detective>Equal work?
+<v Detective>工作量均等？
+
+00:19:14.810 --> 00:19:15.970
+<v Jay>I wouldn't say that, but yeah.
+<v Jay>我不会这么说，但是对。
+
+00:19:15.970 --> 00:19:16.920
+<v Detective>OK.
+<v Detective>好的。
+
+00:19:16.920 --> 00:19:29.710
+<v Sarah Koenig>So those are the key points. Adnan told Jay in advance he was going to do it. He did it. They buried her. Jay's story wasn't just the foundation of the state's case against Adnan. It was the state's case against Adnan.
+<v Sarah Koenig>所以这些是关键点。阿德南提前告诉杰伊他要做这件事。他做了。他们埋了她。杰伊的故事不仅是州政府起诉阿德南的基石，它就是起诉阿德南的全部案件。
+
+00:19:29.710 --> 00:19:55.780
+<v Sarah Koenig>In the picture Jay drew, it's cold. I mean, he's not describing a crime of passion here. This is something much darker-- to methodically map out the death of your friend, to strangle her with your own hands so close up like that. That would mean Adnan wasn't just a killer, but a master liar and manipulator, a psychopath, probably.
+<v Sarah Koenig>在杰伊描述的画面中，这很冷血。我是说，他描述的不是一时冲动的犯罪。这是更阴暗的事情——有条不紊地策划你朋友的死亡，用自己的双手亲手勒死她。这意味着阿德南不仅是个杀人犯，还是个撒谎和操纵的高手，大概是个心理变态。
+
+00:19:55.780 --> 00:20:11.430
+<v Sarah Koenig>Adnan's in a maximum security prison in western Maryland. He calls me at my request about twice a week. He talks to me from a bank of eight pay phones in the rec hall, a pretty large room where other guys are sitting at tables with metal seats attached to them playing chess or cards or using the microwave or watching TV.
+<v Sarah Koenig>阿德南在马里兰州西部的一所最高安全级别的监狱里。他应我的要求每周给我打两次电话。他是在娱乐大厅的八部公用电话旁跟我通话的，那是一个相当大的房间，其他人坐在带有固定金属座位的桌子旁下棋、玩牌，或者使用微波炉看电视。
+
+00:20:11.430 --> 00:20:20.930
+<v Sarah Koenig>It can get a little loud sometimes. Once I asked if all eight phones were always occupied. And he said, usually not, because guys who have been in for a long time, often they have no one to call.
+<v Sarah Koenig>有时会有点吵。有一次我问那八部电话是否总是被占用。他说通常不是，因为那些待了很久的人，往往没人可打。
+
+00:20:20.930 --> 00:20:38.700
+<v Sarah Koenig>When I first met Adnan in person, I was struck by two things. He was way bigger than I expected-- barrel chested and tall. In the photos I'd seen, he was still a lanky teenager with struggling facial hair and sagging jeans. By now, he was 32. He'd spent nearly half his life in prison, becoming larger and properly bearded.
+<v Sarah Koenig>我第一次亲眼见到阿德南时，两件事让我印象深刻。他比我预期的要壮得多——胸膛宽阔，个子很高。在我见过的照片里，他还是个瘦长的高中生，留着稚嫩的胡茬，穿着松垮的牛仔裤。现在，他32岁了，生命中将近一半时间是在监狱里度过的，变得更壮实了，胡须也长得恰到好处。
+
+00:20:38.700 --> 00:20:53.220
+<v Sarah Koenig>And the second thing, which you can't miss about Adnan, is that he has giant brown eyes like a dairy cow. That's what prompts my most idiotic lines of inquiry. Could someone who looks like that really strangle his girlfriend? Idiotic, I know.
+<v Sarah Koenig>第二件事，你无法忽视的是，阿德南有着像奶牛一样巨大的棕色眼睛。这导致了我最白痴的调查思路：长成这样的人真的能勒死他的女朋友吗？白痴的想法，我知道。
+
+00:20:53.220 --> 00:21:08.570
+<v Sarah Koenig>When he first heard Jay's story of the crime, Adnan didn't say, well, it didn't happen like that, or, I didn't mean for it to happen like that. He said, it didn't happen. None of this is true at all. He says he had nothing to do with Hae's murder, and he doesn't know who did.
+<v Sarah Koenig>当他第一次听到杰伊的犯罪叙述时，阿德南并没有说，噢，事情不是那样发生的，或者，我不是故意要那样发生的。他说，没发生过。这一切都不是真的。他说他和海的谋杀案毫无关系，他不知道是谁干的。
+
+00:21:08.570 --> 00:21:22.790
+<v Sarah Koenig>Hae was Adnan's first serious relationship with a girl. He says he loved her in the way of high school love, but then also in the way of high school got over her. So that when they broke up for good sometime before Christmas break of senior year, he says he was sad for sure, but not obsessed or anything.
+<v Sarah Koenig>海是阿德南第一个认真的感情对象。他说他以高中恋爱的形式爱她，但后来也以高中生那种方式走出了那段感情。所以当他们在高三寒假前某次彻底分手时，他说他肯定很难过，但并没有着迷什么的。
+
+00:21:22.790 --> 00:21:40.650
+<v Adnan>I just sometimes wish they could look into my brain and see how I really felt about her. And no matter what else someone would say, they would see, man, this guy had no ill will toward her. Whatever the motivation is to kill someone, I had absolutely-- it didn't exist in me, you know what I mean? No one can ever say why.
+<v Adnan>我有时真希望他们能看穿我的大脑，看看我对他真正的感觉。不管别人怎么说，他们都会看到，伙计，这家伙对她没有恶意。无论杀人动机是什么，我绝对——它不存在于我身上，你明白我的意思吗？没有人能说出原因。
+
+00:21:40.650 --> 00:22:01.030
+<v Adnan>People could say why. Oh, man, he was mad, this, that, or the other. But no one could ever come with any type of proof or anecdote or anything to ever say that I was ever mad at her, that I was ever angry with her, that I ever threatened her. That's the only thing I can really hold onto. That is like my only firm handhold in this whole thing, that no one's ever been able to prove it.
+<v Adnan>人们可以胡乱猜测。噢，天哪，他当时生气了，这个那个。但没有人能拿出任何证据、轶事或其他任何东西来说我曾对她生气，我曾对她发火，我曾威胁她。这是我唯一能坚持的东西。这是我在整件事中唯一坚实的抓手，从来没有人能证明这一点。
+
+00:22:01.030 --> 00:22:13.040
+<v Adnan>No one ever has been able to provide any shred of evidence that I had anything but friendship toward her, like love and respect for her. That's at the end of the day, man. The only thing I can ever say is, man, I had no reason to kill her.
+<v Adnan>从来没有任何人能提供哪怕一丝证据证明我对她只有友谊之外的东西，比如爱和尊重。归根结底，伙计。我唯一能说的是，伙计，我没有理由杀她。
+
+00:22:13.040 --> 00:22:25.770
+<v Sarah Koenig>He's adamant about this. You can hear it, right? He's staunch. The problem is, when you ask Adnan to go back and tell his version of what happened that day, to refute Jay's story, everything becomes a lot mushier.
+<v Sarah Koenig>他在这点上非常坚定。你能听出来，对吧？他很固执。问题在于，当你让阿德南回过头来讲述那天发生的事情，反驳杰伊的故事时，一切都变得非常模糊。
+
+00:22:25.770 --> 00:22:35.630
+<v Sarah Koenig>Yes, he hung out with Jay on the 13th, both during and after school. But he doesn't remember exactly where they went, or what they did, or what time it was. Here's what he's got.
+<v Sarah Koenig>是的，13号那天他和杰伊混在一起，在学校期间和之后都有。但他记不清确切去过哪里，或者做过什么，或者是什么时间。他掌握的情况是这样的。
+
+00:22:35.630 --> 00:22:50.270
+<v Sarah Koenig>January 13 unfolded like any other day, a normal, mostly uneventful day. He says there are a couple of things that do stand out, though. That day was Stephanie's birthday. Stephanie was one of Adnan's best friends and also Jay's girlfriend.
+<v Sarah Koenig>1月13日像任何其他一天一样展开，平淡无奇。他说有几件事确实很突出。那天是斯蒂芬妮的生日。斯蒂芬妮是阿德南最好的朋友之一，也是杰伊的女友。
+
+00:22:50.270 --> 00:22:56.590
+<v Sarah Koenig>Adnan had gotten Stephanie a birthday present, a stuffed reindeer, which he'd given to her in second period, Miss Ephron's English class.
+<v Sarah Koenig>阿德南给斯蒂芬妮买了一件生日礼物，一只填充驯鹿，他是在第二节埃弗隆小姐的英语课上送给她的。
+
+00:22:56.590 --> 00:23:10.430
+<v Adnan>And it occurred to me that day that I was going to ask her boyfriend, Jay, did he get her a gift? So sometime during the day before noon--
+<v Adnan>那天我突然想到要问问她男朋友杰伊，他有没有给她买礼物？所以中午之前——
+
+00:23:10.430 --> 00:23:18.320
+<v Sarah Koenig>Wait, Adnan, just hold up for a second. Why did you care whether Jay got Stephanie a present? What's it to you?
+<v Sarah Koenig>等等，阿德南，稍等一下。为什么你在意杰伊有没有给斯蒂芬妮买礼物？这和你有什么关系？
+
+00:23:18.320 --> 00:23:35.660
+<v Adnan>Well, Stephanie was a very close friend of mine, as I mentioned. And I just kind of wanted to make sure that she also got a gift from him, you know? She had mentioned to me that she was looking forward to getting a gift from him. She mentioned that she was really happy to get the gift that I gave her.
+<v Adnan>嗯，正如我提到的，斯蒂芬妮是我非常亲密的朋友。我只是想确保她也从他那里得到了礼物，你知道吗？她曾向我提到她很期待收到他的礼物。她提到她很高兴收到我送给她的礼物。
+
+00:23:35.660 --> 00:23:54.640
+<v Adnan>So as I would with any friend, I just kind of went to check on that. I kind of had a feeling that maybe he didn't get her a gift. And I had free periods during school. So it was not abnormal for me to leave school to go do something and then come back.
+<v Adnan>所以，就像对待任何朋友一样，我只是想去确认一下。我有一种预感，也许他没给她买礼物。我有空档时间。所以放学去办点事然后再回来并不反常。
+
+00:23:54.640 --> 00:24:14.110
+<v Adnan>So I went to his house. And I asked him, did you happen to get a present for Stephanie? He said no. So I said, if you want to, you can drop me back off to school. You can borrow my car. And you can go to the mall and get her a gift or whatever. Then just come pick me up after track practice that day.
+<v Adnan>所以我去了他家。我问他，你给斯蒂芬妮买礼物了吗？他说没有。所以我说，如果你想的话，你可以把我送回学校。你可以借用我的车。你可以去商场给她买礼物什么的。然后那天田径训练后过来接我。
+
+00:24:14.110 --> 00:24:16.880
+<v Sarah Koenig>So then what happened?
+<v Sarah Koenig>然后发生了什么？
+
+00:24:16.880 --> 00:24:35.980
+<v Adnan>Well, then when school was over, I would have went to the library. I know that I usually check-- well, I didn't usually check. But if I was going to check my email, it would be using the library computer. You know, sometimes I would go there because track practice didn't start until around maybe 3 o'clock or 3:30-ish.
+<v Adnan>嗯，放学后，我应该会去图书馆。我知道我通常会去查——嗯，我平时不会查。但如果要查邮件，我会用图书馆的电脑。你知道，有时我会去那里，因为田径训练直到大概3点或3点半才开始。
+
+00:24:35.980 --> 00:24:45.480
+<v Adnan>So it didn't start right after school. So there was a period of time of almost like an hour, an hour and some change, that was kind of free time.
+<v Adnan>所以它不是放学后马上就开始。所以有差不多一小时，或者一小时多一点的空闲时间。
+
+00:24:45.480 --> 00:24:59.190
+<v Sarah Koenig>This hour and change after school, this is the crucial window. This is the time when the state says Hae was killed. School got out at 2:15. People remember seeing her after her last class heading to her car.
+<v Sarah Koenig>放学后的这一小时多一点，这是关键窗口期。这是州政府声称海被杀害的时间。2点15分放学。人们记得看到她在最后一节课后朝着车走去。
+
+00:24:59.190 --> 00:25:19.040
+<v Sarah Koenig>According to Jay's story and the cellphone records, she was dead by 2:36 PM. So sometime in those 21 minutes, between 2:15 and 2:36, she was strangled. So that's obviously the same window Adnan needed to account for. To quote Adnan, "My case lived and died in those 21 minutes."
+<v Sarah Koenig>根据杰伊的故事和手机记录，她在下午2点36分就已经死了。所以在2点15分到2点36分这21分钟里，她被勒死了。所以这显然是阿德南需要交代清楚的窗口期。用阿德南的话说，“我的案子在那21分钟里决定生死。”
+
+00:25:19.040 --> 00:25:43.390
+<v Sarah Koenig>So where does Adnan say he was? Well, maybe the library, but nobody testified to that at trial. Then to track practice-- he does remember being at track one day when it was snowing, which might have been that day. The coach testified that Adnan probably was there, but he can't be 100% sure because, as a rule, he didn't take attendance. After school is when his memories become nonspecific. Usually we did this, or we probably would have done that.
+<v Sarah Koenig>那么阿德南说他在哪里？嗯，也许在图书馆，但没人能在审判时作证。然后是田径训练——他确实记得有一天下雪时他在田径训练，那可能是那天。教练作证说阿德南可能在那里，但他不能100%确定，因为按规定他不点名。放学后他的记忆变得不具体了。通常我们做了这个，或者我们可能做了那个。
+
+00:25:43.390 --> 00:25:46.090
+<v Adnan>Probably track practice would have ended  like, I'd say, 4:30.
+<v Adnan>可能田径训练会在，我想大概4点半结束。
+
+00:25:46.090 --> 00:25:54.990
+<v Sarah Koenig>Jay did come to pick up Adnan after track. That part Adnan seems to more or less remember. It was Ramadan, so Adnan would have been fasting all day and hungry.
+<v Sarah Koenig>杰伊确实在田径训练后来接阿德南。那部分阿德南记得大致如此。当时是斋月，所以阿德南整天都在禁食，很饿。
+
+00:25:54.990 --> 00:26:09.740
+<v Adnan>It probably would've been close to time for me to break fast. He would have came to pick me up, and we would have went to go get something to eat. And then we would have smoked some weed after, right? And then I would have had to have been home around 7, 8 o'clock, right?
+<v Adnan>那可能快到我开斋的时间了。他会来接我，然后我们会去买点东西吃。之后我们会抽大麻，对吧？然后我通常会在7点、8点左右回家，对吧？
+
+00:26:09.740 --> 00:26:22.270
+<v Adnan>Or usually like the last 10 nights of Ramadan, my father would spend the night at the mosque. So a lot of times I would take him food. I think my mother would make food for him, and I would take it usually before 8 o'clock. Because that's the last evening prayer.
+<v Adnan>或者通常在斋月的最后10天，我父亲会在清真寺过夜。所以我经常会给他带食物。我想我母亲会为他做饭，我通常会在8点前带给他。因为那是最后一次晚祷。
+
+00:26:22.270 --> 00:26:28.550
+<v Sarah Koenig>Did you ever leave the campus before the end of track practice? Did you ever--
+<v Sarah Koenig>你有没有在田径训练结束前离开过校园？你有没有——
+
+00:26:28.550 --> 00:26:29.050
+<v Adnan>No.
+<v Adnan>没有。
+
+00:26:29.050 --> 00:26:30.540
+<v Sarah Koenig>OK.
+<v Sarah Koenig>好的。
+
+00:26:30.540 --> 00:26:31.040
+<v Adnan>No.
+<v Adnan>没有。
+
+00:26:31.040 --> 00:26:33.610
+<v Sarah Koenig>You're sure?
+<v Sarah Koenig>你确定吗？
+
+00:26:33.610 --> 00:26:35.940
+<v Adnan>I want to say that I'm 99% sure.
+<v Adnan>我想说我有99%确定。
+
+00:26:35.940 --> 00:26:36.330
+<v Sarah Koenig>OK.
+<v Sarah Koenig>好的。
+
+00:26:36.330 --> 00:27:01.780
+<v Adnan>The reason why I can't say 100 is because-- I mean, I do kind of understand that it comes across as-- I don't know if it does or doesn't. But it seems like I remember things that are beneficial to me, but things that aren't beneficial to me I can't remember. It's just that I don't really know what to say beyond the fact that a lot of the day that I do remember, it's bits and pieces that comes from what other people have said that they remember, right? And it kind of jogs my memory.
+<v Adnan>我不能说100%的原因是因为——我的意思是，我确实有点明白这听起来像是——我不知道它是否听起来像。但似乎我记得对我有利的事情，但对我没利的事情我就记不起来了。我只是真的不知道该说什么，除了那天我确实记得的很多事情，都是基于其他人说他们记得的碎片信息，对吧？这会唤起我的记忆。
+
+00:27:01.780 --> 00:27:11.700
+<v Adnan>Yeah. I don't really know what to say. And I completely understand how that comes across. I mean, the only thing I can say is, man, it was just a normal day to me. There was absolutely nothing abnormal about that day.
+<v Adnan>是的。我真的不知道该说什么。我完全理解这听起来怎么样。我是说，我唯一能说的是，伙计，对我来说那只是平常的一天。那天绝对没有什么不正常的事。
+
+00:27:11.700 --> 00:27:22.150
+<v Sarah Koenig>Adnan knows better than anyone how unhelpful this all is, how problematic. Because it plays both ways. If he's innocent, right, it's any other day. Of course he doesn't remember.
+<v Sarah Koenig>阿德南比任何人都清楚这有多没帮助，多成问题。因为它在两方面都有作用。如果他是无辜的，对吧，那就是平常的一天。他当然不记得了。
+
+00:27:22.150 --> 00:27:30.850
+<v Sarah Koenig>But you can also read it as, how convenient. He doesn't remember the day. So no one can fact check him, or poke holes in his story. Because he has no story.
+<v Sarah Koenig>但你也可以解读为，多方便啊。他不记得那一天了。所以没人能核实他的话，或者在他的故事里挑刺。因为他根本没有故事。
+
+00:27:30.850 --> 00:27:49.870
+<v Adnan>I definitely understand that someone could look at this and say, oh, man, he must be lying. It's so coincidental that he doesn't remember what he did this particular time. I mean, I completely understand that, and I get that. Like I said, that's the hardest thing I've dealt with for these past 15 years.
+<v Adnan>我绝对明白有人会看着这些说，噢，伙计，他肯定在撒谎。他偏偏不记得这段时间做了什么，这太巧合了。我是说，我完全理解这一点，我明白了。正如我所说的，这是我过去15年来处理过的最困难的事情。
+
+00:27:49.870 --> 00:28:06.090
+<v Adnan>There's nothing tangible I can do to remember that day. There's nothing I can do to make me remember. I've pored through the transcripts. I've looked through the telephone records. What else can I do?
+<v Adnan>没有任何切实的东西能让我记起那一天。我没有任何办法让自己记起来。我翻遍了记录。我看遍了电话记录。我还能做什么？
+
+00:28:06.090 --> 00:28:20.040
+<v Adnan>There's nothing I can do. So perhaps I'll never be able to explain it. And it is what it is. If someone believes me or not, you know, I have no control over it.
+<v Adnan>我无能为力。所以也许我永远无法解释清楚。这就是事实。别人信不信我，你知道，我无法控制。
+
+00:28:20.040 --> 00:28:36.600
+<v Sarah Koenig>Adnan's trial was a long ordeal. Jay was on the stand for something like five days. A cellphone expert testified for two days, a lifetime when you're discussing cell tower technology. There were absences, and some bad weather closed the courts. So it was six weeks before both sides rested.
+<v Sarah Koenig>阿德南的审判是一场漫长的磨难。杰伊在证人席上待了大约五天。一名手机专家作证了两天，这在讨论手机信号塔技术时简直就是一辈子。审判过程中有缺席，还有恶劣天气导致法院关闭。所以双方结案已经是六周后的事了。
+
+00:28:36.600 --> 00:28:50.240
+<v Sarah Koenig>But the jury? They moved like lightning. After just a few hours, including a lunch break, they convicted Adnan of first-degree murder. Rabia Chaudry was there in the courtroom when it happened. She says his mother was crying. She was crying.
+<v Sarah Koenig>但陪审团呢？他们行动快如闪电。仅仅几个小时后，包括午休时间在内，他们就以一级谋杀罪判处阿德南有罪。拉比娅·乔杜里事发时就在法庭上。她说他母亲在哭。她也在哭。
+
+00:28:50.240 --> 00:29:05.410
+<v Sarah Koenig>Rabia hadn't sat through the whole trial. So the first time she fully understood that the case came down to those 21 minutes was during closing arguments, when the prosecutor brought out a dummy's head and strangled it in front of the jury. That evening, after the verdict, Rabia went to see Adnan in lockup.
+<v Sarah Koenig>拉比娅没有全程旁听审判。所以她第一次完全理解案子聚焦在那21分钟是在结案陈词时，当时检察官拿出了一个人体模型头部，在陪审团面前模拟勒死过程。那天晚上，判决出来后，拉比娅去拘留所看了阿德南。
+
+00:29:05.410 --> 00:29:18.610
+<v Rabia>And so I went to go see him. So this is the same day he's been convicted. And this is the first time I actually had a conversation with him about, what's going on? And I was like, you know, Adnan, the whole thing's turning on these 20, 25 minutes. Where were you?
+<v Rabia>于是我去看他。这是他被判有罪的同一天。这是我第一次真正和他谈论，到底发生了什么？我说，你知道，阿德南，整件事都聚焦在那20、25分钟里。你在哪里？
+
+00:29:18.610 --> 00:29:28.220
+<v Rabia>And he's like, she disappeared in January, you know? In March, you're asking me, where were you after school for 20 minutes on a specific day? All the days are the same to me, you know?
+<v Rabia>他说，她在1月份失踪，你知道吗？在3月份，你问我，在某天放学后我在哪里待了20分钟？对我来说，每一天都是一样的，你知道吗？
+
+00:29:28.220 --> 00:29:33.120
+<v Sarah Koenig>But then he mentions that there was this one girl, an alibi girl.
+<v Sarah Koenig>但随后他提到有个女孩，一个不在场证明女孩。
+
+00:29:33.120 --> 00:29:54.580
+<v Rabia>He's like, the only thing I could offer is I remember there's a girl I go to school with. Her name's Asia McLean. He's like, right after I got arrested, she wrote me a couple of letters. And she said she also went to see my family. And she said she specifically remembers me being at the library, at the public library, right after school.
+<v Rabia>他说，我唯一能提供的是我记得有个和我一起上学的女孩。她叫亚洲·麦克莱恩。他说，我被捕后，她给我写了几封信。她说她也去见过我的家人。她说她清楚地记得我在图书馆，在公共图书馆，就在放学后。
+
+00:29:54.580 --> 00:30:01.110
+<v Sarah Koenig>The Woodlawn public library is just across the parking lot from Woodlawn High School. It's not technically part of the campus, but it might as well be.
+<v Sarah Koenig>伍德劳恩公共图书馆就在伍德劳恩高中停车场的对面。它在技术上不属于校园，但和校园没两样。
+
+00:30:01.110 --> 00:30:17.370
+<v Rabia>He said, I gave those letters to Christina Gutierrez, to my attorney. He's like, but apparently it didn't really check out. So he's like, I don't know. So they're not helpful to us. So this was the first time I heard of this girl Asia McLean. I had never heard of her before. Nobody had mentioned her before.
+<v Rabia>他说，我把那些信给了克里斯蒂娜·古铁雷斯，给我的律师。他说，但显然它没查出什么来。所以他说，我不知道。所以它们对我们没帮助。这是我第一次听说这个叫亚洲·麦克莱恩的女孩。之前我从来没听说过她。没人提起过她。
+
+00:30:17.370 --> 00:30:21.370
+<v Sarah Koenig>Were you floored, like, wait, wait, wait, wait, what? I mean, like--
+<v Sarah Koenig>你当时震惊了吗，就像，等等，等等，等等，什么？我是说——
+
+00:30:21.370 --> 00:30:36.750
+<v Rabia>I wasn't floored at the time. Because I thought, if this girl wrote and the attorney-- what criminal defense attorney's not going to check out a potential alibi? So I asked him, I said, do you have a copy of those letters? He said, yeah, I have a copy. I said, send me a copy.
+<v Rabia>当时我没震惊。因为我想，如果这个女孩写了信而律师——哪个刑事辩护律师不会去核实潜在的不在场证明？所以我问他，我说，你有这些信的副本吗？他说，有，我有副本。我说，发给我一份。
+
+00:30:36.750 --> 00:30:51.200
+<v Sarah Koenig>Adnan sends the letters to Rabia, and here's what she reads. The first letter, the first of two, is dated March 1, 1999. That is one day after Adnan was arrested. At the top of the letter, she notes, "I just came from your house an hour ago.
+<v Sarah Koenig>阿德南把信发给了拉比娅，她读到了这些内容。第一封信，两封中的第一封，日期是1999年3月1日。那是阿德南被捕后的第二天。在信的开头，她写道：“我一小时前刚从你家回来。”
+
+00:30:51.200 --> 00:31:14.950
+<v Sarah Koenig>Dear Adnan-- I hope I spelled it right. I'm not sure if you remember talking to me in the library on January 13, but I remember chatting with you." She says, quote, "we aren't really close friends, but I want you to look into my eyes and tell me of your innocence. If I ever find otherwise, I will hunt you down and whip your ass. OK, friend?" At the bottom she added a little note. "My boyfriend and his best friend remember seeing you there, too."
+<v Sarah Koenig>“亲爱的阿德南——希望我拼对了你的名字。我不确定你是否记得在1月13号在图书馆跟我说话，但我记得在那跟你聊天。”她说，“我们并不是那种亲密朋友，但我想要你看着我的眼睛告诉我你的清白。如果我发现并非如此，我会追到你并狠狠修理你。好的，朋友？”在底部她加了一个小纸条。“我男朋友和他最好的朋友也记得在那里见过你。”
+
+00:31:14.950 --> 00:31:30.020
+<v Sarah Koenig>That's letter number one. Then the next day, on March 2, she writes Adnan another letter. This one's typed. It's chattier. She talks about the gossip at school, the bits and pieces of evidence about the crime that are circulating, what the students are saying, what the teachers are saying, about her visit to his house.
+<v Sarah Koenig>那是第一封信。然后第二天，3月2日，她又给阿德南写了另一封信。这封信是打印的。内容更轻松。她谈到了学校里的流言蜚语，关于犯罪的证据碎片在传播，学生在说什么，老师在说什么，关于她去他家的访问。
+
+00:31:30.020 --> 00:31:40.360
+<v Sarah Koenig>Quote, "Your brothers are nice. I don't think I met your mother. I think I met your dad. Does he have a big gray beard? They gave me and Justin soda and cake. There was a whole bunch of people at your house. I didn't know who they were.
+<v Sarah Koenig>“你兄弟们人很好。我想我没见到你母亲。我想我见到你父亲了。他是不是有大灰胡子？他们给了我和贾斯汀汽水和蛋糕。你家里有一大群人。我不知道他们是谁。”
+
+00:31:40.360 --> 00:31:58.040
+<v Sarah Koenig>I also didn't know that Muslims take their shoes off in the house. Thank God they didn't make me take mine off. My stinky feet probably would have knocked everyone out cold. Why haven't you told anyone about talking to me in the library?" she asks him. "Did you think it was unimportant? You didn't think that I would remember? Or did you just totally forget yourself?"
+<v Sarah Koenig>“我也才知道穆斯林进屋要脱鞋。感谢上帝，他们没让我脱掉我的。我的臭脚可能会把每个人熏晕过去。为什么你没告诉任何人你曾和我谈话？”她问他，“你觉得不重要吗？你没想过我会记得吗？还是你自己彻底忘了？”
+
+00:31:58.040 --> 00:32:14.240
+<v Sarah Koenig>Adnan says now that he does in fact remember seeing Asia in the library. The thing he remembers about it is so high school. Asia used to go out with Adnan's friend Justin. And Justin had confided that Asia was a proper young lady." In other words, Justin wasn't getting any.
+<v Sarah Koenig>阿德南现在说他确实记得在图书馆见到亚洲。他记得的关于那件事的内容非常校园风。亚洲过去常和阿德南的朋友贾斯汀约会。而贾斯汀曾吐露亚洲是个“正经的好姑娘”。换句话说，贾斯汀没吃到肉。
+
+00:32:14.240 --> 00:32:26.920
+<v Sarah Koenig>So Adnan remembers thinking he would now get to tease Justin about seeing Asia with her new boyfriend. Maybe the new guy was getting lucky, ha, ha. Anyway, Rabia calls Asia up. It's been a year since she wrote the letters, but she agrees to meet.
+<v Sarah Koenig>所以阿德南记得他心想现在可以拿这件事去逗贾斯汀了，看到亚洲和她的新男友在一起。也许新家伙有好运，哈哈。总之，拉比娅打电话给亚洲。距离她写信已经过去一年了，但她同意见面。
+
+00:32:26.920 --> 00:32:43.420
+<v Rabia>And she told me, that day after school I went to the public library. And Adnan was sitting at a computer, checking email or something. And I sat down next to him. We started chatting. And Adnan was a very popular boy in school. He was handsome and popular with the ladies.
+<v Rabia>她告诉我说，那天放学后我去了公共图书馆。阿德南坐在电脑前查邮件什么的。我坐在他旁边。我们开始聊天。阿德南在学校是个非常受欢迎的男孩。他长得帅，在女生中很受欢迎。
+
+00:32:43.420 --> 00:32:56.100
+<v Rabia>So she was speaking to him. And her boyfriend shows up a little bit later with a friend. And she said her boyfriend was really angry at her, because he's like, why are you talking to him? You know, high school kids, why are you talking to him? Is he hitting on you?
+<v Rabia>所以她在和他说话。后来她男朋友带着一个朋友出现了。她说她男朋友当时真的很生气，因为他就像，你为什么和他说话？你知道，高中孩子，你为什么和他说话？他在撩你吗？
+
+00:32:56.100 --> 00:33:14.260
+<v Rabia>And she remembered very specifically that that day she went to her boyfriend's house with him, and they got snowed in. And it snowed really heavily that night. And she remembered that for the following two days, school was closed. So she had very specific details about why she remembered that day.
+<v Rabia>而且她记得很清楚那天她和他一起去了她男朋友家，然后被大雪困住了。那天晚上雪下得很大。她记得接下来的两天学校都关门了。所以她有非常具体的细节关于她为什么记得那天。
+
+00:33:14.260 --> 00:33:37.630
+<v Sarah Koenig>Asia wrote out an affidavit on the spot. In it, she says she and Adnan spoke for about 15 to 20 minutes while she was waiting for her boyfriend to give her a ride. Quote, "We left around 2:40," unquote. Remember, Hae is supposed to be dead by 2:36. And then, the kicker-- "No attorney has ever contacted me about January 13, 1999 and the above information."
+<v Sarah Koenig>亚洲当场写下了一份宣誓书。在里面，她说她和阿德南谈了大概15到20分钟，当时她正在等她男朋友来载她。“我们大概2点40分离开的。”记住，海应该在2点36分就死了。然后，重点来了——“没有律师联系过我关于1999年1月13日和上述信息。”
+
+00:33:37.630 --> 00:34:00.330
+<v Sarah Koenig>So benefit of the doubt for a second-- maybe Adnan never actually showed the letters to Christina Gutierrez, his attorney. Sure, he said he did, but who knows? Well, I know. Deep inside Gutierrez's notes on the case-- I have boxes and boxes of such stuff-- there's this in her handwriting. "Asia plus boyfriend saw him in library 2:15 to 3:15."
+<v Sarah Koenig>所以姑且假设——也许阿德南从未把信展示给他的律师克里斯蒂娜·古铁雷斯。当然，他说他展示过，但谁知道呢？好吧，我知道。在古铁雷斯对案子的深入笔记中——我有好几箱这样的东西——里面有她手写的：“亚洲加男友2:15到3:15在图书馆看见他。”
+
+00:34:00.330 --> 00:34:17.920
+<v Sarah Koenig>Then there's another note, dated July 13. It's more than four months after Adnan's arrest. This is written by one of Gutierrez's law clerks, who visited Adnan in jail. Quote, "Asia McLean saw him in the library at 3:00. Asia boyfriend saw him too. Library may have cameras."
+<v Sarah Koenig>然后还有另一张笔记，日期是7月13日。距离阿德南被捕已经过去四个多月了。这是古铁雷斯的一名律师助理写的，他在监狱里探望了阿德南。“亚洲·麦克莱恩3点在图书馆见到他。亚洲男朋友也见到了。图书馆可能有摄像头。”
+
+00:34:17.920 --> 00:34:32.770
+<v Sarah Koenig>Why, oh, why was this person never heard from at trial-- a solid, non-crazy, detail-oriented alibi witness in a case that so sorely needed alibi witnesses? I can't ask Christina Gutierrez, because she died in 2004.
+<v Sarah Koenig>为什么，噢，为什么这个人从未在审判中出现过——一个可靠的、没疯的、注重细节的不在场证明证人，在一个如此迫切需要不在场证明证人的案子里？我无法问克里斯蒂娜·古铁雷斯，因为她死于2004年。
+
+00:34:32.770 --> 00:34:49.380
+<v Sarah Koenig>So I put that question to a few defense attorneys. And they said, well, alibi witnesses can be tricky, especially if it's just one person. Because then it becomes one person's word over another. A single witness like that can backfire under cross-examination. Or they might take the jury's focus away from the weaknesses in the state's case.
+<v Sarah Koenig>所以我把这个问题抛给了几位辩护律师。他们说，嗯，不在场证明证人可能很棘手，特别是如果只有一个人。因为那样就会变成一面之词。这样一个单一证人可能会在交叉质询下适得其反。或者他们可能会分散陪审团对控方案件弱点的关注。
+
+00:34:49.380 --> 00:35:12.730
+<v Sarah Koenig>So there are conceivable strategic reasons why Christina Gutierrez might not have wanted to put Asia McLean on the stand. But what is inconceivable, they all said, is to not ever contact Asia McLean, to never make the call, never check it out, never find out if her story helps or hurts your case. That makes no sense whatsoever. That is not a strategy. That is a screw-up.
+<v Sarah Koenig>所以克里斯蒂娜·古铁雷斯可能不想让亚洲·麦克莱恩上证人席是有可能的战略原因。但他们都说，不可思议的是，从来没联系过亚洲·麦克莱恩，从来没打过那个电话，从来没核实过，从来没去发现她的故事是有帮助还是会损害案件。这根本没道理。那不是战略。那是搞砸了。
+
+00:35:12.730 --> 00:35:24.130
+<v Sarah Koenig>When I first heard about the long-lost Asia letters and the lawyer's mistake, I thought, well, their fight is over, right? They've got an alibi witness who was never heard from. It's such a slam dunk. They're done.
+<v Sarah Koenig>当我第一次听到那封丢失的亚洲信件和律师的错误时，我想，嗯，他们的战斗结束了，对吧？他们有一个从未被听取的在场证明证人。这简直是个必杀技。他们赢了。
+
+00:35:24.130 --> 00:35:39.770
+<v Sarah Koenig>Adnan's family hired a new attorney, who filed a petition in court based on the Asia affidavit. His argument was that Adnan's trial could have turned out differently if Gutierrez had checked out Asia's story. And so Adnan should get some form of what's called post-conviction relief.
+<v Sarah Koenig>阿德南的家人聘请了一位新律师，根据亚洲的宣誓书向法院提交了请愿书。他的论点是，如果古铁雷斯去核实了亚洲的故事，阿德南的审判结果可能会不同。所以阿德南应该得到某种形式的所谓判后救济。
+
+00:35:39.770 --> 00:35:56.800
+<v Sarah Koenig>The new lawyer figures he'll get Asia to come to the hearing. She'll vouch for her story. By this time, Asia had finished school and moved away. He finds an address on the West Coast, tries calling, sending messages-- nothing. Finally, he writes a letter to her, gives it to a private investigator, who goes out to Asia's house in hopes of delivering it.
+<v Sarah Koenig>新律师想他会找亚洲来听证会。她会为她的故事作证。这时候，亚洲已经高中毕业并搬走了。他找到了一个西海岸的地址，尝试打电话、发消息——没动静。最后，他写了一封信给她，交给了一个私家侦探，希望送到亚洲家。
+
+00:35:56.800 --> 00:36:14.580
+<v Sarah Koenig>Asia's fiance comes to the door, opens it part way, tells the investigator that she cannot speak to Asia, but that from what he knows of Adnan's case, Adnan is guilty and deserved the punishment he got. Later, the investigator gets a call from the fiance. "We don't have to talk to you. Leave us alone."
+<v Sarah Koenig>亚洲的未婚夫来到门口，开了一半门，告诉调查员他不能和亚洲说话，但据他所知关于阿德南的案子，阿德南是有罪的，他得到的惩罚是他应得的。后来，调查员接到了未婚夫的电话。“我们没必要和你说话。别打扰我们。”
+
+00:36:14.580 --> 00:36:38.020
+<v Sarah Koenig>So Adnan's lawyer calls off the search for Asia, figuring once a witness turns on you like that, it's too risky to keep pushing. And then at Adnan's hearing on the new petition, it comes out that Asia had done the very thing they dreaded. Asia had called one of the prosecutors in Adnan's case, a guy named Kevin Urick, and undermined her own statement. This is from a recording of the hearing. Mr. Urick is testifying on the witness stand.
+<v Sarah Koenig>所以阿德南的律师取消了对亚洲的搜寻，心想一旦证人反水，继续推进太冒险了。然后在阿德南关于新请愿书的听证会上，爆出亚洲做了他们害怕的事。亚洲打给了阿德南案的一位检察官，一个叫凯文·乌里克的人，并推翻了她自己的陈述。这是听证会的录音。乌里克先生在证人席上作证。
+
+00:36:38.020 --> 00:36:43.640
+<v Attorney>Mr. Urick, how did you learn that the [INAUDIBLE] petition?
+<v Attorney>乌里克先生，你是怎么知道那个[听不清]请愿书的？
+
+00:36:43.640 --> 00:36:47.780
+<v Kevin Urick>A young lady named Asia called me.
+<v Kevin Urick>一个叫亚洲的年轻女士打给了我。
+
+00:36:47.780 --> 00:36:49.970
+<v Attorney>And what did she say?
+<v Attorney>她说了什么？
+
+00:36:49.970 --> 00:37:06.110
+<v Kevin Urick>She was concerned, because she was being asked questions about an affidavit she'd written back at the time of the trial. She told me that she'd only written it because she was getting pressure from the family, and she basically wrote it to please them and get them off her back.
+<v Kevin Urick>她很担心，因为她被问及她在审判时写的宣誓书。她告诉我她写它只是因为受到家人的压力，她基本上写它是为了取悦他们，让他们别再缠着她。
+
+00:37:06.110 --> 00:37:09.540
+<v Rabia>I don't know what happened to her and why she would do this.
+<v Rabia>我不知道她发生了什么，为什么她要这样做。
+
+00:37:09.540 --> 00:37:18.390
+<v Sarah Koenig>Here's Rabia again. She says it's not true that Asia was bullied into writing that statement 15 years ago. And she can't fathom why Asia would discredit her own statement like that.
+<v Sarah Koenig>这是拉比娅。她说亚洲15年前被迫写下那个声明不是真的。她无法理解亚洲为什么要那样抹黑她自己的声明。
+
+00:37:18.390 --> 00:37:35.460
+<v Rabia>I don't know why. The affidavit was written voluntarily. I'm an attorney. I'm a licensed attorney. I work on homeland security. I have no reason to make something like this up. I didn't even know she existed until after the conviction.
+<v Rabia>我不知道为什么。宣誓书是自愿写的。我是一名律师。我是一名执业律师。我在国土安全部工作。我没理由编造这种事。在定罪之前我甚至不知道她的存在。
+
+00:37:35.460 --> 00:37:43.210
+<v Sarah Koenig>So what do you think happened? Why would they have this sort of violent reaction to helping out Adnan now?
+<v Sarah Koenig>那你认为发生了什么？为什么他们现在会对帮助阿德南有这种剧烈的反应？
+
+00:37:43.210 --> 00:37:49.220
+<v Rabia>I don't know. It was just really odd.
+<v Rabia>我不知道。这真的很奇怪。
+
+00:37:49.220 --> 00:37:59.220
+<v Sarah Koenig>So who knows what would have happened if Asia had shown up? Maybe it wouldn't have made a difference. After all, they had the original letters and the affidavit. That's all that should've mattered. But it didn't look good.
+<v Sarah Koenig>所以谁知道亚洲如果露面会发生什么？也许那不会有任何区别。毕竟，他们有原来的信件和宣誓书。那才是重要的。但看起来不太好。
+
+00:37:59.220 --> 00:38:14.230
+<v Sarah Koenig>It would be natural for the judge to wonder, why can't the defense produce this Asia person? Why is she making this call to a prosecutor? I mean, anyone would wonder. I wondered. I wondered if maybe she was pressured into writing that affidavit. And I wondered if she was hiding something.
+<v Sarah Koenig>法官自然会怀疑，为什么辩方不能带出这个亚洲人？为什么她要给检察官打那个电话？我的意思是，任何人都会怀疑。我也怀疑。我想知道她是否是被迫写下那份宣誓书的。我也想知道她是否隐瞒了什么。
+
+00:38:14.230 --> 00:38:27.100
+<v Sarah Koenig>Like maybe she'd lied in those 1999 letters. Maybe she didn't really see Adnan at the library that day and had just wanted to insert herself into something exciting. And maybe now that she was grown up, she wanted nothing to do with any of it.
+<v Sarah Koenig>比如也许她在1999年的信件里撒谎了。也许她那天并没有在图书馆看见阿德南，只是想介入一些令人兴奋的事情。也许现在她长大了，不想和任何这些事扯上关系。
+
+00:38:27.100 --> 00:38:43.690
+<v Sarah Koenig>So three, four months after I first sat down with Rabia, I had become fixated on finding Asia. I'm like a bloodhound on this thing. Because the whole case seemed to me to be teetering on her memories of that afternoon. I have to know if Adnan really was in the library at 2:36 PM.
+<v Sarah Koenig>所以在我第一次坐下来和拉比娅交谈后的三、四个月，我一直沉迷于寻找亚洲。我像猎犬一样盯着这件事。因为整个案子在我看来都悬在她对那个下午的记忆上。我必须知道阿德南那天下午2点36分是否真的在图书馆。
+
+00:38:43.690 --> 00:38:52.310
+<v Sarah Koenig>Because if he was, library equals innocent. It's so maddeningly simple. And maybe I can crack it if I could just talk to Asia.
+<v Sarah Koenig>因为如果他在，图书馆就等于无辜。这简直简单得让人抓狂。如果我能和亚洲聊聊，也许我能破解它。
+
+00:38:52.310 --> 00:39:08.660
+<v Sarah Koenig>I write her a long, gentle, pleading letter and send it off to an address I find online. I'm calling people who know her or  who I think might know her. I'm checking the same loop of Facebook, MyLife, LinkedIn sites over and over, trawling for clues about where she might be or how she might think.
+<v Sarah Koenig>我写了一封长长、温和、恳求的信，寄到了我在网上找到的一个地址。我打电话给认识她的人或者我以为可能认识她的人。我一遍又一遍地在Facebook、MyLife、LinkedIn上寻找线索，查探她可能在哪里或她怎么想。
+
+00:39:08.660 --> 00:39:26.080
+<v Sarah Koenig>If you're wondering why I went so nuts on this story versus some other murder case, the best I can explain is this is the one that came to me. It wasn't halfway across the world or even next door. It came right to my lap. And if I could help get to the bottom of it, shouldn't I try?
+<v Sarah Koenig>如果你想知道为什么我在这案子上比其他谋杀案要疯狂得多，我最好的解释是，这是那个找到我的案子。它不是在地球的另一端，甚至不是隔壁。它直接来到我的膝盖上。如果我能帮助查清真相，难道我不该尝试吗？
+
+00:39:26.080 --> 00:39:37.760
+<v Sarah Koenig>I start running down all the other information in Asia's 1999 letters. She mentioned there were security cameras inside the library. So my producer and I went to see the very nice manager there, Michelle Hamiel.
+<v Sarah Koenig>我开始排查亚洲1999年信件中的所有其他信息。她提到图书馆里有安全摄像头。所以我和我的制片人去见了那里非常好的经理，米歇尔·哈米尔。
+
+00:39:37.760 --> 00:39:42.170
+<v Sarah Koenig>Was there a security system back in '99 that could've been checked at the time?
+<v Sarah Koenig>在99年是否有可以当时核实的安保系统？
+
+00:39:42.170 --> 00:39:44.610
+<v Michelle Hamiel>Probably, yes. I'm going to say yes.
+<v Michelle Hamiel>大概有，是的。我会说是的。
+
+00:39:44.610 --> 00:39:46.630
+<v Sarah Koenig>OK. And what system was it?
+<v Sarah Koenig>好的。那是什么系统？
+
+00:39:46.630 --> 00:39:50.390
+<v Michelle Hamiel>I have no idea. [LAUGHING] It was an old system.
+<v Michelle Hamiel>我不知道。[笑]那是个老系统。
+
+00:39:50.390 --> 00:39:52.930
+<v Sarah Koenig>Yeah. But you think probably video?
+<v Sarah Koenig>是的。但你认为可能是录像？
+
+00:39:52.930 --> 00:39:58.290
+<v Michelle Hamiel>It was video. And that was part of set up. Every morning you put a videotape in.
+<v Michelle Hamiel>是录像。那是设置的一部分。每天早上你放一盒录像带进去。
+
+00:39:58.290 --> 00:40:00.320
+<v Sarah Koenig>Were you guys recycling the videotapes?
+<v Sarah Koenig>你们循环利用录像带吗？
+
+00:40:00.320 --> 00:40:07.860
+<v Michelle Hamiel>Yes. I think it ran for a week. So you had a Monday tape, a Tuesday tape, a Wednesday tape, and so forth.
+<v Michelle Hamiel>是的。我想它能运行一周。所以你有周一的磁带，周二的磁带，周三的磁带，以此类推。
+
+00:40:07.860 --> 00:40:20.750
+<v Sarah Koenig>So even if, on the very day that Asia had written her first letter, Adnan's lawyer had run out to find the security tape, it probably would have been nonexistent by then. But what about the computer Adnan was supposedly using to check his email?
+<v Sarah Koenig>所以即使在亚洲写第一封信的那天，阿德南的律师跑去寻找安全录像带，在那时它可能也已经不存在了。但那个据说是阿德南用来查邮件的电脑呢？
+
+00:40:20.750 --> 00:40:25.120
+<v Sarah Koenig>To use the computer, did people have to sign in, write their name down?
+<v Sarah Koenig>使用电脑，人们必须登录，写下名字吗？
+
+00:40:25.120 --> 00:40:25.900
+<v Michelle Hamiel>They did.
+<v Michelle Hamiel>是的。
+
+00:40:25.900 --> 00:40:28.630
+<v Sarah Koenig>And what was the system then?
+<v Sarah Koenig>那时的系统是什么？
+
+00:40:28.630 --> 00:40:30.920
+<v Michelle Hamiel>Piece of paper and pencil.
+<v Michelle Hamiel>纸和铅笔。
+
+00:40:30.920 --> 00:40:36.000
+<v Sarah Koenig>And those, by any chance, weren't logged meticulously and kept for 15 years, were they?
+<v Sarah Koenig>那些，碰巧没有被精细地记录并保存了15年，对吧？
+
+00:40:36.000 --> 00:40:38.390
+<v Michelle Hamiel>No. [LAUGHING]
+<v Michelle Hamiel>没有。[笑]
+
+00:40:38.390 --> 00:40:42.360
+<v Sarah Koenig>Bummer. We got nothing.
+<v Sarah Koenig>糟糕。我们一无所获。
+
+00:40:42.360 --> 00:40:54.520
+<v Sarah Koenig>Then there was the mystery of Asia's boyfriend, Derek, and his friend Jerrod. All winter and spring, every time I went to Baltimore, I went to Derek's mom's house looking for him, and to Jerrod's window tinting business. And then finally--
+<v Sarah Koenig>还有亚洲男朋友德里克和他朋友杰罗德的谜团。整个冬天和春天，每次我去巴尔的摩，我都去德里克的妈妈家找他，去杰罗德的汽车贴膜店。然后终于——
+
+00:40:54.520 --> 00:40:56.240
+<v Sarah Koenig>All right, so you're Jerrod Johnson.
+<v Sarah Koenig>好了，所以你是杰罗德·约翰逊。
+
+00:40:56.240 --> 00:40:58.390
+<v Jerrod Johnson>Yes, I am.
+<v Jerrod Johnson>是的，我是。
+
+00:40:58.390 --> 00:41:02.170
+<v Sarah Koenig>You don't know how excited we are to be talking to you. I've been looking for you for, like, four months.
+<v Sarah Koenig>你不知道我们和你谈话有多兴奋。我已经找了你四个月了。
+
+00:41:02.170 --> 00:41:03.200
+<v Jerrod Johnson>What did I do?
+<v Jerrod Johnson>我做了什么？
+
+00:41:03.200 --> 00:41:28.970
+<v Sarah Koenig>You didn't do anything. But we were hoping maybe you remembered this moment. On January 13, 1999, do you have any memory, by any miracle, that you went to Woodlawn public library branch near Woodlawn High School to pick up Asia McLean with your friend Derek?
+<v Sarah Koenig>你没做什么。但我们希望也许你记得那个时刻。1999年1月13日，你有任何记忆，哪怕是奇迹般地，你去了靠近伍德劳恩高中的伍德劳恩公共图书馆分支，和你的朋友德里克一起接亚洲·麦克莱恩？
+
+00:41:28.970 --> 00:41:36.500
+<v Jerrod Johnson>I have no idea. Asia McLean. Is that a person or a book?
+<v Jerrod Johnson>我不知道。亚洲·麦克莱恩。那是人还是书？
+
+00:41:36.500 --> 00:41:38.020
+<v Sarah Koenig>It's a person.
+<v Sarah Koenig>是个人。
+
+00:41:38.020 --> 00:41:40.810
+<v Jerrod Johnson>No, no recollection of it.
+<v Jerrod Johnson>不，不记得。
+
+00:41:40.810 --> 00:41:52.300
+<v Sarah Koenig>Scratch Jerrod. Derek was my last hope. Eventually I caught him at home. Considering I woke him up, he was exceedingly courteous. He showed me a photo of Asia and him all dressed up. They dated most of senior year.
+<v Sarah Koenig>划掉杰罗德。德里克是我最后的希望。最终我在家抓住了他。考虑到我把他吵醒了，他非常客气。他给我看了他和亚洲穿得整整齐齐的一张照片。他们在大四约会了大部分时间。
+
+00:41:52.300 --> 00:41:52.890
+<v Sarah Koenig>What's up here?
+<v Sarah Koenig>这是什么？
+
+00:41:52.890 --> 00:41:55.240
+<v Derek>This is our senior prom. Yeah.
+<v Derek>这是我们的毕业舞会。对，那是亚洲。
+
+00:41:55.240 --> 00:41:57.470
+<v Sarah Koenig>You guys both look really beautiful.
+<v Sarah Koenig>你们看起来都很漂亮。
+
+00:41:57.470 --> 00:42:01.110
+<v Derek>Yeah. That's Asia, yeah.
+<v Derek>对。那是亚洲，对。
+
+00:42:01.110 --> 00:42:13.350
+<v Sarah Koenig>But Derek couldn't remember that day either-- shocking, I know. He used to pick Asia up from school almost every day back then, either from the library or from the front of the school. And he says he spoke to a lot of her friends just to be polite.
+<v Sarah Koenig>但德里克也记不起那天了——震撼，我知道。当时他几乎每天都从学校接亚洲，要么是从图书馆，要么是从校门前。他说他确实和她很多朋友说过话，只是出于礼貌。
+
+00:42:13.350 --> 00:42:34.530
+<v Derek>And it's very possible that I could have spoken to the gentleman and her on that day. But it's very hard to remember 15 years later. But it sounds like this definitely could have happened. I don't think Asia would-- Asia's not the type of person that would lie just to--
+<v Derek>而且很有可能那天我确实和那位先生还有她说过话。但15年后要记住真的很难。但这听起来确实很有可能发生了。我不认为亚洲会——亚洲不是那种会撒谎的人——
+
+00:42:34.530 --> 00:42:35.250
+<v Sarah Koenig>That's what I'm wondering.
+<v Sarah Koenig>这就是我担心的。
+
+00:42:35.250 --> 00:42:52.510
+<v Derek>She's definitely not that type of person to get involved with a lie. She's not that type of person. So it seemed pretty credible to me.
+<v Derek>她绝对不是那种会撒谎的人。她不是那样的人。所以这对我来说似乎很可信。
+
+00:42:52.510 --> 00:42:55.220
+<v Sarah Koenig>One day I get a call on my cellphone from a blocked number.
+<v Sarah Koenig>一天，我的手机收到了一个屏蔽号码的来电。
+
+00:42:55.220 --> 00:43:00.110
+<v Asia Mclean>I mean, I have a couple minutes if you want to chat about it.
+<v Asia Mclean>我的意思是，如果你想聊聊，我有几分钟。
+
+00:43:00.110 --> 00:43:04.770
+<v Sarah Koenig>You guessed it-- Asia.
+<v Sarah Koenig>你猜对了——亚洲。
+
+00:43:04.770 --> 00:43:29.250
+<v Ira Glass>Coming up, what Asia remembers, which is a lot. That's in a minute from Chicago Public Radio when our program continues. It's This American Life . I'm Ira Glass. Today on our program, Sarah Koenig looks into the murder of a Baltimore teenager back in 1999. Our story continues. You remember where we left off. Sarah had been looking for Asia McLean. Here's Sarah.
+<v Ira Glass>接下来，亚洲记得什么，记得很多。这是芝加哥公共广播电台在节目继续时的一分钟。我是艾拉·格拉斯。今天我们的节目，莎拉·凯尼格深入调查了1999年巴尔的摩青少年的谋杀案。我们的故事继续。你记得我们停在哪里了。莎拉一直在找亚洲·麦克莱恩。接下来是莎拉。
+
+00:43:29.250 --> 00:43:42.480
+<v Sarah Koenig>I wish I could say that my charming, persuasive letter is what prompted Asia to call. But the truth is, she never got my letter. I had the wrong address. But she was calling because I'd followed up weeks later with a one-line email. And she was responding to that, a little confused.
+<v Sarah Koenig>我真希望能说是我那充满魅力、极具说服力的信促使亚洲打了电话。但事实是，她从未收到我的信。我地址写错了。但她打来是因为我几周后跟进了一封单行邮件。她在回应那个，有点困惑。
+
+00:43:42.480 --> 00:43:52.110
+<v Asia Mclean>It's just crazy. I mean, I have a couple minutes if you want to chat about it.
+<v Asia Mclean>这真是太疯狂了。我的意思是，如果你想聊聊，我有几分钟。
+
+00:43:52.110 --> 00:44:04.740
+<v Sarah Koenig>I recorded our conversation on the cell, which is why the sound quality is so bad. Sorry about that. Asia is now a 33-year-old stay-at-home mother. And she has not spent the last 15 years worrying about Adnan and whether he's guilty.
+<v Sarah Koenig>我录了我们在手机上的谈话，这就是音质那么差的原因。对此表示抱歉。亚洲现在是一位33岁的全职妈妈。她过去15年并没有为阿德南是否无罪而担心。
+
+00:44:04.740 --> 00:44:23.180
+<v Asia Mclean>I trust the court system to do their due diligence. Because I was never questioned. I was never informed of anything pertaining to the case. I don't know why he was convicted.
+<v Asia Mclean>我相信法院系统会进行尽职调查。因为我从来没被审问过。我从没被告知关于案子的任何事情。我不知道他为什么被判刑。
+
+00:44:23.180 --> 00:44:42.580
+<v Sarah Koenig>Asia said she was spooked when the private investigator came to her house. I don't know if that's why she didn't testify at the hearing or why she made the call to the prosecutor. But she told me that when she got the knock at the door, quote, "that was not cool." Because to her, if Adnan did do it, quote, "the last thing you want is a murderer being pissed off at you, knowing where you live."
+<v Sarah Koenig>亚洲说当私家侦探去她家时她被吓坏了。我不知道那是不是她没在听证会上作证或打给检察官的原因。但她告诉我，当敲门声响起时，她说，“那一点也不酷。”因为对她来说，如果阿德南真的做了，“你最不想面对的就是一个杀人犯对你恼火，而且还知道你住在哪儿。”
+
+00:44:42.580 --> 00:44:59.740
+<v Sarah Koenig>But she had a remarkably clear memory of what happened on January 13, 1999. She had an internship at the time, and so she got out of school much earlier than everyone else. Derek was supposed to come get her at the library along with Jerrod, but they were very late. She remembers seeing Adnan come in after Woodlawn let out for the day.
+<v Sarah Koenig>但她对1999年1月13日发生的事情有非常清晰的记忆。她当时在实习，所以比其他人更早离开学校。德里克本该和杰罗德一起去图书馆接她，但他们迟到了很久。她记得看到阿德南在伍德劳恩放学后进来。
+
+00:44:59.740 --> 00:45:20.560
+<v Asia Mclean>Adnan came in. He sat at the table. And we weren't really close friends or anything like that, but we knew each other. And we chatted or whatever. And I can't remember.
+<v Asia Mclean>阿德南进来了。他坐在桌子旁。我们并不是真正的密友，但我们认识。我们聊了聊什么的。我不记得了。
+
+00:45:20.560 --> 00:45:42.510
+<v Asia Mclean>I think I must have asked him how he was doing or whatever, and he said fine. And he told me that him and Hae had broke up. And I was like, oh, well, that's a bummer. And I was like, what happened? And he was like, oh, well, she is seeing this other guy, some white dude.
+<v Asia Mclean>我想我肯定问过他过得怎么样，他说很好。他告诉我他和海分手了。我就说，噢，真遗憾。我就问，发生了什么？他说，噢，好吧，她在和另一个家伙交往，某个白人哥们。
+
+00:45:42.510 --> 00:45:55.040
+<v Asia Mclean>But he was pretty chill about it. He was just like, you know, well, if she doesn't want to be with me, then that's fine. I just wish the best for her-- that kind of attitude.
+<v Asia Mclean>但他对此很冷静。他只是说，你知道，好吧，如果她不想和我在一起，那就算了。我只是祝她一切顺利——那种态度。
+
+00:45:55.040 --> 00:46:05.680
+<v Sarah Koenig>I'm not sure why Asia's memory of this interaction is so clear all these years later. My best guess is that, because she wrote it down at the time in those letters and then the affidavit, that the details somehow stuck.
+<v Sarah Koenig>我不确定为什么这些年来亚洲对这次互动的记忆如此清晰。我最好的猜测是，因为她在当时那封信和宣誓书里写下来了，细节以某种方式固定了下来。
+
+00:46:05.680 --> 00:46:17.490
+<v Sarah Koenig>Do you remember what time you were talking, this would have happened in the library? Do you remember what time that conversation would have happened?
+<v Sarah Koenig>你记得你交谈的时间吗，这事在图书馆发生的？你记得谈话的时间吗？
+
+00:46:17.490 --> 00:46:26.220
+<v Asia Mclean>I don't. Because I know school let out around 2:15. So it was probably around 2:30.
+<v Asia Mclean>不记得。因为我知道大概2点15分放学。所以大概是2点30分。
+
+00:46:26.220 --> 00:46:34.270
+<v Sarah Koenig>Because you had said you got out of school earlier than other people. So were you there, were you at the library, before 2:15?
+<v Sarah Koenig>因为你说你比其他人更早离开学校。所以你在那儿，你在图书馆，在2点15分之前？
+
+00:46:34.270 --> 00:46:37.360
+<v Asia Mclean>Oh, yeah, I had been at the library for a few hours.
+<v Asia Mclean>噢，对，我在图书馆待了几个小时。
+
+00:46:37.360 --> 00:46:39.320
+<v Sarah Koenig>Oh wow.
+<v Sarah Koenig>噢，哇。
+
+00:46:39.320 --> 00:46:53.760
+<v Asia Mclean>Yeah, I was pretty pissed when Derek showed up. And he asked me who Adnan was. That was teenager boy language. He's like, you know, who the hell is that?
+<v Asia Mclean>对，当德里克出现时我很生气。他问我阿德南是谁。那是青少年男生的语言。他就像，你知道，那到底是谁？
+
+00:46:53.760 --> 00:47:10.000
+<v Asia Mclean>And I said, don't even start with me. Because you're a few hours late. Don't worry about who that is, you know? I remember that day, because that was the day that it snowed.
+<v Asia Mclean>我说，别冲我来。因为你迟到了几个小时。别担心那是谁，你知道吗？我记得那天，因为那是下雪的一天。
+
+00:47:10.000 --> 00:47:14.750
+<v Sarah Koenig>Were there snow days after that, do you remember?
+<v Sarah Koenig>那天之后还有下雪天吗，你记得吗？
+
+00:47:14.750 --> 00:47:38.260
+<v Asia Mclean>I want to say there was, because I think that was like the first snow of the year. I wouldn't have even remembered if it hadn't have been for the snow. And the whole-- I just remember being so pissed about Derek being late and then getting snowed in at his house. And it was the first snow of that year.
+<v Asia Mclean>我想说有过，因为我觉得那是当年的第一场雪。如果不是因为那场雪，我根本不会记得。整个——我只记得因为德里克迟到而非常生气，然后在他家被雪困住了。那是当年第一场雪。
+
+00:47:38.260 --> 00:47:49.580
+<v Sarah Koenig>The snow is important. Hae disappeared on a Wednesday. That night there was a huge ice storm, which is unusual in Maryland. It ended up being a state emergency. And school was closed for the rest of the week.
+<v Sarah Koenig>雪很重要。海在周三失踪。那天晚上发生了巨大的冰暴，这在马里兰州很不寻常。最终成为州紧急状态。学校在那周余下的时间都关门了。
+
+00:47:49.580 --> 00:48:07.350
+<v Sarah Koenig>Asia started asking me questions about the case. Wasn't there DNA evidence? And what exactly was Jay's part in the whole thing? She wasn't sure Adnan was guilty. She said things I've now heard from so many people since. He seemed like he cared about Hae. He didn't seem angry or upset. I thought there was more proof.
+<v Sarah Koenig>亚洲开始问我关于案子的问题。没有DNA证据吗？杰伊在整件事里的角色究竟是什么？她不确定阿德南是否有罪。她说了一些我后来从很多人那里听到的事情。他看起来关心海。他看起来没有生气或难过。我以为有更多证明。
+
+00:48:07.350 --> 00:48:34.830
+<v Asia Mclean>Even that day, I didn't walk away thinking, oh, I just started something. Do you know what I mean? If you want to base his innocence off of his composure at that moment, I would say he's innocent. But I'm 32 years old now, and I know that there's people out there capable of heinous acts that can keep a calm demeanor, you know?
+<v Asia Mclean>即使那天，我也没走着走着想，噢，我刚才开启了什么。你明白我的意思吗？如果你想基于他在那一刻的从容来判定他的无罪，我会说他是无辜的。但我现在32岁了，我知道有很多人有能力做出令人发指的行为，同时保持冷静的态度，你知道吗？
+
+00:48:34.830 --> 00:49:00.420
+<v Asia Mclean>And I know that there are people who flip out on a moment's notice and do something that they regret for the rest of their lives. Even now, it would be nice if there was some technicality, something that would prove his innocence. Great, you know? One less evil person I've met in my life, you know?
+<v Asia Mclean>而且我知道有些人会瞬间抓狂，做出让他们余生都后悔的事。即使现在，如果有个技术细节证明他的清白会很不错。太好了，你知道吗？我生活中少见了一个邪恶的人，你知道吗？
+
+00:49:00.420 --> 00:49:19.020
+<v Sarah Koenig>But I think, Asia, you might be that technicality. Do you see what I mean? If you're saying that you saw him on this day at that time, that means the state's timeline for their whole theory of the case doesn't make any sense.
+<v Sarah Koenig>但我认为，亚洲，你可能就是那个技术细节。你明白我的意思吗？如果你说你在那天的那个时间见到他，这意味着州政府对于整个案子理论的时间线根本说不通。
+
+00:49:19.020 --> 00:49:20.500
+<v Asia Mclean>It's a possibility.
+<v Asia Mclean>这是一种可能。
+
+00:49:20.500 --> 00:49:34.850
+<v Sarah Koenig>Because they're saying he was in the car with her at the very time that you're saying, no, I saw him at the library, and we were talking. Do you know what I mean? That's exactly the window where they're saying she was murdered.
+<v Sarah Koenig>因为他们说他在车里和她在一起，而你却说，不，我看见他在图书馆，我们在聊天。你明白吗？那正是他们说她被谋杀的时间窗口。
+
+00:49:34.850 --> 00:49:38.940
+<v Asia Mclean>[SIGH]
+<v Asia Mclean>[叹气]
+
+00:49:38.940 --> 00:50:00.040
+<v Sarah Koenig>In case you couldn't hear that, it was a sigh. And I completely understand that sigh. That's how I feel a lot of the time. Because I talk to Adnan regularly, and he just doesn't seem like a murderer. A few minutes after I hung up with Asia, Adnan called on schedule.
+<v Sarah Koenig>如果你没听见，那是一声叹气。我完全理解那种叹气。我也经常有这种感觉。因为我和阿德南经常通话，他看起来根本不像杀人犯。我和亚洲挂断电话几分钟后，阿德南按时打了电话。
+
+00:50:00.040 --> 00:50:02.820
+<v Adnan>Hey, Sarah, how are you doing?
+<v Adnan>嘿，莎拉，你好吗？
+
+00:50:02.820 --> 00:50:10.790
+<v Sarah Koenig>I'm good. I'm good. So I was just talking to Asia McLean.
+<v Sarah Koenig>我很好。我刚和亚洲·麦克莱恩谈过。
+
+00:50:10.790 --> 00:50:13.840
+<v Adnan>OK.
+<v Adnan>好的。
+
+00:50:13.840 --> 00:50:17.030
+<v Sarah Koenig>You don't sound very excited.
+<v Sarah Koenig>听起来你不太激动。
+
+00:50:17.030 --> 00:50:22.890
+<v Adnan>I had a-- well, I really--
+<v Adnan>我有个——嗯，我真的——
+
+00:50:22.890 --> 00:50:33.930
+<v Sarah Koenig>This was not the reaction I expected. I felt like I'd just interviewed an ivory-billed woodpecker. But when I told Adnan what Asia remembered, instead of being excited, Adnan said it was heartbreaking.
+<v Sarah Koenig>这不是我预期的反应。我觉得我刚采访了一只象牙喙啄木鸟。但当我告诉阿德南亚洲记得什么时，阿德南非但没有激动，反而说那让人心碎。
+
+00:50:33.930 --> 00:50:48.110
+<v Adnan>I mean, on a personal level, I'm happy. Because, in a sense, I'm not making this up. And at least, if nothing else, it's kind of like, at least someone other than Rabia knows that this did take place.
+<v Adnan>我是说，从个人层面，我很高兴。因为某种意义上，我没编造这件事。至少，如果没什么别的，至少除了拉比娅以外，有人知道这件事确实发生了。
+
+00:50:48.110 --> 00:51:05.910
+<v Adnan>Anything that can kind of support what I'm saying to be the truth, that I didn't do this, is great. But from a legal perspective, it's like, I wish she would have came to this realization maybe like a year and  a half ago, you know what I mean? Because it's kind of like, it's too late.
+<v Adnan>任何能支持我说的真相，即我没做这件事的东西，都是好的。但从法律角度来看，就像，我希望她也许能在一年半前就有这种认识，你明白吗？因为它就像，太晚了。
+
+00:51:05.910 --> 00:51:12.960
+<v Adnan>I'm sorry, I definitely appreciate it. And I definitely kind of hear the elation in your voice. But now I feel like I punctured your balloon.
+<v Adnan>抱歉，我绝对很感激。我绝对听到了你声音里的兴奋。但现在我觉得我刺破了你的气球。
+
+00:51:12.960 --> 00:51:22.360
+<v Sarah Koenig>No, no, I totally see what you're saying. I hadn't thought about it in that way.
+<v Sarah Koenig>不，不，我完全明白你的意思。我没从那个角度想过。
+
+00:51:22.360 --> 00:51:35.120
+<v Sarah Koenig>When I told Rabia I talked to Asia, she immediately burst into tears. Because they were all correct. It was too late. The judge ruled on Adnan's petition a few weeks before I spoke to Asia-- denied.
+<v Sarah Koenig>当我告诉拉比娅我和亚洲谈话时，她立刻泪如雨下。因为他们都对了。太晚了。法官在我和亚洲交谈前几周驳回了阿德南的请愿——拒绝了。
+
+00:51:35.120 --> 00:51:52.050
+<v Sarah Koenig>The judge wrote in his opinion that Christina Gutierrez's decision not to use Asia McLean as an alibi witness was strategic. After all, Asia's original letters didn't specify an exact time. And Gutierrez could've reasonably concluded that Asia was offering to lie in order to help Adnan.
+<v Sarah Koenig>法官在意见书中写道，克里斯蒂娜·古铁雷斯决定不使用亚洲·麦克莱恩作为在场证明证人是战略性的。毕竟，亚洲最初的信件没有指定确切时间。而古铁雷斯可以合理地得出亚洲愿意为了帮助阿德南而撒谎。
+
+00:51:52.050 --> 00:52:19.530
+<v Sarah Koenig>And finally, he wrote, Asia's letter contradicted Adnan's own alibi. Asia says she saw him at the public library, but Adnan said he was on the school campus the whole afternoon. Maybe the judge didn't understand that Woodlawn library is basically part of the campus. But anyway, Asia's story, then, is legally worthless. A witness who says she saw you at the exact moment when the state contends you were strangling a young woman in a car is worthless.
+<v Sarah Koenig>最后，他写道，亚洲的信件与阿德南自己的在场证明相矛盾。亚洲说她在公共图书馆看见他，但阿德南说他在放学后整个下午都在校园里。也许法官没理解伍德劳恩图书馆基本上是校园的一部分。但无论如何，亚洲的故事，在法律上是毫无价值的。一个证人说在州政府断定你正在车里勒死年轻女性的瞬间看见了你，这是毫无价值的。
+
+00:52:19.530 --> 00:52:32.700
+<v Sarah Koenig>A few days after I spoke to Asia, she wrote me an email. "I've been thinking a lot about Adnan," she wrote. "All this time I thought the courts proved it was Adnan that killed her. I thought he was where he deserved to be. Now I'm not so sure.
+<v Sarah Koenig>我和亚洲交谈几天后，她写了一封邮件给我。“我一直在想阿德南，”她写道。“一直以来我都以为法院证明了是阿德南杀了她。我以为他在他应得的地方。现在我不那么确定了。”
+
+00:52:32.700 --> 00:53:08.510
+<v Sarah Koenig>Hae was our friend, too. And it sucks feeling like you don't know who really killed your friend. Hae was the sweetest person ever. If he didn't kill Hae, we owe it to him to try to make that clear. And if he did kill her, then we need to put this to rest. I just hope that Adnan isn't some sick bastard just trying to manipulate his way out of jail." I wrote back, "Believe me, I'm on exactly the same page."
+<v Sarah Koenig>“海也是我们的朋友。那种感觉你不知道到底是谁杀了你的朋友真的很糟糕。海是有史以来最甜美的人。如果他没杀海，我们欠他一个真相。如果他杀了她，那我们需要让这一切了结。我只是希望阿德南不是那种试图撒谎操纵以逃出监狱的变态渣男。”我回信说，“相信我，我的想法和你一模一样。”
+
+00:53:08.510 --> 00:53:21.710
+<v Ira Glass>Sarah Koenig-- she's the host of our new podcast Serial . You just heard the first episode of that podcast. Every episode after this is going to bring you the next chapter in her search for the truth about the murder of Hae Min Lee.
+<v Ira Glass>莎拉·凯尼格——她是我们的新播客节目《Serial》的讲述人。你刚听到了那个播客的第一集。这之后每一集都会带你进入她在探寻海·李被谋杀真相的下一个章节。
+
+00:53:21.710 --> 00:53:41.450
+<v Ira Glass>And you don't have to wait to hear the next installment. You can listen to Episode 2 right now. Go to serialpodcast.org. That's serial not spelled like the breakfast food. And you can listen right there by clicking Play. Or you can download the episode to listen later on your phone or tablet or whatever.
+<v Ira Glass>你不需要等很久才能听到下一期。你现在就可以听第二集。前往serialpodcast.org。那个Serial的拼写不是早餐食物那种。点击播放就可以收听。或者你可以下载这一集，以便以后在手机、平板电脑或其他设备上听。
+
+00:53:41.450 --> 00:54:14.880
+<v Ira Glass>One of the great things about this story is that I can tell you, as Sarah has been reporting this, she and Julie Snyder and Dana Chivvis, who are working with her on this, have all flipped back and forth, over and over, in their thinking about whether Adnan committed the murder. And when you listen to the series, you experience those flips with them. You go back and forth with them. You hear the evidence that Sarah uncovers as she uncovers it. And you can join her in trying to figure out exactly what happened and who to believe. And as the series continues, a lot of things are going to happen.
+<v Ira Glass>这个故事的一大优点是，我能告诉你，随着莎拉报道这件事，她和茱莉·斯奈德、达纳·奇维斯（与她一起工作的）对阿德南是否犯下了谋杀案一直摇摆不定，来来回回。当你听这个系列时，你和他们一起体验那种摇摆。你和他们一起反复。你听到莎拉揭露的证据。你可以和她一起探究到底发生了什么，该相信谁。随着系列的继续，很多事情都会发生。
+
+00:54:14.880 --> 00:54:19.490
+<v Male Speaker>I think that there are other people involved. I think maybe he was set up somehow.
+<v Male Speaker>我认为还有其他人牵涉其中。我想也许他是被陷害的。
+
+00:54:19.490 --> 00:54:24.920
+<v Female Speaker>Clearly you could tell something was going on that wasn't good. I mean, it was just strange behavior for anybody.
+<v Female Speaker>很明显你能看出当时发生的事情不好。我的意思是，对任何人来说那都是奇怪的行为。
+
+00:54:24.920 --> 00:54:31.330
+<v Female Speaker>Basically threatened me, like, you know what happened to Hae. This is what's going to happen to you. That's how I felt that day.
+<v Female Speaker>基本上威胁我，比如，你知道海发生了什么。这就是你要发生的。我那天就是那种感觉。
+
+00:54:31.330 --> 00:54:37.570
+<v Male Speaker>Jay told me he was being blackmailed by Adnan. Because Adnan knew that Jay couldn't go to the police.
+<v Male Speaker>杰伊告诉我他被阿德南勒索了。因为阿德南知道杰伊不能去报警。
+
+00:54:37.570 --> 00:54:46.700
+<v Rabia>Like if this works, every question we've had for the past eight months, he knows it.
+<v Rabia>就像如果这奏效了，我们过去八个月里有的所有问题，他都知道。
+
+00:54:46.700 --> 00:54:54.760
+<v Male Speaker>Yeah, I mean, who else did it? They're running out of suspects.
+<v Male Speaker>是的，我是说，还有谁做了呢？他们的嫌疑人快用完了。
+
+00:54:54.760 --> 00:55:44.750
+<v Ira Glass>I should say we're doing this new show as a podcast. And in fact, we've made an instructional video that stars me and an 80-something-year-old friend of mine from the dog park, Mary Ahern. If you are an older person who is scared of this technology, my friend Mary, who is herself an older person and who listens on her iPad every week, can get you up and running in like a minute and a half. That instructional video and the place where we deliver Serial Episode 2 to you is serialpodcast.org. Again, one last time, that's serialpodcast.org.
+<v Ira Glass>我应该说我们正在以播客形式做这个新节目。事实上，我们制作了一个教学视频，由我和我在狗公园认识的一位80多岁的朋友，玛丽·阿亨主演。如果你是一位害怕这种技术的老年人，我的朋友玛丽，她自己也是一位老人，每周都在iPad上收听，她能在1分半内帮你上手。那个教学视频以及我们提供《Serial》第二集的地方是serialpodcast.org。再说最后一次，serialpodcast.org。
+
+00:55:44.750 --> 00:55:59.750
+<v Ira Glass>Our program was produced today by Julie Snyder, Dana Chivvis, and Sarah Koenig. Emily Condon did like 1 million practical and operational things to get their new series up and running. Fact checking from Karen Fragala Smith. The music in today's program was composed and performed by Nick Thorburn.
+<v Ira Glass>我们今天的节目由茱莉·斯奈德、达纳·奇维斯和莎拉·凯尼格制作。艾米莉·康顿做了大概100万件实际和运营工作，让这个新系列启动。凯伦·弗拉加拉·史密斯负责事实核查。今天节目的音乐由尼克·索伯恩创作和演奏。
+
+00:55:59.750 --> 00:56:15.240
+<v Ira Glass>The rest of our radio staff-- Ben Calhoun, Sean Cole, Stephanie Foo, Chana Joffe-Walt, Miki Meek, Jonathan Menjivar, Brian Reed, Robyn Semien, Alissa Shipp, and Nancy Updike. Production help from JP Dukes. Seth Lind is our operations director. Elise Bergerson's our office manager. Adrianne Mathiowetz runs our website.
+<v Ira Glass>剩下的广播员工——本·卡尔霍恩、肖恩·科尔、斯蒂芬妮·富、查娜·乔夫-沃尔特、米基·米克、乔纳森·门吉瓦尔、布莱恩·里德、罗宾·塞米恩、艾丽莎·希普和南希·厄普戴克。JP·杜克斯提供制作帮助。塞斯·林德是我们的运营总监。爱丽丝·伯格森是我们的办公室经理。阿德里安娜·马蒂奥维兹管理我们的网站。
+
+00:56:15.240 --> 00:56:33.910
+<v Ira Glass>That website, where you'll find links today to Serial 's website and to our instructional video on how to get a podcast-- thisamericanlife.org. Thanks today to Brendan Dunning and to our web developer Rich Orris. This American Life is delivered to public radio stations by PRX, the Public Radio Exchange.
+<v Ira Glass>那个网站，你今天会在那里找到链接到《Serial》的网站和我们关于如何获得播客的教学视频——thisamericanlife.org。感谢今天的布兰登·邓宁和我们的网页开发人员里奇·奥里斯。《美国生活》由PRX（公共广播交换中心）提供给公共广播电台。
+
+00:56:33.910 --> 00:56:41.920
+<v Ira Glass>Thanks as always to our program's co-founder, Mr. Torey Malatia. He's been happily married for decades, but his parents, they're so puritanical.
+<v Ira Glass>像往常一样感谢我们节目的联合创始人，托里·马拉蒂亚先生。他结婚几十年，一直很幸福，但他父母，他们太清教徒了。
+
+00:56:41.920 --> 00:56:47.960
+<v Saad>You know, on one side, my family thinks I'm a virgin. But on the other hand, I've played-- you know. But it's the truth.
+<v Saad>你知道，一方面，我的家人认为我是处男。但另一方面，我玩——你知道。但这确实是事实。
+
+00:56:47.960 --> 00:56:48.790
+<v Sarah Koenig>TMI, TMI.
+<v Sarah Koenig>信息量太大，信息量太大。
+
+00:56:48.790 --> 00:56:53.790
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of this American life.
+<v Ira Glass>我是艾拉·格拉斯。下周带着更多美国生活的故事回来。
