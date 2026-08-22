@@ -1,0 +1,1253 @@
+WEBVTT
+
+00:00:00.610 --> 00:00:03.250
+<v Ira Glass>From WBEZ Chicago, it's This American Life.
+<v Ira Glass>来自芝加哥WBEZ电台，这里是《美国生活》。
+
+00:00:03.250 --> 00:00:05.350
+<v Jesper Sundnes>You can call me Jesper.
+<v Jesper Sundnes>你可以叫我Jesper。
+
+00:00:05.350 --> 00:00:06.190
+<v Ira Glass>Jasper?
+<v Ira Glass>Jasper？
+
+00:00:06.190 --> 00:00:07.900
+<v Jesper Sundnes>Jesper, with an E.
+<v Jesper Sundnes>是Jesper，带字母E的。
+
+00:00:07.900 --> 00:00:08.560
+<v Ira Glass>Jesper.
+<v Ira Glass>Jesper。
+
+00:00:08.560 --> 00:00:08.980
+<v Jesper Sundnes>Yeah.
+<v Jesper Sundnes>是的。
+
+00:00:08.980 --> 00:00:10.660
+<v Ira Glass>OK, and is Peder here?
+<v Ira Glass>好的，Peder在吗？
+
+00:00:10.660 --> 00:00:12.150
+<v Peder Jorgensen>Yeah, hi, Ira.
+<v Peder Jorgensen>在，嘿，Ira。
+
+00:00:12.150 --> 00:00:14.900
+<v Ira Glass>Jasper and Peder. Are those your actual names?
+<v Ira Glass>Jasper和Peder。这是你们的真实姓名吗？
+
+00:00:14.900 --> 00:00:17.440
+<v Peder Jorgensen>Yeah. It's not a joke.
+<v Peder Jorgensen>是的。这不是开玩笑。
+
+00:00:17.440 --> 00:00:36.660
+<v Ira Glass>Peder Jorgensen and Jesper Sundnes, this is the first time they've ever agreed to do an interview about this thing that they created or even identify themselves as the creator of that thing. This thing they made, they said it all began back in 2015. They were basically hanging out, killing time together, strolling through Facebook, bored. The location for this?
+<v Ira Glass>Peder Jorgensen和Jesper Sundnes，这是他们第一次同意接受采访，谈论他们创造的那个东西，甚至第一次公开承认自己是那个东西的创造者。他们说，这一切始于2015年。当时他们基本上是在闲逛，打发时间，百无聊赖地浏览着Facebook。那个地点的背景是？
+
+00:00:36.660 --> 00:00:39.850
+<v Jesper Sundnes>At work, supposed to be working.
+<v Jesper Sundnes>在上班，本来应该在工作的。
+
+00:00:39.850 --> 00:00:42.040
+<v Ira Glass>Because you had a lot of free time at that job?
+<v Ira Glass>因为你们那份工作有很多空闲时间？
+
+00:00:42.040 --> 00:00:46.360
+<v Peder Jorgensen>No, no, we were working all the time, working really hard. It's probably during a lunch break.
+<v Peder Jorgensen>不，不，我们一直都在工作，非常努力地工作。那可能是在午休时间。
+
+00:00:46.360 --> 00:00:49.930
+<v Ira Glass>I like that one of you said yes and one of you said no.
+<v Ira Glass>我喜欢你们一个说有，一个说没有的样子。
+
+00:00:49.930 --> 00:00:56.740
+<v Ira Glass>They were working in radio. They live in Oslo, Norway. Anyway, they noticed on their friends Facebook feeds, very common--
+<v Ira Glass>他们在广播电台工作。他们住在挪威奥斯陆。总之，他们注意到朋友的Facebook动态里，非常普遍——
+
+00:00:56.740 --> 00:01:12.970
+<v Jesper Sundnes>People were posting lots of, like, inspirational images with inspirational words. And it kind of looked like there was a system behind the whole thing. It kind of felt like a machine should be able to do this. Yeah, a robot could probably make that.
+<v Jesper Sundnes>人们发布了大量带有励志词句的励志图片。看起来这背后似乎有一套系统。感觉像是一台机器应该能做到这一点。没错，机器人大概也能做出那种东西。
+
+00:01:12.970 --> 00:01:28.660
+<v Ira Glass>Could make an inspirational quote. After all, they're so formulaic-- every day might not be a good day, but there's good in every day. You fell down yesterday. Stand up today. The secret to getting ahead is getting started.
+<v Ira Glass>能写出励志名言。毕竟，它们太公式化了——每一天可能不是好日子，但每一天都有好的一面。你昨天摔倒了。今天站起来。成功的秘诀是开始行动。
+
+00:01:28.660 --> 00:01:46.180
+<v Ira Glass>So Jesper and Peder set out to program a computer to create these to generate inspirational sentences and paste them onto stock photos of beaches, and starry nights, and people staring into the distance. And what's interesting is just how quickly the program kind of took on a mind of its own.
+<v Ira Glass>于是Jesper和Peder开始编写程序，让计算机生成这些励志句子，并把它们贴在海滩、星空和人们远眺的库存照片上。有趣的是，这个程序很快就有了自己的想法。
+
+00:01:46.180 --> 00:02:02.990
+<v Ira Glass>At first, they said the computer really did generate very typical, kind of predictable inspirational quotes. They said that wasn't terribly difficult. But as they gave it a bigger vocabulary and taught it to string together a wider variety of sentences, the kinds of sayings that it started to crank out started to evolve.
+<v Ira Glass>起初，他们说计算机确实生成了非常典型、可预测的励志语录。他们说这并不太难。但随着他们给它提供了更大的词汇量，并教它组合出更多样化的句子，它吐出的名言开始演变了。
+
+00:02:02.990 --> 00:02:17.500
+<v Ira Glass>As they got more random, they got funnier and darker and-- I don't want to oversell this, but it's true-- actually, sometimes kind of profound. The bot started to take on a personality, the personality that it actually has now.
+<v Ira Glass>随着它们变得越来越随机，它们变得更有趣、更黑暗——我不想夸大其词，但这是真的——事实上，有时甚至有点深刻。这个机器人开始形成一种人格，也就是它现在所拥有的那种人格。
+
+00:02:17.500 --> 00:02:34.080
+<v Jesper Sundnes>Yeah, I can remember very well the moment we were looking at the quotes, and it wasn't what we had imagined. It felt like something that we hadn't created really.
+<v Jesper Sundnes>是的，我清楚地记得我们看着那些语录的瞬间，那不是我们想象中的样子。感觉像是我们并没有真正创造出它。
+
+00:02:34.080 --> 00:02:57.460
+<v Ira Glass>I've saved some of these on my laptop. Here's one. OK, so each one is a quote on top of some peaceful, contemplative image. This one, first one, the picture is a nighttime sky. And-- I don't know-- maybe that's the Aurora Borealis. And the words say, love is an animal eating your brain.
+<v Ira Glass>我把其中一些保存在了我的笔记本电脑上。这是其中一个。好吧，每一个都是印在宁静、沉思图片上的语录。第一个，照片是夜空。而且——我不知道——那可能是极光。文字写着：爱是一只吞噬你大脑的动物。
+
+00:02:57.460 --> 00:03:11.130
+<v Ira Glass>This one here is a close-up of a coin. It says, never think of it as a job. Think of it as health insurance, which, you know, people definitely feel, some people about their jobs. I love this one.
+<v Ira Glass>这张是一枚硬币的特写。上面写着：永远不要把它当作一份工作。把它当作医疗保险，这确实是，你知道的，有些人对他们的工作就是这种感觉。我喜欢这个。
+
+00:03:11.130 --> 00:03:26.730
+<v Ira Glass>OK, so this is a picture of Big Ben. It says, when you're eating dinner, don't forget that everything and everyone will someday be gone forever. A bunch of them have this kind of cold-water-in-the-face, wake-up-to-reality, slap-you-across-the-cheeks quality to them.
+<v Ira Glass>好的，这是一张大本钟的照片。它写着：吃晚饭的时候，别忘了万物众生终将永远消失。其中很多都有这种冷水泼面、清醒面对现实、狠狠给你一巴掌的特质。
+
+00:03:26.730 --> 00:03:48.370
+<v Ira Glass>There's one that says-- there's a photo of a man. This is a manager, starry sky, it says, your time on Earth is random. A woman offers a lit sparkler. It says simply, you're average. A man stands on a shore, it says, don't explore your true self. It's not worth it. But most of them are not like that.
+<v Ira Glass>有一张照片是一个男人。这是一个经理，星空背景，上面写着：你在地球上的时间是随机的。一个女人递过来一支燃着的烟火。上面简单写着：你是平庸的。一个男人站在岸边，上面写着：不要去探索真实的自我。这不值得。但大多数都不是那样的。
+
+00:03:48.370 --> 00:04:05.250
+<v Ira Glass>Here's a picture of a spiral galaxy. It says, all you need in order to travel to Mars is a boy and a flag, which, in a certain way, is actually kind of true. These are all made by a machine. They're made by a bot.
+<v Ira Glass>这是一张螺旋星系的照片。上面写着：去火星你所需要的一切就是一个男孩和一面旗帜，这在某种程度上其实是正确的。这些全都是由机器制造的。它们是由一个机器人制作的。
+
+00:04:05.250 --> 00:04:21.720
+<v Ira Glass>And a certain number of them do seem like gibberish. An education can be like an angry child. What does that mean? Or be fine, systematized, spouse finity-- it's like, OK.
+<v Ira Glass>而且其中一定数量看起来像是胡言乱语。教育可以像一个生气的孩子。那是什么意思？或者变好，系统化，配偶有限——就像是，好吧。
+
+00:04:21.720 --> 00:04:33.000
+<v Ira Glass>But a surprising number of these, they not only makes sense, they seem to have something on their mind. They have something to say. Celebrity is basically just another term for pretentious burglar.
+<v Ira Glass>但其中令人惊讶的数量，不仅有意义，似乎还别有深意。它们有话要说。名人基本上只是自命不凡的窃贼的另一个术语。
+
+00:04:33.000 --> 00:04:55.450
+<v Ira Glass>Life on Earth is just one long commercial for sperm. Urinating on an electric fence could be the mistake of a lifetime, which that's true. Normies unite. Cooperate and fight your common adversary-- mass hysteria.
+<v Ira Glass>地球上的生活只是精子的一个长广告。在电围栏上撒尿可能会成为终身的错误，这倒是真的。凡人联合起来。合作并对抗你们共同的敌人——大规模歇斯底里。
+
+00:04:55.450 --> 00:05:09.890
+<v Ira Glass>I reached out to Jesper and Peder, because I was wondering, how does this really work? How do you get a machine that does not understand what words mean, does not understand what it's saying at all, how do you get it to turn out sayings that mean something to us?
+<v Ira Glass>我联系了Jesper和Peder，因为我很好奇，这到底是怎么运作的？你是如何让一台完全不理解词汇含义、完全不知道自己在说什么的机器，吐出对我们有意义的格言的？
+
+00:05:09.890 --> 00:05:23.070
+<v Ira Glass>And neither of these guys had been a professional programmer or studied it in school. Peder had taught himself to code years before. And he made this with just kind of a grab bag of standard programming tools. He explained the recipe for an inspirational quote like this.
+<v Ira Glass>而且这两个人之前都不是专业程序员，也没在学校学过。Peder几年前自学了编程。他用一堆标准的编程工具制作了这个东西。他解释了生成励志名言的配方是这样的。
+
+00:05:23.070 --> 00:05:37.790
+<v Peder Jorgensen>So right now, we're in the studio in Oslo. And the sun is shining outside, but the drapes are pulled down. So if I say something like, you have to pull the drapes up to see the sun, it kind of makes sense in a practical way.
+<v Peder Jorgensen>现在我们在奥斯陆的演播室。外面阳光明媚，但窗帘拉上了。所以如果我说些什么，比如，你必须拉开窗帘才能看到阳光，这在实际层面上是有意义的。
+
+00:05:37.790 --> 00:05:54.470
+<v Peder Jorgensen>However, as soon as you put something like that on a beautiful backdrop, it starts speaking to you on a different level. You have to pull up the drapes to see the sun. It sounds like the cure for depression when it's put in the right picture. But it's just a very practical, normal thing to say really.
+<v Peder Jorgensen>然而，一旦你把这样的话放在美丽的背景上，它就开始在不同的层面上与你对话。你必须拉开窗帘才能看到阳光。放在合适的图片上，它听起来就像是抑郁症的疗法。但实际上，这只是一句非常实用、普通的话。
+
+00:05:54.470 --> 00:06:02.060
+<v Ira Glass>Another thing they noticed in lots of inspirational sayings, they were juxtapositions-- opposites glued into the same sentence.
+<v Ira Glass>他们注意到的另一件事是，很多励志名言都是并置——将对立面粘在同一个句子里。
+
+00:06:02.060 --> 00:06:03.810
+<v Jesper Sundnes>Things put up against each other.
+<v Jesper Sundnes>把事物对立起来。
+
+00:06:03.810 --> 00:06:11.090
+<v Peder Jorgensen>Yeah, so there are no limits to what you can accomplish, except the limits you place on your own thinking. So that's just--
+<v Peder Jorgensen>是的，所以你所能完成的事情是没有极限的，除了你给自己思维设下的限制。所以这就是——
+
+00:06:11.090 --> 00:06:12.900
+<v Jesper Sundnes>Limits is the keyword.
+<v Jesper Sundnes>“限制”是关键词。
+
+00:06:12.900 --> 00:06:22.700
+<v Peder Jorgensen>Yeah, and then you just take the words and then turn them around after a comma. So it's, like, the two-part sentences. They can be pretty obvious, but still, it feels inspirational when you put it on a nice picture.
+<v Peder Jorgensen>是的，然后你只需把词语拿过来，在逗号后面把它们反转过来。所以它们是两部分的句子。它们可能很明显，但当你把它们放在一张漂亮的图片上时，依然感觉很励志。
+
+00:06:22.700 --> 00:06:38.720
+<v Ira Glass>To make the bot able to do this, the way to do it, really, they said, is just imitation. The algorithm imitates the sentence structure and the kinds of words that appear in real inspirational quotes on the internet. They fed it thousands of inspirational quotes. At first, of course, it was a little buggy.
+<v Ira Glass>为了让机器人能够做到这一点，真正的方法，他们说，就是模仿。算法模仿了互联网上真实励志语录的句子结构和出现的词汇种类。他们给它输入了成千上万条励志语录。起初，当然，它有点小毛病。
+
+00:06:38.720 --> 00:06:42.770
+<v Peder Jorgensen>The grammar, the syntax was a total mess.
+<v Peder Jorgensen>语法、句法一团糟。
+
+00:06:42.770 --> 00:06:44.960
+<v Ira Glass>Here's an early failed example.
+<v Ira Glass>这是一个早期的失败例子。
+
+00:06:44.960 --> 00:06:52.360
+<v Jesper Sundnes>I can read one here. It's don't be jealous of spilled wife. Just jump.
+<v Jesper Sundnes>我可以读一个。上面写着：不要嫉妒洒出来的妻子。跳吧。
+
+00:06:52.360 --> 00:06:54.740
+<v Ira Glass>Don't be jealous of spilled what?
+<v Ira Glass>不要嫉妒洒出来的什么？
+
+00:06:54.740 --> 00:06:55.740
+<v Jesper Sundnes>Wife.
+<v Jesper Sundnes>妻子。
+
+00:06:55.740 --> 00:06:58.930
+<v Ira Glass>Like a--
+<v Ira Glass>就像一个——
+
+00:06:58.930 --> 00:07:11.860
+<v Peder Jorgensen>Don't be jealous of a spilled wife. Just jump. So it's kind of got this structure in a way, but the words don't make any sense. It just becomes random, like gibberish.
+<v Peder Jorgensen>不要嫉妒洒出来的妻子。跳吧。所以它在某种程度上有了这种结构，但这些词没有任何意义。它只是变得随机，就像胡言乱语。
+
+00:07:11.860 --> 00:07:17.840
+<v Ira Glass>How does it get to one like, if one expects a friendship, one has to prepare for a volcano?
+<v Ira Glass>它是怎么得到像“如果一个人期待友谊，就必须为火山做准备”这样的句子的？
+
+00:07:17.840 --> 00:07:26.020
+<v Jesper Sundnes>Well, what it knows for sure is that expects and prepare are words that go well together.
+<v Jesper Sundnes>嗯，它确定的是“期待”和“准备”是搭配得很好的词。
+
+00:07:26.020 --> 00:07:30.250
+<v Ira Glass>And does it know friendship and volcano will go together, or that's just totally random?
+<v Ira Glass>它知道友谊和火山会搭配在一起吗，还是完全随机的？
+
+00:07:30.250 --> 00:07:33.270
+<v Jesper Sundnes>Does that go together for you?
+<v Jesper Sundnes>这对你来说搭配吗？
+
+00:07:33.270 --> 00:07:34.920
+<v Ira Glass>It does kind of go together, yeah.
+<v Ira Glass>确实有点搭配，是的。
+
+00:07:34.920 --> 00:07:35.070
+<v Jesper Sundnes>How?
+<v Jesper Sundnes>怎么搭配？
+
+00:07:35.070 --> 00:07:41.860
+<v Ira Glass>It's like saying, when you have a friend, you have to prepare for the bad times when things get explosive.
+<v Ira Glass>就像是说，当你拥有一个朋友时，你必须为事情变得激烈时的糟糕时刻做好准备。
+
+00:07:41.860 --> 00:07:43.950
+<v Jesper Sundnes>Yeah, well, that's you adding that.
+<v Jesper Sundnes>是的，嗯，那是你加上去的。
+
+00:07:43.950 --> 00:07:46.650
+<v Jesper Sundnes>[LAUGHTER]
+<v Jesper Sundnes>[笑声]
+
+00:07:46.650 --> 00:07:49.140
+<v Jesper Sundnes>That's not in the algorithm.
+<v Jesper Sundnes>算法里可没有这一条。
+
+00:07:49.140 --> 00:07:58.890
+<v Ira Glass>They say the same thing about the inspirational quotes that actually could be taken as inspirational by somebody, like, for instance, don't let nightmares get in the way of infinity.
+<v Ira Glass>他们对那些可能会被某些人视为励志的语录也说了同样的话，比如，不要让噩梦挡住无限的去路。
+
+00:07:58.890 --> 00:08:12.180
+<v Peder Jorgensen>You kind of realize, you're making them inspirational yourself. Our heads, our minds, you try so hard to give them meaning, so they start making sense in a way. What was the one you said? Nightmares are--
+<v Peder Jorgensen>你会意识到，是你自己让它们变得励志的。我们的大脑、思想，你非常努力地赋予它们意义，所以它们在某种程度上开始变得有意义。你刚才说的是哪一个？噩梦是——
+
+00:08:12.180 --> 00:08:21.300
+<v Ira Glass>Don't let nightmares get in the way of infinity. Yeah, to me, that's saying, don't let the things that you're scared of get in the way of the big life you're trying to create for yourself.
+<v Ira Glass>不要让噩梦挡住无限的去路。是的，对我来说，这在说，不要让你害怕的事情阻碍你为你自己创造的宏大生活。
+
+00:08:21.300 --> 00:08:29.610
+<v Peder Jorgensen>Yeah, it's true. When you said that, it was harder for me to make the same. I heard something else in the quote.
+<v Peder Jorgensen>是的，确实。当你这么说的时候，我很难做出同样的理解。我在那句语录里听到了别的东西。
+
+00:08:29.610 --> 00:08:30.720
+<v Jesper Sundnes>Yeah.
+<v Jesper Sundnes>是吗。
+
+00:08:30.720 --> 00:08:33.570
+<v Ira Glass>So you guys really aren't just writing those?
+<v Ira Glass>所以你们真的不是在写那些句子？
+
+00:08:33.570 --> 00:08:34.170
+<v Peder Jorgensen>No, no.
+<v Peder Jorgensen>不，不。
+
+00:08:34.170 --> 00:08:36.690
+<v Jesper Sundnes>Oh, no, we couldn't do that. There's too many.
+<v Jesper Sundnes>哦，不，我们做不到。太多了。
+
+00:08:36.690 --> 00:08:47.700
+<v Peder Jorgensen>Everything is generated. We do get, like, sometimes people are-- oh, there's no way this is a bot people would say in comments and stuff like that. But we don't go in and edit any of them. We've never done that.
+<v Peder Jorgensen>一切都是生成的。有时人们会说——人们在评论里说，这不可能是个机器人。但我们不会去编辑它们中的任何一个。我们从来没做过。
+
+00:08:47.700 --> 00:09:06.510
+<v Ira Glass>In fact, they logged onto the website during our interview, and 60 people were on the site at the same time right then, clicking away and generating quotes, way too many for them to edit. It's over a half million people a month. And they say that they are surprised sometimes when the bot comes up with something funny or kind of vaguely profound.
+<v Ira Glass>事实上，在我们的采访中，他们登录了网站，当时有60个人同时在网站上，点来点去生成语录，多到他们根本没法编辑。一个月有超过五十万人使用。他们说，有时当机器人想出一些有趣或模模糊糊显得深刻的东西时，他们自己也会感到惊讶。
+
+00:09:06.510 --> 00:09:13.530
+<v Jesper Sundnes>Occasionally, it's blowing my mind really. I don't know how it came up with that.
+<v Jesper Sundnes>偶尔，它确实让我大开眼界。我不知道它是怎么想出那个来的。
+
+00:09:13.530 --> 00:09:22.590
+<v Ira Glass>It's weird that you can get to something profound out of a machine that's actually just generating random words in sentence structures that you've given it.
+<v Ira Glass>一台实际上只是在生成随机词汇和给定句子结构的机器，竟然能写出深刻的东西，这真是奇怪。
+
+00:09:22.590 --> 00:09:29.330
+<v Jesper Sundnes>Absolutely. Yeah, it's totally weird.
+<v Jesper Sundnes>绝对。是的，完全奇怪。
+
+00:09:29.330 --> 00:09:30.560
+<v Ira Glass>It makes humans seem pathetic.
+<v Ira Glass>这让人类显得很可悲。
+
+00:09:30.560 --> 00:09:32.260
+<v Ira Glass>[LAUGHTER]
+<v Ira Glass>[笑声]
+
+00:09:32.260 --> 00:09:39.190
+<v Peder Jorgensen>That sounds like something the bot would say. You've become too inspired by the bot.
+<v Peder Jorgensen>那听起来像是机器人会说的话。你已经被机器人过度激励了。
+
+00:09:39.190 --> 00:09:52.610
+<v Ira Glass>Do you know what I mean? It's like, oh, really, we are so primitive that a machine can randomly throw together words in a sentence structure. And then, I have to say, looking at them, some of them are like, yeah, that's actually pretty true.
+<v Ira Glass>你知道我的意思吗？就像，哦，真的，我们是如此原始，以至于机器可以随机地把词语组合成句式。然后，我必须说，看看这些话，有些真的是，是的，那确实挺真实的。
+
+00:09:52.610 --> 00:10:12.210
+<v Jesper Sundnes>Well, it doesn't necessarily mean that we're pathetic. It also is a lot of credit to you as a reader just how much you add to something when you see it, how much of the things that you see is actually your contribution.
+<v Jesper Sundnes>嗯，这并不一定意味着我们很可悲。这也是对你作为读者的很大肯定，当你看到某样东西时，你添加了多少内容，你所看到的有多少实际上是你自己的贡献。
+
+00:10:12.210 --> 00:10:45.820
+<v Ira Glass>Well, today on our radio show, we have stories of this happening to people. They are presented with documents, some words on a paper. And how they read it, what they read into it really comes from them, and they have strong reactions. As the InspiroBot might say, it's not what the words say. It's what they say to you. I've learned so much. Anyway, stay with us.
+<v Ira Glass>嗯，今天在我们的广播节目中，我们有关于人们发生这种情况的故事。他们被出示了文件，纸上的一些文字。而他们如何解读它，从中读出了什么，确实来自于他们自己，并且他们有了强烈的反应。正如InspiroBot所说，重要的不是文字说了什么，而是它们对你说了什么。我学到了很多。总之，留下来陪我们。
+
+00:10:45.820 --> 00:10:49.560
+<v Ira Glass>Act 1, the veritas is out there.
+<v Ira Glass>第一幕，真相就在那里。
+
+00:10:49.560 --> 00:11:08.950
+<v Ira Glass>So I just found this out that since the 1990s, if you got into college, and you decided to attend the college, at lots of schools, you can work at your own admissions file. See what the admissions people said about you when you were applying. In fancy schools that are hard to get into, you can try to figure out why they decided to admit you in the first place, which lots of kids do.
+<v Ira Glass>所以我刚发现，自90年代以来，如果你考上大学，并决定就读，在很多学校，你可以查看自己的录取档案。看看招生人员在你申请时是怎么评价你的。在那些很难进的名校，你可以试着弄清楚他们当初为什么决定录取你，很多孩子都这么做。
+
+00:11:08.950 --> 00:11:18.840
+<v Ira Glass>But the downside is, you might find something you didn't want to see, and then you have to deal with that. Diane Wu does the story of one Harvard student that happened to.
+<v Ira Glass>但缺点是，你可能会发现一些你不想看到的东西，然后你不得不去处理它。Diane Wu讲述了一位哈佛学生遇到这种情况的故事。
+
+00:11:18.840 --> 00:11:35.790
+<v Diane Wu>At Harvard, going to see your admissions file has suddenly got caught up into something much bigger. As you might have heard, Harvard's being sued for allegedly discriminating against Asians. Asian applicants with high GPAs and test scores have a lower acceptance rate than other students with the same numbers.
+<v Diane Wu>在哈佛，查看录取档案这件事突然变得更大了。正如你可能听说的那样，哈佛正因涉嫌歧视亚裔而被起诉。具有高GPA和考试成绩的亚裔申请者的录取率低于其他拥有相同数字的学生。
+
+00:11:35.790 --> 00:11:54.530
+<v Diane Wu>Harvard does consider a student's race when they apply as one of many factors. The group that's suing them wants them to stop doing that altogether. It's a group called Students For Fair Admissions. They're trying to get rid of affirmative action all across the country. And this case is likely to be appealed all the way up to the Supreme Court.
+<v Diane Wu>哈佛在学生申请时确实会将种族作为诸多考虑因素之一。起诉他们的团体希望他们完全停止这样做。这个团体叫“公平录取学生组织”。他们试图在全国范围内废除平权行动。此案很可能会一路上诉到最高法院。
+
+00:11:54.530 --> 00:12:06.440
+<v Diane Wu>Alex Zhang is a junior, co-president of the Chinese Students Association. I met him the first week of the trial. He's solidly team Harvard in the lawsuit, because Harvard is on the side of keeping affirmative action.
+<v Diane Wu>Alex Zhang是一名大三学生，也是中国学生联合会的联席主席。我在审判的第一周见到了他。在诉讼中，他是坚定的“哈佛派”，因为哈佛站在维持平权行动的一边。
+
+00:12:06.440 --> 00:12:17.780
+<v Diane Wu>For him, it was a moral decision. Of course, diversity is good, and getting rid of affirmative action is bad. So he wrote a statement for an amicus brief, and got his student group to sign on to another one.
+<v Diane Wu>对他来说，这是一个道德决定。当然，多元化是好事，废除平权行动是坏事。所以他为一份法庭之友陈述书写了一份声明，并让他的学生团体签署了另一份。
+
+00:12:17.780 --> 00:12:31.430
+<v Diane Wu>Friends of his were looking at their admissions files. So Alex decided to go as well, partly because he was curious how his file stacked up against the claims made in the lawsuit. But also, he just wanted to see how he got in. He'd always wanted to find out.
+<v Diane Wu>他的朋友们正在查看他们的录取档案。所以Alex决定也去看看，部分是因为他好奇他的档案与诉讼中提出的主张相比如何。但也因为他只是想看看自己是怎么被录取的。他一直想弄清楚。
+
+00:12:31.430 --> 00:12:35.510
+<v Alex Zhang>I'm really curious about the interview component, because I just feel like that's what did it.
+<v Alex Zhang>我真的很好奇面试环节，因为我觉得那就是决定性的因素。
+
+00:12:35.510 --> 00:12:37.060
+<v Diane Wu>Did you have a really good interview?
+<v Diane Wu>你面试表现得很好吗？
+
+00:12:37.060 --> 00:12:44.030
+<v Alex Zhang>Yeah, a really good interview with a really old and experienced alumni.
+<v Alex Zhang>是的，与一位非常有经验的老校友进行的非常好的面试。
+
+00:12:44.030 --> 00:13:00.170
+<v Diane Wu>The way this usually works-- you meet with an alumni volunteer for an hour or so in a coffee shop or wherever in your hometown. Alex is from Portland, Oregon. He had an exceptional interview. It lasted two hours. Then even more unusual, his interviewer set up a second meeting.
+<v Diane Wu>这通常是这样运作的——你在咖啡店或家乡的任何地方与一位校友志愿者见面大约一个小时。Alex来自俄勒冈州波特兰。他经历了一次特别的面试。持续了两个小时。然后更不寻常的是，他的面试官安排了第二次会面。
+
+00:13:00.170 --> 00:13:14.480
+<v Alex Zhang>He did this whole thing, where he ran through all my extracurriculars, kind of tallied up hours and stuff, just was very rigorous, even asked for some contacts for references, which, apparently, he wasn't supposed to do.
+<v Alex Zhang>他做了整个这件事，翻阅了我所有的课外活动，算了一下时间什么的，非常严谨，甚至要求提供一些推荐人的联系方式，显然，他是不应该这样做的。
+
+00:13:14.480 --> 00:13:15.920
+<v Diane Wu>He was really--
+<v Diane Wu>他真的很——
+
+00:13:15.920 --> 00:13:22.130
+<v Alex Zhang>He did that because he wanted to have everything on the table for him to advocate for me.
+<v Alex Zhang>他这样做是因为他想把所有东西都摆在桌面上，以便为我辩护。
+
+00:13:22.130 --> 00:13:37.970
+<v Diane Wu>Alex wanted to know, did this guy get me in? The alumni interview is important at Harvard, because usually, it's the only face-to-face contact the school has with an applicant. And admissions officers use it, plus other information, to assign applicants this thing called a personal rating.
+<v Diane Wu>Alex想知道，是这个家伙让我被录取的吗？校友面试在哈佛很重要，因为通常这是学校与申请者唯一的面对面接触。招生官员会结合面试和其他信息，给申请者打出一个所谓的个人评分。
+
+00:13:37.970 --> 00:13:57.350
+<v Diane Wu>The personal rating is actually the crux of the lawsuit. It's basically a rating of your personality. The words Harvard uses to describe what they're looking for are things like leadership, courage, sense of humor, effervescence. It's like they want to fill the school with future senators, perky Griffindors, and Reese Witherspoon in Legally Blonde types.
+<v Diane Wu>个人评分实际上是诉讼的核心。它基本上是对你人格的评分。哈佛用来描述他们寻找什么品质的词是领导力、勇气、幽默感、活力。就像他们想在学校里填满未来的参议员、活泼的格兰芬多，以及《律政俏佳人》里的Reese Witherspoon那种类型的人。
+
+00:13:57.350 --> 00:14:22.030
+<v Diane Wu>Students for Fair Admissions says the personal rating is where the discrimination happens, where implicit bias leaks in. Because at Harvard, Asian applicants get a lower personal rating than white applicants. Harvard does not dispute those numbers, but says they don't consider an applicant's race when assigning the personal rating.
+<v Diane Wu>公平录取学生组织表示，个人评分就是歧视发生的地方，是隐性偏见渗透进来的地方。因为在哈佛，亚裔申请者的个人评分比白人申请者低。哈佛不否认这些数字，但表示他们在给出个人评分时不会考虑申请者的种族。
+
+00:14:22.030 --> 00:14:38.980
+<v Diane Wu>A couple days after I met him, Alex called me from a study lounge. He'd just gone to see his file, sat with 15 other kids around a table at the registrar's office and paged through it. He wasn't allowed to take the file with him, but could take pictures on his phone. He scrolled through the photos and read parts of it to me.
+<v Diane Wu>在我见到他几天后，Alex从自习室给我打电话。他刚去看了他的档案，和另外15个孩子坐在注册办公室的桌子旁翻阅。他不被允许带走档案，但可以用手机拍照。他浏览着照片，给我读了其中的一部分。
+
+00:14:38.980 --> 00:14:56.200
+<v Alex Zhang>Let me take a quick look. The first sheet is the Harvard scores, so they have this weird coding jargon that I don't really understand yet. I'll probably look it up later.
+<v Alex Zhang>让我快速看一下。第一页是哈佛的分数，他们有一些我还没弄懂的奇怪编码行话。我以后可能会查一下。
+
+00:14:56.200 --> 00:15:06.100
+<v Diane Wu>We got quickly to the part he was curious about-- the report from his alumni interviewer, which was the most remarkable part of his file. For starters, it was long.
+<v Diane Wu>我们很快就到了他好奇的部分——他的校友面试官的报告，这是他档案中最引人注目的部分。首先，它很长。
+
+00:15:06.100 --> 00:15:10.860
+<v Alex Zhang>My interviewer wrote, like, five pages of notes.
+<v Alex Zhang>我的面试官写了大约五页的笔记。
+
+00:15:10.860 --> 00:15:11.560
+<v Diane Wu>Wow.
+<v Diane Wu>哇。
+
+00:15:11.560 --> 00:15:14.710
+<v Alex Zhang>Which I think is kind of unusual.
+<v Alex Zhang>我觉得这挺不寻常的。
+
+00:15:14.710 --> 00:15:38.500
+<v Diane Wu>It is. Everyone else I checked with had only two pages. Reading through, Alex saw that his interviewer, Jim McCandlish was really going to bat for him. He told Alex that he was one of the best candidates he'd met in more than 20 years of interviewing. Though Alex learned, a lot of Jim's thoroughness-- the extra interview, the references he called-- that was Jim checking into whether or not Alex was for real.
+<v Diane Wu>确实。我核对过的其他人只有两页。仔细阅读后，Alex发现他的面试官Jim McCandlish真的很支持他。他告诉Alex，他是他在20多年面试生涯中见过的最优秀的候选人之一。尽管Alex了解到，Jim的彻底性——额外的面试，他打出的推荐电话——那是Jim在核实Alex是否是真实的。
+
+00:15:38.500 --> 00:15:52.060
+<v Alex Zhang>It seems like he was skeptical of a lot of stuff I did, at least was concerned about this resume-builder mentality and wanted to verify whether I did that authentic work.
+<v Alex Zhang>他似乎对他所做的事情持怀疑态度，至少对这种简历建设者的心态感到担忧，并想验证我是否做了真实的努力。
+
+00:15:52.060 --> 00:16:11.920
+<v Diane Wu>Like when Alex said he worked on homelessness at the youth commission, Jim wondered, is he just saying that because he googled my law firm and read that I represent disadvantaged people? Quote, "was this a perfect for MIT mechanical engineer playing me?" Perfect for MIT, I guess, is code for too boring for Harvard.
+<v Diane Wu>就像Alex说他在青年委员会做关于无家可归的工作时，Jim想，他是不是只是因为谷歌搜到了我的律师事务所，读到我代表弱势群体才这么说的？引用：“这是不是一个为了MIT机械工程系录取的完美人选在耍我？”我想，“为了MIT的完美人选”是哈佛眼里“太无聊”的代号。
+
+00:16:11.920 --> 00:16:27.870
+<v Diane Wu>Jim called up Alex's supervisor at the youth commission and found out, no, Alex genuinely cared about homelessness and works there even more than he'd let on. Alex read Jim's interview notes to me matter-of-factly, then paused to note this one section.
+<v Diane Wu>Jim打电话给Alex在青年委员会的主管，发现不，Alex真心关心无家可归问题，在那里投入的工作比他表现出来的还要多。Alex客观地向我读了Jim的面试笔记，然后停下来注意这一部分。
+
+00:16:27.870 --> 00:16:30.640
+<v Alex Zhang>Oh, here's an interesting portion actually.
+<v Alex Zhang>哦，这部分实际上很有趣。
+
+00:16:30.640 --> 00:16:40.030
+<v Diane Wu>Jim was writing about a conversation he'd had with that supervisor. Apparently, he had asked not just about Alex, but about Alex's mom, too. He writes--
+<v Diane Wu>Jim写的是关于他与那位主管的对话。显然，他不仅问了Alex，还问了Alex的妈妈。他写道——
+
+00:16:40.030 --> 00:16:52.190
+<v Alex Zhang>She is far from the stereotypical, quote, "tiger mother." His mom is supportive, but not directive. So I guess there's just those two, three sentences on my mom.
+<v Alex Zhang>她绝不是刻板印象中那种“虎妈”。他的妈妈很支持，但不会发号施令。所以我猜关于我妈妈的也就那两三句话。
+
+00:16:52.190 --> 00:16:58.920
+<v Diane Wu>How do you feel about that? How would you feel about that characterization of your mom?
+<v Diane Wu>你觉得怎么样？你怎么看待这种对你妈妈的描述？
+
+00:16:58.920 --> 00:17:12.350
+<v Alex Zhang>I mean, it's true. Yeah, she's supported, but not directive. She pushes me. She pushes me hard, but has always sort of let me push in the direction I wanted.
+<v Alex Zhang>我是说，这是真的。是的，她很支持，但不会发号施令。她推动我。她推动我很厉害，但总是让我向我想要的那个方向推。
+
+00:17:12.350 --> 00:17:27.370
+<v Diane Wu>Is it weird to you at all that the interviewer is pointing to stereotypes that you aren't? Is he a perfect-for-MIT engineer playing me, or does he have a tiger mom?
+<v Diane Wu>面试官指出了你并不符合的刻板印象，你觉得奇怪吗？他是在想“为了MIT的完美人选在耍我”，还是他有一个虎妈？
+
+00:17:27.370 --> 00:17:32.620
+<v Alex Zhang>Oh, yeah. That's a good point.
+<v Alex Zhang>哦，是的。说得好。
+
+00:17:32.620 --> 00:17:49.180
+<v Diane Wu>As soon as I asked the question, I felt like I overstepped, like I was planting the idea in Alex's head that something racial was going on. But when I heard tiger mother, I thought, there is the implicit bias they're talking about in the lawsuit in a way more explicit form than I was expecting.
+<v Diane Wu>当我问这个问题时，我觉得我越界了，好像我在Alex脑子里植入了种族因素的想法。但当我听到“虎妈”时，我想，他们在那场诉讼中谈论的隐性偏见就在这里，以一种比我预期的更明确的形式存在。
+
+00:17:49.180 --> 00:17:54.130
+<v Diane Wu>Alex did have a strange feeling about it, even if he wasn't sure exactly why.
+<v Diane Wu>Alex确实对此有种奇怪的感觉，即使他不确定原因。
+
+00:17:54.130 --> 00:18:08.220
+<v Alex Zhang>Yeah, that is really weird. I guess it kind of goes into a narrative like the Asian applicant has to disprove certain things to be considered viable for something ivy league.
+<v Alex Zhang>是的，那真的很奇怪。我猜这多少变成了一种叙事，好像亚裔申请者必须反驳某些事情才能被视为常青藤盟校的合格人选。
+
+00:18:08.220 --> 00:18:12.060
+<v Diane Wu>In other words, if you want to get into Harvard, don't be too Asian.
+<v Diane Wu>换句话说，如果你想进哈佛，不要表现得太像亚裔。
+
+00:18:12.060 --> 00:18:28.420
+<v Alex Zhang>Hmm. That makes sense. I don't know what his motivations are, my interviewer's motivations. Maybe the interviewer was like, oh, I should distinguish him from other Asians, or maybe he just does it subconsciously.
+<v Alex Zhang>嗯。有道理。我不知道他的动机是什么，我面试官的动机。也许面试官在想，哦，我应该把他和别的亚裔区别开来，或者也许他只是潜意识里这么做了。
+
+00:18:28.420 --> 00:18:30.110
+<v Diane Wu>Yeah.
+<v Diane Wu>是啊。
+
+00:18:30.110 --> 00:18:33.060
+<v Alex Zhang>Yeah.
+<v Alex Zhang>是啊。
+
+00:18:33.060 --> 00:18:50.760
+<v Diane Wu>There's another thing like this in Jim's notes, another spot where he points to an Asian stereotype and says it doesn't fit Alex. It has to do with the fact that Alex is quiet, which is a stereotype about Asian students. One, actually, that Harvard was called out for using in a 1990 federal investigation.
+<v Diane Wu>Jim的笔记里还有另一件事，另一个他指出了亚裔刻板印象并说它不符合Alex的地方。这与Alex沉默寡言有关，这是关于亚裔学生的刻板印象。实际上，哈佛在1990年的联邦调查中就因为使用这一点而被点名。
+
+00:18:50.760 --> 00:19:16.650
+<v Diane Wu>But in Alex's case, Jim casts it as a plus. He writes, "Alex is reserved, quietly confident, uses language frugally but effectively. There is no teenage patois." Perfect-for-MIT engineer, by the way, also plays into a stereotype of Asians only being interested in science and math. This one didn't bother Alex, though, since he literally wanted to be an engineer when he was applying.
+<v Diane Wu>但在Alex的案例中，Jim将其视为一个加分项。他写道：“Alex沉默寡言，静静地自信，用词节俭但有效。没有十几岁的俗气语言。”顺便说一句，“为了MIT的完美人选”也符合亚裔只对科学和数学感兴趣的刻板印象。不过，Alex对这一条并不介意，因为他申请时确实想成为一名工程师。
+
+00:19:16.650 --> 00:19:33.540
+<v Alex Zhang>The tiger mother part is definitely interesting. No other mom is called a tiger mom. That's what you call a Chinese mom. Only Chinese moms are called tiger moms. It definitely seems like he's trying to disprove what a reviewer might assume about the reasoning for why I do things.
+<v Alex Zhang>“虎妈”那部分绝对有趣。没有别的妈妈被称为“虎妈”。那是你对中国妈妈的称呼。只有中国妈妈被称为虎妈。这看起来确实像是他在试图反驳审查员可能对我也做这些事情的动机所做的假设。
+
+00:19:33.540 --> 00:19:37.630
+<v Diane Wu>Yeah. How do you feel about that?
+<v Diane Wu>是的。你怎么看？
+
+00:19:37.630 --> 00:19:44.500
+<v Alex Zhang>I don't know. So he actually has a Chinese wife.
+<v Alex Zhang>我不知道。所以他实际上有一个中国妻子。
+
+00:19:44.500 --> 00:19:47.440
+<v Diane Wu>Is he Chinese? He's not Chinese.
+<v Diane Wu>他是中国人吗？他不是中国人。
+
+00:19:47.440 --> 00:20:07.990
+<v Alex Zhang>No, he's an old white guy, very American, grew up very American, went to Harvard during the time when it was, like, four white people played baseball on the baseball team. Everything's with good intentions. But I think he might just be a little more old-fashioned.
+<v Alex Zhang>不，他是一个年长的白人，非常美国，成长得非常美国，在哈佛读书的时候，还是那种四个白人在棒球队打棒球的时代。一切都出于好意。但我认为他可能只是有点老派。
+
+00:20:07.990 --> 00:20:20.190
+<v Diane Wu>Alex actually knows Jim pretty well. They kept in touch after his interview. Their families became friends. Alex's mom helped teach Jim's wife how to drive. He gets dinner with Jim whenever he's back home.
+<v Diane Wu>Alex实际上很了解Jim。面试后他们保持着联系。他们的家庭成了朋友。Alex的妈妈帮Jim的妻子学会了开车。他每次回家都会和Jim一起吃晚餐。
+
+00:20:20.190 --> 00:20:32.370
+<v Diane Wu>Alex left our conversation feeling pretty fine about what he'd read. But then he stepped back into a campus caught in the force field of the lawsuit, where anything to do with race, and bias, and admissions felt hypercharged.
+<v Diane Wu>Alex在读完档案后感觉还可以。但随后他回到校园，被卷入了诉讼的力场中，任何与种族、偏见和录取有关的事情都感觉被高度激化了。
+
+00:20:32.370 --> 00:20:54.840
+<v Diane Wu>One of the biggest ways the lawsuit has shaken up Harvard is that certain statistics are now public, like the school said that without affirmative action, one out of two black kids wouldn't get it. Latino kids-- they'd lose one out of three. Kids whose parents went to Harvard, who are, by the way, mostly white have a seven times better chance of getting in than regular kids.
+<v Diane Wu>诉讼让哈佛震动最大的方式之一是某些统计数据现在公开了，比如学校说如果没有平权行动，两个黑人孩子中就有一个进不去。拉丁裔孩子——他们会失去三分之一。父母上过哈佛的孩子，顺便说一句，大多数是白人，他们被录取的几率比普通孩子高七倍。
+
+00:20:54.840 --> 00:21:18.810
+<v Diane Wu>It's making students ask questions they'd rather not about how they got in. It's uncomfortable. I talked to two black students who chose not to see their files this fall. Both were worried it would say, let's take her because she's black. They didn't think it would, but still. One of them had the request form open on her computer for more than a week before she decided, nah, maybe senior year.
+<v Diane Wu>这让学生们不得不问他们宁愿不问关于他们是如何被录取的问题。这很不舒服。我和两个黑人学生谈过，她们今年秋天选择不去查看档案。两人都担心档案上会写着，“录取她吧，因为她是黑人”。她们不认为会这样，但还是担心。其中一个在电脑上打开申请表超过一周，才决定：“算了，也许大四再说吧。”
+
+00:21:18.810 --> 00:21:37.740
+<v Diane Wu>For Asian students, the question is the opposite. It's not am I here because of my race, but am I here in spite of it? It's cranked people's race goggles up to level 10. One of Alex's friends wrote on Facebook about a comment in her file. "She's a bright student, but what distinguishes her from other bright students?"
+<v Diane Wu>对于亚裔学生，问题正好相反。不是“我在这里是因为我的种族吗”，而是“我是尽管如此才在这里的吗？”这把人们的种族眼镜调到了10级。Alex的一个朋友在Facebook上写了一条关于她档案里的评论。“她是个聪明的学生，但有什么让她区别于其他聪明的学生呢？”
+
+00:21:37.740 --> 00:21:53.760
+<v Diane Wu>To her, this was racially coded. When she read it she saw, she seemed smart, but is there anything that makes her different from other Asian students? Well, if that was racially coded, Alex thought, you should see mine. He texted some close friends from his freshman year Chinese class.
+<v Diane Wu>对她来说，这是有种族含义的。当她读到它时，她看到的是：“她看起来很聪明，但有什么让她不同于其他亚裔学生吗？”嗯，如果那是有种族含义的，Alex想，你应该看看我的。他给大一中文课的几个密友发了短信。
+
+00:21:53.760 --> 00:22:10.410
+<v Alex Zhang>I sent a couple screen grabs from my admissions file to them. I was like, hey, I can't get this off my mind. I didn't react that strongly to it until after I saw this stuff online. And now, I'm starting to feel pretty troubled by it.
+<v Alex Zhang>我给他们发了录取档案的几张截图。我说，嘿，我脑子里挥之不去。直到在网上看到这些东西之前，我还没那么强烈的反应。而现在，我开始为此感到非常困扰。
+
+00:22:10.410 --> 00:22:13.260
+<v Diane Wu>What was the part that was troubling to you?
+<v Diane Wu>哪一部分让你感到困扰？
+
+00:22:13.260 --> 00:22:36.180
+<v Alex Zhang>My main trouble was, oh, does he feel like he needs to prove that I'm not like other Asians to the admissions office? And is that what it takes to get in nowadays? Most other college interviewers, I just talked for, like, an hour, an hour and a half. But Jim was doing a background check, you know? Why did he feel the need to do so rigorous of a background check?
+<v Alex Zhang>我主要困扰的是，哦，他是否觉得需要向招生办证明我不像其他亚裔？而这正是现在进入哈佛所需要的吗？大多数其他大学面试官，我只是谈了大约一个小时，一个半小时。但Jim是在做背景调查，你知道吗？为什么他觉得有必要做如此严谨的背景调查？
+
+00:22:36.180 --> 00:23:09.720
+<v Diane Wu>Alex's friends saw his screen grab saying tiger mom and perfect-for-MIT engineer and texted him back, oh, my god and that's kind of horrible. Tiger mom was actually a lot more explicit than any of the examples of bias that came up at the trial. It was really a fight over statistics and economic models, but a few stereotypes did come up. They were subtle. Things like Harvard referring to Asian applicants as one-dimensional or book smart.
+<v Diane Wu>Alex的朋友看到了他的截图，上面写着“虎妈”和“为了MIT的完美人选”，回复他说，哦，我的天，那太可怕了。“虎妈”实际上比审判中出现的任何偏见例子都要明确得多。这确实是一场关于统计学和经济模型的斗争，但确实出现了一些刻板印象。它们很微妙。诸如哈佛将亚裔申请者称为“一维的”或“书呆子”之类的事情。
+
+00:23:09.720 --> 00:23:22.940
+<v Diane Wu>Alex wanted to see what Jim was actually thinking when he wrote tiger mother. See if it really was a racial thing, like his friends were saying. So he gave him a call. Alex taped the call and with Jim's permission, sent it to me.
+<v Diane Wu>Alex想看看Jim写“虎妈”时到底在想什么。看看它是否真的是一种种族层面的东西，就像他朋友说的那样。所以他打了个电话。Alex录下了电话，在Jim的允许下，发给了我。
+
+00:23:22.940 --> 00:23:30.750
+<v Diane Wu>First, they catch up a little bit. Alex tells Jim about how he went to go see his file. He mentions an op-ed he co-wrote for the student newspaper.
+<v Diane Wu>首先，他们寒暄了一会儿。Alex告诉Jim他去看了档案。他提到了他为校报合写的一篇评论文章。
+
+00:23:30.750 --> 00:23:34.200
+<v Alex Zhang>Did you read the op-ed I wrote, by any chance? I don't think I sent it to you.
+<v Alex Zhang>你读过我写的那篇评论了吗？我不认为我发给你了。
+
+00:23:34.200 --> 00:23:49.160
+<v Jim Mccandlish>Yes, you did send it. I read it, and I totally regret that I did not respond. It was very well done.
+<v Jim Mccandlish>是的，你发了。我读了，我非常后悔没有回复。写得非常好。
+
+00:23:49.160 --> 00:23:51.710
+<v Diane Wu>It was very well done, Jim says.
+<v Diane Wu>“写得非常好，”Jim说。
+
+00:23:51.710 --> 00:23:53.890
+<v Alex Zhang>Oh, really? You thought so?
+<v Alex Zhang>哦，真的吗？你真的这么想？
+
+00:23:53.890 --> 00:23:54.880
+<v Jim Mccandlish>Yes.
+<v Jim Mccandlish>是的。
+
+00:23:54.880 --> 00:23:57.680
+<v Alex Zhang>I'm glad you thought so.
+<v Alex Zhang>很高兴你这么想。
+
+00:23:57.680 --> 00:24:09.560
+<v Diane Wu>They talk about the lawsuit. And before Alex can even bring up tiger moms, Jim volunteers his own ideas about implicit bias in admissions. He's been thinking about the effect of the interviewer's biases because--
+<v Diane Wu>他们谈论了诉讼。Alex甚至还没来得及提起“虎妈”，Jim就自愿分享了他关于招生中隐性偏见的想法。他一直在思考面试官偏见的影响，因为——
+
+00:24:09.560 --> 00:24:57.010
+<v Jim Mccandlish>Most likely, at least certainly from a place like Oregon, the interviewer is Caucasian. And we know there are stereotypes. I'm just curious how that plays out. If you have an expectation that an Asian interviewee is going to have a drab personality or meek and mild, you may play into your stereotype and not develop the rapport that would defeat the stereotype or at least resist it. You're in a really gray area of human nature.
+<v Jim Mccandlish>很有可能，至少肯定是在俄勒冈州这样的地方，面试官是白人。我们知道存在刻板印象。我很好奇这会如何发挥作用。如果你期望亚裔受访者性格沉闷或温和懦弱，你可能会陷入刻板印象，而没有建立起能够打破或至少抵制这种刻板印象的融洽关系。你处于人性中一个非常灰色的区域。
+
+00:24:57.010 --> 00:25:07.040
+<v Diane Wu>Jim, of course, went above and beyond to spend the time with Alex to get that rapport, to make sure he really understood Alex as an individual, not to write him off immediately.
+<v Diane Wu>Jim当然做了超出范围的事情，花时间和Alex建立这种融洽关系，确保他真正理解Alex是一个个体，而不是立刻就把他写掉。
+
+00:25:07.040 --> 00:25:22.240
+<v Alex Zhang>So I'm actually kind of curious about some stuff you wrote. Yeah, so you wrote five pages of notes. There's probably 2,000 words at least.
+<v Alex Zhang>所以我其实很好奇你写的一些东西。是的，你写了五页笔记。至少有2,000个字。
+
+00:25:22.240 --> 00:25:24.790
+<v Jim Mccandlish>[INAUDIBLE]
+<v Jim Mccandlish>[听不清]
+
+00:25:24.790 --> 00:25:32.060
+<v Alex Zhang>Yeah, and most of that was in the personal quality section, which I was the most curious about reading.
+<v Alex Zhang>是的，大部分是在个人素质部分，这是我最好奇阅读的部分。
+
+00:25:32.060 --> 00:25:40.210
+<v Jim Mccandlish>OK. So here I am right on the edge. What do they say?
+<v Jim Mccandlish>好的。所以我现在就在边缘。他们说了什么？
+
+00:25:40.210 --> 00:25:45.130
+<v Diane Wu>It takes another eight minutes for Alex to get the nerve to bring it up-- tiger mom.
+<v Diane Wu>Alex又花了八分钟才鼓起勇气提起——虎妈。
+
+00:25:45.130 --> 00:25:48.890
+<v Alex Zhang>You mentioned that you asked her about my parents.
+<v Alex Zhang>你提到你问她关于我父母的事。
+
+00:25:48.890 --> 00:25:59.630
+<v Jim Mccandlish>Yeah, I was trying to figure out whether or not you were basically driven by the parents in any way.
+<v Jim Mccandlish>是的，我试图弄清楚你基本上是否在任何方面受到父母的驱使。
+
+00:25:59.630 --> 00:26:17.730
+<v Alex Zhang>You use the term tiger mother, saying my mom's not like that. That's very much affiliated with Asian parenting. So when I read that, it just was a little unexpected.
+<v Alex Zhang>你用了“虎妈”这个词，说我妈妈不像那样。这与亚裔育儿有很大的关联。所以当我读到它时，只是有点意想不到。
+
+00:26:17.730 --> 00:26:20.350
+<v Jim Mccandlish>Well, recall, I live with one.
+<v Jim Mccandlish>嗯，回想一下，我和一个住在一起。
+
+00:26:20.350 --> 00:26:26.300
+<v Diane Wu>I live with one, Jim's saying. He's talking about his wife, who is Chinese. They have a young daughter.
+<v Diane Wu>“我和一个住在一起，”Jim说。他指的是他的妻子，是中国人。他们有一个年幼的女儿。
+
+00:26:26.300 --> 00:26:31.100
+<v Jim Mccandlish>I live with a tiger mom and fight it all the time.
+<v Jim Mccandlish>我和一个虎妈住在一起，而且一直在对抗它。
+
+00:26:31.100 --> 00:26:36.580
+<v Alex Zhang>You think that's a particularly Chinese thing?
+<v Alex Zhang>你认为那是一个特别中国的东西吗？
+
+00:26:36.580 --> 00:26:45.450
+<v Jim Mccandlish>I think the Chinese on the west side have a very definite, strong influence that way.
+<v Jim Mccandlish>我认为西区的中国人在那方面有一种非常明确、强大的影响力。
+
+00:26:45.450 --> 00:26:50.290
+<v Diane Wu>West side-- Jim's talking about the wealthier side of Portland where he and Alex lived.
+<v Diane Wu>西区——Jim指的是他和Alex居住的波特兰较富裕的一侧。
+
+00:26:50.290 --> 00:26:52.940
+<v Jim Mccandlish>No question in my mind.
+<v Jim Mccandlish>我心中毫无疑问。
+
+00:26:52.940 --> 00:27:12.150
+<v Alex Zhang>Huh, gotcha. Because for me, it's kind of like, if you had a Chinese applicant, would you be suspicious that perhaps their parent or their mom was like that?
+<v Alex Zhang>嗯，明白了。因为对我来说，就像，如果你有一个亚裔申请者，你会怀疑他们的父母或妈妈是不是那样吗？
+
+00:27:12.150 --> 00:27:49.280
+<v Jim Mccandlish>If I saw somebody, Alex, that had their fingers in a lot of pies, and I had no way to ascertain the depth of what they were doing-- what I'm looking for and looked for was the person who was thriving on their own, that is self-motivated. And it isn't just Chinese. I use that term because I'm an Amy Tan Fan.
+<v Jim Mccandlish>如果我看到某人，Alex，手伸向很多个饼，而且我没有办法确定他们所做事情的深度——我寻找的是那些自力更生、有自我驱动力的人。而且这不只是中国。我用那个词是因为我是谭恩美（Amy Tan）的粉丝。
+
+00:27:49.280 --> 00:28:01.340
+<v Diane Wu>Amy Tan wrote The Joy Luck Club. Apparently, after this conversation, Jim's wife told him that she did not also write Battle Hymn of the Tiger Mother. That was Amy Chua. His wife offered to buy him the book.
+<v Diane Wu>谭恩美写了《喜福会》。显然，在这段对话之后，Jim的妻子告诉他，她并没有写《虎妈战歌》。那是蔡美儿（Amy Chua）。他的妻子提出要给他买那本书。
+
+00:28:01.340 --> 00:28:09.620
+<v Jim Mccandlish>But anybody I interview, the longer I did it, the more suspicious I was.
+<v Jim Mccandlish>但无论我面试谁，做得越久，我就越怀疑。
+
+00:28:09.620 --> 00:28:23.390
+<v Diane Wu>After doing these interviews for 20 years, Jim was not naive to kids puffing up their extracurriculars or getting coached on how to act in the interview. He's saying he was tough on everyone.
+<v Diane Wu>在做了20年面试后，Jim对于孩子们吹嘘课外活动或被教练教导如何在面试中表现并不天真。他在说他对每个人都很严厉。
+
+00:28:23.390 --> 00:28:48.370
+<v Diane Wu>I talked to Jim later. He didn't want to be recorded, but he was open about what he wrote. He told me, yeah, part of what he was doing was overtly pointing out to the admissions officers that Alex was different from other Chinese-American applicants. That this young man did not fit whatever stereotypes that he or the admissions officers might have. And his no-holds-barred strategy to get Alex in, it seemed to work.
+<v Diane Wu>我后来和Jim谈过。他不想被录音，但他对自己写的很坦诚。他告诉我，是的，他所做的一部分是公开向招生官员指出，Alex不同于其他美籍华裔申请者。这个年轻人并不符合他或招生官员可能持有的任何刻板印象。而且他让Alex录取的全力策略，看起来奏效了。
+
+00:28:48.370 --> 00:29:04.900
+<v Diane Wu>The first reviewer, who went through Alex's file before his interview, wrote, "hope the alumni interview can add." The next reviewer saw Jim's report, then wrote, "interview in and is pretty remarkable for its in-depth review, comes out in the right place and is reassuring."
+<v Diane Wu>第一个面试官，在面试前审阅了Alex的档案，写道：“希望校友面试能加分。”下一个审阅者看到了Jim的报告，然后写道：“面试已经进行，在深度审查方面非常引人注目，结论到位，令人放心。”
+
+00:29:04.900 --> 00:29:24.410
+<v Diane Wu>Besides his write-up, Jim gave Alex a personal rating of 1, the highest possible score. He gave Alex ones across all categories. The official admissions officers were not as effusive. They gave him a 2 for his personal rating, twos and threes for the rest. Wrote that his personal qualities seem to be still evolving.
+<v Diane Wu>除了他的书面报告，Jim给了Alex个人评分1，这是可能的最高分。他在所有类别中都给了Alex 1分。官方招生官员没那么热情。他们给了他个人评分2，其余给了2和3。写道他的个人素质似乎还在演变中。
+
+00:29:24.410 --> 00:29:35.890
+<v Alex Zhang>After I read mine, my impression was that if you hadn't written such an in-depth, positive review that I probably wouldn't have gotten it, which is kind of an interesting thought.
+<v Alex Zhang>读完我的档案后，我的印象是，如果你没有写如此深入、积极的评价，我可能就不会被录取，这是一个有趣的念头。
+
+00:29:35.890 --> 00:29:47.720
+<v Jim Mccandlish>That's surprises me. You were at the top of everything. That surprises me. I thought I was a gravy.
+<v Jim Mccandlish>这让我很惊讶。你在所有方面都是顶尖的。这让我很惊讶。我以为我只是锦上添花。
+
+00:29:47.720 --> 00:29:53.580
+<v Alex Zhang>Yeah, I really appreciate how much you did.
+<v Alex Zhang>是的，我真的很感激你所做的。
+
+00:29:53.580 --> 00:30:00.890
+<v Jim Mccandlish>Well, I appreciate you. So how was New York?
+<v Jim Mccandlish>好吧，我感激你。所以纽约怎么样？
+
+00:30:00.890 --> 00:30:17.920
+<v Diane Wu>They go on to talk about Alex's summer job in Manhattan, the classes he's taking this fall. Jim starts in on a story about his kid before telling Alex, oh, hey, turn that recorder off.
+<v Diane Wu>他们继续谈论Alex在曼哈顿的暑期工作，他这个秋天上的课。Jim开始讲关于他孩子的故事，然后告诉Alex，哦，嘿，把那个录音机关掉。
+
+00:30:17.920 --> 00:30:29.440
+<v Diane Wu>I met up with Alex again after that phone call. He wasn't totally satisfied by it, thought Jim didn't get the gravity of tiger mother, hadn't thought it all the way through. But he had no hard feelings.
+<v Diane Wu>在那次电话后，我又见到了Alex。他并没有完全满足，觉得Jim没明白“虎妈”的严重性，没把它彻底想清楚。但他没有怀恨在心。
+
+00:30:29.440 --> 00:30:42.790
+<v Diane Wu>Though when Alex thought more about tiger mother, he realized, it was not just the use of the term that unsettled him, but also, the assumption that it was a bad thing in the first place. Something that Harvard would want to make sure none of its students had.
+<v Diane Wu>尽管当Alex更多地思考“虎妈”时，他意识到，让他感到不安的不仅是这个词的使用，还有它首先是一个坏事的前提。哈佛会想要确保其学生中没有人会有这种东西。
+
+00:30:42.790 --> 00:31:07.120
+<v Alex Zhang>This idea that a tiger mom would even be-- I know it is a thing in our culture for a lot of parents, but also is weird that there's a fixation on that by American society. Also, the question is, why does it matter if your parents pushed you in that way? Is that not part of your upbringing and who you are now?
+<v Alex Zhang>这种“虎妈”甚至是一个——我知道这对许多家庭来说是我们文化中的一种事物，但这也是美国社会对此有某种固着，这就很奇怪。此外，问题是，如果你的父母以那种方式推动你，这有什么关系？这难道不是你成长和现在成为你的那个人的一部分吗？
+
+00:31:07.120 --> 00:31:24.510
+<v Alex Zhang>I don't know. There seems to be these very negative connotations about the way Asians are raised or the way that they behave growing up. And it just seems like there's this very deeply ingrained prejudice and misunderstanding.
+<v Alex Zhang>我不知道。关于亚裔被抚养的方式或他们成长过程中的行为方式，似乎有这些非常消极的内涵。这似乎是一种根深蒂固的偏见和误解。
+
+00:31:24.510 --> 00:31:29.170
+<v Diane Wu>Alex, personally, was grateful for when his mom pushed him when he was younger.
+<v Diane Wu>Alex个人很感激当他年轻时妈妈推动他的时候。
+
+00:31:29.170 --> 00:31:46.110
+<v Alex Zhang>I remember in high school, my mom was gave me a lot of pressure. Make sure you connect with the teachers and talk to them during break time, so they can get to know you, because it's really important. They're going to have to write you recommendations. And I didn't want to do it, but I guess I had to.
+<v Alex Zhang>我记得在高中时，我妈妈给了我很多压力。确保你和老师建立联系，在课间休息时和他们交谈，这样他们就能了解你，因为这非常重要。他们以后必须为你写推荐信。我不想这么做，但我猜我必须做。
+
+00:31:46.110 --> 00:31:48.390
+<v Diane Wu>Your mom was on the ball.
+<v Diane Wu>你妈妈很有手段。
+
+00:31:48.390 --> 00:32:01.940
+<v Alex Zhang>Yeah, she's really on top of stuff, which is really good. Because she did it without killing me, overworking me. She's a really good mom.
+<v Alex Zhang>是的，她真的很有掌控力，这真的很好。因为她做到了这一点而没有杀死我，没有让我过度劳累。她真的是个好妈妈。
+
+00:32:01.940 --> 00:32:17.330
+<v Diane Wu>In race-conscious admissions, it's not just the university that's conscious of race. It's also the applicants themselves. Almost all the students of color I asked had considered whether and how to portray their race in their package. Just one white student had.
+<v Diane Wu>在注重种族的录取中，不仅大学意识到种族。申请者自己也意识到了。我问过的几乎所有有色人种学生都考虑过是否以及如何在他们的资料中描绘他们的种族。只有一个白人学生考虑过。
+
+00:32:17.330 --> 00:32:31.490
+<v Diane Wu>Alex is from a mostly white neighborhood in Portland, Oregon. Growing up, his classmates often couldn't see past his race. They teased him for having a flat face, about being a nerd. One girl exclusively called him Asian instead of Alex.
+<v Diane Wu>Alex来自俄勒冈州波特兰一个主要是白人的社区。成长过程中，同学往往无法透过他的种族看他。他们取笑他脸平，说他是书呆子。一个女孩只叫他“亚裔”而不是Alex。
+
+00:32:31.490 --> 00:32:45.420
+<v Diane Wu>In middle school, he started playing basketball, partly to downplay his Chinese-ness, fit in with the white kids. Out on the court, though, someone would still always call him Yao Ming. But he didn't write about any of that in his personal essay.
+<v Diane Wu>初中时，他开始打篮球，部分是为了淡化他的“中国味”，融入白人孩子中间。但在球场上，总会有人叫他“姚明”。但他没在个人陈述中写任何那些事情。
+
+00:32:45.420 --> 00:32:54.050
+<v Diane Wu>Instead, it's about how he transforms from a lonely elementary school kid playing video games by himself to big man on campus at his high school.
+<v Diane Wu>相反，那是关于他如何从一个独自玩视频游戏的孤独小学孩子，变成他高中里的大人物的。
+
+00:32:54.050 --> 00:33:05.890
+<v Diane Wu>You didn't talk about race in your essay. That's not the topic. It doesn't mention race at all. Was that part of the subtext of what you were writing, looking back on it?
+<v Diane Wu>你在文章中没谈到种族。这不是主题。根本没提到种族。回想起来，那是你写的东西的潜台词的一部分吗？
+
+00:33:05.890 --> 00:33:28.050
+<v Alex Zhang>Probably, yeah. In high school, I had a lot of internalized hatred about being Asian. I had this whole perception that I needed to differentiate myself. So I think one of my views is that, oh, we aren't seen. This also goes to myself being really cautious of the system or potential biases.
+<v Alex Zhang>可能吧，是的。在高中时，我有种关于身为亚裔的内在仇恨。我有这种需要让自己与众不同的感知。所以我认为我的观点之一是，哦，我们没有被看到。这也让我自己对体制或潜在偏见非常谨慎。
+
+00:33:28.050 --> 00:33:39.360
+<v Alex Zhang>So I was like, oh, I probably need to show that I have been more social, or I have been a leader, have done these cool things.
+<v Alex Zhang>所以我当时想，哦，我可能需要表现出我更善于社交，或者我一直是领导者，做过这些很酷的事情。
+
+00:33:39.360 --> 00:33:49.800
+<v Diane Wu>It struck me that it might be that while you were preparing your application, you were making some similar-ish calculation to maybe what Jim was making.
+<v Diane Wu>让我震惊的是，可能在你准备申请时，你正在做一些类似于Jim可能正在做的计算。
+
+00:33:49.800 --> 00:33:53.330
+<v Alex Zhang>Yeah.
+<v Alex Zhang>是啊。
+
+00:33:53.330 --> 00:34:04.180
+<v Diane Wu>Not I want to differentiate myself from all other applicants, but I extra want to differentiate myself from other Asian applicants.
+<v Diane Wu>不是我想要把自己从所有其他申请者中区分出来，而是我额外想要把自己从其他亚裔申请者中区分出来。
+
+00:34:04.180 --> 00:34:20.810
+<v Alex Zhang>Probably. And again, looking back, I don't like it in the same way that I don't like if Jim would have had to talk me up just because I'm Asian. I don't like that I [INAUDIBLE] that way if it was because of that.
+<v Alex Zhang>可能。再说一次，回想起来，我不喜欢它，就像我不喜欢如果Jim不得不谈论我仅仅因为我是亚裔一样。我不喜欢我以那种方式[听不清]，如果是为了那个原因的话。
+
+00:34:20.810 --> 00:34:39.590
+<v Diane Wu>I asked Alex if what he saw in his file shifted his position at all in the lawsuit. No, he said. To him, tiger mom was weird for sure, but it wasn't discrimination. It didn't sway the argument one way or another. For Alex, what he saw in his file, what his friends have been seeing, it's more personal.
+<v Diane Wu>我问Alex他在档案里看到的有没有改变他在诉讼中的立场。不，他说。对他来说，“虎妈”确实很奇怪，但那不是歧视。它并没有让论点向任何一方倾斜。对于Alex，他在档案里看到的，他朋友一直在看到的，更多是私人的。
+
+00:34:39.590 --> 00:34:56.200
+<v Alex Zhang>A lot of the comments my friends have been making and stuff, they're not things that make as much of an argument for either side as much as, like, oh, this is what being Asian is like.
+<v Alex Zhang>我朋友一直在发表的许多评论之类的话，它们并没有对任何一方产生那么大的争论，而是像，哦，身为亚裔就是这样的。
+
+00:34:56.200 --> 00:35:27.140
+<v Diane Wu>In other words, even when you make it into one of the fanciest colleges in the world, when you finally feel like people see you for who you are, your whole complicated self, just one word or phrase can snap you out of it. Remind you, right, right, this is how they see me. This is how it really works.
+<v Diane Wu>换句话说，即使你进入了世界上最昂贵的大学之一，当你终于觉得人们看到了真实的你，你整个复杂的身心时，仅仅一个词或短语就能把你从中拉出来。提醒你，对的，对的，这就是他们看我的方式。这就是它真正的运作方式。
+
+00:35:27.140 --> 00:35:44.400
+<v Ira Glass>Diane Wu is one of the producers of our show. Coming up-- quoting Snoop Dogg fails to impress state regulators in New York. What a shocker. That's in a minute. From Chicago Public Radio when our program continues.
+<v Ira Glass>Diane Wu是我们节目的制作人之一。接下来——引用Snoop Dogg的话未能打动纽约的州监管机构。真是令人震惊。那在一分钟后。当我们的节目继续时，来自芝加哥公共广播电台。
+
+00:35:44.400 --> 00:35:54.830
+<v Ira Glass>It's This American Life. I'm Ira Glass. Today's show-- how I read it, stories where people look at words on a page or words on a screen and see something of the rest of us might not always see. We've arrived at Act Two of our show.
+<v Ira Glass>这是《美国生活》。我是Ira Glass。今天的节目——我如何阅读它，故事里的人们看着纸上的字或屏幕上的字，看到了我们其他人可能并不总是看到的东西。我们已经到达了节目的第二幕。
+
+00:35:54.830 --> 00:35:59.270
+<v Ira Glass>Act Two-- I'm just going to see if the InspiroBot can come up with a good title for this act. Hold on.
+<v Ira Glass>第二幕——我只是要看看InspiroBot能不能想出一个好标题。等等。
+
+00:35:59.270 --> 00:36:21.890
+<v Ira Glass>Pushing the button, and the thing is flashing. And there's a picture of a tree and a night sky. It says, know that you are unprecedentedly negative, which, I have to say, that's actually a shockingly decent title for the act that we're about to do. We were going to call it side effects may include bankruptcy or whatever the thing came up with. And then the bot actually did a really good job.
+<v Ira Glass>按下按钮，东西在闪烁。上面有一棵树和夜空的图片。上面写着：知道你是前所未有的负面，我必须说，这对于我们即将做的这一幕来说，其实是一个令人震惊的得体的标题。我们本来打算叫它“副作用可能包括破产”或者其他机器人想出的东西。然后机器人其实做得很好。
+
+00:36:21.890 --> 00:36:41.000
+<v Ira Glass>Act 2, Know That You Are Unprecedentedly Negative. One of our producers, David Kestenbaum, recently came across this kind of amazing collection of documents on a government website. These documents-- letters and emails, like thousands of them-- they're part of the usual machinery of bureaucratic decision-making. But David saw something more in them.
+<v Ira Glass>第二幕，知道你是前所未有的负面。我们的制作人之一，David Kestenbaum，最近在政府网站上发现了这种惊人的文件集。这些文件——信件和电子邮件，像成千上万封——是官僚决策机制的一部分。但David在其中看到了更多。
+
+00:36:41.000 --> 00:37:00.940
+<v David Kestenbaum>I found these letters about four clicks deep on a website for the Department of Financial Services for the state of New York. I was digging around, looking for some numbers on a different story, and there they were-- page after page of detailed, handwritten letters and emails going on, at length and with great passion and precision, about their health insurance plans.
+<v David Kestenbaum>我在纽约州金融服务部的一个网站上发现了这些信件，点击了四层才找到。我当时在四处挖掘，寻找关于另一个故事的一些数字，然后它们就在那——一页又一页关于他们的健康保险计划的详细、手写的信件和电子邮件，洋洋洒洒，充满热情和精确。
+
+00:37:00.940 --> 00:37:13.480
+<v David Kestenbaum>They'd been buying them through the Affordable Care Act, Obamacare. And every year, their plans were getting more expensive and not just by a little. I printed these letters out. They filled two binders, and I read them all.
+<v David Kestenbaum>他们通过《平价医疗法案》即“奥巴马医改”购买了保险。而每年，他们的计划都在变得越来越昂贵，不仅仅是一点点。我把这些信打印了出来。它们装满了两个活页夹，我把它们全读了。
+
+00:37:13.480 --> 00:37:28.890
+<v David Kestenbaum>There's something about the intimacy of these letters that makes them hard to stop reading. You can feel people sitting down to write them in their homes, coming face to face with the cost of their insurance, and just searching for the right words. Some are desperate. Some are exhausted. Some people are funny.
+<v David Kestenbaum>这些信件的亲密感使人很难停止阅读。你可以感觉到人们坐在家里写它们，面对保险的成本，并寻找正确的词汇。有些人很绝望。有些人精疲力竭。有些人很有趣。
+
+00:37:28.890 --> 00:37:41.590
+<v David Kestenbaum>It's this record of our fellow citizens shouting into the abyss. And they got to me in this way that news stories about this never have. These are people reacting to a situation that would drive anyone crazy.
+<v David Kestenbaum>这是我们公民对着深渊大喊大叫的记录。它们以新闻报道从未有过的方式触动了我。这些人对一个会让任何人疯狂的情况做出了反应。
+
+00:37:41.590 --> 00:37:56.380
+<v David Kestenbaum>The first year, 2015, the cost of their plans increased 6% on average. Next year, they went up again by 7%. Then the next year, up again by 17%. Then the next year, another 15%.
+<v David Kestenbaum>第一年，2015年，他们的计划成本平均增加了6%。第二年，它们又上涨了7%。然后下一年，又上涨了17%。然后下一年，又上涨了15%。
+
+00:37:56.380 --> 00:38:11.110
+<v David Kestenbaum>That's a 50% increase over just four years. So if you were paying $12,000 a year at the start for your family, the price might have gone up to $18,000. And the reason these people were writing this year is that it looked like prices were going to go up again.
+<v David Kestenbaum>那是在短短四年内上涨了50%。所以如果你刚开始一年为家庭支付12,000美元，价格可能已经上涨到18,000美元了。而这些人今年写信的原因是，价格看起来又要上涨了。
+
+00:38:11.110 --> 00:38:23.170
+<v David Kestenbaum>Insurance companies wanted to raise prices another 24%. So for a family that started at $12,000, that would bring you to $22,000 a year for insurance. People were not pleased.
+<v David Kestenbaum>保险公司想要再提价24%。所以对于一个起始费用12,000美元的家庭，那将使你一年的保险费达到22,000美元。人们很不高兴。
+
+00:38:23.170 --> 00:38:50.560
+<v David Kestenbaum>The approaches varied. There were the, I'm a serious person, this is a serious letter about a serious matter ones. Dear sir, or sometimes, dear sir or madam, or to whom it may concern, they begin. And then something like this one-- a premium rate hike is unconscionable. I'm appalled that such a significant premium increase is being sought after my first year of coverage. There is clearly no consumer protection for the public. I object strenuously to this requested rate increase for mediocre coverage. So formal.
+<v David Kestenbaum>方式多种多样。有那种“我是个严肃的人，这是一封关于严肃事情的严肃信件”的类型。亲爱的先生，有时是“亲爱的先生或女士”，或“致相关负责人”，他们开头写道。然后是类似这样的话——保费上涨是丧尽天良的。我对在我投保第一年后还要寻求如此显著的保费上涨感到震惊。显然，公众没有任何消费者保护。我强烈反对这种针对平庸覆盖范围的拟议费率上涨。真正式。
+
+00:38:50.560 --> 00:39:10.070
+<v David Kestenbaum>Another letter ended, I will pray for an acceptable solution of this horrible situation and that good sense, goodwill, and fairness prevail. But honestly, those are the minority. This one's more typical. Are you freaking kidding me about letting them raise the rate $88.29 per month? That was in all caps.
+<v David Kestenbaum>另一封信的结尾写道：我祈祷这种可怕的情况能有一个可接受的解决方案，希望理智、善意和公平能够胜出。但说实话，那些是少数。这封信更典型：你们是不是在开玩笑，竟然让他们每月提价88.29美元？那是全大写的。
+
+00:39:10.070 --> 00:39:30.670
+<v David Kestenbaum>And then there's this one. If this happens, I will drop this plan and company faster than Snoop Dogg drops it like it's hot. That was basically the whole email. Another started, ha, ha, ha, this is a joke, which was a common thought. Is this a joke? I don't think any additional comments are needed. That person then went on to give quite a number of comments.
+<v David Kestenbaum>然后还有这一封：如果发生这种情况，我掉这个计划和公司的速度将比Snoop Dogg掉得还快。那基本上就是整封邮件了。另一封开头是：哈哈哈哈，这是一个笑话，这是普遍想法。“这是个笑话吗？我认为不需要任何额外的评论。”那个人随后继续发表了相当多的评论。
+
+00:39:30.670 --> 00:39:51.280
+<v David Kestenbaum>The reason all these people took the time to write to their state government about this is that in New York, like in a lot of states, actually, when a health insurance company wants to charge people more money, it can't just do it. For policies that are sold directly to individuals, as these were on the Affordable Care Act exchanges, the insurance company has to get approval from government regulators to raise its prices.
+<v David Kestenbaum>所有这些人花时间写信给州政府的原因是，在纽约，实际上像许多州一样，当健康保险公司想要向人们收取更多钱时，它不能只是去做。对于直接卖给个人的政策，就像奥巴马医改交易平台上的这些，保险公司必须获得政府监管机构的批准才能提高价格。
+
+00:39:51.280 --> 00:40:06.750
+<v David Kestenbaum>And in New York, health insurance companies have to be really clear they are proposing raising their rates. They have to send out a letter to everyone who has their insurance saying they want to raise their prices, exactly how much. And toward the end of the letter, they have to stick in this paragraph. It feels kind of perfunctory.
+<v David Kestenbaum>而且在纽约，健康保险公司必须非常明确他们提议提高费率。他们必须给所有购买他们保险的人寄出一封信，说他们想要提高价格，确切金额是多少。而在信的末尾，他们必须插入这一段。感觉有点敷衍。
+
+00:40:06.750 --> 00:40:22.270
+<v David Kestenbaum>It mentions there is a 30-day public comment period. It gives an address and a website. So if people have any comments or questions, they can write to the state of New York, which they do. This year, New York got 754 letters in 30 days.
+<v David Kestenbaum>它提到有30天的公众评论期。它给出了一个地址和一个网站。所以如果人们有任何评论或问题，他们可以写信给纽约州，他们确实这么做了。今年，纽约在30天内收到了754封信。
+
+00:40:22.270 --> 00:40:41.320
+<v David Kestenbaum>Most states, as far as I can tell, do not go out of their way to make these letters public, but New York does. Someone there carefully scans them all, organizes them, and puts them online. I went through the letters from years past. The government has blacked out people's names to protect their privacy. But sometimes, you get this little window into someone's life.
+<v David Kestenbaum>据我所知，大多数州不会特意将这些信件公开，但纽约州会。那里有人仔细地扫描它们，整理它们，并把它们放到网上。我翻阅了往年的信件。政府涂黑了人们的名字以保护他们的隐私。但有时，你会看到一个人生活的这一小扇窗。
+
+00:40:41.320 --> 00:41:00.340
+<v David Kestenbaum>One person is a Pilates teacher in Long Island. Another said her husband had died. Another was contemplating a knee replacement and was in pain. One wrote that the family had just gotten back from vacation. You can kind of imagine the person finding the notice of rate increase in the mail, then sitting down in total anger to write, maybe not even taking their coat off.
+<v David Kestenbaum>一个人是长岛的普拉提老师。另一个人说她的丈夫去世了。另一个人正在考虑膝盖置换手术，并且处于痛苦中。一人写道他们全家刚从度假回来。你可以想象那个人在邮件中找到费率上涨通知，然后完全愤怒地坐下来写信，甚至可能外套都没脱。
+
+00:41:00.340 --> 00:41:20.400
+<v David Kestenbaum>And you can feel people struggling with the fact that a bunch of keyboard keys do not seem adequate to express their emotions. They'll throw an extra exclamation point in, or two, or 46. Yes, 46. I imagine the person sticking their finger on the key and just leaving it there for a while, thinking, there, that's about right.
+<v David Kestenbaum>你可以感觉到人们在纠结键盘按键似乎不足以表达他们的情绪这一事实。他们会多加一个感叹号，或者两个，或者46个。是的，46个。我能想象那个人把手指按在键上，想了一会儿，心想，在那里，这差不多了。
+
+00:41:20.400 --> 00:41:36.790
+<v David Kestenbaum>And reading these letters, which took a day, I realized, it is not just names that are getting blacked out, other things too. Where the blank do you people get off raising health insurance almost $200 a month? You have to be blank kidding me, you blank. But you know that already.
+<v David Kestenbaum>读这些花了一天的信，我意识到，不仅仅是名字被涂黑了，其他事情也是。“你们这些混蛋凭什么把健康保险每月提高近200美元？你们一定是在逗我，你们这些混蛋。但你们已经知道了。”
+
+00:41:36.790 --> 00:41:55.690
+<v David Kestenbaum>Which made me wonder about this other letter that was entirely blacked out. People were so angry. It was like reading Yelp reviews for a bad restaurant, but where the meal cost $20,000 and in some cases, you don't even get to eat it, which of course, is the nature of insurance, but still.
+<v David Kestenbaum>这让我好奇另一封被完全涂黑的信。人们太生气了。这就像在读一家糟糕餐馆的Yelp评论，但那里的餐费要20,000美元，而且在某些情况下，你甚至吃不到，这当然是保险的性质，但依然。
+
+00:41:55.690 --> 00:42:19.400
+<v David Kestenbaum>I don't like writing these letters, as I feel like a ranting old man, one guy wrote. But between watching premiums rise out of control and seeing the insurance I have not cover actual costs, I am that ranting fool. His insurance company wanted to raise rates by 40%.
+<v David Kestenbaum>“我不喜欢写这些信，因为我觉得自己像个咆哮的老头，”一个人写道。“但在看着保费失控上涨和看着我的保险无法覆盖实际成本之间，我就是那个咆哮的傻瓜。”他的保险公司想要提价40%。
+
+00:42:19.400 --> 00:42:27.290
+<v David Kestenbaum>One question a lot of people had, why were prices going up so much? I don't get a raise, one person wrote. Why should they?
+<v David Kestenbaum>很多人有一个问题，为什么价格涨得这么厉害？“我没涨工资，”一个人写道。“他们凭什么？”
+
+00:42:27.290 --> 00:42:49.740
+<v David Kestenbaum>Nobody got back to these people with an explanation. So if any of you letter writers are listening, here's what happened. When the Obamacare exchanges launched in 2013, the premiums for that first year were a lot lower. And after a rough start, things seem to be working. People who couldn't afford health care suddenly could. And in some places, there were lots of options to choose from.
+<v David Kestenbaum>没有人给这些人解释。所以如果你们中有任何写信人正在听，这就是发生了什么。当奥巴马医改交易平台在2013年启动时，第一年的保费要低得多。在经历了一个艰难的开始后，事情似乎正在运作。那些买不起医疗保健的人突然买得起了。在某些地方，有很多选择。
+
+00:42:49.740 --> 00:42:58.190
+<v Man In Ad>Let's say a grizzly bear escaped from the zoo. Now let's say he gave you a hug. Well, you might be needing some health care right about then.
+<v Man In Ad>假设一只灰熊从动物园逃了出来。现在假设他拥抱了你。嗯，你那时候可能需要一些医疗保健了。
+
+00:42:58.190 --> 00:43:25.790
+<v David Kestenbaum>This is an ad for a health insurance company called Oscar that launched around this time. Its animated, children's book style, which, can I just say, I admire the ingenuity of this advertising strategy. It's better than, you should have insurance in case you get cancer or get in a car accident, which honestly, is what I think about. I never thought about getting hugged by a well-meaning bear, who then later visits me with a get well balloon that says I'm sorry. It's a much better sell.
+<v David Kestenbaum>这是一则名为Oscar的健康保险公司的广告，大约在这个时候推出。它是动画的，童书风格，我可以只说吗，我钦佩这种广告策略的独创性。它比“你应该有保险以防你得了癌症或遭遇车祸”要好，老实说，那是我会想到的。我从没想过被一只善意的熊拥抱，然后后来它用一个写着“我很抱歉”的康复气球来看望我。这是一个好得多的卖点。
+
+00:43:25.790 --> 00:43:38.260
+<v Man In Ad>Introducing Oscar, individual health insurance that's simple, intuitive, and maybe even fun. So you can focus on the important things, like staying healthy. We're Oscar, a new kind of health insurance company.
+<v Man In Ad>介绍Oscar，简单、直观，甚至可能很有趣的个人健康保险。所以你可以专注于重要的事情，比如保持健康。我们是Oscar，一种新型的健康保险公司。
+
+00:43:38.260 --> 00:44:12.630
+<v David Kestenbaum>The next year, Oscar, like most insurance companies on the exchanges, raised their rates. I dug into some of the older letters to see what the reaction was back then. Stop counting my money. Stop trying to figure out how much more I should owe your company. And stop writing stupid cutesy blurbs about bears hugging you and crushing your ribs. Adults are reading this, not 12 year olds. Do not raise my premium. Not to pick on Oscar, but I think, as a new insurance company, people hope things might be different.
+<v David Kestenbaum>第二年，Oscar像交易平台上大多数保险公司一样，提高了他们的费率。我挖出了一些老信件来看看当时的反应。“别算我的钱。别试图算出我应该欠你们公司多少。别再写关于熊拥抱你并压碎你肋骨的愚蠢、可爱的段子了。成人在读这个，不是12岁的小孩。别提高我的保费。”不是要针对Oscar，但我认为，作为一家新保险公司，人们希望事情可能会有所不同。
+
+00:44:12.630 --> 00:44:19.970
+<v David Kestenbaum>In the years since 2013, insurance companies in New York and around the country raised their prices on the Obamacare exchanges.
+<v David Kestenbaum>自2013年以来的几年里，纽约和全国的保险公司提高了他们奥巴马医改交易平台上的价格。
+
+00:44:19.970 --> 00:44:24.990
+<v Donald Trump>You know, I said from the beginning, let Obamacare implode.
+<v Donald Trump>你知道，我从一开始就说，让奥巴马医改内爆吧。
+
+00:44:24.990 --> 00:44:32.220
+<v David Kestenbaum>That, of course, is President Trump with his diagnosis of what was going on, or maybe it was a prescription for what he wanted to happen.
+<v David Kestenbaum>那当然是特朗普总统对他正在发生的事情的诊断，或者可能那是对他想要发生的事情的处方。
+
+00:44:32.220 --> 00:44:33.580
+<v Donald Trump>Let Obamacare implode.
+<v Donald Trump>让奥巴马医改内爆吧。
+
+00:44:33.580 --> 00:44:36.720
+<v Donald Trump>[CHEERING AND APPLAUSE]
+<v Donald Trump>[欢呼和掌声]
+
+00:44:36.720 --> 00:44:55.240
+<v David Kestenbaum>But according to economists who study these things and, frankly, the insurance companies themselves, the exchanges were not imploding. What was going on was that the insurance companies had set premiums too low at the beginning, some combination of wanting to attract customers and genuinely not knowing how sick or healthy the people who signed up were going to be.
+<v David Kestenbaum>但根据研究这些事情的经济学家，坦率地说，也是保险公司自己所说的，交易平台并没有内爆。正在发生的是，保险公司在初期设定的保费太低，是一些想要吸引客户和真正不知道报名的人会多么健康或多病相结合的结果。
+
+00:44:55.240 --> 00:45:05.980
+<v David Kestenbaum>So the prices had been going up to correct for that. But contrary to Trump's claim, the exchanges seemed unlikely to implode, unless of course, someone did something to make that happen.
+<v David Kestenbaum>所以价格一直在上涨以纠正这一点。但与特朗普的主张相反，交易平台似乎不太可能内爆，除非当然，有人做了什么让这种情况发生。
+
+00:45:05.980 --> 00:45:10.470
+<v Donald Trump>The individual mandate is being repealed.
+<v Donald Trump>个人强制令正在被废除。
+
+00:45:10.470 --> 00:45:23.540
+<v David Kestenbaum>Here is that someone, which of course, is the same someone as before-- President Trump. This was last year just after the Republicans passed the tax cut bill. Tucked into that bill was this other thing that did not get a lot of attention.
+<v David Kestenbaum>这里是那个人，当然是和之前同一个人——特朗普总统。这是去年，就在共和党通过减税法案之后。在那个法案中塞进了另一件没引起多少注意的事情。
+
+00:45:23.540 --> 00:45:35.630
+<v David Kestenbaum>They had done away with a mandate to buy health insurance. This was a key part of Obamacare, the thing that was supposed to encourage people to sign up, even if they were healthy. That was gone as part of the tax bill.
+<v David Kestenbaum>他们废除了购买健康保险的强制令。这是奥巴马医改的关键部分，是被认为即使在健康时也应该鼓励人们报名的事情。那是作为税法法案的一部分消失的。
+
+00:45:35.630 --> 00:45:57.910
+<v Donald Trump>We didn't want to bring it up. I told people specifically, be quiet with the fake news media. Because I don't want them talking too much about it, because I didn't know how people would-- but now that it's approved, I can say, the individual mandate on health care where you had to pay not to have insurance-- think of that one. You pay not to have insurance. The individual mandate has been repealed.
+<v Donald Trump>我们不想提它。我专门告诉人们，在假新闻媒体面前保持安静。因为我不想让他们讨论太多，因为我不知道人们会——但现在它批准了，我可以说了，那个你必须为没有保险而付费的医疗保险个人强制令——考虑一下那个。你为没有保险而付费。个人强制令已经被废除。
+
+00:45:57.910 --> 00:46:22.890
+<v David Kestenbaum>When this happened, the health insurance companies went, uh-oh. They ran the numbers and predicted that a bunch of healthy people would drop it like it's hot, go without insurance, meaning the remaining pool of people would be sicker. And so premiums would have to rise again. That is what was driving a lot of the requested price increase this year and all those letters begging the state of New York to somehow stop it.
+<v David Kestenbaum>当这种情况发生时，健康保险公司发出“哦，不”。他们计算了数字并预测一大群健康的人会掉得很快，没有保险，这意味着剩下的人群会更病。所以保费不得不再次上涨。那就是推动今年要求的价格上涨和所有那些请求纽约州以某种方式阻止它的信件背后的驱动力。
+
+00:46:22.890 --> 00:46:35.550
+<v David Kestenbaum>This one letter stood out to me, in part, because the person wasn't demanding anything, just explaining. It was from a woman whose husband had died. So she was getting a little money from Social Security, but still having to work.
+<v David Kestenbaum>这一封信让我印象深刻，部分是因为写信的人没有要求什么，只是解释。这来自一位丈夫去世的女士。所以她从社会保障里得到了一点钱，但仍然不得不工作。
+
+00:46:35.550 --> 00:47:04.150
+<v David Kestenbaum>Quote, "I do not live above my means. I can't. The expenses of living leave me little to spend on luxury items, such as eating out, going to a movie, or taking a vacation. It seems this year, everything has gone up. Car insurance-- I drive a 14-year-old car that is starting to need more costly repairs, groceries, cable, electric, rent. When this insurance was first introduced, it was called affordable for whom?
+<v David Kestenbaum>引用：“我生活并不奢侈。我做不到。生活开支让我几乎没有钱花在奢侈品上，比如出去吃饭、看电影或度假。似乎今年，什么都涨了。汽车保险——我开着一辆14年的车，它开始需要更多昂贵的修理费，食品杂货、有线电视、电费、租金。当这个保险刚推出时，它被称为“负担得起”，对谁来说负担得起？
+
+00:47:04.150 --> 00:47:38.820
+<v David Kestenbaum>I have worked since I was 16, minus a few years I was home raising children. I have faithfully paid my taxes every year. At this point in time, I am at a loss on what to do. I am so discouraged. There's not much more I can give up just to afford to live. Can you suggest any options? Thanks for your time." I wondered if anyone read these letters and if they made a difference.
+<v David Kestenbaum>我从16岁就开始工作，扣除我待在家里抚养孩子的几年。我每年都诚实地纳税。此时此刻，我不知道该怎么办。我非常沮丧。为了过活，我已经没有多少东西可以放弃了。你能建议任何方案吗？谢谢你的时间。”我想知道有没有人读过这些信，以及它们是否有所不同。
+
+00:47:38.820 --> 00:47:40.830
+<v David Kestenbaum>You get a lot of mail.
+<v David Kestenbaum>你收到很多信。
+
+00:47:40.830 --> 00:47:42.800
+<v Maria Vullo>I get a lot of mail?
+<v Maria Vullo>我收到很多信？
+
+00:47:42.800 --> 00:47:44.430
+<v David Kestenbaum>Of public comments.
+<v David Kestenbaum>公众评论。
+
+00:47:44.430 --> 00:47:49.620
+<v Maria Vullo>Oh, I get a lot of mail that I never even see. There's lots of mail that's addressed to me.
+<v Maria Vullo>哦，我收到很多我甚至都没看到的信。有很多信是写给我的。
+
+00:47:49.620 --> 00:48:04.950
+<v David Kestenbaum>This is Maria Vullo, the superintendent of the Department of Financial Services for the state of New York. And yes, when I requested the interview, I'd said I wanted to talk about the letters. But I get that reading all these letters and the others she receives-- probably not the best use of her time.
+<v David Kestenbaum>这是Maria Vullo，纽约州金融服务部主管。是的，当我请求采访时，我说过我想谈谈信件。但我明白，阅读所有这些信件和她收到的其他信件——可能不是她时间的最佳利用。
+
+00:48:04.950 --> 00:48:14.120
+<v David Kestenbaum>Do you want to see what these look like printed out? Here. These are all of them. That's one book.
+<v David Kestenbaum>你想看看这些打印出来是什么样子吗？在这里。这些全都是。那是一本书。
+
+00:48:14.120 --> 00:48:25.620
+<v Maria Vullo>OK, sure. We receive comments from the public on a whole number of issues, and we believe in the receipt of public comments. And my staff reviews them all.
+<v Maria Vullo>好的，当然。我们收到公众关于许多问题的评论，我们相信收到公众评论。我的员工审阅了所有这些。
+
+00:48:25.620 --> 00:48:30.210
+<v David Kestenbaum>So I ask this without judgment. I'm literally just curious. Do you ever read these?
+<v David Kestenbaum>所以我问这个问题没有评判。我真的只是好奇。你有读过这些吗？
+
+00:48:30.210 --> 00:48:31.500
+<v Maria Vullo>Some I do.
+<v Maria Vullo>我读了一些。
+
+00:48:31.500 --> 00:48:49.200
+<v David Kestenbaum>So I read through all these. I found them really interesting. Some of them are funny. Some of them are sad. A lot of them are just really angry. People took the time to write in by hand.
+<v David Kestenbaum>所以我读了所有这些。我发现它们非常有趣。有些很有趣。有些很悲伤。很多只是非常生气。人们花时间手写。
+
+00:48:49.200 --> 00:49:01.500
+<v David Kestenbaum>I received this letter and have been so upset since. This thing goes on for pages. There's-- what if it was your mother? Help, cannot pay what I have now.
+<v David Kestenbaum>“我收到了这封信，从那以后就一直很不安。”这东西写了好几页。那里有——如果是你的母亲怎么办？救命，我付不起我现在拥有的。
+
+00:49:01.500 --> 00:49:03.420
+<v Richard Loconte>I will say that this year,
+<v Richard Loconte>我要说，今年，
+
+00:49:03.420 --> 00:49:09.030
+<v David Kestenbaum>The person jumping in here is Richard Loconte. He was in the room for the interview. He heads the communications department.
+<v David Kestenbaum>在这里插嘴的人是Richard Loconte。他当时在面试室。他负责通讯部门。
+
+00:49:09.030 --> 00:49:22.280
+<v Richard Loconte>That this year in particular, the tone definitely was angrier. That I knew. I would hear from Ron on my team on an almost daily basis saying, you have to see these letters. People are angry.
+<v Richard Loconte>今年特别，语气绝对更生气。那是我知道的。我会几乎每天都从我团队里的Ron那里听到，说，你必须看看这些信。人们很生气。
+
+00:49:22.280 --> 00:49:23.490
+<v David Kestenbaum>Did you read any of these?
+<v David Kestenbaum>你读过这些吗？
+
+00:49:23.490 --> 00:49:29.670
+<v Richard Loconte>I have read through some of them. Ron would forward me some of the more-- some of the particular ones.
+<v Richard Loconte>我读过其中一些。Ron会转发给我一些更——其中一些特别的。
+
+00:49:29.670 --> 00:49:49.290
+<v David Kestenbaum>So they got all this mail, and they had to decide what to do. Maria Vullo, the superintendent, said the decision about whether to let insurance companies charge more comes down to numbers not letters. While people were writing in with the exclamation points, the insurance companies were sending in all kinds of financial data. The state had actuaries who went over it all.
+<v David Kestenbaum>所以他们收到了所有这些邮件，不得不决定该做什么。主管Maria Vullo说，关于是否让保险公司收取更多费用的决定取决于数字，而不是信件。当人们写着感叹号写进来时，保险公司正送入各种财务数据。州里有精算师审阅了所有这些。
+
+00:49:49.290 --> 00:49:57.360
+<v Maria Vullo>We look at what their claims were last year. We look at what their administrative expenses are, what percentage of profit. We look at risk adjustment. We look at a whole bunch of things.
+<v Maria Vullo>我们看他们去年的索赔是多少。我们看他们的管理费用、利润的百分比是多少。我们看风险调整。我们看一大堆东西。
+
+00:49:57.360 --> 00:50:09.120
+<v David Kestenbaum>And here is what they decided. Some of the increase the insurance companies were asking for was unavoidable. But about half the increase they were asking for was because the mandate was being taken away.
+<v David Kestenbaum>这就是他们决定的。保险公司要求的一些增加是不可避免的。但他们要求的一半增加是因为强制令被取消了。
+
+00:50:09.120 --> 00:50:29.040
+<v David Kestenbaum>And here, Vullo and the others made an interesting decision, which is basically, look, you may be right that the mandate going away is going to really mess things up. Maybe lots of healthy people will drop their coverage, but you don't know. We don't have any data. And if we let you raise rates as much as you are asking, for sure, people will drop coverage.
+<v David Kestenbaum>在这里，Vullo和别人做了一个有趣的决定，基本上是，看，你可能是对的，强制令取消可能会把事情弄得很糟。也许很多健康的人会放弃他们的覆盖范围，但你不知道。我们没有任何数据。如果我们让你像要求的那样提高费率，肯定，人们会放弃覆盖范围。
+
+00:50:29.040 --> 00:50:35.910
+<v Maria Vullo>But I was not going to allow it to be a self-fulfilling prophecy. Because if you raise rates, people will drop insurance.
+<v Maria Vullo>但我不会允许它成为一个自我实现的预言。因为如果你提高费率，人们就会放弃保险。
+
+00:50:35.910 --> 00:50:43.030
+<v David Kestenbaum>Vullo also made this other point. What if you did let them raise rates now, and it turns out a year later, they didn't need to.
+<v David Kestenbaum>Vullo还提出了这一点。如果你现在让他们提高费率，结果一年后，他们并不需要，那怎么办？
+
+00:50:43.030 --> 00:50:52.230
+<v Maria Vullo>And what if I gave them the 20%, and then it doesn't turn out to be that? Then who's got the money? The consumer or the insurance company?
+<v Maria Vullo>如果我给了他们20%，然后结果并不是那样呢？那么钱在谁手里？消费者还是保险公司？
+
+00:50:52.230 --> 00:51:07.020
+<v David Kestenbaum>The insurance company. Yeah, the insurance company. Fair point. And of course, next year, the insurance companies might come back and say, look, our projection was right. We do need to charge more. I hate to think of the letters if that happens.
+<v David Kestenbaum>保险公司。是的，保险公司。说得对。当然，明年，保险公司可能会回来，说，看，我们的预测是对的。我们确实需要收取更多。如果发生这种情况，我不敢想象那些信。
+
+00:51:07.020 --> 00:51:24.210
+<v David Kestenbaum>And good news-- it might not happen. The cost of insurance on the exchanges seems like it might finally be leveling out. On average, across the country, rates are dropping by 1% next year. And the policies on the New York exchange right now, they're not really more expensive than other plans.
+<v David Kestenbaum>还有好消息——它可能不会发生。交易平台上的保险成本看起来终于可能趋于平稳了。在全国范围内，费率明年平均下降了1%。而且纽约交易平台上的政策现在，它们真的不比其他计划贵。
+
+00:51:24.210 --> 00:51:58.530
+<v David Kestenbaum>It's just that, unlike most of us, people who get their insurance through their employer or who are on Medicare, Medicaid, which are paid for by the government, these people are really seeing the full cost of their insurance. Some get tax credits to help, but lots don't. Those people have to write a check each month. For a lot of them, it's more than their mortgage or their rent. They are writing the letters we might all be writing if we actually got the bill.
+<v David Kestenbaum>只是，不像我们大多数人，通过雇主获得保险的人，或者正在使用由政府支付的医疗保险或Medicaid的人，这些人真的看到了保险的全部成本。有些人得到税收抵免来帮助，但很多人没有。那些人必须每个月写一张支票。对他们中的很多人来说，这比他们的抵押贷款或房租还要多。他们正在写如果我们真的收到账单时我们也可能会写的那些信。
+
+00:51:58.530 --> 00:52:16.050
+<v Ira Glass>David Kestenbaum is one of the producers of our show.
+<v Ira Glass>David Kestenbaum是我们节目的制作人之一。
+
+00:52:16.050 --> 00:52:20.100
+<v Ira Glass>ACT 3, Bladen Runner.
+<v Ira Glass>第三幕，Blade Runner。
+
+00:52:20.100 --> 00:52:30.320
+<v Ira Glass>OK, so up until now, in our show, we've had stories about people reading words. Now, we have a story about somebody looking into some numbers and noticing things that the rest of us haven't. Ben Calhoun tells the story.
+<v Ira Glass>好的，所以到目前为止，在我们的节目中，我们有关于人们阅读文字的故事。现在，我们有一个关于某人查看一些数字并注意到我们其他人没注意到的事情的故事。Ben Calhoun讲述了这个故事。
+
+00:52:30.320 --> 00:52:52.190
+<v Ben Calhoun>This election cycle, it wasn't strange for voters to have to wait for races to be called. Seems like there were so many squeakers. Among the squeakiest, still unresolved a month after the election, North Carolina's 9th congressional district. The district is this long stretch of eight counties along the state's southern border. It's so gerrymandered, it looks like a hockey stick.
+<v Ben Calhoun>这个选举周期，选民等待结果揭晓并不奇怪。似乎有太多的险胜。其中最险胜的，在大选后一个月仍未解决，是北卡罗来纳州的第九国会选区。该选区是沿着州南部边界八个县的长条。它划分得如此不公平，看起来像根曲棍球棒。
+
+00:52:52.190 --> 00:53:09.320
+<v Ben Calhoun>In that district, a Republican former Baptist pastor named Mark Harris narrowly beat his Democratic opponent. The Democrat was this Boy Scouty, former Marine named Dan McCready. The margin of victory in that race-- 905 votes-- crazy close, but a win.
+<v Ben Calhoun>在这个选区，一位名叫Mark Harris的共和党前浸信会牧师以微弱优势击败了他的民主党对手。民主党人是一个名叫Dan McCready的前海军陆战队员。那场比赛的胜差——905票——疯狂地接近，但这是一场胜利。
+
+00:53:09.320 --> 00:53:24.230
+<v Ben Calhoun>Until the North Carolina State Board of Elections had a meeting-- the board is four Democrats, four Republicans, one unaffiliated member-- and the board decided in a bipartisan unanimous vote not to approve the results in the ninth congressional district.
+<v Ben Calhoun>直到北卡罗来纳州选举委员会开会——委员会由四名民主党人、四名共和党人和一名无党派成员组成——委员会以两党一致投票决定不批准第九国会选区的选举结果。
+
+00:53:24.230 --> 00:53:33.320
+<v Michael Bitzer>That late Tuesday afternoon decision by the board not to certify the ninth really kind of sent shockwaves through the state.
+<v Michael Bitzer>周二晚些时候委员会那个不认证第九区的决定确实在全州引起了震动。
+
+00:53:33.320 --> 00:53:37.970
+<v Ben Calhoun>This is Michael Bitzer, PolySci professor at Catawba College in North Carolina.
+<v Ben Calhoun>这是Michael Bitzer，北卡罗来纳州卡托巴学院的政治学教授。
+
+00:53:37.970 --> 00:53:43.550
+<v Michael Bitzer>To say, this is something that looks pretty serious.
+<v Michael Bitzer>说真的，这看起来相当严重。
+
+00:53:43.550 --> 00:53:45.370
+<v Ben Calhoun>Trouble in River City.
+<v Ben Calhoun>河城里的麻烦。
+
+00:53:45.370 --> 00:53:47.090
+<v Michael Bitzer>Yes.
+<v Michael Bitzer>是的。
+
+00:53:47.090 --> 00:54:12.710
+<v Ben Calhoun>Bitzer says he can't remember this ever happening before. It turns out, behind this bipartisan emergency break-throwing-- voter fraud allegations, specifically funny business with mail-in absentee ballots. So Bitzer did what PolySci professors do in a crisis like this. He dove into the data, downloaded it from the state. And in it, he saw one thing that didn't look like the others.
+<v Ben Calhoun>Bitzer说他不记得以前发生过这种情况。结果发现，在这种两党紧急暂停背后——选民欺诈指控，特别是与邮寄缺席选票有关的奇怪业务。所以Bitzer做了政治学教授在这样的危机中会做的事情。他深入挖掘了数据，从州里下载了它。在其中，他看到了一件看起来与其他不一样的事情。
+
+00:54:12.710 --> 00:54:34.580
+<v Ben Calhoun>One county, Bladen county, only 19% of the people voting by mail were registered Republicans. But among the mail-in ballots, the Republican candidate got 61% of the vote. Mathematically, this just seems super unlikely. He'd have to win all the Republicans, and all the independents, and some Democrats.
+<v Ben Calhoun>一个县，Bladen县，只有19%的邮寄投票人是注册共和党人。但在邮寄选票中，共和党候选人获得了61%的选票。数学上，这似乎超级不可能。他必须赢得所有共和党人、所有独立人士和一些民主党人。
+
+00:54:34.580 --> 00:54:43.160
+<v Ben Calhoun>Normally, professors quantify how unusual something is in statistics, standard deviation and that kind of thing. But I have trouble following that.
+<v Ben Calhoun>通常，教授们用统计学、标准差等东西来量化某件事有多不寻常。但我很难跟上那个。
+
+00:54:43.160 --> 00:54:52.300
+<v Ben Calhoun>If you were Luke Skywalker in this situation, how big was the disturbance in the force?
+<v Ben Calhoun>如果你在这种情况下是Luke Skywalker，原力中的干扰有多大？
+
+00:54:52.300 --> 00:54:54.040
+<v Michael Bitzer>Alderaan.
+<v Michael Bitzer>奥德兰（Alderaan）。
+
+00:54:54.040 --> 00:54:59.920
+<v Ben Calhoun>For those slightly less nerdy than Professor Bitzer and myself, that's the planet that gets destroyed by the Death Star.
+<v Ben Calhoun>对于那些比Bitzer教授和我本人稍微没那么书呆子的人来说，那是被死星摧毁的行星。
+
+00:54:59.920 --> 00:55:02.020
+<v Ben Calhoun>The destruction of a planet?
+<v Ben Calhoun>一颗行星的毁灭？
+
+00:55:02.020 --> 00:55:07.150
+<v Michael Bitzer>Yes. And just eyeballing it, this is not normal.
+<v Michael Bitzer>是的。仅凭直觉，这不正常。
+
+00:55:07.150 --> 00:55:19.910
+<v Ben Calhoun>So Bitzer writes a blog post explaining what he was reading in the data that most people had not. Then it spreads rapidly through the internet. And then around the same time, news starts to trickle in.
+<v Ben Calhoun>所以Bitzer写了一篇博客文章，解释他在数据中读到的大多数人没读到的东西。然后它迅速在互联网上传播。然后大约在同一时间，消息开始传进来。
+
+00:55:19.910 --> 00:55:32.080
+<v Ben Calhoun>There's stories of voters who say there were people coming and telling them to give them their mail-in absentee ballots before they filled them in. And they handed them over, and then they don't know what happened to their ballot.
+<v Ben Calhoun>有故事说，选民们说有人在他们填写选票之前过来告诉他们交出邮寄缺席选票。他们把选票交了出去，然后不知道他们的选票发生了什么。
+
+00:55:32.080 --> 00:55:38.510
+<v Ben Calhoun>Reporters started digging around, and they zeroed in on this one particular character who might be behind all this.
+<v Ben Calhoun>记者开始四处挖掘，他们锁定了一个可能在这一切背后的特定人物。
+
+00:55:38.510 --> 00:55:52.630
+<v Reporter>Liz, this is McCrae Dowless. Here's a picture of him on the left there. He's being sworn in as the Bladen county soil and water conservation district supervisor. Now it's Dowless who finds himself in potentially hot water.
+<v Reporter>Liz，这是McCrae Dowless。这是他左边的照片。他正在宣誓就任Bladen县土壤和水保护区主管。现在是Dowless让自己陷入了潜在的麻烦中。
+
+00:55:52.630 --> 00:56:05.620
+<v Ben Calhoun>And when we around this office heard those stories, we were like, wait a minute-- Leslie McCrae Dowless? You mean, the vice chair of the Soil and Water Commission of Bladen county? We know that guy.
+<v Ben Calhoun>当我们这个办公室听到这些故事时，我们当时想，等一下——Leslie McCrae Dowless？你是说，Bladen县土壤和水委员会的副主席？我们认识那个人。
+
+00:56:05.620 --> 00:56:07.040
+<v Leslie Mccrae Dowless>Would you like a cigarette, Zoe?
+<v Leslie Mccrae Dowless>你想抽烟吗，Zoe？
+
+00:56:07.040 --> 00:56:10.280
+<v Zoe Chace>No, I'm OK. Thank you though.
+<v Zoe Chace>不，我很好。谢谢你。
+
+00:56:10.280 --> 00:56:32.090
+<v Ben Calhoun>This is tape of my colleague, Zoe Chace, doing a story in North Carolina two years ago. She's talking to Leslie McCrae Dowless. Zoe was there because Dowless had filed complaints alleging Democratic voter fraud, absentee ballot fraud. She went to this hearing about those complaints, where Dowless' complaints actually got dismissed, found unsubstantiated.
+<v Ben Calhoun>这是我同事Zoe Chace两年前在北卡罗来纳州做故事的录音。她在和Leslie McCrae Dowless谈话。Zoe在那里是因为Dowless提交了指控民主党选民欺诈、缺席选票欺诈的投诉。她去了那个关于那些投诉的听证会，Dowless的投诉实际上被驳回了，发现是未经证实的。
+
+00:56:32.090 --> 00:56:42.310
+<v Ben Calhoun>But then-- this gets wild-- in the hearing, Dowless gets questioned. And he starts describing things that he and Republican campaign workers have been doing.
+<v Ben Calhoun>但然后——这变得疯狂了——在听证会上，Dowless受到质疑。他开始描述他和共和党竞选工作人员一直在做的事情。
+
+00:56:42.310 --> 00:56:43.780
+<v Attorney>So you keep saying GOTV. Does that mean--
+<v Attorney>所以你一直说GOTV（动员选民）。那是意味着——
+
+00:56:43.780 --> 00:56:44.750
+<v Leslie Mccrae Dowless>Get out to vote.
+<v Leslie Mccrae Dowless>动员选民。
+
+00:56:44.750 --> 00:56:46.030
+<v Attorney>You did pay her--
+<v Attorney>你确实付钱给她——
+
+00:56:46.030 --> 00:56:46.890
+<v Leslie Mccrae Dowless>Get out to vote.
+<v Leslie Mccrae Dowless>动员选民。
+
+00:56:46.890 --> 00:56:51.700
+<v Leslie Mccrae Dowless>OK, and what exactly was it that she got paid to do?
+<v Leslie Mccrae Dowless>好的，她到底被付钱去做什么？
+
+00:56:51.700 --> 00:57:00.640
+<v Ben Calhoun>Dowless ended up being accused of paying campaign workers to gather absentee ballots from people, fill them out, and fraudulently vote in their place.
+<v Ben Calhoun>Dowless最终被指控付钱给竞选工作人员去收集人们的缺席选票，填写它们，并欺诈性地代替他们投票。
+
+00:57:00.640 --> 00:57:02.350
+<v Zoe Chace>That is illegal.
+<v Zoe Chace>那是非法的。
+
+00:57:02.350 --> 00:57:14.140
+<v Ben Calhoun>One family signed an affidavit saying Dowless' workers had them request absentee ballots. Those ballots never showed up. And then when they went to vote on election day, they were told they already voted.
+<v Ben Calhoun>一个家庭签署了一份宣誓书，称Dowless的工作人员让他们申请缺席选票。那些选票从未出现。然后当他们去大选日投票时，他们被告知他们已经投过票了。
+
+00:57:14.140 --> 00:57:28.360
+<v Ben Calhoun>Dowless insisted he'd done nothing wrong. But this, this is exactly the kind of thing that, if it happened this year, would explain the statistical weirdness that Professor Bitzer found when he was reading the data from Bladen county.
+<v Ben Calhoun>Dowless坚称他没做错什么。但这，这正是那种如果今年发生了，就会解释Bitzer教授在阅读Bladen县数据时发现的统计奇怪性的那种事情。
+
+00:57:28.360 --> 00:57:59.840
+<v Ben Calhoun>In the last few weeks, there have been affidavits from voters in the county, describing what Dowless partially confessed to two years earlier-- campaign workers showing up, asking for their mail-in ballots, offering to fill them in for them. And it turns out, Leslie McCrae Dowless spent this last year in Bladen county, working for the Republican candidate, Mark Harris.
+<v Ben Calhoun>在过去几周里，该县选民发表了宣誓书，描述了Dowless两年前部分承认的事情——竞选工作人员出现，要求他们的邮寄选票，主动提出代为填写。结果证明，Leslie McCrae Dowless过去这一年都在Bladen县，为共和党候选人Mark Harris工作。
+
+00:57:59.840 --> 00:58:19.550
+<v Ben Calhoun>We all know the wah-wah-wah of the voter fraud election fraud conversation. Democrats say it's proven not to be happening. Republicans say it does happen. We need tougher laws. Researchers say, no, actually, it's not a problem, to which Republicans say, you're a bunch of liberal academics. We don't trust what you say.
+<v Ben Calhoun>我们都知道关于选民欺诈、选举欺诈对话的“哇、哇、哇”。民主党人说它被证明没发生。共和党人说它确实发生了。我们需要更严厉的法律。研究人员说，不，实际上，它不是问题，对此共和党人说，你们是一群自由派学者。我们不相信你们说的话。
+
+00:58:19.550 --> 00:59:03.970
+<v Ben Calhoun>Like so much of our political conversation, so enjoyable. So for once, or, I guess, twice now, in North Carolina, we see, when we dive into the data that everyone's wrong and everyone's right. The Democrats must concede that fraud is, apparently, quite possible. The Republicans must concede, at least in this case, it is not the product of a democratic scheme made up of non-ID-having double voters. But if the facts bear out, the largest voter fraud scandal to hit North Carolina in recent memory is the work of a Republican operative bringing votes for a Republican candidate.
+<v Ben Calhoun>就像我们政治对话的很多部分，真有趣。所以有一次，或者，我想现在是两次，在北卡罗来纳州，我们看到，当我们深入挖掘数据时，每个人都错了，每个人都对了。民主党人必须承认欺诈显然是可能的。共和党人必须承认，至少在这种情况下，它不是由没有ID的双重投票人组成的民主阴谋的产物。但如果事实证实，最近北卡罗来纳州发生的最大选民欺诈丑闻是一个共和党操盘手为共和党候选人拉票的结果。
+
+00:59:03.970 --> 00:59:27.370
+<v Ira Glass>Ben Calhoun is one of the producers of our show. Zoe Chace is away this week.
+<v Ira Glass>Ben Calhoun是我们节目的制作人之一。Zoe Chace这周不在。
+
+00:59:27.370 --> 00:59:47.710
+<v Ira Glass>This program was produced today by Nadia Raymond and Anna Martin. The people who worked on today's show includes Elna Baker, Ben Calhoun, Zoe Chace, David [INAUDIBLE], Sean Cole, Jarrett Floyd, Stephanie Foo, Damien Grave, Jay Caspian Kang, David Kestenbaum, Seth Lind, Miki Meek, Katharine Mae Mondo, Lilly Sullivan, Christopher Swetala, Matt Tierney, Julie Whitaker, and Diane Wu, our senior producer, Brian Reed, our managing editor, Susan Burton.
+<v Ira Glass>该节目今天由Nadia Raymond和Anna Martin制作。参与今天节目的员工包括Elna Baker、Ben Calhoun、Zoe Chace、David [听不清]、Sean Cole、Jarrett Floyd、Stephanie Foo、Damien Grave、Jay Caspian Kang、David Kestenbaum、Seth Lind、Miki Meek、Katharine Mae Mondo、Lilly Sullivan、Christopher Swetala、Matt Tierney、Julie Whitaker和我们的高级制作人Diane Wu、我们的执行编辑Brian Reed、Susan Burton。
+
+00:59:47.710 --> 01:00:06.850
+<v Ira Glass>Special thanks today to Heidi Schreck, Larry Levitt, Jeremy deVine, Matt Ross, Josh Gerstein, Ilya Mouzykantskii, Lee Chen, Danielle Eisenman, Derek Wang, Kevin Moy, Daniel Wu, and all the students that Diane talked to at Harvard, our website, ThisAmericanLife.org, where you can listen to our archive of over 600 episodes for absolutely free or get our app.
+<v Ira Glass>特别感谢Heidi Schreck、Larry Levitt、Jeremy deVine、Matt Ross、Josh Gerstein、Ilya Mouzykantskii、Lee Chen、Danielle Eisenman、Derek Wang、Kevin Moy、Daniel Wu以及Diane在哈佛采访的所有学生，我们的网站，ThisAmericanLife.org，在那里你可以免费收听我们超过600集的档案或获取我们的应用程序。
+
+01:00:06.850 --> 01:00:20.670
+<v Ira Glass>This American Life is delivered to public radio stations by PRX, the Public Radio Exchange. Thank you as always to our program's co-founder, Mr. Torey Malatia. I have trouble with calculus. No matter how many times Torey tells me over and over--
+<v Ira Glass>《美国生活》由PRX，公共广播交易所分发到公共广播电台。像往常一样感谢我们节目的联合创始人Torey Malatia先生。我对微积分有困难。无论Torey多少次一遍又一遍地告诉我——
+
+01:00:20.670 --> 01:00:22.530
+<v Torey Malatia>Limits is the keyword.
+<v Torey Malatia>“限制”是关键词。
+
+01:00:22.530 --> 01:00:27.530
+<v Ira Glass>I'm Ira Glass, back next week with more stories of This American Life.
+<v Ira Glass>我是Ira Glass，下周带着更多《美国生活》的故事回来。

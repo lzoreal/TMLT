@@ -1,0 +1,1317 @@
+WEBVTT
+
+00:00:00.990 --> 00:00:05.250
+<v Ira Glass>Hey everybody, Ira Glass here, and I am in the studio right now with one of our producers, David Kestenbaum. Hey, David.
+<v Ira Glass>大家好，我是艾拉·格拉斯（Ira Glass）。我现在正和我们的制片人之一大卫·凯斯滕鲍姆（David Kestenbaum）在录音室里。你好，大卫。
+
+00:00:05.250 --> 00:00:06.000
+<v David Kestenbaum>Hi Ira.
+<v David Kestenbaum>你好，艾拉。
+
+00:00:06.000 --> 00:00:12.990
+<v Ira Glass>So this whole episode came out of something that you have been thinking about, and so I am just going to hand the whole program over to you right now.
+<v Ira Glass>这整期节目都源于你一直在思考的事情，所以我现在要把整个节目交给你来主持。
+
+00:00:12.990 --> 00:00:14.260
+<v David Kestenbaum>OK.
+<v David Kestenbaum>好的。
+
+00:00:14.260 --> 00:00:15.270
+<v Ira Glass>All right.
+<v Ira Glass>没问题。
+
+00:00:15.270 --> 00:00:30.390
+<v David Kestenbaum>It is something I've been thinking about for a while. But actually, it came out of this conversation I was having with Diane Wu on staff here. Diane and I are the two trained scientists on the staff. Before I was in journalism, I studied physics. Diane went to grad school in chemistry.
+<v David Kestenbaum>这件事我已经思考了一段时间了。但实际上，它源于我和我们台里戴安·吴（Diane Wu）的一次对话。戴安和我都是台里受过训练的科学家。在我从事新闻工作之前，我学的是物理学。戴安读研时学的是化学。
+
+00:00:30.390 --> 00:00:39.270
+<v David Kestenbaum>And she was telling me the story about this time she was at a conference. This was in a small town in Germany. And this Nobel Prize winner, a guy named Harold Kroto, was giving a talk.
+<v David Kestenbaum>她当时在跟我讲她参加一个会议的故事。那是德国的一个小镇。一位名叫哈罗德·克罗托（Harold Kroto）的诺贝尔奖得主正在发表演讲。
+
+00:00:39.270 --> 00:00:41.910
+<v Diane Wu>I think he discovered the buckyball.
+<v Diane Wu>我想他发现了巴基球（Buckyball）。
+
+00:00:41.910 --> 00:00:46.990
+<v David Kestenbaum>Those are the little spheres of carbon, like Buckminster Fuller-shaped sphere?
+<v David Kestenbaum>就是那种碳的小球，像巴克敏斯特·富勒（Buckminster Fuller）设计的球体形状？
+
+00:00:46.990 --> 00:00:49.640
+<v Diane Wu>Yeah, like the geodesic domes of carbon.
+<v Diane Wu>对，就像碳构成的测地线穹顶。
+
+00:00:49.640 --> 00:01:04.400
+<v David Kestenbaum>For both of us, one of the things we liked about science was this promise that we could understand how the world works-- in a deep way. Everything, except people, of course. Anyway, it was satisfying. I found it comforting.
+<v David Kestenbaum>对我们俩来说，我们喜欢科学的原因之一就是它承诺我们可以深入地理解世界是如何运作的。当然，除了人类以外，什么都可以理解。总之，这种感觉很满足，我感到很欣慰。
+
+00:01:04.400 --> 00:01:16.070
+<v David Kestenbaum>Diane did, too, until this day she was telling me about, when that changed. She was sitting there with all these students, listening to the Nobel chemist talk. And in the middle of the talk, kind of out of nowhere, he asks this question.
+<v David Kestenbaum>戴安也这么觉得，直到那天她告诉我，一切都变了。她当时和所有学生坐在那里，听那位诺贝尔奖化学家讲课。讲到一半时，他不知怎么的，突然问了一个问题。
+
+00:01:16.070 --> 00:01:21.380
+<v Diane Wu>He goes, how many of you believe that the sun revolves around the earth?
+<v Diane Wu>他说，你们中有多少人相信太阳绕着地球转？
+
+00:01:21.380 --> 00:01:24.500
+<v David Kestenbaum>The sun around the earth-- that's wrong, right?
+<v David Kestenbaum>太阳绕着地球——那是错的，对吧？
+
+00:01:24.500 --> 00:01:25.030
+<v Diane Wu>Yeah.
+<v Diane Wu>对。
+
+00:01:25.030 --> 00:01:25.830
+<v David Kestenbaum>Right.
+<v David Kestenbaum>没错。
+
+00:01:25.830 --> 00:01:46.270
+<v Diane Wu>The opposite of how things work. And people kind of giggled, and nobody raised their hand. And then he asked, how many of you believe the opposite? How many of you believe that the earth revolves around the sun? And we all kind of begrudgingly raised our hands, not knowing where he was going. I raised my hand.
+<v Diane Wu>正好和事实相反。大家有点窃笑，没人举手。然后他又问，你们中有多少人相信相反的情况？有多少人相信地球绕着太阳转？我们都有些勉强地举起了手，不知道他要表达什么。我也举手了。
+
+00:01:46.270 --> 00:01:54.860
+<v Diane Wu>And then he asked us, how many of you know the evidence for that? How many of you know the evidence that the earth revolves around the sun?
+<v Diane Wu>然后他问我们，你们中有多少人知道其中的证据？你们有多少人知道地球绕着太阳转的证据？
+
+00:01:54.860 --> 00:01:57.210
+<v David Kestenbaum>Like, how do we know it's true? What's the proof of it?
+<v David Kestenbaum>比如，我们怎么知道这是真的？有什么证明吗？
+
+00:01:57.210 --> 00:02:13.970
+<v Diane Wu>Right. Exactly. And I couldn't put my hand up. And I looked around me, and very few people were able to raise their hands. Basically, none of us knew what the evidence was for that thing that we believed to be true.
+<v Diane Wu>对，没错。但我无法举手。我环顾四周，很少有人能举手。基本上，我们中没人知道这个我们认为真实的事情到底有什么证据。
+
+00:02:13.970 --> 00:02:26.730
+<v Diane Wu>Then he asked us, you-- or he kind of chided us, you took that on faith. How much else have you accepted without evidence? Because that is one of the most serious problems facing our civilization today.
+<v Diane Wu>然后他问我们，你——或者他责备了我们——你们只是盲目相信了。你们还接受了多少没有证据的东西？因为这是当今我们文明面临的最严重的问题之一。
+
+00:02:26.730 --> 00:02:33.000
+<v David Kestenbaum>Like, they were all running around talking with complete confidence about stuff we think we know, but we don't actually really know.
+<v David Kestenbaum>就好像，他们都在四处奔走，非常自信地谈论那些我们自以为知道，但实际上并不真正了解的事情。
+
+00:02:33.000 --> 00:02:45.010
+<v Diane Wu>Yeah. What else do you take on faith? What else do you agree with without knowing the evidence behind it? And I realized very quickly, it's a lot of things.
+<v Diane Wu>是的。你还盲目相信了什么？还有什么是在没有证据支持的情况下你就同意了的？我很快意识到，这真的有很多。
+
+00:02:45.010 --> 00:03:00.490
+<v David Kestenbaum>Diane said she really couldn't pay attention to the lecture after that. She was thinking, what do I really know? And also, because she found his particular example distracting, how do we know the earth goes around the sun, not the other way around?
+<v David Kestenbaum>戴安说那之后她真的没法专心听讲了。她一直在想，我到底真正知道什么？而且，因为他那个具体的例子让她分心——我们怎么知道是地球绕着太阳转，而不是相反呢？
+
+00:03:00.490 --> 00:03:20.580
+<v Diane Wu>I start wondering, I mean, I should-- what is the evidence? Maybe I can sort it out. Like, it probably has to do with planets and angles, or something. [LAUGHS] And I just kind of tune out the rest of the lecture. I'm trying to figure it out, but I can't. I couldn't quite figure it out then.
+<v Diane Wu>我开始纳闷，我是说，我应该——证据是什么？也许我能弄清楚。比如，这可能和行星和角度有关，或者诸如此类。[笑声] 我就这样没再听剩下的讲座。我试图弄明白，但我做不到。当时我根本没法完全想通。
+
+00:03:20.580 --> 00:03:51.410
+<v David Kestenbaum>After the lecture, Diane goes home, newly aware of this vast universe of her personal ignorance, just realizing, so many of the things I think are true, they are just things I've heard from someone who probably heard them from somebody else, probably without evidence either. And this sits with her for months, until some point she decides, you know what? Things do not have to be this way. I'm going to do something. I'm going to fix this. She makes this list, calls it "Things I Mean to Know."
+<v David Kestenbaum>讲座结束后，戴安回到家，对她个人巨大的无知感到震惊，她意识到，我自以为真的很多事情，其实只是我从别人那里听来的，而那个人可能也是从别人那里听来的，可能根本都没有证据。这困扰了她好几个月，直到有一天她决定，你知道吗？事情不该是这样的。我要做点什么。我要解决这个问题。她列了一张清单，起名叫“我想要知道的事情”。
+
+00:03:51.410 --> 00:04:02.710
+<v Diane Wu>And there are seven things on that list that I started out with. And I thought I would go through them one at a time. And then once I've figured out those seven, then I could go on to the next things that I meant to know.
+<v Diane Wu>我刚开始的时候清单上有七件事。我以为我可以逐一搞定它们。等我搞清楚了这七件事，就可以继续研究下一批我想要知道的事情了。
+
+00:04:02.710 --> 00:04:04.770
+<v David Kestenbaum>Can you read me the list?
+<v David Kestenbaum>你能读读那份清单吗？
+
+00:04:04.770 --> 00:04:07.490
+<v Diane Wu>Here's the list. One, Schottky barrier.
+<v Diane Wu>这是清单。第一，肖特基势垒（Schottky barrier）。
+
+00:04:07.490 --> 00:04:11.610
+<v David Kestenbaum>The Schottky barrier is a physics, chemistry thing. OK, back to the list.
+<v David Kestenbaum>肖特基势垒是物理学、化学方面的东西。好吧，回到清单。
+
+00:04:11.610 --> 00:04:31.160
+<v Diane Wu>Two, yams versus sweet potatoes, what is the difference? Three, evidence for earth around sun. Four, difference between Sunni and Shia. Five, Burgundy versus Bordeaux. Six, composition and how steel is made. Seven, Obamacare.
+<v Diane Wu>第二，山药和红薯，区别是什么？第三，地球绕着太阳转的证据。第四，逊尼派和什叶派的区别。第五，勃艮第酒和波尔多酒。第六，钢的成分以及它是如何制造的。第七，奥巴马医改。
+
+00:04:31.160 --> 00:04:32.980
+<v Diane Wu>[LAUGHTER]
+<v Diane Wu>[笑声]
+
+00:04:32.980 --> 00:04:36.560
+<v David Kestenbaum>It's quite a list-- very comprehensive.
+<v David Kestenbaum>这清单真不错——非常全面。
+
+00:04:36.560 --> 00:04:53.250
+<v Ira Glass>One of the things I love about this list is just the total honesty of it. Diane told me she knew, really, as a person living in this world, she should have understood the difference between Sunni and Shia, especially after reading the news all those years. But she was just like, I don't. That was the truth of it.
+<v Ira Glass>关于这份清单，我最喜欢的一点就是它的完全诚实。戴安告诉我，她作为一个生活在这个世界上的人，本应该了解逊尼派和什叶派的区别，尤其是读了那么多年新闻之后。但她当时就是觉得，我不了解。这就是真相。
+
+00:04:53.250 --> 00:05:04.440
+<v Ira Glass>So Diane makes this list. She actually starts a blog where she's going to answer them, titles it Loose Ends. Then she starts researching and writing the answers, starting with this one, yams versus sweet potatoes.
+<v Ira Glass>于是戴安列出了清单。她甚至开了一个博客来解答这些问题，取名为“未了之事”（Loose Ends）。然后她开始研究并撰写答案，从第一个问题开始：山药和红薯的区别。
+
+00:05:04.440 --> 00:05:22.100
+<v Diane  Wu>If you're reading and eating from the United States, the sweet, yellow- or orange-fleshed and potato-shaped vegetable you know as a sweet potato is just that. It is unrelated to potatoes and yams. It is related to morning glories.
+<v Diane  Wu>如果你在美国阅读或吃东西，你所知道的那种果肉呈黄色或橙色、形状像土豆的蔬菜就是红薯。它与土豆和山药无关，它与牵牛花有关。
+
+00:05:22.100 --> 00:05:29.400
+<v David Kestenbaum>She writes a very detailed answer to the question, even includes some old botanical drawings. She said it was really satisfying to do.
+<v David Kestenbaum>她对这个问题写了一个非常详细的答案，甚至还附上了一些古老的植物学图画。她说做这件事真的很有成就感。
+
+00:05:29.400 --> 00:05:31.780
+<v Diane Wu>Yeah. Because then, whenever you're like, are they different? Now, I know.
+<v Diane Wu>是啊。因为这样，每当你问，它们是一样的吗？现在，我知道了。
+
+00:05:31.780 --> 00:05:36.610
+<v David  Kestenbaum>OK, and what's the next one you wrote?
+<v David  Kestenbaum>好的，那你写的下一项是什么？
+
+00:05:36.610 --> 00:05:43.100
+<v Diane Wu>That's the last one I wrote. I wrote one.
+<v Diane Wu>那是最后一个。我就写了一个。
+
+00:05:43.100 --> 00:05:54.670
+<v David  Kestenbaum>I asked Diane, what happened? What about the mission? She said the next day, she was going to start on the next question, which was going to be that chemistry thing, the Schottky barrier. But she just didn't get very far.
+<v David  Kestenbaum>我问戴安，怎么了？那个任务呢？她说第二天她本打算开始做下一个问题，也就是那个化学知识，肖特基势垒。但她没能走多远。
+
+00:05:54.670 --> 00:06:03.660
+<v Diane Wu>I think I just went to work. And I think I started looking into it, and it was too hard. So I never wrote the blog post.
+<v Diane Wu>我想我只是去工作了。我开始深入研究，但太难了。所以我从来没写过那篇博文。
+
+00:06:03.660 --> 00:06:20.970
+<v David  Kestenbaum>Diane says she never felt like she gave up. She always figured, at some point, she would get back to it, turn the things I mean to know into the things I know, but she hasn't, which, of course, is the way most of us deal with this. We never figure those things out.
+<v David  Kestenbaum>戴安说她从来没觉得自己在放弃。她总以为，在某个时候，她会回到这件事上，把“我想要知道的事情”变成“我真正知道的事情”，但她没做到，当然，这就是我们大多数人处理这件事的方式。我们永远没能弄清楚那些事情。
+
+00:06:20.970 --> 00:06:40.530
+<v David  Kestenbaum>Essentially, Diane had this moment where it seemed like she was going to evolve to a higher level than you and me. She was like a fish deciding to climb up on land. And she tried that out for the length of time it takes to write one blog post, then took a deep breath, decided, meh, I'm going to stay in the water. It's easier. And she jumped back in the ocean with the rest of us dummies.
+<v David  Kestenbaum>本质上，戴安经历了这样一个时刻，当时看起来她似乎要进化到一个比你我更高的水平。她就像一条决定爬上陆地的鱼。她尝试了写一篇博客的时间长度，然后深吸一口气，觉得，“唉，我还是待在水里吧。这样更容易。”于是她和我们其他笨蛋一起跳回了海里。
+
+00:06:40.530 --> 00:06:46.240
+<v Diane Wu>I really do think that it was just, even getting to the bottom of one thing is a lot of work.
+<v Diane Wu>我真的觉得，仅仅是把一件事情弄清楚也需要付出很多努力。
+
+00:06:46.240 --> 00:06:49.200
+<v David Kestenbaum>I mean, does this still make you anxious?
+<v David Kestenbaum>我是说，这仍然让你感到焦虑吗？
+
+00:06:49.200 --> 00:07:07.710
+<v Diane  Wu>Yeah, it does. It just feels like-- it's like all the things you-- like, it's so hard to know what's real and true. And when you think hard about what you know that is real and true, it just gets smaller and smaller.
+<v Diane  Wu>是的，确实。感觉就像——这就像你所有的东西——想知道什么是真实和正确的是如此困难。当你认真思考你所知道的哪些是真实和正确的时，它们就变得越来越少。
+
+00:07:07.710 --> 00:07:44.850
+<v David Kestenbaum>Well, today on our show, we do not run from that fact. For once, we admit it. We embrace it, try to do something about it. We have stories today of people doing the hard work to confront the things they think they know, try to figure out how they know them and if they're actually true, and persevering-- not giving up until they get to the very bottom-- including a story about a question that brought our staff meeting to a complete halt the other week-- do women who live together actually get their periods at the same time? Is that real? What's the evidence? Oh, and a story about whether the earth secretly shifted on its axis without you and me and the rest of the world noticing.
+<v David Kestenbaum>好了，今天在我们的节目中，我们不回避这个事实。我们要承认它，拥抱它，并尝试做点什么。今天的故事讲述的是一些人如何努力面对他们自以为知道的事情，试图弄清楚他们是如何知道的，以及这些事是否真的属实，并坚持不懈——直到弄个水落石出——包括一个上周让我们的员工会议完全停摆的问题——住在一起的女性真的会在同一时间来月经吗？那是真的吗？有什么证据？哦，还有一个关于地球是否在你我以及全世界都没察觉的情况下秘密改变了自转轴的故事。
+
+00:07:44.850 --> 00:07:53.360
+<v David Kestenbaum>From WBEZ Chicago, it's This American Life. Stay with us.
+<v David Kestenbaum>来自芝加哥WBEZ广播电台，这里是《美国生活》（This American Life）。敬请收听。
+
+00:07:53.360 --> 00:08:13.900
+<v David  Kestenbaum>Act One, Fraud Complex. When I was just starting out as a young reporter, I had this kind of mini crisis about how much I really knew and how I knew what I knew. I was covering a Congressional hearing where the head of NASA was testifying. It was this guy, Sean O'Keefe. This was just after the Columbia space shuttle accident.
+<v David  Kestenbaum>第一幕，欺诈情结。当我刚开始做一名年轻记者时，对于我到底了解多少以及我是如何知道我所知道的事情，我经历了一场小小的危机。当时我正在报道一场国会听证会，NASA的负责人正在作证，那个人叫肖恩·奥基夫（Sean O'Keefe）。那是在哥伦比亚号航天飞机事故发生后不久。
+
+00:08:13.900 --> 00:08:38.150
+<v David  Kestenbaum>And when I was reporting on it, I said this one sentence on the radio, nothing to do with the accident. I said that when O'Keefe had walked in, he was carrying a cup of coffee. But after, when the story aired, I was listening to my voice come out of the radio, and I kept thinking, was it really a cup of coffee? I don't know it was coffee-- could have been tea, or hot water, or room-temperature tang.
+<v David  Kestenbaum>当我在做报道时，我在广播里说了这样一句话，和事故无关。我说奥基夫走进来时，手里拿着一杯咖啡。但事后，当故事播出时，我听着广播里传出我的声音，我一直在想，那真的是一杯咖啡吗？我不知道那是不是咖啡——可能是茶，或者热水，或者是室温下的橙汁（Tang）。
+
+00:08:38.150 --> 00:08:49.770
+<v David  Kestenbaum>I told this to a veteran reporter who said, basically, relax. If you see two cows on a hill, you can say there are two cows on a hill, because, you know, how deep are you going to go? I've always wished I hadn't said it, though.
+<v David  Kestenbaum>我把这事告诉了一位资深记者，他基本上说，放松点。如果你看到山上两头牛，你可以说山上有两头牛，因为，你知道，你要追究到什么程度呢？但我一直后悔自己说了那句话。
+
+00:08:49.770 --> 00:09:11.730
+<v David  Kestenbaum>I was thinking about that because of one line I've been reading in news stories a lot recently about voter fraud. You can almost feel the reporters digging through the thesaurus, they've written it so often. Quote, "Academic studies show instances of voter fraud are very rare," or "Nationwide studies have consistently shown that voter fraud is almost non-existent." Another used the word, "minuscule."
+<v David  Kestenbaum>我之所以想到这一点，是因为最近在关于选民欺诈的新闻报道中，我经常读到的一行字。你几乎可以感觉到记者们在不断查阅同义词典，因为他们写得太频繁了。引用，“学术研究显示选民欺诈的例子非常罕见”，或者“全国性的研究一致表明，选民欺诈几乎是不存在的。”另一个人用了“微乎其微”这个词。
+
+00:09:11.730 --> 00:09:30.360
+<v David  Kestenbaum>But I wanted to know in a deeper way for myself, so I looked up some of those studies. And I have to say, I did not find what I expected. I thought there would be some kind of nationwide government audit, that there would be official reports from the election authorities in all the states detailing how they had looked for fraud. But there isn't anything like that.
+<v David  Kestenbaum>但我自己想更深入地了解一下，所以我查了一些研究。我不得不说，我没有发现我预期的结果。我以为会有某种全国性的政府审计，或者会有来自各州选举当局的官方报告，详细说明他们是如何调查欺诈行为的。但并没有那样的东西。
+
+00:09:30.360 --> 00:09:53.610
+<v David  Kestenbaum>In fact, most of the independent studies that have been done are just attempts to count up alleged cases of voter fraud. They look at court records, or news reports, and anecdotal accounts. And they never find much, which is good to know, but it didn't feel like proof. Maybe we aren't looking in the right way, or maybe voter fraud is hard to find.
+<v David  Kestenbaum>实际上，大多数已经完成的独立研究只是试图计算所谓的选民欺诈案件。他们查看法院记录、新闻报道和轶事。他们从来没有发现太多，这很好，但这感觉不像证据。也许我们调查的方式不对，或者选民欺诈很难被发现。
+
+00:09:53.610 --> 00:10:20.820
+<v David  Kestenbaum>I did find this one paper that seemed different from all the others. It was an attempt to do this big, ambitious thing. It was the only study I saw that actually dug into the voter data nationwide, all the votes cast in the United States, looking for one specific kind of voter fraud to try to see in a comprehensive way, did this kind of fraud happen? The specific type of voter fraud the study looks for is called double voting, where someone votes twice.
+<v David  Kestenbaum>我确实找到了一篇看起来与众不同的论文。它试图做一个宏大的、雄心勃勃的事情。这是我看到的唯一一项真正深入研究全国选民数据的研究，涵盖了美国所有投出的选票，寻找一种特定的选民欺诈行为，试图以全面的方式观察这种欺诈是否发生。该研究寻找的特定类型的选民欺诈被称为“重复投票”，即有人投了两次票。
+
+00:10:20.820 --> 00:10:35.710
+<v David  Kestenbaum>The Vice Chair of the President's Commission to Investigate Voter Fraud, Kris Kobach, has called double voting a big problem. He said people double vote all the time. This paper is 72 pages long. I printed it out, read it several times, and I called up one of the authors.
+<v David  Kestenbaum>总统选民欺诈调查委员会副主席克里斯·科巴赫（Kris Kobach）称重复投票是一个大问题。他说人们经常重复投票。这篇论文长达72页。我把它打印出来，读了几遍，然后打电话给其中一位作者。
+
+00:10:35.710 --> 00:10:45.900
+<v David  Kestenbaum>His name is Sharad Goel. He's an assistant professor at Stanford. Does social science work but, also has a PhD in math, and sometimes talks like it. I had him walk me through what they did.
+<v David  Kestenbaum>他叫沙拉德·戈尔（Sharad Goel）。他是斯坦福大学的助理教授。他做社会科学工作，但也拥有数学博士学位，有时说话也很有数学味儿。我让他带我走一遍他们的研究过程。
+
+00:10:45.900 --> 00:10:51.040
+<v David Kestenbaum>When you started this, did you have an open mind about what you might find? Be honest.
+<v David Kestenbaum>当你开始这项研究时，你对可能发现的结果持开放态度吗？诚实地说。
+
+00:10:51.040 --> 00:11:10.260
+<v Sharad Goel>I would say I've trained myself not to have super-strong priors on what's happening-- so to discount my intuition. At the same time, I would be very surprised if we actually found hard evidence that a million people had double voted in the presidential election.
+<v Sharad Goel>我会说我训练自己不对正在发生的事情有强烈的先入之见——所以我尽量淡化我的直觉。与此同时，如果我们真的找到了百万人在总统大选中重复投票的确凿证据，我会非常惊讶。
+
+00:11:10.260 --> 00:11:12.600
+<v David Kestenbaum>It's hard enough to get people to vote once.
+<v David Kestenbaum>让人们投一次票已经够难了。
+
+00:11:12.600 --> 00:11:17.030
+<v Sharad Goel>It's hard enough to get people to vote once. And what are the incentives?
+<v Sharad Goel>让人们投一次票已经够难了。而且有什么动机呢？
+
+00:11:17.030 --> 00:11:31.930
+<v David Kestenbaum>I can tell you. You can decide if it's something you would do. If you get caught voting twice, you can go to jail. On the other hand, if you get away with it, one extra vote for your candidate. It does not seem worth it, but you might get away with it.
+<v David Kestenbaum>我可以告诉你。你可以决定这是否是你愿意做的事情。如果被抓住投两次票，你可能会坐牢。另一方面，如果你侥幸逃脱，你的候选人就多了一票。这似乎不值得，但你可能会侥幸成功。
+
+00:11:31.930 --> 00:11:37.020
+<v David  Kestenbaum>How hard would it actually be to double vote?
+<v David  Kestenbaum>重复投票实际上有多难？
+
+00:11:37.020 --> 00:11:42.930
+<v Sharad  Goel>How hard would it be? So I don't think it would be that hard.
+<v Sharad  Goel>有多难？所以我不认为会有那么难。
+
+00:11:42.930 --> 00:12:00.230
+<v David Kestenbaum>I just asked because I used to live in Massachusetts, and I remember, one of my roommates moved out to California. And I went in to vote there in Massachusetts, and I remember seeing his name on the rolls. And I thought, I could go back again, just say I'm him, and vote for him.
+<v David Kestenbaum>我问是因为我以前住在马萨诸塞州，我记得我的一位室友搬到了加利福尼亚。我去马萨诸塞州投票时，记得在选民名单上看到了他的名字。我想，我可以回去，说我是他，然后替他投票。
+
+00:12:00.230 --> 00:12:01.750
+<v Sharad Goel>Please don't do that. [LAUGHS]
+<v Sharad Goel>请不要那样做。[笑声]
+
+00:12:01.750 --> 00:12:02.700
+<v David Kestenbaum>I didn't.
+<v David Kestenbaum>我没有。
+
+00:12:02.700 --> 00:12:04.590
+<v Sharad Goel>Oh. Yes.
+<v Sharad Goel>哦。是的。
+
+00:12:04.590 --> 00:12:07.290
+<v David Kestenbaum>But it did strike me that it would be easy to do that.
+<v David Kestenbaum>但它的确让我感到，那样做其实很容易。
+
+00:12:07.290 --> 00:12:12.930
+<v Sharad Goel>It's not like robbing a bank. You definitely can double vote.
+<v Sharad Goel>这不像抢银行。你绝对可以重复投票。
+
+00:12:12.930 --> 00:12:33.880
+<v David   Kestenbaum>When you look at the voting data, he says there is definitely stuff where the numbers do seem funny. Like, every election, there are a lot of cases where it looks like someone might have voted twice-- cases where you have records of two votes cast by someone with the same name and birthday, which is weird.
+<v David   Kestenbaum>当你看投票数据时，他说肯定有一些数字看起来很可疑。比如，每次选举都有很多案例看起来像是有人投了两次票——即记录显示同一个姓名和生日的人投了两张票，这很奇怪。
+
+00:12:33.880 --> 00:12:45.190
+<v David   Kestenbaum>Kris Kobach, President Trump's voter fraud guy, actually set up a program called Crosscheck that highlights these cases. States that want to participate send in their data, and Crosscheck looks for matches. It finds lots.
+<v David   Kestenbaum>特朗普总统的选民欺诈调查专员克里斯·科巴赫，实际上建立了一个名为“Crosscheck”的项目来突出这些案例。想要参与的州会发送他们的数据，Crosscheck会寻找匹配项。它发现了很多。
+
+00:12:45.190 --> 00:12:50.300
+<v Sharad Goel>And so this is often presented as evidence of large-scale voter fraud.
+<v Sharad Goel>所以这经常被作为大规模选民欺诈的证据。
+
+00:12:50.300 --> 00:12:57.320
+<v David Kestenbaum>And we're not talking just like date of birth, like month and day. Like, year also, right?
+<v David Kestenbaum>而且我们谈论的不仅仅是出生日期，比如月和日，还有年份，对吧？
+
+00:12:57.320 --> 00:13:10.070
+<v Sharad Goel>Exactly. And it's not a crazy argument. I mean, it feels like, well, what are the odds? What are the odds that someone has my exact same first name, last name, and date of birth down to the year? It's pretty small.
+<v Sharad Goel>没错。这论点并不疯狂。我的意思是，感觉就像，好吧，概率是多少？有人拥有和我一模一样的名字和出生日期（包括年份）的概率是多少？非常小。
+
+00:13:10.070 --> 00:13:11.940
+<v David Kestenbaum>And it does seem weird, right?
+<v David Kestenbaum>而且这看起来确实很奇怪，对吧？
+
+00:13:11.940 --> 00:13:16.660
+<v Sharad  Goel>It does seem weird. Yeah, why is this not evidence of widespread voter fraud?
+<v Sharad  Goel>确实很奇怪。是的，为什么这不是大规模选民欺诈的证据？
+
+00:13:16.660 --> 00:13:42.420
+<v David Kestenbaum>Sharad and four other researchers wanted to check this out for themselves, so they got a hold of an enormous database that had the voting records gathered from all the states. They started this a couple of years ago, so they used the most recent presidential election at the time, which was 2012. And they looked, how many times in the whole country did you have two votes cast where both votes have the same first name, and last name, and birthday-- day, month, and year-- attached to them?
+<v David Kestenbaum>沙拉德和其他四位研究人员想亲自核实这一点，所以他们获得了一个巨大的数据库，其中包含了从各州收集的投票记录。他们几年前开始了这项工作，所以他们使用了当时最近一次总统选举，即2012年的数据。他们查了一下，在全国范围内，有多少次投出的两张票，名字和生日（日、月、年）都完全相同？
+
+00:13:42.420 --> 00:14:04.440
+<v Sharad Goel>3 million-- 3 million instances. It's a lot. It's a lot, you know? And I was actually surprised. So I was thinking, in my naivete, that this would be kind of a simple exercise. We look at it, we just actually count the number of ostensible matches, and we're going to find that there are really not very many. But 3 million? That's a big number.
+<v Sharad Goel>300万——300万次。这很多。很多，你知道吗？我其实很惊讶。所以我在天真地想，这应该是一个简单的练习。我们看一眼，数一下表面上的匹配数，就会发现其实并没有那么多。但300万？这是一个很大的数字。
+
+00:14:04.440 --> 00:14:06.870
+<v David Kestenbaum>It's actually the number that Trump has been talking about.
+<v David Kestenbaum>这实际上就是特朗普一直在说的那个数字。
+
+00:14:06.870 --> 00:14:09.810
+<v Sharad  Goel>You know, it's not far off.
+<v Sharad  Goel>你知道，这并不遥远。
+
+00:14:09.810 --> 00:14:25.260
+<v David   Kestenbaum>They looked closer and realized that, first off, a lot of these were just problems with the data. Like, some states, when they didn't have a birthday, had put in January 1. So it looked like those people shared a birthday, but they didn't.
+<v David   Kestenbaum>他们仔细观察后发现，首先，这些案例中很多只是数据问题。比如，有些州在没有生日信息时填入了1月1日。所以看起来那些人有相同的生日，但事实并非如此。
+
+00:14:25.260 --> 00:14:43.650
+<v David   Kestenbaum>And there were other errors, where you had, say, a John Senior and a John Junior living in the same house, and they somehow showed up as having the same birthday. Sharad says they threw out a handful of states where the data seemed to be a problem. And the number of matches did go down, but not all the way down-- from 3 million to 750,000.
+<v David   Kestenbaum>还有其他错误，比如，你有一个约翰·老先生和一个约翰·小先生住在同一所房子里，不知怎么的，他们显示有相同的生日。沙拉德说他们剔除了一些数据看起来有问题的州。匹配数确实下降了，但没有降到底——从300万降到了75万。
+
+00:14:43.650 --> 00:14:52.370
+<v Sharad Goel>I mean, you're talking about close to a million instances where it really does look like these are double votes.
+<v Sharad Goel>我是说，你谈论的是近一百万个看起来确实像是重复投票的例子。
+
+00:14:52.370 --> 00:14:54.250
+<v David Kestenbaum>OK, so what's the next step?
+<v David Kestenbaum>好的，那下一步是什么？
+
+00:14:54.250 --> 00:14:56.850
+<v Sharad Goel>OK, so now comes the math.
+<v Sharad Goel>好的，现在开始算数学题了。
+
+00:14:56.850 --> 00:14:57.250
+<v Sharad Goel>[LAUGHTER]
+<v Sharad Goel>[笑声]
+
+00:14:57.250 --> 00:15:18.380
+<v David Kestenbaum>Now comes the math. And I think this is where ordinary people would stop. But my friend, sometimes, when you want to get to the bottom of things, when you want to know, are people voting twice? How secure is the foundation of our democracy? When you want to know that, you have to do a little discrete probability calculation.
+<v David Kestenbaum>现在开始算数学题了。我想这是普通人会止步的地方。但我的朋友，有时当你想要弄清事情的真相，当你想要知道，人们是否在投两次票？我们的民主基础有多稳固？当你想要知道这一点时，你必须做一个简单的离散概率计算。
+
+00:15:18.380 --> 00:15:33.370
+<v David Kestenbaum>Specifically, you have to know about something called the birthday paradox. I first heard about it years ago. I was at a dinner party, and someone told me this thing, which is that, if you have just 23 people in the room, there's a 50/50 chance that two of them share a birthday.
+<v David Kestenbaum>具体来说，你必须了解所谓的“生日悖论”。我多年前第一次听说它。我当时在参加晚宴，有人告诉我这件事，即如果你房间里只有23个人，那么其中两人有相同生日的概率是50/50。
+
+00:15:33.370 --> 00:15:44.640
+<v David Kestenbaum>I was in grad school at the time, studying physics, and I was like, that seems crazy. Just 23 people, two are going to share a birthday? Come on. There are 365 days in a year.
+<v David Kestenbaum>我当时在读研，学的是物理学，我当时想，这太疯狂了。只有23个人，两个人就会有相同的生日？得了吧。一年有365天。
+
+00:15:44.640 --> 00:15:56.370
+<v David Kestenbaum>I left the table in the middle of dinner and went into this other room, shut the door, and tried to work it out on a piece of paper. I couldn't. Neither could Sharad, at first. He got assigned the problem in college.
+<v David Kestenbaum>我晚饭吃到一半就离开了餐桌，走进另一个房间，关上门，试着在纸上计算出来。我做不到。沙拉德起初也做不到。他在大学里被分配过这道题。
+
+00:15:56.370 --> 00:16:00.690
+<v Sharad Goel>I was actually really bad at math. I mean, I liked it a lot, but I was really bad at it.
+<v Sharad Goel>我数学其实非常差。我的意思是，我挺喜欢它的，但我数学真的很差。
+
+00:16:00.690 --> 00:16:02.870
+<v David Kestenbaum>Wait, don't you have a PhD in math now?
+<v David Kestenbaum>等等，你现在不是有数学博士学位吗？
+
+00:16:02.870 --> 00:16:06.680
+<v Sharad Goel>I do. I do. It was a painful journey.
+<v Sharad Goel>我有。确实有。那是一段痛苦的旅程。
+
+00:16:06.680 --> 00:16:13.480
+<v David Kestenbaum>Turns out, there was an easy way to work out the birthday thing and a hard way. I had been stupidly trying to do it the hard way.
+<v David Kestenbaum>事实证明，解决生日问题有一个简单的方法和一个困难的方法。我之前一直傻乎乎地尝试用困难的方法。
+
+00:16:13.480 --> 00:16:34.850
+<v Sharad Goel>I think I also tried to do it the hard way. But it turns out to be, in some sense, a very simple problem to solve. And when I realized what the answer is, it struck me as one of the most beautiful results I had seen-- this fundamental piece of math that I had been missing my whole life.
+<v Sharad Goel>我想我也试过用困难的方法。但事实证明，从某种意义上说，这是一个非常简单的问题。当我意识到答案是什么时，它给我的印象是我见过的最美的结果之一——这块我一生中都错过的数学基石。
+
+00:16:34.850 --> 00:16:45.890
+<v David Kestenbaum>It's this classic example of how what you think is right can just be so wrong when you do the math. And also, it might be the key to why it looks like so many people are voting twice.
+<v David Kestenbaum>这是关于你的直觉如何在你做数学计算时错得离谱的一个经典例子。而且，这可能是为什么看起来那么多人投了两次票的关键。
+
+00:16:45.890 --> 00:17:19.580
+<v David Kestenbaum>A simple way to think about the birthday paradox and why it's right that, if you get 23 people in a room, the odds are about 50/50 that two of them will share a birthday is just to think about picking two people in that room. Sure, the odds are small that those two share a birthday. But in a room full of 23 people, it turns out there are a lot of possible pairs. Person one might have the same birthday as person two, or person three, or person four, or person two might share a birthday with person three, or person seven with person nine, et cetera. If you add it all up, it is way more common than you might think to get two people with the same birthday.
+<v David Kestenbaum>考虑生日悖论的一个简单方法，以及为什么“如果房间里有23人，两人拥有相同生日的概率约为50/50”是正确的原因，就是考虑一下从房间里挑出两个人。当然，那两个人有相同生日的概率很小。但在一个有23人的房间里，事实证明有许多可能的配对。第一个人可能与第二个人、第三个人或第四个人有相同的生日，或者第二个人可能与第三个人有相同的生日，或者第七个人与第九个人等等。如果你把所有这些相加，得到两个生日相同的人的情况比你想象的要普遍得多。
+
+00:17:19.580 --> 00:17:39.740
+<v David Kestenbaum>So Sharad and the other researchers did the math-- not for a room full of 23 people, but for a nation with over 100 million voters. And remember how they had 750,000 instances where you had two votes with the same name and birthday? The birthday paradox explains 720,000 of them. That's how many should share a birthday just by chance.
+<v David Kestenbaum>所以沙拉德和其他研究人员做了数学计算——不是针对一个有23人的房间，而是针对一个拥有超过1亿选民的国家。还记得他们有75万个名字和生日相同的投票案例吗？生日悖论解释了其中的72万个。这就是仅仅凭巧合应该有相同生日的人数。
+
+00:17:39.740 --> 00:18:07.930
+<v David Kestenbaum>This weird math thing explains most of the instances where it looks like someone voted twice-- most, but not all. They still had about 30,000 cases unexplained, which would be a lot of fraud-- not enough to sway most presidential elections, but still, way more than he expected. Sharad says, at this point, he thought that was the real number. It would mean something like one in every 4,000 voters had voted twice, which seemed like, who knows? Maybe.
+<v David Kestenbaum>这个奇怪的数学事实解释了大多数看起来像有人投了两次票的案例——大多数，但不是全部。他们仍然有大约3万个无法解释的案例，这仍然是很多欺诈——虽然不足以改变大多数总统选举的结果，但仍然比他预期的要多得多。沙拉德说，在这一点上，他认为这就是真实数字。这意味着大约每4000名选民中就有一人投了两次票，这似乎是，谁知道呢？也许吧。
+
+00:18:07.930 --> 00:18:24.220
+<v David Kestenbaum>When they started out, Sharad says, they figured this whole thing would take a couple of days. But the bottom is often deeper than you think. The beautiful math I just told you about-- turns out it is not quite right, for a reason that is both subtle and very human. It gets messed up by parents doing stuff like this.
+<v David Kestenbaum>沙拉德说，他们开始的时候以为整件事只需几天时间。但真相通常比你想象的更深。我刚才告诉你的那个美丽的数学原理——事实证明它并不完全准确，原因既微妙又非常人性化。它被父母做的事情弄乱了。
+
+00:18:24.220 --> 00:18:27.940
+<v Sharad Goel>So when do you think that people who are named June are born?
+<v Sharad Goel>那么你认为名叫“琼”（June）的人是在什么时候出生的？
+
+00:18:27.940 --> 00:18:29.150
+<v David Kestenbaum>Oh, in the month of June?
+<v David Kestenbaum>哦，在六月（June）吗？
+
+00:18:29.150 --> 00:18:31.770
+<v Sharad  Goel>In the month of June.
+<v Sharad  Goel>在六月。
+
+00:18:31.770 --> 00:18:33.060
+<v David Kestenbaum>A lot?
+<v David Kestenbaum>很多吗？
+
+00:18:33.060 --> 00:18:34.840
+<v Sharad  Goel>Uh, yeah.
+<v Sharad  Goel>嗯，是的。
+
+00:18:34.840 --> 00:18:50.230
+<v David Kestenbaum>And that, of course, means that the odds of two people named June sharing a birthday are higher than usual. The paper has a whole appendix just dealing with how to correct the calculation for our peculiar naming habits. It's 12 pages of equations and theorems.
+<v David Kestenbaum>当然，这意味着两个名叫“琼”的人有相同生日的概率比平时要高。论文里有一整章附录专门处理如何针对我们独特的命名习惯来修正计算结果。那有12页的方程和定理。
+
+00:18:50.230 --> 00:19:06.430
+<v David Kestenbaum>It's not just that babies born in June, the parents sometimes name them June. Girls named Autumn tend to be born in the fall. Also, babies in general are more likely to be born during the week than on weekends. Sharad says they knew this stuff might be an issue, but when they looked through the voter data, it was a bigger complication than they thought.
+<v David Kestenbaum>不仅是六月出生的婴儿，父母有时会给他们起名叫“琼”。名叫“奥特姆”（Autumn，意为秋天）的女孩往往出生在秋天。此外，婴儿通常在工作日出生的几率比在周末要大。沙拉德说他们知道这些事情可能是一个问题，但当他们查看选民数据时，这比他们想象的要复杂得多。
+
+00:19:06.430 --> 00:19:14.540
+<v Sharad Goel>So let's say your name is Carol. What day of the year are you most likely to be born on?
+<v Sharad Goel>所以假设你的名字是卡罗尔（Carol）。你最有可能出生在一年中的哪一天？
+
+00:19:14.540 --> 00:19:18.720
+<v David   Kestenbaum>Carol? Just like Carol?
+<v David   Kestenbaum>卡罗尔？就像卡罗尔那个名字？
+
+00:19:18.720 --> 00:19:23.730
+<v Sharad Goel>Carol, C-A-R-O-L. Nothing fancy, just Carol.
+<v Sharad Goel>卡罗尔，C-A-R-O-L。没什么特别的，只是卡罗尔。
+
+00:19:23.730 --> 00:19:26.940
+<v David Kestenbaum>I don't think-- any day. It's all random.
+<v David Kestenbaum>我不认为——哪天都行。全是随机的。
+
+00:19:26.940 --> 00:19:38.450
+<v Sharad Goel>No, it's not random. So what's surprising is, actually, there are a lot of patterns to a lot of these names that you think are totally reasonable. And so Carol-- so OK, let me give you one that's really-- let's say your name was--
+<v Sharad Goel>不，不是随机的。令人惊讶的是，实际上，你认为非常合理的很多名字都有很多规律。所以卡罗尔——好的，让我给你一个非常——假设你的名字是——
+
+00:19:38.450 --> 00:19:40.240
+<v David Kestenbaum>Wait, do Carol. Why Carol?
+<v David Kestenbaum>等等，为什么用卡罗尔？
+
+00:19:40.240 --> 00:19:44.840
+<v Sharad Goel>Well, look-- OK, so why Carol? Let me give you a hint. What if your name was Christine?
+<v Sharad Goel>嗯，看——好的，为什么是卡罗尔？给我个提示。如果你的名字是克里斯汀（Christine）呢？
+
+00:19:44.840 --> 00:19:46.480
+<v David  Kestenbaum>I don't know.
+<v David  Kestenbaum>我不知道。
+
+00:19:46.480 --> 00:19:49.670
+<v Sharad Goel>So Christines and Carols tend to be born on the same day.
+<v Sharad Goel>所以克里斯汀们和卡罗尔们往往出生在同一天。
+
+00:19:49.670 --> 00:19:52.210
+<v David Kestenbaum>What are you talking about?
+<v David Kestenbaum>你在说什么？
+
+00:19:52.210 --> 00:19:59.860
+<v Sharad Goel>OK, let me give you another one. Christines, Carols, and Jesuses tend to be born on the same day.
+<v Sharad Goel>好的，让我再给你一个。克里斯汀们、卡罗尔们和耶稣们（Jesuses）往往出生在同一天。
+
+00:19:59.860 --> 00:20:03.380
+<v David  Kestenbaum>Oh, what-- Christmas?
+<v David  Kestenbaum>哦，什么——圣诞节（Christmas）？
+
+00:20:03.380 --> 00:20:05.560
+<v Sharad Goel>Christmas.
+<v Sharad Goel>圣诞节。
+
+00:20:05.560 --> 00:20:08.610
+<v David Kestenbaum>I knew I was going to look dumb in that.
+<v David Kestenbaum>我知道我会在那点上看起来很笨。
+
+00:20:08.610 --> 00:20:31.250
+<v David  Kestenbaum>Another example-- Josefina with an F, 1 in 10 chance you were born on March 19. I thought I'd figured that one out. There's an American Girl doll named Josefina with that exact birthday. Sharad doesn't think that's what inspired people, though. March 19 is also St. Joseph's Day.
+<v David  Kestenbaum>另一个例子——约瑟菲娜（Josefina，拼写中含F），十分之一的概率你出生在3月19日。我以为我弄明白了。有一个美国女孩娃娃就叫约瑟菲娜，生日就是那天。但沙拉德认为那不是启发人们的原因。3月19日也是圣若瑟瞻礼。
+
+00:20:31.250 --> 00:20:48.800
+<v David  Kestenbaum>In any case, all this was a problem. So Sharad and the other researchers redid all the calculations to account for the fact that if two people have one of these particular first names, they're more likely to share a birthday. And it did reduce the number of possible fraudulent double votes from 30,000 to 20,000.
+<v David  Kestenbaum>无论如何，这一切都是个问题。所以沙拉德和其他研究人员重做了所有计算，以考虑到如果两个人有这些特定的名字之一，他们更有可能拥有相同生日的事实。这确实将疑似欺诈的重复投票数量从3万减少到了2万。
+
+00:20:48.800 --> 00:20:57.630
+<v Sharad Goel>So now I was becoming increasingly convinced that this was the real number of double votes out there. And we did everything.
+<v Sharad Goel>所以现在我越来越相信这就是真实存在的重复投票数量了。我们什么都做了。
+
+00:20:57.630 --> 00:21:00.390
+<v David Kestenbaum>How many months into this are you at this point?
+<v David Kestenbaum>到目前为止，你做这个研究几个月了？
+
+00:21:00.390 --> 00:21:11.460
+<v Sharad  Goel>Oh, you know, we're probably a solid year into it at this point. We're also getting tired. And you know, we've really been hammering on this problem.
+<v Sharad  Goel>哦，你知道，到这一点我们可能已经做了一年了。我们也累了。而且你知道，我们真的一直在攻克这个问题。
+
+00:21:11.460 --> 00:21:36.190
+<v David Kestenbaum>They could have published their work and this number, 20,000 possibly fraudulent double votes. But there was one other thing to consider. They started wondering if there might be errors in the data. Like, maybe the data file says someone voted, but that's wrong. The person didn't vote, in which case, what looked like a double vote might actually just be a single vote. Maybe that would account for some of the 20,000 double votes.
+<v David Kestenbaum>他们本可以发表他们的研究成果和这个数字：2万起可能是欺诈的重复投票。但还有一件事要考虑。他们开始怀疑数据中是否存在错误。比如，也许数据文件说某人投了票，但那是错的。那个人根本没投票，在这种情况下，看起来像是重复投票的实际上只是单次投票。也许那能解释那2万个重复投票中的一部分。
+
+00:21:36.190 --> 00:21:58.740
+<v David Kestenbaum>But to check this, after doing all that fancy math, they had to go out into the messy world. The researchers sent out a team of undergrads to go through some poll books in Philadelphia. I talked to one of the students who did this. He said the books were in this forgotten building in a run-down part of town-- three-ring binders with the names of registered voters. On election day at your polling place, you find your name and sign next to it in the book.
+<v David Kestenbaum>但为了验证这一点，在做了所有那些花哨的数学计算后，他们不得不走进凌乱的现实世界。研究人员派出一队本科生去检查费城的一些投票名册。我采访了其中一名学生。他说名册在城里贫民区的一栋被遗忘的建筑里——是带有已注册选民名字的三环活页夹。在选举日，你在你的投票站找到你的名字并在名册上签名。
+
+00:21:58.740 --> 00:22:16.050
+<v David Kestenbaum>It was super boring work, he said. They double-checked 11,000 names-- people the data file listed as having voted. And they found, in about 1% of the cases, according to the poll book, the data file seemed to be wrong. There was no signature. It didn't look like the person had actually voted.
+<v David Kestenbaum>他说，那是超级无聊的工作。他们核对了11000个名字——数据文件显示投过票的人。他们发现，根据投票名册，在约1%的案例中，数据文件似乎是错的。根本没有签名。看起来那个人并没有真正投票。
+
+00:22:16.050 --> 00:22:24.360
+<v David Kestenbaum>So before this, you had 20,000 what looked like double votes that were unexplained. How many of those 20,000 does this explain?
+<v David Kestenbaum>所以在此之前，你有2万个看起来像是重复投票但无法解释的案例。这解释了那2万个中的多少？
+
+00:22:24.360 --> 00:22:26.540
+<v Sharad Goel>All of them.
+<v Sharad Goel>全部。
+
+00:22:26.540 --> 00:22:30.180
+<v David   Kestenbaum>Wow.
+<v David   Kestenbaum>哇。
+
+00:22:30.180 --> 00:22:54.640
+<v David  Kestenbaum>Sharad is not saying there is zero double voting going on-- just that it seems like a really small problem. And to be clear, voting twice is just one way people can commit voter fraud. There are others-- non-citizens voting, dead people voting, vote buying, corrupt officials just changing the tallies, though there is no evidence any of those is happening in any substantial way either.
+<v David  Kestenbaum>沙拉德并不是说不存在重复投票——只是说这似乎是个非常小的问题。明确一点，投两次票只是人们进行选民欺诈的一种方式。还有其他方式——非公民投票、死人投票、买票、腐败官员修改票数，尽管目前没有任何证据表明这些行为在任何实质性规模上发生。
+
+00:22:54.640 --> 00:23:18.600
+<v David  Kestenbaum>Sharad says they finished up their research just days before the 2016 election, which was pretty good timing. The issue of voter fraud was in the news. After Trump won, he started going around saying that he would have won the popular vote, too, if you deduct the millions of people who voted illegally. And once he was in office, he set up his Commission on Voter Integrity that would collect data from the states and look for fraud.
+<v David  Kestenbaum>沙拉德说他们在2016年大选前几天完成了研究，时间相当不错。选民欺诈的问题当时正在新闻中。特朗普获胜后，他开始到处说，如果扣除数百万非法投票的人，他在普选票中也会获胜。他上任后，设立了“选民诚信委员会”，从各州收集数据并寻找欺诈。
+
+00:23:18.600 --> 00:23:35.230
+<v David  Kestenbaum>Sharad says, in all of this, there is one number he's come across that he just does not understand. There was this survey done before the election in which half of all registered voters said they thought voter fraud was very common or somewhat common-- 61% of Republicans and 30% of Democrats.
+<v David  Kestenbaum>沙拉德说，在所有这些中，有一个数字他遇到的，他简直无法理解。选举前进行的一项调查中，有一半的注册选民表示他们认为选民欺诈非常普遍或相当普遍——61%的共和党人和30%的民主党人。
+
+00:23:35.230 --> 00:23:42.200
+<v Sharad Goel>This is tens of millions of people believe that voter fraud is a serious problem. Yeah.
+<v Sharad Goel>这是数以千万计的人认为选民欺诈是一个严重的问题。是的。
+
+00:23:42.200 --> 00:23:51.220
+<v David   Kestenbaum>Sharad says their paper did not get a lot of attention-- mostly just a line or two in some news stories.
+<v David   Kestenbaum>沙拉德说他们的论文并没有引起太多的注意——大多只是在某些新闻故事中提到一两行。
+
+00:23:51.220 --> 00:23:56.000
+<v David Kestenbaum>Do you think you convinced anybody?
+<v David Kestenbaum>你认为你说服了任何人吗？
+
+00:23:56.000 --> 00:24:23.850
+<v Sharad Goel>I doubt it. My feeling is, people are not really convinced by science and statistics these days. It feels, at times, like, what am I doing? I've devoted my entire professional life to this type of work. And really, it's not clear to me that any of it matters.
+<v Sharad Goel>我怀疑。我的感觉是，人们这些天并没有真正被科学和统计数据所说服。有时感觉就像，我在做什么？我把我所有的职业生涯都奉献给了这种类型的工作。老实说，我不确定这到底有没有意义。
+
+00:24:23.850 --> 00:24:44.050
+<v David  Kestenbaum>I was interested in your research because I wanted to know for myself, like in some real way, this thing that I had been reading in the paper for some time-- you know, that voter fraud is super rare-- I wanted to know in some real way that that was true. And I feel like I got kind of close. Like, I read your paper a bunch of times.
+<v David  Kestenbaum>我对你的研究感兴趣是因为我自己想以某种真实的方式知道，我读报纸一段时间以来一直看到的东西——你知道，选民欺诈极其罕见——我想以某种真实的方式知道那是真的。我觉得我离目标很近了。比如，我读了你的论文好几遍。
+
+00:24:44.050 --> 00:24:47.450
+<v Sharad Goel>(LAUGHING) Well, you probably read it more than anybody else.
+<v Sharad Goel>[笑声] 嗯，你可能读得比任何人都多。
+
+00:24:47.450 --> 00:24:50.330
+<v David Kestenbaum>You know, I found an error in a table in the appendix?
+<v David Kestenbaum>你知道，我在附录的一个表格里发现了一个错误吗？
+
+00:24:50.330 --> 00:24:54.690
+<v Sharad Goel>I do know that that is a very impressive find.
+<v Sharad Goel>我知道那是一个非常令人印象深刻的发现。
+
+00:24:54.690 --> 00:25:00.130
+<v David Kestenbaum>But as far as I went, I still feel like I'm not all the way there.
+<v David Kestenbaum>但就我所了解的，我仍然觉得我还没有完全理解。
+
+00:25:00.130 --> 00:25:01.890
+<v Sharad Goel>Yeah, and you shouldn't be. Yeah.
+<v Sharad Goel>是的，你也不应该完全理解。是的。
+
+00:25:01.890 --> 00:25:14.870
+<v David Kestenbaum>Sharad meant this in a technical way. Like, the paper is still being peer reviewed, they don't know if the error rate they found in the Philadelphia voter data can be applied to the whole country, stuff like that. I meant it differently.
+<v David Kestenbaum>沙拉德的意思是技术层面的。比如，论文还在同行评审中，他们不知道在费城选民数据中发现的错误率是否可以应用于全国，等等。我的意思则不同。
+
+00:25:14.870 --> 00:25:29.990
+<v David Kestenbaum>Sure, we'd talked for hours. I'd read the paper a bunch of times, but I didn't actually check the math. Honestly, I don't understand all the equations. And I didn't go over their computer code or look at the data sets. I believe what they found, but I don't know it.
+<v David Kestenbaum>当然，我们谈了几个小时。我读了好几遍论文，但我并没有真正核实数学计算。老实说，我不理解所有的方程。我也没有检查他们的计算机代码或查看数据集。我相信他们发现的结果，但我并没有“知道”它。
+
+00:25:29.990 --> 00:25:48.530
+<v David Kestenbaum>It looks like a cup of coffee, so I'm going to say it's a cup of coffee. And later today, I will get in my car whose engine is a mystery to me. I will drive on roads built with a tax system I only roughly comprehend, and I'll pick up my two little kids from school. They are full of questions these days. I always pretend to know more than I do.
+<v David Kestenbaum>它看起来像一杯咖啡，所以我要说它是一杯咖啡。今天晚些时候，我会开着我的车，它的引擎对我来说是个谜。我会行驶在由我只大致了解的税收系统所建造的道路上，我会去学校接我的两个小孩子。他们这些天满脑子都是问题。我总是假装我知道得比我实际了解的多。
+
+00:25:48.530 --> 00:26:12.400
+<v David Kestenbaum>Act Two, Flake News. Sometimes there's a thing that you think you know, even though, right in front of you, staring you in the face, is clear evidence to the contrary. That happened this week to one of our producers, Zoe Chace. In her case, the thing staring her in the face was a US senator. Here's Zoe.
+<v David Kestenbaum>第二幕，“假”闻（Flake News）。有时候你会有件你自认为知道的事情，即使就在你面前，瞪着你的眼睛，有明确的证据表明情况恰恰相反。这周发生在了我们的制片人之一佐伊·蔡斯（Zoe Chace）身上。在她的案例中，瞪着她眼睛的事物是一位美国参议员。以下是佐伊。
+
+00:26:12.400 --> 00:26:34.650
+<v Zoe Chace>I've spent the last few months following Senator Jeff Flake from Arizona. We talk every other week, pretty much. I tag along with him to committee meetings and speeches in the Capitol. The plan was, I was going to follow him all the way through his re-election campaign next year. And then this week, as you might have heard, Flake announced he's not running after all. He gave a pretty emotional speech on the Senate floor about it.
+<v Zoe Chace>过去几个月我一直在跟踪亚利桑那州的参议员杰夫·弗莱克（Jeff Flake）。我们几乎每隔一周聊一次。我跟着他参加委员会会议和国会大厦里的演讲。计划是我要一直跟踪他到明年的竞选连任。然后这周，正如你可能听到的，弗莱克宣布他最终不会竞选了。他在参议院会议厅就此事发表了一次相当感人的演讲。
+
+00:26:34.650 --> 00:26:47.960
+<v Jeff Flake>It must also be said that I rise today with no small measure of regret-- regret because of the state of our disunion, regret because of the disrepair and destructiveness of our politics.
+<v Jeff Flake>必须说明的是，我今天怀着相当遗憾的心情站在这里——遗憾是因为我们分裂的状态，遗憾是因为我们政治的失修和破坏性。
+
+00:26:47.960 --> 00:27:04.970
+<v Zoe Chace>I was shocked. I did not see this coming. Now, people are talking about this speech as a turning point for the Republican Party-- one more old-school conservative realizing he can't win in the age of Trump. Like every reporter in Washington, I ran after Flake when his speech ended.
+<v Zoe Chace>我惊呆了。我没预料到会这样。现在，人们在讨论这次演讲是共和党的一个转折点——又一位老派保守派意识到他在特朗普时代无法获胜。像华盛顿的所有记者一样，演讲结束后我追着弗莱克跑。
+
+00:27:04.970 --> 00:27:09.870
+<v Zoe Chace>OK, just-- what happened? Why today? I didn't expect this.
+<v Zoe Chace>好的，只是——发生了什么？为什么是今天？我没预料到。
+
+00:27:09.870 --> 00:27:13.080
+<v Jeff Flake>[LAUGHS] Oh, you expected it. After last week?
+<v Jeff Flake>[笑声] 哦，你预料到了。上周之后？
+
+00:27:13.080 --> 00:27:22.610
+<v Zoe Chace>We did talk last week. We had had this unusual moment. But at the time, it didn't seem like a big deal. Knowing what I know this week, I hear it differently.
+<v Zoe Chace>我们上周确实聊过。我们当时有过那个不同寻常的时刻。但当时看起来没什么大不了的。知道了这周的情况，我听起来感觉就不一样了。
+
+00:27:22.610 --> 00:27:36.880
+<v Zoe Chace>It was last Thursday, a beautiful day in DC. It was vote-a-rama in the Senate. Vote-a-rama is this weird Senate procedure where senators have to vote on a different proposal, like, every 20 minutes or so in order to ram the budget through.
+<v Zoe Chace>那是上周四，华盛顿一个美好的日子。那是参议院的“投票嘉年华”（Vote-a-rama）。投票嘉年华是一种奇怪的参议院程序，参议员们必须在大约每20分钟内就不同的提案进行一次投票，以便强行通过预算。
+
+00:27:36.880 --> 00:27:51.720
+<v Zoe Chace>I was waiting for the senator, like I often do, right outside the Senate gallery. He came out, but instead of getting on the elevator to go back to his office, he goes, let's go out here. And he takes me through this door only senators are supposed to use, to a place reporters aren't allowed to go-- onto the Capitol steps.
+<v Zoe Chace>我像往常一样，在参议院画廊外等着参议员。他出来了，但他没有去坐电梯回办公室，而是说，我们去外面走走。他带我穿过了只有参议员才能使用的那扇门，去了一个记者不准进入的地方——国会大厦台阶上。
+
+00:27:51.720 --> 00:27:52.620
+<v Guard>She's with you?
+<v Guard>她和你一起？
+
+00:27:52.620 --> 00:27:53.250
+<v Zoe Chace>Thanks.
+<v Zoe Chace>谢谢。
+
+00:27:53.250 --> 00:27:55.460
+<v David Kestenbaum>He tells the guard, she's with me, and we're out.
+<v David Kestenbaum>他告诉守卫，她和我在一起，我们出去了。
+
+00:27:55.460 --> 00:27:56.270
+<v Jeff Flake>Pretty nice outside.
+<v Jeff Flake>外面很不错。
+
+00:27:56.270 --> 00:27:57.070
+<v Zoe Chace>Yeah--
+<v Zoe Chace>是的——
+
+00:27:57.070 --> 00:28:09.680
+<v David Kestenbaum>Nice out here, he says. Sunny. We sit down next to each other on the world's biggest stoop, gazing out at the Capitol Grounds and the Supreme Court. And then suddenly, it's like he's looking back on his 18 years in Congress.
+<v David Kestenbaum>外面不错，他说。阳光明媚。我们在世界上最大的门廊旁坐下，凝视着国会大厦庭院和最高法院。然后突然之间，他仿佛在回首他18年的国会生涯。
+
+00:28:09.680 --> 00:28:32.410
+<v Jeff Flake>I've spent a lot of time in the gym, and I-- Charlie Dent, for years, I've played him in a game called paddle ball in the House gym. I got to know, for example, Chuck Schumer and Dick Durbin. They used to come to the House gym. And then when I got to the Senate, they were part of the Gang of Eight, and--
+<v Jeff Flake>我在健身房花了很多时间，而且我——查理·登特（Charlie Dent），多年来，我一直在众议院健身房里和他玩一种叫“板球”（paddle ball）的游戏。例如，我认识了查克·舒默（Chuck Schumer）和迪克·德宾（Dick Durbin）。他们过去常来众议院健身房。然后当我进入参议院时，他们是“八人帮”（Gang of Eight）的成员，而且——
+
+00:28:32.410 --> 00:28:47.380
+<v Zoe Chace>The Gang of Eight was this bipartisan group of senators who worked together on immigration reform. They wrote a big bill, which didn't pass, but Jeff Flake's really proud of that time. I asked him if he was feeling nostalgic. And for some reason, he started talking about 9/11.
+<v Zoe Chace>“八人帮”是一个两党参议员小组，他们合作推进移民改革。他们写了一份大型法案，虽然没通过，但杰夫·弗莱克对那段时光感到非常自豪。我问他是否感到怀旧。不知为什么，他开始谈论“9/11”。
+
+00:28:47.380 --> 00:29:04.740
+<v Jeff Flake>Yeah, this is-- right over there, on those steps, was-- after 9/11-- it seems like a long, long time ago now, both in terms of the way the-- you know, the way the Congress was and how it was perceived.
+<v Jeff Flake>是的，这是——就在那边，在那些台阶上，是——在“9/11”之后——现在看起来已经是很久很久以前的事了，无论是在国会的方式上，还是在人们看待它的方式上。
+
+00:29:04.740 --> 00:29:08.600
+<v Zoe Chace>Wait. What was it like on the steps over there after 9/11?
+<v Zoe Chace>等等，“9/11”之后那边的台阶上是什么样的？
+
+00:29:08.600 --> 00:29:28.630
+<v Jeff Flake>No, that was really quite a day. I'll never forget it-- gathering on those steps singing "God Bless America." And there was a lot of unity, certainly. So yeah, that was a different time. I hope it comes back.
+<v Jeff Flake>不，那真是相当难忘的一天。我永远不会忘记——大家聚在台阶上唱《上帝保佑美国》。当然，当时有很多团结。所以是的，那是不同的时代。我希望它能回来。
+
+00:29:28.630 --> 00:29:48.920
+<v Zoe Chace>For the life of me, I couldn't figure out why we were talking about 9/11. And it was only after I heard his speech this week that I realized what it was about. He was nostalgic for Congress working the way it used to-- Republicans and Democrats wanting to work together to make a thing happen. 9/11 was the biggest example of that that Jeff Flake could think of at that moment.
+<v Zoe Chace>我怎么也想不出我们为什么要谈论“9/11”。只有在我这周听了他的演讲后，我才意识到那是在谈论什么。他怀念国会过去那种工作方式——共和党人和民主党人想要共同努力促成事情。“9/11”是杰夫·弗莱克在那一刻能想到的最大例子。
+
+00:29:48.920 --> 00:30:19.330
+<v Jeff Flake>You know, we've had some instances since that time, but too few where people really come together. That seems pretty foreign now, because votes are taken as a way to kind of distance yourself from your opponents. And you don't want legislation that everybody agrees on, you want legislation that you can paint your opponents as lacking. And that's not a good development, not a good trend.
+<v Jeff Flake>你知道，从那时起我们确实有一些例子，但人们真正团结在一起的太少了。这现在看起来很陌生，因为投票被当作一种与对手拉开距离的方式。你不需要每个人都同意的立法，你想要的是可以用来抹黑对手的立法。那不是一个好的发展，不是一个好的趋势。
+
+00:30:19.330 --> 00:30:26.070
+<v Zoe Chace>I knew that Flake wasn't sure he'd win the next election. But now I see he was coming to terms with the decision he was about to make.
+<v Zoe Chace>我知道弗莱克不确定他能否赢得下一次选举。但现在我看到他正在接受他即将做出的决定。
+
+00:30:26.070 --> 00:30:27.050
+<v Zoe Chace>This could be your last year, huh?
+<v Zoe Chace>这可能是你的最后一年了，是吧？
+
+00:30:27.050 --> 00:30:31.750
+<v David Kestenbaum>Talking to Flake that day was like talking to a friend who knows his relationship is over,
+<v David Kestenbaum>那天和弗莱克交谈就像和一个知道自己的关系已经结束的朋友谈话，
+
+00:30:31.750 --> 00:30:36.290
+<v David Kestenbaum>but can't quite say it. He was coming to grips with a breakup.
+<v David Kestenbaum>但却说不出口。他正在努力接受分手的现实。
+
+00:30:36.290 --> 00:31:08.730
+<v Jeff Flake>I mean, I guess you could say you have a choice on how you run, but I really don't have a choice, because I can't run the way I would have to run to have an easy re-election. I just-- I can't do that. It wouldn't be genuine anyway. I think people would see through it. So if I don't run again, this has been a great run. [LAUGHS] It has-- 18 years.
+<v Jeff Flake>我的意思是，我想你可以说你有选择竞选方式的自由，但我真的没得选，因为我无法采取那种为了轻松连任所必须采取的竞选方式。我只是——我做不到。那样做也不真诚。我想人们会看穿它的。所以如果我不竞选连任，这已经是一段伟大的旅程了。[笑声] 的确是——18年。
+
+00:31:08.730 --> 00:31:12.110
+<v Zoe  Chace>I should have known what he was about to do.
+<v Zoe  Chace>我本应该知道他打算做什么的。
+
+00:31:12.110 --> 00:31:14.140
+<v Jeff Flake>I've got to go back in and vote.
+<v Jeff Flake>我得回去投票了。
+
+00:31:14.140 --> 00:31:15.520
+<v Zoe Chace>Vote some more?
+<v Zoe Chace>再投一些？
+
+00:31:15.520 --> 00:31:16.420
+<v Jeff Flake>Vote some more.
+<v Jeff Flake>再投一些。
+
+00:31:16.420 --> 00:31:20.880
+<v Zoe Chace>OK, man. Thanks for your time, Senator.
+<v Zoe Chace>好吧，伙计。谢谢你的时间，参议员。
+
+00:31:20.880 --> 00:31:28.610
+<v David    Kestenbaum>Zoe Chace with Senator Jeff Flake of Arizona, who bowed out of the Senate this week.
+<v David    Kestenbaum>佐伊·蔡斯采访亚利桑那州参议员杰夫·弗莱克，他本周退出了参议院。
+
+00:31:28.610 --> 00:31:45.210
+<v Jeff Flake>I thank my colleagues for indulging me here today. I will close by borrowing the words of President Lincoln. "We are not enemies, but friends. We must not be enemies. Though passion may have strained, it must not--"
+<v Jeff Flake>感谢我的同僚们今天对我在此事的宽容。我最后借用林肯总统的话结束我的讲话：“我们不是敌人，而是朋友。我们绝不可成为敌人。虽然激情可能已经紧张，但绝不可——”
+
+00:31:45.210 --> 00:32:02.630
+<v David   Kestenbaum>Coming up, the sun, kind of. That's in a minute, from Chicago Public Radio, when our program continues.
+<v David   Kestenbaum>稍后，太阳，差不多。一会儿见，这里是芝加哥公共广播电台，节目继续。
+
+00:32:02.630 --> 00:32:17.530
+<v David   Kestenbaum>It's This American Life. I'm David Kestenbaum. Ira Glass is out this week. Today on our show, "Things I Mean to Know," stories of people questioning some basic things in their lives and the world that they have always taken on faith.
+<v David   Kestenbaum>这里是《美国生活》。我是大卫·凯斯滕鲍姆。艾拉·格拉斯本周不在。今天我们的节目是“我想要知道的事情”，讲述人们质疑生活中和世界上一些他们一直盲目相信的基本事实的故事。
+
+00:32:17.530 --> 00:32:33.230
+<v David Kestenbaum>Act Three, The Sun Also Rises Over There. So among the things I accept as true is the fact that the world is round. But I have to say, there is not a lot to remind you of that in day-to-day life. Like, the ground does feel flat.
+<v David Kestenbaum>第三幕，太阳也在那边升起。所以，我所接受的真相中，包括世界是圆的这一事实。但我不得不说，在日常生活中，没什么东西能提醒你这一点。比如，地面感觉就是平的。
+
+00:32:33.230 --> 00:32:58.730
+<v David Kestenbaum>If you happen to live up in the Arctic, though, you are sometimes reminded that we live on this ball that is spinning through space. Our next story is about a researcher named Ian Mauro who went there-- way up on top of the earth where people still hunt seals and walruses. He was helping make a documentary, interviewing people about climate change. He figured they'd probably seen all kinds of stuff we never hear about, and he was right. Selena Ross tells the story.
+<v David Kestenbaum>不过，如果你刚好住在北极地区，你有时会被提醒我们生活在这个在太空中旋转的球体上。我们的下一个故事是关于一位研究人员伊恩·莫罗（Ian Mauro），他去了那里——在地球的最顶端，人们还在那里猎杀海豹和海象。他当时在协助制作一部纪录片，采访人们关于气候变化的问题。他想他们可能见过各种我们从未听说过的事情，而他是对的。塞莱娜·罗斯（Selena Ross）讲述了这个故事。
+
+00:32:58.730 --> 00:33:12.030
+<v Selena  Ross>When Ian asked people about climate change, he heard a lot of the stuff you'd think you'd hear-- glaciers are melting, and one year, it got super hot for a couple of weeks-- like, LA hot. You could wear shorts and no shirt.
+<v Selena  Ross>当伊恩问人们关于气候变化的问题时，他听到了很多你认为你会听到的事情——冰川正在融化，有一年，天气连续几周变得超级热——像洛杉矶那样热。你可以穿短裤和背心。
+
+00:33:12.030 --> 00:33:30.640
+<v Selena  Ross>But then Ian heard this other thing that really took him aback. He couldn't get it out of his head for months. He was going around from one remote village to another, assisting a well-known local Inuit filmmaker named Zacharias Kunuk. And that weird thing, they heard it over and over again.
+<v Selena  Ross>但后来伊恩听到了另一件让他大吃一惊的事情。几个月来他一直无法将其忘怀。他从一个偏远村庄走到另一个村庄，协助一位著名的当地因纽特电影制作人扎卡里亚斯·库努克（Zacharias Kunuk）拍摄。而那件奇怪的事情，他们听到了不止一次。
+
+00:33:30.640 --> 00:33:43.970
+<v Selena  Ross>The person who laid it out most dramatically was an elder named Augustine Taqquraq. They were in Igloolik, a small town way up in northern Canada, above the Arctic Circle, in this little office with a window that faced a sandy beach.
+<v Selena  Ross>最戏剧性地讲述这件事的人是一位名叫奥古斯丁·塔库拉克（Augustine Taqquraq）的长者。他们在伊格鲁利克（Igloolik），一个位于加拿大北部、北极圈上方的小镇，在一间窗户朝向沙滩的小办公室里。
+
+00:33:43.970 --> 00:33:49.720
+<v Ian Mauro>He stood up, and he literally walked over to the window. And the sun is just coming up. It's in the morning. He's drinking his coffee.
+<v Ian Mauro>他站起来，直接走到窗边。太阳刚刚升起。现在是早晨。他正在喝咖啡。
+
+00:33:49.720 --> 00:34:07.790
+<v Ian Mauro>And he says, when I was a young man, the sun used to come up over here. And he's pointing kind of 45 degrees with his left hand, and pointing out the window. And he says, now I'm an old man, and after the long polar night, the sun comes up over here. And he's pointing 45 degrees out with his right hand.
+<v Ian Mauro>他说，我年轻的时候，太阳是从这边升起的。他用左手指向大约45度方向，指向窗外。然后他说，现在我老了，在漫长的极夜之后，太阳从这边升起。他用右手指向外面的45度方向。
+
+00:34:07.790 --> 00:34:38.650
+<v Selena  Ross>In other words, the sun was coming up in the wrong spot. When Ian heard that, he really took notice. The sunrise Augustine was talking about wasn't just any sunrise. He was talking about the year's first sunrise after the polar night, that it was happening at a different place on the horizon than usual. This is the kind of thing people pay close attention to in the Arctic-- the first ray of sunshine after months of 24-hour dusk and darkness.
+<v Selena  Ross>换句话说，太阳升起的位置不对。伊恩听到这个的时候，真的引起了注意。奥古斯丁谈论的日出不仅仅是随便什么日出。他谈论的是极夜过后的年度首次日出，它发生在水平线上一个不同于往常的位置。这是人们在北极地区非常关注的事情——在几个月24小时的黄昏和黑暗之后的第一缕阳光。
+
+00:34:38.650 --> 00:35:07.230
+<v Ian Mauro>When the sun goes down in the Arctic, it's amazing. It's kind of like the longest all-nighter you've ever been a part of. The sun goes down for six weeks, seven weeks, and if you're in a culture where you have to find food on that landscape to thrive and feed your family, the return of the sun is a huge deal. Augustine is telling us, he's saying, I've been watching this sun come up after the long polar night for my whole life. And as a young boy, it came up over here. As an old man, it now comes up over here.
+<v Ian Mauro>当太阳在北极落下时，那景象令人惊叹。它有点像你参加过的最漫长的不眠之夜。太阳落下六周、七周，如果你身处一种必须在那种地貌中寻找食物来维持生计并喂养家人的文化中，太阳的回归就是一件大事。奥古斯丁告诉我们，他说，我一生都在观察极夜后太阳的升起。小时候，它从这边升起。老了以后，它现在从这边升起。
+
+00:35:07.230 --> 00:35:22.220
+<v Selena Ross>Augustine and the other elders Ian talked to had an explanation for why this might be happening, but it also sounded kind of impossible. Here's a clip from Ian and Zach's film. This is a man named Inookie Adamie, who had also seen the sun in the wrong place.
+<v Selena Ross>奥古斯丁和伊恩交谈过的其他长者对这为什么会发生有一个解释，但这听起来也有点不可能。这是伊恩和扎克的电影片段。这是一个名叫伊努基·亚当米（Inookie Adamie）的人，他也看到了位置不对的太阳。
+
+00:35:22.220 --> 00:35:25.140
+<v Inookie Adamie>[NON-ENGLISH SPEECH]
+<v Inookie Adamie>[外语讲话]
+
+00:35:25.140 --> 00:35:46.410
+<v Selena   Ross>He says, I don't know everything, but I've lived here all my life, and I've also watched the sun. Perhaps the earth has tilted on its axis. A bunch of people said this to Ian and Zach. They thought the earth had changed its tilt.
+<v Selena   Ross>他说，我不知道一切，但我一生都住在这里，我也观察太阳。也许地球在它的轴线上倾斜了。很多人都对伊恩和扎克这么说。他们认为地球的倾斜度发生了改变。
+
+00:35:46.410 --> 00:35:58.420
+<v Ian Mauro>Their description of what was going on was that the earth had literally changed its position in the universe. And we were kind of looking at each other, just going, whoa, what does that mean?
+<v Ian Mauro>他们对正在发生的事情的描述是，地球在宇宙中的位置确实改变了。我们当时面面相觑，只是说，哇，那意味着什么？
+
+00:35:58.420 --> 00:36:19.940
+<v Selena  Ross>Ian believed the Inuit. He believed the elder, Augustine, was seeing the sun come up in a place it never had before. But how? He started calling around to different scientists-- like, cold-calling people who studied anything to do with the earth spinning. He was asking them, is it possible the earth is tilting? That the sun had moved in the sky?
+<v Selena  Ross>伊恩相信因纽特人。他相信那位长者奥古斯丁确实看到太阳从一个以前从未有过的地方升起。但怎么可能呢？他开始联系不同的科学家——比如，冷不丁地给研究与地球自转有关的任何东西的人打电话。他问他们，地球倾斜是有可能的吗？太阳在天空中移动了吗？
+
+00:36:19.940 --> 00:36:43.520
+<v Ian Mauro>And at one point, I contacted NASA scientists, and I said, hey, have you heard of anything like this? Are you folks seeing anything like this? And they quickly were kind of keen to help and hear what was going on. And then, at one point, the communication just broke off, because, again, I think they thought it was probably too weird. That kind of conversation just kind of dwindled and fizzled out.
+<v Ian Mauro>在某个时候，我联系了NASA的科学家，我说，嘿，你们听说过这样的事情吗？你们看到了什么类似的东西吗？他们很快就热心帮忙并听听发生了什么。然后，在某个时候，交流突然中断了，因为我再次认为，他们可能觉得这太奇怪了。那种对话就这样逐渐冷淡并不了了之了。
+
+00:36:43.520 --> 00:37:04.170
+<v Selena Ross>For the tilt of the earth to change that much, scientists told me, an asteroid would probably have to collide with it. Like, we'd have noticed. The very idea that the earth's axis might have undergone some massive shift actually annoyed a lot of scientists. And the fact that Ian took it seriously really annoyed them.
+<v Selena Ross>科学家告诉我，要让地球的倾斜度改变那么多，可能需要一颗小行星撞击它。比如，我们肯定会注意到的。地球的地轴可能发生了巨大偏移的观点实际上惹恼了很多科学家。而伊恩认真对待这一观点的事实更是让他们恼火。
+
+00:37:04.170 --> 00:37:24.260
+<v Selena Ross>Scientists tended to think it was a figment of people's imaginations or a mistake. After Ian went on TV talking about the sun coming up in the wrong spot, he remembers getting a letter from an official Astronomical Society. Actually, they sent it not to him directly, but to his boss at the time, at the university where he was a new professor.
+<v Selena Ross>科学家往往认为这是人们的想象或者是一个错误。在伊恩上电视谈论太阳升起位置不对之后，他记得收到了一封来自官方天文学会的信。事实上，他们不是直接寄给他的，而是寄给了他当时的大学老板，那时他还是个新教授。
+
+00:37:24.260 --> 00:37:45.910
+<v Ian Mauro>That was a particularly juicy letter from those guys. Like, in terms of documenting just how irritated they were with me, they actually kind of wrote it down. It was like a shaming, because they sent it to either the president or the vice president, saying, we're the leads on whether or not the earth is tilted, and how dare you talk about any of this stuff? And they were quite incensed.
+<v Ian Mauro>那是来自那帮人的一封特别带劲的信。比如，就记录他们对我有多恼火而言，他们确实把它写了下来。这就像一种羞辱，因为他们把它寄给了校长或副校长，说，关于地球是否倾斜，我们才是权威，你竟敢谈论任何这些东西？他们非常愤怒。
+
+00:37:45.910 --> 00:38:00.790
+<v Selena  Ross>People told Ian he was fueling conspiracy theories and that he was ruining his own credibility and his career by focusing too much on this. But Ian kept at it. And he got a tip. He and Zach were out doing more filming.
+<v Selena  Ross>人们告诉伊恩，他在煽动阴谋论，而且因为过于关注这一点，他正在毁掉自己的声誉和职业生涯。但伊恩坚持下去了。然后他得到了一条线索。他和扎克正在外面拍摄更多的素材。
+
+00:38:00.790 --> 00:38:23.500
+<v Ian Mauro>We were doing interviews in Resolute, which is very close to the magnetic north pole. And somehow, we met this individual from this Weather Service, and he said, I'm seeing things as well. And he said to me, you should talk to Waldemar Lehn at the University of Manitoba, because he's the world's expert in this.
+<v Ian Mauro>我们当时在雷索卢特（Resolute）进行采访，那里非常靠近磁北极。不知怎么的，我们遇到了这位气象局的人，他说，我也看到了。他对我说，你应该去联系曼尼托巴大学的瓦尔德马·莱恩（Waldemar Lehn），因为他是这个领域的世界级专家。
+
+00:38:23.500 --> 00:38:28.690
+<v Waldemar Lehn>I'm Waldemar Lehn. I'm a professor emeritus at the University of Manitoba.
+<v Waldemar Lehn>我是瓦尔德马·莱恩。我是曼尼托巴大学的荣誉退休教授。
+
+00:38:28.690 --> 00:38:32.360
+<v Selena Ross>Waldemar didn't think the earth had tilted on its axis.
+<v Selena Ross>瓦尔德马并不认为地球在轴线上倾斜了。
+
+00:38:32.360 --> 00:38:38.640
+<v Waldemar Lehn>Oh, I reject that. Sorry, I don't believe it can happen.
+<v Waldemar Lehn>哦，我拒绝相信。抱歉，我不相信这种情况会发生。
+
+00:38:38.640 --> 00:38:44.790
+<v Selena Ross>But he didn't hang up, because he did believe that the Inuit we're seeing what they said they were seeing, and he thought he knew why.
+<v Selena Ross>但他没有挂断电话，因为他确实相信那些因纽特人看到了他们所说的那种景象，而且他觉得他知道原因。
+
+00:38:44.790 --> 00:38:50.330
+<v Waldemar  Lehn>The effect is known in the sciences as the Novaya Zemlya effect.
+<v Waldemar  Lehn>这种效应在科学界被称为“新地岛效应”（Novaya Zemlya effect）。
+
+00:38:50.330 --> 00:38:52.730
+<v Selena Ross>Novaya Zemlya?
+<v Selena Ross>新地岛？
+
+00:38:52.730 --> 00:38:57.600
+<v Waldemar  Lehn>Yeah, N-O-V-A-Y-A Z-E-M-L-Y-A.
+<v Waldemar  Lehn>是的，N-O-V-A-Y-A Z-E-M-L-Y-A。
+
+00:38:57.600 --> 00:39:01.490
+<v Selena  Ross>That's a-- is that a Russian-- what language is that?
+<v Selena  Ross>那是——那是一个俄语——那是什么语言？
+
+00:39:01.490 --> 00:39:11.740
+<v Waldemar Lehn>Yes. These are Russian words. They describe an island that was discovered, I guess, in the 16th century off the north coast of Siberia.
+<v Waldemar Lehn>是的。这些是俄语单词。它们描述了一个我想在16世纪在西伯利亚北海岸发现的岛屿。
+
+00:39:11.740 --> 00:39:31.530
+<v Selena Ross>In 1597, a bunch of Dutch explorers had been shipwrecked on the island, and they had also seen some weird stuff with the sun. They had to wait out the Arctic winter before they could try to get out. They were counting down the days-- like, if we can just make it till the sun comes back, we'll be OK.
+<v Selena Ross>1597年，一群荷兰探险家在岛上失事，他们也看到了一些关于太阳的奇怪景象。他们不得不熬过北极的冬天才能尝试离开。他们在倒数日子——比如，如果我们能撑到太阳回来，我们就能活下去。
+
+00:39:31.530 --> 00:39:42.960
+<v Selena Ross>The captain knew some astronomy and did some calculations-- the sun should be back on February 8. They circled that day in their calendars-- February 8, Sunrise Day. But then--
+<v Selena Ross>船长懂一些天文学知识并做了一些计算——太阳应该在2月8日回来。他们在日历上圈出了那一天——2月8日，日出日。但是——
+
+00:39:42.960 --> 00:39:51.110
+<v Waldemar Lehn>A couple of the men from his crew were hiking around on January 24, and they saw the sun.
+<v Waldemar Lehn>他的几名船员在1月24日四处徒步时，看到了太阳。
+
+00:39:51.110 --> 00:39:53.900
+<v Selena  Ross>It was a full two weeks early.
+<v Selena  Ross>它整整早了两个星期。
+
+00:39:53.900 --> 00:39:59.800
+<v Waldemar Lehn>When they reported this to the captain, he said, no, you're making things up.
+<v Waldemar Lehn>当他们向船长报告这一点时，他说，不，你们是在编造。
+
+00:39:59.800 --> 00:40:08.940
+<v Selena Ross>Then, a few days later, he saw it too. And not just a glimmer of the sun, but, quote, "its full roundness, just free of the horizon."
+<v Selena Ross>然后，几天后，他也看到了。不仅仅是一抹阳光，而是，引用，“它的圆满形态，刚刚脱离水平线。”
+
+00:40:08.940 --> 00:40:33.280
+<v Selena Ross>One of the sailors wrote a book about the voyage when he got home. That started a big controversy in the scientific world. And it was 200 years before people got to the bottom of it. The answer-- it was a mirage, a huge one where you see the entire sun, even though it should be hidden over the horizon, out of view.
+<v Selena Ross>其中一名水手回到家后写了一本关于这次航行的书。这在科学界引发了巨大的争议。200年后人们才弄清了真相。答案是——这是一个海市蜃楼，一个巨大的海市蜃楼，你可以看到整个太阳，即使它本应该隐藏在地平线以下，看不见。
+
+00:40:33.280 --> 00:41:00.510
+<v Selena Ross>For this weird thing to happen with the sun, for you to be able to see it even when it should be out of sight, the weather conditions have to be just right. You need a very cold layer of air on the surface and warm air above. If you get that, the boundary between the two acts like a mirror. The sun gets reflected in the atmosphere, kind of bounced around the curve of the earth, and the result is, you can see the sun even days before it technically rises.
+<v Selena Ross>要让这种关于太阳的奇怪事情发生，要让你能够看到它，即使它本应该看不见，天气条件必须刚刚好。你需要地表有一层非常冷的空气，上面有温暖的空气。如果出现这种情况，两者之间的边界就像一面镜子。太阳在大气层中被反射，有点像是在地球的曲线上反弹，结果就是，你甚至可以在它从技术上讲升起的前几天就看到太阳。
+
+00:41:00.510 --> 00:41:20.230
+<v Selena Ross>And this, it turns out, could explain what was happening with the Inuit. Maybe the sun didn't actually move, but it looked like it did. Or rather, they were getting a sneak peek before it returned from the long polar night. And therefore, it really was in a different spot on the horizon.
+<v Selena Ross>事实证明，这可以解释因纽特人身上发生了什么。也许太阳并没有真的移动，但看起来好像移动了。或者更确切地说，他们在太阳从漫长的极夜回归之前得到了先睹为快的机会。因此，它确实出现在水平线上的一个不同位置。
+
+00:41:20.230 --> 00:41:41.360
+<v Selena Ross>To test whether it was, in fact, the Novaya Zemlya effect, Waldemar needed some data. Around that time, Ian and Zach were in Igloolik to film the return of the sun after the polar night. Everything was covered in ice and snow. People were hanging out, burning oil lamps, and eating caribou. In Igloolik, it's a big celebration waiting for the sun. It's fun-- very cold, but fun.
+<v Selena Ross>为了验证这是否真的是新地岛效应，瓦尔德马需要一些数据。大约在那时，伊恩和扎克在伊格鲁利克拍摄极夜后太阳的回归。一切都被冰雪覆盖。人们在到处闲逛，点着油灯，吃着驯鹿肉。在伊格鲁利克，等待太阳是件大事。很有趣——非常冷，但很有趣。
+
+00:41:41.360 --> 00:41:56.620
+<v Ian Mauro>And I was there in the most amount of thermal gear I could possibly put on my body. It was incredibly cold-- in the minus 40s, probably. I got my tripod out, the camera on it, and we were waiting for the sun to return.
+<v Ian Mauro>我穿着我身上能穿下的所有保暖装备在那里。天气冷得难以置信——可能在零下40度左右。我把三脚架拿出来，装上摄像机，我们在等待太阳回归。
+
+00:41:56.620 --> 00:41:59.150
+<v Selena Ross>It did return, and they caught it on camera.
+<v Selena Ross>它确实回归了，而且被他们用摄像机拍到了。
+
+00:41:59.150 --> 00:42:07.330
+<v Ian Mauro>It's literally seconds where the glimmer of the top rim of the sun just comes above the horizon, and then it's gone.
+<v Ian Mauro>就在太阳顶部边缘的一丝光芒刚刚升到地平线以上的几秒钟，然后它就消失了。
+
+00:42:07.330 --> 00:42:39.840
+<v Selena Ross>That's what always happens on the first day. It's super short. Ian took the time stamps of his video and told them to Waldemar, who just looked up that time and date in the astronomical charts to find out where the sun actually was then. And he confirmed what Ian and the others on the beach had seen was a mirage. Even though they saw the sun, it wasn't really there that day. It was below the horizon, still-- far below the horizon.
+<v Selena Ross>这就是第一天总是会发生的情况。它超级短暂。伊恩把视频的时间戳告诉了瓦尔德马，瓦尔德马在天文图表中查找了那个时间和日期，以确定太阳当时实际在哪里。他证实了伊恩和海滩上的其他人所看到的是海市蜃楼。尽管他们看到了太阳，但那天它并没有真正出现。它还在地平线以下——在地平线以下很深的地方。
+
+00:42:39.840 --> 00:43:02.450
+<v Selena Ross>As for why it's happening, like, now, we talked to a bunch of climate scientists and asked if global warming could create the Novaya Zemlya effect more often-- make cold and warm air collide more frequently in a way that turns the atmosphere into a giant mirror and produces the reflection. Some said yes, some thought no. Waldemar, the scientist, likes the climate change explanation.
+<v Selena Ross>至于它为什么会发生，比如，现在，我们采访了一群气候科学家，问全球变暖是否会导致新地岛效应更频繁地发生——使冷空气和暖空气碰撞得更频繁，从而将大气变成一面巨大的镜子并产生反射。有些人说是，有些人认为不是。科学家瓦尔德马喜欢气候变化的解释。
+
+00:43:02.450 --> 00:43:18.890
+<v Waldemar  Lehn>Oh, yeah, I think there's a logic to that. If the climate is getting warmer, you might have more often some warm air moving in at the higher levels. And if you get that perhaps more often, then off we go. And then you have the mirage.
+<v Waldemar  Lehn>哦，是的，我认为这符合逻辑。如果气候变暖了，你可能更经常在较高层级有暖空气进入。如果你更经常得到这种情况，那么我们这就开始了。然后就有了海市蜃楼。
+
+00:43:18.890 --> 00:43:27.600
+<v Selena  Ross>I mean, it feels crazy to me that climate change could be making the sun look like it's coming up in a different place. I mean, that's such a strange--
+<v Selena  Ross>我是说，气候变化可能会让太阳看起来像是从不同的地方升起，这对我来说感觉太疯狂了。我是说，这真是个奇怪的——
+
+00:43:27.600 --> 00:43:28.740
+<v Waldemar Lehn>Yeah.
+<v Waldemar Lehn>是的。
+
+00:43:28.740 --> 00:43:30.470
+<v Selena Ross>It's such a disorienting thought.
+<v Selena Ross>这真是一个让人迷失方向的想法。
+
+00:43:30.470 --> 00:43:35.110
+<v Waldemar  Lehn>Yes. I think it's kind of neat. I'd love to see it.
+<v Waldemar  Lehn>是的。我觉得这挺有趣的。我很想亲眼看看。
+
+00:43:35.110 --> 00:43:57.250
+<v Selena Ross>It turns out, because of those same atmospheric conditions, the Inuit see crazy things all the time, things none of us in the south ever see-- land floating above land like a flying saucer, or mountain ranges where there's actually only ocean. The Inuit have a name for these mirages, [NON-ENGLISH] And hunters can read them.
+<v Selena Ross>事实证明，由于那些大气条件，因纽特人一直看到疯狂的东西，我们南方人从未见过的东西——陆地像飞碟一样漂浮在陆地上，或者只有海洋的地方出现了山脉。因纽特人对这些海市蜃楼有一个名字，[外语]，猎人们可以读懂它们。
+
+00:43:57.250 --> 00:44:19.980
+<v Selena Ross>One man told me he's seen what appears to be a towering, skinny polar bear. And he knows from how it looks that it really is a polar bear, it's just over the horizon, where it should be out of sight. And if he heads towards it, he'll find a real animal there. So the sun rising in the wrong spot? It's just one more thing.
+<v Selena Ross>一个人告诉我，他曾看到一个高大的、瘦长的北极熊。从它的样子他知道那确实是一只北极熊，它只是在地平线那边，本应该看不见的地方。如果他朝那个方向走，他会发现一只真正的动物在那里。所以太阳从错误的地方升起？这只是又一件事而已。
+
+00:44:19.980 --> 00:44:26.190
+<v David   Kestenbaum>Selena Ross. She's a reporter in Montreal.
+<v David   Kestenbaum>塞莱娜·罗斯。她是蒙特利尔的一名记者。
+
+00:44:26.190 --> 00:44:54.410
+<v David Kestenbaum>Act four, Period Drama. So a couple of weeks ago, when we were having our story meeting for the show, Diane mentioned this thing. She said a friend of hers had told her that there's basically no good scientific evidence for menstrual syncing. This is this idea that when a bunch of women spend time together, their periods tend to sync up. And when she said that, every woman in the room was like, what? Of course, that's true.
+<v David Kestenbaum>第四幕，月经剧（Period Drama）。所以两周前，当我们开故事会的时候，戴安提到了这件事。她说她的一位朋友告诉她，基本没有良好的科学证据支持“月经同步”。这个想法是，当一群女性在一起相处时，她们的月经往往会同步。当她说那句话时，房间里的每个女人都说，什么？那当然是真的。
+
+00:44:54.410 --> 00:45:07.970
+<v David Kestenbaum>This was not something that was on Diane's list of seven things she needed to know, but all of a sudden, it was on everyone else's list. So we sent her off to find the answers. Is it really not true? And if it isn't true, why does everyone still believe it's true? Here's Diane.
+<v David Kestenbaum>这不是戴安清单上那七件她需要知道的事情之一，但突然之间，它出现在了每个人的清单上。所以我们派她去寻找答案。它真的不是真的吗？如果不是真的，为什么每个人仍然相信它是真的？这里是戴安。
+
+00:45:07.970 --> 00:45:29.760
+<v Diane Wu>When I mentioned this to my coworkers, a lot of them had stories about how period syncing had happened to them. Someone said, but wait, my whole swim team was synced up in high school, or the girls in my friends' dorms made t-shirts that said, we cycle together. To many women, it's a natural fact, and it's hard to believe otherwise.
+<v Diane Wu>当我向同事们提起这件事时，他们中的很多人都有关于月经同步发生在他们身上的故事。有人说，等等，我高中的整个游泳队都同步了，或者我朋友宿舍里的女孩们做了T恤，上面写着“我们一起周期”。对许多女性来说，这是一个自然事实，很难相信除此之外的其他情况。
+
+00:45:29.760 --> 00:45:43.760
+<v Diane Wu>Just a few weeks ago, I went to a dorm room and talked to two roommates-- Rebecca and Saskia. They're juniors. They live in a double on the first floor. It has bunk beds, a giant thrift store rug, little plants, and a birdcage decorating the windows.
+<v Diane Wu>就在几周前，我走进一个宿舍房间，采访了两位室友——丽贝卡（Rebecca）和萨斯基亚（Saskia）。她们是大三学生。她们住在底楼的一个双人间。里面有双层床，一张巨大的旧货店地毯，几盆小植物，还有一个装饰着窗户的鸟笼。
+
+00:45:43.760 --> 00:45:44.960
+<v Rebecca>Our aesthetic is wood nymph.
+<v Rebecca>我们的美学是“林中仙子”（wood nymph）。
+
+00:45:44.960 --> 00:45:45.720
+<v Saskia>Wood nymph.
+<v Saskia>林中仙子。
+
+00:45:45.720 --> 00:45:46.970
+<v Rebecca>We came up with that one.
+<v Rebecca>我们想出的那个。
+
+00:45:46.970 --> 00:45:49.440
+<v Saskia>Yeah, it was invented-- we came up with it because--
+<v Saskia>是的，它是被发明的——我们想出它是为了——
+
+00:45:49.440 --> 00:45:56.510
+<v Diane Wu>They're best friends. Freshman year, when they both had singles, Saskia would sleep over in Rebecca's room most nights. They're always together.
+<v Diane Wu>她们是最好的朋友。大一时，当她们都有单人间时，萨斯基亚大多数晚上都会在丽贝卡的房间过夜。她们总是待在一起。
+
+00:45:56.510 --> 00:45:59.860
+<v Rebecca>Like, Sas and I move as a unit. So like--
+<v Rebecca>比如，萨斯和我像一个单位一样行动。所以——
+
+00:45:59.860 --> 00:46:04.310
+<v Saskia>Yeah, we're known as a duo. But we spend pretty much all our time together.
+<v Saskia>是的，我们被称为二人组。但我们几乎所有时间都待在一起。
+
+00:46:04.310 --> 00:46:06.990
+<v Rebecca>I mean, we have friends outside of each other, so like, if I have--
+<v Rebecca>我的意思是，我们除了彼此之外还有朋友，所以比如，如果我有——
+
+00:46:06.990 --> 00:46:08.540
+<v Saskia>But mostly, our friends are together, yeah.
+<v Saskia>但主要来说，我们的朋友是在一起的，是的。
+
+00:46:08.540 --> 00:46:12.290
+<v Diane  Wu>Are your periods synced right now?
+<v Diane  Wu>你们的月经现在同步吗？
+
+00:46:12.290 --> 00:46:18.750
+<v Rebecca>Currently, Sas is on her period, and I'm not. But that's because mine is being kind of weird this month, so--
+<v Rebecca>目前，萨斯在经期，而我不在。但那是由于我的这个月有点奇怪，所以——
+
+00:46:18.750 --> 00:46:21.180
+<v Saskia>Last month, we were, like a week apart.
+<v Saskia>上个月，我们是一个星期差。
+
+00:46:21.180 --> 00:46:23.270
+<v Diane Wu>Are your periods usually synced?
+<v Diane Wu>你们的月经通常是同步的吗？
+
+00:46:23.270 --> 00:46:26.880
+<v Rebecca>I mean, I think-- see, I feel like we do have them synced.
+<v Rebecca>我的意思是，我觉得——你看，我觉得我们确实同步了。
+
+00:46:26.880 --> 00:46:29.050
+<v Saskia>Yeah, sometimes. Sometimes. But--
+<v Saskia>是的，有时候。有时候。但是——
+
+00:46:29.050 --> 00:46:32.850
+<v Rebecca>I think you get excited if you think you're synced. At least I do.
+<v Rebecca>我想如果你认为你们同步了，你会很兴奋。至少我是这样。
+
+00:46:32.850 --> 00:46:33.600
+<v Saskia>Bex does.
+<v Saskia>贝克斯（Bex）是这样。
+
+00:46:33.600 --> 00:46:36.450
+<v Rebecca>Yeah, I get so excited if I'm synced with you or with Mina.
+<v Rebecca>是的，如果我和你或者米娜（Mina）同步了，我会很兴奋。
+
+00:46:36.450 --> 00:46:37.420
+<v Saskia>Yeah.
+<v Saskia>是的。
+
+00:46:37.420 --> 00:46:38.400
+<v Rebecca>I think it's fun.
+<v Rebecca>我觉得这很有趣。
+
+00:46:38.400 --> 00:46:40.690
+<v Saskia>I think that's just reflective of our personalities.
+<v Saskia>我想这只是我们性格的体现。
+
+00:46:40.690 --> 00:46:46.500
+<v Diane  Wu>I asked them if they'd heard of any scientific explanations for period syncing.
+<v Diane  Wu>我问她们是否听说过关于月经同步的任何科学解释。
+
+00:46:46.500 --> 00:46:57.200
+<v Rebecca>Like, kind of like the way the tides of the water vibe with the moon, you know? Like, maybe it's this similar type of thing with women's bodies. I don't know. I'm not giving a good scientific reason.
+<v Rebecca>比如，就像水的潮汐与月亮产生共鸣一样，你知道？比如，也许女性身体也有类似的东西。我不知道。我没能给出一个好的科学理由。
+
+00:46:57.200 --> 00:47:09.170
+<v Saskia>Well, I remember someone once told me that it had to do with your hormones interacting, or something like that, but I don't really-- I mean, I have no idea. And also, I feel like that was probably from a Cosmo snap story.
+<v Saskia>嗯，我记得有人曾经告诉我，这与你的激素相互作用有关，或者类似的东西，但我真的——我的意思是，我不知道。而且，我觉得那可能是来自《柯梦波丹》（Cosmo）的快拍故事。
+
+00:47:09.170 --> 00:47:21.110
+<v Rebecca>I think it's like, when you hang out with someone for a long time and chill with them. And then it's a sign that you guys have been hanging out a ton-- you know, that it means you're tight with somebody. I don't know, it's just--
+<v Rebecca>我觉得这就像，当你和某人相处很长时间并在一起消磨时光时。然后这表明你们相处得很好——你知道，这意味着你和某人关系很亲密。我不知道，它只是——
+
+00:47:21.110 --> 00:47:25.180
+<v Saskia>Your body knows.
+<v Saskia>你的身体知道。
+
+00:47:25.180 --> 00:47:28.350
+<v Rebecca>Your body knows.
+<v Rebecca>你的身体知道。
+
+00:47:28.350 --> 00:47:45.450
+<v Diane Wu>Before I tell you why period syncing might not be real, I have to tell you why it was real in the first place. The story of how it became so popular also starts in a college dorm-- at Wellesley College, back in the late '60s. There was a student, Martha McClintock, who had this chore in her shared bathroom.
+<v Diane Wu>在我告诉你为什么月经同步可能不是真实之前，我必须告诉你为什么它最初看起来是真实的。关于它如何变得如此流行的故事也始于大学宿舍——在卫斯理学院（Wellesley College），早在60年代后期。有一个学生，玛莎·麦克林托克（Martha McClintock），在共享浴室里负责这项家务。
+
+00:47:45.450 --> 00:47:59.350
+<v Martha  Mcclintock>Well, actually, what it was was I had a job stocking Tampax and Kotex. And I just noticed, people would seem to-- there'd be a run on Kotex and Tampax.
+<v Martha  Mcclintock>嗯，事实上，我的工作是补充卫生棉条和卫生巾。我只是注意到，人们似乎会——卫生巾和卫生棉条会遭遇抢购。
+
+00:47:59.350 --> 00:48:02.550
+<v Diane  Wu>Mm-hm, all at the same time?
+<v Diane  Wu>嗯嗯，都在同一时间？
+
+00:48:02.550 --> 00:48:07.860
+<v Martha Mcclintock>Yeah. I mean, that was just an experience I filed away.
+<v Martha Mcclintock>是的。我的意思是，那只是我记录下来的一个经历。
+
+00:48:07.860 --> 00:48:30.060
+<v Diane Wu>Period syncing wasn't the familiar idea it is today. Women might have noticed their periods overlapping, but it wasn't a whole phenomenon that everybody knew about. It didn't have an official name. So Martha didn't attach any significance to her observation. It was just a little note she'd made about the world-- that a lot of woman living in her dorm had their periods at the same time.
+<v Diane Wu>月经同步并不是像今天这样大家熟悉的想法。女性可能注意到她们的月经重叠了，但这并不是每个人都知道的整个现象。它没有正式名称。所以玛莎并没有给她的观察赋予任何意义。它只是她对世界做的一个小记录——住在一起的很多女性在同一时间来月经。
+
+00:48:30.060 --> 00:48:55.420
+<v Diane Wu>She was studying biology and spent a summer doing research at a laboratory in Maine. The researchers would hold these lunchtime talks. Martha would usually be the only woman in the room, and she sat with the other undergrads in the back. During one of these lunches, some scientists were talking about how groups of female mice could affect one another's ovulation. It reminded Martha of the pattern she'd seen with how her suite mates used up all the Tampax at the same time.
+<v Diane Wu>她当时在学习生物学，并在缅因州的一个实验室做了一个夏天的研究。研究人员会举行午餐讲座。玛莎通常是房间里唯一的女性，她和其他本科生坐在后排。在这些午餐中的一次，一些科学家在谈论雌性老鼠群如何相互影响排卵。这让玛莎想起了她在宿舍套房里看到的模式——人们如何同时用光了卫生棉条。
+
+00:48:55.420 --> 00:49:25.500
+<v Martha Mcclintock>So there was this young woman, undergrad, sitting in the very edge of the group. And I said that women can show a pattern like that. And I still remember, they turned and looked at me. And they said, what do you mean? And then I had to say menstruation in front of this group of predominantly men and plus people I really admired, you know?
+<v Martha Mcclintock>所以有一个年轻的女人，本科生，坐在小组的最边缘。我说女性可以表现出那样的模式。我还记得，他们转过头看着我。他们说，你是什么意思？然后我不得不在这群主要是男人以及我非常钦佩的人面前说“月经”，你知道吗？
+
+00:49:25.500 --> 00:49:27.130
+<v Diane  Wu>Yeah.
+<v Diane  Wu>是的。
+
+00:49:27.130 --> 00:49:53.400
+<v Martha Mcclintock>My heart was pounding. And they said, you can't say that without scientific evidence to back it up. And I just didn't say anything back. Then when I got back to Wellesley, I talked with my advisor, Patsy Sampson. And she said, well, why don't you collect the data? So I did.
+<v Martha Mcclintock>我的心怦怦直跳。他们说，没有科学证据支持你不能那样说。而我当时什么都没反驳。回到卫斯理学院后，我和我的导师帕特西·桑普森（Patsy Sampson）谈了谈。她说，嗯，你为什么不收集数据呢？于是我做了。
+
+00:49:53.400 --> 00:50:16.900
+<v Diane Wu>Martha collected the data from the women in her dorm. She asked about the start dates of everyone's periods between October and March. Then she looked at three groups of women-- roommates, closest friends-- these were women who listed each other as closest friends, the sad cases where only one woman thought they were closest friends didn't count for the study-- and random pairs.
+<v Diane Wu>玛莎从宿舍的女性那里收集了数据。她询问了10月到3月间每个人月经的开始日期。然后她查看了三组女性——室友、最亲密的朋友——这些是把彼此列为最亲密朋友的女性，只有一个人认为她们是最亲密朋友的伤感案例不计入研究——以及随机配对。
+
+00:50:16.900 --> 00:50:38.150
+<v Diane Wu>What Martha found was this. The random pairs didn't change significantly over the school year, but the closest friends and roommates, their periods got closer together. In October, when they'd only been at school together a little while, their periods started around nine days apart. By March, the difference had dropped to around five days.
+<v Diane Wu>玛莎发现的是这一点。随机配对在整个学年中没有显著变化，但最亲密的朋友和室友，她们的月经周期变得更接近了。在10月份，当她们在一起上学才没多久时，她们的月经间隔大约是9天。到了3月份，差异已经降到了大约5天。
+
+00:50:38.150 --> 00:50:41.810
+<v Martha Mcclintock>And I called that synchrony of their menstrual cycles.
+<v Martha Mcclintock>我把那称为她们月经周期的同步。
+
+00:50:41.810 --> 00:51:18.820
+<v Diane Wu>Menstrual synchrony-- it was the first time the idea had been given a scientific name. She published her results in the journal Nature in 1971, this study of 135 women in a dorm, and it was an instant sensation. Martha's work was exciting to scientists because it suggested that just hanging out with another person could change your body's clockwork. It had been recently discovered that insects and mice could send chemical signals to each other through the air, these things called pheromones. And Martha's paper opened up the possibility that maybe we, too, were sending messages in this secret new dimension.
+<v Diane Wu>月经同步——这是这个想法第一次被赋予科学名称。她于1971年在《自然》杂志上发表了她的结果，这项针对135名宿舍女性的研究引发了轰动。玛莎的工作之所以让科学家感到兴奋，是因为它表明仅仅与另一个人相处就能改变你身体的节奏。人们最近才发现，昆虫和老鼠可以通过空气相互发送化学信号，这些东西被称为信息素。玛莎的论文开启了这样一种可能性：也许我们也在某种秘密的新维度中发送信息。
+
+00:51:18.820 --> 00:51:31.800
+<v Martha Mcclintock>We didn't know whether it was pheromones or not. It's just that, gee, who we spend time with is affecting something that is deeply biological.
+<v Martha Mcclintock>我们不知道那是不是信息素。只是，天哪，我们和谁在一起确实影响着某种极其生物学的东西。
+
+00:51:31.800 --> 00:51:37.290
+<v Diane Wu>I imagine it would make me feel like my body is much more porous to the outside environment than I thought.
+<v Diane Wu>我想这会让我觉得我的身体比我想象的更容易受到外界环境的影响。
+
+00:51:37.290 --> 00:51:49.020
+<v Martha Mcclintock>Exactly. That was the main point. Our bodies are much more porous than people had thought.
+<v Martha Mcclintock>正是如此。这就是主要观点。我们的身体比人们想象的更具多孔性。
+
+00:51:49.020 --> 00:52:12.800
+<v Diane  Wu>Other scientists began conducting their own period syncing studies. Among lesbians, and sisters, and coworkers, and teammates, and rats, and tamarinds, and hamsters, and chimps, scientists, including Martha, tried to figure out how these pheromones were getting from one person to another by putting cotton balls under one woman's armpit then under another woman's nose.
+<v Diane  Wu>其他科学家开始进行他们自己的月经同步研究。在女同性恋、姐妹、同事、队友、老鼠、狨猴、仓鼠和黑猩猩之间，包括玛莎在内的科学家们试图通过把棉球放在一个女人的腋下，然后放在另一个女人的鼻下来弄清楚这些信息素是如何从一个人传到另一个人的。
+
+00:52:12.800 --> 00:52:25.200
+<v Diane  Wu>And at the same time menstrual synchrony was gaining traction in science, it was filtering into the culture. Period syncing started coming up in movies, magazines, TV. Here's a scene from the show Married with Children.
+<v Diane  Wu>与此同时，月经同步在科学界获得关注，它也渗透到了文化中。月经同步开始出现在电影、杂志、电视中。这是《奉子成婚》（Married with Children）剧中的一幕。
+
+00:52:25.200 --> 00:52:25.840
+<v Al>Oh, no.
+<v Al>噢，不。
+
+00:52:25.840 --> 00:52:27.590
+<v Steve>What is it, Al?
+<v Steve>怎么了，阿尔（Al）？
+
+00:52:27.590 --> 00:52:33.330
+<v Al>Periods, Steve. Three of them.
+<v Al>月经，史蒂夫（Steve）。三个。
+
+00:52:33.330 --> 00:52:33.890
+<v Al>[LAUGHTER]
+<v Al>[笑声]
+
+00:52:33.890 --> 00:52:48.480
+<v Diane Wu>It's from an episode where all the women on a camping trip sync up, attracting bears and ruining it for the guys. There's a lot of that kind of stuff-- male characters who think they're really hilarious making jokes about periods.
+<v Diane Wu>来自一集，所有女性在露营旅行中同步了，引来了熊并破坏了男人们的兴致。有很多这种类型的东西——自以为很幽默，拿月经开玩笑的男性角色。
+
+00:52:48.480 --> 00:53:14.030
+<v Diane Wu>The dad in My Wife and Kids calls it DEFCON 2 when his wife and daughters sync up. A scene in the rom-com No Strings Attached where Ashton Kutcher brings cupcakes to an apartment full of menstruating women. There's an episode of Charmed where the witches sync up, and it messes with their magic. In Sex and the City, Samantha thinks she might be starting menopause because she's out of sync with her friends. And then there's Dwight Schrute on The Office, peering into a conference room full of women.
+<v Diane Wu>《我的老婆和孩子》（My Wife and Kids）里的父亲把妻子和女儿同步称为DEFCON 2（二级戒备状态）。浪漫喜剧《不求回报》（No Strings Attached）中，艾什顿·库彻（Ashton Kutcher）给满屋子正来月经的女性带了纸杯蛋糕。在《圣女魔咒》（Charmed）的一集中，女巫们同步了，这干扰了她们的魔法。在《欲望都市》（Sex and the City）中，萨曼莎（Samantha）以为她可能开始更年期了，因为她和朋友们不同步了。还有《办公室》（The Office）里的德怀特·舒特（Dwight Schrute），正盯着一会议室的女性。
+
+00:53:14.030 --> 00:53:20.970
+<v Dwight Schrute>They stay in there too long, they're going to get on the same cycle, wreak havoc on our plumbing.
+<v Dwight Schrute>如果她们待在里面太久，她们的周期就会同步，把我们的管道搞坏。
+
+00:53:20.970 --> 00:53:37.090
+<v Diane  Wu>By the '90s, Martha had become a tenured professor at the University of Chicago, running a lab that studied how behavior and environment affect reproduction. And everything was going great until a paper came out that challenged the existence of period syncing.
+<v Diane  Wu>到了90年代，玛莎已经成为芝加哥大学的终身教授，负责一个研究行为和环境如何影响生殖的实验室。一切进展都很顺利，直到一篇论文挑战了月经同步的存在。
+
+00:53:37.090 --> 00:53:39.970
+<v Jeff Schank>I know she wasn't very happy about that paper.
+<v Jeff Schank>我知道她对那篇论文很不高兴。
+
+00:53:39.970 --> 00:53:54.900
+<v Diane Wu>That's Jeff Schank. He was a post-doc in Martha's lab when that paper was published in 1992. It was by an anthropologist named Clyde Wilson. Martha had Jeff look through it to see if they could write a rebuttal together. Jeff thought it would be easy to find errors.
+<v Diane Wu>那是杰夫·尚克（Jeff Schank）。那篇论文于1992年发表时，他是玛莎实验室的博士后。它是由一位名叫克莱德·威尔逊（Clyde Wilson）的人类学家写的。玛莎让杰夫仔细查看它，看看他们能否一起写一份反驳意见。杰夫以为很容易找到错误。
+
+00:53:54.900 --> 00:54:13.460
+<v Jeff Schank>My mindset was, I'll figure out what the flaws are. I thought I had discovered some issues, but then the more that I would think about it, the more I thought, yeah, I think he's right about that. I became increasingly convinced that he was quite correct.
+<v Jeff Schank>我的心态是，我要找出其中的缺陷。我以为我发现了一些问题，但后来我想得越多，就越觉得，是的，我认为他在那一点上说得对。我越来越相信他是非常正确的。
+
+00:54:13.460 --> 00:54:42.960
+<v Diane Wu>The argument Jeff found the most persuasive was that a woman's period isn't the same length every month-- it might be 30 days one month, 24 days the next. And because of that, when you compare two women's periods, it might look like they're starting to get closer together, but it's really just chance. To account for this random thinking, you'd need either a really large sample of women or to run your experiment over a long time. Martha's paper didn't have either of these.
+<v Diane Wu>杰夫发现最有说服力的论点是，女性的月经每个月长度不一样——这个月可能是30天，下个月24天。正因为如此，当你比较两个人的月经时，看起来她们开始变得更接近，但那实际上只是巧合。为了解释这种随机思考，你需要一个非常大的样本量或者长期运行你的实验。玛莎的论文两者都不具备。
+
+00:54:42.960 --> 00:54:55.470
+<v Diane Wu>There were other problems, too. Jeff was convinced by Wilson's arguments, and that made him uncomfortable. He had spent almost six years on work he was now learning had rested on a faulty assumption. He started to worry--
+<v Diane Wu>还有其他问题。杰夫被威尔逊的论点说服了，这让他感到不安。他在自己现在认为基于错误假设的工作上花了近六年时间。他开始担心——
+
+00:54:55.470 --> 00:55:07.700
+<v Jeff Schank>--that what I had done was wrong, was inaccurate. What do I do about the fact that I don't any longer think that this phenomenon exists?
+<v Jeff Schank>——我所做的是错误的，是不准确的。对于我不再认为这种现象存在这一事实，我该怎么办？
+
+00:55:07.700 --> 00:55:13.220
+<v Diane Wu>He told Martha that he couldn't help her write a rebuttal, that Clyde Wilson had actually gotten it right.
+<v Diane Wu>他告诉玛莎他没法帮她写反驳意见，克莱德·威尔逊实际上说对了。
+
+00:55:13.220 --> 00:55:38.770
+<v Jeff Schank>After I said, I can't go ahead with this because I think there are some real issues, we never talked much at all since then. I don't know. I felt a mixture of guilt about, I guess, not being able to find some errors. And also, I guess that was mixed with some-- I was just upset.
+<v Jeff Schank>在我说我不能继续下去因为我认为存在一些真正的问题后，从那以后我们就没怎么说过话了。我不知道。我感到一种混合了对自己没能找出一些错误的愧疚感，我想。而且，我想那与某种——我只是很难过。
+
+00:55:38.770 --> 00:55:46.970
+<v Diane  Wu>Jeff went on to publish a bunch of papers debunking other synchrony studies, showing one by one that their results could all be explained by chance.
+<v Diane  Wu>杰夫继续发表了一系列揭穿其他同步研究的论文，一一表明它们的结果都可以用巧合来解释。
+
+00:55:46.970 --> 00:55:54.110
+<v Diane  Wu>A lot of the critiques of the idea of menstrual synchrony have been presented by men, including you.
+<v Diane  Wu>许多对月经同步想法的批评是由男性提出的，包括你。
+
+00:55:54.110 --> 00:55:54.740
+<v Jeff Schank>Yeah.
+<v Jeff Schank>是的。
+
+00:55:54.740 --> 00:55:58.950
+<v Diane Wu>What do you make of that?
+<v Diane Wu>你对此有何看法？
+
+00:55:58.950 --> 00:56:16.720
+<v Jeff Schank>Yeah. I mean, that's interesting. I have personally thought about that. You know, I felt kind of funny that I'm a male criticizing it. All I can say is that, originally, I really wanted it to exist.
+<v Jeff Schank>是的。我的意思是，那很有趣。我个人思考过这一点。你知道，作为一个批评它的男性，我感觉有点奇怪。我唯一能说的是，最初我真的希望它存在。
+
+00:56:16.720 --> 00:56:28.660
+<v Diane  Wu>I asked Martha about all this. And despite all the evidence to the contrary, she still maintains that menstrual synchrony does exist.
+<v Diane  Wu>我问玛莎关于这一切的看法。尽管有相反的证据，她仍然坚持认为月经同步确实存在。
+
+00:56:28.660 --> 00:56:39.990
+<v Martha Mcclintock>You can't just make a blanket statement of, it doesn't exist. It is a good question to ask, when do you observe it?
+<v Martha Mcclintock>你不能只是做一个“它不存在”的一概而论。这是一个很好的问题，你什么时候观察到它？
+
+00:56:39.990 --> 00:57:02.160
+<v Diane  Wu>The answer to that question may be never, but Martha stands by her original study. I went back and forth with her, trying to understand her arguments. Her main one is that maybe syncing can only be measured in just the right conditions. But nobody's identified what these conditions mighg be-- not Martha, not any of the later researchers.
+<v Diane  Wu>那个问题的答案可能是永远不会，但玛莎坚持她的原始研究。我和她进行了反复的交流，试图理解她的论点。她的主要论点是，也许同步只能在特定的条件下测量。但没有人确定这些条件可能是什么——不是玛莎，也不是任何后来的研究人员。
+
+00:57:02.160 --> 00:57:07.740
+<v Diane  Wu>I brought a copy of one of Jeff's papers to show Rebecca and Saskia back in their wood-nymphy dorm room.
+<v Diane  Wu>我带了一份杰夫的论文拷贝，给在“林中仙子”宿舍里的丽贝卡和萨斯基亚看。
+
+00:57:07.740 --> 00:57:15.900
+<v Rebecca>Oh yeah, it's a very intense title-- "Women Do Not Synchronize Their Menstrual Cycles. And it's widely believed that women who live together or who are close friends--"
+<v Rebecca>噢，是的，标题非常强烈——“女性不会同步她们的月经周期”。“而且人们普遍认为住在一起或关系亲密的女性——”
+
+00:57:15.900 --> 00:57:21.690
+<v Diane Wu>Rebecca read the abstract with her eyebrows furrowed. She'd wanted menstrual synchrony to be real.
+<v Diane Wu>丽贝卡皱着眉头读着摘要。她曾希望月经同步是真的。
+
+00:57:21.690 --> 00:57:31.990
+<v Rebecca>Does it matter to me? Probably not, honestly. I don't think it does. I think I'll still probably get excited about it. So it doesn't really matter if there's, like, a study about it.
+<v Rebecca>这对我重要吗？说实话，可能不。我不认为它很重要。我想我还是会为此感到兴奋。所以即使有关于它的研究也不重要。
+
+00:57:31.990 --> 00:57:43.050
+<v Saskia>Because I think the joy is just thinking that you guys are on the same schedule and having that moment of closeness. So it doesn't really matter if it's actually your hormones, or if it's just chance that you guys are synced.
+<v Saskia>因为我认为乐趣就在于认为你们处在同一个时间表上，并拥有那种亲密的时刻。所以即使那实际上不是你们的荷尔蒙，或者你们只是巧合地同步了，也无关紧要。
+
+00:57:43.050 --> 00:57:49.720
+<v Rebecca>I'd probably think someone was an asshole if I was like, oh, we're synced up, and they were like, actually, scientifically, that's inaccurate, or whatever.
+<v Rebecca>如果我说，哦，我们同步了，然后对方说，实际上，科学上这不准确，之类的，我觉得那个人会是个混蛋。
+
+00:57:49.720 --> 00:57:50.260
+<v Saskia>Yeah.
+<v Saskia>是的。
+
+00:57:50.260 --> 00:57:56.880
+<v Rebecca>So like-- but I mean, I guess now, I can't say-- now, I'll be a fraud if I'm like, oh, we're syncing up, because--
+<v Rebecca>所以——但我的意思是，现在，我不能说——现在，如果我再说“哦，我们同步了”，我就是个骗子了，因为——
+
+00:57:56.880 --> 00:58:00.730
+<v Saskia>Well, you could still say that you were synced, AKA you're having your period at the same time.
+<v Saskia>嗯，你仍然可以说你们是同步的，也就是你们在同一时间来月经。
+
+00:58:00.730 --> 00:58:02.470
+<v Rebecca>True. True, true, true.
+<v Rebecca>真的。真的，真的。
+
+00:58:02.470 --> 00:58:21.280
+<v Diane Wu>I hate to be that asshole saying period syncing is scientifically inaccurate, but here I am. There isn't any good evidence for period syncing. Everyone in this story wanted it to be true, even Jeff, the guy who worked on disproving it, which is a feeling I understand.
+<v Diane Wu>我讨厌成为那个说月经同步在科学上不准确的混蛋，但我现在就是。月经同步没有任何良好的证据支持。这个故事里的每个人都希望它是真的，甚至是杰夫，那个致力于驳斥它的人，这种感觉我理解。
+
+00:58:21.280 --> 00:58:49.050
+<v Diane Wu>When I was a chemist, I was always surprised by how much wishing I did in the lab. I spent weeks trying to cook up these little nanoparticles that hardly ever came out the way I needed them to. And every time I went to check my latest batch, in that moment just before I looked in the microscope, just before I found out if I'd finally gotten them right-- that was probably the closest I've ever come to praying. It's the exact opposite of how I thought science was supposed to work.
+<v Diane Wu>当我还是一名化学家时，我总是对自己实验室里做了那么多愿望祈祷感到惊讶。我花了数周时间试着制造这些纳米颗粒，但它们几乎从来没有按照我需要的方式出现。每次我去检查最新一批时，在看到显微镜的那一刻，在得知我终于做对之前——那可能是我有史以来最接近祈祷的时刻。这与我所认为的科学应该运作的方式恰恰相反。
+
+00:58:49.050 --> 00:59:04.120
+<v David  Kestenbaum>Diane Wu is one of the producers of our program.
+<v David  Kestenbaum>戴安·吴是我们节目的制片人之一。
+
+00:59:04.120 --> 00:59:23.180
+<v David  Kestenbaum>Our show was produced today by Dana Chivvis. Our staff includes Elna Baker, Susan Burton, Zoe Chace, Sean Cole, Whitney Dangerfield, Neil Drumming, Stephanie Foo, Chana Joffe-Walt, BA Parker, Robyn Semien, Christopher Swetala, Matt Tierney, Julie Whitaker, and Diane Wu. Our senior producer is Brian Reed. Music help from Damien Graef.
+<v David  Kestenbaum>我们的节目今天由达纳·奇维斯（Dana Chivvis）制作。我们的团队包括埃尔娜·贝克（Elna Baker）、苏珊·伯顿（Susan Burton）、佐伊·蔡斯、肖恩·科尔（Sean Cole）、惠特尼·丹杰菲尔德（Whitney Dangerfield）、尼尔·德拉明（Neil Drumming）、斯蒂芬妮·傅（Stephanie Foo）、查纳·乔夫-沃尔特（Chana Joffe-Walt）、BA帕克（BA Parker）、罗宾·塞米恩（Robyn Semien）、克里斯托弗·斯威塔拉（Christopher Swetala）、马特·蒂尔尼（Matt Tierney）、朱莉·惠特克（Julie Whitaker）和戴安·吴。我们的高级制片人是布莱恩·里德（Brian Reed）。音乐协助：达米恩·格拉夫（Damien Graef）。
+
+00:59:23.180 --> 00:59:37.490
+<v David  Kestenbaum>[ACKNOWLEDGEMENTS]
+<v David  Kestenbaum>[鸣谢]
+
+00:59:37.490 --> 00:59:52.620
+<v David  Kestenbaum>Our website, ThisAmericanLife.org. This American Life is delivered to public radio stations by PRX, the Public Radio Exchange. Thanks to our boss, Ira Glass. He told me, when you're hosting the show, it's really just one thing you've got to remember.
+<v David  Kestenbaum>我们的网站，ThisAmericanLife.org。《美国生活》由公共广播交流电台（PRX）分发至公共广播电台。感谢我们的老板，艾拉·格拉斯。他告诉我，当你主持节目时，这真的是你要记住的一件事。
+
+00:59:52.620 --> 00:59:53.970
+<v Rebecca>Our aesthetic is wood nymph.
+<v Rebecca>我们的美学是“林中仙子”。
+
+00:59:53.970 --> 00:59:58.970
+<v David Kestenbaum>I'm David Kestenbaum. Join us next week for more stories of This American Life.
+<v David Kestenbaum>我是大卫·凯斯滕鲍姆。下周欢迎收听更多《美国生活》的故事。

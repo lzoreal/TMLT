@@ -1,0 +1,1605 @@
+WEBVTT
+
+00:00:00.780 --> 00:00:30.310
+<v Ira Glass>So, you may have heard that last week, Starbucks closed down all of their US stores so they could do this big racial bias training program for everybody who worked at Starbucks-- the same training at every store Starbucks owns, 8,000 stores, over 175,000 people-- a very eccentric corporate move that the company embarked on after an incident in Starbucks in Philadelphia in April that you probably heard about. Two African-American men were sitting there, calmly waiting for a friend. The manager called the police, who arrested them as customers asked why.
+<v Ira Glass>可能您已经听说，上周星巴克关闭了美国所有门店，以便为星巴克的所有员工开展一项大型种族偏见培训计划——星巴克旗下的所有8,000家门店、超过17.5万名员工都参加了同样的培训。这是一次非常独特的企业举措，起因是4月份在费城的一家星巴克发生的事件，您可能已经听说了。两名非裔美国男子当时坐在那里，静静地等待一位朋友。经理报了警，警察逮捕了他们，而其他顾客询问原因。
+
+00:00:30.310 --> 00:00:33.990
+<v Man>Well, what did they do? What did they do? Someone tell me what they did.
+<v Man>那么，他们做了什么？他们到底做了什么？谁来告诉我他们做了什么。
+
+00:00:33.990 --> 00:00:35.640
+<v Woman>They didn't do anything. I saw the entire thing.
+<v Woman>他们什么都没做。我目睹了全过程。
+
+00:00:35.640 --> 00:00:49.770
+<v Ira Glass>Here's what they did. They wanted to use the bathroom, but they hadn't bought anything. The manager said no. She asked them to leave. When they wouldn't leave, because they were there to meet somebody, the manager called the police.
+<v Ira Glass>事情是这样的。他们想用洗手间，但没买任何东西。经理拒绝了，并要求他们离开。当他们因为要等人而不愿离开时，经理就报了警。
+
+00:00:49.770 --> 00:01:20.880
+<v Ira Glass>Two days after this, the company said that what happened was reprehensible, that calling the police was completely inappropriate, that the company stands firmly against racial profiling. And then it went further and announced this training, which would shut down the stores for half a day and cost them tens of millions of dollars. That is not what companies normally do. Normally, when this kind of thing happens, companies either deny they did anything wrong, or they accept they did something wrong, and then they move on. Like, they move on quickly. Moving on quickly is the key.
+<v Ira Glass>两天后，星巴克公司表示所发生的事情令人无法接受，报警是完全不恰当的行为，公司坚决反对种族定性。不仅如此，公司还宣布了这项培训，为此关闭门店半天并耗资数千万美元。这不是公司通常的做法。通常情况下，发生此类事件时，公司要么否认有任何不当行为，要么承认错误，然后迅速翻篇。迅速翻篇是关键。
+
+00:01:20.880 --> 00:01:47.910
+<v Ira Glass>But here, Starbucks was taking this incident that was bad press for them from the start and they decided to kind of own it and sit with it and live in it. And they more or less declared, we have a problem with racism in this country. And our answer to Philadelphia is that Starbucks is not only going to try to fix its own racism problem, it's going to try to help fix America's racism problem, too-- which, I have to say, is basically just inviting people from all sides to criticize them.
+<v Ira Glass>但在这里，星巴克选择直面这起从一开始就对他们不利的负面新闻，决定承担责任、深入反思并坦然处之。他们基本上宣布：这个国家存在种族主义问题。我们对费城事件的回应是，星巴克不仅要试图解决自身存在的种族主义问题，还要试图帮助解决美国的种族主义问题——我不得不说，这基本上就是在邀请各方来批评他们。
+
+00:01:47.910 --> 00:02:01.220
+<v Ira Glass>And then the thing that they do is the biggest implicit bias training that's happened ever in all time. People argue about the effectiveness of implicit bias training anyway. I'm just trying to say, Starbucks made a very unusual choice.
+<v Ira Glass>他们所做的是有史以来规模最大的隐性偏见培训。人们一直在争论隐性偏见培训的有效性。我只是想说，星巴克做出了一个非常不寻常的选择。
+
+00:02:01.220 --> 00:02:13.420
+<v Ira Glass>Well, Kelefa Sanneh has been examining that choice for us. And he went to attend the training itself, which we're going to get to. Our show is the only journalistic outfit that Starbucks allowed to attend one of these trainings, and we did record there. That's coming up.
+<v Ira Glass>凯莱法·萨内一直在为我们考察这一选择。他去参加了培训本身，我们稍后会讲到。我们的节目是星巴克唯一允许参加此类培训的媒体机构，我们也进行了现场录音。内容即将播出。
+
+00:02:13.420 --> 00:02:15.700
+<v Ira Glass>Kelefa is normally a staff writer for The New Yorker. Hey, Kelefa.
+<v Ira Glass>凯莱法通常是《纽约客》的特约撰稿人。你好，凯莱法。
+
+00:02:15.700 --> 00:02:16.420
+<v Kelefa Sanneh>Hey, Ira.
+<v Kelefa Sanneh>你好，艾拉。
+
+00:02:16.420 --> 00:02:28.980
+<v Ira Glass>OK, so the thing that I personally wonder about is, OK, in a purely practical way, if Starbucks wanted their employees to not do racist stuff or racial profile anybody anymore, a training like this seems so, like, squishy.
+<v Ira Glass>好的，我个人感到好奇的是，从纯粹实用的角度来看，如果星巴克想让员工不再做种族主义行为或对任何人进行种族定性，这种培训看起来太软弱无力了。
+
+00:02:28.980 --> 00:02:30.250
+<v Kelefa Sanneh>Mhm, yeah.
+<v Kelefa Sanneh>嗯，确实。
+
+00:02:30.250 --> 00:02:43.650
+<v Ira Glass>Who knows if this even works? Why not do the most old-fashioned thing out there? If they really care about this, why don't they just fire the manager, tell everybody else, OK, here's a new rule, do stuff like that, you lose your job, and then just call it a day?
+<v Ira Glass>谁知道这到底有没有用？为什么不做最老套的处理方式呢？如果他们真的在意这件事，为什么不直接解雇那个经理，告诉其他人：“好了，这是新规定，再做这种事就丢掉饭碗”，然后就此了结？
+
+00:02:43.650 --> 00:02:54.350
+<v Ira Glass>People were calling for them to fire the manager for a while. They were protests demanding that. And they didn't do it. Why do this experimental, weird thing instead? Why not just fire the racists?
+<v Ira Glass>人们呼吁解雇那个经理已经有一段时间了。当时还有要求解雇的抗议活动。但他们没有这样做。为什么要做这种实验性的、奇怪的事情呢？为什么不直接解雇那些种族主义者？
+
+00:02:54.350 --> 00:03:01.560
+<v Kelefa Sanneh>So I talked to Howard Schultz. He's the guy who built Starbucks-- basically the Steve Jobs of Starbucks-- about why they didn't do the simple thing.
+<v Kelefa Sanneh>所以我采访了霍华德·舒尔茨。他是建立星巴克的人——基本上就是星巴克的史蒂夫·乔布斯——关于他们为什么没做那件简单的事。
+
+00:03:01.560 --> 00:03:12.980
+<v Howard Schultz>Well, I think if you're asking, would it have been easier to fire the manager on the spot, I guess it would have been easier. But it's just not the way we view the culture and values of Starbucks.
+<v Howard Schultz>嗯，我想如果你问的是当场解雇那位经理是否更容易，我想确实更容易。但这并不是我们看待星巴克文化和价值观的方式。
+
+00:03:12.980 --> 00:03:35.560
+<v Howard Schultz>I felt strongly that this was not a time to blame one individual, that the policy was too much in a gray area. And we had not given the proper tools and resources for the manager to make the right decision. And ultimately, we were responsible, the company and myself. And that's the position we've taken.
+<v Howard Schultz>我强烈认为，现在不是责怪某个人的时候，而且当时政策的界限确实很模糊。我们没有为经理提供正确的工具和资源，让她做出正确的决定。最终，公司和我本人都负有责任。这就是我们采取的立场。
+
+00:03:35.560 --> 00:03:50.610
+<v Ira Glass>And just to be clear, the manager, at this point, is not working for Starbucks, though they will not say whether or not they fired her. The company said-- and this is a quote-- that it was a mutual decision for her to go. So when this happens, they don't make a show of firing her and setting new rules.
+<v Ira Glass>需要说明的是，那位经理目前已不在星巴克工作，尽管公司不愿透露是否解雇了她。公司表示——这是原话——她离开是双方共同作出的决定。所以当这种事情发生时，他们并没有大张旗鼓地解雇她并设定新规则。
+
+00:03:50.610 --> 00:04:04.810
+<v Kelefa Sanneh>No. Instead, the company says it's going to help lead this national conversation about race that we always hear about. I talked to Howard Schultz about this plan, this idealistic, optimistic vision of racial healing and progress. And actually, he got kind of defensive about it.
+<v Kelefa Sanneh>没有。相反，公司表示将帮助引导这场我们经常听到的关于种族的全国性对话。我和霍华德·舒尔茨谈到了这个计划，这个关于种族愈合与进步的理想主义、乐观愿景。实际上，他对此显得有些防御性。
+
+00:04:04.810 --> 00:04:05.990
+<v Ira Glass>Really?
+<v Ira Glass>真的吗？
+
+00:04:05.990 --> 00:04:16.350
+<v Kelefa Sanneh>Yeah. Like, when I asked him what seemed like a pretty obvious question about the Philadelphia thing-- I asked him, how often does this kind of thing happen in your stores? And he didn't know. He said Starbucks doesn't keep track.
+<v Kelefa Sanneh>是的。当我问他一个关于费城事件看似显而易见的问题时——我问他，这种情况在你们店里发生的频率有多高？他不知道。他说星巴克没有记录。
+
+00:04:16.350 --> 00:04:42.730
+<v Howard Schultz>If we're going to spend time on this call talking about how often police are called to Starbucks, I think it's not what we should be talking about. We should be talking about, what kind of country do we want to live in? And what can we do as a company, what can we do as citizens, to enhance the lives of all Americans? And I think it's a courageous step on our part to talk about a difficult subject.
+<v Howard Schultz>如果我们要在这次通话中花时间讨论警察被叫到星巴克的频率，我认为这不是我们应该讨论的内容。我们应该讨论的是，我们想生活在一个什么样的国家？作为一家公司，作为公民，我们能做些什么来改善所有美国人的生活？我认为我们谈论这个困难的话题是一个勇敢的步骤。
+
+00:04:42.730 --> 00:04:55.440
+<v Kelefa Sanneh>Howard Schultz loves these big, dramatic gestures. You might remember in 2008, during the Obama-McCain presidential race, Starbucks buys this ad on Saturday Night Live saying, if you vote, you can come into Starbucks, get a free cup of coffee.
+<v Kelefa Sanneh>霍华德·舒尔茨喜欢这些大型的、戏剧性的姿态。您可能还记得2008年奥巴马与麦凯恩总统竞选期间，星巴克在《周六夜现场》上投放了广告，说只要你去投票，就可以到星巴克免费领取一杯咖啡。
+
+00:04:55.440 --> 00:04:57.280
+<v Ira Glass>Yeah, I kind of vaguely remember that.
+<v Ira Glass>是的，我模糊地记得那件事。
+
+00:04:57.280 --> 00:05:01.010
+<v Kelefa Sanneh>Yeah, he has a term for initiatives like these. He calls them "brand sparks."
+<v Kelefa Sanneh>是的，他为这类倡议起了一个术语。他称之为“品牌火花”。
+
+00:05:01.010 --> 00:05:02.870
+<v Ira Glass>Brand sparks?
+<v Ira Glass>品牌火花？
+
+00:05:02.870 --> 00:05:14.640
+<v Kelefa Sanneh>Yeah. He defines it in one of his books. He says brand sparks are "subtle, surprising, and rare marketing events usually linked to cultural or humanitarian issues and devoid of a self-serving sales pitch."
+<v Kelefa Sanneh>是的。他在他的一本书中这样定义：品牌火花是指“微妙、令人惊讶且罕见的营销活动，通常与文化或人道主义议题相关，且不带有自我推销的销售话术。”
+
+00:05:14.640 --> 00:05:15.520
+<v Ira Glass>Oh.
+<v Ira Glass>噢。
+
+00:05:15.520 --> 00:05:25.080
+<v Kelefa Sanneh>That election ad, he said it worked. He said it generated goodwill for Starbucks. He said it gave the brand a halo. But this-- he said that this racism initiative-- he said this was different.
+<v Kelefa Sanneh>他说那个选举广告很有效。他说它为星巴克赢得了好感。他说它为品牌增添了光环。但这个——他说这个种族主义倡议——他说这是不同的。
+
+00:05:25.080 --> 00:05:29.000
+<v Howard Schultz>But this has nothing to do with 2008. So I don't know why you keep going back to the brand spark.
+<v Howard Schultz>但这和2008年的事毫无关系。所以我不知道你为什么总是回到“品牌火花”这个概念。
+
+00:05:29.000 --> 00:05:29.720
+<v Kelefa Sanneh>Well, I--
+<v Kelefa Sanneh>嗯，我——
+
+00:05:29.720 --> 00:05:38.960
+<v Kelefa  Sanneh>Yeah. When I suggested this to Howard, that this racial bias training thing had something to do with marketing Starbucks, he didn't go for it.
+<v Kelefa  Sanneh>是的。当我向霍华德暗示这个种族偏见培训与星巴克的营销有关时，他并不认同。
+
+00:05:38.960 --> 00:05:51.700
+<v Howard Schultz>Certainly, our customers are going to notice that our stores are closed. And there's been a fair amount of press about it. But it's not anything that we are promoting to send a message.
+<v Howard Schultz>当然，我们的顾客会注意到我们的门店关闭了。媒体对此也有不少报道。但这并不是我们为了传达某种信息而特意推广的。
+
+00:05:51.700 --> 00:06:04.650
+<v Kelefa Sanneh>I want to make sure I understand this. You say this is not a marketing event. And obviously, to some people, anything that a company does kind of looks like marketing. How is this different from a marketing event?
+<v Kelefa Sanneh>我想确认我理解了这一点。您说这不是一场营销活动。显而易见，对某些人来说，公司所做的一切看起来都有点像营销。这与营销活动有何不同？
+
+00:06:04.650 --> 00:06:21.740
+<v Howard Schultz>This is the antithesis of a marketing event. It's not something that is-- it has nothing to do with trying to sell anything. Marketing is about creating awareness and selling your product. This is not-- we're not trying to sell anything.
+<v Howard Schultz>这恰恰与营销活动的本质相反。它不是……它与试图销售任何东西毫无关系。营销是为了提高知名度并销售产品。这完全不是——我们不是在试图推销任何东西。
+
+00:06:21.740 --> 00:06:30.520
+<v Kelefa Sanneh>This conversation with Howard Schultz, it happened right before the training. That's where I was supposed to go after our interview, which was supposed to last, like, half an hour.
+<v Kelefa Sanneh>这次与霍华德·舒尔茨的对话发生在培训开始之前。那是我采访后应该去的地方，采访原本预计持续半小时左右。
+
+00:06:30.520 --> 00:06:31.620
+<v Kelefa Sanneh>What does--
+<v Kelefa Sanneh>那是——
+
+00:06:31.620 --> 00:06:32.740
+<v Howard Schultz>Are we almost done?
+<v Howard Schultz>我们快结束了吗？
+
+00:06:32.740 --> 00:06:34.230
+<v Kelefa Sanneh>What's that?
+<v Kelefa Sanneh>怎么了？
+
+00:06:34.230 --> 00:06:36.260
+<v Howard Schultz>I think we're almost done.
+<v Howard Schultz>我想我们快结束了。
+
+00:06:36.260 --> 00:06:38.980
+<v Kelefa  Sanneh>I think we're at-- we're at 15 minutes, right?
+<v Kelefa  Sanneh>我想我们已经用了15分钟了，对吧？
+
+00:06:38.980 --> 00:06:57.020
+<v Ira Glass>So, he didn't hang up on me. We kept talking. But once we were done, my producer and I, we get a call from a Starbucks PR rep saying, basically, look, if this is going to be some sort of gotcha piece about how this whole thing is a big marketing event, we might not be interested in participating.
+<v Ira Glass>所以，他并没有挂断我的电话。我们继续交谈。但结束后，我和我的制片人收到了一通来自星巴克公关代表的电话，基本上是说，听着，如果这要成为某种关于这一切都是一场大型营销活动的阴谋论报道，我们可能没兴趣参与。
+
+00:06:57.020 --> 00:07:02.460
+<v Ira Glass>Well, it's weird, because there's nothing wrong with marketing. Like, they're doing a thing. They want people to know. Marketing is what companies do.
+<v Ira Glass>嗯，这很奇怪，因为营销本身并没有错。他们做了一件事。他们希望人们知道。营销就是公司所做的事情。
+
+00:07:02.460 --> 00:07:09.450
+<v Kelefa Sanneh>Sure. They never really stop doing it, right? Marketing is sort of just a word for anything that a company does to tell the world about who it is.
+<v Kelefa Sanneh>当然。他们从未真正停止过，对吧？营销只是公司用来向世界宣告“我是谁”的任何行为的某种代名词。
+
+00:07:09.450 --> 00:07:23.410
+<v Ira Glass>OK. All right, here's the theory. Is it possible that he is so insistent that there's no marketing in it because, yeah, he knows that anything his company does publicly affects how the public sees his brand. Like, of course doing anything like this is a kind of marketing.
+<v Ira Glass>好的。好吧，理论是这样的：有没有可能他如此坚持这里面没有营销成分，是因为他知道他公司在公开场合所做的一切都会影响公众对品牌的看法？比如，做这种事当然是一种营销。
+
+00:07:23.410 --> 00:07:41.380
+<v Ira Glass>But he doesn't want to admit it because actually, underneath it, he actually is trying to do a good thing. He's trying to actually address racism. He thinks America is too racist. He wants to do something about it. And he just feels like, oh, if we start admitting that there's some marketing, or we get some brand halo from this, that's just going to muddy the message.
+<v Ira Glass>但他不想承认，因为实际上，在这之下，他确实是在努力做好事。他真的想解决种族主义问题。他认为美国种族主义太严重了。他想为此做点什么。他只是觉得，噢，如果我们开始承认这中间有营销成分，或者我们从中得到了一些品牌光环，那只会把事情搞得复杂。
+
+00:07:41.380 --> 00:07:54.310
+<v Kelefa Sanneh>Yeah, although what's weird is, this isn't the first time Starbucks has tried to do a good thing, right? They've had environmental initiatives. They had this voting thing, which he was happy to say the voting thing was good marketing. So in a sense, this isn't new for Starbucks.
+<v Kelefa Sanneh>是的，尽管奇怪的是，这并不是星巴克第一次尝试做好事，对吧？他们有过环保倡议。他们做过投票活动，而对于投票活动，他很乐意承认那是很好的营销。所以从某种意义上说，这对星巴克来说并不新鲜。
+
+00:07:54.310 --> 00:08:11.260
+<v Kelefa Sanneh>But what is new is that this is a racism initiative. And I think he has a sense that racism is so incendiary, so sensitive, that it can't have anything to do with marketing. Like, if there's any sense that this has anything to do with marketing Starbucks, people are going to tune it out or maybe worse, right?
+<v Kelefa Sanneh>但新鲜的是，这是一项关于种族的倡议。我认为他有一种感觉，即种族主义是如此具有煽动性、如此敏感，以至于它不能与营销有任何关联。如果人们觉得这与星巴克营销有任何关系，他们就会置之不理，甚至更糟，对吧？
+
+00:08:11.260 --> 00:08:12.780
+<v Ira Glass>Right, because it would be offensive.
+<v Ira Glass>是的，因为那会令人反感。
+
+00:08:12.780 --> 00:08:20.920
+<v Kelefa Sanneh>Yeah, this idea, like, you're taking America's national sin of racism and using that to sell coffee. People might consider that offensive.
+<v Kelefa Sanneh>是的，就像这种想法：你拿着美国国家的“原罪”——种族主义，然后利用它来卖咖啡。人们可能会认为这很冒犯。
+
+00:08:20.920 --> 00:08:32.250
+<v Ira Glass>OK, but if he really is trying to do something good here, then to put this thing together, he worked with-- I read this in the paper, the people who you would turn to if you were serious about doing a big anti-bias training. There's, like, Bryan Stevenson--
+<v Ira Glass>好的，但如果他真的是在努力做好事，为了组织这件事，他确实与……我在报纸上读到，如果你真的想认真进行一场大型反偏见培训，你会求助于这些人。比如布莱恩·斯蒂文森——
+
+00:08:32.250 --> 00:08:34.810
+<v Kelefa Sanneh>Yeah, Bryan Stevenson from the Equal Justice Initiative.
+<v Kelefa Sanneh>是的，来自平等正义倡议组织的布莱恩·斯蒂文森。
+
+00:08:34.810 --> 00:08:35.910
+<v Ira Glass>Sherrilyn Iffil, I read.
+<v Ira Glass>我读到还有谢里琳·伊菲尔。
+
+00:08:35.910 --> 00:08:38.920
+<v Kelefa Sanneh>Yeah, she runs the Legal Defense Fund at the NAACP.
+<v Kelefa Sanneh>是的，她负责全国有色人种协进会（NAACP）的法律辩护基金。
+
+00:08:38.920 --> 00:08:45.640
+<v Ira Glass>And then, less than a week after this big training, this other thing happens-- Howard Schultz quits his job at Starbucks.
+<v Ira Glass>然后，在这场大型培训不到一周后，发生了另一件事——霍华德·舒尔茨辞去了他在星巴克的职务。
+
+00:08:45.640 --> 00:08:46.150
+<v Kelefa Sanneh>Right.
+<v Kelefa Sanneh>没错。
+
+00:08:46.150 --> 00:08:53.560
+<v Ira Glass>And there's all this speculation. Is he going run for president? And he doesn't deny whether or not he's going to run for President. He's just like, I'm going to do public service.
+<v Ira Glass>随之而来的是各种猜测。他要竞选总统吗？他没有否认是否会竞选总统。他只是说，我要从事公共服务。
+
+00:08:53.560 --> 00:08:59.330
+<v Kelefa Sanneh>Howard Schultz for president, right? Maybe he really does care more about fixing America than selling coffee.
+<v Kelefa Sanneh>霍华德·舒尔茨竞选总统，对吧？也许他真的比卖咖啡更关心如何拯救美国。
+
+00:08:59.330 --> 00:09:28.020
+<v Ira Glass>OK, well, today on our program, from WBEZ Chicago, it's This American Life. I'm Ira Glass. We have this multinational corporation deciding to do a touchy-feely racial bias training session. And can you think of anything harder to try to teach people in four hours, given how complicated and charged the whole subject is? And on our program today, we have this story and other stories of people trying to teach in situations where learning is not going to be easy at all.
+<v Ira Glass>好的，今天我们的节目来自芝加哥WBEZ电台，是《美国生活》。我是艾拉·格拉斯。我们看到这家跨国公司决定进行一场感性的种族偏见培训。考虑到整个主题的复杂性和敏感性，你能想到还有什么比在四个小时内教会人们这些更困难的事情吗？在今天的节目中，我们将讲述这个故事以及其他人试图在学习并不容易的情境下进行教学的故事。
+
+00:09:28.020 --> 00:09:37.170
+<v Ira Glass>In one of our stories, we see kids who are trying to learn in one of the least hospitable environments imaginable. We watch what happens. Stay with us.
+<v Ira Glass>在我们的一个故事中，我们看到孩子们试图在极其艰苦的环境中学习。我们来看看发生了什么。请继续收听。
+
+00:09:37.170 --> 00:09:58.200
+<v Ira  Glass>Act One, All the Caffeine in the World Doesn't Make You Woke. So when Starbucks gave us permission to record at their big national training last week, they did put conditions on this-- all kinds of conditions. They would not let us record the training at one of their stores. It had to be at their corporate headquarters. They would select the participants.
+<v Ira  Glass>第一幕：全世界的咖啡因都无法让你“觉醒”。所以当星巴克允许我们在他们上周的大型全国培训中录音时，他们确实设置了条件——各种条件。他们不允许我们在其中一家门店录音。必须在他们的企业总部。他们要选择参与者。
+
+00:09:58.200 --> 00:10:23.260
+<v Ira  Glass>So this is not going to be typical in a lot of ways. But we will get to see what the training actually is and to see whether it had any kind of impact on the group of people who we figured, given the circumstances, would be a group of employees predisposed to be into this. We figured, if this training didn't do much for them, what kind of chance was it that it was going to be any better out in the stores? And if it did work for them, well then, maybe that would be interesting in some way, also.
+<v Ira  Glass>所以这在很多方面都不是典型的。但我们将看到培训内容究竟是什么，并观察它对这群人是否产生了任何影响——考虑到当时的情况，我们认为这群员工会更倾向于接受这种培训。我们想，如果这种培训对他们都没什么效果，那在门店里又有什么机会呢？如果它对他们确实有效，那么这本身也可能很有趣。
+
+00:10:23.260 --> 00:10:38.310
+<v Ira  Glass>We honestly did not know what to expect. But we wanted to understand, OK, here's this big company that says it's trying to do this idealistic thing, take on all racial relations in America. And OK, let's take them at their word and try to understand. What did it look like when they tried to do that?
+<v Ira  Glass>我们老实说不知道会发生什么。但我们想了解，好吧，这家大公司声称正在尝试做这种理想主义的事情，试图承担美国所有的种族关系。那么，让我们信守承诺，试着去理解。当他们尝试这样做时，场面是什么样的？
+
+00:10:38.310 --> 00:10:55.400
+<v Ira  Glass>The employees at this particular training were not big, like, vice presidents, not the people in charge of the company. These were mostly mid-level managers from the supply chain, and operations, and human resources parts of the company. And most of them used to work in the stores as baristas. Kelefa now explains what he saw at that training.
+<v Ira  Glass>参加这次特殊培训的员工并不是高级副总裁，也不是公司负责人。他们大多是供应链、运营和人力资源部门的中层管理人员。他们中大多数人过去在门店做过咖啡师。凯莱法现在来解释他所看到的培训情况。
+
+00:10:55.400 --> 00:11:06.840
+<v Kelefa  Sanneh>This was happening in 8,000 stores. And they couldn't hire 8,000 racial bias experts to lead the sessions. So the course was designed to be self-directed, with no official leader.
+<v Kelefa  Sanneh>这发生在8,000家门店。他们不可能雇佣8,000名种族偏见专家来领导这些课程。所以课程被设计成自导式的，没有官方领导者。
+
+00:11:06.840 --> 00:11:09.700
+<v Whitney>I'm going to be a learner with you guys. So--
+<v Whitney>我会和你们一起学习。所以——
+
+00:11:09.700 --> 00:11:22.470
+<v Kelefa Sanneh>I was in Seattle in a conference room at Starbucks headquarters, eight upbeat employees sitting around a table. Two were black. Most of the rest were white. And there was one very quiet PR person sitting in the corner.
+<v Kelefa Sanneh>我在西雅图星巴克总部的一个会议室里，八名乐观的员工围坐在一张桌子旁。两名是黑人。其余大多是白人。角落里坐着一位非常安静的公关人员。
+
+00:11:22.470 --> 00:11:23.630
+<v Whitney>--and come back when you feel--
+<v Whitney>——等到您觉得可以时再回来——
+
+00:11:23.630 --> 00:11:31.890
+<v Kelefa Sanneh>Everyone had their Starbucks drinks-- a hot coffee, a nitro cold brew, a cold brew with milk and one pump of toffee nut syrup.
+<v Kelefa Sanneh>每个人都有自己的星巴克饮料——热咖啡、氮气冷萃咖啡、加牛奶和一泵太妃坚果糖浆的冷萃咖啡。
+
+00:11:31.890 --> 00:11:36.630
+<v Whitney>I'm going to kind of help get us started, but then we're all learners and participants together.
+<v Whitney>我会帮助引导大家开始，但之后我们都是学习者和参与者。
+
+00:11:36.630 --> 00:11:43.220
+<v Kelefa Sanneh>There was a huge, 68-page booklet printed on broadsheet newsprint in sections, like a Sunday paper--
+<v Kelefa Sanneh>有一本巨大的、68页的小册子，印在报纸大开本上，分成了几个部分，就像周日版报纸一样——
+
+00:11:43.220 --> 00:11:45.410
+<v Whitney>So let's just open our books and get started.
+<v Whitney>那么，让我们打开书开始吧。
+
+00:11:45.410 --> 00:11:50.030
+<v Kelefa Sanneh>--and a timeline running along the bottom, telling you how long each task should take.
+<v Kelefa Sanneh>——底部有一条时间轴，告诉您每项任务应该花费的时间。
+
+00:11:50.030 --> 00:11:50.700
+<v Woman>It's page eight.
+<v Woman>是第8页。
+
+00:11:50.700 --> 00:11:52.180
+<v Kelefa Sanneh>Kind of ingenious, really.
+<v Kelefa Sanneh>确实挺巧妙的。
+
+00:11:52.180 --> 00:11:53.530
+<v Man>Let me just watch you.
+<v Man>让我看看您。
+
+00:11:53.530 --> 00:11:54.410
+<v Woman>No, that's fine.
+<v Woman>不，没关系。
+
+00:11:54.410 --> 00:12:03.710
+<v Kelefa Sanneh>Some pages told the group to watch videos. Those were preloaded on an iPad. Some of them asked people to reflect and write things down. Everyone got a 40-page workbook.
+<v Kelefa Sanneh>有些页面告诉小组去观看视频。那些视频预装在iPad里。有些要求人们反思并写下想法。每个人都得到了一本40页的工作手册。
+
+00:12:03.710 --> 00:12:04.610
+<v Woman>--and honor the truth of others.
+<v Woman>——并尊重他人的真相。
+
+00:12:04.610 --> 00:12:07.810
+<v Kelefa Sanneh>There was even the racial equivalent of a Surgeon General's warning.
+<v Kelefa Sanneh>甚至还有种族版的“卫生局局长警告”。
+
+00:12:07.810 --> 00:12:16.590
+<v Woman>--feel free to do so. Conversations about race can induce a feeling that experts call "racial anxiety." And when we're anxious, we can't always think clearly.
+<v Woman>——请随意这样做。关于种族的对话可能会引起专家所说的“种族焦虑”感。当我们焦虑时，我们并不总能清晰地思考。
+
+00:12:16.590 --> 00:12:22.500
+<v Kelefa Sanneh>If that happens, you're supposed to pause, share your feelings, and then have a short group conversation about how you felt.
+<v Kelefa Sanneh>如果发生这种情况，您应该暂停，分享您的感受，然后进行简短的小组对话，谈谈您的感受。
+
+00:12:22.500 --> 00:12:23.460
+<v Woman>First, let the group--
+<v Woman>首先，让小组——
+
+00:12:23.460 --> 00:12:28.780
+<v Kelefa Sanneh>So yeah, there were some moments where it felt like I'd stumbled into some sort of beachfront spiritual retreat.
+<v Kelefa Sanneh>所以是的，有些时刻感觉就像误入了一个海滨灵性静修处。
+
+00:12:28.780 --> 00:12:30.270
+<v Woman>And then, as a group, have a short conversation--
+<v Woman>然后，作为一个小组，进行一次简短的对话——
+
+00:12:30.270 --> 00:12:34.930
+<v Kelefa Sanneh>Like, here's Common, the rapper and actor, on the iPad, doing the opening meditation.
+<v Kelefa Sanneh>比如，这是说唱歌手兼演员Common在iPad上进行开场冥想。
+
+00:12:34.930 --> 00:12:54.510
+<v Common>I am grateful to be with you Starbucks partners today, because this work is close to my heart. I want you to see something in your mind's eye. Close your eyes for a moment. Yes, close them. I want you to think of a time you felt seen.
+<v Common>我很感激今天能和你们这些星巴克伙伴在一起，因为这项工作与我的内心很亲近。我希望你们在脑海中看到某种东西。闭上眼睛一会儿。是的，闭上它们。我想让你们回想一个你们感到被“看见”的时刻。
+
+00:12:54.510 --> 00:13:16.160
+<v Kelefa Sanneh>All of this was inspired by the incident in Philadelphia. But the only time the materials mentioned the incident itself was to explain why the training was happening. Instead, the training zoomed way out, tackling racial bias and discrimination more generally. The guidebook implied, but didn't quite state, that what happened in Philadelphia was racist.
+<v Kelefa Sanneh>这一切的灵感都来自于费城事件。但材料中唯一一次提到该事件本身是为了解释为什么进行这次培训。相反，培训视角拉得很远，更笼统地处理种族偏见和歧视。指南暗示了但没有明确说明费城发生的事情是种族主义。
+
+00:13:16.160 --> 00:13:17.200
+<v Woman>So it says, open your guidebook.
+<v Woman>所以上面写着，打开您的指南。
+
+00:13:17.200 --> 00:13:36.380
+<v Kelefa Sanneh>The first exercise started small-- very small. People were asked to pair up and then list their differences. And even here, at this meticulously planned racial awareness workshop, where everyone knows they're there to talk about race, everyone came prepared to talk about race, it turns out, it's still really hard to get people to talk about race.
+<v Kelefa Sanneh>第一个练习从很小的事情开始——非常小。人们被要求结对，然后列出他们的差异。即使在这里，在这个精心策划的种族意识研讨会上，每个人都知道他们是来谈论种族的，每个人也都是准备好谈论种族的，结果发现，要让人们真正谈论种族仍然非常困难。
+
+00:13:36.380 --> 00:13:38.990
+<v Whitney>Do you have children?
+<v Whitney>您有孩子吗？
+
+00:13:38.990 --> 00:13:39.680
+<v Rodney>No kids.
+<v Rodney>没有孩子。
+
+00:13:39.680 --> 00:13:41.210
+<v Whitney>No kids. I have three kids.
+<v Whitney>没有孩子。我有三个孩子。
+
+00:13:41.210 --> 00:13:42.160
+<v Rodney>Kids, no kids.
+<v Rodney>有孩子，没孩子。
+
+00:13:42.160 --> 00:13:52.730
+<v Kelefa Sanneh>These are two people who sit near each other in the office, but never talked till now-- Whitney, who's white, and Rodney, who's black, though somehow, that fact is not getting a lot of play.
+<v Kelefa Sanneh>这两个人在办公室坐得很近，但直到现在才说过话——惠特尼是白人，罗德尼是黑人，尽管不知何故，这个事实并没有太多发挥。
+
+00:13:52.730 --> 00:13:54.000
+<v Whitney>Do you have siblings?
+<v Whitney>您有兄弟姐妹吗？
+
+00:13:54.000 --> 00:13:55.450
+<v Rodney>Two older brothers.
+<v Rodney>两个哥哥。
+
+00:13:55.450 --> 00:13:58.020
+<v Whitney>OK. I have an older brother and an older sister.
+<v Whitney>好的。我有一个哥哥和一个姐姐。
+
+00:13:58.020 --> 00:14:00.700
+<v Rodney>So we're also three-- sets of three.
+<v Rodney>所以我们也都是三个人——都是三个一组。
+
+00:14:00.700 --> 00:14:02.720
+<v Whitney>Yeah, so we're similar.
+<v Whitney>是的，所以我们很相似。
+
+00:14:02.720 --> 00:14:04.660
+<v Rodney>Wait, you're in the middle.
+<v Rodney>等等，您是在中间。
+
+00:14:04.660 --> 00:14:05.820
+<v Whitney>I'm the baby.
+<v Whitney>我是最小的。
+
+00:14:05.820 --> 00:14:08.310
+<v Rodney>I'm the baby too.
+<v Rodney>我也是最小的。
+
+00:14:08.310 --> 00:14:09.030
+<v Whitney>OK.
+<v Whitney>好的。
+
+00:14:09.030 --> 00:14:10.350
+<v Whitney>[BOTH LAUGHING]
+<v Whitney>（两人大笑）
+
+00:14:10.350 --> 00:14:15.000
+<v Whitney>Did you have a close relationship with your parents?
+<v Whitney>您和父母关系亲密吗？
+
+00:14:15.000 --> 00:14:24.420
+<v Kelefa Sanneh>The other groups were like this, too-- I'm a man. I'm a woman. I'm a Leo. I'm a Virgo. I'm from Arizona. I'm from Indiana.
+<v Kelefa Sanneh>其他小组也是这样——我是男的。我是女的。我是狮子座。我是处女座。我来自亚利桑那州。我来自印第安纳州。
+
+00:14:24.420 --> 00:14:29.710
+<v Kelefa Sanneh>Rodney and Whitney are the only ones who call out their own races. And as soon as they do, they drop it.
+<v Kelefa Sanneh>罗德尼和惠特尼是唯一提及自己种族的人。而且一旦提及，他们就跳过了。
+
+00:14:29.710 --> 00:14:31.430
+<v Rodney>Like, you're white. I'm not.
+<v Rodney>就像，您是白人。我不是。
+
+00:14:31.430 --> 00:14:32.550
+<v Rodney>[RODNEY LAUGHING]
+<v Rodney>（罗德尼大笑）
+
+00:14:32.550 --> 00:14:35.000
+<v Whitney>That's true. That feels kind of like a gimme.
+<v Whitney>那是真的。感觉有点像送分题。
+
+00:14:35.000 --> 00:14:36.040
+<v Rodney>It kind of is.
+<v Rodney>确实有点。
+
+00:14:36.040 --> 00:14:53.470
+<v Kelefa Sanneh>And, like, of course people, especially white people, are hesitant to talk about race, at least at first. It feels rude to sit down with someone and jump into race, as if that's what's on your mind, as if that's how you see them. But there's a training for that, and we're at it.
+<v Kelefa Sanneh>而且，当然人们，尤其是白人，在谈论种族时很犹豫，至少起初是这样。坐下来直接进入种族话题感觉很无礼，就好像那是您脑子里想的事，就好像您就是这么看待对方的一样。但这里有相关培训，我们就在这里。
+
+00:14:53.470 --> 00:15:11.530
+<v Kelefa Sanneh>So here's how it worked. It was basically broken into three sections. This format was created with help from the Perception Institute, a group that does this kind of anti-bias work. There are three sections of the training. First, acknowledging that we're all different and talking about what it takes to make everyone feel like they belong.
+<v Kelefa Sanneh>所以它是这样运作的。它基本上分为三个部分。这种格式是在感知研究所的帮助下创建的，该组织专门从事这种反偏见工作。培训分为三个部分。首先，承认我们都是不同的，讨论需要做什么才能让每个人都有归属感。
+
+00:15:11.530 --> 00:15:25.640
+<v Kelefa Sanneh>Second, recognizing bias in ourselves. Here's how they defined it-- implicit bias, that's the automatic stereotyping we do. Structural bias, that's the way systems and institutions perpetuate inequality.
+<v Kelefa Sanneh>第二，认识我们自己的偏见。他们是这样定义的——隐性偏见，即我们自动进行的刻板印象。结构性偏见，即系统和机构延续不平等的方式。
+
+00:15:25.640 --> 00:15:43.040
+<v Kelefa Sanneh>Third, Starbucks policies. This was more about the nuts and bolts of actually running a coffee shop. In response to Philadelphia, the company made some changes, like the bathroom policy. Now, everyone can use the bathroom at Starbucks. You don't have to buy anything.
+<v Kelefa Sanneh>第三，星巴克政策。这更多是关于经营咖啡店的具体细节。作为对费城事件的回应，公司做出了一些改变，比如洗手间政策。现在，每个人都可以使用星巴克的洗手间。您无需购买任何东西。
+
+00:15:43.040 --> 00:15:56.380
+<v Kelefa Sanneh>Parts of the training felt generic, like a run-of-the-mill corporate diversity seminar. And some parts were super specific to Starbucks, tackling forms of bias that no one outside Starbucks has ever considered. Here's a scenario from one of the videos.
+<v Kelefa Sanneh>培训的部分内容感觉很普通，就像那种司空见惯的企业多样性研讨会。有些部分非常针对星巴克，处理了星巴克以外的人从未考虑过的偏见形式。这里是视频中的一个场景。
+
+00:15:56.380 --> 00:16:19.440
+<v Man>But we always knew that in our store, about 3:10 PM, we would get a huge rush of high school students right when school would let out. And then we always had the one person on the floor that kind of turned and looked, and was like, oh, great, here it comes, frappuccino happy hour. And so as these kids were in the store, yeah, they're a little bit rambunctious. But you start taking their orders.
+<v Man>我们总是知道，在我们的店里，下午3:10左右，学校放学时，会有大量高中生涌入。然后我们总有一个人站在前台，翻着白眼说，哦，太棒了，星冰乐欢乐时光又来了。所以当这些孩子在店里时，是的，他们有点吵闹。但您开始接受他们的订单。
+
+00:16:19.440 --> 00:16:29.490
+<v Man>You come to realize that it's like you made a huge assumption. Not every drink's a frappuccino. Somebody is ordering a hot chocolate. Somebody is getting a caramel macchiato. Somebody likes passion tea with, like, 10 pumps classic. Like, there's just--
+<v Man>您意识到您做了一个巨大的假设。并不是每种饮料都是星冰乐。有人在点热巧克力。有人在点焦糖玛奇朵。有人喜欢加10泵经典糖浆的百香果茶。就像——
+
+00:16:29.490 --> 00:16:51.620
+<v Kelefa Sanneh>I guess that's an example of beverage bias, or maybe frappuccino shaming. There were also videos about baristas assuming patrons were homeless. One was about gender identity. One was about a barista who suspected that a group of black kids was plotting to steal the tip jar. One was about a guy with an accent so thick that the barista couldn't spell his name on his cup.
+<v Kelefa Sanneh>我想这是一个饮料偏见的例子，或者是“星冰乐羞辱”。还有关于咖啡师假设顾客是无家可归者的视频。有一个是关于性别认知的。有一个是关于一个咖啡师怀疑一群黑人孩子在密谋偷窃小费罐的。有一个是关于一个带着浓重口音的男人的，以至于咖啡师没法把他的名字写在杯子上。
+
+00:16:51.620 --> 00:16:55.380
+<v Woman>--about it, and said, I'm just going to call you Bob. And I wrote Bob on the cup. He had a really thick accent.
+<v Woman>——关于它，我说，我还是叫您鲍勃吧。我在杯子上写了鲍勃。他有很重的口音。
+
+00:16:55.380 --> 00:17:01.140
+<v Kelefa Sanneh>But other parts were surprisingly ambitious and more provocative, like a video by Stanley Nelson, the documentary filmmaker--
+<v Kelefa Sanneh>但其他部分出人意料地雄心勃勃且更具挑衅性，比如纪录片导演斯坦利·尼尔森制作的视频——
+
+00:17:01.140 --> 00:17:02.150
+<v Stanley Nelson>--1960s--
+<v Stanley Nelson>——1960年代——
+
+00:17:02.150 --> 00:17:07.450
+<v Kelefa Sanneh>--which argued that African-Americans have been systematically excluded from public spaces.
+<v Kelefa Sanneh>——主张非裔美国人系统性地被排除在公共空间之外。
+
+00:17:07.450 --> 00:17:09.860
+<v Stanley Nelson>--and allow equal access for all.
+<v Stanley Nelson>——并允许所有人平等进入。
+
+00:17:09.860 --> 00:17:12.360
+<v Kelefa Sanneh>His film included violent footage from the Civil Rights era.
+<v Kelefa Sanneh>他的电影包括民权时代的暴力镜头。
+
+00:17:12.360 --> 00:17:12.930
+<v Kelefa Sanneh>[GROUP SINGING ON FILM]
+<v Kelefa Sanneh>（电影中的集体歌唱）
+
+00:17:12.930 --> 00:17:16.080
+<v Woman>Changing the law doesn't always change reality.
+<v Woman>改变法律并不总能改变现实。
+
+00:17:16.080 --> 00:17:25.680
+<v Kelefa Sanneh>And it also included footage of a police officer choking a young black man in a prom tux. That's from just last month. It happened outside a Waffle House in North Carolina.
+<v Kelefa Sanneh>它还包括一段警察掐住一个穿着毕业舞会燕尾服的年轻黑人男子的视频。那是在上个月发生的。发生在北卡罗来纳州的一家华夫饼屋外面。
+
+00:17:25.680 --> 00:17:28.200
+<v Woman>No, this is wrong! Oh my god! Look at--
+<v Woman>不，这是不对的！天哪！看那——
+
+00:17:28.200 --> 00:17:28.900
+<v Man>Yeah!
+<v Man>是的！
+
+00:17:28.900 --> 00:17:35.100
+<v Woman>We just need to recognize that black people are navigating the public space differently than white people--
+<v Woman>我们只需要承认，黑人在公共空间的活动方式与白人不同——
+
+00:17:35.100 --> 00:17:36.270
+<v Kelefa Sanneh>Everyone in the room--
+<v Kelefa Sanneh>房间里的每个人——
+
+00:17:36.270 --> 00:17:37.290
+<v Woman>--that women are navigating--
+<v Woman>——女性在活动方式上——
+
+00:17:37.290 --> 00:17:38.460
+<v Kelefa Sanneh>--seemed pretty affected by it.
+<v Kelefa Sanneh>——似乎都深受触动。
+
+00:17:38.460 --> 00:17:39.790
+<v Woman>--the public space differently than men.
+<v Woman>——与男性在公共空间的活动方式不同。
+
+00:17:39.790 --> 00:17:56.520
+<v Kelefa Sanneh>A couple of people even had tears in their eyes. And despite the uneasiness at first, there actually was some blunt talk about race in the group discussions, mainly because there was one person there who seemed totally comfortable talking about it. Her name was Adrienne. She's an engineer working on the global supply chain.
+<v Kelefa Sanneh>有几个人甚至眼含热泪。尽管起初感到不安，但小组讨论中确实出现了一些关于种族的直率对话，主要是因为那里有一个人似乎对谈论这个话题感到完全自在。她的名字叫阿德里安。她是一名致力于全球供应链的工程师。
+
+00:17:56.520 --> 00:18:19.170
+<v Kelefa Sanneh>She's African-American, grew up in Atlanta, moved to Seattle six years ago to work at Starbucks. And she admitted that for her, Starbucks wasn't always a super comfortable place to be. At one point, everyone broke up into small groups and talked about the company. And she remembered coming into work in the summer of 2016, after Alton Sterling and Philando Castile were shot and killed by the police.
+<v Kelefa Sanneh>她是位非裔美国人，在亚特兰大长大，六年前搬到西雅图在星巴克工作。她承认，对她来说，星巴克并不总是一个特别舒适的地方。有一次，大家分成小组谈论公司。她记得在2016年夏天，在奥尔顿·斯特林和费兰多·卡斯蒂尔被警察开枪打死后，她去上班的情景。
+
+00:18:19.170 --> 00:18:39.360
+<v Adrienne>That was a big thing for me, because again, you-- I came to work. It was very sad. And nobody said anything. And I'm just like, did any of-- have you guys been watching the news? Two black guys just got killed. And it was just like, ugh. But then that was around the same time that somebody had shot up the gay club in Orlando.
+<v Adrienne>那对我来说是一件大事，因为我再次……我来上班。这非常悲伤。但没人说什么。我只是想，你们中有人……你们看过新闻吗？两个黑人刚刚被杀了。感觉就是，呃。但这恰好和佛罗里达奥兰多的那家同性恋夜店被枪击是同一时间。
+
+00:18:39.360 --> 00:18:40.280
+<v Woman>Yeah, I remember.
+<v Woman>是的，我记得。
+
+00:18:40.280 --> 00:18:50.640
+<v Adrienne>And everybody was talking about it. And I was just like, how is this different? But I don't know. So that was hard.
+<v Adrienne>大家都在谈论那件事。我只是想，这有什么不同？但我不知道。所以这很难。
+
+00:18:50.640 --> 00:19:08.640
+<v Kelefa Sanneh>When people are discussing racism, or trying to, there's this thing that happens. The black people in the room become the de facto discussion leaders. And of course, that's understandable. White people especially have been taught that when it comes to racism, their most important task is to be good listeners.
+<v Kelefa Sanneh>当人们在讨论种族主义，或试图讨论时，会发生这种情况。房间里的黑人成为事实上的讨论领导者。当然，这是可以理解的。白人特别被教导说，当涉及种族主义时，他们最重要的任务是做一个好的倾听者。
+
+00:19:08.640 --> 00:19:22.720
+<v Kelefa Sanneh>Some of that happened in this room, too. One of the questions in the book was about what it was like to come to work with natural hair. OK, so whoever wrote this question was probably hoping there'd be somebody like Adrienne in the room, somebody who could give an answer like this.
+<v Kelefa Sanneh>这种情况也发生在房间里。书中的一个问题是关于顶着自然发型去上班是什么感觉。好吧，写这个问题的人可能希望房间里有像阿德里安这样的人，一个能给出这样答案的人。
+
+00:19:22.720 --> 00:19:44.890
+<v Adrienne>--I remember, oh god, first time I had braids and came into work, it was just like, to me, what's the big deal? But then it's like, you have that moment to where I'll tell people who have probably never been this close to somebody with hair braided. You guys got 48 hours. You can touch, ask as many questions as you want.
+<v Adrienne>——我记得，天哪，第一次我编了辫子去上班时，对我来说，这有什么大不了的？但之后就像，您会有那个时刻，我可能会告诉那些从未和编辫子的人这么亲近的人。你们有48小时。你们可以触摸，问任何你们想问的问题。
+
+00:19:44.890 --> 00:19:45.680
+<v Adrienne>[EMPLOYEES LAUGHING]
+<v Adrienne>（员工们在笑）
+
+00:19:45.680 --> 00:19:54.020
+<v Adrienne>But you know that they're there. The questions are there. And it's kind of a distraction. And I kind of want to just get it over with so we can keep moving.
+<v Adrienne>但您知道它们就在那里。问题就在那里。这有点分散注意力。我只想赶快解决它，这样我们才能继续。
+
+00:19:54.020 --> 00:19:55.160
+<v Man>Did you really do that?
+<v Man>您真的那样做了吗？
+
+00:19:55.160 --> 00:20:20.600
+<v Adrienne>Oh, yeah. We had to have a coffee tasting about my hair, and how long it took, and who did it, and was this person African, and have I done this before, and does it mean anything? And it's just one of those things where it's like, you can choose to get an attitude about it, or you can just say, I'm just going to answer your questions. But you have those moments where, like, oh god, do I really want to do this today?
+<v Adrienne>哦，是的。我们必须进行一次关于我头发的“咖啡品鉴”，关于它花了多长时间，谁做的，这个人是不是非洲人，我以前这样做过吗，它意味着什么？这只是那种您可以选择态度不好，或者干脆说“我只是要回答你们的问题”的事情之一。但您会有那些时刻，就是，天哪，我今天真的想做这件事吗？
+
+00:20:20.600 --> 00:20:24.020
+<v Rodney>We do always have that-- did anyone else have that hair thing?
+<v Rodney>我们总是会有那个——还有其他人遇到过头发的问题吗？
+
+00:20:24.020 --> 00:20:27.540
+<v Kelefa Sanneh>Rodney jumps in, the other black employee in the room.
+<v Kelefa Sanneh>罗德尼插话道，他是房间里另一个黑人员工。
+
+00:20:27.540 --> 00:20:32.450
+<v Rodney>Like, I can see it in slow motion-- like, a white person coming towards my hair. I can actually feel it.
+<v Rodney>就像，我能慢动作看到它——就像，一个白人向我的头发走过来。我真的能感觉到。
+
+00:20:32.450 --> 00:20:33.750
+<v Whitney>It's the same with pregnant women.
+<v Whitney>孕妇也是这样。
+
+00:20:33.750 --> 00:20:34.950
+<v Rodney>And it's the same with pregnant women.
+<v Rodney>孕妇也是一样。
+
+00:20:34.950 --> 00:20:35.470
+<v Whitney>Yeah.
+<v Whitney>是的。
+
+00:20:35.470 --> 00:20:36.230
+<v Rodney>It's the same thing.
+<v Rodney>是一回事。
+
+00:20:36.230 --> 00:20:43.340
+<v Kelefa Sanneh>That's Whitney saying, it's the same with pregnant women. She's the white coworker who was paired with Rodney in the exercise at the beginning.
+<v Kelefa Sanneh>那是惠特尼在说，孕妇也是一样。她是练习开始时与罗德尼配对的白人运营经理。
+
+00:20:43.340 --> 00:20:44.520
+<v Rodney>It's the same thing, yeah.
+<v Rodney>是一回事，是的。
+
+00:20:44.520 --> 00:20:45.690
+<v Whitney>Like, why are you touching me right now--
+<v Whitney>就像，为什么您现在要摸我——
+
+00:20:45.690 --> 00:20:47.440
+<v Rodney>Exactly it. Like, there is this--
+<v Rodney>正是如此。就像，有这个——
+
+00:20:47.440 --> 00:20:48.580
+<v Whitney>--stranger?
+<v Whitney>——陌生人？
+
+00:20:48.580 --> 00:20:52.260
+<v Rodney>--privacy of space that doesn't exist. Actually, I've felt that with pregnant women.
+<v Rodney>——那种不存在的个人空间隐私。实际上，我在孕妇身上也感受过。
+
+00:20:52.260 --> 00:20:53.620
+<v Whitney>Objectified, yeah.
+<v Whitney>被物化了，是的。
+
+00:20:53.620 --> 00:20:55.790
+<v Rodney>Yeah. But I had this great moment. My--
+<v Rodney>是的。但我有一个很棒的时刻。我的——
+
+00:20:55.790 --> 00:21:28.820
+<v Kelefa Sanneh>There weren't a lot of moments like this, where people chimed in, added to each other's stories. Generally, everyone listened respectfully but quietly, like when Adrienne asked the group, why do white people care so much about black people's hair? Everyone laughed, but no one gave her an answer. In this group, it seemed like Adrienne was the only person trying to answer questions like that.
+<v Kelefa Sanneh>像这样的时刻并不多，人们插话并为彼此的故事增色。总的来说，每个人都尊重地静静倾听，就像当阿德里安问小组，为什么白人如此在意黑人的头发时一样。大家都笑了，但没人给她答案。在这个小组中，阿德里安似乎是唯一试图回答这类问题的人。
+
+00:21:28.820 --> 00:21:45.560
+<v Kelefa Sanneh>The closest they got to really discussing the Philadelphia incident was near the end. They were talking not about Philadelphia, but about something else-- something less charged, but kind of similar, that happened in one of the stores. There was a video of a store manager telling a story that sounded kind of like a confession.
+<v Kelefa Sanneh>他们最接近真正讨论费城事件是在快结束时。他们谈论的不是费城，而是其他事情——一些不那么具有煽动性，但有点相似，发生在其中一家门店的事情。有一段视频，一位店经理讲述了一个听起来有点像忏悔的故事。
+
+00:21:45.560 --> 00:22:05.880
+<v Manager>One day, in my store, I was on the register, and I was helping customers. And a couple of weeks prior to that, my manager had told me about the return policy, that customers needed a receipt, and it had to be within the last 60 days. This older black man came up to the register with a pound of coffee and he asked to return it. And I asked him if he got a receipt, and he said no.
+<v Manager>有一天，在我的店里，我在收银台，正在为顾客服务。几周前，我的经理告诉过我退货政策，顾客需要收据，并且必须在过去60天内。这个年长的黑人来到收银台，拿着一磅咖啡要求退货。我问他是否有收据，他说没有。
+
+00:22:05.880 --> 00:22:21.650
+<v Manager>Now, I'd seen other partners in the store accept returns without a receipt in the past. And I'd even done that before, as well. But for some reason, I just really stuck to the policy and leveraged the policy as the reason why I couldn't give him money back or make an exchange without a receipt.
+<v Manager>现在，我过去见过店里的其他伙伴在没有收据的情况下接受退货。甚至我也这样做过。但不知为何，我就是坚守政策，并以政策为由说我不能退款或在没有收据的情况下进行换货。
+
+00:22:21.650 --> 00:22:32.320
+<v Adrienne>I think what bothers me is that this guy we're talking about with the coffee said he had broken the rules before. For some reason, he didn't do it for an older black man.
+<v Adrienne>我想困扰我的是，我们谈论的这个拿着咖啡的人说他以前违反过规定。不知何故，他没有对一位年长的黑人这样做。
+
+00:22:32.320 --> 00:22:33.510
+<v Kelefa Sanneh>This is Adrienne again.
+<v Kelefa Sanneh>这是阿德里安再次发言。
+
+00:22:33.510 --> 00:22:48.780
+<v Adrienne>That's what bothers me, is that you purposefully was like, there's a black guy that came in here. I'm not going to do it this time. This is the one time I'm going to let the rules work for me. That's the type of stuff that I just don't understand.
+<v Adrienne>困扰我的是，您故意表现得像，有个黑人进来了。这次我不打算那样做了。这是我唯一一次让规则为我所用的时候。这就是我无法理解的那类事情。
+
+00:22:48.780 --> 00:23:02.890
+<v Adrienne>It's just like, what in the world did this black person do to you to make you just-- I don't know. It's weird when you grow up, and you wonder, like, why do these people hate me so much? And I literally have done nothing.
+<v Adrienne>感觉就像，这个黑人到底对您做了什么，让您只是——我不知道。当您长大后，您会想，为什么这些人如此恨我？而我实际上什么都没做，这就很奇怪。
+
+00:23:02.890 --> 00:23:17.400
+<v Kelefa Sanneh>The training manual had talked about unconscious bias. But Adrienne thought that what this guy did, it sounded more like conscious bias, an intentionally racist act. Whitney, the white operations manager-- she wasn't so sure.
+<v Kelefa Sanneh>培训手册讨论了无意识偏见。但阿德里安认为这个家伙所做的听起来更像是意识偏见，一种蓄意的种族主义行为。惠特尼，那位白人运营经理——她不太确定。
+
+00:23:17.400 --> 00:23:20.860
+<v Whitney>I think it can be truly unconscious, though.
+<v Whitney>但我认为它确实可以是无意识的。
+
+00:23:20.860 --> 00:23:29.190
+<v Kelefa Sanneh>And she suggested, very politely, that Adrienne might be wrong about this guy-- that maybe this guy didn't realize in the moment what he was doing.
+<v Kelefa Sanneh>她非常有礼貌地建议，阿德里安可能误解了这个家伙——也许他在那一刻并没有意识到自己在做什么。
+
+00:23:29.190 --> 00:23:55.600
+<v Whitney>Sounds to me like, in retrospect, that person was like, yeah, I don't know why I dug my heels in so hard. But I think about it even as a parent, why-- like, sometimes I'll let certain things be fine. And other times, I like-- like, I'll look back later and go like, why was I so insistent on following the house rule on this one?
+<v Whitney>对我来说，回想起来，那个人就像是，是的，我不知道为什么我坚持得那么硬。但我甚至作为一个家长也会这么想，为什么——有时我会让某些事情随它去。而在其他时候，我会——回过头来看，问自己为什么我会坚持在这件事上遵循家规？
+
+00:23:55.600 --> 00:24:12.270
+<v Whitney>I think, probably, his thought process in the moment wasn't, I'm going to say no because this is a black person. But in retrospect, was like, why was that the time that I chose-- hm, well, I don't like what that says about me. That feels gross.
+<v Whitney>我想，大概他在那一刻的思维过程不是“我要拒绝是因为这是一个黑人”。但回想起来是，为什么那是我选择的时间——嗯，好吧，我不喜欢它说明了我的什么。那感觉真恶心。
+
+00:24:12.270 --> 00:24:17.720
+<v Kelefa  Sanneh>Then Rodney joined the conversation, even though he wasn't really sure how he felt.
+<v Kelefa  Sanneh>然后罗德尼加入了谈话，尽管他不确定自己的感觉。
+
+00:24:17.720 --> 00:24:31.460
+<v Rodney>But it is-- for that scenario, I listened to you, and then I listened to you. And it's interesting to hear a black woman's response and a white woman's response, because what I heard from you was that there was intent. And there was knowing decision-- this is a black guy. I'm not going to take this.
+<v Rodney>但这确实是——针对那个场景，我听了您说的，又听了您说的。很有趣的是听到黑人女性的反应和白人女性的反应，因为我从您这里听到的是有意的。而且有一个清醒的决定——这是一个黑人。我不打算接受这个。
+
+00:24:31.460 --> 00:24:38.390
+<v Rodney>And you want to give them the benefit of the doubt. And I'm torn. We don't know. And to be honest, I don't know what we do with that, as a company. I mean, like--
+<v Rodney>而您想给他们从宽处理。我很纠结。我们不知道。老实说，我不知道作为一家公司我们该怎么处理。我的意思是，就像——
+
+00:24:38.390 --> 00:24:57.660
+<v Kelefa Sanneh>Rodney really believes in Starbucks. But at this moment, it felt like he was bumping up against the limits of this corporate initiative, like maybe he had finally encountered a problem that wasn't going to be solved by a friendly, non-judgmental listening session.
+<v Kelefa Sanneh>罗德尼真的很相信星巴克。但在这一刻，感觉他撞上了这项企业倡议的极限，好像他终于遇到了一个不是通过友好的、不带评判的倾听环节就能解决的问题。
+
+00:24:57.660 --> 00:25:38.210
+<v Kelefa Sanneh>In practice, this epic social experiment, this attempt to lead a national conversation about race, this grandiose parting shot from Howard Schultz as he left this company that he built, did it help? It's hard to tell. Starbucks said it wasn't measuring outcomes. But in this one conference room in Seattle, it seemed sincere, maybe even helpful. It felt like Starbucks was trying to give people what they say they want after an incident like this-- accept responsibility, change your corporate culture, fight systemic racism all at once. And if it was kind of unwieldy, kind of incoherent, with a couple of moments of insight, what do you expect? It's a weird assignment.
+<v Kelefa Sanneh>实际上，这场史诗般的社会实验，这次尝试引导一场关于种族的全国对话，这次来自霍华德·舒尔茨在离开他建立的这家公司时的宏大临别赠言，它有帮助吗？很难说。星巴克表示没有衡量结果。但在西雅图的这个会议室里，它似乎是真诚的，甚至可能是有帮助的。感觉星巴克正试图给人们在发生这种事件后他们说想要的东西——承担责任、改变企业文化、同时打击系统性种族主义。如果它有点笨拙，有点语无伦次，但伴随着一些洞察的时刻，您还能期待什么呢？这是一个奇怪的任务。
+
+00:25:38.210 --> 00:25:39.510
+<v Rodney>We're done?
+<v Rodney>我们要结束了吗？
+
+00:25:39.510 --> 00:25:41.970
+<v Whitney>This is the last page. Want me to read it?
+<v Whitney>这是最后一页。想让我读吗？
+
+00:25:41.970 --> 00:25:42.540
+<v Rodney>Yeah.
+<v Rodney>是的。
+
+00:25:42.540 --> 00:25:54.060
+<v Whitney>Today was a start. It was not perfect, because we are all human, and we are all learning.
+<v Whitney>今天是开始。它并不完美，因为我们都是人，我们都在学习。
+
+00:25:54.060 --> 00:26:17.440
+<v Kelefa Sanneh>The day of the training, May 29, while the group had been impaneled, the national conversation about race had been proceeding in the real world, although not in a way they would have predicted. While they were watching their videos and filling out their workbooks, Roseanne Barr, unbeknownst to them, was being condemned for a tweet in which she compared an African-American woman to an ape.
+<v Kelefa Sanneh>5月29日培训当天，当小组被编组时，关于种族的全国对话已经在现实世界中进行，尽管不是他们预料的那种方式。当他们观看视频和填写工作手册时，罗珊·巴尔在他们不知情的情况下，因为一条推文被谴责，她在推文中将一名非裔美国女性比作猿猴。
+
+00:26:17.440 --> 00:26:39.740
+<v Kelefa Sanneh>So by the time the session in Seattle was finished, Roseanne, not Starbucks, was the biggest story in the country. ABC did what Starbucks didn't do. They fired Roseanne, they issued a brief statement, and they tried to move on as quickly as possible. Starbucks, having hoped to harness one viral moment, had found its careful plans overshadowed by a different one.
+<v Kelefa Sanneh>所以当西雅图的会议结束时，罗珊而不是星巴克成为了全国最大的新闻。ABC做了星巴克没做的事。他们解雇了罗珊，发布了一份简短声明，并试图尽快翻篇。星巴克原本希望利用一个病毒式传播的时刻，结果发现其精心的计划被另一个事件所掩盖。
+
+00:26:39.740 --> 00:26:57.520
+<v Kelefa Sanneh>On Twitter, people joked about how Roseanne could use some of that Starbucks sensitivity training. The company's big, idealistic vision became a punchline after someone else's racial screw-up. There are going to be more trainings for Starbucks employees over the next year, but the stores aren't going to shut down for them.
+<v Kelefa Sanneh>在推特上，人们开玩笑说罗珊多么需要那种星巴克的敏感度培训。在另一个人种族主义失误之后，该公司宏大的理想主义愿景变成了一个笑话。未来一年星巴克员工还会有更多培训，但门店不会再为了这些而关闭了。
+
+00:26:57.520 --> 00:27:10.690
+<v Kelefa Sanneh>Starbucks has gone back to selling coffee. Wherever you are, chances are, there's one nearby. Go there right now if you want. Order a frappuccino. They'll try not to judge you.
+<v Kelefa Sanneh>星巴克已经回去卖咖啡了。无论您在哪里，可能附近就有一家。如果您想，现在就去吧。点一杯星冰乐。他们会尽量不评判您。
+
+00:27:10.690 --> 00:27:25.970
+<v Ira Glass>Kelefa Sanneh-- he's a staff writer for The New Yorker. Coming up, the kid who made the other kids in his school wonder if studying is just a waste of time. That's in a minute from Chicago Public Radio, when our program continues.
+<v Ira Glass>凯莱法·萨内——他是《纽约客》的特约撰稿人。接下来，那个让学校里其他孩子怀疑学习是否纯属浪费时间的孩子。一分钟后，《美国生活》继续为您播出，由芝加哥公共广播电台制作。
+
+00:27:25.970 --> 00:27:41.050
+<v Ira Glass>This American Life-- I'm Ira Glass. Today's program, "Unteachable Moment," stories about people who are supposed to learn some stuff that is really hard to learn, and then what happens instead of learning. We've arrived at Act Two of our show-- Act Two, Throw the Book at Them.
+<v Ira Glass>《美国生活》——我是艾拉·格拉斯。今天的节目主题是“无法教导的时刻”，关于人们被要求学习一些真的很难学习的东西，然后发生了什么取代了学习的故事。我们来到了节目的第二幕——第二幕，对他们进行“轰炸”。
+
+00:27:41.050 --> 00:27:57.700
+<v Ira Glass>In New Orleans, the district attorney prosecutes a ton of kids as adults. Between 2011 and 2015, for instance, he sent approximately 80% of 15- and 16-year-olds into the adult criminal justice system in cases where he had the option of charging them as juveniles. That's according to the Southern Poverty Law Center.
+<v Ira Glass>在新奥尔良，地方检察官将大量的孩子当作成年人来起诉。例如，在2011年至2015年间，他在可以选择作为少年犯起诉的情况下，将大约80%的15岁和16岁少年送进了成人司法系统。这是根据南方贫困法律中心的数据得出的。
+
+00:27:57.700 --> 00:28:22.810
+<v Ira Glass>These kids end up at the Orleans Justice Center, which is the jail that any adult in New Orleans Parish is held while waiting for trial. And in part because there are so many kids, and in part because some of them are in jail for so long, waiting for their court dates, they decided to open up a high school in the jail back last year in August. It's a real school, actually part of the New Orleans School District. You can get a real high school diploma there. And it looks like nearly any high school, too.
+<v Ira Glass>这些孩子最终被关进了奥尔良司法中心，这是新奥尔良教区任何成年人在等待审判时被关押的监狱。部分因为孩子太多，部分因为他们中一些人在监狱里等待开庭的时间太长，他们决定在去年8月在监狱里开办了一所高中。这是一所真正的学校，实际上是新奥尔良学区的一部分。您可以在那里获得真正的高中毕业证书。而且它看起来也和任何高中差不多。
+
+00:28:22.810 --> 00:28:26.000
+<v Teacher>So gentlemen, I'm about to hand you these note cards. These are the--
+<v Teacher>所以先生们，我要把这些笔记卡交给你们。这些是——
+
+00:28:26.000 --> 00:28:42.980
+<v Ira Glass>In the hallway, there are motivational posters and student essays on the theme of power posted. There's a "Where are they now?" display with former students' pictures and Martin Luther King, Jr.'s mugshot from when he was in jail. But one big difference from regular school? The students are all in orange jumpsuits, stamped "INMATE" in all caps.
+<v Ira Glass>走廊里贴着励志海报和关于“权力”主题的学生论文。有一个“他们现在在哪儿？”的展示墙，上面有以前学生的照片，还有马丁·路德·金在狱中的被捕照。但与普通学校最大的区别是什么？学生们都穿着印着大写字母“囚犯”（INMATE）的橙色连体服。
+
+00:28:42.980 --> 00:28:44.970
+<v Teacher>What do parallel lines tell us?
+<v Teacher>平行线告诉我们什么？
+
+00:28:44.970 --> 00:28:47.360
+<v Student>What you mean, what they tell us?
+<v Student>您指什么？它们能告诉我们什么？
+
+00:28:47.360 --> 00:28:51.320
+<v Teacher>There's some information we can take from parallel lines, that we love about parallel lines.
+<v Teacher>我们可以从平行线中获取一些信息，我们喜欢关于平行线的东西。
+
+00:28:51.320 --> 00:29:05.350
+<v Ira Glass>At any given time, there are about 50 students enrolled in the school, which is named the Travis Hill School after a local musician who was incarcerated himself as a teenager. I should say that some of the students are 18 or over. So technically, they are adults.
+<v Ira Glass>在任何特定时间，大约有50名学生在这所学校注册，该校以特拉维斯·希尔命名，他是一位当地音乐家，自己少年时也曾入狱。我应该说有些学生已经18岁或以上了。所以从技术上讲，他们是成年人。
+
+00:29:05.350 --> 00:29:28.280
+<v Ira Glass>But Travis Hill is different from schools in juvenile detention facilities because these kids, all of them, are charged as adults. They're all facing adult sentences, lots of them really long-- 10, 15, 25, 40 years-- and a lifelong criminal record. And all this raises a very particular problem for this school. Eli Hager, who reports on criminal justice issues at the Marshall Project, has been visiting the school.
+<v Ira Glass>但特拉维斯·希尔学校与少年拘留所的学校不同，因为这些孩子，全部都是作为成年人被指控的。他们都面临着成年人的刑期，很多人的刑期非常长——15年、25年、40年——还有终身的犯罪记录。所有这一切为这所学校提出了一个非常特殊的问题。艾利·海格，马歇尔项目中报道刑事司法问题的记者，一直在访问这所学校。
+
+00:29:28.280 --> 00:29:33.860
+<v Ira Glass>Quick warning that we have un-beeped a few words here in the podcast version of the program. A beeped version is at our website. Here's Eli.
+<v Ira Glass>简短警告，我们在播客版节目中对一些词汇没有进行消音。消音版本可在我们的网站上找到。这是艾利。
+
+00:29:33.860 --> 00:29:59.670
+<v Eli Hager>The problem is, being a student and being an inmate are opposites. Everything about adult jail is telling you to be hopeless, that you have no future and no worth, which makes school feel utterly beside the point. Of course, there are always kids in the back row of any classroom asking the question, when will we ever use this in real life? Especially in places where there truly isn't much opportunity, like at the mostly black schools that the kids at Travis Hill all came from.
+<v Eli Hager>问题在于，做学生和做囚犯是截然相反的。成人监狱里的一切都在告诉您要绝望，告诉您没有未来也没有价值，这让学校感觉完全无关紧要。当然，任何课堂的最后一排总有孩子问“我们在现实生活中什么时候才会用到这个？”的问题。尤其是在机会确实不多的地方，比如那些在特拉维斯·希尔的孩子们所来自的大多数黑人学校。
+
+00:29:59.670 --> 00:30:18.250
+<v Eli Hager>But it's just more vivid here, the students' sense of the senselessness of school-- more total and more justified. Take this one kid, Ju'ron. He's 17 years old, and he's facing 15 to 104 years in prison for allegedly stealing a cell phone from a woman and firing a gun in the air. He says he didn't do it.
+<v Eli Hager>但在这里更生动，学生们对学校毫无意义的感觉——更彻底且更有道理。拿这个孩子朱隆来说。他17岁，面临15到104年的监禁，罪名是涉嫌从一名女性手中偷走手机并在空中开枪。他说他没做过。
+
+00:30:18.250 --> 00:30:31.900
+<v Eli Hager>His mom can't afford bail. So until his trial, he's stuck in a place that's not safe. The death rate at the Orleans Justice Center is four times the national average for jails. Ju'ron calls his mom every day, but in-person visits aren't allowed here.
+<v Eli Hager>他妈妈付不起保释金。所以在他审判之前，他被困在一个不安全的地方。奥尔良司法中心的死亡率是全国监狱平均水平的四倍。朱隆每天给妈妈打电话，但这里不允许面对面探视。
+
+00:30:31.900 --> 00:30:45.860
+<v Eli Hager>Sometimes, he gets locked in his cell for 23 hours a day and gets his feed up, as the guards call it, through a slot. He goes to sleep on a hard slab. And one day, on his way to art class, he walked past the man charged with killing his father just a few months earlier.
+<v Eli Hager>有时，他一天被锁在牢房里23个小时，通过缝隙领取食物，狱警称之为“喂食”。他睡在坚硬的板子上。有一天，在去美术课的路上，他走过了几个月前杀害他父亲的人，那人正面临指控。
+
+00:30:45.860 --> 00:30:55.710
+<v Ju'ron>I was scared. He'd killed a man that looked like me. So I was glad he didn't see me. But I saw him. Now I know to keep an eye out.
+<v Ju'ron>我害怕了。他杀了一个长得像我的人。所以我很庆幸他没看见我。但我看见了他。现在我知道要留心了。
+
+00:30:55.710 --> 00:31:04.430
+<v Eli Hager>Do you remember how you were feeling when you were sitting in class after having just seen that person?
+<v Eli Hager>您还记得刚看到那个人后坐在教室里的心情吗？
+
+00:31:04.430 --> 00:31:18.300
+<v Ju'ron>I was thinking, just thinking. I wasn't going nowhere-- in my head, no, no, no. I was like, am I tripping? I gotta get the fuck out of here. I can't do this no more. There's all type of stuff coming with jail, man. I can't do it.
+<v Ju'ron>我只是在想，我在想。我哪儿也去不了——在脑海里，不，不，不。我就像，我是不是在做梦？我必须离开这个鬼地方。我再也受不了了。监狱里发生的一切，伙计。我做不到。
+
+00:31:18.300 --> 00:31:31.350
+<v Ju'ron>School's not helping me. I mean, they're doing their thing. They're trying to help. They're trying hard. You know, I give school their prop, but it's not helping. What, I'm gonna face that by using math? Really?
+<v Ju'ron>学校帮不了我。我是说，他们在尽力。他们试图帮忙。他们很努力。你知道，我给学校点赞，但它没用。我能怎样？我用数学面对那个吗？真的吗？
+
+00:31:31.350 --> 00:31:48.270
+<v Eli  Hager>So last summer, the experiment began at Orleans Justice Center. Could a violent adult jail contain an aspirational school? Every day, its students, all of whom are black, would grapple with whether they're defined by their classroom or their cell.
+<v Eli  Hager>所以去年夏天，实验在奥尔良司法中心开始了。一所暴力成人监狱能容纳一所富有抱负的学校吗？每一天，这些学生——他们全都是黑人——都会挣扎于他们是被教室定义的，还是被牢房定义的。
+
+00:31:48.270 --> 00:32:12.040
+<v Eli  Hager>In the first year of Travis Hill's existence, there were two moments in particular that illustrated how the kids there deal with this bewildering code switch-- inmate to student, student to inmate. The first was this story that kept coming up in almost every interview I did. It was about this kid, Quincy, also 17 years old-- the kind of legendary kid who everyone at a high school still talks about, even though he's no longer there. Ju'ron lived on the same tier of the jail with him.
+<v Eli  Hager>在特拉维斯·希尔存在的头一年里，有两个时刻特别说明了这里的孩子们是如何应对这种令人困惑的代码切换——囚犯到学生，学生到囚犯。第一个时刻是我采访中几乎每次都会提到的故事。关于这个叫昆西的孩子，也是17岁——那种即使他不在了，每个人在高中还会谈论的传说中的孩子。朱隆和他住在监狱的同一层。
+
+00:32:12.040 --> 00:32:26.190
+<v Ju'ron>Everybody knew Quincy, you know? Quincy, he was just that person. He was just the type of dude, when you come on the tier, he'll try to talk to you, try to jose with you.
+<v Ju'ron>每个人都认识昆西，你知道吗？昆西，他就是那个人。他就是那种当您来到那一层时，会试图和您说话，试图和您开玩笑的那种人。
+
+00:32:26.190 --> 00:32:42.080
+<v Eli Hager>Jose is slang in Louisiana. It sort of means joke, like mess around. Though Quincy didn't really do much school work himself, he'd stand up in class and imitate motivational speakers from YouTube, telling the other kids to do their work. That kind of thing left a big impression on the staff.
+<v Eli Hager>“Jose”是路易斯安那州的俚语。它有点像开玩笑的意思，就像胡闹。虽然昆西自己并没有真正做多少功课，但他会站在课堂上模仿YouTube上的励志演说家，告诉其他孩子去完成他们的工作。那种事情给教职员工留下了深刻印象。
+
+00:32:42.080 --> 00:32:44.170
+<v Teacher 1>He was a calm and cool kid.
+<v Teacher 1>他是一个冷静而酷的孩子。
+
+00:32:44.170 --> 00:32:51.750
+<v Teacher 2>He was very, very intelligent. Very intelligent. Very, very intelligent-- just, sorry, I had to stress that.
+<v Teacher 2>他非常、非常聪明。非常聪明。非常、非常聪明——抱歉，我不得不强调这一点。
+
+00:32:51.750 --> 00:32:54.150
+<v Teacher 3>Well, he just had a charisma about him where he's like, you know?
+<v Teacher 3>嗯，他身上有一种魅力，您知道吗？
+
+00:32:54.150 --> 00:32:56.650
+<v Teacher 1>He was a leader of the tier.
+<v Teacher 1>他是这一层的领导者。
+
+00:32:56.650 --> 00:33:05.100
+<v Teacher 2>If somebody new comes on the unit, somebody wants to go pick on this person or that, Quincy may say, hey, nah, leave that man alone. That man chilling.
+<v Teacher 2>如果新人来到单元，有人想去欺负这个人或那个人，昆西可能会说，嘿，不，别管那个人。那个人在休息。
+
+00:33:05.100 --> 00:33:24.560
+<v Eli Hager>Quincy wasn't at the jail anymore by the time I visited, so you're not going to hear from him. Part of the reason everyone knew him so well was that he'd been waiting behind bars for two years to get a trial. When he was 15, he was charged as an adult with attempted murder for shooting a gun at state troopers in an unmarked car, along with a group of other teens.
+<v Eli Hager>我去访问时昆西已经不在监狱了，所以您听不到他本人的声音。每个人都认识他这么好的部分原因是他在铁窗后面等待审判已经两年了。当他15岁时，他被作为成年人起诉，罪名是与一群青少年一起向一辆未标记汽车里的州警开枪，被指控企图谋杀。
+
+00:33:24.560 --> 00:33:43.710
+<v Eli Hager>Every time he had a court date, he got a ride over to the courthouse in a van. The older kids have to take a school bus, of all vehicles, even though it's only like 500 feet away from the jail. He'd wait in the van in shackles to be called into the courtroom, only to have his case continued again. And then he'd just roll back to school and try to do trigonometry, or whatever.
+<v Eli Hager>每次他有庭审日期，他都会乘坐货车去法院。年纪较大的孩子不得不乘坐校车，尽管它离监狱只有500英尺。他会在货车里戴着脚镣等着被叫进法庭，结果却发现他的案件再次延期了。然后他只会回到学校，尝试做三角学，或者其他什么。
+
+00:33:43.710 --> 00:33:48.900
+<v Kenneth Dorsey>Quincy was in a situation with his case that kept getting put off, and put off, and put off, and put off.
+<v Kenneth Dorsey>昆西的案件陷入了一个一直被推迟、推迟、再推迟、再推迟的境地。
+
+00:33:48.900 --> 00:33:52.480
+<v Eli Hager>This is Travis Hill's dean of students, Kenneth Dorsey.
+<v Eli Hager>这是特拉维斯·希尔的教务长肯尼斯·多尔西。
+
+00:33:52.480 --> 00:34:09.480
+<v Kenneth Dorsey>So there's a lot of-- he wasn't interested in doing school. He came, he did a little bit, but then he's off doing something else mentally. And I got to believe it has to do with the fact of what the case was doing to him.
+<v Kenneth Dorsey>所以有很多——他对做功课不感兴趣。他来了，做了一点，但随后他在精神上就在做别的事情了。我不得不相信这与案件对他产生的影响有关。
+
+00:34:09.480 --> 00:34:27.080
+<v Eli Hager>The day that Quincy finally got to stand in front of a judge was a major event for the entire student body. There had been so much buildup. And in the group claustrophobia of a school in jail, one student's court date feels like everybody's court date. Ju'ron told me and my producer, Sean Cole, what it was like on the juvenile tier beforehand.
+<v Eli Hager>昆西终于站在法官面前的那一天，对全体学生来说是一件大事。铺垫了太久了。而在监狱里的一所学校的那种集体幽闭恐惧症中，一个学生的庭审日期感觉就像每个人的庭审日期。朱隆告诉我和我的制片人肖恩·科尔，在那之前少年区的情况是什么样的。
+
+00:34:27.080 --> 00:34:30.560
+<v Ju'ron>Everybody, we all got in a circle. We were praying he got good news, you know?
+<v Ju'ron>每个人，我们都围成一个圈。我们都在祈祷他能得到好消息，您知道吗？
+
+00:34:30.560 --> 00:34:32.600
+<v Sean Cole>You got in a circle and prayed?
+<v Sean Cole>你们围成圈祈祷？
+
+00:34:32.600 --> 00:34:33.700
+<v Ju'ron>Yeah, we always do that.
+<v Ju'ron>是的，我们总是那样做。
+
+00:34:33.700 --> 00:34:38.110
+<v Eli Hager>Every time somebody has a big court situation coming up, you do that?
+<v Eli Hager>每次有人有重大的法庭情况要来时，你们都会那样做？
+
+00:34:38.110 --> 00:34:47.020
+<v Ju'ron>Yeah, we pray. They pray. I just be standing by and watching. But at the time, I was praying with them. So he was like, man, I'm going home tomorrow.
+<v Ju'ron>是的，我们祈祷。他们祈祷。我只是站在旁边看着。但当时，我在和他们一起祈祷。所以他就像，伙计，我明天要回家了。
+
+00:34:47.020 --> 00:34:53.130
+<v Ju'ron>It was like, yeah, you going home tomorrow. We were not trying to jinx it. Then he came back, threw his food on the table.
+<v Ju'ron>感觉就是，是的，你明天要回家了。我们不想破坏它。然后他回来了，把食物扔在桌子上。
+
+00:34:53.130 --> 00:34:57.330
+<v Eli Hager>Quincy had come back from court and just threw his food on the table. They were all at lunch.
+<v Eli Hager>昆西从法庭回来，只是把食物扔在桌子上。他们都在吃午饭。
+
+00:34:57.330 --> 00:35:05.750
+<v Ju'ron>I was like, what happened, bro? He was like, I got fucking 25 years. Just like, damn. And everybody just started crying.
+<v Ju'ron>我就像，发生了什么，兄弟？他就像，我被判了25年。就是这样，该死。每个人都开始哭了。
+
+00:35:05.750 --> 00:35:13.020
+<v Eli Hager>25 years for someone charged at 15 years old. It was the longest sentence handed down in Travis Hill's short history.
+<v Eli Hager>对于一个15岁被指控的人来说，25年。这是特拉维斯·希尔短暂历史上判决的最长刑期。
+
+00:35:13.020 --> 00:35:15.800
+<v Eli Hager>And what was your first class after that?
+<v Eli Hager>那之后您的第一节课是什么？
+
+00:35:15.800 --> 00:35:17.300
+<v Ju'ron>Art.
+<v Ju'ron>美术。
+
+00:35:17.300 --> 00:35:18.260
+<v Eli Hager>Art.
+<v Eli Hager>美术。
+
+00:35:18.260 --> 00:35:31.140
+<v Ju'ron>And everybody was just sad, you know? Nobody wasn't doing no work. Everybody had their head down, just thinking, listening to music about sentencing, you know, just to relate to.
+<v Ju'ron>每个人都很伤心，您知道吗？没有人做任何工作。每个人都低着头，只是在思考，听着关于判决的音乐，您知道，只是为了产生共鸣。
+
+00:35:31.140 --> 00:35:33.580
+<v Eli Hager>Music about sentencing?
+<v Eli Hager>关于判决的音乐？
+
+00:35:33.580 --> 00:35:41.070
+<v Ju'ron>Music about jail and getting sentenced, people turning their back on you, and all that. It's just music about that. That's what we like to listen to, because we can relate.
+<v Ju'ron>关于监狱和被判刑、人们背弃您之类的音乐。这就是关于那个的音乐。我们喜欢听那个，因为我们可以产生共鸣。
+
+00:35:41.070 --> 00:35:43.980
+<v Sean Cole>Which songs were you listening to in that class?
+<v Sean Cole>您在那节课上听的是哪些歌？
+
+00:35:43.980 --> 00:35:46.680
+<v Ju'ron>We was listening to YFN Lucci, "Turn They Back On Me."
+<v Ju'ron>我们在听YFN Lucci的《Turn They Back On Me》。
+
+00:35:46.680 --> 00:35:49.670
+<v Ju'ron>[MUSIC - YFN LUCCI, "TURN THEY BACK"]
+<v Ju'ron>（音乐 - YFN LUCCI, "TURN THEY BACK"）
+
+00:35:49.670 --> 00:35:52.160
+<v Eli  Hager>This is another student, Marlin.
+<v Eli  Hager>这是另一个学生，马林。
+
+00:35:52.160 --> 00:36:06.180
+<v Marlin>Yeah, 'cause the teachers here had put on this song by YFN Lucci, "Turn Your Back." And when we heard that, the whole class just broke down in tears with him. Like, we just were broke down for that whole class period, just crying.
+<v Marlin>是的，因为这里的老师放了这首YFN Lucci的《Turn Your Back》。当我们听到那首歌时，整个班级都和他一起泪崩了。就像，我们在那一整节课期间都崩溃了，只是在哭。
+
+00:36:06.180 --> 00:36:12.090
+<v Marlin>I was crying like a babe. And I just felt his pain, like-- yeah, I felt his pain.
+<v Marlin>我哭得像个孩子。我感受到了他的痛苦，就像——是的，我感受到了他的痛苦。
+
+00:36:12.090 --> 00:36:15.250
+<v Yfn Lucci>Let me know if you feel my pain, yeah.
+<v Yfn Lucci>让我知道您是否感受到我的痛苦，是的。
+
+00:36:15.250 --> 00:36:17.270
+<v Ju'ron>Listening to the song--
+<v Ju'ron>听着这首歌——
+
+00:36:17.270 --> 00:36:19.180
+<v Eli Hager>Ju'ron again.
+<v Eli Hager>朱隆再次发言。
+
+00:36:19.180 --> 00:36:28.620
+<v Ju'ron>--just zoning out, not listening to nothing the teacher had to say. Nobody was listening to her. It was just a sad moment for our juvenile tier.
+<v Ju'ron>——只是走神了，没听老师说的任何东西。没人听她的。这对我们的少年区来说只是一个悲伤的时刻。
+
+00:36:28.620 --> 00:36:34.710
+<v Sean   Cole>Was she trying to teach the class anyway?
+<v Sean   Cole>她当时还在试图教课吗？
+
+00:36:34.710 --> 00:36:43.090
+<v Ju'ron>Yeah, she was trying to teach, you know? Same shit, trying to get our mind off it. But how can get your mind off of something like that?
+<v Ju'ron>是的，她在试图教课，您知道吗？同样的事情，试图让我们转移注意力。但您怎么能从那种事情上转移注意力呢？
+
+00:36:43.090 --> 00:36:48.350
+<v Eli  Hager>What about fifth period that day? What did you have next?
+<v Eli  Hager>那天第五节课呢？您接下来有什么课？
+
+00:36:48.350 --> 00:36:49.220
+<v Ju'ron>Science, same thing.
+<v Ju'ron>科学，同样的事情。
+
+00:36:49.220 --> 00:36:53.400
+<v Eli Hager>Same thing? You had science, and she was trying to teach also?
+<v Eli Hager>同样的事情？您有科学课，她也试图教？
+
+00:36:53.400 --> 00:36:56.120
+<v Ju'ron>It was like that until he went to DCI that Tuesday.
+<v Ju'ron>直到他那个周二去DCI之前都是那样。
+
+00:36:56.120 --> 00:37:16.680
+<v Eli Hager>DCI is the Dixon Correctional Institute. In the days before Quincy got sent off, even though this goes against the whole point of their school, the teachers decided that he was facing too bleak a future to try to get him to study. So they just let him listen to music, and sat and had conversations with him, talking about how he'd be as old as they are when he got out.
+<v Eli Hager>DCI是迪克森惩教所。在昆西被送走之前的几天里，尽管这违背了他们办学的初衷，但老师们决定他面临的未来太惨淡，不适合尝试让他学习。所以他们只是让他听音乐，坐下来和他交谈，谈论他出来时会像他们现在一样老了。
+
+00:37:16.680 --> 00:37:34.160
+<v Ju'ron>It felt like to see that they would give a young person our age 25 years, you think they're really going to give a fuck about us, being the same age? Then we're black. They don't got no white people on our tier.
+<v Ju'ron>感觉看到他们会给一个我们这个年纪的年轻人25年，您会认为他们真的会在乎我们吗，因为我们同龄？然后我们是黑人。我们区里没有白人。
+
+00:37:34.160 --> 00:37:41.480
+<v Ju'ron>It just looked like we was out for failure. Everybody makes mistakes. That's why I was depressed. I felt like nobody was safe.
+<v Ju'ron>看起来我们就像是被抛弃的失败者。每个人都会犯错。这就是我抑郁的原因。我觉得没人是安全的。
+
+00:37:41.480 --> 00:37:52.680
+<v Eli Hager>And you felt like they were basically saying that his life didn't have any worth, because they were just-- he was only 17 years old, and they were giving him 25 years. Is that kind of what it felt like?
+<v Eli Hager>您觉得他们基本上是在说他的生命没有任何价值，因为他们只是——他才17岁，他们却给了他25年。感觉是那样的吗？
+
+00:37:52.680 --> 00:37:54.350
+<v Ju'ron>I think so. Yeah, basically.
+<v Ju'ron>我想是吧。是的，基本上。
+
+00:37:54.350 --> 00:37:59.020
+<v Eli  Hager>But you're saying that his life did have a lot of worth.
+<v Eli  Hager>但您是在说他的生命确实有很大价值。
+
+00:37:59.020 --> 00:38:00.800
+<v Ju'ron>Yeah, his life had a lot of worth.
+<v Ju'ron>是的，他的生命有很大价值。
+
+00:38:00.800 --> 00:38:04.890
+<v Eli Hager>Why does his life and your life have worth?
+<v Eli Hager>为什么他和您的生命有价值？
+
+00:38:04.890 --> 00:38:31.740
+<v Ju'ron>Because we're young. We ain't even turned 18 yet. We have still a lot of growing to do. We got changes we can make, you know? Stuff that we can do to change our life, and all that. But once you mess up for once, it's going to cost you the rest of your life. I ain't saying he got life in jail, but 25 years, that's a lot. That's more than a lot.
+<v Ju'ron>因为我们年轻。我们还没满18岁。我们还有很多成长空间。我们可以做出改变，您知道吗？我们可以做些事情来改变我们的生活，诸如此类。但一旦您搞砸了一次，它就会花费您的余生。我不是说他在监狱里度过余生，但25年，这很多。这比很多还要多。
+
+00:38:31.740 --> 00:38:38.980
+<v Ju'ron>After that, I don't know. That really killed me. When Quincy got sent 25 years, that killed my hopes of getting out.
+<v Ju'ron>在那之后，我不知道。那真的杀死了我。当昆西被判了25年时，那扼杀了我出去的希望。
+
+00:38:38.980 --> 00:38:50.860
+<v Eli Hager>A lot of the other kids felt the same way. The math teacher, Ms. Burr, and the other teachers, say that even months later, their students still haven't fully come to terms with Quincy's departure. They still bring him up.
+<v Eli Hager>很多其他孩子也有同样的感觉。数学老师伯尔女士和其他老师说，即使几个月后，学生们仍然没有完全接受昆西的离开。他们仍然提到他。
+
+00:38:50.860 --> 00:38:54.450
+<v Ms. Burr>Literally, I think on Monday, they asked about him, and brought him up, and talked about him.
+<v Ms. Burr>说实话，我想周一时，他们问起他，提起他，谈论他。
+
+00:38:54.450 --> 00:38:56.270
+<v Eli Hager>And what did they say to you?
+<v Eli Hager>他们对您说了什么？
+
+00:38:56.270 --> 00:39:12.070
+<v Ms. Burr>What they said was, well, what if I got time like Quincy? What's the point of this education if I'm getting time like him? Then this is a waste of my time. There's no point, because in 25 years-- that's 25 years. I'm not using this.
+<v Ms. Burr>他们说的是，好吧，如果我也像昆西那样被判刑呢？如果我像他那样被判刑，这种教育还有什么意义？那纯属浪费我的时间。没意义，因为25年后——那是25年。我用不到这个。
+
+00:39:12.070 --> 00:39:21.760
+<v Ms. Burr>And so then I brought up the way that Quincy left, and how he was like, I know education is important. I want to pursue my education. And they were like, wait, really? He said that? And I was like, yeah, he said that.
+<v Ms. Burr>然后我提到了昆西离开的方式，以及他是如何说“我知道教育很重要。我想追求我的教育”的。他们就说，等等，真的吗？他说过吗？我说，是的，他说了。
+
+00:39:21.760 --> 00:39:37.250
+<v Eli Hager>I was at the jail visiting around the time Quincy and another student were sentenced. And I sat in on this one science class where their friends were downright despondent. One was walking around the room, groaning and knocking his head against the door.
+<v Eli Hager>昆西和另一个学生被判刑时，我正好在监狱探访。我旁听了一节科学课，他们的朋友简直心灰意冷。一个人在房间里走来走去，呻吟着，把头撞向门。
+
+00:39:37.250 --> 00:40:02.700
+<v Eli Hager>The teacher was trying to teach a lesson about the properties of living organisms. A living organism needs light, she said, and energy. A living organism needs to live within a community. A living organism responds to stimuli or messages from the environment around it. A living organism has the capacity to grow.
+<v Eli Hager>老师试图教授关于生物特性的课程。她说，生物需要光，需要能量。生物需要在社区中生活。生物对来自周围环境的刺激或信息做出反应。生物有成长的能力。
+
+00:40:02.700 --> 00:40:15.640
+<v Eli Hager>When Quincy was shipped upstate, it was probably the lowest moment for the kids. Their most hopeful moment came just a month later. It had to do with another student who nearly everyone at the school talked about and another first at Travis Hill, but of a very different kind.
+<v Eli Hager>当昆西被送往州北部时，可能是孩子们最压抑的时刻。他们最充满希望的时刻是在一个月后。这与学校里几乎每个人都谈论的另一个学生有关，也是特拉维斯·希尔的另一个第一次，但性质完全不同。
+
+00:40:15.640 --> 00:40:27.110
+<v Eli Hager>It was the first graduation-- a graduation ceremony for one, one student. A whole ceremony was held for him. The graduate was a kid named Tristion. But people don't call him Tristion.
+<v Eli Hager>这是第一次毕业典礼——一个人的毕业典礼，一名学生。为他举行了完整的仪式。毕业生是一个叫特里斯蒂昂的孩子。但人们不叫他特里斯蒂昂。
+
+00:40:27.110 --> 00:40:29.240
+<v Tristion>I have everybody call me Fireman.
+<v Tristion>我让大家都叫我“消防员”。
+
+00:40:29.240 --> 00:40:30.720
+<v Eli Hager>OK.
+<v Eli Hager>好的。
+
+00:40:30.720 --> 00:40:34.760
+<v Tristion>You know, jail give you nicknames. Like, call me Fireman. That's my childhood dream.
+<v Tristion>您知道，监狱会给您起绰号。就像，叫我“消防员”。那是我的童年梦想。
+
+00:40:34.760 --> 00:40:35.590
+<v Eli Hager>Oh.
+<v Eli Hager>噢。
+
+00:40:35.590 --> 00:40:46.210
+<v Tristion>So I think it was in school, you know, we had to sing a song, "Firetrucks are Red," R-E-D. And then I look. I'm liking it. I'm liking what it's looking like.
+<v Tristion>所以我认为是在学校，您知道，我们必须唱一首歌，《消防车是红色的》，R-E-D。然后我看着。我很喜欢。我喜欢它看起来的样子。
+
+00:40:46.210 --> 00:40:52.790
+<v Tristion>Then every Halloween, from young to a certain age limit, I dressed as a firefighter.
+<v Tristion>然后每个万圣节，从幼年到某个年龄限制，我都打扮成消防员。
+
+00:40:52.790 --> 00:40:54.740
+<v Eli Hager>You were a fireman every single Halloween?
+<v Eli Hager>每个万圣节您都是消防员？
+
+00:40:54.740 --> 00:40:55.690
+<v Tristion>Every single Halloween.
+<v Tristion>每个万圣节都是。
+
+00:40:55.690 --> 00:40:56.860
+<v Eli Hager>That's good. You're consistent.
+<v Eli Hager>那很好。您很持之以恒。
+
+00:40:56.860 --> 00:41:13.360
+<v Ira Glass>Tristion has the word "fireman" written in Sharpie on the collar of his orange jumpsuit and down its leg. In addition to fighting fires, he wants to start a storm evacuation business. He grew up in the Lower Ninth Ward. And like most of the kids at Travis Hill, he's one of the babies of Hurricane Katrina.
+<v Ira Glass>特里斯蒂昂在橙色连体服的领口和腿部用记号笔写着“消防员”三个字。除了灭火，他还想开一家飓风撤离企业。他在下九区长大。像特拉维斯·希尔的大多数孩子一样，他是卡特里娜飓风的幸存者之一。
+
+00:41:13.360 --> 00:41:24.390
+<v Ira Glass>Like Ju'ron, he fled to Texas until the water went down. He says his high school class was going to be the first to graduate from a brand new school building that had just been built. But then he came to jail.
+<v Ira Glass>像朱隆一样，他逃到了得克萨斯州，直到洪水退去。他说他的高中班级本应是第一批从刚建成的新校舍毕业的学生。但后来他进了监狱。
+
+00:41:24.390 --> 00:41:44.530
+<v Ira Glass>When Tristion was a juvenile, he coerced underage girls online to send him naked photos. He says he knew it was wrong when he was doing it and that he stopped about a year before he was arrested, at age 18. Tristion is not at all the typical student at Travis Hill. He came to jail before the school existed and was already studying to get his GED, already motivated.
+<v Ira Glass>特里斯蒂昂还是少年时，在网上强迫未成年女孩给他发裸照。他说他在做这件事时就知道这是不对的，并且在被捕前大约一年，即18岁时就停止了。特里斯蒂昂根本不是特拉维斯·希尔的典型学生。他在学校成立之前就进了监狱，当时已经在学习GED，已经有了动力。
+
+00:41:44.530 --> 00:42:03.930
+<v Tristion>But then Travis Hill came along. Woo! It was a big game changer. We had classes-- like, real periods. The transitioning, the time up, time to switch and stuff, really gave me that feeling, like I was really in school. I'm like, man, I think I'm going to love this.
+<v Tristion>但后来特拉维斯·希尔出现了。哇！这改变了游戏规则。我们有课——就像，真正的课时。过渡、课间休息，切换时间之类的，真的给了我那种感觉，好像我真的在学校里。我就像，伙计，我想我会爱上这个的。
+
+00:42:03.930 --> 00:42:20.130
+<v Eli Hager>Tristion said school was like having a huge breakfast waiting for him in the morning, with eggs, and grits, and biscuits, and sausage, and orange juice. Meanwhile, his actual breakfast the first morning of school was cereal. It was cereal the next morning, too, and the next.
+<v Eli Hager>特里斯蒂昂说学校就像早晨为他准备的一顿丰盛早餐，有鸡蛋、粗粮、饼干、香肠和橙汁。与此同时，他上学第一天早上的实际早餐是麦片。第二天早上也是麦片，之后也是。
+
+00:42:20.130 --> 00:42:28.710
+<v Eli Hager>Jail is dispiriting like that, demotivating. And Tristion was bent on staying motivated. So instead of fixating on being in jail, he takes another approach.
+<v Eli Hager>监狱就是这样让人沮丧，让人失去动力。特里斯蒂昂一心想保持动力。所以他没有盯着自己身在监狱这件事，而是采取了另一种方法。
+
+00:42:28.710 --> 00:42:33.080
+<v Tristion>I try to put that "I'm in a jail facility" to the side.
+<v Tristion>我试着把“我在监狱设施里”这个念头放在一边。
+
+00:42:33.080 --> 00:42:34.790
+<v Eli  Hager>How do you do that?
+<v Eli  Hager>您是怎么做到的？
+
+00:42:34.790 --> 00:42:54.660
+<v Tristion>I do it mentally, of course. I look, and I just picture myself in a real class setting. Even though I have to go back to the tier, I don't look at going back to the tier as going home. I look at going back to the tier as, like, you know, just going to this park.
+<v Tristion>我当然是在精神上做到的。我看着，我只是把自己想象在一个真正的课堂环境里。尽管我必须回到那一层，我不把回那一层看作回家。我把回那一层看作是，您知道，只是去公园。
+
+00:42:54.660 --> 00:42:58.390
+<v Sean Cole>A park-- like a city park?
+<v Sean Cole>公园——像城市公园吗？
+
+00:42:58.390 --> 00:43:10.030
+<v Tristion>Yes, like a city park. You're around a bunch of people you don't really know. You don't know why they're there. But you just know you're surrounded by a bunch of random people.
+<v Tristion>是的，像城市公园。您周围有一群您不太认识的人。您不知道他们为什么在那儿。但您只是知道您被一群随机的人包围了。
+
+00:43:10.030 --> 00:43:23.830
+<v Tristion>And another thing I programmed in my head, because I want to go to the military also-- I said, by us having all of the same color on, this is boot camp. This is training. This is a training facility.
+<v Tristion>还有我在脑子里编程的另一件事，因为我也想去参军——我说，既然我们都穿着同样的颜色，这就是新兵训练营。这是训练。这是一个训练设施。
+
+00:43:23.830 --> 00:43:36.980
+<v Tristion>It's not a jail facility. This is a training facility. This is training me to handle being away from family and to be able to better myself. And another way to look at it, if that don't work, I look at it like a hurricane shelter.
+<v Tristion>这不是监狱设施。这是一个训练设施。这在训练我处理离开家人的事情，并使我能够提升自己。如果那不管用，另一种看待方式是，我把它看作飓风避难所。
+
+00:43:36.980 --> 00:43:38.650
+<v Eli Hager>A hurricane shelter?
+<v Eli Hager>飓风避难所？
+
+00:43:38.650 --> 00:44:00.080
+<v Tristion>A hurricane shelter. There's been a bad storm. Everybody's been separated from their people. We're all around, like I said, a bunch of people that you do not know. But you have to survive, and they have the-- they provide the food for you. They come check on you, make sure you follow the rules. Sounds what a hurricane shelter is to me.
+<v Tristion>飓风避难所。发生了一场大风暴。每个人都与他们的人分开了。我们都在，就像我说的，被一群您不认识的人包围着。但您必须生存，他们提供了食物。他们来看看您，确保您遵守规则。这听起来对我来说就是飓风避难所。
+
+00:44:00.080 --> 00:44:21.390
+<v Eli Hager>This is the way that Tristion deals with going to school in jail-- by pretending he's not in jail. Some of the other students engage in a similar kind of useful delusion, especially during what one teacher calls the honeymoon phase of jail, when the kids are still telling themselves, and anyone who will listen, that they're getting out tomorrow or next week, against all evidence to the contrary.
+<v Eli Hager>这就是特里斯蒂昂处理在监狱上学的方法——假装他不在监狱里。其他一些学生也进行类似的有用错觉，特别是在一位老师所说的监狱“蜜月期”，当孩子们还在告诉自己，并告诉任何愿意听的人，他们明天或下周就要出去时，尽管有所有的证据表明并非如此。
+
+00:44:21.390 --> 00:44:31.070
+<v Eli Hager>The school does it, too, by having intentionally condensed units and semesters, with award ceremonies at the end of each one, to at least give the students a feeling of accomplishment or completion.
+<v Eli Hager>学校也是如此，通过故意压缩单元和学期，在每个单元结束时举行颁奖典礼，至少给学生一种成就感或完整感。
+
+00:44:31.070 --> 00:44:37.190
+<v Eli Hager>Do you ever get-- do you ever get really down? I mean, it seems like you're very positive. Do you ever get real down?
+<v Eli Hager>您有没有——您有没有感到非常低落？我的意思是，您看起来非常积极。您有没有感到真的很低落？
+
+00:44:37.190 --> 00:44:49.840
+<v Tristion>I kid you not, only for one minute. I said, man, this ain't no boot camp. This isn't a hurricane-- this is a real jail. Man. But I say, you know what?
+<v Tristion>我不骗您，只有一分钟。我说了，伙计，这不是新兵训练营。这不是飓风避难所——这是一个真正的监狱。伙计。但我说，您知道吗？
+
+00:44:49.840 --> 00:45:01.010
+<v Tristion>And I say this to myself all the time-- I'll be talking to myself and I'll be like, jail is not a bad place. Jail is a place to get you to get right.
+<v Tristion>我一直对自己说这句话——我会对自己说话，就像，监狱不是个坏地方。监狱是一个让你走上正轨的地方。
+
+00:45:01.010 --> 00:45:06.140
+<v Eli Hager>Do you ever think, wait, this isn't actually a school, this is a jail?
+<v Eli Hager>您有没有想过，等等，这不是学校，这是监狱？
+
+00:45:06.140 --> 00:45:29.910
+<v Tristion>This is always a school. The only difference is, you have a deputy just standing there, just watching you. And I'm not used to being watched like that. But like I say, the boot camp-- that's my ranking officer. He's making it so I do everything right, make it so I don't mess up, make it so I do this right, just in case I have to go into combat.
+<v Tristion>这永远是学校。唯一的区别是，有个副警长站在那儿，只是看着您。我不习惯那样被看着。但就像我说的，新兵训练营——那是我的长官。他让我把一切做对，让我不犯错，让我把这个做好，以防我必须上战场。
+
+00:45:29.910 --> 00:45:36.750
+<v Eli Hager>Tristion is obviously a pretty enthusiastic guy in general. But when I asked him about his graduation, he talked for seven minutes straight--
+<v Eli Hager>特里斯蒂昂总体上显然是一个非常有热情的家伙。但当我问他毕业典礼时，他连续谈了七分钟——
+
+00:45:36.750 --> 00:45:38.600
+<v Tristion>Ooh. Man, big day.
+<v Tristion>噢。伙计，大日子。
+
+00:45:38.600 --> 00:45:47.430
+<v Eli Hager>--not just about the event itself, but the moments leading up to it, acting out every part like he was in a one-man show, from getting ready in the morning--
+<v Eli Hager>——不仅仅是关于事件本身，还有导致它的时刻，表演每一个部分，就像他在一场独角戏中一样，从早晨做好准备——
+
+00:45:47.430 --> 00:45:53.820
+<v Tristion>Lotion, baby powder, brushing my teeth twice, brushing my hair, smelling good.
+<v Tristion>乳液、爽身粉、刷牙两次、梳头，闻起来香香的。
+
+00:45:53.820 --> 00:45:57.760
+<v Eli Hager>--to the lunch break that day, hours before the ceremony.
+<v Eli Hager>——到那天午餐时间，仪式前几个小时。
+
+00:45:57.760 --> 00:46:08.580
+<v Tristion>I eat my food. Let me see, did I eat my food? I did not eat my food, because what we had was not so good. So I just ate the cookies. I sent it back out-- blech, take it.
+<v Tristion>我吃了我的食物。让我看看，我吃食物了吗？我没吃，因为我们有的东西不好吃。所以我只是吃了饼干。我把它送回去了——呕，拿走。
+
+00:46:08.580 --> 00:46:24.860
+<v Eli Hager>And he didn't have to do any fantasizing at all when it came to the ceremony itself. It was the real deal, with balloons, speeches. His family was there. All of his classmates were in attendance. And unlike them, instead of orange, Tristion was decked out in a dark green cap and gown.
+<v Eli Hager>在仪式本身时，他根本不需要任何幻想。那是真实的事情，有气球，有演讲。他的家人在场。他所有的同学都出席了。而且与他们不同的是，特里斯蒂昂戴着深绿色的学士帽和学士袍，而不是橙色。
+
+00:46:24.860 --> 00:46:29.920
+<v Tristion>We tried to figure out, which side does the tassel go on? And here we go.
+<v Tristion>我们试着弄清楚，流苏该放在哪一边？这就是了。
+
+00:46:29.920 --> 00:46:35.470
+<v Tristion>[HUMMING "POMP AND CIRCUMSTANCE"]
+<v Tristion>（哼唱《威风堂堂进行曲》）
+
+00:46:35.470 --> 00:46:42.750
+<v Tristion>And just that feeling of everybody looking, smiling. I'm just-- got my little military walk going on.
+<v Tristion>那种感觉就是每个人都在看，都在笑。我只是——我迈着我的小军步。
+
+00:46:42.750 --> 00:46:44.610
+<v Sean Cole>You're saluting?
+<v Sean Cole>您在敬礼？
+
+00:46:44.610 --> 00:46:54.330
+<v Tristion>Saluting. I see my grandfather and my mother in the front. And I'm just like, man, this is really big. I get up and do my speech.
+<v Tristion>敬礼。我看到我的祖父和母亲在前排。我就像，伙计，这真的很重大。我站起来做演讲。
+
+00:46:54.330 --> 00:47:13.020
+<v Tristion>All right, all right. This selection I selected is about mistakes and consequences, and reads as follows. "While we are free to choose our actions, we are not free to choose the consequences of these actions. Consequences are governed by natural law. They are out in the circle of--"
+<v Tristion>好了，好了。我选择的内容是关于错误和后果的，内容如下。“虽然我们可以自由选择我们的行为，但我们不能自由选择这些行为的后果。后果受自然法则支配。它们在……”
+
+00:47:13.020 --> 00:47:29.240
+<v Tristion>I glance at my mom. I see the little teardrop right here. She tried to wipe it, but I caught it before she wiped it. I'm like, ah, I seen you. I thought I was going to have-- I thought I was going to cry, which I did later on. My fellow classmates, they were like, man, that's big, son. I want to graduate now.
+<v Tristion>我扫视我的妈妈。我看到这里有一颗小泪珠。她试着擦掉它，但我擦掉之前就抓住了它。我就像，啊，我看见你了。我以为我会——我以为我会哭，我后来确实哭了。我的同学们，他们就像，伙计，这太重大了，孩子。我现在想毕业了。
+
+00:47:29.240 --> 00:47:33.910
+<v Eli Hager>Ms. Burr, the math teacher, said she heard the same thing from the students.
+<v Eli Hager>数学老师伯尔女士说，她从学生那里听到了同样的话。
+
+00:47:33.910 --> 00:47:44.270
+<v Ms. Burr>It was just like, wait, I can actually get a diploma in here. Like, that's a real thing. And so I think sometimes they think we're just saying stuff. And so seeing those moments, they're just like, wow, this actually is a real place.
+<v Ms. Burr>就像，等等，我真的可以在这里拿到毕业证书。就像，那是真的。所以我认为有时他们认为我们只是在随便说说。所以看到那些时刻，他们就像，哇，这确实是一个真实的地方。
+
+00:47:44.270 --> 00:47:45.740
+<v Eli Hager>It's almost like they--
+<v Eli Hager>几乎就像他们——
+
+00:47:45.740 --> 00:47:58.370
+<v Ira Glass>It took this kid, who lives in an imaginary version of jail, to make the school inside of the jail feel real. But after Tristion's graduation, he had to go back to his cell, diploma in hand. His family had gone home.
+<v Ira Glass>正是这个生活在监狱虚构版本中的孩子，让监狱里的学校变得真实。但在特里斯蒂昂毕业后，他必须拿着文凭回到牢房。他的家人已经回家了。
+
+00:47:58.370 --> 00:48:26.330
+<v Tristion>I went back to the dorm. It came, that one minute. Came that one minute of sadness-- like, the feeling of them leaving, and I'm not able to leave with them or follow right behind them. That really took a little chunk out of me. I'm like-- I'm so used to my mama saying, follow me.
+<v Tristion>我回到宿舍。它来了，那最后一分钟。来了那一分钟的悲伤——就像，他们离开的感觉，而我不能和他们一起离开或者跟在他们后面。那真的从我身上带走了一块。我就像——我太习惯我妈妈说，跟着我。
+
+00:48:26.330 --> 00:48:45.200
+<v Tristion>And for them to walk out the door, that's the last time I'm seeing them until I get out. And I know I can't walk behind them. That was big. And I'm laying down in my bed. I'm like, here I am, back on the tier, graduated.
+<v Tristion>而他们走出门口，那是我见到他们的最后一次，直到我出去。我知道我不能跟在他们后面。那太重大了。我躺在床上。我就像，我在这儿，回到那一层了，毕业了。
+
+00:48:45.200 --> 00:48:53.050
+<v Tristion>I say, no, I'm not about to do this. I'm not going to do this. I graduated. I'm going to be home soon.
+<v Tristion>我说，不，我不能这样做。我不打算这样做。我毕业了。我很快就会回家。
+
+00:48:53.050 --> 00:49:10.200
+<v Eli  Hager>Tristion was sentenced the very next day after his graduation. Last year, he'd asked the court to delay his sentencing until he finished his degree. Now he's at another facility and will be incarcerated until 2021, according to the Louisiana Department of Corrections.
+<v Eli  Hager>特里斯蒂昂在毕业的第二天就被判刑了。去年，他曾要求法庭将判决推迟到他拿到学位。据路易斯安那州惩教局称，他现在在另一个设施，将被关押到2021年。
+
+00:49:10.200 --> 00:49:40.980
+<v Eli  Hager>One of Travis Hill's staff members, Alexi Gaddis, told the students during a, quote unquote, "life skills" class this spring, that it's already not easy for human beings to dream. It's already a vulnerable thing to believe in yourself, given all the ways the world can crush that. Getting these particular kids to give dreaming another chance, absurd as it can feel in some ways, given what this country thinks of them-- in the end, that's the core curriculum of this school.
+<v Eli  Hager>特拉维斯·希尔的一名工作人员亚历克西·加迪斯今年春天在所谓的“生活技能”课上告诉学生，人类梦想并不容易。鉴于世界可能会以各种方式粉碎它，相信自己本来就是一件脆弱的事情。让这些特定的孩子再次获得做梦的机会，尽管在某些方面会感到荒谬，考虑到这个国家对他们的看法——最终，那是这所学校的核心课程。
+
+00:49:40.980 --> 00:50:03.080
+<v Ira   Glass>Eli Hager-- he's a reporter for the Marshall Project. Since his visit to the Travis Hill school, two more students have graduated in the jail. One of them said seeing Tristion graduate really inspired him. You can read a print version of Eli's story on the Marshall Project's website, MarshallProject.org.
+<v Ira   Glass>艾利·海格——他是马歇尔项目的记者。在他访问特拉维斯·希尔学校后，又有两名学生在监狱毕业。其中一人说，看到特里斯蒂昂毕业真的启发了他。您可以在马歇尔项目网站 MarshallProject.org 上阅读艾利故事的印刷版本。
+
+00:50:03.080 --> 00:50:16.420
+<v Ira  Glass>Act Three, Those Who Can't Play. So our program today is about people trying to learn something it is just hard to learn. And with the World Cup coming next week, I will point out, it's really hard to learn to be a great soccer player.
+<v Ira  Glass>第三幕：那些无法玩转的人。所以我们今天的节目是关于人们试图学习一些真的很难学习的东西。随着下周世界杯的临近，我会指出，学习成为一名伟大的足球运动员真的很难。
+
+00:50:16.420 --> 00:50:28.840
+<v Ira  Glass>Daniel Alarcon, the executive producer and host of Radio Ambulante, has this story about his dad. Growing up in Peru, Daniel's dad, Renato, played soccer around the neighborhood, like all the kids did. But he was never anything special.
+<v Ira  Glass>《Radio Ambulante》的执行制片人兼主持人丹尼尔·阿拉孔讲述了他父亲的故事。丹尼尔的父亲雷纳托在秘鲁长大，像所有孩子一样在社区里踢足球。但他从来都不是什么特别的球员。
+
+00:50:28.840 --> 00:50:33.100
+<v Daniel Alarcón>So it was certain, like, he was never thought of as being an athlete.
+<v Daniel Alarcón>所以可以肯定，他从不被认为是运动员。
+
+00:50:33.100 --> 00:50:37.620
+<v Ira Glass>What he was thought of, from a young age, was being beyond unusually bright.
+<v Ira Glass>从小到大，他被认为是异常聪明。
+
+00:50:37.620 --> 00:50:55.970
+<v Daniel Alarcón>You know, when I've gone back, I was introduced as, oh, this is Renato's son. And then just heard, just, oh, your dad was so smart. Your dad was so smart. When he was a kid, he won this-- he was, like, 14. He won this national quiz show for kids on TV--
+<v Daniel Alarcón>您知道，当我回去时，我被介绍说，噢，这是雷纳托的儿子。然后就听到，噢，您爸爸太聪明了。您爸爸太聪明了。他还是个孩子时，赢得了这个——他才14岁。他赢得了电视上为孩子们举办的全国问答比赛——
+
+00:50:55.970 --> 00:50:56.840
+<v Ira Glass>Oh, wow.
+<v Ira Glass>噢，哇。
+
+00:50:56.840 --> 00:51:05.940
+<v Daniel Alarcón>--and flew from the city where he lived in, flew to Lima. He was the only kid from the provinces who was a finalist, only kid from a public school, front page of the newspaper.
+<v Daniel Alarcón>——从他住的城市飞往利马。他是来自外省的决赛选手中唯一的孩子，来自公立学校的唯一孩子，登上了报纸头版。
+
+00:51:05.940 --> 00:51:11.180
+<v Ira Glass>He was an incredibly verbal kid, loved poetry and words, great talker. But again-- soccer?
+<v Ira Glass>他是一个口才极好的孩子，热爱诗歌和词汇，非常健谈。但再次——足球？
+
+00:51:11.180 --> 00:51:26.410
+<v Daniel  Alarcón>There's two things that happen when you aren't one of the better players. They put you in goal, to be a goalkeeper. Maybe, they might make you ref, but that's like really low, you know?
+<v Daniel  Alarcón>当您不是更好的球员之一时，有两件事会发生。他们会把您放在球门里，去做守门员。也许他们会让你去当裁判，但那真的很低端，您知道吗？
+
+00:51:26.410 --> 00:51:27.210
+<v Ira Glass>Yeah.
+<v Ira Glass>是的。
+
+00:51:27.210 --> 00:51:37.550
+<v Daniel Alarcón>But my dad turned that around and wasn't goalie or ref. And I'm sure he played. I'm not saying that he didn't play. But he started calling the neighborhood games.
+<v Daniel Alarcón>但我爸爸改变了这一点，他既不是守门员也不是裁判。我敢肯定他踢了。我不是说他没踢。但他开始现场解说社区比赛。
+
+00:51:37.550 --> 00:51:40.400
+<v Ira Glass>Wait, wait. So he was calling the games. Did he have gear?
+<v Ira Glass>等等，等等。所以他在解说比赛。他有装备吗？
+
+00:51:40.400 --> 00:51:42.590
+<v Daniel Alarcón>He had a microphone and a little speaker.
+<v Daniel Alarcón>他有一个麦克风和一个小喇叭。
+
+00:51:42.590 --> 00:51:43.600
+<v Ira Glass>He could make his voice louder--
+<v Ira Glass>他能让声音变大——
+
+00:51:43.600 --> 00:51:45.310
+<v Daniel Alarcón>Yeah, he could make his voice louder
+<v Daniel Alarcón>是的，他能让声音变大。
+
+00:51:45.310 --> 00:51:46.190
+<v Ira Glass>--when he's outside.
+<v Ira Glass>——当他在外面时。
+
+00:51:46.190 --> 00:51:46.990
+<v Daniel Alarcón>Yeah, yeah.
+<v Daniel Alarcón>是的，是的。
+
+00:51:46.990 --> 00:51:52.220
+<v Ira Glass>And so basically, he's just taking equipment down and he's announcing kids' actual games as they're playing?
+<v Ira Glass>所以基本上，他只是带着设备去，然后在孩子们比赛时解说他们的真实比赛？
+
+00:51:52.220 --> 00:51:53.180
+<v Daniel Alarcón>Yes.
+<v Daniel Alarcón>是的。
+
+00:51:53.180 --> 00:51:54.690
+<v Ira Glass>Like, kids he knows?
+<v Ira Glass>就像，他认识的孩子？
+
+00:51:54.690 --> 00:51:57.110
+<v Daniel Alarcón>Yeah, the kids in his neighborhood.
+<v Daniel Alarcón>是的，他社区里的孩子们。
+
+00:51:57.110 --> 00:52:08.960
+<v Ira Glass>I would just imagine, if I were a kid playing in that game, to have somebody calling the game, and I could hear them calling the game as I was doing it, it would make me so much more competitive. You know what I mean? It makes it so much more epic.
+<v Ira Glass>我只能想象，如果我是个在那场比赛中踢球的孩子，有个人在解说比赛，而且我在踢球时能听到他在解说，这会让我更有竞争力。您知道我的意思吗？这让它变得史诗级。
+
+00:52:08.960 --> 00:52:26.010
+<v Daniel Alarcón>Yeah, absolutely. My picture of it is, like, how glamorous. Are you kidding me? Like, suddenly, their game is elevated. And it's not just a neighborhood game. Now it's like, look, this is just like we're on the radio, which is just like-- that's the same they do for the World Cup.
+<v Daniel Alarcón>是的，当然。我脑海里的画面是，多么迷人。您在开玩笑吗？就像，突然之间，他们的比赛提升了。这不只是社区比赛。现在它就像，看，这就像我们在广播里一样，就像——这就是他们为世界杯做的那样。
+
+00:52:26.010 --> 00:52:42.590
+<v Ira  Glass>Daniel's dad would also make up games-- like, whole professional games. Like, all the players, both sides, all the action-- starting, Daniel says, when he was 10 or 11. He would do it just for himself, as a thing to do, though the whole family knew he could do this.
+<v Ira  Glass>丹尼尔的父亲还会编造比赛——就像，整个专业比赛。就像，所有的球员，双方，所有的动作——丹尼尔说，从他10岁或11岁时开始。他只是为自己做这件事，作为一种消遣，尽管全家人都知道他能做到。
+
+00:52:42.590 --> 00:53:11.510
+<v Daniel Alarcón>And if, for example, on a Sunday afternoon, after everyone's had lunch, my father would start to be the entertainment for the adults. Hey, Renato, can you make up a game for us? Make it a good one. And he would just describe a game. And it's a completely made-up game, but when a goal would be scored, inevitably, the adults would cheer. And like, that was great. That was a great game. And he got really good at this.
+<v Daniel Alarcón>如果，例如，在周日下午，大家午饭后，我父亲就会成为大人们的娱乐。嘿，雷纳托，你能为我们编一场比赛吗？编得精彩点。他就会开始描述一场比赛。这完全是一场编造的比赛，但当进球时，大人们不可避免地会欢呼。就像，太棒了。那是一场精彩的比赛。他在这方面变得非常擅长。
+
+00:53:11.510 --> 00:53:31.580
+<v Daniel Alarcón>Eventually, he was-- he was-- one of my great uncles had a little theater in a town called Mollendo on the beach-- a beach town in southern Peru. And they were doing a night of arts and poetry, or whatever-- a talent show, essentially. And my great uncle, Juan Castor, signed up my dad and was like, you're going to do it just like you do for us.
+<v Daniel Alarcón>最终，他——他是——我的一位叔祖父在秘鲁南部海滩小镇莫连多有一家小剧院。他们正在举办一场艺术诗歌之夜，或者其他什么——本质上是一场才艺表演。我的叔祖父胡安·卡斯托帮我爸爸报了名，就像，你会像平时为我们做的那样表演。
+
+00:53:31.580 --> 00:53:32.580
+<v Ira Glass>Around the house?
+<v Ira Glass>在家里周围？
+
+00:53:32.580 --> 00:53:51.090
+<v Daniel Alarcón>Yeah, on Sunday afternoons. And I think, at that point, he was like 12 or 13. He goes out on stage, 300 people in the theater. And he's nervous. But what he does is essentially make up a game. So Melgar is the club from Arequipa.
+<v Daniel Alarcón>是的，周日下午。我想，那时他大概12或13岁。他走上舞台，剧院里有300人。他很紧张。但他所做的是本质上编造了一场比赛。所以梅尔加是来自阿雷基帕的俱乐部。
+
+00:53:51.090 --> 00:53:56.860
+<v Ira Glass>They're the local favorite from the province. And in this game that he made up on stage, they played the big fancy team from the capital, Lima.
+<v Ira Glass>他们是来自省里的当地最爱。在他编造的这场比赛中，他们对阵来自首都利马的那支大牌花哨球队。
+
+00:53:56.860 --> 00:53:58.650
+<v Daniel Alarcón>Universitario, La "U."
+<v Daniel Alarcón>Universitario，“La U”。
+
+00:53:58.650 --> 00:54:00.130
+<v Ira Glass>They're like the Yankees.
+<v Ira Glass>他们就像洋基队。
+
+00:54:00.130 --> 00:54:12.340
+<v Daniel Alarcón>They're like the Yankees, yeah. We don't like them. In his telling of it, everyone plays the game of their life, you know? Everyone does it exactly right, as if controlled by a marionette-- which of course, they were, right?
+<v Daniel Alarcón>他们就像洋基队，是的。我们不喜欢他们。在他讲述中，每个人都踢出了他们生命中的比赛，您知道吗？每个人都做得恰到好处，仿佛被木偶控制了一样——当然，他们确实被控制了，对吧？
+
+00:54:12.340 --> 00:54:13.430
+<v Ira Glass>Yeah, yeah.
+<v Ira Glass>是的，是的。
+
+00:54:13.430 --> 00:54:24.520
+<v Daniel Alarcón>I can just-- I find it very easy to believe that people could have been really moved by the sport. This wasn't like a fake game. It was the game.
+<v Daniel Alarcón>我发现人们确实会被这项运动感动，这一点非常容易相信。这不像假比赛。它就是那场比赛。
+
+00:54:24.520 --> 00:54:31.070
+<v Ira Glass>And so in his game, the hometown team gets it up to the edge and scores.
+<v Ira Glass>所以在他讲述的比赛中，家乡球队把它带到边缘并进球了。
+
+00:54:31.070 --> 00:54:53.730
+<v Daniel Alarcón>Yes. Melgar scores. People exploded, you know? Like you were cheering something that had actually happened. And the detail that he tells me that I'm always struck by is that when the lights came off and he went off stage, his uncle was crying, just weeping, with joy and with pride.
+<v Daniel Alarcón>是的。梅尔加进球了。人们爆炸了，您知道吗？就像您在为一件实际发生的事情欢呼一样。让我总是深受触动的一个细节是，当灯光熄灭他走下舞台时，他的叔叔在哭，因喜悦和骄傲而哭泣。
+
+00:54:53.730 --> 00:55:02.970
+<v Ira  Glass>There's a video of you online with your dad on stage. And you tell this story. And then your dad comes up on stage. And then he calls a game.
+<v Ira  Glass>网上有您和您父亲在舞台上的视频。您讲了这个故事。然后您父亲上台了。然后他解说了比赛。
+
+00:55:02.970 --> 00:55:11.150
+<v Daniel Alarcón>Yeah. He hadn't done this in like 50 years. But we threw a jersey on him. And he took the mic.
+<v Daniel Alarcón>是的。他有50年没这么做了。但我们给他穿上了球衣。他拿起了麦克风。
+
+00:55:11.150 --> 00:55:14.890
+<v Ira Glass>And you threw some stadium sound underneath for realism.
+<v Ira Glass>而且为了真实感，您还在下面加了一些球场音效。
+
+00:55:14.890 --> 00:55:17.740
+<v Renato>[SPEAKING SPANISH]
+<v Renato>（西班牙语演讲）
+
+00:55:17.740 --> 00:55:19.840
+<v Ira Glass>What's he saying?
+<v Ira Glass>他在说什么？
+
+00:55:19.840 --> 00:55:34.320
+<v Daniel Alarcón>So he's at minute 40, I believe he said. A Peruvian team against a Brazilian team, and the Brazilian team is bringing the ball out of the back.
+<v Daniel Alarcón>他在第40分钟，我想他说的是。秘鲁队对阵巴西队，巴西队正在从后场把球带出来。
+
+00:55:34.320 --> 00:55:35.630
+<v Renato>[SPEAKING SPANISH]
+<v Renato>（西班牙语演讲）
+
+00:55:35.630 --> 00:55:42.550
+<v Daniel Alarcón>Nilton Santos, who was a Brazilian defender, kicking it out towards the right.
+<v Daniel Alarcón>尼尔顿·桑托斯，那是巴西的后卫，把它踢向右侧。
+
+00:55:42.550 --> 00:55:44.660
+<v Ira Glass>So these are teams from the '50s?
+<v Ira Glass>所以这是50年代的球队？
+
+00:55:44.660 --> 00:55:45.680
+<v Daniel Alarcón>Yeah.
+<v Daniel Alarcón>是的。
+
+00:55:45.680 --> 00:55:47.030
+<v Renato>[SPEAKING SPANISH]
+<v Renato>（西班牙语演讲）
+
+00:55:47.030 --> 00:55:56.620
+<v Daniel Alarcón>Oh, OK. So [? Irelia ?] was a midfielder, a Peruvian midfielder. He intercepts the ball here. So this is where things start shifting.
+<v Daniel Alarcón>噢，好的。所以 [? Irelia ?] 是一名中场，秘鲁中场。他在这里拦截了球。所以这就是情况开始转变的地方。
+
+00:55:56.620 --> 00:55:58.870
+<v Renato>[SPEAKING SPANISH]
+<v Renato>（西班牙语演讲）
+
+00:55:58.870 --> 00:56:04.400
+<v Daniel Alarcón>So [? Irelia ?] intercepts the ball and passes towards the right. This is actually a stroke of genius that's coming up.
+<v Daniel Alarcón>所以 [? Irelia ?] 拦截了球并传向右侧。这实际上是一个即将到来的天才之举。
+
+00:56:04.400 --> 00:56:06.540
+<v Renato>[SPEAKING SPANISH]
+<v Renato>（西班牙语演讲）
+
+00:56:06.540 --> 00:56:17.860
+<v Daniel  Alarcón>Short pass to [? Navarrete. ?] He passes to [INAUDIBLE]. Chino Rivera heads it. OK, so this is the part where I was like, Dad, you're really playing with our emotions here.
+<v Daniel  Alarcón>短传给 [? Navarrete ?]。他传球给 [INAUDIBLE]。奇诺·里维拉头球。好的，这就是我心想“爸爸，您真的在玩弄我们的情绪”的地方。
+
+00:56:17.860 --> 00:56:24.800
+<v Daniel  Alarcón>The ball-- in his telling, the ball hits the post. So Chino Rivera heads the ball, and it hits off the post.
+<v Daniel  Alarcón>球——在他的讲述中，球击中了门柱。所以奇诺·里维拉头球顶球，它击中了门柱。
+
+00:56:24.800 --> 00:56:27.440
+<v Ira Glass>Right, so it bounces back out.
+<v Ira Glass>对，所以它反弹出来了。
+
+00:56:27.440 --> 00:56:28.630
+<v Daniel Alarcón>Right.
+<v Daniel Alarcón>对。
+
+00:56:28.630 --> 00:56:30.190
+<v Renato>[SPEAKING SPANISH]
+<v Renato>（西班牙语演讲）
+
+00:56:30.190 --> 00:56:40.230
+<v Daniel  Alarcón>Back in the field, [? Terry-- ?] [? Terry ?] scores.
+<v Daniel  Alarcón>回到场上，[? Terry-- ?] [? Terry ?] 进球了。
+
+00:56:40.230 --> 00:56:41.410
+<v Renato>Goal!
+<v Renato>进球了！
+
+00:56:41.410 --> 00:56:44.540
+<v Ira  Glass>People are so excited.
+<v Ira  Glass>人们太兴奋了。
+
+00:56:44.540 --> 00:56:46.030
+<v Renato>Goal!
+<v Renato>进球了！
+
+00:56:46.030 --> 00:56:49.860
+<v Daniel   Alarcón>Giant chills, man. [SPANISH]
+<v Daniel   Alarcón>巨大的寒意，伙计。（西班牙语）
+
+00:56:49.860 --> 00:56:53.130
+<v Renato>Peru, uno. Brazil, zero.
+<v Renato>秘鲁，一。巴西，零。
+
+00:56:53.130 --> 00:56:55.360
+<v Ira Glass>I feel excited.
+<v Ira Glass>我感到很兴奋。
+
+00:56:55.360 --> 00:56:58.270
+<v Daniel Alarcón>That's great. That's great. See? It works.
+<v Daniel Alarcón>太棒了。太棒了。看到了吗？它起作用了。
+
+00:56:58.270 --> 00:57:05.760
+<v Ira Glass>It's funny to think that if he had actually been great at soccer, that moment on stage never would have happened.
+<v Ira Glass>如果他真的在足球方面表现出色，舞台上的那一刻永远不会发生，这很有趣。
+
+00:57:05.760 --> 00:57:11.700
+<v Daniel Alarcón>Right, right. Yeah, yeah. I mean, they might have been singing songs about him, you know?
+<v Daniel Alarcón>对，对。是的，我是说，他们可能会唱关于他的歌，您知道吗？
+
+00:57:11.700 --> 00:57:14.170
+<v Ira  Glass>Oh, somebody else would be.
+<v Ira  Glass>噢，别人也会唱的。
+
+00:57:14.170 --> 00:57:17.190
+<v Daniel Alarcón>Yeah, some other kid would have been on stage, and--
+<v Daniel Alarcón>是的，会有另一个孩子在舞台上，而且——
+
+00:57:17.190 --> 00:57:19.900
+<v Ira Glass>Yeah.
+<v Ira Glass>是的。
+
+00:57:19.900 --> 00:58:35.570
+<v Ira  Glass>Daniel Alarcon-- he first told this story on his show, Radio Ambulante.
+<v Ira  Glass>丹尼尔·阿拉孔——他首次在他的节目《Radio Ambulante》中讲述了这个故事。
+
+00:58:35.570 --> 00:58:39.930
+<v Common>Close your eyes for a moment. Yes, close them.
+<v Common>闭上眼睛一会儿。是的，闭上它们。
+
+00:58:39.930 --> 00:58:44.930
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯。下周再见，会有更多《美国生活》的故事。
