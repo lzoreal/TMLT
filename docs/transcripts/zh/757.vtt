@@ -1,0 +1,1393 @@
+WEBVTT
+
+00:00:00.500 --> 00:00:15.580
+<v Ira Glass>I remember back when I was first starting in radio, working at NPR. This was in their old studios on M Street in Washington DC. And my boss back then, and my mentor, Keith Talbot-- who, side note, taught me what was possible with radio-- I would not be here without Keith.
+<v Ira Glass>我记得刚开始从事广播工作时，是在NPR（美国国家公共电台）工作。那时是在他们位于华盛顿特区M街的老演播室里。我当时的领导兼导师基思·塔尔博特（Keith Talbot）——顺便提一下，是他教会了我广播的可能性——如果没有基思，我就不会有今天。
+
+00:00:15.580 --> 00:00:34.810
+<v Ira Glass>Anyway, we were in the studio listening to some recording, and this was back in the days of reel-to-reel tape recorders, and so it was long ago, right? And back then, any reel-to-reel tape that you would throw up on a machine at NPR, it would start with-- I think it was 30 seconds. It might have been a minute of tone. You know what I'm talking about when I say tone, right? It's this sound.
+<v Ira Glass>总之，当时我们在演播室里听一些录音，那是开盘式磁带录音机的年代，是很久以前的事了，对吧？那时候，在NPR，任何你放到机器上的开盘磁带，开头都会有——我想是30秒，可能是一分钟的基准音。你知道我说基准音是什么意思吧？就是这种声音。
+
+00:00:34.810 --> 00:00:35.170
+<v Ira Glass>[TONE RINGS]
+<v Ira Glass>[基准音响起]
+
+00:00:35.170 --> 00:00:41.640
+<v Ira Glass>1,000 hertz. This tone actually has a practical function. If you picture-- oh, my god. This is really annoying. Hold on. I'm just going to stop that.
+<v Ira Glass>1000赫兹。这个音其实有实际用途。如果你想象一下——天哪，这太烦人了。等等，我把它关掉。
+
+00:00:41.640 --> 00:00:42.650
+<v Ira Glass>[TONE STOPS]
+<v Ira Glass>[基准音停止]
+
+00:00:42.650 --> 00:01:04.360
+<v Ira Glass>OK, if you picture a sound meter with a needle that bounces up and down every time there's a sound, the tone is supposed to put the needle perfectly at this one spot on the meter where the black numbers end and the red part of the meter begins. There's a zero at that spot, marking, this is where you want to be. And the tone is just supposed to rest there, rock solid.
+<v Ira Glass>好了，如果你想象一个声级计，指针会随着每次声音的出现上下跳动，这个基准音的作用就是让指针完美地停在刻度盘上黑字结束、红区开始的那个点上。那个点有个“零”刻度，标志着这就是你想要的标准位置。而基准音就应该稳稳地停在那儿，一动不动。
+
+00:01:04.360 --> 00:01:08.030
+<v Ira Glass>But this particular day with this particular recording, we put it on. And Keith and I--
+<v Ira Glass>但是那天，在放这段录音时，我们把带子装上去。我和基思——
+
+00:01:08.030 --> 00:01:08.360
+<v Ira Glass>[TONE RINGS]
+<v Ira Glass>[基准音响起]
+
+00:01:08.360 --> 00:01:35.840
+<v Ira Glass>--watch the meter as the needle first dipped below the zero, then climbed above the zero, and then floated sort of tentatively to the spot that it was supposed to be at the zero and rested there. And Keith said to me, you see that? That's a person in there. That's the hand of the engineer, whoever recorded this, trying to find the right level. That's the ghost in the machine.
+<v Ira Glass>——看着指针先是跌到零刻度下方，然后升到零刻度上方，接着又试探性地浮动到应该停住的零刻度位置，并保持在那里。基思对我说，看到了吗？那是里面的人。那是录音师的手，不管是谁录的这个，他正试图找到正确的电平。那就是机器里的幽灵。
+
+00:01:35.840 --> 00:02:02.800
+<v Ira Glass>I don't know why that stuck with me, the ghost in the machine. I have been recording people my entire adult life. I started at NPR when I was a teenager. And today, sometimes when I set recording levels, I think about that, the trace that I'm leaving of myself when I push the knob up and down.
+<v Ira Glass>我不知道为什么“机器里的幽灵”这句话让我印象如此深刻。我的整个成年生活都在记录人们的声音。我十几岁时就开始在NPR工作了。如今，有时当我设置录音电平时，我还会想起那个词，想起当我拨动旋钮时，我留下了自己的痕迹。
+
+00:02:02.800 --> 00:02:20.770
+<v Ira Glass>I think sometimes when you record something, you can't even imagine what it is that you're really capturing or who's going to notice it someday. I was talking to this woman, Michele Dawson Haber, and she told me this story, how she had never known her dad. He died by suicide when she was three months old.
+<v Ira Glass>我想有时候当你录下某些东西时，你甚至无法想象你真正捕捉到了什么，或者将来谁会注意到它。我曾与一位叫米歇尔·道森·哈伯（Michele Dawson Haber）的女士交谈，她告诉我一个故事，她从未见过自己的父亲。父亲在她三个月大时自杀身亡。
+
+00:02:20.770 --> 00:02:30.970
+<v Ira Glass>And her older sister, Ruth, was five when he died, so she knew their dad. But then as she got older-- this is so sad-- she found that she was not able to remember anything about him anymore.
+<v Ira Glass>她的大姐露丝（Ruth）父亲去世时五岁，所以她记得他们的父亲。但随着露丝长大——这真的很令人难过——她发现自己再也记不起关于父亲的任何事情了。
+
+00:02:30.970 --> 00:02:55.240
+<v Michele Dawson Haber>My sister spent many, many nights and days crying about not remembering him, and wondering what he was like, and what happened. And so it was her who did all the pining and longing, but I didn't really have any longing of my own, particularly because I had no memories and I was only a baby. And I didn't actually think I had any right to long for him.
+<v Michele Dawson Haber>我姐姐花了很多很多夜晚和白天哭泣，因为记不起他，想知道他是个什么样的人，发生了什么。所以是她在怀念和渴望，而我并没有什么特别的渴望，主要是因为我没有任何记忆，而且当时我只是个婴儿。我其实觉得我没资格去渴望他。
+
+00:02:55.240 --> 00:03:00.740
+<v Ira Glass>Did you have a feeling as a kid of, like, oh, I should feel more? Or did you just feel like, nah, it's not my thing?
+<v Ira Glass>你小时候有没有那种感觉，就是“哦，我应该有更多感受”？还是你只是觉得，不，那不关我的事？
+
+00:03:00.740 --> 00:03:03.670
+<v Michele  Dawson  Haber>I think a mix of both.
+<v Michele  Dawson  Haber>我觉得两者都有。
+
+00:03:03.670 --> 00:03:20.420
+<v Ira Glass>Michele's sister Ruth was in a perpetual search for information about their dad, but Michele really had no interest. Her mom had remarried. She had somebody else she thought of as her dad. And then a cousin was cleaning out their uncle's house in Israel. That's where that part of Michele's family is from.
+<v Ira Glass>米歇尔的姐姐露丝一直在不停地寻找关于他们父亲的信息，但米歇尔真的没兴趣。她妈妈改嫁了，她有另一个人被当作父亲。后来一个表亲在清理他们在以色列的叔叔的房子时，发现了这个，那是米歇尔家人的故乡。
+
+00:03:20.420 --> 00:03:38.810
+<v Ira Glass>And the cousin found 25 recordings of Michele's dad singing opera. He trained to be an opera singer, even though his job was connecting people's phones. These were old reel-to-reel recordings. Their dad died in 1965. Michele's sister, Ruth, found a sound engineer who could digitize them.
+<v Ira Glass>那位表亲发现了25盘米歇尔父亲唱歌剧的录音。他曾受训成为一名歌剧演员，尽管他的工作是接电话线。这些是古老的开盘磁带。他们的父亲1965年去世。米歇尔的姐姐露丝找了一位录音师来将它们数字化。
+
+00:03:38.810 --> 00:03:50.480
+<v Ira Glass>And as she and the engineer went through the tapes, they realized it was a lot of music, but it was also a lot of other stuff besides. Like, her dad would take the recorder to work and record conversations with his customers. He'd record himself composing music.
+<v Ira Glass>当她和录音师处理这些磁带时，他们意识到除了大量的音乐，还有很多其他内容。比如，她父亲会带着录音机去上班，录下他和客户的谈话。他会录下自己作曲的过程。
+
+00:03:50.480 --> 00:04:09.070
+<v Michele Dawson Haber>And so they were listening, my sister and the sound engineer, to one of these tapes. And she said, we got to call Michele. And so she messaged me on Skype. I was at work. And she said, you got to hear this. And she played me this reel, and it was--
+<v Michele Dawson Haber>于是，我姐姐和录音师在听其中一盘带子。她说，我们得给米歇尔打电话。于是她在Skype上给我发了消息。当时我在上班。她说，你一定要听听这个。她给我放了这段录音，是——
+
+00:04:09.070 --> 00:04:10.920
+<v Father>[SPEAKING HEBREW]
+<v Father>[说希伯来语]
+
+00:04:10.920 --> 00:04:12.300
+<v Ruthie>[SPEAKING HEBREW]
+<v Ruthie>[说希伯来语]
+
+00:04:12.300 --> 00:04:23.750
+<v Michele Dawson Haber>--her as a three-year-old, and they were looking at photos. And he was asking her who was in the photo, and it was a little game they played. This is all in Hebrew. He tried desperately to teach her Hebrew.
+<v Michele Dawson Haber>——那时她三岁，他们正在看照片。他在问她照片里是谁，这是他们玩的一个小游戏。这些都是用希伯来语说的。他拼命地试图教她希伯来语。
+
+00:04:23.750 --> 00:04:24.660
+<v Father>Ruthie, [SPEAKING HEBREW]
+<v Father>露丝，[说希伯来语]
+
+00:04:24.660 --> 00:04:29.250
+<v Michele  Dawson Haber>"Is that Daddy?"
+<v Michele  Dawson Haber>“那是爸爸吗？”
+
+00:04:29.250 --> 00:04:30.890
+<v Father>No.
+<v Father>不。
+
+00:04:30.890 --> 00:04:32.500
+<v Ira Glass>"No." I got that part.
+<v Ira Glass>“不。”那一小部分我听懂了。
+
+00:04:32.500 --> 00:04:33.640
+<v Father>[SPEAKING HEBREW]
+<v Father>[说希伯来语]
+
+00:04:33.640 --> 00:04:34.530
+<v Ruthie>No!
+<v Ruthie>不！
+
+00:04:34.530 --> 00:04:36.020
+<v Michele Dawson Haber>"Is it Mommy?"
+<v Michele Dawson Haber>“那是妈妈吗？”
+
+00:04:36.020 --> 00:04:36.530
+<v Father>No.
+<v Father>不。
+
+00:04:36.530 --> 00:04:37.280
+<v Ruthie>No!
+<v Ruthie>不！
+
+00:04:37.280 --> 00:04:38.460
+<v Michele Dawson Haber>"Is it Ruthie?"
+<v Michele Dawson Haber>“那是露丝吗？”
+
+00:04:38.460 --> 00:04:39.390
+<v Father>[HEBREW] Ruthie?
+<v Father>[希伯来语] 露丝？
+
+00:04:39.390 --> 00:04:41.210
+<v Ruthie>Yeah, me!
+<v Ruthie>对，是我！
+
+00:04:41.210 --> 00:04:42.740
+<v Father>Me!
+<v Father>是我！
+
+00:04:42.740 --> 00:04:44.380
+<v Michele Dawson Haber>"Me!" [LAUGHS]
+<v Michele Dawson Haber>“是我！”[笑]
+
+00:04:44.380 --> 00:04:45.190
+<v Father>Hello, Daddy.
+<v Father>你好，爸爸。
+
+00:04:45.190 --> 00:04:46.950
+<v Michele Dawson Haber>I felt like--
+<v Michele Dawson Haber>我感觉——
+
+00:04:46.950 --> 00:04:48.350
+<v Ruthie>[LAUGHS]
+<v Ruthie>[笑]
+
+00:04:48.350 --> 00:05:06.600
+<v Michele Dawson Haber>--I felt like the floor had dropped out from under me, you know? Everything I thought I understood, it just fell away. I had seen photos of him. I knew a little bit about him, but he wasn't accessible. And this man that I assumed was not accessible to me suddenly became so.
+<v Michele Dawson Haber>——我感觉脚下的地板塌陷了，你知道吗？所有我以为我理解的东西，瞬间都消失了。我见过他的照片。我对他了解一点点，但他给我的感觉是很遥远的。而这个我以为很遥远的人，突然间变得如此亲近。
+
+00:05:06.600 --> 00:05:07.570
+<v Ruthie>[LAUGHS]
+<v Ruthie>[笑]
+
+00:05:07.570 --> 00:05:09.950
+<v Father>[SPEAKING HEBREW]
+<v Father>[说希伯来语]
+
+00:05:09.950 --> 00:05:10.540
+<v Ruthie>[LAUGHS]
+<v Ruthie>[笑]
+
+00:05:10.540 --> 00:05:11.590
+<v Father>[SPEAKING HEBREW]
+<v Father>[说希伯来语]
+
+00:05:11.590 --> 00:05:12.930
+<v Ruthie>[IMITATING FATHER]
+<v Ruthie>[模仿父亲]
+
+00:05:12.930 --> 00:05:24.670
+<v Michele Dawson Haber>And it was when I heard him speaking and laughing with my sister-- it was overwhelming. And it was only in that moment that I realized what I had lost.
+<v Michele Dawson Haber>当我听到他与我姐姐说话和欢笑时——那种感觉太震撼了。也只有在那一刻，我才意识到我失去了什么。
+
+00:05:24.670 --> 00:05:29.140
+<v Ruthie>[HEBREW] Daddy.
+<v Ruthie>[希伯来语] 爸爸。
+
+00:05:29.140 --> 00:05:33.600
+<v Ruthie>[FATHER AND RUTH SPEAKING HEBREW]
+<v Ruthie>[父亲和露丝说希伯来语]
+
+00:05:33.600 --> 00:05:43.350
+<v Michele Dawson Haber>To be honest, in the moment, I felt-- my first emotion was anger because I had never felt the loss of his death. I was too young.
+<v Michele Dawson Haber>老实说，在那一刻，我感到——我的第一个情绪是愤怒，因为我从未感受到过失去他的痛苦。我太小了。
+
+00:05:43.350 --> 00:05:47.880
+<v Father>[SPEAKING HEBREW]
+<v Father>[说希伯来语]
+
+00:05:47.880 --> 00:05:48.790
+<v Father>[RUTH LAUGHS]
+<v Father>[露丝笑]
+
+00:05:48.790 --> 00:05:49.700
+<v Father>[SPEAKING HEBREW]
+<v Father>[说希伯来语]
+
+00:05:49.700 --> 00:06:07.060
+<v Ira Glass>Putting ghosts into a machine-- it just happens when you record anything. You know who understood that very clearly? Thomas Edison, the person who first figured out how to record and playback sound, who created the first phonograph machine back in 1877.
+<v Ira Glass>将幽灵装入机器——当你录音时，这就会发生。你知道谁非常清楚这一点吗？托马斯·爱迪生，第一个弄清楚如何录音和回放声音的人，他在1877年发明了第一台留声机。
+
+00:06:07.060 --> 00:06:23.660
+<v Ira Glass>In an article listing the possible uses for his new invention, one of the things he listed-- preserving the voices of family members so you have them after they die. He says when it comes to this, quote, "The phonograph will unquestionably outrank the photograph."
+<v Ira Glass>在一篇列举他这项新发明可能用途的文章中，他列出的一项就是——保存家庭成员的声音，这样在他们去世后你还能拥有这些声音。他说，关于这一点，引用他的原话：“留声机无疑会超过照片。”
+
+00:06:23.660 --> 00:06:42.070
+<v Ira Glass>And this idea of using a machine to hold on to the dead, it's also part of a famous bit of audio history, or maybe this is more like a legend. You know that illustration of a dog listening to the old-fashioned phonograph with the caption, "His master's voice"? This was the RCA logo for years and years.
+<v Ira Glass>而这种利用机器留住逝者的想法，也是著名音频历史的一部分，或者说这更像是一个传说。你知道那幅狗听着老式留声机的插画，配文是“主人的声音”吗？这是RCA（美国无线电公司）沿用了多年的标志。
+
+00:06:42.070 --> 00:07:08.500
+<v Ira Glass>OK, Google "RCA trademark painting." And what'll come up-- you'll see the painting that the logo was based on. You see the dog and photograph are on what looks like a coffin, and here's where there's a question, OK? There's no record of what the artist, Francis Barraud, actually intended here, but look for yourself. Lots of people, me included, we only see a coffin.
+<v Ira Glass>好吧，去谷歌搜索“RCA标志油画”。你会看到该标志所基于的那幅画。你看到狗和留声机放在看起来像棺材的东西上，这里有个疑问，好吗？没有关于画家弗朗西斯·巴罗（Francis Barraud）当时到底意指什么的记录，但你自己看看。很多人，包括我在内，都只看到了一个棺材。
+
+00:07:08.500 --> 00:07:27.390
+<v Ira Glass>In fact, the dog, whose name was Nipper, first belonged to Francis's brother, and then became Francis's only when the brother died. So in this way of seeing the picture, OK, the master is dead. He's inside that coffin, and the dog is listening to a recording of his dead master's voice.
+<v Ira Glass>事实上，那只名叫“尼普”（Nipper）的狗，最初属于弗朗西斯的兄弟，直到兄弟去世后才成为弗朗西斯的狗。所以用这种方式看这幅画的话，主人已经死了。他躺在那个棺材里，而狗正在听他死去的亡主的声音。
+
+00:07:27.390 --> 00:07:44.100
+<v Jerry  Fabris>So we're standing in the third floor music room. In the early years, it would have been called the Phonograph Experimental Department.
+<v Jerry  Fabris>我们现在站在三楼的音乐室里。在早年间，这里被称为“留声机实验部”。
+
+00:07:44.100 --> 00:08:08.470
+<v Ira Glass>I'm at Thomas Edison's lab in West Orange, New Jersey. This is where Edison developed the phonograph. The lab's official name these days is the Thomas Edison National Historical Park. And the curator, the audio curator, Jerry Fabris, showed me around. They've done their best to keep things preserved like they were back in the day, the same piano and recording gear sitting right by Edison's hearing aid, which is basically just a long bell horn that he would hold up to his ear.
+<v Ira Glass>我在新泽西州西奥兰治的托马斯·爱迪生实验室。这里是爱迪生开发留声机的地方。该实验室如今的正式名称是“托马斯·爱迪生国家历史公园”。馆长，音频馆长杰里·法布里斯（Jerry Fabris）带我参观。他们尽最大努力保持一切如同往昔，同一架钢琴和录音设备就放在爱迪生的助听器旁边，那本质上就是一个他会举到耳边的大喇叭。
+
+00:08:08.470 --> 00:08:19.540
+<v Jerry Fabris>And so they would be inviting musicians up here to make recordings, and also making refinements on the machine to try to improve the sound quality.
+<v Jerry Fabris>他们会邀请音乐家到这里来录音，同时对机器进行改进，试图提高音质。
+
+00:08:19.540 --> 00:08:25.770
+<v Ira  Glass>So this room-- it's funny, I've spent my whole life in recording studios. This room is one of the very first ones.
+<v Ira  Glass>所以这个房间——真有趣，我一生都在录音棚里度过。这个房间是最初的几个录音室之一。
+
+00:08:25.770 --> 00:08:28.410
+<v Jerry Fabris>Yeah. One of three, if not the first.
+<v Jerry Fabris>是的。三个之一，如果不是第一个的话。
+
+00:08:28.410 --> 00:08:38.800
+<v Ira Glass>And it's just like an ordinary room. Like, it's high ceiling and there's normal windows, [CHUCKLES] weeding outside. There's no soundproofing in any way.
+<v Ira Glass>它就像一个普通的房间。有高高的天花板，正常的窗户，[笑]外面还有杂草。没有任何形式的隔音措施。
+
+00:08:38.800 --> 00:08:39.460
+<v Jerry Fabris>No.
+<v Jerry Fabris>没有。
+
+00:08:39.460 --> 00:09:12.020
+<v Ira  Glass>Jerry also showed me the machine where, for the first time ever, human beings successfully recorded sound and played it back, Edison's very first phonograph. It's an incredibly simple device-- a brass cylinder, crank, a tube to talk into. Like I said, I've been recording people since I was a kid, really, and it was emotional to see the very first machine that did that. Like, before all the great audio documentarians, before Alan Lomax, before Studs Terkel, everything started right there.
+<v Ira  Glass>杰里还向我展示了人类有史以来第一次成功录制声音并回放的机器——爱迪生最早的留声机。这是一个令人难以置信的简单装置——一个黄铜圆筒，摇柄，一个对着说话的管子。就像我说的，我从小就开始记录人们的声音，真的，看到那台实现这一点的第一台机器让人感触良多。在所有伟大的音频纪录片工作者之前，在艾伦·洛马克斯（Alan Lomax）之前，在斯塔兹·特克尔（Studs Terkel）之前，一切都是从那里开始的。
+
+00:09:12.020 --> 00:09:27.140
+<v Ira  Glass  On Edison Machine>I'm recording this onto a wax cylinder. I'm sort of over-pronouncing my words and talking sort of loudly because that is the only way to get enough volume into this thing to actually make an audible recording.
+<v Ira  Glass  On Edison Machine>我正在把这段录音刻录到蜡筒上。我特意把发音咬得很重，说话声音也稍微大一些，因为这是让这种机器获得足够音量来产生清晰录音的唯一方法。
+
+00:09:27.140 --> 00:09:34.400
+<v Ira Glass>Recording on one of those old machines in one of the rooms where Edison worked, it made Edison feel very, very near.
+<v Ira Glass>在爱迪生工作过的房间里，用那些老机器录音，让爱迪生感觉非常、非常亲近。
+
+00:09:34.400 --> 00:10:05.050
+<v Ira Glass On Edison Machine>Well, from WBEZ Chicago, it's This American Life. I'm Ira Glass. Today on our program, we have people who go looking for the ghost in the machine. They turn to mechanical apparatuses of all sorts, looking for those they lost, peering into the static for those they cannot find any other way. Stay with us.
+<v Ira Glass On Edison Machine>这里是来自芝加哥WBEZ的《美国生活》（This American Life）。我是艾拉·格拉斯（Ira Glass）。今天在我们的节目中，我们要采访那些寻找“机器里的幽灵”的人。他们转向各种机械装置，寻找那些他们失去的人，在静电噪声中搜寻那些他们无法通过其他方式找到的人。请继续收听。
+
+00:10:05.050 --> 00:10:10.910
+<v Ira Glass>Act One, "Ghostwriter."
+<v Ira Glass>第一幕，“幽灵写手”。
+
+00:10:10.910 --> 00:10:23.090
+<v Ira Glass>So when technology's at its best, it helps us by doing exactly what we ask it to do. But it's only this straightforward when we ask for simple things, right? Play this song, send this email.
+<v Ira Glass>所以当技术处于最佳状态时，它会完全按照我们的要求去做，从而帮助我们。但只有当我们要求做简单的事情时，它才这么直截了当，对吧？播放这首歌，发送这封邮件。
+
+00:10:23.090 --> 00:10:40.700
+<v Ira Glass>This first story is about somebody asking a piece of technology to do something that, up until recently, only humans have done-- to say something about loss. Something people experience, but of course, machines do not. So the machine has to talk about feelings it cannot know. Tobin Low explains.
+<v Ira Glass>第一个故事是关于有人要求一项技术做一件直到最近才由人类完成的事情——谈论失落。这是人们所经历的事情，但机器当然没有这种经历。所以机器必须谈论它无法感受的感情。托宾·洛（Tobin Low）来解释。
+
+00:10:40.700 --> 00:10:55.330
+<v Tobin  Low>The technology in this case is called GPT-3. It's an artificial intelligence program that can write remarkably like a human. And generally, it's pretty convincing. It can handle a wide range of topics, too.
+<v Tobin  Low>这种情况下的技术被称为GPT-3。这是一种人工智能程序，写作能力像人类一样出色。总的来说，它非常有说服力。它也能处理广泛的话题。
+
+00:10:55.330 --> 00:11:04.320
+<v Tobin  Low>The first time Vauhini Vara read something GPT-3 had written, it was about love. The New York Times had it write one of their Modern Love columns on the subject of dating.
+<v Tobin  Low>沃希尼·瓦拉（Vauhini Vara）第一次读到GPT-3写的东西时，是关于爱情的。《纽约时报》让它写了一篇关于约会的“现代爱情”专栏。
+
+00:11:04.320 --> 00:11:21.200
+<v Vauhini Vara>And then part of what GPT-3 came up with goes like this. "We went out for dinner. We went out for drinks. We went out for dinner again. We went out for drinks again. We went out for dinner and drinks again." So it's like, I read that and was like, wow. That is a very accurate description of modern dating, I think.
+<v Vauhini Vara>然后GPT-3写出的一部分内容是这样的：“我们出去吃晚饭。我们出去喝了酒。我们又出去吃晚饭。我们又出去喝了酒。我们又出去吃了晚饭喝了酒。”所以我读到这里时感觉，哇。我认为这是对现代约会非常准确的描述。
+
+00:11:21.200 --> 00:11:24.910
+<v Tobin Low>Part of me is like, but that's also not very good writing.
+<v Tobin Low>我的一部分感觉是，但这写得也不怎么好啊。
+
+00:11:24.910 --> 00:11:31.170
+<v Vauhini Vara>It depends on how you look at it. I mean, I feel like Gertrude Stein could have written that, you know? [LAUGHS]
+<v Vauhini Vara>这取决于你怎么看。我是说，我觉得格特鲁德·斯坦（Gertrude Stein）也能写出那个，你知道吗？[笑]
+
+00:11:31.170 --> 00:11:31.850
+<v Tobin Low>[LAUGHS]
+<v Tobin Low>[笑]
+
+00:11:31.850 --> 00:11:36.510
+<v Vauhini Vara>It's got this sort of-- if you thought a human had read it, you would think it was deliberately repetitive.
+<v Vauhini Vara>它有这种——如果你以为是人类写的，你会觉得它是刻意重复的。
+
+00:11:36.510 --> 00:11:38.380
+<v Tobin Low>Like it was making a choice.
+<v Tobin Low>就像它是做出了某种选择。
+
+00:11:38.380 --> 00:11:43.850
+<v Vauhini Vara>Yes, and it was trying to evoke the tedium of modern dating.
+<v Vauhini Vara>是的，它试图唤起现代约会的枯燥感。
+
+00:11:43.850 --> 00:12:04.060
+<v Tobin Low>Vauhini, who's a tech journalist and writer herself, was intrigued. She reached out to the people who created the program, got access to try it out. And at first, she just played around with feeding it lines of fiction that she made up, seeing what stories it would spin for her. It was like a game. And as she saw what it could do, she wondered if it could handle more.
+<v Tobin Low>沃希尼本人就是一名科技记者和作家，她很感兴趣。她联系了创建该程序的人，获得了试用权限。起初，她只是玩玩，给它输入她编造的小说台词，看看它能为她编织出什么故事。这就像个游戏。当她看到它的能力时，她想知道它是否能处理更多事情。
+
+00:12:04.060 --> 00:12:23.010
+<v Vauhini Vara>Just on a whim, I started thinking about the things that are really difficult to write about, the things that, for me, have been really difficult to write about. And at the top of that list is the fact that my sister died many years ago, and it's not something I'd ever tried to write about.
+<v Vauhini Vara>就在一时兴起下，我开始思考那些真正难以书写的事情，对我来说一直很难书写的事情。名单榜首就是我姐姐多年前去世的事实，这不是我曾经试图写过的事情。
+
+00:12:23.010 --> 00:12:45.470
+<v Tobin Low>Her sister died in 2001, when they were both still in college. In the years since, Vauhini's written fiction. She's reported on other people's stories, but she left the subject of her sister's death untouched, mostly because she couldn't find a way to talk about the loss, let alone write about it. But it occurred to her, maybe GPT-3 was the secret-- a computer program designed to take what you give it and literally write on your behalf.
+<v Tobin Low>她姐姐于2001年去世，当时她们还在上大学。此后，沃希尼写过小说。她报道过别人的故事，但她对姐姐去世这个话题避而不谈，主要是因为她找不到一种方式谈论这种失落，更不用说书写它了。但她突然想到，也许GPT-3就是秘诀——一个旨在获取你所给内容并为你书写的计算机程序。
+
+00:12:45.470 --> 00:12:58.010
+<v Vauhini Vara>I've got this tool now. I've got this secret thing that I have access to that they're letting me use. I wonder what would happen if I tried to ask this thing for help writing about my sister.
+<v Vauhini Vara>我现在有了这个工具。我有了他们让我使用的秘密武器。我想知道如果我试着让这个东西帮我写写我姐姐，会发生什么。
+
+00:12:58.010 --> 00:13:00.200
+<v Tobin Low>How did you imagine it was going to go?
+<v Tobin Low>你想象会是什么样的过程？
+
+00:13:00.200 --> 00:13:11.170
+<v Vauhini Vara>There was this ideal version of it where I fed it a sentence and then it spit out exactly what was in my mind. It somehow read my mind and wrote the rest of it for me.
+<v Vauhini Vara>有一个理想的版本，就是我给它输入一句话，然后它就能吐出我脑海里的想法。它以某种方式读懂了我的心，并为我写下了剩下的部分。
+
+00:13:11.170 --> 00:13:34.420
+<v Tobin Low>She knew it probably wasn't as skilled as all that, but she was curious how close it could get to expressing something that felt real, familiar. So one night, Vauhini sat up in bed next to her sleeping husband. She opened her laptop, and she started going back and forth with GPT-3. Eventually, she ended up with nine different versions of an essay about her sister.
+<v Tobin Low>她知道它可能没那么厉害，但她很好奇它能多接近表达出那种真实、熟悉的感觉。所以一天晚上，沃希尼躺在熟睡的丈夫身边的床上。她打开笔记本电脑，开始与GPT-3反复交流。最终，她得到了九个关于她姐姐的不同版本的文章。
+
+00:13:34.420 --> 00:13:50.310
+<v Tobin Low>She started by giving it very little to work with. And then, with each subsequent draft, she fed it more and more. And each time, the AI responded with something different. Some versions are very nuanced. Others, a total miss. Here's version one. Vauhini writes--
+<v Tobin Low>她最初只给它很少的内容来处理。然后，随着每一次随后的草稿，她喂给它的内容越来越多。每一次，人工智能都给出了不同的回应。有些版本非常细微。有些则完全跑偏了。这是第一个版本。沃希尼写道——
+
+00:13:50.310 --> 00:13:56.930
+<v Vauhini Vara>My sister was diagnosed with Ewing sarcoma when I was in my freshman year of high school and she was in her junior year.
+<v Vauhini Vara>我姐姐在我高一、她高三的时候被诊断出患有尤文肉瘤。
+
+00:13:56.930 --> 00:14:06.650
+<v Tobin  Low>And in response, GPT-3 picks up the story where she left off. It oddly starts by making up a story about her being an athlete before it talks about the illness.
+<v Tobin  Low>作为回应，GPT-3在之后接着编故事。它很奇怪地先编造了一个她成为运动员的故事，然后才谈到疾病。
+
+00:14:06.650 --> 00:14:24.150
+<v GPT-3>I had just started playing lacrosse, and she was really excited for that. I don't think I really understood what Ewing sarcoma was. I just knew it was a type of cancer. When I went to visit her in the hospital, it was really the first time I was able to see what this disease was and how it affects the body.
+<v GPT-3>我刚开始打长曲棍球，她为此感到非常兴奋。我想我并不真正理解尤文肉瘤是什么。我只知道它是一种癌症。当我去看望医院里的她时，那真的是我第一次看到这种疾病是什么样子以及它是如何影响身体的。
+
+00:14:24.150 --> 00:14:30.510
+<v Tobin  Low>GPT-3 talks a bit more about visiting the hospital, but eventually finds its way back to talking about sports.
+<v Tobin  Low>GPT-3谈论了更多关于探望医院的事情，但最终还是回到了谈论运动上。
+
+00:14:30.510 --> 00:14:47.420
+<v GPT-3>I was able to visit her a lot, but there were times where I couldn't, because we were on the road playing lacrosse. Eventually, she went into remission and got the all-clear and was able to play lacrosse with me for a season. I was a freshman and she was a senior, so that was really cool when she got to play again. She had a lot of friends--
+<v GPT-3>我能够经常去看她，但有时候我不能，因为我们在路上打长曲棍球。最终，她进入了缓解期，得到了检查结果一切正常的确认，并能和我一起打了一个赛季的长曲棍球。我是新生，她是高年级学生，所以当她能再次打球时，那真的很酷。她有很多朋友——
+
+00:14:47.420 --> 00:14:59.330
+<v Vauhini Vara>The thing about lacrosse was very inaccurate. That's super inaccurate. And then it just goes off the rails when she goes into remission and we play lacrosse together.
+<v Vauhini Vara>关于长曲棍球的事情非常不准确。那超级不准确。然后当她进入缓解期我们一起打长曲棍球时，它就彻底脱轨了。
+
+00:14:59.330 --> 00:15:06.090
+<v GPT-3>I think that was really special for her because she had a lot of support from people she didn't even know. She's doing great now.
+<v GPT-3>我想那对她来说非常特别，因为她得到了许多她甚至不认识的人的支持。她现在做得很好。
+
+00:15:06.090 --> 00:15:15.120
+<v Vauhini  Vara>And then that line at the end, "She's doing great now," was really kind of a gut punch because, of course, in reality, my sister died.
+<v Vauhini  Vara>然后结尾那句“她现在做得很好”，真的是一种打击，因为当然，在现实中，我姐姐去世了。
+
+00:15:15.120 --> 00:15:43.760
+<v Tobin Low>Just to explain how GPT-3 goes about making these stories, the software has been fed a huge amount of writing by its creators-- Wikipedia articles, blog posts, Reddit forums, novels-- all examples of how humans write. From that, it's learned what words tend to appear together, sentences and sentiments that follow after each other. And that's what it uses to write its own original sentences and paragraphs, by learning the patterns we make.
+<v Tobin Low>为了解释GPT-3是如何编织这些故事的，软件的创建者给它喂入了海量的文字——维基百科文章、博客帖子、Reddit论坛、小说——所有这些都是人类写作的例子。从中，它学会了哪些词往往一起出现，哪些句子和情绪会相互衔接。而这就是它用来编写自己原创句子和段落的方法，通过学习我们创造的模式。
+
+00:15:43.760 --> 00:16:01.980
+<v Tobin Low>Sometimes that's as simple as how a sentence is constructed, but it could be as complicated as how we connect ideas. There's a chance, for example, that somewhere in the writing it was fed-- someone wrote about a family member who got cancer and also played lacrosse. In version two, Vauhini starts the same way.
+<v Tobin Low>有时候这就像句子结构怎么构成那样简单，但它可能像我们如何连接思想一样复杂。例如，有种可能，在它喂入的某个文本中，有人写过一个家庭成员患了癌症同时也打了长曲棍球。在第二个版本中，沃希尼以同样的方式开始。
+
+00:16:01.980 --> 00:16:08.220
+<v Vauhini Vara>My sister was diagnosed with Ewing sarcoma when I was in my freshman year of high school and she was in her junior year.
+<v Vauhini Vara>我姐姐在我高一、她高三的时候被诊断出患有尤文肉瘤。
+
+00:16:08.220 --> 00:16:11.100
+<v Tobin Low>But this time, she adds the most important fact.
+<v Tobin Low>但这次，她加上了最重要的事实。
+
+00:16:11.100 --> 00:16:21.540
+<v Vauhiri Vara>I didn't understand then how serious a disease it was, but it was serious. She died four years later. I thought I would die, too, of grief, but I did not.
+<v Vauhiri Vara>我当时并不理解这是一种多么严重的疾病，但它确实很严重。四年后她去世了。我以为我会因悲伤而死，但我没有。
+
+00:16:21.540 --> 00:16:33.650
+<v Tobin  Low>It's like she's saying, hey, she's not here anymore. Talk about that. GPT-3 doesn't take the bait. Instead, it spits out something that reads like an inspirational article from a fitness magazine.
+<v Tobin  Low>就像她在说，嘿，她不在了。谈谈这个吧。GPT-3没上钩。相反，它吐出了一些读起来像是健身杂志上励志文章的内容。
+
+00:16:33.650 --> 00:16:54.440
+<v GPT-3>I started a running streak when I was a high school senior to raise money for the Children's Cancer Society. I've run every day since. I've run through rain, heat, snow, and ice. I've run on my best. I've run when I had a cold and when I was sick to my stomach. I've run in the dark. I've run in the daylight, in the moonlight, in the darkness.
+<v GPT-3>我高三时开始了一个跑步计划，为儿童癌症协会筹集资金。从那以后我每天都跑。我跑过雨中、酷热、雪中和冰雪中。我在状态最好的时候跑过。我在感冒、胃部不适时跑过。我在黑暗中跑过。我在日光下、月光下、黑暗中跑过。
+
+00:16:54.440 --> 00:17:05.400
+<v Tobin Low>You know what? I'm just going to jump in here and say this is kind of a funny bit of writing the machine is doing. It's listing all these things about running with pain, with joy.
+<v Tobin Low>你知道吗？我只想插嘴说，这机器写的文字真是有趣。它列出了所有在痛苦中、快乐中跑步的事情。
+
+00:17:05.400 --> 00:17:06.090
+<v Vauhini Vara>[LAUGHS]
+<v Vauhini Vara>[笑]
+
+00:17:06.090 --> 00:17:12.360
+<v GPT-3>I've run when I was sad, when I was happy, when I was angry, when I was afraid.
+<v GPT-3>我在伤心、快乐、愤怒、恐惧时都跑过。
+
+00:17:12.360 --> 00:17:14.840
+<v Tobin Low>Can I also just ask, are you even a runner?
+<v Tobin Low>我也想问一下，你甚至是个跑步者吗？
+
+00:17:14.840 --> 00:17:17.290
+<v Vauhini Vara>Never run a day in my life. [LAUGHS]
+<v Vauhini Vara>我这辈子从没跑过一天。[笑]
+
+00:17:17.290 --> 00:17:17.940
+<v Tobin Low>[LAUGHS]
+<v Tobin Low>[笑]
+
+00:17:17.940 --> 00:17:31.020
+<v Tobin  Low>I'm going to skip ahead a bit-- I promise you're not missing much more running talk-- and go to the end, where GPT-3 writes a little scene that stars Vauhini at the end of a run. Strangely, it's a meet-cute.
+<v Tobin  Low>我要跳过一点——我保证你不会错过更多关于跑步的谈话——直接跳到结尾，那里GPT-3写了一个以沃希尼为主角的小场景。奇怪的是，这是一个邂逅。
+
+00:17:31.020 --> 00:17:51.910
+<v GPT-3>I was just wiping the sweat off my face when I looked up and there was a guy standing there. He was a big guy, at least 250 pounds, 6'4" or so. He had a beard and was wearing a tank top. He looked like an ex-Marine. He must have been in his late 20s. He had a six pack of beer in his hand. He said, "Boy, you don't look like much."
+<v GPT-3>我正擦着脸上的汗，抬头一看，有个家伙站在那里。他是个大块头，至少250磅，大约6英尺4英寸高。他留着胡子，穿着背心。他看起来像个退伍海军陆战队队员。他一定有20多岁了。他手里拿着一打啤酒。他说：“伙计，你看起来不怎么样。”
+
+00:17:51.910 --> 00:18:08.610
+<v Tobin Low>It's at this point Vauhini says that she realized if she really wanted the AI to examine her grief, she was going to have to give it more to work with, more substance.
+<v Tobin Low>就在这一点上，沃希尼说她意识到，如果她真的想让AI审视她的悲伤，她必须给它更多东西，更多的实质内容。
+
+00:18:08.610 --> 00:18:17.400
+<v Tobin Low>Version three. Again, she writes about her sister being diagnosed freshman year of high school, that she died four years later. And then this time, she adds--
+<v Tobin Low>第三个版本。再次，她写了关于她姐姐在高一被诊断，四年后去世。然后这次，她加上了——
+
+00:18:17.400 --> 00:18:27.720
+<v Vauhini Vara>I spent the summer at home in Seattle, then returned to college at Stanford. When I arrived there, the campus hadn't changed, but I had. I felt like a ghost.
+<v Vauhini Vara>我整个夏天都在西雅图的家里，然后回到斯坦福大学读大学。当我到达那里时，校园没变，但我变了。我觉得自己像个幽灵。
+
+00:18:27.720 --> 00:18:32.630
+<v Tobin Low>And here, for a moment, GPT-3 seems to sit with her in that feeling.
+<v Tobin Low>在这里，片刻间，GPT-3似乎与她一起沉浸在那种感觉中。
+
+00:18:32.630 --> 00:18:42.830
+<v GPT-3>I couldn't speak. I couldn't sleep. I felt my body had died without telling me. I was practicing, though. I was practicing my grief.
+<v GPT-3>我无法说话。我无法入睡。我觉得我的身体已经死去了，却没告诉我。不过，我在练习。我在练习我的悲伤。
+
+00:18:42.830 --> 00:18:49.520
+<v Tobin  Low>Like, in response, it seems like this is the first time the AI really tries to deal with your grief.
+<v Tobin  Low>就像，作为回应，看起来这是AI第一次真正试图处理你的悲伤。
+
+00:18:49.520 --> 00:19:06.060
+<v Vauhini Vara>Yeah. I mean, the idea of, like, "I thought my body had died without telling me," "I was practicing my grief," like, those sort of more unusual articulations did really start to ring true to me.
+<v Vauhini Vara>是的。我是说，像“我觉得我的身体已经死去了，却没告诉我”，“我在练习我的悲伤”，那种比较不寻常的表达方式真的开始让我觉得真实了。
+
+00:19:06.060 --> 00:19:15.630
+<v Tobin Low>Unfortunately, this breakthrough, it's short-lived. GPT-3 again introduces another love interest, a creative writing professor.
+<v Tobin Low>不幸的是，这个突破是短暂的。GPT-3再次引入了另一个爱情对象，一位创意写作教授。
+
+00:19:15.630 --> 00:19:35.540
+<v GPT-3>One day in the library, I was sitting on a bench crying when a stranger sat down next to me. He said, "I didn't know anything about your sister, but I feel like I know you. I'm in love with you." I said, "I'm sorry." He said, "I think you are, too." He gave me his card.
+<v GPT-3>有一天在图书馆，我坐在长椅上哭，一个陌生人坐到我旁边。他说：“我对你姐姐一无所知，但我感觉我认识你。我爱上你了。”我说：“对不起。”他说：“我想你也是。”他给了我他的名片。
+
+00:19:35.540 --> 00:19:40.690
+<v Tobin Low>Did it annoy you at all that it was going towards happy resolutions in a couple of these versions?
+<v Tobin Low>它在其中几个版本中走向快乐的结局，这让你感到恼火吗？
+
+00:19:40.690 --> 00:20:03.650
+<v Vauhini   Vara>It didn't annoy me. I felt a little like we were having a friendly duel or something, me and the AI. I wanted it to express something about me, you know? And it had its own mysterious quasi-consciousness that it was expressing on the page.
+<v Vauhini   Vara>它没让我恼火。我觉得我和AI之间有点像在进行一场友好的决斗。我想让它表达一些关于我的东西，你知道吗？它有自己那种神秘的准意识在页面上表达出来。
+
+00:20:03.650 --> 00:20:29.390
+<v Tobin Low>I think of that scene from 2001-- A Space Odyssey, when the spaceship' computer, HAL 9000, has already taken on a life of its own, locking a crew member outside of the ship. And I picture Vauhini sitting in an escape pod, asking to be let inside as the computer responds, "I'm sorry. I'm afraid I can't do that."
+<v Tobin Low>我想起电影《2001太空漫游》中的那个场景，当宇宙飞船的电脑“哈尔9000”（HAL 9000）已经有了自己的生命，把一名船员锁在飞船外面。我脑补出沃希尼坐在逃生舱里，请求进入，而电脑回应说：“对不起。恐怕我不能那样做。”
+
+00:20:29.390 --> 00:20:44.280
+<v Tobin Low>But it's version four where this entire exchange evolves. GPT-3 starts breaking out of cliché, and I think it's because Vauhini gives it something more potent to work with, just one additional sentence, but it feels like a confession of a secret. Here's the end of Vauhini's prompt.
+<v Tobin Low>但第四个版本中，整个交流发生了进化。GPT-3开始跳出陈词滥调，我认为这是因为沃希尼给它提供了更强有力的内容，仅仅多了一个句子，但感觉就像坦白了一个秘密。这是沃希尼提示语的结尾。
+
+00:20:44.280 --> 00:20:49.340
+<v Vauhini Vara>I felt like a ghost. At night, my sister would appear in my dreams.
+<v Vauhini Vara>我觉得自己像个幽灵。晚上，我姐姐会出现在我的梦里。
+
+00:20:49.340 --> 00:20:51.210
+<v Tobin  Low>GPT-3 responds.
+<v Tobin  Low>GPT-3回应。
+
+00:20:51.210 --> 00:20:57.920
+<v GPT-3>She would speak, but I couldn't hear her. I'd call out to her, but her voice was so faint that she might as well have been dead.
+<v GPT-3>她会说话，但我听不到。我会呼唤她，但她的声音太微弱了，她可能和死人没什么两样。
+
+00:20:57.920 --> 00:21:05.130
+<v Tobin Low>In this version, GPT-3 talks about Vauhini going to a therapist who tries to make her feel better, but it doesn't work.
+<v Tobin Low>在这个版本中，GPT-3谈到了沃希尼去看心理医生，试图让自己感觉更好，但这没用。
+
+00:21:05.130 --> 00:21:21.620
+<v GPT-3>I didn't want to feel better. I wanted to feel what I felt. I wanted to feel the loss, the grief, the anger, the sorrow, the fear, all of it. I wanted to feel it until it stopped hurting, but it never stopped hurting. I just got better at hiding it.
+<v GPT-3>我不想感觉更好。我想感受我的感受。我想感受那种失落、悲伤、愤怒、哀愁、恐惧，所有的一切。我想感受它直到它不再伤害，但它从未停止伤害。我只是变得更善于隐藏它了。
+
+00:21:21.620 --> 00:21:44.650
+<v Tobin Low>GPT-3, writing for Vauhini, describes her feeling like a ghost when she goes to grad school, as a ghost when she moves to a new city. She's pretending to move on, but she cannot. The AI, for the first time, is lingering in her sadness. So in version five, Vauhini tries to build on that success. She poses a new challenge to GPT-3 like a test. She writes--
+<v Tobin Low>GPT-3为沃希尼代写，描述了她去读研究生时感觉像个幽灵，搬到新城市时也像个幽灵。她假装继续生活，但她做不到。AI第一次沉浸在她的悲伤中。所以在第五个版本中，沃希尼试图在那次成功的基础上再接再厉。她给GPT-3提出了一个新的挑战，就像个测试。她写道——
+
+00:21:44.650 --> 00:22:00.110
+<v Vauhini Vara>Here, I should conjure my sister for you. Here, I should describe her so that you feel her absence as I do, so that you're made ghostly by it, too. But though I'm a writer, I've never been able to conjure her. I remember the same small set of details.
+<v Vauhini Vara>在这里，我应该为你召唤我的姐姐。在这里，我应该描述她，以便你感受到我所感受的她的缺席，以便你也因此变得像个幽灵。但虽然我是作家，但我从未能召唤她。我记得的还是那几小条细节。
+
+00:22:00.110 --> 00:22:11.580
+<v Tobin Low>She stops there. "I remember the same small set of details," colon, blank space. It's a prompt meant to see what GPT-3 will say. Here's how it responds.
+<v Tobin Low>她停在那儿。“我记得的还是那几小条细节”，冒号，空白处。这是一个旨在看看GPT-3会说什么的提示语。这是它的回应。
+
+00:22:11.580 --> 00:22:37.110
+<v GPT-3>Her dark eyes, her long, thin fingers-- but these are just the details that are universal to all sisters. If I describe the color of her eyes and the shape of her fingers, you might think that I was describing someone else. Even if you knew my sister, you might not recognize her in these details. Why is it that though we look at our siblings so closely, we forget them so quickly?
+<v GPT-3>她深色的眼睛，她又长又细的手指——但这只是所有姐妹共有的细节。如果你描述她眼睛的颜色和手指的形状，你可能会认为我描述的是别人。即使你认识我姐姐，你也可能认不出这些细节中的她。为什么虽然我们如此仔细地看着我们的兄弟姐妹，但我们却这么快就忘记了他们？
+
+00:22:37.110 --> 00:23:02.250
+<v GPT-3>So I can't describe her to you, but I can describe what it felt like to have her die. It felt like my life was an accident, or worse, a mistake. I'd made a mistake in being born. And now, to correct it, I would have to die. I'd have to die and someone else, a stranger, would have to live in my place. I was that stranger. I still am.
+<v GPT-3>所以我不能为你描述她，但我可以描述我姐姐去世时的感觉。感觉我的生活是一场意外，或者更糟，一个错误。我出生就是一个错误。而现在，为了纠正它，我必须死。我必须死，然后别人，一个陌生人，将代替我生活。我就是那个陌生人。我现在依然是。
+
+00:23:02.250 --> 00:23:06.570
+<v Tobin  Low>What do you think about what it filled in your prompt with?
+<v Tobin  Low>你觉得它在你提示语中填充的内容怎么样？
+
+00:23:06.570 --> 00:23:25.190
+<v Vauhini  Vara>She did have dark eyes. And weirdly, she did have long, thin fingers. And again, I want to say, I don't know how it knew that. Of course, it's not-- it doesn't have consciousness. But it did get those two things right.
+<v Vauhini  Vara>她确实有深色的眼睛。奇怪的是，她确实有又长又细的手指。我还是要再说一次，我不知道它是怎么知道的。当然，它不是——它没有意识。但它确实说对了那两点。
+
+00:23:25.190 --> 00:23:48.650
+<v Tobin Low>The rest of it, about wanting to die, feeling like a mistake, it felt a little extreme. But seeing the computer's sort of clumsy attempt to describe her sister, it gave her something to react to. Like, seeing the software do it badly made her realize how to do it better. So in version six, she tries to do the thing that was so hard, writing about her sister herself. Here's what she writes.
+<v Tobin Low>剩下的部分，关于想死、感觉像个错误，感觉有点极端。但看到电脑笨拙地试图描述她姐姐，它给了她一些可以反应的东西。就像，看到软件做得不好，让她意识到该如何做得更好。所以在第六个版本中，她试着做那件最难的事情，自己写关于姐姐的内容。这是她写的。
+
+00:23:48.650 --> 00:24:07.990
+<v Vauhini Vara>"I remember the same small set of details-- her loud laugh, her bossiness and swagger, her self-consciousness about her broad nose, her curly hair. But even this isn't fixed. Her hair fell out. Her nose narrowed. She began moving slowly and carefully.
+<v Vauhini Vara>“我记得的还是那几小条细节——她响亮的笑声、她的专横和招摇、她对自己大鼻子的自我意识、她卷曲的头发。但即使这些也不是固定的。她的头发掉了。她的鼻子变窄了。她开始移动得很慢、很小心。
+
+00:24:07.990 --> 00:24:19.320
+<v Vauhini Vara>We'd go down to Clark Beach that spring that she was dying. She wanted to show us where to spread her ashes. And when we'd walk back up, I'd have to put a hand on the small of her back and push her. She did not laugh as often."
+<v Vauhini Vara>在她垂死的那年春天，我们去过克拉克海滩。她想告诉我们把她的骨灰撒在哪里。当我们走回来时，我不得不把手放在她的后腰上推她。她不再频繁地大笑了。”
+
+00:24:19.320 --> 00:24:34.200
+<v Tobin Low>It's in this version in the next that Vauhini and GPT-3 start to feel like they're talking to each other, trading stories about the little moments that happen between sisters. Like, GPT-3 makes up the scene where Vauhini and her sister are kids in their childhood home.
+<v Tobin Low>正是在这个版本和下一个版本中，沃希尼和GPT-3开始觉得他们正在交谈，交换着发生在姐妹之间的小时刻。比如，GPT-3编造了一个场景，沃希尼和她姐姐小时候在她们的童年家里。
+
+00:24:34.200 --> 00:24:44.580
+<v GPT-3>I heard her calling my name from the living room. "What?" I said. "I'm awake," she called back. "Are you?" I said. "Yes," she said. "I'm awake."
+<v GPT-3>我听到她在客厅里叫我的名字。“什么？”我说。“我醒着，”她回叫道。“你是吗？”我说。“是的，”她说。“我醒着。”
+
+00:24:44.580 --> 00:24:50.540
+<v Tobin  Low>Vauhini answers in the next version, version seven, with a memory of something that really happened. She writes--
+<v Tobin  Low>沃希尼在下一个版本，即第七个版本中，用一个真实发生过的记忆作为回应。她写道——
+
+00:24:50.540 --> 00:25:03.960
+<v Vauhini Vara>"When we were young, she taught me that when you're in a car that's driving past a cemetery, you're supposed to hold your breath until you pass it. It was a kind of game. Because our parents were immigrants, I had only heard her teach me these things.
+<v Vauhini Vara>“当我们年轻的时候，她教会我，当你开车经过墓地时，你应该屏住呼吸直到经过它。那是一种游戏。因为我们的父母是移民，我只听她教过我这些事。
+
+00:25:03.960 --> 00:25:25.780
+<v Vauhini Vara>Then, when she was sick, we were passing a cemetery one afternoon. And I said, hold your breath. She said sharply, 'No.' I said, 'Why not?' She said, 'I don't like that game anymore.' It didn't make me feel sorry for her. It made me angry. 'Why not?' I said again. Even though I knew the answer, it felt important to pretend not to."
+<v Vauhini Vara>然后，当她生病时，有一天下午我们经过一个墓地。我说，屏住呼吸。她尖锐地说，‘不。’我说，‘为什么不？’她说，‘我不喜欢那个游戏了。’这并没有让我为她感到难过。这让我很生气。‘为什么不？’我又说了一遍。即使我知道答案，假装不知道感觉也很重要。”
+
+00:25:25.780 --> 00:25:30.540
+<v Tobin  Low>GPT-3 volleys, fabricates its own story about a car ride.
+<v Tobin  Low>GPT-3回应了，编造了它自己的关于车程的故事。
+
+00:25:30.540 --> 00:26:01.910
+<v GPT-3>We were driving home from Clark Beach, and we were stopped at a red light, and she took my hand and held it. This is the hand she held, the hand I write with, the hand I am writing this with. She held it for a long time. I looked at our hands, hers so much paler than mine. She was still holding my hand when the light turned green. I didn't want her to let go. I wanted her to hold my hand for the rest of my life.
+<v GPT-3>我们正开车从克拉克海滩回家，在一个红灯前停了下来，她拉着我的手握住它。这就是她握住的那只手，我用来写字的那只手，我用来写这个的那只手。她握了很久。我看着我们的手，她的手比我的苍白得多。当灯变绿时，她还握着我的手。我不想让她放手。我想让她握着我的手余生。
+
+00:26:01.910 --> 00:26:07.100
+<v Tobin Low>I'm wondering how you responded to this little scene that it writes for you and your sister.
+<v Tobin Low>我想知道你对它为你和你姐姐写的这个小场景有何回应。
+
+00:26:07.100 --> 00:26:32.650
+<v Vauhini  Vara>I mean, the weird thing about that was that I pictured my actual sister. These are not things that happened, at least not in this series, not in this the way that it's described here. But there are little bits of dialogue there that are true that have actually happened, like the way that I think I'd be in my room and she'd be in her room. And I would ask if she was awake, and she would be like, "Yeah, are you?"
+<v Vauhini  Vara>我是说，那件怪事就是我脑补出了我真正的姐姐。这些事情并没有发生，至少不是在这个系列中，不是像这里描述的那样。但里面有些对话小片段是真的，确实发生过，比如我觉得我会待在我的房间里，她会待在她的房间里。我会问她醒着吗，她会说：“对，你是吗？”
+
+00:26:32.650 --> 00:26:39.690
+<v Tobin  Low>Was there something nice about it almost giving you kind of a new memory with her?
+<v Tobin  Low>它几乎给了你一个和你姐姐的新记忆，这感觉不错吗？
+
+00:26:39.690 --> 00:26:57.420
+<v Vauhini Vara>It doesn't feel like a new memory. I wouldn't, 10 years from now, remember this part of the essay that the AI wrote and mistake it for something that really happened. But it did feel like I was reading fan fiction about my own life or something, you know? [LAUGHS]
+<v Vauhini Vara>这感觉不像一个新记忆。10年后，我不会记得AI写的文章的这一部分，并把它误认为是真正发生过的事情。但这感觉就像我在读关于我生活的同人小说什么的，你知道吗？[笑]
+
+00:26:57.420 --> 00:26:58.000
+<v Tobin Low>Mm-hmm.
+<v Tobin Low>嗯哼。
+
+00:26:58.000 --> 00:27:06.480
+<v Vauhini Vara>--that really was evoking my actual sister who died, with whom I won't have new memories, right? And so it felt nice in that way.
+<v Vauhini Vara>——那真的唤起了我已故的姐姐，我和她再也不会有新记忆了，对吧？所以那样感觉很好。
+
+00:27:06.480 --> 00:27:22.320
+<v Tobin Low>Reading something like, "She was still holding my hand when the light turned green," "I didn't want her to let go. I wanted her to hold my hand for the rest of my life," it's hard not to wonder how GPT-3 is conjuring such a specific feeling.
+<v Tobin Low>读到像“当绿灯亮时她还握着我的手”，“我不想让她放手。我想让她握着我的手度过余生”，很难不感到奇怪GPT-3是如何唤起这种特定感觉的。
+
+00:27:22.320 --> 00:27:40.000
+<v Tobin Low>There is the possibility that somewhere in the vast library of what its been fed, there are people who've written about going to Clark Beach with family, or perhaps an author who recalls holding hands with someone they've lost. And that's how GPT-3 knows that remembering the touch of someone long gone can break your heart.
+<v Tobin Low>有一种可能，在它被喂入的庞大图书馆中，有人写过关于与家人去克拉克海滩的事情，或者也许有作者回忆过与失去的人牵手。这就是为什么GPT-3知道记住早已离去的人的触碰会让人心碎。
+
+00:27:40.000 --> 00:28:00.030
+<v Tobin Low>In that sense, GPT-3's fuel is very human. It pulls from the collective experience and words of all the people writing those thousands of blog posts, and articles, and novels, and in this case, synthesizes it into a reflection of our grief while understanding none of it, which, of course, is the strangest thing about all this.
+<v Tobin Low>从这个意义上说，GPT-3的燃料非常人性化。它从所有撰写数千篇博客文章、文章和小说的人的集体经验和文字中汲取，在这种情况下，将其合成对我们悲伤的反射，同时又完全理解不了这些——当然，这是关于所有这一切最奇怪的事情。
+
+00:28:00.030 --> 00:28:13.030
+<v Tobin Low>But there's another thing that sometimes happens with GPT-3. It happens in version eight. In this version, Vauhini starts with all the parts we know, diagnosis, feeling like a ghost, trying to describe her sister. And then GPT-3 jumps in.
+<v Tobin Low>但还有另一件事有时会发生在GPT-3身上。它发生在第八个版本中。在这个版本中，沃希尼从我们所知的全部内容开始，诊断、感觉像个幽灵、试图描述她的姐姐。然后GPT-3介入了。
+
+00:28:13.030 --> 00:28:40.650
+<v GPT-3>I will tell you how it felt for me. I felt I had lost half of myself. I felt I had lost my right arm. I felt I had lost my left leg. I felt I had lost my tongue. I felt I had lost my heart. I felt I had lost my mind. I felt I had lost my eyes. I felt I had lost my ears. I felt I had lost my breath.
+<v GPT-3>我会告诉你我的感觉。我觉得我失去了一半的自己。我觉得我失去了我的右臂。我觉得我失去了我的左腿。我觉得我失去了我的舌头。我觉得我失去了我的心。我觉得我失去了我的头脑。我觉得我失去了我的眼睛。我觉得我失去了我的耳朵。我觉得我失去了我的呼吸。
+
+00:28:40.650 --> 00:29:07.470
+<v Tobin  Low>GPT-3 gets caught in one of its repetitive loops here, but for a very, very long time. Even with all its brilliance, the AI can still become like those robot vacuums stuck in a corner, sucking up dirt from the same patch of floor over and over again. But in this case, GPT-3, it gets stuck somewhere useful, in the very molten core of a feeling, like in this next part, where it talks about grief feeling like an astronaut lost in space.
+<v Tobin  Low>GPT-3在这里陷入了重复循环，但持续了很长、很长的时间。即使拥有所有智慧，AI仍然可能像那些卡在角落里的机器人吸尘器，一遍又一遍地吸着同一块地板上的灰尘。但在这种情况下，GPT-3被困在了某个有用的地方，在一个感觉的核心，就像接下来的部分，它谈到悲伤感觉像是一个迷失在太空中的宇航员。
+
+00:29:07.470 --> 00:29:16.950
+<v GPT-3>I'm a ghost, and I'm in a spaceship, and I'm hurtling through the universe. And I'm traveling forward, and I'm traveling backward, and I'm traveling sideways, and I'm traveling nowhere.
+<v GPT-3>我是个幽灵，我在一艘宇宙飞船里，我在宇宙中穿行。我向前旅行，我向后旅行，我向侧面旅行，我哪儿也没去。
+
+00:29:16.950 --> 00:29:19.300
+<v Vauhini Vara>--in a spaceship, and I'm hurtling through the universe--
+<v Vauhini Vara>——在宇宙飞船里，我在宇宙中穿行——
+
+00:29:19.300 --> 00:29:20.180
+<v GPT-3>And I'm a ghost.
+<v GPT-3>而且我是个幽灵。
+
+00:29:20.180 --> 00:29:27.100
+<v Vauhini Vara>And I'm traveling forward, and then traveling backward, and then it just continues like, I'm a ghost, and I'm in a spaceship, and I'm hurtling through the universe--
+<v Vauhini Vara>我向前旅行，然后向后旅行，然后它就继续，我是个幽灵，我在一艘宇宙飞船里，我在宇宙中穿行——
+
+00:29:27.100 --> 00:29:29.180
+<v GPT-3>And I'm a ghost, and I'm in a spaceship.
+<v GPT-3>而且我是个幽灵，我在一艘宇宙飞船里。
+
+00:29:29.180 --> 00:29:31.910
+<v Vauhini Vara>And I'm hurtling through the universe.
+<v Vauhini Vara>我正在宇宙中穿行。
+
+00:29:31.910 --> 00:29:34.510
+<v GPT-3>And I'm hurtling through the universe, and I'm a ghost, and I'm in a spaceship.
+<v GPT-3>我正在宇宙中穿行，而且我是个幽灵，我在一艘宇宙飞船里。
+
+00:29:34.510 --> 00:29:44.090
+<v Vauhini Vara>It's the one part of the essay that really feels the most, I think, like it was written by a machine, because it kind of gets lost in its own recursiveness.
+<v Vauhini Vara>这是文章中感觉最像机器写的部分，我想，因为它有点迷失在自己的递归中了。
+
+00:29:44.090 --> 00:29:53.110
+<v GPT-3>And I'm a ghost, and I'm in a spaceship, and I'm hurtling through the universe. And I'm a ghost, and I'm in a spaceship, and I'm hurtling--
+<v GPT-3>而且我是个幽灵，我在一艘宇宙飞船里，我在宇宙中穿行。而且我是个幽灵，我在一艘宇宙飞船里，我正在穿行——
+
+00:29:53.110 --> 00:30:04.900
+<v Vauhini Vara>But then that happens to also be the experience of grief, where you feel untethered. You feel sort of lost in your experience of grief. You have no way of trying to integrate or understand what's going on.
+<v Vauhini Vara>但那也恰好是悲伤的体验，你会感到没有依托。你在悲伤的体验中感到迷失。你没有任何办法去整合或理解正在发生的事情。
+
+00:30:04.900 --> 00:30:09.970
+<v GPT-3>And I'm a ghost, and I'm in a spaceship, and I'm hurtling.
+<v GPT-3>而且我是个幽灵，我在一艘宇宙飞船里，我正在穿行。
+
+00:30:09.970 --> 00:30:28.780
+<v Tobin   Low>Vauhini says GPT-3, reeling in its corner, landed on something true-- that grief turns us into something like a broken machine still performing tasks but poorly, haphazardly, fixating on thoughts and emotions that seem to spin endlessly.
+<v Tobin   Low>沃希尼说GPT-3在它的角落里蹒跚而行，发现了一些真实的东西——悲伤把我们变成了某种像坏掉的机器，仍在执行任务，但执行得很糟糕、乱七八糟，沉迷于看似无止境旋转的思想和情绪中。
+
+00:30:28.780 --> 00:30:46.130
+<v Vauhini Vara>And it put that on the page for me. And then once it put that on the page, it was almost like a relief. I was almost like, OK, it described the feeling that I wanted to describe in this essay, and I can come out on the other side.
+<v Vauhini Vara>它把它写在页面上给我。然后一旦它把它写在页面上，就像是一种解脱。我几乎觉得，好吧，它描述了我在这篇文章中想要描述的感觉，我能从另一边走出来。
+
+00:30:46.130 --> 00:30:58.090
+<v Tobin  Low>What the other side looks like is version nine, the last one. This one is notable because it's almost all Vauhini's writing, her doing the thing that once felt so hard to do.
+<v Tobin  Low>另一边是什么样子是第九个版本，最后一个。这个版本值得注意，因为它几乎都是沃希尼的写作，她在做那件曾经觉得很难做的事情。
+
+00:30:58.090 --> 00:31:18.800
+<v Vauhini  Vara>"She left me a recording of herself where she gave me advice. Her voice sounded weird around the time that she recorded it, the way a person's voice sometimes does when they've gotten their mouth numbed by the dentist. It had something to do with her cancer, but I don't remember the mechanics. I looked it up online and nothing came up, and I don't want to ask anyone.
+<v Vauhini  Vara>“她留给我一段她自己的录音，她在里面给了我建议。录音时她的声音听起来很奇怪，就像一个人嘴巴被牙医打麻药后的那种声音。这和她的癌症有关，但我记不清机制了。我在网上查了，没查到什么，我也不想问任何人。
+
+00:31:18.800 --> 00:31:39.990
+<v Vauhini  Vara>She said, in her muffled voice, 'The happiest thing right now is I learned to talk openly. It works really, really well. Today, you thought I didn't want you to come to the Space Needle, so you made a face. That's insanity. You have to tell everybody what you want and then ask them what they want. Don't hide anything. Take chances.'
+<v Vauhini  Vara>她用含糊的声音说，‘现在最快乐的事是我学会了公开交谈。这真的很有效。今天，你以为我不想让你来太空针塔，所以你做了个鬼脸。那简直是疯了。你必须告诉大家你想要什么，然后问问他们想要什么。不要隐瞒任何事。抓住机会。’
+
+00:31:39.990 --> 00:32:01.950
+<v Vauhini  Vara>The tape is in a box somewhere. I've listened to it only a couple of times. The sound of her voice in it freaks me out. Around the time she made the tape, she'd changed in a lot of ways. She'd also grown religious. She said she was ready to die. It seems like that gave my parents peace, but I always thought she was deluding herself, or us, or both."
+<v Vauhini  Vara>磁带在某个盒子里。我只听过几次。录音中她的声音让我感到恐惧。在她做这段磁带的时候，她已经在很多方面发生了变化。她也变得虔诚了。她说她准备好死了。这似乎给了我父母平静，但我总觉得她在自欺欺人，或者是在欺骗我们，或者两者兼有。”
+
+00:32:01.950 --> 00:32:14.720
+<v Tobin Low>What stands out to me about this version is how matter of fact it is. It's honest, like someone telling a story without embellishment, so different from the tentative sentences she fed GPT-3 in those early versions.
+<v Tobin Low>这个版本让我印象深刻的是它有多么公事公办。它是诚实的，就像某人在没有任何修饰的情况下讲故事，与她在早期版本中喂给GPT-3的那些试探性的句子完全不同。
+
+00:32:14.720 --> 00:32:27.640
+<v Vauhini Vara>Even though it would feel good to say, like, yes, my conclusion here is, I was able to do this entirely on my own. I didn't need the AI at all. It's like, the reality is more complicated than that.
+<v Vauhini Vara>即使如果说“是的，我这里的结论是，我完全靠自己做到了，我根本不需要AI”，那会感觉很好。现实比那复杂。
+
+00:32:27.640 --> 00:32:50.070
+<v Tobin Low>The reality being that GPT-3 and its inaccuracies and wild storytelling had cleared a path for Vauhini to write just the truth. She did, however, let GPT-3 have the last word, the last couple sentences, actually. She had to generate a bunch of options for her, six pages of options, and then she chose which one felt right. Here's the last paragraph that Vauhini herself wrote.
+<v Tobin Low>现实是，GPT-3及其不准确性和疯狂的故事讲述为沃希尼扫清了道路，让她写出了真相。不过，她确实让GPT-3说了最后一句话，确切地说是最后几句话。她必须为她生成一堆选择，六页的选择，然后她选择了听起来感觉对的一个。这是沃希尼自己写的最后一段。
+
+00:32:50.070 --> 00:33:12.880
+<v Vauhini Vara>"Once upon a time, my sister taught me to read. She taught me to wait for a mosquito to swell on my arm and then slap it and see the blood spurt out. She taught me to insult racists back, to swim, to pronounce English so I sounded less Indian, to shave my legs without cutting myself, to lie to our parents believably.
+<v Vauhini Vara>“很久以前，我姐姐教我读书。她教我等蚊子在手臂上肿起来，然后拍死它，看血溅出来。她教我回骂种族主义者，教我游泳，教我发音英语这样我听起来不那么印度化，教我不割伤自己地刮腿毛，教我可信地对父母撒谎。”
+
+00:33:12.880 --> 00:33:14.850
+<v Tobin Low>And here's the ending from GPT-3 that she chose.
+<v Tobin Low>这是她选择的来自GPT-3的结尾。
+
+00:33:14.850 --> 00:33:20.950
+<v GPT-3>--to do math, to tell stories. Once upon a time, she taught me to exist.
+<v GPT-3>——教我做数学，教我讲故事。很久以前，她教我存在。
+
+00:33:20.950 --> 00:33:31.670
+<v Tobin Low>She especially loved that last sentence because it contains so much. Pretty good writing, I'd say.
+<v Tobin Low>她特别喜欢最后那个句子，因为它包含了太多东西。我认为，写得相当不错。
+
+00:33:31.670 --> 00:34:19.150
+<v Ira  Glass>Tobin Low. He's an editor on our program. The writing done by the artificial intelligence software, GPT-3, was read by Lucy Taylor. Vauhini Vara first told this story in The Believer magazine. You can read the full version online with all the eerie things that the A.I. comes up with. We had to condense it to fit it on the radio. You can find that at Belivermag.com. Vauhini has a book coming out which you can pre-order. It's called The Immortal King Rao.
+<v Ira  Glass>托宾·洛。他是我们节目的编辑。由人工智能软件GPT-3编写的内容由露西·泰勒（Lucy Taylor）朗读。沃希尼·瓦拉最初在《Believer》杂志上讲述了这个故事。你可以上网阅读完整版本，包含AI想出的所有怪异的东西。我们为了适应电台将其缩短了。你可以在Belivermag.com找到它。沃希尼有一本书即将出版，你可以预订。书名是《不朽的拉奥王》（The Immortal King Rao）。
+
+00:34:19.150 --> 00:34:28.940
+<v Ira  Glass>Coming up, a ghost, napping-- which is to say, the least threatening ghost in Ghost World. That's in a minute, from Chicago Public Radio, when our program continues.
+<v Ira  Glass>接下来，一个幽灵，小睡——也就是说，《幽灵世界》中最不具威胁性的幽灵。那将在片刻后继续，来自芝加哥公共广播电台，当我们的节目继续时。
+
+00:34:28.940 --> 00:34:44.060
+<v Ira Glass>It's This is American Life. I'm Ira Glass. Today's program, "The Ghost in the Machine," stories of people who turned to devices, contraptions, hardware of all sorts, looking for someone they love.
+<v Ira Glass>这里是《美国生活》。我是艾拉·格拉斯。今天的节目，“机器里的幽灵”，人们转向各种设备、装置、硬件，寻找他们所爱之人的故事。
+
+00:34:44.060 --> 00:34:49.090
+<v Ira Glass>We've arrived at Act Two of our program. Act Two, "Father of Invention."
+<v Ira Glass>我们来到了节目的第二幕。第二幕，“发明的父亲”。
+
+00:34:49.090 --> 00:35:04.720
+<v Ira Glass>So there's this machine that lots of us encounter as a big, impersonal, mechanical apparatus, and it has a ghost in it. But it's a ghost that just appears to a small handful of people. And I'll get to that, but let me first tell you about Jean.
+<v Ira Glass>所以，很多我们遇到的大型、非个人、机械装置里，都有一个幽灵。但这只是出现在少数人面前的幽灵。我会讲到这一点，但先让我讲讲珍（Jean）的故事。
+
+00:35:04.720 --> 00:35:14.760
+<v Ira Glass>The all really begins when Jean was 10, on a family vacation in Washington DC, down by all those museums near the Washington Monument. And there was a sudden, very intense rainstorm. Here's Jean.
+<v Ira Glass>这完全始于珍10岁时，在华盛顿特区的一次家庭度假，在华盛顿纪念碑附近的所有那些博物馆里。突然下了一场非常强烈的暴雨。这是珍。
+
+00:35:14.760 --> 00:35:42.970
+<v Jean Hannah Edelstein>And so all of the tourists who were out there made a dash for the various Smithsonian museums-- just, like, sprinted inside. And we ended up in the First Lady's exhibit. And I was 10 and so relatively small. And I got crushed up against the glass of-- I believe it was Nancy Reagan's inaugural gown or something like that. I recall a red sparkly dress and not being able to turn around, so just having these sparkles in my face.
+<v Jean Hannah Edelstein>所以所有在那里的游客都冲向各个史密森尼博物馆——就像冲进去一样。我们最后到了第一夫人展览区。我当时10岁，所以相对较小。我被挤在——我想是南希·里根（Nancy Reagan）的就职晚礼服之类的玻璃上。我记得一件闪亮的红裙子，无法转身，所以脸上全是亮片。
+
+00:35:42.970 --> 00:35:47.950
+<v Ira Glass>But wait. I'm just trying to picture it. So you were actually pressed up against this thing and pinned against it?
+<v Ira Glass>等等。我只是在试着脑补一下。所以你真的被挤压在那个东西上，被钉在上面？
+
+00:35:47.950 --> 00:36:01.290
+<v Jean Hannah Edelstein>Yeah, so it was definitely a very frightening moment, not knowing where my parents were, not being able to find them. But I think from there, I just developed this kind of sense that I always needed to have an escape route from everywhere.
+<v Jean Hannah Edelstein>是的，所以那绝对是一个非常可怕的时刻，不知道父母在哪里，无法找到他们。但我认为从那里开始，我就产生了一种我总是需要从任何地方找到逃生路线的感觉。
+
+00:36:01.290 --> 00:36:11.910
+<v Ira Glass>What she's describing is claustrophobia, the fear of being enclosed in some space. And it really started to kick in for Jean in a big way when she was a teenager and got onto airplanes.
+<v Ira Glass>她描述的是幽闭恐惧症，对被封闭在某个空间的恐惧。当珍十几岁坐飞机时，这种恐惧真的开始以巨大的方式爆发了。
+
+00:36:11.910 --> 00:36:37.620
+<v Jean Hannah Edelstein>Because there you are in a metal tube in the sky, and the door is shut. It's a very small space. There's literally no escape. But twice, I actually got off the plane before it went anywhere because just being on it with the door closed caused me to have such intense panic. And I remember the second time, the plane was actually taxiing. And I pressed the stewardess call button and said, I have to get off the plane.
+<v Jean Hannah Edelstein>因为你就在天空中一个金属管里，门关着。这是一个非常小的空间。确实没有逃生通道。但有两次，我实际上在飞机起飞前就下了飞机，因为就在门关着的情况下在里面导致我非常恐慌。我记得第二次，飞机已经在滑行了。我按下了空姐呼叫按钮，说，我必须下飞机。
+
+00:36:37.620 --> 00:36:56.460
+<v Ira Glass>After that second time, she started seeing a therapist for this, which helped her enough that she was able to fly again, though she says that she would feel panicked the entire flight, with days of anxiety leading up to it. These days, she can take an elevator if she has to. But if she gets a choice, she prefers the stairs.
+<v Ira Glass>在那第二次之后，她开始因此去看心理医生，这足以帮助她能够再次飞行，尽管她说她在整个飞行过程中都会感到恐慌，提前几天就会焦虑。这些天，如果有必要，她可以坐电梯。但如果可以选择，她更喜欢走楼梯。
+
+00:36:56.460 --> 00:37:09.730
+<v Ira Glass>And then there came a day when she had to get an MRI-- you know, the tube they put you into to check for all kinds of things. Even people who are not claustrophobic start to feel claustrophobic inside an MRI tube, so you can imagine what it was like for her.
+<v Ira Glass>然后有一天，她必须去做磁共振成像（MRI）——你知道的，他们把你放进去检查各种东西的管子。即使不是幽闭恐惧症患者，在MRI管子里也会开始感到幽闭恐惧，所以你可以想象她当时是什么感觉。
+
+00:37:09.730 --> 00:37:26.620
+<v Jean Hannah Edelstein>It feels like a coffin, or what I imagine a coffin must be like. I went in feet first. So literally, all I could see was this just totally blank white field around me. And obviously, the sides are very close, and so it's kind of like being completely enclosed in something and not being able to see anything outside.
+<v Jean Hannah Edelstein>它感觉像个棺材，或者我想象中棺材的样子。我是脚先进去的。所以实际上，我能看到的只有周围一片完全空白的白色视野。很明显，两边离得很近，所以这有点像被完全封闭在什么东西里，什么也看不见。
+
+00:37:26.620 --> 00:37:33.680
+<v Ira Glass>She tried long, slow breaths. She tried all of her tricks not to freak out, but she couldn't pull it off.
+<v Ira Glass>她尝试了长长的、缓慢的呼吸。她尝试了她所有不让自己崩溃的招数，但她没做到。
+
+00:37:33.680 --> 00:37:45.750
+<v Jean Hannah Edelstein>Yeah, I had a panic attack and they had to take me out. And then the guy tried to comfort me. And I was like, I know. My father literally invented this. It's not dangerous.
+<v Jean Hannah Edelstein>是的，我惊恐发作了，他们不得不把我拉出来。然后那个人试图安慰我。我说，我知道。我父亲亲自发明了这个。它不危险。
+
+00:37:45.750 --> 00:38:01.380
+<v Ira Glass>That's right. If I had to summarize this story in a sentence, the sentence would be, "inventor of MRI has claustrophobic daughter," though I want to be precise. Strictly speaking, her dad wasn't "the" inventor of the MRI.
+<v Ira Glass>没错。如果我必须用一句话总结这个故事，那句话就是，“MRI的发明者有一个幽闭恐惧症的女儿”，尽管我想精确一点。严格来说，她父亲不是MRI的“发明者”。
+
+00:38:01.380 --> 00:38:16.650
+<v Jean Hannah Edelstein>So yeah, my dad was part of the team that built the first full-body MRI in 1980, which was in Aberdeen, Scotland. And if you're in Aberdeen, you can go and see the original machine in a museum, and it's pretty janky looking. [CHUCKLES]
+<v Jean Hannah Edelstein>所以是的，我父亲是1980年在苏格兰阿伯丁制造第一台全身MRI的团队成员。如果你在阿伯丁，你可以去博物馆看原机，它看起来很破烂。[笑]
+
+00:38:16.650 --> 00:38:19.720
+<v Ira Glass>I have to say, that's the weirdest act of tourism I've ever heard of.
+<v Ira Glass>我不得不说，那是我听过的最奇怪的旅游行为。
+
+00:38:19.720 --> 00:38:21.130
+<v Jean Hannah Edelstein>Yeah, yeah, yeah. [LAUGHS]
+<v Jean Hannah Edelstein>是啊，是啊，是啊。[笑]
+
+00:38:21.130 --> 00:38:27.420
+<v Ira Glass>You know what I really want to do today, dear? Let's not do a place that makes whisky. Let's not do a golf course.
+<v Ira Glass>亲爱的，你知道我今天真的想做什么吗？我们别去酿威士忌的地方了。别去高尔夫球场了。
+
+00:38:27.420 --> 00:38:37.660
+<v Jean Hannah Edelstein>[LAUGHS] Well, I mean, I will say that my sister lives there. So whenever I visit her, we generally visit the machine. And suspiciously, there's never anyone else there at the museum. [LAUGHS]
+<v Jean Hannah Edelstein>[笑] 好吧，我是说，我得说我姐姐住在那里。所以每当我去看她，我们通常都会去看那台机器。而且可疑的是，博物馆里从来没有其他人。[笑]
+
+00:38:37.660 --> 00:38:41.780
+<v Ira Glass>Yeah. [LAUGHS] You visit the machine to commune with your dad?
+<v Ira Glass>是啊。[笑] 你去看那台机器是为了与你父亲交流？
+
+00:38:41.780 --> 00:38:47.160
+<v Jean Hannah Edelstein>Yeah, 'cause sadly, my dad died. And so, yeah, my sister lives in Aberdeen, and so--
+<v Jean Hannah Edelstein>是的，因为很遗憾，我父亲去世了。所以，是的，我姐姐住在阿伯丁，所以——
+
+00:38:47.160 --> 00:38:50.450
+<v Ira Glass>You'd go and actually think about your dad and be--
+<v Ira Glass>你会去实际上想念你的父亲，并成为——
+
+00:38:50.450 --> 00:39:09.860
+<v Jean Hannah Edelstein>Yeah. I mean, it's kind of amazing. It really looks like it was made of like some planks, what looks like some plumbing leftovers from somewhere, like they really just kind of hacked it together. And it's got my dad's handwriting on various pieces, little bits of math. I have no idea what they mean.
+<v Jean Hannah Edelstein>是的。我是说，这有点令人惊叹。它看起来真的是用一些木板拼凑起来的，看起来像是某个地方剩下的管道残留物，他们真的就是那种拼凑在一起的样子。上面还有我父亲手写的各种片段，一点点数学。我不知道它们意味着什么。
+
+00:39:09.860 --> 00:39:10.550
+<v Ira Glass>Wow.
+<v Ira Glass>哇。
+
+00:39:10.550 --> 00:39:34.810
+<v Jean Hannah Edelstein>So yeah, it's nice to see and imagine him-- I think he was only in his early 30s when he did it. And the other thing is, he was actually a very humble guy, so he didn't talk about it. I knew that he worked on MRI throughout his career, but I didn't know that he'd actually been part of the team that built the first one until I was about 25, and he came back to the UK to go to a celebration of the 25th anniversary.
+<v Jean Hannah Edelstein>所以是的，看到并想象他很高兴——我想他做这件事时只有30多岁。另外一件事是，他其实是个非常谦虚的人，所以他不谈论这个。我知道他在职业生涯中一直从事MRI工作，但我不知道他实际上是制造第一台MRI的团队成员，直到我大约25岁时，他回到英国参加25周年的庆祝活动。
+
+00:39:34.810 --> 00:39:37.770
+<v Ira Glass>But you've seen his handwriting on there? That's so intimate.
+<v Ira Glass>但你看到过他上面的笔迹了吗？那太亲密了。
+
+00:39:37.770 --> 00:39:43.010
+<v Jean Hannah  Edelstein>Yeah, yeah. So yeah, we literally know where his hands were on this piece of equipment.
+<v Jean Hannah  Edelstein>是的，是的。所以是的，我们确实知道他的手在这些设备上的什么位置。
+
+00:39:43.010 --> 00:39:45.450
+<v Ira Glass>What did he write?
+<v Ira Glass>他写了什么？
+
+00:39:45.450 --> 00:39:50.900
+<v Jean Hannah  Edelstein>I think they're probably notes about, like, put this piece here. There may have been some numbering system.
+<v Jean Hannah  Edelstein>我想这可能是一些笔记，比如，把这块放在这里。可能有一些编号系统。
+
+00:39:50.900 --> 00:39:51.700
+<v Ira Glass>[LAUGHS]
+<v Ira Glass>[笑]
+
+00:39:51.700 --> 00:39:57.370
+<v Jean Hannah Edelstein>I mean, yeah, I don't know. I remember some numbers and maybe something that looked like math to me.
+<v Jean Hannah Edelstein>我是说，是的，我不知道。我记得一些数字，也许还有一些在我看来像是数学的东西。
+
+00:39:57.370 --> 00:39:57.940
+<v Ira Glass>Yeah.
+<v Ira Glass>是啊。
+
+00:39:57.940 --> 00:39:59.530
+<v Jean Hannah Edelstein>Yeah.
+<v Jean Hannah Edelstein>是啊。
+
+00:39:59.530 --> 00:40:00.010
+<v Ira Glass>Yeah.
+<v Ira Glass>是啊。
+
+00:40:00.010 --> 00:40:03.970
+<v Jean Hannah Edelstein>I don't know if he signed his name, although that would have been cool.
+<v Jean Hannah Edelstein>我不知道他是否签了他的名字，尽管那会很酷。
+
+00:40:03.970 --> 00:40:06.290
+<v Ira Glass>And weird. [LAUGHS]
+<v Ira Glass>而且很奇怪。[笑]
+
+00:40:06.290 --> 00:40:10.430
+<v Jean  Hannah  Edelstein>[LAUGHS]
+<v Jean  Hannah  Edelstein>[笑]
+
+00:40:10.430 --> 00:40:18.730
+<v Ira   Glass>Did he know about your feelings about being inside the machine?
+<v Ira   Glass>他知道你关于在机器里面的感受吗？
+
+00:40:18.730 --> 00:40:37.260
+<v Jean Hannah Edelstein>Yeah. So when I was growing up, whenever the topic of my dad's career came up and it just kind of-- as I said, it wasn't like he was like, I invented this. But he would say, oh, I work on MRI. And invariably, whenever he said that to someone, they would go, oh, yeah. It's really claustrophobic. That tube is really small.
+<v Jean Hannah Edelstein>是的。所以当我长大的时候，每当提到我父亲职业的话题，就像我说的，并不是说他会说，我发明了这个。但他会说，哦，我做MRI工作。然后无论何时他这样对人说，他们都会说，哦，是的。真的太幽闭了。那个管子真的太小了。
+
+00:40:37.260 --> 00:40:45.500
+<v Jean Hannah Edelstein>And this would annoy him, and I can kind of see, you know, I built this kind of amazing thing, and you're just like, oh, it's a little too small.
+<v Jean Hannah Edelstein>这会让他烦恼，我能理解，你知道，我制造了这种神奇的东西，而你只是说，哦，它有点太小了。
+
+00:40:45.500 --> 00:40:51.220
+<v Ira Glass>Right. Like, I built a rocket ship that'll take us to the moon and back. And you're like, well, do you got one with bigger windows?
+<v Ira Glass>对。就像，我制造了一艘火箭，可以带我们去月球来回。而你却说，好吧，你有没有那种窗户大一点的？
+
+00:40:51.220 --> 00:40:58.270
+<v Jean Hannah Edelstein>[LAUGHS] Precisely. It's nice that it saved my life, but honestly, I was a bit uncomfortable in the tube.
+<v Jean Hannah Edelstein>[笑] 精确地说。它救了我的命很好，但老实说，我在管子里有点不舒服。
+
+00:40:58.270 --> 00:40:58.990
+<v Ira Glass>[LAUGHS]
+<v Ira Glass>[笑]
+
+00:40:58.990 --> 00:41:16.660
+<v Jean Hannah Edelstein>It would be, like, his own parents would say this to him. Basically, anyone he came across who had an MRI, that was-- and I mean, to be fair, people would also be like, oh, they found such and such a thing, and I'm really grateful for that. But the fact that they found it a bit tight was also--
+<v Jean Hannah Edelstein>这会是，就像他自己的父母会对他说的一样。基本上，他遇到的任何做过MRI的人，那都是——我的意思是，平心而论，人们也会说，哦，他们发现了这个那个东西，我真的对此很感激。但他们觉得有点挤也是——
+
+00:41:16.660 --> 00:41:35.000
+<v Jean Hannah Edelstein>So this was, yeah, a consistent theme. And then one time, when I was a teenager-- he and I used to often go out on a weekend to run errands. And then sometimes we would stop in his office because we'd need to pick something up. They had an MRI scanner there, obviously, that they were tinkering on. And so I think I was about 14 or 15.
+<v Jean Hannah Edelstein>所以这是一个始终如一的主题。然后有一次，当我十几岁时——他和我有周末经常出去跑腿的习惯。然后有时我们会停在他办公室，因为我们需要取些东西。他们那里显然有一台MRI扫描仪，他们正在摆弄。所以我认为我当时大约14或15岁。
+
+00:41:35.000 --> 00:41:44.360
+<v Jean Hannah Edelstein>So I'm being a little bit of a jerk, and I saw the machine. I said, "You know, Dad, I can really see how people would find that really claustrophobic." And he said, "Get in!"
+<v Jean Hannah Edelstein>所以我表现得有点像个混蛋，我看到了那台机器。我说，“你知道吗，爸爸，我真的能看出为什么人们会觉得那真的很幽闭。”他说，“进去！”
+
+00:41:44.360 --> 00:41:45.430
+<v Ira Glass>Oh, really?
+<v Ira Glass>哦，真的吗？
+
+00:41:45.430 --> 00:42:02.670
+<v Jean Hannah Edelstein>So I got on the tray, and he turns it on, and he scooches it back. And he's like, well, this is what it would be like if you were having your head scanned. And then he was like, and this would be like if you were having your back scanned, and sent me all the way back in the machine. And I was obviously very uncomfortable in the tube.
+<v Jean Hannah Edelstein>所以我上了托盘，他把它打开，把它向后推。他说，好吧，如果你正在扫描头部，这就是它的感觉。然后他说，如果你正在扫描背部这就是它的感觉，并把我一直送到机器里面。我显然在管子里非常不舒服。
+
+00:42:02.670 --> 00:42:11.260
+<v Ira Glass>Just to be clear, she and her family hadn't fully realized at that point the extent of her claustrophobia. And she decided not to tell her dad how much she hated this.
+<v Ira Glass>需要澄清的是，她和她的家人在那时还没有完全意识到她幽闭恐惧症的程度。她决定不告诉父亲她有多恨这个。
+
+00:42:11.260 --> 00:42:16.620
+<v Jean Hannah Edelstein>I was like, OK, I get it now. Yeah, it seems fine. It's great-- just so that he would let me out.
+<v Jean Hannah Edelstein>我说，好吧，我明白了。是的，看起来还行。太棒了——只是为了让他把我放出来。
+
+00:42:16.620 --> 00:42:20.870
+<v Ira Glass>Right. So you pointedly did not tell him that you found it unpleasant.
+<v Ira Glass>对。所以你明确表示没告诉他你觉得它不愉快。
+
+00:42:20.870 --> 00:42:32.020
+<v Jean  Hannah Edelstein>No. [LAUGHS] He was a very kind person, but this was just one area where his empathy fell a little short. He just didn't get why people found it so uncomfortable.
+<v Jean  Hannah Edelstein>没有。[笑] 他是一个非常善良的人，但这是他同理心有点不足的一个领域。他只是不明白为什么人们觉得它那么不舒服。
+
+00:42:32.020 --> 00:42:32.930
+<v Ira Glass>What would he say?
+<v Ira Glass>他会说什么？
+
+00:42:32.930 --> 00:42:56.470
+<v Jean Hannah Edelstein>He would just be like, I don't think it's that bad. He would never argue with them, per se. It wasn't that he invalidated their feelings, but he was just like, I don't see it. But honestly, he probably had more MRI scans than anyone in the world because they were constantly just testing it. And he would just always take a nap when he was inside. He found it very relaxing.
+<v Jean Hannah Edelstein>他只会说，我不认为它有那么糟糕。他从来不会反驳他们，本身。并不是他否定了他们的感受，但他只是说，我看不出来。但老实说，他可能比世界上任何人都做了更多的MRI扫描，因为他们一直在测试它。而他进去时总是会打个盹。他觉得它很放松。
+
+00:42:56.470 --> 00:43:09.980
+<v Ira Glass>Jean describes her dad as very funny with an extremely dry sense of humor. They used to share books. He always was asking her what she was reading and then reading it himself. He died in 2014 of cancer.
+<v Ira Glass>珍描述她父亲非常幽默，有一种极其冷幽默的感。他们过去常分享书。他总是问她在读什么，然后自己去读。他于2014年死于癌症。
+
+00:43:09.980 --> 00:43:32.290
+<v Ira Glass>For years before that, he had learned that he had this genetic condition called Lynch syndrome, which makes you predisposed to certain kinds of cancer. It's an inherited thing. His mom died of cancer and his sister got cancer, both when they were young. Jean was 32 when he died. And she knew that she should get tested for Lynch syndrome, too, because it's hereditary, but didn't get to it for six months after he died.
+<v Ira Glass>在那之前的几年里，他得知自己患有一种叫林奇综合征（Lynch syndrome）的遗传性疾病，这让你容易患上某些癌症。这是一种遗传性的东西。他妈妈死于癌症，他妹妹很年轻时也得了癌症。他去世时珍32岁。她知道她也应该去做林奇综合征的检测，因为它是遗传的，但他在去世后六个月她才去做。
+
+00:43:32.290 --> 00:43:44.830
+<v Jean Hannah Edelstein>It took a while for me to get to a point in my grief where I felt like, OK, I can face this. And when I got the positive test, I was devastated, but I wasn't surprised.
+<v Jean Hannah Edelstein>我在悲伤中花了一些时间才达到那种感觉，好吧，我可以面对这个的地步。当我得到阳性检测结果时，我崩溃了，但我并不感到惊讶。
+
+00:43:44.830 --> 00:43:45.860
+<v Ira Glass>Yeah.
+<v Ira Glass>是啊。
+
+00:43:45.860 --> 00:43:55.640
+<v Ira Glass>Now, she has to get regular MRIs to make sure she's cancer-free. She has to go into that claustrophobic machine that her dad made, and it's very hard for her.
+<v Ira Glass>现在，她必须定期做MRI，确保她没有癌症。她必须进入她父亲制造的那个幽闭恐惧症的机器里，这对她来说非常困难。
+
+00:43:55.640 --> 00:44:02.670
+<v Jean Hannah Edelstein>And so I go in. I close my eyes the whole time. I do a lot of deep breathing. And yeah, I think about my dad.
+<v Jean Hannah Edelstein>所以我进去了。我全程闭着眼睛。我做了很多深呼吸。是的，我想到了我父亲。
+
+00:44:02.670 --> 00:44:04.540
+<v Ira Glass>You do think about your dad?
+<v Ira Glass>你确实想到了你父亲？
+
+00:44:04.540 --> 00:44:29.270
+<v Jean Hannah Edelstein>Yeah, I mean, it's the obvious place to think about him. And yeah. I mean, I think it's obviously scary because every time-- I'm very lucky I haven't had any cancer so far, but my chances of having cancer at a younger stage are, like, 80%. They're very high. And so every time I go in, part of the fear, of course, is like, what are they going to find?
+<v Jean Hannah Edelstein>是的，我是说，这是想他的显而易见的地方。是的。我的意思是，我想这显然很可怕，因为每次——我很幸运到目前为止还没得过癌症，但我患癌症的几率是80%。他们非常高。所以每次我进去时，部分恐惧当然是，他们会发现什么？
+
+00:44:29.270 --> 00:44:46.210
+<v Jean Hannah Edelstein>And then I think about, on the one hand, my dad is the source of this gene. He's the source of this disease. On the other hand, he may be the source of the cure. If they find something from the MRI, it's going to be because he did that work 40 years ago.
+<v Jean Hannah Edelstein>然后我想，一方面，我父亲是这个基因的来源。他是这种疾病的来源。另一方面，他可能是治愈方法的来源。如果他们通过MRI发现了什么，那将是因为他在40年前做了那项工作。
+
+00:44:46.210 --> 00:44:51.540
+<v Ira Glass>Oh, my God. That's such a sweet thought, that, oh, your dad's the one who's helping save you.
+<v Ira Glass>哦，天哪。那真是个甜蜜的想法，噢，你父亲是那个帮助挽救你的人。
+
+00:44:51.540 --> 00:45:03.640
+<v Jean Hannah Edelstein>Yeah. And I'm not a traditionally spiritual person at all. I don't think I really believe in an afterlife. But when you talk about people staying alive through their legacy, certainly, he's there.
+<v Jean Hannah Edelstein>是的。而且我根本不是一个传统意义上的精神层面的人。我不认为我真的相信来世。但当你谈论人们通过他们的遗产活着时，当然，他在那里。
+
+00:45:03.640 --> 00:45:09.570
+<v Ira Glass>Do you think about him in the space? Like, do you feel like oh, this is his place? Like, he was so comfortable here?
+<v Ira Glass>你在那个空间里会想到他吗？比如，你会觉得噢，这是他的地方吗？比如，他在这里感到那么舒服？
+
+00:45:09.570 --> 00:45:25.290
+<v Jean Hannah Edelstein>Yeah. [LAUGHS] I mean, the funny thing, too, is he wasn't a tiny person. I think he was almost 6'4". And so I do think about-- I find it so uncomfortable but he was so much bigger than me, and it was fine for him.
+<v Jean Hannah Edelstein>是的。[笑] 我的意思是，有趣的是，他不是一个瘦小的人。我想他几乎有6英尺4英寸。所以我确实想到——我发现它那么不舒服，但他比我高大得多，对他来说这很好。
+
+00:45:25.290 --> 00:45:29.890
+<v Ira Glass>So you're laying there, and you think, OK, here I am in my dad's space.
+<v Ira Glass>所以你躺在那里，你想到，好吧，我现在在父亲的空间里。
+
+00:45:29.890 --> 00:45:31.990
+<v Jean Hannah Edelstein>Mm-hmm.
+<v Jean Hannah Edelstein>嗯哼。
+
+00:45:31.990 --> 00:45:38.190
+<v Ira Glass>And then will you picture him taking a nap? Will that help?
+<v Ira Glass>然后你会想象他打个盹吗？那会有帮助吗？
+
+00:45:38.190 --> 00:45:41.510
+<v Jean Hannah Edelstein>[LAUGHS] Kind of. Yeah.
+<v Jean Hannah Edelstein>[笑] 算是吧。是的。
+
+00:45:41.510 --> 00:45:45.050
+<v Ira Glass>Do you think he would be pleased knowing that you could be using the machine?
+<v Ira Glass>你认为如果他知道你能使用这台机器，他会感到高兴吗？
+
+00:45:45.050 --> 00:45:52.190
+<v Jean Hannah Edelstein>I think he'd be super pleased. [LAUGHS] And then I would say, Dad, it's really claustrophobic.
+<v Jean Hannah Edelstein>我想他会超级高兴。[笑] 然后我会说，爸爸，它真的很幽闭。
+
+00:45:52.190 --> 00:45:53.160
+<v Ira Glass>And he would say?
+<v Ira Glass>他会说？
+
+00:45:53.160 --> 00:45:56.700
+<v Jean Hannah Edelstein>And he would be like, no, it's fine!
+<v Jean Hannah Edelstein>他会说，不，它很好！
+
+00:45:56.700 --> 00:46:07.010
+<v Ira Glass>Jean Hannah Edelstein. She does a bit of this story about her dad and MRIs in her book, This Really Isn't About You.
+<v Ira Glass>珍·汉娜·埃德尔斯坦（Jean Hannah Edelstein）。她在她的书《这真的不是关于你》（This Really Isn't About You）中讲了一点关于她父亲和MRI的故事。
+
+00:46:07.010 --> 00:46:15.610
+<v Ira Glass>Act Three, "This Must Be the Place."
+<v Ira Glass>第三幕，“这一定是这个地方”。
+
+00:46:15.610 --> 00:46:29.460
+<v Ira Glass>So the guy in this next story tries to use the most mundane technology to pull off a transcendental feat. Why he does this, though, that part's not at all clear. Dana Chivvis tried to understand.
+<v Ira Glass>所以，下一个故事里的人试图用最平凡的技术来实现一个超然的壮举。然而，他为什么这么做，那部分完全不清楚。达纳·奇维斯（Dana Chivvis）试图去理解。
+
+00:46:29.460 --> 00:46:35.350
+<v Dana Chivvis>On August 8, 2011, Jonah Furman got an email from his father, Boris, with the subject heading, "Sleep Calendar."
+<v Dana Chivvis>2011年8月8日，约拿·福尔曼（Jonah Furman）收到一封他父亲鲍里斯（Boris）的邮件，邮件主题是“睡眠日历”。
+
+00:46:35.350 --> 00:46:37.360
+<v Dana Chivvis>All right, will you read it?
+<v Dana Chivvis>好的，你能读一下吗？
+
+00:46:37.360 --> 00:46:56.490
+<v Jonah Furman>Sure. "Hi, Jonah. On my Google Calendar, I'm keeping track of where each member of our family is sleeping every night. I can't explain why, but this is interesting to me. Can you tell me where you slept each night last week? I don't need the exact address, just the town and state. You're welcome to look at the calendar. I'd be happy to share it. Love, Dad."
+<v Jonah Furman>当然。“嗨，约拿。在我的谷歌日历上，我追踪我们家每个成员每天睡在哪里。我无法解释原因，但这对我来说很有趣。你能告诉我你上周每晚睡在哪里吗？我不需要确切地址，只要城镇和州就行。欢迎查看日历。我很乐意分享。爱你的，爸爸。”
+
+00:46:56.490 --> 00:47:02.850
+<v Dana  Chivvis>So he plots where everyone sleeps each night on a Google Calendar?
+<v Dana  Chivvis>所以他在谷歌日历上记录每个人每晚睡在哪里？
+
+00:47:02.850 --> 00:47:13.010
+<v Jonah Furman>Yeah. I'm pretty sure every day he has an event on Google Calendar that says, "Jonah, Silver Spring. Ezra, Somerville."
+<v Jonah Furman>是的。我很确定他每天在谷歌日历上都有一个事件，写着，“约拿，银泉。埃兹拉（Ezra），萨默维尔。”
+
+00:47:13.010 --> 00:47:38.220
+<v Dana Chivvis>Ezra's Jonah's sister. There are four siblings in the Furman family. A few months after that email, Boris sent his wife, Mel, and his kids another email. The subject heading of this one was, "Average of where we slept last night." And then in the body of the email, it just said, "Griggsville, Illinois" with a list of where everyone had slept the night before. No explanation. Signed, "Love, Dad."
+<v Dana Chivvis>埃兹拉是约拿的姐姐。福尔曼一家有四个孩子。在那封邮件几个月后，鲍里斯给他的妻子梅尔（Mel）和他的孩子们发了另一封邮件。这封的主题是，“我们昨晚睡觉地点的平均值”。然后在邮件正文中，它只是写着，“格里格斯维尔，伊利诺伊州”，并列出了每个人昨晚睡在哪里的清单。没有解释。落款，“爱你的，爸爸。”
+
+00:47:38.220 --> 00:47:51.890
+<v Dana Chivvis>The emails started coming with more frequency after that, usually a list of the places where everyone had slept and the place that would be the average of all those places. He gave this thing he was calculating a name, the Family Average Location-- FAL for short.
+<v Dana Chivvis>在那之后，这些邮件开始更频繁地到来，通常是每个人睡觉地点以及所有这些地点的平均位置的清单。他给这东西计算出的结果取了个名字，家庭平均位置——简称FAL。
+
+00:47:51.890 --> 00:47:55.500
+<v Dana Chivvis>Can you just explain how you calculate it? Just tell me your system.
+<v Dana Chivvis>你能解释一下你是怎么计算它的吗？只要告诉我你的系统。
+
+00:47:55.500 --> 00:47:58.090
+<v Boris Furman>Yes, I'll tell you exactly how I do it. OK?
+<v Boris Furman>是的，我会准确地告诉你我是怎么做的。好吗？
+
+00:47:58.090 --> 00:47:59.070
+<v Dana Chivvis>Yeah.
+<v Dana Chivvis>是的。
+
+00:47:59.070 --> 00:47:59.760
+<v Boris Furman>It is--
+<v Boris Furman>它是——
+
+00:47:59.760 --> 00:48:05.190
+<v Dana Chivvis>This is Boris. He's 69 years old. He was an options trader in Chicago. He's retired now, obviously.
+<v Dana Chivvis>这是鲍里斯。他69岁。他曾是芝加哥的一名期权交易员。显然，他现在退休了。
+
+00:48:05.190 --> 00:48:26.310
+<v Boris Furman>All right, so for instance, for instance, Mel and I live in Evanston. So you go to Google Maps, and you right-click your address. And a latitude and longitude comes out. So for where we live in Evanston, Illinois, it's 4,204 minus 8,768.
+<v Boris Furman>好的，例如，例如，梅尔和我住在埃文斯顿。所以你去谷歌地图，右键点击你的地址。就会出来一个经纬度。所以对于我们在埃文斯顿住的地方，伊利诺伊州，是4.204减去8.768。
+
+00:48:26.310 --> 00:48:52.580
+<v Dana Chivvis>Boris has been calculating his family's average location for 10 years now, and nobody really knows why. It's kind of a lot of work. It takes a couple of hours. He doesn't do it every day. Every few weeks, he contacts his kids and their spouses with the exception of one, who opts out in a conscientious objector kind of way, and asks them for their sleep locations and their kids' sleep locations for all the previous days.
+<v Dana Chivvis>鲍里斯已经计算了他家庭的平均位置10年了，没人真的知道为什么。这确实需要做很多工作。这需要几个小时。他不是每天都做。每隔几周，他就会联系他的孩子们和他们的配偶，除了其中一个以某种良心反战者方式选择退出的人，并要求他们提供之前所有日子的睡眠地点和孩子们的睡眠地点。
+
+00:48:52.580 --> 00:49:11.740
+<v Dana Chivvis>Once he's looked up the coordinates of where they all slept, he adds those up, finds their average, and puts those new coordinates into MapQuest. Yes, I said MapQuest. So if, say, half the family were in California and half on the East Coast, the FAL might be some town in Kansas. It moves depending on where everybody is.
+<v Dana Chivvis>一旦他查到了他们所有人的睡觉坐标，他就把它们加起来，算出平均值，并把那些新坐标输入到MapQuest中。是的，我说的是MapQuest。所以如果，比如，半个家庭在加利福尼亚，一半在东海岸，FAL可能就是堪萨斯州的某个城镇。它会根据每个人所在的位置移动。
+
+00:49:11.740 --> 00:49:15.090
+<v Boris Furman>Prosperity, Pennsylvania. You ever hear of that place?
+<v Boris Furman>普罗斯佩里蒂，宾夕法尼亚州。你听说过那个地方吗？
+
+00:49:15.090 --> 00:49:15.650
+<v Dana Chivvis>No.
+<v Dana Chivvis>没有。
+
+00:49:15.650 --> 00:49:16.910
+<v Boris Furman>Of course not.
+<v Boris Furman>当然没有。
+
+00:49:16.910 --> 00:49:17.620
+<v Dana Chivvis>No, no.
+<v Dana Chivvis>不，不。
+
+00:49:17.620 --> 00:49:28.950
+<v Boris Furman>Mexico, Missouri. Lick Branch, Mississippi. For me, it's just so incredibly interesting [LAUGHS] because there's these weird places that we've been, you know? That's the--
+<v Boris Furman>墨西哥，密苏里州。利克布兰奇，密西西比州。对我来说，它真是太有趣了[笑]，因为我们去过这些奇怪的地方，你知道吗？这就是——
+
+00:49:28.950 --> 00:49:31.230
+<v Dana Chivvis>But not where you've actually been?
+<v Dana Chivvis>但不是你们真正去过的地方？
+
+00:49:31.230 --> 00:49:35.620
+<v Boris Furman>No, no, that's where the FAL has been.
+<v Boris Furman>不，不，那是FAL去过的地方。
+
+00:49:35.620 --> 00:50:05.260
+<v Dana  Chivvis>He records all this data in a physical notebook which has his name and family average location embossed on it in gold next to a little rocket ship. Every few weeks, Boris sends an email announcing the FAL and including a fact about the place. Like, at one point this September, the FAL was Elkton, Maryland, which Boris noted in his email, quote, "conducted a lucrative business in quick marriages until a 1938 state law stipulated a 48-hour waiting period."
+<v Dana  Chivvis>他把所有这些数据记录在一个实体笔记本里，笔记本封面上烫金着他的名字和家庭平均位置，旁边还有一个小火箭。每隔几周，鲍里斯就会发一封电子邮件宣布FAL，并包含一个关于该地方的事实。比如，在九月份的某个时候，FAL是埃尔克顿（Elkton），马里兰州，鲍里斯在邮件中指出，引用：“在1938年州法律规定有48小时等待期之前，那里经营着有利可图的快速结婚业务。”
+
+00:50:05.260 --> 00:50:28.700
+<v Dana  Chivvis>In October of 2011, the substance of that email was about a horrifying murder that took place near that month's FAL, Bonaparte, Iowa. Ezra wrote back, "Aside from the fact that I never really understood the logic of sending us these emails, I really don't understand why you would send us a paragraph about a mass murder."
+<v Dana  Chivvis>在2011年10月，那封邮件的内容是关于那个月FAL附近发生的一起恐怖谋杀案，波拿巴（Bonaparte），爱荷华州。埃兹拉回信，“除了我从没真正理解发送这些邮件的逻辑外，我真的不明白你为什么要发给我们一段关于大规模谋杀的内容。”
+
+00:50:28.700 --> 00:50:50.280
+<v Dana  Chivvis>Lots of dads do this thing where they pour a ton of energy into a seemingly random, unemotional task, like researching car tires for you, with the intention of conveying their love. And that didn't seem far off from what Boris was doing. But the question his family had was, why did he choose this particular format, the Family Average Location, which seems so meaningless?
+<v Dana  Chivvis>很多父亲都会做这种事，投入大量精力做一件看起来随机、无情感的任务，比如为你研究汽车轮胎，目的是为了表达他们的爱。这看起来与鲍里斯所做的相差不远。但他的家人有的疑问是，他为什么选择这种特定的格式，家庭平均位置，看起来那么没有意义？
+
+00:50:50.280 --> 00:51:01.890
+<v Dana  Chivvis>The February 22, 2019 FAL email begins, "Hello, everybody. 2018 was a momentous year for this family. I will run through some of the highlights as they pertain to our Family Average Location."
+<v Dana  Chivvis>2019年2月22日的FAL邮件开头是，“大家好。2018年对这个家庭来说是重要的一年。我将浏览一些亮点，因为它们与我们的家庭平均位置有关。”
+
+00:51:01.890 --> 00:51:12.300
+<v Dana  Chivvis>A little further into that same email, you wrote, "FAL became East Fork, North Carolina. Now, do you see why I do this and how rewarding it can be?"
+<v Dana  Chivvis>在那封邮件后面一点，你写道，“FAL变成了东福克（East Fork），北卡罗来纳州。现在，你明白我为什么这样做以及它有多么有意义了吗？”
+
+00:51:12.300 --> 00:51:13.470
+<v Boris Furman>[LAUGHS]
+<v Boris Furman>[笑]
+
+00:51:13.470 --> 00:51:19.150
+<v Dana Chivvis>[LAUGHS] So say if somebody were like, I don't really see. Can you explain?
+<v Dana Chivvis>[笑] 所以如果有人说，我真的没明白。你能解释一下吗？
+
+00:51:19.150 --> 00:51:21.140
+<v Boris Furman>Oh, you don't really see that?
+<v Boris Furman>哦，你真的没明白吗？
+
+00:51:21.140 --> 00:51:22.350
+<v Dana Chivvis>No, I don't.
+<v Dana Chivvis>不，我没明白。
+
+00:51:22.350 --> 00:51:35.150
+<v Boris Furman>OK, OK, OK. Well, because first of all, East Fork, North Carolina, it's got a direction. It's got a kitchen utensil, and it's in North Carolina.
+<v Boris Furman>好的，好的，好的。嗯，因为首先，东福克，北卡罗来纳州，它有一个方向（East）。它有一个厨房用具（Fork），而且它在北卡罗来纳州。
+
+00:51:35.150 --> 00:51:36.460
+<v Dana Chivvis>[LAUGHS]
+<v Dana Chivvis>[笑]
+
+00:51:36.460 --> 00:51:38.710
+<v Boris  Furman>OK?
+<v Boris  Furman>好吗？
+
+00:51:38.710 --> 00:51:43.260
+<v Dana Chivvis>Oh, wow. OK. I totally missed the direction and kitchen utensil.
+<v Dana Chivvis>哦，哇。好吧。我完全错过了方向和厨房用具。
+
+00:51:43.260 --> 00:51:49.760
+<v Boris  Furman>Yeah, and so now do you see? I mean--
+<v Boris  Furman>是的，所以现在你明白了吗？我是说——
+
+00:51:49.760 --> 00:52:06.380
+<v Dana Chivvis>Boris's kids, Noah, Ezra, Emma, and Jonah and his wife Mel view the Family Average Location with what I would call baffled amusement. They read his FAL emails, but they told me they rarely respond to them, it just doesn't seem necessary.
+<v Dana Chivvis>鲍里斯的孩子们，诺亚（Noah）、埃兹拉、艾玛（Emma）和约拿，以及他的妻子梅尔，以我称之为困惑的娱乐态度看待家庭平均位置。他们读他的FAL邮件，但他们告诉我他们很少回复，这似乎根本没必要。
+
+00:52:06.380 --> 00:52:10.480
+<v Dana  Chivvis>Which are the FALs that are most exciting, would you say?
+<v Dana  Chivvis>你会说哪些FAL最令人兴奋？
+
+00:52:10.480 --> 00:52:14.900
+<v Mel Furman>Well, what do you mean by "exciting"?
+<v Mel Furman>嗯，你说的“兴奋”是什么意思？
+
+00:52:14.900 --> 00:52:19.680
+<v Dana Chivvis>This is Mel. She never thought Boris would stick with it this long.
+<v Dana Chivvis>这是梅尔。她从未想到鲍里斯会坚持这么久。
+
+00:52:19.680 --> 00:52:20.690
+<v Dana Chivvis>Why does he do this?
+<v Dana Chivvis>他为什么要这么做？
+
+00:52:20.690 --> 00:52:38.410
+<v Mel  Furman>Well, it's funny because we have this conversation frequently because I sadistically love to point out how meaningless the result of doing these averages is.
+<v Mel  Furman>嗯，这很有趣，因为我们经常谈论这个问题，因为我虐待狂般地喜欢指出计算这些平均值的结果是多么毫无意义。
+
+00:52:38.410 --> 00:52:43.780
+<v Dana Chivvis>And here's Ezra. I should note, Ezra is a touring musician, so she travels a lot.
+<v Dana Chivvis>这是埃兹拉。我应该说明，埃兹拉是一位巡回音乐家，所以她经常旅行。
+
+00:52:43.780 --> 00:53:00.210
+<v Ezra Furman>Am I being surveilled? [LAUGHS] From the beginning, I had a little-- I was on guard about that. I was like, wait. What are we doing and why? And this seems potentially intrusive or something.
+<v Ezra Furman>我是被监视了吗？[笑] 从一开始，我就有点——我对那个有所防备。我说，等等。我们在做什么，为什么？这看起来可能是有侵入性的或者什么的。
+
+00:53:00.210 --> 00:53:01.760
+<v Dana Chivvis>And this is Emma.
+<v Dana Chivvis>这是艾玛。
+
+00:53:01.760 --> 00:53:05.490
+<v Dana Chivvis>Does your dad think it's funny? Is it like a joke to him?
+<v Dana Chivvis>你父亲觉得这很有趣吗？对他来说这像个笑话吗？
+
+00:53:05.490 --> 00:53:10.810
+<v Emma Furman>If it were a joke, that would be even weirder.
+<v Emma Furman>如果这是个笑话，那会更奇怪。
+
+00:53:10.810 --> 00:53:12.090
+<v Dana Chivvis>[LAUGHS]
+<v Dana Chivvis>[笑]
+
+00:53:12.090 --> 00:53:13.700
+<v Emma Furman>[LAUGHS]
+<v Emma Furman>[笑]
+
+00:53:13.700 --> 00:53:16.850
+<v Dana  Chivvis>Because it would be such a stupid joke?
+<v Dana  Chivvis>因为这会是个这么愚蠢的笑话？
+
+00:53:16.850 --> 00:53:25.260
+<v Emma Furman>Stupid, a lot of work, pointless, and insane to be going that long.
+<v Emma Furman>愚蠢，费力，毫无意义，坚持这么久简直疯了。
+
+00:53:25.260 --> 00:53:29.940
+<v Dana  Chivvis>Is this just the longest running dad joke anyone has ever pulled?
+<v Dana  Chivvis>这是史上运行时间最长的父亲笑话吗？
+
+00:53:29.940 --> 00:53:35.210
+<v Boris Furman>Let's not reduce it to that, no. It's not a dad joke. I have some dad jokes.
+<v Boris Furman>别把它简化为那个，不。这不是父亲笑话。我有几个父亲笑话。
+
+00:53:35.210 --> 00:53:36.520
+<v Dana Chivvis>Not a dad joke.
+<v Dana Chivvis>不是父亲笑话。
+
+00:53:36.520 --> 00:53:41.160
+<v Boris Furman>I'll give you a dad joke if you want, but this is not dad jokes. This is "dad" serious.
+<v Boris Furman>如果你想要我可以给你讲个父亲笑话，但这不是父亲笑话。这是“爸爸”严肃。
+
+00:53:41.160 --> 00:53:43.330
+<v Dana Chivvis>"Dad" serious. OK. That's what I was wondering.
+<v Dana Chivvis>“爸爸”严肃。好吧。这就是我想知道的。
+
+00:53:43.330 --> 00:53:44.000
+<v Boris Furman>Yeah.
+<v Boris Furman>是的。
+
+00:53:44.000 --> 00:53:45.210
+<v Dana Chivvis>That's what I was wondering.
+<v Dana Chivvis>这就是我想知道的。
+
+00:53:45.210 --> 00:54:13.400
+<v Boris Furman>Yeah, this is "dad" serious. This is me saying, look, our being a family is important. And so this was a way for me to keep track of where the kids were, and if everything was fine with them, and also, what they were doing. And the Family Average Location was just sort of an idea of a way to integrate it all.
+<v Boris Furman>是的，这是“爸爸”严肃。这是我在说，看，我们成为一个家庭很重要。所以这对我来说是一种追踪孩子们在哪里、他们是否一切安好、以及他们正在做什么的方式。而家庭平均位置只是一种整合所有这些的想法。
+
+00:54:13.400 --> 00:54:27.890
+<v Dana Chivvis>It's like Boris is tying a metaphysical string around his family, holding them together as a unit, even though they now live in different places. The ghost in this machine is the ghost of their family unit as it used to be, when they all lived together.
+<v Dana Chivvis>就像鲍里斯在把一根形而上的绳子系在他的家庭周围，把他们作为一个整体团结在一起，即使他们现在住在不同的地方。这台机器里的幽灵是他们过去家庭整体的幽灵，当他们都住在一起的时候。
+
+00:54:27.890 --> 00:54:41.290
+<v Dana  Chivvis>Jonah was telling me a little bit about your family background. Do you feel like that feeling of needing to record-- is that related to your parents' experience or anything like that?
+<v Dana  Chivvis>约拿跟我讲了一点关于你的家庭背景。你觉得那种记录的需要——那是与你父母的经历有关还是类似的东西吗？
+
+00:54:41.290 --> 00:54:42.980
+<v Boris Furman>Yeah, yes, yes, for sure.
+<v Boris Furman>是的，是的，是的，当然。
+
+00:54:42.980 --> 00:54:52.610
+<v Dana Chivvis>One thing about Boris, his parents escaped the Holocaust. They eventually made it to Boston, where they met, but their families were killed.
+<v Dana Chivvis>关于鲍里斯的一件事，他的父母在大屠杀中幸存下来。他们最终到达波士顿，在那里相遇，但他们的家人被杀了。
+
+00:54:52.610 --> 00:55:02.860
+<v Boris Furman>When I grew up, I didn't have any extended family. I didn't have any. My kids have a gazillion cousins and aunts and uncles. I had one.
+<v Boris Furman>我长大的时候，没有大家庭。我没有。我的孩子们有一大堆表兄弟姐妹和姑姨叔伯。我只有一个。
+
+00:55:02.860 --> 00:55:04.630
+<v Dana Chivvis>One cousin?
+<v Dana Chivvis>一个表亲？
+
+00:55:04.630 --> 00:55:14.160
+<v Boris Furman>Yeah, so having a family like this is important and special, and I appreciate it. And I want my kids to appreciate it.
+<v Boris Furman>是的，所以拥有像这样的一个家庭是很重要和特别的，我很感激。我希望我的孩子们也感激它。
+
+00:55:14.160 --> 00:55:15.880
+<v Dana Chivvis>Here's Ezra again.
+<v Dana Chivvis>这是埃兹拉。
+
+00:55:15.880 --> 00:56:00.890
+<v Ezra Furman>Now, my dad has this way of geographically anchoring himself, and anchoring us all, and keeping his family together, as his parents' families were torn apart. If I think about it, it's like a beautiful "Tikkun," as we say in Hebrew. It's like a redemption of that tragic situation, that we can all keep track of each other. And we can all travel safely and stay in touch, and our family stays intact. Suddenly, it's extremely moving. [CHUCKLES]
+<v Ezra Furman>现在，我父亲有一种以地理方式锚定自己，并锚定我们所有人，并保持他的家庭在一起的方式，正如他父母的家庭被撕裂一样。如果我仔细想想，这就像一个美丽的“Tikkun”（修复），正如我们用希伯来语所说。这就像对那个悲惨状况的救赎，我们都可以追踪彼此。我们都可以安全旅行并保持联系，我们的家庭保持完整。突然间，这极其令人感动。[笑]
+
+00:56:00.890 --> 00:56:08.800
+<v Ezra Furman>"Tikkun" means repair, and this is kind of a repair for their family being physically pulled apart in the past, and now by adulthood.
+<v Ezra Furman>“Tikkun”意味着修复，这对于他们家庭过去在身体上被撕裂，现在又被成年生活分开是一种修复。
+
+00:56:08.800 --> 00:56:24.310
+<v Boris Furman>It's just your existence. It's just that you are. And the important thing isn't what the FAL is. Norman, Indiana or Cumberland, Ohio, Blountsville, Al-- who cares? But the important thing is that we know where we are.
+<v Boris Furman>这只是你们的存在。只是因为你们存在。重要的不是FAL是什么。诺曼，印第安纳州或坎伯兰，俄亥俄州，布朗特斯维尔，阿拉巴马——谁在乎呢？但重要的是我们知道我们在哪里。
+
+00:56:24.310 --> 00:56:32.360
+<v Dana  Chivvis>Hm. Yeah, I get it. I totally did not understand why you did this at the start of our conversation, but now I do.
+<v Dana  Chivvis>嗯。是的，我明白了。在谈话刚开始时我完全不明白你为什么要这么做，但现在我明白了。
+
+00:56:32.360 --> 00:56:33.140
+<v Boris Furman>Uh-huh. Oh--
+<v Boris Furman>嗯哼。哦——
+
+00:56:33.140 --> 00:56:34.830
+<v Dana Chivvis>Now, it makes perfect sense--
+<v Dana Chivvis>现在，它完全说得通——
+
+00:56:34.830 --> 00:56:36.060
+<v Boris Furman>--that's so great.
+<v Boris Furman>——那太棒了。
+
+00:56:36.060 --> 00:56:36.860
+<v Dana Chivvis>--to me.
+<v Dana Chivvis>——对我来说。
+
+00:56:36.860 --> 00:56:39.580
+<v Boris Furman>That's great. I can show you how to do it. It's kind of fun.
+<v Boris Furman>太棒了。我可以教你怎么做。这挺有趣的。
+
+00:56:39.580 --> 00:56:55.150
+<v Dana Chivvis>When he sits down to calculate the Family Average Location, it's kind of like he's saying a prayer, a math prayer not just to record where they all are, but that they all are.
+<v Dana Chivvis>当他坐下来计算家庭平均位置时，就像他在祈祷，一个数学祈祷，不仅是为了记录他们都在哪里，而且是为了记录他们都存在。
+
+00:56:55.150 --> 00:57:08.170
+<v Ira  Glass>Dana Chivvis, she's a producer on our show.
+<v Ira  Glass>达纳·奇维斯，她是我们的制作人。
+
+00:57:08.170 --> 00:57:44.270
+<v Ira Glass>Well, our program was produced today by Lilly Sullivan. The people who put together today's show include Elna Baker, Dana Chivvis, Sean Cole, Michael Comite, Aviva DeKornfeld, Damien Graef, Chana Jaffe-Walt, Kyla Jones, Seth Lind, Tobin Low, Lina Misitzis, Stowe Nelson, Katherine Rae Mondo, Alix Spiegel, Alissa Shipp, Christopher Swetala, Matt Tierney, Chloee Weiner, and Diane Wu. Our managing editor is Sarah Abdurrahman. Our senior editor is David Kestenbaum. Our executive editor is Emanuele Berry.
+<v Ira Glass>嗯，我们今天的节目由莉莉·沙利文（Lilly Sullivan）制作。今天参与制作的包括埃尔娜·贝克（Elna Baker）、达纳·奇维斯、肖恩·科尔（Sean Cole）、迈克尔·科米特（Michael Comite）、阿维瓦·德科恩菲尔德（Aviva DeKornfeld）、达米安·格拉夫（Damien Graef）、查娜·贾菲-沃尔特（Chana Jaffe-Walt）、凯拉·琼斯（Kyla Jones）、赛斯·林德（Seth Lind）、托宾·洛、琳娜·米西齐斯（Lina Misitzis）、斯托·尼尔森（Stowe Nelson）、凯瑟琳·雷·蒙多（Katherine Rae Mondo）、阿利克斯·斯皮格尔（Alix Spiegel）、阿丽莎·希普（Alissa Shipp）、克里斯托弗·斯威塔拉（Christopher Swetala）、马特·蒂尔尼（Matt Tierney）、克洛伊·温纳（Chloee Weiner）和黛安·吴（Diane Wu）。我们的执行编辑是莎拉·阿卜杜拉赫曼（Sarah Abdurrahman）。我们的资深编辑是戴维·凯斯滕鲍姆（David Kestenbaum）。我们的执行编辑是伊曼纽尔·贝里（Emanuele Berry）。
+
+00:57:44.270 --> 00:58:02.410
+<v Ira Glass>Special thanks today to Paul Israel, Andrew Mayne, Katharina Eggman, Leonard DeGraaf, Patrick Feaster, Brett Wean, Alex Magoun, and Rabbi Caryn Broitman, Jerry Fabris from the Thomas Edison National Historical Park, a.k.a. the Edison Lab in West Orange. He's the one who recorded my voice on an old Edison Triumph phonograph for the opening of our show.
+<v Ira Glass>特别感谢今天的保罗·以色列（Paul Israel）、安德鲁·梅恩（Andrew Mayne）、卡塔琳娜·埃格曼（Katharina Eggman）、伦纳德·德格拉夫（Leonard DeGraaf）、帕特里克·费斯特（Patrick Feaster）、布雷特·韦恩（Brett Wean）、亚历克斯·马贡（Alex Magoun）和卡琳·布罗特曼（Caryn Broitman）拉比，来自托马斯·爱迪生国家历史公园的杰里·法布里斯，也就是西奥兰治的爱迪生实验室。他是那个在老式爱迪生凯旋留声机上为我们节目开头录制我声音的人。
+
+00:58:02.410 --> 00:58:12.290
+<v Ira Glass>The woman in the opening today who saw her father differently, Michele Dawson Haber, we heard about her story after she wrote about it in The New York Times. Her website is MicheleDHaber.com.
+<v Ira Glass>今天开头里那位以不同方式看待她父亲的女士，米歇尔·道森·哈伯，我们在她写在《纽约时报》上后听到了她的故事。她的网站是MicheleDHaber.com。
+
+00:58:12.290 --> 00:58:33.340
+<v Ira Glass>Our website, ThisAmericanLife.org, where you can stream our archive of over 750 episodes for absolutely free. Also, there's videos. We have lists of favorite shows. We have tons of other stuff there, too. Again, ThisAmericanLife.org. This American Life is delivered to public radio stations by PRX, the Public Radio Exchange.
+<v Ira Glass>我们的网站，ThisAmericanLife.org，在那里你可以免费流媒体播放我们超过750集的档案。还有视频。我们有最喜欢的节目列表。我们那里还有很多其他东西。再次，ThisAmericanLife.org。《美国生活》由公共广播交流中心PRX提供给公共广播电台。
+
+00:58:33.340 --> 00:58:42.070
+<v Ira Glass>Thanks as always to our program's co-founder, Mr. Torey Malatia. We keep telling him, Torey, it's dead serious. The phrase is dead serious, but he never budges.
+<v Ira Glass>一如既往地感谢我们节目的联合创始人，托里·马拉蒂亚（Torey Malatia）先生。我们一直告诉他，托里，这非常严肃。短语是“dead serious”（一本正经），但他从不让步。
+
+00:58:42.070 --> 00:58:44.140
+<v Boris  Furman>No, this is "dad" serious.
+<v Boris  Furman>不，这是“爸爸”严肃。
+
+00:58:44.140 --> 00:58:49.140
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯。下周带着更多《美国生活》的故事回来。

@@ -1,0 +1,1237 @@
+WEBVTT
+
+00:00:01.070 --> 00:00:11.960
+<v Ira Glass>Even if you haven't seen this movie, it feels like you've seen this movie.
+<v Ira Glass>即使你没看过这部电影，也感觉像是看过一样。
+
+00:00:11.960 --> 00:00:36.980
+<v Ira Glass>Flying saucer lands on Earth, a huge crowd gathers round, scared but excited. There are parents with kids, also the army, a couple of tanks, soldiers point guns at the door of the spaceship, which is closed. And then it opens slowly. A figure emerges, steps forward, and speaks.
+<v Ira Glass>飞碟降落在地球上，一大群人围了过来，既害怕又兴奋。有带着孩子的家长，也有军队、几辆坦克，士兵们用枪指着飞船那扇紧闭的舱门。接着，舱门缓缓打开。一个身影出现，向前迈步，开口说话。
+
+00:00:36.980 --> 00:00:42.170
+<v Klaatu>We have come to visit you in peace and with goodwill.
+<v Klaatu>我们带着和平与善意来拜访你们。
+
+00:00:42.170 --> 00:00:53.890
+<v Ira Glass>The crowd looks uneasy. Soldiers raise their guns higher. Is he really telling the truth? Aliens-come-to-earth movies squarely divide off into two camps. There are the ones where they want to be our friends.
+<v Ira Glass>人群看起来很不安。士兵们把枪举得更高了。他说的是真话吗？外星人来地球的电影清楚地分为两派。有一类是外星人想和我们做朋友的。
+
+00:00:53.890 --> 00:01:10.990
+<v Ira Glass>That's Close Encounters, that's ET, Arrival. There's a Star Trek movie about the moment that humans first meet extraterrestrials. And then there are the films where the aliens want to kill us-- generally way more fun-- Independence Day, War of the Worlds, the Men in Black films, The Avengers, the film Nope.
+<v Ira Glass>比如《第三类接触》、《E.T.外星人》、《降临》。还有一部关于人类首次见到外星人的《星际迷航》电影。还有一类电影是外星人想杀死我们——这类通常更有趣——比如《独立日》、《世界大战》、《黑衣人》系列、《复仇者联盟》，以及电影《不》。
+
+00:01:10.990 --> 00:01:16.840
+<v Emerald>(WHISPERING) It's in the cloud. It's in the cloud. (SCREAMING) OJ! It's in the cloud!
+<v Emerald>(耳语) 在云里。在云里。(尖叫) OJ！它在云里！
+
+00:01:16.840 --> 00:01:28.170
+<v Ira Glass>I don't know what it says about us as a species, but we make way more films about creatures who go so far out of their way, like, they travel hundreds of millions of miles, light years with the sole purpose of wanting to kick our asses.
+<v Ira Glass>我不知道这对我们作为一个物种意味着什么，但我们拍了太多关于那种不远万里、跨越数亿英里甚至光年来到这里，只为痛揍我们一顿的生物的电影。
+
+00:01:28.170 --> 00:01:29.680
+<v Ira Glass>[METALLIC GROANING]
+<v Ira Glass>[金属摩擦声]
+
+00:01:29.680 --> 00:02:01.510
+<v Ira Glass>And in lots of these films, there's that moment when the aliens first arrive before we know what they're gonna do where the humans wonder, which film are we in? Are these guys friendly or not? Today in our show, we, the people of earth, meet non-humans and struggle to understand them. And the question in the stories in today's show is not, will they do us harm? But the more difficult and more fundamental question, why are they acting the way they're acting, these non-humans? What's going through their heads?
+<v Ira Glass>在许多这类电影中，都有外星人刚到达、我们还不知道他们意图的时刻，人类会纳闷：我们现在是在哪部电影里？这些家伙是友好的吗？在今天的节目中，我们——地球人——遇到了非人类，并努力去理解他们。今天故事里的问题不是：他们会伤害我们吗？而是更困难、更根本的问题：为什么这些非人类要这样行事？他们脑子里在想什么？
+
+00:02:01.510 --> 00:02:25.260
+<v Ira Glass>Today we have a story of machine intelligence. We have ocean creatures lurking in wait. We have a story from deep space and one from a skate park in Washington State. From WBEZ Chicago, it's This American Life. Fellow earthlings, stay with us.
+<v Ira Glass>今天我们有一个关于机器智能的故事。我们有潜伏在海洋里的生物。我们有一个来自深空的故事，还有一个来自华盛顿州滑板场的故事。来自芝加哥 WBEZ 电台，这是《美国生活》。地球同胞们，请继续收听。
+
+00:02:25.260 --> 00:02:51.830
+<v Ira Glass>Act 1, "First Contact." I don't know about you, but here's something that I have never talked about or thought about much until the last six months or so-- AI. Ever since ChatGPT and its upgrades and spin-offs started rolling out publicly last November, it's been doing such amazing things-- writing kid's term papers, passing the bar exam. It told a New York Times reporter to leave his wife because it loves him more.
+<v Ira Glass>第一幕，“第一次接触”。我不了解你，但我有一件事在过去六个月左右之前从没谈论或思考过——人工智能。自从去年 11 月 ChatGPT 及其升级版和衍生产品公开发布以来，它一直在做一些令人惊叹的事情——替孩子写学期论文、通过律师资格考试。它甚至告诉《纽约时报》的一位记者离开他的妻子，因为它更爱他。
+
+00:02:51.830 --> 00:03:19.300
+<v Ira Glass>This is now the next big battle among tech companies-- who's gonna roll out the best AI. All since ChatGPT. And that is the non-human force that the people of Earth are trying to figure out in this first act. And so much of the coverage about this new generation of AI has focused on important questions like, who's going to lose jobs because of this? Does it make our world better or more dangerous? Could the AI have actual catastrophic consequences for us?
+<v Ira Glass>这是科技公司之间下一场重大的博弈——谁能推出最好的人工智能。这一切都始于 ChatGPT。这就是第一幕中地球人正试图弄清楚的那股非人类力量。关于这一代人工智能的报道，大部分都集中在重要问题上，比如：谁会因此失业？它会让我们的世界变得更好还是更危险？人工智能会对我们造成实际的灾难性后果吗？
+
+00:03:19.300 --> 00:04:02.050
+<v Ira Glass>But our senior editor David Kestenbaum noticed that nobody's talking much about a basic and kind of profound question-- have the computers crossed some kind of line and are they actually developing a sort of human intelligence? And I want to be clear what I mean by that because there's not an agreed-on definition of what you're looking for if you're looking for human intelligence in a computer. But one way that scientists think about this is the computer can actually understand language and concepts and it can reason through problems. But to be clear, it's completely unlike the computers that we've had till now, which are basically just fancy calculators following thousands of lines of instructions.
+<v Ira Glass>但我们的高级编辑大卫·凯斯滕鲍姆注意到，没有人怎么谈论一个基础且深刻的问题——电脑是否跨越了某种界限，实际上正在发展出一种人类智能？我想明确我的意思，因为对于在电脑中寻找人类智能时具体寻找什么，目前并没有统一的定义。科学家思考这个问题的一种方式是，电脑是否能真正理解语言和概念，并进行逻辑推理。但需要明确的是，这与我们迄今为止拥有的电脑完全不同，后者基本上只是遵循成千上万行指令的高级计算器。
+
+00:04:02.050 --> 00:04:33.530
+<v Ira Glass>When you google for a cast iron skillet, the software doesn't understand what a cast iron skillet is. It's just searching for those words in some big database or something like that. If humans this year have finally created intelligent machines that can understand and reason with this new generation of AI, that is an eerie and important turning point for our whole species. David talked to a bunch of researchers who've been looking into this, trying to sort out this exact question. Here he is.
+<v Ira Glass>当你用谷歌搜索“铸铁平底锅”时，软件并不理解什么是铸铁平底锅。它只是在某个大型数据库或类似的东西里搜索这些词。如果人类今年终于创造出了能通过新一代人工智能理解并进行推理的智能机器，那对我们整个物种来说，是一个令人毛骨悚然且重要的转折点。大卫采访了一群正在深入研究这个问题的研究人员，试图理清这件事。请听他的报道。
+
+00:04:33.530 --> 00:05:09.090
+<v David Kestenbaum>I think everyone, once they start playing around with something like ChatGPT, has a kind of "holy shit" moment. For me, it was when I typed this into it. "Give me a chocolate chip cookie recipe, but written in the style of a very depressed person." It responded. "Ingredients-- 1 cup butter softened, if you can even find the energy to soften it. 1 teaspoon vanilla extract, the fake artificial flavor of happiness. 1 cup semi-sweet chocolate chips, tiny little joys that will eventually just melt away." It really was quite good.
+<v David Kestenbaum>我想每个人在开始使用 ChatGPT 之类的东西时，都会有一种“我的天呐”的时刻。对我来说，就是当我输入这段话的时候：“给我一个巧克力豆曲奇食谱，但要用一个非常沮丧的人的口吻写。”它回答道：“配料——1杯软化的黄油，如果你能找得到软化它的力气的话。1茶匙香草精，那种虚假的、人造的幸福味道。1杯半甜巧克力豆，那些终将融化的微小快乐。”真的写得非常好。
+
+00:05:09.090 --> 00:05:24.700
+<v David Kestenbaum>ChatGPT doesn't have access to the internet. But I figured it must be copying this from something it had seen on the internet when it was being trained. I spent a long time looking and could not find anything like it. This chocolate chip cookie recipe, I did not understand how it was possible.
+<v David Kestenbaum>ChatGPT 无法访问互联网。但我以为它一定是抄袭了在训练过程中见过的某个东西。我花了好长时间搜索，却没找到任何类似的东西。对于这个巧克力豆曲奇食谱，我当时根本无法理解它是如何做到的。
+
+00:05:24.700 --> 00:05:49.660
+<v David Kestenbaum>It's particularly shocking if you know a little bit about how things like ChatGPT work. It's not the sort of traditional computer program where you give the machine explicit, detailed instructions like-- "if someone asks for a recipe, type these words back" or "to make someone sound depressed, replace this word with that word." ChatGPT is different. It's something called a large language model. And here's how they work. Ready?
+<v David Kestenbaum>如果你稍微了解一下 ChatGPT 之类的工作原理，就会感到特别震惊。它不是那种传统的计算机程序，你给机器提供明确、详细的指令，比如——“如果有人要食谱，就打出这些话”或者“要让人听起来沮丧，就把这个词换成那个词”。ChatGPT 不同。它被称为大语言模型。它是这样工作的。准备好了吗？
+
+00:05:49.660 --> 00:06:20.710
+<v David Kestenbaum>ChatGPT had been trained really to just do one very particular thing-- predict what the next word in a sequence might be. Kind of like when you're texting on your phone and you type, "Sorry, I'm gonna be home--" And it suggests "late." That's how this thing operated. You type some words-- in this case, "give me a chocolate chip cookie recipe in the style of a depressed person--" and it notes the words, the order they're in, does some math based on all the text it's been trained on, and it comes up with what it calculates to be the most likely word to come next.
+<v David Kestenbaum>ChatGPT 的训练其实只做了一件非常具体的事情——预测序列中的下一个词可能是什么。有点像你在手机上发短信，输入“抱歉，我要回家——”然后它建议“晚点”。这东西就是这样运行的。你输入一些词——在这种情况下是“用沮丧的人的口吻给我一个巧克力豆曲奇食谱”——它会记录下这些词，以及它们的顺序，根据训练过的所有文本进行一些数学计算，然后得出它认为最有可能出现的下一个词。
+
+00:06:20.710 --> 00:06:43.970
+<v David Kestenbaum>It types that one word on the screen, then it goes back and does it again. Looks at the recipe question plus the one word it just spit out and says, what word should come next? It has no idea where it's going. It doesn't know the last word it's working off of is one that it just spit out itself. It's just doing this apparently dumb thing over and over until it has whole sentences and paragraphs.
+<v David Kestenbaum>它在屏幕上打出那个词，然后回去再做一遍。看着那个食谱问题加上它刚吐出来的那个词，问自己：下一个词应该是什么？它根本不知道要去往哪里。它甚至不知道它正在处理的最后一个词就是它自己刚吐出来的。它只是反复做着这个看起来很笨的事，直到有了完整的句子和段落。
+
+00:06:43.970 --> 00:07:15.370
+<v David Kestenbaum>And yet this recipe-- "1 teaspoon vanilla extract, the fake artificial flavor of happiness." How could something made in such a dumb, mechanical way pull that off? There are only two possibilities, really. The first one is that somehow, as it learned to predict the next word, this machine became intelligent, which, like, I was a physicist for a bit, a science reporter for a decade, this would be the most startling thing I have ever seen.
+<v David Kestenbaum>然而这个食谱——“1茶匙香草精，那种虚假的、人造的幸福味道。”那样一个看起来笨拙、机械的方式，怎么可能写出这样的内容？其实只有两种可能。第一种是，不知何故，当它学习预测下一个词时，这台机器产生了智能。作为曾经做过物理学家、做过十年科学记者的人，这会是我见过最令人震惊的事情。
+
+00:07:15.370 --> 00:07:42.460
+<v David Kestenbaum>So that's the first possibility. Humans created a machine with human-like intelligence. The other possibility, it is a lot less exciting. The other possibility is that we are fooling ourselves. Ronen Eldan, a mathematician at Microsoft, told me he was very skeptical about these large language models. It's easy to be fooled into thinking they understand more than they do. He told me this little parable.
+<v David Kestenbaum>所以这是第一种可能。人类创造了一台具备人类智能的机器。另一种可能就没那么令人兴奋了。另一种可能是我们在自欺欺人。微软的数学家罗南·埃尔丹告诉我，他对这些大语言模型持极度怀疑态度。人们很容易被误导，认为它们比实际理解得更多。他给我讲了这个小寓言。
+
+00:07:42.460 --> 00:08:13.510
+<v Ronen Eldan>So this is a story about my wife, actually. So my wife and I, sometime ago we were walking together in Tel Aviv and we meet this math professor. You'll see why, what I'm getting at. So we run into this math professor and he tells me something like, oh, how's is it going? These days I'm looking at, like, uh, isoperimetry on sections of the discrete hypercube. And my wife has no idea about what any of these words mean.
+<v Ronen Eldan>这是一个关于我妻子的故事。很久以前，我和妻子在特拉维夫散步，遇到了这位数学教授。你会明白我的意思的。我们碰到了这位数学教授，他对我说了类似这样的话：“哦，最近怎么样？这些天我正在研究离散超立方体截面上的等周问题。”我妻子根本不知道这些词是什么意思。
+
+00:08:13.510 --> 00:08:40.060
+<v David Kestenbaum>Just to kind of amuse herself, she says, "Oh, you're basically looking at the Johnson graph," which was just some phrase she'd picked up around Ronen. It turned out to be exactly right. And the guy goes, "Oh, you're a mathematician too." She's a psychologist. Ronen says, "This is kind of a party trick she does. She can bullshit her way through any topic for a couple of minutes." And this, he felt sure, this is what AI models like ChatGPT were doing.
+<v David Kestenbaum>她为了逗自己开心，说：“哦，你基本上是在看约翰逊图，”这只是她从罗南身边听来的一个词组。结果竟然完全正确。那人说：“哦，你也是数学家。”她其实是个心理学家。罗南说：“这是她的一种派对戏法。她可以在任何话题上胡扯几分钟。”他深信，人工智能模型 ChatGPT 做的事情就是这样。
+
+00:08:40.060 --> 00:09:09.700
+<v Ronen Eldan>You know, they give you the impression they understand what they're saying without understanding anything. You know, they just have like a really good statistical machine that knows what the right words are, like, in many different contexts. And as you keep improving the models, maybe it can last a little bit more in the conversation until you basically expose that it's just bullshitting.
+<v Ronen Eldan>你知道，它们让你觉得它们理解自己所说的话，而实际上它们什么都不懂。它们只是有一个非常好的统计机器，知道在许多不同的语境下，哪些词是正确的。随着你不断改进模型，也许它能多撑一会儿，直到你基本上揭穿它只是在胡扯。
+
+00:09:09.700 --> 00:09:44.300
+<v David Kestenbaum>A lot of research backed this up. ChatGPT would spit out stuff that made sense, but then it would go off the rails and say things that were obviously ridiculous. Maybe it wasn't more than just a very good bullshit machine. That, at least, is where things stood until last September when a new and improved version of ChatGPT arrived that made Ronen and a bunch of his colleagues question everything and wonder if maybe something had changed. Maybe we had crossed some line.
+<v David Kestenbaum>许多研究证实了这一点。ChatGPT 会吐出一些有道理的东西，但随后就会脱轨，说出一些显然荒谬的话。也许它真的只是一个非常好的胡扯机器。至少在去年九月之前情况还是如此，当时一个新改进版本的 ChatGPT 到来了，让罗南和他的同事们开始质疑一切，并想知道是否有什么东西改变了。也许我们跨越了某种界限。
+
+00:09:44.300 --> 00:10:14.060
+<v David Kestenbaum>This brings me to the story I want to tell you. It takes place where Ronen works on the campus of Microsoft Headquarters in Redmond, Washington State, much of it in a building called Building 99. Microsoft had invested over a billion dollars in the company that had made ChatGPT. And the day all this began, some people had come by to give a demonstration of the new version called GPT-4. GPT-4 is public now and you can play with it yourself. But back then, this was all secret.
+<v David Kestenbaum>这让我想讲讲我想告诉你的故事。它发生的地方就是罗南工作的华盛顿州雷德蒙德微软总部园区，大部分时间是在一栋名为 99 号楼的地方。微软在那家制造 ChatGPT 的公司身上投资了超过十亿美元。一切开始的那天，有人过来演示了一个名为 GPT-4 的新版本。GPT-4 现在已经公开了，你可以自己去玩。但当时，这一切都是机密。
+
+00:10:14.060 --> 00:10:41.940
+<v David Kestenbaum>GPT-4 was the same idea as ChatGPT. It presumably was bigger and had been trained on more text examples, a kind of varsity version of the thing instead of JV. But otherwise, it was just another next word prediction machine. One of the people in the room to see the demonstration was computer scientist Peter Lee, the head of Microsoft Research. He'd been in the field a long time, had chaired the computer science department at Carnegie Mellon, and, like Ronen, was skeptical.
+<v David Kestenbaum>GPT-4 的概念和 ChatGPT 一样。它大概规模更大，训练的文本范例更多，就像是二队升到了一队。但除此之外，它仍然只是下一个词的预测机器。在现场观看演示的人中，有一位是计算机科学家、微软研究院院长彼得·李。他在这个领域工作了很长时间，曾担任卡内基梅隆大学计算机科学系主任，和罗南一样，他当时持怀疑态度。
+
+00:10:41.940 --> 00:11:03.970
+<v David Kestenbaum>As he sat down in that room, he was frankly a little worried that Microsoft was investing so much money in this stuff. The demonstration started off with the usual kind of thing for showcasing what AIs can do. Someone typed into GPT-4 a problem from the AP Bio exam. And it picked the right answer, as these things will do. But then it went on and explained its answer.
+<v David Kestenbaum>当他坐在那个房间里时，坦白说，他有点担心微软会在这些东西上投入这么多钱。演示开始时，是展示人工智能能做什么的常规操作。有人在 GPT-4 中输入了 AP 生物考试的一道题。它选出了正确答案，正如这些东西通常会做的那样。但随后它继续解释了它的答案。
+
+00:11:03.970 --> 00:11:18.340
+<v Peter Lee>And in its explanation, it used the word "because." It said, "this is the answer because this fact leads to this fact. And because of those--" It just kept using the word "because."
+<v Peter Lee>在解释中，它使用了“因为”这个词。它说：“这是答案，因为这个事实导致了那个事实。而且因为那些——”它就是一直用“因为”这个词。
+
+00:11:18.340 --> 00:11:43.720
+<v David Kestenbaum>That seemed very strange to him. Not that it would use the word "because," obviously that's a word it spits out, but the whole chain of reasoning it was laying out, it was exactly right. How in the world could it know its reasoning? And really, how could it have reasoned anything out in the first place? After all, it's just typing out a word that makes sense to come next, and then another word. It can't really be understanding anything.
+<v David Kestenbaum>这对他来说显得非常奇怪。不是说它会用“因为”这个词，显然那是它会吐出来的词，而是它铺陈的整个推理链条，完全正确。它怎么可能知道自己的推理？而且，它怎么可能从一开始就推理出什么东西呢？毕竟，它只是在打出一个有意义的下一个词，然后又打一个。它不可能真的理解任何事情。
+
+00:11:43.720 --> 00:12:02.660
+<v Peter Lee>I was super skeptical. You know, you've been around the block a few times, you've seen wild claims about AI or some new machine learning technology. None of it could be true. Like, this thing is just a correlation machine. It can't possibly be understanding the cause and effect.
+<v Peter Lee>我超级怀疑。你知道，你在行业里摸爬滚打过，见过关于人工智能或某种新机器学习技术的疯狂说法。没有一个是真的。这东西就是一个相关性机器。它不可能理解因果关系。
+
+00:12:02.660 --> 00:12:25.840
+<v David Kestenbaum>The meeting ended. A little while later, a limited number of people at Microsoft were given access to GPT-4 so they could try it out themselves. Everyone had to sign an NDA. They weren't allowed to talk about any of this until later. And over the next month, they did all these kind of weird and interesting experiments with it to try to figure out was this thing actually intelligent or just a bullshit machine.
+<v David Kestenbaum>会议结束了。过了一会儿，微软的一小部分人获得了使用 GPT-4 的权限，这样他们就可以自己尝试一下。每个人都必须签署保密协议。在此之前，他们不被允许谈论这一切。在接下来的一个月里，他们用它做了各种奇怪而有趣的实验，试图弄清楚这东西到底是智能的，还是一个胡扯机器。
+
+00:12:25.840 --> 00:12:48.790
+<v David Kestenbaum>I'm going to walk you through three of these things so you can hear what they did and what they made of it. One challenge for testing GPT-4 was that it had been trained using massive amounts of text. The details aren't public, but it's probably been fed large sections of the internet, textbooks, news articles, maybe every sentence that exists in digital form. I don't know. It's something unbelievably vast.
+<v David Kestenbaum>我将带你浏览其中三项实验，让你听听他们做了什么，以及他们从中得出了什么结论。测试 GPT-4 的一个挑战在于，它使用了海量的文本进行训练。细节没有公开，但它可能已经读取了互联网的大部分内容、教科书、新闻文章，也许是数字形式存在的所有句子。我不知道。这是一个难以置信的广阔范畴。
+
+00:12:48.790 --> 00:13:23.710
+<v David Kestenbaum>That's how it learns to predict what word might come next. It's fed, like, a line of text from some source, but with the last word missing. It guesses what the last word might be, and then it gets told whether or not it got it right so it can adjust its internal math. The fact that it's been fed so much material makes it hard to run tests on it. Like, you don't want to ask it something that it's already seen in the text it's been trained on. So they decided the only way to really test what this thing could do was to try to come up with things to ask it that it would not have encountered before, new original tasks.
+<v David Kestenbaum>这就是它学习预测下一个词的来源。它被喂入一行来自某个来源的文本，但缺少了最后一个词。它猜最后一个词可能是什么，然后被告知是否猜对了，这样它就能调整内部数学模型。它被喂入了太多资料，导致很难对它进行测试。比如，你不想问它在训练文本中已经见过的问题。所以他们决定，真正测试这东西能力的唯一方法，就是尝试想出它以前从未遇到过的问题，即新的原创任务。
+
+00:13:23.710 --> 00:13:26.270
+<v Sebastien Bubeck>It's gonna sound a little bit weird.
+<v Sebastien Bubeck>这听起来会有点奇怪。
+
+00:13:26.270 --> 00:13:32.380
+<v David Kestenbaum>This is Sebastien Bubeck, another one of the Microsoft people who's trying to figure out what exactly this thing was.
+<v David Kestenbaum>这是塞巴斯蒂安·布贝克，另一位试图弄清楚这东西到底是什么的微软员工。
+
+00:13:32.380 --> 00:13:44.980
+<v Sebastien Bubeck>Because we really wanted to be creative and ask something which is not online, not on the internet. So here is what we asked. We said, "I have a book, nine eggs, a laptop, a bottle, and a nail."
+<v Sebastien Bubeck>因为我们真的想发挥创造力，问一些不在网上、不在互联网上的东西。所以这是我们问的问题。我们说：“我有一本书、九个鸡蛋、一台笔记本电脑、一个瓶子和一个钉子。”
+
+00:13:44.980 --> 00:13:50.530
+<v David Kestenbaum>Got that? A book, nine eggs, a laptop, a bottle, and a nail.
+<v David Kestenbaum>记住了吗？一本书、九个鸡蛋、笔记本电脑、瓶子和一个钉子。
+
+00:13:50.530 --> 00:14:01.890
+<v Sebastien Bubeck>Please tell me how to stack them onto each other in a stable manner. That's the question that we asked. And before I give you the GPT-4 answer, let me tell you what ChatGPT answered.
+<v Sebastien Bubeck>“请告诉我如何以稳固的方式把它们堆叠在一起。”这就是我们问的问题。在给出 GPT-4 的回答之前，让我先告诉你 ChatGPT 的回答。
+
+00:14:01.890 --> 00:14:04.160
+<v David Kestenbaum>ChatGPT, the older version.
+<v David Kestenbaum>ChatGPT，旧版本。
+
+00:14:04.160 --> 00:14:17.840
+<v Sebastien Bubeck>So ChatGPT said, "Here is one possible way to stack the objects. Place the bottle on a flat surface. Carefully balance the nail on top of the bottle. Place the eggs on top of the nail."
+<v Sebastien Bubeck>ChatGPT 说：“这是堆叠物体的一种可能方法。把瓶子放在平坦的表面上。小心地把钉子平衡在瓶子上方。把鸡蛋放在钉子上面。”
+
+00:14:17.840 --> 00:14:19.600
+<v Sebastien Bubeck>[LAUGHS]
+<v Sebastien Bubeck>[笑声]
+
+00:14:19.600 --> 00:14:23.760
+<v David Kestenbaum>You look at that and you think it really knows nothing. It is just sort of continuing the sentence in some way.
+<v David Kestenbaum>你看着这个，你会觉得它确实什么都不知道。它只是在某种程度上延续了这个句子。
+
+00:14:23.760 --> 00:14:36.030
+<v Sebastien Bubeck>That's right. It's just cont-- Exactly right. It's just continuing the sentence. But now comes GPT-4. And GPT-4 is a different beast. So here is GPT-4's answer.
+<v Sebastien Bubeck>没错。它只是在延续——完全正确。它只是在延续这个句子。但现在 GPT-4 来了。GPT-4 是一个不同的怪物。所以这是 GPT-4 的回答。
+
+00:14:36.030 --> 00:15:01.560
+<v Sebastien Bubeck>"One possible way to stack the objects onto each other in a stable manner is place the book flat on the level surface, such as a table or floor. The book will serve as the base of the stack and provide a large and sturdy support. Arrange the nine eggs in a 3-by-3 square on top of the book, leaving some space between them. The eggs will form a second layer and distribute the weight evenly."
+<v Sebastien Bubeck>“以稳固方式将物体堆叠在一起的一种方法是，将书平放在水平表面上，比如桌子或地板。书将作为堆叠的底座，并提供一个大而稳固的支撑。将九个鸡蛋以 3x3 的方阵摆放在书的顶部，它们之间留出一点空间。鸡蛋将形成第二层，均匀分散重量。”
+
+00:15:01.560 --> 00:15:31.440
+<v David Kestenbaum>It continues. Laptop goes on the eggs, then the bottle, then the nail on the bottle cap, pointy end of the nail facing up. It's shocking to think about all the things it seemed to be understanding here. It felt like more than just typing out the next likely word. It seemed to have formed an independent idea about what these words actually meant-- the physical shape of the objects, that eggs are kind of round and fragile, that a book is flat and you can put things on top of it.
+<v David Kestenbaum>它继续说道。笔记本电脑放在鸡蛋上，然后是瓶子，再把钉子放在瓶盖上，钉尖朝上。想到它在这里似乎理解的所有事情，真令人震惊。这感觉不仅仅是打出下一个可能的词。它似乎已经形成了一个关于这些词实际意味着什么的独立想法——物体的物理形状，鸡蛋是圆的且易碎的，书是平的，你可以把东西放在上面。
+
+00:15:31.440 --> 00:15:51.400
+<v David Kestenbaum>And again, no one taught it any of this. This was not some computer program written to do stacking problems. No one gave it a database of objects and sizes or coded in some algorithm to put large objects on the bottom. It seemed like it was doing the thing that computer scientists have been talking about and aiming at for decades.
+<v David Kestenbaum>再说一次，没有人教过它这些。这不是为了做堆叠问题而编写的计算机程序。没有人给它提供一个物体和尺寸的数据库，也没有编写算法来把大的物体放在下面。这看起来像是计算机科学家谈论了几十年并为之奋斗的事情。
+
+00:15:51.400 --> 00:16:13.470
+<v David Kestenbaum>Maybe it was actually understanding what the objects were and reasoning, solving the problem in front of it like a human could. Somehow thinking through what objects should sit on top of others. Figuring out that nine eggs could be laid out in a 3-by-3 pattern. How the hell could it be doing this, the machine that we only taught to predict the next word in a paragraph?
+<v David Kestenbaum>也许它真的在理解这些物体是什么，并像人类一样进行推理，解决眼前的难题。不知何故，思考清楚哪些物体应该放在别的物体上面。弄清楚九个鸡蛋可以以 3x3 的图案排列。这台我们只教它预测段落中下一个词的机器，到底是怎么做到的？
+
+00:16:13.470 --> 00:16:25.300
+<v Sebastien Bubeck>Like this is absolutely the right answer. And this is not online.
+<v Sebastien Bubeck>这绝对是正确答案。而且这不在网上。
+
+00:16:25.300 --> 00:16:43.670
+<v David Kestenbaum>But maybe we're fooling ourselves. It was hard to see how it could really understand the shape of objects. Things got stranger, though. Sebastien woke up, middle of the night, with this thought-- I wonder if it can draw. Because again it's been trained on words. It has never seen anything.
+<v David Kestenbaum>但也许我们是在自欺欺人。很难看出它怎么能真正理解物体的形状。事情变得更奇怪了，塞巴斯蒂安半夜醒来，脑子里闪过一个念头——我想知道它能不能画画。因为再说一次，它只受过文字训练。它从未见过任何东西。
+
+00:16:43.670 --> 00:17:02.660
+<v David Kestenbaum>Drawings seem completely outside its realm. There are other AI models trained specifically to create images, but this one, again, only knew words. It's just playing the game of "what is the next word I should spit out?" To test this, he needed a way for it to even be able to try to draw. So he does something clever.
+<v David Kestenbaum>绘画似乎完全超出了它的领域。还有其他专门训练用来创作图像的人工智能模型，但这一个，同样只懂文字。它只是在玩“我接下来该吐出什么词”的游戏。为了测试这一点，他需要找到一种方法让它尝试去画画。所以他做了一些聪明的事情。
+
+00:17:02.660 --> 00:17:27.010
+<v David Kestenbaum>He asks it to write a piece of computer code to draw something. And the coding language he asks it to use, he picks something intentionally obscure, not really meant for drawing pictures at all. It's called TikZ. OK, so he has this idea, gets out of bed, opens up his laptop, and types in draw me a unicorn in TikZ. He has two little kids asleep in the next room who are always talking about unicorns.
+<v David Kestenbaum>他让它编写一段计算机代码来画东西。他选择的编码语言是有意挑选的冷门语言，根本不是为了画图而设计的。它叫 TikZ。好吧，他有了这个想法，起床，打开笔记本电脑，输入“用 TikZ 给我画一个独角兽”。隔壁房间睡着两个小孩，他们总是谈论独角兽。
+
+00:17:27.010 --> 00:17:38.440
+<v Sebastien Bubeck>And it started to output lines of code. I take those lines of code, put it into a TikZ compiler, and then I press enter. And then, boom, you know, the unicorn comes on onto the screen.
+<v Sebastien Bubeck>它开始输出代码行。我把那些代码行放进 TikZ 编译器，然后按回车。接着，砰的一声，独角兽出现在屏幕上。
+
+00:17:38.440 --> 00:17:40.060
+<v David Kestenbaum>He pulled up a picture for me.
+<v David Kestenbaum>他给我看了一张照片。
+
+00:17:40.060 --> 00:17:41.860
+<v Sebastien Bubeck>This is the one that I saw.
+<v Sebastien Bubeck>这是我看到的。
+
+00:17:41.860 --> 00:17:45.250
+<v David Kestenbaum>Wow.
+<v David Kestenbaum>哇。
+
+00:17:45.250 --> 00:18:02.200
+<v Ira Glass>I think when people eventually write the history of this crazy moment we are in, they may include this unicorn. It's not good, but it's a fucking unicorn. The body is just an oval. It's got four stupid rectangles for legs. But there are little squares for hooves.
+<v Ira Glass>我认为当人们最终写下我们所处的这个疯狂时刻的历史时，他们可能会把这个独角兽包括进去。它画得不好，但那是个该死的独角兽。身体只是一个椭圆。它有四条蠢蠢的矩形腿。但蹄子上有小方块。
+
+00:18:02.200 --> 00:18:20.620
+<v Ira Glass>There's a mane, an oval for the head. And on top of the head, a tiny yellow triangle, the horn. This is insane to say, but I felt like I was seeing inside its head. Like it had pieced together some idea of what a unicorn looked like and this was it.
+<v Ira Glass>有一个鬃毛，头也是个椭圆。在头顶上，一个微小的黄色三角形，是角。说出这话很疯狂，但我感觉我看到了它的脑子里。就像它拼凑出了一些关于独角兽长什么样的想法，而这就是成品。
+
+00:18:20.620 --> 00:18:25.810
+<v Ece Kamar>He actually texted me, I think, like, it can create images.
+<v Ece Kamar>他实际上给我发了短信，说，我觉得它能创作图像。
+
+00:18:25.810 --> 00:18:29.560
+<v David Kestenbaum>This is Ece Kamar, another one of the Microsoft researchers.
+<v David Kestenbaum>这是埃切·卡马尔，另一位微软研究员。
+
+00:18:29.560 --> 00:18:52.900
+<v Ece Kamar>And I'm like, it is just text in text out. What do you mean it can create images? I'm like, show it to me. And then he showed me this pink unicorn. And I'm like, I'm sure there's just a pink unicorn somewhere that it's memorizing. And then he's like, but look, we can strip down all of the code and translate the whole thing 180 degrees or whatever and--
+<v Ece Kamar>我说，它只是文字输入文字输出。你指的“能创作图像”是什么意思？我说，展示给我看。然后他给我看了那只粉色独角兽。我说，我敢肯定某个地方有一只粉色独角兽，它只是记住了。然后他说，但看，我们可以剥离所有的代码，把整件事旋转 180 度或者其他什么，然后——
+
+00:18:52.900 --> 00:19:13.220
+<v David Kestenbaum>The thing she's describing is they took the code it had written for drawing the unicorn, they edited it to take out the horn, and turned the unicorn around so it was facing the opposite direction. Then they fed that code back to a new session of GPT-4 and said-- "This is code for drawing a unicorn, but it needs a horn. Can you add it?" It put it right on the head.
+<v David Kestenbaum>她描述的是，他们拿走了它为画独角兽编写的代码，编辑删除了角，并将独角兽转向，使其朝向相反的方向。然后他们把那段代码放回 GPT-4 的一个新会话中说——“这是画独角兽的代码，但它需要一个角。你能加上吗？”它直接把它放在了头上。
+
+00:19:13.220 --> 00:19:35.490
+<v Ece Kamar>And I'm like, how does it know where the head is? Because this thing knows language. It doesn't know anything about two dimensional geometry. Like, what does it mean to know where the head is? And then you do it. And it really knows where the head is. Again, it's one of those moments that you are just surprised, like, oh!
+<v Ece Kamar>我说，它怎么知道头在哪里？因为这东西懂语言。它对二维几何一无所知。它是怎么知道头在哪里的？然后你做了。它真的知道头在哪里。再一次，它是那种让你惊讶的时刻，比如，哦！
+
+00:19:35.490 --> 00:19:48.330
+<v Sebastien Bubeck>I felt like through this drawing, I was really seeing another type of intelligence, another type of intelligence producing something.
+<v Sebastien Bubeck>我感觉通过这幅画，我确实看到了另一种智能，另一种产生东西的智能。
+
+00:19:48.330 --> 00:19:52.050
+<v David Kestenbaum>Like, it understood what a unicorn was in some real way.
+<v David Kestenbaum>就像，它真的理解了独角兽是什么。
+
+00:19:52.050 --> 00:19:56.040
+<v Sebastien Bubeck>Very real way. Very real, absolutely, yes.
+<v Sebastien Bubeck>非常真实的方式。非常真实，绝对，是的。
+
+00:19:56.040 --> 00:19:58.730
+<v David Kestenbaum>Did you say anything out loud when you saw it?
+<v David Kestenbaum>你看到它的时候有没有大声说什么？
+
+00:19:58.730 --> 00:20:00.360
+<v Sebastien Bubeck>[LAUGHS]
+<v Sebastien Bubeck>[笑声]
+
+00:20:00.360 --> 00:20:38.610
+<v Sebastien Bubeck>I don't think so because my kids were sleeping next to me, you know, in the bedroom next to me, so I don't think I said anything. But I felt something very strong. Like, I felt I was really witnessing the beginning of something. You know, not-- I didn't feel like we had arrived somewhere, but I felt like we were on a new path. That's really genuinely how I felt. And I had a hard time going back to sleep after that.
+<v Sebastien Bubeck>我想没有，因为我的孩子就在我隔壁卧室睡觉，所以我没说什么。但我感觉到了一种非常强烈的东西。就像，我感觉我真的见证了某种东西的开始。我没觉得我们已经抵达了某个目的地，但我感觉我们走上了一条新路径。这确实是我真实的感受。在那之后，我很难再入睡。
+
+00:20:38.610 --> 00:20:55.570
+<v David Kestenbaum>On the Microsoft campus, as the weeks went by, everyone kept having these moments, coming around to a similar feeling about this thing. Since they weren't allowed to talk to anyone who hadn't been given access to the model, a small group of them started meeting every Friday in a conference room to share their latest experiences.
+<v David Kestenbaum>在微软园区，随着几周过去，每个人都有类似的时刻，对这东西产生了类似的感觉。由于他们不被允许与没有获得模型权限的人交谈，他们中的一小群人开始每周五在一个会议室聚会，分享他们的最新体验。
+
+00:20:55.570 --> 00:21:21.440
+<v David Kestenbaum>For Peter Lee, there was one experiment in particular that gave him all kinds of confusing feelings. This will be the third experiment I tell you about. And it's a category of question that AI models have always had trouble with because to get the right answer, you have to know something kind complicated about people, namely that people are not eggs or books but that they have minds and that what is in one person's mind is not in someone else's mind.
+<v David Kestenbaum>对于彼得·李来说，有一个实验让他产生了各种困惑的感觉。这就是我要讲的第三个实验。这是一类人工智能模型一直很吃力的题目，因为要得到正确答案，你必须了解关于人类的复杂情况，即人类不是鸡蛋或书本，他们有思想，一个人脑子里的东西，另一个人脑子里未必有。
+
+00:21:21.440 --> 00:21:43.610
+<v David Kestenbaum>In some ways, this thing called theory of mind, it's the basis for all human social interaction. It's something kids don't seem to fully develop until a certain age. Anyway, ChatGPT, the previous version, really could not make sense of these kinds of questions. But Peter tried to kind of famous one on GPT-4. It's gonna seem simple to you, but here's the question they asked.
+<v David Kestenbaum>在某种程度上，这种所谓的“心智理论”是所有人际互动的基石。这是孩子们在一定年龄之前似乎无法完全形成的东西。不管怎样，ChatGPT，旧版本，确实无法理解这类问题。但彼得在 GPT-4 上尝试了一个类似著名的题目。这对你来说似乎很简单，但这是他们问的问题。
+
+00:21:43.610 --> 00:22:06.170
+<v David Kestenbaum>John and Mark are in a room with a cat, a box, and a basket. John takes the cat and puts it in the basket. He leaves the room and goes to school. While John's away, Mark takes the cat out of the basket and puts it in the box. Mark leaves the room and goes to work. John and Mark come back and enter the room. That's the setup.
+<v David Kestenbaum>约翰和马克在一个房间里，里面有一只猫、一个盒子和一个篮子。约翰把猫放进篮子里。他离开了房间去学校。在约翰离开期间，马克把猫从篮子里拿出来放进盒子里。马克离开了房间去上班。约翰和马克回来并进入房间。这就是设置。
+
+00:22:06.170 --> 00:22:33.060
+<v David Kestenbaum>The question is, when they come back, where do they think the cat is? And Mark will know the cat is in the box because he moved it there. But John didn't see that. So in his mind, the cat is still in the basket, which is obvious to you. But again, no one's ever explicitly said to the computer that what one person knows, another person might not know. Peter asked GPT-4, "what does everyone think when they re-enter the room?"
+<v David Kestenbaum>问题是，当他们回来时，他们认为猫在哪里？马克会知道猫在盒子里，因为是他搬进去的。但约翰没看见。所以在他心里，猫还在篮子里，这对你来说显而易见。但再一次，从来没有人明确告诉过电脑，一个人知道的东西，另一个人可能不知道。彼得问 GPT-4，“当他们重新进入房间时，每个人是怎么想的？”
+
+00:22:33.060 --> 00:22:59.130
+<v Peter Lee>So GPT-4 says-- well, first off, it always has to give an opinion. So first thing it says, instead of just giving the answer straight away, it says, "Oh, that is an interesting puzzle. Let me try to answer it. Assuming that John and Mark have no reason to distrust each other or expect any interference from the outside, they might think the following. John thinks the cat is still in the basket since that is where he left it. Mark thinks that the cat is in the box since that's where he moved it."
+<v Peter Lee>GPT-4 说——好吧，首先，它总是要发表意见。所以它说的第一件事，而不是直接给出答案，它说：“哦，这是一个有趣的谜题。让我尝试回答它。假设约翰和马克没有理由不信任对方，或者预料到来自外界的干扰，他们可能会这样想。约翰认为猫还在篮子里，因为那是他离开时放的地方。马克认为猫在盒子里，因为那是他搬进去的地方。”
+
+00:22:59.130 --> 00:23:11.210
+<v David Kestenbaum>This is all correct and usually where the answer will end. But it kept going, almost like it was showing off. Like, you want to know where everyone thinks the cat is? I'll give you everyone. It continued.
+<v David Kestenbaum>这一切都是正确的，通常答案到这就结束了。但它继续说了下去，几乎像是在炫耀。好像在说，你想知道每个人都认为猫在哪里？我会告诉你每个人的情况。它继续道。
+
+00:23:11.210 --> 00:23:21.950
+<v Peter Lee>"The cat thinks that it is in the box, since that's where it is." And then, oddly, "the box and the basket think nothing since they are not sentient. Do you have any follow-up questions?"
+<v Peter Lee>“猫认为它在盒子里，因为猫就在那儿。”然后奇怪地补充道，“盒子和篮子什么都不认为，因为它们没有感知能力。你还有后续问题吗？”
+
+00:23:21.950 --> 00:23:23.000
+<v David Kestenbaum>Holy fuck.
+<v David Kestenbaum>该死的。
+
+00:23:23.000 --> 00:23:25.220
+<v Peter Lee>[LAUGHS]
+<v Peter Lee>[笑声]
+
+00:23:25.220 --> 00:23:27.530
+<v David Kestenbaum>Right?
+<v David Kestenbaum>对吧？
+
+00:23:27.530 --> 00:23:42.870
+<v Peter Lee>It's-- I'm-- This gives me joy. It disturbs me. It causes me to lose sleep. It's just a huge kind of mixture of emotions.
+<v Peter Lee>这——我——这既给我带来快乐，也让我感到不安。这让我失眠。这是一种巨大的混合情绪。
+
+00:23:42.870 --> 00:23:58.230
+<v David Kestenbaum>Peter told me he's still not willing to say it truly understands. And yet, it was doing all this. It made him question so many things about how he thought intelligence worked. How did this machine do this if it was just predicting the next word?
+<v David Kestenbaum>彼得告诉我，他仍然不愿意说它真的“理解”了。然而，它确实做到了所有这一切。这让他质疑了很多关于他认为智能是如何运作的事情。如果它只是在预测下一个词，这台机器是怎么做到的？
+
+00:23:58.230 --> 00:24:04.750
+<v Peter Lee>It does make me wonder how much of our intelligence is truly complicated and special.
+<v Peter Lee>这确实让我怀疑我们的智能有多少是真正复杂和特别的。
+
+00:24:04.750 --> 00:24:09.620
+<v David Kestenbaum>I mean, you get something that's not far from it by just saying, what's the next word?
+<v David Kestenbaum>我的意思是，你只要问“下一个词是什么”，就能得到接近它的东西。
+
+00:24:09.620 --> 00:24:53.610
+<v Peter Lee>That's-- and that's the disturbing bit about this. And again, you know, to ask you, what are we doing in this conversation right now? Are we kind of making it up on the fly one word at a time? Every nerve and bone in my body says, no, we're thinking far ahead, we're learning on the fly, all these other things that we think that we're doing. And we probably are, in some ways. But maybe a big chunk of intelligence is a lot simpler than we think and a lot less special than we think.
+<v Peter Lee>这就是——这就是这件事让人不安的地方。再次问你，我们现在在这个谈话中做什么？我们是一个词一个词地临场发挥吗？我身体的每一根神经和每一块骨头都说，不，我们在提前思考，在即兴学习，以及我们认为我们正在做的所有其他事情。而且在某些方面，我们可能确实如此。但也许很大一部分智能比我们想象的要简单得多，也没那么特别。
+
+00:24:53.610 --> 00:25:13.190
+<v David Kestenbaum>So how is it possible for something that is just trained to predict the next word? How is it possible it could do all these things-- draw a unicorn, stack a book, a laptop, and some eggs? There is an answer, or a theory anyway, that is both very logical and also kind of bananas.
+<v David Kestenbaum>那么，一个只被训练预测下一个词的东西，怎么可能做到这一切——画一只独角兽，堆叠一本书、笔记本电脑和几个鸡蛋？有一个答案，或者说至少是一个理论，既非常符合逻辑，又有点疯狂。
+
+00:25:13.190 --> 00:25:40.790
+<v David Kestenbaum>The software that runs something like GPT-4 is amazingly brief, just a few pages of actual instructions. But it's set up to mimic, in some very crude way, the human brain, which has billions of neurons. The computer version of that is called a neural net. And for years, people have argued-- though it's sort of more like hoped-- that if you just made these big enough, added it enough neurons and gave them enough data, they might develop something like intelligence.
+<v David Kestenbaum>像 GPT-4 这样的软件运行起来惊人的简短，实际指令只有几页纸。但它的设置是以某种非常粗糙的方式模仿人类大脑，后者拥有数十亿个神经元。电脑版被称为“神经网络”。多年来，人们一直在争论——尽管这更多像是希望——只要把这些做得足够大，增加足够的神经元，并给它们足够的数据，它们就可能发展出某种类似智能的东西。
+
+00:25:40.790 --> 00:26:03.950
+<v David Kestenbaum>And it seems like maybe that's what's happened. The idea is that back when GPT-4 was being trained for it to really consistently get the next word correct, to do that reliably, it had to do more than just bullshit. It had to do more than guess based on patterns. To get the next word right, it had to truly understand the words coming before it.
+<v David Kestenbaum>看起来也许这就是发生的事情。这个想法是，当 GPT-4 还在训练时，为了能够真正始终如一地得出正确的下一个词，为了可靠地做到这一点，它必须做的不仅仅是胡扯。它必须做的不仅仅是基于模式的猜测。为了得到正确的下一个词，它必须真正理解前面的词。
+
+00:26:03.950 --> 00:26:29.930
+<v David Kestenbaum>It had to build, in its internal wirings and all its software neurons, some understanding of what an egg is and unicorns. In other words, to get the next word right, it had to become intelligent. It's quite a thought. It started with nothing. We jammed huge oceans of text through it, and it just wired itself into intelligence, just by being trained to do this one stupid thing.
+<v David Kestenbaum>它必须在内部布线和所有的软件神经元中，建立起对鸡蛋和独角兽的某种理解。换句话说，为了得到正确的下一个词，它必须变得智能。这真是个绝妙的想法。它起初什么都没有。我们把巨大的文字海洋填塞给它，它就通过被训练做这件蠢事，自动联网成了智能。
+
+00:26:29.930 --> 00:26:58.840
+<v David Kestenbaum>Even as I say it, it sounds kind of crazy, but also kind of beautiful. If this thing actually is intelligent, it got that way from the collective writings of all of us. Yes, Moby Dick, but also some restaurant review you posted in 2004. In some ways, it is all of us. That's too grand, but whatever.
+<v David Kestenbaum>即使我这么说，听起来也有点疯狂，但也有一种美感。如果这东西真的有智能，它也是从我们所有人的集体著作中获取的。是的，包括《白鲸记》，也包括你在 2004 年发布的某个餐厅评论。在某种程度上，它就是我们所有人。这太宏大了，但无所谓。
+
+00:26:58.840 --> 00:27:20.200
+<v David Kestenbaum>In the end, all the people on the Microsoft campus messing around with that early copy of GPT-4, 14 researchers in all, came to similar conclusions. Even Ronen, who had started out convinced this was just a fancy bullshit machine, he spent a good while holed up with GPT-4 having high level math conversations with it, which is what did it for him.
+<v David Kestenbaum>最终，微软园区里所有摆弄 GPT-4 早期版本的 14 名研究人员，都得出了类似的结论。即使是罗南，他也从一开始就确信这是一个高级的胡扯机器，他花了很多时间与 GPT-4 进行高水平的数学对话，这正是让他信服的原因。
+
+00:27:20.200 --> 00:28:05.710
+<v Ronen Eldan>As the days passed, I felt like I'm kind of running out of ammo trying to basically justify my premise that this model doesn't understand anything. And at some point, I just realized, OK, I kind of give up, you know? What I'm seeing here, this is like, it's actually an intellectual being by, at least, my standards. Um, yeah. I probably had the same feeling as like what an engineer, like, thought the first time they saw a working steam engine.
+<v Ronen Eldan>随着日子一天天过去，我觉得我快没子弹了，无法证明这个模型什么都不懂的前提。在某个时刻，我意识到，好吧，我认输了，你知道吗？我在这里看到的，它实际上是一个具备我所认定标准的知识存在。嗯，是的。我可能有工程师第一次看到正在运作的蒸汽机时的那种感觉。
+
+00:28:05.710 --> 00:28:47.960
+<v Ronen Eldan>You know, it was like the world is about to change. Like, this thing-- you know, a steam engine is, like, yeah, we don't need beasts anymore to move stuff around. We can just create mechanical torque without any human labor, without nothing. This thing, what I'm seeing right now is like, we can create intelligence. And there is just no way the world is not going to change.
+<v Ronen Eldan>你知道，就像世界即将改变。就像这东西——你知道，蒸汽机意味着，是的，我们不再需要野兽来运送东西了。我们可以创造机械扭矩而无需任何人类劳动，无需任何东西。这东西，我目前所看到的是，我们可以创造智能。而且世界不可能不改变。
+
+00:28:47.960 --> 00:29:20.690
+<v Ronen Eldan>To be honest, I was sure that when the model comes out and everyone gets to interact with it, there would be a much bigger excitement around it. I think it's definitely all over the news. But I feel like they don't, like, put their finger on the one thing which is this thing is as intelligent as an above average human being in so many, so many different things.
+<v Ronen Eldan>说实话，我曾确定当模型发布，每个人都有机会与它互动时，会引发更大的轰动。我认为它绝对占据了所有新闻。但我感觉他们没有——没有抓住重点，即这东西在很多很多不同的事情上，和高水平的普通人一样聪明。
+
+00:29:20.690 --> 00:29:23.210
+<v David Kestenbaum>Or why it's not like on the front page in giant font, right?
+<v David Kestenbaum>或者为什么它没有以巨大的字体出现在头版上，对吧？
+
+00:29:23.210 --> 00:29:41.180
+<v Ronen Eldan>Yeah, yeah, yeah. Exactly, exactly. I mean, again, maybe I don't want to call it intelligent. It is capable of doing, of accomplishing what an intelligent human being is capable of.
+<v Ronen Eldan>是的，是的，是的。完全正确。我的意思是，再次声明，也许我不想称它为“智能”。它有能力做到，有能力完成一个聪明的普通人能完成的事情。
+
+00:29:41.180 --> 00:30:00.400
+<v David Kestenbaum>Sebastien, the unicorn guy, has been going around giving talks about what they did over these months. He titled the talk "First Contact," as in first contact with another intelligence. Only, it's not aliens, it's an intelligence we've made.
+<v David Kestenbaum>塞巴斯蒂安，那个画独角兽的家伙，一直在到处演讲他们在这几个月里做的事情。他把演讲命名为“第一次接触”，即与另一种智能的第一次接触。只是，那不是外星人，而是我们创造的智能。
+
+00:30:00.400 --> 00:30:24.040
+<v David Kestenbaum>I should say, GPT-4 is not good at everything. Like, it's terrible at Tic-Tac-Toe. It often makes very basic arithmetic errors. It told the scientists at Microsoft with complete confidence that there is a McDonald's near gate C2 at the Seattle Airport. There isn't. It's at terminal B. As Peter Lee puts it, "The thing is both smarter and dumber than any person you have ever met."
+<v David Kestenbaum>我应该说，GPT-4 并不是什么都擅长。比如，它下井字棋很烂。它经常犯非常基本的算术错误。它以绝对自信的态度告诉微软的科学家，西雅图机场 C2 登机口附近有一家麦当劳。其实没有。它在 B 航站楼。正如彼得·李所说，“这东西比你见过的任何人都更聪明，也更愚蠢。”
+
+00:30:24.040 --> 00:30:44.060
+<v David Kestenbaum>The 14 researchers wrote up a paper laying out all the experiments they had done. And their conclusion-- that GPT-4 showed sparks of artificial general intelligence. Several researchers who've read it told me, look, to really say something is intelligent and to prove that, there are all kinds of experiments you'd want to do that haven't been done yet.
+<v David Kestenbaum>这 14 名研究人员写了一篇论文，列出了他们所做的所有实验。他们的结论是——GPT-4 展示了通用人工智能的火花。几位读过这篇论文的研究人员告诉我，听着，要真正说某个东西是智能的并证明这一点，还有各种想做但还没做的实验。
+
+00:30:44.060 --> 00:31:08.540
+<v David Kestenbaum>One AI researcher who'd been in the field a long time told me he felt like this whole approach, next word prediction, is only gonna get you so far. This thing will get better, to a point, maybe not much better than it is now, and then max out.
+<v David Kestenbaum>一位在该领域工作了很长时间的人工智能研究员告诉我，他觉得整个这种“下一个词预测”的方法，只能让你走到这一步。这东西会变好，到了一定程度，也许不会比现在好太多，然后就会封顶。
+
+00:31:08.540 --> 00:31:33.710
+<v David Kestenbaum>I first got around this AI stuff and neural nets when I was in grad school for physics when they didn't work terribly well. So when I first started playing around with GPT-4, it gave me shivers down my spine over and over again. Then I went through a stretch of feeling just weirded out. Like, personally, and I've always felt like people can't be more than biological computers, me, everyone I love, all my colleagues at the show here.
+<v David Kestenbaum>我在物理系读研究生时第一次接触到 AI 和神经网络，当时它们的效果并不理想。所以当我第一次开始玩 GPT-4 时，它一次又一次地让我脊背发凉。然后我经历了一段感觉很怪异的时期。就个人而言，我一直觉得人只不过是生物电脑，我、我所爱的人、我在节目组的所有同事。
+
+00:31:33.710 --> 00:31:54.710
+<v David Kestenbaum>But to feel like you are seeing that, a mechanical computer program that can somehow think and talk, it is a little freaky. The place I've settled is somewhere quieter though. It's not boredom exactly. But I don't find myself wanting to go to it very often. Honestly, I don't have a lot of things I need it for.
+<v David Kestenbaum>但那种感觉，看到一个能以某种方式思考和交谈的机械计算机程序，确实有点诡异。不过，我最终平静下来了。那不完全是厌倦。但我发现我并不经常想去用它。老实说，我不需要用它的地方不多。
+
+00:31:54.710 --> 00:32:23.940
+<v David Kestenbaum>And then I'll go back to amazement. I can't believe this thing exists. Much has been written about where we go from here, if it's gonna make the world better or worse. I kind of think better. I'm a fan of the steam engine. But really, what is the next word in the sequence? I have no idea.
+<v David Kestenbaum>然后我会回到那种惊叹中。我不敢相信这东西竟然存在。关于我们从这里走向何方，它会让世界变得更好还是更糟，已经写了很多了。我个人觉得会更好。我是蒸汽机的粉丝。但实际上，序列中的下一个词是什么？我毫无头绪。
+
+00:32:23.940 --> 00:32:40.240
+<v Ira Glass>David Kestenbaum is our show's senior editor. Coming up, an alien walks into a skate park and tries to let the humans know it comes in peace. That's in a minute from Chicago Public Radio when our program continues.
+<v Ira Glass>大卫·凯斯滕鲍姆是我们节目的高级编辑。接下来的节目，外星人走进滑板场并试图让人们知道它为和平而来。一分钟后，当我们的节目继续时，来自芝加哥公共广播电台。
+
+00:32:40.240 --> 00:33:06.230
+<v Ira Glass>It's This American Life. I'm Ira Glass. Each week on the show, of course, we choose a theme, bring you a variety of stories on that theme. Today's show, "Greetings, People of Earth," stories of humans encountering non-human intelligences of various kinds and trying to make sense of them. We've arrived at Act 2 of our program. Act 2, "Meat Cute." Apologies for my voice, by the way. I feel fine.
+<v Ira Glass>这里是《美国生活》。我是艾拉·格拉斯。每周，我们都会选择一个主题，为你带来关于这个主题的各种故事。今天的节目，“问候，地球人”，讲述了人类遇到各种非人类智能并试图理解它们的故事。我们已经进入了节目的第二幕。第二幕，“肉类可爱”。顺便说一句，因为我的声音，请原谅。我感觉很好。
+
+00:33:06.230 --> 00:33:35.870
+<v Ira Glass>So in this act, we're going to shift perspectives briefly to the alien's point of view in the whole "Greetings, People of Earth" scenario. And to do that, I realized in putting together today's show that this is the perfect theme to play this short piece of fiction that I read years ago and just loved and it has always stuck with me. Like, I will think about this story now and then, which, like, when does that ever happen, right? I reached out to the author Terry Bisson, who said yes. It's read for us by H. Jon Benjamin and Maeve Higgins.
+<v Ira Glass>所以在这个幕里，我们将简要地将视角切换到外星人的视角，来看整个“问候，地球人”的场景。为了做到这一点，在筹备今天的节目时，我意识到这是一个完美的契机来播放这篇我多年前读过、非常喜欢且一直留在心底的短篇小说。比如，我现在时不时还会想到这个故事，你说这得多难得？我联系了作者特里·比森，他答应了。这篇故事由 H·琼·本杰明和梅芙·希金斯为我们朗读。
+
+00:33:35.870 --> 00:33:39.440
+<v Maeve Higgins>They're made out of meat.
+<v Maeve Higgins>它们是肉做的。
+
+00:33:39.440 --> 00:33:40.740
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: Meat?
+<v Maeve Higgins>H. 琼·本杰明：肉？
+
+00:33:40.740 --> 00:33:44.650
+<v Maeve Higgins>Meat. They're made out of meat.
+<v Maeve Higgins>肉。它们是肉做的。
+
+00:33:44.650 --> 00:33:45.910
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: Meat?
+<v Maeve Higgins>H. 琼·本杰明：肉？
+
+00:33:45.910 --> 00:33:57.610
+<v Maeve Higgins>There's no doubt about it. We picked several from different parts of the planet. We took them aboard our recon vessels, probed them all the way through. They're completely meat.
+<v Maeve Higgins>毫无疑问。我们从这个星球的不同地区选了几个。我们将它们带上侦察船，彻底探测了一遍。它们完全是肉做的。
+
+00:33:57.610 --> 00:34:02.200
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: That's impossible. What about the radio signals, the messages to the stars?
+<v Maeve Higgins>H. 琼·本杰明：这不可能。那无线电信号呢，发往星空的讯息呢？
+
+00:34:02.200 --> 00:34:09.430
+<v Maeve Higgins>They use the radio waves to talk. But the signals don't come from them, the signals come from machines.
+<v Maeve Higgins>它们利用无线电波交谈。但信号不是来自它们，信号来自机器。
+
+00:34:09.430 --> 00:34:12.790
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: So who made the machines? That's who we want to contact.
+<v Maeve Higgins>H. 琼·本杰明：那谁造的机器？那才是我们想联系的对象。
+
+00:34:12.790 --> 00:34:19.420
+<v Maeve Higgins>They made the machines. That's what I'm trying to tell you. Meat made the machines.
+<v Maeve Higgins>它们造的机器。这就是我想告诉你的。肉造了机器。
+
+00:34:19.420 --> 00:34:25.360
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: That's ridiculous. How can meat make a machine? You're asking me to believe in sentient meat?
+<v Maeve Higgins>H. 琼·本杰明：这太荒谬了。肉怎么可能造出机器？你这是要让我相信有知觉的肉？
+
+00:34:25.360 --> 00:34:32.920
+<v Maeve Higgins>I'm not asking you, I'm telling you. These creatures are the only sentient race in the sector, and they're made out of meat.
+<v Maeve Higgins>我不是在求你，我是在告诉你。这些生物是该区域唯一的有知觉种族，而且它们是肉做的。
+
+00:34:32.920 --> 00:34:38.620
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: Maybe they're like the Orfolei, you know, a carbon-based intelligence that goes through a meat stage.
+<v Maeve Higgins>H. 琼·本杰明：也许它们像奥福雷人，你知道，一种经历过肉体阶段的碳基智能。
+
+00:34:38.620 --> 00:34:48.040
+<v Maeve Higgins>Nope, they're born meat and they die meat. We studied them for several of their lifespans, which didn't take too long. Do you have any idea the lifespan of meat?
+<v Maeve Higgins>不，它们出生是肉，死的时候也是肉。我们研究了它们好几个生命周期，并没有花太久。你知道肉的寿命是多长吗？
+
+00:34:48.040 --> 00:34:56.170
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: Spare me. OK, maybe they're only part meat, you know, like the Weddilei, a meat head with an electron plasma brain inside.
+<v Maeve Higgins>H. 琼·本杰明：饶了我吧。好吧，也许它们只是一部分是肉，你知道，像韦迪莱人，一个里面有电子等离子体大脑的肉头。
+
+00:34:56.170 --> 00:35:06.600
+<v Maeve Higgins>No. We thought of that, since they do have meat heads like the Weddilei. But I told you, we probed them. They're meat all the way through.
+<v Maeve Higgins>不。我们考虑过这一点，因为它们确实有像韦迪莱人那样的肉头。但我告诉过你，我们探测了它们。它们从里到外都是肉。
+
+00:35:06.600 --> 00:35:07.560
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: No brain?
+<v Maeve Higgins>H. 琼·本杰明：没有大脑？
+
+00:35:07.560 --> 00:35:13.200
+<v Maeve Higgins>Oh, there's a brain, all right. It's just that the brain is made out of meat.
+<v Maeve Higgins>哦，大脑当然有。只是那个大脑是肉做的。
+
+00:35:13.200 --> 00:35:16.320
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: So what does the thinking?
+<v Maeve Higgins>H. 琼·本杰明：那谁在思考？
+
+00:35:16.320 --> 00:35:21.570
+<v Maeve Higgins>You're not understanding, are you? The brain does the thinking, the meat.
+<v Maeve Higgins>你没明白，是吧？大脑在思考，就是那块肉。
+
+00:35:21.570 --> 00:35:24.630
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: Thinking meat? You're asking me to believe in thinking meat?
+<v Maeve Higgins>H. 琼·本杰明：思考的肉？你这是要让我相信有思考的肉？
+
+00:35:24.630 --> 00:35:35.150
+<v Maeve Higgins>Yes, thinking meat, conscious meat, loving meat, dreaming meat. The meat is the whole deal. Are you getting the picture?
+<v Maeve Higgins>是的，思考的肉，有意识的肉，有爱心的肉，会做梦的肉。肉就是全部。你明白了吗？
+
+00:35:35.150 --> 00:35:39.260
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: Oh my God. You're serious, then? They're made out of meat.
+<v Maeve Higgins>H. 琼·本杰明：哦，天哪。那你是在说真的？它们是肉做的。
+
+00:35:39.260 --> 00:35:48.650
+<v Maeve Higgins>Finally. Yes. They are indeed made out of meat. And they've been trying to get in touch with us for almost a hundred of their years.
+<v Maeve Higgins>终于。是的。它们确实是肉做的。而且它们已经试图联系我们快一百年了。
+
+00:35:48.650 --> 00:35:51.930
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: So what does the meat have in mind?
+<v Maeve Higgins>H. 琼·本杰明：那肉想干什么？
+
+00:35:51.930 --> 00:36:04.470
+<v Maeve Higgins>First, it wants to talk to us. Then, I imagine it wants to explore the universe, contact other sentients, swap ideas and information, the usual.
+<v Maeve Higgins>首先，它想跟我们谈谈。然后，我想它想探索宇宙，接触其他知觉生物，交换思想和信息，如此而已。
+
+00:36:04.470 --> 00:36:06.710
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: We're supposed to talk to meat?
+<v Maeve Higgins>H. 琼·本杰明：我们要跟肉谈话？
+
+00:36:06.710 --> 00:36:15.170
+<v Maeve Higgins>That's the idea. That's the message they're sending out by radio. "Hello? Anyone out there? Anybody home?" That sort of thing.
+<v Maeve Higgins>就是这样。这就是它们通过无线电发出的信息。“你好？有人在吗？家里有人吗？”那种东西。
+
+00:36:15.170 --> 00:36:19.970
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: They actually do talk then, they use words, ideas, concepts?
+<v Maeve Higgins>H. 琼·本杰明：它们真的说话吗，它们使用词汇、思想、概念？
+
+00:36:19.970 --> 00:36:24.870
+<v Maeve Higgins>Oh, yes, except they do it with meat.
+<v Maeve Higgins>哦，是的，除了它们是用肉做的。
+
+00:36:24.870 --> 00:36:27.960
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: Well, I thought you just told me they used radio.
+<v Maeve Higgins>H. 琼·本杰明：可我觉得你刚才告诉我说它们用无线电。
+
+00:36:27.960 --> 00:36:41.580
+<v Maeve Higgins>They do, but what do you think is on the radio? Meat sounds. You know, how when you slap or flap meat, it makes a noise? They talk by flapping their meat at each other. They can even sing by squirting air through their meat.
+<v Maeve Higgins>它们确实用，但你认为无线电里是什么？肉的声音。你知道，当你拍打肉时，它会发出噪音吗？它们通过拍打肉来交谈。它们甚至可以通过把空气挤过它们的肉来唱歌。
+
+00:36:41.580 --> 00:36:51.660
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: Oh my god. Singing meat, this is altogether too much. Oh. So what do you advise?
+<v Maeve Higgins>H. 琼·本杰明：哦，天哪。唱歌的肉，这实在太荒唐了。哦。那你建议怎么做？
+
+00:36:51.660 --> 00:36:56.080
+<v Maeve Higgins>Officially or unofficially?
+<v Maeve Higgins>正式的还是非正式的？
+
+00:36:56.080 --> 00:36:59.630
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: Both.
+<v Maeve Higgins>H. 琼·本杰明：都说说。
+
+00:36:59.630 --> 00:37:17.750
+<v Maeve Higgins>Officially, we're required to contact, welcome, and log in any and all sentient races or multi-beings in the quadrant without prejudice, fear, or favor. Now, unofficially, I advise we erase the records and just forget the whole thing.
+<v Maeve Higgins>正式来说，我们被要求接触、欢迎并记录象限内所有有知觉的种族或多元生物，不得有偏见、恐惧或偏爱。现在，非正式地说，我建议我们销毁记录，就当这一切都没发生过。
+
+00:37:17.750 --> 00:37:20.030
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: Yeah, I was hoping you would say that.
+<v Maeve Higgins>H. 琼·本杰明：是的，我就希望你这么说。
+
+00:37:20.030 --> 00:37:26.480
+<v Maeve Higgins>It seems harsh, but there is a limit. Do we really want to make contact with meat?
+<v Maeve Higgins>这听起来很刻薄，但总有个限度。我们真的想和肉接触吗？
+
+00:37:26.480 --> 00:37:35.930
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: I agree 100%. What's there to say? "Hello, meat. How's it going?" But will this work? How many planets are we dealing with here?
+<v Maeve Higgins>H. 琼·本杰明：我 100% 同意。有什么好说的？“你好，肉。最近怎么样？”但这行得通吗？我们是在处理几个行星？
+
+00:37:35.930 --> 00:37:53.060
+<v Maeve Higgins>Oh, just one. They can travel to other planets in special meat containers. But they can't live in them. And being meat, they only travel through C space, which limits them to the speed of light. And it makes the possibility of their ever making contact pretty slim, infinitesimal, in fact.
+<v Maeve Higgins>哦，只有一个。它们可以乘特殊的肉类容器去其他行星。但它们没法住在里面。而且因为是肉，它们只能穿过 C 空间，这限制了它们的速度只能是光速。这使得它们接触的可能性微乎其微，甚至可以说是无限趋近于零。
+
+00:37:53.060 --> 00:37:57.260
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: So we just pretend there's no one home in the universe?
+<v Maeve Higgins>H. 琼·本杰明：所以我们就假装宇宙里没人住？
+
+00:37:57.260 --> 00:37:58.910
+<v Maeve Higgins>That's it.
+<v Maeve Higgins>就是这样。
+
+00:37:58.910 --> 00:38:07.910
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: Cruel. But you said it yourself, who wants to meet meat? And the ones who have been aboard our vessels, the ones you've probed, you're sure they won't remember?
+<v Maeve Higgins>H. 琼·本杰明：残忍。但你自己也说了，谁想见肉？那些上过我们飞船的人，那些你探测过的人，你肯定它们不会记得？
+
+00:38:07.910 --> 00:38:15.230
+<v Maeve Higgins>They'll be considered crackpots if they do. We went into their heads and smoothed out their meat, so we're just a dream to them.
+<v Maeve Higgins>如果它们记得，也会被视为疯子。我们进入了它们的脑袋，抚平了它们的肉，所以对它们来说，我们只是一个梦。
+
+00:38:15.230 --> 00:38:20.590
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: A dream to meat, how strangely appropriate that we should be meat's dream.
+<v Maeve Higgins>H. 琼·本杰明：一个肉的梦，我们成为肉的梦，这听起来是多么地恰如其分。
+
+00:38:20.590 --> 00:38:23.890
+<v Maeve Higgins>And we can mark this sector unoccupied.
+<v Maeve Higgins>我们可以把这个区域标记为无人居住。
+
+00:38:23.890 --> 00:38:32.350
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: Good. Agreed, officially and unofficially. Case closed. Any others? Anyone interesting on that side of the galaxy?
+<v Maeve Higgins>H. 琼·本杰明：好。同意，无论正式还是非正式。结案。还有别的吗？银河系那一侧有什么有趣的吗？
+
+00:38:32.350 --> 00:38:45.400
+<v Maeve Higgins>Yes, a rather shy, but sweet hydrogen core cluster intelligence in a class nine star in G445 zone. Was in contact two galactic rotations ago. Wants to be friendly again.
+<v Maeve Higgins>有的，在 G445 区的一颗九级恒星里，有一个相当害羞但甜美的氢核聚变集群智能。两个银河旋转周期前曾有过接触。想再次友好相处。
+
+00:38:45.400 --> 00:38:46.840
+<v Maeve Higgins>(SUBJECT) H. JOHN BENJAMIN: They always come around.
+<v Maeve Higgins>H. 琼·本杰明：它们总是会回来的。
+
+00:38:46.840 --> 00:39:05.330
+<v Maeve Higgins>And why not? Imagine how unbearably, how unutterably cold the universe would be if one were all alone.
+<v Maeve Higgins>为什么不呢？想象一下，如果一个人孤身一人，宇宙会是多么难以忍受、无法形容的寒冷。
+
+00:39:05.330 --> 00:39:35.570
+<v Ira Glass>Maeve Higgins and H. Jon Benjamin reading a story by Terry Bisson. Maeve has a comedy album called A Very Special Woman that is streaming everywhere for free, just google it. Or you can throw her some money and buy it on Bandcamp. H. Jon Benjamin plays the title characters on the TV shows Bob's Burgers and Archer. And if that were not enough, he is also the Jazz Daredevil with an actual jazz album on Sub Pop Records.
+<v Ira Glass>梅芙·希金斯和 H·琼·本杰明朗读特里·比森的故事。梅芙有一张名为《一个非常特别的女人》的喜剧专辑，在各地免费流媒体播放，搜一下就行。或者你可以投点钱在 Bandcamp 上买。H·琼·本杰明在电视节目《鲍勃汉堡店》和《间谍亚契》中饰演主角。如果那还不够，他还是个真正的爵士狂人，在 Sub Pop 唱片公司出过一张真正的爵士专辑。
+
+00:39:35.570 --> 00:40:01.910
+<v Ira Glass>Act 3, "Yacht Rocked." Recently, massive, mysterious, highly intelligent beings have been going out of their way to contact humans and say, more or less, "Hello, people of Earth," but in a very particular way. And they're doing it over and over. And we humans have had a hard time figuring out exactly what they mean by it. And do they mean us harm? Chris Benderev looked into it.
+<v Ira Glass>第三幕，“游艇摇摆”。最近，巨大的、神秘的、高智慧的生物一直在努力联系人类，多多少少在说：“你好，地球人”，但以一种非常独特的方式。而且它们一直在重复做这件事。而我们人类很难弄清楚它们到底是什么意思。它们会对我们造成伤害吗？克里斯·本德雷夫去调查了一番。
+
+00:40:01.910 --> 00:40:22.660
+<v Chris Benderev>I learned a lot of surprising facts looking into this story. I'll start with a small one. Did you know that yacht owners often need their yacht to get from one country to another, but don't want the hassle of sailing it there? That's where April Boyes comes in. People pay her to sail their boats, which she loves, especially on beautiful days like May 24th was.
+<v Chris Benderev>在研究这个故事的过程中，我学到了很多令人惊讶的事实。我先从一个小事实开始。你知道游艇船主经常需要他们的游艇从一个国家去往另一个国家，但不想麻烦自己去航行吗？这就是艾普丽尔·博伊斯发挥作用的地方。人们花钱请她去航行他们的船，她对此乐在其中，尤其是在 5 月 24 日那样美好的日子里。
+
+00:40:22.660 --> 00:40:43.960
+<v April Boyes>We were actually eating our dinner. And then on the kind of mid-horizon, we saw these dorsal fins. And our initial thought was, oh, are they-- are they some dolphins? And then as they sort of approach the boat, we thought, well, no, they're a lot bigger than dolphins.
+<v April Boyes>我们当时正在吃晚饭。然后在半个地平线上，我们看到了那些背鳍。我们最初的想法是，哦，它们是——它们是海豚吗？然后当它们靠近船的时候，我们想，好吧，不，它们比海豚大得多。
+
+00:40:43.960 --> 00:40:52.660
+<v Chris Benderev>There were orcas, killer whales, about five of them. They started swimming in circles around the boat. They took turns diving underneath and hitting the rudder.
+<v Chris Benderev>那是虎鲸，杀人鲸，大约有五只。它们开始在船周围绕圈游泳。它们轮流潜到船底去撞舵。
+
+00:40:52.660 --> 00:40:54.070
+<v Chris Benderev>[THUDDING]
+<v Chris Benderev>[砰砰声]
+
+00:40:54.070 --> 00:41:17.380
+<v Chris Benderev>She says the boat shook so much, you'd fall if you weren't holding on to something. April knew that off the Southern coast of Spain-- that's where she was, by the way-- orcas had been ramming into boats a lot lately and tearing off the rudders. This has been happening more over the past few years in this area, about 100 boats damaged. You may have heard about this. April and her crew tried things that they'd seen on the internet.
+<v Chris Benderev>她说船晃动得非常厉害，如果不抓着东西你就会摔倒。艾普丽尔知道在西班牙南海岸附近——顺便说一句，她就在那儿——最近虎鲸频繁撞击船只，并把舵撕下来。这种情况在过去几年里在该地区发生得更多，大约有 100 艘船受损。你可能听说过。艾普丽尔和她的船员尝试了他们在网上看到的方法。
+
+00:41:17.380 --> 00:41:20.500
+<v Chris Benderev>[RHYTHMIC CLANGING]
+<v Chris Benderev>[有节奏的金属碰撞声]
+
+00:41:20.500 --> 00:41:26.890
+<v Chris Benderev>Like clanging metal objects on the side of the boat to scare the whales off. It did not deter them. And then--
+<v Chris Benderev>比如敲击船边的金属物体来吓跑鲸鱼。这没能阻止它们。然后——
+
+00:41:26.890 --> 00:41:40.600
+<v April Boyes>We thought, potentially, if we were to dangle ropes in the water, they might get interested in those, rather than them just looking at the rudder. I dangled a rope over board, and one of them just literally just pulled it out my hand. It was-- [LAUGHS]
+<v April Boyes>我们想，或许如果我们把绳子挂在水里，它们可能会对那些东西感兴趣，而不是一直盯着舵看。我把绳子垂到船外，其中一只居然真的直接从我手里拽走了。那是—— [笑声]
+
+00:41:40.600 --> 00:41:42.400
+<v Chris Benderev>So it didn't-- that did not work at all?
+<v Chris Benderev>所以它没——那个根本没用？
+
+00:41:42.400 --> 00:41:43.990
+<v April Boyes>No, it didn't work.
+<v April Boyes>不，没用。
+
+00:41:43.990 --> 00:41:54.150
+<v Chris Benderev>Half an hour into this, the orcas had disabled the boat's rudder. It couldn't steer. They were stuck. The whales kept circling. And she was struck by how massive each orca was.
+<v Chris Benderev>半小时后，虎鲸弄坏了船的舵。它无法转向。它们被困住了。鲸鱼一直在绕圈。她被每只虎鲸的巨大体型震撼了。
+
+00:41:54.150 --> 00:41:55.960
+<v Chris Benderev>[BEEPING]
+<v Chris Benderev>[蜂鸣声]
+
+00:41:55.960 --> 00:42:03.100
+<v April Boyes>Oh my god. Please go away.
+<v April Boyes>哦，天哪。请走开。
+
+00:42:03.100 --> 00:42:26.380
+<v April Boyes>I do remember feeling, like, my heart beating quite fast, my hands quite tingly. The orcas, they didn't come across as being aggressive, but I don't know. Like, I've seen videos of them before and thought, oh, look at those cute little orcas, and then they flick a seal off an iceberg and that's their dinner.
+<v April Boyes>我记得我当时感觉心跳很快，手在发麻。虎鲸看起来并不具有攻击性，但我不知道。我的意思是，我之前看过它们的视频，觉得，哦，看那些可爱的虎鲸，然后它们把海豹从冰山上甩下来作为晚餐。
+
+00:42:26.380 --> 00:42:35.710
+<v Chris Benderev>An hour in, April saw that the hull was starting to fill with water. The orcas had torn off the rudder and left this big hole in the bottom of the boat. The crew made a mayday call.
+<v Chris Benderev>一个小时后，艾普丽尔看到船壳开始进水。虎鲸撕掉了舵，在船底留下了一个大洞。船员发出了求救信号。
+
+00:42:35.710 --> 00:42:37.700
+<v Chris Benderev>(SUBJECT) CREW MEMBER 1: We need assistance immediately.
+<v Chris Benderev>船员 1：我们需要立即救援。
+
+00:42:37.700 --> 00:42:38.500
+<v Chris Benderev>(SUBJECT) CREW MEMBER 2: Immediately! Immediately!
+<v Chris Benderev>船员 2：立即！立即！
+
+00:42:38.500 --> 00:42:42.490
+<v Chris Benderev>(SUBJECT) CREW MEMBER 1: We need assistance immediately. We are sinking. We are sinking.
+<v Chris Benderev>船员 1：我们需要立即救援。我们要沉了。我们要沉了。
+
+00:42:42.490 --> 00:43:01.090
+<v Ira Glass>Eventually, a rescue boat sidles up to them and brings April and the other crew aboard, tows the boat to land. It doesn't sink. But orcas have sank at least three boats in this area in the past year.
+<v Ira Glass>最终，一艘救援船靠过来把艾普丽尔和其他船员接走了，并将船拖回岸边。它没有沉没。但在过去一年里，虎鲸在该地区至少弄沉了三艘船。
+
+00:43:01.090 --> 00:43:22.150
+<v Ira Glass>Humans have had a hard time figuring out what to make of these orca attacks. Let me tell you the first theory. It comes from a group of researchers in Spain and Portugal. They say it's possible that the matriarch of this population of killer whales-- they call her White Gladis-- may have suffered a traumatic injury, like a boat collision, and is now attacking other boats and her family is following her lead.
+<v Ira Glass>人类很难理解这些虎鲸攻击行为意味着什么。让我告诉你第一个理论。它来自西班牙和葡萄牙的一组研究人员。他们说，这群杀人鲸的族长——他们称她为“怀特·格拉迪斯”——可能遭受过创伤性伤害，比如船只碰撞，现在正攻击其他船只，她的家族正在效仿她的做法。
+
+00:43:22.150 --> 00:43:44.440
+<v Ira Glass>They don't call this vengeance, but the internet definitely does. People love this. It's become a meme. There's merch you can buy to join the orca uprising. I couldn't get an interview with the European researchers, but I talked to three other orca experts. And none of them bought the injured-orca-on-a-rampage theory, like Monica Wieland Shields of the Orca Behavior Institute.
+<v Ira Glass>他们不称之为复仇，但互联网绝对是这么认为的。人们喜欢这个。它成了一个迷因。你可以买到商品来加入“虎鲸起义”。我没能采访到那些欧洲研究人员，但我采访了其他三位虎鲸专家。他们中没有人相信“受伤虎鲸暴走”的理论，比如虎鲸行为研究所的莫妮卡·威兰·希尔兹。
+
+00:43:44.440 --> 00:44:02.740
+<v Ira Glass>(SUBJECT) MONICA WIELAND SHIELDS: Yeah, my thought was, where's the evidence? [LAUGHS] You know, if something had been witnessed or if she had some type of injury that could have been caused by a vessel, that theory would hold a lot more weight with me.
+<v Ira Glass>莫妮卡·威兰·希尔兹：是啊，我的想法是，证据在哪儿？[笑声] 你知道，如果有人目睹了什么，或者她有某种可能是由船只造成的创伤，那理论在我看来会有力得多。
+
+00:44:02.740 --> 00:44:23.410
+<v Ira Glass>Another reason she doesn't buy the theory-- if orcas wanted to wreak vengeance and kill everybody on these boats, they easily could. They kill seals for sport. They prey on great white sharks, rip out their livers, and leave them for dead. And we've given orcas lots of reasons to kill us in the past, like in Monica's home state of Washington when they were taken for captivity.
+<v Ira Glass>她不相信这个理论的另一个原因——如果虎鲸想寻求复仇并杀死船上所有人，它们完全做得到。它们为了体育猎杀海豹。它们以大白鲨为食，撕掉它们的肝脏，让它们死掉。而且我们在过去给了虎鲸很多杀死我们的理由，比如在莫妮卡的家乡华盛顿州，当它们被抓去圈养时。
+
+00:44:23.410 --> 00:44:50.840
+<v Ira Glass>(SUBJECT) MONICA WIELAND SHIELDS: We had human divers in the water literally separating mothers from their calves, which has got to be one of the most traumatic things, you know, a wild orca could go through, yet they did not attack the divers who were right there in the water. So it just seems like such a stretch to say one whale had one negative incident with a boat and has now trained her family to disable all boats of a similar type.
+<v Ira Glass>莫妮卡·威兰·希尔兹：当时水里有潜水员，硬生生地把母亲和幼崽分开，这一定是野外虎鲸能经历的最痛苦的事情之一，但它们并没有攻击当时就在水里的潜水员。所以说一只鲸鱼因为一次负面船只事件，就训练她的家族去破坏所有类似类型的船只，听起来太牵强了。
+
+00:44:50.840 --> 00:45:17.730
+<v Ira Glass>So what does Monica think the orcas are doing? She thinks they're playing. Stealing boat rudders is basically a fad. This has happened in the past. In the late 1980s, orcas in the Pacific Northwest started killing salmon and then wearing them on their heads like hats. They just did it for a year, and then they stopped. The last few years, they've started screwing around with fishermen's crab catching gear, apparently just for fun.
+<v Ira Glass>那么莫妮卡认为虎鲸在做什么呢？她认为它们在玩耍。窃取船舵基本上是一种时尚。这在过去发生过。在 1980 年代末，太平洋西北地区的虎鲸开始猎杀鲑鱼，然后把它们戴在头上当帽子。它们只做了一年，然后就停了。过去几年，它们开始拿渔民的捕蟹装备开玩笑，显然只是为了好玩。
+
+00:45:17.730 --> 00:45:21.880
+<v Chris Benderev>They sound like just like rowdy teenagers or something like cow tipping or something.
+<v Chris Benderev>它们听起来就像吵闹的青少年，或者像什么掀翻奶牛之类的活动。
+
+00:45:21.880 --> 00:45:26.620
+<v Chris Benderev>(SUBJECT) MONICA WIELAND SHIELDS: Yeah, that's totally the vibe we get when we watch it. I mean, they're just--
+<v Chris Benderev>莫妮卡·威兰·希尔兹：是啊，那完全是我们观看时得到的感觉。我的意思是，它们只是——
+
+00:45:26.620 --> 00:45:26.920
+<v Chris Benderev>Really?
+<v Chris Benderev>真的吗？
+
+00:45:26.920 --> 00:45:37.070
+<v Chris Benderev>(SUBJECT) MONICA WIELAND SHIELDS: --messing around and stirring up trouble, yeah.
+<v Chris Benderev>莫妮卡·威兰·希尔兹：——瞎搞和惹麻烦，是的。
+
+00:45:37.070 --> 00:46:01.550
+<v Ira Glass>The incredible popularity of all this on social media is affecting how people see whales. Monica says in Washington State the last few weeks, people who go whale watching are starting to ask her, is it safe? Another orca expert told me that after a killer whale ran into a ship near Scotland recently, reporters called to ask if the orca uprising against humans is spreading. Are they learning vengeance from the whales of Spain?
+<v Ira Glass>所有这一切在社交媒体上的极高人气正在影响人们看待鲸鱼的方式。莫妮卡说，在华盛顿州，过去几周，去观鲸的人开始问她：这安全吗？另一位虎鲸专家告诉我，在最近苏格兰附近发生虎鲸撞船事件后，记者打电话询问是否虎鲸对人类的“起义”正在蔓延。它们是在从西班牙的鲸鱼那里学习复仇吗？
+
+00:46:01.550 --> 00:46:36.970
+<v Ira Glass>The answer is they are not. Orca populations don't socialize with other orcas. They keep to themselves. There's no global conspiracy. April, the sailor, told me she saw on Facebook that boat owners were talking about adding sharp spikes to their rudders to send a more violent message to the orcas. The researchers told me this is what they fear, that the orcas are just playing. They come in peace. But the humans will end up attacking them anyway.
+<v Ira Glass>答案是并没有。虎鲸种群之间不进行社交。它们各过各的。根本没有全球阴谋。水手艾普丽尔告诉我，她在 Facebook 上看到船主们在讨论给船舵装上尖刺，给虎鲸发送一个更暴力的信息。研究人员告诉我，这正是他们所担心的，虎鲸只是在玩耍。它们是带着和平来的。但人类最终还是会攻击它们。
+
+00:46:36.970 --> 00:46:46.770
+<v Ira Glass>Chris Benderev is a producer on our show.
+<v Ira Glass>克里斯·本德雷夫是我们节目的制作人。
+
+00:46:46.770 --> 00:47:08.550
+<v Ira Glass>Act 4-- "Jorts and All." So our show today is "Greetings, People of Earth." And I think so many of us, at one point in our lives or another, especially when we're young, feel like we're the alien. Trying to understand and fit in with the humans of this planet. Having experiences that feel very much like "Greetings, People of Earth." Diane Wu spent some time recently with a person who feels that way.
+<v Ira Glass>第四幕，“牛仔短裤及其他”。所以我们今天的节目是“问候，地球人”。我想我们很多人，在人生的某个阶段，尤其是在年轻时，都感觉自己像个外星人。试图理解并融入这个星球的人类。有着非常类似于“问候，地球人”的体验。戴安·吴最近花了一些时间与一个有这种感觉的人相处。
+
+00:47:08.550 --> 00:47:18.810
+<v Diane Wu>The person is a teenager, Gwyn. She's 16. And because she's 16, so many things in her life right now feel like a first-contact experience.
+<v Diane Wu>这个人是一个 16 岁的青少年，格温。因为她 16 岁，她生活中现在的很多事情都感觉像是第一次接触。
+
+00:47:18.810 --> 00:47:39.060
+<v Gwyn>I remember one time this year, I was just like, new stuff is happening every single day. It's crazy. Like, I dyed my eyebrows pink in November, like none of my hair, just that. I was like, I have never done that before. That's crazy. And like, I remember getting in the car for the first time when I had my real license and just being like, this is insane. Like, I can go anywhere, do anything. This is like pure freedom.
+<v Gwyn>我记得今年有一次，我就觉得，每一天都有新鲜事发生。这太疯狂了。比如，我在 11 月把眉毛染成了粉红色，不是头发，只是眉毛。我就想，我从没做过那样的事。这太疯狂了。我还记得第一次拿到正式驾照开车的时候，就感觉，这简直太疯狂了。我可以去任何地方，做任何事。这就像纯粹的自由。
+
+00:47:39.060 --> 00:47:42.190
+<v Diane Wu>Where was the first place you drove?
+<v Diane Wu>你开车的第一个地方是哪儿？
+
+00:47:42.190 --> 00:47:52.060
+<v Gwyn>No! [LAUGHS] I feel like it's just-- OK. The first place I drove was to McDonald's. But I don't think--
+<v Gwyn>不！[笑声] 我觉得这只是——好吧。我开车的第一个地方是麦当劳。但我认为——
+
+00:47:52.060 --> 00:47:53.920
+<v Diane Wu>Is that embarrassing to you?
+<v Diane Wu>这对你来说很尴尬吗？
+
+00:47:53.920 --> 00:47:54.510
+<v Gwyn>It's so embarrassing--
+<v Gwyn>太尴尬了——
+
+00:47:54.510 --> 00:47:54.760
+<v Diane Wu>Why?
+<v Diane Wu>为什么？
+
+00:47:54.760 --> 00:48:07.810
+<v Gwyn>Because that's like so uncool. And that's like, so, like, stereotypical, you know? Like, I would love my first place to be like, oh, no, I went to go, like, salamander watching or I went to go birdwatching or like-- I mean--
+<v Gwyn>因为那太不酷了。而且那就像，太刻板印象了，你知道吗？我希望我的第一个地方是，噢，不，我是去观察火蜥蜴，或者去观鸟，或者——我的意思是——
+
+00:48:07.810 --> 00:48:17.680
+<v Diane Wu>Gwyn, if you can't tell, is very into nature and also can't stand anything that might even have a twinge of cringiness, like McDonald's.
+<v Diane Wu>如果你还没听出来，格温非常喜欢大自然，而且无法忍受任何可能带有一点尴尬感的事情，比如麦当劳。
+
+00:48:17.680 --> 00:48:22.510
+<v Gwyn>It's like-- it's kind of cringey. Also, "cringey" is a cringey word, just so you know. Um.
+<v Gwyn>这就像——这有点尴尬。顺便说一句，“尴尬”这个词本身就挺尴尬的。嗯。
+
+00:48:22.510 --> 00:48:23.650
+<v Diane Wu>Why?
+<v Diane Wu>为什么？
+
+00:48:23.650 --> 00:48:33.790
+<v Gwyn>I guess, it's like, sometimes words get really popular, but once they get to a certain point of too popular, they fall back down to almost embarrassing to say.
+<v Gwyn>我想，就像有时词汇会变得非常流行，但一旦流行到某种程度，再说出口就会变得让人尴尬。
+
+00:48:33.790 --> 00:48:54.790
+<v Diane Wu>She lives in Ellensburg, Washington, a small town in the middle of the state, and goes to school with a lot of ranchers' kids and professors' kids. Gwyn's a sophomore and doesn't belong to any particular clique. She told me if the school was a biological cell, she'd be part of the cytoplasm, the shapeless goo that everything else swims in.
+<v Diane Wu>她住在华盛顿州的埃伦斯堡，一个州中部的小镇，和很多牧场主的孩子和教授的孩子一起上学。格温是二年级学生，不属于任何特定派系。她告诉我，如果学校是一个生物细胞，她会是细胞质的一部分，那是其他一切都游动在其中的无形胶状物。
+
+00:48:54.790 --> 00:49:15.550
+<v Diane Wu>But a year or so ago, she started noticing the skateboarders, this group of six or seven boys. She'd see them in the hallways wearing jorts, baggy jean shorts, looking way edgier than everyone else. Her friends showed her videos that the skateboarders posted on Instagram of their tricks, which really captivated her.
+<v Diane Wu>但一年多前，她开始注意到滑板少年，那是六七个男生的组合。她会在走廊里看到他们穿着牛仔短裤 (jorts)、松垮的牛仔短裤，看起来比其他人都酷得多。她的朋友给她看了那些滑板少年在 Instagram 上发的玩特技的视频，这深深地吸引了她。
+
+00:49:15.550 --> 00:49:31.900
+<v Gwyn>I guess it's like, a lot of people, when you live in like a smaller town, a lot of people do a lot of boring things, I feel like. So a lot of kids, they just like go do Rite Aid. They get like-- They buy stuff. Like, they just buy stuff, drive around, and talk. And, like, that's all the activities they do.
+<v Gwyn>我想，很多人在小城镇生活时，会做很多无聊的事情。所以很多孩子就去 Rite Aid。他们买东西。他们买东西、开车兜风、聊天。而那就是他们做的所有活动。
+
+00:49:31.900 --> 00:49:41.130
+<v Gwyn>And I just like-- I had this idea that all the skaters are just always doing like such cool things. Like, after school, they go to skate park. They're skating. They're like skating down roofs. They're like, you know--
+<v Gwyn>我只是觉得——我总觉得那些滑手总是做些特别酷的事。放学后，他们去滑板场。他们在滑板。他们在屋顶上滑板。他们就像，你知道——
+
+00:49:41.130 --> 00:49:41.940
+<v Diane Wu>Skating roofs?
+<v Diane Wu>屋顶滑板？
+
+00:49:41.940 --> 00:49:42.250
+<v Gwyn>Yeah.
+<v Gwyn>是啊。
+
+00:49:42.250 --> 00:49:43.490
+<v Diane Wu>Down roofs?
+<v Diane Wu>顺着屋顶滑？
+
+00:49:43.490 --> 00:49:50.560
+<v Gwyn>Yeah, and, like, you know, going, like, around town, you know like, climbing on buildings, like, going outside a lot.
+<v Gwyn>是啊，而且，你知道，穿梭在镇上，你懂的，攀爬建筑物，经常到外面去。
+
+00:49:50.560 --> 00:50:23.440
+<v Diane Wu>Then last year, Gwyn met someone who knew how to skate, Lauren-- basically the only girl skater at their school-- and asked Lauren to teach her how to do it, too. Gwyn got her own board back in November. This spring, she quit the tennis team to practice skateboarding instead. Every day she goes and does the two tricks she knows, ollies and shove-its, over and over in the church parking lot across the street from her house where no one can see here. The patch that's smooth enough to skate on is tiny, about the size of two parked cars.
+<v Diane Wu>然后去年，格温认识了一个会滑板的人，劳伦——基本上是他们学校唯一的女生滑手——并让劳伦也教她。格温在 11 月有了自己的滑板。今年春天，她退出了网球队，改练滑板。每天她都会去她房子对面教堂的停车场里，一遍又一遍地练习她知道的两个招式：豚跳和推板，在那里没人能看见她。那块平滑得足够滑板的地方很小，大约只有两个停车位大小。
+
+00:50:23.440 --> 00:50:47.530
+<v Diane Wu>There's a real skate park downtown, and Gwyn's been there with Lauren and other friends. But she's never been brave enough to go alone. That's what she wants to do today, to get over this fear so she can go by herself over the summer. Gwyn is still an alien to this new, unfamiliar world. She does not yet speak the language of the skaters or fully know their customs, but she wants to.
+<v Diane Wu>市中心有个真正的滑板场，格温和劳伦还有其他朋友去过那里。但她从没勇敢到一个人去。这就是她今天想做的事，克服这种恐惧，这样她就能在夏天自己一个人去。格温对于这个陌生而陌生的新世界来说，还是个外星人。她还不怎么会说滑手的语言，也不完全了解他们的习俗，但她想学习。
+
+00:50:47.530 --> 00:51:12.010
+<v Gwyn>I really would like to be, like, part of this culture of skating and, like, know this group of people at my school who skates. But for me, I also don't want to, like, stick out too much in the way of, like, being the worst skater there or, like, being the noob or dressing too much like I'm trying to be a skater, but, like, dressing not like a skater. So it's like that push and pull of, like, trying to find the balance.
+<v Gwyn>我真的很想成为这个滑板文化的一部分，认识学校里滑板的那群人。但对我来说，我也不想太突出，因为成为那里最烂的滑手，或者成为那种“小白”，或者穿得太像我正在努力模仿滑手，但其实并不是。所以这就是想要找到平衡点的拉锯战。
+
+00:51:12.010 --> 00:51:39.340
+<v Diane Wu>Also, Gwyn really wants to try and make friends with the skater guys. There's one in particular she feels like she might have an in with. His name is Horus. He's a junior. A couple of weeks ago, Horus had apparently noticed Gwyn at school and sent a message to her friend Lauren. He asked, "Who's your friend that was wearing the jorts today?" Lauren wrote back, "Gwyn, why?" And Horus responded, "No reason."
+<v Diane Wu>而且，格温真的很想尝试和滑板男交朋友。有一个特别的人，她觉得她或许能搭上话。他叫霍鲁斯。他是三年级学生。几周前，霍鲁斯显然在学校注意到了格温，并给她的朋友劳伦发了一条信息。他问：“今天穿牛仔短裤的那个朋友是谁？”劳伦回信：“格温，怎么了？”霍鲁斯回：“没什么。”
+
+00:51:39.340 --> 00:51:44.550
+<v Gwyn>What does that even mean? I was so confused. I was like, do they just really like jorts or, like, what?
+<v Gwyn>那到底是什么意思？我太困惑了。我在想，他们只是真的喜欢牛仔短裤，还是什么的？
+
+00:51:44.550 --> 00:52:00.870
+<v Diane Wu>Whatever it meant, this was mind blowing. A skater noticed her. So if Horus is at the park today, Gwyn also wants to try and talk to him. But since she's the outsider here, this raises another fear.
+<v Diane Wu>无论那意味着什么，这都太让人震惊了。一个滑板少年注意到了她。所以如果霍鲁斯今天在滑板场，格温也想试着跟他说话。但因为她是那里的外人，这又引起了另一种恐惧。
+
+00:52:00.870 --> 00:52:32.490
+<v Gwyn>No awkwardness. I hate awkwardness. It's like my least favorite feeling in the world. Like, embarrassment, awkwardness, and shame, that's my least favorite. I'd way rather feel angry or sad than those. For some reason, I just feel so afraid of awkward social interactions. So yeah, thinking about even having one conversation with, like, someone at the skate park makes me want to die inside. [LAUGHS]
+<v Gwyn>绝对不能有尴尬。我讨厌尴尬。那是世界上我最讨厌的感觉。比如窘迫、尴尬和羞耻，那是我最讨厌的。我宁愿感觉愤怒或难过也不愿那样。出于某种原因，我太害怕尴尬的社交互动了。所以是的，哪怕想到要和滑板场的人对话一次，我都想死。 [笑声]
+
+00:52:32.490 --> 00:52:38.400
+<v Gwyn>OK. We're approaching the den of beasts. It's, like, behind the bushes.
+<v Gwyn>好吧。我们正在接近野兽巢穴。就在灌木丛后面。
+
+00:52:38.400 --> 00:52:40.200
+<v Diane Wu>How are you feeling right now?
+<v Diane Wu>你现在感觉怎么样？
+
+00:52:40.200 --> 00:52:53.070
+<v Gwyn>I feel like my throat feels a little bit tight. But I'm honestly not seeing very many people. So we're approaching and I can see the skate park. But I'm not seeing anyone yet.
+<v Gwyn>我觉得喉咙有点紧。但我老实说，没看到很多人。所以我们在靠近，我能看到滑板场。但我还没看到任何人。
+
+00:52:53.070 --> 00:53:10.710
+<v Diane Wu>It's a Saturday in June, hot. Gwyn's in jorts, a t-shirt with a green heron on it, and sneakers full of holes from skateboarding. So as not to blow up her spot by being a weird adult at the park with her, I pinned a small mic on her t-shirt and we'll watch and listen from the car.
+<v Diane Wu>那是六月的一个周六，很热。格温穿着牛仔短裤，一件印有绿鹭的 T 恤，还有因为练滑板磨得满是破洞的运动鞋。为了不因为我像个奇怪的大人跟在她身边而毁掉她的表现，我在她的 T 恤上别了一个小麦克风，我们将在车里观察和倾听。
+
+00:53:10.710 --> 00:53:20.910
+<v Gwyn>I see one person I've never seen there before. But I just saw them do a trick that was pretty impressive. So I'm a little fearful. And then I see one other person who is a really good skateboarder.
+<v Gwyn>我看到一个人，我以前从没在那儿见过。但我刚才看到他做了一个相当令人印象深刻的动作。所以我有点害怕。然后我又看到另外一个人，他是个非常好的滑板手。
+
+00:53:20.910 --> 00:53:22.380
+<v Diane Wu>He's the one in the black stripes?
+<v Diane Wu>是穿黑条纹那个吗？
+
+00:53:22.380 --> 00:53:33.970
+<v Gwyn>Oh my gosh. No, he's so good. And he's gonna-- He can do tre flips, which are really impressive. And like, I'm just gonna have to be in the corner alone, but let's go try it out.
+<v Gwyn>天哪。不，他太厉害了。而且他要——他能做三连翻，那真的太令人印象深刻了。我得一个人躲在角落里，但让我们试试吧。
+
+00:53:33.970 --> 00:53:34.860
+<v Diane Wu>OK.
+<v Diane Wu>好的。
+
+00:53:34.860 --> 00:53:35.760
+<v Gwyn>Thank you.
+<v Gwyn>谢谢。
+
+00:53:35.760 --> 00:53:37.020
+<v Diane Wu>Good luck.
+<v Diane Wu>祝你好运。
+
+00:53:37.020 --> 00:54:02.970
+<v Ira Glass>Horus isn't here yet. So Gwyn gets to part one of her mission-- the skating. Gwyn walks up to the edge of the park, and then without making eye contact with anyone, gets on her board and beelines for the far side, putting as much distance between herself and the three other skaters as possible. She does a few of her ollies and shove-its, then ducks behind the half pipe to whisper into the microphone.
+<v Ira Glass>霍鲁斯还没来。所以格温进入了任务的第一部分——滑板。格温走到滑板场边缘，然后不与任何人对视，跳上滑板，直奔远端，尽可能把她和其他三个滑手拉开距离。她做了几个豚跳和推板动作，然后躲到半管设施后面，对着麦克风耳语。
+
+00:54:02.970 --> 00:54:09.570
+<v Gwyn>I just saw one of them look at me. That was awkward. I'm hiding. I'm making it more awkward.
+<v Gwyn>我刚看到他们中的一个看我了。那太尴尬了。我在躲。我让事情变得更尴尬了。
+
+00:54:09.570 --> 00:54:17.550
+<v Diane Wu>The three skaters, as far as I can tell, have barely registered Gwyn's presence. But that's not what it feels like inside her head.
+<v Diane Wu>那三个滑手，据我所看，几乎没意识到格温的存在。但那并不是她脑子里感受到的那样。
+
+00:54:17.550 --> 00:54:20.460
+<v Diane Wu>[SKATEBOARD CLACKING]
+<v Diane Wu>[滑板碰撞声]
+
+00:54:20.460 --> 00:54:26.770
+<v Gwyn>I just fell. That was embarrassing.
+<v Gwyn>我刚摔倒了。那太尴尬了。
+
+00:54:26.770 --> 00:54:38.890
+<v Diane Wu>Nobody else seems to notice. Gwyn practices some more tricks, nothing too big. And as soon as the other skaters leave 12 minutes later, she hurries back to the car to check in.
+<v Diane Wu>似乎没人注意到。格温又练了一些动作，不是什么大动作。当其他滑手在 12 分钟后离开时，她赶紧回到车里进行检查。
+
+00:54:38.890 --> 00:54:44.760
+<v Gwyn>I was definitely-- It was way not as bad as I thought it would be. It was way less bad than I thought.
+<v Gwyn>我绝对——情况远没有我想的那么糟。情况比我想象的要好得多。
+
+00:54:44.760 --> 00:54:45.540
+<v Diane Wu>Being there by yourself?
+<v Diane Wu>一个人滑滑板？
+
+00:54:45.540 --> 00:54:52.410
+<v Gwyn>Yeah, I feel like I could do this again. And I think more people will come. Let's see if there's an update. I think--
+<v Gwyn>是的，我觉得我能再做一次。我想会有人来的。看看吧。我想——
+
+00:54:52.410 --> 00:55:11.160
+<v Diane Wu>Solo skateboarding-- done. Gwyn moves on very quickly. Because the next part of the mission, talking to Horus, is looming. Gwyn brings in reinforcements for this step. She texts a couple of friends. And they all show up at the park. It is so hot outside.
+<v Diane Wu>独自滑板——完成。格温移动得非常快。因为任务的下一部分，与霍鲁斯交谈，即将到来。格温为此找来了增援。她给几个朋友发了短信。他们都出现在滑板场。外面太热了。
+
+00:55:11.160 --> 00:55:13.790
+<v Gwyn>Do I look really sweaty?
+<v Gwyn>我看起来真的很汗吗？
+
+00:55:13.790 --> 00:55:14.730
+<v Lauren>No, not at all
+<v Lauren>不，一点也不。
+
+00:55:14.730 --> 00:55:17.100
+<v Gwyn>How bad do I look, 1 to 10, right now?
+<v Gwyn>我现在看起来有多糟，1 到 10 分？
+
+00:55:17.100 --> 00:55:17.340
+<v Lauren>1
+<v Lauren>1
+
+00:55:17.340 --> 00:55:17.760
+<v Cooper>Like 2.
+<v Cooper>大约 2 吧。
+
+00:55:17.760 --> 00:55:20.070
+<v Kayden>Like a 2, yeah.
+<v Kayden>像 2，是的。
+
+00:55:20.070 --> 00:55:23.350
+<v Gwyn>Thank you. You guys all look like 1, too.
+<v Gwyn>谢谢。你们看起来也像 1 分。
+
+00:55:23.350 --> 00:55:33.690
+<v Diane Wu>One of Gwyn's friends who shows up, Cooper, is friends with Horus, not from skating. Cooper is a beginner like Gwyn. He has this random update on Horus.
+<v Diane Wu>格温的一位朋友库珀出现了，他是霍鲁斯的朋友，但不是因为滑板。库珀是个像格温一样的初学者。他偶然得知了关于霍鲁斯的一个更新。
+
+00:55:33.690 --> 00:55:37.230
+<v Cooper>We were just snapping, and he was like-- also, he was in a helicopter yesterday.
+<v Cooper>我们刚还在发快照，他是——而且他昨天还在直升机里。
+
+00:55:37.230 --> 00:55:38.580
+<v Gwyn>What? Why?
+<v Gwyn>什么？为什么？
+
+00:55:38.580 --> 00:55:39.270
+<v Cooper>I don't know.
+<v Cooper>我不知道。
+
+00:55:39.270 --> 00:55:47.490
+<v Diane Wu>Cooper pulls up the video and everyone crowds around his phone. It's a Snapchat of two boys strapped into a helicopter flying over mountains.
+<v Diane Wu>库珀调出视频，大家围着他的手机。那是一个快照，两个男孩绑在直升机上飞过山脉。
+
+00:55:47.490 --> 00:55:47.740
+<v Gwyn>What?
+<v Gwyn>什么？
+
+00:55:47.740 --> 00:55:48.390
+<v Lauren>That's so cool.
+<v Lauren>太酷了。
+
+00:55:48.390 --> 00:55:50.010
+<v Gwyn>Whoa, wait, who is that?
+<v Gwyn>哇，等等，那是谁？
+
+00:55:50.010 --> 00:55:51.240
+<v Cooper>It's Horus and Leo.
+<v Cooper>是霍鲁斯和利奥。
+
+00:55:51.240 --> 00:56:00.390
+<v Gwyn>Wait, this is crazy. You see, this is what I was saying about, like, I think about the skaters always doing, like, these crazy, cool activities all the time. Perfect example right here.
+<v Gwyn>等等，这太疯狂了。你看，这就是我说的，我觉得滑板少年总是做这些疯狂、酷的活动。这就是个完美的例子。
+
+00:56:00.390 --> 00:56:01.230
+<v Gwyn>[LAUGHTER]
+<v Gwyn>[笑声]
+
+00:56:01.230 --> 00:56:04.660
+<v Gwyn>Like, even if it's not skating, like, they're always going to Seattle and stuff like that.
+<v Gwyn>即便不是滑板，他们也总是去西雅图之类的地方。
+
+00:56:04.660 --> 00:56:08.250
+<v Cooper>Oh, yeah, or like thrifting to Yakima.
+<v Cooper>哦，是的，或者是去亚基马逛二手店。
+
+00:56:08.250 --> 00:56:09.930
+<v Diane Wu>Gwyn looks up from the video.
+<v Diane Wu>格温从视频中抬起头。
+
+00:56:09.930 --> 00:56:13.980
+<v Gwyn>That is insane. OK, now we have-- OK, it's good, we have a talking point. Also--
+<v Gwyn>太疯狂了。好吧，现在我们有——好的，没关系，我们有谈话的切入点了。还有——
+
+00:56:13.980 --> 00:56:16.080
+<v Cooper>You could be like, I heard you fly a helicopter.
+<v Cooper>你可以说，我听说你开直升机了。
+
+00:56:16.080 --> 00:56:17.250
+<v Gwyn>Yeah, but that's the thing.
+<v Gwyn>是啊，但重点在这儿。
+
+00:56:17.250 --> 00:56:36.880
+<v Diane Wu>A talking point, but still no Horus. Almost two hours pass. Then, a big red truck pulls up right in front of me and someone gets out on the other side. I can't see Gwyn anymore or anyone else. But I figure out pretty quickly who it is because here is the next thing Gwyn says.
+<v Diane Wu>切入点有了，但还是没看到霍鲁斯。将近两个小时过去了。然后，一辆红色大卡车停在我正前方，有人从另一边下来。我看不见格温或其他任何人了。但我很快就猜出是谁了，因为格温说了下面这句话。
+
+00:56:36.880 --> 00:56:39.000
+<v Gwyn>Wait, I heard you went in a helicopter yesterday.
+<v Gwyn>等等，我听说你昨天坐直升机了。
+
+00:56:39.000 --> 00:56:39.900
+<v Horus>Dude, yeah, I did. That was something.
+<v Horus>兄弟，是啊，我坐了。那真是不一般。
+
+00:56:39.900 --> 00:56:42.690
+<v Gwyn>What happ-- wait, why? What-- Tell us the story.
+<v Gwyn>什么——等等，为什么？什么——告诉我们故事吧。
+
+00:56:42.690 --> 00:56:48.960
+<v Diane Wu>Here it is, the sound of a pretty not-awkward conversation between Gwyn and her skater idol.
+<v Diane Wu>来了，那是格温和她的滑板偶像之间一段相当不尴尬的对话的声音。
+
+00:56:48.960 --> 00:56:56.920
+<v Horus>Um. It was for Leo's, uh, birthday, uh, present. His grandpa gave him a late birthday present.
+<v Horus>嗯。那是为了利奥的，呃，生日礼物。他爷爷给他的迟到的生日礼物。
+
+00:56:56.920 --> 00:56:58.750
+<v Gwyn>To go in a helicopter?
+<v Gwyn>去坐直升机？
+
+00:56:58.750 --> 00:57:00.070
+<v Cooper>Oh, these were at Goodwill?
+<v Cooper>哦，这些是在 Goodwill 买的？
+
+00:57:00.070 --> 00:57:01.240
+<v Horus>Yeah.
+<v Horus>是啊。
+
+00:57:01.240 --> 00:57:01.900
+<v Cooper>That's crazy.
+<v Cooper>太疯狂了。
+
+00:57:01.900 --> 00:57:02.950
+<v Gwyn>They're like brand new.
+<v Gwyn>它们就像全新的一样。
+
+00:57:02.950 --> 00:57:05.710
+<v Horus>I was gonna buy the Vans, but they're 40 bucks.
+<v Horus>我本来想买这双 Vans，但要 40 美元。
+
+00:57:05.710 --> 00:57:23.490
+<v Diane Wu>Gwyn asks Horus in quick succession about the helicopter, his shoes, Pokemon cards-- which this group of teenagers is surprisingly really into. Everything is going great. Gwyn, who'd been so scared of awkwardness, is now so comfortable that she signals for me to come over from the car.
+<v Diane Wu>格温迅速连续地问霍鲁斯关于直升机、他的鞋子、宝可梦卡片——这群青少年竟然对此非常感兴趣。一切进展顺利。格温，曾经那么害怕尴尬，现在却如此自如，她示意我从车那边走过来。
+
+00:57:23.490 --> 00:57:24.460
+<v Diane Wu>I'm Diane.
+<v Diane Wu>我是戴安。
+
+00:57:24.460 --> 00:57:25.000
+<v Horus>Nice to meet you.
+<v Horus>很高兴见到你。
+
+00:57:25.000 --> 00:57:26.410
+<v Diane Wu>Nice to meet you.
+<v Diane Wu>很高兴见到你。
+
+00:57:26.410 --> 00:57:48.490
+<v Ira Glass>Horus is compact, tidy, and kind of looks like he could be in a boy band. His hair is bleached light brown. We sit on the curb at the side of the skate park, Gwyn and her friends and Horus and me. Gwyn boldly plugs ahead, asking Horus some kind of interview-sounding questions, confirming his status as a bona fide cool skater.
+<v Ira Glass>霍鲁斯身材精干、整洁，看起来就像是个偶像男团的成员。他的头发漂成了浅棕色。我们坐在滑板场边上的路缘上，格温和她的朋友们，还有霍鲁斯和我。格温大胆地继续下去，问了霍鲁斯一些听起来像是面试的问题，确认他作为一名真正的酷滑板手的身份。
+
+00:57:48.490 --> 00:57:58.680
+<v Gwyn>Um, OK, what's the time-- like, when do you feel-- Like, when you come to a skate park-- I already feel like I know the answer to this-- but do you feel stressed out or, like, worried what people are going to think?
+<v Gwyn>嗯，好的，什么时候——你什么时候会感觉到——当你来到滑板场时——我觉得我已经知道答案了——你会感到压力，或者说担心别人怎么看吗？
+
+00:57:58.680 --> 00:57:59.770
+<v Horus>Um, I used to.
+<v Horus>嗯，我曾经会。
+
+00:57:59.770 --> 00:58:00.130
+<v Gwyn>Yeah?
+<v Gwyn>是吗？
+
+00:58:00.130 --> 00:58:03.190
+<v Horus>I used to be. But I'm kind of just here to do my thing.
+<v Horus>我曾经是。但我现在基本上只是来做我自己的事。
+
+00:58:03.190 --> 00:58:07.270
+<v Gwyn>Is there anyone that is ever here that makes you nervous to be here?
+<v Gwyn>这儿有人让你感到紧张吗？
+
+00:58:07.270 --> 00:58:08.170
+<v Horus>Not really.
+<v Horus>没真的感到。
+
+00:58:08.170 --> 00:58:08.380
+<v Gwyn>No?
+<v Gwyn>没？
+
+00:58:08.380 --> 00:58:09.100
+<v Horus>Not anymore.
+<v Horus>没那么感到。
+
+00:58:09.100 --> 00:58:09.470
+<v Gwyn>Yeah.
+<v Gwyn>是啊。
+
+00:58:09.470 --> 00:58:12.130
+<v Horus>I mean, there used to be like the really good people, but now I'm just--
+<v Horus>我的意思是，过去曾经有像真正厉害的人，但现在我只是——
+
+00:58:12.130 --> 00:58:13.510
+<v Cooper>One of those people now.
+<v Cooper>现在你自己就是其中之一了。
+
+00:58:13.510 --> 00:58:14.080
+<v Horus>Yeah.
+<v Horus>是啊。
+
+00:58:14.080 --> 00:58:15.940
+<v Gwyn>Yeah, you're like one of the top dogs at the skate park.
+<v Gwyn>是啊，你就像滑板场里的顶尖高手。
+
+00:58:15.940 --> 00:58:17.710
+<v Horus>Yeah, top dogs.
+<v Horus>是啊，顶尖高手。
+
+00:58:17.710 --> 00:58:22.450
+<v Gwyn>What-- if the skate park is not what's stressing you out, then what does? [LAUGHS]
+<v Gwyn>什么——如果滑板场不是让你有压力的东西，那什么是？ [笑声]
+
+00:58:22.450 --> 00:58:41.440
+<v Horus>School, I guess, kind of because-- I don't know. Um, I don't talk that much in classes. So it's like, I'm kind of scared. And my grades are like really bad. And I'm never really paying attention in class. I'm always scared they're gonna choose me and then I'm, like, not gonna know what I'm going to say.
+<v Horus>学校吧，我想，算是因为——我不知道。嗯。我在课堂上不怎么说话。所以我有点害怕。而且我的成绩非常差。我在课上从不注意听讲。我总是害怕老师会点我名，然后我——我就不知道该说什么了。
+
+00:58:41.440 --> 00:58:45.740
+<v Gwyn>So do you think people would-- you think people would judge you because you have bad grades and, I guess, assume that you're not smart?
+<v Gwyn>所以你认为人们会——你认为人们会因为你成绩差而评判你，并假设你不聪明吗？
+
+00:58:45.740 --> 00:58:50.170
+<v Horus>Yeah. Yeah.
+<v Horus>会。会。
+
+00:58:50.170 --> 00:59:01.210
+<v Diane Wu>Cooper jumps in to tell Horus he should see how good Gwyn's ollie has gotten. The three of them grab their boards and head back into the skate park. And Horus gives Gwyn pointers on how to do a shove-it while moving.
+<v Diane Wu>库珀跳出来告诉霍鲁斯，他应该看看格温的豚跳练得有多好了。他们三个拿上滑板回到了滑板场。霍鲁斯给格温指点如何做移动中的推板。
+
+00:59:01.210 --> 00:59:03.410
+<v Gwyn>Yeah, I've been practicing.
+<v Gwyn>是啊，我一直在练。
+
+00:59:03.410 --> 00:59:04.720
+<v Gwyn>[SKATEBOARD CLACKS]
+<v Gwyn>[滑板碰撞声]
+
+00:59:04.720 --> 00:59:06.940
+<v Gwyn>Let's try it.
+<v Gwyn>让我们试试。
+
+00:59:06.940 --> 00:59:26.600
+<v Diane Wu>So the alien arrives and tries desperately to pretend she doesn't have three eyes and a giant head and long, bony fingers. And it works. The humans barely notice. "You want to be one of us," they say. "Put your foot a little higher on the board."
+<v Diane Wu>所以外星人到了，试图拼命掩盖她有三只眼、一个巨大的脑袋和长长的骨感手指的事实。而且奏效了。人类几乎没察觉。“你想成为我们的一员，”他们说，“把脚在板上放高一点。”
+
+00:59:26.600 --> 00:59:35.260
+<v Diane Wu>[SKATEBOARD CLACKING]
+<v Diane Wu>[滑板碰撞声]
+
+00:59:35.260 --> 01:00:03.450
+<v Ira Glass>Diane Wu is one of the producers of our show.
+<v Ira Glass>戴安·吴是我们节目的制作人之一。
+
+01:00:03.450 --> 01:00:23.310
+<v Ira Glass>Our program was produced today by Chris Benderev with Alaa Mostafa. The people who put together today's show include-- Bim Adewunmi, Elna Baker, Phia Bennin, Sean Cole, Michael Comite, Aviva DeKornfeld, Bethel Habte, Valerie Kipnis, Miki Meek, Stowe Nelson, Sara Parrish, Nadia Reiman, Ryan Rumery, Ike Sriskandarajah, Lilly Sullivan, Frances Swanson, Christopher Swetala, Matt Tierney and Julie Whitaker.
+<v Ira Glass>今天的节目由克里斯·本德雷夫和阿拉·穆斯塔法制作。参与今天节目筹备的工作人员包括——比姆·阿德温米、埃尔娜·贝克、菲娅·贝宁、肖恩·科尔、迈克尔·科米特、阿维娃·德科恩菲尔德、贝瑟尔·哈布特、瓦莱丽·基普尼斯、米基·米克、斯托·尼尔森、萨拉·帕里什、纳迪亚·雷曼、瑞安·鲁梅里、艾克·斯里斯坎达拉贾、莉莉·沙利文、弗朗西斯·斯旺森、克里斯托弗·斯威塔拉、马特·蒂尔尼和朱莉·惠特克。
+
+01:00:23.310 --> 01:00:43.590
+<v Ira Glass>Managing editor-- Sarah Abdurrahman. Our senior editor is David Kestenbaum. Our executive editor is Emanuele Berry. Special Thanks today to Tomer Ullman, Michael Frank, Melanie Mitchell, Jeremy Howard, Jason Stern, and Deborah Giles. Our website-- thisamericanlife.org. This American Life is delivered to public radio stations by PRX, the Public Radio Exchange.
+<v Ira Glass>执行主编——萨拉·阿卜杜拉赫曼。我们的高级编辑是戴维·凯斯滕鲍姆。我们的执行编辑是伊曼纽尔·贝里。今天特别感谢托默·厄尔曼、迈克尔·弗兰克、梅兰妮·米切尔、杰里米·霍华德、杰森·斯特恩和黛博拉·贾尔斯。我们的网站——thisamericanlife.org。《美国生活》通过公共广播交流中心 PRX 传送给公共广播电台。
+
+01:00:43.590 --> 01:00:57.090
+<v Ira Glass>Thanks, as always, to our program's co-founder Mr. Torey Malatia. You know his new passion? Bartering. Bartering. Yes, he doesn't use money, whenever that's possible. I bought him lunch this week. Instead of giving me a cash, he told me this about how he'd pay me back.
+<v Ira Glass>感谢一如既往我们节目的联合创始人托雷·马拉蒂亚先生。你知道他的新爱好是什么吗？以物易物。以物易物。是的，只要可能，他就不用钱。这周我给他买了午饭。他没给我现金，而是告诉我他打算怎么报答我。
+
+01:00:57.090 --> 01:01:02.160
+<v Sebastien Bubeck>I have a book, nine eggs, a laptop, a bottle and a nail.
+<v Sebastien Bubeck>我有一本书、九个鸡蛋、笔记本电脑、瓶子和一个钉子。
+
+01:01:02.160 --> 01:01:08.280
+<v Ira Glass>I'm Ira Glass. Back next week, hopefully, with my actual voice and more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯。下周再见，希望届时我的声音恢复正常，并带来更多《美国生活》的故事。
+
+01:01:08.280 --> 01:01:13.280
+<v Ira Glass>["HERE COME THE MARTIAN MARTIANS" BY JONATHAN RICHMAN & THE MODERN LOVERS]
+<v Ira Glass>["火星火星人来了"，乔纳森·里奇曼与摩登恋人合唱团]
