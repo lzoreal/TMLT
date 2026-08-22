@@ -1,0 +1,1081 @@
+WEBVTT
+
+00:00:00.560 --> 00:00:24.650
+<v Ira Glass>Here's how it works. You're a doctor, you help some patient, and you want to get paid for it. So you have to choose a code that describes what you did to put on the insurance form. And it's an arcane language of its own, with tens of thousands of codes. And just make things more confusing, every insurance company interprets the codes differently. So even a simple procedure, the simplest procedure, giving somebody a shot, can become fantastically complex if you want to be reimbursed for it by insurance.
+<v Ira Glass>运作方式是这样的。你是一名医生，为病人提供医疗服务，并希望因此获得报酬。你必须在保险表格上填写一个能描述你所做医疗服务的代码。这是一套晦涩难懂的专属语言，包含数以万计的代码。更让人困惑的是，每家保险公司对这些代码的解读都不尽相同。所以，即使是给某人打一针这样简单的医疗行为，如果想向保险公司报销，也会变得异常复杂。
+
+00:00:24.650 --> 00:00:50.540
+<v Ira Glass>Take the new swine flu vaccine. The American Academy of Family Physicians put out a guide for physicians on how to code this. CIGNA uses a new G9141 code, but Aetna wants you to use codes that indicate the age of the patient, 90465 to 90468 for kids, 90471 to 90474 for adults. The vaccine itself is free, but United Health Care wants you to say it costs $0.01 because its computers won't recognize a 0.
+<v Ira Glass>以新型猪流感疫苗为例。美国美国家庭医师学会为医生发布了一份编码指南。信诺保险（CIGNA）使用新的 G9141 代码，但安泰保险（Aetna）要求使用能反映病人年龄的代码，儿童使用 90465 至 90468，成人使用 90471 至 90474。疫苗本身是免费的，但联合健康保险（United Health Care）要求你填报 0.01 美元，因为它的电脑无法识别数字 0。
+
+00:00:50.540 --> 00:01:04.010
+<v Ira Glass>And if you're giving somebody the swine flu shot at the same time as the regular flu shot, well then you do a 90470 plus the other codes. Though if you used the 90470, you shouldn't use any codes written since the 2010 code book came out. Lost yet?
+<v Ira Glass>如果你在为某人接种猪流感疫苗的同时接种普通流感疫苗，那么你就要使用 90470 加上其他代码。尽管如果你使用了 90470，就不应该再使用 2010 年版编码手册发布后编写的任何代码。晕了吗？
+
+00:01:04.010 --> 00:01:14.600
+<v Rob Lamberts>There are things daily that are hard to code. People, when they come into your office, they come in with my arms feel weak. Well, there is no code for that.
+<v Rob Lamberts>生活中每天都有一些很难进行编码的事情。当人们来到诊所时，他们会说我的手臂感觉无力。嗯，对此并没有相应的代码。
+
+00:01:14.600 --> 00:01:20.140
+<v Ira Glass>Rob Lamberts is a doctor in suburban Georgia. He also writes a blog called, "Musings of a Distractible Mind."
+<v Ira Glass>罗布·兰伯特（Rob Lamberts）是乔治亚州郊区的一名医生。他还在经营一个名为“分心大脑的沉思”的博客。
+
+00:01:20.140 --> 00:01:47.360
+<v Rob Lamberts>I mean, when you think about it, we have four physicians in our practice and two mid-levels. And we have, I think, four full-time billing staff to help us figure out this whole process. Well, that's a lot of percent of money of our practice that's going towards just making sure our billing is working well. I suppose it helps the recession to have this complexity because it hires more people to do coding.
+<v Rob Lamberts>我的意思是，想想看，我们的诊所有四名医生和两名中级医疗人员。我想我们有四名全职计费人员来帮助我们处理整个流程。好吧，诊所很大一部分收入都花在了确保计费系统正常运行上。我想这种复杂性对经济衰退有帮助，因为它雇用了更多人来从事编码工作。
+
+00:01:47.360 --> 00:01:49.250
+<v Ira Glass>It's a growing part of the economy.
+<v Ira Glass>这是经济中一个不断增长的部分。
+
+00:01:49.250 --> 00:01:50.950
+<v Rob Lamberts>Yeah, unfortunately.
+<v Rob Lamberts>是的，不幸的是。
+
+00:01:50.950 --> 00:02:16.040
+<v Ira Glass>There is no joke. There are schools to teach you medical coding. There are conferences whose seminars have titles like, "Keep Your 99214 and 99215 Use on the Up and Up." The American Association of Professional Coders-- and yes, there is such a thing-- says there are now 200,000 medical coders in the United States. And the Bureau of Labor Statistics says these jobs are on the rise. They're going to rise 18% in a decade. Quote, "faster than the average for all occupations."
+<v Ira Glass>这不是笑话。确实有教授医疗编码的学校。有些会议的研讨会标题如“如何确保你的 99214 和 99215 代码使用合规”。美国专业编码员协会——是的，确实有这个组织——称美国目前有 20 万名医疗编码员。美国劳工统计局表示，这些工作正在增加。十年内将增长 18%。引用一下，“增速高于所有职业的平均水平”。
+
+00:02:16.040 --> 00:02:44.270
+<v Ira Glass>Dr. Lamberts estimates that he and his partner spend 20% to 25% of their revenue on the billing department, and on codes that don't go through. When they send in a wrong code, write 401 instead of 401.0, or we've got a modifier, or don't realize that they've changed the codes, the insurance company doesn't pay. He points out that you and I are paying for these armies of coders, who work with doctors and hospitals on one side, and insurance companies on the other. All this money spent that doesn't make anybody healthier. And by the way, doesn't go to doctors.
+<v Ira Glass>兰伯特医生估计，他和合伙人将收入的 20% 到 25% 花在了计费部门以及那些无法通过审核的代码上。当他们发送错误的代码时，比如写了 401 而不是 401.0，或者是有修饰符没填，或者没意识到代码已经更新了，保险公司就不会赔付。他指出，你和我正在为这些医疗编码员大军买单，他们一方面与医生和医院合作，另一方面与保险公司打交道。所有这些钱花出去，却没让任何人变得更健康。顺便说一句，这些钱也没给医生。
+
+00:02:44.270 --> 00:02:50.480
+<v Rob Lamberts>What I'm being paid per visit has not really changed. If anything, it's dropped a little bit.
+<v Rob Lamberts>我每次就诊获得的报酬并没有真正改变。如果有的话，甚至还下降了一点。
+
+00:02:50.480 --> 00:03:31.460
+<v Ira Glass>Well today on our program we bring you the second of two hours that we're doing on health care in America. The first was last week. Today we look at the crazy Rube Goldberg system that we have for insurance in this country, where there's a code for an injury involving spacecraft, E845, but not one for weak arms. We look at how our insurance system affects everything else in our health care system. From WBEZ Chicago it's This American Life distributed by Public Radio International, I'm Ira Glass. Our show today in four acts. We guarantee you the most entertaining hour you're ever going to hear on the insurance industry. Stay with us.
+<v Ira Glass>今天我们的节目带来了我们关于美国医疗保健的两小时专题报道的第二部分。第一部分是在上周。今天，我们来看看这个国家混乱的鲁布·戈德堡式（Rube Goldberg）保险系统，里面竟然有涉及太空船损伤的编码 E845，却没有针对手臂无力的编码。我们来看看我们的保险系统如何影响医疗保健系统的其他各个方面。这里是 WBEZ 芝加哥的《美国生活》（This American Life），由公共广播国际发行，我是艾拉·格拉斯（Ira Glass）。我们今天的节目分为四幕。我们保证这将是你听过的关于保险业最精彩的一小时。请继续收听。
+
+00:03:31.460 --> 00:03:35.040
+<v Ira Glass>"Act One, One Pill, Two Pill, Red Pill, Blue Pill."
+<v Ira Glass>“第一幕，一颗药丸，两颗药丸，红色药丸，蓝色药丸。”
+
+00:03:35.040 --> 00:03:42.510
+<v Ira Glass>Today's show by the way, is a co-production with NPR News . We have three stories today from the Planet Money team of economics reporters.
+<v Ira Glass>顺便说一下，今天的节目是与美国国家公共电台新闻部（NPR News）共同制作的。我们今天有三个故事来自 Planet Money 经济记者团队。
+
+00:03:42.510 --> 00:04:01.760
+<v Ira Glass>One thing that makes our insurance system so hard to understand is that so much of it is invisible to us. We get these insurance statements that are nearly incomprehensible with those insurance codes and prices that make no sense, and some things get covered, and some don't. As President Obama's put it, "If we knew more about our health care choices, we'd choose better."
+<v Ira Glass>我们的保险系统之所以如此难以理解，其中一个原因是它对我们来说太隐蔽了。我们收到的保险结单几乎令人费解，那些保险代码和价格完全没道理，有些项目报销，有些则不报销。正如奥巴马总统所言，“如果我们对医疗保健的选择了解更多，我们就会做出更好的选择。”
+
+00:04:01.760 --> 00:04:14.630
+<v Barack Obama>If there's a blue pill and red pill, and the blue pill is half the price of the red pill and works just as well, why not pay half price?
+<v Barack Obama>如果有一颗蓝色药丸和一颗红色药丸，蓝色药丸的价格是红色药丸的一半，且效果一样好，为什么不付一半的价格呢？
+
+00:04:14.630 --> 00:04:26.760
+<v Ira Glass>Thing is, the fight over red pills and blue pills is decades old. It's one of those things that our insurance companies are deeply involved in that we are barely aware of. Planet Money reporter Chana  Joffe-Walt tells more.
+<v Ira Glass>问题在于，关于红药丸和蓝药丸的争夺已经持续了几十年。这是保险公司深度参与，而我们几乎察觉不到的事情之一。Planet Money 记者查娜·乔菲-沃尔特（Chana Joffe-Walt）对此进行了更多报道。
+
+00:04:26.760 --> 00:04:43.650
+<v Chana Joffe-Walt>Ted Sarah is in the middle of a war. It's been going on for many years and involves billions of dollars. A lot of us are in this war, and like Ted, we don't even know it. He stumbled onto the battlefield because he's got pimples. Pimples and a card.
+<v Chana Joffe-Walt>泰德·萨拉（Ted Sarah）正处于战争之中。这场战争已经持续多年，涉及数十亿美元。我们很多人都身处这场战争中，像泰德一样，我们甚至不知道。他闯入战场是因为他长了痘痘。痘痘和一张卡。
+
+00:04:43.650 --> 00:04:47.070
+<v Ted>It is called the SOLODYN Patient Access Card.
+<v Ted>它被称为 SOLODYN 患者获取卡（SOLODYN Patient Access Card）。
+
+00:04:47.070 --> 00:04:49.300
+<v Chana Joffe-Walt>What's it look like?
+<v Chana Joffe-Walt>它看起来是什么样的？
+
+00:04:49.300 --> 00:04:53.080
+<v Ted>It looks like a little credit card. It's white and blue.
+<v Ted>它看起来像一张小信用卡。它是白蓝相间的。
+
+00:04:53.080 --> 00:05:15.800
+<v Chana Joffe-Walt>The SOLODYN Patient Access Card is just the latest weapon in this war. It's an arms race, really, that's been escalating for decades. There have been moves and counter-moves before. This war, it is a war over drug copayments.
+<v Chana Joffe-Walt>SOLODYN 患者获取卡只是这场战争中的最新武器。这确实是一场已经升级了几十年的军备竞赛。以前也有过各种动作和反制措施。这场战争是关于药品共同支付（copayment）的战争。
+
+00:05:15.800 --> 00:05:54.840
+<v Chana Joffe-Walt>If you don't, say, run an insurance company, you probably hate copays. They're a way to make you pay for your drugs at the pharmacy, even though you're insured. Which seems kind of evil, right? But I tracked down an evil insurance VP, Eileen Wood, who actually was pretty personable. And she said, no, no, no. Copays are an insurers special little way of yelling at us. There are drugs that cost $1,000, there are drugs that cost $5. When you're insured, you don't care. You don't even know. So the insurers put a $30 copay on one and $10 copay on the other. They're giving you a hint that there is a difference in the drug's total cost.
+<v Chana Joffe-Walt>如果你不是经营保险公司的，你可能讨厌共同支付（copays）。它们是你即使投了保，在药房买药时仍需自己支付费用的方式。这听起来有点邪恶，对吧？但我找到了一位“邪恶”的保险副总裁艾琳·伍德（Eileen Wood），她实际上非常平易近人。她说，不，不，不。共同支付是保险公司向我们大喊大叫的特殊方式。有的药价值 1000 美元，有的药价值 5 美元。当你投保后，你根本不在乎。你甚至不知道价格。所以保险公司给一个设 30 美元的共付额，另一个设 10 美元。他们在给你暗示，药品总成本是有差异的。
+
+00:05:54.840 --> 00:06:03.260
+<v Eileen Wood>And the consumer doesn't see that, and so we struggle to try to shine the light on that and get called the bad guy.
+<v Eileen Wood>消费者看不到这一点，所以当我们试图揭露这一点时，就会被叫作坏人。
+
+00:06:03.260 --> 00:06:04.610
+<v Chana Joffe-Walt>You do get called the bad guy a lot?
+<v Chana Joffe-Walt>你确实经常被叫作坏人吗？
+
+00:06:04.610 --> 00:06:06.870
+<v Eileen Wood>Yeah, we do.
+<v Eileen Wood>是的，我们经常被叫。
+
+00:06:06.870 --> 00:06:27.080
+<v Chana Joffe-Walt>So copays were basically a bad guy's way of doing something good for everyone. That's the way Eileen sees it, except for the bad guy thing. Because if insurers could discourage us from buying expensive drugs, it's not just that they would save money, we would save money. They could charge us less in premiums, which we all want.
+<v Chana Joffe-Walt>所以共同支付基本上是坏人做善事的一种方式。这就是艾琳的看法，除了“坏人”这个标签。因为如果保险公司能阻止我们购买昂贵的药物，不仅他们能省钱，我们也能省钱。他们可以降低保费，这是我们大家都想要的。
+
+00:06:27.080 --> 00:06:47.500
+<v Chana Joffe-Walt>By the 1990s, insurance companies had it down. Copays were working really well. The insurers felt like they were winning the war, which was pretty gratifying to people like Eileen Wood. She had watched for years as drug companies came out with slightly tweaked versions of existing generics and sold them for 10 times the cost.
+<v Chana Joffe-Walt>到了 20 世纪 90 年代，保险公司已经掌握了诀窍。共同支付发挥了很好的作用。保险公司觉得他们正在赢得这场战争，这让像艾琳·伍德这样的人感到非常满足。多年来，她一直看着制药公司推出对现有仿制药略作改动的新版本，并以 10 倍的价格出售。
+
+00:06:47.500 --> 00:07:00.170
+<v Chana Joffe-Walt>Our doctors told us there was a drug to help us, we went out and got it, brand name, generic, whatever, and no one cared. No one cared because no one saw it. No one but Eileen.
+<v Chana Joffe-Walt>我们的医生告诉我们有一种药能治我们的病，我们就去拿药，品牌药、仿制药，无所谓，也没人关心。没人关心，因为没人看到费用。除了艾琳，没人看到。
+
+00:07:00.170 --> 00:07:07.250
+<v Eileen Wood>Let's look at Kapidex-- oh, that's this one. I love this one. That's the Minocin, but this company-- this is the original Minocin--
+<v Eileen Wood>来看看 Kapidex——噢，是这个。我喜欢这个。这是米诺环素（Minocin），但这家公司——这是最初的米诺环素——
+
+00:07:07.250 --> 00:07:35.840
+<v Chana Joffe-Walt>Eileen works in a tidy office park in Albany, New York, for an insurance company called Capital Districts Physicians Health Plan, CDPHP. And in her file cabinets, she's got plastic zipped-up pouches of her least favorite brand name drugs. She collects them. Minocin, that one she's talking about, there's a generic version that costs about $50 a month. Minocin PAC, which Eileen is now waving in my face is a newer brand name drug. It costs $668.
+<v Chana Joffe-Walt>艾琳在纽约州奥尔巴尼的一个整洁的办公园区为一家名为首都地区医师健康计划（CDPHP）的保险公司工作。在她的档案柜里，装着她最讨厌的品牌药的塑料拉链袋。她收集这些药。她刚才提到的那种米诺环素，有一种仿制药版本，每月费用约 50 美元。艾琳现在在我面前挥舞的 Minocin PAC 是一种较新的品牌药。它要 668 美元。
+
+00:07:35.840 --> 00:07:59.780
+<v Eileen Wood>So what's different? It has a couple little extra items that are not prescription items in there. It has this lovely calming wipe, so that when your skin's all red and you can pat this on and it's supposed to bring the redness down. It's not a prescription item. Calming serum and a calming mask. It's basically stuff you could buy over the counter. But behind the scenes, it's--
+<v Eileen Wood>那么有什么不同呢？里面多了几件非处方的小东西。它有这种可爱的镇静湿巾，当你的皮肤发红时，你可以拍拍它，据说能减轻红肿。这不是处方药。镇静精华液和镇静面膜。基本上都是你可以在柜台买到的东西。但在幕后，它是——
+
+00:07:59.780 --> 00:08:01.800
+<v Chana Joffe-Walt>$668.
+<v Chana Joffe-Walt>668 美元。
+
+00:08:01.800 --> 00:08:02.160
+<v Eileen Wood>Yeah.
+<v Eileen Wood>是的。
+
+00:08:02.160 --> 00:08:04.330
+<v Chana Joffe-Walt>And the only difference in this is that it has wipes?
+<v Chana Joffe-Walt>而这里面唯一的区别就是有湿巾？
+
+00:08:04.330 --> 00:08:09.960
+<v Eileen Wood>It has these. That's it. That's the only difference. You could probably buy them for $10.
+<v Eileen Wood>就是这些。就这样。这就是唯一的区别。你可能花 10 美元就能买到它们。
+
+00:08:09.960 --> 00:08:27.570
+<v Eileen Wood>So those three products are added to the Minocin PAC and I guess that must be what costs the extra $600, I'm not sure. It's very slick.
+<v Eileen Wood>所以那三件产品被加入到 Minocin PAC 里，我想这就是额外多出 600 美元的原因，我不确定。这非常狡猾。
+
+00:08:27.570 --> 00:08:41.210
+<v Chana Joffe-Walt>Eileen has dozens of stories like this, that do seem ridiculous. An acne medication that comes with green tea swabs? It's kind of like a prescription for Viagra that comes with a Hustler magazine that costs an extra $500.
+<v Chana Joffe-Walt>艾琳有几十个这样的故事，看起来确实很荒谬。一种配有绿茶棉签的痤疮药物？这就像是一张伟哥处方，配有一本《阁楼》杂志，然后多收 500 美元。
+
+00:08:41.210 --> 00:09:05.120
+<v Chana Joffe-Walt>Now, not all brand names are like this. There are brands that are better than existing generic options that are the only thing that work for some people. And with copays, you can still get the brands, it's just the more expensive choice. You want the green tea swabs? You pay $40 of the $668 for it. If you just want Minocin generic, you pay $10 of the $50.
+<v Chana Joffe-Walt>当然，并非所有品牌药都这样。有些品牌药确实比现有的仿制药选择更好，对某些人来说是唯一有效的药物。有了共同支付，你仍然可以得到这些品牌药，只是它是一个更昂贵的选择。你想要绿茶棉签？你为 668 美元的费用支付 40 美元。如果你只想要普通的米诺环素，你为 50 美元的费用支付 10 美元。
+
+00:09:05.120 --> 00:09:32.690
+<v Chana Joffe-Walt>The copay strategy worked so well that in 2003, generics passed the 50% mark. Meaning more than 50% of the drugs people went and picked up from pharmacies were generics. It was probably around then that it happened. The drug companies, they noticed. People like Sally Beatty at Pfizer. That's the company that makes, among other things, the world's most popular drug, Lipitor.
+<v Chana Joffe-Walt>共同支付策略非常有效，以至于 2003 年，仿制药的使用率超过了 50%。这意味着人们在药房领取的药物中，超过 50% 是仿制药。可能就是在那时候发生的。制药公司注意到了这一点。像辉瑞（Pfizer）公司的萨莉·比蒂（Sally Beatty）这样的人。那家公司生产世界上最受欢迎的药物立普妥（Lipitor）等产品。
+
+00:09:32.690 --> 00:09:36.080
+<v Chana Joffe-Walt>Sally, not a fan of copays.
+<v Chana Joffe-Walt>萨莉，不喜欢共同支付。
+
+00:09:36.080 --> 00:09:49.950
+<v Sally Beatty>The issue with that is that we want treatment decisions to be made based on what the physician feels is medically best for the patient not just the cost to the patient, or what another player may decide is in their interest.
+<v Sally Beatty>问题在于，我们希望治疗决策是基于医生认为对患者医疗上最有利的考虑，而不是仅仅考虑患者的成本，或者其他利益相关者认为对自己有利的选择。
+
+00:09:49.950 --> 00:10:05.200
+<v Chana Joffe-Walt>Another player like Eileen Wood and her insurance industry buddies with their copays that were hurting the drug companies. Lipitor was facing major competition from generics. In July 2007, sales were down 13%.
+<v Chana Joffe-Walt>像艾琳·伍德和她的保险业伙伴，他们用共同支付策略打击了制药公司。立普妥正面临仿制药的巨大竞争。2007 年 7 月，销量下降了 13%。
+
+00:10:05.200 --> 00:11:02.230
+<v Chana Joffe-Walt>Now, there is no approved generic for Lipitor. Sally Beatty from Pfizer will say this three times in 15 minutes. And what that means is that there is no drug that is chemically identical to Lipitor. What there are, are generic drugs in the same class of cholesterol reducing drugs. That's what Lipitor does, reduce cholesterol. And those generics are effective for most people. But there are some people who respond better to Lipitor. And for some of those patients, a $40 copay stops them from getting the medication. And so in 2007, the pharmaceutical industry marshaled its counterattack, that mysterious card you heard at the beginning of this story, their central weapon-- coupons, a whole bunch of coupons.
+<v Chana Joffe-Walt>现在，还没有获得批准的立普妥仿制药。来自辉瑞的萨莉·比蒂会在 15 分钟内重复这句话三次。这意味着没有一种药物在化学成分上与立普妥完全相同。有的只是同一类降胆固醇药物中的仿制药。这就是立普妥的作用，降低胆固醇。那些仿制药对大多数人来说是有效的。但有些人对立普妥的反应更好。对于其中一些病人来说，40 美元的共付额会阻止他们获得药物。因此在 2007 年，制药行业组织了反击，也就是你在故事开头听到的那张神秘卡片，他们的核心武器——优惠券，一大堆优惠券。
+
+00:11:02.230 --> 00:11:06.820
+<v Ted>OK, so I've always sort of had a little bit of acne.
+<v Ted>好的，所以我一直都有点痤疮。
+
+00:11:06.820 --> 00:11:14.600
+<v Chana Joffe-Walt>Enter: Ted Sarah, the paralegal with the card and the pimples. Pimples that just a few months ago were in need of drugs.
+<v Chana Joffe-Walt>登场：泰德·萨拉，那个拿着卡片和满脸痘痘的律师助理。几个月前，他的痘痘需要药物治疗。
+
+00:11:14.600 --> 00:11:26.150
+<v Ted>Yeah, it sort of comes and goes, and it generally-- when I'm sort of going through more periods of stress, either at work or just as a course of life, it sort of gets worse.
+<v Ted>是的，它时好时坏，通常——当我经历压力较大的时期，无论是在工作中还是在生活中，它就会加重。
+
+00:11:26.150 --> 00:11:56.840
+<v Chana Joffe-Walt>Ted walked into the doctor's office. She poked at him with gloved hands and told him, OK, we're going to put you on a couple topical creams and some antibiotics, a drug called Solodyn. Ted was tentative, but he mentioned he'd been on a generic before, worked pretty well, called minocycline. And the doc said, yeah, that's great. Basically that's the same as Solodyn, but Solodyn is time release. That means, as opposed to minocycline, which you have to remember to take in the morning and in the evening, you only have to take Solodyn once a day.
+<v Chana Joffe-Walt>泰德走进了医生的办公室。她戴着手套摸了摸他，说，好的，我们要给你用几种局部药膏和一些抗生素，一种叫 Solodyn 的药。泰德有些犹豫，但他提到他以前用过一种仿制药，效果挺好，叫米诺环素。医生说，是的，那很好。基本上那和 Solodyn 是一样的，但 Solodyn 是缓释的。这意味着，与你需要记得早晚各服一次的米诺环素相比，Solodyn 你只需要一天服一次。
+
+00:11:56.840 --> 00:12:21.630
+<v Ted>It didn't really sound that big of a deal to me, but it is, I guess, to anyone, slightly easier to take one pill per day instead of two, so I went with it. And I asked, in terms of the cost of it, just to pay the extra money to take it once a day, if that was going to be a big difference. It wouldn't really be something I'd be interested in. And then she presented this card.
+<v Ted>这对我来说听起来并不是什么大不了的事，但我想，对任何人来说，每天吃一颗药比吃两颗要稍微容易一些，所以我接受了。我问过关于它的价格，为了每天只吃一次药而多付钱，是否会有很大差异。如果差异太大，我可能就不会感兴趣了。然后她拿出了这张卡。
+
+00:12:21.630 --> 00:12:22.800
+<v Chana Joffe-Walt>You remember the card.
+<v Chana Joffe-Walt>你还记得这张卡。
+
+00:12:22.800 --> 00:12:26.490
+<v Ted>It is called the Solodyn patient access card.
+<v Ted>它被称为 Solodyn 患者获取卡。
+
+00:12:26.490 --> 00:13:01.580
+<v Chana Joffe-Walt>It's actually called Solo-DINE not Solo-DIN. Who knows where they come up with these names? Point is, this is the moment, the moment that the drug makers weapon makes its way into the hands of its oblivious soldier, Ted. Ted was going to get a deal. The doctor explained that this card, it's a coupon. Give it to the pharmacist and it should make your copay very affordable. Which is exactly what happened. Without the card Ted's copay would have been $154.28. But when Ted got to the pharmacy, he presented his card.
+<v Chana Joffe-Walt>它实际上读作 Solo-DINE 而不是 Solo-DIN。谁知道他们是怎么想出这些名字的？重点是，这就是那一刻，制药商的武器传到其不知情士兵泰德手中的那一刻。泰德将得到一笔交易。医生解释说这张卡是一张优惠券。交给药剂师，它应该能让你的共付额变得非常便宜。而这正是发生的事情。没有这张卡，泰德的共付额本来是 154.28 美元。但当泰德到了药房，他出示了他的卡。
+
+00:13:01.580 --> 00:13:07.910
+<v Ted>They went to ring it up at the register and when it came up the price was $10.
+<v Ted>他们在收银台结账时，价格变成了 10 美元。
+
+00:13:07.910 --> 00:13:08.940
+<v Chana Joffe-Walt>$10.
+<v Chana Joffe-Walt>10 美元。
+
+00:13:08.940 --> 00:13:09.880
+<v Ted>$10.
+<v Ted>10 美元。
+
+00:13:09.880 --> 00:13:12.220
+<v Chana Joffe-Walt>That's pretty good for drugs.
+<v Chana Joffe-Walt>这对药品来说相当不错。
+
+00:13:12.220 --> 00:13:14.170
+<v Ted>Yeah, it was great.
+<v Ted>是的，太棒了。
+
+00:13:14.170 --> 00:13:22.380
+<v Chana Joffe-Walt>Solodyn access achieved.
+<v Chana Joffe-Walt>Solodyn 获取成功。
+
+00:13:22.380 --> 00:13:50.900
+<v Chana Joffe-Walt>Ted's insurance company was then charged $655 a month for Ted's once-a-day Solodyn. For reasons too complicated to go into here, they only paid $514. Minocycline, the one that you have to take twice a day costs $109 a month, total. $514, $109.
+<v Chana Joffe-Walt>泰德的保险公司随后每月为泰德一天一次的 Solodyn 支付了 655 美元。由于原因太复杂，此处不赘述，他们最终只付了 514 美元。米诺环素，那种需要一天两次的药，每月总共才 109 美元。514 美元对 109 美元。
+
+00:13:50.900 --> 00:14:10.000
+<v Chana Joffe-Walt>Ted never saw those numbers. So you think, OK, well Ted used a coupon because he didn't really know any better. He thought he was getting a deal. Who wouldn't go for that, right? But the doctor, what was up with the doctor handing out these cards? Luckily, Dr. Elena Allbritton, was generous enough to answer some questions.
+<v Chana Joffe-Walt>泰德从来没看到过这些数字。所以你会想，好吧，泰德用了优惠券是因为他真的不知道更好的选择。他以为自己捡到了便宜。谁不会心动呢，对吧？但是医生，医生为什么要分发这些卡片呢？幸运的是，埃琳娜·奥尔布里顿（Elena Allbritton）医生慷慨地回答了一些问题。
+
+00:14:10.000 --> 00:14:12.380
+<v Chana Joffe-Walt>Do you know the price difference between those two drugs?
+<v Chana Joffe-Walt>你知道这两种药之间的价格差异吗？
+
+00:14:12.380 --> 00:14:13.350
+<v Dr. Elena Allbritton>I don't.
+<v Dr. Elena Allbritton>我不知道。
+
+00:14:13.350 --> 00:14:52.980
+<v Chana Joffe-Walt>Like Ted, and the majority of Americans, Dr. Allbritton has no idea what drugs actually cost. Not because she's lazy, but because these numbers are really hard to find out. The insurance companies, they all individually negotiate with drug companies. And they each pay a slightly different amount. So no, Dr. Allbritton is not thinking about prices when prescribing, she's thinking, what is the best thing available for this patient? Solodyn is better. It's easier to take a pill once a day instead of twice. It's easier for Dr. Allbritton to get the dosage just right. And Dr. Allbritton wants her patients to have the best.
+<v Chana Joffe-Walt>像泰德和大多数美国人一样，奥尔布里顿医生根本不知道药品的真实成本。不是因为她懒，而是因为这些数字真的很难查到。保险公司各自与制药公司单独谈判。他们每个人支付的金额略有不同。所以，不，奥尔布里顿医生开处方时没有考虑价格，她想的是，这个病人能用到的最好的东西是什么？Solodyn 更好。每天服一次药比两次更容易。奥尔布里顿医生更容易准确把握剂量。奥尔布里顿医生希望她的病人能得到最好的。
+
+00:14:52.980 --> 00:15:02.000
+<v Dr. Elena Allbritton>I think if I can get a discount for most patients, I think it's great because the cost of medications can be very high. It's like a free gift to them.
+<v Dr. Elena Allbritton>我想如果我能为大多数病人拿到折扣，我觉得这太好了，因为药物成本可能非常高。这就像送给他们的免费礼物。
+
+00:15:02.000 --> 00:15:12.560
+<v Chana Joffe-Walt>Dr. Allbritton just wants it to be easy for patients to access the drugs she thinks they need. Truthfully, she doesn't really want to keep track of all the prices. That's not her job.
+<v Chana Joffe-Walt>奥尔布里顿医生只是希望病人们能轻松获得她认为他们需要的药物。说实话，她真的不想追踪所有的价格。这不是她的工作。
+
+00:15:12.560 --> 00:15:33.810
+<v Dr. Elena Allbritton>I just don't think that it's realistic to have that responsibility fall on the physician. I mean then are you going to start saying, well, should I really do this biopsy because I'm not really sure that it's really that significant of a difference in that mole and it might cost you $1,200 in the end if this doesn't get covered. I mean you don't want to start thinking about price tags with everything.
+<v Dr. Elena Allbritton>我只是不认为让医生承担这种责任是现实的。我的意思是，你是不是要开始说，好吧，我真的应该做这个活检吗，因为我不确定那个痣是否真的有那么大的区别，如果这不在报销范围内，最后可能要花你 1200 美元。我的意思是，你不会想在所有事情上都考虑价格标签。
+
+00:15:33.810 --> 00:15:50.740
+<v Chana Joffe-Walt>Actually, when people talk about how to reform health care in our country, this is one of the things they talk about changing. That doctors should know the prices of things, and at least play some role in deciding whether a time release version of a pill is worth $400 more to everyone.
+<v Chana Joffe-Walt>事实上，当人们谈论如何改革我国医疗体系时，这是他们谈论要改变的事情之一。即医生应该知道事物的价格，并至少在决定一种缓释版药丸是否值得让所有人多付 400 美元的问题上发挥一点作用。
+
+00:15:50.740 --> 00:16:04.980
+<v Chana Joffe-Walt>The maker of Solodyn is Medicis. They wouldn't talk to me. By the way, in the month since Ted started taking Solodyn, a generic version has come out. And, the war has escalated. Another tactical maneuver.
+<v Chana Joffe-Walt>Solodyn 的制造商是 Medicis。他们不愿与我交谈。顺便说一下，在泰德开始服用 Solodyn 的几个月里，一种仿制药版本已经出来了。而且，战争已经升级了。又一个战术动作。
+
+00:16:04.980 --> 00:16:27.850
+<v Chana Joffe-Walt>Drug makers used to just give cards to doctors. Now, they distribute them to patients too. But pharmaceuticals did not announce their counterattack to insurers. Eileen Wood at CDPHP, she had to figure it out by putting much of her staff on a hunt, reporting back to her on what cards are out there, who put them out, and how people are getting them.
+<v Chana Joffe-Walt>制药商过去只是把卡片给医生。现在，他们也把卡片分发给病人。但制药公司并没有向保险公司宣布他们的反击。CDPHP 的艾琳·伍德必须通过让她的许多员工去搜寻，向她报告外面有哪些卡片、谁发布的以及人们是如何得到的，从而找出答案。
+
+00:16:27.850 --> 00:16:37.490
+<v Eileen Wood>Because they're like everywhere. You can go online and get these. You can open up a women's magazine and get these. I mean they're everywhere.
+<v Eileen Wood>因为它们就像到处都是。你可以在网上得到这些。你可以翻开一本女性杂志得到这些。我的意思是它们无处不在。
+
+00:16:37.490 --> 00:16:45.970
+<v Chana Joffe-Walt>So this little purple card, is their way of saying, fine, you're going to put a $30 copay on us. Take that.
+<v Chana Joffe-Walt>所以这张紫色的小卡片，是他们说“好吧，你要给我们设 30 美元的共付额。尝尝这个”的方式。
+
+00:16:45.970 --> 00:17:01.760
+<v Eileen Wood>Yes, that's exactly what's happening. They're trying to say, fine, you're promoting generic, CDPHP. We've got to do something about this. We're going to waive our copay. We'll fix you. We'll be zero copay. We'll be cheaper than you and we'll keep our market share.
+<v Eileen Wood>是的，事情正是这样发生的。他们试图说，好吧，CDPHP，你们在推广仿制药。我们必须对此做点什么。我们要免除共付额。我们来治你们。我们将实现零共付额。我们将比你们更便宜，并且保持我们的市场份额。
+
+00:17:01.760 --> 00:17:21.740
+<v Chana Joffe-Walt>Eileen sounds a little crazy when she starts to talk like this. Like multibillion dollar companies are setting out to punish her, personally, Eileen Wood, for her copays. But when you think about it from her perspective, she is the only one who sees this stuff. We don't. We see a deal. And like Ted, we like deals.
+<v Chana Joffe-Walt>艾琳开始这样说时，听起来有点疯狂。就好像价值数十亿美元的公司专门为了惩罚她个人，惩罚艾琳·伍德，因为她的共付额制度。但当你从她的角度考虑时，她是唯一看到这些东西的人。我们看不到。我们看到的是一笔交易。像泰德一样，我们喜欢交易。
+
+00:17:21.740 --> 00:17:27.000
+<v Eileen Wood>I can't argue with that argument, except to say there is a consequence for that.
+<v Eileen Wood>我无法反驳那个论点，除了说这样做是有后果的。
+
+00:17:27.000 --> 00:17:32.060
+<v Chana Joffe-Walt>Because what will you have to do if everybody gets the more expensive drug?
+<v Chana Joffe-Walt>因为如果每个人都拿到更昂贵的药物，你必须做什么？
+
+00:17:32.060 --> 00:17:40.050
+<v Eileen Wood>We'd have to raise premiums. I think there is no question about that. It would have an impact on him and everybody that sits next to him.
+<v Eileen Wood>我们必须提高保费。我认为毫无疑问。这对他的家庭以及坐在他旁边的每个人都会产生影响。
+
+00:17:40.050 --> 00:17:40.650
+<v Chana Joffe-Walt>At work.
+<v Chana Joffe-Walt>在工作场所。
+
+00:17:40.650 --> 00:17:44.490
+<v Eileen Wood>At work and their families and so forth. Yes.
+<v Eileen Wood>在工作场所、他们的家庭等等。是的。
+
+00:17:44.490 --> 00:17:49.020
+<v Ted>I don't want to pay more in premiums next year. I don't want everyone around me to have to either.
+<v Ted>我不想明年支付更高的保费。我也不想周围的每个人都必须这样做。
+
+00:17:49.020 --> 00:17:55.220
+<v Chana Joffe-Walt>Do you think your coworkers are going to hear this and go, well, thanks a lot, Ted? You and your fancy acne medicine.
+<v Chana Joffe-Walt>你认为你的同事会听到这些并说，好吧，泰德，多谢你了？你和你那昂贵的痤疮药。
+
+00:17:55.220 --> 00:18:15.730
+<v Ted>Probably. But there I was sitting in the dermatologist's office and I have no idea. Again, like I had never heard of this medicine, had no idea how much it costs. I know it's brand name, but I certainly never would have dreamed that it would have cost $655 sticker price.
+<v Ted>可能会吧。但我当时坐在皮肤科医生的办公室里，我一无所知。再一次，就像我从来没听说过这种药，根本不知道它要花多少钱。我知道它是品牌药，但我绝对不敢想象它的标签价格会是 655 美元。
+
+00:18:15.730 --> 00:18:37.160
+<v Chana Joffe-Walt>Looking at this war laid out like this, it's a view of a health care system that is comprised of enormous insurance companies throwing their weight around, just as enormous drug companies striking back, and then all these idiots in the middle-- us. You, me, and our doctors. Pesky interlopers who don't even know the price of the pills we're buying.
+<v Chana Joffe-Walt>像这样审视这场战争，你会看到一个由巨大的保险公司展示实力、同样巨大的制药公司反击，然后中间全是白痴——我们，你、我和我们的医生。干扰者，我们甚至不知道我们买的药片的价格。
+
+00:18:37.160 --> 00:18:54.060
+<v Chana Joffe-Walt>President Obama wants us to choose the blue pill and not the red pill. Because the blue is just as effective, but half the price. But with these cards, which one is the blue one? We have no idea.
+<v Chana Joffe-Walt>奥巴马总统希望我们选择蓝药丸而不是红药丸。因为蓝药丸效果一样，但价格只有一半。但是有了这些卡片，哪一个是蓝色的呢？我们根本不知道。
+
+00:18:54.060 --> 00:19:08.450
+<v Ira Glass>Chana Joffe-Walt.
+<v Ira Glass>查娜·乔菲-沃尔特。
+
+00:19:08.450 --> 00:19:11.730
+<v Ira Glass>Act Two, Let's Take Your Medical History.
+<v Ira Glass>第二幕，让我们记录你的病史。
+
+00:19:11.730 --> 00:19:33.530
+<v Ira Glass>If you think about it, it's very strange how we do insurance in our country. Including, for example, the fact that most of us do not buy our own insurance. Our employers buy it for us. Whatever we're doing, it's not working so great. Health costs are rising so fast that they're threatening our entire economy. A third of all health care is waste, unnecessary procedures and tests, according to the Dartmouth Atlas of Health.
+<v Ira Glass>如果你想想看，我们国家实行保险的方式非常奇怪。包括一个事实，即我们大多数人并不自己购买保险。我们的雇主为我们购买。无论我们做什么，效果都不太好。医疗成本上升得如此之快，以至于威胁到我们的整个经济。根据达特茅斯健康地图（Dartmouth Atlas of Health），所有医疗保健中有三分之一是浪费，即不必要的检查和测试。
+
+00:19:33.530 --> 00:19:38.290
+<v Ira Glass>How did we get here? Alex Blumberg and Adam Davidson have been looking into that.
+<v Ira Glass>我们是怎么走到这一步的？亚历克斯·布伦伯格（Alex Blumberg）和亚当·戴维森（Adam Davidson）对此进行了调查。
+
+00:19:38.290 --> 00:19:50.880
+<v Alex Blumberg>The more you study the roots of our modern health care system, the more you realize that nobody ever planned for it to be this way. What we have right now is the result of lots of historical accidents over the last hundred years.
+<v Alex Blumberg>你越深入研究现代医疗保健系统的根源，就越意识到从来没有人计划过让它变成这样。我们现在所拥有的，是过去一百年中许多历史偶然事件的结果。
+
+00:19:50.880 --> 00:19:58.910
+<v Adam Davidson>So let's start at the beginning, at the turn of the last century, and get a sense of what health care looked like, let's say, circa 1900.
+<v Adam Davidson>所以让我们从头开始，在世纪之交，感受一下大约 1900 年时的医疗保健是什么样子。
+
+00:19:58.910 --> 00:20:09.820
+<v Adam Davidson>In a lot of ways the world then was starting to look like the one we have today. There were electric lights going up in cities. Henry Ford produced the first car made in Detroit. The Boston Marathon was already four years old.
+<v Adam Davidson>在很多方面，那时候的世界开始看起来像我们今天拥有的世界。城市里点亮了电灯。亨利·福特在底特律生产了第一辆汽车。波士顿马拉松赛已经举办四年了。
+
+00:20:09.820 --> 00:20:23.830
+<v Adam Davidson>But health care, health care was still basically stuck in the Middle Ages. Some doctors in the US were still using leeches and bleeding people. There were medicines to mask your symptoms and relieve your pain, but there was nothing that could actually cure you.
+<v Adam Davidson>但医疗保健，医疗保健实际上还停留在中世纪。美国的一些医生还在使用水蛭和放血疗法。有一些药物可以掩盖症状并缓解疼痛，但没有任何东西能真正治愈你。
+
+00:20:23.830 --> 00:20:35.320
+<v Alex Blumberg>And hospitals, at least what we would think of as a hospital, they didn't really even exist. There were things by that name, but they were basically poor houses for the sick. Dark, dirty places where the indigent went to die.
+<v Alex Blumberg>而医院，至少是我们认为的医院，实际上甚至不存在。有一些以该名字命名的场所，但它们基本上是穷人的收容所。阴暗、肮脏的地方，是贫民等死的地方。
+
+00:20:35.320 --> 00:20:41.510
+<v Adam Davidson>But you know, there was a big plus side. Health care was cheap. It was really, really cheap.
+<v Adam Davidson>但你知道，有一个很大的优点。医疗保健很便宜。它真的、真的非常便宜。
+
+00:20:41.510 --> 00:20:52.060
+<v Alex Blumberg>They might kill you, but they didn't charge you very much to do it. The average person spent $5 a year on health care. Even back then that wasn't very much. That's less than $100 a year in today's dollars.
+<v Alex Blumberg>他们可能会让你送命，但他们收取的费用并不高。普通人一年在医疗保健上花费 5 美元。即使在当时，那也不是很多。按今天的美元价值计算，那还不到 100 美元一年。
+
+00:20:52.060 --> 00:21:03.800
+<v Adam Davidson>So, how do we get from that system, that pre-modern system, to our current health care system? We got there in four simple steps. Step one: start curing some illnesses.
+<v Adam Davidson>那么，我们是如何从那个系统，那个前现代系统，走到我们现在的医疗保健系统的呢？我们分四步走到那里。第一步：开始治愈一些疾病。
+
+00:21:03.800 --> 00:21:29.040
+<v Alex Blumberg>This year is the 100th anniversary of a remarkable discovery. 1909, the very first drug ever to actually cure an illness. It was something called Salvarsan, a treatment for syphilis. And it was different from the usual potions and nostrums. With Salvarsan, you took a pill and then you weren't sick anymore. More of these medicines followed and once health care actually starts to work, it launches a revolution.
+<v Alex Blumberg>今年是一个重大发现 100 周年。1909 年，第一个真正治愈疾病的药物。它叫洒尔佛散（Salvarsan），一种治疗梅毒的方法。它与通常的药水和偏方不同。有了洒尔佛散，你吃一颗药，然后你就不再病了。更多的这些药物随之而来，一旦医疗保健真正开始发挥作用，它就引发了一场革命。
+
+00:21:29.040 --> 00:21:40.100
+<v Adam Davidson>In the 1910s and the 1920s, people start expecting their doctors to actually know how to cure them. To actually have an education from some decent medical school. Maybe even to have a medical license.
+<v Adam Davidson>在 1910 年代和 1920 年代，人们开始期望他们的医生真的知道如何治愈他们。真的拥有一所像样的医学院的教育背景。甚至可能拥有医疗执照。
+
+00:21:40.100 --> 00:21:51.360
+<v Alex Blumberg>Melissa Thomasson is an economic historian at Miami University in Ohio. She focuses on the history of modern health care and she says, the medical revolution was especially apparent in hospitals.
+<v Alex Blumberg>梅丽莎·托马森（Melissa Thomasson）是俄亥俄州迈阿密大学的经济历史学家。她专注于现代医疗保健史，她说，医疗革命在医院中表现得尤为明显。
+
+00:21:51.360 --> 00:22:14.540
+<v Melissa Thomasson>Hospitals have a radical transformation in the early part of the 20th century. So that instead of being these poor houses, these alms houses where unwed mothers and people with no family go, hospitals are actually marketing themselves as places to have babies, do appendectomies, take your tonsils out. They're focusing on, generally things with happy outcomes. Painting themselves as clean and full of sunshine.
+<v Melissa Thomasson>医院在 20 世纪初发生了根本性的转变。因此，它们不再是那些未婚母亲和没有家庭的人去的救济院，医院实际上将自己推销为生孩子、做阑尾切除术、切除扁桃体的场所。它们通常专注于有幸福结局的事情。把自己装扮得干净且阳光明媚。
+
+00:22:14.540 --> 00:22:17.970
+<v Adam Davidson>And not a dark, Victorian place for poor people to die.
+<v Adam Davidson>而不是穷人等死的阴暗的维多利亚式场所。
+
+00:22:17.970 --> 00:22:19.330
+<v Melissa Thomasson>Exactly.
+<v Melissa Thomasson>完全正确。
+
+00:22:19.330 --> 00:22:20.800
+<v Alex Blumberg>So two points.
+<v Alex Blumberg>所以两点。
+
+00:22:20.800 --> 00:22:37.350
+<v Alex Blumberg>All these clean hospitals with educated doctors and effective medicines, they cost more. Also, since they actually work, more and more people start using them. The cost to provide health care is increasing, the demand for health care is increasing. All of which means health care is now more expensive. A lot more.
+<v Alex Blumberg>所有这些干净的医院、受过教育的医生和有效的药物，成本更高。此外，由于它们真的有效，越来越多的人开始使用它们。提供医疗保健的成本正在增加，对医疗保健的需求也在增加。所有这些意味着医疗保健现在更贵了。贵得多。
+
+00:22:37.350 --> 00:22:43.940
+<v Adam Davidson>Which brings us to step two of how you get to our modern health care system. Step two: have a great depression.
+<v Adam Davidson>这把我们带到了我们如何获得现代医疗保健系统的第二步。第二步：经历一场大萧条。
+
+00:22:43.940 --> 00:22:57.220
+<v Alex Blumberg>It's hard to imagine what our modern health care system would be like if it wasn't for the Great Depression. By the 1920s, even before the crash, the cost of health care had gotten so high that a lot of people stopped going to the hospital unless they were so sick they had no choice.
+<v Alex Blumberg>很难想象如果没有大萧条，我们的现代医疗保健系统会是什么样子。到 20 世纪 20 年代，甚至在崩盘之前，医疗保健的成本就已经高到许多人停止去医院，除非他们病得不得不去。
+
+00:22:57.220 --> 00:23:28.550
+<v Adam Davidson>An official at Baylor University Hospital in Dallas, Texas, noticed that most of their hospital beds were going empty every night because of that high cost. But he also noticed that Americans, on average, were spending more on cosmetics than on medical care. He said specifically-- I have the quote right here, "We spend a dollar or so at a time for cosmetics and do not notice the high cost. The ribbon counter clerk can pay $0.50, $0.75, or $1.00 a month, yet it would take about 20 years to set aside a large hospital bill."
+<v Adam Davidson>德克萨斯州达拉斯市贝勒大学医院（Baylor University Hospital）的一位官员注意到，由于高昂的成本，他们的大部分病床每晚都空着。但他也注意到，美国人平均在化妆品上的花费比在医疗保健上的花费要多。他特别说——我有这里的引言，“我们每次花一美元左右买化妆品，却不会注意到高昂的成本。丝带柜台的店员每月可以支付 0.50 美元、0.75 美元或 1.00 美元，但需要大约 20 年才能存下一笔大额住院费。”
+
+00:23:28.550 --> 00:23:38.180
+<v Alex Blumberg>So Baylor Hospital wanted to figure out how to get ribbon counter clerks and anyone else they could find in Dallas to pay for health care like they pay for lipstick, a tiny bit every month.
+<v Alex Blumberg>所以贝勒医院想找出如何让达拉斯的店员和他们能找到的任何人像买口红一样支付医疗保健费，每个月支付一点点。
+
+00:23:38.180 --> 00:23:57.710
+<v Adam Davidson>Baylor started small. They offered a deal to a group of public school teachers in Dallas. They told them, you pay us $6 a year. That's just $0.50 a month, cheaper than rouge, and we'll give you up to 21 days of hospital visits a year. The math was simple. In any given year, only a few of the teachers would need a hospital visit.
+<v Adam Davidson>贝勒从小处着手。他们给达拉斯的一群公立学校老师提供了一笔交易。他们告诉他们，你们每年付给我们 6 美元。那每个月只需 0.50 美元，比腮红还便宜，我们会给你们每年最多 21 天的医院访问权。计算很简单。在任何特定的一年里，只有少数老师需要去医院。
+
+00:23:57.710 --> 00:24:15.370
+<v Alex Blumberg>A few hospitals copied the Baylor approach, and then the Depression hit. Almost every hospital in the country saw their patient load disappear. All their patients were broke. So the Baylor idea became hugely popular. And eventually, it got a name: Blue Cross. Again, Melissa Thomasson.
+<v Alex Blumberg>一些医院效仿了贝勒的方法，然后大萧条来袭。全国几乎每家医院的患者数量都消失了。他们所有的病人都破产了。所以贝勒的想法变得非常受欢迎。最终，它有了一个名字：蓝十字（Blue Cross）。还是梅丽莎·托马森。
+
+00:24:15.370 --> 00:24:38.080
+<v Melissa Thomasson>The genius in marketing this by Blue Cross is marketing it to groups of workers. You know, when I actually started studying this stuff, I got interested in it because I wondered why we have an employment-based health insurance plan. It doesn't seem very logical. But it comes right out of Blue Cross selling insurance to groups of people who probably wouldn't need it. That is, people who were healthy enough to work.
+<v Melissa Thomasson>蓝十字推销这个的天才之处在于它是面向工人群体的。你知道，当我开始研究这些东西时，我对此产生了兴趣，因为我想知道为什么我们会有基于就业的健康保险计划。这看起来不太合乎逻辑。但它直接源于蓝十字将保险卖给可能不需要它的人群。也就是说，那些足够健康去工作的人。
+
+00:24:38.080 --> 00:24:44.320
+<v Alex Blumberg>I see. So how did that work? Blue Cross representatives went around to factories and what did they do?
+<v Alex Blumberg>我明白了。那它是怎么运作的？蓝十字代表到处去工厂，他们做了什么？
+
+00:24:44.320 --> 00:25:09.340
+<v Melissa Thomasson>Right. Exactly. They went around to factories. Here, give your employees this benefit. And it appealed to corporations then because the '20s and the '30s is the great period of corporate welfare capitalism too. Employers want to improve their workers' lives. They're starting to offer other benefits, like pensions and group life insurance at this time too.
+<v Melissa Thomasson>对。完全正确。他们到处去工厂。在这里，给你的员工这项福利。这对当时的法人企业很有吸引力，因为 20 年代和 30 年代也是企业福利资本主义的伟大时期。雇主想改善员工的生活。他们当时也开始提供其他福利，比如养老金和团体人寿保险。
+
+00:25:09.340 --> 00:25:21.430
+<v Alex Blumberg>The Baylor plan, this Blue Cross plan, fulfilled two goals. They got people spending their money on health care, and it also got them to use health care more. To visit the hospital, to see it as a place where you go even if you weren't at death's door.
+<v Alex Blumberg>贝勒计划，这个蓝十字计划，实现了两个目标。他们让人把钱花在医疗保健上，也让人更多地使用医疗保健。去医院，把它看作是一个即使你没到死神门口也会去的地方。
+
+00:25:21.430 --> 00:25:36.750
+<v Adam Davidson>By the middle of the Depression, there are Blue Cross programs in most states. So by the start of World War II, this employer-based health insurance is spreading. But still only around 9% of Americans have it. It's still pretty obscure. It's nothing like our modern system.
+<v Adam Davidson>到大萧条中期，大多数州都有蓝十字计划。所以到二战开始时，这种基于雇主的健康保险正在蔓延。但仍然只有大约 9% 的美国人拥有它。它仍然相当模糊。它根本不像我们现在的系统。
+
+00:25:36.750 --> 00:25:42.220
+<v Adam Davidson>To get to our modern system you need another step. Step three: go to war.
+<v Adam Davidson>要达到我们现在的系统，你需要另一个步骤。第三步：参加战争。
+
+00:25:42.220 --> 00:25:51.370
+<v Alex Blumberg>If the Great Depression inadvertently inspired employer-based health insurance, World War II accidentally spread the idea everywhere. Again, economic historian, Melissa Thomasson.
+<v Alex Blumberg>如果大萧条无意中激发了基于雇主的健康保险，二战则偶然地将这个想法传播到了各个地方。再次，经济历史学家，梅丽莎·托马森。
+
+00:25:51.370 --> 00:26:17.050
+<v Melissa Thomasson>The war economy is an entirely different ball game. Think of government rationing on all levels. And so what they tell people is you legally cannot raise prices. You can't raise wages. At the same time, lots of people are joining the military and labor is scarce. So you can't find workers. Can you imagine in today's environment, you can't find workers who can work for you. You can't lure them by increasing wages.
+<v Melissa Thomasson>战时经济是完全不同的局面。想想各级的政府配给。所以他们告诉人们的是，你在法律上不能提高价格。你不能提高工资。与此同时，许多人参军，劳动力匮乏。所以你找不到工人。你能想象在今天的环境下，你找不到可以为你工作的工人吗？你不能通过提高工资来吸引他们。
+
+00:26:17.050 --> 00:26:20.480
+<v Alex Blumberg>And at the same time, you need to produce enormous amounts of stuff for the war effort?
+<v Alex Blumberg>与此同时，你需要为战争努力生产大量的物资？
+
+00:26:20.480 --> 00:26:31.750
+<v Melissa Thomasson>Exactly. So what's a poor employer to do? They turn to fringe benefits. And they just started offering more and more generous health insurance plans, and pensions, and everything else actually.
+<v Melissa Thomasson>完全正确。所以一个可怜的雇主该怎么办？他们转向附加福利。而且他们开始提供越来越多慷慨的健康保险计划、养老金以及其他一切。
+
+00:26:31.750 --> 00:26:38.950
+<v Alex Blumberg>So you would say, Rosie, come work at my riveting factory because I can offer you this boutique insurance package versus--
+<v Alex Blumberg>所以你会说，罗西，来我的铆钉厂工作，因为我可以为你提供这个精品保险套餐，而不是——
+
+00:26:38.950 --> 00:26:42.980
+<v Melissa Thomasson>Exactly.
+<v Melissa Thomasson>完全正确。
+
+00:26:42.980 --> 00:26:58.390
+<v Alex Blumberg>The war sets the stage for step four, the final step in the transformation to the health care system we have today. This step plays out over a number of years and it starts, like all the other steps, almost completely by accident, in a bureaucrat's office at the Internal Revenue Service.
+<v Alex Blumberg>战争为第四步铺平了道路，这是转型为我们今天所拥有的医疗保健系统的最后一步。这一步在几年内发生，而且像其他所有步骤一样，几乎完全是偶然的，在国税局（IRS）的一个官僚办公室里。
+
+00:26:58.390 --> 00:27:24.980
+<v Alex Blumberg>Now, this bureaucrat is one of the key figures, it turns out, in our American health insurance saga. But his or her name has been lost to history. What we do know is in 1943, this bureaucrat, or possibly a panel of bureaucrats-- we don't even know that-- made a routine ruling. Possibly in response to a question from an accountant at some company. The ruling was, at least in some cases, employers don't have to pay taxes on health insurance premiums for their workers.
+<v Alex Blumberg>现在，这个官僚，事实证明，是我们美国健康保险传奇中的关键人物之一。但他的名字已经消失在历史中。我们所知道的是，在 1943 年，这个官僚，或者可能是一群官僚——我们甚至不知道——做出了一项例行裁决。可能是为了回应某家公司会计提出的问题。这项裁决是，至少在某些情况下，雇主不必为员工的健康保险费缴纳税款。
+
+00:27:24.980 --> 00:27:36.200
+<v Alex Blumberg>Now this ruling, it was actually vaguely worded and pretty confusing. But the response was huge. Because what it seemed to imply was, you get a huge tax break for offering health insurance to your workers.
+<v Alex Blumberg>现在这个裁决，实际上用词含糊且非常令人困惑。但反应是巨大的。因为它的含义似乎是，你通过为员工提供健康保险获得巨大的税收减免。
+
+00:27:36.200 --> 00:28:06.600
+<v Adam Davidson>Now I want to jump in here and really focus on this. Because this is such a perfect case study in how we get a health care system that nobody ever planned for. Accountants notice that they can get their firms a tax break, so more and more employers get in on the deal. Soon they start demanding the government set it into law. And in 1954, Congress does just that. They pass the Updated Internal Revenue Code, which clearly and unambiguously states employers don't have to pay taxes on health insurance premiums.
+<v Adam Davidson>现在我想跳进来，真正专注于这一点。因为这是一个完美的案例研究，展示了我们如何得到一个从来没人计划过的医疗保健系统。会计师注意到他们可以为他们的公司获得税收减免，所以越来越多的雇主参与了这笔交易。很快他们开始要求政府将其定为法律。而在 1954 年，国会确实这样做了。他们通过了《更新的国内税收法典》（Updated Internal Revenue Code），明确且毫无歧义地规定雇主不必为健康保险费缴纳税款。
+
+00:28:06.600 --> 00:28:19.650
+<v Alex Blumberg>And if you don't think a tax law change can have a huge impact on health care, Melissa Thomasson has some data for you, pal. Just look at how the number of people with employer-based health insurance changes over time.
+<v Alex Blumberg>如果你认为税法变更对医疗保健没有巨大影响，梅丽莎·托马森有一些数据给你，伙计。看看拥有基于雇主的健康保险的人数是如何随时间变化的。
+
+00:28:19.650 --> 00:28:42.640
+<v Melissa Thomasson>You start from 9% of the population in 1940 to 63% of the population in 1953. Everybody starts getting in on it. It just grows like gangbusters. And by the 1960s, roughly 70% of the population is covered by some kind of private-- what the AMA would say, "voluntary health insurance plan."
+<v Melissa Thomasson>你从 1940 年占人口的 9% 增加到 1953 年的 63%。每个人都开始参与其中。它像野火一样增长。到 20 世纪 60 年代，大约 70% 的人口被某种私人——美国医学会（AMA）所说的“自愿健康保险计划”覆盖。
+
+00:28:42.640 --> 00:29:01.160
+<v Alex Blumberg>So employer-based health insurance, which only started because Baylor University was able to sell to teachers in Texas, and which spread because of government price controls and tax breaks, that became our system.
+<v Alex Blumberg>所以基于雇主的健康保险，它之所以开始仅仅是因为贝勒大学能够向德克萨斯的老师推销，并且由于政府价格管制和税收减免而蔓延，这就成了我们的系统。
+
+00:29:01.160 --> 00:29:13.300
+<v Melissa Thomasson>Employer-based insurance is a horrible system. I mean, why would you want your employer buying your health insurance? Why on earth would you want your employer buying your groceries? You certainly wouldn't want that.
+<v Melissa Thomasson>基于雇主的保险是一个糟糕的系统。我的意思是，为什么你会想要你的雇主购买你的健康保险？你为什么要让你的雇主购买你的杂货？你当然不会想要那样。
+
+00:29:13.300 --> 00:29:29.130
+<v Adam Davidson>Just imagine it. Your employer has a contract with a grocery store. You go in, you pay your $20 copay, and then you get to take whatever you want. You'd probably go home with a lot more groceries, and you wouldn't skimp on the luxuries. Why get hot dogs when you can have lobster?
+<v Adam Davidson>想象一下。你的雇主与一家杂货店签了合同。你走进去，支付 20 美元的共付额，然后你可以拿走你想要的任何东西。你可能会带回更多的杂货，而且你不会在奢侈品上吝啬。当你可以拥有龙虾时，为什么要买热狗？
+
+00:29:29.130 --> 00:29:43.770
+<v Adam Davidson>And from the grocery store's point of view, it would have no incentive to keep prices down. Your plan is paying the bill. Pretty soon they might get so high that people without employer provided food plans could no longer afford to eat. They'd call Congress, demand universal food coverage.
+<v Adam Davidson>从杂货店的角度来看，它将没有动力保持价格低廉。你的计划正在支付账单。很快价格可能会高到没有雇主提供食品计划的人就买不起食物了。他们会打电话给国会，要求全民食品覆盖。
+
+00:29:43.770 --> 00:30:03.090
+<v Adam Davidson>To economists like Thomasson, that's exactly the system we have with health. We, the consumers, are totally separated from the cost of what we're consuming. We get tests and procedures we don't need because, well, why not? We're not paying for it a la carte. Our employer's paying for part of it. Our government is paying for part of it through those tax incentives.
+<v Adam Davidson>对于像托马森这样的经济学家来说，这正是我们在健康方面拥有的系统。我们，消费者，与我们消费的东西的成本完全分开了。我们接受我们不需要的测试和程序，因为，好吧，为什么不呢？我们不是按菜单付钱。我们的雇主支付了一部分。我们的政府通过那些税收激励措施支付了一部分。
+
+00:30:03.090 --> 00:30:52.310
+<v Adam Davidson>Melissa Thomasson says that what we have combines the worst of the market and the worst of government. Markets are usually really good at controlling costs. When they work best, products come into existence, like cellphones, or stockings. They start expensive and then they get cheaper and better. But markets don't guarantee that everyone can afford the things they need. Government can be good at that, ensuring universal access. But when you're paying for everybody, it's hard to control costs. For Melissa Thomasson, she says that either extreme, a competitive market system where consumers know what price they're paying, what they're getting, which would probably drive the price of health care down, or a government run system, which would cover everyone would be better than the accidental mixture that we have today. A really expensive system that doesn't cover us all.
+<v Adam Davidson>梅丽莎·托马森说，我们所拥有的是市场最坏的一面和政府最坏的一面的结合。市场通常非常擅长控制成本。当它们发挥最佳作用时，产品就会出现，比如手机或长筒袜。它们刚开始很贵，然后变得更便宜、更好。但市场不能保证每个人都能买得起他们需要的东西。政府在这一点上可能很擅长，确保全民准入。但当你为每个人付钱时，很难控制成本。对于梅丽莎·托马森来说，她说无论是极端情况，一种消费者知道他们支付什么价格、得到什么的竞争性市场系统，这可能会把医疗保健的价格降下来，还是政府运行的系统，将覆盖每个人，都会比我们今天拥有的偶然混合物要好。一个非常昂贵的系统，却不能覆盖我们所有人。
+
+00:30:52.310 --> 00:31:08.680
+<v Ira Glass>Alex Blumberg and Adam Davidson from the Planet Money team. Coming up, a journey to the very frontier of health insurance. That's in a minute. From Chicago Public Radio and Public Radio International, when our program continues.
+<v Ira Glass>亚历克斯·布伦伯格和亚当·戴维森来自 Planet Money 团队。接下来，一次前往健康保险最前沿的旅程。那将在稍后进行。来自芝加哥公共广播和公共广播国际，当我们的节目继续时。
+
+00:31:08.680 --> 00:31:32.250
+<v Ira Glass>This American Life , I'm Ira Glass. Today's show, Someone Else's Money. Stories about the insurance industry and how it shapes everybody's health care. This is the second of two programs that we're doing explaining health care in America. And both are co-productions with NPR News . If you missed last week's show, you can hear it on the Internet for free. We've arrived at act three of our program. "Act Three, Insurance? Ruh Roh!"
+<v Ira Glass>《美国生活》，我是艾拉·格拉斯。今天的节目，《别人的钱》。关于保险业及其如何塑造每个人的医疗保健的故事。这是我们解释美国医疗保健的两个节目中的第二个。两者都是与美国国家公共电台新闻部共同制作的。如果你错过了上周的节目，你可以在互联网上免费收听。我们已经到达节目的第三幕。“第三幕，保险？糟了！”
+
+00:31:32.250 --> 00:31:42.660
+<v Ira Glass>We have a story for you know about the newest frontier for health insurance, a place where it's just starting out, although you can hear it right there. There it is. Here's Dave Kestenbaum from the NPR Planet Money team.
+<v Ira Glass>我们有一个关于健康保险最新前沿的故事给你，一个刚刚开始的地方，尽管你可以在那里听到它。就在那儿。这是来自 NPR Planet Money 团队的戴夫·凯斯滕鲍姆（Dave Kestenbaum）。
+
+00:31:42.660 --> 00:32:14.020
+<v David Kestenbaum>If you can't tell from all the beeps, this is an operating room. On the table, one of the millions of this country's uninsured. The patient lies motionless connected by tubes and wires to various machines. The surgeon is about to make a cut just below the knee. The operation this patient's having done is one I've had done, or close to it. We both tore the interior cruciate ligament that holds the knee together. Actually, I've had two operations, both knees, and this is his second also. There's one big difference though, he's a dog.
+<v David Kestenbaum>如果你不能从所有的哔哔声中听出来，这是一个手术室。在手术台上，是这个国家数百万未投保者中的一员。病人一动不动地躺着，通过管子和电线连接到各种机器上。外科医生正准备在膝盖下方做一个切口。这个病人正在做的一项手术是我做过的，或者接近它。我们都撕裂了固定膝盖的前交叉韧带。实际上，我做过两次手术，两个膝盖，这也是他的第二次。不过有一个很大的区别，他是一只狗。
+
+00:32:14.020 --> 00:32:49.390
+<v David Kestenbaum>The bill for the surgery? About $3,500 per knee. Looking around this veterinary hospital, you realize pet health care, more and more, is looking a lot like human health care. This is Chesapeake Veterinary Surgical Specialists in Annapolis, Maryland. In the next room, a weimaraner has been knocked out and is being prepped for surgery. Actually, he's being vacuumed. It turns out, when a dog is unconscious, you can vacuum it. Down the hall, dogs with cancer are getting chemotherapy. The knee surgeon, Dr. Daran Roa, says not long ago, places like this just did not exist.
+<v David Kestenbaum>手术费用？每个膝盖大约 3500 美元。环顾这家兽医医院，你意识到宠物医疗保健，越来越多地看起来很像人类医疗保健。这是位于马里兰州安纳波利斯的切萨皮克兽医外科专家医院（Chesapeake Veterinary Surgical Specialists）。在隔壁房间，一只魏玛犬已经被麻醉并准备手术。实际上，他正在被吸尘。事实证明，当狗失去知觉时，你可以给它吸尘。在大厅下面，患有癌症的狗正在接受化疗。膝盖外科医生达兰·罗阿（Daran Roa）医生说，不久前，这样的地方根本不存在。
+
+00:32:49.390 --> 00:33:08.060
+<v Dr. Daren Roa>The numbers of surgeons and internists and cardiologists and large mega practices like this across the country has gotten astronomical. 25 years ago, you couldn't find a surgeon but at a university. And then, if you were lucky. But now there's thousands of them.
+<v Dr. Daren Roa>全国各地的外科医生、内科医生、心脏病专家和像这样的大型综合诊所的数量已经达到了天文数字。25 年前，你除了在大学里，根本找不到外科医生。如果你幸运的话。但现在有成千上万的人。
+
+00:33:08.060 --> 00:33:24.930
+<v David Kestenbaum>And so pet health care is now crossing a magic threshold, one human health care crossed long ago. It's getting good and it's getting expensive. Expensive enough that people start thinking, wouldn't it be nice if someone else paid for this? Wouldn't it be nice to have insurance?
+<v David Kestenbaum>所以宠物医疗保健现在正在跨越一个神奇的门槛，一个人类医疗保健很久以前就跨越的门槛。它正在变得越来越好，也越来越昂贵。贵到人们开始想，如果有人付钱那该多好？如果能有保险该多好？
+
+00:33:24.930 --> 00:33:41.210
+<v David Kestenbaum>Only a handful of pet owners that come here have pet insurance. Nationwide it's a few percent or so. But the business is growing rapidly at a pace of 15% or 20% a year. And you wonder if pet health care is about to import one of the major problems with human health care.
+<v David Kestenbaum>只有少数来这里的宠物主人有宠物保险。在全国范围内是百分之几左右。但业务正在以每年 15% 或 20% 的速度快速增长。你怀疑宠物医疗保健是否即将引入人类医疗保健的主要问题之一。
+
+00:33:41.210 --> 00:33:46.800
+<v Dennis Drent>My name is Dennis Drent and I'm the president and CEO of Veterinary Pet Insurance Company.
+<v Dennis Drent>我的名字是丹尼斯·德伦特（Dennis Drent），我是兽医宠物保险公司（Veterinary Pet Insurance Company）的总裁兼首席执行官。
+
+00:33:46.800 --> 00:33:49.340
+<v David Kestenbaum>And you're the largest pet insurance company in the United States, right?
+<v David Kestenbaum>你是美国最大的宠物保险公司，对吗？
+
+00:33:49.340 --> 00:33:55.200
+<v Dennis Drent>We are, yes. By a lot. By a lot. Knock wood we stay that way.
+<v Dennis Drent>我们是，是的。很大。非常大。敲敲木头，希望我们保持这种状态。
+
+00:33:55.200 --> 00:34:03.130
+<v David Kestenbaum>Veterinary Pet Insurance, VPI, is a subsidiary of Nationwide Insurance. And Dennis Drent comes from the car insurance, house insurance world.
+<v David Kestenbaum>兽医宠物保险，VPI，是全国保险公司（Nationwide Insurance）的子公司。丹尼斯·德伦特来自汽车保险、房屋保险世界。
+
+00:34:03.130 --> 00:34:04.830
+<v David Kestenbaum>Do you have pet?
+<v David Kestenbaum>你有宠物吗？
+
+00:34:04.830 --> 00:34:10.200
+<v Dennis Drent>I have two. I have two miniature dachshunds. They're 10 years old, Willie and Charlie.
+<v Dennis Drent>我有两只。我有两只迷你腊肠犬。它们 10 岁了，威利（Willie）和查理（Charlie）。
+
+00:34:10.200 --> 00:34:12.090
+<v David Kestenbaum>And, are they insured?
+<v David Kestenbaum>它们有保险吗？
+
+00:34:12.090 --> 00:34:50.870
+<v Dennis Drent>Absolutely. And I'll tell you why. The veterinarians have something called stop treatment, which is a concept where they actually measure how much will somebody spend on medical procedures until they'll say it's too much and we're just going to put the pet down. So I was talking with my wife one night saying, OK, Susan, how much would you spend? What's your stop treatment point? And we got to $10,000 and she wasn't even close to stopping treatment. And I know, being in this business now, that you can run up bills over $10,000 pretty easily. So at that point our dogs have been insured ever since.
+<v Dennis Drent>绝对有。我告诉你为什么。兽医有一种叫停止治疗的东西，这是一个概念，他们实际上测量某人会为医疗程序花费多少钱，直到他们说太多了，我们还是给宠物安乐死。所以一天晚上我和我妻子交谈说，好的，苏珊，你会花多少钱？你的停止治疗点在哪里？我们到了 1 万美元，她甚至还没接近停止治疗。作为现在这个行业的人，我知道你可以很容易地把账单开到 1 万美元以上。所以在那一点上，我们的狗从那时起就一直有保险。
+
+00:34:50.870 --> 00:35:05.710
+<v David Kestenbaum>Let's just back up there. That idea of stop treatment level, how much would you pay to save your cat or your dog? That is the hardest question you can ask a pet owner. But let's face it, most people have a number. And it's a number that the industry measures.
+<v David Kestenbaum>让我们退后一步。停止治疗水平的概念，你愿意付多少钱来拯救你的猫或狗？这是你能问宠物主人最困难的问题。但让我们面对现实吧，大多数人都有一个数字。而且这是该行业测量的一个数字。
+
+00:35:05.710 --> 00:35:44.290
+<v David Kestenbaum>In 1997, it was $576. In 2007, just 10 years later, it more than doubled to $1,451. Insurance for a dog per month is something like $35. Dennis Drent sees pet insurance as a win-win. Actually, a win-win-win. Pets' lives get saved, the insurance company makes a little money, and the vets also make more money. But that win-win-win in the human health care world, it creates big problems. Doctors feel free to order more tests, patients don't care because they're not paying the bill. Everyone is so busy winning the system wastes money.
+<v David Kestenbaum>1997 年，是 576 美元。2007 年，仅仅 10 年后，它翻了一番多，达到 1451 美元。狗每月的保险费大约是 35 美元。丹尼斯·德伦特认为宠物保险是一个双赢。实际上，是一个三赢。宠物的生命得到拯救，保险公司赚了一点钱，兽医也赚了更多的钱。但那个三赢在人类医疗保健世界，它创造了巨大的问题。医生感到自由订购更多的测试，病人不在乎，因为他们不付账单。每个人都忙于获胜，系统浪费了钱。
+
+00:35:44.290 --> 00:35:57.460
+<v David Kestenbaum>I found a report that was refreshingly blunt about the money that veterinarians can make from all this. It was put together by the National Commission on Veterinary Economic Affairs. It's hard to imagine the American Medical Association putting out something like this for doctors.
+<v David Kestenbaum>我发现了一份关于兽医从这一切中可以赚到的钱的报告，非常直率。它是由全国兽医经济事务委员会（National Commission on Veterinary Economic Affairs）汇编的。很难想象美国医学会会为医生发布这样的东西。
+
+00:35:57.460 --> 00:36:17.010
+<v David Kestenbaum>The report says on page four that with pet insurance, clients quote, "likely will use your services even more often and opt for more advanced medical procedures." It points out that insurance can reduce quote, "price resistance on the part of the client." Quote, "with cost concerns removed, clients become more engaged and more responsive."
+<v David Kestenbaum>报告在第四页说，有了宠物保险，客户引用，“可能会更频繁地使用你的服务，并选择更先进的医疗程序。”它指出，保险可以减少引用，“客户方面的价格阻力。”引用，“随着成本担忧的消除，客户变得更加投入，反应更积极。”
+
+00:36:17.010 --> 00:36:21.470
+<v David Kestenbaum>I read that part of the report to Dennis Drent, who said, "yeah, that's right."
+<v David Kestenbaum>我把报告的那部分读给丹尼斯·德伦特听，他说，“是的，那是对的。”
+
+00:36:21.470 --> 00:36:47.060
+<v Dennis Drent>Historically, veterinarians haven't made as much money as, for example, doctors. So we're trying to make them help them understand that through insurance they can make more money. And by making more money, they can afford better procedures, better equipment, and provide better care for the animals. So again, I keep getting back to this win-win all around.
+<v Dennis Drent>从历史上看，兽医赚的钱并不像医生那么多。所以我们试图让他们帮助他们理解，通过保险，他们可以赚更多的钱。通过赚更多的钱，他们可以负担得起更好的程序、更好的设备，并为动物提供更好的护理。所以再一次，我一直回到这种全面的三赢。
+
+00:36:47.060 --> 00:36:53.900
+<v Susan Markham>Ready for me to go? A big fat thank-you from me and VPI for all you do for pets and their peeps every day.
+<v Susan Markham>准备好让我走了吗？非常感谢我和 VPI 为你每天为宠物及其主人所做的一切。
+
+00:36:53.900 --> 00:37:08.720
+<v David Kestenbaum>This is Susan Markham, who also works for VPI, the pet insurance company. I tagged along when she made her pitch to a veterinary hospital outside of Atlanta. The staff sat around listening politely, some in scrubs, eating barbecue that the pet insurance company had paid for.
+<v David Kestenbaum>这是苏珊·马克姆（Susan Markham），她也为宠物保险公司 VPI 工作。当她向亚特兰大郊外的一家兽医医院推销时，我跟着她去了。工作人员坐在那里礼貌地听着，有些人穿着刷手服，吃着宠物保险公司支付的烧烤。
+
+00:37:08.720 --> 00:37:33.180
+<v David Kestenbaum>Now in a lot of markets, you could just make the pitch, this will make you a lot of money, and that would work really well. But it turns out, animal doctors, like people doctors, don't like thinking that money matters to them. Their job after all, is supposed to be about something bigger: saving lives. And Susan Markham's pitch has nothing to do with profit. She has a much more powerful weapon: kittens. A particular kitten named Minnie.
+<v David Kestenbaum>现在在很多市场上，你只需要推销，这会让你赚很多钱，那会工作得很好。但事实证明，动物医生，像人类医生一样，不喜欢认为金钱对他们很重要。毕竟，他们的工作应该是关于更伟大的事情：拯救生命。而苏珊·马克姆的推销与利润无关。她有一个更有力的武器：小猫。一只特别叫米妮（Minnie）的小猫。
+
+00:37:33.180 --> 00:37:56.050
+<v Susan Markham>A young mother and her 8-year-old son brought Minnie in. He was crying; he'd stepped on Minnie's leg and it was fractured. And Dr. McCarthy said, good news. She'll go home with you tomorrow. You won't notice that anything has happened to her six months from now. She'll heal up and be just fine. But sadly that young mother declined that treatment. Who can tell me why she might have done that?
+<v Susan Markham>一位年轻的母亲和她 8 岁的儿子把米妮带来了。他在哭；他不小心踩到了米妮的腿，骨折了。麦卡锡医生（Dr. McCarthy）说，好消息。她明天就会跟你回家。从现在起六个月后你都不会注意到她发生过任何事。她会痊愈，完全没问题。但可悲的是那位年轻的母亲拒绝了这种治疗。谁能告诉我她为什么会那样做？
+
+00:37:56.050 --> 00:38:03.480
+<v David Kestenbaum>The story has a bad ending. The owner felt she couldn't afford to get Minnie's leg fixed. And overnight, she took Minnie to be euthanized.
+<v David Kestenbaum>这个故事有一个坏结局。主人觉得她负担不起修复米妮的腿。一夜之间，她带米妮去实施了安乐死。
+
+00:38:03.480 --> 00:38:16.210
+<v Susan Markham>So Minnie's mom spent much more to have a very upset family and son, and a dead kitten than she would have had she had pet insurance. And she would have had a well kitten.
+<v Susan Markham>所以米妮的妈妈花了更多钱却换来了一个非常难过的家庭和儿子，以及一只死掉的小猫，而不是如果她有宠物保险的情况。她本来会有一只健康的小猫。
+
+00:38:16.210 --> 00:38:27.860
+<v David Kestenbaum>Veterinarians are animal people. And one thing they hate possibly more than anything else is having to kill an animal they can fix. Which of course, is the upside to insurance. It saves lives.
+<v David Kestenbaum>兽医是爱动物的人。他们可能比任何事情都更讨厌的一件事就是不得不杀死他们本可以治愈的动物。这当然是保险的好处。它拯救生命。
+
+00:38:27.860 --> 00:38:44.420
+<v David Kestenbaum>Veterinarians have been wary of pet insurance though. They're afraid it will become more like human health care. In particular, they're afraid of three letters: HMO. Managed care. They don't want an insurance company telling them how to practice medicine. But these kind of presentations do seem to work.
+<v David Kestenbaum>兽医对宠物保险一直保持警惕。他们担心它会变得更像人类医疗保健。特别是，他们害怕三个字母：HMO。管理式医疗。他们不希望保险公司告诉他们如何行医。但这些演示看起来确实有效。
+
+00:38:44.420 --> 00:38:45.540
+<v Susan Markham>So I've got these for you.
+<v Susan Markham>所以我为你准备了这些。
+
+00:38:45.540 --> 00:38:49.340
+<v David Kestenbaum>Susan leaves a pile of pet insurance brochures and giveaway pens on the table.
+<v David Kestenbaum>苏珊在桌子上留下了一堆宠物保险手册和赠品笔。
+
+00:38:49.340 --> 00:38:55.390
+<v Susan Markham>And prizes. And I'm going to leave you another one in case you want that to be in reception or if you want to give it to a client or--
+<v Susan Markham>还有奖品。我还要再给你一个，以防你想把它放在前台，或者如果你想把它给客户或者——
+
+00:38:55.390 --> 00:39:03.480
+<v David Kestenbaum>Win, win, win.
+<v David Kestenbaum>赢，赢，赢。
+
+00:39:03.480 --> 00:39:19.960
+<v David Kestenbaum>So if you're trying to decide how you feel about this whole thing, whether insurance is distorting pet health care, sending us into a world where lots of dogs will be getting $7,000 knee surgeries, or whether it's meeting a need, or both. I think it's time to meet someone who actually has pet insurance.
+<v David Kestenbaum>所以如果你正在试图决定你对整件事的感觉，保险是否在扭曲宠物医疗保健，把我们送入一个许多狗将进行 7000 美元膝盖手术的世界，或者它是否满足了一个需求，或者两者兼而有之。我认为是时候见见一个真正有宠物保险的人了。
+
+00:39:19.960 --> 00:39:26.700
+<v Kristen Zorbini Bongard>We first noticed that something was up with Harriet in March.
+<v Kristen Zorbini Bongard>我们第一次注意到哈丽特（Harriet）不对劲是在三月。
+
+00:39:26.700 --> 00:39:31.800
+<v David Kestenbaum>This is Kristen Zorbini Bongard, she lives in Janesville, Wisconsin.
+<v David Kestenbaum>这是克里斯汀·佐尔比尼·邦加德（Kristen Zorbini Bongard），她住在威斯康星州简斯维尔。
+
+00:39:31.800 --> 00:39:39.620
+<v Kristen Zorbini Bongard>I started doing some snuggle time with Harriet and noticed that she had a lump.
+<v Kristen Zorbini Bongard>我开始和哈丽特做一些拥抱时间，注意到她有一个肿块。
+
+00:39:39.620 --> 00:39:57.770
+<v David Kestenbaum>Before we go any further into the surgeries and the tests, I have to tell you that Harriet is a hedgehog. A hedgehog with health insurance. If that seems crazy to you, you do not know Kristen, and you do not know hedgehogs. One of the many great things about hedgehogs, she says, is that they can roll up into little balls.
+<v David Kestenbaum>在我们进一步深入手术和测试之前，我必须告诉你哈丽特是一只刺猬。一只拥有健康保险的刺猬。如果这看起来很疯狂，你不了解克里斯汀，你也不了解刺猬。她说，关于刺猬的许多伟大事情之一是它们可以蜷缩成小球。
+
+00:39:57.770 --> 00:40:22.020
+<v Kristen Zorbini Bongard>It's adorable. It's a very wonderful thing to see. When you turn them over on their backs, all of a sudden, all you see is quills. And it's a wonderful defense mechanism. That's what it is. But then all of sudden, you see a nose pop out, and two eyes, and maybe the front two paws. And then some ears. It's a very cute thing to watch.
+<v Kristen Zorbini Bongard>很可爱。这真是一件美妙的事情。当你把它们翻到背上，突然间，你看到的只是刺。这是一种很棒的防御机制。就是这样。但突然间，你看到一个鼻子探出来，两只眼睛，也许前两只爪子。然后是一些耳朵。这真是一件非常可爱的事情。
+
+00:40:22.020 --> 00:40:40.110
+<v David Kestenbaum>Dogs will trust just about anyone, she says, but hedgehogs, you have to earn their trust. And she likes that. So Harriet had a lump and Kristin brought her into the vet. A test showed the lump was cancerous. The vet, she says, told her this in a calm, factual way. And Kristen scheduled a date for surgery.
+<v David Kestenbaum>她说，狗会信任任何人，但刺猬，你必须赢得它们的信任。她喜欢那样。所以哈丽特有一个肿块，克里斯汀带她去了兽医那里。测试显示肿块是恶性的。她说，兽医以一种冷静、客观的方式告诉她这一点。克里斯汀安排了一个手术日期。
+
+00:40:40.110 --> 00:40:44.270
+<v Kristen Zorbini Bongard>The anesthesia that they give is a gas anesthesia.
+<v Kristen Zorbini Bongard>他们给的麻醉是气体麻醉。
+
+00:40:44.270 --> 00:40:48.400
+<v David Kestenbaum>They put a little mask over the nose?
+<v David Kestenbaum>他们给鼻子戴了一个小面罩？
+
+00:40:48.400 --> 00:40:54.220
+<v Kristen Zorbini Bongard>Usually what they do is they put a giant mask over the entire hedgehog.
+<v Kristen Zorbini Bongard>通常他们做的是给整个刺猬戴上一个巨大的面罩。
+
+00:40:54.220 --> 00:40:55.110
+<v David Kestenbaum>I see.
+<v David Kestenbaum>我明白了。
+
+00:40:55.110 --> 00:40:57.180
+<v Kristen Zorbini Bongard>Yeah, it's rather funny to watch.
+<v Kristen Zorbini Bongard>是的，看着相当有趣。
+
+00:40:57.180 --> 00:40:59.880
+<v David Kestenbaum>The lump came right out, but there were complications.
+<v David Kestenbaum>肿块马上就出来了，但有并发症。
+
+00:40:59.880 --> 00:41:38.390
+<v Kristen Zorbini Bongard>It seems like she had a reaction to the sutures and she has ripped open the sutures a couple times. Had to be stapled shut. And we actually ended up going in and doing the full surgical suite to see if there was anything left in there that was bothering her. She did end up healing, but continues to scrape at it infrequently. And so we've had to do some experimenting on her. She's on some hedgehog-- and I say "hedgehog" loosely-- anti-psychotics.
+<v Kristen Zorbini Bongard>看起来她对缝线有反应，她几次撕开了缝线。必须缝合关闭。我们实际上最终进去并做了全套手术，看看里面是否有任何东西在困扰她。她最终确实愈合了，但偶尔还会刮它。所以我们不得不对她做一些实验。她正在使用一些刺猬——我宽泛地说“刺猬”——抗精神病药。
+
+00:41:38.390 --> 00:41:40.710
+<v David Kestenbaum>Meaning they weren't developed for hedgehogs?
+<v David Kestenbaum>意思是它们不是为刺猬开发的？
+
+00:41:40.710 --> 00:41:48.740
+<v Kristen Zorbini Bongard>Oh no. And as far as we know, we don't actually know that any other hedgehogs have ever been prescribed anti-psychotics.
+<v Kristen Zorbini Bongard>噢，不。就我们所知，我们实际上并不知道有任何其他刺猬被开过抗精神病药。
+
+00:41:48.740 --> 00:41:55.680
+<v David Kestenbaum>So Harriet gets 0.06 milliliters of medicine twice a day, and she's back to her snugly self?
+<v David Kestenbaum>所以哈丽特每天吃两次 0.06 毫升的药，然后又恢复了她那种舒适的感觉？
+
+00:41:55.680 --> 00:41:59.780
+<v Kristen Zorbini Bongard>Yeah, she is very snugly. She's very snugly.
+<v Kristen Zorbini Bongard>是的，她非常舒适。她非常舒适。
+
+00:41:59.780 --> 00:42:03.150
+<v David Kestenbaum>So how much did that cost? Do you actually have the bill?
+<v David Kestenbaum>那么这花了多少钱？你有账单吗？
+
+00:42:03.150 --> 00:42:35.170
+<v Kristen Zorbini Bongard>I do. In the beginning the bills were relatively low. You know, $374, $150, $366. And VPI paid 70% of the first bill, 60% of the second bill, 43% of the third bill.
+<v Kristen Zorbini Bongard>我有。刚开始，账单相对较低。你知道，374 美元，150 美元，366 美元。VPI 支付了第一笔账单的 70%，第二笔的 60%，第三笔的 43%。
+
+00:42:35.170 --> 00:42:36.570
+<v David Kestenbaum>VPI is the pet insurance?
+<v David Kestenbaum>VPI 是宠物保险？
+
+00:42:36.570 --> 00:42:37.560
+<v Kristen Zorbini Bongard>Yes.
+<v Kristen Zorbini Bongard>是的。
+
+00:42:37.560 --> 00:42:53.130
+<v David Kestenbaum>Health insurance for a hedgehog costs about $80 a year. And in the end, VPI put out $802 for Harriet's care. Kristen and her husband had to pay the rest, $1,911.20 of their own money.
+<v David Kestenbaum>刺猬的健康保险每年大约花费 80 美元。最终，VPI 为哈丽特的护理支付了 802 美元。克里斯汀和她的丈夫不得不支付剩下的，1911.20 美元他们自己的钱。
+
+00:42:53.130 --> 00:43:09.390
+<v David Kestenbaum>Kristen says she's not rich. She says things are actually kind of tough for her and her husband. She says, like a lot of people, they've been scaling back. And at the same time, she says having insurance did make her spend more on Harriet than she would have without insurance. On the other hand, it saved Harriet's life.
+<v David Kestenbaum>克里斯汀说她并不富有。她说事情实际上对她和她丈夫来说有点艰难。她说，像很多人一样，他们一直在缩减开支。同时，她说有保险确实让她在哈丽特身上花的钱比没有保险时多。另一方面，它挽救了哈丽特的生命。
+
+00:43:09.390 --> 00:43:12.310
+<v David Kestenbaum>I wish you had Harriet there, you could bring her up to the phone.
+<v David Kestenbaum>我希望你有哈丽特在那里，你可以把她带到电话旁。
+
+00:43:12.310 --> 00:43:16.080
+<v Kristen Zorbini Bongard>Oh yeah. I can mimic the noise she would make.
+<v Kristen Zorbini Bongard>噢，是的。我可以模仿她会发出的声音。
+
+00:43:16.080 --> 00:43:17.030
+<v David Kestenbaum>Go ahead.
+<v David Kestenbaum>开始吧。
+
+00:43:17.030 --> 00:43:29.280
+<v Kristen Zorbini Bongard>[UNINTELLIGIBLE PHRASE] That's pretty much it.
+<v Kristen Zorbini Bongard>[无法理解的短语] 大概就是那样。
+
+00:43:29.280 --> 00:43:38.880
+<v David Kestenbaum>I asked Kristen about the downside of insurance, that it can lead to all kinds of unnecessary tests and procedures. And she agreed that could be a problem for certain pets.
+<v David Kestenbaum>我问克里斯汀关于保险的缺点，它会导致各种不必要的测试和程序。她同意这对某些宠物来说可能是一个问题。
+
+00:43:38.880 --> 00:43:46.510
+<v Kristen Zorbini Bongard>That's an interesting argument. I can see how that could be, especially for dogs or cats.
+<v Kristen Zorbini Bongard>这是一个有趣的论点。我能看出那可能是怎么回事，尤其是对狗或猫。
+
+00:43:46.510 --> 00:43:48.300
+<v David Kestenbaum>How come?
+<v David Kestenbaum>为什么？
+
+00:43:48.300 --> 00:44:04.120
+<v Kristen Zorbini Bongard>Hey, you know, we have this new vaccine, why don't we try it on Rover? Hey, sure. Why not? No skin off my back. It's covered by my insurance. But I guess for me, as a hedgehog owner, there's just not that much to do.
+<v Kristen Zorbini Bongard>嘿，你知道，我们有这种新疫苗，为什么我们不在 Rover 身上试试呢？嘿，当然。为什么不呢？对我没什么损失。它在我的保险覆盖范围内。但我猜对我来说，作为刺猬主人，真的没有那么多事情可做。
+
+00:44:04.120 --> 00:44:05.880
+<v David Kestenbaum>Harriet is on anti-psychotics?
+<v David Kestenbaum>哈丽特在吃抗精神病药？
+
+00:44:05.880 --> 00:44:20.790
+<v Kristen Zorbini Bongard>Yes. Yeah, she  is. That's not covered by insurance, though. We pay for that out of pocket. I know she's on anti-psychotics. Oh my gosh, I know.
+<v Kristen Zorbini Bongard>是的。是的，她是。不过那不在保险覆盖范围内。我们自掏腰包。我知道她在吃抗精神病药。天哪，我知道。
+
+00:44:20.790 --> 00:44:25.400
+<v David Kestenbaum>Can you tell she's less psychotic?
+<v David Kestenbaum>你能看出她没那么疯狂了吗？
+
+00:44:25.400 --> 00:44:40.140
+<v Kristen Zorbini Bongard>How can you tell if a hedgehog is psychotic? Oh my God.
+<v Kristen Zorbini Bongard>你怎么能看出刺猬是不是精神病？噢，天哪。
+
+00:44:40.140 --> 00:44:44.690
+<v David Kestenbaum>I was curious to know what an actual economist made of all this, so I called up Tim Harford.
+<v David Kestenbaum>我很好奇一位真正的经济学家怎么看这一切，所以我打电话给蒂姆·哈福德（Tim Harford）。
+
+00:44:44.690 --> 00:44:46.270
+<v Tim Harford>Hi, David, how are you?
+<v Tim Harford>嘿，戴维，你好吗？
+
+00:44:46.270 --> 00:44:47.100
+<v David Kestenbaum>OK.
+<v David Kestenbaum>还好。
+
+00:44:47.100 --> 00:44:53.290
+<v Ira Glass>Tim writes a column for The Financial Times called, "Dear Economist," where people write in with all kinds of crazy questions.
+<v Ira Glass>蒂姆为《金融时报》写了一个专栏叫“亲爱的经济学家”，人们带着各种疯狂的问题写信进来。
+
+00:44:53.290 --> 00:44:57.620
+<v David Kestenbaum>OK, dear economist, I have a letter I wrote out here to you.
+<v David Kestenbaum>好的，亲爱的经济学家，我这里有一封我写给你的信。
+
+00:44:57.620 --> 00:44:59.550
+<v Tim Harford>Sure.
+<v Tim Harford>当然。
+
+00:44:59.550 --> 00:45:07.750
+<v David Kestenbaum>Dear economist, is health insurance for pets good or bad? That's it. That's the whole question.
+<v David Kestenbaum>亲爱的经济学家，宠物健康保险是好还是坏？就是这样。这就是整个问题。
+
+00:45:07.750 --> 00:45:11.980
+<v Tim Harford>Like any good economist, I'm going to say yes and no. How's that?
+<v Tim Harford>像任何优秀的经济学家一样，我会说好坏参半。那样怎么样？
+
+00:45:11.980 --> 00:45:31.310
+<v David Kestenbaum>Harford was a little shocked by the whole hedgehog thing. He's not an animal lover. He says his parents cats used to spray his books. But when I explained how pet insurance worked, he actually got excited. From an economic perspective, he says, we've set up a better system for our pets than we have for ourselves. One that could actually contain costs.
+<v David Kestenbaum>哈福德对整个刺猬的事情感到有点震惊。他不是一个爱动物的人。他说他父母的猫过去常在他书上撒尿。但当我解释宠物保险是如何运作时，他实际上很兴奋。从经济角度来看，他说，我们为我们的宠物建立了一个比我们为自己建立的更好的系统。一个实际上可以控制成本的系统。
+
+00:45:31.310 --> 00:45:52.630
+<v David Kestenbaum>He likes that owners have to pay part of say, pet surgery. More than that $20 copay some of us have to cough up when we go to the doctor. He says that forces people who have insurance to think about how much things cost. He also likes that pet insurance is not bundled with our jobs. People can comparison shop, buy it on the open market, find the plan that gives them exactly what they need.
+<v David Kestenbaum>他喜欢主人必须支付部分宠物手术费用的做法。比我们一些人在去看医生时不得不拿出的 20 美元共付额多得多。他说这迫使有保险的人考虑事情的成本。他还喜欢宠物保险不与我们的工作挂钩。人们可以货比三家，在公开市场上购买，找到能精确提供他们所需东西的计划。
+
+00:45:52.630 --> 00:46:12.710
+<v Tim Harford>You're making me very hopeful actually, David. I now have a vision that people are going to see pet insurance, maybe they'll see that there's a better way. Maybe pet insurance is going to be the beacon that inspires us to reform human health care insurance.
+<v Tim Harford>你让我非常有希望，戴维。我现在有一个愿景，人们会看到宠物保险，也许他们会看到有一种更好的方法。也许宠物保险将成为启发我们改革人类医疗保险的灯塔。
+
+00:46:12.710 --> 00:46:37.290
+<v David Kestenbaum>The real downside, he says, is that pet insurance, human health insurance, they're all insurance. And insurance fundamentally, is a lousy way to pay for things. It separates people from the money they're spending. Which inevitably leads to us winding up with tests and drugs and procedures we don't really need, just to be safe. But there's one important difference between health insurance for pets and health insurance for us.
+<v David Kestenbaum>他说，真正的缺点是，宠物保险、人类健康保险，它们都是保险。保险从根本上说，是一种糟糕的支付方式。它把人们与他们花的钱隔离开来。这不可避免地导致我们最终为了安全起见而进行了我们并不真正需要的测试、药物和程序。但在宠物健康保险和人类健康保险之间有一个重要的区别。
+
+00:46:37.290 --> 00:47:05.210
+<v David Kestenbaum>With pets, I think we're used to the idea that they're going to die at some point. We all have that stop treatment level. And that alone will probably keep spending from getting too out of hand. But if my wife gets in a car accident, or my kids, my stop treatment level? It doesn't exist. I want that insurance company to meet me at the hospital loading dock with a truck full of money. Lots and lots of money.
+<v David Kestenbaum>对于宠物，我认为我们习惯了它们会在某个时候死掉的想法。我们都有那种停止治疗水平。仅这一点可能就会防止支出失控。但如果我妻子出了车祸，或者我的孩子，我的停止治疗水平？它不存在。我希望那家保险公司在医院装卸台带着一车钱来见我。很多很多的钱。
+
+00:47:05.210 --> 00:47:13.130
+<v Ira Glass>David Kestenbaum.
+<v Ira Glass>戴维·凯斯滕鲍姆。
+
+00:47:13.130 --> 00:47:16.630
+<v Ira Glass>"Act Four, Sorry Johnny, It's Only Business."
+<v Ira Glass>“第四幕，对不起约翰尼，这只是生意。”
+
+00:47:16.630 --> 00:47:37.330
+<v Ira Glass>Last week on our show, one of our producers, Sarah Koenig, did a story about the insurance industry and health care costs, where she talked to some of the people who run the insurance company, Aetna, and to an economist who studies all this. And she found out some things about the economics of the insurance industry that were so illuminating and counter-intuitive that we asked her to put together another story about what she learned, starting with Aetna.
+<v Ira Glass>上周在我们的节目中，我们的一位制片人萨拉·科尼格（Sarah Koenig）做了一个关于保险业和医疗保健成本的故事，她与经营保险公司安泰（Aetna）的一些人以及研究这一切的经济学家谈了谈。她发现了一些关于保险业经济学的非常有启发性且反直觉的事情，以至于我们要求她整理另一个关于她学到的东西的故事，从安泰开始。
+
+00:47:37.330 --> 00:47:58.130
+<v Sarah Koenig>Back in 2001, Aetna was a company on the verge of collapse. It had bought up three other big companies to become the biggest health insurer in the country. It covered 21 million people. But its cash flow problem was so dire it had to cut costs or go under. And the thing it did to stay solvent has been making the rounds of left leaning media lately. Because on its face it's kind of shocking.
+<v Sarah Koenig>回到 2001 年，安泰是一家处于崩溃边缘的公司。它收购了另外三家大公司，成为全国最大的健康保险公司。它覆盖了 2100 万人。但它的现金流问题太严重了，它必须削减成本，否则就会倒闭。而它为保持偿付能力所做的事情最近在左倾媒体中流传。因为从表面上看，这有点令人震惊。
+
+00:47:58.130 --> 00:48:02.990
+<v Sarah Koenig>Wendell Potter, a former health insurance executive for Cigna, talked about it on Bill Moyers.
+<v Sarah Koenig>曾任信诺健康保险高管的温德尔·波特（Wendell Potter），在比尔·莫耶斯（Bill Moyers）的节目中谈到了这一点。
+
+00:48:02.990 --> 00:48:05.820
+<v Wendell Potter>They shed eight million members.
+<v Wendell Potter>他们抛弃了 800 万会员。
+
+00:48:05.820 --> 00:48:07.560
+<v Bill Moyers>Eight million policyholders?
+<v Bill Moyers>800 万投保人？
+
+00:48:07.560 --> 00:48:10.390
+<v Wendell Potter>Eight million people. Men, women, and children. Yes.
+<v Wendell Potter>800 万人。男人、女人和孩子。是的。
+
+00:48:10.390 --> 00:48:20.220
+<v Sarah Koenig>Potter quit the insurance business last year and is now spreading the word pretty effectively about all the tactics insurance companies use to avoid paying for sick people's treatment, so they can boost their own profits.
+<v Sarah Koenig>波特去年退出了保险业，现在正非常有效地传播关于保险公司用来避免为病人的治疗支付费用以增加自身利润的所有策略。
+
+00:48:20.220 --> 00:48:31.530
+<v Wendell Potter>They intentionally had this program to purge these accounts. Eight million fewer people were enrolled in Aetna's plans. Many of them, undoubtedly, joined the ranks of the uninsured because their employers had been purged.
+<v Wendell Potter>他们特意实施了这个计划来清洗这些账户。安泰的计划中少了 800 万人。其中许多人毫无疑问加入了未投保者的行列，因为他们的雇主被清洗了。
+
+00:48:31.530 --> 00:48:33.860
+<v Bill Moyers>So what happened to Aetna's stock?
+<v Bill Moyers>那么安泰的股票发生了什么？
+
+00:48:33.860 --> 00:48:34.910
+<v Wendell Potter>Went up.
+<v Wendell Potter>上涨了。
+
+00:48:34.910 --> 00:48:46.070
+<v Sarah Koenig>Not only did the stock go up, it quadrupled in value. And the story of Aetna's turnaround became something of a Wall Street legend. Potter also used Aetna as an example when he spoke to a US senate committee in June.
+<v Sarah Koenig>不仅股票上涨，价值还翻了两番。安泰转型的故事成了华尔街的传奇。波特在六月向美国参议院委员会作证时，也以安泰为例。
+
+00:48:46.070 --> 00:49:03.740
+<v Sarah Koenig>The implication of course, is that Aetna singled out its sickest and therefore, most expensive patients, and dumped them. It sounds really bad. It's the kind of story we've gotten used to hearing about insurance companies. But the truth of this story is a little more complicated, a little less Machiavellian, and tells you a lot about how the insurance industry works.
+<v Sarah Koenig>其含义当然是安泰挑出了最生病、因此也是最昂贵的病人，并抛弃了他们。这听起来非常糟糕。这是我们习惯于听到的关于保险公司的故事。但这个故事的真相有点复杂，没那么马基雅维利式，并且告诉你很多关于保险业是如何运作的。
+
+00:49:03.740 --> 00:49:17.460
+<v Sarah Koenig>If you ask Jack Rowe, the Aetna CEO who engineered the turnaround, Aetna's main problem in 2001, was that it simply wasn't charging enough for its health plans. Customers weren't paying enough in premiums to cover what Aetna was paying out for their medical claims.
+<v Sarah Koenig>如果你问杰克·罗（Jack Rowe），那位策划了转型的安泰首席执行官，2001 年安泰的主要问题是它收取的健康计划费用根本不够。客户支付的保费不足以支付安泰为他们的医疗索赔支付的费用。
+
+00:49:17.460 --> 00:49:21.520
+<v Jack Rowe>The entire year of 2001, Aetna wound up losing a million dollars a day.
+<v Jack Rowe>整个 2001 年，安泰最终每天损失 100 万美元。
+
+00:49:21.520 --> 00:49:39.790
+<v Sarah Koenig>So his solution, or at least a big part of it, was to raise premiums on those accounts by 10%, 20%, 30%. In some cases, they shot up by more than 50%. Many, many customers who couldn't pay the increased rates dropped Aetna's insurance. And Aetna did one other thing, something he says you have to do if you're in this situation.
+<v Sarah Koenig>所以他的解决方案，或者至少是其中很大一部分，是将这些账户的保费提高 10%、20%、30%。在某些情况下，它们猛增了 50% 以上。许多许多无法支付高额费率的客户放弃了安泰的保险。安泰还做了另一件事，他说如果你处于这种情况就必须做的事情。
+
+00:49:39.790 --> 00:49:47.940
+<v Jack Rowe>What you do is you get out of the markets that you cannot effectively price your products in.
+<v Jack Rowe>你要做的是退出你无法有效为其产品定价的市场。
+
+00:49:47.940 --> 00:49:49.740
+<v Sarah Koenig>And what were those markets for you guys?
+<v Sarah Koenig>那么对你们来说，那些市场是什么？
+
+00:49:49.740 --> 00:50:07.600
+<v Jack Rowe>Well, the most important characteristic, what did they have in common, Jack? The answer is that they were in markets in which we did not have very significant presence. So that the contracts that we had with the doctors and the hospitals were not as favorable as that of our competitors.
+<v Jack Rowe>嗯，最重要的特征，它们有什么共同点，杰克？答案是它们处于我们在那里没有非常显著的市场份额的市场。所以我们与医生和医院签订的合同不如我们竞争对手的有利。
+
+00:50:07.600 --> 00:50:19.280
+<v Sarah Koenig>This is the heart of how Jack Rowe explains what happened back in 2001. Contrary to what his critics allege, Jack Rowe says Aetna did not drop customers because they were sick. It dropped them because they were expensive.
+<v Sarah Koenig>这就是杰克·罗解释 2001 年发生的事情的核心。与批评者声称的相反，杰克·罗说安泰抛弃客户不是因为他们生病了。它抛弃他们是因为他们太贵了。
+
+00:50:19.280 --> 00:50:35.570
+<v Jack Rowe>You're assuming that the patients are more expensive because they're sick. And the fact is the patients were more expensive because we were paying the doctors and the hospitals more for the same services than our competitors were.
+<v Jack Rowe>你假设病人生病是因为他们贵。事实是病人贵是因为我们支付给医生和医院的费用比我们的竞争对手高，而服务是一样的。
+
+00:50:35.570 --> 00:50:50.430
+<v Sarah Koenig>So Aetna simply folded in places where it was, say, fourth or fifth in the market and couldn't hack it against the bigger guys. But taking a former CEO's word for all this didn't seem wise. So I ran Jack Rowe's explanation by Uwe Reinhardt, a health care economist at Princeton University.
+<v Sarah Koenig>所以安泰只是在市场上排第四或第五、无法与大公司抗衡的地方撤出了。但听信一位前首席执行官对这一切的说法似乎并不明智。所以我把杰克·罗的解释拿去给普林斯顿大学的医疗经济学家乌韦·莱因哈特（Uwe Reinhardt）看。
+
+00:50:50.430 --> 00:50:58.220
+<v Sarah Koenig>When he's talking about, we didn't have good contracts with hospitals, does that ring true to you?
+<v Sarah Koenig>当他在谈论我们与医院没有好合同的时候，这对你来说听起来真实吗？
+
+00:50:58.220 --> 00:51:15.690
+<v Uwe Reinhardt>Oh, yes. The insurance market is quite fragmented, which means that in a market, unless you have a large market share, you really don't have any market power in bargaining with doctors and hospital over prices.
+<v Uwe Reinhardt>噢，是的。保险市场非常碎片化，这意味着在一个市场上，除非你有很大的市场份额，否则你在与医生和医院议价时真的没有任何市场力量。
+
+00:51:15.690 --> 00:51:49.080
+<v Sarah Koenig>In other words, in a market where everyone can cut their own deal, the big insurer who brings a hospital a lot of patients, say, 75,000 a year, has a lot of leverage. It can demand discounted rates from the hospital. Because the hospital can't survive without those 75,000 sick people. But to cover all its costs, the hospital's overhead, the hospital has to make up for that money it's not getting from the discounted guys. So it sticks higher prices to the littler insurers who have no leverage. Because the hospital can live without their, say, 600 patients. The little guy either has to eat the higher costs or pull out of that market.
+<v Sarah Koenig>换句话说，在一个每个人都能达成自己交易的市场中，带给医院很多病人——比如一年 7.5 万人——的大型保险公司有很多影响力。它可以要求医院的折扣率。因为医院没有那 7.5 万名生病的人就无法生存。但为了覆盖所有的成本，医院的开销，医院必须弥补它从折扣客户那里没拿到的钱。所以它把更高的价格强加给没有影响力的较小保险公司。因为医院没有他们的 600 个病人也能生存。小公司要么吞下更高的成本，要么退出该市场。
+
+00:51:49.080 --> 00:52:14.500
+<v Uwe Reinhardt>This is called the cost shift in the business. And that is what happens in spades in the private insurance industry. It is a constant game of shifting costs from one payer to the other. So that's one thing, the more competitors you have in this insurance industry, the weaker each will be in bargaining with doctors and hospitals.
+<v Uwe Reinhardt>这在行业中被称为成本转移。这就是私人保险业中大量发生的事情。这是一个不断将成本从一个支付者转移到另一个支付者的游戏。所以这是一回事，你在保险业拥有的竞争对手越多，每个对手在与医生和医院议价时就越弱。
+
+00:52:14.500 --> 00:52:33.160
+<v Sarah Koenig>So in the health insurance world, more competition does not necessarily equal lower prices for consumers. This is one of the many things Reinhardt told me that blew my mind. That ran counter to everything I assumed about how the free market is supposed to work. Another thing he told me was that there was a period when insurers were able to successfully bargain hospital prices down.
+<v Sarah Koenig>所以在健康保险世界中，更多的竞争并不一定等于消费者的价格降低。这是莱因哈特告诉我的许多让我感到震惊的事情之一。这与我假设自由市场应该如何运作的一切背道而驰。他告诉我的另一件事是，有一段时间，保险公司能够成功地将医院价格谈下来。
+
+00:52:33.160 --> 00:52:51.450
+<v Sarah Koenig>It was in the mid '90s when big insurance companies got a lot tougher about cutting costs, and started ramming contracts down hospitals' throats. Contracts hospitals found it hard to live by. So in response, hospitals and other health care providers beefed up and consolidated, forming these huge health care systems that could effectively fight back against the large insurers.
+<v Sarah Koenig>那是在 90 年代中期，大型保险公司在削减成本方面变得强硬得多，并开始将合同强加给医院。医院发现很难接受这些合同。所以作为回应，医院和其他医疗保健提供者加强了并合并，形成了这些强大的医疗系统，可以有效地反击大型保险公司。
+
+00:52:51.450 --> 00:53:14.100
+<v Uwe Reinhardt>And the argument was always beautifully put. The consolidation was to have more coordinated patient care. This it was all just bullshine. What they really wanted is to have a powerful block to negotiate with the insurer. Most health economists will tell you, the hospital sector probably is too consolidated, too powerful.
+<v Uwe Reinhardt>而且这个论点总是表达得很美妙。合并是为了有更协调的病人护理。这全是胡扯。他们真正想要的是拥有一个强大的集团来与保险公司谈判。大多数医疗经济学家会告诉你，医院部门可能太集中，太强大了。
+
+00:53:14.100 --> 00:53:23.900
+<v Sarah Koenig>What that means is that big insurers are less and less able to resist rate hikes demanded by big providers. Plus the very act of negotiating all these rates with all these different hospitals is expensive.
+<v Sarah Koenig>这意味着大型保险公司越来越无法抵制大型提供者要求的费率上涨。加上与所有这些不同医院谈判所有这些费率的行为本身就很昂贵。
+
+00:53:23.900 --> 00:54:23.880
+<v Uwe Reinhardt>Imagine now, Aetna has a huge number of people who all year long go around bargaining over prices with each hospital and doctor. And out comes a pricing system that is simply laughable. Why should, for example, in California, if you look at WellPoint, as an insurer, for an appendectomy for some hospitals they pay them maybe $1,500. In other hospitals, they pay $13,000. Explain to me where that could possibly make any sense at all. And that is why I just say the insurance industry is congenitally weak in bargaining with the supply side of the American health sector. And the result has been that we're spending twice as much per capita on health care than most countries without, however, the commensurate benefits that go with that.
+<v Uwe Reinhardt>现在想象一下，安泰有大量的人全年到处与每家医院和医生谈判价格。出来的定价系统简直可笑。为什么，例如，在加利福尼亚，如果你看 WellPoint 作为保险公司，对于某些医院的阑尾切除术，他们可能付给他们 1500 美元。在其他医院，他们支付 13000 美元。向我解释一下这怎么可能有任何意义。这就是为什么我只说保险业在与美国医疗部门的供应方议价时天生软弱。结果就是我们人均医疗保健支出是大多数国家的两倍，然而却没有伴随那种支出的相应好处。
+
+00:54:23.880 --> 00:54:35.080
+<v Uwe Reinhardt>Now pick your favorite theory. A, Americans are really dumb, or B, American suppliers are unbelievably clever.
+<v Uwe Reinhardt>现在挑选你最喜欢的理论。A，美国人真的很笨，或者 B，美国供应商不可思议地聪明。
+
+00:54:35.080 --> 00:54:43.600
+<v Sarah Koenig>This isn't at all the picture we got from President Obama's big health care speech in September. When he characterized the lack of competition among insurance companies as the problem.
+<v Sarah Koenig>这根本不是我们在奥巴马总统九月份的大型医疗保健演讲中得到的画面。当他将保险公司之间缺乏竞争描述为问题时。
+
+00:54:43.600 --> 00:54:52.350
+<v Barack Obama>Without competition, the price of insurance goes up, and quality goes down. And it makes it easier for insurance companies to treat their customers badly.
+<v Barack Obama>如果没有竞争，保险价格就会上涨，质量就会下降。而且它使得保险公司更容易糟糕地对待他们的客户。
+
+00:54:52.350 --> 00:54:58.380
+<v Sarah Koenig>That's the foundation for his argument for a public insurance option. That more competition will keep the big guys in check.
+<v Sarah Koenig>这就是他为公共保险选择方案进行辩论的基础。更多的竞争将使大公司受到制约。
+
+00:54:58.380 --> 00:55:08.260
+<v Barack Obama>An additional step we can take to keep insurance companies honest is by making a not for profit public option available in the insurance exchange.
+<v Barack Obama>我们可以采取的另一个步骤，通过在保险交易所中提供一个非营利性的公共选择，来保持保险公司的诚实。
+
+00:55:08.260 --> 00:55:11.270
+<v Sarah Koenig>Has he got this picture right?
+<v Sarah Koenig>他得到这个画面了吗？
+
+00:55:11.270 --> 00:55:43.640
+<v Uwe Reinhardt>I don't think he does. I wish I had a half hour with him to explain it to him. If you pit hundreds of little insurers against each other, what makes any one think that each of them has enough market clout to bargain successfully with a hospital? So I don't think this public health plan, adding yet one more competitor, is going to bring costs down at all. I don't think many economists would actually buy that argument.
+<v Uwe Reinhardt>我不认为他得到了。我希望我有半小时的时间向他解释。如果你让数百家小保险公司相互竞争，还有什么人认为他们每个人都有足够的市场影响力来成功地与医院讨价还价？所以我认为这个公共健康计划，再增加一个竞争对手，根本不会降低成本。我不认为许多经济学家会真的购买那个论点。
+
+00:55:43.640 --> 00:56:09.960
+<v Sarah Koenig>Reinhardt says if the public health plan was able to get low rates, Medicare-style rates from doctors and hospitals, one result could be that the hospitals would just shift their costs over to the private insurers, who would either absorb them, or in some cases, pass them on to customers in the form of higher premiums. There's a lot of disagreement about that right now. About how or if the public option would affect cost shifting. In any case, Reinhardt thinks we should consider a whole other way.
+<v Sarah Koenig>莱因哈特说，如果公共健康计划能够从医生和医院那里获得低费率，即医疗保险（Medicare）风格的费率，一个结果可能是医院会直接将他们的成本转移给私人保险公司，私人保险公司要么消化它们，要么在某些情况下，以更高的保费形式传递给客户。现在关于这一点有很多分歧。关于公共选择如何或是否会影响成本转移。无论如何，莱因哈特认为我们应该考虑完全不同的方式。
+
+00:56:09.960 --> 00:56:23.210
+<v Uwe Reinhardt>What the president at some point-- maybe not now, he's busy. But at some point, needs to talk about is the virtue of an all payer system, like Maryland. Look to Maryland as where America ought to be.
+<v Uwe Reinhardt>总统在某个时候——也许不是现在，他很忙。但在某个时候，需要谈谈马里兰州那样的全支付者系统（all payer system）的优点。看看马里兰州，那是美国应该在的地方。
+
+00:56:23.210 --> 00:56:43.070
+<v Sarah Koenig>In Maryland, for the past 30-plus years, a state commission has set prices for all procedures at all hospitals. There's no cost shifting. So that every single person who ends up in the hospital, regardless of whether they've got private insurance, Medicare, Medicaid, or no insurance at all, gets the same price. Beth Sammis is a deputy commissioner at the Maryland Insurance Administration.
+<v Sarah Koenig>在马里兰州，过去 30 多年里，一个州委员会为所有医院的所有程序设定了价格。没有成本转移。所以每个进医院的人，无论他们是否有私人保险、医疗保险、医疗补助（Medicaid），还是根本没有保险，得到的价格都是一样的。贝丝·萨米斯（Beth Sammis）是马里兰州保险管理局的副局长。
+
+00:56:43.070 --> 00:56:54.660
+<v Beth Sammis>So the bill is just, you came in, you had an appendectomy. The price of the appendectomy is x amount, and that's the bill that goes out. Everyone is treated fairly.
+<v Beth Sammis>所以账单就是，你进来了，你做了阑尾切除术。阑尾切除术的价格是 x 金额，这就是发出的账单。每个人都得到了公平对待。
+
+00:56:54.660 --> 00:57:01.650
+<v Sarah Koenig>So, regardless of their market share, no insurance company gets a discount. And no insurance company gets screwed.
+<v Sarah Koenig>所以，无论他们的市场份额如何，没有保险公司得到折扣。也没有保险公司被坑。
+
+00:57:01.650 --> 00:57:22.300
+<v Beth Sammis>I mean we think that one of the strengths of our system is that they are not competing on hospital prices. And thus, in order to be able to differentiate themselves within the marketplace, they have to pay more attention to things that are within their own control. Care management and how efficient they are in delivering the benefits.
+<v Beth Sammis>我的意思是，我们认为我们系统的一个优势是它们不在医院价格上竞争。因此，为了能够在市场中区分自己，他们必须更多地关注他们自己控制范围内的东西。护理管理以及他们提供福利的效率。
+
+00:57:22.300 --> 00:57:45.560
+<v Sarah Koenig>So wait, the crazy commies in Maryland think insurance companies should compete on quality, not quantity? But Maryland is just one state. If the whole country operated like Maryland, Aetna might not have had to drop 8 million customers back in 2001. Instead, for the former CEO, Jack Rowe, it was the only solution that made practical sense. And that strategy was a big success. Things haven't been as heady since then.
+<v Sarah Koenig>等等，马里兰州的那些疯狂的共产主义者认为保险公司应该在质量上竞争，而不是数量？但马里兰州只是一个州。如果整个国家像马里兰州那样运作，安泰可能在 2001 年就不必抛弃 800 万客户了。相反，对于前首席执行官杰克·罗来说，这是唯一具有实际意义的解决方案。而那个战略取得了巨大的成功。自那以后，事情就没那么令人兴奋了。
+
+00:57:45.560 --> 00:58:04.020
+<v Sarah Koenig>This past July, Aetna released its second quarter earnings and the company's profits were down 28%. Aetna's chief executives assured Wall Street they'd right the ship in the next year by cracking down on excessive claims. And by turning to their old standby, pretty much every company's standby, raising premiums.
+<v Sarah Koenig>今年七月，安泰发布了第二季度收益，公司利润下降了 28%。安泰的首席执行官向华尔街保证，他们将在下一年通过打击过度索赔来扭转局面。并通过求助于他们的老式后备方案，几乎每家公司的后备方案，提高保费。
+
+00:58:04.020 --> 00:58:22.770
+<v Sarah Koenig>An analyst for Barclays estimates Aetna will lose 600,000 members in the next year to meet its profit goals. It's the same strategy they used in 2001. Aetna's options haven't changed because our health care system hasn't changed. Uwe Reinhardt, the health care economist, says we shouldn't blame insurance companies for how this business works.
+<v Sarah Koenig>巴克莱的一位分析师估计，安泰明年将失去 60 万名会员以达到其利润目标。这与他们 2001 年使用的战略是一样的。安泰的选择没有改变，因为我们的医疗保健系统没有改变。医疗经济学家乌韦·莱因哈特说，我们不应该责怪保险公司这个行业是如何运作的。
+
+00:58:22.770 --> 00:59:03.640
+<v Uwe Reinhardt>Insurance executives are not evil people. If you ever had a brew with Jack Rowe, you would find that. They're not evil people, but this is the game into which they are thrust. For them, given the thin margins they work on, this is all they can really do. In fact, I once wrote a paper bringing out the worst in an otherwise good people. It was a paper delivered to the insurance industry. And I said, you're all good guys. You go to church and synagogue, but you do some awfully mean things. And you do them because you're in a structure that makes you do these things.
+<v Uwe Reinhardt>保险高管不是邪恶的人。如果你曾经和杰克·罗喝过一杯，你就会发现这一点。他们不是邪恶的人，但这是他们被推入的游戏。对他们来说，鉴于他们工作的微薄利润，这是他们唯一能真正做到的。事实上，我曾经写过一篇论文，揭露了原本善良的人最坏的一面。那是交给保险业的一篇论文。我说，你们都是好人。你们去教堂和犹太教堂，但你们做了一些非常卑鄙的事情。你们做这些事情是因为你们身处一个迫使你们做这些事情的结构中。
+
+00:59:03.640 --> 00:59:28.040
+<v Ira Glass>That story from Sarah Koenig.
+<v Ira Glass>那个故事来自萨拉·科尼格。
+
+00:59:28.040 --> 00:59:42.190
+<v Ira Glass>Our program was produced today by Jane Feltes and myself with Alex Blumberg, Sean Cole, Sarah Koenig, Lisa  Pollak, Alissa Shipp and Nancy Updike. Our senior producer is Julie Snyder. Production help from Aaron Scott. Seth Lind is our production manager. Emily Condon is our office manager. Our music consultant is Jessica Hopper.
+<v Ira Glass>我们的节目今天由简·费尔特斯（Jane Feltes）和我自己，以及亚历克斯·布伦伯格、肖恩·科尔（Sean Cole）、萨拉·科尼格、莉萨·波拉克（Lisa Pollak）、阿丽莎·希普（Alissa Shipp）和南希·厄普代克（Nancy Updike）制作。我们的高级制片人是朱莉·斯奈德（Julie Snyder）。制作帮助来自亚伦·斯科特（Aaron Scott）。赛斯·林德（Seth Lind）是我们的制作经理。艾米丽·康登（Emily Condon）是我们的办公室经理。我们的音乐顾问是杰西卡·霍珀（Jessica Hopper）。
+
+00:59:42.190 --> 00:59:56.330
+<v Ira Glass>[ACKKNOWLEDGEMENTS]
+<v Ira Glass>[致谢]
+
+00:59:56.330 --> 01:00:14.510
+<v Ira Glass>Planet Money is a co-production of our program and NPR News. If you like the kind of stories you heard today, you can hear jargon free explanations just like it about what's going on in the economy and in the health care system. You can hear them three times a week on their podcasts, www.npr.org/money.
+<v Ira Glass>Planet Money 是我们节目和 NPR News 的共同制作。如果你喜欢你今天听到的故事，你可以在他们的播客上听到像这样关于经济和医疗保健系统中正在发生的事情的无术语解释。你可以在 www.npr.org/money 每周听三次。
+
+01:00:14.510 --> 01:00:19.510
+<v Ira Glass>This American Life is distributed by Public Radio International. WBEZ management oversight for our program by our boss, Mr. Torey Malatia. You know, when you roll him into a little ball he makes the most adorable noise. Seriously, it sounds like this. [UNINTELLIGIBLE PHRASE] So snugly. I'm Ira Glass, back next week with a program that will not mention health care at all on This American Life .
+<v Ira Glass>《美国生活》由公共广播国际发行。WBEZ 对我们节目的管理监督由我们的老板托雷·马拉蒂亚（Torey Malatia）先生负责。你知道，当你把他卷成一个小球时，他会发出最可爱的声音。说真的，它听起来像这样。[无法理解的短语] 真的很舒适。我是艾拉·格拉斯，下周回来，带来一个在《美国生活》上完全不会提到医疗保健的节目。

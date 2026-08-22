@@ -1,0 +1,997 @@
+WEBVTT
+
+00:00:03.700 --> 00:00:05.280
+<v Ira Glass>So, Adam, where are we?
+<v Ira Glass>那么，Adam，我们现在在哪里？
+
+00:00:05.280 --> 00:00:11.920
+<v Adam Davidson>I recorded this at the Ritz Carlton Hotel in Lower Manhattan. It's a black tie dinner. This was about a year and a half ago.
+<v Adam Davidson>我是在曼哈顿下城的丽思卡尔顿酒店录制的这段。这是一场正式的黑领结晚宴。大概是一年半前的事了。
+
+00:00:11.920 --> 00:00:18.800
+<v Ira Glass>And you, by the way, are part of the Planet Money team of economics reporters who did stories here on our program and on the NPR news shows.
+<v Ira Glass>顺便说一下，你是“Planet Money”经济记者团队的一员，该团队曾在我们的节目和NPR新闻节目中报道过相关内容。
+
+00:00:18.800 --> 00:00:28.880
+<v Adam Davidson>That's right. I was there for my job. And this was spring 2008. We already knew the economy was heading downward. The subprime mortgage crisis was well underway.
+<v Adam Davidson>没错。我当时是为了工作去那里的。那是2008年春天。我们当时已经知道经济正在下滑。次贷危机已经全面展开。
+
+00:00:28.880 --> 00:00:30.590
+<v Ira Glass>And so what was this dinner?
+<v Ira Glass>那么，这场晚宴是干什么的？
+
+00:00:30.590 --> 00:00:49.090
+<v Adam Davidson>It was like the Oscars, but for a small group of specialized financial experts on Wall Street. They were giving out awards to the people who actually invented and created all these financial securities, including the kind that was already, back then, destabilizing the global financial system.
+<v Adam Davidson>这就像是奥斯卡颁奖礼，但对象是一小群华尔街的专业金融专家。他们正在给那些真正发明并创造了所有这些金融证券的人颁奖，其中就包括在当时就已经在破坏全球金融系统的那些产品。
+
+00:00:49.090 --> 00:00:54.740
+<v Woman>At this time, I'd like to ask all of our stars to please assemble over here on the left side of the stage.
+<v Woman>此时，我想请我们所有的明星到舞台左侧集合。
+
+00:00:54.740 --> 00:01:20.640
+<v Adam Davidson>This guy is a legend. He's a granddaddy of our industry. I was sitting at the dinner with Jim Finkel. He was really nervous because he was up for CDO of the year. It was for a CDO he created. Now, CDOs, we already knew back then when we were having this dinner, were the one financial product, more than any other, that had led to this subprime mortgage meltdown and the financial crisis that had already begun.
+<v Adam Davidson>这家伙是个传奇人物。他是我们行业的泰斗。当时我和Jim Finkel坐在一起吃晚饭。他非常紧张，因为他获得了年度CDO（抵押债务债券）奖的提名。这是为了他创造的一种CDO。现在，CDO，我们当时在那场晚宴上就已经知道，是导致次贷危机和已经开始的金融危机的最主要金融产品。
+
+00:01:20.640 --> 00:01:23.770
+<v Ira Glass>That is so crazy that they're giving each other awards for this.
+<v Ira Glass>他们居然为了这个互相颁奖，真是太疯狂了。
+
+00:01:23.770 --> 00:01:43.510
+<v Adam Davidson>Now, I do want to say it that they did know that there was a certain irony here, that they were giving out awards to each other for what was already clearly one of the most spectacularly unsuccessful financial instruments in human history. It was costing them a lot of money. It was costing the world a lot of money.
+<v Adam Davidson>我确实想说，他们当时也意识到这其中有一种讽刺意味，那就是他们正在为彼此颁奖，而这些产品显然已经是人类历史上最壮观的失败金融工具之一。它让他们损失了很多钱，也让世界损失了很多钱。
+
+00:01:43.510 --> 00:01:58.290
+<v Adam Davidson>Jim Finkel was doing this math while we were sitting there, and he was estimating how much money had been lost by the people in that room right there. And he said the products they had created, just the people in that room, had already lost $300 billion in value.
+<v Adam Davidson>当我们坐在那里时，Jim Finkel正在进行计算，他估计在场的人已经损失了多少钱。他说，仅在场这些人所创造的产品，就已经损失了3000亿美元的价值。
+
+00:01:58.290 --> 00:01:59.200
+<v Ira Glass>Wow.
+<v Ira Glass>哇。
+
+00:01:59.200 --> 00:02:06.320
+<v Adam Davidson>But he said-- and, again, this was April of 2008-- he said that the good thing was the worst was over.
+<v Adam Davidson>但他又说——再次强调，那是在2008年4月——他说好消息是最糟糕的时期已经过去了。
+
+00:02:06.320 --> 00:02:33.720
+<v Jim Finkel>People are, I think, have already turned the corner a little bit. Spring has sprung. People are sensing some positive motion in the equities markets, and people are starting to realize a lot of these problems have been put behind us already. A lot of the losses have been taken. A lot of the downsizing and the shifts in the banks have happened. And everyone's starting to say, OK, the dust has settled.
+<v Jim Finkel>我认为人们已经有了一点转机。春天已经到来。人们感觉到股市出现了一些积极的动向，人们开始意识到许多这些问题已经抛在脑后了。很多损失已经承担了。银行的很多裁员和调整已经发生了。每个人都开始说，好吧，尘埃落定了。
+
+00:02:33.720 --> 00:02:39.990
+<v Ira Glass>So I'm just going to take a wild guess here. When he said that 18 months ago, that didn't turn out to be true?
+<v Ira Glass>那我随便猜一下。当他在18个月前说那番话时，结果证明那并不是真的？
+
+00:02:39.990 --> 00:03:09.490
+<v Adam Davidson>No. Look, we all got it wrong. Nobody saw what was coming. Almost nobody. But yes, when Jim Finkel said that, he was so totally, shockingly, completely wrong. The dust had not settled. The problems were not put behind us. In fact, it was five months after this dinner, after he said those words, that Lehman Brothers collapsed. In fact, the federal government had to step in and basically bail out the entire US financial system.
+<v Adam Davidson>不。听着，我们都搞错了。没有人预见到即将发生的事情。几乎没有人。但没错，当Jim Finkel说那番话时，他完全、令人震惊地、彻底地错了。尘埃并未落定。问题也没有被抛在脑后。事实上，就在那场晚宴之后五个月，在他说了那些话之后，雷曼兄弟倒闭了。事实上，联邦政府不得不介入，基本上救助了整个美国金融体系。
+
+00:03:09.490 --> 00:03:28.380
+<v Adam Davidson>Still in the future, the stock market was going to plunge. It lost more than half of its value eventually. The debt markets were going to freeze. And for Jim personally, his company, before the crisis started, was managing more than $5 billion in investments. And by the time of the awards dinner, those investments had already lost about 30% of their value.
+<v Adam Davidson>未来，股市还将暴跌。它最终损失了超过一半的价值。债务市场将陷入冻结。而对Jim个人来说，他的公司在危机开始前管理着超过50亿美元的投资。到颁奖晚宴时，这些投资已经损失了约30%的价值。
+
+00:03:28.380 --> 00:03:32.250
+<v Adam Davidson>Now, I caught up with him recently, and I asked him, how are things now?
+<v Adam Davidson>最近我联系了他，问他，现在情况怎么样了？
+
+00:03:32.250 --> 00:03:48.770
+<v Jim Finkel>I'd say we've probably lost 60%, probably 3 billion. And in retrospect, doing the transactions we did were not a good idea. That's just a fact.
+<v Jim Finkel>我想我们大概损失了60%，可能是30亿。回想起来，我们所做的那些交易并不是一个好主意。这只是一个事实。
+
+00:03:48.770 --> 00:03:56.110
+<v Adam Davidson>A humbling fact. And it's made him reevaluate the business he's in and the very basics of how Wall Street works.
+<v Adam Davidson>一个令人谦卑的事实。这使他重新评估了他所从事的行业以及华尔街运作的最基本原理。
+
+00:03:56.110 --> 00:04:19.970
+<v Ira Glass>And we'll get to that later in today's program. This month is the one-year anniversary of Wall Street's biggest crisis since 1929. Lots of news outlets are looking back in various ways, and we thought that we would do it here on our show by going back to one of the most popular programs that we have ever put on the air, a show that tells the story of how the crisis started, step by step. We called that show "The Giant Pool of Money."
+<v Ira Glass>我们稍后会在今天的节目中谈到这一点。本月是自1929年以来华尔街最大危机的一周年纪念。许多新闻媒体都在以各种方式回顾，我们想通过回到我们播出的最受欢迎的节目之一来在我们的节目中进行回顾，这个节目一步步讲述了危机是如何开始的故事。我们将那个节目命名为“巨额资金池”。
+
+00:04:19.970 --> 00:04:40.050
+<v Ira Glass>And today on our program, in the first half of the show, we're going to play you a lot of that original report, where we hear from the bankers and the mortgage dealers and the investment managers and the homeowners, who together, without meaning to, created the economic disaster we're in today. And in the report, they explained what the hell they were thinking when they did all the things that brought down the global economy.
+<v Ira Glass>今天在我们的节目中，在节目的前半部分，我们将为您播放那篇最初报道的很大一部分，我们从银行家、抵押贷款交易商、投资经理和房主那里听到了他们是如何无意中创造了我们今天所处的经济灾难。在报告中，他们解释了他们在做所有那些导致全球经济崩溃的事情时，到底在想些什么。
+
+00:04:40.050 --> 00:04:45.640
+<v Ira Glass>And then in the second half of the show, Adam, you and your partner in this reporting, Alex Blumberg, one of our This American Life producers--
+<v Ira Glass>而在节目的后半部分，Adam，你和你在报道中的伙伴，Alex Blumberg，我们《This American Life》的制片人之一——
+
+00:04:45.640 --> 00:04:47.090
+<v Adam Davidson>And also part of Planet Money.
+<v Adam Davidson>也是“Planet Money”的一员。
+
+00:04:47.090 --> 00:04:58.380
+<v Ira Glass>Right. Track down the people who were in your original story-- now, I guess a year and a half later-- to find out, how did the crisis that they helped bring on, how did it change them?
+<v Ira Glass>对。去追踪你在最初故事中的那些人——我想大概是一年半之后——看看他们帮助引发的这场危机，是如何改变他们的？
+
+00:04:58.380 --> 00:05:07.380
+<v Ira Glass>And so from WBEZ Chicago, it's This American Life distributed by Public Radio International. I'm Ira Glass. Today's show is a co-production that we're doing with NPR News.
+<v Ira Glass>从芝加哥WBEZ电台播出，这是由公共广播国际发行的《This American Life》。我是Ira Glass。今天的节目是我们与NPR新闻共同制作的。
+
+00:05:07.380 --> 00:05:22.040
+<v Ira Glass>And let me just turn things over to the two of you, Alex Blumberg and Adam Davidson. Alex is going to kick things off. This investigation began when Alex heard about something. It was a home loan that just didn't make any sense to him.
+<v Ira Glass>让我把话交给你们两位，Alex Blumberg和Adam Davidson。Alex将开始讲述。这次调查始于Alex听说的一件事。那是一笔让他完全无法理解的房屋贷款。
+
+00:05:22.040 --> 00:05:38.190
+<v Alex Blumberg>The thing that got me interested in all this was something called a NINA loan. Back when the housing crisis was still a housing bubble, a guy on the phone told me that a NINA loan stands for "no income, no asset," as in, someone will lend you a bunch of money without first checking to see if you have any income or any assets.
+<v Alex Blumberg>让我对所有这一切产生兴趣的是一种叫做NINA贷款的东西。早在房地产危机还是房地产泡沫的时候，一个在电话里的人告诉我，NINA贷款代表“无收入、无资产”，也就是说，有人会借给你一大笔钱，而不需要先核实你是否有任何收入或资产。
+
+00:05:38.190 --> 00:05:55.380
+<v Alex Blumberg>And it was an official loan product, like you could walk into a mortgage broker's office, and they would say, well, we can give you a 30-year fixed rate, or we can put you in a NINA. He said there were lots of loans like this, where the bank didn't actually check your income, which I found confusing. And it turns out even the people who got them found them confusing.
+<v Alex Blumberg>这是一种官方贷款产品，就像你可以走进抵押贷款经纪人的办公室，他们会说，嗯，我们可以给你30年期固定利率，或者我们可以把你放入一个NINA贷款。他说有很多这样的贷款，银行实际上并不核实你的收入，我觉得这很令人困惑。结果连得到这些贷款的人都觉得这很令人困惑。
+
+00:05:55.380 --> 00:06:08.470
+<v Alex Blumberg>For example, a guy I met named Clarence Nathan, he worked three part-time, not very steady jobs, and made a total of $45,000 a year, roughly. He got himself into trouble and needed money, so he took out a loan against his house, a big one.
+<v Alex Blumberg>例如，我认识一个叫Clarence Nathan的人，他做了三份兼职，工作不太稳定，一年总共挣45,000美元左右。他自己陷入了麻烦，需要钱，所以他用他的房子抵押贷款，贷了一大笔。
+
+00:06:08.470 --> 00:06:11.070
+<v Clarence Nathan>Call it 540 for round figures.
+<v Clarence Nathan>凑个整，算54万吧。
+
+00:06:11.070 --> 00:06:15.920
+<v Alex Blumberg>You basically borrowed $540,000 from the bank, and they didn't check your income?
+<v Alex Blumberg>你基本上从银行借了54万美元，而他们没有核实你的收入？
+
+00:06:15.920 --> 00:06:55.400
+<v Clarence Nathan>Right. It's a no income verification loan. They don't call me up and say, how much money? They don't do that. It's almost like you pass a guy in the street and say, will you loan me $540,000? He said, well, what do you do? I ain't got a job. OK. It seems as if it's that casual. Even though there are a lot of papers that get filled out and stuff flies all over with the faxes and the emails and all like that, essentially, that's the process.
+<v Clarence Nathan>是的。这是一种不需要核实收入的贷款。他们不打电话给我说，你挣多少钱？他们不那样做。这就像你在街上碰到一个人说，你能借给我54万美元吗？他说，好吧，你是做什么的？我没有工作。好的。这看起来似乎就是这么随意。尽管有很多文件要填写，传真和电子邮件满天飞，但本质上，过程就是这样。
+
+00:06:55.400 --> 00:06:57.210
+<v Alex Blumberg>Would you have loaned you the money?
+<v Alex Blumberg>你会借给你自己钱吗？
+
+00:06:57.210 --> 00:07:17.860
+<v Clarence Nathan>I wouldn't have loaned me the money, and nobody that I know would have loaned me money. I know guys who are criminals that wouldn't lend me that money, and they'd break your kneecaps. Yeah, I don't know why the bank did it. I'm serious. They gave $540,000 to a person with bad credit.
+<v Clarence Nathan>我不会借给自己钱，我认识的人里也没人会借给我钱。我认识一些罪犯，他们也不会借给我那笔钱，他们会打断你的膝盖。是的，我不知道为什么银行会这么做。我是认真的。他们借了54万美元给一个信用不好的人。
+
+00:07:17.860 --> 00:07:28.830
+<v Alex Blumberg>As it turns out, Clarence's friends, acquaintances, and shadowy criminal contacts would have been right not to lend him the money. At the time I talked to him, Clarence hadn't made a payment in almost a year, and his house was in the process of foreclosure.
+<v Alex Blumberg>事实证明，Clarence的朋友、熟人和那些阴暗的犯罪联系人，当初不借给他钱是完全正确的。在我采访他的时候，Clarence已经快一年没有还款了，他的房子正在进入法拍程序。
+
+00:07:28.830 --> 00:07:47.250
+<v Alex Blumberg>But stories like this have been in the news for months, and they often feature an innocent homeowner who's duped by a lying, greedy mortgage banker. Or if you're more of a Wall Street Journal editorial page type, an innocent mortgage banker who was duped by a lying, greedy homeowner. And no doubt both categories exist. But Clarence's case is more nuanced and much more common.
+<v Alex Blumberg>但这样的故事已经在新闻中出现了好几个月，它们往往以一个被贪婪的抵押贷款银行家欺骗的无辜房主为主角。或者如果你是《华尔街日报》评论版那种风格，就是一个被撒谎、贪婪的房主欺骗的无辜抵押贷款银行家。毫无疑问，这两类人确实都存在。但Clarence的案例更微妙，也更普遍。
+
+00:07:47.250 --> 00:08:14.870
+<v Clarence Nathan>Nobody came and told me a lie and told me story and said, oh, just close your eyes and all your problems will go away. That wasn't the situation. The situation was that I needed the money. And I'm not trying to absolve myself of anything. I had a situation, and I thought that I could do this and then get out of it within six to nine months. The six to nine month plan didn't work, so I'm stuck.
+<v Clarence Nathan>没有人过来对我撒谎，跟我讲故事，说，哦，闭上眼睛，你所有的问题都会消失。不是这种情况。情况是我需要钱。我不是试图开脱自己。我遇到了一个情况，我想我可以这样做，然后在六到九个月内脱身。那个六到九个月的计划没奏效，所以我被困住了。
+
+00:08:14.870 --> 00:08:32.910
+<v Clarence Nathan>But if somebody had told me, you couldn't borrow the money, I probably would have had to do something else more drastic and dramatic and not be in this situation now. The bank made an imprudent loan. I made an imprudent loan. So the bank and I are partners in this deal.
+<v Clarence Nathan>但如果有人告诉我，你不能借这笔钱，我可能不得不做其他更极端、更戏剧性的事情，而不会陷入现在的境地。银行发放了一笔不审慎的贷款。我申请了一笔不审慎的贷款。所以我和银行是这笔交易的合伙人。
+
+00:08:32.910 --> 00:08:48.870
+<v Alex Blumberg>This imprudent partnership is new, and it's at the heart of the current housing crisis. For most of the history of banking, bankers wouldn't have loaned Clarence their money, either. They didn't let people like Clarence near their money, in fact, people with part-time employment and unpaid debts in their past.
+<v Alex Blumberg>这种不审慎的伙伴关系是新的，它是当前房地产危机的核心。在银行业历史的大部分时间里，银行家们也不会把钱借给Clarence。事实上，他们不会让像Clarence这样的人靠近他们的钱，那些有兼职工作且过去有未偿债务的人。
+
+00:08:48.870 --> 00:09:08.430
+<v Alex Blumberg>And then suddenly, in the early 2000s, everything changed. Banking turned on its head and went out looking for partnerships with people like Clarence, loaning him half a million dollars without even checking to see if he had a job. What happened?
+<v Alex Blumberg>然后突然间，在21世纪初，一切都变了。银行业发生了天翻地覆的变化，开始寻找与Clarence这样的人合作，借给他半百万美元，甚至不核实他是否有工作。发生了什么？
+
+00:09:08.430 --> 00:09:11.600
+<v Alex Blumberg>Well, to help explain what happened, here's my partner for the hour, Adam Davidson. Hey, Adam.
+<v Alex Blumberg>好吧，为了帮助解释发生了什么，这是我今天这一小时的搭档，Adam Davidson。嘿，Adam。
+
+00:09:11.600 --> 00:09:12.570
+<v Adam Davidson>Hey, Alex.
+<v Adam Davidson>嘿，Alex。
+
+00:09:12.570 --> 00:09:12.990
+<v Alex Blumberg>How's it going?
+<v Alex Blumberg>怎么样？
+
+00:09:12.990 --> 00:09:13.500
+<v Adam Davidson>Good.
+<v Adam Davidson>挺好。
+
+00:09:13.500 --> 00:09:19.110
+<v Alex Blumberg>Good. So I guess the first thing we have to do is talk about the global pool of money, right?
+<v Alex Blumberg>很好。那么我想我们首先要做的是谈谈全球资金池，对吧？
+
+00:09:19.110 --> 00:09:41.480
+<v Adam Davidson>Right. The global pool of money, that's where our story begins. Most people don't think about it, but there's this huge pool of money out there which is basically all the money the world is saving now: insurance companies saving for a catastrophe, pension funds saving money for retirement, the Central Bank of England saving for whatever central banks save for, all the world savings.
+<v Adam Davidson>没错。全球资金池，这就是我们故事开始的地方。大多数人不会去想它，但那里有一个巨大的资金池，基本上是世界目前所有的储蓄：保险公司为灾难存钱，养老基金为退休存钱，英格兰中央银行在为中央银行所存的东西存钱，全世界的储蓄。
+
+00:09:41.480 --> 00:09:44.960
+<v Ceyla Pazarbasioglu>A lot of money. It's about 70 trillion.
+<v Ceyla Pazarbasioglu>很多钱。大约70万亿。
+
+00:09:44.960 --> 00:09:51.430
+<v Adam Davidson>That's the head of capital market research at the International Monetary Fund, the place to go if you want to figure out how much money is in the world.
+<v Adam Davidson>那是国际货币基金组织资本市场研究负责人，如果你想弄清楚世界上有多少钱，就去那里找她。
+
+00:09:51.430 --> 00:09:54.620
+<v Adam Davidson>So, first off, how do we pronounce your name?
+<v Adam Davidson>那么，首先，我们怎么读你的名字？
+
+00:09:54.620 --> 00:10:03.550
+<v Ceyla Pazarbasioglu>That would probably take, if this goes on air, probably that would take two minutes, at least. It's Pazarbasioglu, Ceyla Pazarbasioglu.
+<v Ceyla Pazarbasioglu>如果这要在广播里播，可能至少需要两分钟。它是Pazarbasioglu，Ceyla Pazarbasioglu。
+
+00:10:03.550 --> 00:10:05.420
+<v Adam Davidson>Jay-luh Puh-zar-buh-sho-loh.
+<v Adam Davidson>Jay-luh Puh-zar-buh-sho-loh。
+
+00:10:05.420 --> 00:10:06.600
+<v Ceyla Pazarbasioglu>I'm very impressed.
+<v Ceyla Pazarbasioglu>我印象非常深刻。
+
+00:10:06.600 --> 00:10:19.710
+<v Adam Davidson>And by the way, before you finance enthusiasts start writing any letters, we do know that that $70 trillion technically refers to that subset of global savings called fixed income securities. Everyone else can just ignore what I just said.
+<v Adam Davidson>顺便说一句，在你们这些金融发烧友开始写信之前，我们知道那70万亿美元从技术上讲指的是全球储蓄中称为固定收益证券的那一部分。其他人可以忽略我刚才说的话。
+
+00:10:19.710 --> 00:10:45.590
+<v Adam Davidson>Let's put $70 trillion in perspective. Do this: Think about all the money that people spend everywhere in the world, everything you bought in the last year, all of it. Then add everything Bill Gates bought and all the rice sold in China and that fleet of planes Boeing just sold to South Korea. All the money spent in every country on earth in a year, that is less than 70 trillion, less than the global pool of money.
+<v Adam Davidson>让我们把70万亿美元放在一个视角里看。这样做：想想全世界人们到处花的钱，你过去一年买的所有东西，全部。然后加上比尔·盖茨买的所有东西，中国卖出的所有大米，以及波音公司刚刚卖给韩国的那一队飞机。地球上每个国家一年里花的钱总和，那还不到70万亿，少于全球资金池的钱。
+
+00:10:45.590 --> 00:10:46.220
+<v Alex Blumberg>Wow.
+<v Alex Blumberg>哇。
+
+00:10:46.220 --> 00:10:47.440
+<v Adam Davidson>We're talking about a lot of money.
+<v Adam Davidson>我们在谈论一大笔钱。
+
+00:10:47.440 --> 00:10:48.720
+<v Alex Blumberg>That is a lot of money.
+<v Alex Blumberg>那是一大笔钱。
+
+00:10:48.720 --> 00:11:05.210
+<v Adam Davidson>And that money comes along with armies of very nervous men and women watching over the pool of money. Investment managers, they don't want to lose a penny of that. They don't want to lose any of that money, and even more so, they want to make it grow bigger.
+<v Adam Davidson>而那笔钱伴随着成群结队、非常紧张的人在看管着那个资金池。投资经理，他们不想损失那其中的一分钱。他们不想损失那其中的任何钱，更重要的是，他们想让它变得更大。
+
+00:11:05.210 --> 00:11:25.600
+<v Adam Davidson>But to make it grow, they have to find something to invest in. So most of modern history, what they did was they bought really safe, and frankly really boring, investments, like treasuries and municipal bonds, boring things. But then, right before our story starts, something changed. Something happened to that global pool of money.
+<v Adam Davidson>但为了让它增长，他们必须找到可以投资的东西。所以现代历史的大部分时间里，他们所做的是购买真正安全、坦率地说是真正无聊的投资，比如国债和市政债券，那些无聊的东西。但随后，就在我们的故事开始之前，发生了一些变化。全球资金池发生了一些事情。
+
+00:11:25.600 --> 00:11:31.780
+<v Ceyla Pazarbasioglu>This number doubled since 2000. In 2000, this was about $36 trillion.
+<v Ceyla Pazarbasioglu>这个数字自2000年以来翻了一番。在2000年，这大约是36万亿美元。
+
+00:11:31.780 --> 00:11:42.530
+<v Adam Davidson>So it took several hundred years for the world to get to 36 trillion, and then it took six years to get another 36 trillion?
+<v Adam Davidson>所以世界花了数百年的时间才达到36万亿，然后花了六年时间又得到了另外36万亿？
+
+00:11:42.530 --> 00:11:45.090
+<v Ceyla Pazarbasioglu>Yeah. There has been a very sharp increase.
+<v Ceyla Pazarbasioglu>是的。增长非常剧烈。
+
+00:11:45.090 --> 00:12:16.790
+<v Adam Davidson>How does the world get twice as much money to invest? There are lots of things that happen, but the main headline is that all sorts of poor countries became rich, making things like TVs and selling us oil. China, India, Abu Dhabi, Saudi Arabia made a lot of money and banked it. China, for example, has over a trillion dollars in its central bank, and there are office buildings in Beijing filled with math geniuses, real math geniuses, looking for a place to invest it.
+<v Adam Davidson>世界是怎么得到两倍的钱来投资的？有很多原因，但主要的原因是各种贫穷国家变得富裕了，制造电视机之类的东西并把石油卖给我们。中国、印度、阿布扎比、沙特阿拉伯赚了很多钱并把它存进了银行。例如，中国央行拥有超过一万亿美元，在北京的办公大楼里坐满了数学天才，真正的数学天才，寻找投资的地方。
+
+00:12:16.790 --> 00:12:50.200
+<v Adam Davidson>And the world was not ready for all this new money. There's twice as much money looking for investments, but there are not twice as many good investments. So that global army of investment managers was hungrier and twitchier than ever before. They all wanted the same thing: a nice, low-risk investment that paid some return. But then something happened that makes matters worse. At this precise moment, one guy took one of that army's favorite investments and made it a lot less attractive.
+<v Adam Davidson>而世界并没有为这么多新钱做好准备。寻找投资的钱多了两倍，但好的投资并没有多两倍。所以那支全球投资经理大军比以往任何时候都更饥渴、更易躁。他们都想要同样的东西：一种能带来回报的、漂亮、低风险的投资。但随后发生了一件让事情变得更糟的事情。就在这个确切的时刻，一个人拿走了那支大军最喜欢的投资之一，并让它变得不再那么有吸引力了。
+
+00:12:50.200 --> 00:12:52.600
+<v Alex Blumberg>This is where we have to talk about Alan Greenspan, right?
+<v Alex Blumberg>这就是我们必须谈论艾伦·格林斯潘的地方，对吧？
+
+00:12:52.600 --> 00:12:53.940
+<v Adam Davidson>Yeah. We have to.
+<v Adam Davidson>是的。我们必须谈。
+
+00:12:53.940 --> 00:12:59.550
+<v Alex Blumberg>All right. But I'm just going to promise people that this is the only time you're going to hear Alan Greenspan in this story, so bear with us.
+<v Alex Blumberg>好吧。但我向大家保证，这是你们在这个故事中最后一次听到艾伦·格林斯潘，所以请忍受一下。
+
+00:12:59.550 --> 00:13:05.500
+<v Adam Davidson>Here's one of his speeches that really drove that army of investment managers crazy.
+<v Adam Davidson>这是他的一次真正让那支投资经理大军发疯的演讲。
+
+00:13:05.500 --> 00:13:18.140
+<v Alan Greenspan>The FOMC stands prepared to maintain a highly accommodative stance of policy for as long as needed to promote satisfactory economic performance.
+<v Alan Greenspan>联邦公开市场委员会准备在需要的时间内保持高度宽松的政策立场，以促进令人满意的经济表现。
+
+00:13:18.140 --> 00:13:26.510
+<v Adam Davidson>You may not believe me, but that little statement, that is central banker speak for, hey, global pool of money, screw you.
+<v Adam Davidson>你可能不相信我，但这小小的陈述，那是中央银行家的行话，意思就是，嘿，全球资金池，去你的吧。
+
+00:13:26.510 --> 00:13:28.650
+<v Alex Blumberg>Come on. That's not what he said.
+<v Alex Blumberg>得了吧。他没这么说。
+
+00:13:28.650 --> 00:13:54.900
+<v Adam Davidson>It is. I speak central banker. Believe me, that's what he said. What he's technically saying is he's going to keep the fed funds rate-- that's when you hear the fed interest rate-- at the absurdly low level of 1%. And that sends a message to every investor in the world: You are not going to make any money at all on US treasury bonds for a very long time. Go somewhere else. We can't help you.
+<v Adam Davidson>他就是这么说的。我懂中央银行家语。相信我，他就是这个意思。他在技术上所说的是，他将保持联邦基金利率——这就是你听到美联储利率的时候——在1%这种荒谬的低水平上。这向世界上的每个投资者传递了一个信息：在很长一段时间内，你从美国国债上根本赚不到钱。去别处吧。我们帮不了你。
+
+00:13:54.900 --> 00:14:12.820
+<v Adam Davidson>And so the global pool of money, which does speak central banker, they understood what he was saying. They looked around for some low-risk, high-return investment. And among the many things they put their money into, there's this one thing that they fell in love with. To get it, they called Wall Street, a guy like this.
+<v Adam Davidson>于是，能够听懂中央银行家语的全球资金池，他们理解了他的意思。他们环顾四周，寻找某种低风险、高回报的投资。在他们投入资金的众多事物中，有这么一件事让他们爱上了。为了得到它，他们打电话给华尔街，就像这样的人。
+
+00:14:12.820 --> 00:14:23.290
+<v Mike Francis>My name is Mike Francis. During the beginning of the mortgage implosion, I was an employee, an executive director at Morgan Stanley, on the residential mortgage trading desk.
+<v Mike Francis>我叫Mike Francis。在抵押贷款崩溃开始期间，我是摩根士丹利住宅抵押贷款交易台的一名员工、执行董事。
+
+00:14:23.290 --> 00:14:56.530
+<v Adam Davidson>Mike was one link in a chain that connected the global pool of money to its new favorite investment: residential mortgages, the US housing market, and guys like Clarence Nathan. Think how attractive a mortgage loan is to that $70 trillion pool of money. Remember, they're desperate to get any interest return. They want to beat that miserable 1% interest Greenspan is offering them. And here are these homeowners paying 5%, 9% to borrow money from some bank. So what if the global pool could get in on that action?
+<v Adam Davidson>Mike是连接全球资金池与其新宠投资之间的链条上的一环：住宅抵押贷款，美国房地产市场，以及像Clarence Nathan这样的人。想一想抵押贷款对那70万亿资金池有多大的吸引力。记住，他们迫切想要得到任何利息回报。他们想击败格林斯潘提供给他们的那可怜的1%利率。而这里有房主支付5%、9%的利息来向银行借钱。那么，如果全球资金池能参与其中呢？
+
+00:14:56.530 --> 00:15:23.230
+<v Adam Davidson>There are problems. Individual mortgages are too big a hassle for the global pool of money. They don't want to get mixed up with actual people and their catastrophic health problems and their divorces and all the reasons that might stop them from paying their mortgages. So what Mike and his peers on Wall Street did was to figure out a way to give the global pool of money all the benefits of a mortgage-- basically higher yield-- without all the hassle and risk.
+<v Adam Davidson>存在一些问题。个人抵押贷款对全球资金池来说太麻烦了。他们不想卷入实际的人和他们的灾难性健康问题、离婚，以及所有可能阻止他们偿还抵押贷款的原因中去。所以Mike和他在华尔街的同行们所做的是，想出一种方法，给全球资金池提供抵押贷款的所有好处——基本上是更高的收益率——而没有所有的麻烦和风险。
+
+00:15:23.230 --> 00:15:45.350
+<v Adam Davidson>So picture the whole chain. You have Clarence. He gets a mortgage from a broker. The broker sells the mortgage to a small bank. The small bank sells the mortgage to a guy like Mike at a big investment firm on Wall Street. Then Mike takes a few thousand mortgages he's bought this way, he puts them in one big pile.
+<v Adam Davidson>所以想象一下整个链条。你有Clarence。他从经纪人那里获得抵押贷款。经纪人把抵押贷款卖给小银行。小银行把抵押贷款卖给华尔街大型投资公司像Mike这样的人。然后Mike买入几千个这样获得的抵押贷款，他把它们堆在一个大堆里。
+
+00:15:45.350 --> 00:16:07.850
+<v Adam Davidson>Now he's got thousands of mortgage checks coming to him every month. It's a huge monthly stream of money, which is expected to come in for the next 30 years, the life of a mortgage. And he then sells shares of that monthly income to investors. Those shares are called mortgage-backed securities. And the $70 trillion global pool of money loved them.
+<v Adam Davidson>现在他每个月有成千上万张抵押贷款支票汇给他。这是一个巨大的每月资金流，预计在未来30年，即抵押贷款的生命周期内都会持续。然后他把那每月收入的份额卖给投资者。这些份额被称为抵押贷款支持证券。而70万亿全球资金池爱死它们了。
+
+00:16:07.850 --> 00:16:37.100
+<v Mike Francis>It was unbelievable. We almost couldn't produce enough to keep the appetite of our investors happy. More people wanted bonds than we could actually produce. That was our difficult task, was trying to produce enough. They would call and say, we're looking for more fixed rate. What have you got? Do you have anything coming? What's going on? Tell us what you're trying to do.
+<v Mike Francis>这令人难以置信。我们几乎无法生产足够多的产品来满足投资者的胃口。想要债券的人比我们实际能生产的多。那是我们困难的任务，就是试着生产足够多的产品。他们会打电话说，我们正在寻找更多的固定利率。你有什么？你有什么新产品吗？怎么回事？告诉我们你在尝试做什么。
+
+00:16:37.100 --> 00:16:57.360
+<v Mike Francis>From our standpoint, it's like, there's a guy out there with a lot of money, and we have to find a way to become his sole provider of mortgage bonds to fill his appetite. And his appetite's massive.
+<v Mike Francis>从我们的角度来看，就像是，外面有一个有钱的人，我们必须找到一种方法成为他抵押贷款债券的唯一供应商来填补他的胃口。而他的胃口是巨大的。
+
+00:16:57.360 --> 00:17:11.920
+<v Alex Blumberg>The problem was, to make a mortgage-backed security, you needed mortgages, lots of them. So for Mike Francis to satisfy this demand and take his quite hefty fee from the global pool of money, he needed to buy up as many mortgages as possible.
+<v Alex Blumberg>问题是，要制作一种抵押贷款支持证券，你需要抵押贷款，很多抵押贷款。所以对于Mike Francis来说，要满足这种需求并从全球资金池中收取相当可观的费用，他需要尽可能多地买入抵押贷款。
+
+00:17:11.920 --> 00:17:28.280
+<v Alex Blumberg>And to do that, he called a guy one link below him on this mortgage-backed security chain, a guy named Mike Garner, who worked at the largest private mortgage bank in Nevada called Silver State Mortgage. And to give you a sense of how fast this business was growing, Mike Garner got into the mortgage business straight from his previous job as a bartender.
+<v Alex Blumberg>为了做到这一点，他给抵押贷款支持证券链条下一环的一个人打了电话，那个人叫Mike Garner，他在内华达州最大的私人抵押贷款银行Silver State Mortgage工作。为了让你了解这个业务增长得有多快，Mike Garner是从他之前的调酒师工作直接进入抵押贷款行业的。
+
+00:17:28.280 --> 00:17:47.170
+<v Mike Garner>One of my regulars, he actually hired me from the bar. He just said he needed some guys, and if I was interested in working for him. And then we started talking about how much I made and that, and he beat what I was making, so. I didn't know anything about the mortgage business. I was as green as you could be.
+<v Mike Garner>我的常客之一，他实际上是从酒吧雇用了我。他只是说他需要一些人，问我是否有兴趣为他工作。然后我们开始谈论我挣多少钱之类的事，他开出的薪水超过了我当时挣的，所以。我对抵押贷款业务一无所知。我像你能想象的那样是个菜鸟。
+
+00:17:47.170 --> 00:17:58.020
+<v Alex Blumberg>Mike Garner's job, the guy in Nevada, was to buy up individual mortgages, mainly from brokers, bundle 200 or 300 of them together, and then sell them up the chain to Wall Street, to guys like Mike Francis.
+<v Alex Blumberg>Mike Garner的工作，内华达州那个人，是买入个人抵押贷款，主要是从经纪人那里，把200或300个捆绑在一起，然后把它们卖给华尔街，卖给像Mike Francis那样的人。
+
+00:17:58.020 --> 00:17:59.780
+<v Adam Davidson>There's just too many Mikes here.
+<v Adam Davidson>这里的Mike实在太多了。
+
+00:17:59.780 --> 00:18:06.800
+<v Alex Blumberg>I know. So many Mikes. There's actually just two Mikes. There was Mike Francis, the guy on Wall Street, and Mike Garner, the guy we're talking about now.
+<v Alex Blumberg>我知道。太多的Mike了。实际上只有两个Mike。一个是华尔街的Mike Francis，一个是我们要谈的Mike Garner。
+
+00:18:06.800 --> 00:18:07.480
+<v Adam Davidson>He's in Nevada.
+<v Adam Davidson>他在内华达州。
+
+00:18:07.480 --> 00:18:27.770
+<v Alex Blumberg>He's in  Nevada, right. And in the beginning, he'd only buy mortgages that were pretty standard and pretty safe, mortgages where people had come up with a down payment and proven that they had a steady income and money in the bank. And they sold so many of these mortgages that there came a point in 2003 where just about everybody who wanted a mortgage and was qualified to get one had gotten one.
+<v Alex Blumberg>他在内华达州，没错。起初，他只会购买那些相当标准、相当安全的抵押贷款，那些人们支付了首付并证明他们有稳定收入和银行存款的抵押贷款。他们卖出了这么多这样的抵押贷款，以至于在2003年出现了一个点，几乎所有想要抵押贷款且有资格获得的人都已经获得了。
+
+00:18:27.770 --> 00:18:39.800
+<v Alex Blumberg>But the pool of money had just gotten started. They wanted more mortgage-backed securities. So Wall Street had to find more people to take out mortgages, which meant lending to people who never would have qualified before.
+<v Alex Blumberg>但资金池才刚刚开始。他们想要更多的抵押贷款支持证券。所以华尔街必须找到更多的人来申请抵押贷款，这意味着贷款给那些以前从未有资格获得贷款的人。
+
+00:18:39.800 --> 00:18:58.850
+<v Alex Blumberg>And so Mike Garner in Nevada noticed that every month, the guidelines were getting a little looser. Something called a stated income, verified asset loan came out, which meant that people didn't have to provide a paycheck stub or W-2 form to get a loan, as they had in the past. They could simply state their income, as long as they showed that they had money in the bank.
+<v Alex Blumberg>于是内华达州的Mike Garner注意到，每个月，指导方针都在变得宽松一点。一种叫做“申报收入，核实资产”的贷款出现了，这意味着人们不必提供工资条或W-2表格来获得贷款，就像他们过去所做的那样。只要他们证明他们在银行有钱，就可以简单地声明他们的收入。
+
+00:18:58.850 --> 00:19:36.370
+<v Mike Garner>The next guideline lower is just stated income, stated assets. That came out. So then you basically state what you make, and then you state what's in your bank account. They call and make sure that you work where you say you work, and then an accountant has to say that, for your field, it is possible to make what you say you make. But they don't say what you make. They just say, it's possible that he could make that. And loan officers would have an accountant that they could call up and say, oh, can you write a statement saying that a truck driver can make this much money? Or whatever.
+<v Mike Garner>下一个指导方针更低的是“申报收入，申报资产”。那个也出现了。所以你基本上申报你挣多少钱，然后申报你银行账户里有多少钱。他们会打电话来确认你在你所说的工作单位工作，然后会计必须说，对于你的领域，挣你所说的金额是可能的。但他们不说你挣多少钱。他们只是说，你挣这个钱是有可能的。贷款专员会有他们可以打电话的会计，说，哦，你能写一份声明，说卡车司机能挣这么多钱吗？之类的。
+
+00:19:36.370 --> 00:19:52.980
+<v Mike Garner>Then the next one came along, and it was no income, verified asset. So you don't have to tell the people what you do for a living. You don't have to tell the people what you do for work. All you have to do is state that you have a certain amount of money in your bank account.
+<v Mike Garner>然后下一个出来了，是“无收入，核实资产”。所以你不用告诉人们你是做什么谋生的。你不用告诉人们你做什么工作。你所要做的只是声明你在银行账户里有一笔钱。
+
+00:19:52.980 --> 00:20:05.260
+<v Mike Garner>And then the next one that came out is just no income, no asset. So you don't have to state anything. You just have to have a credit score and a pulse.
+<v Mike Garner>然后下一个出来的是“无收入，无资产”。所以你什么都不用申报。你只需要有信用评分和呼吸。
+
+00:20:05.260 --> 00:20:16.280
+<v Alex Blumberg>Actually, that pulse thing, also optional, like this case in Ohio where 23 dead people were approved for mortgages.
+<v Alex Blumberg>其实，那个呼吸的东西也是可选的，就像俄亥俄州的这个案例，23名死者获得了抵押贷款批准。
+
+00:20:16.280 --> 00:20:39.670
+<v Adam Davidson>An interesting fact here: Mike Garner's bank did not care all that much how risky these mortgages were. This was a new era. Banks did not have to hold onto these mortgages for 30 years like they used to. They didn't have to wait and see if they'd be paid back. Banks like Garner's would just own the mortgages for a month or two, and then they sold them on to Wall Street. And then Wall Street would sell them on to the global pool of money.
+<v Adam Davidson>这里有一个有趣的事实：Mike Garner的银行并不太关心这些抵押贷款的风险有多大。这是一个新时代。银行不必像过去那样持有这些抵押贷款30年。他们不必等待看它们是否会被偿还。像Garner这样的银行只会持有抵押贷款一两个月，然后就把它们卖给华尔街。然后华尔街会把它们卖给全球资金池。
+
+00:20:39.670 --> 00:20:44.450
+<v Alex Blumberg>Which is how we get half million dollar, no income, no asset loans.
+<v Alex Blumberg>这就是我们如何得到50万美元、无收入、无资产贷款的原因。
+
+00:20:44.450 --> 00:21:11.040
+<v Adam Davidson>And loans to dead people. So there's this whole other thing going on, as well. Housing prices were rising fast. I think we all remember that. Lots of people in the mortgage industry had this faith that housing prices in the US simply never go down. So from the bank's perspective, even if the worst happens and someone defaults, the bank would then own a house which is now worth even more than what they gave out in the loan.
+<v Adam Davidson>还有给死人的贷款。所以这里还有一整套别的东西在进行。房价上涨得很快。我想我们都记得。抵押贷款行业的很多人有一种信念，即美国的房价永远不会下跌。所以从银行的角度来看，即使发生了最坏的情况，有人违约，银行也会拥有一栋现在比他们贷款金额价值更高的房子。
+
+00:21:11.040 --> 00:21:39.580
+<v Adam Davidson>So all Mike cared about was whether or not his customers, the Wall Street investment banks, would buy those mortgages from him. And he was under pressure to approve more and more loans. Because other guys in his company, the actual guys cruising strip malls all across Nevada buying mortgages from brokers, their commission depended on selling more loans. And occasionally, those guys would hear about some loan that some other mortgage company offered that they weren't allowed to offer. And they'd complain to Mike.
+<v Adam Davidson>所以Mike唯一关心的是他的客户，华尔街投资银行，是否会从他那里购买这些抵押贷款。他面临着批准越来越多贷款的压力。因为他公司里的其他人，那些实际上在内华达州到处逛购物中心买抵押贷款的家伙，他们的佣金取决于销售更多的贷款。偶尔，那些人会听说其他抵押贷款公司提供的一些他们不被允许提供的贷款。他们会向Mike抱怨。
+
+00:21:39.580 --> 00:22:09.000
+<v Mike Garner>Three of them would show up at your door first thing in the morning and say, I lost ten deals last week to Meridias Bank. And they've got this loan. Look at the guidelines for this loan. Is there any way we can do this? Because we're losing deals left and right. And either they would find out who they're selling it to, or I'd get on the phone and start calling on all these street firms or Countrywide and say, would you buy this loan? And finally, you'd find out who was actually buying them, and they would say, yes.
+<v Mike Garner>三个人会一清早就出现在你的门口说，我上周因为Meridias Bank失去了十笔交易。他们有这种贷款。看看这些贷款的指导方针。我们有没有办法做这个？因为我们正失去越来越多的交易。要么他们会找出他们在卖给谁，要么我会打电话给所有这些街头公司或Countrywide说，你会买这笔贷款吗？最后，你会发现谁实际上在买它们，他们会说，是的。
+
+00:22:09.000 --> 00:22:15.160
+<v Alex Blumberg>So like Merrill Lynch would say, no, and Goldman Sachs would say, no, and then you'd finally hit on somebody. And they would be like, yeah, we'll buy that loan.
+<v Alex Blumberg>所以比如美林证券会说不，高盛会说不，然后你最终会找到某个人。他们会说，是的，我们会买那笔贷款。
+
+00:22:15.160 --> 00:22:36.880
+<v Mike Garner>Yeah. And then once I got a hit, then I called the other peoples back and say, listen, Bear Stearns is buying this loan, and I would like to give you the opportunity to buy these loans, too. And once one person buys them, usually, all the rest follow suit.
+<v Mike Garner>是的。一旦我有了着落，我就打电话给其他人说，听着，贝尔斯登正在买这种贷款，我也想给你们机会也买这些贷款。一旦有一个人买了，通常其他人都会效仿。
+
+00:22:36.880 --> 00:22:50.460
+<v Alex Blumberg>So what were you thinking when you're turning around and you're selling those to Wall Street? Were you ever thinking to yourself like, what are you guys doing?
+<v Alex Blumberg>所以当你转身把那些卖给华尔街时，你在想什么？你有没有想过，你们这些家伙在做什么？
+
+00:22:50.460 --> 00:23:33.090
+<v Mike Garner>Yeah. And my boss had been in the business for 25 years, and he hated those loans. He hated them. And he used to rant and just say, it makes me sick to my stomach, the kind of loans that we do. And he fought the owners and the sales force tooth and neck about these guidelines, and we got the same answer every time: Nope, other people are offering it, and we're going to offer it, too. And we're going to get more market share this way. House prices are booming. Everything's going to be good. And the company was just rolling in the cash. The owners and the production staff were just raking it in.
+<v Mike Garner>有。我的老板已经在这一行干了25年，他讨厌那些贷款。他讨厌它们。他过去常常咆哮，说，我们做的那些贷款让我感到恶心。他据理力争反对所有者和销售团队的这些指导方针，但我们每次得到的答案都是：不，别人都在提供它，我们也要提供它。我们会以这种方式获得更多的市场份额。房价正在繁荣。一切都会好起来的。而公司当时正在现金中滚来滚去。所有者和生产人员正在大把大把地赚钱。
+
+00:23:33.090 --> 00:23:37.600
+<v Glen Pizzolorusso>At the height, I was making between 75 and 100 grand a month.
+<v Glen Pizzolorusso>在最高峰时，我每个月赚7.5万到10万美元。
+
+00:23:37.600 --> 00:23:55.360
+<v Alex Blumberg>This is Glen Pizzolorusso, who was an area sales manager at an outfit called WMC Mortgage in Upstate New York. And just to repeat, he said 75 to 100 grand a month. That's over a million dollars a year. Glen was just out of college. His job was a lot like Mike Garner's. He's the same link in the chain. And Glen loved his job.
+<v Alex Blumberg>这是Glen Pizzolorusso，他曾是纽约北部一家名为WMC Mortgage的公司区域销售经理。再说一遍，他说一个月7.5万到10万美元。那是一年超过一百万美元。Glen刚从大学毕业。他的工作和Mike Garner很像。他是链条上相同的一环。Glen爱他的工作。
+
+00:23:55.360 --> 00:24:18.930
+<v Glen Pizzolorusso>What was that movie, Boiler Room ? You ever see that movie? That's what it was like. It was the coolest thing ever, just cubicle, cubicle, cubicle for 150,000 square feet. The ceilings were probably 25-, 30-feet ceilings. The elevator had this big graffiti painting on it that was awesome.
+<v Glen Pizzolorusso>那部电影叫什么来着，《锅炉房》？你看过那部电影吗？就是那样。那是这辈子最酷的事情，只是格子间，格子间，格子间，占据15万平方英尺。天花板大概有25、30英尺高。电梯上有一幅很棒的大型涂鸦画。
+
+00:24:18.930 --> 00:24:22.240
+<v Alex Blumberg>A graffiti painting that had been there since before you guys moved in?
+<v Alex Blumberg>那是你们搬进去之前就在那里的涂鸦画吗？
+
+00:24:22.240 --> 00:24:22.990
+<v Glen Pizzolorusso>Yeah, yeah, yeah.
+<v Glen Pizzolorusso>是的，是的，是的。
+
+00:24:22.990 --> 00:24:24.870
+<v Alex Blumberg>So they had not done any amenities to this place? There wasn't--
+<v Alex Blumberg>所以他们没有对这个地方做任何装修？那里没有——
+
+00:24:24.870 --> 00:24:45.840
+<v Glen Pizzolorusso>No, no, no. It was just a big, open space, and it was awesome. We lived mortgage. That's what we did. That's all we did. All of us, we just lived it. This deal, that deal, what's going on here? How are we going to get this one funded? What's the problem with this one? You get there, and that's all everybody's talking about.
+<v Glen Pizzolorusso>不，不，不。那只是一个很大的开放空间，而且很棒。我们生活在抵押贷款中。这就是我们所做的。这就是我们所做的全部。我们所有人，我们只是沉浸其中。这笔交易，那笔交易，这里发生了什么？我们要怎么资助这一笔？这一笔有什么问题？你到那里，每个人谈论的都是这些。
+
+00:24:45.840 --> 00:24:53.960
+<v Alex Blumberg>And when Glen wasn't working, he was doing his next-favorite thing, spending. Preferably in the company of-- and this is his term-- B-list celebrities.
+<v Alex Blumberg>当Glen不在工作时，他在做他下一个最喜欢的事情，消费。最好是在——这是他的术语——B级名人的陪伴下。
+
+00:24:53.960 --> 00:25:20.010
+<v Glen Pizzolorusso>We would roll up to Marquis at midnight with a line 500 people deep out front, walk right up to the door, and, give me my table. We were sitting next to Tara Reid and a couple of her friends. Christina Aguilera was doing whatever, like, I'm Christina Aguilera, and I'm going to get up and sing. So Christina Aguilera and all her people are there.
+<v Glen Pizzolorusso>我们会在午夜开车到Marquis，门口排着500人的长队，直接走到门口，说，给我我的桌子。我们就坐在Tara Reid和她的几个朋友旁边。Christina Aguilera正在做任何事，就像，我是Christina Aguilera，我要起来唱歌。所以Christina Aguilera和她的人都在那里。
+
+00:25:20.010 --> 00:25:47.190
+<v Glen Pizzolorusso>Who else was there? Cuba Gooding and that kid from Filthy Rich: Cattle Drive . What was that kid's name? Fabian? I don't remember. We order probably three or four bottles of Cristal at $1,000 a bottle. They bring it out. They're walking through the crowd. They hold the bottles over their head. There's firecrackers and the sparklers. The little cocktail waitresses. So you order four bottles of those. They're walking through the crowd of people. Everybody's like, whoa, who's the cool guys?
+<v Glen Pizzolorusso>还有谁在那里？Cuba Gooding和那个来自《Filthy Rich: Cattle Drive》的孩子。那个孩子的名字叫什么来着？Fabian？我不记得了。我们点了大概三四瓶Cristal，一瓶1000美元。他们把它拿出来。他们在人群中走动。他们把瓶子举在头顶。有鞭炮和烟花。还有那些鸡尾酒女服务员。所以你点四瓶那些。他们走过人群。每个人都像，哇，那是谁啊，好酷的家伙？
+
+00:25:47.190 --> 00:26:02.890
+<v Glen Pizzolorusso>Well, we were the cool guys. You know what I mean? They gave me a black card, this little card with my name on it. There's probably 10 of them in existence. And that meant that I just spent way too much money there.
+<v Glen Pizzolorusso>好吧，我们就是那些酷家伙。你明白我的意思吗？他们给了我一张黑卡，这张上面有我名字的小卡片。存世的可能只有10张。这意味着我在那里花太多钱了。
+
+00:26:02.890 --> 00:26:14.570
+<v Alex Blumberg>Glen had five cars, a $1.5 million vacation house in Connecticut, and a penthouse that he rented in Manhattan. And he made all this money making very large loans to very poor people with bad credit.
+<v Alex Blumberg>Glen有五辆车，一栋价值150万美元的康涅狄格州度假屋，还有他在曼哈顿租的一套顶层公寓。他所有这些钱都是通过向信用不好的穷人发放非常大的贷款赚来的。
+
+00:26:14.570 --> 00:26:25.120
+<v Glen Pizzolorusso>Loans we were doing, we looked at loans, these people didn't have a pot to piss in. They could barely make their car payment, and now we're giving them a $300,000 to $400,000 house.
+<v Glen Pizzolorusso>我们做的贷款，我们看着贷款，这些人连一分钱都没有。他们几乎付不起车贷，而现在我们给了他们一栋30万到40万美元的房子。
+
+00:26:25.120 --> 00:26:41.510
+<v Alex Blumberg>But Glen didn't worry about whether these loans were good, either. That was someone else's problem. And this way of thinking thrived at every step of this mortgage security chain. A guy like Mike Francis from Morgan Stanley, he told me he bought loans, lots of loans, from Glen's company. And he knew in his gut that they were bad loans, like these NINA loans.
+<v Alex Blumberg>但Glen也不担心这些贷款是否是好的。那是别人的问题。这种思维方式在这个抵押贷款证券链条的每一步都盛行。像摩根士丹利的Mike Francis这样的人，他告诉我他从Glen的公司买了很多很多贷款。他内心知道那是坏贷款，就像这些NINA贷款。
+
+00:26:41.510 --> 00:27:12.340
+<v Mike Francis>No income, no asset loans, that's a liar's loan. We are telling you to lie to us, effectively. We're hoping you don't lie, but-- tell us what you make, tell us what you have in the bank, but we're not going to actually verify it? We're setting you up to lie. Something about that transaction feels very wrong. It felt very wrong way back when, and I wish we had never done it. Unfortunately, what happened, we did it because everybody else was doing it.
+<v Mike Francis>无收入，无资产贷款，那是谎言者的贷款。我们实际上是在告诉你向我们撒谎。我们希望你不撒谎，但——告诉我们你挣多少钱，告诉我们你在银行有多少钱，但我们不实际核实？我们是在引诱你撒谎。那种交易感觉非常不对劲。很久以前就感觉非常不对劲，我希望我们从来没做过。不幸的是，发生了什么，我们做它是为了因为其他人都在做。
+
+00:27:12.340 --> 00:27:37.900
+<v Alex Blumberg>It's easy to ignore your gut fear when you're making a fortune in commissions. But Mike had other help in rationalizing what he was doing, technological help. Mike sat at a desk with six computer screens connected to millions of dollars worth of fancy analytic software, designed by brilliant Ivy League graduates hired by his firm. And the software analyzed all the loans in all the pools that Mike bought and then sold. And the software, the data, didn't seem worried at all.
+<v Alex Blumberg>当你赚取巨额佣金时，很容易忽略内心的恐惧。但Mike在合理化他所做的事情方面还有其他帮助，技术上的帮助。Mike坐在桌前，面对六个电脑屏幕，连接着价值数百万美元的精美分析软件，由他公司雇用的聪明常春藤盟校毕业生设计。该软件分析了Mike购买然后转售的所有池中的所有贷款。而该软件，数据，看起来一点都不担心。
+
+00:27:37.900 --> 00:28:14.650
+<v Mike Francis>All the data that we had to review, to look at, on loans that were in production that were years old was positive. They performed very well. All those factors, when you look at all the pieces and parts and you say, well, a 90% no-income loan three years ago is performing amazingly well. It has a little bit of risk. Instead of defaulting 1.5% of the time, it defaults 3.5% of the time, well, that's not so bad. If I'm an investor buying that, if I get a little bit of additional return, I'm fine.
+<v Mike Francis>我们必须审查、查看的所有关于正在生产的贷款的数据，那些是几年前的，都是正面的。它们表现得非常好。所有那些因素，当你观察所有部分和零件，你说，嗯，三年前90%的无收入贷款表现得非常棒。它有一点风险。与其1.5%的情况下违约，它3.5%的情况下违约，嗯，那也不算太坏。如果我是一个购买它的投资者，如果我得到一点额外的回报，我没问题。
+
+00:28:14.650 --> 00:28:34.240
+<v Adam Davidson>Wait, Alex. I want to step in here, because this is a very important piece of tape. A big part of this whole story, this whole crisis, is that a lot of really smart people, people who knew better, fooled themselves with this data. It was the triumph of data over common sense. Can you play that tape again?
+<v Adam Davidson>等等，Alex。我想插话，因为这是一段非常重要的录音。整个故事，整个危机的一个重要部分是，很多非常聪明的人，那些应该懂行的人，用这些数据欺骗了自己。这是数据战胜常识的胜利。你能再放一遍那段录音吗？
+
+00:28:34.240 --> 00:28:35.210
+<v Alex Blumberg>Yeah, sure. Here you go.
+<v Alex Blumberg>好的，当然。给你。
+
+00:28:35.210 --> 00:28:45.350
+<v Mike Francis>All the data that we had to review, to look at, on loans that were in production that were years old, was positive.
+<v Mike Francis>我们必须审查、查看的所有关于正在生产的贷款的数据，那些是几年前的，都是正面的。
+
+00:28:45.350 --> 00:29:21.340
+<v Adam Davidson>As we now know, they were using the wrong data. They looked at the recent history of mortgages and saw that the foreclosure rate is generally below 2%. So they figured, absolute worst-case scenario, the foreclosure rate might go to 8 or 10 or even 12%. But the problem with that is that there were all these new kinds of mortgages given out to people who never would have gotten them before. So the historical data was irrelevant. Some mortgage pools today are expected to go beyond 50% foreclosure rates.
+<v Adam Davidson>正如我们现在所知道的，他们用了错误的数据。他们观察了最近的抵押贷款历史，发现止赎率通常低于2%。所以他们认为，绝对最坏的情况，止赎率可能会达到8%或10%甚至12%。但问题在于，所有这些新类型的抵押贷款都被发放给了以前从未获得贷款的人。所以历史数据是无关紧要的。今天一些抵押贷款池预计将超过50%的止赎率。
+
+00:29:21.340 --> 00:29:36.800
+<v Adam Davidson>And then things got even worse. The thing that took this problem and turned it into a crisis was something else that was new, something called a collateralized debt obligation, a CDO. And that brings us back to the guy we met at the awards dinner in the beginning, Jim Finkel.
+<v Adam Davidson>然后事情变得更糟了。将这个问题转变为危机的东西是另一种新的东西，一种叫做抵押债务债券，CDO的东西。这把我们带回了我们在开头在颁奖晚宴上见到的那个人，Jim Finkel。
+
+00:29:36.800 --> 00:29:48.070
+<v Jim Finkel>Well, we're heading to the trading floor of Dynamic Credit, where we have all of our mortgage and CEO analysts, our head trader, our CIO.
+<v Jim Finkel>好吧，我们要前往Dynamic Credit的交易大厅，我们所有的抵押贷款和CEO分析师，我们的首席交易员，我们的首席信息官都在那里。
+
+00:29:48.070 --> 00:30:02.710
+<v Adam Davidson>Jim Finkel runs this CDO shop, Dynamic Credit. It takes up three modified apartments on the Upper East Side of Manhattan. The trading room is like a factory floor for CDOs. It's where they make the things. But what is a CDO? He shows us on a computer screen.
+<v Adam Davidson>Jim Finkel经营这家CDO店，Dynamic Credit。它占据了曼哈顿上东区三间改建的公寓。交易室就像CDO的工厂车间。那是他们制造这些东西的地方。但CDO是什么？他在电脑屏幕上向我们展示。
+
+00:30:02.710 --> 00:30:07.080
+<v Jim Finkel>I'm going to show you. Here's our deal, Monterey.
+<v Jim Finkel>我要给你看。这是我们的交易，Monterey。
+
+00:30:07.080 --> 00:30:16.330
+<v Adam Davidson>To start with, every CDO has its own name. Finkel loves his country house in the Berkshires, so he always names CDOs after towns in western Mass, like Monterey.
+<v Adam Davidson>首先，每个CDO都有自己的名字。Finkel喜欢他在伯克希尔的乡村别墅，所以他总是用马萨诸塞州西部的城镇命名CDO，比如Monterey。
+
+00:30:16.330 --> 00:30:28.990
+<v Jim Finkel>Monterey CDO limited. We had 189 assets in Monterey, 189 tranches of different mortgage-backed pools.
+<v Jim Finkel>Monterey CDO有限公司。我们在Monterey有189个资产，189个不同抵押贷款支持池的切片。
+
+00:30:28.990 --> 00:31:00.450
+<v Alex Blumberg>Let's translate some of that. A mortgage-backed security, remember, is a pool of thousands of different mortgages. These are all put together and divided into different slices. Jimmy used the word "tranche." "Tranche" is just French for "slice." Some of these slices are risky, and some are not. A CDO is a pool of these tranches, a pool of pools. And Jim and most companies like his weren't buying the top-rated tranches, the safest ones, the triple-As. They were buying the lower-rated stuff, the high-risk stuff.
+<v Alex Blumberg>让我们翻译一下其中的一些内容。记住，抵押贷款支持证券是一个由成千上万种不同抵押贷款组成的池。所有这些都被放在一起并分成不同的切片。Jimmy用了“tranche”这个词。“Tranche”只是法语中的“切片”。其中一些切片有风险，一些则没有。CDO是这些切片的池，池中之池。而Jim和大多数像他这样的公司并不是在购买最高评级的切片，最安全的那些，Triple-A。他们买的是评级较低的东西，高风险的东西。
+
+00:31:00.450 --> 00:31:09.380
+<v Adam Davidson>There's another term the industry uses. This is not a joke. They call these lower-rated tranches "toxic waste." They're so high-risk, they're toxic.
+<v Adam Davidson>该行业还使用另一个术语。这不是开玩笑。他们把这些低评级的切片称为“有毒废物”。它们风险太高，是有毒的。
+
+00:31:09.380 --> 00:31:13.520
+<v Alex Blumberg>And so basically, Adam, a CDO is a financial alchemy, right?
+<v Alex Blumberg>所以基本上，Adam，CDO是一种金融炼金术，对吧？
+
+00:31:13.520 --> 00:31:14.100
+<v Adam Davidson>Right.
+<v Adam Davidson>没错。
+
+00:31:14.100 --> 00:31:26.480
+<v Alex Blumberg>Jim takes this toxic stuff, these low-rated, high-risk tranches, puts them all together, re-tranches them, and presto, he has a CDO whose top tranche is rated triple-A, rock-solid, good as money.
+<v Alex Blumberg>Jim拿走这些有毒的东西，这些低评级、高风险的切片，把它们全部放在一起，重新切片，瞧，他有一个CDO，其最高切片被评为Triple-A，坚如磐石，和钱一样好。
+
+00:31:26.480 --> 00:31:48.140
+<v Alex Blumberg>Now, if this seems too good to be true to you, you're in good company. Guys like billionaire investor Warren Buffett said the very logic was ridiculous. But back in 2005, 2006, the global pool of money, they couldn't get enough of these things. And the CDO industry was facing the same pressures everyone else was at every other step of this chain, to loosen their standards, to make CDOs out of lower and lower-rated rated tranches.
+<v Alex Blumberg>现在，如果这看起来太好而难以置信，那么你的想法跟很多人一样。像亿万富翁投资者沃伦·巴菲特这样的人说这种逻辑本身就很荒谬。但在2005年、2006年，全球资金池，他们对这些东西趋之若鹜。而CDO行业面临着链条上每个环节其他人面临的同样压力，即放宽他们的标准，用越来越低评级的切片制造CDO。
+
+00:31:48.140 --> 00:31:49.900
+<v Alex Blumberg>This is Jim's partner, Tonko Gast.
+<v Alex Blumberg>这是Jim的搭档，Tonko Gast。
+
+00:31:49.900 --> 00:32:09.680
+<v Tonko Gast>Actually, in 2005 already, we had an internal debate here. Because there were two banks coming to us saying, why don't you do a deal with us of triple-B securities, and you get paid a million bucks in management fees per year? Very clear, just like that. In 2005.
+<v Tonko Gast>实际上，在2005年，我们内部已经有过一场辩论。因为有两家银行来找我们说，为什么你们不和我们做一笔Triple-B证券的交易，你们每年可以获得一百万美元的管理费？非常清楚，就是那样。在2005年。
+
+00:32:09.680 --> 00:32:38.150
+<v Tonko Gast>And we declined those deals. We said, we just don't believe that those triple-B ARM assets are money-good. We don't think they're well underwritten, and we think if we do CDO of those, that's going to blow up completely. We were a little early in '05 by not wanting to do those deals, and people were laughing at us, to be honest, to say, well, you're crazy, you're hurting your business. Why don't you want to make-- per deal, you could make a million dollars a year.
+<v Tonko Gast>我们拒绝了这些交易。我们说，我们只是不相信那些Triple-B ARM资产是能保值的。我们认为它们的承销不好，我们认为如果我们用那些做CDO，它会彻底炸开。我们在05年不想做那些交易，有点太早了，说实话，人们在嘲笑我们，说，嗯，你们疯了，你们在伤害你们的生意。为什么你们不想赚——每笔交易，你们一年可以赚一百万美元。
+
+00:32:38.150 --> 00:32:39.830
+<v Adam Davidson>Did someone do that deal?
+<v Adam Davidson>有人做了那笔交易吗？
+
+00:32:39.830 --> 00:32:50.560
+<v Tonko Gast>Absolutely. Everybody. Well, not everybody, but a lot of people did.
+<v Tonko Gast>绝对有。每个人。嗯，不是每个人，但很多人做了。
+
+00:32:50.560 --> 00:33:06.500
+<v Alex Blumberg>Let's go back all the way to the other end of this mortgage chain and meet one of those people in one of these poorly underwritten mortgages that Tonko Gast just referred to, that the global pool of money was eagerly buying up. This guy's name is Richard, and we met him at a foreclosure prevention conference in Brooklyn.
+<v Alex Blumberg>让我们回到这个抵押贷款链条的另一端，去见见Tonko Gast刚才提到的那些劣质抵押贷款中的一个人，全球资金池正在急切地买入这些。这个人的名字叫Richard，我们在布鲁克林的一次止赎预防会议上见到了他。
+
+00:33:06.500 --> 00:33:22.900
+<v Adam Davidson>He's a Marine, a big guy, over six feet tall. And when he came back from Iraq a few years ago, he bought a house with one of those fancy new mortgages with an adjustable rate. Recently, his rate reset. His mortgage payments have gone up by more than $2,000 a month, and he's falling behind.
+<v Adam Davidson>他是一名海军陆战队员，个子很高，六英尺多。几年前他从伊拉克回来时，用那些花哨的新型浮动利率抵押贷款买了一栋房子。最近，他的利率重新调整了。他的抵押贷款月供增加了超过2000美元，他开始逾期了。
+
+00:33:22.900 --> 00:33:54.740
+<v Richard Campbell>It got to the point where my son had $7,000 in a CD, and I had to break it. That really hurt, because I was saving up money for his college. I put $2,000 back, but-- it was like you can't have a future. They put you in a situation where, after a while, you're going to fail. And if you don't have anything saved, you can't do anything. It's hard.
+<v Richard Campbell>到了我儿子有7000美元存单的时候，我不得不把它取出来。那真的很痛苦，因为我一直在为他的大学存钱。我存回了2000美元，但是——感觉就像你无法拥有未来。他们把你置于这样一种境地：一段时间后，你会失败。如果你没有什么储蓄，你就什么也做不了。这很难。
+
+00:33:54.740 --> 00:34:03.070
+<v Alex Blumberg>Richard, like more than 4 million Americans at this point, is fighting to keep his home. And we actually tagged along with him one day as he did that.
+<v Alex Blumberg>Richard，像此时超过400万的美国人一样，正在为保住他的家而奋斗。有一天我们实际上跟着他一起做这件事。
+
+00:34:03.070 --> 00:34:06.080
+<v Kerry Campbell>How's it going? Kerry Campbell. Nice to meet you. Good, how you doing, sir?
+<v Kerry Campbell>你好吗？Kerry Campbell。很高兴见到你。好，你好吗，先生？
+
+00:34:06.080 --> 00:34:26.080
+<v Adam Davidson>The offices of NACA, the Neighborhood Assistance Corporation of America in Newark, New Jersey, were short on frills. Kerry Campbell, who's helping Richard today, is a counselor here. Kerry shows Richard the loan documents he filled out when he bought the house by his original broker. And Richard's pretty surprised when he sees the numbers that his mortgage broker filled in on the forms.
+<v Adam Davidson>新泽西州纽瓦克市美国社区援助公司（NACA）的办公室没什么花哨的。今天帮助Richard的Kerry Campbell是一名辅导员。Kerry向Richard展示了他当初买房时由原始经纪人填写的贷款文件。当Richard看到抵押贷款经纪人在表格上填写的数字时，他感到非常惊讶。
+
+00:34:26.080 --> 00:34:32.340
+<v Kerry Campbell>Here it's saying your base employment income was $16,250 a month.
+<v Kerry Campbell>这里说你的基本就业收入是每月16,250美元。
+
+00:34:32.340 --> 00:34:35.710
+<v Richard Campbell>What?
+<v Richard Campbell>什么？
+
+00:34:35.710 --> 00:34:49.180
+<v Kerry Campbell>$16,250 a month, which means your salary on a yearly basis, you're making just under $200,000, 195, to be exact.
+<v Kerry Campbell>每月16,250美元，这意味着你的年薪，你挣不到20万美元，准确地说是19.5万。
+
+00:34:49.180 --> 00:35:02.800
+<v Richard Campbell>I wish. In 2005, right-- are they using my 2005 taxes?-- I was making $37,000 a year.
+<v Richard Campbell>我希望。在2005年，对吧——他们是在用我2005年的税单吗？——我一年只挣37,000美元。
+
+00:35:02.800 --> 00:35:04.700
+<v Adam Davidson>Did you know that number until now?
+<v Adam Davidson>你到刚才才知道那个数字吗？
+
+00:35:04.700 --> 00:35:05.950
+<v Richard Campbell>No.
+<v Richard Campbell>没有。
+
+00:35:05.950 --> 00:35:11.750
+<v Adam Davidson>So he stated $16,000 a month? To me, that is shocking. To you, it's not that shocking?
+<v Adam Davidson>所以他申报了每月16,000美元？对我来说，这太令人震惊了。对你来说，没那么震惊？
+
+00:35:11.750 --> 00:35:21.530
+<v Kerry Campbell>Oh, that's outrageous, but it's a common thing. It's worlds apart from the reality and what's on a lot of these documents.
+<v Kerry Campbell>噢，那太离谱了，但这是一件普遍的事情。它与现实以及这些文件上的内容完全是两个世界。
+
+00:35:21.530 --> 00:35:42.530
+<v Adam Davidson>Another thing the papers reveal? How much that creative broker made: $18,500. As Kerry says, that's 18,000 reasons to falsify Richard's mortgage documents and to put him in a house he can't afford.
+<v Adam Davidson>这些文件揭示的另一件事？那个有创造力的经纪人赚了多少钱：18,500美元。正如Kerry所说，那是伪造Richard抵押贷款文件并把他送入他买不起的房子里的18,000个理由。
+
+00:35:42.530 --> 00:36:05.200
+<v Ira Glass>Coming up, we travel in time from May 2008, when this was all recorded, to the present, to answer what happened to Richard? Did he keep his house? And when the economy collapsed, which of these other guys kept their houses? In a minute, from Chicago Public Radio and Public Radio International, when our program continues.
+<v Ira Glass>接下来，我们将从录制这一切的2008年5月穿越回现在，来回答Richard发生了什么？他保住他的房子了吗？当经济崩溃时，这些其他人中谁保住了他们的房子？过一会，来自芝加哥公共广播电台和公共广播国际，我们的节目继续。
+
+00:36:05.200 --> 00:36:35.550
+<v Ira Glass>This American Life. I'm Ira Glass. Each week in our show, we choose some theme, some topic, and bring you stories on that topic. Today, we return to the giant pool of money. In the first half of our program today, we heard a story first broadcast in May 2008, before the worst of the economic crisis. And over just the last few weeks, Adam Davidson and Alex Blumberg have been checking in with various people in that story to see what has happened to them, what has changed for them in the last 18 months.
+<v Ira Glass>《This American Life》。我是Ira Glass。每周我们的节目，我们选择一个主题，一个话题，并为您带来关于该主题的故事。今天，我们回到巨额资金池。在今天我们节目的前半部分，我们听到了一个在2008年5月首次广播的故事，在经济危机最严重之前。就在过去的几周里，Adam Davidson和Alex Blumberg一直在追踪故事中的各种人，看看他们发生了什么，在过去18个月里，他们有什么变化。
+
+00:36:35.550 --> 00:36:38.600
+<v Ira Glass>And to find out how they see things now, here's Alex.
+<v Ira Glass>为了了解他们现在如何看待事物，这是Alex。
+
+00:36:38.600 --> 00:36:51.380
+<v Alex Blumberg>Let's start with some good news. Richard Campbell, the Marine we spoke to, a year and a half ago, he wasn't sure if he was going to keep his house. And he was working with NACA, a housing advocacy group, to see if they could convince the bank to lower his mortgage payments.
+<v Alex Blumberg>让我们从一些好消息开始。Richard Campbell，我们采访过的那名海军陆战队员，一年半前，他不确定自己是否能保住房子。他当时正在与NACA合作，一个住房倡导组织，看看他们是否能说服银行降低他的抵押贷款支付。
+
+00:36:51.380 --> 00:36:57.730
+<v Richard Campbell>With the help of NACA, the payments were cut in half. It's very manageable now.
+<v Richard Campbell>在NACA的帮助下，支付额减半了。现在非常容易应付。
+
+00:36:57.730 --> 00:37:15.400
+<v Adam Davidson>So that's the good news. He went from paying nearly six grand a month to just under three grand. But the bad news is, it's taken up most of the last year and a half to get this done. The problem was, Richard, like a lot of people, bought his house with two mortgages, and the second mortgage, NACA couldn't help him with.
+<v Adam Davidson>所以这是好消息。他从每月支付近六千美元变成了不到三千美元。但坏消息是，过去一年半的大部分时间都花在这上面了。问题在于，Richard，像很多人一样，用两笔抵押贷款买了他的房子，而第二笔抵押贷款，NACA无法提供帮助。
+
+00:37:15.400 --> 00:37:26.060
+<v Alex Blumberg>And so Richard has spent a year and a half battling his mortgage servicing companies, waiting on hold, getting transferred to different supervisors. He says he got within two days of getting foreclosed on. And it's taken its toll.
+<v Alex Blumberg>所以Richard花了一年半时间与他的抵押贷款服务公司作斗争，在电话上等待，被转接到不同的主管那里。他说他离被止赎仅差两天。这让他付出了沉重的代价。
+
+00:37:26.060 --> 00:37:31.090
+<v Richard Campbell>Your body just goes through weird things. I didn't know stress was so powerful. Your body goes through a lot.
+<v Richard Campbell>你的身体经历了一些奇怪的事情。我不知道压力这么强大。你的身体经历了这么多。
+
+00:37:31.090 --> 00:37:35.800
+<v Adam Davidson>Wait, wait, wait. You fought in Iraq as a Marine, and this was more stressful?
+<v Adam Davidson>等等，等等。你在伊拉克作为海军陆战队员战斗过，这比那个压力更大？
+
+00:37:35.800 --> 00:37:47.030
+<v Richard Campbell>Yeah. Believe it or not, yeah. It was. It's a lot harder to deal with than shooting at people and having people shoot back at you, believe it or not.
+<v Richard Campbell>是的。信不信由你，是的。确实如此。处理这个比向人射击和让人向你射击要难得多，信不信由你。
+
+00:37:47.030 --> 00:37:55.720
+<v Alex Blumberg>It's hard to believe. Having come back from Iraq, I'm sure you would've thought, well, that was the most stressful thing I'll ever do, right?
+<v Alex Blumberg>这很难相信。从伊拉克回来，我肯定你会想，嗯，那是我做过的压力最大的事情，对吧？
+
+00:37:55.720 --> 00:38:23.560
+<v Richard Campbell>Yes. I definitely thought, once I had beat that, I could beat anything. But it's a different type of feeling. Because they train you for combat in the military. Nobody trains you for this type of stress, no one. And it's different when, in this situation, I felt totally alone. I had no one to turn to, so that's a totally different feeling.
+<v Richard Campbell>是的。我绝对认为，一旦我战胜了那个，我就能战胜任何事情。但这是一种不同的感觉。因为在军队里他们训练你进行战斗。没有人训练你应对这种压力，没有人。而且在这种情况下感觉完全孤独是不同的。我没有求助的对象，所以那是一种完全不同的感觉。
+
+00:38:23.560 --> 00:38:45.010
+<v Adam Davidson>Richard's luck started to change, actually, while he was watching one of those local morning shows, Good Day New York . They were doing a segment on President Obama's mortgage relief plan. Richard realized, hey, they're talking about me. I have a mortgage I can't afford. I have a history of trying to pay but not being able to because of a ridiculously high interest rate. I qualify for that plan.
+<v Adam Davidson>Richard的运气其实在他看那些当地早间节目之一《Good Day New York》时开始改变。他们正在做一个关于奥巴马总统抵押贷款减免计划的节目。Richard意识到，嘿，他们在说我。我有我买不起的抵押贷款。我有努力支付但因高得离谱的利率而无法支付的历史。我有资格参加那个计划。
+
+00:38:45.010 --> 00:38:57.440
+<v Alex Blumberg>But even after that, it was still months trying to convince his mortgage company that he actually qualified, months of arguing with people on the phone and sending in different documents. Until finally, one day, he got a call from a guy named Peter at his mortgage servicing company.
+<v Alex Blumberg>但即使在那之后，仍然花了好几个月试图说服他的抵押贷款公司他确实有资格，花了几个月的时间在电话里与人争论并发送不同的文件。直到最后一天，他接到了一个叫Peter的家伙打来的电话，他是他的抵押贷款服务公司的。
+
+00:38:57.440 --> 00:39:23.260
+<v Richard Campbell>They said, Mr. Campbell, we have good news. We're able to modify your loan, and these are the terms. And they started telling me the terms. Tears started coming to my eyes when he said, we're going to go from 11 and 1/4 down to 3%. And then I said, is it fixed, or will it still balloon? He said, there's no balloon. It'll be fixed for the life of the loan. You pay this mortgage for 30 years, the house is yours. When I talk about it now, I still get that warm and fuzzy.
+<v Richard Campbell>他们说，Campbell先生，我们有好消息。我们能够修改你的贷款，这是条款。然后他们开始告诉我条款。当他说，我们要把11 1/4降到3%时，眼泪开始流到我的眼睛里。然后我说，是固定的，还是仍然会像气球一样膨胀？他说，没有气球。在贷款期限内它将是固定的。你付这笔抵押贷款30年，房子就是你的。现在当我谈论它时，我仍然感到那种温暖和模糊。
+
+00:39:23.260 --> 00:39:26.560
+<v Adam Davidson>What'd you do? Did you call your fiance, or how did you--
+<v Adam Davidson>你做了什么？你给你未婚妻打了电话，还是你如何——
+
+00:39:26.560 --> 00:39:41.650
+<v Richard Campbell>Oh, yeah. I ran around the living room. And then I went and I grabbed her and I picked her up. And she was like, what's going on? And then I told her. And then we started jumping up and down. It was a beautiful feeling, beautiful feeling.
+<v Richard Campbell>噢，是的。我在客厅里跑来跑去。然后我过去抓起她，把她抱了起来。她就像，发生了什么？然后我告诉了她。然后我们开始跳上跳下。那是一种美好的感觉，美好的感觉。
+
+00:39:41.650 --> 00:39:50.650
+<v Clarence Nathan>Simply, the situation is the same. Inexplicably, the situation is the same.
+<v Clarence Nathan>简单地说，情况是一样的。令人费解的是，情况是一样的。
+
+00:39:50.650 --> 00:39:57.690
+<v Alex Blumberg>This is Clarence Nathan. He's the guy from the beginning of the program who got that $540,000 loan that he wouldn't have given himself. You remember him.
+<v Alex Blumberg>这是Clarence Nathan。他是节目开头提到的那个得到了他自己都不会借给自己的54万美元贷款的人。你记得他。
+
+00:39:57.690 --> 00:40:06.530
+<v Clarence Nathan>It's almost like you pass a guy in the street. Will you loan me $540,000? He said, well, what do you do? I ain't got a job. OK.
+<v Clarence Nathan>就像你在街上碰到一个人一样。你能借给我54万美元吗？他说，好吧，你是做什么的？我没有工作。好的。
+
+00:40:06.530 --> 00:40:19.540
+<v Adam Davidson>When we met Clarence in March of 2008, he was living in that house, the one that he'd gotten the loan on, and he hadn't paid a mortgage payment in about a year. When we caught up with him last week, he wasn't so eager to call attention to his situation.
+<v Adam Davidson>当我们在2008年3月遇到Clarence时，他住在那个房子里，那个他获得贷款的房子，而且他已经一年左右没有支付抵押贷款了。当我们上周联系到他时，他并不急于引起人们对他处境的关注。
+
+00:40:19.540 --> 00:40:22.610
+<v Alex Blumberg>So current living situation?
+<v Alex Blumberg>那么目前的生活状况？
+
+00:40:22.610 --> 00:40:31.320
+<v Clarence Nathan>Is the same as it was at the time of the last program and our initial interview.
+<v Clarence Nathan>和上个节目时以及我们最初采访时一样。
+
+00:40:31.320 --> 00:40:32.400
+<v Alex Blumberg>The same house?
+<v Alex Blumberg>同样的房子？
+
+00:40:32.400 --> 00:40:35.690
+<v Clarence Nathan>The same house, the same conditions.
+<v Clarence Nathan>同样的房子，同样的条件。
+
+00:40:35.690 --> 00:40:42.900
+<v Adam Davidson>And at that point, you hadn't paid a mortgage bill in a while, and you just didn't know what was going to happen.
+<v Adam Davidson>在那时，你已经有一段时间没有支付抵押账单了，你只是不知道会发生什么。
+
+00:40:42.900 --> 00:40:46.040
+<v Clarence Nathan>Right. Still don't.
+<v Clarence Nathan>对。仍然不知道。
+
+00:40:46.040 --> 00:40:48.880
+<v Alex Blumberg>And still haven't paid?
+<v Alex Blumberg>而且仍然还没付？
+
+00:40:48.880 --> 00:40:49.800
+<v Clarence Nathan>Right.
+<v Clarence Nathan>对。
+
+00:40:49.800 --> 00:40:53.350
+<v Alex Blumberg>Wow. That's very mysterious, isn't it?
+<v Alex Blumberg>哇。那很神秘，不是吗？
+
+00:40:53.350 --> 00:41:04.890
+<v Clarence Nathan>Yeah. Like I said, nobody's made any efforts to negotiate it out.
+<v Clarence Nathan>是的。就像我说的，没有人做出任何努力去谈判解决它。
+
+00:41:04.890 --> 00:41:33.260
+<v Adam Davidson>This is something we hear about a lot. There's so many more mortgages in default right now, it's overwhelming the system. The Wall Street Journal recently reported that there are 1.2 million homeowners with seriously delinquent mortgages where the lender has made no effort to start foreclosure. In July of this year, there were more than 200,000 mortgages where borrowers hadn't made a payment in over a year, and the lender still hadn't started to foreclose.
+<v Adam Davidson>这是我们经常听到的事情。现在有太多的抵押贷款违约，它正在淹没整个系统。《华尔街日报》最近报道说，有120万名严重拖欠抵押贷款的房主，而贷款人没有做出任何努力去开始止赎。今年7月，有超过20万笔抵押贷款借款人已经超过一年没有付款，而贷款人仍然没有开始止赎。
+
+00:41:33.260 --> 00:41:53.860
+<v Alex Blumberg>And so homeowners like Clarence are actually benefiting from the fact that the economy is doing so badly, that this crisis is so big. If it was just Clarence in trouble, the bank would probably have taken his house by now. But since there're so many people like him flooding the system, he's gotten a reprieve. Looked at one way, this hasn't gone so badly for Clarence. He's lived in a house for free for nearly three years.
+<v Alex Blumberg>所以像Clarence这样的房主实际上正从经济表现如此糟糕、这场危机如此巨大的事实中受益。如果只是Clarence一个人陷入麻烦，银行现在可能早就收走了他的房子。但既然有这么多像他这样的人淹没了系统，他获得了一次缓刑。换一种方式看，这对Clarence来说并不是那么糟糕。他在房子里免费住了快三年。
+
+00:41:53.860 --> 00:42:12.790
+<v Adam Davidson>But on the other hand, he's 64 years old, and the bank could come for the house at any moment. He told us he doesn't think it's likely he'll ever get out of the debt he got into in this crisis.
+<v Adam Davidson>但另一方面，他64岁了，银行随时可能来收房子。他告诉我们，他不认为他能摆脱他在这次危机中陷入的债务。
+
+00:42:12.790 --> 00:42:35.650
+<v Alex Blumberg>Now, what about the guys who made it so easy for Clarence and Richard to get into these bad mortgages, the guys who took those mortgages and lots of other mortgages like them, packaged them up, and sold them to the giant pool of money? Take Jim Finkel, the guy at the CDO factory. Intellectually, he knew that he was making his CDOs out of loans to people like Clarence. But it took him a long time, even after this huge crisis hit, to really understand what that meant.
+<v Alex Blumberg>那么，那些让Clarence和Richard如此容易陷入这些坏抵押贷款的人，那些拿走这些抵押贷款和许多其他类似抵押贷款，包装起来，卖给巨额资金池的人呢？以Jim Finkel为例，那个在CDO工厂的人。从理智上讲，他知道他是用给Clarence这样的人的贷款来制造他的CDO。但即使在这场大危机发生后，他花了很长时间才真正理解这意味着什么。
+
+00:42:35.650 --> 00:43:09.110
+<v Jim Finkel>I always like to say that the people in our world, which is this narrow world within Wall Street, the people that are involved in derivatives, with complex financial engineering, they work in a very narrow, focused area. And I like to sometimes call them bark watchers. They don't just miss the forest for the trees. They miss the tree, they're looking at things so closely. And I think that was the problem. It was incredibly hard for people in the structure of finance world to step back far enough to see what was really going on out there.
+<v Jim Finkel>我总是喜欢说，在我们世界里的人，也就是华尔街内这个狭窄的世界，那些参与衍生品、复杂金融工程的人，他们在非常狭窄、集中的领域工作。我喜欢有时称他们为观察树皮的人。他们不仅因为树木而错过了森林。他们观察得如此仔细，以至于错过了树。我认为这就是问题所在。结构金融世界里的人很难后退足够远来看看外面到底发生了什么。
+
+00:43:09.110 --> 00:43:21.360
+<v Adam Davidson>What was really going on out there was a lot of loans to people like Clarence. But by the time those loans got to Jim, they were just numbers and data in a spreadsheet, credit scores and appraisal values and down payment amounts.
+<v Adam Davidson>外面到底发生了什么，是对像Clarence这样的人的很多贷款。但当那些贷款到达Jim那里时，它们只是电子表格里的数字和数据，信用评分、评估价值和首付金额。
+
+00:43:21.360 --> 00:43:28.170
+<v Alex Blumberg>Which is why Jim Finkel believed that the CDOs he was making were good investments, investments that he himself wanted in on.
+<v Alex Blumberg>这就是为什么Jim Finkel相信他制造的CDO是好的投资，他自己也想参与其中的投资。
+
+00:43:28.170 --> 00:43:37.240
+<v Jim Finkel>We put three years of all of our profits as investments in the riskiest parts of our own deals. Why would we do that if we didn't believe they'd work?
+<v Jim Finkel>我们把三年的利润全部作为投资投入到我们自己交易中最危险的部分。如果我不相信它们会有效，我为什么要那样做？
+
+00:43:37.240 --> 00:43:38.380
+<v Adam Davidson>Where's that money now?
+<v Adam Davidson>那笔钱现在在哪里？
+
+00:43:38.380 --> 00:43:45.260
+<v Jim Finkel>We wrote all that money off. It's gone. It's gone. And we've had to completely rebuild.
+<v Jim Finkel>我们把那些钱全部注销了。它没了。它没了。我们不得不完全重建。
+
+00:43:45.260 --> 00:44:06.060
+<v Adam Davidson>There's certainly a perception that, oh, the guys who created all this mess are now making lots of money. And you're saying you've lost lots of money. Are you typical of the guys who created CDOs, or are there guys who found a way to somehow profit from this period?
+<v Adam Davidson>确实存在一种看法，噢，创造所有这些混乱的人现在正在赚大钱。而你说你损失了很多钱。你是那些创造CDO的人的典型代表吗，还是有的人找到了方法以某种方式从这段时期获利？
+
+00:44:06.060 --> 00:44:11.440
+<v Jim Finkel>Well, I think you have to distinguish between the investment banks and the capital markets people and the investment managers.
+<v Jim Finkel>嗯，我认为你必须区分投资银行和资本市场人员，以及投资经理。
+
+00:44:11.440 --> 00:44:32.180
+<v Alex Blumberg>And just to explain, investment managers like Jim are subcontractors to the investment banks on Wall Street. A big Wall Street firm like Merrill Lynch would come to Jim and say, we have some people who want to buy a CDO, can you put one together for us? And then Jim and his company would go about buying up various mortgage-related securities and putting them together into the CDO.
+<v Alex Blumberg>解释一下，像Jim这样的投资经理是华尔街投资银行的分包商。像美林证券这样的大型华尔街公司会来找Jim说，我们有一些想买CDO的人，你能为我们拼凑一个吗？然后Jim和他的公司就会开始买入各种抵押贷款相关的证券，并把它们放入CDO。
+
+00:44:32.180 --> 00:44:37.710
+<v Adam Davidson>But those investment bankers who hired him to put those deals together, they got paid in fees.
+<v Adam Davidson>但那些雇用他来拼凑这些交易的投资银行家，他们是通过费用获得报酬的。
+
+00:44:37.710 --> 00:45:11.360
+<v Jim Finkel>Every deal would get a 1 or 2% fee. So let's just keep doing billions of dollars of deals, and that'll rack up the tens and twenties of millions of dollars in fees. Those guys took a lot of upfront fees of those deals, and they took bonuses out of those upfront fees. And even though their banks went belly-up, those bonuses were never called back. A lot of people made enormous amounts of money and moved on.
+<v Jim Finkel>每笔交易都会获得1%或2%的费用。所以让我们继续做数十亿美元的交易，那将累积出数千万美元的费用。那些家伙在那些交易中收取了很多预付费用，他们从那些预付费中拿走了奖金。尽管他们的银行倒闭了，但那些奖金从未被追回。很多人赚了巨额资金然后继续前进。
+
+00:45:11.360 --> 00:45:42.880
+<v Jim Finkel>Some of the mentors I've had who are more experienced and older than me, they all tried to convince me all the time that people on Wall Street were bad. I started my career, pretty much, on Wall Street. And I thought all the colleagues around me-- no one seemed to be bad. Everyone seemed to be trying their hardest. And this set of events did convince me that people on Wall Street generally are bad, and that the customer does not come first.
+<v Jim Finkel>我的一些导师，他们比我更有经验、更年长，他们一直试图说服我，华尔街的人是坏的。我的职业生涯基本上是在华尔街开始的。而我认为我周围所有的同事——没人看起来是坏的。每个人似乎都在尽力。而这一系列事件确实让我相信，华尔街的人通常是坏的，客户并不放在第一位。
+
+00:45:42.880 --> 00:46:15.000
+<v Jim Finkel>And it's not a client-driven business. It is a business driven much more for the bank. Because I saw how quickly the banks turned on their customers, including how the banks have turned on us. How they withdrew their credit lines, how they traded against us. They've done anything they can. And that was dispiriting. And it just proved that my mentors were correct, and I was overly idealistic.
+<v Jim Finkel>而且这不是一个客户驱动的业务。这是一个更多地为了银行而驱动的业务。因为我看到了银行转而对待他们的客户有多快，包括银行是如何对待我们的。他们如何撤回他们的信贷额度，他们如何与我们对赌。他们做了他们能做的任何事。那让人沮丧。而且它证明了我的导师们是对的，而我过于理想主义了。
+
+00:46:15.000 --> 00:46:37.060
+<v Alex Blumberg>Of all the people we caught up with, Glen Pizzolorusso was the most transformed. Remember, he was the guy who used to party with B-list celebrities like Tara Reid, with all the cars and houses. When we last spoke to him in spring of 2008, the company he worked for had gone out of business, and he'd lost almost everything. He had one house left, but his loan on that house was for a lot more than the house itself was now worth.
+<v Alex Blumberg>在我们联系到的所有人中，Glen Pizzolorusso是改变最大的。记住，他就是那个过去和像Tara Reid这样的B级名人聚会，拥有所有汽车和房子的家伙。当我们最后一次在2008年春天与他交谈时，他工作的公司已经倒闭了，他几乎失去了一切。他还剩下一栋房子，但他那栋房子的贷款比房子本身现在的价值高得多。
+
+00:46:37.060 --> 00:46:48.090
+<v Glen Pizzolorusso>I was way upside-down on the house, not able to make the payments. And we let the house foreclose. It made no sense to fight it.
+<v Glen Pizzolorusso>我在房子上亏得很严重，无法支付款项。我们让房子进入止赎程序。去争取它毫无意义。
+
+00:46:48.090 --> 00:47:06.620
+<v Alex Blumberg>In other words, both of the guys in our story who got home loans that they couldn't pay back, Richard and Clarence, they're still living in their houses. And the guy who made millions making loans like the ones that they got, he's the one who lost his house. Glen says he can't afford to rent, so he and his wife and three kids ARE living now in a place that his dad owns.
+<v Alex Blumberg>换句话说，我们故事中两个获得他们无法偿还的房屋贷款的人，Richard和Clarence，他们仍然住在那栋房子里。而那个制造了数百万元像他们得到的那样贷款的人，他才是失去房子的人。Glen说他租不起房，所以他和他的妻子以及三个孩子现在住在她父亲拥有的地方。
+
+00:47:06.620 --> 00:47:32.360
+<v Glen Pizzolorusso>Actually, where I grew up. Well, I lived there till I was nine years old. It's crazy. I send my kids to timeout, and it's the same place that I got sent to timeout. So it's actually really cool. I know where everything goes. I didn't have to really think about where to put things. My wife asked me where to put things, and I said, well, it was there when I was growing up, so let's put it there.
+<v Glen Pizzolorusso>实际上，我长大的地方。嗯，我住到九岁。这很疯狂。我送我的孩子们去暂停时间，那是我被送去暂停时间同一个地方。所以这实际上真的很酷。我知道所有东西放在哪里。我真的不用去想把东西放在哪里。我妻子问我把东西放在哪里，我说，嗯，我长大时它就在那里，所以我们就把它放在那里。
+
+00:47:32.360 --> 00:47:40.150
+<v Alex Blumberg>If it sounds like Glen is doing strangely OK, he is. Losing a few million dollars has actually made his life better, in ways we'll get to in a minute.
+<v Alex Blumberg>如果听起来Glen过得奇怪地还好，确实是这样。损失了几百万美元实际上让他的生活变得更好了，方式我们马上会谈到。
+
+00:47:40.150 --> 00:47:49.900
+<v Adam Davidson>But first, things got a lot worse. For starters, he became a villain on the internet. People who heard our original story singled him out as someone to blame.
+<v Adam Davidson>但首先，事情变得更糟了。对于初学者来说，他成了互联网上的恶棍。听了我们最初故事的人把他挑出来作为应该受到指责的人。
+
+00:47:49.900 --> 00:48:13.670
+<v Alex Blumberg>Which seemed unfair to us, because Glen was certainly not responsible for this crisis. We've interviewed dozens of people who made much more money than Glen did and played much bigger roles. Glen was just more honest than anybody else we talked to, and he was honest about things that he knew would make him look bad. But he says we didn't help him any, either. There was one line in particular, the one where I said he made all this money making very large loans to very poor people.
+<v Alex Blumberg>这对我们来说似乎不公平，因为Glen当然不对这场危机负责。我们采访了几十个赚得比Glen多得多的人，他们扮演了更大的角色。Glen只是比我们交谈过的任何人更诚实，而且他对那些他知道会让他看起来很糟糕的事情很诚实。但他表示我们也并没有帮他什么忙。有一句话特别，就是我说他通过向非常穷的人发放非常大的贷款赚了所有这些钱的那句话。
+
+00:48:13.670 --> 00:48:20.430
+<v Glen Pizzolorusso>I think that maybe in the in the vein of the story, that statement got a little carried away.
+<v Glen Pizzolorusso>我认为也许在故事的脉络中，那个声明有点过分了。
+
+00:48:20.430 --> 00:48:26.620
+<v Alex Blumberg>Right. I think it came across as that you and everybody out there was out there preying on poor people.
+<v Alex Blumberg>对。我认为它给人的印象是你和外面的每个人都在那里掠夺穷人。
+
+00:48:26.620 --> 00:48:40.600
+<v Glen Pizzolorusso>Right. There was no malice, and I never set out to hurt anyone. I just did what I saw everyone else doing.
+<v Glen Pizzolorusso>对。没有任何恶意，我从来没有想过伤害任何人。我只是做了我看到其他人都在做的事情。
+
+00:48:40.600 --> 00:48:49.520
+<v Adam Davidson>Talking to Glen now, he seems like a guy in the early stages of a major life change. He's going back to college. He loves school now. He used to always hate it.
+<v Adam Davidson>现在和Glen交谈，他看起来像是一个处于重大生活变革早期阶段的人。他正在回到大学。他现在喜欢学校了。他过去总是讨厌它。
+
+00:48:49.520 --> 00:49:03.630
+<v Alex Blumberg>In fact, he does a lot of things he never used to do, like listen to the news and read books. He spends a lot of time with his kids now, no time at all with B-list celebrities. He wants to get his degree in theology and law and then go into politics. He says he really wants to do some good in the world.
+<v Alex Blumberg>事实上，他做了很多他过去从来不会做的事情，比如听新闻和看书。他现在花很多时间陪他的孩子，根本不花时间陪B级名人。他想拿到神学和法律学位，然后进入政界。他说他真的想在世界上做些好事。
+
+00:49:03.630 --> 00:49:08.420
+<v Adam Davidson>But he points out, his big life change, at first, anyway, it was not his choice.
+<v Adam Davidson>但他指出，他巨大的生活改变，起初，无论如何，不是他的选择。
+
+00:49:08.420 --> 00:49:52.360
+<v Glen Pizzolorusso>I have been humbled. I've been forced to be humbled. I used to look at mortgage applications, and the people, their income was $2,500 a month, $3,000 a month. And I used to think, how can people live on that? And I would welcome it now. I would be able to live on it so comfortably. I'm driving a car that has no payment on it. It's a piece of junk. And I used to think that it mattered. But it doesn't.
+<v Glen Pizzolorusso>我变得谦卑了。我被迫变得谦卑。我过去看抵押贷款申请，那些人，他们的收入是每月2500美元，3000美元。我过去想，人们怎么能靠那个生活？我现在会欢迎它。我将能够如此舒适地依靠它生活。我开着一辆没有还款的车。它是件破烂货。我过去认为它很重要。但它并不重要。
+
+00:49:52.360 --> 00:50:10.860
+<v Adam Davidson>I'm picturing an alternative Glen, the Glen from the world where there was no bubble bursting, where the Glen who's still making $100,000 a month, who still has that lifestyle. And I am picturing meeting that Glen today, and I feel like I like this Glen a lot more.
+<v Adam Davidson>我在描绘一个替代的Glen，那个没有泡沫破裂的世界里的Glen，那个依然每个月赚10万美元的Glen，那个依然有那种生活方式的人。我在描绘今天见到那个Glen，我觉得我更喜欢这个Glen。
+
+00:50:10.860 --> 00:50:50.000
+<v Glen Pizzolorusso>Without a doubt. Well, because, how do I explain this, other than that Glen was about Glen. And this Glen is about what I can bring to-- trying not to sound cliche-- to society, what I can bring to my family, what I can do to make sure that we don't keep creating that Glen?
+<v Glen Pizzolorusso>毫无疑问。嗯，因为，我怎么解释这个，除了Glen以前只为Glen着想。而这个Glen关心我能带给——试图不听起来陈词滥调——社会，我能带给我家人的，我能做些什么来确保我们不会继续创造那个Glen？
+
+00:50:50.000 --> 00:50:57.760
+<v Alex Blumberg>I feel like you're really emotional talking about this now. Why?
+<v Alex Blumberg>我觉得你现在谈论这个真的很情绪化。为什么？
+
+00:50:57.760 --> 00:51:48.090
+<v Glen Pizzolorusso>I don't know why. I think part of it is shame that I let the money take me over. I should've helped people when I was making that money. I should've done things that I could sit here and be proud of with it. And I didn't. I didn't do anything that I can really be proud of with it.
+<v Glen Pizzolorusso>我不知道为什么。我认为部分原因是羞耻，因为我让金钱接管了我。我赚那笔钱的时候应该帮助人们。我应该做一些能让我坐在这里感到骄傲的事情。但我没有。我没有做任何能让我真正感到骄傲的事情。
+
+00:51:48.090 --> 00:51:57.670
+<v Adam Davidson>So another character in our story that we wanted to check in on is the giant pool of money itself, all that money global investors have that they're looking to invest somewhere.
+<v Adam Davidson>所以我们想要跟进的我们故事中的另一个角色是巨额资金池本身，全球投资者拥有的所有那些钱，他们正在寻找某处进行投资。
+
+00:51:57.670 --> 00:52:07.300
+<v Alex Blumberg>When we last met the giant pool of money before the financial collapse, it was big, $70 trillion. And it was growing fast. It had doubled in six years.
+<v Alex Blumberg>在我们上次见到巨额资金池在金融崩溃之前，它很大，70万亿。而且增长很快。它在六年内翻了一番。
+
+00:52:07.300 --> 00:52:26.480
+<v Adam Davidson>So we checked back in. We called the International Monetary Fund and found out a few interesting things. One, that 70 trillion number, that was wrong. The IMF had underestimated how much money there is and how fast it had grown. Back in 2007, that number really should have been almost $80 trillion.
+<v Adam Davidson>所以我们核对了。我们打电话给国际货币基金组织，发现了一些有趣的事情。第一，那个70万亿数字，是错的。国际货币基金组织低估了那里有多少钱以及它增长得有多快。早在2007年，那个数字实际上应该接近80万亿美元。
+
+00:52:26.480 --> 00:52:31.750
+<v Alex Blumberg>And today, two years later, we talked to the very same person, Ceyla Pazarbasioglu.
+<v Alex Blumberg>而今天，两年后，我们和同一个人谈了，Ceyla Pazarbasioglu。
+
+00:52:31.750 --> 00:52:32.550
+<v Adam Davidson>Very nicely done.
+<v Adam Davidson>非常好。
+
+00:52:32.550 --> 00:52:46.180
+<v Alex Blumberg>Thank you. After nearly two years of recession, the collapse of housing prices all over the world, the giant pool of money has, according to her, grown. The IMF thinks it is now about $84 trillion.
+<v Alex Blumberg>谢谢。经过近两年的衰退，全世界房价的崩溃，巨额资金池已经，据她说，增长了。国际货币基金组织认为它现在大约是84万亿美元。
+
+00:52:46.180 --> 00:52:48.420
+<v Adam Davidson>Now, we were shocked that it grew at all.
+<v Adam Davidson>现在，我们对它竟然有所增长感到震惊。
+
+00:52:48.420 --> 00:52:49.120
+<v Alex Blumberg>Of course.
+<v Alex Blumberg>当然。
+
+00:52:49.120 --> 00:53:05.380
+<v Adam Davidson>But here's the context. The bursting of the housing bubble did do some damage to the giant pool of money. The IMF thinks investors in subprime securities and the like lost at least $3 trillion. That's like losing all the money spent in a year in Russia and Canada combined.
+<v Adam Davidson>但这就是背景。房地产泡沫的破裂确实给巨额资金池造成了一些损害。国际货币基金组织认为，次贷证券等方面的投资者至少损失了3万亿美元。那就像失去了俄罗斯和加拿大一年消费的所有资金总和。
+
+00:53:05.380 --> 00:53:32.280
+<v Alex Blumberg>So given all that, how did the giant pool of money get bigger? Well, two major things happened. One, investors pulled money out of stock markets all around the world and added it to the giant pool of money. Two, government stepped in. The Federal Reserve and central banks all over the world actually created trillions of new dollars and euros and yen. It's more new money than ever before, and much of that has made its way into the giant pool.
+<v Alex Blumberg>所以鉴于所有这些，巨额资金池是怎么变大的？嗯，两件主要的事情发生了。第一，投资者从世界各地的股市中撤出资金，并将其加入巨额资金池。第二，政府介入了。美联储和世界各地的中央银行实际上创造了数万亿的新美元、欧元和日元。这是比以往任何时候都多的新钱，其中大部分已经进入了巨额资金池。
+
+00:53:32.280 --> 00:53:44.990
+<v Adam Davidson>In other words, the giant pool of money would probably have shrunk by a good amount, except the world's governments and the world's central banks have been pumping out trillions of dollars to keep the world economy from complete collapse.
+<v Adam Davidson>换句话说，如果不是世界的政府和世界的中央银行一直在大量印发数万亿美元以保持世界经济不完全崩溃，巨额资金池可能已经缩水了不少。
+
+00:53:44.990 --> 00:53:53.330
+<v Alex Blumberg>But while the size of the giant pool of money has gotten bigger, its attitude has gotten a lot smaller. Remember that army of investment managers?
+<v Alex Blumberg>但虽然巨额资金池的规模变大了，但它的态度变得谨慎多了。还记得那支投资经理大军吗？
+
+00:53:53.330 --> 00:53:54.140
+<v Adam Davidson>The nervous guys?
+<v Adam Davidson>那些紧张的家伙？
+
+00:53:54.140 --> 00:54:15.950
+<v Alex Blumberg>Yeah. Well, two years ago, there wasn't anything in the world they wouldn't throw money at. They'd take any risk for a bit of return. Now, they're terrified. They want to invest in solid, safe, boring, low-interest government bonds. The safer, the better. One of the hottest items out there right now, one-month treasury bills, paying effectively 0% interest.
+<v Alex Blumberg>是的。嗯，两年前，世界上没有什么东西是他们不会投入资金的。为了哪怕一点回报，他们愿意承担任何风险。现在，他们吓坏了。他们想投资于坚固、安全、无聊、低息的政府债券。越安全越好。目前最热门的项目之一，一个月期国库券，支付实际上0%的利息。
+
+00:54:15.950 --> 00:54:35.760
+<v Adam Davidson>Meanwhile, as you've probably noticed, credit is tight everywhere. People with great credit scores and a lot of money in the bank have a hard time getting approved for home loans. Businesses can't convince anyone to lend them money to build new factories. Cities can't borrow money to build schools and hospitals. That's a big part of why we've been stuck in this recession.
+<v Adam Davidson>同时，正如你可能已经注意到的，信贷到处都很紧。信用评分高且银行有大量存款的人很难获得房屋贷款批准。企业无法说服任何人借钱给他们建造新工厂。城市无法借钱建造学校和医院。这就是我们一直困在这次衰退中的一个重要原因。
+
+00:54:35.760 --> 00:54:45.680
+<v Alex Blumberg>The world's governments have tried to step in to supplement the giant pool of money, but the annual budgets of all the world's governments combined is less than $15 trillion.
+<v Alex Blumberg>世界的政府已经尝试介入以补充巨额资金池，但全世界所有政府的年度预算总和不到15万亿美元。
+
+00:54:45.680 --> 00:54:56.820
+<v Adam Davidson>That's less than one fifth the size of the world's investments. It turns out, there's just not enough government in the world to replace the lending the giant pool of money used to do.
+<v Adam Davidson>这不到世界投资规模的五分之一。事实证明，世界上没有足够的政府来取代巨额资金池过去所做的放贷。
+
+00:54:56.820 --> 00:55:09.000
+<v Alex Blumberg>And that is the reason nobody can say with certainty when the economy will get better again. Because we're waiting for investors everywhere to feel safe to invest again. We're all waiting on the giant pool of money.
+<v Alex Blumberg>这就是没有人能确定经济何时会再次好转的原因。因为我们正在等待世界各地的投资者感到安全再次投资。我们都在等待巨额资金池。
+
+00:55:09.000 --> 00:56:00.140
+<v Ira Glass>Alex Blumberg and Adam Davidson. It was after they did the first giant pool of money broadcast that our show and NPR News decided that lots of economics reporting like this might be a good idea as we headed into tough economic times. And we started this project, Planet Money. If you liked today's program, check out their thrice-weekly podcast-- you're going to be getting this three times a week-- and their blog at www.npr.org/money.
+<v Ira Glass>Alex Blumberg和Adam Davidson。在他们完成第一次巨额资金池广播后，我们的节目和NPR新闻决定，随着我们进入艰难的经济时期，很多这样的经济报道可能是一个好主意。我们开始了“Planet Money”这个项目。如果你喜欢今天的节目，看看他们每周三次的播客——你们会每周收到三次——以及他们的博客www.npr.org/money。
+
+00:56:00.140 --> 00:56:16.920
+<v Ira Glass>Alex Blumberg produced today's show with Jane Feltes, Sarah Koenig, Lisa Pollak, Robyn Semien, Alissa Shipp, and Nancy Updike. Our senior producer was Julie Snyder. Our special guest editor for today's show was Les Cook of NPR News. Adrianne Mathiowetz runs our website. Production help from Seth Lind, Emily Youssef, and Aaron Scott. Music help from Jessica Hopper.
+<v Ira Glass>Alex Blumberg与Jane Feltes、Sarah Koenig、Lisa Pollak、Robyn Semien、Alissa Shipp和Nancy Updike制作了今天的节目。我们的高级制片人是Julie Snyder。今天节目的特邀编辑是NPR新闻的Les Cook。Adrianne Mathiowetz负责我们的网站。Seth Lind、Emily Youssef和Aaron Scott提供了制作帮助。Jessica Hopper提供了音乐帮助。
+
+00:56:16.920 --> 00:56:37.790
+<v Ira Glass>[ACKNOWLEDGEMENTS]
+<v Ira Glass>[鸣谢]
+
+00:56:37.790 --> 00:56:54.800
+<v Ira Glass>Our website, where you can listen to our show for absolutely free or sign up for our free weekly podcast, or you can also listen to any of the shows-- there's almost a half-dozen now that we've done with the Planet Money team explaining all aspects of the economy-- www.thisamericanlife.org.
+<v Ira Glass>我们的网站，在那里你可以完全免费听我们的节目或订阅我们的免费每周播客，或者你也可以听任何节目——现在已经有近六个我们与“Planet Money”团队合作的节目，解释经济的各个方面——www.thisamericanlife.org。
+
+00:56:54.800 --> 00:57:09.160
+<v Ira Glass>This American Life is distributed by Public Radio International. WBEZ management oversight for our program by our boss, Mr. Torey Malatia. He and I, we like to go out at night together sometimes. He's pretty chill. Torey describes it like this.
+<v Ira Glass>《This American Life》由公共广播国际发行。WBEZ对我节目的管理监督由我们的老板，Torey Malatia先生负责。他和我也喜欢晚上一起出去。他很酷。Torey是这样描述的。
+
+00:57:09.160 --> 00:57:13.410
+<v Glen Pizzolorusso>Everybody's like, whoa, who's the cool guys? Well, we were the cool guys.
+<v Glen Pizzolorusso>每个人都像，哇，那是谁啊，好酷的家伙？我们就是那些酷家伙。
+
+00:57:13.410 --> 00:57:39.180
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life .
+<v Ira Glass>我是Ira Glass。下周带着更多《This American Life》的故事回来。
+
+00:57:39.180 --> 00:57:44.180
+<v Man>PRI, Public Radio International.
+<v Man>PRI，公共广播国际。

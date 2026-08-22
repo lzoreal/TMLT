@@ -115,8 +115,8 @@
     "updated": "2026-08-21T03:12:30.203405+00:00"
   },
   "__meta__": {
-    "date": "2026-08-21",
-    "daily_requests": 500
+    "date": "2026-08-22",
+    "daily_requests": 12
   },
   "11": {
     "hash": "489ca5a5c1e013cff3b730e8caa46756116591582afa75b54d6a4772b3deb8f1",
@@ -1907,5 +1907,55 @@
     "hash": "e9d6bad0c5b81151c7af86dcef0f3793b2b4b356a2b1ac803f41ad01f6e7dcbc",
     "translated": true,
     "updated": "2026-08-21T13:54:48.675982+00:00"
+  },
+  "390": {
+    "hash": "19ac8802f41dc448d43b3cb5cf2c89ecc74edfc7d114cb96cca04dbe37736645",
+    "translated": true,
+    "updated": "2026-08-22T02:11:29.424656+00:00"
+  },
+  "391": {
+    "hash": "f0a22ab61d25c385fdfad5e14c990e5ab733c04251f3e46b078a13e060679856",
+    "translated": true,
+    "updated": "2026-08-22T02:13:09.917961+00:00"
+  },
+  "392": {
+    "hash": "4be4d2d2b59d318cf33a481126c17421d35c041099f4e1c63b987c2f3c14791f",
+    "translated": true,
+    "updated": "2026-08-22T02:14:34.198082+00:00"
+  },
+  "393": {
+    "hash": "fc72db9a75c127671332e693f682d5a59dbbd6fbc3af0c1bfab320952b8f07cb",
+    "translated": true,
+    "updated": "2026-08-22T02:15:11.433994+00:00"
+  },
+  "394": {
+    "hash": "47a84ab5f1301d65938cff1b66172053508dedc1540c8a6d643019d9e1233aa9",
+    "translated": true,
+    "updated": "2026-08-22T02:15:59.197479+00:00"
+  },
+  "395": {
+    "hash": "834feba3ea2c2a7b94bc8dc59d2ec317564b3a851de093283b1f414fa365386d",
+    "translated": true,
+    "updated": "2026-08-22T02:16:46.786350+00:00"
+  },
+  "396": {
+    "hash": "a19433dcf2cc13502db416fa44b6b3f7b4be4a6ea1e7278a722748e08693b686",
+    "translated": true,
+    "updated": "2026-08-22T02:17:47.673147+00:00"
+  },
+  "397": {
+    "hash": "d53e07c5e07934e2991d7c77421196af4a4bf5c03103c537362cbd682bcc00f0",
+    "translated": true,
+    "updated": "2026-08-22T02:18:32.936843+00:00"
+  },
+  "398": {
+    "hash": "7cae76746ca59bd0a0235b97b3e81f1ea192bf4de984d24c7606121da7bf385e",
+    "translated": true,
+    "updated": "2026-08-22T02:19:15.558266+00:00"
+  },
+  "399": {
+    "hash": "a988280d760ac89c981f9f65e9521b9e5420cafe106f6b8979467c2f03eae830",
+    "translated": true,
+    "updated": "2026-08-22T02:20:01.436608+00:00"
   }
 }
