@@ -1,0 +1,1129 @@
+WEBVTT
+
+00:00:41.130 --> 00:00:56.010
+<v Ira Glass>Back during the rise of the dot coms and the internet, Jeff Kelling and a few of his friends were working as programmers together at this company in Dallas. And they decided they wanted to get together the way the tech geeks were doing all over the world at the time and come up with an idea for their own internet company to start.
+<v Ira Glass>在互联网和网络热潮兴起时，Jeff Kelling和他的几个朋友在达拉斯一家公司担任程序员。当时世界各地的科技极客们都在这样做，他们也决定聚在一起，构思一个属于自己的互联网公司创业点子。
+
+00:00:56.010 --> 00:01:11.680
+<v Jeff Kelling>One of my business partners, Andy, his wife had just had a baby, and we started thinking about photo sharing. Andy could share his photos of his new baby with the grandparents that live across the state.
+<v Jeff Kelling>我的商业合伙人之一Andy刚有了孩子，我们开始考虑照片共享。Andy可以将他宝宝的照片分享给住在州另一头的祖父母。
+
+00:01:11.680 --> 00:01:22.860
+<v Ira Glass>And this is 1999. This is before Flickr, this is before Shutterfly. But Jeff and his friends, they were not the first people to try to make a business out of photo sharing. There were other companies out there trying to make a go of that.
+<v Ira Glass>那是1999年。在Flickr和Shutterfly出现之前。但Jeff和他的朋友们并不是第一批尝试做照片共享生意的人。当时还有其他公司也在尝试。
+
+00:01:22.860 --> 00:01:45.790
+<v Ira Glass>And it is not easy. It took Jeff and his partners years-- working nights, working weekends-- until finally in 2006, their startup was doing well enough that they could all quit their day jobs and do that full-time. Their company was called FotoTime-- that's FotoTime with an F. Just as they were living the dream, entrepreneurship, their own business, until--
+<v Ira Glass>这并不容易。Jeff和他的合伙人们花了数年时间——利用夜晚和周末工作——直到2006年，他们的初创公司终于做得有声有色，他们可以辞掉日常工作，全职投入其中。他们的公司叫FotoTime——带F的FotoTime。就在他们实现梦想，经营着自己的事业时，直到——
+
+00:01:45.790 --> 00:01:59.840
+<v Jeff Kelling>We got a letter in May of 2008. And it wasn't a friendly letter. I mean, if you take a letter from the IRS that says, we're going to audit you, this letter was even less friendly than that.
+<v Jeff Kelling>我们在2008年5月收到了一封信。那可不是一封友好的信。如果你收到国税局（IRS）说要审计你的信，这封信比那还要不友好得多。
+
+00:01:59.840 --> 00:02:19.040
+<v Jeff Kelling>It pretty much said, you're in violation of three of the patents that our company holds. You must contact us immediately to arrange payment and settlement, or we will be taking you to court.
+<v Jeff Kelling>信中大意是说，你们侵犯了我们公司持有的三项专利。你们必须立即联系我们安排付款和和解，否则我们将把你们告上法庭。
+
+00:02:19.040 --> 00:02:42.180
+<v Jeff Kelling>And we were wondering, what is all this? I mean, this whole thing was developed internally. It's not like we went through the patent office and stole people's ideas. And it's also not like we were the first to do this. And we looked up this lawsuit online and we saw there were over 130 companies named in this lawsuit.
+<v Jeff Kelling>我们当时很困惑，这到底是怎么回事？毕竟，整个项目都是内部开发的。我们又没去专利局窃取别人的想法。而且我们也不是第一个做这个的。我们在网上搜索了这个诉讼，发现有超过130家公司被列入其中。
+
+00:02:42.180 --> 00:02:49.850
+<v Ira Glass>All the big names were there-- Yahoo, which owns Flickr, as well as Shutterfly and Photobucket, and lots of small companies like Jeff's as well.
+<v Ira Glass>所有大牌公司都在名单上——拥有Flickr的雅虎，以及Shutterfly和Photobucket，当然还有像Jeff公司那样的小公司。
+
+00:02:49.850 --> 00:03:16.110
+<v Ira Glass>The company suing Jeff was called FotoMedia. Jeff was FotoTime with an F, this was FotoMedia with an F. And one thing that was odd, they weren't actually a competitor of Jeff's. They didn't have a website where you could upload or share photos. And it wasn't clear to Jeff what in the world they thought he'd stolen from them. Had he accidentally come up with a way to upload files, or maybe see photos online, or do the credit card transactions that already somebody had some sort of patent on?
+<v Ira Glass>起诉Jeff的公司叫FotoMedia。Jeff的公司是带F的FotoTime，这是带F的FotoMedia。奇怪的是，他们实际上并不是Jeff的竞争对手。他们根本没有网站让你上传或分享照片。Jeff完全搞不懂他们认为他到底窃取了什么。难道他意外发明了一种上传文件的方法，或者是在线查看照片，还是进行信用卡交易的方法，而这些已经有人申请了专利？
+
+00:03:16.110 --> 00:03:28.160
+<v Ira Glass>Or was it that he hadn't stolen anything? They were just looking for a payout, scamming him for some money? And what was especially galling to Jeff, when he called them to ask, what am I stealing from you guys? They wouldn't tell him.
+<v Ira Glass>还是说他根本什么都没偷？他们只是想找人索要赔偿，骗取钱财？让Jeff特别愤怒的是，当他打电话询问他们，他到底从他们那儿偷了什么时，他们竟然拒绝告诉他。
+
+00:03:28.160 --> 00:03:42.280
+<v Jeff Kelling>That was a question they wouldn't answer. They said they wouldn't answer that until we got into court. So they wouldn't even identify what parts of our business or what they thought we were doing to use their technology.
+<v Jeff Kelling>那是他们拒绝回答的一个问题。他们说在对簿公堂之前不会回答。所以他们甚至不肯指明我们业务的哪些部分，或者他们认为我们利用了他们的哪项技术。
+
+00:03:42.280 --> 00:03:46.530
+<v Ira Glass>But to go to court to answer that question was going to cost money, a lot of money.
+<v Ira Glass>但为了在法庭上回答这个问题，需要花费很多钱，一大笔钱。
+
+00:03:46.530 --> 00:04:01.220
+<v Jeff Kelling>It was between $2 and $5 million. That's more than our company could handle, honestly. We knew we had to settle this thing somehow. There would be no more FotoTime today if we had to do that.
+<v Jeff Kelling>金额在200万到500万美元之间。说实话，这超出了我们公司的承受能力。我们知道必须以某种方式解决这件事。如果我们不得不那样做，今天就不会再有FotoTime了。
+
+00:04:01.220 --> 00:04:21.870
+<v Ira Glass>Amazingly, it wasn't just Jeff and the other companies getting sued over these three patents who were upset. Out there in the world was an inventor who came up with the original ideas that got patented for two of these three patents, and he wasn't that happy about the lawsuit either. The guy's name was David Rose and he was issued these patents back when he started his own photo-sharing company back in the mid '90s, just a couple years before Jeff Kelling started his.
+<v Ira Glass>令人惊讶的是，不仅是Jeff和其他因这三项专利被起诉的公司感到不满。世界上还有一位发明家，他提出了这三项专利中其中两项的原始构想，他对这场诉讼也不太高兴。这个人的名字叫David Rose，他在90年代中期创办自己的照片共享公司时获得了这些专利，比Jeff Kelling创业早了几年。
+
+00:04:21.870 --> 00:04:32.950
+<v Ira Glass>And he had gotten the patents in part because having a patent was just one of those things you did to raise money from investors, a check box you checked to prove you were serious and to protect yourself from some company swooping in and stealing your ideas.
+<v Ira Glass>他获得这些专利的部分原因仅仅是因为申请专利是吸引投资者融资的手段之一，就像一个必须勾选的清单，用以证明你是认真的，并保护自己免受某些公司突然闯入并窃取你的想法。
+
+00:04:32.950 --> 00:04:49.460
+<v Ira Glass>He sold his company in 2000 and the patents that he got along with it. He thought the people who bought his company would expand the company and make it prosper. Hopefully, turn it into a household name. He has some problems with what they chose to do instead. He talked to This American Life producer Alex Blumberg and reporter Laura Sydell.
+<v Ira Glass>他在2000年卖掉了公司，连同他获得的专利也一起卖了。他以为收购他公司的人会扩展业务并使其繁荣。希望将其打造成为家喻户晓的名字。对于他们实际所做的决定，他有一些不满。他向《This American Life》的制片人Alex Blumberg和记者Laura Sydell讲述了这一切。
+
+00:04:49.460 --> 00:05:03.960
+<v David Rose>It's the hoarding and non-operating of the technology that doesn't feel good. Because they didn't become the brand that they could have become. They had the protection. They could have built Flickr.
+<v David Rose>那种囤积技术而不去运营的做法让人感觉很不好。因为他们并没有成为原本可以成为的那个品牌。他们拥有专利保护。他们本可以建立起Flickr。
+
+00:05:03.960 --> 00:05:07.890
+<v Alex Blumberg>Right. And instead they waited for somebody else to build Flickr, and then they sued Flickr?
+<v Alex Blumberg>没错。结果他们却等着别人建立Flickr，然后去起诉Flickr？
+
+00:05:07.890 --> 00:05:09.160
+<v David Rose>Yes.
+<v David Rose>是的。
+
+00:05:09.160 --> 00:05:24.830
+<v Ira Glass>Companies that make no products, but go around suing other companies that do make products over supposed patent infringement are so common in Silicon Valley these days that there's a derogatory term for it-- trolls, or patent trolls. David Rose explains, trolls--
+<v Ira Glass>在硅谷，那些不生产产品，却四处起诉其他制造产品的公司声称其专利侵权的现象，如今已变得非常普遍，甚至有一个贬义词来形容他们——专利流氓（Patent Trolls）。David Rose解释道，流氓们——
+
+00:05:24.830 --> 00:05:35.460
+<v David Rose>You don't know that there's one under the bridge. They pop up. They have unreasonable demands. They can charge monopoly tolls or monopoly rents.
+<v David Rose>你根本不知道桥下藏着一个。他们突然冒出来。提出不合理的要求。他们可以收取垄断性的过路费或垄断租金。
+
+00:05:35.460 --> 00:05:43.430
+<v Ira Glass>So the guy who came up with two of these patents doesn't want the lawsuit and the guy getting sued for the patents doesn't want the lawsuit. And yet, the lawsuit happens.
+<v Ira Glass>所以，那个提出其中两项专利的发明家不想要这场诉讼，那个因专利被起诉的人也不想要这场诉讼。然而，诉讼还是发生了。
+
+00:05:43.430 --> 00:06:02.020
+<v Ira Glass>FotoMedia, by the way, denies being a patent troll. Its CEO told us that patent troll is a term that people throw around very loosely when they're in litigation over patent rights. As far as we can tell, and not a lot of this information is public, most of the companies being sued ended up doing what Jeff did, and agreed to pay FotoMedia money. Some of them were put out of business.
+<v Ira Glass>顺便说一句，FotoMedia否认自己是专利流氓。其首席执行官告诉我们，“专利流氓”这个词是人们在进行专利权诉讼时非常随意地抛出的标签。据我们所知，虽然这些信息大多不公开，但大多数被起诉的公司最终都像Jeff一样选择了妥协，同意支付FotoMedia钱。其中一些公司因此倒闭了。
+
+00:06:02.020 --> 00:06:09.750
+<v Ira Glass>Jeff felt like he had no choice but to settle. He told Laura and Alex that reaching a settlement ended up taking six months, a very rough six months.
+<v Ira Glass>Jeff觉得除了和解别无选择。他告诉Laura和Alex，达成和解的过程花了六个月，非常艰难的六个月。
+
+00:06:09.750 --> 00:06:49.420
+<v Jeff Kelling>It feels like if they're not reasonable, OK, our venture of 10 years is going to be gone. They have to be reasonable or we will just plain be gone. And we're talking about 10 years of our life. You know, honestly, as I'm talking about it now, it's kind of raising my heartbeat a little bit because I just remember how I personally felt. Just the huge amount of anxiety and lack of control over the whole situation. It was just an awful feeling.
+<v Jeff Kelling>感觉如果他们不讲理，好了，我们经营了10年的事业就要化为乌有了。他们必须通情达理，否则我们就会彻底消失。这可是我们生命中的10年。老实说，我现在谈起这些时，心跳还会不由自主地加快，因为我清楚记得我当时个人的感受。那种巨大的焦虑和对全局失去掌控的感觉。那真的是一种糟糕透顶的感觉。
+
+00:06:49.420 --> 00:06:53.380
+<v Laura Sydell>Can I ask what that final settlement was, how much it was?
+<v Laura Sydell>我能问一下最终的和解金额是多少吗？
+
+00:06:53.380 --> 00:07:01.810
+<v Jeff Kelling>No. No, unfortunately, part of the terms of our settlement agreement is that we don't discuss the amount.
+<v Jeff Kelling>不行。不，遗憾的是，我们和解协议的条款之一就是不能透露具体金额。
+
+00:07:01.810 --> 00:07:04.610
+<v Alex Blumberg>Did it put your business in danger?
+<v Alex Blumberg>这是否让你的企业陷入了困境？
+
+00:07:04.610 --> 00:07:22.870
+<v Jeff Kelling>It did, and they knew that. The settlement they wanted to get was just enough to put us in danger, but not to close us, and I'll stop there.
+<v Jeff Kelling>确实如此，他们也知道这一点。他们想要达成的和解金额刚好足够让我们陷入困境，但不至于让我们倒闭，我只能说这么多。
+
+00:07:22.870 --> 00:07:45.080
+<v Ira Glass>Patents are so foundational to the American way of life that they're in the Constitution. Their purpose is quote "to promote the useful arts and sciences." In other words, to get people to share their ideas and inventions. To say to somebody like Eli Whitney, OK, you have this amazing invention, the cotton gin. If you tell everybody how it works and how to make their own, in exchange, any time somebody uses the idea, you get paid.
+<v Ira Glass>专利是美国生活方式的基石，甚至被写进了宪法。它们的宗旨是“促进科学和工艺的进步”。换句话说，让人们分享他们的想法和发明。对像Eli Whitney这样的人说，好，你有了这个了不起的发明——轧棉机。如果你告诉大家它是如何运作以及如何制造的，作为交换，任何时候有人使用这个创意，你都会得到报酬。
+
+00:07:45.080 --> 00:08:02.900
+<v Ira Glass>If there were no such thing as a patent, Eli Whitney would have to keep his invention hidden in a dark room with no windows. Nobody would steal the idea, and then people would bring him their cotton, and he'd spit it out for them all processed on the other side. Instead of that, we had thousands of cotton gins everywhere. Patents make it safe to share and to innovate.
+<v Ira Glass>如果没有专利这回事，Eli Whitney就不得不把他的发明藏在没有窗户的黑屋子里。没有人会偷这个创意，人们会把棉花带给他，他在另一头处理好后再吐出来。而不是像现在这样，到处都有成千上万台轧棉机。专利让分享和创新变得安全。
+
+00:08:02.900 --> 00:08:52.290
+<v Ira Glass>But today, lots of investors and innovators in Silicon Valley, maybe the majority would tell you, the patent system is doing the exact opposite of what it's supposed to. It's not promoting innovation, it's stifling it. Because patent lawsuits are on the rise. Patent trolls are on the move. Patent lawsuits are so common now that it's hard to find even one semi-successful startup in Silicon Valley that has not been hit with a suit. Which slows innovation, makes it harder for companies to prosper, hurts our global competitiveness-- is this getting big enough for you? Costs us all more money when we buy the stuff these companies sell. From WBEZ Chicago, it's This American Life distributed by Public Radio International. I'm Ira Glass. Today on our show, "When Patents Attack." Our guides this hour are going to be NPR correspondent Laura Sydell and This American Life producer and Planet Money co-host Alex Blumberg. OK, take it away, guys.
+<v Ira Glass>但今天，硅谷的许多投资者和创新者，也许是大多数人会告诉你，专利制度正在做着与它初衷完全相反的事情。它不是在促进创新，而是在扼杀创新。因为专利诉讼呈上升趋势。专利流氓在行动。专利诉讼现在太普遍了，以至于在硅谷很难找到一家半成功且没被起诉过的初创公司。这减缓了创新，使公司更难繁荣，损害了我们的全球竞争力——你觉得这个影响够大了吧？这增加了我们购买这些公司产品时的成本。来自WBEZ芝加哥，这是由美国公共广播国际（PRI）发行的《This American Life》。我是Ira Glass。今天节目的话题是“当专利发起攻击时”。本期的向导是NPR记者Laura Sydell和《This American Life》制片人兼《Planet Money》联合主持人Alex Blumberg。好了，交给你们了。
+
+00:08:52.290 --> 00:09:02.960
+<v Laura Sydell>The term patent troll was first coined by a guy named Peter Detkin, who at the time was one of the top lawyers at one of the biggest tech companies in the world, the computer chip maker Intel.
+<v Laura Sydell>“专利流氓”这个词最早由一个叫Peter Detkin的人提出，他当时是全球最大科技公司之一——芯片制造商英特尔的顶级律师。
+
+00:09:02.960 --> 00:09:12.180
+<v Alex Blumberg>Around 1999, Intel found itself in the position that Jeff Kelling-- the guy we heard from at the top of the show-- was in. Getting approached by a company that didn't build anything.
+<v Alex Blumberg>大约在1999年，英特尔发现自己处于和Jeff Kelling——我们在节目开头听到的那个人——一样的境地。一家什么都不生产的公司找上门来。
+
+00:09:12.180 --> 00:09:20.760
+<v Peter Detkin>Simply saying, I have a patent that covers semiconductors generally. You make a semiconductor, and therefore, you should pay me some money. And there were a lot of claims like that.
+<v Peter Detkin>简单地说，我有一项涵盖半导体的通用专利。你制造了半导体，因此你应该付我钱。当时有很多这样的索赔。
+
+00:09:20.760 --> 00:09:34.790
+<v Laura Sydell>One lawsuit in particular made Peter Detkin so mad that he called the lawyer who filed it a quote "patent extortionist." The lawyer turned around and sued Peter Detkin for libel. So Detkin needed a better name.
+<v Laura Sydell>特别是一起诉讼让Peter Detkin非常生气，以至于他称提起该诉讼的律师为“专利敲诈者”。那位律师转过身来起诉Peter Detkin诽谤。所以Detkin需要一个更好的名字。
+
+00:09:34.790 --> 00:10:07.620
+<v Peter Detkin>So I had a contest inside Intel. The contest itself was named "The Terrorist." And these suggestions-- we got a lot of suggestions, but none really fit. But at the time my daughter was, I think, four or five and she liked playing with those little troll dolls. The original one, in fact, is still in my office. And so I turned to her and I said, oh, the story of a troll kind of fits because the whole Billy Goats Gruff thing. It's someone lying under a bridge they didn't build, demanding payment from anybody who passed. I said, how about a patent troll?
+<v Peter Detkin>我在英特尔内部举办了一场竞赛。竞赛本身就叫“恐怖分子”。我们收到了很多建议，但没有一个真正合适。但在当时，我女儿大概四五岁，她喜欢玩那些小精灵玩偶（troll dolls）。事实上，最初的那个至今还在我的办公室里。所以我转向她说，哦，“流氓”（troll）的故事很贴切，就像那段《三只公山羊格拉夫》的故事。那是一个人躺在并非他建造的桥下，要求过路人付钱。我说，叫“专利流氓”怎么样？
+
+00:10:07.620 --> 00:10:21.340
+<v Alex Blumberg>The name stuck, and if anything, the problem of patent trolls just got worse. From 2004 to 2009, the number of patent infringement lawsuits jumped by 70%. Licensing fee requests, like what happened to Peter Detkin and to FotoTime, went up 650%.
+<v Alex Blumberg>这个名字传开了，而且如果说有什么变化的话，专利流氓的问题只会变得更严重。从2004年到2009年，专利侵权诉讼的数量猛增了70%。像Peter Detkin和FotoTime那样遇到的许可费要求增加了650%。
+
+00:10:21.340 --> 00:10:27.560
+<v Alex Blumberg>Today, pretty much any time you talk to a computer or tech person in Silicon Valley and the subject of patents comes up, everyone groans.
+<v Alex Blumberg>今天，在硅谷几乎任何时候你和电脑或科技人士谈论专利话题，每个人都会发出呻吟声。
+
+00:10:27.560 --> 00:10:42.030
+<v Laura Sydell>I hear those groans a lot. I live out here in San Francisco, and just to get a flavor of this, the other day I went down to a park called South Park around noon. It's a place where a lot of tech workers eat their lunch. And the sentiment is universal.
+<v Laura Sydell>我经常听到这种呻吟声。我住在旧金山，为了感受一下，前几天中午我去了南公园（South Park）。那是许多科技工作者吃午餐的地方。这种情绪是普遍的。
+
+00:10:42.030 --> 00:10:45.070
+<v Laura Sydell>If I say patents system, what do you say?
+<v Laura Sydell>如果我说“专利制度”，你会怎么说？
+
+00:10:45.070 --> 00:10:51.240
+<v Man 1>I think it's just a way for lawyers to make money and basically, it's a killer for creativity.
+<v Man 1>我觉得这只是律师赚钱的一种方式，从根本上说，它是创意的终结者。
+
+00:10:51.240 --> 00:10:54.770
+<v Man 2>Complicated, broken.
+<v Man 2>复杂，破碎。
+
+00:10:54.770 --> 00:10:59.810
+<v Man 3>It's basically a flimflam game that anybody who knows how to take advantage of it is doing.
+<v Man 3>这基本上就是一场骗局，任何知道如何利用它的人都在做。
+
+00:10:59.810 --> 00:11:02.090
+<v Laura Sydell>Do you kind of groan when you hear the word?
+<v Laura Sydell>听到这个词时，你会呻吟吗？
+
+00:11:02.090 --> 00:11:04.150
+<v Man 4>I do, yeah. You want to hear a groan for the radio?
+<v Man 4>会，是的。你想听听电台里的呻吟声吗？
+
+00:11:04.150 --> 00:11:05.210
+<v Laura Sydell>Yeah, let's hear a groan.
+<v Laura Sydell>好，让我们听听。
+
+00:11:05.210 --> 00:11:12.000
+<v Man 4>Grrrrr.
+<v Man 4>呃……
+
+00:11:12.000 --> 00:11:16.800
+<v Laura Sydell>If I say the word patent troll, does any company or any entity come to mind in particular?
+<v Laura Sydell>如果我说“专利流氓”这个词，有没有哪家公司或实体特别让你想到？
+
+00:11:16.800 --> 00:11:28.750
+<v Man 5>Like Nathan Myhrvold, I guess, and whatever his company is. It has some stupid name, like Associate Associates or something like that, I don't know.
+<v Man 5>比如Nathan Myhrvold，我想，还有他的公司。名字很蠢，像“联合联合（Associate Associates）”之类的，我不知道。
+
+00:11:28.750 --> 00:11:43.300
+<v Laura Sydell>The name he's searching for is Intellectual Ventures, the company Nathan Myhrvold founded in 2000. Nathan Myhrvold used to be the chief technology officer at Microsoft, where he made a lot of money, hundreds of millions of dollars.
+<v Laura Sydell>他想找的名字是Intellectual Ventures（高智发明），Nathan Myhrvold在2000年创办的公司。Nathan Myhrvold曾是微软的首席技术官，在那里他赚了很多钱，数亿美元。
+
+00:11:43.300 --> 00:11:47.970
+<v Laura Sydell>Even if you haven't heard of Intellectual Ventures, you might have heard of Nathan Myhrvold.
+<v Laura Sydell>即使你没听说过Intellectual Ventures，你也可能听说过Nathan Myhrvold。
+
+00:11:47.970 --> 00:11:58.670
+<v Stephen Colbert>My guest tonight has written a six-volume book on cutting-edge food made with modern science. Please welcome Nathan Myhrvold.
+<v Stephen Colbert>我今晚的嘉宾写了一本关于现代科学烹饪的前沿食品的六卷本巨著。请欢迎Nathan Myhrvold。
+
+00:11:58.670 --> 00:12:11.500
+<v Alex Blumberg>This is Myhrvold on the television show The Colbert Report talking about another one of his ventures, an opus on the science of cooking, which teaches you how to do things like make ice cream with liquid nitrogen. Myhrvold is the kind of guy the press loves to profile.
+<v Alex Blumberg>这是Myhrvold在电视节目《科尔伯特报告》中谈论他的另一项事业——一本关于烹饪科学的巨著，教你怎么用液氮做冰淇淋。Myhrvold是媒体热衷于描写的对象。
+
+00:12:11.500 --> 00:12:34.660
+<v Stephen Colbert>You are a polymath. You're a Renaissance man. You're a world barbecue champion now. You've discovered T. rex fossils. You've studied quantum physics with Stephen Hawking. And you have a new six-volume, 40-pound, $625 book called Modernist Cuisine.
+<v Stephen Colbert>你是一位博学家。你是文艺复兴式的人。你现在是世界烧烤冠军。你发现了霸王龙化石。你和斯蒂芬·霍金一起研究量子物理学。你还有一本价值625美元、重达40磅的六卷本新书《现代主义烹饪》。
+
+00:12:34.660 --> 00:12:46.540
+<v Laura Sydell>But this image of Nathan Myhrvold who gives TED talks and generally plays the role of an avuncular elder statesman for the tech industry is at odds with the image of his company, Intellectual Ventures.
+<v Laura Sydell>但这个经常发表TED演讲并扮演科技行业慈祥的长者政治家形象的Nathan Myhrvold，与他公司Intellectual Ventures的形象不符。
+
+00:12:46.540 --> 00:13:05.280
+<v Alex Blumberg>There's an influential blog in Silicon Valley called Techdirt, which regularly refers to Intellectual Ventures as a patent troll. Another blog, IPWatchdog, called Intellectual Ventures patent troll public enemy number one. And the Wall Street Journal's law blog had an article about Intellectual Ventures titled "Innovative Invention Company Or Giant Patent Troll?"
+<v Alex Blumberg>硅谷有一个非常有影响力的博客叫Techdirt，它经常称Intellectual Ventures为专利流氓。另一个博客IPWatchdog称Intellectual Ventures为专利流氓“公敌一号”。《华尔街日报》的法律博客曾刊登过一篇关于Intellectual Ventures的文章，标题是“创新发明公司还是巨型专利流氓？”
+
+00:13:05.280 --> 00:13:22.550
+<v Laura Sydell>These articles talk about how IV has amassed one of the largest patent portfolios in existence. How it's going around the technology companies demanding money to license these patents. But the thing is, people at companies that have been approached by Intellectual Ventures won't talk about it.
+<v Laura Sydell>这些文章谈到IV是如何积累了现存最大的专利组合之一。它是如何向科技公司索要钱财以授权这些专利的。但问题是，那些曾被Intellectual Ventures接触过的公司的人不愿意谈论这件事。
+
+00:13:22.550 --> 00:13:27.010
+<v Chris Sacca>There is a lot of fear about Intellectual Ventures. You don't want to make yourself a target.
+<v Chris Sacca>人们对Intellectual Ventures有很多恐惧。你不想让自己成为目标。
+
+00:13:27.010 --> 00:13:41.450
+<v Laura Sydell>This is Chris Sacca, an entrepreneur and venture capitalist in Silicon Valley who was an early investor in companies like Twitter and FanBridge and lots of other startups. He wouldn't say if Intellectual Ventures had been in contact with his companies.
+<v Laura Sydell>这是Chris Sacca，硅谷的一位企业家和风险投资人，他是Twitter和FanBridge等许多初创公司的早期投资者。他没有透露Intellectual Ventures是否联系过他的公司。
+
+00:13:41.450 --> 00:13:48.910
+<v Chris Sacca>I tried to put you in touch with other people in this community to talk to you about this and they almost uniformly said they couldn't talk to you. They're afraid to.
+<v Chris Sacca>我试图让你与社区中的其他人联系，让他们谈谈这件事，他们几乎一致表示不能接受采访。他们很害怕。
+
+00:13:48.910 --> 00:13:59.030
+<v Alex Blumberg>And we should just cut in here and say when Chris says, "this community," he's talking about the community of multimillionaire venture capitalists that he hangs around with. Not a timid crowd. Back to Chris.
+<v Alex Blumberg>我们应该在此插一句，当Chris说“这个社区”时，他指的是他交往的千万富翁风险投资人圈子。那可不是一群胆小的人。回到Chris的话题。
+
+00:13:59.030 --> 00:14:08.070
+<v Chris Sacca>They almost uniformly said they couldn't talk to you. They're afraid to. And they didn't even hem and haw about it. They just said, they're afraid to talk about this issue on the record.
+<v Chris Sacca>他们几乎一致表示不能和你谈。他们很害怕。他们甚至没有支支吾吾。他们只是说，他们不敢公开讨论这个问题。
+
+00:14:08.070 --> 00:14:19.330
+<v Chris Sacca>It's such a mismatched fight that your best defensive option is security by obscurity. They have the potential to literally obliterate startups.
+<v Chris Sacca>这简直是一场极不对等的对抗，你最好的防御选择就是通过模糊化来保护自己。他们有潜力彻底消灭初创公司。
+
+00:14:19.330 --> 00:14:22.830
+<v Nathan Myhrvold>Intellectual Ventures is a company that invests in invention.
+<v Nathan Myhrvold>Intellectual Ventures是一家投资发明的公司。
+
+00:14:22.830 --> 00:14:32.840
+<v Laura Sydell>This, of course, is Nathan Myhrvold. I went to talk to him and spent a day at his company. And not surprisingly, Nathan Myhrvold had a very different story about what he's up to.
+<v Laura Sydell>当然，这是Nathan Myhrvold说的。我去采访了他，并在他的公司度过了一天。不出所料，Nathan Myhrvold对自己所做的事情有着截然不同的说法。
+
+00:14:32.840 --> 00:14:35.000
+<v Laura Sydell>Are you a patent troll?
+<v Laura Sydell>你是专利流氓吗？
+
+00:14:35.000 --> 00:14:48.130
+<v Nathan Myhrvold>Well, that's a term that has been used by people to mean someone they don't like who has patents. I think you would find almost anyone who stands up for their patent rights has been called a patent troll.
+<v Nathan Myhrvold>嗯，那是那些不喜欢拥有专利的人所使用的词汇。我想你会发现几乎任何捍卫自己专利权的人都被称为专利流氓。
+
+00:14:48.130 --> 00:15:03.910
+<v Alex Blumberg>Intellectual Ventures says Myhrvold is just the opposite. They're on the side of inventors. They pay inventors for patents. They gather these patents together into this huge warehouse of invention that companies can use if they want. Sort of like a department store for patents. Whatever technology you're looking for, Intellectual Ventures has it.
+<v Alex Blumberg>Intellectual Ventures说Myhrvold恰恰相反。他们站在发明家这一边。他们向发明家支付专利费。他们将这些专利汇聚成这个巨大的发明仓库，公司如果需要可以使用。就像专利百货商店一样。无论你在寻找什么技术，Intellectual Ventures都有。
+
+00:15:03.910 --> 00:15:14.270
+<v Laura Sydell>And when reporters come to visit Myhrvold to underline this idea that IV is all about invention, he takes them to see this.
+<v Laura Sydell>当记者来参观Myhrvold以强调IV专注于发明这个理念时，他带他们参观了这个地方。
+
+00:15:14.270 --> 00:15:16.800
+<v Geoff Deane>Out here we're standing on the brink of our machine shop.
+<v Geoff Deane>我们现在站在我们的机械车间边缘。
+
+00:15:16.800 --> 00:15:38.530
+<v Laura Sydell>I'm on a tour with Geoff Deane, who runs the Intellectual Ventures Invention Lab. About 100 people work here. The lab is massive. There are people walking around in white lab coats mixing chemicals in beakers and looking at stuff under microscopes. There's a machine shop, a nanotechnology section. It's like a playground for scientists and engineers.
+<v Laura Sydell>我正在与运营Intellectual Ventures发明实验室的Geoff Deane进行参观。大约有100人在这里工作。实验室规模巨大。有人穿着白大褂走来走去，在烧杯里混合化学物质，在显微镜下观察东西。这里有一个机械车间，一个纳米技术部门。就像科学家和工程师的游乐场。
+
+00:15:38.530 --> 00:15:49.470
+<v Alex Blumberg>And if you ask them what they've invented so far, there's a couple things they point to. The nuclear technology, they say, is safer and greener than existing technologies. A cooler that can keep vaccines cold for months without electricity.
+<v Alex Blumberg>如果你问他们迄今为止发明了什么，他们指出的几样东西。他们说，核技术比现有技术更安全、更环保。一种无需电力即可让疫苗保持冷藏数月的冷藏箱。
+
+00:15:49.470 --> 00:15:57.110
+<v Laura Sydell>And the world's most high-tech mosquito zapper, which senses mosquitoes from hundreds of feet away by detecting the speed of their wings.
+<v Laura Sydell>以及世界上最高科技的蚊子灭杀器，它通过探测蚊子翅膀的拍打速度，从几百英尺外就能感应到它们。
+
+00:15:57.110 --> 00:16:14.400
+<v Geoff Deane>Well, on one side you have a reflector. On the other side you have something that's looking down range at the reflector. And any time a mosquito flies between there, it actually finds the mosquito and shoots it out of the air as fast as you can imagine. So it takes about a tenth of a second for it to find the mosquito, identify it as a mosquito, and kill it.
+<v Geoff Deane>嗯，一边是反射器。另一边是正在远处观察反射器的东西。任何时候只要有蚊子飞到中间，它实际上就能发现蚊子，并以你想象不到的速度将其从空中击落。所以它只需要十分之一秒就能发现蚊子，将其识别为蚊子，并杀死它。
+
+00:16:14.400 --> 00:16:17.690
+<v Alex Blumberg>Like a missile defense shield for mosquitoes.
+<v Alex Blumberg>就像蚊子的导弹防御盾。
+
+00:16:17.690 --> 00:16:41.670
+<v Laura Sydell>But the fact is, this lab is a tiny fraction of what the company does. Intellectual Ventures has received a little over 1,000 patents on stuff they've come up with here, which pales in comparison to the more than 30,000 patents they've bought from other people. In fact, nothing that's come out of this lab, not the mosquito zapper, not the nuclear technology, nothing has made it into commercial use.
+<v Laura Sydell>但事实上，这个实验室只是该公司业务的一小部分。Intellectual Ventures在这里获得的专利仅有1000多项，与他们从其他人那里购买的30000多项专利相比相形见绌。事实上，这个实验室里出来的任何东西，无论是蚊子灭杀器，还是核技术，都没有进入商业应用。
+
+00:16:41.670 --> 00:16:46.360
+<v Alex Blumberg>But Intellectual Ventures says, that's not our job. Our job, they say, is to encourage invention.
+<v Alex Blumberg>但Intellectual Ventures说，那不是我们的工作。他们说，我们的工作是鼓励发明。
+
+00:16:46.360 --> 00:17:07.140
+<v Alex Blumberg>For example, imagine an inventor out there, someone with a brilliant idea, a breakthrough. This inventor has a patent, but still, companies are stealing his idea and he doesn't have the money or legal savvy to stop them. That's where Intellectual Ventures comes in. They buy this inventor's patent and make sure that companies who are using the idea pay for it.
+<v Alex Blumberg>例如，想象一下外面的某位发明家，一个有绝妙想法的人，一个突破。这位发明家拥有专利，但公司仍在窃取他的想法，而他没有钱或法律头脑去阻止他们。这就是Intellectual Ventures介入的地方。他们购买了这位发明家的专利，并确保那些使用该创意的公司为此付费。
+
+00:17:07.140 --> 00:17:24.350
+<v Laura Sydell>A lot of people I met at IV told me some version of this story. We are promoting innovation by supporting inventors. And when I asked for an example of an inventor in this situation, someone with a breakthrough who wasn't getting paid for it, two separate people pointed me to the same guy.
+<v Laura Sydell>我在IV遇到很多人，他们都对我说了这个故事的不同版本。我们通过支持发明家来促进创新。当我要求他们举一个在这种情况下发明家的例子时，一个拥有突破性技术却没得到报酬的人，两个人向我指出了同一个人。
+
+00:17:24.350 --> 00:17:28.100
+<v Joe Chernesky>There's one story I can think of, a gentleman named Chris Crawford.
+<v Joe Chernesky>我想到的一个故事，一位叫Chris Crawford的先生。
+
+00:17:28.100 --> 00:17:34.340
+<v Laura Sydell>This is one of the people who mentioned Chris Crawford, Joe Chernesky, a vice president at Intellectual Ventures.
+<v Laura Sydell>这是提到Chris Crawford的人之一，Intellectual Ventures的副总裁Joe Chernesky。
+
+00:17:34.340 --> 00:17:53.870
+<v Joe Chernesky>The neat thing about Chris is he had no idea how to get money for his patents. He had this great idea. These patents were immensely valuable because every technology company was adopting the technology, yet he didn't know how to get paid. He eventually found Intellectual Ventures, so we bought those patents.
+<v Joe Chernesky>Chris的妙处在于，他根本不知道如何为自己的专利获得收益。他有这个很棒的点子。这些专利极其有价值，因为每一家科技公司都在采用这项技术，然而他却不知道如何获得报酬。他最终找到了Intellectual Ventures，所以我们买了那些专利。
+
+00:17:53.870 --> 00:18:14.900
+<v Laura Sydell>So I figured, I want to talk to this guy. Not so simple. It turned out trying to talk to Chris Crawford took us on a five-month odyssey, where things didn't exactly fit the story that Intellectual Ventures was telling us.
+<v Laura Sydell>所以我心想，我要采访这个人。没那么简单。事实证明，采访Chris Crawford的过程让我们进行了一场为期五个月的奥德赛之旅，事情的发展并不完全符合Intellectual Ventures告诉我们的故事。
+
+00:18:14.900 --> 00:18:33.100
+<v Laura Sydell>It started when I called Intellectual Ventures to get Chris Crawford's contact info. I got a strange email back in response. I was told, "they no longer own Chris Crawford's patent." And I was told, "he probably wouldn't want to talk to me right now because he was in the middle of litigation."
+<v Laura Sydell>一切始于我致电Intellectual Ventures获取Chris Crawford的联系方式。我收到了一封奇怪的回复邮件。我被告知，“他们不再拥有Chris Crawford的专利了。” 我还被告知，“他现在可能不想和我谈，因为他正在诉讼中。”
+
+00:18:33.100 --> 00:18:45.340
+<v Alex Blumberg>That just made us curious, so we started digging around. We found Chris Crawford in Clearwater, Florida. But as predicted, he never responded to our many emails and phone calls. You will never hear from him in this story.
+<v Alex Blumberg>这引起了我们的好奇心，所以我们开始挖掘。我们在佛罗里达州克利尔沃特找到了Chris Crawford。但如预期一样，他从未回复我们的多次邮件和电话。在这个故事中，你永远听不到他的声音。
+
+00:18:45.340 --> 00:18:47.970
+<v Alex Blumberg>We were able, though, to locate his patent.
+<v Alex Blumberg>不过，我们确实找到了他的专利。
+
+00:18:47.970 --> 00:19:18.780
+<v Laura Sydell>Patent number 5771354. He got it in 1998, back in the relatively early days of the internet. And the way IV explained the patent to us, Chris Crawford invented something that we all do all the time now. He figured out a way to upgrade the software on your home computer over the internet. So in other words, when you turn on your computer and a little box pops up and says, click here to upgrade to the newest version of iTunes, that was Chris Crawford's idea.
+<v Laura Sydell>5771354号专利。他是在1998年获得的，回到互联网相对早期的日子。根据IV向我们解释这项专利的方式，Chris Crawford发明了我们现在一直在做的事情。他找到了一种通过互联网升级你家用电脑软件的方法。换句话说，当你打开电脑，跳出一个小窗口说“点击此处升级到最新版本的iTunes”，那就是Chris Crawford的想法。
+
+00:19:18.780 --> 00:19:39.430
+<v Alex Blumberg>But when we looked at the patent, it seemed to claim a lot more than that. The patent says, this invention makes it possible to connect to an online service provider to do a bunch of stuff-- software purchases, online rentals, data backups, information storage. The patent makes it seem like this one guy, Chris Crawford, invented a lot of what we do on the internet every day.
+<v Alex Blumberg>但当我们查看这项专利时，它似乎声明的远不止这些。专利写道，这项发明使得连接到在线服务提供商来做一系列事情成为可能——软件购买、在线租赁、数据备份、信息存储。专利让人觉得这个人，Chris Crawford，发明了我们每天在互联网上做的许多事情。
+
+00:19:39.430 --> 00:19:43.000
+<v Alex Blumberg>We weren't sure what to make of this, so we turned to an expert.
+<v Alex Blumberg>我们不确定该怎么看，所以我们咨询了一位专家。
+
+00:19:43.000 --> 00:19:47.090
+<v David Martin>You're going to start by looking at the left- and right-hand screens.
+<v David Martin>你先看左边和右边的屏幕。
+
+00:19:47.090 --> 00:20:00.830
+<v Laura Sydell>This is David Martin, who runs a company called M-CAM. They're hired by governments, banks, businesses, to assess patent quality, which they do with this fancy software program. We asked him to assess Chris Crawford's patent.
+<v Laura Sydell>这是David Martin，他运营着一家叫M-CAM的公司。他们受雇于政府、银行、企业，用这套高档软件评估专利质量。我们请他评估Chris Crawford的专利。
+
+00:20:00.830 --> 00:20:05.600
+<v David Martin>Now, if you would, please, just click on the patent number itself, Laura.
+<v David Martin>现在，如果你愿意的话，Laura，请点击专利编号本身。
+
+00:20:05.600 --> 00:20:10.760
+<v Alex Blumberg>The software program actually scans through millions of patents and analyzes them to see if any of them overlap.
+<v Alex Blumberg>该软件实际上会扫描数百万项专利并分析它们是否有重叠。
+
+00:20:10.760 --> 00:20:11.690
+<v David Martin>That's a bad number.
+<v David Martin>那是一个坏数字。
+
+00:20:11.690 --> 00:20:23.300
+<v Laura Sydell>An idea being patented is supposed to be non-obvious to a person of ordinary skill in the art. What that means is that you shouldn't be able to get a patent for just a common sense good idea. It has to be a breakthrough.
+<v Laura Sydell>一个被申请专利的创意应该是对于该领域内具备普通技能的人来说“非显而易见”的。这意味着你不应该仅仅因为一个常识性的好主意就能获得专利。它必须是一个突破。
+
+00:20:23.300 --> 00:20:24.150
+<v David Martin>That's correct.
+<v David Martin>正确。
+
+00:20:24.150 --> 00:20:28.810
+<v Laura Sydell>In other words, we shouldn't be seeing what we are seeing on David Martin's computer screen.
+<v Laura Sydell>换句话说，我们不应该在David Martin的电脑屏幕上看到我们所看到的一切。
+
+00:20:28.810 --> 00:20:42.980
+<v David Martin>5,303 patents that were issued while his was being prosecuted, which covered the same material. 5,303.
+<v David Martin>5303项专利是在他的专利被审查时发布的，这些专利涵盖了相同的内容。5303项。
+
+00:20:42.980 --> 00:20:47.670
+<v Alex Blumberg>And so that means that at the same time that Chris Crawford's patent was getting issued--
+<v Alex Blumberg>所以这意味着在Chris Crawford的专利获得批准的同时——
+
+00:20:47.670 --> 00:20:52.880
+<v David Martin>Only 5,303 other people were pursuing the same thing.
+<v David Martin>只有5303个其他人也在追求同样的事情。
+
+00:20:52.880 --> 00:20:55.070
+<v Alex Blumberg>And when you say the same thing--
+<v Alex Blumberg>当你说是同一件事时——
+
+00:20:55.070 --> 00:20:59.560
+<v David Martin>I mean the same thing.
+<v David Martin>我是指完全一样的事情。
+
+00:20:59.560 --> 00:21:13.360
+<v Laura Sydell>David Martin may be exaggerating a little here for effect, but as we look through some of the patents that are on the screen, the resemblances are pretty clear. Remember, Chris Crawford's patent is for quote "an online backup system."
+<v Laura Sydell>David Martin在这里可能为了效果稍微夸张了一点，但当我们查看屏幕上的一些专利时，相似之处非常明显。记住，Chris Crawford的专利是关于“在线备份系统”的。
+
+00:21:13.360 --> 00:21:33.520
+<v Alex Blumberg>And on David Martin's computer screen, we see lots of patents with slightly different language, but covering essentially the same idea. For example, patent number 6003044, for quote "efficiently backing up files using multiple computer systems." Patent 5933653, for quote "mirroring data in a remote data storage system."
+<v Alex Blumberg>在David Martin的电脑屏幕上，我们看到了很多语言略有不同，但本质上涵盖同一构想的专利。例如，6003044号专利，关于“使用多个计算机系统高效备份文件”。5933653号专利，关于“在远程数据存储系统中镜像数据”。
+
+00:21:33.520 --> 00:21:45.310
+<v Alex Blumberg>And then, there were three different patents with three different patent numbers, but that all had the same title quote, "system and method for backing up computer files over a wide area computer network."
+<v Alex Blumberg>然后，有三项专利编号不同，但标题相同的专利，全部名为“通过广域计算机网络备份计算机文件的系统和方法”。
+
+00:21:45.310 --> 00:21:52.140
+<v Laura Sydell>David Martin says that when he first started looking into this stuff and saw all these patents that were granted for essentially the same thing--
+<v Laura Sydell>David Martin说，当他第一次开始研究这些东西，看到所有这些本质上是相同的东西却被授予了专利时——
+
+00:21:52.140 --> 00:22:14.580
+<v David Martin>We thought that would be an anomaly. And then we were told, oh no, it's not an anomaly. That happens. So that's what got us into the rabbit hole you're about to see. Which is to say, well, let's see how many times that happens. And as I've testified in Congress, that happens about 30% of the time in US patents.
+<v David Martin>我们以为那只是个例外。然后有人告诉我们，哦不，那不是例外。那是常态。这就是让我们掉进你即将看到的那个兔子洞的原因。也就是说，好吧，让我们看看这种情况发生过多少次。正如我在国会作证时所说的那样，这种情况在美国专利中大约占30%。
+
+00:22:14.580 --> 00:22:19.620
+<v Alex Blumberg>That is, 30% of US patents are essentially for things that have already been invented.
+<v Alex Blumberg>也就是说，30%的美国专利本质上都是针对已经发明出来的东西。
+
+00:22:19.620 --> 00:22:26.080
+<v David Martin>So, for example, toast becomes the thermal refreshening of a bread product.
+<v David Martin>所以，举个例子，吐司面包变成了面包产品的热刷新。
+
+00:22:26.080 --> 00:22:27.180
+<v Laura Sydell>These are real patents?
+<v Laura Sydell>这些是真实存在的专利吗？
+
+00:22:27.180 --> 00:22:27.830
+<v David Martin>Yes.
+<v David Martin>是的。
+
+00:22:27.830 --> 00:22:28.930
+<v Alex Blumberg>There's a patent on toast?
+<v Alex Blumberg>真的有关于吐司面包的专利？
+
+00:22:28.930 --> 00:22:31.790
+<v David Martin>Yes, thermally refreshened bread, not on toast.
+<v David Martin>是的，热刷新面包，不是针对吐司。
+
+00:22:31.790 --> 00:22:41.110
+<v Laura Sydell>Ladies and gentlemen, patent number 6080436, bread refreshing method, issued in 2000.
+<v Laura Sydell>女士们先生们，6080436号专利，面包刷新方法，2000年发布。
+
+00:22:41.110 --> 00:22:47.340
+<v Alex Blumberg>And we talked to another expert who told us Chris Crawford's patent was actually similar to the toast patent in one respect.
+<v Alex Blumberg>我们与另一位专家交谈，他告诉我们Chris Crawford的专利在某些方面实际上与吐司专利相似。
+
+00:22:47.340 --> 00:22:49.820
+<v Rick Mcleod>None of this was actually new.
+<v Rick Mcleod>这些其实都不是什么新东西。
+
+00:22:49.820 --> 00:23:07.630
+<v Alex Blumberg>Rick McLeod is a patent lawyer and former software engineer who we also asked to evaluate Chris Crawford's patent. So he went on a search. This is how patent lawyers research this kind of thing. He looked to see if anyone else in the field was already doing the thing Chris Crawford claimed to invent in 1993 when he first filed his patent.
+<v Alex Blumberg>Rick McLeod是一位专利律师和前软件工程师，我们也请他评估了Chris Crawford的专利。所以他进行了一次搜索。这就是专利律师研究这类事情的方式。他查看在1993年Chris Crawford首次申请专利时，该领域是否还有其他人已经在做他声称发明的事情。
+
+00:23:07.630 --> 00:23:29.720
+<v Rick Mcleod>There were institutions, both academic and businesses, that used computers in this way. And I think it's a very interesting collection of things that were well known in the 1980s, with the exception of it adds on the word internet.
+<v Rick Mcleod>当时确实有一些机构，无论是学术界还是商界，都在以这种方式使用电脑。我认为这是一系列在80年代就众所周知的有趣事情，唯一的区别就是增加了“互联网”这个词。
+
+00:23:29.720 --> 00:23:33.900
+<v Laura Sydell>Do you think this patent should have been issued in the first place?
+<v Laura Sydell>你认为这项专利最初应该被批准吗？
+
+00:23:33.900 --> 00:23:42.170
+<v Rick Mcleod>No, I don't.
+<v Rick Mcleod>不，我不这么认为。
+
+00:23:42.170 --> 00:24:04.010
+<v Alex Blumberg>And in fact, for a long time, the Patent Office would have agreed with Rick McLeod. The Patent Office used to be very reluctant to issue patents for software. For decades, it considered software to be like language. Software programs were more like books or articles. You could copyright them, but you couldn't patent them. They weren't inventions like the cotton gin.
+<v Alex Blumberg>事实上，在很长一段时间里，专利局也会同意Rick McLeod的观点。专利局过去非常不情愿为软件颁发专利。几十年来，它认为软件就像语言。软件程序更像是书或文章。你可以拥有它们的版权，但不能为它们申请专利。它们不像轧棉机那样的发明。
+
+00:24:04.010 --> 00:24:19.480
+<v Laura Sydell>But the federal courts stepped in and they started chipping away at this interpretation. There was a big decision in 1994 and another one in 1998, which rejected the Patent Office's view. The Patent Office got the memo and a flood of software patents followed.
+<v Laura Sydell>但联邦法院介入了，他们开始削弱这种解释。1994年有一个重大判决，1998年又有一个，驳回了专利局的观点。专利局收到了信息，随后涌现了大量的软件专利。
+
+00:24:19.480 --> 00:24:27.770
+<v Laura Sydell>A lot of people in Silicon Valley wish that that had never happened, including a very surprising group-- software engineers.
+<v Laura Sydell>硅谷的许多人希望这一切从未发生过，包括一个非常令人惊讶的群体——软件工程师。
+
+00:24:27.770 --> 00:24:36.050
+<v Stephan Brunner>I have to say I actually worked on a whole bunch of patents in my career over the years and I have to say that every single patent is nothing but crap.
+<v Stephan Brunner>我不得不说，我职业生涯中实际上处理过一大堆专利，我必须说，每一项专利除了废纸一张什么都不是。
+
+00:24:36.050 --> 00:24:46.320
+<v Laura Sydell>This is Stephan Brunner, a programmer. He said something we heard from a lot of software engineers. His software patents don't even make sense to him.
+<v Laura Sydell>这是程序员Stephan Brunner。他说了一些我们从许多软件工程师那里听到的话。他的软件专利对他来说甚至毫无意义。
+
+00:24:46.320 --> 00:25:16.970
+<v Stephan Brunner>I can't tell you for the hell of it what they're actually supposed to do. Because the company said we have to do a patent on this, and then they send in a lawyer. You basically say, that's probably right. That's probably wrong. And they just write something up. It makes no sense. And personally when I look at them, I'm not proud at all because most of them again, it's just like mumbo jumbo, which nobody understands, and which makes no sense from an engineering standpoint whatsoever.
+<v Stephan Brunner>我根本说不出它们到底应该做什么。因为公司说我们必须为这个申请专利，然后他们就派来一位律师。你基本就说，那大概是对的。那大概是错的。然后他们就写出一些东西。这毫无意义。我个人看它们的时候，一点都不感到自豪，因为它们中的大多数就像咒语一样，没人能听懂，而且从工程角度来看完全没有意义。
+
+00:25:16.970 --> 00:25:41.080
+<v Alex Blumberg>Stephan Brunner, patent 7650296 quote, "a configurator using structure and rules to provide a user interface." One sample section and trust me, the whole thing is like this. "According to one embodiment of the invention, a customizable product class is created. A component product class is added to the customizable product class where the component product class is a sub-class of the customizable product."
+<v Alex Blumberg>Stephan Brunner，7650296号专利，关于“使用结构和规则来提供用户界面的配置器”。其中一个样本部分，请相信我，整个东西都像这样。“根据本发明的一个实施例，创建了一个可自定义的产品类。组件产品类被添加到可自定义的产品类中，其中组件产品类是可自定义类的子类。”
+
+00:25:41.080 --> 00:26:00.060
+<v Laura Sydell>In polls, as many as 80% of software engineers say the patent system actually hinders innovation. In other words, it does exactly the opposite of what it's supposed to do. It doesn't encourage them to come up with new ideas and create new products, it actually gets in their way. Here's another programmer, Adam Cohen.
+<v Laura Sydell>在民意调查中，多达80%的软件工程师表示专利制度实际上阻碍了创新。换句话说，它做了与它预期完全相反的事情。它并没有鼓励他们提出新想法并创造新产品，反而妨碍了他们。这是另一位程序员Adam Cohen。
+
+00:26:00.060 --> 00:26:24.640
+<v Adam Cohen>I work for a company, which I'm not going to say, that at the end of the company we tried to patent-- we did successfully patent our software that we made. And that patent is really meaningless because everybody that has an internet website, basically almost today, uses the stuff that we patented to make their website work. Almost everybody.
+<v Adam Cohen>我为一家公司工作，我不打算说出名字，我们在公司末期试图申请专利——我们确实成功地为我们制作的软件申请了专利。那个专利确实是毫无意义的，因为今天几乎每个拥有互联网网站的人，基本上都在使用我们申请了专利的那些东西来让他们的网站工作。几乎每个人。
+
+00:26:24.640 --> 00:26:35.780
+<v Alex Blumberg>This, we heard, happens all the time-- patents that are so broad, everyone's guilty of infringement. Which causes huge problems for almost anyone trying to start or grow a business on the internet.
+<v Alex Blumberg>我们听说这种情况经常发生——专利太宽泛了，每个人都有侵权之嫌。这给几乎任何试图在互联网上创业或扩大业务的人带来了巨大问题。
+
+00:26:35.780 --> 00:26:46.130
+<v Chris Sacca>We're at a point in the state of intellectual property where existing patents probably cover every single behavior that's happening on the internet and our mobile phones today.
+<v Chris Sacca>在知识产权现状方面，我们正处于这样一个点：现有的专利可能涵盖了互联网和移动电话上发生的每一个行为。
+
+00:26:46.130 --> 00:26:52.900
+<v Laura Sydell>This, again, is Chris Sacca, the investor you heard from earlier, who helped lots of companies, including Twitter, get off the ground.
+<v Laura Sydell>这又是Chris Sacca，之前提到过的投资者，他帮助许多公司，包括Twitter，起步。
+
+00:26:52.900 --> 00:27:14.030
+<v Chris Sacca>So I have no doubt that the average Silicon Valley startup, or even medium-sized company, no matter how truly innovative they are, I have no doubt that aspects of whatever they're doing violate patents that are out there right now. And that's what's fundamentally broken about this system right now.
+<v Chris Sacca>所以我毫无疑问，普通的硅谷初创公司，甚至中型公司，无论他们有多么创新，我毫无疑问，他们正在做的某些方面都违反了目前存在的专利。这就是该系统目前从根本上崩溃的原因。
+
+00:27:14.030 --> 00:27:33.890
+<v Alex Blumberg>And this brings us back to patent 5771354, Chris Crawford's patent, the patent Intellectual Ventures pointed us to as an example of how they encourage innovation. As we've said, this patent also seems to cover a big chunk of what's happening on the internet-- upgrading software, buying stuff online, what's called cloud storage, storing data on the internet.
+<v Alex Blumberg>这把我们带回了5771354号专利，Chris Crawford的专利，这是Intellectual Ventures向我们展示作为他们如何鼓励创新例子的专利。如前所述，这项专利似乎也涵盖了互联网上正在发生的大部分事情——升级软件、在线购物、所谓的云存储、在互联网上存储数据。
+
+00:27:33.890 --> 00:27:38.430
+<v Alex Blumberg>If you have a patent on all that, you could sue a lot of people and make a lot of money.
+<v Alex Blumberg>如果你拥有所有这些的专利，你可以起诉很多人并赚很多钱。
+
+00:27:38.430 --> 00:28:01.650
+<v Laura Sydell>And in fact, that's what's happening with Chris Crawford's patent. Intellectual Ventures sold it to another company, a company called Oasis Research, in June of 2010. Less than a month later, Oasis Research used the patent to sue 16 different tech companies-- companies like Rackspace, Go Daddy, and AT&T, companies that do cloud storage.
+<v Laura Sydell>事实上，Chris Crawford的专利正在发生这种情况。Intellectual Ventures在2010年6月将其卖给了另一家公司，名为Oasis Research。不到一个月后，Oasis Research利用该专利起诉了16家不同的科技公司——像Rackspace、Go Daddy和AT&T这样的公司，那些做云存储的公司。
+
+00:28:01.650 --> 00:28:05.630
+<v Operator>You have reached Oasis Research. At the tone, please leave your name--
+<v Operator>您已拨打Oasis Research。请在提示音后留下您的名字——
+
+00:28:05.630 --> 00:28:28.180
+<v Laura Sydell>I called the number on Oasis's website numerous times, but an actual human being never picked up. For a while, the message directed all questions to a lawyer in New York named John Desmarais. He also didn't return our phone calls, although I did track him down at a conference in San Francisco. I ran up to him right after a talk and asked him what he could tell me about Oasis Research.
+<v Laura Sydell>我多次拨打了Oasis网站上的电话，但一直没有真人接听。有一段时间，留言指引所有问题询问纽约一位名叫John Desmarais的律师。他也一直没回我们的电话，尽管我确实在旧金山的一次会议上追踪到了他。我在他演讲结束后跑过去问他能告诉我们关于Oasis Research的什么信息。
+
+00:28:28.180 --> 00:28:31.040
+<v John Desmarais>I can't talk about folks I represent.
+<v John Desmarais>我不能谈论我代理的人。
+
+00:28:31.040 --> 00:28:33.790
+<v Laura Sydell>Do you know who owns Oasis Research to reach them?
+<v Laura Sydell>你知道谁拥有Oasis Research可以联系他们吗？
+
+00:28:33.790 --> 00:28:38.880
+<v John Desmarais>Yes, I do. Yes, but I'm not going to tell you.
+<v John Desmarais>是的，我知道。是的，但我不会告诉你。
+
+00:28:38.880 --> 00:28:47.310
+<v Laura Sydell>I mean, they're bringing a suit and you literally can't tell us who owns the company?
+<v Laura Sydell>我的意思是，他们正在发起诉讼，而你竟然不能告诉我们是谁拥有这家公司？
+
+00:28:47.310 --> 00:28:50.630
+<v John Desmarais>I'm not going to answer questions about pending lawsuits for you.
+<v John Desmarais>我不会为你回答关于未决诉讼的问题。
+
+00:28:50.630 --> 00:28:55.670
+<v Laura Sydell>Another question. Is there any chance at a later date of actually talking to you more generally?
+<v Laura Sydell>另一个问题。以后有没有可能和你进行更广泛的交流？
+
+00:28:55.670 --> 00:29:08.020
+<v John Desmarais>I don't think so, but thanks for asking. Although, I love NPR and I love the work that you guys do.
+<v John Desmarais>我觉得不可能，但谢谢你的提问。虽然，我热爱NPR，也热爱你们所做的工作。
+
+00:29:08.020 --> 00:29:26.470
+<v Alex Blumberg>Behavior like this makes it hard not to think, are you hiding something? When someone says, yes, I know, but I'm not going to tell you, it really makes you want to find stuff out. There was hardly any public information about Oasis Research, minimal corporate filings. No way to know who owned it, how many employees it had, if it even had employees at all.
+<v Alex Blumberg>这种行为让人很难不想，你们是不是在隐瞒什么？当有人说，是的，我知道，但我不会告诉你时，这真的会让你想找出真相。关于Oasis Research几乎没有任何公共信息，公司备案极少。没法知道谁拥有它，有多少员工，甚至是否真的有员工。
+
+00:29:26.470 --> 00:29:34.160
+<v Alex Blumberg>One of the few details that was available: an address, in Marshall, Texas. 104 East Houston Street, Suite 190.
+<v Alex Blumberg>仅有的几个细节之一：一个地址，在德克萨斯州马歇尔市。东休斯顿街104号，190室。
+
+00:29:34.160 --> 00:29:39.450
+<v Michael Smith>Right now we're going into the first floor of the Baxter Building, which is 104 East Houston.
+<v Michael Smith>现在我们正在进入Baxter大楼的一楼，地址是东休斯顿104号。
+
+00:29:39.450 --> 00:30:01.020
+<v Laura Sydell>This is Michael Smith. He's an attorney in Marshall, Texas, who does mostly patent cases. He agreed to show us the offices of Oasis Research. They're in a nondescript, two-story building on the town's main square, two doors down from the federal courthouse. He led us into a narrow corridor lined with doors with gold and black office name plates.
+<v Laura Sydell>这是Michael Smith。他是德克萨斯州马歇尔市的一名律师，主要处理专利案件。他同意向我们展示Oasis Research的办公室。它们位于镇广场上一座不起眼的两层建筑里，距离联邦法院有两个门之遥。他把我们带进一条狭窄的走廊，两边排列着带有金色和黑色办公室门牌的门。
+
+00:30:01.020 --> 00:30:04.990
+<v Michael Smith>And here we go, suite 190, Oasis Research LLC.
+<v Michael Smith>到了，190室，Oasis Research有限责任公司。
+
+00:30:04.990 --> 00:30:12.710
+<v Alex Blumberg>It was late morning on a weekday-- not a holiday-- but the door was locked. Through the crack underneath you could see there were no lights on inside.
+<v Alex Blumberg>那天是工作日的深夜——不是节假日——但门锁着。透过门下的缝隙可以看到里面没开灯。
+
+00:30:12.710 --> 00:30:19.450
+<v Alex Blumberg>Marshall is a very small town, 24,000 people. Michael was born and raised here, so we started quizzing him about Oasis.
+<v Alex Blumberg>马歇尔是一个很小的城镇，有24000人。Michael在这里出生长大，所以我们开始盘问他关于Oasis的事。
+
+00:30:19.450 --> 00:30:23.410
+<v Laura Sydell>Does it have any employees that you know about?
+<v Laura Sydell>它有你知道的任何员工吗？
+
+00:30:23.410 --> 00:30:25.330
+<v Michael Smith>Not that I know of.
+<v Michael Smith>据我所知没有。
+
+00:30:25.330 --> 00:30:29.320
+<v Laura Sydell>Have you ever seen any people coming in and out of that office?
+<v Laura Sydell>你有没有见过有人进出那个办公室？
+
+00:30:29.320 --> 00:30:33.470
+<v Michael Smith>No, I haven't.
+<v Michael Smith>没有，我没见过。
+
+00:30:33.470 --> 00:30:36.020
+<v Alex Blumberg>Is this office ever occupied?
+<v Alex Blumberg>这个办公室有人办公吗？
+
+00:30:36.020 --> 00:30:39.510
+<v Michael Smith>I doubt that it is.
+<v Michael Smith>我怀疑没有。
+
+00:30:39.510 --> 00:30:46.400
+<v Laura Sydell>If you don't mind, I'm going to knock on that door and just see if there's anyone here today.
+<v Laura Sydell>如果你不介意的话，我想敲一下那扇门看看今天有没有人在。
+
+00:30:46.400 --> 00:30:50.940
+<v Alex Blumberg>I know this is kind of a cliche at this point, knocking on the door of the suspected fake office--
+<v Alex Blumberg>我知道敲响疑似假办公室的门这在现在看来有点老套——
+
+00:30:50.940 --> 00:30:51.410
+<v Laura Sydell>Nothing.
+<v Laura Sydell>什么反应也没有。
+
+00:30:51.410 --> 00:30:53.500
+<v Alex Blumberg>But we'd flown a long way.
+<v Alex Blumberg>但我们飞了这么远。
+
+00:30:53.500 --> 00:31:07.850
+<v Laura Sydell>But I will say, standing in that corridor was eerie. All the other doors looked exactly the same-- locked, name plates over the door, no light coming out. It was a corridor of silent, empty offices.
+<v Laura Sydell>但我得说，站在那条走廊里让人毛骨悚然。所有其他的门看起来都一模一样——锁着，门上有门牌，没有光线溢出。那是一条安静、空荡荡的办公走廊。
+
+00:31:07.850 --> 00:31:22.870
+<v Michael Smith>Right next door to Software Rights Archive, Bulletproof Technology of Texas, Jelly Fish Technology of Texas, and a couple others that I recognize as plaintiffs in cases that we're involved in here.
+<v Michael Smith>隔壁就是Software Rights Archive，Bulletproof Technology of Texas，Jelly Fish Technology of Texas，还有几个我认出是我们这里参与案件的起诉方。
+
+00:31:22.870 --> 00:31:28.080
+<v Laura Sydell>Are there are a lot of companies like this here in East Texas?
+<v Laura Sydell>像这样的公司在德克萨斯东部多吗？
+
+00:31:28.080 --> 00:31:29.920
+<v Michael Smith>Yes.
+<v Michael Smith>很多。
+
+00:31:29.920 --> 00:31:33.460
+<v Alex Blumberg>And we're standing in the whole corridor of them, it seems like.
+<v Alex Blumberg>而我们似乎正站在它们的走廊里。
+
+00:31:33.460 --> 00:31:41.400
+<v Michael Smith>Yes. This would be ground zero, yes.
+<v Michael Smith>是的。这大概就是风暴中心了，没错。
+
+00:31:41.400 --> 00:31:58.400
+<v Laura Sydell>So what's going on here? It turns out a lot of those companies in that corridor, maybe every single one of them, are doing exactly what Oasis Research is doing. They appear to have no employees. They're not making new inventions here. They're filing lawsuits for patent infringement.
+<v Laura Sydell>到底发生了什么？原来走廊里的许多公司，可能每一家都在做和Oasis Research一模一样的事。它们似乎没有任何员工。它们不是在这里搞什么新发明。它们是在提起专利侵权诉讼。
+
+00:31:58.400 --> 00:32:04.950
+<v Laura Sydell>Patent lawsuits, says Michael Smith, are big business in Marshall, part of the Eastern District of Texas.
+<v Laura Sydell>Michael Smith说，专利诉讼在马歇尔是笔大生意，是德克萨斯东区的一部分。
+
+00:32:04.950 --> 00:32:10.170
+<v Laura Sydell>Walking back across the town square past the Eastern District Courthouse, Michael explained it.
+<v Laura Sydell>走回镇广场经过东区法院时，Michael解释了这一点。
+
+00:32:10.170 --> 00:32:23.820
+<v Michael Smith>The Eastern District in the last few years has been either number one or number two or three in the nation in numbers of patent cases. The list of the patent cases at this courthouse would be about 2,000 cases long.
+<v Michael Smith>过去几年东区在专利案件数量上一直是全国第一、第二或第三。这个法院的专利案件名单大约有2000件长。
+
+00:32:23.820 --> 00:32:32.600
+<v Laura Sydell>As we walked past the courthouse, as if to drive the point home, a gaggle of lawyers emerges-- dozens and dozens of dark suits in the hot Texas sun.
+<v Laura Sydell>当我们经过法院时，仿佛为了加强这一点，一群律师出现了——几十个身穿深色西装的人出现在炎热的德克萨斯阳光下。
+
+00:32:32.600 --> 00:32:40.120
+<v Michael Smith>They're taking their mid-morning break during a patent trial that started yesterday morning in front of Magistrate Judge Everingham.
+<v Michael Smith>他们正在昨天上午在Everingham地方法官面前开始的专利庭审中休息。
+
+00:32:40.120 --> 00:32:51.540
+<v Laura Sydell>It's quite something to see all these-- it is, in this case, it's mostly men in suits, a couple women just streaming out of that courthouse one after another, this little federal courthouse.
+<v Laura Sydell>看着所有这些人——在这个案子中，大多是西装革履的男人，还有几个女人接二连三地从那个小小的联邦法院里涌出来，场面确实相当壮观。
+
+00:32:51.540 --> 00:32:54.120
+<v Michael Smith>They travel in packs.
+<v Michael Smith>他们成群结队地走。
+
+00:32:54.120 --> 00:33:02.220
+<v Alex Blumberg>We talked to many people about why this is so. Why do all these New York and San Francisco-based companies come to tiny Marshall to battle in court?
+<v Alex Blumberg>我们和许多人谈论过为什么会这样。为什么所有这些总部位于纽约和旧金山的公司都要来到小小的马歇尔在法庭上作战？
+
+00:33:02.220 --> 00:33:09.700
+<v Laura Sydell>Many people say it has to do with juries in Marshall. They are famously plaintiff friendly, friendly to patent owners trying to get a large verdict.
+<v Laura Sydell>许多人说这与马歇尔的陪审团有关。他们以对原告友好而闻名，对试图获得大额赔偿的专利持有者很友好。
+
+00:33:09.700 --> 00:33:16.860
+<v Laura Sydell>But Michael Smith, who's argued on both sides of numerous patent cases, says that might have been true once, but not anymore.
+<v Laura Sydell>但处理过无数专利案件双方的Michael Smith表示，那可能曾经是真的，但现在不是了。
+
+00:33:16.860 --> 00:33:37.670
+<v Alex Blumberg>He says they're in Marshall because of the drug war. Basically, in the '90s, federal courts everywhere were clogged with drug cases. Civil cases like patent cases couldn't get in front of a judge because criminal cases take precedence. So companies with patent suits had to find a spot with fewer criminals to prosecute-- hence, sleepy Marshall, Texas.
+<v Alex Blumberg>他说他们之所以在马歇尔是因为禁毒战争。基本上，在90年代，各地的联邦法院都被毒品案件堵塞了。像专利案件这样的民事案件无法排期，因为刑事案件优先。所以有专利诉讼的公司必须找到一个刑事犯较少的地方——于是，沉睡的德克萨斯州马歇尔市就成了目标。
+
+00:33:37.670 --> 00:34:08.370
+<v Alex Blumberg>Our visit to Marshall made us realize, something big is going on here in Texas, and Oasis Research is part of it. 2,000 lawsuits making the same essential claim Intellectual Ventures makes. There's an inventor whose invention is being stolen, used without permission. But there were no inventors here, just corridors of empty offices and a lot of lawyers. It made us wonder, what else about Intellectual Ventures is not what it appears to be?
+<v Alex Blumberg>我们对马歇尔的访问使我们意识到，德克萨斯州正在发生大事，而Oasis Research只是其中一部分。2000起诉讼提出了Intellectual Ventures所提出的同样的本质主张。这里有一位发明家，他的发明正在被窃取，在未经许可的情况下使用。但这里根本没有发明家，只有空荡荡的办公室走廊和一大堆律师。这让我们怀疑，Intellectual Ventures还有什么是虚有其表的？
+
+00:34:08.370 --> 00:35:04.460
+<v Ira Glass>Alex Blumberg and Laura Sydell. Coming up, we go back to Intellectual Ventures for answers, and we find out what a patent has in common with a weapon of mass destruction. That's in a minute, from Chicago Public Radio and Public Radio International, when our program continues.
+<v Ira Glass>Alex Blumberg和Laura Sydell。接下来，我们将回到Intellectual Ventures寻找答案，并了解专利与大规模杀伤性武器有什么共同点。稍后回来，来自芝加哥公共广播和公共广播国际，节目继续。
+
+00:35:04.460 --> 00:35:16.450
+<v Ira Glass>It's This American Life . I'm Ira Glass. Today on our show, "When Patents Attack," stories about how our patent system sometimes seems to be discouraging rather than encouraging innovation in high-tech businesses.
+<v Ira Glass>这是《This American Life》。我是Ira Glass。今天节目的话题是“当专利发起攻击时”，讲述我们的专利制度有时似乎是在阻碍而不是鼓励高科技企业创新的故事。
+
+00:35:16.450 --> 00:35:45.880
+<v Ira Glass>A quick review of where we are in our story. OK, there's this company called Intellectual Ventures. They told our reporters that they, if they wanted to understand what the company was all about, should talk to this inventor that Intellectual Ventures helped out. The guy is a patent holder named Chris Crawford. But when our reporters tried to contact Chris Crawford, he won't return any phone calls. He won't return emails. We found out his patent has actually been sold by Intellectual Ventures. They no longer own it. It is now being used to sue over a dozen different tech businesses.
+<v Ira Glass>简单回顾一下我们故事的进展。好了，有一家叫Intellectual Ventures的公司。他们告诉我们的记者，如果想了解公司的全部，就应该去采访他们帮助过的一位发明家。那个人是名叫Chris Crawford的专利持有者。但当我们的记者试图联系Chris Crawford时，他拒接电话。他不回邮件。我们发现他的专利实际上已经被Intellectual Ventures卖掉了。他们不再拥有它。它现在正被用来起诉十几家不同的科技企业。
+
+00:35:45.880 --> 00:36:02.540
+<v Ira Glass>And the company doing the suing, called Oasis Research, has no researchers, no employees of any kind that we can find. And its only place of business seems to be an empty office in a corridor of empty offices in a small town in Texas. So our reporters, Laura Sydell and Alex Blumberg, had a lot of questions.
+<v Ira Glass>而进行起诉的那家公司，名叫Oasis Research，没有研究人员，没有任何我们能找到的员工。它唯一的营业地点似乎是德克萨斯州一个小镇上一条空荡荡的办公走廊里的空办公室。所以我们的记者Laura Sydell和Alex Blumberg有一大堆问题。
+
+00:36:02.540 --> 00:36:20.230
+<v Laura Sydell>Some of the questions seemed like they should have been simple to answer, but they weren't. For example, when did Intellectual Ventures actually buy the patent from Chris Crawford? There's a document that's publicly available on the US Patent Office website. It traces a patent's ownership history.
+<v Laura Sydell>有些问题看起来本应很容易回答，但事实并非如此。例如，Intellectual Ventures到底是什么时候从Chris Crawford那里买下专利的？在美国专利局网站上有一份公开文件。它追踪了专利的所有权历史。
+
+00:36:20.230 --> 00:36:25.930
+<v Laura Sydell>In the case of Chris Crawford's patent, though, the ownership history was really hard to understand.
+<v Laura Sydell>不过，在Chris Crawford专利的案例中，所有权历史真的很难理解。
+
+00:36:25.930 --> 00:36:41.480
+<v Alex Blumberg>The first owner is clear. It's Chris Crawford, who was granted the patent in 1998. And then it's clear that a company named Intellectual Ventures Computing Platforce Assets LLC-- no one could actually tell us what a platforce is-- bought the patent in July of 2010.
+<v Alex Blumberg>第一任所有者很明确。是Chris Crawford，他在1998年被授予专利。然后很明确的是一家叫Intellectual Ventures Computing Platforce Assets LLC的公司——没人能真正告诉我们什么是“platforce”——在2010年7月买下了专利。
+
+00:36:41.480 --> 00:36:55.100
+<v Alex Blumberg>But in between those two dates, there are two other owners, a company called Kwon Holdings and another one named Enhanced Software LLC. And what was odd, Kwon Holdings, Enhanced Software, and Intellectual Ventures all have the same address.
+<v Alex Blumberg>但在这两个日期之间，还有两任所有者，一家叫Kwon Holdings的公司和另一家叫Enhanced Software LLC的公司。奇怪的是，Kwon Holdings、Enhanced Software和Intellectual Ventures的地址竟然是一样的。
+
+00:36:55.100 --> 00:37:02.920
+<v Laura Sydell>We went back to Intellectual Ventures to clear some of this stuff up. Now there's one thing we need to explain before we tell you what happened there.
+<v Laura Sydell>我们回到Intellectual Ventures去澄清这些事情。在告诉你那里发生了什么之前，有一件事我们需要解释。
+
+00:37:02.920 --> 00:37:13.970
+<v Laura Sydell>Remember the guy at the very beginning of our story, Peter Detkin, the guy who coined the term patent troll after his daughter's doll? The guy who hates patent trolls. You'll never guess what he's doing now.
+<v Laura Sydell>还记得我们故事开头提到的那个人吗？Peter Detkin，那个用女儿的玩偶命名专利流氓的人。那个痛恨专利流氓的人。你绝对猜不到他现在在做什么。
+
+00:37:13.970 --> 00:37:18.230
+<v Peter Detkin>I'm a founder and vice chairman of Intellectual Ventures here in Silicon Valley.
+<v Peter Detkin>我是硅谷Intellectual Ventures的创始人和副董事长。
+
+00:37:18.230 --> 00:37:29.220
+<v Alex Blumberg>That's right. The guy who coined the term patent troll teamed up with Nathan Myhrvold to start a company that many people call the biggest patent troll out there. Peter Detkin obviously disagrees with this characterization.
+<v Alex Blumberg>没错。这个创造了“专利流氓”一词的人与Nathan Myhrvold联手创办了一家被许多人称为最大的专利流氓公司。Peter Detkin显然不同意这种描述。
+
+00:37:29.220 --> 00:37:44.410
+<v Laura Sydell>So anyway, we went to Peter Detkin to ask our questions, and we started off by showing him that publicly available page on the US Patent Office website. And we asked him what seemed like a pretty straightforward question. When exactly did Intellectual Ventures buy Chris Crawford's patent?
+<v Laura Sydell>总之，我们去找Peter Detkin问了我们的问题，我们首先向他展示了美国专利局网站上那个公开的页面。我们问了他一个看起来相当简单直接的问题。Intellectual Ventures到底是什么时候买下Chris Crawford的专利的？
+
+00:37:44.410 --> 00:37:55.190
+<v Laura Sydell>It turns out this was the question that completely threw him off and led the PR woman who was in the room with us to jump in and to try and shut down the interview. You'll hear her voice in the background.
+<v Laura Sydell>事实证明，这个问题彻底让他失控，并导致当时在房间里的公关女士插话，试图关闭采访。你会听到背景中她的声音。
+
+00:37:55.190 --> 00:38:13.480
+<v Alex Blumberg>This is just the patent history of Chris's patent. And honestly, we just don't understand this. So if you could explain what we're looking at here. He invented it in 1998.
+<v Alex Blumberg>这是Chris专利的专利历史。老实说，我们真的看不懂这个。所以如果你能解释一下我们在这里看的是什么。他在1998年发明的。
+
+00:38:13.480 --> 00:38:17.720
+<v Peter Detkin>I didn't put my reading glasses on, so I'm struggling a little bit here.
+<v Peter Detkin>我没戴老花镜，所以在这里有点费劲。
+
+00:38:17.720 --> 00:38:19.620
+<v Laura Sydell>Right, so he invented this--
+<v Laura Sydell>对，所以他发明了这个——
+
+00:38:19.620 --> 00:38:23.190
+<v Pr Woman>I don't know that diving into the history of this patent is necessary.
+<v Pr Woman>我不知道是否有必要深入探究这项专利的历史。
+
+00:38:23.190 --> 00:38:29.760
+<v Peter Detkin>I don't know where you're going with this. What's the question? What are you trying to find out?
+<v Peter Detkin>我不知道你们想干什么。问题是什么？你们想找出什么？
+
+00:38:29.760 --> 00:38:44.260
+<v Alex Blumberg>If you could explain, the story you're telling is that you bought this patent from this inventor, Chris Crawford, and then you sold it a little bit later. But then if you actually look at the history, it's a very different story. It seems very different. So I'm trying to figure out if you could explain to us--
+<v Alex Blumberg>如果你能解释一下，你们讲的故事是你们从这位发明家Chris Crawford那里买下了专利，然后过了一会儿卖掉了。但如果你看历史记录，这是一个非常不同的故事。看起来非常不同。所以我试图弄清楚你们是否能向我们解释——
+
+00:38:44.260 --> 00:39:05.070
+<v Peter Detkin>I won't be able to tell you by looking at this. I mean, I'd have to talk-- I'm not an expert in-- you're on the USPTO website? I haven't looked at this particular website in a while. I don't know how it's organized. I'm trying to be helpful, but the fact is I know we bought it from some entity of his. And apparently, we then sold it, and again, I have some vague recollection of us doing that deal.
+<v Peter Detkin>看着这个我没法告诉你。我的意思是，我得谈谈——我不擅长——你们是在USPTO网站上吗？我有一阵子没看过这个特定网站了。我不知道它是怎么组织的。我试图提供帮助，但事实是我知道我们是从他的一家实体那里买的。而且很显然，我们后来又卖掉了，同样，我对我们做过那笔交易有一些模糊的记忆。
+
+00:39:05.070 --> 00:39:17.860
+<v Alex Blumberg>Wait, are you telling me that you run a patent company and you were the head counsel for Intel in the patent department-- you don't know what the patent office website-- you don't know how to read this?
+<v Alex Blumberg>等等，你是说你运营着一家专利公司，而且你曾是英特尔专利部门的首席法律顾问——你不知道专利局网站——你不知道怎么读这个？
+
+00:39:17.860 --> 00:39:35.560
+<v Peter Detkin>Look, I mean, I could look at this if you want. But I haven't looked at this particular website and I don't know how it's organized. And I'm not exactly sure what it is you're trying to get at. So I'm happy to answer questions, but if you're going to cross-examine me about-- on the record about a patent website, I don't think that's quite fair.
+<v Peter Detkin>听着，如果你们想让我看，我可以看。但我没看过这个特定网站，也不知道它是怎么组织的。我不确定你们到底想达到什么目的。所以我很乐意回答问题，但如果你们要关于一个专利网站对我进行盘问——我是说公开记录，我觉得这不太公平。
+
+00:39:35.560 --> 00:39:49.980
+<v Alex Blumberg>So, for example, one question is, when was it sold to Intellectual Ventures? Because it's sold a number of times, but it's sold a number of times to different companies with the same address as Intellectual Ventures. Does that mean that it was sold to Intellectual Ventures or not?
+<v Alex Blumberg>比如，有一个问题是，什么时候卖给Intellectual Ventures的？因为它被卖了很多次，但它是卖给地址和Intellectual Ventures相同的不同公司。这意味着它卖给Intellectual Ventures了吗？
+
+00:39:49.980 --> 00:39:51.390
+<v Pr Woman>It's a little different and we're not going to talk about this.
+<v Pr Woman>这有点不同，我们不会谈论这个。
+
+00:39:51.390 --> 00:40:03.470
+<v Peter Detkin>I have no idea. There's no way without knowing the details of this particular deal I could ever possibly answer that question.
+<v Peter Detkin>我完全不知道。如果不了解这笔特定交易的细节，我根本不可能回答那个问题。
+
+00:40:03.470 --> 00:40:12.550
+<v Alex Blumberg>We were honestly surprised at this response. It wasn't like this was a secret document or something. What was the big deal about answering this seemingly simple question?
+<v Alex Blumberg>我们对这个反应真心感到意外。这又不是什么秘密文件。回答这个看起来很简单的问题有什么大不了的？
+
+00:40:12.550 --> 00:40:27.190
+<v Laura Sydell>Part of it certainly was that we took them a little bit by surprise. I take him at his word that they do a lot of deals and he doesn't know the details of every one. But we talked to another guy, an intellectual property lawyer named Tom Ewing, who suggested there might have been more to it than that.
+<v Laura Sydell>部分原因肯定是我们让他们有点措手不及。我接受他的话，他们确实做了很多交易，他并不了解每一笔交易的细节。但我们采访了另一位名叫Tom Ewing的知识产权律师，他暗示其中可能不仅仅是这样。
+
+00:40:27.190 --> 00:40:39.670
+<v Alex Blumberg>Tom Ewing told us those other companies listed on that Patent Office document-- Kwon Holdings and Enhanced Software-- they might very well be Intellectual Ventures, what he calls Intellectual Ventures shell companies.
+<v Alex Blumberg>Tom Ewing告诉我们，那份专利局文件上列出的其他公司——Kwon Holdings和Enhanced Software——很可能就是Intellectual Ventures，他称之为Intellectual Ventures的空壳公司。
+
+00:40:39.670 --> 00:40:45.200
+<v Alex Blumberg>Tom Ewing makes a business of tracking them. He started it as sort of a private challenge to himself.
+<v Alex Blumberg>Tom Ewing以追踪它们为业。他最初只是把它当作对自己的一种私人挑战。
+
+00:40:45.200 --> 00:41:03.490
+<v Tom Ewing>I heard for the longest time when they first started that they had everything in shell companies and no one could ever find it. And I kept hearing that so much, and it irritated me because I figured that I could, if I just sat down and started looking. So I did.
+<v Tom Ewing>他们刚开始的时候，我就听说了好长一段时间，说他们把所有东西都放在空壳公司里，没人能找到。我一直听到这个说法，这让我很恼火，因为我觉得如果我坐下来开始寻找，我是能找到的。所以我这么做了。
+
+00:41:03.490 --> 00:41:12.350
+<v Laura Sydell>How many shell companies do you personally believe that Intellectual Ventures has, based on your research?
+<v Laura Sydell>根据你的研究，你认为Intellectual Ventures个人拥有多少家空壳公司？
+
+00:41:12.350 --> 00:41:15.400
+<v Tom Ewing>Very close to 1,300.
+<v Tom Ewing>非常接近1300家。
+
+00:41:15.400 --> 00:41:25.830
+<v Laura Sydell>So we asked Tom Ewing what seemed like an obvious question. Is Oasis Research a shell company of Intellectual Ventures? And he said, probably not.
+<v Laura Sydell>所以我们问了Tom Ewing一个看似明显的问题。Oasis Research是Intellectual Ventures的空壳公司吗？他说，可能不是。
+
+00:41:25.830 --> 00:41:42.120
+<v Alex Blumberg>Tom said Oasis more likely falls into a second category, companies that are independently owned, but with close links to Intellectual Ventures. For example, John Desmarais, the lawyer representing Oasis, also represents Intellectual Ventures in lots of cases, and has links to that company going back almost a decade.
+<v Alex Blumberg>Tom说Oasis更可能属于第二类，即独立拥有但与Intellectual Ventures有着密切联系的公司。例如，代表Oasis的律师John Desmarais也代理Intellectual Ventures的许多案件，并与该公司有近十年的联系。
+
+00:41:42.120 --> 00:41:56.230
+<v Laura Sydell>And Tom said there's evidence that Intellectual Ventures might be getting a cut of whatever money Oasis receives from its lawsuits. He shows us a document that's called "a certification of interested parties."
+<v Laura Sydell>而且Tom说有证据表明Intellectual Ventures可能正在从Oasis通过诉讼获得的任何钱财中分成。他向我们展示了一份名为“利害关系人证明”的文件。
+
+00:41:56.230 --> 00:42:16.050
+<v Alex Blumberg>The court in Texas required that Oasis list all the entities who have a financial stake in the outcome of the case. This is a standard form that pretty much all plaintiffs in civil cases have to file. Oasis listed the parties that most people list-- the plaintiff, the defendants, the attorneys involved. But it added one other name, Intellectual Ventures.
+<v Alex Blumberg>德克萨斯州的法院要求Oasis列出所有对案件结果有经济利益的实体。这是几乎所有民事案件原告都必须提交的标准表格。Oasis列出了大多数人会列出的方——原告、被告、涉及的律师。但它添加了另一个名字，Intellectual Ventures。
+
+00:42:16.050 --> 00:42:41.930
+<v Laura Sydell>So we went back to Intellectual Ventures one more time to talk to Peter Detkin. We picked up where we left off the last time-- when did Intellectual Ventures actually buy Chris Crawford's patent? And this time he had no hesitation about explaining it. It turns out Tom Ewing had been right. Those other mysterious companies-- Kwon Holdings and Enhanced Software-- they were Intellectual Ventures' shell companies.
+<v Laura Sydell>所以我们又一次回到Intellectual Ventures找Peter Detkin谈。我们从上次结束的地方继续——Intellectual Ventures到底是什么时候买下Chris Crawford专利的？这一次他毫不犹豫地解释了。事实证明Tom Ewing是对的。那些神秘的公司——Kwon Holdings和Enhanced Software——它们确实是Intellectual Ventures的空壳公司。
+
+00:42:41.930 --> 00:43:14.410
+<v Peter Detkin>This is when we bought it, October of 2007, from CMC Software to Kwon Holdings, and Kwon is a company that we created to purchase these assets. Then when we actually struck a deal and prepared to sell it, in the name of transparency, we changed it to the Intellectual Ventures Computing Platforce Assets. Please don't ask me what a platforce is. I don't know what it is. And then in August of 2010, we sold it to Oasis Research.
+<v Peter Detkin>这是我们买下它的时间，2007年10月，从CMC Software到Kwon Holdings，而Kwon是我们为购买这些资产而创建的公司。然后当我们真正达成协议并准备出售它时，为了透明起见，我们把它改名为Intellectual Ventures Computing Platforce Assets。请别问我什么是“platforce”。我不知道它是什么。然后在2010年8月，我们把它卖给了Oasis Research。
+
+00:43:14.410 --> 00:43:20.630
+<v Alex Blumberg>We showed Detkin that court document from the Oasis case listing Intellectual Ventures as an interested party.
+<v Alex Blumberg>我们向Detkin展示了Oasis案件中将Intellectual Ventures列为利害关系人的那份法庭文件。
+
+00:43:20.630 --> 00:43:28.960
+<v Peter Detkin>OK, and it does list the Intellectual Ventures Computing Platforce Assets as an interested party. I see that.
+<v Peter Detkin>好，它确实把Intellectual Ventures Computing Platforce Assets列为利害关系人。我看到了。
+
+00:43:28.960 --> 00:43:32.000
+<v Alex Blumberg>And you don't know why in this instance you're listed?
+<v Alex Blumberg>你不知道为什么这次被列出来吗？
+
+00:43:32.000 --> 00:43:35.960
+<v Peter Detkin>I believe it's because we likely have a back-end arrangement here.
+<v Peter Detkin>我相信那是因为我们很可能在这里有后端安排。
+
+00:43:35.960 --> 00:43:39.080
+<v Alex Blumberg>What does a back-end deal mean, just--
+<v Alex Blumberg>后端交易意味着什么，只是——
+
+00:43:39.080 --> 00:43:49.450
+<v Peter Detkin>We sell for some amount of money up front, and we get some percentage of the royalty stream down the road that is generated from the monetization of these assets.
+<v Peter Detkin>我们预先出售一定金额，然后我们会从这些资产的货币化中获得未来产生特许权使用费流的一定百分比。
+
+00:43:49.450 --> 00:44:11.080
+<v Alex Blumberg>So just to spell this out, Peter Detkin is saying it's likely that Intellectual Ventures is taking a cut of whatever money Oasis gets from its lawsuits-- Oasis, a company with no operations, no products, and as far as we can tell no employees, whose only activity seems to be taking a very broad patent from 1998 and using it to sue over a dozen internet companies today.
+<v Alex Blumberg>所以明确地说，Peter Detkin是在说，Intellectual Ventures很有可能正在从Oasis通过诉讼获得的任何钱财中分成——Oasis，一家没有运营、没有产品，且据我们所知没有员工的公司，其唯一活动似乎是拿出一个1998年的广泛专利，用来起诉当今十几家互联网公司。
+
+00:44:11.080 --> 00:44:19.080
+<v Laura Sydell>And so we asked him, how does it feel making money from an entity, which is behaving a lot like the patent trolls that he once condemned?
+<v Laura Sydell>所以我们问他，从一个表现得很像他曾经谴责过的专利流氓的实体那里赚钱，感觉如何？
+
+00:44:19.080 --> 00:44:34.620
+<v Peter Detkin>These are patents we used to hold, we no longer hold. And we ensure that we have no control over the actions of these third parties. They are independent actors. They're not Intellectual Ventures. They may be monetizing in ways that we disagree with, but it's not our call. It's theirs.
+<v Peter Detkin>这些是我们曾经持有的专利，我们现在不再持有了。而且我们确保对这些第三方的行为没有控制权。他们是独立主体。他们不是Intellectual Ventures。他们货币化的方式可能我们不赞同，但这不是我们要决定的。这是他们的事。
+
+00:44:34.620 --> 00:44:35.800
+<v Alex Blumberg>You're also still getting paid.
+<v Alex Blumberg>你也还在拿钱。
+
+00:44:35.800 --> 00:44:48.070
+<v Laura Sydell>Yeah, so I sort of feel like, yeah, well, but what do you expect? You must have some knowledge that it's highly likely these people are going to go and bring lawsuits, especially since they're companies that only have these largely run by attorneys.
+<v Laura Sydell>是的，所以我感觉就像，是啊，但你指望什么呢？你肯定知道这些人很有可能去发起诉讼，特别是考虑到它们本身就是主要由律师经营的公司。
+
+00:44:48.070 --> 00:45:05.980
+<v Peter Detkin>Sure, I understand. I'm not disputing any of that. What I'm trying to say, and I apologize if I'm not being clear, is that we do believe, we believe in our heart, that litigation is a highly inefficient way to do licensing. But let's not lose sight that litigation is just licensing by other means.
+<v Peter Detkin>当然，我明白。我没争辩这些。我想说的是，如果我没表达清楚请见谅，我们确实相信，我们坚信，诉讼是一种效率极低的授权方式。但不要忽视诉讼只是通过其他方式进行的授权。
+
+00:45:05.980 --> 00:45:10.770
+<v Alex Blumberg>In other words, we try to license these patents in a friendly way, but sometimes you have to sue.
+<v Alex Blumberg>换句话说，我们尝试以友好的方式授权这些专利，但有时你不得不诉讼。
+
+00:45:10.770 --> 00:45:34.190
+<v Laura Sydell>Peter Detkin then repeated the company line that we'd heard from a lot of people at IV, that the mission of Intellectual Ventures is to help inventors bring great ideas into the world. That lots of inventors, they're like great artists. Brilliant, but not brilliant at business, so their patents languish. IV gets their ideas into the hands of companies who will actually build what they've invented.
+<v Laura Sydell>Peter Detkin接着重复了我们在IV很多人那里听到的公司口号，即Intellectual Ventures的使命是帮助发明家将伟大的想法带到世界上。许多发明家就像伟大的艺术家。才华横溢，但不善经营，所以他们的专利被荒废了。IV将他们的想法交到了真正会制造他们发明的东西的公司手中。
+
+00:45:34.190 --> 00:45:42.390
+<v Alex Blumberg>So can you point me to a patent that you acquired that was languishing that then got licensed to somebody and built in a way that I could see?
+<v Alex Blumberg>那么你能指出一个你获得的被荒废的专利，然后授权给某人并以我能看到的方式制造出来的例子吗？
+
+00:45:42.390 --> 00:46:29.040
+<v Peter Detkin>I can tell you that it's happened, but unfortunately the deal's confidential. There are two deals that were done. One was with a toy company and the other was-- I can't remember the technology of the other one. But they came to us and they said, we're interested in this particular patent. We'd like to take it out into the world. Will you give us a license? We did. And they put it out there. It was out there for last Christmas. I actually don't know how it's done. I'd be curious to find out myself. But I agree, that's an anomaly. I see where you're going with your question and I don't mean to fight you on it. The fact is the bulk of our patents, the bulk of our revenue, is from people using inven-- they were using it before we bought it, and they are using it after we bought it, but we provided an efficient way for them to get access to those invention rights.
+<v Peter Detkin>我可以告诉你这发生过，但不幸的是交易是保密的。有两笔交易完成了。一笔是和玩具公司，另一笔是——我不记得另一笔的技术了。但他们找到我们说，我们对这项特定专利感兴趣。我们想把它带到世界上。你能给我们授权吗？我们做了。他们把它推向了市场。去年圣诞节它就在市场上。其实我也没见过它是怎么做的。我本人也很好奇。但我同意，那是个例外。我明白你的问题的意图，我不打算在这上面和你争。事实是，我们的大部分专利，大部分收入，来自人们使用发明的——他们在我们购买之前就在使用它，在我们购买之后他们也在使用它，但我们为他们提供了一种获取这些发明权利的有效途径。
+
+00:46:29.040 --> 00:46:45.790
+<v Alex Blumberg>The way I hear what you're saying, the way I translate it in my head is they were using it before without paying a license and nobody was bothering them. And now they are paying a license to you. Why is that a better situation?
+<v Alex Blumberg>我听到的你的话，我脑子里的翻译是：他们在付费授权之前就在使用它，没人在打扰他们。而现在他们要向你们支付授权费。为什么那是种更好的情况？
+
+00:46:45.790 --> 00:46:49.040
+<v Peter Detkin>Well, because we want to incentivize the guy who invented it.
+<v Peter Detkin>好吧，因为我们想激励那个发明它的人。
+
+00:46:49.040 --> 00:47:01.940
+<v Alex Blumberg>That is, if companies pay their licenses, inventors make more money, which in turn, gives them incentive to invent more stuff. This is the rhetorical cul-de-sac where every argument with Peter Detkin ends.
+<v Alex Blumberg>也就是说，如果公司支付授权费，发明家就能赚更多的钱，进而激励他们发明更多的东西。这就是与Peter Detkin争论的每一条死胡同。
+
+00:47:01.940 --> 00:47:20.430
+<v Alex Blumberg>But here's the problem with that argument. IV is not buying inventions. They're buying patents. And as we've heard, as most software engineers will tell you, at least when it comes to computers and the internet, a patent and an invention are not the same. Lots of patents cover things that people in the field wouldn't consider inventions at all.
+<v Alex Blumberg>但这个论点的问题在于：IV买的不是发明。他们买的是专利。正如我们所听到的，正如大多数软件工程师会告诉你的，至少在计算机和互联网方面，专利和发明不是一回事。很多专利涵盖的甚至不是该领域的人认为的发明。
+
+00:47:20.430 --> 00:47:38.970
+<v Laura Sydell>And these patents out there, that aren't for something novel, or are so broad they can cover anything, every single one of them can be used to bring lawsuits. In response, all the big tech companies have started amassing troves of software patents, not to build anything, but to defend themselves.
+<v Laura Sydell>而这些专利，不是针对新颖的东西，或者太宽泛到涵盖任何东西，每一个都可以用来提起诉讼。作为回应，所有的大型科技公司都已经开始积累大量的软件专利，不是为了制造什么，而是为了自卫。
+
+00:47:38.970 --> 00:47:46.630
+<v Laura Sydell>If a company's patent hoard is big enough, it can say essentially, if you try to sue me with your patents, I'll sue you with mine.
+<v Laura Sydell>如果一家公司的专利库足够大，它基本上可以以此说，如果你试图用你的专利起诉我，我就用我的起诉你。
+
+00:47:46.630 --> 00:48:07.890
+<v Alex Blumberg>It's the old mutually assured destruction. Except instead of arsenals of nuclear weapons, it's arsenals of patents. And this was a problem Intellectual Ventures founder Nathan Myhrvold said he was trying to solve when he first started his company, a problem that he and others from Intellectual Ventures talked about in investor meetings all around Silicon Valley. Chris Sacca was there at one of them.
+<v Alex Blumberg>这是古老的“相互保证毁灭”。只是不是核武器库，而是专利库。这就是Intellectual Ventures创始人Nathan Myhrvold在刚创办公司时声称试图解决的问题，一个他和Intellectual Ventures其他人曾在硅谷各地的投资者会议上谈论过的问题。Chris Sacca就在其中一个会上。
+
+00:48:07.890 --> 00:48:16.950
+<v Chris Sacca>I think I saw Nathan for the first time present the idea of Intellectual Ventures in either the fall of 2007 or the spring of 2008.
+<v Chris Sacca>我想我第一次看到Nathan展示Intellectual Ventures的构想是在2007年秋天或2008年春天。
+
+00:48:16.950 --> 00:48:29.890
+<v Alex Blumberg>And the pitch he heard was, basically, Intellectual Ventures helps defend against lawsuits. Intellectual Ventures has this hoard of 35,000 patents-- 35,000 patents that, for a price, companies can access and use to defend themselves.
+<v Alex Blumberg>他听到的推销基本上是：Intellectual Ventures有助于防范诉讼。Intellectual Ventures拥有这个35000项专利的宝库——35000项专利，只要付钱，公司就可以访问并使用它们来保护自己。
+
+00:48:29.890 --> 00:48:44.170
+<v Chris Sacca>They pay administrative fees ranging from the tens of thousands to the millions and millions of dollars, all into this entity to kind of buy themselves insurance that protects them from being sued by any harmful, malevolent outsiders.
+<v Chris Sacca>他们支付行政费用，从几万美元到数百万美元不等，全部交给这个实体，就为了给自己买一份保险，保护自己不被任何有害的、恶意的局外人起诉。
+
+00:48:44.170 --> 00:48:57.220
+<v Alex Blumberg>In other words, Intellectual Ventures goes around to companies and says, hey, you want to protect yourself from lawsuits? We own tons of patents. Make a deal with us. Our patents will not only cover everything you're doing in your business, no one will dare sue you.
+<v Alex Blumberg>换句话说，Intellectual Ventures到处找公司说，嘿，你想保护自己免受诉讼吗？我们有成吨的专利。和我们做个交易。我们的专利不仅会涵盖你在业务中做的所有事情，而且没人敢起诉你。
+
+00:48:57.220 --> 00:49:07.250
+<v Laura Sydell>But to Chris Sacca, there's an implication in there. If you don't join us, who knows what will happen? Which reminds him of the business practices of another organization.
+<v Laura Sydell>但对Chris Sacca来说，这里面有个暗示。如果你不加入我们，谁知道会发生什么呢？这让他想起了另一个组织的经营方式。
+
+00:49:07.250 --> 00:49:17.320
+<v Chris Sacca>A Mafia-style shakedown, where somebody comes in the front door of your building and says, it'd be a shame if this place burned down. I know the neighborhood really well and I can make sure that doesn't happen. And saying, pay us up.
+<v Chris Sacca>一种黑手党式的敲诈，有人走进你大楼的前门说，这地方如果烧了就太可惜了。我对这片街区很熟，我可以确保那种事不会发生。并说，付钱给我们。
+
+00:49:17.320 --> 00:50:13.610
+<v Chris Sacca>Now here's what's funny. When I've seen Nathan speak publicly about this, and when I've seen spokespeople from Intellectual Ventures, they constantly remind us that they, themselves, don't bring lawsuits. That they, themselves, are not litigators. That they're a defensive player. But the truth is that the threat of their patent arsenal can't actually be realized. It can't be taken seriously unless they have that offensive posture, unless they're willing to assert those patents. And so it's this very delicate balancing act that is quite reminiscent of scenes you see in movies when the Mafia comes to visit your butcher shop. And they say to you, hey, it would be a real shame if somebody else came and sued you. Tell you what-- pay us an exorbitant membership fee into our collective and we'll keep you protected that way. A protection scheme isn't that credible unless some butcher shops burn down now and then.
+<v Chris Sacca>现在有趣的是。当我看到Nathan公开谈论这一点时，当我看到Intellectual Ventures的发言人时，他们不断提醒我们，他们自己不提起诉讼。他们自己不是诉讼律师。他们是防御方。但真相是，除非他们有那种进攻姿态，除非他们愿意主张那些专利，否则他们专利库的威胁实际上是无法实现的。它无法被认真对待。所以这是一种非常微妙的平衡行为，相当令人想起黑手党去拜访你的肉铺时的电影场景。他们对你说，嘿，如果别人来起诉你那可就太遗憾了。告诉你——交给我们这笔昂贵的会员费，我们会保护你的。除非时不时真的烧掉一些肉铺，否则这种保护计划就不会那么可信。
+
+00:50:13.610 --> 00:50:46.150
+<v Alex Blumberg>We told Intellectual Ventures that Chris Sacca compared their business to a Mafia shakedown. And in an email, Peter Detkin called that "ridiculous and offensive." He then reiterated some of the arguments you've heard about how IV protects inventors, and went on to say quote, "we're a disruptive company that's providing a way for patent holders to recognize value--" recognize value, he means make money-- "that wasn't available before we came on the scene. And we are making a big impact on the market. That obviously makes people uncomfortable, but no amount of name calling changes the fact that ideas have value."
+<v Alex Blumberg>我们告诉Intellectual Ventures，Chris Sacca将他们的生意比作黑手党敲诈。在一封电子邮件中，Peter Detkin称这是“荒谬且冒犯性的”。然后他重申了一些你听到过的关于IV如何保护发明家的论点，并继续说，“我们是一家具有破坏性的公司，为专利持有人提供了一种识别价值——识别价值，他的意思是赚钱——的方法，这在我们出现在现场之前是不可用的。我们对市场产生了重大影响。这显然让人不舒服，但无论怎么称呼都无法改变‘创意有价值’这个事实。”
+
+00:50:46.150 --> 00:51:07.860
+<v Laura Sydell>True enough, but lately it seems like a lot of butcher shops have been burning. As we were reporting this story, more and more Intellectual Ventures patents started showing up in the hands of companies like Oasis, companies without employees or operations, who were formed for the purpose of filing lawsuits. They're known as non-practicing entities, or NPEs.
+<v Laura Sydell>确实如此，但最近似乎很多肉铺都在烧。在我们报道这个故事时，越来越多的Intellectual Ventures专利开始出现在像Oasis这样的公司手中，这些公司没有员工或业务，它们成立的目的就是为了提起诉讼。它们被称为非实施实体（NPE）。
+
+00:51:07.860 --> 00:51:19.690
+<v Alex Blumberg>One former IV patent was used by an NPE to sue 19 different companies-- a seemingly random assortment, which included Dell Computers, Abercrombie & Fitch, Visa, UPS.
+<v Alex Blumberg>其中一项前IV专利被一家NPE用来起诉19家不同的公司——一个看起来随机的组合，包括戴尔电脑、Abercrombie & Fitch、Visa、UPS。
+
+00:51:19.690 --> 00:51:30.170
+<v Alex Blumberg>What's the suit about? These companies all have websites that when you scroll your mouse over certain sections, pop-up boxes appear. This NPE said, we have a patent on that.
+<v Alex Blumberg>诉讼是关于什么的？这些公司都有网站，当你的鼠标悬停在某些部分时，会出现弹出框。这家NPE说，我们拥有那个专利。
+
+00:51:30.170 --> 00:51:49.580
+<v Laura Sydell>Another group of former IV patents is being used in one of the most controversial and most talked-about cases in Silicon Valley right now. An NPE called Lodsys is suing almost three dozen companies and counting. These are small- and medium-sized companies developing apps for iPhone and Android smartphones.
+<v Laura Sydell>另一组前IV专利正在硅谷目前最具争议和讨论最多的案件之一中使用。一家叫Lodsys的NPE正在起诉近三打公司，而且数量还在增加。这些是为iPhone和Android智能手机开发应用程序的中小型公司。
+
+00:51:49.580 --> 00:51:55.650
+<v Laura Sydell>Lodsys says every time you buy something within a smartphone app, they own the patent on that.
+<v Laura Sydell>Lodsys说，你每次在智能手机应用内购买东西，他们都拥有该专利。
+
+00:51:55.650 --> 00:52:15.830
+<v Alex Blumberg>And one interesting wrinkle about that case, the address of Lodsys, 104 East Houston Street, Marshall, Texas, Suite 190-- the same exact address, down to the suite number, as Oasis Research.
+<v Alex Blumberg>那个案件中有一个有趣的转折点，Lodsys的地址是德克萨斯州马歇尔市东休斯顿街104号190室——这与Oasis Research的地址完全相同，精确到室号。
+
+00:52:15.830 --> 00:52:23.310
+<v Laura Sydell>Tom Ewing, the lawyer who keeps track of Intellectual Ventures, says that all this behavior has led people to come up with a special name for the company.
+<v Laura Sydell>追踪Intellectual Ventures的律师Tom Ewing表示，所有这些行为导致人们为该公司取了一个特别的名字。
+
+00:52:23.310 --> 00:52:26.370
+<v Tom Ewing>The troll on steroids.
+<v Tom Ewing>打了类固醇的流氓。
+
+00:52:26.370 --> 00:52:34.020
+<v Laura Sydell>Do you think it's a troll on steroids?
+<v Laura Sydell>你觉得它是打了类固醇的流氓吗？
+
+00:52:34.020 --> 00:53:13.710
+<v Tom Ewing>I don't want to complicate things, but I personally think there's a whole lot of gray. For example, they've already collected $2 billion worth of royalties, so they say. And you have to ask yourself, of the $2 billion in royalties they've collected, how much of those royalties that they've collected are based on reasonable licensing fees that the people they received it from should have paid? And how much of it is simply based on trying to avoid litigation? And I would say it's probably a mix of both.
+<v Tom Ewing>我不想把事情复杂化，但我个人认为这里有很大的灰色地带。例如，据他们所说，他们已经收到了价值20亿美元的特许权使用费。你必须问自己，在他们收到的20亿美元特许权使用费中，有多少是基于收到费用的人本应支付的合理授权费？又有多少纯粹是基于试图避免诉讼？我想这可能是两者的混合。
+
+00:53:13.710 --> 00:53:36.710
+<v Laura Sydell>The problem is to try and figure out what that mix actually looks like is virtually impossible. We called dozens of people. We called people who had licensing arrangements with Intellectual Ventures. We called people who were defendants in lawsuits involving Intellectual Ventures patents. We called every single company being sued by Oasis Research, all 16 of them. No one would talk to us.
+<v Laura Sydell>问题在于，试图找出这种混合到底是什么样子几乎是不可能的。我们打了几十个电话。我们给与Intellectual Ventures有授权安排的人打了电话。我们给涉及Intellectual Ventures专利诉讼的被告打了电话。我们给Oasis Research起诉的所有16家公司打了电话。没人愿意跟我们谈。
+
+00:53:36.710 --> 00:53:51.650
+<v Laura Sydell>Partly this is fear. Partly Intellectual Ventures is said to have the strictest non-disclosure agreement in Silicon Valley.
+<v Laura Sydell>部分是因为恐惧。部分是因为据说Intellectual Ventures拥有硅谷最严格的保密协议。
+
+00:53:51.650 --> 00:54:13.570
+<v Alex Blumberg>The Oasis Research case is still ongoing, but many of the original defendants seem to have settled. Michael Smith, the attorney in Marshall, Texas, who showed us the Oasis offices, represented one of those defendants. He was pretty sure they would have won the case if they'd gone to trial, but his client settled anyway. He says, sometimes it makes more sense to settle and pay a license fee than to spend $2 to $5 million on a court case.
+<v Alex Blumberg>Oasis Research案仍在审理中，但许多原始被告似乎已经和解了。向我们展示Oasis办公室的德克萨斯州马歇尔市律师Michael Smith代表了其中一位被告。他非常确定如果他们进入审判阶段就会赢，但他的客户还是和解了。他说，有时和解并支付授权费比在法庭案件上花费200万到500万美元更有意义。
+
+00:54:13.570 --> 00:54:34.090
+<v Laura Sydell>Tom Ewing, the lawyer who tracks Intellectual Ventures, says it's likely we're going to see plenty more of these cases in the future. And that's based just on the math of IV's business model. In order to purchase its 35,000 patents, Intellectual Ventures got money from investors-- a lot of money, more than $5 billion.
+<v Laura Sydell>追踪Intellectual Ventures的律师Tom Ewing表示，我们未来很可能会看到更多这样的案件。这仅基于IV商业模式的数学运算。为了购买其35000项专利，Intellectual Ventures从投资者那里获得了资金——一大笔钱，超过50亿美元。
+
+00:54:34.090 --> 00:54:55.720
+<v Alex Blumberg>And a lot of these investors are venture capitalists who expect very high returns. These are people who are looking for the next Google, the next Apple, people who want to get back many times what they put in. Since its founding in 2000, Intellectual Ventures has generated $2 billion in revenue. But to keep its investors happy, over the next 10 years, says Tom Ewing, they're going to have to do a lot better than that.
+<v Alex Blumberg>而这些投资者中有很多是期望高回报的风险投资人。这些人正在寻找下一个谷歌、下一个苹果，希望获得数倍于投入的回报。自2000年成立以来，Intellectual Ventures产生了20亿美元的收入。但为了让投资者满意，Tom Ewing表示，在接下来的10年里，他们需要做得比这好得多。
+
+00:54:55.720 --> 00:55:15.990
+<v Tom Ewing>So if you calculate this out, that means that over, say, a 10-year period, they are going to need to collect about $35 billion in licensing revenue. Which in order for them to be successful among the people who they're trying to compare themselves with.
+<v Tom Ewing>所以如果你计算一下，这意味着在比如10年期间，他们将需要收集大约350亿美元的授权收入。为了在他们试图与之比较的人群中取得成功。
+
+00:55:15.990 --> 00:55:31.500
+<v Tom Ewing>IV seems to have signed a number of deals. If the stream of deals they're signing doesn't increase significantly, then I would imagine they will be forced to file more litigations in order to achieve their revenue targets.
+<v Tom Ewing>IV似乎已经签署了一些交易。如果他们签署的交易量没有显著增加，那么我想他们将被迫提起更多的诉讼以达到他们的收入目标。
+
+00:55:31.500 --> 00:55:51.040
+<v Laura Sydell>Tom's prediction already seems to be coming true. Earlier this month, Intellectual Ventures itself filed a patent infringement suit in federal court against several companies it claimed were infringing some patents it owns.
+<v Laura Sydell>Tom的预测似乎已经成真了。本月早些时候，Intellectual Ventures本身在联邦法院对几家它声称侵犯了其所拥有专利的公司提起了专利侵权诉讼。
+
+00:55:51.040 --> 00:56:35.920
+<v Laura Sydell>In early July, the bankrupt tech company Nortel put its 6,000 patents up for auction as part of a liquidation. A bidding war broke out between the Silicon Valley powerhouses. Google said in press accounts that it wanted the patents purely to defend itself against lawsuits, and it was willing to spend over $3 billion to get them. But that wasn't enough. The portfolio eventually sold to Apple and a strange consortium of other tech companies, including Apple competitor Microsoft. The price tag? $4.5 billion, five times the opening bid. More than double what most people were expecting. The largest patent auction in history.
+<v Laura Sydell>7月初，破产的科技公司北电网络（Nortel）将其6000项专利作为清算的一部分进行拍卖。硅谷巨头之间爆发了竞购战。谷歌在媒体报道中表示，它购买这些专利纯粹是为了保护自己免受诉讼，并愿意花费超过30亿美元来获得它们。但这还不够。这些专利组合最终卖给了苹果和一个由其他科技公司组成的奇怪财团，其中包括苹果的竞争对手微软。价格标签是多少？45亿美元，是开标价的五倍。是大多数人预期价格的两倍多。史上最大规模的专利拍卖。
+
+00:56:35.920 --> 00:57:02.240
+<v Alex Blumberg>Think of that. $4.5 billion on patents that these companies almost certainly don't want for their technical secrets. That $4.5 billion won't build anything new, won't bring new products to the shelves, won't open up new factories that can hire people who need jobs. That's $4.5 billion that adds to the price of every product these companies sell you, $4.5 billion essentially wasted buying arms for an ongoing patent war.
+<v Alex Blumberg>想想看。45亿美元用于那些这些公司几乎肯定不是为了其技术秘密而想要的专利。那45亿美元不会创造任何新东西，不会给货架带来新产品，不会开设能雇佣急需工作的人的新工厂。那是45亿美元，增加了这些公司卖给你的每件产品的价格，那45亿美元基本上浪费在为一场正在进行的专利战争购买武器上。
+
+00:57:02.240 --> 00:57:21.050
+<v Alex Blumberg>The big companies-- Google, Apple, Microsoft-- will probably survive this war. The likely casualties, the companies out there that no one's ever heard of that could one day take their place.
+<v Alex Blumberg>大公司——谷歌、苹果、微软——可能会在这场战争中幸存下来。可能的伤亡者，是那些无人知晓但有一天可能取而代之的公司。
+
+00:57:21.050 --> 00:57:34.490
+<v Ira Glass>Alex Blumberg with NPR correspondent Laura Sydell. Alex is part of our Planet Money team. On the Planet Money website you can find links to all kinds of documents and patent-related goodies, plus, of course, their podcast. That is at npr.org/money.
+<v Ira Glass>Alex Blumberg与NPR记者Laura Sydell。Alex是我们Planet Money团队的一员。在Planet Money网站上，你可以找到各种文件和专利相关好物的链接，当然还有他们的播客。网址是npr.org/money。
+
+00:57:34.490 --> 00:57:50.950
+<v Ira Glass>[MUSIC - "MODERN INVENTIONS" BY THE SUBMARINES]
+<v Ira Glass>[音乐 - The Submarines的“Modern Inventions”]
+
+00:57:50.950 --> 00:58:05.480
+<v Ira Glass>Our program was produced today with Ben Calhoun, Jane Feltes, Sarah Koenig, Eric Mennel, Jonathan Menjivar, Lisa Pollak, Robyn Semien, Alissa Shipp, and Nancy Updike. Our senior producer is Julie Snyder. Production help from Miki Meek. Music help from Damien Graef. Seth Lind is our production manager. Emily Condon's our office manager.
+<v Ira Glass>我们今天的节目是由Ben Calhoun、Jane Feltes、Sarah Koenig、Eric Mennel、Jonathan Menjivar、Lisa Pollak、Robyn Semien、Alissa Shipp和Nancy Updike制作的。我们的高级制片人是Julie Snyder。制作协助来自Miki Meek。音乐协助来自Damien Graef。Seth Lind是我们的制作经理。Emily Condon是我们的办公室经理。
+
+00:58:05.480 --> 00:58:13.710
+<v Ira Glass>[ACKNOWLEDGEMENTS]
+<v Ira Glass>[致谢]
+
+00:58:13.710 --> 00:58:35.420
+<v Ira Glass>Our website, thisamericanlife.org. This American Life is distributed by Public Radio International.
+<v Ira Glass>我们的网站，thisamericanlife.org。《This American Life》由公共广播国际分发。
+
+00:58:35.420 --> 00:58:41.860
+<v Ira Glass>WBEZ management oversight for our show by our boss, Mr. Torey Malatia. I thought he would be so proud of our program this week.
+<v Ira Glass>WBEZ对我们节目的管理由我们的老板Torey Malatia先生监督。我想他会对我们这周的节目感到非常自豪。
+
+00:58:41.860 --> 00:58:49.390
+<v Stephan Brunner>I'm not proud at all because it's just like mumbo jumbo, which nobody understands whatsoever.
+<v Stephan Brunner>我一点都不自豪，因为它就像咒语一样，没人能听懂。
+
+00:58:49.390 --> 00:59:16.410
+<v Ira Glass>I'm Ira Glass, back next with with more stories of this American life.
+<v Ira Glass>我是Ira Glass，下期带来更多美国生活的故事。
+
+00:59:16.410 --> 00:59:21.410
+<v Announcer>PRI, Public Radio International.
+<v Announcer>PRI，公共广播国际。

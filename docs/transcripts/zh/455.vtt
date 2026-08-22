@@ -1,0 +1,1121 @@
+WEBVTT
+
+00:00:00.650 --> 00:00:07.960
+<v Ira Glass>I think at this point even the most casual news consumer has run across a lot of stories like this--
+<v Ira Glass>我想此时此刻，即使是最随意的各种新闻消费者，也已经看过许多类似这样的报道——
+
+00:00:07.960 --> 00:00:11.990
+<v Male News Reporter>The focus of the European debt crisis move today--
+<v Male News Reporter>今天欧洲债务危机动向的焦点是——
+
+00:00:11.990 --> 00:00:16.060
+<v Female News Reporter>Time is running out. Here's what would happen if the Eurozone fails--
+<v Female News Reporter>时间不多了。如果欧元区崩溃，将会发生以下情况——
+
+00:00:16.060 --> 00:00:21.510
+<v Male News Reporter>Tomorrow there will be a unified statement of support for these European countries to come up with--
+<v Male News Reporter>明天将有一份统一的声明，支持这些欧洲国家提出——
+
+00:00:21.510 --> 00:00:24.440
+<v Female News Reporter>The crisis ongoing in Europe setting the stage for investing--
+<v Female News Reporter>欧洲正在进行的危机为投资奠定了基础——
+
+00:00:24.440 --> 00:00:32.530
+<v Ira Glass>So I am joined now here in the studio with somebody who actually understands economics and knows about this kind of thing-- Alex Blumberg with the Planet Money team and our staff. Hi, Alex.
+<v Ira Glass>现在演播室里和我在一起的，是一位真正懂经济学、了解这类事情的人——来自Planet Money团队及我们员工的亚历克斯·布伦伯格 (Alex Blumberg)。你好，亚历克斯。
+
+00:00:32.530 --> 00:00:32.930
+<v Alex Blumberg>Hey, how's it going?
+<v Alex Blumberg>嘿，最近怎么样？
+
+00:00:32.930 --> 00:00:41.360
+<v Ira Glass>Good. So Alex, I think I speak for all Americans when I ask you this question and that is, do I have to care about this?
+<v Ira Glass>很好。那么亚历克斯，我想我代表所有美国人问你一个问题，那就是：我需要关心这件事吗？
+
+00:00:41.360 --> 00:00:48.220
+<v Alex Blumberg>I am so glad you asked. I'm so glad you asked that question. Because we at Planet Money have been obsessed with Europe for the last couple of--
+<v Alex Blumberg>我很高兴你问了这个问题。我真的很高兴你问了这个问题。因为我们Planet Money在过去几个月里一直对欧洲念念不忘——
+
+00:00:48.220 --> 00:00:50.610
+<v Ira Glass>Yes or no.
+<v Ira Glass>回答是或不是。
+
+00:00:50.610 --> 00:01:18.670
+<v Alex Blumberg>The short answer is yes, you have to care. It's going to affect your life in some way. It might actually even cause the global economy to collapse, in which case you'll really want to know the story. But even if that doesn't happen, it is just a fascinating tale. You hear a report on the news it's all interest rates, blah blah blah, European leaders, blah blah blah. But underneath all that there is passion, drama, soaring hopes, crushed dreams. It's all there hidden in  the news that you're hearing.
+<v Alex Blumberg>简短的回答是：是的，你必须关心。它会以某种方式影响你的生活。它甚至可能导致全球经济崩溃，那种情况下你真的会想了解这个故事。但即使那种情况没有发生，这也是一个引人入胜的故事。你在新闻中听到的报道全是利率，bla bla bla，欧洲领导人，bla bla bla。但在这所有这一切之下，隐藏着激情、戏剧性、高涨的希望、破碎的梦想。这一切都隐藏在你听到的新闻里。
+
+00:01:18.670 --> 00:01:19.600
+<v Ira Glass>Really?
+<v Ira Glass>真的吗？
+
+00:01:19.600 --> 00:01:22.210
+<v Alex Blumberg>You don't need to care. You want to care.
+<v Alex Blumberg>你不需要关心。你是想要去关心。
+
+00:01:22.210 --> 00:01:34.720
+<v Ira Glass>Well that's very good news because we have set aside the entire hour of the program today for you to tell that story. From WBEZ Chicago, it's This American Life, distributed by Public Radio International. Alex, I'm just going to hand they show over to you.
+<v Ira Glass>那真是个好消息，因为我们今天留出了整整一小时的节目时间让你来讲这个故事。这里是来自芝加哥WBEZ的《This American Life》，由公共广播国际公司 (Public Radio International) 发行。亚历克斯，我就把节目交给你了。
+
+00:01:34.720 --> 00:01:37.440
+<v Alex Blumberg>All right and I say like, from WBEZ Chicago, that thing?
+<v Alex Blumberg>好的，我说“来自芝加哥WBEZ”那部分吗？
+
+00:01:37.440 --> 00:01:39.010
+<v Ira Glass>No, I just said that. So you don't have to say that.
+<v Ira Glass>不，我刚才已经说了。所以你不用说那个。
+
+00:01:39.010 --> 00:01:39.930
+<v Alex Blumberg>So I don't have to say that?
+<v Alex Blumberg>所以我不用说那个？
+
+00:01:39.930 --> 00:01:43.760
+<v Ira Glass>So you can just proceed. Have you heard this show before?
+<v Ira Glass>所以你可以直接进行。你以前听过这个节目吗？
+
+00:01:43.760 --> 00:01:47.370
+<v Alex Blumberg>No you didn't say, today's program.
+<v Alex Blumberg>不，你没说“今天的节目”。
+
+00:01:47.370 --> 00:01:50.490
+<v Ira Glass>All right, I'll say-- you can say today's program.
+<v Ira Glass>好吧，我会说——你可以说“今天的节目”。
+
+00:01:50.490 --> 00:02:02.000
+<v Alex Blumberg>Today's program, Continental Breakup. This hour we're going to hear the surprising, dramatic story behind the crisis currently unfolding in Europe. I'm sorry. Do I say, stay with us? You say with us at some point before you go--
+<v Alex Blumberg>今天的节目，《大陆的分裂》(Continental Breakup)。这一个小时里，我们将听到目前在欧洲上演的危机背后令人惊讶、充满戏剧性的故事。对不起。我是不是该说“请继续收听”？你走之前在某个点得说“请继续收听”——
+
+00:02:02.000 --> 00:02:06.760
+<v Ira Glass>I say it right there. So say it. Say it!
+<v Ira Glass>我就在那儿说了。所以说吧。说出来！
+
+00:02:06.760 --> 00:02:15.370
+<v Alex Blumberg>Stay with us.
+<v Alex Blumberg>请继续收听。
+
+00:02:15.370 --> 00:02:46.570
+<v Alex Blumberg>Act One, Currency of Dreams. The story of the crisis in Europe is really the story of the euro, that currency that almost all the countries in Europe share. But think about that for a second. Why did they ever do that? All these different countries with all these different cultures all deciding to share a currency. Imagine if the United States, if Mexico and Canada, all agreed, hey you know what? We're going to get rid of our own money and start a new money that we'll all share. Think about all the meetings that you would have to have, all the coordination, and for what? We have our own money now. It works fine. Why would we ever do that?
+<v Alex Blumberg>第一幕，梦想的货币。欧洲危机的故事实际上是欧元的故事，那种几乎所有欧洲国家都共用的货币。但仔细想想，他们为什么要那么做？所有这些文化各异的国家竟然决定共用一种货币。试想一下，如果美国、墨西哥和加拿大都同意，“嘿，你知道吗？我们要放弃自己的钱，开始使用一种我们都共用的新货币。”想想你必须为此召开的所有会议，所有的协调，为了什么？我们现在有自己的货币。它运作良好。我们为什么要那样做？
+
+00:02:46.570 --> 00:03:13.560
+<v Alex Blumberg>Various Planet Money reporters have been making trips to Europe all year. And you're going to be hearing from them over the course of this hour. Planet Money's Chana Joffe-Walt will be telling the bulk of this story. And we're going to start at the beginning. We spent a lot of time talking to all sorts of people who were present at the creation of the euro, who dreamed and worked for years, decades, to make it happen. Planet Money's Chana Joffe-Walt and our colleague, Zoe Chace, tell the story of why they wanted it to happen and what they chose to ignore along the way.
+<v Alex Blumberg>Planet Money的各位记者整年都在往返欧洲。在这一小时里，你们将听到他们的报道。Planet Money的Chana Joffe-Walt将讲述这个故事的大部分内容。我们要从头开始讲起。我们花了很多时间与各种在欧元诞生之时就在场的人交流，他们怀揣梦想，努力多年、甚至数十年，才使其成为现实。Planet Money的Chana Joffe-Walt和我们的同事Zoe Chace将讲述他们为什么希望这成为现实，以及在这一过程中他们选择了忽略什么。
+
+00:03:13.560 --> 00:03:25.850
+<v Chana Joffe-Walt>History takes a long time to unfold in Europe. And the euro was that way. There were no euro coins or bills until 2002. But the dream of the euro had been around for 150 years.
+<v Chana Joffe-Walt>历史在欧洲展开需要很长时间。欧元也是如此。直到2002年才出现欧元的硬币或纸币。但欧元的梦想已经存在了150年。
+
+00:03:25.850 --> 00:03:31.930
+<v Zoe Chace>But that's all it was-- a dream. The territory of artists, intellectuals, poets.
+<v Zoe Chace>但这仅仅是一个梦想——艺术家、知识分子和诗人的领地。
+
+00:03:31.930 --> 00:03:37.450
+<v Chana Joffe-Walt>Yeah, Zoe read that thing from Victor Hugo, one of the very first calls for a united Europe.
+<v Chana Joffe-Walt>是的，Zoe读了维克多·雨果的那段话，这是最早呼吁建立统一欧洲的呼声之一。
+
+00:03:37.450 --> 00:03:56.010
+<v Zoe Chace>OK, Victor Hugo, Les Mis , Hunchback of Notre Dame, here's an excerpt from a speech he gave in 1871. And keep in mind the actual Europe at this time is fighting a brutal war, tearing itself to pieces. OK here it is.
+<v Zoe Chace>好的，维克多·雨果，《悲惨世界》、《巴黎圣母院》的作者，这是他1871年演讲的一段节选。请记住，当时的欧洲正在进行一场残酷的战争，把自己撕得粉碎。好了，就是这段。
+
+00:03:56.010 --> 00:04:23.850
+<v Zoe Chace>"And we shall hear France cry out, it's my turn Germany, here I am. Am I your enemy? No. I am your sister." And then he goes on to say, "Let us be the same republic, let us be the United States of Europe, let us be the continental federation. Let us be European liberty. Let us be universal peace."
+<v Zoe Chace>“我们将听到法国高呼：轮到我了，德国，我在这儿。我是你的敌人吗？不，我是你的姐妹。”然后他继续说道，“让我们成为同一个共和国，让我们成为欧洲合众国，让我们成为大陆联邦。让我们成为欧洲的自由。让我们成为普世的和平。”
+
+00:04:23.850 --> 00:04:43.510
+<v Chana Joffe-Walt>It's nice, right? I keep thinking that the euro for all these years is kind of like Esperanto. You remember Esperanto, the international language? It'd be really easy to learn. We'd all pick it up and speak one tongue across borders and then there'd be international peace and understanding. The dream of the euro was kind of like that.
+<v Chana Joffe-Walt>很美好，对吧？我一直认为欧元这么多年来就像世界语 (Esperanto) 一样。还记得世界语吗，那门国际语言？它本来应该很容易学。我们都会学会并跨越国界说同一种语言，然后就会有国际和平与理解。欧元的梦想有点像那样。
+
+00:04:43.510 --> 00:04:55.950
+<v Zoe Chace>But let me ask you, do you speak Esperanto today? No. Do nearly 332 million people carry euros in their pockets? Yes. So what happened?
+<v Zoe Chace>但请问，你今天说世界语吗？不。近3.32亿人口袋里装着欧元吗？是的。那么发生了什么？
+
+00:04:55.950 --> 00:05:01.240
+<v Pascal Lamy>World War II was such a catastrophe.
+<v Pascal Lamy>第二次世界大战是一场巨大的灾难。
+
+00:05:01.240 --> 00:05:19.750
+<v Chana Joffe-Walt>This is Pascale Lamy, the right-hand man to the father of the euro, Jacques Delors. Delors is old now. He's too old to give interviews. But Lamy was there at the key turning point when the euro stopped being a quixotic dream and started looking like a real necessity.
+<v Chana Joffe-Walt>这位是帕斯卡尔·拉米 (Pascale Lamy)，欧元之父雅克·德洛尔 (Jacques Delors) 的得力助手。德洛尔现在老了，他太老了，无法接受采访。但拉米在欧元从一个堂吉诃德式的梦想转变为一个真正必要的东西的关键转折点上在场。
+
+00:05:19.750 --> 00:05:33.860
+<v Pascal Lamy>It's just after the Second World War that the notion of integrating Europe politically became a serious political idea. Before that it had been dreams.
+<v Pascal Lamy>正是在第二次世界大战之后，将欧洲在政治上整合起来的想法才成为一个严肃的政治构想。在此之前，那只是梦想。
+
+00:05:33.860 --> 00:05:49.090
+<v Chana Joffe-Walt>But after World War II it was being talked about in two of Europe's most powerful nations-- in France by people like Lamy-- he went on to head the World Trade Organization. And in Germany by people like Helmut Schlesinger, former president of the German Central Bank.
+<v Chana Joffe-Walt>但在二战之后，它开始在两个欧洲最强大的国家被讨论——在法国，由像拉米这样的人讨论——他后来担任了世界贸易组织 (WTO) 的负责人。在德国，则由像赫尔穆特·施莱辛格 (Helmut Schlesinger) 这样的人讨论，他是德国央行的前行长。
+
+00:05:49.090 --> 00:06:05.470
+<v Helmut Schlesinger>One cannot forget that the whole strength of having a European Union is based on the fact that we never want to have war between our countries, which we have had so much and so terrible.
+<v Helmut Schlesinger>不能忘记，拥有欧盟的全部力量基础在于我们从不希望国家之间发生战争，我们经历过太多可怕的战争。
+
+00:06:05.470 --> 00:06:15.930
+<v Chana Joffe-Walt>Germany no longer wanted to dominate Europe. It wanted the opposite, actually. It wanted to be a team player, a peacemaker. Germany wanted to be the nicest guy at the European table.
+<v Chana Joffe-Walt>德国不再想主宰欧洲。实际上，它想要相反的结果。它想成为一个团队合作者，一个和平缔造者。德国想成为欧洲餐桌上最友善的人。
+
+00:06:15.930 --> 00:06:30.020
+<v Zoe Chace>Of course, France didn't want Germany to dominate either. Germany would always be bigger, more powerful. So France wanted to link its economy to the German economy. That way Germany's strength would be France's strength.
+<v Zoe Chace>当然，法国也不希望德国主宰。德国总是会更大、更强大。所以法国想把自己的经济与德国经济挂钩。那样德国的力量就会成为法国的力量。
+
+00:06:30.020 --> 00:06:48.430
+<v Chana Joffe-Walt>And also, a united Europe would be big enough and rich enough to become the world's other superpower and rival the United States, which both countries liked. All this was making a once-poetic dream much more appealing.
+<v Chana Joffe-Walt>而且，一个统一的欧洲将足够大、足够富有，从而成为世界上另一个超级大国，与美国分庭抗礼，这正是两国所喜欢的。这一切使得一个曾经诗意的梦想变得更具吸引力。
+
+00:06:48.430 --> 00:07:00.340
+<v Zoe Chace>But of course there were problems. Two main problems-- one German, one French. For the Germans, the whole sharing a currency thing made them very nervous. They worried it would lead to inflation.
+<v Zoe Chace>但当然也有问题。两个主要问题——一个关于德国，一个关于法国。对于德国人来说，共用一种货币的事情让他们非常紧张。他们担心这会导致通货膨胀。
+
+00:07:00.340 --> 00:07:22.720
+<v Chana Joffe-Walt>And Germans are really scared of inflation. It calls up a bad memory-- the hyperinflation of the 1920s, the worst bout of hyperinflation in recent history. You may have heard about Germans carting their money around in wheelbarrows or using worthless German Marks to wallpaper their homes. Many people in Germany feel like it was this experience that opened the door for the Nazis to come to power.
+<v Chana Joffe-Walt>德国人真的很害怕通货膨胀。它唤起了一种糟糕的记忆——1920年代的恶性通货膨胀，近代史上最严重的恶性通货膨胀。你可能听说过德国人用手推车装钱，或者用毫无价值的德国马克当作墙纸贴在家里。德国的许多人觉得正是这段经历为纳粹掌权打开了大门。
+
+00:07:22.720 --> 00:07:37.130
+<v Zoe Chace>I was reporting on the euro crisis in Berlin a couple months ago, and it shocked me how readily Germans would bring up the hyperinflation of the '20s when talking about their problems today. Klaus Frankenberger is an editor at the German newspaper, the FAZ .
+<v Zoe Chace>几个月前我在柏林报道欧元危机，德国人在谈论当今的问题时如此轻易地提起20年代的恶性通货膨胀，这让我感到震惊。克劳斯·弗兰肯伯格 (Klaus Frankenberger) 是德国《法兰克福汇报》(FAZ) 的编辑。
+
+00:07:37.130 --> 00:07:52.020
+<v Klaus Frankenberger>I mean Germany is always stability minded as you know. Order, stability, that's part of our collective DNA I would say. But these historical experience tell every policy maker, you don't mess around with inflation. Never. You don't do this.
+<v Klaus Frankenberger>我的意思是，如你所知，德国总是具有稳定性思维。秩序、稳定，我想那是我们集体DNA的一部分。但这些历史经验告诉每一位决策者：不要拿通货膨胀开玩笑。永远不要。你不能那样做。
+
+00:07:52.020 --> 00:08:19.780
+<v Zoe Chace>So Germany's position in the decades-long conversation that led to the euro was this-- if Europe wants to have a single currency, then we can't have all these separate governments out there. We need to become what Victor Hugo dreamed of, a United States of Europe. But the Germans wanted this, not for poetry, but to keep inflation in check. They wanted an overarching authority that can say to individual countries, here is how to run your economy.
+<v Zoe Chace>所以德国在导致欧元的数十年对话中的立场是——如果欧洲想拥有一种单一货币，那么我们不能各自为政。我们需要成为维克多·雨果梦寐以求的“欧洲合众国”。但德国人想要这个不是为了诗意，而是为了控制通货膨胀。他们需要一个至高无上的权威，能够对各个国家说：这是经营你们经济的方式。
+
+00:08:19.780 --> 00:08:30.050
+<v Chana Joffe-Walt>Can you imagine France no longer its own country but a member state in a united federation of Europe? Yeah, the French couldn't either. Again, here's Pascal Lamy.
+<v Chana Joffe-Walt>你能想象法国不再是一个独立的国家，而是一个统一的欧洲联邦中的成员国吗？是的，法国人也无法想象。再次请出帕斯卡尔·拉米。
+
+00:08:30.050 --> 00:08:52.350
+<v Pascal Lamy>The French like Europe if Europe is a big France. That is something that they drive, something that doesn't bite too much into the French sovereignty. It took 30 years of discussion.
+<v Pascal Lamy>法国人喜欢欧洲，如果欧洲是一个巨大的法国的话。那是他们推动的东西，是一个不会过多侵蚀法国主权的东西。这花了30年的时间来讨论。
+
+00:08:52.350 --> 00:09:02.680
+<v Chana Joffe-Walt>So for 30 years the French and the German were saying to each other, the Germans were saying, well what about our Deutsche Mark and the French were saying, well what about our national identity?
+<v Chana Joffe-Walt>所以在30年的时间里，法国人和德国人在互相对话，德国人说，那么我们的德国马克怎么办？法国人说，那么我们的民族认同怎么办？
+
+00:09:02.680 --> 00:09:14.430
+<v Pascal Lamy>They were not always saying this. Because diplomats and governments don't always say what they have in mind. But that's what they had in mind.
+<v Pascal Lamy>他们并不总是这样直说。因为外交官和政府并不总是说出他们的真实想法。但那正是他们的想法。
+
+00:09:14.430 --> 00:09:20.590
+<v Zoe Chace>And it could have gone on like this, haggling back and forth over these issues, until this happened--
+<v Zoe Chace>事情本来可能会这样继续下去，在这些问题上争来吵去，直到发生了这件事——
+
+00:09:20.590 --> 00:09:31.570
+<v Male News Reporter>From the Berlin Wall, take a look at them. They've been there since last night. They are here in the thousands. They are here in the 10s of thousands. Occasionally they shout, "Die Mauer muss weg," the wall must go.
+<v Male News Reporter>看看柏林墙那边。他们从昨晚就在那儿了。他们成千上万地来到这里。他们数以万计。他们偶尔喊着：“墙必须倒下！”
+
+00:09:31.570 --> 00:09:56.220
+<v Chana Joffe-Walt>In 1989 the wall separating East and West Germany was about to fall, and the Germans wanted French support for their reunification. The rest of Europe was still a bit wary of Germany. When you plunge the world into one of the bloodiest wars in history it's kind of hard to live that down. And here, Germany was about to grow even larger. So France said, OK, you can have our support if we all go on the euro.
+<v Chana Joffe-Walt>1989年，分隔东西德的柏林墙即将倒塌，德国人希望法国支持他们的统一。欧洲其他国家对德国仍有一点警惕。当你把世界拖入历史上最血腥的战争之一时，想要洗掉这一污点是很难的。而在这里，德国即将变得更大。所以法国说，好吧，如果我们都加入欧元，你们就可以得到我们的支持。
+
+00:09:56.220 --> 00:10:03.300
+<v Zoe Chace>And the French got their way. There would be a common currency but no United States of Europe, as the Germans wanted.
+<v Zoe Chace>法国人得偿所愿。将会有一种共同货币，但没有像德国人想要的那样建立“欧洲合众国”。
+
+00:10:03.300 --> 00:10:25.900
+<v Chana Joffe-Walt>What the Germans got were promises, promises that all the countries that used the same money would play by German rules. They would guard against inflation. If a country wanted in on this common currency, the euro, they would have to borrow responsibly, be careful about their deficits. In other words, to use the euro, the rest of Europe would need to make itself more German.
+<v Chana Joffe-Walt>德国人得到的是承诺，即所有使用相同货币的国家都将遵守德国的规则。他们会防范通货膨胀。如果一个国家想加入这种共同货币——欧元，他们就必须负责任地借贷，小心对待自己的赤字。换句话说，要使用欧元，欧洲的其他国家需要让自己变得更“德国化”。
+
+00:10:25.900 --> 00:10:38.840
+<v Chana Joffe-Walt>The rest of Europe seemed very happy to do just that, even if for many countries in Europe, becoming more German was a completely unrealistic dream. Nowhere more unrealistic than in Greece.
+<v Chana Joffe-Walt>欧洲其他国家似乎非常乐于那样做，即使对于欧洲的许多国家来说，变得更德国化是一个完全不切实际的梦想。没有任何地方比希腊更不切实际了。
+
+00:10:38.840 --> 00:10:45.250
+<v Loukas Tsoukalis>Our inflation rate was much higher than what was accepted, our budget deficit was much higher than what was accepted.
+<v Loukas Tsoukalis>我们的通货膨胀率远高于被接受的水平，我们的预算赤字也远高于被接受的水平。
+
+00:10:45.250 --> 00:10:50.680
+<v Zoe Chace>This is Loukas Tsoukalis with the Hellenic Foundation for European and Foreign Policy in Athens.
+<v Zoe Chace>这位是卢卡斯·楚卡利斯 (Loukas Tsoukalis)，来自雅典的希腊欧洲与外交政策基金会。
+
+00:10:50.680 --> 00:11:18.140
+<v Loukas Tsoukalis>If you asked somebody in Europe whether Greece would join in the Eurozone, and you asked that question let's say, in early, mid-1990s, the answer would have been, you are mad. Because all Greek indicators were far off. No chance in your lifetime.
+<v Loukas Tsoukalis>如果你问欧洲的某个人希腊是否会加入欧元区，假设是在90年代初或中期问这个问题，答案会是：你疯了吗？因为所有希腊的指标都差得很远。你这辈子都没机会。
+
+00:11:18.140 --> 00:11:46.580
+<v Loukas Tsoukalis>When the European Statistical service produced graphs which showed all the different countries in terms of inflation rates, in terms of interest rates, very often Greece appeared in an insert because it couldn't fit in the graph. Because if your inflation rate is 20, it doesn't fit in a normal graph. So you either have a big graph but it doesn't show anything or you have a reasonable graph and then you have inserts.
+<v Loukas Tsoukalis>当欧洲统计局制作出显示不同国家通胀率和利率的图表时，希腊经常出现在插图中，因为它根本放不进主图表。因为如果你的通胀率是20，它在普通图表中就放不下。所以你要么有一个大图表但什么也看不清，要么有一个合理的图表，然后用插图补充。
+
+00:11:46.580 --> 00:11:47.530
+<v Chana Joffe-Walt>Greece is over here?
+<v Chana Joffe-Walt>希腊在图表外？
+
+00:11:47.530 --> 00:11:56.200
+<v Loukas Tsoukalis>Yeah, but Greece was not the only country, but it was one of the worst, and usually the worst.
+<v Loukas Tsoukalis>是的，但希腊不是唯一一个国家，但它是最糟糕的之一，通常就是最糟糕的。
+
+00:11:56.200 --> 00:12:02.030
+<v Chana Joffe-Walt>Still, Greece began a national campaign to make it in. And other countries were doing the same.
+<v Chana Joffe-Walt>尽管如此，希腊还是开启了一场国家运动，试图成功加入。其他国家也在做同样的事情。
+
+00:12:02.030 --> 00:12:22.070
+<v Zoe Chace>Willingly, even if it means pain. For instance, Italy. Their deficit was too high so the Italian prime minister at the time, Romano Prodi, said we need a new tax to cut it down. If we want into the euro we have to pay. Beppe Severgnini the Italian journalist, who was there at the time. And he talked to our colleague, Alex Blumberg.
+<v Zoe Chace>心甘情愿，即使这意味着痛苦。例如，意大利。他们的赤字太高了，所以当时的意大利总理罗马诺·普罗迪 (Romano Prodi) 说，我们需要一种新税来削减赤字。如果我们想加入欧元，我们就得付钱。贝佩·塞维尼尼 (Beppe Severgnini)，那位意大利记者，当时就在现场。他接受了我们同事亚历克斯·布伦伯格的采访。
+
+00:12:22.070 --> 00:12:41.350
+<v Beppe Severgnini>The mood was so enthusiastic that when Romano Prodi proposed a tax in order to sort out our public finances people-- would you believe that-- sort of put up the money. And didn't-- not only didn't moan-- they said, well that's something we have to do. We'll do it. And it was a kind of hefty tax. I remember that.
+<v Beppe Severgnini>当时的气氛非常热情，以至于当罗马诺·普罗迪提出征税以清理公共财政时，人们——你会相信吗——都愿意掏钱。而且不仅没有抱怨，他们还说：好吧，那是我们必须做的事。我们会做的。那是一笔相当沉重的税。我记得。
+
+00:12:41.350 --> 00:12:50.530
+<v Alex Blumberg>And what was the dream? What were they paying for? In the minds of the average Italian, what did it represent, being part of the euro?
+<v Alex Blumberg>梦想是什么？他们为之付出的是什么？在普通意大利人的心目中，成为欧元区的一部分代表了什么？
+
+00:12:50.530 --> 00:13:20.080
+<v Beppe Severgnini>Well, to be in this sort premiere league of Europe, number one. Second, to have a stable currency, to be anchored the Deutsche Mark because it was obvious at the time-- and it still is obvious now-- that the engine for this all was Germany. So to have the same currency as Germany is good for everybody. So we want to be in that league and not in this sort of other league with weak local currencies.
+<v Beppe Severgnini>好吧，首先，成为这种欧洲顶级联赛的一部分。第二，拥有稳定的货币，锚定德国马克，因为当时很明显——现在依然很明显——这一切的引擎是德国。所以拥有和德国一样的货币对每个人都有好处。所以我们想进入那个联赛，而不是留在这种拥有疲软地方货币的其他联赛。
+
+00:13:20.080 --> 00:13:29.280
+<v Zoe Chace>For Greece and Italy and Portugal and even for France, the euro meant a more stable, more prosperous, more German existence.
+<v Zoe Chace>对于希腊、意大利、葡萄牙，甚至对于法国来说，欧元意味着一种更稳定、更繁荣、更德国化的存在。
+
+00:13:29.280 --> 00:13:38.020
+<v Chana Joffe-Walt>And so in the years leading up to the euro, countries cut spending, reduced deficits. The numbers started to look, at least on paper, a lot more German.
+<v Chana Joffe-Walt>因此，在欧元推出前的几年里，各国削减支出，减少赤字。这些数字开始看起来，至少在纸面上，变得更加“德国化”了。
+
+00:13:38.020 --> 00:13:42.110
+<v Zoe Chace>So much so that in some cases it was a little hard to believe.
+<v Zoe Chace>以至于在某些情况下，让人有点难以置信。
+
+00:13:42.110 --> 00:13:43.420
+<v Chana Joffe-Walt>Cases like Greece.
+<v Chana Joffe-Walt>像希腊这样的情况。
+
+00:13:43.420 --> 00:14:00.000
+<v Zoe Chace>In the late '90s all across Europe, finance ministers and their deputies would meet. They'd gather around tables in Brussels and Paris and Berlin with their rules in hand. And the Greeks were there reporting their data that they'd made it. They'd met the criteria for euro membership.
+<v Zoe Chace>90年代末，整个欧洲的财政部长及其副手们都会开会。他们带着规则手册聚集在布鲁塞尔、巴黎和柏林的餐桌旁。希腊人也在那里报告他们的数据，说他们已经达标了。他们满足了欧元成员国的标准。
+
+00:14:00.000 --> 00:14:25.850
+<v Chana Joffe-Walt>According to several people in these meetings, typically here is how it would go-- The Germans or the French would say, we have these rules. Every country has to meet the criteria. Yes, we do, the Greeks would respond. There would be glances around the table. It sure is a good thing we have these rules, someone would say. More glances. Jacob Kirkegaard is at with the Peterson Institute for International Economics and he followed these meetings closely.
+<v Chana Joffe-Walt>据几位参加这些会议的人说，通常情况是这样的：德国人或法国人会说，我们有这些规则。每个国家都必须达到标准。是的，我们做到了，希腊人会回答。桌子周围会有各种眼神交流。有人会说，幸好我们有这些规则。更多眼神交流。雅各布·基尔克加德 (Jacob Kirkegaard) 在彼得森国际经济研究所工作，他密切关注这些会议。
+
+00:14:25.850 --> 00:14:41.500
+<v Jacob Kirkegaard>The leaders of France and Germany and others couldn't really stand up and say, look our data are superior. You are lying, basically, about these data. And that's why we will not let you join the euro.
+<v Jacob Kirkegaard>法国、德国和其他国家的领导人不能真正站出来说，看，我们的数据比你们好。基本上，你们在数据上撒谎。这就是为什么我们不会让你们加入欧元。
+
+00:14:41.500 --> 00:14:47.370
+<v Pascal Lamy>We all knew and we all know now and we all knew at the time that Greece was fudging its statistics.
+<v Pascal Lamy>我们都知道，我们现在也都知道，当时大家也都知道希腊在伪造统计数据。
+
+00:14:47.370 --> 00:14:58.190
+<v Chana Joffe-Walt>Pascal Lamy, right-hand man to the father of the euro, says it wasn't just the Greeks. People had questions about the Italians, other countries, too. But nobody actually said that.
+<v Chana Joffe-Walt>欧元之父的得力助手帕斯卡尔·拉米说，不仅仅是希腊人。人们对意大利人和其他国家也有疑问。但没有人真正说出来。
+
+00:14:58.190 --> 00:15:08.790
+<v Pascal Lamy>Because that would have been too un-nice to some of their colleagues in the country. There remains a level of diplomatic correctness and politeness.
+<v Pascal Lamy>因为那对他们的一些同事来说太不友好了。外交层面的得体和礼貌依然存在。
+
+00:15:08.790 --> 00:15:14.290
+<v Chana Joffe-Walt>So nobody challenged the Greeks because they were trying to be polite?
+<v Chana Joffe-Walt>所以没有人挑战希腊人，因为他们试图保持礼貌？
+
+00:15:14.290 --> 00:15:15.580
+<v Pascal Lamy>Exactly it.
+<v Pascal Lamy>正是如此。
+
+00:15:15.580 --> 00:15:26.210
+<v Chana Joffe-Walt>That's so crazy. It just sounds so crazy now. I mean, I understand at the time that might have made sense, but it sounds crazy now.
+<v Chana Joffe-Walt>这太疯狂了。现在听起来真的很疯狂。我的意思是，我明白当时那样做可能是有道理的，但现在听起来很疯狂。
+
+00:15:26.210 --> 00:15:48.190
+<v Pascal Lamy>Quite. That's the definition. You just gave a very good definition of a mistake. Something you believe is not a problem and then you realize, whooo, I shouldn't have done that.
+<v Pascal Lamy>完全正确。那就是定义。你刚刚对错误给出了一个很好的定义。你认为不是问题的事情，然后你意识到：呜，我不应该那样做。
+
+00:15:48.190 --> 00:16:02.610
+<v Zoe Chace>There was one other thing keeping all these countries around the table from voicing their objections-- money. Remember the poorer countries in Europe wanted the benefit of a strong, stable German currency. And Germany wanted customers.
+<v Zoe Chace>当时桌旁的所有国家之所以没有提出异议，还有一件事——金钱。记住，欧洲较贫穷的国家想要拥有强劲、稳定的德国货币带来的好处。而德国想要客户。
+
+00:16:02.610 --> 00:16:21.050
+<v Chana Joffe-Walt>Germany makes cars, appliances, high-tech precision machines, lots of stuff. And hundreds of millions of Europeans with the same currency, a strong currency, meant hundreds of millions of customers that just got a lot richer. The more regular people in Greece who could buy a Mercedes, the better for Germany.
+<v Chana Joffe-Walt>德国制造汽车、电器、高科技精密机器，还有很多东西。而拥有相同货币——一种强势货币——的数亿欧洲人，意味着数亿刚刚变得富裕得多的客户。希腊有越多的普通人能买得起奔驰，这对德国就越好。
+
+00:16:21.050 --> 00:16:37.590
+<v Zoe Chace>It would be better for everyone. Together, the feeling was, they'd all be more prosperous than they would be on their own. And so, a new currency was born.
+<v Zoe Chace>这对每个人都更好。人们感觉，他们在一起会比各自独立时更加繁荣。于是，一种新货币诞生了。
+
+00:16:37.590 --> 00:16:52.880
+<v Alex Blumberg>This brings us to Act Two, Eurotopia. On January 1, 2002, the euro arrived. The culmination of a 150-year-old dream. The most ambitious financial and political change since money began. Or as the BBC put it--
+<v Alex Blumberg>这把我们带到了第二幕，欧元乌托邦 (Eurotopia)。2002年1月1日，欧元到来了。一个150年梦想的终结。自货币出现以来最雄心勃勃的金融和政治变革。或者正如BBC所言——
+
+00:16:52.880 --> 00:16:57.460
+<v Male News Reporter>The most ambitious financial and political change since money began.
+<v Male News Reporter>自货币出现以来最雄心勃勃的金融和政治变革。
+
+00:16:57.460 --> 00:17:13.870
+<v Alex Blumberg>This is a BBC report from January 1, 2002, when, for the first time in modern history, a huge chunk of the continent of Europe would be using a single currency. You definitely get the sense that, for most Europeans, when they finally got the euro, it felt like something to celebrate.
+<v Alex Blumberg>这是一篇BBC 2002年1月1日的报道，当时欧洲大陆的一大部分人首次在现代史上使用单一货币。你绝对能感觉到，对于大多数欧洲人来说，当他们最终拥有欧元时，感觉像是一件值得庆祝的事情。
+
+00:17:13.870 --> 00:17:20.630
+<v Male News Reporter>Midnight in Brussels, the moment a new currency was truly born. Plenty were out to celebrate its arrival.
+<v Male News Reporter>布鲁塞尔的午夜，一种新货币真正诞生的时刻。许多人走上街头庆祝它的到来。
+
+00:17:20.630 --> 00:17:26.090
+<v Female>I think that it brings the countries-- the euro brings them closer together.
+<v Female>我认为它让各国——欧元让它们联系得更紧密。
+
+00:17:26.090 --> 00:17:31.570
+<v Female>I think at the beginning there were many problems. But of course I think it's a good thing.
+<v Female>我想一开始有很多问题。但当然，我认为这是一件好事。
+
+00:17:31.570 --> 00:17:41.850
+<v Male>Tomorrow in Holland, we're going to use money we picked up in Belgium today. And then we'll be in France again the day after, and again it'll be the same money. It's magic. It's just got to be the way to go.
+<v Male>明天在荷兰，我们将使用今天在比利时拿到的钱。然后后天我们又会在法国，钱还是一样的。这真是神奇。这一定是未来的方向。
+
+00:17:41.850 --> 00:17:56.370
+<v Alex Blumberg>People in the US, if we remember the debut of the euro at all, it's with this, oh yeah, that happened, sort of feeling. It's hard to understand what the excitement was all about. But as Chana Joffe-Walt explains, in large parts of Europe the euro didn't just change the money, it transformed the way people lived.
+<v Alex Blumberg>在美国，如果我们还记得欧元刚推出时的情况，那种感觉就像是“哦，是的，那是发生过”。很难理解那时的兴奋究竟是为了什么。但正如Chana Joffe-Walt所解释的那样，在欧洲的很大一部分地区，欧元不仅改变了金钱，还改变了人们的生活方式。
+
+00:17:56.370 --> 00:18:13.260
+<v Chana Joffe-Walt>A few months before the euro arrived in Greece, Theophilus Papakostakus was called into a meeting. Theophilus is a bank teller. And this wasn't unusual. The manager was often calling meetings, usually to talk about the overtime policy or some new paperwork requirements, but this was different.
+<v Chana Joffe-Walt>在欧元到达希腊前几个月，银行柜员西奥菲勒斯·帕帕科斯塔库斯 (Theophilus Papakostakus) 被叫去开会。这并不罕见。经理经常召集会议，通常是讨论加班政策或某些新的文书要求，但这次不同。
+
+00:18:13.260 --> 00:18:50.220
+<v Theophilus Papakostakus>So one day after work he got us together and, among other things, he said, you should forget what you know. Soon enough you'll forget everything you know about banking. Everything is going to be all new. Soon it's going to be like a supermarket. People will come in and buy all kind of different things. Banking is not going to be only deposit, saving money. It's going to be retail. I specifically remember that expression, retail banking.
+<v Theophilus Papakostakus>所以有一天下班后，他把我们召集在一起，除其他事项外，他说：“你们应该忘掉你们所知道的一切。很快你们就会忘掉关于银行业的一切知识。一切都将焕然一新。很快它会像超市一样。人们会进来购买各种不同的东西。银行业将不仅仅是存款、存钱。它将是零售业。”我特别记得“零售银行业”这个词。
+
+00:18:50.220 --> 00:18:51.690
+<v Chana Joffe-Walt>And when he said that, what did you think?
+<v Chana Joffe-Walt>当他说那番话时，你是怎么想的？
+
+00:18:51.690 --> 00:18:57.740
+<v Theophilus Papakostakus>Well, we laughed. I said, yeah, sure. I'm sure, yeah. Well, it did happen.
+<v Theophilus Papakostakus>嗯，我们笑了。我说，是的，当然。我确信，是的。好吧，它确实发生了。
+
+00:18:57.740 --> 00:19:19.880
+<v Chana Joffe-Walt>Every morning after that, Theophilus would come into work, turn on his computer, and the interest rate on consumer loans would be lower. 18% then 15%, 12%, 6%, 4%. Now the reasons why this was happening, we'll get to in a minute. I first just want to talk about the sheer fact that it was happening and what that fact meant.
+<v Chana Joffe-Walt>在那之后的每天早上，西奥菲勒斯来到工作岗位，打开电脑，消费贷款的利率都会降低。18%，然后15%，12%，6%，4%。现在，造成这种情况的原因，我们稍后再谈。我首先只想谈谈它正在发生的事实本身，以及这一事实意味着什么。
+
+00:19:19.880 --> 00:19:49.770
+<v Chana Joffe-Walt>Imagine if your mortgage rate went from 18% to 4%. Or the rate that you could get on a car loan. Most people in Greece never borrowed money to pay for anything before, and now they had people essentially throwing money at them. Theophilus bought two cars. His neighbors bought a vacation home. The neighbors on the other side of the street took out a loan for their vacation and then refinanced that loan. Really, everyone I met in Greece has a story like this. My cab driver, Adonis Barkolis, in Athens.
+<v Chana Joffe-Walt>想象一下，如果你的抵押贷款利率从18%降至4%。或者汽车贷款的利率。大多数希腊人以前从来不借钱买任何东西，而现在有人基本上是在向他们撒钱。西奥菲勒斯买了辆车，两辆。他的邻居买了度假屋。街对面的邻居贷款去度假，然后又对那笔贷款进行了再融资。真的，我在希腊遇到的每个人都有这样的故事。在雅典的出租车司机阿多尼斯·巴科利斯 (Adonis Barkolis)。
+
+00:19:49.770 --> 00:19:55.140
+<v Adonis Barkolis>I used to own a Toyota, and in 2004 I bought  this.
+<v Adonis Barkolis>我以前有一辆丰田，2004年我买了这辆。
+
+00:19:55.140 --> 00:19:56.460
+<v Chana Joffe-Walt>What's this?
+<v Chana Joffe-Walt>这是什么？
+
+00:19:56.460 --> 00:19:59.480
+<v Adonis Barkolis>A Mercedes.
+<v Adonis Barkolis>一辆奔驰。
+
+00:19:59.480 --> 00:20:09.540
+<v Chana Joffe-Walt>A black Mercedes. The bar that I went to used to have just two restaurants. In 2003 it became an industrial brewery, too.
+<v Chana Joffe-Walt>一辆黑色奔驰。我去的那个酒吧以前只有两家餐馆。2003年，它也变成了一家工业啤酒厂。
+
+00:20:09.540 --> 00:20:31.330
+<v Restaurant Owner>Well for us, this is fantastic. 2002, when we started the building our industrial brewery, in total we have invested about 7 million euro, which is close to $10 million, which is a big amount of money for our company. And this is when we get out of the banks and the interest is very good. We were able to borrow money at 4.5%, which is excellent.
+<v Restaurant Owner>嗯，对我们来说，这太棒了。2002年，当我们开始建设我们的工业啤酒厂时，总共投资了约700万欧元，接近1000万美元，这对我们公司来说是一笔巨款。而这正是我们从银行贷款的时候，利息非常好。我们能够以4.5%的利率借到钱，这太出色了。
+
+00:20:31.330 --> 00:20:48.990
+<v Zoe Chace>And it wasn't just private citizens taking advantage of the low rates. Loukas Tsoukalis at the Hellenic Foundation says most importantly the Greek government got in on the action. Mainly by returning to a favorite practice of Greek politicians, addressing unemployment by hiring people.
+<v Zoe Chace>而且不仅仅是私人公民在利用低利率。雅典希腊欧洲与外交政策基金会的卢卡斯·楚卡利斯说，最重要的是希腊政府也加入了进来。主要做法是回归希腊政客最喜欢的做法：通过雇人来解决失业问题。
+
+00:20:48.990 --> 00:20:57.850
+<v Loukas Tsoukalis>In the last two years they employed a large number of people in the Greek public sector. So they added to the salary bill.
+<v Loukas Tsoukalis>在过去两年里，他们在希腊公共部门雇佣了大量人员。所以他们增加了工资开支。
+
+00:20:57.850 --> 00:21:00.960
+<v Chana Joffe-Walt>Doing what? Being fireman and police?
+<v Chana Joffe-Walt>做什么？当消防员和警察？
+
+00:21:00.960 --> 00:21:03.810
+<v Loukas Tsoukalis>Yes. Or you create mythical jobs.
+<v Loukas Tsoukalis>是的。或者你创造一些虚构的职位。
+
+00:21:03.810 --> 00:21:07.080
+<v Chana Joffe-Walt>What's the craziest thing you remember hearing of?
+<v Chana Joffe-Walt>你记得听过的最疯狂的事情是什么？
+
+00:21:07.080 --> 00:21:33.550
+<v Loukas Tsoukalis>I think there's, for example, an organization which was set up for the drying up of a lake. I think the lake has been dried up for the last 30 years, but the organization is still there. So there are a few employees who are paid for something that is not even remembered in a history book.
+<v Loukas Tsoukalis>我想，例如有一个组织是为干涸一个湖泊而设立的。我想这个湖过去30年里一直是干涸的，但那个组织仍然存在。所以有几个员工拿着工资做着连历史书上都记不住的事情。
+
+00:21:33.550 --> 00:21:51.840
+<v Chana Joffe-Walt>The euro had arrived. And cheap money was flowing into countries all over Europe-- Ireland, Portugal, Spain. There was money for projects which never would have gotten funded before. Luis Garicano is a Spanish economist and he told me about this tiny little bank that funded a big project in La Mancha, Spain.
+<v Chana Joffe-Walt>欧元到了。廉价资金流向欧洲各地——爱尔兰、葡萄牙、西班牙。有钱用于那些以前永远不可能获得资助的项目。路易斯·加里卡诺 (Luis Garicano) 是一位西班牙经济学家，他告诉了我关于一家小银行资助西班牙拉曼恰 (La Mancha) 一个大项目的事。
+
+00:21:51.840 --> 00:22:06.310
+<v Luis Garicano>Your listeners will know La Mancha as the area where Don Quixote lived. And it's as empty as it was in the time of Don Quixote. It's a big plain. Imagine it as completely empty. And in the middle of that plane there is an airport, to which nobody wants to fly.
+<v Luis Garicano>你们的听众会知道拉曼恰是堂吉诃德居住的地方。它和堂吉诃德时代一样空旷。那是一大片平原。想象一下它是完全空旷的。而在那片平原的中间，有一座没有人想飞到的机场。
+
+00:22:06.310 --> 00:22:08.570
+<v Chana Joffe-Walt>Is that airport open now?
+<v Chana Joffe-Walt>那个机场现在开放吗？
+
+00:22:08.570 --> 00:22:17.620
+<v Luis Garicano>It's a potato field. I mean, it's really only suitable for growing potatoes. That terrain is really never going to be a commercial airport.
+<v Luis Garicano>它是一片土豆田。我的意思是，它真的只适合种土豆。那块地永远不可能成为一个商业机场。
+
+00:22:17.620 --> 00:22:28.060
+<v Chana Joffe-Walt>And yet, there is an airport. The local people wanted one, and the euro gave it to them.
+<v Chana Joffe-Walt>然而，那里却有一座机场。当地人想要一个，欧元就给了他们。
+
+00:22:28.060 --> 00:22:31.260
+<v Claudia Farmier>It was like the manna from heaven.
+<v Claudia Farmier>那就像天降的甘露。
+
+00:22:31.260 --> 00:22:50.460
+<v Chana Joffe-Walt>This is Claudia Farmier back in Greece. I met her at a brunch up north, actually at the bank teller's house, Theophilus. Remember the guy was called into the meeting, pre-euro? He invited me to his house. And there, nearly a decade after the euro had arrived, his friends are sitting around just reviewing how everything did really change.
+<v Chana Joffe-Walt>这位是又回到希腊的克劳迪娅·法米尔 (Claudia Farmier)。我是在北方的一个早午餐会上遇见她的，实际上是在那个银行柜员西奥菲勒斯家里。还记得欧元到来前被叫去开会的那个人吗？他邀请我到他家。在那里，在欧元到来近十年后，他的朋友们正坐在一起回顾一切是如何真正改变的。
+
+00:22:50.460 --> 00:22:59.620
+<v Theophilus Papakostakus>One day everybody thinks, this is paradise, let's go get everything. That's what happened.
+<v Theophilus Papakostakus>有一天每个人都想，这是天堂，让我们去买所有东西。这就是发生的事情。
+
+00:22:59.620 --> 00:23:11.840
+<v Chana Joffe-Walt>But why now? But why, one year do you not have any money to buy cars and vacations and homes and then the next year you have everything you could possibly want?
+<v Chana Joffe-Walt>但为什么是现在？为什么，一年你还没钱买车、度假和房子，而下一年你就有了一切你可能想要的东西？
+
+00:23:11.840 --> 00:23:16.810
+<v Claudia Farmier>Maybe he knows. He was working in the bank. I don't know where the money comes from.
+<v Claudia Farmier>也许他知道。他在银行工作。我不知道钱从哪里来的。
+
+00:23:16.810 --> 00:23:18.100
+<v Chana Joffe-Walt>Do you know?
+<v Chana Joffe-Walt>你知道吗？
+
+00:23:18.100 --> 00:23:24.540
+<v Theophilus Papakostakus>Ehhh-- from, I don't know. I don't know.
+<v Theophilus Papakostakus>呃——从，我不知道。我不知道。
+
+00:23:24.540 --> 00:23:25.490
+<v Adam Davidson>Hey, Chana?
+<v Adam Davidson>嘿，Chana？
+
+00:23:25.490 --> 00:23:28.880
+<v Chana Joffe-Walt>So this is Adam Davidson with Planet Money .
+<v Chana Joffe-Walt>这是Planet Money的亚当·戴维森 (Adam Davidson)。
+
+00:23:28.880 --> 00:24:00.530
+<v Adam Davidson>I think I can help you. Because I actually do know who lent all that money to Greece and all the other people in Europe. I actually was in the room where they did it. The room is in Southern California, in Newport Beach. It's this huge room. And it's all these hundreds of people sitting at these long tables, each of them is looking at three or four computer screens-- one guy had six computer screens-- with all these numbers flashing on them. Although when you're there, if you closed your eyes you'd have no idea that there were that many people there.
+<v Adam Davidson>我想我可以帮你。因为我确实知道是谁把所有那些钱借给了希腊以及欧洲的其他所有人。我实际上就在他们进行借贷的那个房间里。那个房间在南加州，在纽波特海滩。那是一个巨大的房间。里面有数百人坐在长桌旁，每个人都在盯着三四个电脑屏幕——有一个人有六个电脑屏幕——上面闪烁着各种数字。尽管当你身处其中时，如果你闭上眼睛，你根本不会知道那里竟然有那么多人。
+
+00:24:00.530 --> 00:24:07.270
+<v Adam Davidson>This is the quietest room of 200 people I've ever been in. It's a little noisier than usual right now.
+<v Adam Davidson>这是我待过的200人中最安静的一个房间。现在比平时稍微吵闹一点。
+
+00:24:07.270 --> 00:24:30.230
+<v Adam Davidson>This is the trading floor of a company called PIMCO. And I would guess most of our listeners have not heard of PIMCO, but I can guarantee that every finance minister of every country in the world definitely has. Because PIMCO is one of the largest bond fund managers in the world. That means they are one of the biggest lenders of money to governments all over the world.
+<v Adam Davidson>这是PIMCO（太平洋投资管理公司）的交易大厅。我敢猜，我们的大多数听众都没听说过PIMCO，但我敢保证，世界上每个国家的财政部长绝对都听说过。因为PIMCO是世界上最大的债券基金管理公司之一。这意味着他们是世界上最大的政府借钱给借款方之一。
+
+00:24:30.230 --> 00:24:49.980
+<v Chana Joffe-Walt>And Adam, let me just jump in for people who need a refresher. Buying a bond is the same as lending someone money. You buy a bond for $1 million from someone with the promise that they're going to pay you back in full, with interest, over some period of time. So buying a Greek bond for $1 million, that's the same exact thing as loaning $1 million to the Greek government.
+<v Chana Joffe-Walt>亚当，让我为需要温习的人插一句。买债券和借钱给别人是一样的。你以100万美元的价格买入某人的债券，承诺他们会在一段时间内连本带利全额偿还。所以花100万美元买希腊债券，这和借给希腊政府100万美元完全是一回事。
+
+00:24:49.980 --> 00:25:11.740
+<v Adam Davidson>Yeah, it's like an IOU. And all these people with all their computer screens spend their time figuring out, well which bonds should we buy? Which governments, and also companies, should we lend money to? Now the people at PIMCO, the people at these desks, it's not their money. They're watching over it for a while. They're money managers, managing the money for insurance companies, pension funds.
+<v Adam Davidson>是的，这就像一张欠条 (IOU)。所有这些盯着电脑屏幕的人都花时间弄清楚：我们应该买哪些债券？我们应该借钱给哪些政府以及公司？现在PIMCO的人，坐在这些办公桌前的人，那不是他们的钱。他们只是代为看管。他们是资金经理，为保险公司、养老基金管理资金。
+
+00:25:11.740 --> 00:25:21.540
+<v Chana Joffe-Walt>If you have a retirement account, they might be managing your money. They manage savings for central banks, universities, basically anybody with a huge amount of cash sitting around.
+<v Chana Joffe-Walt>如果你有退休账户，他们可能就在管理你的钱。他们为中央银行、大学管理储蓄，基本上就是任何手里有大量现金的人。
+
+00:25:21.540 --> 00:25:39.410
+<v Adam Davidson>And if you add up all the money they manage, it's over a trillion dollars. And they don't want to lose any of it. They are looking for safe, sensible governments to lend money to. And for several years, after the turn of the millennium, one of the countries PIMCO decided, oh now they're safe, they're sensible, was Greece.
+<v Adam Davidson>如果你把他们管理的所有资金加起来，超过一万亿美元。他们不想损失任何一分钱。他们正在寻找安全、理性的政府来借钱。在千禧年之交后的几年里，PIMCO决定“哦，现在他们安全、理性了”的国家之一，就是希腊。
+
+00:25:39.410 --> 00:26:09.470
+<v Adam Davidson>Scott Mather is the guy who runs the global portfolio for PIMCO, and he says basically overnight Greece went from a bad bet to a sure thing. And the reason was the euro. Because of the euro, Scott and all the other money managers for other companies all over the world completely changed how they looked at Greece. It was no longer just one small, poor dysfunctional country in a corner of Europe. It was now a full member in good standing of one of the largest economies in the world. The Eurozone.
+<v Adam Davidson>斯科特·马瑟 (Scott Mather) 是负责PIMCO全球投资组合的人，他说基本上就在一夜之间，希腊从一个糟糕的赌注变成了稳赢的买卖。原因就是欧元。因为欧元，斯科特和全球其他公司的所有其他资金经理完全改变了他们看待希腊的方式。它不再只是欧洲角落里一个贫穷、功能失调的小国。它现在是世界上最大的经济体之一——欧元区——中地位稳固的正式成员。
+
+00:26:09.470 --> 00:26:19.040
+<v Scott Mather>The market was basically giving Greece a benefit of the doubt because they were a Eurozone member, part of the club, for the better part of a decade.
+<v Scott Mather>市场基本上是因为希腊是欧元区成员、是这个俱乐部的一部分，而给了它十年的怀疑利益 (benefit of the doubt)。
+
+00:26:19.040 --> 00:26:33.140
+<v Adam Davidson>Going on the euro for a lot of countries was like getting a rich uncle to cosign a mortgage or a credit card application. Greece, Spain, Italy, Ireland, Portugal, all were allowed to borrow a lot more money at much lower interest rates than they had been before.
+<v Adam Davidson>对于许多国家来说，加入欧元就像找一个富有的叔叔为抵押贷款或信用卡申请做担保。希腊、西班牙、意大利、爱尔兰、葡萄牙，所有这些国家都被允许以比以前低得多的利率借到更多的钱。
+
+00:26:33.140 --> 00:26:47.680
+<v Adam Davidson>And that, Chana, that is why your cab driver could get a cheap loan to buy a Mercedes. It's why a sleepy bank in La Mancha, Spain, could build an airport. And it's why Irish banks grew several times larger than the entire economy of Ireland.
+<v Adam Davidson>这就是为什么你的出租车司机能拿到廉价贷款买奔驰，Chana。这就是为什么西班牙拉曼恰的一家冷清银行能建一座机场。这就是为什么爱尔兰银行的规模增长到几倍于爱尔兰整个经济体的规模。
+
+00:26:47.680 --> 00:26:50.580
+<v Chana Joffe-Walt>And then, quite suddenly, everything changed.
+<v Chana Joffe-Walt>然后，突然之间，一切都变了。
+
+00:26:50.580 --> 00:26:55.560
+<v Adam Davidson>Yes. It  all changed one day when, Chana, your people in Greece made a shocking announcement.
+<v Adam Davidson>是的。当Chana，你在希腊的人民做出了一个令人震惊的声明时，一切都变了。
+
+00:26:55.560 --> 00:27:00.050
+<v Chana Joffe-Walt>Well, Adam, your people in Newport Beach, that was quite a dramatic reaction, don't you think?
+<v Chana Joffe-Walt>嗯，亚当，你在纽波特海滩的人民，那反应真是太戏剧性了，你不觉得吗？
+
+00:27:00.050 --> 00:27:04.400
+<v Adam Davidson>We'll get to that.
+<v Adam Davidson>我们稍后会说到。
+
+00:27:04.400 --> 00:27:14.930
+<v Alex Blumberg>Actually, guys this is a good place for me to step in and say we have arrived at Act Three. And I'll let Pascal Lamy-- remember the right-hand man to the father of the euro? He's going to give you the act name. Act Three--
+<v Alex Blumberg>实际上，伙计们，这是我介入并宣布我们已经到达第三幕的好时机。我让帕斯卡尔·拉米——还记得欧元之父的得力助手吗？他来宣布这一幕的名字。第三幕——
+
+00:27:14.930 --> 00:27:18.170
+<v Pascal Lamy>Ooh, I shouldn't have done that!
+<v Pascal Lamy>噢，我不应该那么做！
+
+00:27:18.170 --> 00:27:19.400
+<v Alex Blumberg>All right, take it away.
+<v Alex Blumberg>好了，交给你了。
+
+00:27:19.400 --> 00:27:25.540
+<v Chana Joffe-Walt>OK, first back to Athens, 2009, to the exact moment the crisis in Europe began.
+<v Chana Joffe-Walt>好的，先回到2009年的雅典，回到欧洲危机开始的那一刻。
+
+00:27:25.540 --> 00:27:30.360
+<v Loukas Tsoukalis>What happens is in 2009 we have an election in October.
+<v Loukas Tsoukalis>发生的情况是，我们在2009年10月进行了选举。
+
+00:27:30.360 --> 00:27:47.710
+<v Chana Joffe-Walt>This is Loukas Tsoukalis again, with the Hellenic Foundation in Athens. So Greece had been borrowing money from PIMCO in Newport Beach, and from others. And then there's an election in Athens, a new socialist government comes to power and says, Greek people, PIMCO, world, we have something to tell you.
+<v Chana Joffe-Walt>再次请出雅典的卢卡斯·楚卡利斯。所以希腊一直从纽波特海滩的PIMCO和其他地方借钱。然后雅典举行了选举，一个新的社会主义政府上台并说：“希腊人民，PIMCO，世界，我们有些话要告诉你们。”
+
+00:27:47.710 --> 00:28:06.770
+<v Loukas Tsoukalis>The people's government was claiming that the deficit of that year was running at something like 6%. The socialists come to power and they announce a few days later what they have discovered is that the deficit is actually closer to 13% and not 6%.
+<v Loukas Tsoukalis>人民的政府声称那一年的赤字率在6%左右。社会主义者上台几天后宣布，他们发现赤字实际上接近13%，而不是6%。
+
+00:28:06.770 --> 00:28:09.820
+<v Chana Joffe-Walt>Adam, that's double what they had previously reported.
+<v Chana Joffe-Walt>亚当，那是他们之前报告数字的两倍。
+
+00:28:09.820 --> 00:28:26.590
+<v Adam Davidson>And all those bond traders staring at those computer screens at PIMCO's headquarters in Newport Beach, California, they had lent all this money to Greece based on very specific information. And suddenly that information turned out to be very, very wrong. And they wanted to know, how did this happen?
+<v Adam Davidson>而在加州纽波特海滩PIMCO总部，所有盯着电脑屏幕的债券交易员，他们都是基于非常具体的信息借钱给希腊的。突然间，那些信息变得非常、非常错误。他们想知道这是怎么发生的。
+
+00:28:26.590 --> 00:28:50.380
+<v Chana Joffe-Walt>Yeah, and see, the thing is, it's a little hard to answer that question. The Greek politicians explained, the last guys, they lied to you. The deficit was never 6%. We are telling you the truth. The truth is 13%. But when you ask people ask at the Government Statistics Office, the very people who come up with the numbers, people like Konstantinos Skordas, they say things like this.
+<v Chana Joffe-Walt>是的，你看，问题是，要回答那个问题有点难。希腊政客解释说：“前任那些家伙，他们对你们撒谎。赤字从来不是6%。我们才是在告诉你们真相。真相是13%。”但当你问政府统计局的人，那些真正想出数字的人，像康斯坦丁诺斯·斯科达斯 (Konstantinos Skordas) 这样的人时，他们会说这样的话。
+
+00:28:50.380 --> 00:28:58.510
+<v Konstantinos Skordas>Everyone here in Greece said, what number is this? It's outrageous.
+<v Konstantinos Skordas>希腊的每个人都说：这是什么数字？这太离谱了。
+
+00:28:58.510 --> 00:29:11.790
+<v Chana Joffe-Walt>Instead of the Greek Statistics Office workers saying, we messed up. Here's what went wrong. Here exactly, is how we're going to win back your trust, make sure it never happens again. No. Instead, the workers just kind of shrugged their shoulders.
+<v Chana Joffe-Walt>希腊统计局的工作人员没有说：“我们搞砸了。这里出了错。这就是我们将如何重新赢得你们信任、确保这种情况不再发生的具体方式。”不。相反，工作人员只是耸了耸肩。
+
+00:29:11.790 --> 00:29:13.410
+<v Konstantinos Skordas>Nobody knows.
+<v Konstantinos Skordas>没人知道。
+
+00:29:13.410 --> 00:29:16.910
+<v Chana Joffe-Walt>But you you guys work in the Statistics Office.
+<v Chana Joffe-Walt>但你们在统计局工作啊。
+
+00:29:16.910 --> 00:29:18.080
+<v Konstantinos Skordas>Yes.
+<v Konstantinos Skordas>是的。
+
+00:29:18.080 --> 00:29:27.590
+<v Chana Joffe-Walt>So I mean, it just seems like why would you-- you're the first people I would expect would know that, would not be surprised by that. Because you work here.
+<v Chana Joffe-Walt>我的意思是，这看起来……为什么你会……你们是我第一个预期会知道、不会对此感到惊讶的人。因为你们就在这里工作。
+
+00:29:27.590 --> 00:29:37.290
+<v Konstantinos Skordas>The people here who were worked above this model said we did our job very correctly.
+<v Konstantinos Skordas>这里在这个模型之上工作的人说，我们做得很对。
+
+00:29:37.290 --> 00:29:41.900
+<v Jacob Kirkegaard>Everybody said, look these guys clearly cannot be trusted.
+<v Jacob Kirkegaard>每个人都说：看，这些人显然不能被信任。
+
+00:29:41.900 --> 00:29:51.860
+<v Chana Joffe-Walt>This again, is Jacob Kirkegaard with the Peterson Institute for International Economics. And he says, at this moment, the people who had lent money to the Greek government were shocked.
+<v Chana Joffe-Walt>再次请出彼得森国际经济研究所的雅各布·基尔克加德。他说，在这一刻，那些借钱给希腊政府的人震惊了。
+
+00:29:51.860 --> 00:30:06.120
+<v Jacob Kirkegaard>The situation is much, much worse than what they said just a few days ago. The reality is much worse than I thought and therefore, I'm out of here.
+<v Jacob Kirkegaard>情况比他们几天前说的要糟糕得多、糟糕得多。现实情况比我想象的还要糟糕，因此，我离开这里。
+
+00:30:06.120 --> 00:30:13.680
+<v Alex Blumberg>I'm out of here. Chana, that is exactly what happened in Newport Beach around this time. The bond guys at PIMPCO took action. Bond action.
+<v Alex Blumberg>我离开这里。Chana，那正是当时在纽波特海滩发生的事情。PIMCO的债券交易员采取了行动。债券行动。
+
+00:30:13.680 --> 00:30:21.010
+<v Mohamed El-erian>In the end of last year we sold all our Greek, Portuguese and Spanish exposure.
+<v Mohamed El-erian>去年年底，我们卖出了所有希腊、葡萄牙和西班牙的风险敞口。
+
+00:30:21.010 --> 00:30:55.210
+<v Adam Davidson>This is Mohamed El-Erian. He's the CEO of PIMCO and one of the most influential people in the world of bonds. When he starts selling all his Greek bonds, people all over the world pay attention. El-Erian must know something. He's really smart. And then everywhere people are selling their Greek bonds. And what really struck me is how imbalanced things are. For PIMCO it's just not that big a deal to sell all their Greek, Portuguese and Spanish bonds. It's a few clicks on a keyboard, moving around a relatively small amount of their overall money. But for the countries whose bonds they're selling, it feels a lot more like the end of the world.
+<v Adam Davidson>这位是穆罕默德·埃尔-埃里安 (Mohamed El-Erian)。他是PIMCO的首席执行官，也是债券世界中最具影响力的人之一。当他开始抛售所有希腊债券时，全世界的人都会关注。埃尔-埃里安一定知道些什么。他真的很聪明。然后到处都有人在抛售希腊债券。真正让我震惊的是事情是多么不平衡。对于PIMCO来说，卖掉所有希腊、葡萄牙和西班牙的债券并不是什么大不了的事。只需键盘上敲击几下，动用他们总资金中相对较小的一部分。但对于那些债券被抛售的国家来说，感觉更像是世界末日。
+
+00:30:55.210 --> 00:31:00.860
+<v Adam Davidson>Soon the Greek government had some new bonds they wanted to sell. And they came to PIMCO hoping they'd buy.
+<v Adam Davidson>很快，希腊政府有一些他们想卖的新债券。他们来到PIMCO，希望他们买。
+
+00:31:00.860 --> 00:31:03.400
+<v Mohamed El-erian>The Greek government came with lots of offerings.
+<v Mohamed El-erian>希腊政府带来了很多发行。
+
+00:31:03.400 --> 00:31:05.100
+<v Adam Davidson>Did they come to you directly?
+<v Adam Davidson>他们直接来找你们了吗？
+
+00:31:05.100 --> 00:31:11.140
+<v Mohamed El-erian>They did come to us directly via our offices in Germany and London. And we said, thank you but no thank you.
+<v Mohamed El-erian>他们确实通过我们在德国和伦敦的办公室直接来找我们。我们说，谢谢，但不用了。
+
+00:31:11.140 --> 00:31:12.710
+<v Adam Davidson>What did they ask? What did they say?
+<v Adam Davidson>他们问了什么？他们说了什么？
+
+00:31:12.710 --> 00:31:20.810
+<v Mohamed El-erian>They said, we are issuing $5 billion, $7 billion. Lots of people are participating. Look at how attractive these bonds are and we said--
+<v Mohamed El-erian>他们说，我们正在发行50亿、70亿美元。很多人都在参与。看看这些债券多有吸引力，我们说——
+
+00:31:20.810 --> 00:31:23.570
+<v Adam Davidson>You mean the interest rates are higher than the rest of Europe?
+<v Adam Davidson>你是说利率比欧洲其他地区高？
+
+00:31:23.570 --> 00:31:34.100
+<v Mohamed El-erian>The interest rates are higher, not only than the rest of Europe but they were higher than what they were before. And we said, thank you very much. We appreciate it. But our analysis shows that sovereign risk is an issue.
+<v Mohamed El-erian>利率不仅比欧洲其他地区高，而且比他们之前的情况还要高。我们说，非常感谢。我们很感激。但我们的分析显示主权风险是一个问题。
+
+00:31:34.100 --> 00:31:55.130
+<v Adam Davidson>Sovereign risk is an issue. That's one of those phrases that sounds pretty innocuous and boring, but it hides something really dramatic. It means that for PIMCO, Greece went from being one of the countries that you don't have to worry about to one that might not be able to pay its bills. When money managers worry about a country not paying its bills, things get very weird.
+<v Adam Davidson>主权风险是一个问题。那是那种听起来很无害且无聊的短语之一，但它隐藏着一些非常戏剧性的东西。这意味着对于PIMCO来说，希腊从一个你不用担心的国家变成了一个可能无法偿还账单的国家。当资金经理担心一个国家无法偿还账单时，事情就会变得非常诡异。
+
+00:31:55.130 --> 00:31:59.840
+<v Chana Joffe-Walt>Back in Greece, after several years of cheap money, there was no money.
+<v Chana Joffe-Walt>回到希腊，经过几年的廉价资金，没钱了。
+
+00:31:59.840 --> 00:32:01.740
+<v Katerina Margaritu>Everybody was talking about it.
+<v Katerina Margaritu>每个人都在谈论它。
+
+00:32:01.740 --> 00:32:05.910
+<v Chana Joffe-Walt>This is Katarina Margaritu, a Greek chemist in Athens.
+<v Chana Joffe-Walt>这位是卡塔琳娜·马尔加里图 (Katarina Margaritu)，雅典的一位希腊化学家。
+
+00:32:05.910 --> 00:32:21.420
+<v Katerina Margaritu>Suddenly all they were talking about the Greek crisis. We are in the crisis. We have no money. We are going broke. And I was shocked. I didn't know anything.
+<v Katerina Margaritu>突然间他们谈论的都是希腊危机。我们陷入了危机。我们没有钱了。我们要破产了。我很震惊。我什么都不知道。
+
+00:32:21.420 --> 00:32:47.720
+<v Chana Joffe-Walt>Katerina spent a few weeks after this just feeling winded. She remembers she'd sit on her couch and think about everything that just happened and wonder how it could be that her government overspent so dramatically. She thought about it and she thought, oh, yeah, I guess that unemployed friend of mine finally got a job. We all thought that was never going to happen. Actually a lot of people got jobs. Oh, and we got that new subway system.
+<v Chana Joffe-Walt>卡塔琳娜在那之后的几周里感到精疲力竭。她记得她会坐在沙发上思考刚刚发生的一切，想不通为什么她的政府会如此严重地超支。她想了想，然后心想：哦，是的，我想我那个失业的朋友终于找到工作了。我们都以为那永远不会发生。实际上很多人找到了工作。哦，我们还建了新的地铁系统。
+
+00:32:47.720 --> 00:33:23.810
+<v Katerina Margaritu>Stadiums, roads, a bridge-- a very expensive bridge. Also we had the Olympic Games in Greece. We must have spent a lot of money there. Money we couldn't have. I think that was the time I realized that we borrowed an enormous amount of money that we couldn't possibly pay back.
+<v Katerina Margaritu>体育场、道路、一座桥——一座非常昂贵的桥。我们还在希腊举办了奥运会。我们肯定在那里花了很多钱。我们负担不起的钱。我想那是我意识到我们借了巨额资金，根本不可能偿还的时候。
+
+00:33:23.810 --> 00:33:27.440
+<v Chana Joffe-Walt>Here again, is Jacob Kirkegaard with the economics think tank.
+<v Chana Joffe-Walt>再次请出雅各布·基尔克加德。
+
+00:33:27.440 --> 00:33:32.700
+<v Jacob Kirkegaard>This is the moment in time in which Greece is no longer a solvent country.
+<v Jacob Kirkegaard>这是希腊不再是一个偿付能力国家的时刻。
+
+00:33:32.700 --> 00:33:36.580
+<v Chana Joffe-Walt>So the sovereign debt crisis, that's when it started?
+<v Chana Joffe-Walt>所以主权债务危机，是从那时开始的？
+
+00:33:36.580 --> 00:33:45.590
+<v Jacob Kirkegaard>That is when it starts, yes.
+<v Jacob Kirkegaard>是从那时开始的，是的。
+
+00:33:45.590 --> 00:33:57.410
+<v Alex Blumberg>Coming up, facing life in prison for doing math. That's in a minute from Chicago Public Radio and Public Radio International when our program continues.
+<v Alex Blumberg>即将到来，因做数学题而面临终身监禁。那是芝加哥公共广播电台和公共广播国际公司节目继续后的内容。
+
+00:33:57.410 --> 00:34:20.650
+<v Alex Blumberg>(HOST) IRA GLASS: It's This American Life . I'm Ira Glass. Today's program, Continental Breakup, the epic story behind what is boringly referred to most of the time as the European debt crisis. It's really the story of the euro, the rise and fall of the euro. How it transformed life for people all over Europe. We've turned over the entire episode today to the Planet Money team. And as your host, your guide for the hour is Alex Blumberg. Hi, Alex.
+<v Alex Blumberg>(主持人) 艾拉·格拉斯 (Ira Glass)：这里是《This American Life》。我是艾拉·格拉斯。今天的节目，《大陆的分裂》，讲述了大部分时间里被乏味地称为“欧洲债务危机”背后的史诗故事。这实际上是欧元的故事，欧元的兴衰。它如何改变了整个欧洲人民的生活。我们把今天整集节目交给了Planet Money团队。作为你们的主持人，这一个小时的向导是亚历克斯·布伦伯格。你好，亚历克斯。
+
+00:34:20.650 --> 00:34:49.420
+<v Alex Blumberg>Hey. So we were in the middle of Act Three, which began, remember with fireworks commemorating the euro's debut January 1, 2002. There were people all over Europe celebrating, saying this new currency's like magic. We all now know of course that the euro hasn't been working out so great. But there's this amazing moment in that BBC story from 2002, the reporter, Justin Webb, finishes his report and the anchor asks him one follow-up question. And Justin Webb proceeds to almost perfectly predict the future.
+<v Alex Blumberg>嘿。我们讲到了第三幕的中段，还记得欧元2002年1月1日首秀时的烟花吗？欧洲各地的人们都在庆祝，说这种新货币就像魔法一样。我们现在当然都知道欧元表现得并不太好。但在BBC 2002年的那个故事中有一个精彩的时刻，记者贾斯汀·韦伯 (Justin Webb) 完成了他的报道，主持人问了他一个后续问题。贾斯汀·韦伯几乎完美地预测了未来。
+
+00:34:49.420 --> 00:34:55.830
+<v Bbc Anchor>Justin, when will it be possible to judge whether the changeover has been a success?
+<v Bbc Anchor>贾斯汀，什么时候才能判断这次转换是否成功？
+
+00:34:55.830 --> 00:35:19.760
+<v Justin Webb>Well the short answer is not today and not in a few days to come, either. Although there is a positive mood, it really us nothing about the long-term future. We will only know whether this currency is a success when there is a severe economic shock in one Eurozone nation and the other nations rally round and the currency survives. That is some time in the future. So a positive mood today and that is helpful, but the jury is still out.
+<v Justin Webb>好吧，简短的回答是：今天不行，未来几天也不行。尽管现在的气氛很积极，但这对长期未来说明不了什么。我们只有在某个欧元区国家发生严重的经济冲击，而其他国家团结一致、货币得以生存时，才能知道这种货币是否成功。那是在未来的某个时候。所以今天气氛积极，这很有帮助，但评判尚未出炉。
+
+00:35:19.760 --> 00:35:27.620
+<v Alex Blumberg>Truer words were never spoken, Justin. The economic shock has arrived in Europe. And it's spreading. Here's Adam Davidson and Chana Joffe-Walt to pick the story back up.
+<v Alex Blumberg>贾斯汀，至理名言。经济冲击已经到达欧洲。而且正在蔓延。亚当·戴维森和Chana Joffe-Walt继续讲述这个故事。
+
+00:35:27.620 --> 00:35:50.420
+<v Adam Davidson>When the Greek government made its shocking announcement about its huge deficit numbers in 2009, that is when the euro turns from a blessing to a curse. When times are good, the strongest country can make everybody stronger. But when times are bad, the weakest country can bring everybody down. Remember what Mohamed El-Erian, the CEO of PIMCO, said he did around the time of that announcement?
+<v Adam Davidson>当希腊政府在2009年宣布其巨额赤字数字时，欧元从福变成了祸。顺境时，最强大的国家能让每个人更强。但逆境时，最弱的国家能把每个人拖下水。还记得PIMCO首席执行官穆罕默德·埃尔-埃里安说他在宣布那段时间做了什么吗？
+
+00:35:50.420 --> 00:35:57.540
+<v Mohamed El-erian>In the end of last year we sold all our Greek, Portuguese and Spanish exposure.
+<v Mohamed El-erian>去年年底，我们卖出了所有希腊、葡萄牙和西班牙的风险敞口。
+
+00:35:57.540 --> 00:36:10.980
+<v Adam Davidson>In other words, we're going to stop lending to Greece. But we're also going to stop lending to Portugal and Spain. Now Portugal and Spain, they didn't lie about their deficits. In the case of Spain, they'd actually been pretty conservative throughout the decade in the way they handled their finances.
+<v Adam Davidson>换句话说，我们要停止借钱给希腊。但我们也要停止借钱给葡萄牙和西班牙。现在葡萄牙和西班牙，他们没有对赤字撒谎。以西班牙为例，他们在过去十年中处理财务的方式相当保守。
+
+00:36:10.980 --> 00:36:43.240
+<v Chana Joffe-Walt>But when Greece made that announcement, it shattered the image of the Eurozone for people like El-Erian. Instead of seeing all the euro countries as the same-- safe, boring, basically Germany-- they saw them all as opposite. They went back to being what they were before-- individual countries with individual problems. Some looked like a safe bet to loan money to, others, maybe they'd get their money back but maybe they wouldn't. And for those countries, the ones they were worried about, it just gets harder and harder to find anyone to lend them money.
+<v Chana Joffe-Walt>但当希腊做出那个声明时，它打破了像埃尔-埃里安这样的人对欧元区的印象。他们不再将所有欧元国家视为一样——安全、无聊、基本上就是德国——他们认为它们完全相反。它们变回了以前的样子——各自拥有各自问题的独立国家。有些看起来是借钱的安全赌注，有些，也许能拿回钱，也许不能。对于那些他们担心的国家，想找到人借钱就变得越来越难。
+
+00:36:43.240 --> 00:36:45.250
+<v Chana Joffe-Walt>It started with Greece, and then--
+<v Chana Joffe-Walt>它始于希腊，然后——
+
+00:36:45.250 --> 00:36:53.810
+<v Male Reporter>The European debt crisis showing no signs of easing yet. The S&P credit raters say they might downgrade Portugal's credit rating.
+<v Male Reporter>欧洲债务危机没有显示出缓解的迹象。标准普尔信用评级机构表示他们可能会下调葡萄牙的信用评级。
+
+00:36:53.810 --> 00:37:01.520
+<v Male Reporter>Spanish 10-year bond yields fair now at their highest level since 2002 as Eurozone contagion fears continue to ramp up. Pressure on Spain--
+<v Male Reporter>随着欧元区传染的恐惧持续加剧，西班牙10年期国债收益率处于2002年以来的最高水平。西班牙面临压力——
+
+00:37:01.520 --> 00:37:04.930
+<v Male Reporter>Whether it's Italy one day or Spain the next. Today it's Belgium.
+<v Male Reporter>无论是一天意大利还是下一天西班牙。今天轮到了比利时。
+
+00:37:04.930 --> 00:37:10.730
+<v Male Reporter>I mean, look at that move. Whoa. It kind of leaves me speechless.
+<v Male Reporter>我的意思是，看看那个走势。哇。这让我有些说不出话来。
+
+00:37:10.730 --> 00:37:16.400
+<v Male Reporter>And so there's another one we're going to have to start to worry about. Yes indeed, and the spread by the way in terms of what Belgium's able to borrow at--
+<v Male Reporter>所以这是我们要开始担心的另一个国家。确实如此，顺便说一下，比利时的借贷利差——
+
+00:37:16.400 --> 00:37:32.730
+<v Chana Joffe-Walt>It used to be, before the euro, when times were bad in Greece or Italy or Portugal, when those countries got themselves too deep into debt, they could do something about it. They could create money. They could create drachmas or liras, escudos, and essentially use that money to pay off their debts.
+<v Chana Joffe-Walt>在欧元出现之前，当希腊、意大利或葡萄牙经济不景气时，当这些国家债务过重时，他们可以采取行动。他们可以创造货币。他们可以制造德拉克马、里拉、埃斯库多，基本上用这些钱来偿还债务。
+
+00:37:32.730 --> 00:38:12.480
+<v Adam Davidson>But now that Greece and Italy and Portugal were part of the euro, it was no longer up to them to create more money. It was up to the institution that controls the euro, the European Central Bank. And when the European Central Bank was created, the Germans insisted-- or else they would not join the euro-- that the European Central Bank would not do anything that might risk inflation. And creating a lot of euros so that the Greeks and Portuguese could pay off their debts, that definitely risked inflation. So the troubled countries of Europe were stuck.
+<v Adam Davidson>但现在希腊、意大利和葡萄牙既然是欧元的一部分，创造货币就不再由他们决定了。它取决于控制欧元的机构——欧洲央行。当欧洲央行成立时，德国人坚持——否则他们就不会加入欧元——欧洲央行绝不能做任何可能冒通胀风险的事情。而大量创造欧元以便希腊人和葡萄牙人能偿还债务，这绝对有通胀风险。所以欧洲陷入困境的国家被困住了。
+
+00:38:12.480 --> 00:38:32.070
+<v Alex Blumberg>Act Four, Do-over. It's been over two years since the Greeks made that shocking announcement about their deficit number, and the crisis has been spreading throughout Europe ever since. European leaders have tried a variety plans to fix things. And typically, there's a big announcement about a new solution, things stabilize for a day or two, maybe a week, and then everything gets worse than it was before.
+<v Alex Blumberg>第四幕，重来 (Do-over)。距离希腊做出那个关于赤字数字的震惊声明已经过去两年多了，此后危机一直在欧洲蔓延。欧洲领导人尝试了各种各样的方案来修复。通常情况是，发布一个关于新解决方案的重大声明，事情稳定一两天，也许一周，然后一切变得比以前更糟。
+
+00:38:32.070 --> 00:38:57.500
+<v Alex Blumberg>But then, just last month, December 9, 2011, the Europeans came to an interesting-- and what they described as-- final plan. The plan was essentially correct the original sin of the euro. Give the rules-- those rules all the Eurozone countries are supposed to follow but didn't follow-- give those rules actual teeth. If countries break the rules, European leaders will send in a SWAT team of technocrats to come in and take over.
+<v Alex Blumberg>但就在上个月，2011年12月9日，欧洲人达成了一个有趣的——他们称之为——最终方案。该方案本质上是纠正欧元的原罪。给规则——那些欧元区国家应该遵守但却没有遵守的规则——赋予实际的牙齿。如果国家打破规则，欧洲领导人将派遣一支技术官僚的特警队来接管。
+
+00:38:57.500 --> 00:39:12.680
+<v Alex Blumberg>So now governments in Spain, Italy, Ireland, are scrambling to bring their budgets in line with these rules-- cutting down debt, trying to make themselves seem safe, dependable, trustworthy. Trying to make themselves seem like the kind of countries the world would be happy to lend money to.
+<v Alex Blumberg>所以现在西班牙、意大利、爱尔兰的政府都在争先恐后地使他们的预算符合这些规则——削减债务，试图让自己看起来安全、可靠、值得信赖。试图让自己看起来像那种世界会乐意借钱给他们的国家。
+
+00:39:12.680 --> 00:39:27.490
+<v Alex Blumberg>It seems like a straightforward plan. And the obvious place to start would be Greece. That was where the crisis first started and indeed, European technocrats schooled in the German mindset are already there trying to fix things. Chana Joffe-Walt went to see how it's going so far.
+<v Alex Blumberg>这似乎是一个直接的计划。最明显的起点将是希腊。危机首先在那里开始，确实，受过德国思维训练的欧洲技术官僚已经在那里试图修复事情。Chana Joffe-Walt去看看目前的情况如何。
+
+00:39:27.490 --> 00:39:46.820
+<v Chana Joffe-Walt>The very first place the technocrats went was 46 Pireos Street, the Greek Statistics Office, the very building the crisis began in. You remember the guys who reported, whoops, the Greek government deficit is actually twice what we said before and then offered this confidence inspiring explanation of what happened.
+<v Chana Joffe-Walt>技术官僚去的第一站是皮雷奥斯街46号，希腊统计局，危机开始的地方。你们记得那些报告“哎呀，希腊政府赤字实际上是我们之前说的两倍”并提供了解释的家伙们吗？
+
+00:39:46.820 --> 00:39:48.390
+<v Konstantinos Skordas>Nobody knows.
+<v Konstantinos Skordas>没人知道。
+
+00:39:48.390 --> 00:40:19.980
+<v Chana Joffe-Walt>This is Konstantinos Skordas. You can think of him as sort of the Greek old guard. He, like the majority of his colleagues here, have worked in the Statistics Office for decades. In the summer of 2010, a European technocrat arrived in the building to lead the Greek old guard into this new European world. His name Andreas Georgiou. He's Greek, but he's been living abroad for decades. And he's kind of a no-nonsense numbers guy, the guy who opens an interview by telling you he'd prefer you disappear.
+<v Chana Joffe-Walt>这位是康斯坦丁诺斯·斯科达斯。你可以把他看作是希腊旧派卫士。他和这里的大多数同事一样，在统计局工作了几十年。2010年夏天，一位欧洲技术官僚来到这栋大楼，带领希腊旧派卫士进入这个新的欧洲世界。他的名字是安德烈亚斯·乔治乌 (Andreas Georgiou)。他是希腊人，但已经在国外生活了几十年。他是个务实的数字专家，是个采访一开始就告诉你他希望你消失的那种人。
+
+00:40:19.980 --> 00:40:31.010
+<v Andreas Georgiou>My goal is to make this a competent, boring institution and not to be in the limelight. Actually not to have to give an interview like this one.
+<v Andreas Georgiou>我的目标是让这里成为一个称职、无聊的机构，而不是出现在聚光灯下。实际上是不必接受这样的采访。
+
+00:40:31.010 --> 00:40:52.240
+<v Chana Joffe-Walt>Georgiou has obviously not yet achieved his goal because here I am to find out why he hasn't. Because, quite frankly, his job seems kind of easy. All he has to do is produce a couple numbers-- one number, really. The real deficit number for 2009. And just that one job is not going well.
+<v Chana Joffe-Walt>乔治乌显然还没有达到他的目标，因为我在这里是为了找出为什么他没能做到。因为，坦率地说，他的工作看起来有点容易。他所要做的只是拿出几个数字——其实是一个数字。2009年的真实赤字数字。单单那项工作就进展不顺利。
+
+00:40:52.240 --> 00:40:58.980
+<v Andreas Georgiou>Things appear to be difficult, actually, in some areas from the very beginning.
+<v Andreas Georgiou>事实上，事情从一开始在某些领域就显得很困难。
+
+00:40:58.980 --> 00:41:17.780
+<v Chana Joffe-Walt>In the very beginning, August, 2010, Georgiou arrived and got straight to the numbers. He was going to calculate the true deficit number. Investors were going to see Greece has this new bureaucrat at the helm. Faith would be restored. But within a few minutes of sitting down with the data, Georgiou realized, this is going to take a while.
+<v Chana Joffe-Walt>一开始，2010年8月，乔治乌抵达并直接处理数字。他要计算真实的赤字数字。投资者会看到希腊有了这位新官僚掌舵。信心会恢复。但在处理数据几分钟后，乔治乌意识到，这需要一段时间。
+
+00:41:17.780 --> 00:41:30.070
+<v Andreas Georgiou>In order to be able to count what is the deficit and the debt, you have to know what you are counting. You have to know which institutions belong in this concept called government. So that was, for example, an open question.
+<v Andreas Georgiou>为了能够计算出赤字和债务是多少，你必须知道你在计算什么。你必须知道哪些机构属于“政府”这个概念。所以例如，这是一个悬而未决的问题。
+
+00:41:30.070 --> 00:41:47.200
+<v Chana Joffe-Walt>You might think what is part of government and what is not part of government should be pretty clear. It was not. Georgiou sifted through spreadsheets, and the first thing he found was a national train company that just wasn't included anywhere in the numbers. Then he found a national TV company, then a tourism organization.
+<v Chana Joffe-Walt>你可能认为什么是政府的一部分，什么不是政府的一部分，应该很清楚。但事实并非如此。乔治乌筛选了电子表格，他发现的第一件事是一家未被纳入任何数字的国家铁路公司。然后他发现了国家电视台，然后是一个旅游组织。
+
+00:41:47.200 --> 00:41:54.120
+<v Andreas Georgiou>We found 17 institutions, large institutions, were left out.
+<v Andreas Georgiou>我们发现有17个机构，大型机构，被遗漏了。
+
+00:41:54.120 --> 00:41:57.950
+<v Chana Joffe-Walt>Why would they have been  left out?
+<v Chana Joffe-Walt>为什么会被遗漏？
+
+00:41:57.950 --> 00:42:08.740
+<v Andreas Georgiou>I did not know. But this is, you asked me what I found. In principle this should not happen.
+<v Andreas Georgiou>我不知道。但这是，你问我发现了什么。原则上这不应该发生。
+
+00:42:08.740 --> 00:42:37.660
+<v Chana Joffe-Walt>And finally, at the end of 2010, Georgiou and his staff had a new deficit number to report to Eurostat, to the European Statistical Agency. Greek 2009 government deficit, final number-- 15.8% Now 15.8%, that's even higher than the number that set off the debt crisis. But Eurostat praised his methodology. They blessed his number as true. They said, finally we have a real, grown-up number.
+<v Chana Joffe-Walt>最终，在2010年底，乔治乌和他的员工有了向欧盟统计局报告的新赤字数字。希腊2009年政府赤字，最终数字——15.8%。现在15.8%，这甚至比引发债务危机的数字还要高。但欧盟统计局称赞了他的方法论。他们承认他的数字是真实的。他们说，我们终于有了真正、成年人的数字。
+
+00:42:37.660 --> 00:42:51.130
+<v Chana Joffe-Walt>Meanwhile the Greek old guard? They weren't so happy. People like Konstantinos Skordas didn't like having their previous work criticized. They didn't like the new guy, and they definitely didn't like his new deficit number.
+<v Chana Joffe-Walt>与此同时，希腊旧派卫士？他们不太高兴。像康斯坦丁诺斯·斯科达斯这样的人不喜欢他们以前的工作被批评。他们不喜欢这个新人，他们绝对不喜欢他新的赤字数字。
+
+00:42:51.130 --> 00:43:05.520
+<v Konstantinos Skordas>Everybody said, oh what number is this? We expected to discuss this matter, some peculiar words he told to us. And we had a lot of questions about it.
+<v Konstantinos Skordas>每个人都说：哦，这是什么数字？我们本来预期讨论这件事的，他跟我们说了些奇奇怪怪的话。我们对此有很多疑问。
+
+00:43:05.520 --> 00:43:32.720
+<v Chana Joffe-Walt>Skordas and several others in the Greek old guard insisted that a Statistics Office board should have been consulted. In fact, the Greeks in this building, they said, should be involved in anything that gets reported to European authorities about how Greece is doing, especially a deficit number. They argued, they should get to vote. Georgiou, the technocrat, he saw this as a threat to his independence. He told them, you don't get to vote on this. The number is the number.
+<v Chana Joffe-Walt>斯科达斯和希腊旧派卫士中的几个人坚持认为应该咨询统计局委员会。事实上，这栋楼里的希腊人说，任何报告给欧洲当局关于希腊表现的事情，特别是赤字数字，都应该有他们的参与。他们争辩说，他们应该有权投票。乔治乌，那位技术官僚，他认为这是对他独立性的威胁。他告诉他们：你们没权在这个问题上投票。数字就是数字。
+
+00:43:32.720 --> 00:43:35.980
+<v Andreas Georgiou>But then something happened, which was absolutely shocking.
+<v Andreas Georgiou>但随后发生了某件事，这绝对令人震惊。
+
+00:43:35.980 --> 00:43:53.690
+<v Chana Joffe-Walt>Georgiou says a few weeks after he sent the new deficit number to Eurostat, a colleague of Skordas, a prominent member of the Greek old guard, send him a note and asked to see him. Georgiou says the two met in a small room, adjacent to his office, and the guy from the Greek old guard sat across from Georgiou on the couch.
+<v Chana Joffe-Walt>乔治乌说，在他把新赤字数字发给欧盟统计局几周后，斯科达斯的同事，希腊旧派卫士的一位重要成员，给他发了一张便条，要求见他。乔治乌说两人在他办公室隔壁的一个小房间里见了面，旧派卫士那个人坐在沙发上，正对着乔治乌。
+
+00:43:53.690 --> 00:44:04.770
+<v Andreas Georgiou>And presented me with a document that only existed in an email communication between me and my lawyer through my personal email.
+<v Andreas Georgiou>并向我展示了一份只存在于我和我的律师之间通过个人邮件进行的电子邮件通信中的文件。
+
+00:44:04.770 --> 00:44:08.360
+<v Chana Joffe-Walt>What did you say?
+<v Chana Joffe-Walt>你说什么？
+
+00:44:08.360 --> 00:44:22.080
+<v Andreas Georgiou>I didn't say that he has hacked into my emails. I said that this is a product of a criminal act. And the answer that I got was that things like that happen.
+<v Andreas Georgiou>我没说他黑进了我的邮件。我说这是犯罪行为的产物。我得到的回答是，这种事会发生。
+
+00:44:22.080 --> 00:44:24.180
+<v Chana Joffe-Walt>Things like what happen?
+<v Chana Joffe-Walt>发生什么事？
+
+00:44:24.180 --> 00:44:41.720
+<v Andreas Georgiou>That things that are in my personal email could find their way around. He said, things like that happen in Greece. And I told him that, no, they don't happen in my country, or at least they shouldn't happen in my country.
+<v Andreas Georgiou>我个人邮件里的东西可能会流传出去。他说，在希腊这种事情会发生。我告诉他，不，它们不会在我的国家发生，或者至少它们不应该在我的国家发生。
+
+00:44:41.720 --> 00:45:07.580
+<v Chana Joffe-Walt>The old guard, including the man accused, deny this ever happened. And then the Statistics Office workers went on strike against the technocrat, against Georgiou. Twice they striked. Mathematicians and accountants holding signs, walking a picket line. At one point they occupied the building so no one could get in. And then, last fall, Andreas Georgiou got a phone call from a Greek government official.
+<v Chana Joffe-Walt>旧派卫士，包括被指控的那个人，否认发生过这件事。然后统计局工作人员对技术官僚乔治乌举行了罢工。他们罢工了两次。数学家和会计师举着标语走在纠察线上。有一次他们占领了大楼，所以没人能进去。然后，去年秋天，安德烈亚斯·乔治乌接到了希腊政府官员的电话。
+
+00:45:07.580 --> 00:45:10.270
+<v Andreas Georgiou>The Prosecutor for Economic Crimes.
+<v Andreas Georgiou>经济犯罪检察官。
+
+00:45:10.270 --> 00:45:27.020
+<v Chana Joffe-Walt>The prosecutor, Georgiou says, explained that the office planned to clarify the contested 2009 deficit number and he wanted Georgiou's help. Georgiou says he sent over 75 boxes of documents, documents which explained exactly how he came up with his real number.
+<v Chana Joffe-Walt>检察官，乔治乌说，解释说办公室计划澄清有争议的2009年赤字数字，他想得到乔治乌的帮助。乔治乌说他送去了75箱文件，详细解释了他如何得出真实数字的文件。
+
+00:45:27.020 --> 00:45:51.010
+<v Andreas Georgiou>And a few weeks after that I got another letter asking me to appear in front of the prosecutor. And to my surprise they asked me where my lawyer was. And I asked why I needed a lawyer, and they explained to me that I was being invited as a suspect not as a witness.
+<v Andreas Georgiou>在那之后几周，我收到了另一封信，要求我出庭面对检察官。令我惊讶的是，他们问我的律师在哪里。我问为什么我需要律师，他们解释说我是以嫌疑人而不是证人的身份被邀请的。
+
+00:45:51.010 --> 00:45:55.240
+<v Chana Joffe-Walt>In other words, Andreas Georgiou is being accused of a crime.
+<v Chana Joffe-Walt>换句话说，安德烈亚斯·乔治乌被指控犯罪。
+
+00:45:55.240 --> 00:46:02.550
+<v Andreas Georgiou>Something called breach of faith against the state.
+<v Andreas Georgiou>一种叫做“背信罪”的东西。
+
+00:46:02.550 --> 00:46:06.550
+<v Jacob Kirkegaard>To me, well there's no other word for it than insane.
+<v Jacob Kirkegaard>对我来说，除了“疯狂”，没有别的词可以形容。
+
+00:46:06.550 --> 00:46:31.320
+<v Chana Joffe-Walt>This again, is Jacob Kirkegaard with the Peterson Institute for International Economics. And Kirkegaard says members of the Greek old guard have alleged Georgiou is colluding with European leaders, that Georgiou deliberately made the deficit number high so Greece would look bad and European leaders could come in and run things the way they want to. Georgiou faces life in prison.
+<v Chana Joffe-Walt>再次请出彼得森国际经济研究所的雅各布·基尔克加德。基尔克加德说，希腊旧派卫士的成员声称乔治乌与欧洲领导人串通一气，乔治乌故意把赤字数字报高，这样希腊看起来很糟糕，欧洲领导人就可以进来按他们想要的方式经营事情。乔治乌面临终身监禁。
+
+00:46:31.320 --> 00:46:38.050
+<v Chana Joffe-Walt>Remember, Kirkegaard says, this is the guy that was supposed to change the public image of the Statistics Office.
+<v Chana Joffe-Walt>记住，基尔克加德说，这就是那个本该改变统计局公众形象的人。
+
+00:46:38.050 --> 00:47:00.820
+<v Jacob Kirkegaard>I mean, the worst thing you can do if you were trying to restore outside confidence is, of course, to indict the guy who has been trying to establish credible, defensible and truthful data.
+<v Jacob Kirkegaard>我的意思是，如果你试图恢复外部信心，最糟糕的事情当然是起诉那个一直试图建立可信、合理和真实数据的人。
+
+00:47:00.820 --> 00:47:25.570
+<v Chana Joffe-Walt>If this is the new plan to save the euro, send in the technocrat to fix things, it does not seem to be going well, at least not in Athens. The technocrat is harassed, his email hacked, he's accused of treason, and he faces life in prison. It is hard to make Greece Germany.
+<v Chana Joffe-Walt>如果这是拯救欧元的新计划，即派遣技术官僚去修复事情，它似乎进行得并不顺利，至少在雅典不是这样。技术官僚受到骚扰，电子邮件被黑，被控叛国，面临终身监禁。想让希腊变成德国是很难的。
+
+00:47:25.570 --> 00:47:55.450
+<v Alex Blumberg>This brings us to Act Five, What's a Greek Accountant Got To Do With Me? The answer would normally be nothing. Greece is a pretty tiny country and every other country in the Eurozone is in much better shape than Greece. But that doesn't matter right now. You're going to be hearing a lot about Greece in the next couple of weeks and months. People will be talking about whether Greece can get some of its debt forgiven, whether Greece will get its next bailout. And the thing you need to keep in mind as you hear all this, what those people are really talking about when they're talking about Greece is Italy.
+<v Alex Blumberg>这把我们带到了第五幕，希腊会计师与我有什么关系？答案通常是没什么关系。希腊是一个非常小的国家，欧元区其他每个国家的状况都比希腊好得多。但这现在不重要。未来几周和几个月内，你们会听到很多关于希腊的事情。人们会谈论希腊能否获得债务减免，希腊能否获得下一次援助。在听到所有这些时，你们需要记住的一件事是，当那些人谈论希腊时，他们真正谈论的是意大利。
+
+00:47:55.450 --> 00:47:58.800
+<v Chana Joffe-Walt>It feels like a big leap to go from Greece to Italy.
+<v Chana Joffe-Walt>从希腊到意大利似乎是一个巨大的飞跃。
+
+00:47:58.800 --> 00:48:23.450
+<v Alex Blumberg>Yeah, Chana, it really does. And so let's just talk through this. I mean Greece in in much worse shape than Italy. But Italy is next in line. You remember worries about Greece cast the shadow on Portugal which then cast a shadow on Ireland and then Spain? At the end of last year it finally reached Italy. Suddenly Italy, like Greece and Portugal and Ireland and Spain before it, was having a harder and harder time finding anyone to lend it money at reasonable interest rates.
+<v Alex Blumberg>是的，Chana，确实如此。让我们来仔细讨论一下。希腊的状况比意大利差得多。但意大利排在下一个。还记得对希腊的担忧给葡萄牙蒙上了阴影，然后又给爱尔兰蒙上了阴影，然后是西班牙吗？去年年底，它终于到达了意大利。突然间，意大利像之前的希腊、葡萄牙、爱尔兰和西班牙一样，发现想以合理的利率借钱给它的人越来越难找了。
+
+00:48:23.450 --> 00:48:30.340
+<v Female Reporter>Italian bond yields hitting record levels today as investors expressed their concern about how and when the country will address its fiscal constraints.
+<v Female Reporter>随着投资者对其如何以及何时解决财政约束的担忧，意大利国债收益率今天达到创纪录水平。
+
+00:48:30.340 --> 00:48:40.340
+<v Chana Joffe-Walt>And this is the moment where the debt crisis took a really scary turn. Because Italy, Italy is enormous. Italy's the seventh-largest economy in the world.
+<v Chana Joffe-Walt>这就是债务危机出现非常可怕转折的时刻。因为意大利，意大利太巨大了。意大利是世界第七大经济体。
+
+00:48:40.340 --> 00:48:47.300
+<v Male Reporter>Everybody knows Italy is a huge economy. If Italy starts teetering more than it already is, it's going to be an issue.
+<v Male Reporter>每个人都知道意大利是一个巨大的经济体。如果意大利开始比现在更摇摇欲坠，那将是一个大问题。
+
+00:48:47.300 --> 00:48:58.780
+<v Male Reporter>The situation in Italy is really now getting serious, and I think we are approaching a kind of systemic crisis right now that reminds very much to the situation in 2008.
+<v Male Reporter>意大利的情况现在真的很严重，我想我们正在接近一种系统性危机，这让我想起2008年的情况。
+
+00:48:58.780 --> 00:49:12.320
+<v Chana Joffe-Walt>2008, you may remember, that's when the US economy fell apart. And this is why when people say they're worried about Greece, they're actually worried about Italy. Because Italy's destiny is now tied to the destiny of Greece.
+<v Chana Joffe-Walt>你们可能记得，2008年是美国经济崩溃的时候。这就是为什么当人们说他们担心希腊时，他们实际上担心的是意大利。因为意大利的命运现在与希腊的命运联系在一起了。
+
+00:49:12.320 --> 00:49:35.860
+<v Alex Blumberg>If our last financial crisis taught us anything, it's that relatively small defaults can have very large consequences. The last crisis began, you may remember, with the collapse of a pretty small investment bank, Lehman Brothers. A default in the tiny country of Greece could have similar catastrophic consequences, cause a chain reaction of defaults ending with Italy. Greece, Greece is the cigarette. Italy is the gas station.
+<v Alex Blumberg>如果说我们上次金融危机教会了我们什么，那就是相对较小的违约会产生非常巨大的后果。你们可能记得，上次危机始于一家规模相当小的投资银行——雷曼兄弟 (Lehman Brothers) 的崩溃。希腊这个小国家的违约可能会造成类似的灾难性后果，引发以意大利告终的一系列违约连锁反应。希腊，希腊是香烟。意大利是加油站。
+
+00:49:35.860 --> 00:49:41.610
+<v Chana Joffe-Walt>And this is where, if you're in the United States and you didn't already care, you might start to care.
+<v Chana Joffe-Walt>这就是如果你在美国，即使你之前不关心，你现在也可能会开始关心的地方。
+
+00:49:41.610 --> 00:50:13.070
+<v Alex Blumberg>The United States seems finally to be on a slow, fragile path to recovery. Europe could kill that. It could slow it down. It could stop it. It could make things worse than they were before. Most days the crisis in Europe seems like this slow-moving mess that will eventually work itself out. But every once in a while the question arises, what if it doesn't? Satyajit Das is a risk consultant and former banker. He spent his life in finance, and he's been following the crisis closely. How scared are you?
+<v Alex Blumberg>美国似乎终于走上了一条缓慢、脆弱的复苏之路。欧洲可能会扼杀它。它可能会拖慢它。它可能会停止它。它可能会使情况比以前更糟。大多数时候，欧洲危机看起来就像这个最终会自我解决的缓慢发展的烂摊子。但偶尔会出现这样一个问题：如果它不能解决呢？萨蒂亚吉特·达斯 (Satyajit Das) 是一位风险顾问和前银行家。他在金融界度过了一生，一直密切关注着危机。你有多害怕？
+
+00:50:13.070 --> 00:50:33.480
+<v Satyajit Das>I've been doing this for 34 years in financial markets. This is the first time in my life I actually am really worried. Because when you're talking about countries the size of Italy, this is really truly one of the scariest moments in my professional life.
+<v Satyajit Das>我在金融市场工作了34年。这是我一生中第一次真正感到担心。因为当你谈论像意大利这样规模的国家时，这确实是我职业生涯中最可怕的时刻之一。
+
+00:50:33.480 --> 00:50:55.240
+<v Chana Joffe-Walt>Das is scared because in his view, the new plan to save the euro is exactly the opposite of what should be happening. European leaders, he says, largely Germans, are still trying to get countries to obey their rules, those rules they set up back at the very beginning of the euro, to get countries like Greece to cut spending, bring in more in tax revenue, get their budget in line.
+<v Chana Joffe-Walt>达斯感到害怕是因为在他看来，拯救欧元的新计划与应该发生的情况恰恰相反。他说，欧洲领导人，主要是德国人，仍然试图让各国服从他们的规则——即那些在欧元之初就制定的规则——让像希腊这样的国家削减支出，增加税收收入，使预算达标。
+
+00:50:55.240 --> 00:51:17.570
+<v Alex Blumberg>But here is what happens when you cut spending and raise taxes-- the economy generally shrinks, especially in the middle of an economic crisis. In Spain, the unemployment rate has continued to rise. It's now over 20%. That is Great Depression territory. In Ireland and Portugal it's not much better. Most people think that all of Europe is in a recession right now. And the question is only, how bad will it get?
+<v Alex Blumberg>但当你削减支出和提高税收时会发生什么——经济通常会收缩，尤其是在经济危机期间。在西班牙，失业率持续上升。现在已经超过20%。那是大萧条时期的领地。在爱尔兰和葡萄牙，情况也好不到哪儿去。大多数人认为整个欧洲现在正处于衰退之中。问题只是：情况会变得多糟糕？
+
+00:51:17.570 --> 00:51:25.680
+<v Chana Joffe-Walt>I have to say, being in Greece, it really does feel like a country on the verge of falling apart. Do you remember Katarina Margaritu, the Greek chemist?
+<v Chana Joffe-Walt>我不得不说，在希腊，确实感觉像是一个濒临崩溃的国家。你们记得希腊化学家卡塔琳娜·马尔加里图吗？
+
+00:51:25.680 --> 00:51:29.430
+<v Alex Blumberg>The one who who went back and remembered, oh that's all those things that we spent money on that we couldn't afford?
+<v Alex Blumberg>那个回过头来心想：哦，那是我们花的那些负担不起的钱，的那个人？
+
+00:51:29.430 --> 00:51:40.620
+<v Chana Joffe-Walt>Right, my friend got a job, we got the subway system. So she actually works as a contractor for the Greek government. About a third of the Greek population relies on the government for a paycheck. And right now?
+<v Chana Joffe-Walt>对，我朋友找到了工作，我们有了地铁系统。所以她实际上是希腊政府的一名合同工。大约三分之一的希腊人口依靠政府发工资。而现在？
+
+00:51:40.620 --> 00:52:04.010
+<v Katarina Margaritu>They don't pay us because they have no money. Truth is that the last paycheck I took was from July. So my company now owes me the salary from August, September, October, November and December. So I haven't been paid from July.
+<v Katarina Margaritu>他们不付钱给我们，因为他们没钱。事实是，我拿到的最后一份工资是七月份的。所以我的公司现在欠我八月、九月、十月、十一月和十二月的工资。所以我从七月起就没拿到工资。
+
+00:52:04.010 --> 00:52:08.780
+<v Chana Joffe-Walt>So what keeps you going to work?
+<v Chana Joffe-Walt>那么是什么让你继续去工作？
+
+00:52:08.780 --> 00:52:29.450
+<v Katarina Margaritu>Well, I like my work. You see, every day we work we bring money to the company. So every time we bring money we are increasing the possibility to get paid.
+<v Katarina Margaritu>嗯，我喜欢我的工作。你看，每天我们工作，我们给公司带来钱。所以每次我们带来钱，我们就在增加拿到工资的可能性。
+
+00:52:29.450 --> 00:52:32.800
+<v Chana Joffe-Walt>Do you think that you'll get paid the back pay?
+<v Chana Joffe-Walt>你认为你能拿到补发的工资吗？
+
+00:52:32.800 --> 00:52:35.850
+<v Katarina Margaritu>Yes. I'm sure.
+<v Katarina Margaritu>是的。我确信。
+
+00:52:35.850 --> 00:52:52.520
+<v Chana Joffe-Walt>Katerina's boyfriend, you can hear him in the background there, he is not so sure. Actually he is absolutely sure there is no way she will get paid. And I have to say I'm with the boyfriend on this.
+<v Chana Joffe-Walt>卡塔琳娜的男朋友，你们可以在背景里听到他，他不太确定。实际上他绝对确定她不可能拿到钱。我不得不说，我同意她男朋友的看法。
+
+00:52:52.520 --> 00:53:09.910
+<v Alex Blumberg>Europe today feels like a far cry from the dream of Victor Hugo, from that exciting scene at the launch of the euro with the fireworks and the people talking about magic. Germans worry now that they are on the hook for bailing out a huge section of the continent. Half of Germans now think that the euro was bad for Germany.
+<v Alex Blumberg>今天的欧洲让人感觉距离维克多·雨果的梦想，距离欧元推出时烟花四射、人们谈论神奇的那种激动人心的场景，已经相去甚远。德国人现在担心他们被困住，要为一个大陆的巨大区域提供救助。现在一半的德国人认为欧元对德国有害。
+
+00:53:09.910 --> 00:53:16.640
+<v Chana Joffe-Walt>And that question, whether or not the euro was a good idea, is on a lot of people's minds. It came up with Katarina in Athens.
+<v Chana Joffe-Walt>关于欧元是否是一个好主意的问题，在很多人的脑海中。它在雅典和卡塔琳娜的对话中出现了。
+
+00:53:16.640 --> 00:53:19.320
+<v Katarina Margaritu>Maybe it's better to go back to drachma.
+<v Katarina Margaritu>也许回到德拉克马更好。
+
+00:53:19.320 --> 00:53:25.570
+<v Chana Joffe-Walt>The drachma is Greece's old currency. But this idea, at least to her, is a painful one.
+<v Chana Joffe-Walt>德拉克马是希腊的旧货币。但这想法，至少对她来说，是一个痛苦的想法。
+
+00:53:25.570 --> 00:53:44.240
+<v Katarina Margaritu>I like this whole European family. I like to be a member of this family. We have exchanged ideas and culture all these years being together. I don't want to leave them. It's my family now. But I don't like their currency.
+<v Katarina Margaritu>我喜欢这个整个欧洲家庭。我喜欢成为这个家庭的一员。这些年来我们在一起交换了思想和文化。我不想离开他们。他们现在是我的家人。但我不喜欢他们的货币。
+
+00:53:44.240 --> 00:53:58.890
+<v Alex Blumberg>In the effort to keep the family together there is one other thing that gets talked about all the time as the only real true solution. Create money. Get the European Central Bank to make a bunch of new euros, which the troubled countries of Europe could use to pay off their debts.
+<v Alex Blumberg>在努力维持家庭在一起的过程中，还有另一件事一直被当作唯一真正、真正的解决方案来讨论。创造货币。让欧洲央行制造一大堆新欧元，欧洲那些陷入困境的国家可以用这些钱来偿还债务。
+
+00:53:58.890 --> 00:54:17.110
+<v Chana Joffe-Walt>But the richest country in the club, the one that is calling all the shots right now, firmly does not want that. That country, of course, is Germany. Instead, Germany seems much more focused right now on fixing that old mistake, getting the rest of Europe to act more German, the way they wanted when the euro started.
+<v Chana Joffe-Walt>但俱乐部里最富有的国家，那个现在掌握话语权的国家，坚决不想那样。那个国家，当然，就是德国。相反，德国现在似乎更专注于修复那个旧的错误，让欧洲其他地区表现得更像德国，即他们欧元之初想要的那样。
+
+00:54:17.110 --> 00:54:39.470
+<v Alex Blumberg>The European Central Bank has been making tentative steps in the money-creating direction. But a lot of people say small steps are not enough. They say, in other words, the only way out of this crisis may be for Germany to become even more like the rest of Europe, not the other way around.
+<v Alex Blumberg>欧洲央行一直在向创造货币的方向迈出试探性的步伐。但很多人说小步子是不够的。换句话说，他们说，走出这场危机的唯一途径可能是让德国变得更像欧洲其他地区，而不是反过来。
+
+00:54:39.470 --> 00:54:55.110
+<v Ira Glass>That was Alex Blumberg. He and Chana Joffe-Walt and Adam Davidson and Zoe Chace are all part of Planet Money , which is an economics reporting project of This American Life and NPR News . Their podcast, where you can get reporting like this twice a week, and their blog, are at NPR.org/money.
+<v Ira Glass>那是亚历克斯·布伦伯格。他和Chana Joffe-Walt、亚当·戴维森以及Zoe Chace都是Planet Money的一部分，这是一个《This American Life》和NPR新闻的经济报道项目。他们的播客，你们可以每周两次获得这样的报道，他们的博客网址是 NPR.org/money。
+
+00:54:55.110 --> 00:55:26.160
+<v Ira Glass>[MUSIC  - "LEARN FROM YOUR MISTAKES" BY JULIAN GASKELL]
+<v Ira Glass>[音乐 - 朱利安·加斯凯尔 (Julian Gaskell) 的《从错误中学习》]
+
+00:55:26.160 --> 00:55:30.570
+<v Ira Glass>Alex, you know you have come this far.
+<v Ira Glass>亚历克斯，你知道你已经走到了这一步。
+
+00:55:30.570 --> 00:55:31.470
+<v Alex Blumberg>Don't say it.
+<v Alex Blumberg>别说那个。
+
+00:55:31.470 --> 00:55:33.460
+<v Ira Glass>Do the credits.
+<v Ira Glass>做结尾职员表。
+
+00:55:33.460 --> 00:55:52.720
+<v Alex Blumberg>All right! This American Life was produced today by me, Ben Calhoun, Sarah Koenig, Jonathan Menjivar, Lisa Pollak, Brian Reed, Robyn Semien, Alyssa Schipp, Nancy Updike, our senior producer is Julie Snyder. Seth Lind is  our production manager. Emily Condon is our office manager. Production help from Mickey Meek and Matt Kilty. Scouting help from Elma Baker, music help from Damien Grave and Rob Geddes.
+<v Alex Blumberg>好的！今天的《This American Life》由我、本·卡尔霍恩 (Ben Calhoun)、莎拉·凯尼格 (Sarah Koenig)、乔纳森·门吉瓦尔 (Jonathan Menjivar)、丽莎·波拉克 (Lisa Pollak)、布莱恩·里德 (Brian Reed)、罗宾·塞米恩 (Robyn Semien)、艾丽莎·希普 (Alyssa Schipp)、南希·厄普代克 (Nancy Updike) 制作，我们的高级制作人是朱莉·斯奈德 (Julie Snyder)。塞思·林德 (Seth Lind) 是我们的制作经理。艾米丽·康登 (Emily Condon) 是我们的办公室经理。制作协助来自米奇·米克 (Mickey Meek) 和马特·基尔蒂 (Matt Kilty)。选角协助来自埃尔玛·贝克 (Elma Baker)，音乐协助来自达米安·格雷夫 (Damien Grave) 和罗伯·格德斯 (Rob Geddes)。
+
+00:55:52.720 --> 00:56:04.030
+<v Alex Blumberg>[ACKNOWLEDGEMENTS]
+<v Alex Blumberg>[致谢]
+
+00:56:04.030 --> 00:56:16.010
+<v Ira Glass>Our website, thisamericanlife.org. This American Life is distributed by Public Radio International. WBEZ management oversight from our boss, Mr. Torey Malatia, who I overheard talking with Chana about today's decision to hand the show over to me.
+<v Ira Glass>我们的网站，thisamericanlife.org。《This American Life》由公共广播国际公司 (Public Radio International) 发行。来自我们的老板托里·马拉蒂亚 (Torey Malatia) 先生的WBEZ管理监督，我无意中听到他与Chana谈论今天把节目交给我主持的决定。
+
+00:56:16.010 --> 00:56:28.490
+<v Chana Joffe-Walt>That's so crazy. It just sounds so crazy now. I mean I understand at the time that might have made sense, but it sounds crazy now.
+<v Chana Joffe-Walt>这太疯狂了。现在听起来真的很疯狂。我的意思是，我明白当时那样做可能是有道理的，但现在听起来很疯狂。
+
+00:56:28.490 --> 00:56:33.120
+<v Pascal Lamy>That's the definition. You just gave a very good definition of a mistake.
+<v Pascal Lamy>这就是定义。你刚刚对错误给出了一个很好的定义。
+
+00:56:33.120 --> 00:56:37.890
+<v Alex Blumberg>Which is weird because when I asked him what it was like hearing me take over the show this is what he said to my face.
+<v Alex Blumberg>这很奇怪，因为当我问他听到我接管节目是什么感觉时，这就是他对我说的。
+
+00:56:37.890 --> 00:56:40.820
+<v Katarina Margaritu>It was like the Manna from heaven.
+<v Katarina Margaritu>那就像天降的甘露。
+
+00:56:40.820 --> 00:57:32.290
+<v Alex Blumberg>I'm Alex Blumberg. Come back next week for more stories of This American Life .
+<v Alex Blumberg>我是亚历克斯·布伦伯格。下周回来收听更多《This American Life》的故事。
+
+00:57:32.290 --> 00:57:37.290
+<v Announcer>PRI. Public Radio International.
+<v Announcer>PRI。公共广播国际公司。

@@ -1,0 +1,809 @@
+WEBVTT
+
+00:00:00.580 --> 00:00:14.680
+<v Ira Glass>Well, people of Earth, if I may call you that, you are probably unaware of the gathering last weekend in Orlando, Florida, that was attempting to address a problem that you also may be unaware of. I'm talking about the problem of interstellar space travel. We sent a reporter.
+<v Ira Glass>各位地球人，如果我可以这样称呼你们的话，你们大概没听说过上周末在佛罗里达州奥兰多举行的聚会，那次聚会试图解决一个你们也可能没听说过的问题。我指的是星际太空旅行的问题。我们派了一名记者前往。
+
+00:00:14.680 --> 00:00:16.730
+<v Dan Grech>This was the best assignment I've ever had.
+<v Dan Grech>这是我接过的最好的任务。
+
+00:00:16.730 --> 00:00:29.260
+<v Ira Glass>You know, it's possible that Dan Grech says this to everybody who ever asks him to do a story, I have no idea. His usual job is running the news at WLRN, the public radio station in Miami. He attended the Hundred Year Starship Conference for us.
+<v Ira Glass>要知道，Dan Grech 可能对每个请他写故事的人都这么说，我完全不知道。他的本职工作是在迈阿密公共广播电台 WLRN 负责新闻。他代表我们参加了百年星舰大会。
+
+00:00:29.260 --> 00:00:42.790
+<v Dan Grech>This was basically a bunch of scientists and engineers, finance guys, tech geeks, science fiction writers, all imagining what it would take to build a starship, a spaceship that could get us to the nearest star.
+<v Dan Grech>这基本上是一群科学家、工程师、金融人士、科技极客、科幻作家，都在设想建造一艘星际飞船需要什么，一艘能把我们带到最近恒星的太空船。
+
+00:00:42.790 --> 00:01:15.240
+<v Ira Glass>The nearest star to the sun is four light years away, and using the kind of rockets that we use now, it would take 10,000 years to get there. 10,000 years. And what was so thrilling about this conference, Dan says, was that the people at this conference were thinking through the steps of exactly how you would develop and build a different kind of starship. They believe it was the first conference of its kind. It was sponsored by NASA and by DARPA, which is the advanced research arm of the defense department, who are going to pay a half million dollars to whoever invents the most feasible time line and plan to get us to the stars.
+<v Ira Glass>离太阳最近的恒星有四光年远，如果我们使用现在这种火箭，需要 1 万年才能到达那里。1 万年。Dan 说，这次会议最令人激动的是，与会者正在仔细思考如何开发和建造一种不同类型的星际飞船。他们认为这是同类会议中的第一次。这次会议由美国国家航空航天局（NASA）和国防部下属的高级研究计划局（DARPA）赞助，后者将向任何提出最可行的时间表和计划将我们送往恒星的人支付五十万美元。
+
+00:01:15.240 --> 00:01:39.870
+<v Ira Glass>And at this conference, there were over two dozen seminars on the most basic question you face when you try to do that, how do you power a rocket that can carry you fast enough and far enough? Some of the panels considered what they called exotic science, which is the stuff that you see in sci-fi movies-- warp drives, wormholes in space-- which, in reality, apparently, would just stretch your body into infinity or crush you into a tiny speck of dust. But there was other stuff.
+<v Ira Glass>在这次会议上，有超过二十四场研讨会，探讨当你试图这样做时面临的最基本问题：如何为一艘能带你跑得足够快、足够远的火箭提供动力？一些专家组讨论了他们所谓的奇异科学，也就是你在科幻电影里看到的那些东西——曲速驱动、太空虫洞——在现实中，显然只会把你的身体拉伸到无限大，或者把你压碎成一小粒尘埃。但还有其他东西。
+
+00:01:39.870 --> 00:01:56.870
+<v Dan Grech>Well, there's a whole class of far-out solutions that are actually real physics solutions, such as the ideal photon rocket, the anti-gravity engine, the antimatter rocket. They don't go faster than the speed of light, but they do get a little bit closer.
+<v Dan Grech>嗯，有一类远见卓识的解决方案实际上是真正的物理学方案，比如理想的光子火箭、反重力引擎、反物质火箭。它们的速度虽然超不过光速，但确实让目标近了一点。
+
+00:01:56.870 --> 00:02:00.500
+<v Ira Glass>They don't go faster than the speed of light because nothing can go faster than the speed of light.
+<v Ira Glass>它们超不过光速，因为没有任何东西能超过光速。
+
+00:02:00.500 --> 00:02:08.170
+<v Dan Grech>Well, that's what physics tells us. I spoke to a Tufts physicist named Ken Olum, and I asked him what's possible.
+<v Dan Grech>好吧，物理学就是这么告诉我们的。我采访了一位名叫 Ken Olum 的塔夫茨大学物理学家，我问他什么才是可能的。
+
+00:02:08.170 --> 00:02:29.500
+<v Ken Olum>Antimatter, fusion drive, this is real stuff. It could be developed. It's a small matter of engineering, as we like to say in science. In other words, it's a huge matter of engineering. You know, we're making antimatter now. All we need is a hundred billion times more than we're making now, and we can go to the stars, right?
+<v Ken Olum>反物质、聚变驱动，这些都是真实的东西。它们可以被开发出来。用我们科学界的话说，这只是一个小小的工程问题。换句话说，这是一个巨大的工程问题。你知道，我们现在正在制造反物质。我们要做的只是比现在多制造一千亿倍，然后我们就能去往恒星了，对吧？
+
+00:02:29.500 --> 00:02:41.860
+<v Ira Glass>So then how real is that stuff? Like what's the most promising scheme that these scientists say that we would use if we wanted to travel at, or maybe just a lot closer to, the speed of light?
+<v Ira Glass>那么这些东西有多真实呢？比如，如果我们要以光速，或者至少以接近光速的速度飞行，这些科学家建议我们使用什么最可行的方法？
+
+00:02:41.860 --> 00:02:58.840
+<v Dan Grech>Well, at least according to the people I spoke to, there was kind of consensus around this idea called the light sail. It's kind of like a sailboat in space, but instead of the sail being pushed by wind, it would be pushed by light. And that could be sunlight, a laser, microwaves.
+<v Dan Grech>嗯，至少据我采访的人说，大家对一个叫“光帆”的概念达成了一定共识。它有点像太空里的帆船，但帆不是被风推动的，而是被光推动。这可以是阳光、激光或微波。
+
+00:02:58.840 --> 00:03:33.700
+<v Dan Grech>So one scheme for a light sail would be you would put this giant laser in orbit around the sun. And, you know, when I mean giant, this laser would have huge solar panels, miles wide, and it would send this concentrated beam of light to hit the sail of a space ship. The great thing about light sails is, besides the fact that they actually could work, they overcome one of the biggest limitations of rockets, which is that you have to carry around this huge volume of fuel, which is heavy, and it takes up a whole lot of room.
+<v Dan Grech>所以光帆的一种方案是，你在太阳轨道上放置一个巨大的激光器。要知道，我说的是巨大的，这个激光器会有巨大的太阳能板，宽达数英里，它会发射出一束集中的光束击中太空船的帆。光帆的优点除了它确实可行之外，还克服了火箭最大的局限之一，那就是你必须随身携带大量的燃料，这些燃料既重又占空间。
+
+00:03:33.700 --> 00:03:48.880
+<v Ira Glass>Cost of the light sail? $10 trillion, which is 1/6 of all the money spent on our planet in one year. And that's probably the cheapest interstellar spacecraft we could make. And how much energy would it take to travel at a reasonable speed?
+<v Ira Glass>光帆的成本是多少？10 万亿美元，相当于我们星球一年总支出的六分之一。这可能是我们能制造的最便宜的星际飞船。那么以合理的速度航行需要多少能量呢？
+
+00:03:48.880 --> 00:04:08.940
+<v Dan Grech>Just to give you a sense of how hard it is to get to the speed of light, if you wanted to get to 3/4 of the speed of light-- and this was told to me by a Japanese physicist at the bar, working on the back of a napkin-- he said it would take 30,000 times all the power created by all of the power plants in the world in a year. Just to go 3/4 the speed of light.
+<v Dan Grech>为了让你了解达到光速有多难，如果你想达到光速的四分之三——这是一位日本物理学家在酒吧里，在餐巾纸背面算给我看的——他说这需要全球所有发电厂一年所产电力的 3 万倍。仅仅是为了达到光速的四分之三。
+
+00:04:08.940 --> 00:04:22.230
+<v Ira Glass>What was most amazing about this conference, and you can read the agenda online, is how much of it was scientists thinking through all these utterly practical questions of traveling such immense distances on journeys that would probably take hundreds of years.
+<v Ira Glass>这次会议最令人惊叹之处，你可以在网上查到议程，是科学家们花费了大量时间思考在如此遥远的旅程中航行时那些完全实际的问题，这些旅程可能需要几百年。
+
+00:04:22.230 --> 00:04:47.190
+<v Ira Glass>Questions like, what kind of light bulb would you use that would never require replacements? How to communicate with the Earth from so far away, which is a big problem if you're two light years away. It would take a radio signal two years to make it to Earth, and then it would be another two years before you'd get a reply. And then there's the problem of space dust, which apparently is a big issue if you're traveling at, for example, a tenth of the speed of light.
+<v Ira Glass>比如，你会使用什么样的灯泡才不需要更换？如何从那么遥远的地方与地球交流，如果你在两光年之外，这是一个大问题。无线电信号传回地球需要两年，然后再过两年你才能收到回复。还有太空尘埃的问题，显然如果你以光速的十分之一航行，这是一个大问题。
+
+00:04:47.190 --> 00:05:17.530
+<v Dan Grech>When you're traveling that fast, a little speck of space dust will slam into the hull of a ship like it's a missile. And so you need to create some kind of shield. And what's interesting is that it seems like we've solved this problem. A NASA scientist named Geoffrey Landis has proposed an idea to create a plasma shield. It would be like a cloud of hydrogen in a magnetic field. You would create it, you would have it in front of your spaceship, and it would block the space dust from doing damage to the ship itself.
+<v Dan Grech>当你以那么快的速度航行时，一小粒太空尘埃撞击船体就像导弹一样。所以你需要制造某种防护罩。有趣的是，我们似乎已经解决了这个问题。一位名叫 Geoffrey Landis 的 NASA 科学家提出了一个制造等离子体盾的想法。它就像磁场中的一团氢。你制造它，把它放在飞船前面，它就能阻止太空尘埃对飞船本身造成伤害。
+
+00:05:17.530 --> 00:05:23.730
+<v Geoffrey Landis>So yeah, the plasma shield is something that is real technology, something we can make in the lab today.
+<v Geoffrey Landis>所以，是的，等离子体盾是一种真正的技术，是我们今天在实验室就能制造出来的东西。
+
+00:05:23.730 --> 00:05:30.870
+<v Dan Grech>And so, therefore, this is kind of a real, today solution to tomorrow's problem of space dust?
+<v Dan Grech>因此，这算是解决明天太空尘埃问题的一个真正的、当下的方案吗？
+
+00:05:30.870 --> 00:05:40.620
+<v Geoffrey Landis>Yes, exactly. It's a solution that we have to a problem that we have yet to encounter.
+<v Geoffrey Landis>是的，完全正确。这是我们为一个尚未遇到的问题准备的方案。
+
+00:05:40.620 --> 00:05:56.040
+<v Ira Glass>Dan says that this event did not feel like any normal scientific conference. It felt bigger. It was exciting, like we are heading for the stars. He says there was a lot of talk about Columbus and maiden voyages.
+<v Ira Glass>Dan 说，这次活动感觉不像任何普通的科学会议。它感觉更宏大。它令人兴奋，就像我们正朝着恒星前进。他说关于哥伦布和处女航的谈论很多。
+
+00:05:56.040 --> 00:06:26.560
+<v Dan Grech>This is a group of people who see themselves as pioneers. They call themselves pioneers. And one of the speakers talked about this conference, that when they look back 300 years from now, 1,000 years from now, when people are writing the history of interstellar space travel, people will look back at this conference and see this as the first small step towards interstellar space travel.
+<v Dan Grech>这是一群把自己视为先驱的人。他们自称为先驱。其中一位发言者谈到这次会议时说，当 300 年、1000 年后的人们回顾过去，当人们书写星际太空旅行的历史时，人们会回望这次会议，并将其视为迈向星际太空旅行的第一小步。
+
+00:06:26.560 --> 00:06:47.190
+<v Ira Glass>Well, today on our radio program, ordinary folks like you and me-- glasses wearing, slightly pudgy, not getting enough exercise, and I might just be talking for myself here-- who get the call of the wild, the call of adventure, and find themselves suddenly meeting criminals and smugglers on the other side of the world, traveling through time, traveling through space, fighting pirates in the fires of hell. I am not kidding.
+<v Ira Glass>今天在我们的广播节目中，像你我这样的普通人——戴眼镜、有点发福、运动不足，我也许只是在说我自己——那些感受到荒野呼唤、冒险呼唤的人，发现自己突然在世界另一端遇到了罪犯和走私者，穿越时间，穿越空间，在地狱之火中与海盗搏斗。我不是在开玩笑。
+
+00:06:47.190 --> 00:07:14.770
+<v Ira Glass>We have true stories today, and also brand new adventure stories written for our program by Dave Eggers, Neil Gaiman, Jeanne Darst, Wendy McClure, Fiona Maazel. From WBEZ Chicago, it's This American Life, distributed by Public Radio International. I'm Ira Glass. Stay with us.
+<v Ira Glass>我们今天有真实的故事，还有 Dave Eggers、Neil Gaiman、Jeanne Darst、Wendy McClure、Fiona Maazel 为我们节目撰写的全新冒险故事。这里是 WBEZ 芝加哥制作的《美国生活》，由国际公共广播电台发行。我是 Ira Glass。请留下来。
+
+00:07:14.770 --> 00:07:34.020
+<v Ira Glass>Act One, Chinese Checkmate. There are people who head out into the world looking for adventure, and then there are the adventures that come and find you. We start today's program with a story of somebody who thought he was having the first kind of adventure until the second one came knocking. Alex Blumberg tells what happened.
+<v Ira Glass>第一幕，中国将军棋。有些人走遍世界去寻找冒险，也有些冒险会自动找上你。我们从一个以为自己正在经历第一种冒险，直到第二种冒险找上门来的人的故事开始今天的节目。Alex Blumberg 讲述了发生的事情。
+
+00:07:34.020 --> 00:07:54.500
+<v Alex Blumberg>One way you know you've had an adventure is that the things you've been through are so intense, you'd like to have your name changed when they tell your story on the radio. So let me call our protagonist Luke. And the adventure he thought he was having was that he's an American, from Minnesota, working and living in one of the most booming, vibrant cities in the world-- Shenzhen, China. 15 million people, one of the richest cities in China.
+<v Alex Blumberg>判断你是否经历过冒险的一种方式是，你所经历的事情太过强烈，以至于当你的故事在电台上播出时，你都想改个名字。所以让我们称我们的主角为 Luke。他以为他正在经历的冒险是：他是一个来自明尼苏达州的美国人，在世界上最繁荣、最有活力的城市之一——中国深圳——工作和生活。1500 万人口，中国最富裕的城市之一。
+
+00:07:54.500 --> 00:08:15.380
+<v Alex Blumberg>And he loved it. He made good money, he'd built a life for himself, a life which included a semi-regular after-work pickup soccer game. Now his real adventure, the one that found him, started after one of these soccer games. He'd gone out for a drink after a game with some of the players, and around 10 PM he was heading home, walking along one of Shenzhen's wide boulevards, with outdoor cafes and noodle shops all along it.
+<v Alex Blumberg>他很喜欢那里。他赚了不错的钱，建立了自己的生活，包括一场非正式的下班后五人制足球赛。现在，他真正的冒险——那个找上他的冒险——始于一场足球赛之后。赛后他和其他球员去喝了一杯，晚上 10 点左右，他走在深圳宽阔的大道上，沿路都是露天咖啡馆和面馆。
+
+00:08:15.380 --> 00:08:25.380
+<v Luke>So I'm kicking my soccer ball, for the most part completely under control, but all of a sudden I slip, fall on my back, and the ball goes flying.
+<v Luke>当时我在踢我的足球，大部分时间完全在控制之中，但突然间我滑倒了，仰面摔倒，球飞了出去。
+
+00:08:25.380 --> 00:08:45.470
+<v Alex Blumberg>Flying directly at a man seated at one of the nearby tables. Luke is a little unclear what happened next, the ball struck either the man's bag or his dog. But in any event, the man got upset and got right in Luke's face, yelling at him in Cantonese. Luke spoke only Mandarin. The situation escalated. A group of young men also started yelling at Luke. He could hear them coming at him from behind.
+<v Alex Blumberg>直接飞向了坐在附近桌旁的一名男子。Luke 不太清楚接下来发生了什么，球击中了那个人的包或者是他的狗。总之，那个人很生气，直接冲到 Luke 面前，用粤语对他大吼大叫。Luke 只会说普通话。情况升级了。一群年轻人也开始对 Luke 大喊大叫。他能听到他们从后面冲过来。
+
+00:08:45.470 --> 00:09:18.910
+<v Luke>And instantly, boom. This punch comes, hits me in the right eye. I kind of turn around to face where it came from, and there's the victim standing right in front of me, and I headbutt him. I don't know where that came from, I'm thinking it's the soccer instinct. I'm not a fighter. I've never headbutted anybody in my entire life before. And instantly, he started bleeding, and I fled. I turned around and ran.
+<v Luke>瞬间，砰。一记重拳打过来，打在我的右眼上。我转过身面对打人的方向，那个受害者正站在我面前，我用头撞了他。我不知道这本能是从哪来的，我想这是踢球的本能。我不是个好斗的人。我这辈子从来没用头撞过任何人。瞬间，他开始流血，而我逃跑了。我转身就跑。
+
+00:09:18.910 --> 00:09:33.840
+<v Alex Blumberg>Back at his apartment, when he realized that nobody had chased him, he figured, I guess that's that. But a week later, the cops showed up at his door with the man he'd headbutted. They'd tracked him down through some of the Chinese guys he played soccer with. Turns out there aren't that many foreign white guys in Shenzhen.
+<v Alex Blumberg>回到公寓后，当他意识到没有人追他时，他想，大概就到此为止了吧。但一周后，警察带着那个被他撞头的人出现在他家门口。他们通过他一起踢球的几个中国人找到了他。事实证明，在深圳，外国人并不多。
+
+00:09:33.840 --> 00:10:00.790
+<v Alex Blumberg>Over the next few weeks, the police questioned Luke several times. And then one night, they brought him in, they said to fill out some paperwork. But instead, they locked him in handcuffs and threw him into a detention cell. Luke was confused and frightened, but not as much as you'd think, mainly because a lot of the Chinese officials and police officers who were handcuffing and processing him were also telling him that this was just a small thing, a mix-up, and that it would all be resolved pretty soon. Even the guards who locked him up that night.
+<v Alex Blumberg>接下来的几周里，警察多次审问 Luke。有一天晚上，他们把他带去，说是要填写一些文件。但相反，他们给他戴上手铐，把他扔进了拘留室。Luke 感到困惑和害怕，但并没有你想象中那么严重，主要是因为许多给他戴上手铐并处理案件的中国官员和警官也告诉他，这只是件小事，一场误会，很快就会解决的。连那天晚上把他关起来的警卫也这么说。
+
+00:10:00.790 --> 00:10:25.920
+<v Luke>It was like a Tuesday I think I went in, and they're like, we'll be back on Friday to let you know what's going on. And honestly, at that time I thought I was going to be released on Friday. I was thinking, OK, three nights, four nights, this is no problem. I'm kind of an adventurous soul. At this point, I'm still fairly calm. Like, well, I'm in a Chinese jail, this is crazy, but what a story.
+<v Luke>我想那是周二，我进去了，他们说，我们会回来的，周五会让你知道发生了什么。老实说，当时我以为我周五就会被释放。我在想，好吧，三晚，四晚，没问题。我是个爱冒险的灵魂。到目前为止，我还算相当冷静。就像，好吧，我在中国监狱里，这太疯狂了，但这真是个好故事。
+
+00:10:25.920 --> 00:10:29.180
+<v Alex Blumberg>And in the end, how long did you end up staying in this detention center?
+<v Alex Blumberg>最终，你在这个拘留中心待了多久？
+
+00:10:29.180 --> 00:10:32.920
+<v Luke>Eight months. Eight months.
+<v Luke>八个月。八个月。
+
+00:10:32.920 --> 00:10:57.940
+<v Alex Blumberg>Over the next eight months, Shenzhen Foreign Detention Center Number Three became Luke's home. The cell was a rectangle, 10 by 50 feet. Imagine a bowling alley with high concrete walls. It was occupied by as many as 15 prisoners at a time. As many as would fit slept side by side on a narrow plank. The rest slept on the floor. Half the cell was covered by an overhang, half was in open air. During storms, you couldn't hide from the rain blowing in, so everyone would get drenched.
+<v Alex Blumberg>在接下来的八个月里，深圳市第三看守所成了 Luke 的家。牢房是一个 10 英尺乘 50 英尺的长方形。想象一下一个高耸混凝土墙的保龄球馆。牢房里挤满了多达 15 名囚犯。能睡下的都侧身睡在狭窄的木板上。剩下的人睡在地上。牢房的一半有遮盖，一半露天。下雨时，你无法躲避吹进来的雨水，所以每个人都会被淋透。
+
+00:10:57.940 --> 00:11:14.140
+<v Alex Blumberg>The jail was officially for foreigners, but about half the prisoners were Chinese, mostly white-collar criminals. The foreigners were a mix. They were African drug mules, Indian jewel smugglers, people Luke would never have met otherwise, from corners of the world he would never have visited. And there were non-human residents, as well.
+<v Alex Blumberg>看守所正式是为外国人准备的，但大约一半的囚犯是中国人，大多是白领罪犯。外国人是混杂的。有非洲毒品骡子、印度珠宝走私犯，Luke 本来永远不会遇见这些来自世界角落、他永远不会去过的地方的人。这里还有非人类居民。
+
+00:11:14.140 --> 00:11:39.540
+<v Luke>The rats and the la cucarachas. This detention center was fantastic for the rats, because whenever we got done with our three meals, you'd scoop all your rice into the toilet, and so they were just all in the pipes. And if lunch was late for some reason, the rats would start squeaking, like, where's our lunch? And they'd pop out of the toilet, kind of run around a little bit, and we'd have to chase them back in.
+<v Luke>老鼠和蟑螂。这个看守所对老鼠来说太棒了，因为每当我们吃完三顿饭，你就会把所有的米饭舀进厕所，所以它们都在管道里。如果午餐因为某种原因晚了，老鼠就会开始尖叫，好像在说，我们的午餐在哪里？它们会从厕所里跳出来，跑来跑去，我们不得不把它们赶回去。
+
+00:11:39.540 --> 00:11:42.020
+<v Alex Blumberg>You'd literally chase the rats back into the toilet?
+<v Alex Blumberg>你真的会把老鼠赶回厕所里？
+
+00:11:42.020 --> 00:12:08.290
+<v Luke>Back into the toilet, yeah. There was always an Indian, because of this big Indian case, in every room, and they were definitely kind of circle of life, karma type thing, and they would not want you to kill anything, even a cockroach. So if a cockroach is running around, they don't want you to kill it. And sometimes people would respect that wish, and sometimes they wouldn't.
+<v Luke>回到厕所里，是的。每个房间里总有一个印度人，因为那起重大的印度案件，他们绝对是那种相信生命轮回和因果报应的人，他们不想让你杀死任何东西，甚至是一只蟑螂。所以如果有一只蟑螂跑来跑去，他们不想让你杀了它。有时人们会尊重这个愿望，有时则不会。
+
+00:12:08.290 --> 00:12:21.630
+<v Alex Blumberg>The day was strictly regimented. Up at 7:00, then breakfast-- thin rice water broth-- chores, an hour of what was called quiet study time, nap from 11:30 to 1:30, an hour of exercise, and then a couple hours of free time in the evening.
+<v Alex Blumberg>这一天有着严格的规定。7 点起床，然后吃早餐——稀薄的米汤——做家务，一小时所谓的安静学习时间，11:30 到 1:30 午睡，一小时锻炼，然后晚上有几个小时的自由时间。
+
+00:12:21.630 --> 00:12:44.230
+<v Alex Blumberg>Luke continued to get positive news about his case. From the beginning, it had revolved around money. The man who he'd headbutted wanted $2,000. Luke thought that was ridiculous. He thought he was the victim. He figured all he needed to do was get in front of a judge and make his case. But he'd failed to consider China's massive and mystifying bureaucracy. It took months for police to gather evidence, then months more to get a trial date.
+<v Alex Blumberg>Luke 继续得到关于他案件的好消息。从一开始，这就是关于钱的问题。那个被他撞头的人想要 2000 美元。Luke 认为这太荒谬了。他觉得自己才是受害者。他认为他只需要出现在法官面前陈述自己的理由就行了。但他低估了中国庞大而令人困惑的官僚机构。警察收集证据花了好几个月，然后又花了好几个月才定下开庭日期。
+
+00:12:44.230 --> 00:13:05.370
+<v Alex Blumberg>In theory, this detention center was supposed to be a short-term holding facility, a place to spend a couple nights before going before a judge. But there were people who'd been there for five years. Contact with the outside was rare. He had a lawyer, but he could only visit with him once every four or five weeks, same with visits from the consulate. He had no phone, no email, and he was allowed to write one letter a month.
+<v Alex Blumberg>理论上，这个看守所应该是一个短期拘留场所，一个在见法官之前待几个晚上的地方。但有人在那里待了五年。与外界的联系很少。他有一个律师，但他每四五周才能见一次，领事馆的探视也是如此。他没有电话，没有电子邮件，一个月只允许写一封信。
+
+00:13:05.370 --> 00:13:11.860
+<v Luke>Which I would always do at the end of the month, hoping to get as much information I could during that month, and then I would send it at the end of the month.
+<v Luke>我总是会在月底写信，希望能在那一个月里得到尽可能多的信息，然后在月底寄出去。
+
+00:13:11.860 --> 00:13:15.590
+<v Alex Blumberg>When you read that first letter, what do you--?
+<v Alex Blumberg>当你读那第一封信时，你——？
+
+00:13:15.590 --> 00:13:18.800
+<v Luke>Gosh, there's so much optimism.
+<v Luke>天哪，那里充满了乐观。
+
+00:13:18.800 --> 00:13:21.370
+<v Alex Blumberg>You were presenting the whole thing as like a big adventure, basically?
+<v Alex Blumberg>你基本上把整件事描绘成一场大冒险？
+
+00:13:21.370 --> 00:13:41.930
+<v Luke>Yes, yes. At that point, I'm still thinking maybe a month, maybe two months, maybe three months. I'm going to be home by Thanksgiving, Mom. And then, I'm going to be home by Christmas, Mom. Then I'm going to be home by your birthday, March 19th, Mom. Then I want to be home for my birthday, April 26th, Mom. Oh, jeez.
+<v Luke>是的，是的。在那一点上，我还在想也许一个月，也许两个月，也许三个月。妈妈，我感恩节就能回家了。然后，妈妈，我圣诞节就能回家了。然后，妈妈，我 3 月 19 日你生日就能回家了。然后我想在 4 月 26 日我生日时回家，妈妈。噢，天哪。
+
+00:13:41.930 --> 00:14:03.050
+<v Alex Blumberg>One feature of an adventure story, you don't just visit the foreign land, you go a little native. That's why tourism, as much as we'd like to pretend otherwise, is not much of an adventure. Luke settled into his strange new 500 square foot world with his new roommates. There was the mayor's son, who'd taken bribes. Another Chinese guy everyone called Tiger, who was doing five years for smuggling diesel into the country without paying taxes.
+<v Alex Blumberg>冒险故事的一个特点是，你不仅仅是去外国旅游，你还会变得有点本地化。这就是为什么旅游，尽管我们想装作不是这样，其实算不上什么冒险。Luke 和他的新室友们在他那奇怪的 500 平方英尺新世界里安顿了下来。有受贿的市长儿子。另一个被大家称为“老虎”的中国人，因为走私柴油入国未缴税而坐牢五年。
+
+00:14:03.050 --> 00:14:24.140
+<v Alex Blumberg>Then there were the foreigners. Marco, the Colombian musician with the Chinese wife, whose charges were even flimsier than Luke's. A South African drug mule named Nathan. A teenage, Vietnamese, illegal immigrant named Nunu. And a member of an Indian jewel smuggling ring who was still getting a salary and used the money to buy lots of stuff from the detention center commissary, which he shared with everyone, so they called him The Warehouse.
+<v Alex Blumberg>还有那些外国人。Marco，那个有中国妻子的哥伦比亚音乐家，他的指控比 Luke 的还要脆弱。一个叫 Nathan 的南非毒品骡子。一个叫 Nunu 的十几岁越南非法移民。还有一个印度珠宝走私团伙的成员，他还在拿工资，用这笔钱在看守所小卖部买了大量东西，分给每个人，所以他们叫他“仓库”。
+
+00:14:24.140 --> 00:14:44.120
+<v Luke>One of my favorites was Chacha. He was from Afghanistan. 45-year-old man, Muslim, big beard, jolly old fellow, kind of a Santa Claus belly. He just exuded warmth. And he was very open to the idea of-- we talked a lot about the clash of civilizations.
+<v Luke>我最喜欢的人之一是 Chacha。他来自阿富汗。45 岁的男人，穆斯林，大胡子，快乐的老家伙，有一个像圣诞老人一样的肚子。他散发着温暖。他非常乐于讨论——我们聊了很多关于文明冲突的话题。
+
+00:14:44.120 --> 00:14:50.330
+<v Alex Blumberg>So you would just have these big, sort of, political conversations about Islam and the West?
+<v Alex Blumberg>所以你们会进行这种大的、关于伊斯兰教和西方世界的政治对话？
+
+00:14:50.330 --> 00:15:04.660
+<v Luke>Yeah. It's kind of interesting to see what kind of stories he had heard about from the United States. I remember there was that big one a couple years ago in Florida, and that woman was on life support, and like his family kind of wanted to pull the plug.
+<v Luke>是的。能看到他从美国听说过什么样的故事真是很有趣。我记得几年前佛罗里达州发生的那件大事，那个妇女在生命维持系统中，他的家人想拔掉插头。
+
+00:15:04.660 --> 00:15:06.190
+<v Alex Blumberg>Right, the Terri Schiavo case.
+<v Alex Blumberg>对，Terri Schiavo 案件。
+
+00:15:06.190 --> 00:15:23.750
+<v Luke>Yeah, and he just thought that was horrible, that people would want to do that. And it's not like I'm trying to play the devil's advocate with him a lot of the time, but I'm, you know-- this is a guy that also-- just understanding these people do not-- I was really surprised about how many of these countries didn't believe the United States put a man on the moon.
+<v Luke>是的，他觉得那太可怕了，人们竟然想那样做。并不是说我一直试图跟他唱反调，但我，你知道——这是一个也——只是理解这些人并不——我真的很惊讶这些国家有多少人竟然不相信美国把人送上了月球。
+
+00:15:23.750 --> 00:15:24.380
+<v Alex Blumberg>What?
+<v Alex Blumberg>什么？
+
+00:15:24.380 --> 00:15:43.310
+<v Luke>Yeah, they do not think we put a man on the moon. The Chinese, for the most part, didn't think we did. Southeast Asian countries. Yeah, I mean, the Africans. Even the Indians, college educated Indians, and they're like, no, we're pretty much sure you guys didn't.
+<v Luke>是的，他们不认为我们把人送上了月球。大部分中国人认为我们没送上去。东南亚国家。是的，我的意思是，非洲人。甚至印度人，受过大学教育的印度人，他们说，不，我们很确定你们没上去。
+
+00:15:43.310 --> 00:16:07.430
+<v Alex Blumberg>As a big, white guy from America, Luke was pretty exotic. Everyone called him simply America. That was his nickname. And as nicknames go, it came with a lot of pressure. Luke felt like everything he did would reflect on his country. There was also a guy everyone avoided, who didn't seem to have any friends. He was a thief nicknamed Crazy Eyes. He had a reputation for stealing stuff from his cellmates. And also, he had these oozing bumps all over his body. All over.
+<v Alex Blumberg>作为一个来自美国的大块头白人，Luke 相当异国情调。每个人都简单地叫他“美国”。那是他的绰号。绰号随之而来的是很大的压力。Luke 觉得他所做的一切都会影响到他的国家。还有一个大家都在避开的人，他似乎没有任何朋友。他是个小偷，绰号“疯眼”。他有从牢友那里偷东西的名声。而且，他全身都有这种渗液的肿块。全身上下都是。
+
+00:16:07.430 --> 00:16:31.310
+<v Luke>We all have the same shorts. They are red shorts. They look identical. And it's like my fifth day in there, and I put on his shorts by accident. It was in the morning, I took off my old pair, I took his pair, and I put his on. And I didn't know it was his pair. And we don't have underwear, so I don't have underwear on, my penis is touching his penis area.
+<v Luke>我们都有同样的短裤。它们是红色的短裤。看起来一模一样。那是我在那里的第五天，我不小心穿了他的短裤。那天早上，我脱下我的旧裤子，拿了他的裤子，把它穿上。我不知道那是他的。而且我们没有内裤，所以我没穿内裤，我的阴茎接触到了他的阴茎区域。
+
+00:16:31.310 --> 00:16:52.790
+<v Luke>All of a sudden this guy realizes that someone has his shorts, and he's asking everybody, who's got my shorts? Who's got my shorts? And everyone's looking like, with big eyes, like, oh my god, someone's got bumpy penis's shorts. And I look down, and I realize I'm wearing his shorts. And yeah, that was tough.
+<v Luke>突然，这家伙意识到有人拿了他的短裤，他在问每个人，谁拿了我的短裤？谁拿了我的短裤？每个人都睁大眼睛，好像在说，天哪，有人穿了肿块阴茎的短裤。我低头一看，意识到我穿着他的短裤。是的，那太艰难了。
+
+00:16:52.790 --> 00:17:15.530
+<v Alex Blumberg>As time wore on, the day's became all the same-- boredom punctuated by the occasional spasm of extreme emotion. There were fights, mainly over snoring and hot water. Also, Luke says, you'd hear screaming in the middle of the night all the time, someone having a nightmare. And then there was lots and lots of crying, the pining of hundreds and hundreds of men, continents away from their friends, their spouses, their children.
+<v Alex Blumberg>随着时间流逝，日子变得千篇一律——枯燥中偶尔穿插着极端情绪的爆发。有打架，主要是为了打呼噜和热水的问题。此外，Luke 说，你总是能听到半夜有人尖叫，有人在做噩梦。然后还有很多很多的哭声，几百几百个男人在思念，他们远在大陆另一端的朋友、配偶和孩子。
+
+00:17:15.530 --> 00:17:36.060
+<v Alex Blumberg>And sometimes people cried because they knew that this was where they were going to die. That was the strange thing about the detention center. Aside from the visa violations and tax frauds, there were also death penalty cases. Mostly drug mules, many of them poor African kids who'd been promised quick money and then been nabbed right off the plane, thrown directly into Detention Center Number Three, where they'd stay until they were executed.
+<v Alex Blumberg>有时人们哭是因为他们知道自己将死在这里。这就是看守所奇怪的地方。除了签证违规和税务欺诈，还有死刑案件。大多是毒品骡子，许多是贫穷的非洲孩子，他们被承诺可以快钱，然后一落地就被抓，直接扔进了第三看守所，在那里等待执行。
+
+00:17:36.060 --> 00:17:42.670
+<v Luke>Anything over a kilo, yeah, you're going to have a needle put into your arm and you're going to die.
+<v Luke>超过一公斤的，是的，你的手臂上会被扎一针，然后你就会死。
+
+00:17:42.670 --> 00:17:46.230
+<v Alex Blumberg>Did you see people taken off to be executed?
+<v Alex Blumberg>你有看到人被带走去执行死刑吗？
+
+00:17:46.230 --> 00:18:06.600
+<v Luke>Yeah, just one. That was [? Shagwai ?] from Taiwan. He got caught with like seven kilos. He was kind of like a semi-famous person in the detention center. He was in with the death penalty, so he's shackled by his ankles his entire time, for almost three years, while he was in there. I still knew him, even before I got to meet him.
+<v Luke>有，就一个。那是来自台湾的 [? Shagwai ?]。他被抓时带了大约七公斤。他在看守所里算是个半名人。他被判了死刑，所以他在那里的近三年里，脚踝一直被戴着脚镣。甚至在我见到他之前，我就认识他了。
+
+00:18:06.600 --> 00:18:24.170
+<v Luke>You can't see these people, but you can hear them when they're outside the courtyard, or from 3:00 to 4:00 when we're doing our exercise. Everyone's kind of hooting and hollering quite a bit, during that time, and everyone kind of yells, [? Shagwai, ?] [? Shagwai. ?] But the way he exercised, this guy just was a machine at the end.
+<v Luke>你看不见这些人，但当他们在院子外面时，或者在 3:00 到 4:00 我们锻炼的时候，你能听到他们。那个时候每个人都在大声喊叫，每个人都在喊，[? Shagwai ?]，[? Shagwai ?]。但他锻炼的方式，这个家伙最后简直就是一台机器。
+
+00:18:24.170 --> 00:18:58.050
+<v Luke>But he would do kind of like this step up, step down, step up, step down, on the bed that we were on. And this whole time, he's got chains shackled that are on his legs. So you just hear smack smack, smack smack, smack smack. And then you hear him all the sudden, like 45 minutes into it, start getting faster. Smack, smack, smack, smack. And we would just be like, [? Shagwai ?], go, go, go, you know? [SPEAKING CHINESE], add gas.
+<v Luke>但他会在我们睡的床上做那种踏步，上下，踏步，上下。全程，他的腿上戴着铁链。所以你只能听到砰砰，砰砰，砰砰的声音。然后你会听到他突然，在大约 45 分钟后，速度开始加快。砰，砰，砰，砰。我们就会喊，[? Shagwai ?]，加油加油加油，你知道吗？加油。
+
+00:18:58.050 --> 00:19:24.660
+<v Luke>Yeah, he ended up getting carted away one morning. And we didn't know for sure, but we definitely had a different sense because this time there was like three guards that came, and one of them was the leader of the facility. But they were like, [? Shagwai, ?] and he goes out and we don't see him. He doesn't come back all day. And we pretty much knew by dinner time that it was not good. And then the next day they came back and told us they had executed him the next morning.
+<v Luke>是的，有一天早上他最终被带走了。我们不确定，但我们确实有了一种不同的感觉，因为这次有三个警卫来了，其中一个是设施的领导。但他们说，[? Shagwai ?]，他出去了，我们就再也没见到他。他一整天都没回来。到晚饭时间我们就基本知道情况不妙了。第二天他们回来告诉我们，第二天早上已经处决了他。
+
+00:19:24.660 --> 00:19:58.450
+<v Luke>I mean, I remember talking to him earlier that morning, even before he left. Because I had some apples, and he was joking that one of his apples I had eaten. And I said, well, if you think I ate one of your apples, you need to eat two of mine, or something. So he had two apples, and we would kind of joke around about that. And about five minutes later, they called him away and executed him.
+<v Luke>我的意思是，我记得那天早上甚至在他离开之前还跟他谈过。因为我有一些苹果，他开玩笑说我吃了一个他的苹果。我说，好吧，如果你觉得我吃了你一个苹果，你需要吃我两个，或者类似的话。所以他有两个苹果，我们还以此开了开玩笑。大约五分钟后，他们叫他走了，执行了死刑。
+
+00:19:58.450 --> 00:20:19.060
+<v Alex Blumberg>Because of the desperation of so many of the people that Luke met, he's uncomfortable classifying his experience as an adventure. An adventure can be a wild night in college, or a crazy trip over spring break, but what he had was definitely different from that. But in classic adventure stories, like The Odyssey, there isn't much fun. There's pain, fear, and death, and occasionally, if you're lucky, small transformations.
+<v Alex Blumberg>由于 Luke 遇到的这么多人的绝望，他不太愿意将自己的经历归类为冒险。冒险可以是大学里疯狂的一晚，或者是春假期间疯狂的旅行，但他所经历的显然与此不同。但在经典的冒险故事中，比如《奥德赛》，并没有太多乐趣。有痛苦、恐惧和死亡，偶尔，如果你幸运的话，会有小小的蜕变。
+
+00:20:19.060 --> 00:20:49.760
+<v Luke>Maybe once every two or three months, you can purchase [UNINTELLIGIBLE] like this little hot sauce condiment thing. And you have to really ration that stuff out, because you only get it every once in a while. So the idea of just little simple things like that, realizing the significance in a place like that. It's like, wow, OK, so after the new guy that just comes in slathers that stuff on, because he doesn't realize how scarce that thing really is. And it's kind of like, I was that guy for a couple months.
+<v Luke>也许每两三个月，你就可以购买 [难以理解] 像这样的小辣酱调味品。你必须真正定量分配那些东西，因为你只有偶尔才能得到。所以意识到像那样的简单事物的意义，在那样的地方。就像，哇，好吧，在那个刚进来的新家伙大口涂抹它之后，因为他不知道那东西到底有多稀缺。这就像，我有几个月就是那个家伙。
+
+00:20:49.760 --> 00:20:54.730
+<v Alex Blumberg>You were that guy for life. Like, Americans are that guy.
+<v Alex Blumberg>你当了一辈子的那个家伙。就像，美国人就是那个家伙。
+
+00:20:54.730 --> 00:21:09.850
+<v Luke>Exactly. So I saw myself kind of slowly not become that guy anymore, and just get my little spoon and put one little scoop on there, and make that last, and realize it tastes good.
+<v Luke>正是如此。所以我看到自己慢慢不再是那个家伙了，只是拿出我的小勺子，在上面放一勺，让它持续更久，并意识到它味道很好。
+
+00:21:09.850 --> 00:21:28.520
+<v Alex Blumberg>The pie chart of Luke's experience in the detention center might look like this-- 80% boring, 18% sad, 2% really weird. For instance, the prison leadership felt the need now and again to engage the detainees in morale boosting exercises. So one day, the guards came to Luke's cell with a new order.
+<v Alex Blumberg>Luke 在看守所经历的饼图可能看起来是这样的——80% 无聊，18% 悲伤，2% 非常怪异。例如，监狱领导觉得不时需要让被拘留者参加提升士气的练习。所以有一天，警卫带着一道新命令来到 Luke 的牢房。
+
+00:21:28.520 --> 00:21:59.670
+<v Luke>Every every cell needs to write a poem. You're going to do it. I'm like, all right, fine. So I write a poem, and I hand it off, and I had no idea what was going to happen with this. About three weeks later, they come and say, all right, at 3 o'clock this afternoon we're having a poetry contest. You've got to have it memorized and give it. They'd kind of set up a little stage outside, and we had a poetry contest. I won second place.
+<v Luke>每一个每一个牢房都需要写一首诗。你们必须做。我说，好吧，没问题。所以我写了一首诗，把它交上去，我完全不知道会发生什么。大约三周后，他们来说，好吧，今天下午 3 点我们有一个诗歌比赛。你们得背下来并朗诵。他们在外面搭了一个小舞台，我们举行了一场诗歌比赛。我得了第二名。
+
+00:21:59.670 --> 00:22:02.160
+<v Alex Blumberg>Who judged it?
+<v Alex Blumberg>谁担任评审？
+
+00:22:02.160 --> 00:22:22.390
+<v Luke>So there was a panel of elite judges. No, it was maybe five people. There was two of the leaders, I think they brought over a couple leaders from the other detention centers to watch. So I don't know, they take a lot of pictures, they're going to put it in these little pamphlets and say, this is a model detention center, is what they keep saying.
+<v Luke>所以有一个精英评委小组。不，可能也就五个人。有两个领导，我想他们带了其他看守所的几个领导来看。所以我不知道，他们拍了很多照片，他们要把它放进这些小册子里说，这是一个模范看守所，这就是他们一直说的。
+
+00:22:22.390 --> 00:22:26.610
+<v Alex Blumberg>I sort of want to get you to recite your poem for us.
+<v Alex Blumberg>我有点想让你为我们朗诵你的诗。
+
+00:22:26.610 --> 00:22:55.690
+<v Luke>All right. So let's see here. I'll start off with, so-- you, you, him and her. You, you, him and I. Billions upon billions of souls in this world, what brought us together, and why? Destiny, fate, a higher purpose or power, all I want to know is when can I shower? From the cradle of humanity, pride, length and strength, from Halong Bay to UCLA, we've all ended up here. Bending when one must, for who can contest fate.
+<v Luke>好的。那么让我们看看。我从，那么——你，你，他和她。你，你，他和我也。这个世界上亿万亿万的灵魂，是什么把我们聚集在一起，为什么？命运，天命，更高的目的或力量，我只想知道什么时候能洗个澡？从人类的摇篮，骄傲，长度和力量，从下龙湾到加州大学洛杉矶分校，我们最终都到了这里。当一个人必须屈服时，又有谁能对抗命运。
+
+00:22:55.690 --> 00:23:24.980
+<v Luke>Leave your possessions, positions, and ambitions at home, and temporarily quit the human race. How long can we stay? The fairies with the stars won't say. It all depends on your money, your [UNINTELLIGIBLE], and your case. And that's it. And then roaring, roaring applause. No. And then they kind of look at you with a blank stare, OK, he's done. And I'm like, [SPEAKING CHINESE], then they clap.
+<v Luke>把你所有的财产、职位和野心留在家里，暂时退出人类种族。我们可以待多久？那些星星仙子不会说。这全取决于你的钱，你的 [难以理解]，还有你的案子。这就是全部。然后是轰鸣的，轰鸣的掌声。没有。然后他们有点用空洞的眼神看着你，好吧，他做完了。我像，[中文]，然后他们拍手。
+
+00:23:24.980 --> 00:23:27.920
+<v Alex Blumberg>It's very much drawn from personal experience, it sounds like.
+<v Alex Blumberg>听起来这确实源于个人经历。
+
+00:23:27.920 --> 00:23:42.080
+<v Luke>Well, yeah. I tried to nail every person that was in the room. We had the Canadian, I had the Indian, we had the Cameroonian. From the cradle of humanity, pride, length and strength.
+<v Luke>嗯，是的。我试着点出房间里的每一个人。我们有加拿大人，我有印度人，我们有喀麦隆人。从人类的摇篮，骄傲，长度和力量。
+
+00:23:42.080 --> 00:23:44.360
+<v Alex Blumberg>The Cameroonian guy was tall?
+<v Alex Blumberg>那个喀麦隆人很高？
+
+00:23:44.360 --> 00:23:51.690
+<v Luke>Yeah, and strong.
+<v Luke>是的，而且强壮。
+
+00:23:51.690 --> 00:24:06.850
+<v Alex Blumberg>By New Year's Eve, after being told one more month, one more month, over and over again, Luke had reached a low point. This wasn't a good story anymore. He was miserable. He was ready to go home. And that, of course, is when the most memorable moment of his entire incarceration happened.
+<v Alex Blumberg>到新年前夕，在一次又一次被告知再等一个月，再等一个月之后，Luke 达到了一个低谷。这不再是一个好故事了。他很痛苦。他准备回家了。当然，也就是在那时，他整个监禁期间最难忘的时刻发生了。
+
+00:24:06.850 --> 00:24:27.850
+<v Alex Blumberg>It was called the Spring Welcome Performance, a facility-wide, on-stage variety show. Since so many of the foreign prisoners spoke English, the center's leaders wanted one of the MCs to speak English as well. Based on his strong showing in the poetry contest, they chose Luke. He agreed. And he also agreed to do a performance. He just wasn't sure what. He couldn't sing or play an instrument.
+<v Alex Blumberg>那叫“春节欢迎演出”，一场全设施范围的舞台综艺节目。由于许多外国囚犯会说英语，看守所的领导也想让其中一位主持人说英语。基于他在诗歌比赛中的出色表现，他们选择了 Luke。他同意了。他还同意表演节目。他只是不确定表演什么。他不会唱歌，也不会乐器。
+
+00:24:27.850 --> 00:25:00.700
+<v Luke>Then I came up with the wonderful idea of the hokey pokey dance, because I could do it with three other people. It wasn't exactly the group, but it was Chacha behind me, and Nunu, the Vietnamese boy, and Indian, The Warehouse. You know, three guys behind me, and me kind of lead vocals, choreographing this-- you know, you put your right hand in, you put your right hand out. And we had a blast kind of practicing that, because they allowed us to practice that for a couple weeks before it, in our cell, during our quiet study time.
+<v Luke>然后我想出了一个绝妙的 Hokey Pokey 舞蹈主意，因为我可以和另外三个人一起跳。这不完全是那个团体，但有我身后的 Chacha，那个越南男孩 Nunu，还有印度人，“仓库”。你知道，我身后三个人，我负责主唱，编排这个——你知道，你伸出你的右手，你收回你的右手。我们在排练这个的时候玩得很开心，因为他们在之前几周允许我们在牢房里，在安静学习时间里排练。
+
+00:25:00.700 --> 00:25:13.540
+<v Alex Blumberg>So if you would've-- like from 3:00 to 4:00 during this time, you would have seen you, a Vietnamese teenager named Nunu, an Afghan drug smuggler named Chacha--
+<v Alex Blumberg>所以如果你当时——比如在 3:00 到 4:00 期间，你会看到你，一个叫 Nunu 的越南少年，一个叫 Chacha 的阿富汗毒品走私犯——
+
+00:25:13.540 --> 00:25:14.200
+<v Luke>Correct.
+<v Luke>正确。
+
+00:25:14.200 --> 00:25:21.470
+<v Alex Blumberg>And then an Indian diamond smuggler named The Warehouse, doing the hokey pokey.
+<v Alex Blumberg>然后还有一个叫“仓库”的印度钻石走私犯，在跳 Hokey Pokey。
+
+00:25:21.470 --> 00:25:49.260
+<v Luke>Yeah. You put your butt in, you put your butt out, you put your butt in, and you shake it all about. They bought a suit for me as the MC. It was like the first time I actually got to wear shoes in six months, seven months. And as an MC, what part of my job was was to introduce each of these skits. And I didn't have to write the introductions for them, they would just kind of hand it to me, and they wanted me to memorize them.
+<v Luke>是的。你把屁股伸进去，你把屁股收回来，你把屁股伸进去，然后你摇晃它。他们为我买了一套西装作为主持人。那是我六、七个月来第一次真正穿上鞋子。作为主持人，我的工作的一部分是介绍这些短剧。我不必写介绍词，他们会直接递给我，他们希望我背下来。
+
+00:25:49.260 --> 00:26:03.290
+<v Luke>So this was like a traditional American dance done at most holidays. Americans have a great sense of humor. Well, here's one of their traditional American dances that they do at most holidays. Yeah, and it's called the hokey pokey.
+<v Luke>所以这就像是美国大多数节日里表演的传统舞蹈。美国人很有幽默感。好吧，这是他们大多数节日里表演的传统美国舞蹈之一。是的，它叫 Hokey Pokey。
+
+00:26:03.290 --> 00:26:05.230
+<v Alex Blumberg>We gather around the Christmas tree.
+<v Alex Blumberg>我们围着圣诞树跳。
+
+00:26:05.230 --> 00:26:06.330
+<v Luke>I'm like sure, I don't know.
+<v Luke>我心想，好吧，我不知道。
+
+00:26:06.330 --> 00:26:12.750
+<v Alex Blumberg>It's funny when you talk about it, it seems like a really fond memory.
+<v Alex Blumberg>当你谈论它时，它似乎成了一段非常美好的回忆，这很有趣。
+
+00:26:12.750 --> 00:26:42.570
+<v Luke>Yeah, I mean it's-- looking back, and seeing Chacha, The Warehouse, and Nunu dancing. I mean, there was times where my sides hurt so bad from laughing. And maybe four times-- three, four times?-- I can recall actually having that moment where I was just laughing so hard. And you know, it's just, you don't hear laughter much in that detention center at all, and it just feels really good when you have a moment like that.
+<v Luke>是的，我的意思是——回顾过去，看到 Chacha、“仓库”和 Nunu 在跳舞。我的意思是，有好几次我的侧腹因为大笑而痛得厉害。也许四次——三次，四次？——我能记得真正有那么一刻，我笑得太厉害了。你知道，在那个看守所里你根本听不到多少笑声，当你拥有那样一刻时，感觉真的很好。
+
+00:26:42.570 --> 00:26:58.110
+<v Alex Blumberg>A couple months after the Spring Welcome Performance, Luke was finally released from the detention center through the help of a family friend with lots of connections in China. And it turns out, Luke had been thinking about his case all wrong from the beginning. He'd been thinking, I just need to get before a judge and plead my case.
+<v Alex Blumberg>在春节欢迎演出几个月后，通过一个在中国有很多人脉的家庭朋友的帮助，Luke 终于从看守所被释放了。结果证明，Luke 从一开始就把他的案子想错了。他一直认为，我只需要站在法官面前陈述我的理由就行了。
+
+00:26:58.110 --> 00:27:19.040
+<v Alex Blumberg>But the Chinese process is different. The two sides basically bargain with each other. It's like a mediation which the police broker. He should have been negotiating a price that he felt he could pay the man he headbutted, and that would have been justice. Once he got sent to the detention center, it was too late. And Luke realized the guy he headbutted was probably just as confused by Luke's behavior as Luke was by his.
+<v Alex Blumberg>但中国的程序不同。双方基本是在互相讨价还价。这就像是警方斡旋的调解。他应该协商一个他认为可以支付给那个被他撞头的人的价格，那才是正义。一旦他被送到看守所，就太晚了。Luke 意识到那个被他撞头的人对 Luke 的行为可能和他对那个人的行为一样困惑。
+
+00:27:19.040 --> 00:27:26.790
+<v Luke>You know, me being like, oh, OK, well, I'll see you in court then. And this guy never showed up in court.
+<v Luke>你知道，我当时像，噢，好吧，那我们法庭见。而这个家伙从来没有出现在法庭上。
+
+00:27:26.790 --> 00:27:29.100
+<v Alex Blumberg>Right, and he didn't even want you to go to court, right?
+<v Alex Blumberg>对，而且他甚至不想让你去法庭，对吧？
+
+00:27:29.100 --> 00:27:34.590
+<v Luke>Yeah, he wanted money. And he didn't get any money out of me at the end, so it's--
+<v Luke>是的，他想要钱。最后他没从我这里拿到任何钱，所以——
+
+00:27:34.590 --> 00:27:40.700
+<v Alex Blumberg>But in the end, now knowing what you-- like if you had to do it all over again, you would have just paid him in the beginning?
+<v Alex Blumberg>但在最后，现在知道了你——如果你能重来一次，你一开始就会付钱给他？
+
+00:27:40.700 --> 00:27:42.070
+<v Luke>Yeah.
+<v Luke>是的。
+
+00:27:42.070 --> 00:27:43.450
+<v Alex Blumberg>No question?
+<v Alex Blumberg>毫无疑问？
+
+00:27:43.450 --> 00:27:52.070
+<v Luke>Yeah, I mean, if someone says, you've got to spend eight months in Chinese prison, or give this guy $2,000, you give the guy $2,000.
+<v Luke>是的，我的意思是，如果有人说，你要么在中国监狱里待八个月，要么给这个人 2000 美元，你会给那个人 2000 美元。
+
+00:27:52.070 --> 00:27:59.770
+<v Alex Blumberg>And yet, and this might be one of the best definitions of an adventure, even though Luke wouldn't do it again, he's glad it happened.
+<v Alex Blumberg>然而，这可能是对冒险最好的定义之一，即使 Luke 不会再做一次，他很高兴它发生了。
+
+00:27:59.770 --> 00:28:07.320
+<v Luke>Yeah. I'll go on the record as saying, yeah. You do start to see or appreciate other things.
+<v Luke>是的。我可以在记录上说，是的。你开始看到或欣赏其他事情。
+
+00:28:07.320 --> 00:28:15.880
+<v Alex Blumberg>Do you ever find yourself missing it?
+<v Alex Blumberg>你有没有发现自己想念它？
+
+00:28:15.880 --> 00:28:39.310
+<v Luke>Gosh, that's a tough question. You know, the camaraderie that you get to have with those people, you know, the stories, the opening up. Like, I don't think I'm ever going to get to know another Muslim-- I mean, I hope I do, but-- as much as I did with Chacha. I mean, you spend every single hour with this guy for four or five months, you really get to know this person as a person.
+<v Luke>天哪，那是个很难的问题。你知道，你与那些人建立的友情，你知道，那些故事，敞开心扉。我的意思是，我不认为我以后还会再认识另一个穆斯林——我是说，我希望会——像我认识 Chacha 那样多。我的意思是，你和这个家伙一起度过四五个月里的每一个小时，你真的会把这个人当作一个人来了解。
+
+00:28:39.310 --> 00:28:50.820
+<v Alex Blumberg>It's this weird thing where like, in order to get that kind of connection, it requires like a deep amount of discomfort or unpleasantness that sort of goes along with it, you know what I mean? To form like that kind of connection.
+<v Alex Blumberg>这是一件奇怪的事情，就像为了建立那种联系，它需要伴随着某种程度的深度不适或不愉快，你明白我的意思吗？形成那种联系。
+
+00:28:50.820 --> 00:29:13.880
+<v Luke>Yeah, you know, everybody's suffering, we're all suffering. When you're actually going to the bathroom right in front of somebody. There's no walls, I mean, you're talking to them. You're still having a conversation with some guy with his shorts down. And we're talking about everything. And so, yeah, I guess in a sense, I do miss those kind of connections with people.
+<v Luke>是的，你知道，每个人都在受苦，我们都在受苦。当你真的在某人面前上厕所时。没有墙，我的意思是，你在和他们说话。你还在和一个脱下短裤的家伙交谈。我们在谈论一切。所以，是的，我想在某种意义上，我确实想念那种与人的联系。
+
+00:29:13.880 --> 00:29:41.070
+<v Alex Blumberg>It's so easy to imagine nearly anyone else in the same situation feeling bitter and resentful, like they shouldn't be treated this way. But talking to Luke, he never complains, never seems to feel sorry for himself. If someone had to represent our country in Detention Center Number Three in Shenzhen, China, he's maybe the perfect person. A sturdy, open-minded Minnesotan, nicknamed America.
+<v Alex Blumberg>在同样的情况下，很容易想象几乎任何其他人都会感到苦涩和怨恨，觉得他们不应该受到这样的对待。但与 Luke 交谈时，他从不抱怨，似乎从不为自己感到难过。如果有人必须在中国深圳第三看守所代表我们的国家，他也许是最完美的人选。一个坚强、思想开明的明尼苏达人，绰号“美国”。
+
+00:29:41.070 --> 00:29:49.550
+<v Ira Glass>Alex Blumberg. He's one of the producers of our show and one of the creators of Planet Money, which you could find at NPR.org/money.
+<v Ira Glass>Alex Blumberg。他是我们节目的制作人之一，也是 Planet Money 的创始人之一，你可以在 NPR.org/money 找到它。
+
+00:29:49.550 --> 00:30:07.320
+<v Ira Glass>Coming up, how to outwit 17th century pirates and other adventure stories, in a minute, from Chicago Public Radio and Public Radio International, when our program continues.
+<v Ira Glass>接下来，如何智斗 17 世纪的海盗和其他冒险故事，一分钟后，来自芝加哥公共广播电台和国际公共广播电台，当我们的节目继续时。
+
+00:30:07.320 --> 00:30:28.770
+<v Ira Glass>Act Two, Oh the Places We'll Go. We thought that any adventure show would be incomplete without the kind of old-fashioned adventure stories where people are swept out of the most ordinary lives when a visiting, you know, wizard shows up one day, or they head through the back of a wardrobe and they end up in some totally extraordinary place, encountering things that they have never ever even imagined.
+<v Ira Glass>第二幕，哦，我们要去的地方。我们认为任何冒险节目如果没有那种老式的冒险故事都会是不完整的，那些故事里的人在某一天巫师出现时，或者他们穿过衣柜后面，进入了一些完全非凡的地方，遇到他们从未想象过的事情，从而被卷出了最普通的生活。
+
+00:30:28.770 --> 00:30:44.930
+<v Ira Glass>So we asked five writers to write us very short stories, just a couple pages for each story, that do just that. And we present those to you now. In order, you will hear stories by Dave Eggers, Jeanne Darst, Wendy McClure, Fiona Maazel, and Neil Gaiman.
+<v Ira Glass>所以我们请了五位作家为我们写非常短的故事，每个故事只有几页，做到了这一点。我们现在把它们呈现给你们。按顺序，你们将听到 Dave Eggers、Jeanne Darst、Wendy McClure、Fiona Maazel 和 Neil Gaiman 的故事。
+
+00:30:44.930 --> 00:31:01.530
+<v Dave Eggers>When I was a kid in the suburbs of Chicago, adventure meant Quetico Provincial Park, up on the border of Minnesota and Canada. The name implies that the place was small, but Quetico is a million acre nature preserve, so big you could go days and days without seeing another soul.
+<v Dave Eggers>当我在芝加哥郊区还是个孩子时，冒险意味着明尼苏达州和加拿大边境上的 Quetico 省立公园。这个名字暗示那个地方很小，但 Quetico 是一个一百万英亩的自然保护区，大到你可以好几天见不到另一个灵魂。
+
+00:31:01.530 --> 00:31:27.430
+<v Dave Eggers>We would go on camping trips up there, weeks of canoeing and portaging, seeing bears and moose and deer, sleeping under star-soaked skies. The park was isolated and so pristine that you could actually drink the water straight from the lakes. But I won't be going back to Quetico anytime soon. Not after what happened to a girl name Francis Brandywine.
+<v Dave Eggers>我们会去那里露营，几周的划独木舟和背负式跋涉，看到熊、驼鹿和鹿，睡在繁星密布的夜空下。公园与世隔绝，原始到你可以直接喝湖里的水。但我近期不会再回 Quetico 了。不是在发生了一个叫 Francis Brandywine 的女孩的事情之后。
+
+00:31:27.430 --> 00:31:55.190
+<v Dave Eggers>Francis was 17 at the time, black haired and with a reckless nature, determined always to leave the well-trod path, to break new ground and be alone. A few years ago, Francis was up in Quetico with her family. They were in a remote part of the park, camped on the shore of one of the deeper lakes, a lonely body of water carved millions of years ago by a passing glacier. The deep part of this particular lake was rumored to be about 300 feet.
+<v Dave Eggers>Francis 当时 17 岁，黑发，性格鲁莽，总是下定决心要离开人迹罕至的道路，开辟新天地并独自一人。几年前，Francis 和她的家人在 Quetico。他们在公园的一个偏远地区，在其中一个较深的湖岸上露营，这是一个数百万年前由冰川经过而雕刻出来的孤独水体。据传这个特定湖泊的深水区大约有 300 英尺深。
+
+00:31:55.190 --> 00:32:06.530
+<v Dave Eggers>One night, after her family went to bed, Francis took the row boat out, planning to find a quiet spot in the middle of the lake, lay on the bench of the boat, look up at the sky, and maybe write in her journal.
+<v Dave Eggers>一天晚上，家人上床睡觉后，Francis 划着小船出去，打算在湖中央找个安静的地方，躺在船凳上，抬头看天空，也许在她的日记里写写东西。
+
+00:32:06.530 --> 00:32:29.370
+<v Dave Eggers>So she left the shore, rowed for about 20 minutes, and when she felt satisfied that she was over the lake's deepest spot, she lay down on the bench and looked up at the night sky. The stars were very bright, and the aurora borealis was shimmering like a neon lasso. She was feeling very peaceful.
+<v Dave Eggers>所以她离开了岸边，划了大约 20 分钟，当她感到满足于自己就在湖泊最深处上方时，她躺在凳子上看着夜空。星星非常明亮，极光像霓虹套索一样闪烁。她感到非常平静。
+
+00:32:29.370 --> 00:32:52.050
+<v Dave Eggers>Then she heard something strange. It was like a knock. Clop, clop. She sat up, guessing that the boat had drifted to shore and run aground. But she looked around the boat, and she was still a half mile from shore. She leaned over the side to see if she'd hit anything, but she saw nothing-- no log, no rocks. She lay back down.
+<v Dave Eggers>然后她听到了一些奇怪的声音。就像敲击声。哒，哒。她坐了起来，猜测船已经漂到岸边搁浅了。但她看了看船周围，她离岸边还有半英里。她俯身去看是否撞到了什么东西，但她什么也没看到——没有圆木，没有岩石。她又躺了下来。
+
+00:32:52.050 --> 00:33:19.940
+<v Dave Eggers>She told herself it could be any number of things, a fish, a turtle, a stick that had drifted under the boat. She relaxed again and soon fell into a contented reverie. She had just closed her eyes when she heard another knock. This time it was louder, a crisp plop, plop, plop, like the sound of someone knocking hard on a wooden door, except this knocking was coming from the bottom of the boat.
+<v Dave Eggers>她告诉自己那可能是任何事情，一条鱼，一只乌龟，一根漂到船底下的树枝。她又放松下来，很快陷入了满足的沉思。她刚闭上眼睛就听到了另一次敲击声。这次更响了，清脆的砰，砰，砰，就像有人在用力敲木门的声音，除了这敲击声来自船底。
+
+00:33:19.940 --> 00:33:48.360
+<v Dave Eggers>Now she was scared. She leaned over the side again. It had to be an animal. But what kind of animal would knock like that, three quick, loud knocks in rapid succession? Her mouth went dry. She held onto each side of the boat, and now she could only wait to see if it happened again. The silence stretched out. A few minutes passed, and just as she began to think she'd imagined it all, the knocks came again, but this time louder. Bam, bam, bam.
+<v Dave Eggers>现在她害怕了。她又俯身去看。那肯定是一种动物。但什么动物会那样敲击，三声急促、响亮的连续敲击？她的嘴干了。她抓住船的两侧，现在她只能等待看它是否会再次发生。沉默延伸开来。几分钟过去了，就在她开始以为自己全是因为想象时，敲击声再次传来，这次更响了。砰，砰，砰。船的地板随着每次敲击而摇晃。现在她太震惊了，开始做出不明智的决定。第一个是将其中一支桨放入黑水中，试图感受是否有某种陆地，甚至是她能触碰到的某种生物。桨刚一破开水面，她就感觉到另一端有一种强有力、无声的拉力，桨被拉到了水下。
+
+00:33:48.360 --> 00:34:11.820
+<v Dave Eggers>She had to leave. She lunged for the oars. She got them in place and began rowing. The water was very calm, so she should've made quick progress. But after rowing feverishly, she looked around, and she realized that she wasn't moving at all. Something was keeping her exactly where she was.
+<v Dave Eggers>她尖叫，她向后跳，现在她别无选择。她只能坐着，希望，等待——等待早晨到来，等待即将发生的事情发生。敲击声贯穿了整个夜晚。她把时间花在她的笔记本上，也正是因为这个笔记本，我们才知道那天晚上发生了什么。Frances 无法告诉我们。她再也没有出现过。
+
+00:34:11.820 --> 00:34:37.530
+<v Dave Eggers>Again she tried rowing, she rowed and rowed on the verge of tears, but she went nowhere. She stopped. She was exhausted. Her heavy breathing filled the air. She cried. She sobbed. But soon she calmed herself again, and the boat was silent again, for 10 minutes, then 20.
+<v Dave Eggers>船在第二天被发现，除了日记，空无一物。在那些页面上是她疯狂的记录，全部用她独特的笔迹写成，除了最后一页。当找到日记时，那一页还是湿的，上面有四个字，看起来像是用泥泞的手指快速写下的。上面写着，“是我先敲的。”
+
+00:34:37.530 --> 00:35:13.320
+<v Dave Eggers>Again, she tricked herself into thinking she'd imagined it all. But just like before, just when she was beginning to get a grip on herself, the knocking came again, this time as loud as a bass drum. Boom, boom, boom. The floorboards of the boat shook with each knock. Now she was so shaken she started making questionable decisions. The first was to lower one of the oars into the black water, trying to feel if there was some land mass, even some creature she could touch. As soon as the oar broke the water's surface, though, she felt a strong, silent tug at the other end, and the oar was pulled under.
+<v Dave Eggers>Stink Tooth 出生时有一颗乳牙，下面没有恒牙，而且那颗乳牙从未掉落。它正在腐烂和死亡，她的五个姐妹开始叫她 Stink Tooth。很快她的父母也这样叫她，然后镇上的每个人也都这样叫她。没人谈论过看牙医把它拔掉。你得继续生活。即使腐烂的东西就在你的鼻子底下，你也要继续生活。
+
+00:35:13.320 --> 00:35:39.050
+<v Dave Eggers>She screamed, she jumped back, and now she had no options. All she could do was sit, and hope, and wait-- wait for the morning to come, wait for whatever was going to happen to happen. The knocking went on through the night. She passed the time writing in her notebook, and it's only because of this notebook that we know what happened that night. Frances can't tell us. She was never seen again.
+<v Dave Eggers>44 岁时，她做了她唯一做过的事情，在威斯康星州 Superior 市的法式小酒馆 Rouge a Levres sur un Couchon（猪肉上的口红）收拾盘子。她从未加薪。她见过其他收拾盘子的人被提升为服务员，但她绝对不想成为服务员。服务员都是法国人，没有一个是合法在那里的。如果你是合法的，你不会待在 Superior。
+
+00:35:39.050 --> 00:36:18.600
+<v Dave Eggers>The boat was found on shore the next day, empty but for the journal. On those pages were her frantic jottings, all written in her distinctive handwriting, all but the last page. When the journal was found, that page was still wet, and on it were four words, looking as if they'd been written quickly, with a muddy finger. They said, "I did knock first."
+<v Dave Eggers>她没有足够的钱生活。她从盘子里吃东西，当她把它们拿到厨房时。当然，每个人都这么做，所有年轻的非法收拾盘子的伙计。但她也没有足够的酒和香烟。通常，当她烟用完了，她就关灯去睡觉。她需要加薪。
+
+00:36:18.600 --> 00:36:44.820
+<v Jeanne Darst>Stink Tooth was born with a baby tooth with no adult tooth underneath it, and the baby tooth had never fallen out. It was rotting and dead, and her five sisters began calling her Stink Tooth. Soon her mother and father called her that, and then everyone in their town did, as well. No one ever talked about seeing a dentist and pulling it. You carry on. Even though something is decaying right under your nose, you carry on.
+<v Jeanne Darst>她到了餐馆，找到了老板 Blouson。“先生，我需要加薪，”她说。Blouson 忽略了这一点。
+
+00:36:44.820 --> 00:37:10.210
+<v Jeanne Darst>At 44, she did the only thing she'd ever done, bus tables at Rouge a Levres sur un Couchon-- lipstick on a pig-- the French bistro in town in Superior, Wisconsin. She'd never gotten a raise. She'd seen other bus people promoted to waiter, but she definitely did not want to be a waiter. The waiters were all French, not a single one here legally. If you were legal, you didn't stick around Superior.
+<v Jeanne Darst>“你为什么不学法语，Stink Tooth？你在这工作这么久了。”
+
+00:37:10.210 --> 00:37:27.280
+<v Jeanne Darst>She didn't have enough to live on. She ate off plates when she got them into the kitchen. Sure, everyone did that, all the young illegal bus boys. But she also didn't have enough booze and cigarettes. And often, when she ran out of cigarettes, she would just shut off the lights and go to sleep. She needed a raise.
+<v Jeanne Darst>“我不喜欢学新东西。在我看来，这会让你变得脆弱。”
+
+00:37:27.280 --> 00:37:34.770
+<v Jeanne Darst>She got to the restaurant and found Blouson, the owner. "Sir, I need a raise," she said. Blouson ignored this.
+<v Jeanne Darst>“好吧，那本身就很法国。你很懒。你喜欢打盹，不是吗？你的技能很一般、模糊，就像一个烟雾缭绕的房间，不确定什么是真，谁在哪里。你确实说法语，非常好，只是不是那种语言。这就是这样。你理解我们法国人所谓的‘不幸的味道’。你喜欢受苦。”
+
+00:37:34.770 --> 00:37:39.410
+<v Jeanne Darst>"Why don't you learn French, Stink Tooth? You've worked here so long."
+<v Jeanne Darst>“也许吧，先生，但我还是想加薪。”
+
+00:37:39.410 --> 00:37:43.610
+<v Jeanne Darst>"I don't like to learn new things. It makes you vulnerable in my opinion."
+<v Jeanne Darst>突然，街上传来呼喊和咯咯笑声，一群来自 17 世纪伊斯帕尼奥拉岛的海盗打破了 Rouge a Levres sur un Couchon 的门，挥舞着剑，打破桌子，砸碎窗户。Stink Tooth 注意到掠夺者肮脏的脸和手，他们时期完美的、破烂的、飘逸的衬衫，当他们烧掉椅子并到处扔餐桌中心装饰品时。“我今晚永远不会离开这里了。”
+
+00:37:43.610 --> 00:38:02.980
+<v Jeanne Darst>"Well, that in itself is very French. You're lazy. You love to nap, no? Your skill set is general, hazy, like a smoky room, not sure what is what, who is where. You do speak French, very well, just not the language. C'est sa. You understand what we French call the gout de maleur , the taste for misery. You love to suffer."
+<v Jeanne Darst>他们大喊他们正在寻找西班牙莱奥波德的著名宝藏。Stink Tooth 忽略了他们，走来走去到厨房拿扫帚清理破碎的窗户，然后又走回去因为她忘了拿簸箕。他们要求知道谁负责餐馆。Blouson 大喊，“我负责。这是我的餐馆。”海盗们忽略了他，审视了这个地方，推测 Stink Tooth 显然负责，因为她是店里最有男子气概、最像男人的生物。
+
+00:38:02.980 --> 00:38:07.880
+<v Jeanne Darst>"Perhaps, sir, but I'd still like a raise."
+<v Jeanne Darst>他们举起并指向他们皱巴巴发黄的地图，上面写着 Sullen 宝藏埋在餐馆下面。他们告诉 Stink Tooth，作为餐馆的领导者，他——他们叫她“他”——需要把所有顾客赶出去，这样他们才能烧掉这个地方来挖掘宝藏。“烧掉这个地方？”Stink Tooth 说，“我成年后大部分时间都想烧掉这个地方。火柴在接待台上。”
+
+00:38:07.880 --> 00:38:41.970
+<v Jeanne Darst>Suddenly, shouting and cackles were heard out on the street, and a crew of 11 pirates from 17th century Hispaniola broke down the door of Rouge a Levres sur un Couchon, brandishing swords, breaking tables, and smashing windows. Stink Tooth took note of the marauders' filthy faces and hands, their period-perfect, tattered, billowy shirts, as they burned chairs and flung centerpieces everywhere. "I'm never getting out of here tonight."
+<v Jeanne Darst>他们开始点燃火把，这时他们的领队 Treadwell 船长尖叫，“停！停！我问你们所有人，他为什么这么急着烧掉这个地方？他已经拿到了战利品。宝藏显然在别处。”其中一名船长的人抓着 Blouson 的头发把他拖到 Stink Tooth 站的地方。他威胁说如果 Stink Tooth 不告诉他们他把宝藏转移到了哪里，就砍掉 Blouson 的头。Stink Tooth 穿过摆动的厨房门，回来把一把刀递给海盗。“这是 Oxo，”她说，“比你手里拿的那个更好抓握。”
+
+00:38:41.970 --> 00:39:15.020
+<v Jeanne Darst>They yelled that they were looking for the famous treasure of Leopold the Sullen of Spain. Stink Tooth ignored them, walking back and forth to the kitchen to get a broom to clean up the broken windows, and then back again because she forgot her dustpan. They demanded to know who was in charge of the restaurant. Blouson yelled, "I am in charge. This is my restaurant." The pirates ignored him, surveying the place and surmising that Stink Tooth was clearly in charge, as she was the most manly, masculine creature in the joint.
+<v Jeanne Darst>Treadwell 船长，觉得斩首并不能打动 Stink Tooth，怒视着。“Stink Tooth，你会告诉我们那个 Sullen 宝藏在哪里，否则我们就砍掉你所有顾客的手臂，”Treadwell 说。
+
+00:39:15.020 --> 00:39:40.580
+<v Jeanne Darst>They held up and pointed to their crinkly yellowed map, which said the Sullen treasure was buried under the restaurant. They told Stink Tooth that, as the leader of the restaurant, he-- they called her he-- needed to get all the customers out, so that they could burn the place to the ground to dig for the treasure. "Burn this place to the ground?" Stink Tooth said, "I've wanted to burn this place to the ground for most of my adult life. Matches are in the hostess podium."
+<v Jeanne Darst>“如果问我的话，那听起来工作量很大，”Stink Tooth 说。
+
+00:39:40.580 --> 00:40:17.710
+<v Jeanne Darst>They began lighting torches when their leader, Captain Treadwell, yelled, "Stop! Stop! Why, I ask you all, is he so eager to torch the place? He's already gotten to the booty. The treasure is clearly somewhere else." One of the captain's men grabbed Blouson by the hair and dragged him across the floor to where Stink Tooth was standing. He threatened to cut off Blouson's head if Stink Tooth didn't tell them where he had relocated the treasure. Stink Tooth walked through the swinging kitchen doors and came back and handed the pirate a knife. "It's an Oxo," she said, "better grip than what you've got there."
+<v Jeanne Darst>Treadwell 命令海盗开始。“你想让我从哪里开始，Stink Tooth？”
+
+00:40:17.710 --> 00:40:31.220
+<v Jeanne Darst>Captain Treadwell, feeling that decapitation wasn't impressing Stink Tooth, glared. "Stink Tooth, you will tell us where that Sullen treasure is, or we will cut off the arms of all your customers," Treadwell said.
+<v Jeanne Darst>“是的，实际上，前门旁边的 12 号桌。那个真正的盘子清洁工。我在这里工作这么多年，他从来没剩下一点炸薯条让我带回家。你为什么不从他开始？他叫 Ted Turk。”其中一名海盗把 Ted Turk 拖到 Stink Tooth 面前，在他手臂上放了一把大刀。
+
+00:40:31.220 --> 00:40:36.650
+<v Jeanne Darst>"That sounds like an awful lot of work, if you ask me," Stink Tooth said.
+<v Jeanne Darst>“嘿，Ted。”
+
+00:40:36.650 --> 00:40:41.630
+<v Jeanne Darst>Treadwell ordered the pirates to begin. "Anywhere in particular you'd like me to start, Stink Tooth?"
+<v Jeanne Darst>“嘿，Stink Tooth。”
+
+00:40:41.630 --> 00:41:00.050
+<v Jeanne Darst>"Yeah, actually, table 12 by the front door. Real plate cleaner, that one. Has never so much left a few frites for me to take home in all the years I've worked here. Why don't you start with him? His name's Ted Turk." One of the pirates dragged Ted Turk over to Stink Tooth and put a large blade at his arm.
+<v Jeanne Darst>“疯狂的一天。”
+
+00:41:00.050 --> 00:41:01.860
+<v Jeanne Darst>"Hey there, Ted."
+<v Jeanne Darst>“噢天哪，是的，”Ted 说。
+
+00:41:01.860 --> 00:41:03.780
+<v Jeanne Darst>"Hey, Stink Tooth."
+<v Jeanne Darst>“他们要砍掉你的手臂，Ted。”
+
+00:41:03.780 --> 00:41:05.330
+<v Jeanne Darst>"Crazy day."
+<v Jeanne Darst>“他们就是这么说的，不是吗？”
+
+00:41:05.330 --> 00:41:07.870
+<v Jeanne Darst>"Oh god, yeah," said Ted.
+<v Jeanne Darst>Treadwell 船长尖叫着让两人闭嘴。他考虑了一个新计划，因为残害和杀害其他人对她没用。
+
+00:41:07.870 --> 00:41:10.560
+<v Jeanne Darst>"They're going to cut off your arms, Ted."
+<v Jeanne Darst>“人们总是想做事情，”Stink Tooth 对 Ted 说。“做，做，做。这很迷人吗？做事情？这是生活方式吗？奋斗，流汗，寻找？Treadwell，你以为会有人因为这些努力而记得你吗？好吧，是的，杀戮、残害、劫掠，都是真正的热量燃烧者，我承认。但算了吧。这也只是毫无意义。这很傻，孩子们，真的。所有的这些努力都有点令人尴尬。太明显和空洞了。一天工作结束时，你醉酒孤独，憎恨这个世界，就像我一样。不需要任何努力也能得到同样的结果。”
+
+00:41:10.560 --> 00:41:12.920
+<v Jeanne Darst>"That's what they're saying, isn't it?"
+<v Jeanne Darst>海盗们面面相觑，擦去眼里的汗水，揉了揉下背部，终于放下了他们的剑。他们走向前门，一个破烂的海盗把他的鹦鹉释放到苏必利尔湖上空的夜空中。
+
+00:41:12.920 --> 00:41:21.400
+<v Jeanne Darst>Captain Treadwell screamed for both of them to put a lid on it. He considered a new plan, since maiming and killing others wasn't working with her.
+<v Jeanne Darst>Treadwell 船长从门口对她喊回来。“我可以为你拔掉那颗牙，小姑娘。”
+
+00:41:21.400 --> 00:42:04.430
+<v Jeanne Darst>"People are always wanting to do things," Stink Tooth said to Ted. "Do, do, do. This is glamorous? Doing things? This is any way to live? Striving, sweating, searching? Treadwell, you think anyone's going to remember you for all this effort? OK, yes, slaughtering, maiming, pillaging, all real calorie burners, I'll give you that. But come on. It's also just pointless. This is silly, boys, really. All this exertion's a bit embarrassing. It's so obvious and empty. At the end of the work day, you're drunk and alone and hating the world, just like me. The same results can be had with no effort at all."
+<v Jeanne Darst>“抱歉，船长，”她说，“这颗牙就是我的身份。”
+
+00:42:04.430 --> 00:42:19.070
+<v Jeanne Darst>The pirates look at each other, wipe the sweat from their eyes, and rub their lower backs, finally lowering their swords. They head out the front door, one battered pirate releasing his parrot into the night sky over Lake Superior.
+<v Jeanne Darst>顾客们从桌底和洗手间里出来。他们一个接一个地拍着她的背，握着她的手，感谢她救了他们，没有人靠得太近。这些人认识她一辈子了。他们知道不要靠得太近。Stink Tooth 看着 Blouson。
+
+00:42:19.070 --> 00:42:23.720
+<v Jeanne Darst>Captain Treadwell called back to her from the door. "I can pull that tooth for you, lassie."
+<v Jeanne Darst>“我很抱歉，Stink Tooth。没有加薪。不。”
+
+00:42:23.720 --> 00:42:29.470
+<v Jeanne Darst>"Sorry, Captain," she said, "this tooth is who I am."
+<v Jeanne Darst>天知道为什么 Cornelius 叔叔同意让我双胞胎哥哥 Kirby 和我来他的联排别墅访问，当时他正忙于完善他最新的秘密发明。这并不是说我们没有其他亲戚愿意在我们父母为了旅行而离开时照顾我们，这种情况经常发生。
+
+00:42:29.470 --> 00:42:46.550
+<v Jeanne Darst>The customers emerge from under tables and the bathroom. One by one they pat her on the back and shake her hand, thanking her for saving them, no one getting too close to her. These people have known her her whole life. They know not to get too close. Stink Tooth looks at Blouson.
+<v Jeanne Darst>在负责照顾我们的半打古怪叔叔阿姨中，Cornelius 叔叔是最健忘的。他也是唯一一个没有商船、机器人或中国人作为仆人的人。所以他忽略锁上三楼房间的门，那个他叮嘱我们绝对不要进入的房间，一点也不奇怪。
+
+00:42:46.550 --> 00:42:58.300
+<v Jeanne Darst>"I'm sorry, Stink Tooth. No raise. Non. "
+<v Jeanne Darst>那是一个雨天早晨，我们厌倦了玩纸牌，所以我们踮着脚尖走下走廊去参观那个秘密房间，正如我们很快发现的，那是一个塞满了精巧电线和玻璃旋钮的管家餐具室。
+
+00:42:58.300 --> 00:43:18.190
+<v Cristin Milioti>Heaven only knows why Uncle Cornelius agreed to let my twin brother Kirby and me come for a visit in his rambling townhouse, when he was so busy working to perfect his latest secret invention. It's not like we didn't have other relatives willing to take us in whenever our parents absconded to the Orient for a spell, which was often.
+<v Cristin Milioti>“天哪，”Kirby 宣布，“这是一台时间机器。”
+
+00:43:18.190 --> 00:43:42.570
+<v Cristin Milioti>Of the half dozen eccentric uncles and aunts charged with looking after us, Uncle Cornelius was the most absent-minded. He was also the only one who didn't have a Merchant Marine, a robot, or a Chinaman for a servant. So it was hardly a surprise that he neglected to lock the door to the third floor room, the one that he'd instructed us never to enter.
+<v Cristin Milioti>Kirby 的猜测很幸运。据任何人所知，管家餐具室可能是一个进入另一个维度的入口，除了平行现实绝对更像 Emily 姑妈的专长，而时间机器看起来太像 Cornelius 叔叔了，他目前正穿着石棉睡袍匆忙跑下走廊。
+
+00:43:42.570 --> 00:43:57.980
+<v Cristin Milioti>It was a rainy morning, and we were sick of playing cribbage, so we tiptoed down the hall to visit the secret room, which, as we soon discovered, was a butler's pantry filled with an elaborate assortment of wires and glass knobs.
+<v Cristin Milioti>“孩子们，不要碰任何东西，”他叫道。“嗯，除了那边那个正在发出一种电气嗡嗡声的巨大杠杆，”他补充道。“试试那个。”
+
+00:43:57.980 --> 00:44:06.770
+<v Cristin Milioti>"By god," Kirby declared, "it's a time machine."
+<v Cristin Milioti>Kirby 等不及了。“嘿嘿皮皮！”他伸手去拿开关时惊呼道。“我们走吧。”
+
+00:44:06.770 --> 00:44:27.290
+<v Cristin Milioti>This was a lucky guess on Kirby's part. For all anyone knew, the butler's pantry could have been a portal into another dimension, except that alternate realities were definitely more Great Aunt Emily in specialty, whereas a time machine just seemed so Uncle Cornelius, who was presently hurrying down the hall in his asbestos bathrobe.
+<v Cristin Milioti>“等等，”Cornelius 叔叔叫道。他伸手进管家餐具室的一个橱柜里，拿出一把银器。“拿这些肉汤匙中的一个，”他叫道。“把它放在你的口袋里，不管你做什么，都不要离开——”但就在这时，Kirby 拉动了开关，一道蔚蓝色的光芒闪过，在我们意识到之前，我们都站在原始沼泽中看着巨大的腕龙游过。
+
+00:44:27.290 --> 00:44:38.910
+<v Cristin Milioti>"Children, don't touch anything," he cried. "Well, except for that giant lever over there that's making a sort of electrical humming noise," he added. "Try that."
+<v Cristin Milioti>“好刺激！”Kirby 喊道。“就像我们在地质课上读到的一样。”
+
+00:44:38.910 --> 00:44:46.420
+<v Cristin Milioti>Kirby couldn't wait. "Hikey pikey!" he exclaimed as he reached for the switch. "Let's go."
+<v Cristin Milioti>“科学家对恐龙的说法是正确的，”Cornelius 叔叔宣布。“最后我们有了证据。而且证明了我的发明可行。”他用拖鞋拍打着一只路过的翼龙。“离开这个地方足够了。抓住你们的勺子，孩子们。让我们回到我们所属的好旧 1949 年。”
+
+00:44:46.420 --> 00:45:08.880
+<v Cristin Milioti>"Wait," called Uncle Cornelius. He reached inside one of the pantry cabinets and drew out a fistful of silverware. "Take one of these bouillon spoons," he cried. "Put it in your pocket, and whatever you do, don't leave the--" but just then, Kirby pulled the switch, there was a flash of cerulean light, and before we knew it, we were all standing in a primordial swamp watching massive brontosauri swim by.
+<v Cristin Milioti>我的肉汤匙在手里开始发麻，有点像一个快乐蜂鸣器，在我意识到之前，我们回到了餐具室。在那次史前时代的第一次旅行之后，我们每天有好几次时间旅行。只是，很难说一天是什么了，因为我们的时间旅行在现实中从不超过几秒钟，这意味着 Kirby、Cornelius 叔叔和我吃完早餐，然后花两周时间在，比如说，阿卡迪亚帝国，然后我们回到我们离开前放在烤面包机里的热吐司，吃着它，同时 Cornelius 叔叔询问我们关于美索不达米亚人发明灌溉系统的问题。
+
+00:45:08.880 --> 00:45:13.370
+<v Cristin Milioti>"Hot zig!" cried Kirby. "Just like we read in geology class."
+<v Cristin Milioti>尽管如此，我开始珍惜我们旅程之间的小时刻。我渴望普通日子里的纯粹平庸，这种平庸一次又一次地被冒险打断。我开始想，如果我能回到过去一两天，去拜访我自己，并说服那个版本的我自己和 Kirby 以及我的叔叔一起旅行，而我留在现在阅读 Trixie Belden 会怎样。
+
+00:45:13.370 --> 00:45:32.870
+<v Cristin Milioti>"The scientists are right about dinosaurs," proclaimed Uncle Cornelius. "At last we have proof. And proof that my invention works." He swatted at a passing pterodactyl with one of his slippers. "Enough of this place. Grasp your spoons, children. Let's return to good old 1949 where we belong."
+<v Cristin Milioti>此外，我只是不确定我们是否应该玩弄时空连续体，就像那是 Kirby 的化学装置之类的东西。但每当我提起时间膨胀和狭义相对论时，Cornelius 叔叔就会说，“你想看看那些问太多问题的小女孩长大后会变成什么样吗？如果你不闭上那张嘴，年轻女士，你会在 1960 年代成为一个老姑娘。”
+
+00:45:32.870 --> 00:46:21.410
+<v Cristin Milioti>My bouillon spoon began to tingle in my hand, sort of like a joy buzzer, and before I knew it, we were back in the pantry. After that first trip to prehistoric times, we had several time travel journeys a day. Except, it was hard to tell what a day was anymore, since our time travels never lasted more than a few seconds in the present, which meant Kirby and Uncle Cornelius and I would have breakfast and then spend two weeks in, say, the Acadian empire, then we'd return to the hot toast that we'd put in the toaster before we left, which we'd eat while Uncle Cornelius quizzed us about the Mesopotamian's invention of irrigation systems.
+<v Cristin Milioti>直到我发现枕头下有一张纸条写着，“我不回来了”，用我自己的笔迹写的，我知道我必须做点什么。或者更确切地说，我已经在一个显然更有勇气的未来做过某事。所以当 Kirby 和 Cornelius 叔叔在厨房里涂抹他们早上的第 74 片吐司时，我向我们从 19 世纪带回来的客鸽 Fibber McGee 告别，把我的纸条和肉汤匙留在床上。然后我最后一次走进管家餐具室去为自己偷一点时间。
+
+00:46:21.410 --> 00:46:47.750
+<v Cristin Milioti>All the same, I began to savor the little moments in between our journeys. I craved the sheer ordinariness of the ordinary day that was interrupted again and again by adventure. I began to wonder if I could travel just a day or two into the recent past so that I could visit myself and convince that version of myself to travel with Kirby and my uncle, while I remained in the present and read Trixie Belden.
+<v Cristin Milioti>2010 年 5 月 11 日。我们坐着一辆敞篷吉普车从阿什哈巴德前往 Derweze，我和 lodge 里的一些伙计。路看起来就像有人把他的靴子拖过沙漠，然后说，“希望这管用。”
+
+00:46:47.750 --> 00:47:09.620
+<v Cristin Milioti>Plus, I just wasn't sure if we should be playing with the space-time continuum like it was Kirby's chemistry set or something. But whenever I brought up time dilation and special relativity, Uncle Cornelius would say, "Do you want to see how little girls who ask too many questions grow up? You'll spend the 1960s as a spinster if you don't zip that lip, young lady."
+<v Cristin Milioti>Hubert 戴着医用口罩。Orville 在呕吐。我觉得沙子满裤子里，心想，这就是土库曼斯坦。我们的向导 Weppa 每隔几秒钟就站起来，张开双臂说，“在你们面前，所有的土地都是肮脏的，沙漠。”他的肤色像牛肉干，虽然他看起来足够好。
+
+00:47:09.620 --> 00:47:56.770
+<v Cristin Milioti>It wasn't until I found a note under my pillow that said, "I'm not coming back," written in my own handwriting, that I knew I had to do something. Or rather, that I had already done something in a future where I clearly had more nerve. And so while Kirby and Uncle Cornelius were in the kitchen, buttering their 74th piece of toast of the morning, I said goodbye to Fibber McGee, the passenger pigeon we had brought back from the 19th century, and left my note on my bed along with my bouillon spoon. And then I went into the butler's pantry one last time to steal a moment for myself.
+<v Cristin Milioti>去年这个时候，我们正在机场旁边的纽瓦克湾钓鱼。问题是，Orville 的甲状腺被螃蟹里的多氯联苯毁了，Hubert 的肺部感染了什么东西，可能是因为所有的喷气燃料。所以他们的医生说，“去一个温暖干燥的地方疗伤。”Lodge 贴着一则广告，关于永恒的火和需要灭火的人。其他一些伙计已经报名并走上了这条路。广告上说，成功充满怀疑。提供午餐。
+
+00:47:56.770 --> 00:48:11.260
+<v John Conlee>May 11, 2010. We're in an open jeep from Ashgabat to Derweze, me and some of the boys from the lodge. The road looks like someone dragged his boot through the desert and went, "Hope this works."
+<v John Conlee>“沙漠之舟，”当我们为路上的骆驼停下来时，Weppa 说。我们要去地狱之门。1971 年，一些地质学家在钻探天然气时，他们的钻机沉进了一个有两个大型喷气式客机那么大的洞里。他们当时的思考是有毒气体渗入空气，还有什么，噢上帝，我们做了什么？地质学家决定把它点燃。40 年后，它还在燃烧。
+
+00:48:11.260 --> 00:48:41.500
+<v John Conlee>Hubert's wearing a hospital mask. Orville's throwing up. I feel the sand all up in my drawers and think, so this is Turkmenistan. Our guide, Weppa, stands up every few seconds, throws out his arms, and says, "All lands are squalid before you, the desert." His complexion's like beef jerky, though he seems nice enough.
+<v John Conlee>上周，Hubert 问它是不是像烧烤坑，像那种夏威夷肉洞，我说，“当然，就像那样。”我们都没有灭火经验，但我确实在飞机上读了一些资料。
+
+00:48:41.500 --> 00:49:19.140
+<v John Conlee>Last year at this time, we were fishing the Newark Bay right by the airport. Trouble was, Orville got his thyroid trashed from PCBs in the crab, and Hubert caught something in the lungs, maybe from all the jet fuel. So their doctors said, "Go heal in a warm dry place." There was an ad up at the lodge, something about immortal fire and men needed to put it out. Some of the other boys had already signed up and come this way. The ad said, Success full of doubt. Lunch provided.
+<v John Conlee>我们从 Yerbent 接了一个人。他戴着一团金属箔，看起来像那样。“游牧民族，”Weppa 介绍说。
+
+00:49:19.140 --> 00:49:48.250
+<v John Conlee>"Ship of the desert," says Weppa as we stop for a camel in our path. We're going to the hell gate. In 1971, some geologists were drilling for gas when their rig sank into a hole the size of two jumbo jets. Their thinking then was toxic fumes leeching into the air, and something like, oh god, what have we done? The geologists decided to set it on fire. 40 years later, it's still on fire.
+<v John Conlee>游牧民族说，“看着陨石坑，你们将向地狱中壮丽永恒的热红火焰求爱。”
+
+00:49:48.250 --> 00:50:05.600
+<v John Conlee>Last week, Hubert asked if it was like a barbecue pit, like one of those Hawaiian meat caves, and I said, "Sure, it's just like that." None of us has any firefighting experience, but I did some reading on the plane.
+<v John Conlee>我的旅游指南上说，灭掉天然气火的方法是钻进煤层并用水和泥浆淹没它，用氮气泡沫覆盖它。我想所有这些东西都在现场，但为了以防万一，我们每个人的背包里都有迷你泡沫灭火器。太阳已经下山了，所以远处能看到光。事实上，整个天空被照亮了数英里，像一座城市。
+
+00:50:05.600 --> 00:50:13.170
+<v John Conlee>We pick up a guy from Yerbent. He's wearing a mop of tinsel, it looks like. "Nomad," says Weppa, by way of introduction.
+<v John Conlee>Orville 说，“也许他们有自来水，和晕车药，还有一名医院护士。”
+
+00:50:13.170 --> 00:50:26.320
+<v John Conlee>The nomad says, "Watching the crater, you will be courting hot, red flame of magnificent eternity in hell."
+<v John Conlee>Weppa 摇了摇头。“没有城市，”他站起来说。“地狱洞。所有人在你面前鞠躬，地狱洞。”我和伙计们盯着那从地球上升起的光，像一个倒过来的灯罩。它发出的金光比红光多，也许这就是圆顶被炸掉的诺克斯堡。但当我们靠近并停车，我们三个人开始走向足球场大小的陨石坑，陨石坑像那些看起来不错但其实并不怎么样的女士一样召唤我们，我的脸被热浪击中，我们还离着码远。
+
+00:50:26.320 --> 00:50:48.820
+<v John Conlee>It says in my travel guide the way to put out a natural gas fire is to drill into the coal and flood it with water and slurry, smother it with nitrogen foam. I figure all this stuff's at the site, but for good measure, we all have mini-foamers in our packs. The sun has gone down, so there's light visible in the distance. In fact, the whole sky's lit up for miles, like a city.
+<v John Conlee>陨石坑没有被围起来——我敢打赌警戒线一直都在融化——所以你可以直接走到边缘，而你所看到的是诅咒本身。200 英尺的垂直落差，火焰在星空中啪啪作响，还有一种像死亡一样的声音，炎热而贴近你的耳朵，低语着你好。
+
+00:50:48.820 --> 00:50:55.050
+<v John Conlee>Orville says, "Maybe they got running water, and Dramamine, and a hospital nurse."
+<v John Conlee>我没看到任何灭掉这团火的设备。我确实看到 Weppa 和游牧民族在和 Orville 以及 Hubert 挣扎，说着土库曼斯坦总统想封住这个洞，但他们绝不让任何人封住这个洞。人的折磨就在那个洞里。它可能应该留在那个洞里。不要随意摆弄这个洞的设计。
+
+00:50:55.050 --> 00:51:31.080
+<v John Conlee>Weppa shakes his head. "No city," he says, standing up. "Hell hole. All men bow before you, hell hole." Me and the boys stare at the light come up from the Earth like a lampshade upside down. It glows more gold than red, maybe what Fort Knox is with the dome blown off. But as we get closer and park, and all three of us start walking towards the crater, the size of a football field, the crater calling out to us like those ladies who seem nice but then not so much, my face gets blasted with the heat, and we're still yards away.
+<v John Conlee>Weppa 推了我一把。游牧民族在大喊，“洞里有骨头！”含义是，看看从 lodge 来想要征服我们的洞的美国男人们会发生什么？这就解释了为什么 Edwin 和 Francis 以及 Charles 没有回来。
+
+00:51:31.080 --> 00:51:53.870
+<v John Conlee>The crater's not roped off-- the cordon kept melting, I bet-- so you can walk right up to the edge, and what you see is damnation itself. A 200 foot drop, flames snapping at the stars, and a sound like death, hot and close in your ear, whispering hello.
+<v John Conlee>他们让我们走向一块悬在陨石坑口上方的木板。这木板是耐火的，我想。我 67 岁了，臀部不好，所以我不会想，跑。而且无论如何，在 Dune，游牧牧民带着骆驼和一支来自 Yerbent 的军队出现了。我们被包围了。我看着伙计们。我去拿我的迷你泡沫灭火器，瞄准我们的俘虏。
+
+00:51:53.870 --> 00:52:20.040
+<v John Conlee>I don't see any equipment to put out this fire. What I do see are Weppa and the nomad struggling with Orville and Hubert, saying something about the president of Turkmenistan wanting to close the hole, but no way are they letting anyone close the hole. The torment of man is in that hole. It should probably stay in that hole. Do not tinker with the design of the hole.
+<v John Conlee>伙计们也做了同样的事，当我发出我们在 lodge 用来宣布晚餐的叫声时，他们知道这意味着什么。这意味着，命运在等待。射击。我们照做了。骆驼很快就跑了。游牧民族说得很强硬，但他也不见了。回到吉普车上，我告诉伙计们，我们在这里做的事情真的没有任何意义。在一个地方熄灭人的折磨，它会在别的地方升起。
+
+00:52:20.040 --> 00:52:45.350
+<v John Conlee>Weppa nudges me forward. The nomad is yelling, "There are bones in the hole!" The implication being, see what happens to American mens from lodge who come to vanquish our hole? This explains why Edwin and Francis and Charles didn't come back.
+<v John Conlee>我告诉我的妻子我要写关于冒险的东西，她笑了两分钟没有停。我为她计时。她从 11:09 一直笑到 11:11。“你打算告诉他们，”当她平静下来，多多少少停止笑时她说，“关于你如何把每一次去商店都称为冒险吗？”我告诉她我不会，我打算为广播写一些丰富、真实且美妙的东西。
+
+00:52:45.350 --> 00:53:11.280
+<v John Conlee>They've got us headed for a plank that juts over the mouth of the crater. The plank is fire resistant, I guess. I'm 67 with a bum hip, so it's not like I'm thinking, run. And anyway, come up at Dune, nomadic shepherds on camel and an army from Yerbent. We are surrounded. I look at the boys. I go for my mini-foamer and take aim at our captors.
+<v John Conlee>里面会有外星人，史前怪物，阿兹特克人和吸血鬼，疯狂的科学家和他们漂亮的女儿。它将在 700 字中包含间谍和剑客、神谕和野蛮人、鬼魂、跳舞的熊、明智的女人、狼人、一英尺长的食肉蜈蚣，以及很可能有一些非法性行为。
+
+00:53:11.280 --> 00:53:54.360
+<v John Conlee>The boys do the same, and when I let out the cry we use at the lodge to announce dinner, they know what it means. It means, destiny awaits. Shoot. And we do. The camels are out of there in no time. The nomad talks tough, but he's out of there too. Back in the jeep, I tell the boys, there really is no point to what we're doing here. Snuff out the torment of man in one place, it'll just rise up someplace else.
+<v John Conlee>她还是笑了。我觉得她不相信我。她是对的。恐怕我是从我父母那里继承来的。在我家里，冒险倾向于被用来指代我们幸存下来的任何小不幸，甚至是任何脱离常规的事情，除了我母亲，她仍然用它来指代她那天早上做的事情。
+
+00:53:54.360 --> 00:54:20.640
+<v Neil Gaiman>I told my wife that I was going to write about adventures, and she laughed without stopping for two minutes. I timed her. She laughed from 11:09 until 11:11. "Are you going to tell them," she said when she pulled herself together and more or less stopped laughing, "about how you call every trip to the store an adventure?" I told her that I wasn't, that I was going to write something rich, and true, and wonderful for the radio.
+<v Neil Gaiman>我怀疑我父亲，他热爱 G. K. Chesterton 的散文，一定遇到过 Chesterton 的格言：不便只是被错误看待的冒险，而冒险只是被错误考虑的不便，他把它铭记在心。所以任何不便、任何问题、任何个人性质的斗争，我家里描述的任何这些事情都会被称为冒险。
+
+00:54:20.640 --> 00:54:42.190
+<v Neil Gaiman>There would be aliens in it, and prehistoric monsters, Aztecs and vampires, crazed scientists and their beautiful daughters. It would contain, somewhere in its 700 words, spies and swordsmen, oracles and barbarians, ghosts, a dancing bear, wise women, werewolves, foot-long carnivorous centipedes, and quite possibly some illicit sex.
+<v Neil Gaiman>承认吧。真正的冒险是我们大多数人宁愿避免的那种事情。如果我坐的飞机坠毁在亚马逊恐龙山谷，或者傅满洲在我的方向释放了他的厄运蜈蚣，我不知道该怎么办。可能我会死，死得很快而且相当恐怖。我小说中的一个角色 Tristan Thorn 对此的表达比我和我家里的任何成员都好。“冒险在它们的位置上都很不错，”他想，“但对于规律的饮食和免于痛苦而言，还有很多可说的地方。”
+
+00:54:42.190 --> 00:55:10.410
+<v Neil Gaiman>She still laughed. I don't think she believed me. And she's right. I get it from my parents, I'm afraid. In my family, adventure tended to be used to mean any minor mishap we survived, or even any break from routine, except by my mother, who still uses it to mean what she did that morning.
+<v Neil Gaiman>Neil Gaiman。在他之前我们按顺序听到了 Dave Eggers、Jeanne Darst、朗读 Wendy McClure 故事的 Cristin Milioti，以及朗读 Fiona Maazel 故事的 John Conlee。感谢他们所有人。
+
+00:55:10.410 --> 00:55:39.260
+<v Neil Gaiman>I suspect that my father, who loved G. K. Chesterton's essays, had encountered Chesterton's aphorism that an inconvenience is only an adventure looked at the wrong way, and an adventure only an inconvenience wrongly considered, and he took it to heart. So any inconvenience, any problem, any struggle of a personal nature, any of these things in my family would be described as an adventure.
+<v Neil Gaiman>嗯，我们的节目今天由 Robyn Semien 制作，Ben Calhoun、Sarah Koenig、Jonathan Menjivar、Lisa Pollak、Alissa Shipp 和 Nancy Updike 参与。我们的高级制作人是 Julie Snyder。制作帮助来自 [? Micky Meek. ?]。Seth Lind 是我们的制作经理。Emily Condon 是我们的办公室经理。来自 Damien Grey 和 Rob [? Geddes. ?] 的音乐帮助。我们的网站，thisamericanlife.org。
+
+00:55:39.260 --> 00:56:26.660
+<v Neil Gaiman>Let's admit it. Real adventures are the sorts of things most of us would just as soon avoid. I wouldn't know what to do if I were on a plane that crashed into an Amazonian dinosaur valley, or a Fumanchu unleashed his centipedes of doom in my general direction. Probably I'd die, quickly and fairly horribly. A character in one of my novels, Tristan Thorn, put this better than I or any of my family members ever managed to. "Adventures were all very well in their place," he thought, "but there's a lot to be said for regular meals and freedom from pain."
+<v Neil Gaiman>[鸣谢]
+
+00:56:26.660 --> 00:57:12.280
+<v Ira Glass>Neil Gaiman. Before him we heard, in order, Dave Eggers, Jeanne Darst, Cristin Milioti reading a story by Wendy McClure, and John Conlee reading a story by Fiona Maazel. Thanks to all of them.
+<v Ira Glass>《美国生活》的一位长期制作人要离开了。Jane Feltes 2003 年作为实习生在这里开始工作，然后 2004 年以制作人身份成为正式员工。多年来，她的感性以无数方式塑造了我们的节目，让数百个故事变得更好，任何特别追求乐趣的节目——我们今年夏天的游乐园节目，圣诞节目，万圣节节目——那些通常都是 Jane。我们已经很想念她了。
+
+00:57:12.280 --> 00:57:29.350
+<v Ira Glass>Well, our program was produced today by Robyn Semien, with Ben Calhoun, Sarah Koenig, Jonathan Menjivar, Lisa Pollak, Alissa Shipp, and Nancy Updike. Our senior producer's Julie Snyder. Production help from [? Micky Meek. ?] Seth Lind is our production manager. Emily Condon's our office manager. Music help from Damien Grey, from Rob [? Geddes. ?] Our website, thisamericanlife.org.
+<v Ira Glass>她的新工作是 The Hair Pin 的作家和联合编辑，如果你从未访问过，那是一个写得非常好的网站。你可以在那里找到她，名字叫 Jane Marie。地址是 thehairpin.com。
+
+00:57:29.350 --> 00:57:31.870
+<v Ira Glass>[ACKNOWLEDGEMENTS]
+<v Ira Glass>《美国生活》由国际公共广播电台发行。我们节目由老板 Torey Malatia 管理监督，他对我的表现不太满意。
+
+00:57:31.870 --> 00:57:56.800
+<v Ira Glass>One of the longtime producers here at This American Life is moving on. Jane Feltes started here as an intern in 2003 and then came on staff as a producer in 2004. Her sensibility has shaped our show in countless ways over the years, made hundreds of stories better, and any show that was especially out for fun-- our amusement park show this summer, Christmas shows, Halloween shows-- those were usually Jane. We miss her already.
+<v Ira Glass>你为什么不学法语，Stink Tooth？你在这工作这么久了。
+
+00:57:56.800 --> 00:58:09.570
+<v Ira Glass>Her new job is as a writer and co-editor of The Hair Pin, which, if you've never visited, is a really nicely-written site. You can find her there under the name Jane Marie. That is at thehairpin.com.
+<v Ira Glass>我是 Ira Glass。下周回来会有更多《美国生活》的故事。
+
+00:58:09.570 --> 00:58:18.520
+<v Ira Glass>This American Life is distributed by Public Radio International. WBEZ management oversight for our program by our boss, Mr. Torey Malatia, who is not happy with my performance.
+<v Ira Glass>PRI 国际公共广播电台。
+
+00:58:18.520 --> 00:58:22.350
+<v Jeanne Darst>Why don't you learn French, Stink Tooth? You've worked here so long.
+<v Jeanne Darst>你怎么不学学法语呢，臭牙？你都在这儿工作这么久了。
+
+00:58:22.350 --> 00:58:34.340
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯。下周同一时间，带来更多《美国生活》的故事。
+
+00:58:34.340 --> 00:58:39.340
+<v Announcer>PRI Public Radio International.
+<v Announcer>公共广播国际公司。

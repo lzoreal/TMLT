@@ -1,0 +1,977 @@
+WEBVTT
+
+00:00:00.540 --> 00:00:31.770
+<v Ira Glass>Sarah Erush was a pharmacist and head of the Drug Information Center at the Hospital at the University of Pennsylvania. And in that job, she had to do one of those tasks that you never heard of, but then when you hear that this job exists, you think, oh right, of course. Somebody's got to do that. Namely, when patients had a bad reaction, a surprising reaction, to the drugs that they were on, Sarah Erush was the person who was supposed to make sure that the Food and Drug Administration was notified about it. The FDA keeps track of these things, drug injuries. It's part of monitoring whether drugs are safe.
+<v Ira Glass>莎拉·埃鲁什（Sarah Erush）曾是一名药剂师，也是宾夕法尼亚大学医院药物信息中心的主任。在那份工作中，她必须执行一项你可能从未听说过，但一旦听说就会觉得“哦，当然，总得有人做这项工作”的职责。具体来说，当患者对他们服用的药物产生严重的、意想不到的反应时，莎拉·埃鲁什就是那个负责确保美国食品药品监督管理局（FDA）获悉此事的人。FDA会对这些药物伤害事件进行跟踪，这是监测药物安全性的一部分。
+
+00:00:31.770 --> 00:00:48.540
+<v Ira Glass>And so one day in 2002, she got this unusual call from somebody at the FDA about one of the most popular drugs in the country-- acetaminophen. Acetaminophen is the active ingredient in Tylenol. And every now and then, Erush had sent in a report about some patient reacting to acetaminophen.
+<v Ira Glass>2002年的某一天，她接到了FDA某位人士打来的不同寻常的电话，内容涉及美国国内最受欢迎的药物之一——对乙酰氨基酚。对乙酰氨基酚是泰诺（Tylenol）的活性成分。时不时地，埃鲁什会提交一份关于患者对对乙酰氨基酚产生不良反应的报告。
+
+00:00:48.540 --> 00:01:03.050
+<v Sarah Erush>And they said, we were looking at your reports on acetaminophen, and we were wondering if you had ever really sat and collated this data. And we said, no, not really. We've been reporting it all along, and we look at it when we report it. But we never really looked at it in aggregate.
+<v Sarah Erush>他们说：“我们查看了你关于对乙酰氨基酚的报告，想知道你们是否曾经真正坐下来整理过这些数据。”我们回答说：“没有，并没有。我们一直在报告，在报告时我们也会查看这些数据，但我们从未真正汇总过这些数据。”
+
+00:01:03.050 --> 00:01:06.820
+<v Ira Glass>"In aggregate"-- they never looked at all the cases together as a group.
+<v Ira Glass>“汇总”——他们从未将所有案例放在一起作为一个整体来查看。
+
+00:01:06.820 --> 00:01:14.690
+<v Sarah Erush>And they said, well, we have been looking at it in aggregate, and we think it's really interesting. And we think you might want to do that. And we thought that was kind of an odd request.
+<v Sarah Erush>他们说：“好吧，我们一直在汇总查看这些数据，我们认为这非常有趣。我们觉得你们可能也想这样做。”我们认为这听起来是个很奇怪的请求。
+
+00:01:14.690 --> 00:01:21.600
+<v Sarah Erush>And so I said, well, why would we do that? What are you seeing? And they said, well, we don't really want to tell you that. We want to see if you think it's compelling as well.
+<v Sarah Erush>于是我说：“好吧，我们为什么要那样做？你们看到了什么？”他们说：“嗯，我们并不想告诉你。我们想看看你是否也觉得这很有说服力。”
+
+00:01:21.600 --> 00:01:35.890
+<v Sarah Erush>So they sort of opened the door and said, you should go look, but they didn't tell us what to look for. Which was a really good scientific method, because they didn't tell us what we should go find, which would have biased us towards the data. They just said, you should go look. It's interesting.
+<v Sarah Erush>所以他们算是打开了一扇门，说你应该去看看，但他们没告诉我们该看什么。这其实是一种非常好的科学方法，因为他们没有预设我们要去寻找什么，这会避免我们在分析数据时产生偏见。他们只是说，你应该去看看，这很有趣。
+
+00:01:35.890 --> 00:01:44.570
+<v Ira Glass>Sarah got off the phone and told her office-mate, the FDA wants us to look at our acetaminophen cases. And her co-worker was all, why? They had no idea.
+<v Ira Glass>莎拉挂了电话，告诉她的同事：“FDA希望我们去查看我们的对乙酰氨基酚病例。”她的同事问：“为什么？”他们毫无头绪。
+
+00:01:44.570 --> 00:01:54.270
+<v Sarah Erush>Not a clue. We really didn't. Till we started looking at it, and then this little light bulb kind of went on in the back of our heads, where we said, hey, we do remember that one odd case.
+<v Sarah Erush>一点线索都没有。我们真的不知道。直到我们开始审视这些案例，然后我们的脑海里亮起了一盏小灯，我们说：“嘿，我们确实记得那个奇怪的病例。”
+
+00:01:54.270 --> 00:02:02.540
+<v Sarah Erush>Oh, we do remember that other odd case. Oh, we do remember that third odd case. And then it started to occur to us, we have a lot of odd cases.
+<v Sarah Erush>“哦，我们确实记得另一个奇怪的病例。哦，我们确实记得第三个奇怪的病例。”然后我们开始意识到，我们有大量奇怪的病例。
+
+00:02:02.540 --> 00:02:18.640
+<v Ira Glass>Sarah Erush found 23 people in four years at just one hospital who said they took just a little extra, just a few more pills than recommended for a few more days, and severely damaged their livers. Three of them died. Two had transplants.
+<v Ira Glass>莎拉·埃鲁什在仅仅一家医院的四年里就发现了23名患者，他们表示自己只是多吃了那么一点点，比建议用量多吃了那么几片，吃了几天，结果肝脏就受到了严重损害。其中三人死亡，两人进行了肝移植。
+
+00:02:18.640 --> 00:02:38.370
+<v Ira Glass>Now most of these 23 were either chronic heavy drinkers or had a lot of alcohol around the time they were taking the pills, which makes acetaminophen more dangerous. But it wasn't every case. Some didn't report any drinking. And what surprised Sarah Erush most of all was the amounts-- just how easy it was to take too much acetaminophen.
+<v Ira Glass>这23人中，大多数要么是长期酗酒者，要么是在服药期间摄入了大量酒精，这使得对乙酰氨基酚更加危险。但并非所有病例都是如此。有些人没有报告任何饮酒行为。最让莎拉·埃鲁什惊讶的是用药量——服用过量的对乙酰氨基酚竟然如此容易。
+
+00:02:38.370 --> 00:02:48.130
+<v Sarah Erush>It used to be touted as the safest pain reliever you can buy. I mean, that was the big push on selling Tylenol. It's the safest pain reliever you can buy.
+<v Sarah Erush>它曾经被吹捧为你能买到的最安全的止痛药。我的意思是，这就是销售泰诺的主要卖点。它是你能买到的最安全的止痛药。
+
+00:02:48.130 --> 00:03:06.090
+<v Sarah Erush>And in fact, when we would interview the patients and say, you know, the label says how much to take. Why did you take more than that? And the answers were always, because it always says it's the safest thing you could buy. I figure if two were OK, then I would take three.
+<v Sarah Erush>事实上，当我们采访患者并问他们：“你知道标签上写了服用多少剂量吗？你为什么要多吃？”答案总是：“因为它总是说它是你能买到的最安全的东西。我想如果两片没问题，那我就吃三片。”
+
+00:03:06.090 --> 00:03:25.000
+<v Sarah Erush>When we would say, you know, you realize you're here because here you have a high acetaminophen level and that's affected your liver, And they would be aghast. They would say, from Tylenol? This is from Tylenol? How could it be from Tylenol? I thought that was harmless, or it was so safe, it couldn't possibly happen.
+<v Sarah Erush>当我们说：“你知道你之所以在这里，是因为你的对乙酰氨基酚水平过高，这影响了你的肝脏。”他们会感到震惊。他们会说：“因为泰诺？这是因为泰诺吗？怎么可能是因为泰诺？我以为它是无害的，或者它是如此安全，绝不可能发生这种事。”
+
+00:03:25.000 --> 00:03:37.500
+<v Sarah Erush>I didn't take that much. That would be the first thing they would all say. I didn't take that much. And when you'd ask how much, it was more than the recommended dose, but they really didn't take that much more.
+<v Sarah Erush>“我没吃那么多。”这是他们所有人说的第一句话。“我没吃那么多。”当你问他们吃了多少时，虽然确实超过了建议剂量，但他们确实没多吃多少。
+
+00:03:37.500 --> 00:03:45.680
+<v Ira Glass>Erush says she's also surprised how many doctors she meets who don't know this kind of reaction can happen if a patient takes just a little bit too much acetaminophen.
+<v Ira Glass>埃鲁什说，她也感到惊讶，她遇到的许多医生都不知道，如果患者服用稍过量的对乙酰氨基酚，就会发生这种反应。
+
+00:03:45.680 --> 00:04:00.110
+<v Sarah Erush>I am stunned and amazed, still, how physicians will almost routinely throw in Tylenol when they're treating pain. Well, here, why don't you take this on top of everything else, because it's only Tylenol. It's fine. It's safe.
+<v Sarah Erush>我至今仍感到震惊和惊讶，医生们在治疗疼痛时是如何几乎习惯性地随手开出泰诺的。“好吧，除了这些之外，为什么不吃这个呢，因为它只是泰诺。没关系，它是安全的。”
+
+00:04:00.110 --> 00:04:11.990
+<v Sarah Erush>My own mother, she had bone pain from cancer, and they had her on lots of big painkillers. And they said, oh, and we're going to give her 4 grams of Tylenol a day, too. And I said, why? And they said, oh, it's good for bone pain.
+<v Sarah Erush>我自己的母亲，她因为癌症而感到骨痛，他们给她开了许多强效止痛药。他们说：“哦，我们也给她每天4克泰诺。”我说：“为什么？”他们说：“哦，这对骨痛有好处。”
+
+00:04:11.990 --> 00:04:25.810
+<v Sarah Erush>I said, no, it's not. [LAUGHS] A, it's not, and B, I don't want my mother taking 4 grams of Tylenol a day for no good reason whatsoever. She's also on morphine, and I think that'll probably do it.
+<v Sarah Erush>我说：“不，并没有。”（笑）“第一，它没用；第二，我不希望我母亲在毫无正当理由的情况下每天服用4克泰诺。她还在服用吗啡，我想那可能就够了。”
+
+00:04:25.810 --> 00:04:51.260
+<v Ira Glass>Over the last nine months, our radio show has worked alongside the investigative reporting organization ProPublica-- who's been at this even longer-- looking into acetaminophen and Tylenol, interviewing dozens of doctors and scientists. ProPublica went through hundreds of documents. And what we've concluded is that while Tylenol has built its reputation on the idea that it is safer than other over-the-counter painkillers, it is less safe than many of us believe.
+<v Ira Glass>在过去的九个月里，我们的广播节目与调查报道机构ProPublica合作——他们在这方面投入的时间甚至更长——一直在调查对乙酰氨基酚和泰诺，采访了数十位医生和科学家。ProPublica查阅了数百份文件。我们得出的结论是，虽然泰诺建立的声誉基础是它比其他非处方止痛药更安全，但它实际上比我们许多人认为的要不安全得多。
+
+00:04:51.260 --> 00:05:19.190
+<v Ira Glass>Now I want to be very clear about what I'm saying here. Taken as recommended, Tylenol-- or any drug containing the active ingredient in Tylenol, acetaminophen-- is considered safe by most doctors and experts. The problems that we're talking about with the drug probably affect much less than 1% of all the people taking acetaminophen and Tylenol. After all, one out of six Americans take acetaminophen in any given week-- 50 million people, according to Tylenol's manufacturer.
+<v Ira Glass>我想非常清楚地说明我在这里所说的话。按照建议服用，泰诺——或任何含有泰诺活性成分对乙酰氨基酚的药物——被大多数医生和专家认为是安全的。我们谈到的该药物的问题可能影响到不到所有服用对乙酰氨基酚和泰诺的人群的1%。毕竟，根据泰诺制造商的说法，每六个美国人中就有一人在任何特定的一周内服用对乙酰氨基酚——总计5000万人。
+
+00:05:19.190 --> 00:05:30.550
+<v Ira Glass>And as a pharmacist, Sarah Erush says, sure, we should keep it on the market. No question. It's the best medicine out there for lots of situations. Mild chronic pain, like for geriatric patients, two Tylenol a day.
+<v Ira Glass>作为一名药剂师，莎拉·埃鲁什说，当然，我们应该让它继续在市场上销售。毫无疑问。在许多情况下，它是市面上最好的药物。比如对于老年患者的轻度慢性疼痛，每天服用两片泰诺。
+
+00:05:30.550 --> 00:05:37.620
+<v Sarah Erush>They can take that for a lot longer than they might be able to take two Motrin or Advil a day because of the risk of GI ulceration.
+<v Sarah Erush>由于胃溃疡的风险，他们服用泰诺的时间要比服用两片布洛芬（Motrin）或艾德维尔（Advil）的时间长得多。
+
+00:05:37.620 --> 00:05:47.690
+<v Ira Glass>In a pediatric hospital, she says, it's the best thing to give a kid for fever. Won't upset a stomach. It won't interact with other drugs. It doesn't put them at risk for Reye syndrome, the way that aspirin would.
+<v Ira Glass>她说，在儿科医院，它是治疗儿童发烧最好的药物。它不会引起胃部不适。它不会与其他药物产生相互作用。它不会像阿司匹林那样让他们面临雷氏综合征（Reye syndrome）的风险。
+
+00:05:47.690 --> 00:06:18.060
+<v Ira Glass>But all that said, it is very easy overdose on acetaminophen. Over 150 people in the United States die on average every year from accidentally taking too much of the drug. 150 people. That data comes from the federal government, from the Centers for Disease Control and Prevention. Federal government data also shows that every year, 78,000 people land in the emergency room and over 33,000 people are hospitalized either from intentional or unintentional overdoses of the drug.
+<v Ira Glass>但话虽如此，对乙酰氨基酚确实非常容易过量。在美国，平均每年有超过150人死于意外服用过量该药物。150人。该数据来自联邦政府，来自疾病控制与预防中心。联邦政府的数据还显示，每年有7.8万人进入急诊室，超过3.3万人因故意或非故意服用过量该药物而住院。
+
+00:06:18.060 --> 00:06:29.030
+<v Ira Glass>Will Lee is one of the liver specialists and researchers who's been calling attention to the dangers of acetaminophen. He is at the University of Texas Southwestern Medical Center and talked to reporter Sean Cole.
+<v Ira Glass>威尔·李（Will Lee）是呼吁人们关注对乙酰氨基酚危险性的肝脏专家和研究人员之一。他在德克萨斯大学西南医学中心工作，并接受了记者肖恩·科尔的采访。
+
+00:06:29.030 --> 00:07:00.370
+<v Will Lee>In one of the articles, we actually printed up the little coupon that I got with my Zocor prescription that says, $2 off on your next acetaminophen bottle. And one of the things on the coupon, it says safest. Not safer, or not safe, but safest. Well, this is the number-one drug killing Americans every year.
+<v Will Lee>在其中一篇文章中，我们打印了我在处方中收到的那张小优惠券，上面写着“下次购买对乙酰氨基酚立减2美元”。优惠券上的话之一是“最安全”（safest）。不是“更安全”（safer），也不是“安全”（safe），而是“最安全”。好吧，这可是每年杀死美国人的头号药物。
+
+00:07:00.370 --> 00:07:01.800
+<v Sean Cole>Over-the-counter drug killing Americans.
+<v Sean Cole>杀死美国人的非处方药。
+
+00:07:01.800 --> 00:07:04.470
+<v Will Lee>Over-the-counter drug.
+<v Will Lee>非处方药。
+
+00:07:04.470 --> 00:07:06.150
+<v Sean Cole>Not the safest.
+<v Sean Cole>不是最安全的。
+
+00:07:06.150 --> 00:07:20.660
+<v Will Lee>Not the safest, for sure. So I guess that's-- if you think I have a bee in my bonnet, that's probably where it came from.
+<v Will Lee>绝对不是最安全的。所以我猜这就是——如果你觉得我有什么心结，那可能就是从这里来的。
+
+00:07:20.660 --> 00:07:56.560
+<v Ira Glass>That assessment, that acetaminophen kills more Americans than any other over-the-counter pain reliever, comes from two big databases, the Centers for Disease Control and Prevention-- that's part of the federal government-- and the American Association of Poison Control Centers. The company that makes Tylenol, McNeil Consumer Healthcare, does not agree with that assessment. A spokesperson said in an email that in their view, we here at This American Life cannot responsibly say on the radio that acetaminophen kills more people, because those two databases, quote, "simply do not contain the information needed," end quote.
+<v Ira Glass>这一评估，即对乙酰氨基酚比任何其他非处方止痛药杀死的美国人都多，来自两个大型数据库：疾病控制与预防中心（那是联邦政府的一部分）以及美国毒物控制中心协会。泰诺的制造商麦克尼尔消费者保健公司（McNeil Consumer Healthcare）不同意这一评估。一位发言人在电子邮件中表示，在他们看来，我们《This American Life》节目无法负责任地在广播中说对乙酰氨基酚杀死了更多人，因为这两个数据库，引述：“根本不包含所需的信息。”
+
+00:07:56.560 --> 00:08:36.320
+<v Ira Glass>And in fact, it's true that epidemiologists have pointed out that those databases might not accurately count all of the people who die as a result of taking other over-the-counter pain relievers. But that is a theoretical possibility, that lots of people may be dying from those other over-the-counter painkillers. There aren't studies-- or anyway, we couldn't find any-- which locate real people who died this way and find more of them dying from over-the-counter aspirin or ibuprofen or any of the others than die from acetaminophen. We asked McNeil for studies like that, and they did not send any.
+<v Ira Glass>事实上，流行病学家确实指出，这些数据库可能无法准确统计所有因服用其他非处方止痛药而死亡的人数，这是事实。但这只是理论上的可能性，即许多人可能死于其他非处方止痛药。目前并没有研究——或者无论如何，我们找不到任何研究——能够追踪到死于这些药物的真实案例，并发现死于非处方阿司匹林、布洛芬或其他止痛药的人数比死于对乙酰氨基酚的人数多。我们向麦克尼尔索要了此类研究，但他们没有提供。
+
+00:08:36.320 --> 00:08:57.800
+<v Ira Glass>Just last month, McNeil, the maker of Tylenol, and its parent company Johnson & Johnson, announced that they're putting a new warning onto the caps of Extra Strength Tylenol saying, in bright red letters, "Contains acetaminophen," and "Always read the label." The new warning does not go so far as to say that a relatively small overdose can kill you.
+<v Ira Glass>就在上个月，泰诺的制造商麦克尼尔及其母公司强生公司宣布，他们将在加强型泰诺的瓶盖上贴上新的警告，用鲜红的字母写着“含有对乙酰氨基酚”和“务必阅读标签”。新的警告并没有说明相对少量的过量服用就可能导致死亡。
+
+00:08:57.800 --> 00:09:24.230
+<v Ira Glass>Most people already know that acetaminophen can be dangerous. According to a national poll commissioned by ProPublica and our radio program, 86% of Americans know that Tylenol can cause severe liver damage, and 2/3 of the public knows that it can kill you. But I think that many people do not know just how little extra it takes to be dangerous or to kill you. Certainly, I have say none of us who worked on this story, here at our radio show, knew this before.
+<v Ira Glass>大多数人已经知道对乙酰氨基酚可能有危险。根据ProPublica和我们的广播节目委托进行的一项全国民意调查，86%的美国人知道泰诺会导致严重的肝损伤，2/3的公众知道它可能会致命。但我认为许多人不知道稍微过量一点点就会变得危险甚至致命。当然，我必须说，在我们节目组工作的所有人中，在做这个报道之前，没有人知道这一点。
+
+00:09:24.230 --> 00:09:38.450
+<v Ira Glass>And why not? Well, today we explain how we got to this point, how one of the most widely-used over-the-counter painkillers in the country, acetaminophen, also kills so many people. And many of us had no idea.
+<v Ira Glass>为什么不知道呢？好吧，今天我们来解释一下我们是如何走到这一步的，这种全美使用最广泛的非处方止痛药之一——对乙酰氨基酚，是如何夺去如此多人的生命的。而我们许多人对此一无所知。
+
+00:09:38.450 --> 00:10:00.590
+<v Ira Glass>And so even though a lot of you already know that acetaminophen can be dangerous, we're going to spend an hour on this today. Because number one, over 150 people are dying every year. It seems completely unnecessary. And number two, the story of how this drug has been regulated by the Food and Drug Administration-- when we heard it, I have to say we were shocked at the government's behavior, and we think that you will be shocked.
+<v Ira Glass>所以，尽管你们许多人已经知道对乙酰氨基酚可能有危险，我们今天还是会花一小时来讨论这个话题。因为第一，每年有超过150人因此死亡。这看起来完全是不必要的。第二，当听到这种药物被美国食品药品监督管理局监管的故事时，我必须说我们对政府的行为感到震惊，我们也认为你们会感到震惊。
+
+00:10:00.590 --> 00:10:17.460
+<v Ira Glass>And so from WBEZ Chicago, it's This American Life, distributed by Public Radio International. I'm Ira Glass. Our show today on all of these things. Stay with us. And I turn things over now to the reporter who's been looking into this for our radio show, Sean Cole.
+<v Ira Glass>这里是芝加哥WBEZ广播电台的《This American Life》，由公共广播国际公司（Public Radio International）分发。我是艾拉·格拉斯（Ira Glass）。我们今天的节目就讨论所有这些事情。请继续收听。现在我把时间交给一直为我们节目调查此事的记者，肖恩·科尔（Sean Cole）。
+
+00:10:17.460 --> 00:10:41.230
+<v Sean Cole>So here's a little drug regulation lingo for you. I know that's why a lot of you tune into this show. That small margin of error between a safe dose and a potentially harmful dose of acetaminophen? That's what the FDA would call a narrow therapeutic index. And the other over-the-counter painkillers don't have it. I'll let T. Miller explain this part. He's one of the ProPublica reporters who spent a long time on this story.
+<v Sean Cole>所以，给你们介绍一点药物监管的术语。我知道这就是为什么你们很多人收听这个节目的原因。安全剂量和对乙酰氨基酚的潜在有害剂量之间那微小的误差范围？FDA称之为“狭窄治疗指数”（narrow therapeutic index）。而其他非处方止痛药没有这个问题。我让T·米勒（T. Miller）来解释这一部分。他是ProPublica的记者之一，在这个报道上花了很多时间。
+
+00:10:41.230 --> 00:11:01.740
+<v T. Miller>So with a drug like ibuprofen, Advil, it can cause stomach and gastric problems at the recommended dose. Aspirin, same thing. But it takes a lot of ibuprofen to kill yourself. In fact, there's not a lot of cases on record of anybody dying from ibuprofen toxicity.
+<v T. Miller>对于布洛芬（Advil）这样的药物，在建议剂量下它可能会引起胃肠道问题。阿司匹林也一样。但要服用大量的布洛芬才会导致死亡。事实上，记录在案的因布洛芬毒性导致死亡的病例并不多。
+
+00:11:01.740 --> 00:11:23.020
+<v Sean Cole>In the only case he could find, it took 20 times the recommended dose to kill someone. Same with aspirin. You have to take six or eight times the maximum recommended dose for it to become toxic to your system. With acetaminophen, just twice the maximum safe dose, or even less, taken over several days could possibly get you into serious trouble.
+<v Sean Cole>在他能找到的唯一病例中，有人服用了20倍的建议剂量才导致死亡。阿司匹林也一样。你必须服用6到8倍的最大建议剂量才会产生系统性毒性。而对于对乙酰氨基酚，只需两倍的最大安全剂量，甚至更少，连续服用几天就可能让你陷入严重麻烦。
+
+00:11:23.020 --> 00:11:44.320
+<v Sean Cole>Now I should be clear that there's no hard and fast number for this. Nobody knows for sure. One of the most prominent doctors researching right now is Will Lee, who you heard from earlier. His data shows if you take twice the maximum safe dose-- maximum safe dose printed on the bottle is 4 grams-- if you take twice that amount, you're in the danger zone.
+<v Sean Cole>现在我应该澄清，这没有一个绝对的数字。没有人能确定。目前进行研究的最杰出的医生之一是威尔·李（Will Lee），你之前听到过他的观点。他的数据显示，如果你服用两倍的最大安全剂量——瓶子上印刷的最大安全剂量是4克——如果你服用两倍的剂量，你就处于危险区了。
+
+00:11:44.320 --> 00:11:58.200
+<v Sean Cole>McNeil, who makes Tylenol, said pretty much the same thing in an email, but later changed their estimate to at least 10 grams a day for at least two to three days. 10 grams a day is 2 and 1/2 times the maximum safe dose.
+<v Sean Cole>生产泰诺的麦克尼尔公司在电子邮件中也说了同样的话，但后来将他们的估计改为每天至少10克，持续至少两到三天。每天10克是最大安全剂量的2.5倍。
+
+00:11:58.200 --> 00:12:09.820
+<v Sean Cole>But the danger zone might start at a much smaller dose. The FDA has said that just 5 grams a day could hurt your liver. That's just one gram more than the safety limit listed on the bottle.
+<v Sean Cole>但危险区可能从更小的剂量就开始了。FDA表示，每天仅5克就可能损害你的肝脏。这仅仅比瓶子上列出的安全上限多出一克。
+
+00:12:09.820 --> 00:12:24.520
+<v Sean Cole>A gram. That would mean the difference between a safe dose and a dangerous dose is two Extra Strength Tylenol tablets. Just two tablets.
+<v Sean Cole>一克。这意味着安全剂量和危险剂量之间的差异就是两片加强型泰诺。仅仅两片。
+
+00:12:24.520 --> 00:12:35.480
+<v Sean Cole>That number comes from the FDA's national database of adverse drug events. That is, cases of people who were injured by medicinal drugs. The agency cites it in a report prepared in 2008.
+<v Sean Cole>这个数字来自FDA的全国药物不良事件数据库。也就是说，因药物而受伤的人的案例。该机构在2008年准备的一份报告中引用了这一数字。
+
+00:12:35.480 --> 00:12:59.600
+<v Sean Cole>But now here's a caveat-- not everyone who takes a little more than they should will get into trouble. It seems that some people are more susceptible to liver damage from acetaminophen than others. Some people can take twice the safe dose, or even more than that amount, and be fine. This is all according to the FDA, and Will Lee and Sarah Erush told us this as well. But the science is still really preliminary.
+<v Sean Cole>但这里有一个警示——并非每个稍微服用过量的人都会遇到麻烦。似乎有些人比其他人更容易受到对乙酰氨基酚的肝损伤。根据FDA的说法，有些人服用两倍的安全剂量甚至更多都没事。威尔·李和莎拉·埃鲁什也告诉我们了这一点。但科学研究仍处于非常初步的阶段。
+
+00:12:59.600 --> 00:13:14.600
+<v Sean Cole>And truthfully, this wouldn't be as much of a problem if it wasn't for you. And me, before I started working on this story. A lot of us just take too much of this stuff, thinking that if two pills work fine, three must work better.
+<v Sean Cole>老实说，如果不是因为你们，这可能不会成为一个问题。当然，在我开始做这个报道之前，我也是如此。我们很多人只是服用太多这种药了，以为如果两片管用，三片肯定效果更好。
+
+00:13:14.600 --> 00:13:34.070
+<v Sean Cole>We found five separate surveys, including one performed by McNeil, that show about a quarter of us take more than the recommended dose of over-the-counter drugs. That would mean because acetaminophen is taken by 50 million people every week, a quarter would be 12 million of us routinely taking more than the recommended dose.
+<v Sean Cole>我们发现了五项独立调查，包括麦克尼尔自己进行的一项调查，显示我们中大约有四分之一的人服用的非处方药超过了建议剂量。这意味着，因为每周有5000万人服用对乙酰氨基酚，四分之一就是1200万人，我们中经常有人服用超过建议剂量的药。
+
+00:13:34.070 --> 00:13:53.670
+<v Sean Cole>I talked with Dr. Mel Wilcox about these surveys. He's a gastroenterologist and liver doctor at the University of Alabama at Birmingham. He and a couple of other researchers published a paper analyzing two of the surveys, 9,000 patients in all. And he says the numbers confirm what he sees in his practice all the time with over-the-counter painkillers.
+<v Sean Cole>我和梅尔·威尔科克斯（Mel Wilcox）医生讨论了这些调查。他是阿拉巴马大学伯明翰分校的肠胃科医生和肝脏医生。他和另外几位研究人员发表了一篇分析其中两项调查的论文，共涉及9000名患者。他说，这些数字证实了他在非处方止痛药临床实践中经常看到的现象。
+
+00:13:53.670 --> 00:14:00.880
+<v Dr. Mel Wilcox>Just in talking to people, oftentimes people would take it two to four times higher dose than on the instructions.
+<v Dr. Mel Wilcox>在与人们交谈时，人们往往服用的剂量比说明书上的高出二到四倍。
+
+00:14:00.880 --> 00:14:02.500
+<v Sean Cole>Two or four times?
+<v Sean Cole>二到四倍？
+
+00:14:02.500 --> 00:14:05.150
+<v Dr. Mel Wilcox>Yeah. Yes. So not insignificant.
+<v Dr. Mel Wilcox>是的。没错。所以这个数字并不小。
+
+00:14:05.150 --> 00:14:08.840
+<v Sean Cole>Remember, two to four times, with acetaminophen, could put you in the danger zone.
+<v Sean Cole>记住，对于对乙酰氨基酚，二到四倍的剂量可能会让你进入危险区。
+
+00:14:08.840 --> 00:14:35.320
+<v Dr. Mel Wilcox>Well, we saw one here probably, I don't know, six months ago or so. I happened to be covering on the weekend, and it was a young woman who came in with liver failure. I can't remember the exact reason for the Tylenol, but it was something related to pain-- back pain, headache, something-- and clearly taking more than the standard dose. And died.
+<v Dr. Mel Wilcox>好吧，我们大约六个月前在这里看到了一个病例，我不确定。我恰好周末值班，进来的是一名肝衰竭的年轻女性。我不记得她服用泰诺的确切原因，但与疼痛有关——背痛、头痛之类的，而且显然服用的剂量超过了标准剂量。她死了。
+
+00:14:35.320 --> 00:14:36.310
+<v Sean Cole>She died?
+<v Sean Cole>她死了？
+
+00:14:36.310 --> 00:14:38.030
+<v Dr. Mel Wilcox>Right.
+<v Dr. Mel Wilcox>是的。
+
+00:14:38.030 --> 00:14:41.700
+<v Sean Cole>Do you know how much more she was taking than the--
+<v Sean Cole>你知道她比（标准）剂量多服用了多少吗？
+
+00:14:41.700 --> 00:14:49.920
+<v Dr. Mel Wilcox>No, the family didn't really know, other than she was taking more. She was comatose, essentially, when I evaluated her.
+<v Dr. Mel Wilcox>不，家人并不真正知道，只知道她服用的剂量更多。当我评估她时，她基本上已经处于昏迷状态了。
+
+00:14:49.920 --> 00:14:52.980
+<v Sean Cole>And you're sure it wasn't a suicide?
+<v Sean Cole>你确定这不是自杀吗？
+
+00:14:52.980 --> 00:15:13.940
+<v Dr. Mel Wilcox>Generally suicides on the medication is pretty obvious, and the family would tell you. It's the ones like this young lady, that really were taking it more for a pain issue, that are more troublesome.
+<v Dr. Mel Wilcox>通常药物引起的自杀是很明显的，家人会告诉你。像这位年轻女士这样，为了疼痛问题服用药物，反而更让人不安。
+
+00:15:13.940 --> 00:15:40.280
+<v Sean Cole>The connection between acetaminophen and liver damage-- this is not news. Case reports started showing up more than four decades ago. As long ago as 1975, the British medical publication The Lancet said, quote, "Liver damage has been observed after absorption of as little as 6.2 grams." 6 grams a day would be the equivalent of four extra strength Tylenol beyond the maximum safe dose on the bottle.
+<v Sean Cole>对乙酰氨基酚与肝损伤之间的联系——这并不是什么新闻。病例报告在四十多年前就开始出现了。早在1975年，英国医学期刊《柳叶刀》就写道，引述：“在吸收仅6.2克后，就观察到了肝损伤。”每天6克相当于比瓶子上标注的最大安全剂量多出了四片加强型泰诺。
+
+00:15:40.280 --> 00:16:02.470
+<v Sean Cole>Those cases started appearing at the exact same time that acetaminophen was getting more and more popular. Tylenol went on the market in the 1950s, but it really started taking off in the '70s, largely based on the fact that it was better than the alternatives because it didn't upset your stomach or make it bleed, like aspirin can. Acetaminophen really did seem like the safest of all possible painkillers.
+<v Sean Cole>这些病例开始出现的时间，恰逢对乙酰氨基酚变得越来越受欢迎之时。泰诺于20世纪50年代上市，但在70年代真正起飞，很大程度上是因为它比替代品更好，因为它不会像阿司匹林那样刺激胃部或引起出血。对乙酰氨基酚确实看起来是所有可能的止痛药中最安全的。
+
+00:16:02.470 --> 00:16:20.100
+<v Sean Cole>And then in the '80s, aspirin was linked to a rare but possibly fatal disease in children called Reye's syndrome, which gave Tylenol even more of a marketing edge. In fact, the fight over our pain medicine dollars got so heated and expensive that it came to be known as the Aspirin Wars.
+<v Sean Cole>到了80年代，阿司匹林被发现与一种罕见但可能致命的儿童疾病“雷氏综合征”有关，这让泰诺获得了更多的营销优势。事实上，围绕止痛药市场的争夺战变得如此激烈和昂贵，以至于后来被称为“阿司匹林战争”。
+
+00:16:20.100 --> 00:16:32.110
+<v Pat Malone>This Aspirin Wars thing was something I'd never even heard of, but it turned out that was something that the McNeil Consumer Products Company was obsessed by.
+<v Pat Malone>这所谓的“阿司匹林战争”我甚至从未听说过，但事实证明，这是麦克尼尔消费者产品公司所痴迷的事情。
+
+00:16:32.110 --> 00:16:39.850
+<v Sean Cole>Pat Malone is a lawyer in DC. He has represented plaintiffs in about a dozen lawsuits against McNeil, so he's had to bone up on a lot of this history.
+<v Sean Cole>帕特·马龙（Pat Malone）是华盛顿特区的一名律师。他曾代表原告参与了大约十几起针对麦克尼尔的诉讼，所以他不得不深入研究这段历史。
+
+00:16:39.850 --> 00:16:59.870
+<v Pat Malone>And they quickly developed their competitive advantage over aspirin, not based on working better for your headaches and your aches and pains, but just because supposedly, this stuff is safe. Because if you remember, back then, the television was just constantly bombarded with--
+<v Pat Malone>他们很快就发展出了相对于阿司匹林的竞争优势，并不是因为对你的头痛和疼痛效果更好，而仅仅是因为据称，这东西是安全的。因为如果你还记得，那时候电视上到处充斥着……
+
+00:16:59.870 --> 00:17:00.580
+<v Pat Malone>[TYLENOL ADVERTISEMENT PLAYS IN BACKGROUND]
+<v Pat Malone>（背景中播放泰诺广告）
+
+00:17:00.580 --> 00:17:05.460
+<v Pat Malone>"Recommended the most by doctors," "Used most by hospitals."
+<v Pat Malone>“医生推荐最多”，“医院使用最多”。
+
+00:17:05.460 --> 00:17:06.170
+<v Female Spokesperson>Tylenol.
+<v Female Spokesperson>泰诺。
+
+00:17:06.170 --> 00:17:07.170
+<v Pat Malone>Tylenol.
+<v Pat Malone>泰诺。
+
+00:17:07.170 --> 00:17:20.250
+<v Female Spokesperson>Look. Last year, hospitals dispensed 10 times as much Tylenol as the next four brands combined. Hospitals can trust Tylenol to give effective relief without the stomach irritation possible with aspirin or any other type of pain  reliever.
+<v Female Spokesperson>看。去年，医院分发的泰诺数量是接下来的四个品牌总和的10倍。医院可以信赖泰诺，它能提供有效的缓解，而不会产生阿司匹林或其他类型的止痛药可能引起的胃部刺激。
+
+00:17:20.250 --> 00:17:47.290
+<v Pat Malone>And it worked very well. And any time one of these reports would percolate up in the medical journals about somebody taking Tylenol for therapeutic purposes and winding up with their liver wiped out, that was a threat to McNeil's image.
+<v Pat Malone>这招非常管用。每当医学期刊上出现关于某人为了治疗目的服用泰诺而导致肝脏受损的报道时，那都是对泰诺形象的威胁。
+
+00:17:47.290 --> 00:18:18.520
+<v Sean Cole>McNeil Consumer Healthcare declined, after many requests, to let us interview someone there. And when we emailed them this quote from Malone, the company wrote back and reminded us that Malone has represented people who've sued McNeil, and that he, quote, "Therefore represents a particular point of view." The company goes on. "The fact is that doctors still recommend Tylenol more than any other brand of pain reliever and do so based on their knowledge, training, and experience," end quote.
+<v Sean Cole>麦克尼尔消费者保健公司在多次请求采访后拒绝让我们采访其内部人员。当我们通过电子邮件向他们发送马龙的这番话时，该公司回信并提醒我们，马龙曾代表起诉麦克尼尔的人，他，引述：“因此代表了一种特定的观点。”该公司继续写道：“事实是，医生仍然推荐泰诺多于任何其他品牌的止痛药，这是基于他们的知识、训练和经验。”
+
+00:18:18.520 --> 00:18:35.480
+<v Sean Cole>The federal government got involved with all of this in the 1970s, with the risks of acetaminophen. Back in 1977, a panel of scientists convened by the Food and Drug Administration said the potential harm from an overdose is so severe that it should have a much stronger warning label on the box.
+<v Sean Cole>20世纪70年代，联邦政府开始介入对乙酰氨基酚的风险问题。早在1977年，由食品药品监督管理局召集的一个科学家小组表示，药物过量的潜在危害非常严重，包装盒上应该有更强烈的警告标签。
+
+00:18:35.480 --> 00:18:44.100
+<v Ninfa Redmond>And the warning should state, quote, "Do not exceed recommended dosage because severe liver damage may occur."
+<v Ninfa Redmond>警告应声明，引述：“请勿超过建议剂量，因为可能会发生严重的肝损伤。”
+
+00:18:44.100 --> 00:19:04.500
+<v Sean Cole>Ninfa Redmond was one of the people who came up with that wording. She's a toxicologist, one of seven members on the panel. She says her group met every two months for three or four years, poring over reports and studies about 50 different ingredients in over-the-counter painkillers-- acetaminophen, but also aspirin, caffeine, which is in some drugs-- lots of things.
+<v Sean Cole>尼恩法·雷德蒙德（Ninfa Redmond）是提出这一措辞的人之一。她是一位毒理学家，也是小组成员七人之一。她说他们的小组在三四年里每两个月开一次会，翻阅关于非处方止痛药中50种不同成分的报告和研究——除了对乙酰氨基酚，还有阿司匹林、咖啡因（存在于某些药物中）——等等很多东西。
+
+00:19:04.500 --> 00:19:16.400
+<v Sean Cole>The result was a 1,200-page report with recommendations about each ingredient. But they didn't just recommend this warning label for acetaminophen. They added an extra special emphasis.
+<v Sean Cole>结果是一份1200页的报告，其中包含关于每种成分的建议。但他们不仅建议为对乙酰氨基酚加上这个警告标签，他们还加上了一个特别的强调。
+
+00:19:16.400 --> 00:19:41.910
+<v Ninfa Redmond>We used the word that it was terribly important, or-- I'm trying to think of the word that we used. Um-- mandatory-- obligatory is the word. And the only time in the whole report that I can remember that we used the word obligatory was in the warnings for acetaminophen. And I remember there was a total unanimity on this opinion.
+<v Ninfa Redmond>我们用了这样一个词来形容它的重要性——我正在想我们用的那个词。嗯……强制的——“义务性的”（obligatory）是那个词。在整份报告中，我能记得我们使用“义务性的”这个词的唯一一次，就是在对乙酰氨基酚的警告语中。而且我记得大家在这个意见上完全一致。
+
+00:19:41.910 --> 00:20:09.550
+<v Sean Cole>The panel was well aware of all the advertising about how safe acetaminophen was. In fact, in their recommendation, they say, quote, "Some advertising for acetaminophen gives the impression that it is much safer than aspirin and implies that the toxic effects of the drug are less than those encountered in aspirin." To be clear, the report said that at recommended doses, acetaminophen was, quote, "Relatively free of adverse effects." But Ninfa Redmond says she was troubled by the reports the panel was reading.
+<v Sean Cole>该小组非常清楚关于对乙酰氨基酚安全性的所有广告。事实上，在他们的建议中，他们说，引述：“一些关于对乙酰氨基酚的广告让人产生一种它比阿司匹林安全得多的印象，并暗示该药物的毒性效应低于阿司匹林。”明确地说，报告称在建议剂量下，对乙酰氨基酚，引述：“相对没有副作用。”但尼恩法·雷德蒙德说，她被小组正在阅读的报告困扰着。
+
+00:20:09.550 --> 00:20:32.910
+<v Ninfa Redmond>About suicidal intentions and overdose by accident. And they were just so numerous and so easy to have an overdose, for either one of two reasons. Either because the person has not calculated how many milligrams he should have taken, or takes much more because the headache persists.
+<v Ninfa Redmond>关于自杀意图和意外过量。案例太多了，而且很容易过量，原因无非是两个：要么是因为个人没有计算好应该服用多少毫克，要么是因为头痛持续而服用过多。
+
+00:20:32.910 --> 00:20:53.490
+<v Sean Cole>Of course, as we mentioned before, a lot of people disregard over-the-counter drug labels or just don't read them. But a lot of people do read them, and warning labels are still the FDA's main tool to deal with problems like this. But when it came to printing what was supposed to be obligatory language onto an actual box of acetaminophen, the process broke down.
+<v Sean Cole>当然，正如我们之前提到的，很多人无视非处方药标签，或者干脆不读它们。但很多人确实读了，警告标签仍然是FDA处理此类问题的主要工具。但当涉及到将原本应该是义务性的措辞印在实际的对乙酰氨基酚包装盒上时，过程就崩溃了。
+
+00:20:53.490 --> 00:21:12.080
+<v Sean Cole>The next action the FDA takes on issuing a warning isn't for 11 years. In 1988, the FDA declares that yes, a warning label is needed for acetaminophen products. And they did put one on acetaminophen products, but they didn't go as far as Ninfa Redmond and the panel said was necessary. Nothing about the liver at all.
+<v Sean Cole>FDA下一次发布警告行动要等到11年后。1988年，FDA宣布对乙酰氨基酚产品确实需要警告标签。他们确实在产品上加上了警告，但并没有达到尼恩法·雷德蒙德和该小组认为必要的程度。根本没有提到肝脏。
+
+00:21:12.080 --> 00:21:41.210
+<v Sean Cole>And then another 14 years went by. 2002, the FDA convenes another advisory committee-- just for a couple days this time-- and that panel recommended, basically, the original warning again, the same one that Ninfa Redmond's group insisted upon 25 years earlier. And again, no action by the FDA. It took seven years-- so 2009, we're talking now-- for the agency to finally require that liver warning.
+<v Sean Cole>接着又过了14年。2002年，FDA再次召集了一个咨询委员会——这次只开了几天——该委员会基本上再次建议加上最初的那个警告，也就是尼恩法·雷德蒙德的小组在25年前坚持要求的那个。FDA依然没有任何行动。又过了七年——我们现在谈论的是2009年——该机构终于要求加上肝脏警告。
+
+00:21:41.210 --> 00:22:00.990
+<v Sean Cole>We asked Ninfa Redmond what could have taken the FDA 32 years to mandate her warning language. But she said her involvement with the process ended in 1977, when they submitted the report. In fact, Redmond didn't even know it took that long for the FDA to take action. She only found out when she got a call for this story.
+<v Sean Cole>我们问尼恩法·雷德蒙德，FDA花了32年时间才强制执行她的警告措辞，这到底是怎么回事。但她说她参与的过程在1977年他们提交报告时就结束了。事实上，雷德蒙德甚至不知道FDA花了那么久才采取行动。她只是在接到这个故事的采访电话时才知道。
+
+00:22:00.990 --> 00:22:04.780
+<v Ninfa Redmond>It's very surprising, and it's sad.
+<v Ninfa Redmond>这非常令人惊讶，也很悲哀。
+
+00:22:04.780 --> 00:22:06.760
+<v Sean Cole>Sad? Why?
+<v Sean Cole>悲哀？为什么？
+
+00:22:06.760 --> 00:22:15.090
+<v Ninfa Redmond>How many people may have died as a result of that. It's only a hypothetical question. It's a question to myself that has no answer.
+<v Ninfa Redmond>有多少人可能因此死亡。这只是一个假设性的问题。这是一个没有答案的问题，是我对自己提出的。
+
+00:22:15.090 --> 00:22:20.090
+<v Sean Cole>Have you been asking yourself that since finding out that it took that long?
+<v Sean Cole>自从发现花了那么久时间以来，你一直问自己这个问题吗？
+
+00:22:20.090 --> 00:22:45.350
+<v Ninfa Redmond>Yes. Dr. Kennedy, the FDA commissioner at that time, on the 8th of July, said, it will take two years. It's in the press. It's either in The New York Times or The Washington Post, and that he hypothesized it. Let's double, let's triple that-- so six years would have been enough. Nothing that I can hypothesize will explain the 32 years.
+<v Ninfa Redmond>是的。当时的FDA局长肯尼迪医生在7月8日说，这需要两年。报纸上都有。是在《纽约时报》还是《华盛顿邮报》上，他假设了这一点。让我们加倍，让我们再加倍——六年就足够了。没有什么我可以假设的理由能解释这32年。
+
+00:22:45.350 --> 00:23:08.830
+<v Sean Cole>So why did it take that long? This American Life and ProPublica have been asking that question of pretty much everyone we can get our hands on for the last nine months, and no one has a simple explanation. But after all of the reporting that we've done, the main answer that has risen to the top is that acetaminophen was just one little drug ingredient competing for the attention of an enormous, inefficient bureaucracy.
+<v Sean Cole>那么为什么花了那么久？《This American Life》和ProPublica在过去的九个月里一直在向几乎所有能联系到的人询问这个问题，没有人能给出一个简单的解释。但在我们做了所有的报道之后，浮出水面的主要答案是，对乙酰氨基酚只是在一个庞大且低效的官僚机构中争夺注意力的众多药物成分之一。
+
+00:23:08.830 --> 00:23:35.560
+<v Sean Cole>Beginning in 1972, the FDA actually set up 17 panels of experts-- Ninfa Redmond's was just one of them-- to look at all of the over-the-counter drugs that went on the market before drug review laws tightened up. So these were all of the drugs the FDA had never formally approved as both safe and effective. There were two or three hundred thousand of them. But they all boiled down to just 731 ingredients.
+<v Sean Cole>从1972年开始，FDA实际上设立了17个专家小组——尼恩法·雷德蒙德的小组只是其中之一——来研究所有在药物审查法律收紧之前上市的非处方药。所以这些都是FDA从未正式批准既安全又有效的药物。有二三十万种之多。但它们最终简化为731种成分。
+
+00:23:35.560 --> 00:23:46.200
+<v Thomas Garvey>They would decide whether the drug was safe and effective and appropriate for over-the-counter use, and in what quantities, and at what frequency, and for what duration.
+<v Thomas Garvey>他们必须决定药物是否安全有效，是否适合非处方使用，以及剂量、频率和持续时间。
+
+00:23:46.200 --> 00:23:55.980
+<v Sean Cole>This is Thomas Garvey. He's a doctor. These days, he consults with drug companies about their products, and he's testified on the side of people suing McNeil over acetaminophen poisoning.
+<v Sean Cole>这是托马斯·加维（Thomas Garvey）。他是一位医生。如今，他为制药公司提供产品咨询，他曾代表那些起诉麦克尼尔公司造成对乙酰氨基酚中毒的当事人出庭作证。
+
+00:23:55.980 --> 00:24:11.170
+<v Sean Cole>But in the late '70s and very early '80s, he supervised drug reviewers at the FDA. And he says the process of getting to the final list of rules-- or a monograph, as it's called-- on a given drug at the FDA? He says it's byzantine.
+<v Sean Cole>但在70年代末和80年代初，他在FDA监管药物审查员。他说，在FDA获得某种药物的最终规则列表——或者称为专题论文（monograph）——的过程非常繁琐。
+
+00:24:11.170 --> 00:24:38.650
+<v Thomas Garvey>And then there was a tentative final monograph, and where comments were collected, and then a reappraisal, and a rebroadcast of the revised tentative, and on and on and on. And you know, people would send in voluminous responses, which had to be understood and addressed and responded to. And that took a lot of time. That was one reason for the delay.
+<v Thomas Garvey>然后有一个暂定的最终专题论文，收集评论，然后是重新评估，重新发布修订后的暂定稿，等等等等。你知道，人们会寄来大量的回复，必须理解、处理和回应。这花了很多时间。这是延迟的原因之一。
+
+00:24:38.650 --> 00:25:07.440
+<v Sean Cole>All this vetting and opining and drafting up rules and synthesizing comments and everything, that all was supposed to take five years. 10 years in, the job was still only 1/16 of the way done. Things were going so slowly that another government agency, the General Accounting Office, stepped in to do a review of the review to see what was taking such a, quote, "inordinate amount of time." And looking through it, there was a lot of dysfunction at the agency at the time.
+<v Sean Cole>所有这些审查、发表意见、起草规则、综合评论等等，本来应该只花五年时间。10年后，工作只完成了1/16。事情进展如此缓慢，以至于另一个政府机构“总审计局”（General Accounting Office）介入，对审查过程进行了评估，看看是什么造成了如此“过分的时间浪费”。仔细审视之后，发现当时的机构内部存在很多职能障碍。
+
+00:25:07.440 --> 00:25:29.540
+<v Sean Cole>"Priorities have little meaning," the review says. "The OTC division is not using its staff efficiently." Stuff like that. But in the end, the review of the review found that the FDA's strategy was reasonable. It was just a crazy huge job. The 2008 FDA report cited, quote, "limited financial resources and large workloads" as obstacles.
+<v Sean Cole>“优先级没什么意义，”审查报告说。“非处方药部门没有有效地利用其员工。”之类的。但最后，对审查的审查发现，FDA的策略是合理的。这只是一项疯狂庞大的工作。2008年的FDA报告引用了“财政资源有限和工作量巨大”作为阻碍。
+
+00:25:29.540 --> 00:25:52.880
+<v Sean Cole>The FDA also refused, after multiple requests, to give us a recorded interview for this story. But ProPublica did an off-tape interview with Dr. Sandra Kweder, one of the FDA's experts on acetaminophen. And she acknowledged that the agency moved too slowly getting the final rules written for dosage and labeling and all that. The rules for acetaminophen are still only at the tentative stage.
+<v Sean Cole>在多次请求后，FDA也拒绝就这个报道接受录音采访。但ProPublica与FDA的对乙酰氨基酚专家之一桑德拉·克韦德（Sandra Kweder）医生进行了场外采访。她承认，该机构在为剂量、标签等编写最终规则方面行动太慢。对乙酰氨基酚的规则目前仍处于暂定阶段。
+
+00:25:52.880 --> 00:26:22.450
+<v Sean Cole>The drug approval process is usually slow, but not usually this slow. The FDA began with acetaminophen over 40 years ago, in 1972. In that time, science has mapped the human genome, eradicated smallpox. We've cloned a sheep-- and yet we still have not come up with rules for safe usage and labeling of one of the most popular drugs in the country, of which more than 20 billion doses are sold each year. Former FDA official Tom Garvey.
+<v Sean Cole>药物审批过程通常很慢，但通常没有这么慢。FDA从40多年前的1972年就开始处理对乙酰氨基酚了。在这段时间里，科学界已经绘制了人类基因组图谱，消灭了天花，克隆了一只羊——然而我们仍然没有为全美最受欢迎的药物之一——每年销售超过200亿剂——制定出安全使用和标签规则。前FDA官员汤姆·加维。
+
+00:26:22.450 --> 00:26:43.170
+<v Thomas Garvey>Now I must admit this one is remarkable for its duration of gestation. It's like a vastly overdue child. I mean, this is remarkable and unusual. There's no question about that.
+<v Thomas Garvey>现在我必须承认，这个药物在孕育期上确实是非常引人注目的。它就像一个极其过期的孩子。我的意思是，这非常引人注目且罕见。毫无疑问。
+
+00:26:43.170 --> 00:27:09.700
+<v Sean Cole>During the early years of this long process, the maker of Tylenol, McNeil, was understandably not so thrilled with the idea of a liver damage warning label. The brand finally had a significant piece of the painkiller market, and the company did surveys that showed the warning label would scare people away from the drug. Not only that, but when the 1,200-page report from Ninfa Redmond's group came out in 1977, it became a weapon in the Aspirin Wars.
+<v Sean Cole>在这个漫长过程的早期几年，泰诺的制造商麦克尼尔，理所当然地对肝损伤警告标签的想法并不那么兴奋。该品牌终于在止痛药市场上占据了重要份额，而公司的调查显示，警告标签会吓跑人们。不仅如此，当尼恩法·雷德蒙德小组1977年的1200页报告出来时，它成了“阿司匹林战争”中的一件武器。
+
+00:27:09.700 --> 00:27:27.390
+<v Sean Cole>Bayer Aspirin cited the report in a full-page magazine ad. It said, quote, "Leading medical experts have expressed great concern about the occurrence of liver damage with acetaminophen, the chemical name for the ingredient in all Tylenol products." And then it quotes the obligatory severe liver damage language.
+<v Sean Cole>拜耳阿司匹林在一整页杂志广告中引用了该报告。它说，引述：“领先的医学专家对所有泰诺产品成分的化学名称——对乙酰氨基酚引发的肝损伤表示极大担忧。”然后它引用了那个义务性的严重肝损伤的措辞。
+
+00:27:27.390 --> 00:27:46.140
+<v Sean Cole>And then-- big finish-- "Now, makers of Tylenol," it says, "let's look at your advertising again. Safer than aspirin? Just as effective? Shame on you." Losses, McNeil told the FDA, are already in the millions of dollars.
+<v Sean Cole>然后——大结局——“现在，泰诺的制造者，”它说，“让我们看看你们的广告。比阿司匹林更安全？效果一样好？你们真无耻。”麦克尼尔告诉FDA，损失已经达到数百万美元。
+
+00:27:46.140 --> 00:28:09.970
+<v Sean Cole>That was just one point McNeil made in a lengthy response it sent to the FDA about the report from Redmond's panel. Here's another-- McNeil said that the proposed warning label was unfair, that acetaminophen was being singled now, since aspirin can also hurt you. So if that kind of, "If you take too much, then this bad thing might happen" language is appropriate for acetaminophen, the company wrote, then it's appropriate for aspirin, too.
+<v Sean Cole>这只是麦克尼尔在其发给FDA的关于雷德蒙德小组报告的冗长回复中提到的一个观点。这是另一个——麦克尼尔表示，提议的警告标签是不公平的，对乙酰氨基酚被单挑出来了，因为阿司匹林也会伤害你。因此，如果那种“如果你吃太多，可能会发生坏事”的措辞对对乙酰氨基酚是合适的，公司写道，那么对阿司匹林也是合适的。
+
+00:28:09.970 --> 00:28:31.930
+<v Sean Cole>McNeil went as far as to suggest several hypothetical warning labels for its aspirin competitors. One of them read, quote, "Do not exceed recommended dosage because serious potentially life-threatening changes in body chemistry, respiratory failure, coma, convulsions, and cardiovascular collapse may occur," end quote. Again, Tom Garvey, who was at the FDA back then.
+<v Sean Cole>麦克尼尔甚至建议为其阿司匹林竞争对手制定几个假设的警告标签。其中一个写道，引述：“请勿超过建议剂量，因为可能会发生严重的、可能危及生命的身体化学成分改变、呼吸衰竭、昏迷、惊厥和心血管衰竭。”再次提到当时在FDA的汤姆·加维。
+
+00:28:31.930 --> 00:28:37.270
+<v Thomas Garvey>It was kind of a, why are you doing this to us when you're not doing it to the others?
+<v Thomas Garvey>这是一种“为什么你们对我们做这些，而不对别人做？”的态度。
+
+00:28:37.270 --> 00:28:39.560
+<v Sean Cole>And what did you make of it?
+<v Sean Cole>你对此有何看法？
+
+00:28:39.560 --> 00:28:49.460
+<v Thomas Garvey>I thought it was nonsense. That's not their job. Their job is not to make sure that the other drugs are labeled correctly. Their job is to make sure their drug is labeled correctly.
+<v Thomas Garvey>我认为这是废话。那不是他们的工作。他们的工作不是确保其他药物贴标签正确。他们的工作是确保他们自己的药物贴标签正确。
+
+00:28:49.460 --> 00:28:54.320
+<v Sean Cole>And they weren't doing that. They were instead saying you should label the other guys too.
+<v Sean Cole>但他们没有那样做。他们反而说你应该给其他人也贴标签。
+
+00:28:54.320 --> 00:28:56.660
+<v Thomas Garvey>Well, they were confusing issue.
+<v Thomas Garvey>好吧，他们是在混淆视听。
+
+00:28:56.660 --> 00:28:58.060
+<v Sean Cole>Intentionally, do you think? Or was it--
+<v Sean Cole>你认为是故意的吗？还是……
+
+00:28:58.060 --> 00:29:00.630
+<v Thomas Garvey>Well, what do you think? Do you think?
+<v Thomas Garvey>好吧，你觉得呢？你觉得呢？
+
+00:29:00.630 --> 00:29:05.400
+<v Sean Cole>And I guess I keep trying to get at why.
+<v Sean Cole>我猜我一直在试图弄清楚为什么。
+
+00:29:05.400 --> 00:29:14.490
+<v Thomas Garvey>Well, I don't think we need to dig very deep about that, that the most transparent of motives can be adduced.
+<v Thomas Garvey>好吧，我不认为我们需要挖掘得太深，最透明的动机就可以推断出来。
+
+00:29:14.490 --> 00:29:16.250
+<v Sean Cole>And say what that is, if you could.
+<v Sean Cole>如果可以的话，请说说是什么。
+
+00:29:16.250 --> 00:29:21.980
+<v Thomas Garvey>Well, to do God's work. No, you nitwit! To make money.
+<v Thomas Garvey>好吧，做上帝的工作。不，你这个笨蛋！为了赚钱。
+
+00:29:21.980 --> 00:29:23.000
+<v Sean Cole>To make money.
+<v Sean Cole>为了赚钱。
+
+00:29:23.000 --> 00:29:40.180
+<v Thomas Garvey>Well, I mean, isn't it the job of these firms to make money and to maximize profits for the shareholders? Isn't that what they're supposed to do?
+<v Thomas Garvey>好吧，我的意思是，这些公司的任务难道不就是赚钱并为股东实现利润最大化吗？难道这不是他们应该做的吗？
+
+00:29:40.180 --> 00:30:17.270
+<v Sean Cole>Here's McNeil's version of all of this. First, to Garvey's point, the company writes, quote, "Thomas Garvey has been a paid witness for individuals who have filed lawsuits against McNeil, and his statements do not accurately reflect our conversations with the regulatory agency regarding label changes. We are a company of caring people who believe deeply that our first responsibility is to the families and health care professionals who rely on our products. We stand behind the safety profile of acetaminophen when taken as directed, and over the years we have led the efforts to educate and warn consumers of the dangers of acetaminophen overdose," end quote.
+<v Sean Cole>这是麦克尼尔对所有这些事情的版本。首先，针对加维的观点，该公司写道，引述：“托马斯·加维是那些对麦克尼尔提起诉讼的人的付费证人，他的陈述不能准确反映我们与监管机构关于标签变更的对话。我们是一家关爱人的公司，深信我们的首要责任是对依赖我们产品的家庭和医疗保健专业人员负责。我们支持对乙酰氨基酚在按说明服用时的安全性，多年来我们一直带头努力教育并警告消费者有关对乙酰氨基酚过量的危险。”
+
+00:30:17.270 --> 00:30:50.120
+<v Sean Cole>But the way McNeil would tell the story of the last four decades of regulation is that the scientific research wasn't always so clear-cut. For instance, all of the studies that measure how many pills lead to liver failure-- well, when people overdose, they sometimes misremember how many pills they took. Or they lie. And for years, McNeil officials, and the scientists and doctors who testified on the company's behalf, argued that most if not all cases of acetaminophen overdose were suicides, people intentionally swallowing lots more of the drug than anybody would take for pain relief.
+<v Sean Cole>但麦克尼尔讲述过去四十年监管历史的方式是，科学研究并不总是那么明确。例如，所有测量多少药片会导致肝衰竭的研究——嗯，当人们过量服用时，他们有时会记错服用了多少药片。或者他们撒谎。多年来，麦克尼尔的高管以及代表公司作证的科学家和医生辩称，绝大多数甚至所有对乙酰氨基酚过量病例都是自杀，是人们故意吞服比为了缓解疼痛所需剂量多得多的药。
+
+00:30:50.120 --> 00:31:08.450
+<v Sean Cole>McNeil itself has funded studies of acetaminophen that back up its point of view. Again, McNeil declined to give us an interview on tape, and it objected to the tone of the written questions that ProPublica and the show submitted to them. In a letter back to us, it said our questions were, quote, "inflammatory, misleading, and unwarranted."
+<v Sean Cole>麦克尼尔自己资助了支持其观点对乙酰氨基酚的研究。同样，麦克尼尔拒绝接受我们的录音采访，并反对ProPublica和节目组提交给他们的书面问题的语气。在回复我们的信中，它称我们的问题，引述：“煽动性、误导性且毫无根据。”
+
+00:31:08.450 --> 00:31:24.510
+<v Sean Cole>And along with the written responses to our questions, we received an eight-minute recording of a statement read by Ed Kuffner, the vice president of Over-the-Counter Medical Affairs and Clinical Research. He says as more data piled up, the company's position evolved in the way it should, according to the science.
+<v Sean Cole>除了对我们问题的书面回复外，我们还收到了一份由非处方药医疗事务和临床研究副总裁埃德·库夫纳（Ed Kuffner）宣读的8分钟声明录音。他说，随着数据积累，公司的立场按照科学的发展而演变。
+
+00:31:24.510 --> 00:31:34.120
+<v Dr. Ed Kuffner>Opinions about medicine labels, they've changed over time, as have the labels. We believe that any label change should be medically accurate, and it should be based on research.
+<v Dr. Ed Kuffner>关于药品标签的观点，随着时间的推移发生了变化，标签也随之改变。我们相信任何标签变更都应在医学上是准确的，并应基于研究。
+
+00:31:34.120 --> 00:31:36.680
+<v Sean Cole>And this is from slightly later in the tape.
+<v Sean Cole>这是录音中稍后的内容。
+
+00:31:36.680 --> 00:32:03.140
+<v Dr. Ed Kuffner>After careful consultation with the FDA, over the years, we've made changes to the labels of Tylenol in an effort to help consumers understand how to use the medicine safely. The FDA recognizes that labels will change over time and that a label change does not mean that a prior label was inadequate. In fact, label changes are an indication that our medical understanding is evolving and that the public health system really is working.
+<v Dr. Ed Kuffner>多年来，在与FDA仔细磋商后，我们对泰诺的标签进行了修改，旨在帮助消费者了解如何安全使用药物。FDA承认标签会随时间推移而改变，标签变更并不意味着之前的标签不适当。事实上，标签变更是一个迹象，表明我们的医学理解正在演变，公共卫生系统确实在发挥作用。
+
+00:32:03.140 --> 00:32:09.260
+<v Sean Cole>But while McNeil says it always took new data into account as it emerged, here's how that looked in practice.
+<v Sean Cole>但虽然麦克尼尔表示它始终考虑到新出现的数据，但在实践中情况却大不相同。
+
+00:32:09.260 --> 00:32:13.720
+<v Male Speaker>OK, please take your seats. Please take your seats.
+<v Male Speaker>好的，请就座。请就座。
+
+00:32:13.720 --> 00:32:26.820
+<v Sean Cole>This is the 2002 FDA advisory meeting where McNeil, to its credit, got in front of the warning label issue, after many years, and called on the FDA to mandate a specific liver damage warning for acetaminophen.
+<v Sean Cole>这是2002年的FDA咨询会议，在多年之后，麦克尼尔值得称赞地站出来面对标签警告问题，并要求FDA为对乙酰氨基酚强制执行特定的肝损伤警告。
+
+00:32:26.820 --> 00:32:33.900
+<v Dr. Debra Bowen>Today we are recommending an organ-specific overdose warning. These labeling and education--
+<v Dr. Debra Bowen>今天我们建议进行针对器官的过量警告。这些标签和教育……
+
+00:32:33.900 --> 00:33:03.400
+<v Sean Cole>This was the company's VP of Research and Development at the time, Debra Bowen. This meeting was convened after more evidence started showing up of people accidentally overdosing on acetaminophen. There was a big 1997 paper by researcher Will Lee and the numbers from Sarah Erush, who you heard from earlier. In fact, this whole day was devoted to the problem of accidental overdoses. And even at this meeting, McNeil still held that most acetaminophen overdoses in adults were not accidental, but suicides.
+<v Sean Cole>这是当时的公司研发副总裁黛布拉·鲍恩（Debra Bowen）。召开这次会议是因为开始出现更多人们意外服用过量对乙酰氨基酚的证据。威尔·李研究员在1997年发表了一篇重要论文，还有之前提到的莎拉·埃鲁什提供的数字。事实上，这一整天都致力于解决意外过量的问题。即使在这次会议上，麦克尼尔仍然坚持认为大多数成年人对乙酰氨基酚过量不是意外，而是自杀。
+
+00:33:03.400 --> 00:33:10.330
+<v Dr. Debra Bowen>Harm is rare and is caused by overdose. Serious harm caused by inadvertent misuse is very rare.
+<v Dr. Debra Bowen>伤害是罕见的，是由过量引起的。由疏忽大意造成的严重伤害非常罕见。
+
+00:33:10.330 --> 00:33:31.640
+<v Sean Cole>Sarah Erush, the University of Pennsylvania pharmacist who got the call from the FDA, she was at this meeting presenting her findings, that half of the overdose cases she saw were accidental. And she says, yes, it's a drug company's job to defend its product, but she wishes McNeil had shown more interest in the data that she and some of the other scientists and doctors were there presenting.
+<v Sean Cole>莎拉·埃鲁什，那位接到FDA电话的宾夕法尼亚大学药剂师，她参加了这次会议，展示了她的发现，即她看到的过量案例中有一半是意外。她说，是的，防卫产品是制药公司的工作，但她希望麦克尼尔能对她和其他科学家及医生在会上展示的数据表现出更多的兴趣。
+
+00:33:31.640 --> 00:33:51.170
+<v Sarah Erush>So they really seemed to me to try to be bulldozing over what we were just-- we had a crack in the door open, and saying, hey, there's something over there. You should take a look at it. And they were just trying to keep that door shut as tight as they could. So I think that's all I got out of that meeting, was I thought, you're not even listening. You need to listen. There's some interesting stuff here.
+<v Sarah Erush>所以在我看来，他们似乎真的试图推翻我们刚刚提出的……我们打开了一扇门，说：“嘿，那边有什么东西，你应该看看。”而他们只是试图尽可能紧地关上那扇门。所以我认为这就是我从那次会议中得到的一切，我觉得，“你们甚至没有在听。你们需要听听。这里有一些有趣的东西。”
+
+00:33:51.170 --> 00:34:19.230
+<v Sarah Erush>I think that was the thing that bothered me the most, is it was still-- you must have it wrong, was their attitude, as opposed to, wow, this is really interesting. Can we take a closer look and see if we can figure this out together? I have partnered with the pharmaceutical industry in my past life to do research and things, and have encountered companies, or facets of companies, that are very much like that. So it was very offensive to me that they didn't want to take that tact.
+<v Sarah Erush>我认为这是最让我困扰的事情，那就是它依然是——“你们肯定错了”，这是他们的态度，而不是“哇，这真的很有趣。我们能仔细看看并一起弄明白吗？”我过去曾与制药行业合作进行研究，遇到过与他们非常相似的公司或公司方面。所以，他们不想采取这种策略让我感到非常受冒犯。
+
+00:34:19.230 --> 00:34:35.850
+<v Sean Cole>I ran this quote by McNeil officials. They pointed out that they did in fact reach out to Erush for more information when they learned of her findings, and she didn't give it to them. She told me she wanted to protect the patient's identities and didn't feel like the company needed to root around in their case files.
+<v Sean Cole>我向麦克尼尔官员引用了这番话。他们指出，当他们得知埃鲁什的发现时，他们确实联系了她以获取更多信息，但她没有提供。她告诉我，她想保护患者的身份，并且不觉得公司需要去翻阅他们的病历。
+
+00:34:35.850 --> 00:35:06.370
+<v Sean Cole>McNeil also said, quote, "We are constantly assessing information on overdoses and today use databases and web searches to seek out information and further improve our reporting systems." In other words, they say they're on top of this. They look for any problems related to their drug and actively try to reduce the number of overdoses.
+<v Sean Cole>麦克尼尔还表示，引述：“我们一直在评估有关过量的信息，今天使用数据库和网络搜索来寻找信息并进一步改进我们的报告系统。”换句话说，他们说他们对此掌控得很好。他们寻找与他们药物相关的任何问题，并积极尝试减少过量的人数。
+
+00:35:06.370 --> 00:35:26.560
+<v Ira Glass>Sean Cole. Coming up, kids and babies and problems in acetaminophen labeling-- for me, I have to say the most disturbing part of this story, we haven't even gotten to yet. That's in a minute, from Chicago Public Radio and Public Radio International, when our program continues.
+<v Ira Glass>肖恩·科尔。接下来，关于儿童和婴儿以及对乙酰氨基酚标签的问题——对我来说，我必须说这个报道中最令人不安的部分，我们还没有谈到。那将在片刻之后，来自芝加哥公共广播电台和公共广播国际公司，我们的节目继续。
+
+00:35:26.560 --> 00:35:47.910
+<v Ira Glass>It's This American Life. I'm Ira Glass. Today's program, "Use Only As Directed." Today's show reported alongside the investigative reporting team at ProPublica. And we're bringing you the story of one of the most popular drugs in the country, acetaminophen, the active ingredient in Tylenol. It also, according to federal data, causes more deaths than any other over-the-counter pain medication.
+<v Ira Glass>这里是《This American Life》。我是艾拉·格拉斯。今天的节目是“仅按指示使用”。今天的节目与ProPublica的调查报道团队一起报道。我们给你们带来了全美最受欢迎的药物之一——对乙酰氨基酚，泰诺的活性成分。根据联邦数据，它造成的死亡人数也超过了任何其他非处方止痛药。
+
+00:35:47.910 --> 00:36:08.330
+<v Ira Glass>Each year, on average, over 150 people died of accidental overdose, 78,000 people land in the emergency room, 33,000 people are hospitalized-- again, this is all based on data from the federal government. McNeil Consumer Healthcare, the maker of Tylenol, as I said earlier in the show, disputes that its product is the deadliest over-the-counter pain medication.
+<v Ira Glass>每年平均有超过150人因意外过量死亡，7.8万人进入急诊室，3.3万人住院——同样，这都是基于联邦政府的数据。正如我在节目开头所说的，泰诺的制造商麦克尼尔消费者保健公司对该产品是最致命的非处方止痛药这一说法存在争议。
+
+00:36:08.330 --> 00:36:30.630
+<v Ira Glass>And in the first half of the show, you heard about the FDA delaying action on labelling acetaminophen to a degree that was unusual, even for the FDA-- and, in fact, kind of mind-boggling. A panel recommended a warning about liver damage in 1977. It took 32 years for the agency to rule on that.
+<v Ira Glass>在节目的上半部分，你听到了FDA在标签对乙酰氨基酚方面的延迟程度甚至对FDA来说都是罕见的——而且实际上，令人难以置信。一个小组在1977年就建议加上关于肝损伤的警告。该机构花了32年时间才对此作出裁决。
+
+00:36:30.630 --> 00:36:49.750
+<v Ira Glass>But you know, in a certain way, that pales compared to the confusion and delay surrounding infants' and children's acetaminophen. What's interesting about these products and this situation is that this is a situation where the maker of Tylenol, McNeil, did not oppose a new label on the packages. In fact, it was the opposite.
+<v Ira Glass>但你知道，在某种程度上，这与围绕婴儿和儿童对乙酰氨基酚的混乱和延迟相比，显得微不足道。这些产品和情况的有趣之处在于，泰诺的制造商麦克尼尔并不反对包装上的新标签。事实上，恰恰相反。
+
+00:36:49.750 --> 00:37:04.380
+<v Ira Glass>McNeil wanted the change. It actively urged the FDA to get clearer, better labeling on those products for years, saying that would make the product safer. And for years, the FDA did not fix the problem.
+<v Ira Glass>麦克尼尔希望做出改变。它多年来一直积极敦促FDA为这些产品提供更清晰、更好的标签，称这将使产品更安全。而多年来，FDA一直没有解决这个问题。
+
+00:37:04.380 --> 00:37:16.170
+<v Ira Glass>And McNeil didn't step in and fix the problem-- which, as you'll hear, it could have taken steps to do. And the problem lingered in a way that's kind of stunning. Again, here's reporter Sean Cole.
+<v Ira Glass>麦克尼尔也没有介入并解决这个问题——正如你将听到的那样，它本来可以采取措施解决。这个问题以一种令人震惊的方式持续存在。再次请出记者肖恩·科尔。
+
+00:37:16.170 --> 00:37:43.150
+<v Sean Cole>Again, this all has to do with the nature of acetaminophen and how relatively easy it is to overdose. In this case, there's the added complicating factor of parents giving the drug to their kids. And these two formulas, Infants' Tylenol and Children's Tylenol, they're different. Infants' is actually for kids up to three years of age, and Children's is for kids up to 11 years of age. And this next part is going to sound really counter-intuitive, so I'll say it slowly.
+<v Sean Cole>同样，这一切都与对乙酰氨基酚的性质以及它相对容易过量有关。在这种情况下，还有一个额外的复杂因素，即家长给孩子喂药。这两种配方，“婴儿泰诺”和“儿童泰诺”，是不同的。婴儿版实际上是给三岁以下的孩子用的，儿童版是给11岁以下的孩子用的。接下来的这一部分听起来非常反直觉，所以我慢慢说。
+
+00:37:43.150 --> 00:38:02.750
+<v Sean Cole>For the longest time, Infants' Tylenol was three times stronger, three times more concentrated, than Children's Tylenol, the rationale being that it's harder to make a very young child, and especially a baby, swallow medicine. So if you make the medicine stronger, the parents will have an easier time of it. Makes sense on one level.
+<v Sean Cole>在很长一段时间里，“婴儿泰诺”的浓度是“儿童泰诺”的三倍，理由是让一个很小的孩子，尤其是婴儿吞下药物更难。所以如果你让药物浓度更高，父母喂药会更容易一些。这在某种程度上说得通。
+
+00:38:02.750 --> 00:38:27.510
+<v Sean Cole>But if you ask toxicologist Barry Rumack, who's done research funded by McNeil and has testified as an expert witness on the company's behalf, there's a big problem, again with the labeling. Confusingly, he says, there aren't any dosing instructions for children under two on either product. All it says on the box is, "Ask a doctor." And for years, McNeil has been urging the FDA to change that. Here's Rumack.
+<v Sean Cole>但如果你问毒理学家巴里·鲁马克（Barry Rumack），他曾接受麦克尼尔资助进行研究，并作为专家证人代表公司作证，你会发现标签上又有一个大问题。他说，令人困惑的是，这两种产品上都没有两岁以下儿童的剂量说明。盒子上只写着“咨询医生”。多年来，麦克尼尔一直敦促FDA更改这一点。这是鲁马克。
+
+00:38:27.510 --> 00:38:30.510
+<v Dr. Barry Rumack>I've been trying, and Tony Temple's been trying--
+<v Dr. Barry Rumack>我一直在努力，托尼·坦普尔（Tony Temple）也一直在努力——
+
+00:38:30.510 --> 00:38:32.960
+<v Sean Cole>Tony Temple is a former McNeil executive.
+<v Sean Cole>托尼·坦普尔是一位前麦克尼尔高管。
+
+00:38:32.960 --> 00:38:45.740
+<v Dr. Barry Rumack>And everybody else has been trying since at least 1983 to get a dose on these labels that goes down preferably to two months of age.
+<v Dr. Barry Rumack>其他人也至少从1983年开始就一直试图让这些标签上标注剂量，最好是低至两个月大的婴儿。
+
+00:38:45.740 --> 00:38:51.580
+<v Sean Cole>Because for one thing, if a baby's feverish and irritable at 3:00 in the morning, and there's no doctor around--
+<v Sean Cole>因为一方面，如果宝宝在凌晨3点发烧且易怒，而附近没有医生——
+
+00:38:51.580 --> 00:39:10.160
+<v Dr. Barry Rumack>The mother or father want to give the Tylenol, and it says, under two years, ask a doctor. What are they going to do? They're going to guess at a dose. And they're going to say, you know, he's a little big for his age. You know, maybe I'll give him half of this.
+<v Dr. Barry Rumack>妈妈或爸爸想给泰诺，而上面写着“两岁以下，咨询医生”。他们会怎么做？他们会猜测一个剂量。他们会说：“你知道，他对于他的年龄来说有点大。你知道，也许我给他吃这个的一半。”
+
+00:39:10.160 --> 00:39:11.320
+<v Sean Cole>Half a dropperful.
+<v Sean Cole>半滴管。
+
+00:39:11.320 --> 00:39:13.350
+<v Dr. Barry Rumack>Maybe I'll give him the whole thing.
+<v Dr. Barry Rumack>也许我给他吃一整管。
+
+00:39:13.350 --> 00:39:24.220
+<v Sean Cole>That's one scenario. Another is that parents might get the two different formulas mixed up, give their child the stronger medicine based on the instructions for the weaker medicine. It can happen.
+<v Sean Cole>这是一种情况。另一种是父母可能会混淆这两种不同的配方，根据浓度较低的配方说明，给孩子服用了浓度更高的药物。这种情况可能会发生。
+
+00:39:24.220 --> 00:39:25.840
+<v Christina Hoyt>This is her when she was coming home.
+<v Christina Hoyt>这是她刚回家时的时候。
+
+00:39:25.840 --> 00:39:26.610
+<v Sean Cole>And it has.
+<v Sean Cole>这种情况确实发生过。
+
+00:39:26.610 --> 00:39:31.510
+<v Christina Hoyt>She's about three, four months there. She was a very, very big baby. Very big.
+<v Christina Hoyt>她当时大约三、四个月大。她是一个非常、非常大的宝宝。非常大。
+
+00:39:31.510 --> 00:39:42.010
+<v Sean Cole>Christina Hoyt had her first baby, Brianna, when she was 17 years old. Her then-husband Eric Hutto was 18. This was about 10 years ago, back in Louisiana, where they're from.
+<v Sean Cole>现在，FDA在八年前，也就是1995年，首次就这种标签混乱举行了公开会议。克里斯蒂娜和埃里克那时还在读初中。布里安娜到达急诊室时是2003年，问题依然没有解决。事实上，2003年是FDA终于说“好吧，现在我们要解决这个问题”的一年。而在2004年、2005年、2006年、2007年和2008年也说了同样的话。
+
+00:39:42.010 --> 00:39:50.970
+<v Sean Cole>Christina lives near Denver now. Eric flew into town so we could talk to them both together. Both of them kept mentioning how big Brianna was when she was born.
+<v Sean Cole>克里斯蒂娜现在住在丹佛附近。埃里克飞到城里，这样我们可以一起和他们谈谈。他们两人都提到了布里安娜出生时有多大。
+
+00:39:50.970 --> 00:39:57.550
+<v Christina Hoyt>And it wasn't just that she was fat, but she was long, too. She would hang outside of her infant seat. It was just awkward.
+<v Christina Hoyt>不仅是因为她胖，而且她还很长。她会悬在婴儿座椅外面。这看起来很别扭。
+
+00:39:57.550 --> 00:40:00.520
+<v Eric Hutto>Yes, if you walked behind, you could see her feet sticking up.
+<v Eric Hutto>是的，如果你走在后面，可以看到她的脚伸出来。
+
+00:40:00.520 --> 00:40:01.490
+<v Christina Hoyt>[LAUGHS] Yeah.
+<v Christina Hoyt>（笑）是的。
+
+00:40:01.490 --> 00:40:02.580
+<v Sean Cole>And she was pretty healthy.
+<v Sean Cole>她当时很健康。
+
+00:40:02.580 --> 00:40:03.080
+<v Christina Hoyt>Yes.
+<v Christina Hoyt>是的。
+
+00:40:03.080 --> 00:40:05.380
+<v Sean Cole>But then when she was about five months old--
+<v Sean Cole>但在她大约五个月大的时候——
+
+00:40:05.380 --> 00:40:11.700
+<v Christina Hoyt>She got a cold. Chest congestion. She wasn't eating. She was extremely fussy.
+<v Christina Hoyt>她感冒了。胸部充血。她不吃东西。她极其烦躁。
+
+00:40:11.700 --> 00:40:12.300
+<v Eric Hutto>High fever.
+<v Eric Hutto>高烧。
+
+00:40:12.300 --> 00:40:13.930
+<v Christina Hoyt>Yeah, 102.
+<v Christina Hoyt>是的，102度（华氏度）。
+
+00:40:13.930 --> 00:40:14.410
+<v Sean Cole>Fever?
+<v Sean Cole>发烧？
+
+00:40:14.410 --> 00:40:17.790
+<v Christina Hoyt>Mm-hm. So they gave her Tylenol at the triage.
+<v Christina Hoyt>嗯。所以他们在分诊处给她用了泰诺。
+
+00:40:17.790 --> 00:40:29.420
+<v Sean Cole>The emergency room. Christina's mother came along, too. Now Christina had already started Brianna on Infants' Tylenol, and she says she showed the folks at the hospital the type she was using.
+<v Sean Cole>急诊室。克里斯蒂娜的母亲也一起去了。现在克里斯蒂娜已经开始给布里安娜用“婴儿泰诺”，她说她向医院的人展示了她正在使用的那种。
+
+00:40:29.420 --> 00:40:46.490
+<v Christina Hoyt>And it came in a little bitty bottle, and the purple kind is what we gave her. I even pulled out the dropper, showed them how much I was giving her, and it was the first line on the dropper. Because we didn't know how much to give her. It says to consult a physician. So without knowing how much to give her, we just gave her the lesser of the doses of the Infants' Tylenol.
+<v Christina Hoyt>它装在一个小瓶子里，我们给她的那种是紫色的。我甚至拿出了滴管，向他们展示我喂了她多少，那是滴管上的第一条线。因为我们不知道该喂多少。上面写着咨询医生。所以由于不知道该喂多少，我们只是喂了较小剂量的“婴儿泰诺”。
+
+00:40:46.490 --> 00:41:01.260
+<v Christina Hoyt>So they wrapped her in warm towels, broke her fever. The doctor came back in, said she just had a virus and that it would pass. So he gave us a script, wrote on a piece of paper, "3/4 teaspoon of Tylenol every four to six hours for pain, as needed."
+<v Christina Hoyt>所以他们用温毛巾把她包起来，让她退烧。医生回来，说她只是得了病毒感染，很快就会过去。所以他给我们开了一个处方，在一张纸上写着：“每四到六小时给3/4茶匙泰诺，根据需要缓解疼痛。”
+
+00:41:01.260 --> 00:41:14.200
+<v Christina Hoyt>So my mom questioned it and said, don't you think that's a little much for a baby of her size? And so the doctor gave it back to the nurse, the nurse went away, came back, scratched it out, and says 1 teaspoon of Tylenol. Nowhere does it say--
+<v Christina Hoyt>所以我妈妈质疑这一点，说：“你不觉得这对她这个体型的宝宝来说太多了吗？”于是医生把纸还给护士，护士走开，回来后划掉了，说“1茶匙泰诺”。上面根本没写——
+
+00:41:14.200 --> 00:41:18.700
+<v Sean Cole>Wait, she said, don't you think that's a little much? And he scratches it out and writes more?
+<v Sean Cole>等等，她说“你不觉得太多了吗？”他就划掉然后写得更多？
+
+00:41:18.700 --> 00:41:24.230
+<v Christina Hoyt>Yes. And he says because of her weight, that's how much she needs to be given.
+<v Christina Hoyt>是的。他说因为她的体重，她需要服用的剂量就是这么多。
+
+00:41:24.230 --> 00:41:39.680
+<v Sean Cole>The hospital was going off a dosing chart it got from McNeil. McNeil had sent the chart around to doctors and hospitals as a kind of stop-gap until it was able to convince the FDA to put more specific dosing instructions on the boxes of Infants' and Children's Tylenol.
+<v Sean Cole>医院是根据从麦克尼尔那里得到的剂量表来的。麦克尼尔把这张表分发给医生和医院，作为一种权宜之计，直到它能够说服FDA在“婴儿和儿童泰诺”的盒子上加上更具体的剂量说明。
+
+00:41:39.680 --> 00:42:07.880
+<v Sean Cole>Now the FDA held its first public meetings about all this label confusion eight years earlier, in 1995. Christina and Eric were still in middle school when that happened. When Brianna arrived at the ER, it was 2003, and the problem still wasn't fixed. In fact, 2003 was the year that the FDA finally said, OK, now we're going to address this issue. And said the same thing in 2004, in 2005, 2006, 2007, and 2008.
+<v Sean Cole>早在八年前的1995年，美国食品药品监督管理局（FDA）就针对所有这些标签混淆问题举行了首次公开会议。那时克里斯蒂娜和埃里克还在读初中。当布里安娜被送到急诊室时，已经是2003年了，但问题依然没有解决。事实上，2003年正是FDA终于表态“好吧，我们现在要解决这个问题”的那一年。此后在2004年、2005年、2006年、2007年和2008年，他们也说了同样的话。
+
+00:42:07.880 --> 00:42:10.480
+<v T. Miller>And each year, the FDA doesn't act.
+<v T. Miller>而且每一年，FDA都没有采取行动。
+
+00:42:10.480 --> 00:42:12.570
+<v Sean Cole>Again, T. Miller with ProPublica.
+<v Sean Cole>再次请出ProPublica的T·米勒。
+
+00:42:12.570 --> 00:42:21.270
+<v T. Miller>And they actually put on their calendar for the year that we're going to address this this year, and then they just don't. And it just goes by and by and by, year after year after year.
+<v T. Miller>他们实际上把我们要在今年解决这个问题写进了当年的日程表，然后他们就不了了之。年复一年，时间就这样流逝了。
+
+00:42:21.270 --> 00:42:24.510
+<v Dr. Barry Rumack>The FDA's response was, it's a public health issue.
+<v Dr. Barry Rumack>FDA的回应是，这是一个公共卫生问题。
+
+00:42:24.510 --> 00:42:43.190
+<v Sean Cole>Again, Barry Rumack, the toxicologist who argued for the dosing label. If this says, call a doctor under age two, then the parents are going to be required to call a physician, and they will get into the health care system. And that would be safer and better than trying to treat them by themselves.
+<v Sean Cole>再次请出支持剂量标签的毒理学家巴里·鲁马克。如果上面写着“两岁以下致电医生”，那么父母将被要求致电医生，他们就会进入医疗保健系统。那会比尝试自己治疗更安全、更好。
+
+00:42:43.190 --> 00:42:45.490
+<v Ira Glass>That's the FDA's rationale for this?
+<v Ira Glass>那是FDA对此的理由？
+
+00:42:45.490 --> 00:42:46.510
+<v Dr. Barry Rumack>Yes.
+<v Dr. Barry Rumack>是的。
+
+00:42:46.510 --> 00:42:52.070
+<v Sean Cole>The thing is, the Huttos did see a doctor. They had instructions from a doctor in their hands.
+<v Sean Cole>问题是，赫托夫妇确实看了医生。他们手里确实有医生的指示。
+
+00:42:52.070 --> 00:43:03.040
+<v Christina Hoyt>So we gave her Infants' Tylenol, what we had given her before, a teaspoonful every six hours. And it was too much.
+<v Christina Hoyt>所以我们给了她“婴儿泰诺”，我们以前给过她的，每六小时一茶匙。剂量太大了。
+
+00:43:03.040 --> 00:43:11.540
+<v Sean Cole>As it turned out, the 1-teaspoon dose the doctor recommended was for the less-concentrated Children's formula. The hospital didn't normally use Infants' Tylenol.
+<v Sean Cole>事实证明，医生建议的1茶匙剂量是针对浓度较低的“儿童配方”的。医院通常不使用“婴儿泰诺”。
+
+00:43:11.540 --> 00:43:14.640
+<v Eric Hutto>They didn't tell us to give Children's or Infants' Tylenol, either of them.
+<v Eric Hutto>他们没告诉我们给“儿童泰诺”还是“婴儿泰诺”，两者都没提。
+
+00:43:14.640 --> 00:43:15.820
+<v Sean Cole>They just said Tylenol?
+<v Sean Cole>他们只是说泰诺？
+
+00:43:15.820 --> 00:43:28.150
+<v Eric Hutto>Right. So being that she was an infant child, you know, it was Infants' Tylenol. Because you wouldn't think to give a child Children's Tylenol at an infant's age, because you can't give a child adult Tylenol, you know?
+<v Eric Hutto>对。所以既然她是个婴儿，你知道，就是“婴儿泰诺”。因为你不会想到给一个婴儿喂“儿童泰诺”，因为你不能给孩子吃成人泰诺，对吧？
+
+00:43:28.150 --> 00:43:43.920
+<v Sean Cole>Eric and Christina said they followed the directions to the letter. Soon, Brianna Hutto wasn't fussy anymore. She was listless. Eric said it was like she was there, but not there, and her stomach felt hard. Eric and his father took Brianna back to the hospital.
+<v Sean Cole>埃里克和克里斯蒂娜说他们严格遵守了说明。不久，布里安娜·赫托不再烦躁了。她无精打采。埃里克说她就像在那里，但又不在那里，她的胃感觉很硬。埃里克和他的父亲把布里安娜带回了医院。
+
+00:43:43.920 --> 00:43:50.220
+<v Eric Hutto>Then they said, well, is she on any kind of medication? And I actually said, yeah, the Tylenol y'all prescribed her.
+<v Eric Hutto>然后他们说：“好吧，她正在服用任何药物吗？”我实际上说：“是的，你们给她开的泰诺。”
+
+00:43:50.220 --> 00:44:16.720
+<v Sean Cole>When the doctors figured out she'd overdosed on Tylenol, Brianna was airlifted to New Orleans Children's Hospital, and then to a transplant center in Omaha a day and a half later. She just kept getting worse-- went into a coma, had tubes and wires all over her. The plan was to give her part of her mother Christina's liver, but first, Brianna would have to start breathing on her own again. The Omaha hospital put up Eric and Christine in a room down the hall from their daughter's.
+<v Sean Cole>当医生发现她泰诺过量时，布里安娜被空运到新奥尔良儿童医院，一天半后又被转到奥马哈的一个移植中心。她的情况不断恶化——陷入昏迷，全身插满了管子和电线。计划是将她母亲克里斯蒂娜的部分肝脏捐给她，但首先，布里安娜必须能再次自主呼吸。奥马哈医院安排埃里克和克里斯蒂娜住在离他们女儿房间走廊尽头的一个房间里。
+
+00:44:16.720 --> 00:44:29.650
+<v Eric Hutto>I walked down there to go see here. And when I was walking down to go see here, they had a bunch of doctors running to her room, and they turned me around. And not long after that, they had a priest come walk in, and-- there was a couple people.
+<v Eric Hutto>我走过去想去看她。当我走过去时，他们有一群医生跑到她的房间，把我拦住了。在那之后不久，他们请了一位牧师走进去，还有——有几个人。
+
+00:44:29.650 --> 00:44:30.120
+<v Christina Hoyt>Priest and a preacher.
+<v Christina Hoyt>牧师和传教士。
+
+00:44:30.120 --> 00:44:44.550
+<v Eric Hutto>Priest and a preacher. And they had a doctor or someone. They had a couple people came in, started talking to us, telling us what was going on, that her kidneys had shut down, her heart failed and everything, and that she had passed away.
+<v Eric Hutto>牧师和传教士。他们还有医生还是什么人。他们有几个人走进来，开始和我们谈话，告诉我们发生了什么，她的肾脏已经衰竭，心脏也停止跳动，一切都结束了，她去世了。
+
+00:44:44.550 --> 00:44:46.950
+<v Sean Cole>That's so awful.
+<v Sean Cole>太可怕了。
+
+00:44:46.950 --> 00:44:54.960
+<v Christina Hoyt>I don't really remember much after that.
+<v Christina Hoyt>在那之后，我真的记不清什么了。
+
+00:44:54.960 --> 00:45:12.650
+<v Sean Cole>The Huttos ultimately filed suit against the doctor and the hospital, but also against McNeil. Their lawyer made the case that there should have been better dosing on the box, plus a severe liver damage warning. All of this happened about two years before McNeil put the liver warning on the Tylenol label.
+<v Sean Cole>赫托夫妇最终起诉了医生和医院，也起诉了麦克尼尔。他们的律师辩称，盒子上本应该有更好的剂量说明，外加严重的肝损伤警告。所有这些都发生在麦克尼尔将肝损伤警告贴在泰诺标签上的大约两年前。
+
+00:45:12.650 --> 00:45:47.180
+<v Sean Cole>The hospital admitted fault almost immediately, but McNeil fought. In the end-- this is just how the court system works in Louisiana-- the jury divvied up the blame, saying the hospital was 70% at fault, McNeil was 23% at fault, and Christina and her mother together were 7% at fault. McNeil was ordered to pay $1.1 million, but the company appealed. And appealed, all the way up to the Supreme Court. Just last October, the Supreme Court refused to hear McNeil's case.
+<v Sean Cole>医院几乎立即承认了过错，但麦克尼尔进行了抗辩。最终——这就是路易斯安那州法庭系统的运作方式——陪审团分摊了责任，称医院负有70%的过错，麦克尼尔负有23%的过错，克里斯蒂娜和她母亲共同负有7%的过错。麦克尼尔被判支付110万美元，但该公司上诉了。一路上诉到最高法院。就在去年十月，最高法院拒绝听取麦克尼尔的案件。
+
+00:45:47.180 --> 00:46:08.770
+<v Sean Cole>Christina and Eric broke up after that. Both got remarried. Christina went on to have three more kids with her new husband. She says living with Eric would have been a constant reminder of what happened. And given the three-year appeals process, she already had to think about it too much.
+<v Sean Cole>克里斯蒂娜和埃里克在那之后分手了。两人都再婚了。克里斯蒂娜和她的新丈夫又生了三个孩子。她说和埃里克住在一起会不断提醒她发生了什么。而且考虑到三年的上诉过程，她已经想得太多了。
+
+00:46:08.770 --> 00:46:25.120
+<v Sean Cole>From the reporting we've done, it seems clear that McNeil genuinely tried to make dosing infants and children less confusing for families like the Huttos. It argued for better instructions. It gave caregivers the dosing chart. Here's former McNeil executive Tony Temple at an FDA hearing in 2009.
+<v Sean Cole>从我们所做的报道来看，很明显麦克尼尔确实试图让婴儿和儿童的剂量喂食对像赫托这样的家庭来说不那么令人困惑。它主张提供更好的说明。它给看护者提供了剂量表。这是前麦克尼尔高管托尼·坦普尔在2009年FDA听证会上的发言。
+
+00:46:25.120 --> 00:46:42.550
+<v Dr. Tony Temple>I believe the most important labeling improvement that could be made now would be to add dosing instructions for children less than two years of age to the label. If that had already been done, the other pediatric issues would be of much less concern. This is at the heart of the product confusion and misdosing issue we've heard so much about.
+<v Dr. Tony Temple>我相信现在能做的最重要的标签改进就是为两岁以下儿童的标签添加剂量说明。如果这早已经完成，其他的儿科问题就会少得多。这就是我们听说的产品混乱和错误剂量问题的核心。
+
+00:46:42.550 --> 00:47:10.540
+<v Sean Cole>When we asked the FDA about this, it said in a written statement basically that dosing instructions for babies, quote, "pose a number of challenges." They said parents might not know the weight of a child unless they've been to their pediatrician recently, so they should just go to the pediatrician. We asked, if weight- and age-based dosing present such a problem, why infants' and children's ibuprofen has it. The agency said, because it's a newer drug and went through a different drug approval process.
+<v Sean Cole>当我们询问FDA时，它在一份书面声明中基本上表示，婴儿的剂量说明，“带来了一系列挑战。”他们说，父母可能不知道孩子的体重，除非他们最近去看过儿科医生，所以他们应该直接去看儿科医生。我们问，如果基于体重和年龄的剂量存在问题，为什么婴儿和儿童布洛芬有这种剂量说明。该机构表示，因为它是较新的药物，经历了不同的药物审批过程。
+
+00:47:10.540 --> 00:47:39.580
+<v Sean Cole>But where McNeil was arguing for clearer instructions, there's another strategy they could have taken, one that would have ended the confusion between the two products, and it wouldn't have had to have asked the FDA. The company could have just yanked the stronger-concentration product off the market. That's what PeterMax Miller says he would have done. He used to be involved in decisions like this-- whether to pull products from the market-- when he worked in the industry years ago, when he was at Bristol-Myers Squibb and at GD Searle. Now he teaches marketing ethics at the University of Colorado.
+<v Sean Cole>但当麦克尼尔争辩要求更清晰的说明时，还有另一种策略他们可以采取，一种可以结束这两种产品之间混乱的方法，而且它根本不需要询问FDA。该公司本可以直接把浓度更高的产品撤出市场。彼得·麦克斯·米勒（PeterMax Miller）说他会这样做。他以前参与过这类决定——是否撤回产品——当他多年前在行业工作时，当他在百时美施贵宝和GD Searle工作时。现在他在科罗拉多大学教授市场营销伦理学。
+
+00:47:39.580 --> 00:47:48.860
+<v Petermax Miller>So I would not have had any hesitation at all about yanking it off the shelf overnight everywhere. And Johnson & Johnson knows how to do that.
+<v Petermax Miller>所以我毫不犹豫地在一夜之间就把产品从货架上撤下。强生公司知道如何做到这一点。
+
+00:47:48.860 --> 00:47:59.560
+<v Sean Cole>Johnson & Johnson, again, is McNeil's parent company. You might remember it pulled a ton of Tylenol off the market in the '80s due to a tampering scare in which some capsules were laced with cyanide.
+<v Sean Cole>强生公司，再次说明，是麦克尼尔的母公司。你可能还记得它在80年代因为一个篡改恐慌撤回了大量泰诺，当时一些胶囊被掺入了氰化物。
+
+00:47:59.560 --> 00:48:05.180
+<v Petermax Miller>And having said that, overnight is not fast enough either. But that's as fast as we can get.
+<v Petermax Miller>话虽如此，一夜之间撤下也不够快。但这已经是我们能做到的最快速度了。
+
+00:48:05.180 --> 00:48:07.770
+<v Sean Cole>What would the trigger be?
+<v Sean Cole>触发点会是什么？
+
+00:48:07.770 --> 00:48:12.630
+<v Petermax Miller>If there was an infant death due to confusion, that's the time to pull it.
+<v Petermax Miller>如果有一个婴儿因为混乱而死亡，那就是撤回的时候。
+
+00:48:12.630 --> 00:48:13.980
+<v Sean Cole>One infant death?
+<v Sean Cole>一个婴儿的死亡？
+
+00:48:13.980 --> 00:48:20.200
+<v Petermax Miller>Just one infant death. That is-- I want to say more than a trigger. That is a huge cannon.
+<v Petermax Miller>仅仅一个婴儿的死亡。那是——我想说这不仅仅是一个触发点。那是一门巨大的大炮。
+
+00:48:20.200 --> 00:48:32.780
+<v Sean Cole>And ultimately, McNeil did pull the stronger concentration off the market, in 2011. Now when you go into a drugstore, you'll see both Infants' and Children's Tylenol, but it's the same stuff in two different packages.
+<v Sean Cole>最终，麦克尼尔确实在2011年将浓度更高的产品撤出了市场。现在当你走进药店时，你会看到婴儿和儿童泰诺，但它们是两种不同包装里的相同产品。
+
+00:48:32.780 --> 00:48:48.300
+<v Sean Cole>Of course, more than one child died in the 18 years McNeil was asking the FDA to let it include better dosing instructions on the box. Tony Temple was asked about this on the witness stand during the Huttos' lawsuit. Again, he's the former McNeil exec who'd been vying for weight-based dosing.
+<v Sean Cole>当然，在麦克尼尔要求FDA允许它在盒子上提供更好剂量说明的18年里，不止一个孩子死亡。在赫托夫妇的诉讼过程中，托尼·坦普尔在证人席上被问及这一点。再次说明，他是那位一直争辩要求根据体重给予剂量的麦克尼尔前高管。
+
+00:48:48.300 --> 00:49:15.220
+<v Sean Cole>Temple testified that you might go two, three, or four years without any death reports, and then there might be one in a given year. The attorney questioning him said, "And rather than pull the products off the shelf, that's sort of the cost of doing business?" Tony Temple-- "McNeil felt that the benefit as-- really, it's the FDA, because it hasn't pulled it off either. But the benefit to children having the product available was appropriate to keep it in the marketplace, yes."
+<v Sean Cole>坦普尔作证说，你可能会过两、三、四年没有死亡报告，然后某一年可能会有一个。讯问他的律师说：“与其把产品从货架上撤下，这算是做生意的成本吗？”托尼·坦普尔回答：“麦克尼尔认为，利益是——真的，那是FDA的事，因为它也没撤下。但产品可用给儿童带来的利益是值得将其保留在市场上的，是的。”
+
+00:49:15.220 --> 00:49:24.770
+<v Sean Cole>I read that excerpt to PeterMax Miller. He said Temple's argument doesn't really make sense to him, because McNeil didn't need to wait for the FDA to take action with Infant Tylenol.
+<v Sean Cole>我向彼得·麦克斯·米勒读了这段摘录。他说坦普尔的论点对他来说并不真正合理，因为麦克尼尔不需要等待FDA对婴儿泰诺采取行动。
+
+00:49:24.770 --> 00:49:49.020
+<v Petermax Miller>You know, from an industry standpoint, we know it's going to be slow at the FDA. So I cannot-- if I have a drug that's causing problems, or labeling that's causing problems with confusion, I cannot blame the FDA for being slow. The FDA does not care if you take something off the market, that I know of. You can do it overnight.
+<v Petermax Miller>你知道，从行业角度来看，我们知道FDA会很慢。所以如果不……如果我有导致问题的药物，或者导致混乱的标签，我不能指责FDA反应慢。据我所知，FDA并不在乎你是否将产品撤出市场。你可以一夜之间就做到。
+
+00:49:49.020 --> 00:50:18.560
+<v Sean Cole>We asked McNeil why it didn't move to a single concentration sooner, among other questions about this part of the story. The response said the company has a long history of being a responsible health care partner with regard to pediatrics. Then McNeil laid out a brief history of Infants' and Children's Tylenol, including the 2011 decision to take the stronger concentration off the market, which it said was not just something McNeil did, but all acetaminophen manufacturers. The company also said it made the dosing devices themselves safer for kids.
+<v Sean Cole>我们问麦克尼尔为什么没有更早采取单一浓度，以及关于这个故事部分的各种问题。回复称，公司在儿科方面有作为负责任的医疗保健合作伙伴的悠久历史。然后麦克尼尔简述了婴儿和儿童泰诺的历史，包括2011年将更高浓度撤出市场的决定，它表示这不仅是麦克尼尔做的，而是所有对乙酰氨基酚制造商都做了。该公司还表示，它使剂量装置本身对孩子更安全。
+
+00:50:18.560 --> 00:50:31.480
+<v Sean Cole>The company didn't send us any comments specifically about the Hutto case or any of the specific lawsuits we asked about. But it did address those cases more generally in that recorded statement from Medical Affairs VP Ed Kuffner.
+<v Sean Cole>该公司没有向我们发送关于赫托案或我们询问的任何特定诉讼的评论。但它在医疗事务副总裁埃德·库夫纳的那段录音中更笼统地谈到了这些案件。
+
+00:50:31.480 --> 00:50:46.290
+<v Dr. Ed Kuffner>We're committed to preventing acetaminophen overdose. Even one patient who takes a significant overdose is one too many. Our hearts go out to those who've overdosed and gotten sick, and to the families and loved ones of those who've died.
+<v Dr. Ed Kuffner>我们致力于防止对乙酰氨基酚过量。即使是一个服用过量严重剂量的患者也太多了。我们的心与那些过量服用生病的人，以及那些去世的人的家人和亲人同在。
+
+00:50:46.290 --> 00:51:07.360
+<v Sean Cole>So let's run down what McNeil has done to try to prevent acetaminophen overdose. Again, there are now both alcohol and severe liver warnings on Tylenol, and the company has taken the stronger Infants' concentration off the market. The company put the alcohol and liver warnings on its products before it was required to by the FDA-- though after FDA advisory panels recommended them.
+<v Sean Cole>所以让我们回顾一下麦克尼尔为防止对乙酰氨基酚过量所做的事情。再次说明，泰诺现在同时有酒精警告和严重肝损伤警告，公司已经将浓度更高的婴儿浓度产品撤出了市场。公司在FDA要求之前就将酒精和肝损伤警告放在了产品上——尽管是在FDA咨询小组推荐这些警告之后。
+
+00:51:07.360 --> 00:51:40.000
+<v Sean Cole>Also, as we mentioned at the beginning, the words, "contains acetaminophen-- always read the label," are going onto the cap of every Extra Strength Tylenol bottle. In addition, McNeil has done a bunch of its own public outreach on the issue, especially in the last few years, including a public service campaign called "Get Relief Responsibly." Plus McNeil was the one who funded the development of an antidote for acetaminophen poisoning, which surely has saved thousands of lives.
+<v Sean Cole>而且，正如我们在开头提到的，字母“含有对乙酰氨基酚——务必阅读标签”将出现在每瓶加强型泰诺的瓶盖上。此外，麦克尼尔在这一问题上进行了大量自己的公共推广，特别是在过去几年，包括一项名为“负责任地缓解疼痛”（Get Relief Responsibly）的公共服务运动。另外，正是麦克尼尔资助开发了一种对乙酰氨基酚中毒的解毒剂，这肯定拯救了成千上万人的生命。
+
+00:51:40.000 --> 00:52:14.610
+<v Sean Cole>But despite its efforts, right now McNeil faces more than 85 lawsuits related to acetaminophen, many of them saying the company failed to warn the public about the true risks of the drug, and particularly the narrow margin between a safe dose and a toxic dose. At least 10 other countries have taken steps the US hasn't to try to prevent acetaminophen overdose. According to a 2008 FDA report, Australia, France, the UK, New Zealand, Germany, Finland, Denmark, Sweden, and Switzerland have limited how much of the drug you can buy at one time. Or they say you can only buy it from a pharmacy.
+<v Sean Cole>但尽管付出了努力，麦克尼尔目前仍面临超过85起与对乙酰氨基酚相关的诉讼，其中许多称公司未能警告公众有关该药物的真实风险，特别是安全剂量和中毒剂量之间的微小界限。至少有10个其他国家采取了美国尚未采取的措施来尝试预防对乙酰氨基酚过量。根据2008年的一份FDA报告，澳大利亚、法国、英国、新西兰、德国、芬兰、丹麦、瑞典和瑞士限制了你一次可以购买的药物数量。或者他们说你只能从药店购买。
+
+00:52:14.610 --> 00:52:27.970
+<v Sean Cole>In the UK, for instance, they simply limited the package sizes. A lot of times it comes in those little blister packs, those little plastic-and-foil chewing-gum-looking packages, so you have to pop them out one at a time. Those rules went into place in 1998.
+<v Sean Cole>例如，在英国，他们简单地限制了包装尺寸。很多时候，它装在那些小水泡包装里，那些看起来像口香糖的小塑料和铝箔包装里，所以你必须一次只挤出一片。这些规定于1998年实施。
+
+00:52:27.970 --> 00:52:40.490
+<v Sean Cole>Since then, deaths from acetaminophen poisoning have dropped by more than 40%. That's all deaths, including suicides, and it's only for England and Wales. Scotland didn't see a decrease in deaths, for some reason.
+<v Sean Cole>从那时起，对乙酰氨基酚中毒死亡人数下降了超过40%。这包括所有死亡人数，包括自杀，这仅适用于英格兰和威尔士。不知为何，苏格兰的死亡人数没有减少。
+
+00:52:40.490 --> 00:52:58.770
+<v Sean Cole>In Canada, the package warnings say an overdose can be fatal. That word is not on over-the-counter acetaminophen products here. I also noticed, last time I was in Canada, that the stronger Infants' formula of liquid Tylenol is still on the shelf, but weight- and age-based dosing is on both Infants' and Children's Tylenol packages.
+<v Sean Cole>在加拿大，包装警告上写着过量可能致命。那个词在美国非处方对乙酰氨基酚产品上没有。我上次在加拿大时还注意到，虽然液态泰诺的更高浓度婴儿配方仍然在货架上，但婴儿和儿童泰诺包装上都有基于重量和年龄的剂量说明。
+
+00:52:58.770 --> 00:53:26.190
+<v Sean Cole>Here in the States, you could argue acetaminophen labeling has gotten a little more confusing lately. In 2009, an FDA advisory panel suggested that the recommended daily dose drop from 4 grams a day to 3 grams a day, hoping fewer people would end up overdosing. The FDA still hasn't taken action on that recommendation. But in 2011, McNeil did. It lowered the recommended dose on the label to 3 grams a day.
+<v Sean Cole>在这里，在美国，你可以认为对乙酰氨基酚的标签最近变得更加混乱了。2009年，一个FDA咨询小组建议将建议每日剂量从每天4克降至每天3克，希望更少的人最终过量。FDA尚未对该建议采取行动。但在2011年，麦克尼尔这样做了。它将标签上的建议剂量降低到每天3克。
+
+00:53:26.190 --> 00:53:51.930
+<v Sean Cole>But the company still says 4 grams a day is a safe dose, so now this is what the label says. "The maximum daily dose of this product is 3,000 milligrams in 24 hours. Severe liver damage may occur if you take more than 4,000 milligrams of acetaminophen in 24 hours."
+<v Sean Cole>但该公司仍然表示每天4克是安全剂量，所以现在标签上是这样写的。“本产品的最大每日剂量为24小时内3000毫克。如果在24小时内服用超过4000毫克的对乙酰氨基酚，可能会发生严重肝损伤。”
+
+00:53:51.930 --> 00:54:34.770
+<v Sean Cole>With so many people already buying acetaminophen, one of the ways companies can still boost sales is to put it in more and more products. More than 600 products contain acetaminophen now, including Excedrin, Theraflu Dristan Tablets, Sudafed Cold and Cough, Robitussin Cold and Flu, Alka Seltzer Plus Cold and Sinus, several types of Mucinex and Midol, most kinds of NyQuil, and stronger prescription painkillers like Percocet and Vicodin. The problem is, having it in so many products means that it's that much easier to accidentally take two drugs with acetaminophen in them at the same time-- say, Tylenol and NyQuil-- and inadvertently overdose yourself. McNeil, responsibly, makes a big point of this in its outreach these days.
+<v Sean Cole>由于已经有如此多人购买对乙酰氨基酚，公司增加销售的方式之一是将其放入越来越多的产品中。超过600种产品现在含有对乙酰氨基酚，包括Excedrin、Theraflu、Dristan药片、Sudafed感冒和咳嗽药、Robitussin感冒和流感药、Alka Seltzer Plus感冒和鼻窦药、几种Mucinex和Midol，大多数NyQuil，以及更强效的处方止痛药如Percocet和Vicodin。问题是，含有该成分的产品太多，意味着在同一时间意外服用两种含有对乙酰氨基酚的药物——比如泰诺和NyQuil——并导致无意过量变得更加容易。麦克尼尔在这些年的推广中，负责任地强调了这一点。
+
+00:54:34.770 --> 00:54:59.630
+<v Sean Cole>Nonetheless, an independent national poll commissioned by ProPublica and This American Life shows a third of the public thinks it's safe to take the maximum recommended dose of Extra Strength Tylenol together with NyQuil. It's not. And a third say it's OK to give your kid the maximum recommended dose of Children's Tylenol along with Children's Tylenol Plus Multi-Symptom Cold Medicine. That's not OK either.
+<v Sean Cole>尽管如此，ProPublica和《This American Life》委托进行的一项独立全国民意调查显示，三分之一的公众认为将加强型泰诺的最大建议剂量与NyQuil一起服用是安全的。这并不安全。三分之一的人说给孩子服用最大建议剂量的“儿童泰诺”和“儿童泰诺感冒多症状药”是可以的。那也不行。
+
+00:54:59.630 --> 00:55:33.160
+<v Sean Cole>The proliferation of products, just how easy it is to double up, might be one reason why deaths from acetaminophen toxicity are much higher now than they were 20 years ago. An FDA report in 2008 noted that acetaminophen poisoning quadrupled and deaths went up seven-fold between 1995 and 2005. They're even higher today.
+<v Sean Cole>产品的大量扩散，以及如此容易重复用药，可能是对乙酰氨基酚毒性导致的死亡人数现在比20年前高得多的原因之一。2008年的一份FDA报告指出，1995年至2005年间，对乙酰氨基酚中毒增加了四倍，死亡人数增加了七倍。如今这一数字甚至更高。
+
+00:55:33.160 --> 00:55:58.970
+<v Ira Glass>Sean Cole. ProPublica has its own version of today's story, with all kinds of videos and graphs and charts and pictures and interactive stuff. You can find that at propublica.org. Special thanks today to the two ProPublica reporters who did the heavy lifting in researching acetaminophen, finding documents and scientific studies and sources-- Jeff Gerth and T. Christian Miller. Also, editors Mark Schoofs, Robin Fields, and Stephen Engelberg.
+<v Ira Glass>肖恩·科尔。ProPublica有今天报道的他们自己的版本，包含各种视频、图表、图形、图片和互动内容。你可以在propublica.org找到。今天特别感谢为研究对乙酰氨基酚、寻找文件、科学研究和来源做了大量繁重工作的两位ProPublica记者——杰夫·格斯（Jeff Gerth）和T·克里斯蒂安·米勒（T. Christian Miller）。还要感谢编辑马克·舒夫斯（Mark Schoofs）、罗宾·菲尔兹（Robin Fields）和斯蒂芬·恩格尔伯格（Stephen Engelberg）。
+
+00:55:58.970 --> 00:56:15.070
+<v Ira Glass>[MUSIC - BO DIDDLEY, "PILLS"]
+<v Ira Glass>（音乐——波·迪德利（Bo Diddley），《药丸》（Pills））
+
+00:56:15.070 --> 00:56:27.000
+<v Ira Glass>Well, our program was produced today by Ben Calhoun and myself, with Alex Blumberg, Sarah Koenig, Miki Meek, Jonathan Menjivar, Lisa Pollak, Brian Reed, Robyn Semien, Alissa Shipp, and Nancy Updike. Our senior producer is Julie Snyder. Production help from Dana Chivvis.
+<v Ira Glass>好吧，我们的节目今天由本·卡尔霍恩（Ben Calhoun）和我本人制作，亚历克斯·布伦伯格（Alex Blumberg）、莎拉·凯尼格（Sarah Koenig）、米基·米克（Miki Meek）、乔纳森·门吉瓦尔（Jonathan Menjivar）、莉萨·波拉克（Lisa Pollak）、布赖恩·里德（Brian Reed）、罗宾·塞米恩（Robyn Semien）、阿丽莎·希普（Alissa Shipp）和南希·厄普戴克（Nancy Updike）参与。我们的高级制作人是朱莉·斯奈德（Julie Snyder）。达纳·奇维斯（Dana Chivvis）提供了制作帮助。
+
+00:56:27.000 --> 00:56:35.070
+<v Ira Glass>Elliot Stapleton is filling in as our operations director. Emily Condon is our production manager. Elise Bergerson's our administrative assistant. Adrienne Mathiowetz runs our website.
+<v Ira Glass>埃利奥特·斯特普尔顿（Elliot Stapleton）担任我们的运营总监。艾米丽·康登（Emily Condon）是我们的制作经理。埃莉斯·伯格森（Elise Bergerson）是我们的行政助理。阿德里安娜·马蒂欧维茨（Adrienne Mathiowetz）负责我们的网站。
+
+00:56:35.070 --> 00:56:48.780
+<v Ira Glass>Research help today from Julie Beer. Music help from Damien Graef and Rob Geddes. Special thanks today to Antonio Benedi, Kate Trunk, Willis Maddrey, Raymond Woosley, Sameer Thapar, Sidney Wolfe, Lisa Swersky, Lisa Gill, and Missy Adams.
+<v Ira Glass>今天的研究帮助来自朱莉·比尔（Julie Beer）。音乐帮助来自达米安·格拉夫（Damien Graef）和罗伯·格德斯（Rob Geddes）。今天特别感谢安东尼奥·贝内迪（Antonio Benedi）、凯特·特朗克（Kate Trunk）、威利斯·马德雷（Willis Maddrey）、雷蒙德·伍斯利（Raymond Woosley）、萨米尔·塔帕尔（Sameer Thapar）、西德尼·沃尔夫（Sidney Wolfe）、莉萨·斯沃斯基（Lisa Swersky）、莉萨·吉尔（Lisa Gill）和米西·亚当斯（Missy Adams）。
+
+00:56:48.780 --> 00:57:01.690
+<v Ira Glass>Our website-- thisamericanlife.org. This American Life is distributed by Public Radio International. Thanks as always to our program's co-founder, Torey Malatia, who does not always make the choices that others would. For example, the reason that he got into public broadcasting?
+<v Ira Glass>我们的网站——thisamericanlife.org。《This American Life》由公共广播国际公司分发。一如既往，感谢我们节目的联合创始人托雷·马拉蒂亚（Torey Malatia），他并不总是做出别人会做出的选择。例如，他进入公共广播的原因？
+
+00:57:01.690 --> 00:57:08.660
+<v Thomas Garvey>Well, to do God's work. No, you nitwit. To make money.
+<v Thomas Garvey>好吧，做上帝的工作。不，你这个笨蛋。为了赚钱。
+
+00:57:08.660 --> 00:57:11.960
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯。下周带着《This American Life》的更多故事回来。
+
+00:57:11.960 --> 00:57:17.230
+<v Ira Glass>[MUSIC - BO DIDDLEY, "PILLS"]
+<v Ira Glass>（音乐——波·迪德利，《药丸》）
+
+00:57:17.230 --> 00:57:22.230
+<v Announcer>PRI, Public Radio International.
+<v Announcer>PRI，公共广播国际公司。

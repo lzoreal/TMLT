@@ -1,0 +1,993 @@
+WEBVTT
+
+00:00:00.730 --> 00:00:28.020
+<v Ira Glass>OK. First, a warning. I am going to talk about math. Don't worry, it won't be bad. 1644, a monk named Marin Mersenne gets obsessed for a while with prime numbers. You remember prime numbers? They're like the atoms of math, indivisible. They cannot be divided by any other number than themselves. So 3 is a prime number. You can only divide it by 3. Versus 4, which you can divide by 2, and you can get 2. Remember? OK. So Mersenne.
+<v Ira Glass>好的。首先，有个警告。我要谈谈数学。别担心，不会很糟糕。1644年，一位名叫马林·梅森的修道士对质数着了迷。你还记得质数吗？它们就像数学的原子，不可分割。除了它们自己，不能被任何其他数字整除。所以3是质数。你只能用3去除它。而4不同，你可以用2去除它，得到2。记得吗？好的。所以，梅森。
+
+00:00:28.020 --> 00:00:33.150
+<v Paul Hoffman>So he had a formula that he thought could predict prime numbers, OK?
+<v Paul Hoffman>他有一个他认为可以预测质数的公式，好吗？
+
+00:00:33.150 --> 00:00:43.380
+<v Ira Glass>This is Paul Hoffman, who wrote about this in his book The Man Who Loved Only Numbers. He says that mathematicians had been searching for a formula like this to find prime numbers for nearly 2,000 years at that point.
+<v Ira Glass>这是保罗·霍夫曼，他在他的书《爱上数字的男人》中写过这件事。他说，当时数学家们已经寻找这样的质数公式近2000年了。
+
+00:00:43.380 --> 00:01:05.750
+<v Paul Hoffman>Euclid, way, way back, 2,300 years ago, had proved that there's an infinite number of prime numbers. But he gave no formula for how to find them. I mean, they're easy at small numbers. We can do the math in our head. 7's prime. Nothing divides into it. 11's prime. If I give you a really big number, now you're going to have to start calculating, OK? So this monk came up with a formula.
+<v Paul Hoffman>欧几里得，早在2300年前，就已经证明了质数有无数个。但他没有给出如何找到它们的公式。我的意思是，对于小数字来说这很简单。我们可以在脑子里进行计算。7是质数。没有什么能整除它。11是质数。如果我给你一个非常大的数字，现在你就得开始计算了，好吗？所以这位修道士想出了一个公式。
+
+00:01:05.750 --> 00:01:31.800
+<v Ira Glass>Mersenne creates this formula. And he uses it to spit out prime numbers. And one of the prime numbers that he said that he discovered was-- and this is going to sound a little bit technical-- 2 raised to the 67th power-- that is, 2 times 2 times 2 times 2, 67 times-- minus 1. And if that was confusing, all you need to know is this number of Mersenne's, 2 raised to the 67th minus 1, was famous among mathematicians.
+<v Ira Glass>梅森创造了这个公式。他用它来推导质数。他说他发现的其中一个质数是——这听起来会有点专业——2的67次方——也就是说，2乘以2乘以2乘以2，乘67次——减去1。如果这让你感到困惑，你只需要知道梅森的这个数字，2的67次方减1，在数学家中很有名。
+
+00:01:31.800 --> 00:01:45.790
+<v Paul Hoffman>That's how his paper ended. He said it was a prime number. This is 1644. So 250 years later, we're into the 20th century. I think it's 1903. And you have this mathematician that shows up at a mathematical conference--
+<v Paul Hoffman>他的论文就是这样结尾的。他说那是一个质数。这是1644年。250年后，我们进入了20世纪。我想是1903年。有一位数学家出现在一个数学会议上——
+
+00:01:45.790 --> 00:01:49.360
+<v Ira Glass>And who is this? What is the conference? Where are we?
+<v Ira Glass>他是谁？这是什么会议？我们在哪里？
+
+00:01:49.360 --> 00:02:05.190
+<v Paul Hoffman>It's here in the United States. His name is Frank Nelson Cole. And he gave his talk a very unassuming title. He titled his talk "On the Factorization of Large Numbers." And he went to a blackboard. And he wrote, 2 to the 67th minus 1--
+<v Paul Hoffman>就在美国这里。他的名字叫弗兰克·尼尔森·科尔。他给他的演讲起了一个非常低调的标题。他把演讲命名为“关于大数的因式分解”。他走到黑板前。他写下，2的67次方减1——
+
+00:02:05.190 --> 00:02:06.340
+<v Ira Glass>Wait, wait. Does he say anything?
+<v Ira Glass>等等，等等。他说了什么吗？
+
+00:02:06.340 --> 00:02:08.170
+<v Paul Hoffman>He says nothing. He says not a word.
+<v Paul Hoffman>他什么也没说。他一个字也没说。
+
+00:02:08.170 --> 00:02:09.990
+<v Ira Glass>He just walks over to the blackboard and just, like--
+<v Ira Glass>他只是走到黑板前，然后，就像——
+
+00:02:09.990 --> 00:02:19.490
+<v Paul Hoffman>He writes that. And of course, everybody in the audience knows that that's the famous Mersenne prime. And he writes, equals, and then he writes out a 21-digit number--
+<v Paul Hoffman>他写下了那个。当然，台下的每个人都知道那是著名的梅森质数。然后他写下“等于”，接着写出了一个21位的数字——
+
+00:02:19.490 --> 00:02:25.790
+<v Ira Glass>Oh, in other words, when you take 2 and then multiply it by 2 67 times, and then subtract 1, that is this number, 21 digits long. OK.
+<v Ira Glass>哦，换句话说，当你用2乘以2，乘67次，然后减去1，就是这个21位长的数字。好的。
+
+00:02:25.790 --> 00:02:40.550
+<v Paul Hoffman>Exactly, exactly. Equals this number. Then he moved over to a blank piece of blackboard. And he wrote down two numbers. One is a nine-digit number, times a 12-digit number. He writes those two numbers out.
+<v Paul Hoffman>没错，没错。等于这个数字。然后他移到黑板的空白处。他写下了两个数字。一个是九位数，乘以一个十二位数。他把那两个数字写了出来。
+
+00:02:40.550 --> 00:02:44.220
+<v Ira Glass>OK, so that's two numbers that were sitting there on the board, multiplication problem, and?
+<v Ira Glass>好的，所以黑板上写着两个数字，是个乘法题，然后呢？
+
+00:02:44.220 --> 00:02:54.170
+<v Paul Hoffman>And then he did the multiplication, just like the way they taught us back in second grade to do it. 7 times 1, he put down the 7. He went through the whole steps--
+<v Paul Hoffman>然后他进行了乘法运算，就像我们在小学二年级学的那样。7乘以1，他写下7。他完成了整个过程——
+
+00:02:54.170 --> 00:02:56.440
+<v Ira Glass>Just long multiplication. Does he say anything?
+<v Ira Glass>只是长乘法。他说话了吗？
+
+00:02:56.440 --> 00:03:00.260
+<v Paul Hoffman>Says not a word. Everybody sits there silently.
+<v Paul Hoffman>一个字没说。大家静静地坐着。
+
+00:03:00.260 --> 00:03:30.460
+<v Ira Glass>Now, remember, the whole idea of a prime number is you should not be able to take two numbers, and then multiply them together and get a prime number as a result. It's supposed to be indivisible. If you multiplied two numbers together and you got this 21-digit number as a result, then that 21-digit number is not prime. And if Mersenne thought it was prime-- which he did-- his formula supposedly spits out prime numbers, this one of them, then his formula, 250 years old, is just wrong.
+<v Ira Glass>现在记住，质数的全部概念就是你不应该能取两个数字，把它们乘在一起，得到一个质数作为结果。它应该是不可分割的。如果你把两个数字乘在一起得到了这个21位数的数字，那么这个21位数的数字就不是质数。如果梅森认为它是质数——他确实是这样认为的——他的公式理应推导出质数，这是其中之一，那么他250年前的公式就是错的。
+
+00:03:30.460 --> 00:03:54.110
+<v Ira Glass>So, picture it. There's Frank Nelson Cole at the blackboard, slowly doing long multiplication, these two huge numbers. It takes a while. They're big numbers. It takes minutes, as this room full of mathematicians just watches him, lots of them, I'm sure, scrutinizing him for any math errors. He still has not said a word. And then, he gets to his result.
+<v Ira Glass>所以，想象一下。弗兰克·尼尔森·科尔在黑板前，慢慢地做着长乘法，这两个巨大的数字。这需要一点时间。它们是很大的数字。花了几分钟，全屋子的数学家都在看着他，我敢肯定其中许多人在仔细检查他是否有数学错误。他仍然一言未发。然后，他得出了结果。
+
+00:03:54.110 --> 00:04:14.770
+<v Paul Hoffman>And indeed, it ends up being that 21-digit number. Now, the whole place erupts into applause. Legend has it, this is the first time at a math conference that people got up and applauded. And he just returns to his seat without a word.
+<v Paul Hoffman>而且确实，结果就是那个21位的数字。现在，全场爆发出掌声。传说这是数学会议上第一次人们站起来鼓掌。而他只是默默地回到座位上。
+
+00:04:14.770 --> 00:04:27.680
+<v Paul Hoffman>And then later, someone asked him, "How long did it actually take you to figure out that Mersenne was wrong, that indeed this number has two factors?" And he said that he spent three years of Sundays working on this.
+<v Paul Hoffman>后来，有人问他：“你到底花了多长时间才弄清楚梅森是错的，这个数字确实有两个因子？”他说他花了三个周日的时间研究这个问题。
+
+00:04:27.680 --> 00:04:59.280
+<v Ira Glass>Three years of Sundays. Paul says these three years of Sundays were probably spent solving the problem by trying every possible solution-- dividing that huge number, 2 to the 67th power minus 1, by one number and then the next number and then the next. Three years of Sundays is 156 Sundays. For 155 of them, Frank Nelson Cole failed. Until finally, on the 156th Sunday, Frank Nelson Cole found a number that would divide it evenly, which, Paul says, is par for the course.
+<v Ira Glass>三个周日。保罗说这三个周日大概是他通过尝试每一种可能的解法来解决问题的——用一个数字去除那个巨大的数字，2的67次方减1，然后换下一个数字，再下一个。三个周日就是156个周日。在前155个周日里，弗兰克·尼尔森·科尔都失败了。直到最后，在第156个周日，弗兰克·尼尔森·科尔找到了一个能整除它的数字，保罗说，这很正常。
+
+00:04:59.280 --> 00:05:23.020
+<v Paul Hoffman>That's what science is about. It's real people banging their heads against walls and years of false starts. That's the other thing. We don't talk about the researcher who spent two years trying to find what this gene did and then gave up, or spent three years trying to find a planet outside the solar system and gave up, and someone else eventually did. It's more a combination of insight and hard work, because--
+<v Paul Hoffman>这就是科学的意义所在。这是真实的人们在撞墙，经历了多年的失败尝试。还有一点。我们不谈论那些花了两年时间试图找出这个基因功能却最终放弃的研究人员，或者花了三年试图在太阳系外寻找行星却放弃了，而最终被别人做到了的情况。这更多是洞察力和努力工作的结合，因为——
+
+00:05:23.020 --> 00:05:23.530
+<v Ira Glass>Failure.
+<v Ira Glass>失败。
+
+00:05:23.530 --> 00:05:45.000
+<v Paul Hoffman>And failure. Because people who think outside the box and achieve things outside the box often entertain a lot of wacky ideas that don't turn out to be true in the science world. Isaac Newton had lots of weird ideas. Charles Darwin had weird ideas. They happened to be right about what they're known for. Isaac Newton got a little interested in ghosts and all sorts of occult stuff.
+<v Paul Hoffman>还有失败。因为那些跳出框架思考并取得框架外成就的人，往往会有很多古怪的想法，在科学界证明是不真实的。艾萨克·牛顿有很多奇怪的想法。查尔斯·达尔文也有奇怪的想法。他们刚好在他们出名的领域是对的。艾萨克·牛顿对鬼魂和各种神秘学的东西产生了一些兴趣。
+
+00:05:45.000 --> 00:05:45.790
+<v Ira Glass>Really?
+<v Ira Glass>真的吗？
+
+00:05:45.790 --> 00:05:46.240
+<v Paul Hoffman>Yeah.
+<v Paul Hoffman>是的。
+
+00:05:46.240 --> 00:05:51.150
+<v Ira Glass>Wait, wait. And did he believe in ghosts, or did he just think, we gotta investigate this. Maybe there's some data here.
+<v Ira Glass>等等，等等。他相信鬼魂吗，还是他只是想，我们必须调查一下。也许这里有一些数据。
+
+00:05:51.150 --> 00:05:53.240
+<v Paul Hoffman>No, he started believing in them. He--
+<v Paul Hoffman>不，他开始相信它们了。他——
+
+00:05:53.240 --> 00:05:53.540
+<v Ira Glass>Isaac Newton?
+<v Ira Glass>艾萨克·牛顿？
+
+00:05:53.540 --> 00:05:54.450
+<v Paul Hoffman>Yeah.
+<v Paul Hoffman>是的。
+
+00:05:54.450 --> 00:05:55.080
+<v Ira Glass>Wow.
+<v Ira Glass>哇。
+
+00:05:55.080 --> 00:06:06.750
+<v Paul Hoffman>So they're known for their out-of-the-box thinking on something that turns out to be true and is wonderful. But they've also entertained a lot of other stuff.
+<v Paul Hoffman>所以他们以在某些方面跳出框架的思考而闻名，这些思考最终被证明是正确的，而且是美妙的。但他们也涉足过很多其他事情。
+
+00:06:06.750 --> 00:06:48.940
+<v Ira Glass>Well, today on our radio program, we have two stories of people who face impossible-seeming situations. And in each of those stories, it's like a bad action film. These two people each decide that the stakes are high enough that their best shot is to try something crazy, so crazy it just might work. The first story is about a scientist. The second story is about somebody employing this technique in his personal life, which is really something to see. From WBEZ Chicago, it's This American Life , distributed by Public Radio International. I am hoping that all this sounds so crazy you just might stay with us.
+<v Ira Glass>今天在我们的广播节目中，我们有两个关于人们面临看似不可能的情况的故事。在每一个故事中，就像一部糟糕的动作片。这两个人各自决定赌注足够大，以至于他们最好的赌注是尝试一些疯狂的事情，疯狂到可能真的会奏效。第一个故事是关于一位科学家的。第二个故事是关于某人在他的个人生活中运用这种技术，这真的很值得一看。来自芝加哥WBEZ，这是《美国生活》，由国际公共广播电台发行。我希望所有这一切听起来如此疯狂，以至于你可能会留下来听我们的节目。
+
+00:06:48.940 --> 00:07:16.940
+<v Ira Glass>Act One, Mr. Holland's Opus. OK, true story. A guy goes to college on a music scholarship. And then afterwards, he ends up going into science. And he becomes a cancer researcher. His name is Jon Brody. And 19 years after graduating, Jon is invited back to his old college to give a talk about his work. And the speech he gives is mainly about how important it's been in his research to think outside the box, to use an overused phrase. To think outside the box, to be ready to turn away from what's familiar and try some new idea.
+<v Ira Glass>第一幕，霍兰先生的乐章。好的，真实的故事。一个家伙靠音乐奖学金上了大学。然后后来，他最终进入了科学领域。他成为了一名癌症研究员。他的名字叫乔恩·布罗迪。毕业19年后，乔恩被邀请回到他的老大学，谈谈他的工作。他发表的演讲主要是关于在他的研究中，跳出框架思考——用一个过度使用的短语——是多么重要。跳出框架思考，准备好摒弃熟悉的做法，尝试一些新想法。
+
+00:07:16.940 --> 00:07:40.070
+<v Ira Glass>And then after his speech, Jon is approached by his old orchestra teacher, a guy named Anthony Holland. And Professor Holland, to Jon's great surprise, says, "Speaking of thinking outside the box, I've actually been working on an experiment for a few years that I'd like to show you. Come look at this video. I think you'll find it very interesting." So what could Jon do? He'd just actually given a whole talk about keeping an open mind.
+<v Ira Glass>在演讲之后，乔恩的老管弦乐老师安东尼·霍兰走近了他。霍兰教授让乔恩大吃一惊，他说：“说到跳出框架思考，我其实已经做了一个实验几年了，我想展示给你看。来看看这个视频。我想你会觉得它非常有趣。”乔恩能做什么呢？他刚刚才发表了关于保持开放思想的整个演讲。
+
+00:07:40.070 --> 00:07:57.690
+<v Ira Glass>What resulted from this was the kind of scientific collaboration that almost never, ever happens-- a serious cancer researcher teaming up with an amateur to try to make a breakthrough. Gabriel Rhodes is a documentary filmmaker. And he's been following the story from the beginning, back when Jon watched that video. Here's Gabriel.
+<v Ira Glass>由此产生的是那种几乎永远不会发生的科学合作——一位严肃的癌症研究员与一位业余爱好者联手试图取得突破。加布里埃尔·罗兹是一位纪录片制片人。他从一开始就一直关注这个故事，回到乔恩观看那个视频的时候。这是加布里埃尔。
+
+00:07:57.690 --> 00:08:14.880
+<v Gabriel Rhodes>I've seen the video that Anthony, the orchestra teacher, showed Jon. And it amazed me. I saw single-cell organisms, basically round and oblong and pear-shaped blobs, swimming around under a microscope. Anthony narrates this as he goes along. And suddenly, the cells stop and just self-destruct.
+<v Gabriel Rhodes>我看过安东尼，那位管弦乐老师，展示给乔恩看的视频。这让我感到惊讶。我看到单细胞生物，基本上是圆形、长方形和梨形的斑点，在显微镜下游来游去。安东尼一边演示一边讲解。突然，细胞停止运动并自我毁灭。
+
+00:08:14.880 --> 00:08:20.800
+<v Anthony Holland>Look what happened, just now. He suddenly and dramatically disintegrated--
+<v Anthony Holland>看看刚才发生了什么。他突然戏剧性地瓦解了——
+
+00:08:20.800 --> 00:08:49.330
+<v Gabriel Rhodes>Some burst into tiny fragments. And some look like a plastic bag that's been punctured, and their contents leak out. As Anthony explained to Jon, the theory behind what he was doing was simple. You know how a singer, if they hit the right frequency, can shatter a crystal glass? Well, Anthony was basically doing the same thing, directing specific frequencies at microorganisms, like bacteria and protozoa, to try and shatter them. And after a year and a half of experimentation, suddenly, it worked.
+<v Gabriel Rhodes>有些分裂成微小的碎片。有些看起来像一个被刺破的塑料袋，里面的内容物漏了出来。正如安东尼向乔恩解释的那样，他所做工作的理论很简单。你知道歌手如果击中正确的频率，可以震碎水晶杯吗？好吧，安东尼基本上是在做同样的事情，将特定的频率导向微生物，如细菌和原生动物，试图震碎它们。经过一年半的实验，突然，它奏效了。
+
+00:08:49.330 --> 00:09:00.840
+<v Gabriel Rhodes>So Anthony showed this to Jon. And he and Jon each remember the conversation that followed a little differently, in a way that says a lot about their later collaboration. Anthony's version was entirely optimistic.
+<v Gabriel Rhodes>所以安东尼向乔恩展示了这一点。他和乔恩对随后的谈话记忆略有不同，这在很大程度上说明了他们后来的合作。安东尼的版本完全是乐观的。
+
+00:09:00.840 --> 00:09:09.200
+<v Anthony Holland>He immediately jumped right to the main thing that I was interested in. And he just said, "Do you think you can shatter cancer cells like that?"
+<v Anthony Holland>他立刻跳到了我感兴趣的主要内容。他只是说：“你认为你能像那样震碎癌细胞吗？”
+
+00:09:09.200 --> 00:09:10.390
+<v Gabriel Rhodes>And here's Jon.
+<v Gabriel Rhodes>这是乔恩。
+
+00:09:10.390 --> 00:09:42.930
+<v Jonathan Brody>You know, when I first heard about it, it's in the arena of UFOs, for sure. He was putting words in my mouth already. He was saying things like, "Do you think this would work?" And I would say, "Well, it's a possibility, and I'm willing to try anything." And so Anthony would, in his voice, he would would say, "So you're saying that I could maybe cure cancer." And I was like, "Well, so could the oboe player downstairs."
+<v Jonathan Brody>你知道，当我第一次听说它时，它肯定处于UFO的领域。他已经在替我说话了。他在说像“你认为这会奏效吗？”之类的话。我会说，“嗯，这是一种可能性，我愿意尝试任何事情。”所以安东尼会用他的声音说，“所以你是说我可能可以治愈癌症。”我就像，“嗯，楼下的双簧管演奏者也可以。”
+
+00:09:42.930 --> 00:09:58.410
+<v Gabriel Rhodes>But Jon was willing to talk more, in part, because he's so frustrated with cancer research. He thinks it's stalled. Lots of people going over the same familiar ideas, endlessly refining the same concepts, because the familiar is more likely to get funded.
+<v Gabriel Rhodes>但乔恩愿意多谈谈，部分原因是他在癌症研究方面感到非常沮丧。他认为研究停滞不前。很多人在重复同样熟悉的概念，无休止地细化同样的概念，因为熟悉的事物更容易获得资助。
+
+00:09:58.410 --> 00:10:23.340
+<v Jonathan Brody>I do think it's much like being out in Hollywood, where you might go out to Hollywood thinking that you're going to be Kafka. And you might end up writing the worst, hackiest sitcom in the world, because you want to survive. So what happens in this country when the same thing happens with science?
+<v Jonathan Brody>我确实认为这很像是在好莱坞，你可能怀着成为卡夫卡的梦想去好莱坞。结果你可能最终写出了世界上最糟糕、最平庸的情景喜剧，因为你想生存。那么在这个国家，当科学发生同样的事情时会发生什么呢？
+
+00:10:23.340 --> 00:10:38.710
+<v Gabriel Rhodes>I've known Jon Brody for 20 years. He's a good friend of mine. And before this encounter, Anthony was just a professor who drove him really hard, back when he went to college on a percussion scholarship. They weren't close or anything. But Jon definitely remembered Professor Holland as he'd always known him.
+<v Gabriel Rhodes>我认识乔恩·布罗迪20年了。他是我的好朋友。在这次邂逅之前，安东尼只是一个在他大学期间对他要求非常严格的教授，当时他靠打击乐奖学金上大学。他们并不亲近。但乔恩绝对记得霍兰教授一直以来的样子。
+
+00:10:38.710 --> 00:11:14.260
+<v Jonathan Brody>He probably wouldn't say this, but I sort of remember him as-- I think he was disappointed in me as a musician in the orchestra, because I remember him wanting to have, like, extra sessions with me. And I think when we had a guest composer come in, I hate to say it, I think he relegated me to playing the triangle. And I'm not kidding. I seriously remember having to count, like, 67 bars to hit that one quarter note on the triangle.
+<v Jonathan Brody>他可能不会这么说，但我记得他——我想他在管弦乐队里对我作为音乐家感到失望，因为我记得他想要我和他进行额外的辅导。而且我想当有客座作曲家来的时候，我不愿说，我想他把我降级去打三角铁了。我没开玩笑。我认真记得不得不数67小节才能在三角铁上敲那一个四分音符。
+
+00:11:14.260 --> 00:11:38.130
+<v Gabriel Rhodes>So when Anthony came up to him after his speech, Jon was flattered that this teacher he'd always respected was interested in his work. They started emailing back and forth about Anthony's video and his experiments, until finally, Jon decided that he couldn't tell whether Anthony had something serious that could be researched unless he drove up to see him. So he went. And he invited me along just as a fun road trip. And why not film the conversation while I'm there?
+<v Gabriel Rhodes>所以当安东尼在他的演讲后走到他身边时，乔恩感到受宠若惊，因为这位他一直尊敬的老师对他自己的工作感兴趣。他们开始来回发邮件讨论安东尼的视频和他的实验，直到最后，乔恩决定，除非他开车去见他，否则他无法判断安东尼是否有值得研究的严肃东西。所以他去了。他还邀请我一起去，就当是一次有趣的公路旅行。为什么不在我在那里的时候把谈话拍下来呢？
+
+00:11:38.130 --> 00:11:40.860
+<v Anthony Holland>Is there enough light? I'm worried about the light.
+<v Anthony Holland>光线足够吗？我担心光线。
+
+00:11:40.860 --> 00:11:42.080
+<v Jonathan Brody>Oh, yeah.
+<v Jonathan Brody>哦，是的。
+
+00:11:42.080 --> 00:12:03.590
+<v Gabriel Rhodes>We're up as Skidmore College in Saratoga Springs, New York, where Anthony teaches. Anthony's in his early '50s, but he's got a boyish vibe. He bounces a little when he walks. Full head of brown hair, goatee, glasses, corduroys. Your basic professor. Jon's in his late '30s, balding but in that stylish, close-cropped way. He stays in shape, even though he works like a maniac.
+<v Gabriel Rhodes>我们在纽约州萨拉托加斯普林斯的斯基德莫尔学院，那是安东尼教书的地方。安东尼50岁出头，但他有一种孩子气。他走路时会轻轻跳跃。浓密的棕色头发，山羊胡子，眼镜，灯芯绒裤子。你基本的教授形象。乔恩30多岁，秃顶，但以那种时髦的短发方式。他保持身材，尽管他工作得像个疯子。
+
+00:12:03.590 --> 00:12:33.210
+<v Gabriel Rhodes>And over the course of their long conversation, Jon was surprised and impressed by how much Anthony knew, how much he'd read, how dogged he'd been in his experiments. And one thing in particular caught Jon's attention. In Anthony's experiments, particular frequencies seemed to target particular organisms and left others untouched, meaning there might be frequencies that could destroy cancer cells while leaving normal, healthy cells alone-- a potential solution, Jon said, to the biggest problem with most cancer treatments.
+<v Gabriel Rhodes>在他们长时间的交谈中，乔恩对安东尼了解多少、读过多少、在实验中多么顽强感到惊讶和钦佩。有一点特别引起了乔恩的注意。在安东尼的实验中，特定的频率似乎针对特定的生物，而让其他生物不受影响，这意味着可能存在一些频率可以破坏癌细胞，同时让正常的、健康的细胞不受影响——乔恩说，这可能是解决大多数癌症治疗最大问题的一个潜在方案。
+
+00:12:33.210 --> 00:13:09.430
+<v Jonathan Brody>So if we can find a frequency specific to cancer cells, we could put someone in a room, and you hit that frequency, and it's not affecting normal cells. I mean, that's the actual perfect paradigm in which to treat someone for this disease. Because what kills a patient is not the primary tumor. It's the tumors that have left the site and gone off into neighborhoods that the surgeon can't take out. So if you could walk into a room and you can get completely zapped, like a complete CAT scan--
+<v Jonathan Brody>所以如果我们能找到一种针对癌细胞的频率，我们就可以把人放在一个房间里，当你击中那个频率时，它不会影响正常细胞。我的意思是，这实际上是治疗这种疾病的完美范式。因为杀死病人的不是原发肿瘤。而是那些已经离开原发部位、进入外科医生无法切除的邻近区域的肿瘤。所以如果你能走进一个房间，你能完全被扫描，就像一个完整的CAT扫描——
+
+00:13:09.430 --> 00:13:14.370
+<v Anthony Holland>Right. And it only hits the cancer. It doesn't hurt healthy cells. Yeah, that would be the--
+<v Anthony Holland>对。而且它只击中癌症。它不会伤害健康细胞。是的，那将是——
+
+00:13:14.370 --> 00:13:15.000
+<v Jonathan Brody>Home run.
+<v Jonathan Brody>本垒打。
+
+00:13:15.000 --> 00:13:15.880
+<v Anthony Holland>That's the dream.
+<v Anthony Holland>那是梦想。
+
+00:13:15.880 --> 00:13:21.250
+<v Jonathan Brody>Yeah.
+<v Jonathan Brody>是的。
+
+00:13:21.250 --> 00:13:38.850
+<v Gabriel Rhodes>That's the dream, because chemotherapy and radiation are so flawed. Both devastate healthy cells. Anthony's machine works by pulsing the cells with electromagnetic waves at specific frequencies. And there are other scientists out there - published in peer-reviewed journals - who are also using electromagnetic waves to attack cancer cells. There's an FDA clinical trial going on right now using this method.
+<v Gabriel Rhodes>那是梦想，因为化疗和放疗有太多的缺陷。两者都会破坏健康细胞。安东尼的机器通过以特定频率对细胞脉冲电磁波来工作。还有其他科学家——在同行评审期刊上发表文章——也正在使用电磁波攻击癌细胞。现在有一个使用这种方法的FDA临床试验正在进行中。
+
+00:13:38.850 --> 00:13:59.540
+<v Gabriel Rhodes>The whole field is still very new, just a handful of people - and Anthony's system is different from others - but using electromagnetic waves to target cancer cells isn't just a fantasy dreamed up by a music professor. Then Jon asked Anthony how he'd gotten into these experiments in the first place.
+<v Gabriel Rhodes>整个领域仍然非常新，只有少数人——而且安东尼的系统与其他人的不同——但使用电磁波来针对癌细胞不仅仅是音乐教授幻想出来的东西。然后乔恩问安东尼他是怎么开始这些实验的。
+
+00:13:59.540 --> 00:14:15.980
+<v Anthony Holland>I read an interesting book called Lost Science . And I'm very interested in hidden information, in secret stuff we're not supposed to know and things maybe that were known a long time ago or forgotten or something.
+<v Anthony Holland>我读过一本有趣的书叫《失落的科学》。我对隐藏的信息非常感兴趣，关于秘密的东西，我们不应该知道的事情，以及可能在很久以前就知道或者被遗忘了的东西。
+
+00:14:15.980 --> 00:14:53.990
+<v Anthony Holland>And in that book-- now this is where it probably gets very kind of controversial-- but I read about a guy named Royal Raymond Rife. And the book says that in the 1930s, he built an electromagnetic frequency device, a radio frequency device, which cured cancer. I got the device. I developed a special, custom-built frequency synthesis program, because that's what I teach, digital audio synthesis. And I've been studying sound and physics and acoustics for a long time. And I began to run frequencies through this device.
+<v Anthony Holland>在那本书里——现在这可能变得有点争议了——但我读到关于一个叫皇家雷蒙德·莱夫的人。书中说，在20世纪30年代，他制造了一种电磁频率装置，一种无线电频率装置，它治愈了癌症。我有这个装置。我开发了一个特殊的、定制的频率合成程序，因为那就是我教的内容，数字音频合成。我对声音、物理和声学研究了很长时间。我开始通过这个装置运行频率。
+
+00:14:53.990 --> 00:15:23.140
+<v Gabriel Rhodes>Now, Royal Rife, for lots of people who have even heard of him, is a name synonymous with bogus cancer cures. He was an inventor in the 1930s. And the legend is that he cured a bunch of people with cancer using an electromagnetic wave device before he was destroyed by a greedy, mainstream medical establishment. It's a staple of conspiracy theory websites. Google him. He's everywhere. If Jon wanted out of the box, Anthony and the Rife machine were way outside.
+<v Gabriel Rhodes>现在，皇家莱夫，对于许多甚至听说过他的人来说，是一个与虚假癌症治疗同义的名字。他是20世纪30年代的一位发明家。传说他在被贪婪的主流医学界摧毁之前，用电磁波装置治愈了一群癌症患者。这是阴谋论网站的主打内容。去谷歌搜他。他无处不在。如果乔恩想跳出框架，安东尼和莱夫机器就远远超出了框架。
+
+00:15:23.140 --> 00:15:56.010
+<v Gabriel Rhodes>And Jon and Anthony were just an unlikely pair. Jon was the head of his own lab by the age of 40. He gets hundreds of thousands of dollars from the National Institutes of Health and other very mainstream medical research organizations. Anthony, meanwhile, is a composer, electronics whiz, a self-taught expert in several fields, and a deep skeptic of all things mainstream, especially in medicine. He pulled me aside more than once to warn me I'd better be careful, my life might be in danger. Because big pharmaceutical companies would try to hush up any story about a possible cancer treatment alternative.
+<v Gabriel Rhodes>乔恩和安东尼是一对不太可能的组合。乔恩40岁时就是他自己实验室的负责人了。他从国立卫生研究院和其他非常主流的医学研究组织获得数十万美元的资助。与此同时，安东尼是一位作曲家、电子奇才、多个领域的自学专家，也是所有主流事物的深度怀疑论者，特别是在医学领域。他不止一次把我拉到一边警告我要小心，我的生命可能有危险。因为大型制药公司会试图掩盖任何关于潜在癌症治疗替代方案的故事。
+
+00:15:56.010 --> 00:16:04.930
+<v Gabriel Rhodes>But they decided to work together. And it was just as much a personal decision as anything else. Each of them saw something in the other. They liked each other.
+<v Gabriel Rhodes>但他们决定合作。这和任何其他事情一样是一个个人决定。他们每个人都在对方身上看到了某种东西。他们互相喜欢。
+
+00:16:04.930 --> 00:16:31.910
+<v Gabriel Rhodes>And Jon thought, who cares where the electromagnetic wave theory came from? It's a potentially game-changing treatment. Why not at least test it? So he invited Anthony to come down to his lab in Philadelphia with the device. And they agreed to keep everything as low stakes as possible, half-serious, half a lark. Anthony would come for only two weeks. And they'd see what happened.
+<v Gabriel Rhodes>乔恩想，电磁波理论从哪来有什么关系？这是一个潜在的改变游戏规则的治疗方法。为什么至少不测试一下呢？所以他邀请安东尼带着装置来到他在费城的实验室。他们同意把一切风险控制在最低限度，半认真，半开玩笑。安东尼只待两周。他们会看看发生什么。
+
+00:16:31.910 --> 00:16:37.390
+<v Anthony Holland>This is the miracle amplifier, the secret weapon.
+<v Anthony Holland>这是神奇的放大器，秘密武器。
+
+00:16:37.390 --> 00:16:57.310
+<v Gabriel Rhodes>Anthony is in a room at Jon's lab at Thomas Jefferson University in Philadelphia, unpacking his equipment. And the plan for the next two weeks is that Anthony will work at night after everyone else leaves, so he isn't taking time or space away from other experiments. And he has to pay his own way. No tax dollars or grant money will be spent on this. Jon will supervise.
+<v Gabriel Rhodes>安东尼在费城托马斯杰斐逊大学乔恩实验室的一个房间里，正在拆开他的设备。接下来的两周计划是安东尼在其他人离开后的晚上工作，这样他就不会占用其他人进行其他实验的时间或空间。而且他必须支付自己的费用。没有税款或补助金会花在这上面。乔恩会监督。
+
+00:16:57.310 --> 00:17:21.050
+<v Gabriel Rhodes>So here Anthony is, surrounded by amplifiers, cables, all sorts of equipment, none of which is in special cases or anything. It's all coming out of luggage, wrapped in bubble wrap, and into this room where they do molecular cloning. It's got microscopes, a big medical-grade incubator, a special sterile area called the Tissue Culture Hood. It's high-tech. Jon's watching Anthony assembling his gear.
+<v Gabriel Rhodes>所以安东尼在这里，周围是放大器、电缆、各种设备，没有一个是放在特殊箱子里的。它们全都是从行李箱里拿出来的，用气泡膜包着，放到这个进行分子克隆的房间里。这里有显微镜，一个大的医疗级培养箱，一个特殊的无菌区域叫组织培养罩。这是高科技。乔恩看着安东尼组装他的装备。
+
+00:17:21.050 --> 00:17:23.410
+<v Jonathan Brody>It looks like you literally made this in your garage.
+<v Jonathan Brody>看起来你真的是在你的车库里做的。
+
+00:17:23.410 --> 00:17:41.960
+<v Gabriel Rhodes>Jon said, "It looks like you literally made this in your garage." To me, the setup looks like it was designed by Dr. Seuss for some sci-fi movie in the '60s. There's some high-tech gear, like a big, glass, helium-filled tube with electrodes that glows pink when it's turned on, and then this whole mess of consumer electronics.
+<v Gabriel Rhodes>乔恩说，“看起来你真的是在你的车库里做的。”对我来说，这个设置看起来像是苏斯博士为60年代的科幻电影设计的。有一些高科技装备，比如一个大的、充氦的玻璃管，有电极，打开时会发出粉红色的光，然后这一大堆消费电子产品。
+
+00:17:41.960 --> 00:17:56.690
+<v Anthony Holland>This is a power supply that came from an electronics house in Cleveland. And then this little 100-watt magical amp I picked up from some company that sells CB radios to truckers or something on the internet.
+<v Anthony Holland>这是一个从克利夫兰的一家电子公司买来的电源。然后这个小的100瓦神奇放大器是我从网上买的，卖给卡车司机CB电台之类的公司买的。
+
+00:17:56.690 --> 00:18:05.190
+<v Gabriel Rhodes>There's also two laptops. And on one, Anthony's written a program that generates frequencies to send into the device. It sounds like this--
+<v Gabriel Rhodes>还有两台笔记本电脑。在一台笔记本上，安东尼写了一个程序，生成发送到装置的频率。它听起来像这样——
+
+00:18:05.190 --> 00:18:05.600
+<v Gabriel Rhodes>[BEEP]
+<v Gabriel Rhodes>[哔]
+
+00:18:05.600 --> 00:18:09.080
+<v Anthony Holland>It's not a really fabulous sound. It's kind of ugly and annoying.
+<v Anthony Holland>这并不是一个非常美妙的声音。它有点丑陋和烦人。
+
+00:18:09.080 --> 00:18:14.750
+<v Gabriel Rhodes>Yeah. And then a transmitter transposes the frequencies way up out of the audible range.
+<v Gabriel Rhodes>是的。然后一个发射器将频率转换到可听范围之外的高频。
+
+00:18:14.750 --> 00:18:34.650
+<v Anthony Holland>And then, what we'll do is we'll set the cancer cells right here. And with any luck, if we get the right frequency, the cancer cells may in fact start dying.
+<v Anthony Holland>然后，我们要做的就是把癌细胞放在这里。如果运气好，如果我们得到正确的频率，癌细胞事实上可能会开始死亡。
+
+00:18:34.650 --> 00:19:02.630
+<v Gabriel Rhodes>For the next two weeks, Anthony works all night, every night, running experiments, taking cancer cells that have been prepared for him out of the incubator. And he pulses the cells with frequencies for hours, trying one frequency after another. Jon checks in on the experiments every day. There's a lot of trial and error and problems. Some of the equipment blows out and has to be replaced. And Jon and Anthony aren't sure what they've got until Anthony's last day, when Jon comes to look at the latest experiments.
+<v Gabriel Rhodes>接下来的两周，安东尼每天晚上都在工作，运行实验，从培养箱中取出已经为他准备好的癌细胞。他用频率对细胞脉冲数小时，尝试一个又一个频率。乔恩每天检查实验情况。有很多试验和错误以及问题。有些设备烧坏了，必须更换。乔恩和安东尼不确定他们得到了什么，直到安东尼的最后一天，当乔恩来看最新的实验。
+
+00:19:02.630 --> 00:19:05.320
+<v Anthony Holland>Let's see. They're going to be labeled 720.
+<v Anthony Holland>让我们看看。它们将被标记为720。
+
+00:19:05.320 --> 00:19:17.060
+<v Gabriel Rhodes>They're sitting in front of a microscope, looking down at pancreatic cancer cells. The cells are in what looks like a tiny plastic egg carton. Jon looks down into the microscope, and he starts to get excited.
+<v Gabriel Rhodes>他们坐在显微镜前，看着胰腺癌细胞。细胞在一个看起来像微小的塑料鸡蛋托盘里。乔恩向下看进显微镜，他开始感到兴奋。
+
+00:19:17.060 --> 00:19:18.340
+<v Jonathan Brody>This is pretty surprising to me.
+<v Jonathan Brody>这对我来说相当令人惊讶。
+
+00:19:18.340 --> 00:19:19.100
+<v Anthony Holland>Really?
+<v Anthony Holland>真的吗？
+
+00:19:19.100 --> 00:19:20.020
+<v Jonathan Brody>Yeah.
+<v Jonathan Brody>是的。
+
+00:19:20.020 --> 00:19:51.010
+<v Gabriel Rhodes>A huge percentage of the pancreatic cells that Anthony pulsed with his device are dead. They combined the pulsing with a tiny bit of chemo. And of the cancer cells that Anthony pulsed, only 10% are still alive. A separate group of cells that he did not pulse has 60% alive. And this comparison is the key to the whole thing. In any experiment, you have the cells that you treat and the ones that you don't treat, which are called the control group. Comparing the treated cells to the control is the only way you can tell if something's working.
+<v Gabriel Rhodes>安东尼用他的装置脉冲的大部分胰腺细胞都死了。他们将脉冲与一点点化疗结合起来。而在安东尼脉冲的癌细胞中，只有10%还活着。他没有脉冲的一组单独细胞有60%活着。这种比较是整个事情的关键。在任何实验中，你都有处理的细胞和不处理的细胞，这被称为对照组。将处理过的细胞与对照组进行比较是判断某事是否奏效的唯一方法。
+
+00:19:51.010 --> 00:20:05.760
+<v Gabriel Rhodes>Again, here, only 10% of the pulsed cells survived, versus 60% of the control cells. It's a dramatic result. And Jon gives everything to the lab tech Christina to count up the cells in a precise way, do the quantitative analysis.
+<v Gabriel Rhodes>同样，在这里，只有10%的脉冲细胞存活下来，而对照组细胞存活了60%。这是一个巨大的结果。乔恩把一切都交给了实验室技术员克里斯蒂娜，以精确的方式计数细胞，进行定量分析。
+
+00:20:05.760 --> 00:20:10.030
+<v Jonathan Brody>I mean, when she quantitates these, we're going to have a beautiful graph.
+<v Jonathan Brody>我的意思是，当她定量这些时，我们将得到一个美丽的图表。
+
+00:20:10.030 --> 00:20:10.480
+<v Anthony Holland>Really?
+<v Anthony Holland>真的吗？
+
+00:20:10.480 --> 00:20:12.840
+<v Jonathan Brody>Yeah. I mean, a beautiful graph.
+<v Jonathan Brody>是的。我的意思是，一个美丽的图表。
+
+00:20:12.840 --> 00:20:34.400
+<v Gabriel Rhodes>A beautiful graph. That's code for Jon is thrilled. Pancreatic cancer is his specialty. And it's practically invincible, harder to kill than other cancers. So tough that even chemo, which is poison, often barely works at all. Over the last 25 years, the biggest treatment breakthrough only added about four months to a patient's life.
+<v Gabriel Rhodes>一个美丽的图表。那是乔恩感到兴奋的暗语。胰腺癌是他的专业。而且它几乎是无敌的，比其他癌症更难杀死。太棘手了，以至于即使是化疗，也就是毒药，通常也几乎不起作用。在过去的25年里，最大的治疗突破只增加了病人大约四个月的寿命。
+
+00:20:34.400 --> 00:20:43.180
+<v Gabriel Rhodes>Jon starts going through his mental checklist of potential problems with the experiment. This is what he does when he's excited about new results. And he checks with Anthony about the controls.
+<v Gabriel Rhodes>乔恩开始检查他对实验潜在问题的心理清单。这就是当他对新结果感到兴奋时所做的。他向安东尼确认了对照组。
+
+00:20:43.180 --> 00:20:49.530
+<v Jonathan Brody>That's all you did to these things. And you took these out of the incubator, the others, out? The controls did you take out?
+<v Jonathan Brody>你对这些东西只做了这些。你把这些从培养箱里拿出来了，其他的，拿出来了？对照组你拿出来了吗？
+
+00:20:49.530 --> 00:21:00.090
+<v Anthony Holland>No. The controls I left in the incubator. I know I probably should take them out for the six or seven hours that I'm treating them. But, um--
+<v Anthony Holland>没有。对照组我留在了培养箱里。我知道我可能应该在治疗它们的六或七个小时里把它们拿出来。但是，嗯——
+
+00:21:00.090 --> 00:21:06.770
+<v Jonathan Brody>Yeah, I thought you were doing that. That's why, that first day, I was asking you to do that.
+<v Jonathan Brody>是的，我以为你在做那个。这就是为什么，第一天，我要求你这样做。
+
+00:21:06.770 --> 00:21:07.840
+<v Anthony Holland>Right.
+<v Anthony Holland>对。
+
+00:21:07.840 --> 00:21:26.180
+<v Gabriel Rhodes>Jon's expression doesn't change much. But the experiment is now a wash. The cells that Anthony was pulsing sat outside the incubator for hours at a time while he was pulsing them. Therefore, the control plates also had to sit outside the incubator for the exact same amount of time. Otherwise, they don't count as controls.
+<v Gabriel Rhodes>乔恩的表情没有太大变化。但实验现在作废了。安东尼正在脉冲的细胞在脉冲它们时在培养箱外放了几个小时。因此，对照盘也必须在培养箱外放相同的时间。否则，它们不能算作对照组。
+
+00:21:26.180 --> 00:21:47.970
+<v Gabriel Rhodes>It was an amateur's mistake. And of course, Anthony is an amateur. But getting the controls exactly right turns out to be one of the hardest parts of any experiment. So even though Anthony's two weeks are up-- he has to leave today-- they've got to do the experiments again.
+<v Gabriel Rhodes>这是一个业余的错误。当然，安东尼是一个业余爱好者。但要把对照组完全做好，是任何实验中最困难的部分之一。所以尽管安东尼的两周结束了——他今天必须离开——他们必须重新进行实验。
+
+00:21:47.970 --> 00:21:59.450
+<v Gabriel Rhodes>The first chance Anthony has to go back to Jon's lab is six months later. It's a whole day's drive. He's on a sabbatical, so he can be here for five weeks this time. I visit him about three weeks in.
+<v Gabriel Rhodes>安东尼回到乔恩实验室的第一次机会是六个月后。要开车一整天。他正在休学术假，所以这次他可以在这里待五周。我在他待了大约三周时去看他。
+
+00:21:59.450 --> 00:22:18.660
+<v Anthony Holland>You ask me how it's going. It's like the Tale of Two Cities. It's going really great on one hand, and it's going really badly on the other hand. It's going really great because we have absolute proof-- and we'll see what Jon says later today when we see him. But we're blowing cancer cells away.
+<v Anthony Holland>你问我进展如何。这就像《双城记》。一方面进展得非常好，另一方面进展得非常糟糕。进展得非常好是因为我们有绝对的证据——等今天晚些时候见到乔恩时，我们会看看他怎么说。但我们正在震碎癌细胞。
+
+00:22:18.660 --> 00:22:53.780
+<v Gabriel Rhodes>This is how Anthony sees it, because night after night, he's watching cancer cells die and taking thousands of time-lapse photos and videos as it happens, like the video that he first showed Jon. The problem is, these photos are not absolute proof at all, not to any scientist, not to Jon. Cancer cells die for all kinds of reasons. Absolute proof means only one thing-- counting the cells in the experiments, the treated ones and the control groups, and comparing them. So while Anthony might think they have proof, Jon would never say that.
+<v Gabriel Rhodes>这就是安东尼的看法，因为夜复一夜，他在看着癌细胞死亡，拍摄了数以千计的延时照片和视频，就像他第一次展示给乔恩看的那个视频一样。问题是，这些照片根本不是绝对的证据，对任何科学家，对乔恩来说都不是。癌细胞死亡有各种各样的原因。绝对证据只有一件事——计数实验中的细胞，处理过的和对照组的，然后进行比较。所以虽然安东尼可能认为他们有证据，乔恩永远不会那样说。
+
+00:22:53.780 --> 00:23:13.950
+<v Gabriel Rhodes>In these last three weeks, Anthony's had a series of setbacks. Basically, the photos are all he's got from a bunch of experiments that had to be thrown out. But finally, he starts to get incredible results. Jon gave him leukemia cells for the first time. And the pulsing seems to have killed 30% more of the cancer cells compared with the controls.
+<v Gabriel Rhodes>在过去的三周里，安东尼经历了一系列的挫折。基本上，这些照片是他从一群必须被扔掉的实验中得到的全部。但最后，他开始得到令人难以置信的结果。乔恩第一次给了他白血病细胞。与对照组相比，脉冲似乎多杀死了30%的癌细胞。
+
+00:23:13.950 --> 00:23:17.970
+<v Jonathan Brody>You're doing something to these. You're doing something here.
+<v Jonathan Brody>你正在对这些做些什么。你在这里做了些什么。
+
+00:23:17.970 --> 00:23:20.250
+<v Anthony Holland>Well, yeah, I have video.
+<v Anthony Holland>好吧，是的，我有视频。
+
+00:23:20.250 --> 00:23:22.100
+<v Jonathan Brody>We can get quantitation on this.
+<v Jonathan Brody>我们可以从中得到定量数据。
+
+00:23:22.100 --> 00:23:27.430
+<v Anthony Holland>Really? Hey, if we can get quantitative numbers out of this, I'll keep hammering these guys.
+<v Anthony Holland>真的吗？嘿，如果我们能从中得到定量数字，我会继续敲打这些家伙。
+
+00:23:27.430 --> 00:23:38.020
+<v Gabriel Rhodes>Jon turns to Anthony and starts going through his mental checklist. Again he's excited. He's thinking that maybe, if everything's right, these results are good enough to publish in a paper.
+<v Gabriel Rhodes>乔恩转向安东尼，开始检查他的心理清单。他再次感到兴奋。他认为也许，如果一切正确，这些结果足以发表在一篇论文中。
+
+00:23:38.020 --> 00:23:51.570
+<v Jonathan Brody>Now Anthony, I'm serious about this. You need to think about, for me, like anything I've done for you, you need to think about, is there any-- these plates just sit out here, and then you bring the other plate in there. And there's nothing different that you do to those plates.
+<v Jonathan Brody>现在安东尼，我是认真的。你需要为我想一想，就像我为你做的一切一样，你需要考虑，有没有——这些盘子就放在这里，然后你把另一个盘子拿到那里。除了这些盘子，你没有做任何不同的事情。
+
+00:23:51.570 --> 00:23:52.850
+<v Anthony Holland>Nope.
+<v Anthony Holland>没有。
+
+00:23:52.850 --> 00:23:54.440
+<v Jonathan Brody>Except for the--
+<v Jonathan Brody>除了——
+
+00:23:54.440 --> 00:23:56.620
+<v Anthony Holland>Just electronic pulsing.
+<v Anthony Holland>只是电子脉冲。
+
+00:23:56.620 --> 00:24:03.490
+<v Jonathan Brody>Because if we publish this, your name will go first. My name will go last. It's our names on the line. We're married together.
+<v Jonathan Brody>因为如果我们发表这个，你的名字会排在第一位。我的名字会排在最后。这是我们的名字在冒险。我们结婚在一起了。
+
+00:24:03.490 --> 00:24:05.390
+<v Anthony Holland>Yeah, I understand that.
+<v Anthony Holland>是的，我理解。
+
+00:24:05.390 --> 00:24:06.620
+<v Jonathan Brody>So our reputation is married.
+<v Jonathan Brody>所以我们的名誉是结婚的。
+
+00:24:06.620 --> 00:24:12.520
+<v Anthony Holland>I think I should be a technical footnote at the end, "Thanks to Anthony Holland for assistance."
+<v Anthony Holland>我认为我应该作为末尾的技术脚注，“感谢安东尼·霍兰的协助。”
+
+00:24:12.520 --> 00:24:16.460
+<v Jonathan Brody>I think that's absurd.
+<v Jonathan Brody>我认为那是荒谬的。
+
+00:24:16.460 --> 00:24:17.140
+<v Anthony Holland>It wouldn't bother me.
+<v Anthony Holland>我不会在意的。
+
+00:24:17.140 --> 00:24:22.010
+<v Jonathan Brody>That's one of the most absurd comments you've made since I've known you. And you've made a few.
+<v Jonathan Brody>这是我认识你以来说过最荒谬的评论之一。而且你已经说了不少了。
+
+00:24:22.010 --> 00:24:29.580
+<v Anthony Holland>That's OK with me. I mean that.
+<v Anthony Holland>我没关系。我是认真的。
+
+00:24:29.580 --> 00:24:30.460
+<v Jonathan Brody>Careful here.
+<v Jonathan Brody>小心点。
+
+00:24:30.460 --> 00:24:41.520
+<v Gabriel Rhodes>A couple days later, I talk to Jon up on the roof of his apartment building. They're still waiting for the numbers, the analysis. But now, they've got both leukemia and pancreatic experiments that they're fired up about.
+<v Gabriel Rhodes>几天后，我在他的公寓楼顶和乔恩谈话。他们仍在等待数字，分析结果。但现在，他们既有白血病实验，也有胰腺实验，他们对此非常激动。
+
+00:24:41.520 --> 00:25:20.090
+<v Jonathan Brody>I mean, they're astounding results and sort of unprecedented. There could be a lot of reasons behind it besides the pulsing. And that's why we need to reproduce it. What makes me nervous and anxious is if I'm truly the only cancer researcher using this apparatus since Royal Rife, because again, that puts even more pressure on me to publish something that's real. And of course, I want it to work. It's potentially something very exciting. But it's still very much up in the air.
+<v Jonathan Brody>我的意思是，这些结果令人震惊，而且是史无前例的。除了脉冲之外，背后可能有很多原因。这就是为什么我们需要重现它。让我感到紧张和焦虑的是，如果我真的是皇家莱夫之后唯一使用这个装置的癌症研究员，因为那又给我带来了发布真实东西的压力。当然，我希望它奏效。它是一个潜在的非常令人兴奋的东西。但它仍然处于空中楼阁的状态。
+
+00:25:20.090 --> 00:25:22.820
+<v Gabriel Rhodes>Anthony's in a very different place.
+<v Gabriel Rhodes>安东尼处于一个非常不同的地方。
+
+00:25:22.820 --> 00:25:28.110
+<v Anthony Holland>[SINGING] Somewhere over the rainbow.
+<v Anthony Holland>[歌唱] 在彩虹之上某处。
+
+00:25:28.110 --> 00:26:10.320
+<v Anthony Holland>I kind of feel like that. We're living in Oz right now, because we're doing the impossible. What was Oz all about? Oz was all about, Dorothy goes to a wonderful place where miracles happen. That's where I am, because we're proving the impossible. We're proving that a Rife machine kills cancer. We're not proving. It's been proven. The question is, how much proof can we pile up now for other people? As Jon said, no one's going to believe it. Well, the rest of my life, no matter what anybody says, I know it works.
+<v Anthony Holland>我感觉就像那样。我们现在住在奥兹国，因为我们正在做不可能的事情。奥兹国是关于什么的？奥兹国是关于，多萝西去了一个奇迹发生的美妙地方。这就是我所在的地方，因为我们正在证明不可能的事情。我们正在证明莱夫机器可以杀死癌症。我们不是在证明。它已经被证明了。问题是，我们现在可以为其他人堆积多少证据？正如乔恩所说，没有人会相信它。好吧，我的余生，不管别人说什么，我知道它奏效了。
+
+00:26:10.320 --> 00:26:37.420
+<v Gabriel Rhodes>By the end of August, a year since they started this process, Anthony's done two rounds of experiments. And he's about to finish a final round. The plan is for Anthony to reproduce the great leukemia and pancreatic results one more time, with perfect controls, including a special kind of control called a sham. Jon has asked Anthony to start writing up a paper to submit for publication while he's finishing the experiments. And he's more confident about the project than I've ever seen him.
+<v Gabriel Rhodes>到8月底，距离他们开始这个过程已经一年了，安东尼完成了两轮实验。他即将完成最后一轮。计划是安东尼再重现一次伟大的白血病和胰腺实验结果，带有完美的对照组，包括一种特殊的对照组，叫做伪实验。乔恩要求安东尼在完成实验的同时开始撰写一篇论文提交发表。他对这个项目比我见过的任何时候都更有信心。
+
+00:26:37.420 --> 00:27:10.540
+<v Jonathan Brody>Just to let you know where I'm at, I'm excited about finishing this paper, putting my name on the paper. I'm willing to put my name out there so much that I'll be the senior author, the last author. And I'm willing to send in an NIH grant-- I don't know if we'll get it together-- for October. So this will be a six-page, $250,000 grant to pursue this work with Anthony. And I believe it so much that we're starting to administratively think about it and move this forward.
+<v Jonathan Brody>只是让你知道我的进展，我很兴奋能完成这篇论文，把我的名字写在论文上。我愿意把我的名字写在上面，我将成为资深作者，最后一位作者。而且我愿意提交一份NIH补助金——我不知道我们是否能在10月之前完成——所以这将是一份六页的、25万美元的补助金，用于与安东尼一起进行这项工作。我非常相信它，以至于我们开始在行政上考虑它，并推动它向前发展。
+
+00:27:10.540 --> 00:27:55.590
+<v Jonathan Brody>If these controls work out well, his therapy's working at this stage of the game. And I wouldn't have predicted that. I mean, I know I'm going to get criticism about it. I know they're like, what are you doing? What is this? Do you really believe this stuff? I'm very serious about my reputation. And some scientists don't have an open mind. I'm definitely nervous about that aspect.
+<v Jonathan Brody>如果这些对照组结果很好，他的疗法在这个阶段就是奏效的。而我不会预测到这一点。我的意思是，我知道我会因此受到批评。我知道他们会说，你在做什么？这是什么？你真的相信这些东西吗？我对我的声誉非常认真。而且有些科学家没有开放的头脑。我绝对对此感到紧张。
+
+00:27:55.590 --> 00:27:57.820
+<v Anthony Holland>Hello, Jonathan. How you doing?
+<v Anthony Holland>你好，乔纳森。你好吗？
+
+00:27:57.820 --> 00:27:59.700
+<v Jonathan Brody>I'm doing OK. How are you?
+<v Jonathan Brody>我很好。你呢？
+
+00:27:59.700 --> 00:28:01.110
+<v Anthony Holland>Very good.
+<v Anthony Holland>很好。
+
+00:28:01.110 --> 00:28:26.320
+<v Gabriel Rhodes>And then, bad news. Really bad news. I'm up at Skidmore with Anthony when Jon calls with the data about the final round of experiments. At first, they talk about the Excel spreadsheet with data from the control experiment called a sham. There was a bit of a strange result there. But the real bad news comes when Jon asks Anthony to open up the PowerPoint presentation and look at the data from the pancreatic experiments.
+<v Gabriel Rhodes>然后，坏消息。真的是坏消息。我在斯基德莫尔和安东尼在一起时，乔恩打电话来告知关于最后一轮实验的数据。起初，他们谈论的是来自被称为伪实验的对照实验数据的Excel电子表格。那里有一个有点奇怪的结果。但真正的坏消息是乔恩要求安东尼打开PowerPoint演示文稿，查看来自胰腺实验的数据。
+
+00:28:26.320 --> 00:28:35.790
+<v Anthony Holland>PowerPoint. Let's see, room temperature-- whoa. What is this a PowerPoint of?
+<v Anthony Holland>PowerPoint。让我们看看，室温——哇。这是什么PowerPoint？
+
+00:28:35.790 --> 00:28:48.030
+<v Jonathan Brody>Well, the pulsing basically caused the cells to become resistant to the drugs. And they grew better.
+<v Jonathan Brody>好吧，脉冲基本上导致细胞对药物产生了耐药性。它们长得更好。
+
+00:28:48.030 --> 00:28:53.710
+<v Anthony Holland>This is really weird, because it's very opposite of what we saw in previous experiments.
+<v Anthony Holland>这真的很奇怪，因为它与我们在之前实验中看到的完全相反。
+
+00:28:53.710 --> 00:28:55.950
+<v Jonathan Brody>Yeah.
+<v Jonathan Brody>是的。
+
+00:28:55.950 --> 00:29:23.670
+<v Gabriel Rhodes>It's a disaster. It's a huge setback. It's shocking. The data show that in the plate of treated pancreatic cells, the ones pulsed with electromagnetic waves and given a tiny dose of chemo, 100% of the cancer cells were alive after treatment. Meaning not only did the pulsing not kill any cancer cells, but somehow, the pulsing seemed to protect the cancer cells from being killed by the chemo. Anthony is stunned. He keeps saying the same thing again and again.
+<v Gabriel Rhodes>这是一场灾难。这是一个巨大的挫折。这令人震惊。数据显示，在处理过的胰腺细胞盘中，那些用电磁波脉冲并给予少量化疗的细胞，100%的癌细胞在治疗后仍然活着。这意味着脉冲不仅没有杀死任何癌细胞，而且不知何故，脉冲似乎保护了癌细胞免受化疗的杀伤。安东尼惊呆了。他一次又一次地重复同样的话。
+
+00:29:23.670 --> 00:29:30.680
+<v Anthony Holland>All the other experiments show completely different results. I don't understand that. It doesn't make any sense to me.
+<v Anthony Holland>所有其他实验显示的结果完全不同。我不明白。这对我来说根本讲不通。
+
+00:29:30.680 --> 00:29:32.550
+<v Jonathan Brody>It's a slap in the face, isn't it?
+<v Jonathan Brody>这是一个耳光，不是吗？
+
+00:29:32.550 --> 00:29:34.290
+<v Anthony Holland>Yeah. Yeah.
+<v Anthony Holland>是的。是的。
+
+00:29:34.290 --> 00:29:45.830
+<v Jonathan Brody>Yeah. So I'll go through stepwise, OK? Because there's some things we definitely need to discuss here.
+<v Jonathan Brody>是的。所以我将分步骤进行，好吗？因为这里有一些我们绝对需要讨论的事情。
+
+00:29:45.830 --> 00:30:17.290
+<v Gabriel Rhodes>They talk for 45 minutes, going over every aspect of the experiment. Anthony had used a different microscope this time. Maybe that was a problem. The microscope light that Anthony used when he took time-lapsed photos of the experiments, was the light heating the cells? And the amp for the device had been outputting less power than usual. Maybe some of the components were damaged. But the upshot of these last experiments is different for Jon and Anthony. Anthony sees these results as a fluke, an outlier. The other results still seem valid to him.
+<v Gabriel Rhodes>他们谈了45分钟，逐一检查实验的各个方面。安东尼这次使用了不同的显微镜。也许那是一个问题。安东尼在拍摄实验延时照片时使用的显微镜灯，灯光是否在加热细胞？而且该装置的放大器输出的功率比平时少。也许有些组件损坏了。但这些最后实验的结果对于乔恩和安东尼来说是不同的。安东尼认为这些结果是侥幸，是一个离群点。其他结果对他来说仍然有效。
+
+00:30:17.290 --> 00:30:46.530
+<v Jonathan Brody>But for Jon, there's only one truth. If they want to publish, they've got to do more experiments. Anthony has to reproduce and confirm those great earlier results with controls. For me, doing this for 20-some-odd years or whatever it is, it doesn't surprise me that it's going to be this complicated. But I'm in it for the long haul, as far as the collaboration is, to try to figure this out. And we'll just keep at it, OK?
+<v Jonathan Brody>但对乔恩来说，只有一个真相。如果他们想发表，他们必须做更多的实验。安东尼必须用对照组重现并确认那些伟大的早期结果。对我来说，做了20多年左右的这个，对于它会如此复杂并不感到惊讶。但就合作而言，我对此有长期的打算，试图弄清楚这一点。我们会继续努力，好吗？
+
+00:30:46.530 --> 00:30:50.850
+<v Anthony Holland>OK.
+<v Anthony Holland>好的。
+
+00:30:50.850 --> 00:31:06.660
+<v Gabriel Rhodes>But that wasn't what happened. In fact, for an entire year, Jon wasn't sure what was going on. And neither was I. He offered to go up to Skidmore to set up a lab for Anthony there if he couldn't come back down to Philadelphia. But that didn't happen. And then Anthony became very hard to reach.
+<v Gabriel Rhodes>但那并不是发生的。事实上，整整一年，乔恩都不知道发生了什么。我也不知道。如果安东尼不能回到费城，他提出去斯基德莫尔为安东尼建立一个实验室。但这并没有发生。然后安东尼变得非常难以联系。
+
+00:31:06.660 --> 00:31:27.080
+<v Gabriel Rhodes>And a couple of weeks after Jon talked to Anthony by phone for the first time in several months, I go and see Jon. He's decided to go up to Saratoga the following week to talk to Anthony face to face about the experiment. In the last year, Jon's become more of a skeptic, partly about the device itself, but also about the collaboration with Anthony. Why would Anthony just drop out like this?
+<v Gabriel Rhodes>在乔恩几个月来第一次通过电话与安东尼谈话后的几周，我去看乔恩。他决定下周去萨拉托加面对面地与安东尼谈论这个实验。在过去的一年里，乔恩变得更加怀疑，部分是对装置本身的怀疑，但也对与安东尼的合作产生了怀疑。为什么安东尼会这样退出？
+
+00:31:27.080 --> 00:32:15.620
+<v Jonathan Brody>If he really believes in it and he really believes those results, let's do it again. If you cured cancer cells, let's do it again. My lab is open. My lab is open. My expertise is open. I'm happy-- you don't want to do it in Philadelphia? Let's do it in Saratoga. Ask him, why hasn't he taken me up on that? Let me ask you a question. If you knew you had something that killed cancer cells, and you believed in it, you really believed in it, you could wait a year to try to prove that because one set of experiments didn't work? I mean, come on.
+<v Jonathan Brody>如果他真的相信它，并且他真的相信那些结果，让我们再做一次。如果你治愈了癌细胞，让我们再做一次。我的实验室是开放的。我的实验室是开放的。我的专业知识是开放的。我很高兴——你不想在费城做吗？让我们在萨拉托加做。问问他，为什么他没有接受我的提议？让我问你一个问题。如果你知道你有什么东西可以杀死癌细胞，并且你相信它，你真的相信它，你能等一年试图证明这一点，仅仅因为一组实验没有奏效？我的意思是，拜托。
+
+00:32:15.620 --> 00:32:36.220
+<v Gabriel Rhodes>This is one of the big differences between Jon and Anthony, between scientist and non-scientist. For Jon, having a year's worth of work suddenly thrown into question is a normal day at the office. But for Anthony, that's not normal. And it's not OK. The time in Jon's lab was a year of his life, where he felt like Jon kept moving the goal posts.
+<v Gabriel Rhodes>这是乔恩和安东尼，科学家和非科学家之间最大的区别之一。对于乔恩来说，一年的工作突然受到质疑是办公室里的正常一天。但对于安东尼来说，那是不正常的。那是不可以的。在乔恩实验室的时间是他生命中的一年，他觉得乔恩一直在移动球门线。
+
+00:32:36.220 --> 00:33:01.210
+<v Gabriel Rhodes>I felt that way, too, sometimes as I was watching. Jon kept saying he was amazed at what he was seeing and just about convinced. But then he'd wake up in the middle of the night with another experiment or control that he wanted to run. And there was no telling when it would end, which for him, again, is normal. But now, Anthony wants to know, before he starts turning his life upside down again, what will count as proof enough for Jon? How many experiments?
+<v Gabriel Rhodes>我在观察时，有时也有那种感觉。乔恩一直说他对所看到的感到惊讶，几乎被说服了。但随后他会在半夜醒来，想进行另一个实验或对照实验。而且没人知道什么时候结束，对他来说，再次强调，那是正常的。但现在，安东尼想知道，在他再次把自己的生活颠倒之前，什么对乔恩来说算得上足够的证明？多少实验？
+
+00:33:01.210 --> 00:33:26.210
+<v Anthony Holland>So let's say I do three weeks of experiment, and I only concentrate on these leukemia cells. And if I can kill at least 20% every single time, every week, will that do it? Would that be enough? Or do you want to see pancreatic die, or do you want to see-- I mean, what exact buttons do I have to hit?
+<v Anthony Holland>所以假设我做三周的实验，我只专注于这些白血病细胞。如果我能每次，每周都至少杀死20%，那能行吗？那足够了吗？或者你想看到胰腺细胞死亡，或者你想看到——我的意思是，我到底必须按什么按钮？
+
+00:33:26.210 --> 00:33:39.550
+<v Gabriel Rhodes>When Jon gets to Saratoga, he and Anthony embrace and smile. And they're clearly glad to see each other. But as soon as they start talking about the experiments, they start arguing. And they don't understand each other. Jon keeps coming back to the same point.
+<v Gabriel Rhodes>当乔恩到达萨拉托加时，他和安东尼拥抱并微笑。他们显然很高兴见到对方。但一旦他们开始谈论实验，他们就开始争论。他们互相不理解。乔恩不断回到同一点。
+
+00:33:39.550 --> 00:33:48.830
+<v Jonathan Brody>Why can't you accept that we haven't proven anything? In the court of scientific law, we haven't proven anything.
+<v Jonathan Brody>为什么你不能接受我们什么也没证明的事实？在科学法律的法庭上，我们什么也没证明。
+
+00:33:48.830 --> 00:33:51.430
+<v Anthony Holland>But we have very intriguing results.
+<v Anthony Holland>但我们有非常有趣的结果。
+
+00:33:51.430 --> 00:34:26.060
+<v Jonathan Brody>That's fine. I mean, if you want to leave it at that, you could say that. But there's a big difference between intriguing and promising results and actually showing and demonstrating that something works. There's a huge difference. So 10 years from now, would you still walk around campus and be like, you know what? I killed those cancer cells. I actually did that. I actually proved that this worked. Do you think, deep down, that's the way you feel? That's what I want to know.
+<v Jonathan Brody>没关系。我的意思是，如果你想停留在那里，你可以这么说。但有趣和有希望的结果与实际展示和证明某事是有效之间有很大的区别。有一个巨大的区别。所以10年后，你还会走在校园里，然后说，你知道吗？我杀死了那些癌细胞。我真的做到了。我真的证明了这一点奏效。你认为，在内心深处，你是那样感觉的吗？这就是我想知道的。
+
+00:34:26.060 --> 00:34:36.490
+<v Anthony Holland>We're not just talking about the last experiment, right? We're talking about the whole thing. In general? Are you kidding? I would frame this chart showing 43% of the leukemia cells dead. And I would say, we nailed them.
+<v Anthony Holland>我们不仅仅是在谈论最后一个实验，对吧？我们是在谈论整个事情。总的来说？你在开玩笑吗？我会把这个显示43%的白血病细胞死亡的图表裱起来。我会说，我们搞定了它们。
+
+00:34:36.490 --> 00:34:44.900
+<v Jonathan Brody>Let me ask you a question. Let me ask you a question. If you're sitting on the cure for cancer, why aren't we doing the experiments?
+<v Jonathan Brody>让我问你一个问题。让我问你一个问题。如果你正坐拥癌症的治愈方法，为什么我们不做实验？
+
+00:34:44.900 --> 00:34:46.950
+<v Anthony Holland>I can't afford it.
+<v Anthony Holland>我负担不起。
+
+00:34:46.950 --> 00:34:53.980
+<v Jonathan Brody>So you're telling me, you're willing to say to the world that you think you have the cure for cancer, but you can't afford it.
+<v Jonathan Brody>所以你告诉我，你愿意对世界说你认为你有癌症的治愈方法，但你负担不起。
+
+00:34:53.980 --> 00:34:56.070
+<v Anthony Holland>Yeah.
+<v Anthony Holland>是的。
+
+00:34:56.070 --> 00:35:20.770
+<v Gabriel Rhodes>Anthony says he's run out of money. He spent six years, including the time he worked on his own with protozoa, putting his own money into these experiments. Equipment, travel, living expenses while he was at Jon's lab, many, many thousands of dollars. He won't say exactly how much. And then, after he got back from the last round of experiments at Jon's lab, it was like he was looking up from the microscope at his life for the first time in a while.
+<v Gabriel Rhodes>安东尼说他的钱花光了。他花了六年时间，包括他自己研究原生动物的时间，把自己的钱投进了这些实验。设备、旅行、他在乔恩实验室时的生活费用，成千上万的美元。他不会确切地说多少。然后，在他从乔恩实验室的最后一轮实验回来后，就像他有一段时间第一次从显微镜中抬头看他的生活一样。
+
+00:35:20.770 --> 00:35:47.090
+<v Anthony Holland>I tell you, I came home from that year, and I just look at the house, and I just see, oh my god, I lost track of what's going on here. We need a new roof on the house. And we've got a huge leak in the bathroom. The plumbing's all screwed up. And I've been making too many sacrifices.
+<v Anthony Holland>我告诉你，我从那一年回到家，我就看看房子，我就看到，天哪，我失去了对这里正在发生的事情的追踪。我们需要给房子换个新屋顶。而且浴室里有个巨大的漏水。管道系统全都搞砸了。我做出了太多的牺牲。
+
+00:35:47.090 --> 00:36:01.330
+<v Gabriel Rhodes>Jon doesn't offer to fund another round of experiments. He's got a tight budget. And at this point, like I said, he's not feeling so hopeful about Anthony and his experiment. He's more optimistic about the 30-plus other experiments he's got moving ahead in his lab.
+<v Gabriel Rhodes>乔恩没有提议资助另一轮实验。他的预算很紧。而在这一点上，就像我说的，他对安东尼和他的实验感觉没那么有希望。他对他在实验室里正在进行的30多个其他实验更为乐观。
+
+00:36:01.330 --> 00:36:13.960
+<v Gabriel Rhodes>And Anthony refuses to ask for money to proceed. He says that would be rude. But he says he may have a different solution to the money problem. He starts showing Jon his new website for his new nonprofit company, called--
+<v Gabriel Rhodes>而安东尼拒绝要求金钱继续。他说那很不礼貌。但他确实说他可能有另一个解决资金问题的办法。他开始给乔恩看他的新非营利公司的网站，叫——
+
+00:36:13.960 --> 00:36:21.390
+<v Anthony Holland>Novobiotronics Incorporated, "the future of biotechnology research," and a lot of dramatic statements.
+<v Anthony Holland>Novobiotronics Incorporated，“生物技术研究的未来”，以及许多戏剧性的声明。
+
+00:36:21.390 --> 00:36:46.050
+<v Gabriel Rhodes>Apparently, for the past year, Anthony's been forming this nonprofit company and building the website, which has tabs for all the different research he hopes to do with the device. Not just cancer, but also Lyme disease, malaria. He doesn't get into the malaria or any part of that with Jon. But he does show him the pages and pages where he explains, in detail, the cancer experiments they've done, without mentioning Jon's name or the name of his lab, since he doesn't have permission.
+<v Gabriel Rhodes>显然，在过去的一年里，安东尼一直在组建这家非营利公司并建立网站，该网站有他希望用该装置进行的所有不同研究的标签。不仅仅是癌症，还有莱姆病、疟疾。他没有和乔恩深入探讨疟疾或那方面的任何部分。但他确实向他展示了页面和页面，他详细解释了他们所做的癌症实验，没有提到乔恩的名字或他的实验室的名字，因为他没有得到许可。
+
+00:36:46.050 --> 00:36:57.960
+<v Gabriel Rhodes>Anthony says his plan is to use the website to raise money so they can continue the experiments. I thought Jon might be angry. Why hadn't Anthony told him that this is what he'd been doing all year? But Jon's reaction is--
+<v Gabriel Rhodes>安东尼说他的计划是利用网站筹集资金，以便他们能继续实验。我以为乔恩可能会生气。为什么安东尼没有告诉他这一年来他一直在做这些事？但乔恩的反应是——
+
+00:36:57.960 --> 00:37:10.530
+<v Jonathan Brody>This is amazing. I wish that all the students or the graduate students or people or the scientists that believed in what they were doing took this sort of initiative.
+<v Jonathan Brody>这太棒了。我希望所有相信自己所做事情的学生、研究生或人们或科学家都能采取这种主动。
+
+00:37:10.530 --> 00:37:12.770
+<v Anthony Holland>Wow. That's nice to hear.
+<v Anthony Holland>哇。听到这个很高兴。
+
+00:37:12.770 --> 00:37:34.240
+<v Jonathan Brody>I think it's a beautiful website, Anthony. I think it's great. I think my only concern is, again, which is my overall concern of where things are at, is you have to be really careful here, that, really, a trained eye or a trained scientist is going to immediately question the overabundance of data without the controls and without the reproducibility.
+<v Jonathan Brody>我认为这是一个美丽的网站，安东尼。我认为这很棒。我想我唯一的担忧是，再次强调，我对事情进展的整体担忧是，你在这里必须非常小心，真的，训练有素的眼睛或训练有素的科学家会立即质疑在没有对照组和没有重现性的情况下数据的过剩。
+
+00:37:34.240 --> 00:38:10.460
+<v Anthony Holland>So let me respond to this idea that intelligent and expert trained scientists, if shown this data, might dismiss it for lack of more information on the controls. And here's where I've been saving the best information for last, for a sort of dramatic and controversial revelation. I've had three important scientists in the field, in the field of cancer research, contact me about my work. They have seen this data. They have seen all of our data.
+<v Anthony Holland>所以让我回应这个想法，即如果展示这些数据，聪明和专业的训练有素的科学家可能会因为对照组缺乏更多信息而驳回它。在这里，我把最好的信息留到了最后，作为一种戏剧性和有争议的启示。我有三位该领域的重要科学家，在癌症研究领域，联系我谈论我的工作。他们看到了这些数据。他们看到了我们所有的数据。
+
+00:38:10.460 --> 00:38:15.200
+<v Gabriel Rhodes>This changes the conversation entirely. Suddenly, Jon's reputation is on the line.
+<v Gabriel Rhodes>这完全改变了谈话。突然，乔恩的名誉岌岌可危。
+
+00:38:15.200 --> 00:38:31.910
+<v Jonathan Brody>I would never give that data out to another scientist. It wasn't controlled. That's highly inappropriate behavior that you did, that you actually went behind my back and you sent this to other researchers, where I allowed you to use my credibility and my lab to do this work.
+<v Jonathan Brody>我永远不会把这些数据交给另一位科学家。它没有对照。那是你做的非常不恰当的行为，你实际上背着我把这个发给了其他研究人员，而我允许你利用我的信誉和我的实验室来做这项工作。
+
+00:38:31.910 --> 00:38:41.540
+<v Anthony Holland>OK, so here's my response. First of all, if there was some breach in protocol I made by sharing some preliminary data--
+<v Anthony Holland>好吧，这是我的回应。首先，如果我通过分享一些初步数据在协议上有一些违规——
+
+00:38:41.540 --> 00:38:48.220
+<v Jonathan Brody>Why didn't you ask me? Why didn't you say, "Look, someone's contacting me. Do you mind if I share some of our data together?"
+<v Jonathan Brody>你为什么不问我？你为什么不说，“看，有人在联系我。你不介意我分享我们一起的一些数据吗？”
+
+00:38:48.220 --> 00:38:49.710
+<v Anthony Holland>Could I finish without being interrupted?
+<v Anthony Holland>我能不被打断地完成吗？
+
+00:38:49.710 --> 00:38:50.720
+<v Jonathan Brody>Yeah.
+<v Jonathan Brody>是的。
+
+00:38:50.720 --> 00:39:01.300
+<v Anthony Holland>If I broke some protocol, I apologize. You never told me, "Keep this data secret and don't show it to anybody." It just was given freely--
+<v Anthony Holland>如果我打破了一些协议，我道歉。你从来没有告诉过我，“把这些数据保密，不要展示给任何人。”它只是被自由地给予了——
+
+00:39:01.300 --> 00:39:13.310
+<v Gabriel Rhodes>Even though Anthony promises he didn't mention Jon's name to these other scientists, if one of those scientists were to do a quick Google search, in a few clicks, he could get to Jon, who would then be associated with data he would never want public.
+<v Gabriel Rhodes>即使安东尼承诺他没有向其他科学家提到乔恩的名字，如果其中一位科学家快速搜索谷歌，点击几下，他就能找到乔恩，然后他会与他永远不想公开的数据联系在一起。
+
+00:39:13.310 --> 00:39:33.810
+<v Anthony Holland>I'm sorry. I mean, to me as a composer, it's like if some violinist says, "Hey, do you have a piece for a violin?" I say, "Well, I have a sketch. It's nothing really great, but I have a little start." "Well, let me see what it is." "Sure. I'll send it along." So it's the same kind of thing. And when people contacted me--
+<v Anthony Holland>对不起。我的意思是，对我这个作曲家来说，就像如果某个小提琴手说，“嘿，你有一首给小提琴的曲子吗？”我说，“嗯，我有一个草图。它真的没什么大不了的，但我有一个小的开始。”“嗯，让我看看它是什么。”“当然。我会发给你。”所以这是一样的。当人们联系我时——
+
+00:39:33.810 --> 00:39:41.450
+<v Jonathan Brody>You didn't send it as a sketch, Anthony. You sent them data that is as if we had done the proper controls. That's false advertising.
+<v Jonathan Brody>你并没有把它当作草图发送，安东尼。你发送给他们的数据就好像我们已经做了适当的对照一样。那是虚假广告。
+
+00:39:41.450 --> 00:40:10.380
+<v Anthony Holland>Jonathan, in one case, I met for hours with the director of a medical research hospital in the cancer division. And I explained to this doctor exactly, exactly what we did. She knew it was preliminary. She knew there were holes and things that had to be nailed down. She knew all the details of everything, looked at the data, and said, "Yeah, let's go. Here's a seven-page contract." So I'm just saying--
+<v Anthony Holland>乔纳森，在一种情况下，我会见了癌症部门的一家医学研究医院的院长几个小时。我向这位医生准确、准确地解释了我们做了什么。她知道它是初步的。她知道有漏洞和必须确定的事情。她了解一切细节，查看了数据，并说，“是的，我们走吧。这是一份七页的合同。”所以我只是说——
+
+00:40:10.380 --> 00:40:13.320
+<v Jonathan Brody>I just wanted to be part of the conversation.
+<v Jonathan Brody>我只是想参与谈话。
+
+00:40:13.320 --> 00:40:35.650
+<v Anthony Holland>You asked me to respond. No scientist would take my preliminary data seriously. I'm sorry, that's wrong. And I think you need to make up your mind. Either this preliminary data I have is not worthy of another scientist's consideration, or you're mad at me for showing it to another scientist who considered it worthy.
+<v Anthony Holland>你要求我回应。没有科学家会认真对待我的初步数据。对不起，那是错的。而且我认为你需要下定决心。要么我拥有的这些初步数据不值得另一位科学家的考虑，要么你因为我把它展示给另一位认为它值得的科学家而生我的气。
+
+00:40:35.650 --> 00:40:42.680
+<v Jonathan Brody>It's not. Anthony, we've had discussions. And you were mostly concerned about--
+<v Jonathan Brody>它不值得。安东尼，我们讨论过。而你主要担心的是——
+
+00:40:42.680 --> 00:41:03.550
+<v Gabriel Rhodes>Finally, Jon and Anthony asked for time to talk alone with no microphone. After a while, they made up. But it doesn't seem like they're going to be working together anytime soon. What it felt like to sit in that room, it felt like watching a couple break up, which I felt more sad about than I'd expected to. They were this odd pair it was fun to root for.
+<v Gabriel Rhodes>最后，乔恩和安东尼要求时间单独谈话，不带麦克风。过了一会儿，他们和好了。但看起来他们短期内不会在一起工作了。坐在那个房间里感觉就像看着一对情侣分手，这让我感到的悲伤比我预期的要多。他们是一对很难得的组合，为他们加油很有趣。
+
+00:41:03.550 --> 00:41:22.610
+<v Gabriel Rhodes>And on top of that, I just felt like, [BLEEP] cancer. Anthony's father died of cancer. Jon's aunt died of cancer. My mom died of cancer. Why can't we just get rid of this already? I think out of the three of us, only Jon, who deals with it every day, had realistic expectations when he started these experiments with Anthony.
+<v Gabriel Rhodes>最重要的是，我只是觉得，[哔]癌症。安东尼的父亲死于癌症。乔恩的阿姨死于癌症。我的妈妈死于癌症。为什么我们不能早点摆脱这个？我认为在我们三个人中，只有每天都处理它的乔恩，在开始与安东尼的这些实验时有现实的期望。
+
+00:41:22.610 --> 00:41:38.030
+<v Jonathan Brody>Even if you have a good idea, even if you have a potential sci-fi cure, it's just not that easy. But if we want scientific breakthroughs, this is what it takes.
+<v Jonathan Brody>即使你有一个好主意，即使你有一个潜在的科幻治愈方法，它就是没那么容易。但如果我们想要科学突破，这就是代价。
+
+00:41:38.030 --> 00:41:48.030
+<v Gabriel Rhodes>We are trying to have breakthroughs. We're just not succeeding most of the time.
+<v Gabriel Rhodes>我们正在努力寻求突破。我们只是在大多数时候没有成功。
+
+00:41:48.030 --> 00:41:59.330
+<v Ira Glass>Gabriel Rhodes. He's going to continue filming Anthony and Jon if either of them ever starts this research again. You can see clips from what he's filmed so far at thecuredocumentary.com.
+<v Ira Glass>加布里埃尔·罗兹。如果他们中的任何一个人再次开始这项研究，他将继续拍摄安东尼和乔恩。你可以在thecuredocumentary.com看到他到目前为止拍摄的片段。
+
+00:41:59.330 --> 00:42:14.060
+<v Ira Glass>Coming up, trying something crazy, throwing a Hail Mary pass to solve a tough problem in your own personal life. A true story. That's in a minute, from Chicago Public Radio and Public Radio International, when our program continues.
+<v Ira Glass>接下来，尝试一些疯狂的事情，投掷一个万福玛丽球来解决你自己个人生活中的一个棘手问题。一个真实的故事。那一分钟后，来自芝加哥公共广播电台和国际公共广播电台，当我们的节目继续时。
+
+00:42:14.060 --> 00:42:27.590
+<v Ira Glass>It's This American Life. I'm Ira Glass. Each week on our show, of course, we choose a theme, bring you different kinds of stories on that theme. Today's show, So Crazy It Just Might Work, stories of people trying a risky thing that nobody ever tries. And that is for a good reason.
+<v Ira Glass>这是《美国生活》。我是艾拉·格拉斯。每周在我们的节目中，当然，我们选择一个主题，为你带来关于那个主题的各种故事。今天的节目，“太疯狂了，它可能真的会奏效”，人们尝试一件没人敢尝试的冒险事情的故事。而且这有一个很好的理由。
+
+00:42:27.590 --> 00:42:51.660
+<v Ira Glass>We have arrived at Act Two of our show. Act Two, Benny Takes a Jet. So Benny was 23 in Utah. And he would want you to know, before you hear anything else in this story, that he knows that he was an immature 23, because he was gay and a Mormon, which meant that he did not admit to others or himself that he was gay. So he was utterly unused to how to handle a crush, which is what this story is about, a crush.
+<v Ira Glass>我们已经到了我们节目的第二幕。第二幕，本尼搭乘喷气机。所以本尼在犹他州23岁。在你听到这个故事中的任何其他内容之前，他会希望你知道，他知道他是一个不成熟的23岁，因为他是同性恋而且是摩门教徒，这意味着他没有向别人或自己承认他是同性恋。所以他完全不习惯如何处理迷恋，这就是这个故事的主题，一个迷恋。
+
+00:42:51.660 --> 00:43:01.070
+<v Ira Glass>The crushee is 18 and Mormon. And Benny met him when he came in for a job interview. In retrospect, Benny says, he was obviously straight. Though at the job interview--
+<v Ira Glass>迷恋的对象是18岁，摩门教徒。本尼在他来面试工作时见到了他。回顾过去，本尼说，他显然是异性恋。虽然在面试时——
+
+00:43:01.070 --> 00:43:28.480
+<v Benny>He was flirtatious with me in that he wanted the job really bad. So he was very complimentary towards me. He kept telling me, "You're, like, the coolest guy I've ever interviewed with my entire life. You're so cool. You're the kind of guy that everybody wants to hang out with. And you've got this energy kind of emulating." And I was just-- I was so taken by him. And he had these long, black eyelashes and these blue eyes. And I was just all gawking at him.
+<v Benny>他和我调情，因为他非常想要这份工作。所以他非常赞美我。他一直告诉我，“你，就像，我一生中面试过的最酷的家伙。你太酷了。你是那种每个人都想一起玩的家伙。而且你有这种能量在模仿。”而我只是——我被他迷住了。他有这些又长又黑的睫毛和这些蓝色的眼睛。我只是在他面前目瞪口呆。
+
+00:43:28.480 --> 00:43:33.160
+<v Ira Glass>Really? Tell me everything you remember about stuff he said and stuff you said.
+<v Ira Glass>真的吗？告诉我你记得的他说的东西和你说的东西。
+
+00:43:33.160 --> 00:43:57.030
+<v Benny>I remember saying to him, "You know, this isn't just a normal retail company. When people come through the door, it's very important to get intimate and just, like, lock eyes with people and make them feel-- like, really seduce them." And he's like, "Kind of like I'm seducing you right now?" And keep in mind, this boy is hopelessly straight. However, I was interpreting it the way I wanted it to go.
+<v Benny>我记得对他说了，“你知道，这不仅仅是一个正常的零售公司。当人们走进门时，进行亲密接触并就像，锁定眼睛和让人们感到——就像，真的引诱他们是非常重要的。”他说，“就像我现在正在引诱你一样？”还要记住，这个男孩是无可救药的异性恋。然而，我正在按照我想要的方式解读它。
+
+00:43:57.030 --> 00:44:10.200
+<v Benny>And I remember, he kept doing that little-- every time it would be like a touche moment, he would reach over and hit me, kind of-- "Yeah, bro," kind of hit me on the knee. And it was making me crazy.
+<v Benny>而且我记得，他一直在做那个小的——每次都是那种接触时刻，他会伸手击中我，就像——“是的，兄弟，”那种击中我的膝盖。这让我发疯。
+
+00:44:10.200 --> 00:44:11.250
+<v Ira Glass>Oh, he touched you.
+<v Ira Glass>哦，他碰了你。
+
+00:44:11.250 --> 00:44:12.890
+<v Benny>Several times.
+<v Benny>好几次。
+
+00:44:12.890 --> 00:44:18.600
+<v Ira Glass>So you hire him for this job. And then he's working there at the company. And how often would you see him?
+<v Ira Glass>所以你雇他做了这份工作。然后他在那里公司工作。你多久会见到他一次？
+
+00:44:18.600 --> 00:44:48.030
+<v Benny>Well, I traveled Monday through Thursday. And then, once I hired him, I found myself finding all these excuses and reasons why I needed to be back in Utah. Oh, there's a big HR meltdown with this at this store. And I think there's a lot of theft problems, that we're having control issues at this store. Someone would give me one little thing, and I would come roaring back on a one-way ticket to Salt Lake City.
+<v Benny>嗯，我周一到周四旅行。然后，一旦我雇用了他，我发现自己找了所有这些借口和原因，为什么我需要回到犹他州。哦，这家商店有人力资源的大崩溃。而且我想有很多盗窃问题，我们在那家商店有控制问题。有人会给我一件小事，我就回来一张去盐湖城的单程票。
+
+00:44:48.030 --> 00:44:50.040
+<v Ira Glass>Was he that cute?
+<v Ira Glass>他那么可爱吗？
+
+00:44:50.040 --> 00:44:55.990
+<v Benny>I don't know what happened. Now that I look back, when I show people pictures of him, if I--
+<v Benny>我不知道发生了什么。现在我回顾过去，当我给人们看他的照片时，如果我——
+
+00:44:55.990 --> 00:44:58.470
+<v Ira Glass>You have pictures of him?
+<v Ira Glass>你有他的照片？
+
+00:44:58.470 --> 00:45:20.710
+<v Benny>Well, I took several pictures of him. His friend, he and I ended up seeing each other. And I said, "Oh, I'm doing this end of the year slide show of all the employees. And oh, I don't have any pictures of him. So is there any possible way that you-- do you have any just lying around?" "Oh my gosh, yes. I have all these pictures of us when we went boating." "Oh, perfect."
+<v Benny>嗯，我拍了几张他的照片。他的朋友，他和我也最终见面了。我说，“哦，我正在做这个所有员工的年底幻灯片。而且哦，我没有他的任何照片。所以有没有可能你——你有没有只是放在那里的？”“哦，天哪，是的。我们去划船时我有所有这些照片。”“哦，完美。”
+
+00:45:20.710 --> 00:45:39.500
+<v Benny>So he brings all these pictures. And I end up, of course, picking out all of the shirtless ones. And he never questioned. He'd just, "Oh yeah, this is a good one, too." And I even remember him saying, "This one looks like some Abercrombie shot of him coming out of the water." And I said, "Yeah, I'll take that one, too. I think everyone will like that one."
+<v Benny>所以他带来了所有这些照片。当然，我最终挑出了所有没穿衬衫的照片。他从未质疑。他只是，“哦是的，这张也不错。”而且我甚至记得他说，“这张看起来像他从水里出来的一些Abercrombie的照片。”我说，“是的，我也要那一张。我想每个人都会喜欢那一张。”
+
+00:45:39.500 --> 00:45:42.150
+<v Ira Glass>And did you use them?
+<v Ira Glass>你用它们了吗？
+
+00:45:42.150 --> 00:46:03.830
+<v Benny>Actually, I did put a couple of them in the slide show. But then, when I was done, I never gave them back to his friend. I had them, like, stashed all over the place. I mean, at one point, they were in my Book of Mormon, they were in my Bible. I was just such a mess, just a boiling pot of crazy. I look back now, and I still don't even know who that person is, to behave like that.
+<v Benny>其实，我确实在幻灯片里放了几张。但后来，当我做完后，我从来没有还给他的朋友。我把它们藏在各个地方。我的意思是，在某一点上，它们在我的摩门经里，它们在我的圣经里。我当时真是个一团糟，只是一个疯狂的沸腾锅。我回顾现在，我甚至不知道那个人是谁，竟然会有那种行为。
+
+00:46:03.830 --> 00:46:07.560
+<v Ira Glass>And what did you say to yourself at the time? What did you think it was?
+<v Ira Glass>当时你对自己说了什么？你认为它是什么？
+
+00:46:07.560 --> 00:46:32.830
+<v Benny>I would never, ever try anything. I would never-- because I always told myself I wasn't gay. But I was struggling with this thing that I didn't know what it was. And maybe other men, young men, struggle with the same thing. And maybe there would be a moment of vulnerability or a moment of confusion for him, where he would be possibly feeling the same thing I was. And maybe, I don't know, a cuddle or a kiss on the cheek or something very minor.
+<v Benny>我永远，永远不会尝试任何事情。我不会——因为我总是告诉自己我不是同性恋。但我一直在努力应对这个我不了解的东西。也许其他年轻人也面临同样的事情。也许对他来说会有一个脆弱的时刻或困惑的时刻，他可能在某种程度上感觉到我和我一样的感觉。也许，我不知道，一个拥抱或脸颊上的吻或非常微小的东西。
+
+00:46:32.830 --> 00:46:35.260
+<v Ira Glass>That's really as far as you would go in your head?
+<v Ira Glass>你在脑海里真的只走得那么远吗？
+
+00:46:35.260 --> 00:47:10.380
+<v Benny>When I was with him. There were times-- well, it went way further than that, obviously, in my private spaces. Way further, as far as it could possibly go. But then I just felt so horrible. And then, when I would see him, I would feel like I had done these things with him. And then I couldn't look at him. And there was all this guilt. I would then really beat myself up and say, oh, Benny, will you let Satan just get into your body like that and allow that? This is so evil. I would go there. I can't even begin to describe to you how exhausting it was. Coming out was not an option. It was so unfathomable.
+<v Benny>当我和他在一起时。有几次——嗯，显然在我的私人空间里，它远不止于此。远不止于此，尽可能走得更远。但后来我感到非常糟糕。然后，当我看到他时，我觉得我和他做了这些事情。然后我无法看他。而且有所有的内疚。然后我真的会自责并说，哦，本尼，你让撒旦就这样进入你的身体并允许那样做吗？这太邪恶了。我会去那里。我甚至无法开始向你描述它有多令人疲惫。出柜不是一个选项。它太不可思议了。
+
+00:47:10.380 --> 00:47:11.090
+<v Ira Glass>You were Mormon.
+<v Ira Glass>你是摩门教徒。
+
+00:47:11.090 --> 00:47:29.530
+<v Benny>Mormon, and really believed it. I believed it so much that, around this time, there was a gay-straight alliance group at a high school, trying to form in Salt Lake. And I actually went to it to try and fight them off, to get it not to pass to be able to be at this school. I went and rallied there with some other Christians, Mormons. There was a big group.
+<v Benny>摩门教徒，而且真的相信它。我相信它非常多，以至于在大约这个时候，盐湖城的一所高中有一个同性恋异性恋联盟团体试图组建。我实际上去了那里试图打退他们，以使它不能通过出现在这所学校。我和其他基督徒、摩门教徒在那里集会。有一个大团体。
+
+00:47:29.530 --> 00:47:31.710
+<v Ira Glass>To prevent this group from existing.
+<v Ira Glass>为了阻止这个团体的存在。
+
+00:47:31.710 --> 00:47:42.370
+<v Benny>Yeah, because I was very dedicated to also killing this, quote, "demon" that was inside of me, that I was told that was-- I had allowed this to come in. I had chosen this. There was no-- and because of the guilt--
+<v Benny>是的，因为我非常致力于也杀死这个，引用“恶魔”，在我里面的东西，告诉我那是——我允许这个进来。我选择了这个。没有——而且因为内疚——
+
+00:47:42.370 --> 00:47:48.200
+<v Ira Glass>And when you were trying to prevent this group from starting up, did you feel like you were doing other people a favor? Or was it not even--
+<v Ira Glass>当你试图阻止这个团体开始时，你觉得你在帮别人的忙吗？还是它甚至不是——
+
+00:47:48.200 --> 00:48:06.210
+<v Benny>Mm-hmm. That was my redemption in what I was behaving like, thinking about guys, going into chat rooms. Any of those things that I was doing on the side, I felt, in the greater scope of things, that I was carrying the banner of God.
+<v Benny>嗯。那是我的救赎，在我行为的方式上，思考男人，进入聊天室。我在旁边做的任何那些事情，我觉得，在更大范围内，我是在扛着上帝的旗帜。
+
+00:48:06.210 --> 00:48:14.710
+<v Ira Glass>Anyway, back to the crush. Soon enough, the 18-year-old turns 19 and gets called on a Mormon mission to Peru, which means that he'll be gone for two full years.
+<v Ira Glass>无论如何，回到迷恋上。很快，18岁的他变成了19岁，被叫去秘鲁进行摩门传教，这意味着他将离开整整两年。
+
+00:48:14.710 --> 00:48:28.870
+<v Benny>I was absolutely devastated. I went to his farewell. And his parents were all about, "Oh, he loves you so much. You're the greatest boss," yada, yada. Of course, you know how I took all of that. I'm just filing it in crazy town.
+<v Benny>我绝对崩溃了。我去参加了他的告别。他的父母全是关于，“哦，他非常爱你。你是最棒的老板，”等等。当然，你知道我是怎么看待所有这些的。我只是把它归档在疯狂镇。
+
+00:48:28.870 --> 00:48:52.590
+<v Ira Glass>The 19-year-old leaves. Benny stews for six months, driving his best friend Parker nuts with all of his obsessing. Parker, by the way, in this story, seems like the greatest guy in the world-- straight, Mormon, but understanding Benny better than Benny was understanding himself at the time. And it is with Parker, at 2:00 in the morning, that Benny comes up with his idea that is so crazy that it might just work.
+<v Ira Glass>19岁的他离开了。本尼炖了六个月，用他所有的痴迷把最好的朋友帕克逼疯了。顺便说一句，帕克在这个故事里，看起来就像世界上最伟大的人——异性恋，摩门教徒，但比本尼当时理解自己更理解本尼。就是在凌晨2点，和帕克在一起，本尼想出了他那个太疯狂可能真的会奏效的主意。
+
+00:48:52.590 --> 00:49:08.340
+<v Benny>I said, "We should go visit him in Peru." And Parker says, "You know what, Benny, let's go. Let's go. Let's go visit him. Yeah, let's go see him." And I said, "I'm serious. I will book the tickets tonight. And he said, "OK."
+<v Benny>我说，“我们应该去秘鲁看他。”帕克说，“你知道吗，本尼，我们去吧。我们去吧。我们去吧。去看看他。是的，我们去看他。”我说，“我是认真的。我今晚就订票。”他说，“好的。”
+
+00:49:08.340 --> 00:49:31.700
+<v Ira Glass>Benny then goes to the 19-year-old's parents and says that he's taking a vacation to Peru. Would they want him to bring a package or something from the family, maybe? Seems like a nice offer. They say, of course. Everybody agrees to make it a surprise for the 19-year-old, more fun that way. So Benny and Parker fly to Peru, make their way to the remote mountain town where the 19-year-old was now a missionary. They wander around asking people, where is the Mormon church in town?
+<v Ira Glass>本尼然后去找那个19岁年轻人的父母，说他正在去秘鲁度假。他们想让他从家里带个包裹之类的东西吗？看起来是个不错的提议。他们说，当然。大家都同意这对他来说是个惊喜，那样更有趣。所以本尼和帕克飞往秘鲁，前往那个19岁年轻人现在作为传教士的偏远山镇。他们四处游荡，问人们，镇上的摩门教会教会在哪里？
+
+00:49:31.700 --> 00:49:54.180
+<v Benny>I ended up-- someone said, "Oh yes, we know where the Mormoni" or whatever they called it. They said, "Yeah, we know where the Mormons are." And so they told us where the chapel was. And we got to the chapel. And these elders were just, oh, my gosh. They're yelling through the church, "Oh, my gosh. Buddy from Utah is here. And, oh, my gosh, you just showed up. Like, who does that? That's the coolest thing. Dude, how expensive were those tickets?" It turns into to this big--
+<v Benny>我最终——有人说，“哦是的，我们知道摩门教徒在哪里。”他们说，“是的，我们知道摩门教徒在哪里。”所以他们告诉我们礼拜堂在哪里。我们到了礼拜堂。这些长老们只是，噢，天哪。他们在教堂里大喊，“噢，天哪。来自犹他州的朋友在这儿。而且，噢，天哪，你只是出现了。就像，谁做那样的事？那是件最酷的事情。伙计，那些票多贵？”它变成了这个巨大的——
+
+00:49:54.180 --> 00:49:55.350
+<v Ira Glass>Did you feel guilty at all?
+<v Ira Glass>你感到内疚了吗？
+
+00:49:55.350 --> 00:50:21.280
+<v Benny>Oh, my gosh. I felt, once I was there in the chapel and this started happening, all of a sudden, this very dark cloud came over me of, boy, you are messing with fire, because now, you're in the Lord's house, and you are waiting for this boy that you are crushing just obsessively over. And I started to become very uncomfortable.
+<v Benny>噢，天哪。一旦我到了礼拜堂，这开始发生，我突然感到非常黑暗的云层笼罩着我，伙计，你在玩火，因为现在，你在主的房子里，你在等待那个你痴迷于迷恋的男孩。我开始变得非常不舒服。
+
+00:50:21.280 --> 00:51:03.270
+<v Benny>And then, all of a sudden, one of the elders came. They said, "He's here." I felt as if I was going to puke. And then he came in. He walked right in. And when he walked in, he stopped in his tracks, and he's, "No way." And he just dropped all of his books. And he just, "What?" And he ran over to me, and he just grabbed me and hugged me so tight. It was so tight and so-- And he was like, "What are you doing here?" And Parker is friends with him. So Parker's like, "Hey, dude." Parker's going along with this ridiculous, cockamamie thing that I have done.
+<v Benny>然后，突然间，其中一位长老来了。他们说，“他在那儿。”我觉得我要吐了。然后他进来了。他径直进来了。当他走进来时，他停在原地，他是，“不可能。”他只是扔掉了他所有的书。他只是，“什么？”他跑向我，他只是抓住我，抱我很紧。它太紧而且太——他就像，“你在这里做什么？”帕克是他的朋友。所以帕克就像，“嘿，伙计。”帕克顺应了这个我所做的荒谬、可笑的事情。
+
+00:51:03.270 --> 00:51:16.910
+<v Benny>And he called his mission president or someone and said, "I have friends from Salt Lake City that are traveling through Peru." He got permission or something to come and take time with us. And so it's, like, 7:30 at night now. It's getting dark.
+<v Benny>而且他给他的传教士主席或某人打电话说，“我有来自盐湖城的朋友正在秘鲁旅行。”他得到了许可之类的东西可以过来和我们一起度过时光。所以现在是晚上7:30。天黑了。
+
+00:51:16.910 --> 00:51:44.570
+<v Benny>And freakin' Parker, he's like, "OK, I'm gonna--" And if you know anything about missionaries, you can't be away from your companion that's with you, can't separate from each other, ever, unless you're going to the bathroom. So Parker's like, "I'm gonna distract him enough, where we're in a conversation, where you can at least get a good 50 feet away from us, where he can still see you so it won't look weird. And you can spend some time with him and just talk to him, see how his mission's going."
+<v Benny>而 freakin' 帕克，他就像，“好的，我要——”如果你了解任何关于传教士的事情，你不能离开和你在一起的同伴，不能彼此分离，永远，除非你去厕所。所以帕克就像，“我要让他分心，我们在谈话中，你至少可以离开我们50英尺远，他仍然可以看到你，所以看起来不会很奇怪。你可以花点时间和他在一起，只是和他谈谈，看看他的传教进展如何。”
+
+00:51:44.570 --> 00:52:03.700
+<v Benny>So him and I sat on the steps of this cathedral. And I said, "How's the mission going?" And he started telling me. And then he just starts to cry. And then he says, "I feel like you're an answer to my prayer, because I have been struggling so much here." My heart is ready to beat out of my bloody body. I mean, it's just--
+<v Benny>所以他和我就坐在大教堂的台阶上。我说，“传教进展如何？”他开始告诉我。然后他开始哭。然后他说，“我觉得你是我的祈祷的答案，因为我在这里一直挣扎得很厉害。”我的心准备跳出我血淋淋的身体。我的意思是，它只是——
+
+00:52:03.700 --> 00:52:03.890
+<v Ira Glass>This is your reaction.
+<v Ira Glass>这是你的反应。
+
+00:52:03.890 --> 00:52:08.150
+<v Benny>I remember the pulse that was happening. It almost hurt.
+<v Benny>我记得那个脉搏。它几乎受伤了。
+
+00:52:08.150 --> 00:52:10.410
+<v Ira Glass>Because he said that, you're the answer to my prayer.
+<v Ira Glass>因为他说那个，你是我的祈祷的答案。
+
+00:52:10.410 --> 00:52:47.020
+<v Benny>Yeah. And then he said, "I've been struggling." I said, "Listen. I've been on a mission. I know what that feels like. I have been here. I know how confusing and difficult and lonely it can be." And he said, "I just can't believe you came here." And then he said, "This has got to be the coolest thing anyone has ever done for me, to just come here and do something this, for you to come and see me." And then he said, "Wow, Benny, I feel so much happiness seeing you. And you are that kind of person that has always filled me with joy and hope. And every time I'm around you, I want to be better."
+<v Benny>是的。然后他说，“我一直在挣扎。”我说，“听着。我传教过。我知道那种感觉。我在这里过。我知道它可能有多混乱、困难和孤独。”他说，“我简直不敢相信你来到这里。”然后他说，“这一定是任何人做过的最酷的事情，只是来到这里做这样的事情，你来见我。”然后他说，“哇，本尼，看到你我感到如此幸福。而且你是那种总是带给我快乐和希望的人。每次我在你身边，我都想变得更好。”
+
+00:52:47.020 --> 00:53:18.420
+<v Benny>And then I just said, "Well, you know, I love you a lot." And he said, "I love you, too." And then it was like Tourette's. I couldn't even help myself. And I just said, "No. I love you." And then he kind of tilted his head. And he looked at me, and he said, "I love you, too, bro." I saw in his face, the way he looked at me.
+<v Benny>然后我就说，“嗯，你知道，我非常爱你。”他说，“我也爱你，兄弟。”然后它就像妥瑞症。我甚至无法自拔。我只是说，“不。我爱你。”然后他有点倾斜他的头。他看着我，他说，“我也爱你，兄弟。”我在他的脸上看到了，他看我的方式。
+
+00:53:18.420 --> 00:53:47.990
+<v Benny>And then, my eyes are starting to fill up with tears. I'm starting to panic. All of this that I've held inside of me is crumbling. Quivering lip, the whole puppy face, I can't even imagine what he was seeing. And Parker-- I look over. Parker, I see him in the background with his hand like, "cut it" to his neck. He just was looking at me like, "Benny, cut it." He was watching the body language. He could see what was unfolding. He was like, "Benny, just cut it."
+<v Benny>然后，我的眼睛开始充满泪水。我开始恐慌。所有我内心持有的这一切都在崩溃。颤抖的嘴唇，整个小狗脸，我甚至无法想象他看到了什么。而且帕克——我看过去。帕克，我看到他在背景中把手放在脖子上，像“切断”的姿势。他只是看着我就像，“本尼，切断。”他在观察肢体语言。他能看到正在发生的事情。他就像，“本尼，只是切断它。”
+
+00:53:47.990 --> 00:54:08.040
+<v Benny>And actually, this guy, he knew I had deviated from "I love you, bro." And then he's like, "You know, we gotta go. It's getting really dark." And I was crushed, because in that moment, it was like I'd been asleep and someone had woken me up.
+<v Benny>事实上，这个家伙，他知道我背离了“我爱你，兄弟。”然后他就像，“你知道，我们得走了。天真的黑了。”我崩溃了，因为在那一刻，它就像我睡着了，有人把我叫醒了。
+
+00:54:08.040 --> 00:54:36.530
+<v Benny>And all of a sudden-- we were walking away, and I said to Parker, "He's straight, isn't he?" And Parker said, "Benny, yes. He is." And I just went crazy and started yelling at Parker. "How could you let me do this? You were supposed to be my voice of reason! You're my best friend! I confided in you in this! This is your fault! You put these thoughts in my head!" And I was so angry, I just started screaming at him in the middle of the street.
+<v Benny>突然间——我们走开了，我对帕克说，“他是异性恋，不是吗？”帕克说，“本尼，是的。他是。”我只是发疯了，开始对帕克大喊大叫。“你怎么能让我做这件事？你应该是我理智的声音！你是我最好的朋友！我向你倾诉这个！这是你的错！你把这些想法放在了我的脑子里！”我太生气了，我只是开始在街中间对他尖叫。
+
+00:54:36.530 --> 00:54:57.200
+<v Benny>And I was bawling like a crazy person and just saying, "What is this feeling?" And he's like, "Benny, you're feeling crushed, like you're heart's breaking." He's like, "This is good. You're supposed to feel this. It's a little late." And I'm like, "Don't tell me how to feel! I want to go home. I don't even want to stay in Peru anymore." And Parker just sat.
+<v Benny>而且我像个疯子一样嚎啕大哭，只是说，“这是什么感觉？”他就像，“本尼，你感到粉碎，就像你的心碎了。”他就像，“这很好。你应该感觉到这一点。有点晚了。”我就像，“别告诉我该怎么感觉！我想回家。我甚至不想再待在秘鲁了。”帕克只是坐着。
+
+00:54:57.200 --> 00:55:17.520
+<v Benny>And I said, "Tell me this. Have you known all along that this was going to happen?" He goes, "Well, to be honest, I didn't know you were going to do that. But of course I knew he was straight. I tried to tell you one time. You got a little weird about it. And I just decided in my head, Benny needs to experience this." I cried for hours. And Parker was just listening to me.
+<v Benny>我说，“告诉我这个。你一直知道这会发生吗？”他说，“好吧，说实话，我不知道你会做那样的事。但当然我知道他是异性恋。我有一次试着告诉你。你对此有点奇怪。我只是在脑子里决定，本尼需要体验这一点。”我哭了几个小时。帕克只是听着我。
+
+00:55:17.520 --> 00:55:47.500
+<v Benny>And then he was the one that said, "You imagine, Benny, feeling this but having someone reciprocating it." And I said, "You mean, with a gay guy?" And he said, "Well, yeah, because that's the only guy that's going to do that with you." And then it was this journey to coming out of the closet. That was what cracked it opened, you know?
+<v Benny>然后他就是那个说，“你想象一下，本尼，感觉到这一点但有人回应它。”我说，“你是说，和一个同性恋家伙？”他说，“嗯，是的，因为那是唯一会和你那样做的人。”然后这就是出柜的旅程。那是破解它的，你知道吗？
+
+00:55:47.500 --> 00:55:53.820
+<v Ira Glass>Benny now lives in New York City. He has a boyfriend.
+<v Ira Glass>本尼现在住在纽约市。他有一个男朋友。
+
+00:55:53.820 --> 00:56:12.850
+<v Ira Glass>[MUSIC - "I'M PUTTING ALL MY EGGS IN ONE BASKET" BY BOB WILLS AND HIS TEXAS PLAYBOYS]
+<v Ira Glass>[音乐 - "我把所有的鸡蛋放在一个篮子里" 由 BOB WILLS AND HIS TEXAS PLAYBOYS 演奏]
+
+00:56:12.850 --> 00:56:31.370
+<v Ira Glass>Our program is produced today by Jonathan Menjivar with Ben Calhoun, Sarah Koenig, Miki Meek, Lisa Pollack, Brian Reed, Robyn Semien, Alissa Shipp, and Nancy Updike. Our senior producer's Julie Snyder. Seth Lind is our production manager. Emily Condon's our office manager. Music help from Damien Graef and Rob Geddis. Our website, thisamericanlife.org.
+<v Ira Glass>我们的节目今天由乔纳森·门吉瓦与本·卡尔霍恩、莎拉·科尼格、三木·米克、丽莎·波拉克、布莱恩·里德、罗宾·塞米恩、阿丽莎·希普和南希·厄普代克制作。我们的高级制作人是朱莉·斯奈德。塞斯·林德是我们的制作经理。艾米丽·康登是我们的办公室经理。音乐帮助来自达米安·格拉夫和罗布·盖迪斯。我们的网站，thisamericanlife.org。
+
+00:56:31.370 --> 00:56:34.900
+<v Ira Glass>[ACKNOWLEDGEMENTS]
+<v Ira Glass>[鸣谢]
+
+00:56:34.900 --> 00:56:53.190
+<v Ira Glass>Paul Hoffman, who you heard at the beginning of the program, is president of the Liberty Science Center. This American Life is distributed by Public Radio International. WBEZ management oversight for our program by our boss, Mr. Torey Malatia. You know, you really should have seen him at the WBEZ all-staff Halloween party in his pigtails.
+<v Ira Glass>你在节目开始时听到的保罗·霍夫曼是自由科学中心的总裁。《美国生活》由国际公共广播电台发行。WBEZ对我们节目的管理监督由我们的老板，托里·马拉蒂亚先生。你知道，你真的应该在WBEZ全体员工的万圣节派对上看到他梳着两条辫子的样子。
+
+00:56:53.190 --> 00:56:58.940
+<v Anthony Holland>[SINGING] Somewhere over the rainbow.
+<v Anthony Holland>[歌唱] 在彩虹之上某处。
+
+00:56:58.940 --> 00:57:25.410
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of this American life.
+<v Ira Glass>我是艾拉·格拉斯。下周再回来，带来更多关于这个美国生活的故事。
+
+00:57:25.410 --> 00:57:30.410
+<v Announcer>PRI, Public Radio International.
+<v Announcer>PRI，国际公共广播电台。
