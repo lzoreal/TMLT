@@ -8,6 +8,7 @@ import time
 import hashlib
 import traceback
 import logging
+import random
 
 from pathlib import Path
 from datetime import datetime, timezone
@@ -82,7 +83,11 @@ def endgroup():
 
 group("Initializing Gemini")
 try:
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    # 添加 120 秒 HTTP 超时，防止服务端无响应时无限挂死
+    client = genai.Client(
+        api_key=os.environ["GEMINI_API_KEY"],
+        http_options={"timeout": 120000}
+    )
     log("✅ Gemini initialized")
 except Exception as e:
     log("❌ Gemini initialization failed")
@@ -313,8 +318,9 @@ def gemini_batch_translate(blocks, cache_meta):
             log(f"❌ Error: {e}")
             if not is_retryable_error(e) or attempt >= RETRY_COUNT:
                 raise
-            wait = RETRY_BASE * attempt
-            log(f"⏳ Retryable, waiting {wait}s...")
+            # 指数退避 + 抖动，应对服务端高负载
+            wait = RETRY_BASE * (2 ** (attempt - 1)) + random.uniform(0, 5)
+            log(f"⏳ Retryable, waiting {wait:.1f}s...")
             time.sleep(wait)
 
     return {}
