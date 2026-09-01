@@ -1,0 +1,1233 @@
+WEBVTT
+
+00:00:12.060 --> 00:00:29.310
+<v Ira Glass>Maybe you saw this video this past week-- a veteran meteorologist in Florida, John Morales, on live TV, talking about the power of Hurricane Milton as it was still approaching the state. He was reading the barometric pressure numbers. And it just got to him. He choked up.
+<v Ira Glass>你可能在过去一周看过这段视频——佛罗里达州的一位资深气象学家约翰·莫拉莱斯（John Morales）在电视直播中，讲述飓风米尔顿在逼近该州时的威力。他当时正在读气压数据，突然情绪失控，哽咽了。
+
+00:00:29.310 --> 00:00:45.280
+<v John Morales>It has dropped. [SIGHS] It has dropped 50 millibars in 10 hours. I apologize. This is just horrific.
+<v John Morales>气压已经下降了。[叹气] 在10小时内下降了50毫巴。我很抱歉。这简直太可怕了。
+
+00:00:45.280 --> 00:01:17.530
+<v Ira Glass>He wasn't the only meteorologist who seemed pushed to the limits trying to communicate the scale and intensity of Hurricane Milton. Noah Bergren, who's on TV in Orlando, declared in a tweet, "This is nothing short of astronomical. I'm at a loss for words to meteorologically describe to you the storm's small eye and intensity. This is now the fourth strongest hurricane ever recorded by pressure on this side of the world." He later corrected that to the fifth strongest. "This hurricane is nearing the mathematical limit of what Earth's atmosphere over this ocean water can produce."
+<v Ira Glass>他并不是唯一一位在试图传达飓风米尔顿的规模和强度时显得力不从心的气象学家。奥兰多电视台的诺亚·伯格伦（Noah Bergren）在推特上声明：“这简直是天文数字般的可怕。我无法用气象学术语来描述这场风暴小巧的风眼和强度。按气压计算，这是该半球有记录以来第四强劲的飓风。”他后来将其更正为第五强。“这场飓风已接近地球大气层在这一海域所能产生的极限。”
+
+00:01:17.530 --> 00:01:44.660
+<v Ira Glass>Reading that, you get the feeling of somebody trying their hardest to summon words that'll do the job to fully warn people-- evacuate. Get to safety. Fate and circumstance put these meteorologists into a situation where they could use the little bit of power they have to try to alert people and hopefully save lives. That kind of thing where somebody has a small amount of power, and then something happens, some moment arrives where they really can make a difference.
+<v Ira Glass>读到这些，你会感觉到有人正竭尽全力寻找能够发挥作用的话语，以充分警告人们——撤离。去安全的地方。命运和境遇将这些气象学家置于一种境地，他们利用自己仅有的一点影响力去试图提醒民众，并希望拯救生命。当某人拥有微小的权力，而随后发生了一些事情，某个时刻到来，他们确实能够有所作为，情况往往就是这样。
+
+00:01:44.660 --> 00:02:16.560
+<v Ira Glass>It sometimes happens in politics. And when it does, somebody who is not usually in the limelight, somebody who's not a household name, can end up with immense power. Events shake out so that random political figures suddenly have the entire weight of a country's future in their hands. Classic example, I think of Brad Raffensperger, the secretary of state in Georgia, who famously got a phone call from then President Trump, asking him after the last presidential election, to find some votes or throw out some votes just to somehow overturn the results in Georgia.
+<v Ira Glass>这种情况有时也会发生在政治领域。而当它发生时，通常不在聚光灯下、并非家喻户晓的人物，最终可能会掌握巨大的权力。事件的走向使得随机的政治人物突然间手中掌握了国家未来的全部重量。我想到的经典例子是佐治亚州州务卿布拉德·拉芬斯珀格（Brad Raffensperger），他因在上次总统大选后接到时任总统特朗普的电话而闻名，特朗普要求他寻找一些选票或作废一些选票，以某种方式推翻佐治亚州的选举结果。
+
+00:02:16.560 --> 00:02:35.150
+<v Donald Trump>So, look. All I want to do is this. I just want to find 11,780 votes, which is one more than we have. And flipping the state is a great testament to our country.
+<v Donald Trump>听着，我只想做这件事。我只想找到11780张选票，这比我们现有的多一张。扭转该州的结果是对我们国家伟大的证明。
+
+00:02:35.150 --> 00:03:09.170
+<v Ira Glass>Raffensperger, of course, refused. There was another example like that a couple of weeks ago. Nebraska lawmakers were debating whether to switch the way Nebraska gives out its electoral college votes in presidential elections. Nebraska doesn't use the winner-take-all system that most of the states use, which means that it's possible that Kamala Harris could win one electoral college vote from Nebraska, which conceivably could decide the coming election. In fact, that is such a real possibility in this very close election that Donald Trump personally got on the phone to convince lawmakers to make the change.
+<v Ira Glass>拉芬斯珀格当然拒绝了。几周前还有另一个类似的例子。内布拉斯加州的立法者们正在辩论是否改变该州在总统选举中分配选举人票的方式。内布拉斯加州不使用大多数州采用的赢者通吃制度，这意味着卡玛拉·哈里斯有可能从内布拉斯加州赢得一张选举人票，而这完全可能决定即将到来的大选。事实上，在这次势均力敌的选举中，这真是一个现实的可能性，以至于唐纳德·特朗普亲自打电话说服立法者做出改变。
+
+00:03:09.170 --> 00:03:22.470
+<v Ira Glass>And in the end, it all came down to one state senator, Mike McDonnell, a Republican actually, who dug in his heels and said no and ended up, it felt like, in every newspaper and news broadcast in the country.
+<v Ira Glass>最终，一切都归结于一位州参议员，迈克·麦克唐纳（Mike McDonnell），他实际上是一位共和党人，但他立场坚定并说了不。结果他似乎登上了全国所有的报纸和新闻广播。
+
+00:03:22.470 --> 00:03:34.970
+<v Mike McDonnell>This idea of changing it with 42 days, it's like we're in a football game, you call a timeout out and say, I want to switch the value of a field goal from 3 points to 4 points. That's just not the way we do things. That's not the Nebraska way.
+<v Mike McDonnell>这种在选举还剩42天时改变规则的想法，就像在橄榄球比赛中你叫了一个暂停，然后说：“我想把一个射门得分的价值从3分改为4分。”这不是我们做事的方式。那不是“内布拉斯加方式”。
+
+00:03:34.970 --> 00:04:24.370
+<v Ira Glass>Today on our show, we have the story of a bunch of people. And fascinatingly, unlike these other examples, most of them are not professional politicians. These are just regular voters who suddenly find themselves in this kind of special political circumstance where they have a little bit of power to nudge and maybe to decide the election in one of the key battleground states this year. And lots of eyes are on them. And it's been a ton of suspense these past two months for how it would all play out. From WBEZ Chicago, it's This American Life. I'm Ira Glass. Stay with us.
+<v Ira Glass>今天我们的节目讲述了一群人的故事。令人着迷的是，与上述其他例子不同，他们中的大多数人不是职业政客。他们只是普通的选民，突然发现自己处于这种特殊的政治环境中，有一点权力去推动，甚至可能决定今年关键战场州之一的选举结果。很多目光都注视着他们。过去两个月里，这一切将如何发展充满了悬念。来自芝加哥WBEZ广播电台，这是《美国生活》。我是艾拉·格拉斯。请继续收听。
+
+00:04:24.370 --> 00:04:49.360
+<v Ira Glass>This American Life. These last weeks before the election, so much of the fight for the presidency is coming down to battles for individual slices of voters who can help throw swing states to one of the candidates or the other. So campaigns are targeting college educated suburbanites here or young male voters there. And there's a particularly dramatic example of this playing out with a huge chunk of voters in Michigan.
+<v Ira Glass>《美国生活》。在选举前的最后几周，总统竞选的大部分争夺归结为对个体选民群体的争夺，他们可以帮助将摇摆州投给其中一位候选人。因此，竞选团队在针对这里的受过大学教育的郊区居民或那里的年轻男性选民。在密歇根州，有一个庞大的选民群体上演了一个特别戏剧性的例子。
+
+00:04:49.360 --> 00:05:20.590
+<v Ira Glass>Michigan is a key state for Kamala Harris to win. She doesn't have many paths to the presidency without it. And Michigan, right now, is a complete toss up. So back in February, a reliable bunch of Democratic voters started to shake loose from the Democratic coalition. These were Arab-American voters and other voters who were upset about President Biden's support for Israel right now in the war in Gaza. There's a huge Arab-American population in the cities and suburbs around Detroit. Dearborn's the largest city in the country with an Arab-American majority.
+<v Ira Glass>密歇根州是卡玛拉·哈里斯获胜的关键州。没有它，她几乎没有通往总统职位的途径。而密歇根州目前完全是五五开。因此，早在二月，一群可靠的民主党选民开始脱离民主党阵营。他们是阿拉伯裔美国选民和其他对拜登总统目前在加沙战争中支持以色列感到不满的选民。底特律及其周边城市和郊区有大量的阿拉伯裔美国人。迪尔伯恩是全国最大的阿拉伯裔美国人占多数的城市。
+
+00:05:20.590 --> 00:05:52.130
+<v Ira Glass>And in February, these Democrats, who, by the way, do not want Trump-- they see him as even more pro-Israel than Biden-- these Democrats wanted to signal their displeasure with the bombings and the deaths of so many Palestinian civilians with US bombs and US support. So back during the Democratic primary, they quickly organized-- in just a few weeks-- a campaign to encourage Democrats to not vote for Biden as the nominee as a kind of protest vote. They would instead vote uncommitted.
+<v Ira Glass>在二月，这些民主党人（顺便说一下，他们并不想要特朗普——他们认为他比拜登更亲以色列）想要表达他们对使用美国炸弹和美国支持导致的巴勒斯坦平民伤亡的不满。所以回到民主党初选期间，他们很快就组织起来——仅用了几周时间——发起了一项运动，鼓励民主党人不投票给拜登作为抗议。他们转而投票给“未承诺”（uncommitted）。
+
+00:05:52.130 --> 00:06:09.160
+<v Ira Glass>They said they hoped to get 10,000 votes like that. They chose 10,000 because that's the number of votes that Donald Trump won Michigan with in 2016. 10,000. They did so much better than that. To their own astonishment, 100,000 people voted uncommitted.
+<v Ira Glass>他们说希望能获得1万张这样的票。他们选择1万是因为那是唐纳德·特朗普在2016年赢得密歇根州的票数差。1万。结果他们做得好得多。令他们自己都感到震惊的是，有10万人投了“未承诺”票。
+
+00:06:09.160 --> 00:06:12.820
+<v Reporter>It's these voters who shook up the Democratic primary.
+<v Reporter>正是这些选民搅动了民主党初选。
+
+00:06:12.820 --> 00:06:19.280
+<v Woman>If he doesn't get it together and change what he's doing, we will not vote for him in November.
+<v Woman>如果他不振作起来改变他的所作所为，我们在十一月就不会投票给他。
+
+00:06:19.280 --> 00:06:30.610
+<v Reporter>Overnight, an extremely unusual watch party for voters who cast their ballots not for a candidate, but for uncommitted, in protest of President Biden's handling of the Israel-Hamas war.
+<v Reporter>一夜之间，举行了一场极其罕见的“守夜派对”，参加者是那些不是投给候选人，而是投给“未承诺”以抗议拜登总统处理以哈战争方式的选民。
+
+00:06:30.610 --> 00:06:58.990
+<v Ira Glass>100,000 Democratic votes in the primary was so many people that, under Democratic Party rules, the party had to give these uncommitted voters delegates to the Democratic National Convention in Chicago. There were two from Michigan and about 30 from other states. Once inside the hall, these delegates could try to make deals, try to influence Mideast policy. After all, Kamala Harris needs these voters, particularly in Michigan. Michigan had enough uncommitted voters arguably to swing it for her or against her.
+<v Ira Glass>初选中10万张民主党选票让太多人参与其中，以至于根据民主党规则，该党必须给予这些“未承诺”选民代表参加在芝加哥举行的民主党全国代表大会的名额。其中两位来自密歇根，约30位来自其他州。一旦进入会场，这些代表就可以尝试达成协议，试图影响中东政策。毕竟，卡玛拉·哈里斯需要这些选民，尤其是在密歇根州。密歇根州的“未承诺”选民数量足以左右她的胜负。
+
+00:06:58.990 --> 00:07:20.390
+<v Ira Glass>So the question was what could they get in exchange for their votes? Ben Terris, a reporter with The Washington Post, and our producer Zoe Chace, have been following one of the leaders of the uncommitted movement in Michigan for months, Abbas Alawieh. Abbas is a Democrat who's had many jobs working for the party. He very much wants Harris to win.
+<v Ira Glass>所以问题是，他们能用选票换取什么？《华盛顿邮报》的记者本·特里斯（Ben Terris）和我们的制作人佐伊·蔡斯（Zoe Chace）几个月来一直追踪密歇根州“未承诺”运动的领导人之一，阿巴斯·阿拉维（Abbas Alawieh）。阿巴斯是一位民主党人，曾为该党担任过许多职务。他非常希望哈里斯获胜。
+
+00:07:20.390 --> 00:07:35.220
+<v Ira Glass>Ben and Zoe watch him try to broker some deal at the convention, and afterwards, that would satisfy the uncommitted voters and deliver them to Harris. It's been hard. It really could affect the election results. Here's Ben.
+<v Ira Glass>本和佐伊看着他在大会期间及之后试图斡旋达成一些协议，以满足“未承诺”选民并将他们送给哈里斯。这很难。它真的可能影响选举结果。下面是本的报道。
+
+00:07:35.220 --> 00:07:45.950
+<v Ben Terris>We meet up with Abbas Alawieh the day before the convention starts. Abbas is someone I've known for years as a reporter. He was chief of staff for Cori Bush, one of the members of the squad.
+<v Ben Terris>我们在大会开始的前一天见到了阿巴斯·阿拉维。阿巴斯是我作为记者认识多年的人。他曾是“小分队”（The Squad）成员之一科里·布什（Cori Bush）的幕僚长。
+
+00:07:45.950 --> 00:08:06.530
+<v Ben Terris>I've met a lot of chiefs over the years covering Capitol Hill. And Abbas boss wasn't like any of them. He was young, barely 30 years old. And he didn't stick to operating in the shadows, commenting off the record, and staying out of the spotlight. He'd be at protests carrying a bullhorn. And he was unmissable, 6 foot 6, built like an NFL lineman. And he was fine standing out.
+<v Ben Terris>这些年来跑国会山，我见过很多幕僚长。但阿巴斯的风格与他们都不一样。他很年轻，刚满30岁。他并不满足于在幕后运作、私下评论、远离聚光灯。他会出现在抗议活动中拿着扩音器。他非常显眼，身高6英尺6英寸（约1.98米），体格像NFL的边锋。他很乐意站在前台。
+
+00:08:06.530 --> 00:08:31.280
+<v Ben Terris>He also knew how to maneuver behind the scenes. And that really did catch my eye. He was a kind of insider-outsider type-- part policy guy, part activist-- and I hadn't seen a lot of guys like that before. So I stayed in touch. Recently, he left Washington and moved back to Michigan, where he grew up. And there, he got swept up into the uncommitted movement, which is how he ended up here in Chicago for the convention. He's an uncommitted delegate.
+<v Ben Terris>他也懂得如何在幕后周旋。这确实吸引了我的注意。他是一种“内部人士-外部人士”的类型——既是政策专家，又是活动家——我以前没见过多少这样的人。所以我一直保持联系。最近，他离开了华盛顿，搬回了他成长的密歇根州。在那里，他被卷入了“未承诺”运动，这就是他最终来到芝加哥参加大会的原因。他是一名“未承诺”代表。
+
+00:08:31.280 --> 00:08:36.260
+<v Ben Terris>Being a delegate, that gets him back inside, back among the Democratic power brokers.
+<v Ben Terris>成为代表，让他回到了内部，回到了民主党的权力掮客中间。
+
+00:08:36.260 --> 00:08:38.660
+<v Abbas Alawieh>The black Toyota Highlander, I think this is us.
+<v Abbas Alawieh>那辆黑色丰田汉兰达，我想是我们这辆。
+
+00:08:38.660 --> 00:08:59.350
+<v Zoe Chace>Right now, Abbas is standing on a street corner waiting for an Uber to take him to the convention center for a cable TV interview. A bunch of roads are closed for security reasons. No one knows which ones. City's gridlocked. Abbas is unruffled. When the Uber arrives, he folds himself into the car and starts chatting with the driver.
+<v Zoe Chace>阿巴斯正站在街角等优步车去会展中心接受电视采访。由于安全原因，许多道路都被封锁了。没人知道封锁了哪些。城市交通瘫痪了。阿巴斯很淡定。当优步车到达时，他把自己折进车里，开始与司机聊天。
+
+00:08:59.350 --> 00:09:00.520
+<v Abbas Alawieh>How do you say your name? Is it--
+<v Abbas Alawieh>你的名字怎么念？是——
+
+00:09:00.520 --> 00:09:01.650
+<v Driver>Asselete.
+<v Driver>Asselete。
+
+00:09:01.650 --> 00:09:02.610
+<v Abbas Alawieh>Asselete?
+<v Abbas Alawieh>Asselete？
+
+00:09:02.610 --> 00:09:04.210
+<v Driver>You are Abbas, right?
+<v Driver>你是阿巴斯，对吧？
+
+00:09:04.210 --> 00:09:05.100
+<v Abbas Alawieh>Yes, sir.
+<v Abbas Alawieh>是的，先生。
+
+00:09:05.100 --> 00:09:08.280
+<v Zoe Chace>We're heading to the drop-off spot for the convention this week.
+<v Zoe Chace>我们正前往本周大会的下车点。
+
+00:09:08.280 --> 00:09:11.520
+<v Driver>Abbas, you are going to Malcolm X college.
+<v Driver>阿巴斯，你要去马尔科姆·X学院（Malcolm X College）。
+
+00:09:11.520 --> 00:09:12.020
+<v Abbas Alawieh>That's correct.
+<v Abbas Alawieh>没错。
+
+00:09:12.020 --> 00:09:16.410
+<v Driver>Will they allow us to get closer? That is the question.
+<v Driver>他们会允许我们靠近吗？这是个问题。
+
+00:09:16.410 --> 00:09:18.950
+<v Abbas Alawieh>Well, we're going to find out together, aren't we?
+<v Abbas Alawieh>好吧，我们要一起去弄清楚，不是吗？
+
+00:09:18.950 --> 00:09:22.200
+<v Abbas Alawieh>[LAUGHTER]
+<v Abbas Alawieh>[笑声]
+
+00:09:22.200 --> 00:09:23.030
+<v Abbas Alawieh>Where are you from?
+<v Abbas Alawieh>你从哪里来？
+
+00:09:23.030 --> 00:09:24.060
+<v Driver>I'm from Togo.
+<v Driver>我来自多哥。
+
+00:09:24.060 --> 00:09:24.660
+<v Abbas Alawieh>Togo?
+<v Abbas Alawieh>多哥？
+
+00:09:24.660 --> 00:09:25.570
+<v Driver>Yeah.
+<v Driver>是的。
+
+00:09:25.570 --> 00:09:26.880
+<v Abbas Alawieh>My dad lived in Togo.
+<v Abbas Alawieh>我爸爸住在多哥。
+
+00:09:26.880 --> 00:09:27.540
+<v Driver>Really?
+<v Driver>真的吗？
+
+00:09:27.540 --> 00:09:28.470
+<v Abbas Alawieh>Yeah.
+<v Abbas Alawieh>是的。
+
+00:09:28.470 --> 00:09:39.400
+<v Zoe Chace>Abbas has a way of connecting with anyone he's talking to. It's partly why he became the de facto spokesperson for the uncommitted delegates. People just like him. He seems sincere.
+<v Zoe Chace>阿巴斯有一种能与任何交谈对象建立联系的方法。这部分原因是他成为了“未承诺”代表们的实际发言人。人们就是喜欢他。他看起来很真诚。
+
+00:09:39.400 --> 00:09:40.710
+<v Abbas Alawieh>What's the capital city?
+<v Abbas Alawieh>首都是哪座城市？
+
+00:09:40.710 --> 00:09:41.160
+<v Driver>Lomé.
+<v Driver>洛美（Lomé）。
+
+00:09:41.160 --> 00:09:42.420
+<v Abbas Alawieh>Lomé. Yeah, he was in Lomé.
+<v Abbas Alawieh>洛美。是的，他在洛美。
+
+00:09:42.420 --> 00:09:45.510
+<v Driver>Let me see. Is your father a car dealer?
+<v Driver>让我看看。你父亲是汽车经销商吗？
+
+00:09:45.510 --> 00:09:48.470
+<v Abbas Alawieh>He's not a car dealer. He has a brother who is though.
+<v Abbas Alawieh>他不是车商。但他有个兄弟是。
+
+00:09:48.470 --> 00:09:49.470
+<v Abbas Alawieh>[LAUGHTER]
+<v Abbas Alawieh>[笑声]
+
+00:09:49.470 --> 00:09:55.380
+<v Abbas Alawieh>You can probably guess my father's Lebanese.
+<v Abbas Alawieh>你大概能猜到我父亲是黎巴嫩人。
+
+00:09:55.380 --> 00:10:01.590
+<v Driver>I have a lot of Lebanese friends. So when I saw the name Abbas, I say I'm going for Lebanese.
+<v Driver>我有很多黎巴嫩朋友。所以当我看到“阿巴斯”这个名字时，我就说我要去结识黎巴嫩人。
+
+00:10:01.590 --> 00:10:04.380
+<v Abbas Alawieh>There's a lot of Lebanese, I mean, in West Africa in general.
+<v Abbas Alawieh>西非确实有很多黎巴嫩人。
+
+00:10:04.380 --> 00:10:06.010
+<v Driver>All of them sell cars.
+<v Driver>他们全都卖车。
+
+00:10:06.010 --> 00:10:07.410
+<v Driver>[LAUGHTER]
+<v Driver>[笑声]
+
+00:10:07.410 --> 00:10:37.230
+<v Ben Terris>Abbas is Lebanese. He lived there till he was six. And he's still got a lot of family that lives in Southern Lebanon on Israel's border. When he was 15, he was visiting his grandmother when war broke out with Israel in 2006. He was forced to spend days sheltering in a basement while Israeli bombs were falling all around him, some of them made in the US. He was scared for his life. And he talks about it a lot. He says this is what activated him politically. It made him want to get inside the US government to make some kind of change that way.
+<v Ben Terris>阿巴斯是黎巴嫩人。他在那里住到六岁。他仍有很多亲戚住在以色列边境附近的黎巴嫩南部。15岁那年，他在探望祖母时，2006年与以色列的战争爆发了。他被迫在地下室躲了好几天，而以色列炸弹在他周围落下，有些还是美国制造的。他非常害怕。他经常提起这件事。他说正是这件事在政治上激活了他。这让他想要进入美国政府内部，以那种方式做出某种改变。
+
+00:10:37.230 --> 00:10:41.700
+<v Driver>Abbas is a Lebanese. His wish is my wish.
+<v Driver>阿巴斯是黎巴嫩人。他的愿望就是我的愿望。
+
+00:10:41.700 --> 00:10:45.390
+<v Abbas Alawieh>I appreciate that, my brother. [LAUGHS]
+<v Abbas Alawieh>兄弟，我很感激。[笑]
+
+00:10:45.390 --> 00:11:03.160
+<v Ben Terris>We jump out of the car. An escort from MSNBC meets us at the back of an hour's long line of journalists and other attendees. We get to skip to the front. And we're hustled into the convention center so Abbas can make his TV appearance. The arena is bumping. There's music blasting and delegates practicing their roll call vote.
+<v Ben Terris>我们跳下车。MSNBC的一位护送人员在排着长队的记者和其他参加者队伍后面接应我们。我们得以插队到前面。然后我们被匆匆带进会展中心，以便阿巴斯能够参加电视节目。会场里热闹非凡。音乐声震耳欲聋，代表们正在排练点名投票。
+
+00:11:03.160 --> 00:11:08.610
+<v Announcer>Kamala Harris--
+<v Announcer>卡玛拉·哈里斯——
+
+00:11:08.610 --> 00:11:20.230
+<v Zoe Chace>A big part of why he's here is to talk to the press. It's a way to put pressure on the Harris campaign. There are TV studios set up all over the place. We watch him talk to PBS and MSNBC.
+<v Zoe Chace>他在这里的一个重要原因是与媒体交谈。这是向哈里斯竞选团队施加压力的一种方式。到处都设立了电视演播室。我们看着他与PBS和MSNBC交谈。
+
+00:11:20.230 --> 00:11:33.780
+<v Abbas Alawieh>That uncommitted voters and uncommitted delegates, like me, want to support Vice President Harris, but need her to support a policy that stops sending weapons to the Israeli military that is using those weapons to kill people we love.
+<v Abbas Alawieh>“未承诺”选民和像我这样的“未承诺”代表，想要支持副总统哈里斯，但需要她支持一项政策，停止向正在利用这些武器杀害我们所爱之人的以色列军队运送武器。
+
+00:11:33.780 --> 00:11:41.200
+<v Zoe Chace>Abbas tells us this is their ultimate goal-- a policy change. But there are other ways the Harris team could respond to them.
+<v Zoe Chace>阿巴斯告诉我们这是他们的最终目标——政策改变。但哈里斯团队还有其他方式回应他们。
+
+00:11:41.200 --> 00:11:57.690
+<v Abbas Alawieh>We're actually not asking her to adopt the full policy that every single one of my cousins would want her to adopt, which is a full arms embargo. But we need her to move in our direction. And so if she won't support a full arms embargo, OK, great. What is your idea? Like, we need to hear it.
+<v Abbas Alawieh>其实我们并不是要求她采取我的每一个表亲都希望她采取的全部政策，即全面武器禁运。但我们需要她朝着我们的方向迈进。所以，如果她不支持全面武器禁运，好吧，太棒了。你有什么想法？我们需要听到它。
+
+00:11:57.690 --> 00:12:16.780
+<v Ben Terris>One thing he absolutely needs at this convention-- to show that his voters are being listened to and taken seriously by the campaign-- is a speaker. The convention is mostly about speakers, symbols of who the party is speaking to, who the party cares about. A Palestinian speaker on the main stage would be their chance for someone who can represent their perspective.
+<v Ben Terris>他在这次大会上绝对需要的一件事——即展示他的选民正在被竞选团队倾听并认真对待——就是一位发言人。大会主要关于发言人，关于政党在与谁对话、政党关心谁的象征。在主舞台上安排一位巴勒斯坦发言人，将是他们让能够代表其观点的人出场的机会。
+
+00:12:16.780 --> 00:12:37.450
+<v Ben Terris>There are a lot of delegates here who do not want this to happen. Some of them probably agree with Abbas about the war in Israel. But the feeling is-- right now, you're bringing this up? This convention is an advertisement. Don't have a speaker saying Biden and Harris are doing something wrong. This is an event all about "look at how joyful and united we are."
+<v Ben Terris>这里有很多代表不希望发生这种情况。他们中有些人可能在以色列战争问题上同意阿巴斯的看法。但现在的感觉是——现在你要提这个？大会是一个广告。不要让发言人说拜登和哈里斯正在做错事。这是一个关于“看我们多么欢乐和团结”的活动。
+
+00:12:37.450 --> 00:12:50.600
+<v Ben Terris>(HOST) ZOE CHACE: Even as Abbas is sitting down for his MSNBC interview, someone who really doesn't see things his way is just leaving the set-- former Republican Congressman Joe Walsh. He's wearing an Israel pen. We grab him.
+<v Ben Terris>（主持人）佐伊·蔡斯：就在阿巴斯坐下来接受MSNBC采访时，一个在观点上与他完全不同的人刚离开片场——前共和党众议员乔·沃尔什（Joe Walsh）。他戴着一枚以色列别针。我们抓住了他。
+
+00:12:50.600 --> 00:12:55.540
+<v Ben Terris>If you've got a second? Actually, we've been following around this guy, Abbas, over here, who's an uncommitted delegate.
+<v Ben Terris>你有时间吗？事实上，我们一直在追踪这个人，阿巴斯，就在这里，他是一名“未承诺”代表。
+
+00:12:55.540 --> 00:12:56.080
+<v Joe Walsh>This guy.
+<v Joe Walsh>这家伙。
+
+00:12:56.080 --> 00:13:10.330
+<v Ben Terris>Yep. He's uncommitted. They're focusing on Gaza and trying to get a ceasefire and an arms embargo. I see you have the Israel pen. How do you feel about the delegates that are on the fence about Harris right now over this issue?
+<v Ben Terris>对。他是“未承诺”的。他们正专注于加沙，试图达成停火和武器禁运。我看到你戴着以色列别针。你觉得那些因这个问题而在支持哈里斯方面犹豫不决的代表怎么样？
+
+00:13:10.330 --> 00:13:24.880
+<v Joe Walsh>My response always is I'm a Tea Party former Republican who's all on board with Kamala Harris. If I can do that, anybody focused on an issue they care about can get on board with the-- because Trump needs to be defeated. That's it.
+<v Joe Walsh>我的回答一直都是，我是一个完全支持卡玛拉·哈里斯的茶党前共和党人。如果我能做到这一点，任何专注于他们关心的问题的人都可以加入——因为特朗普必须被击败。就是这样。
+
+00:13:24.880 --> 00:13:28.060
+<v Ben Terris>Yeah. Do you feel like it could be a problem for Democrats?
+<v Ben Terris>是的。你觉得这对民主党来说是个问题吗？
+
+00:13:28.060 --> 00:13:46.200
+<v Joe Walsh>Yes. Absolutely. That issue, the Israel issue divides the Democratic coalition. I say that as a former Republican, we're solidly behind Israel for a lot of different reasons. But this splits the coalition. And I think it's going to be a real big problem for them.
+<v Joe Walsh>是的。绝对是。这个问题，以色列问题，分裂了民主党联盟。我是作为一名前共和党人这么说的，出于很多不同的原因，我们坚定地支持以色列。但这分裂了联盟。我认为这会成为他们一个真正巨大的问题。
+
+00:13:46.200 --> 00:13:53.490
+<v Ben Terris>Could you then try to make the case to them, look, I'm the Tea Party Republican, and I'm going to be voting for Kamala Harris anyway? Maybe we can just swallow this one?
+<v Ben Terris>你能试着说服他们吗，你看，我是茶党共和党人，但我还是要投票给卡玛拉·哈里斯。也许我们可以忍忍？
+
+00:13:53.490 --> 00:14:12.580
+<v Joe Walsh>Yes, because if Kamala Harris came out tomorrow and said, we need to end-- Israel, stop. If I'm president, I'm not going to give you any more bombs. We got to stop it. I'd be as pissed as you can imagine, but I'm still voting for Kamala Harris no matter what. Come on. If I can do that.
+<v Joe Walsh>是的，因为如果卡玛拉·哈里斯明天站出来说，我们需要结束——以色列，停下。如果我是总统，我不会再给你任何炸弹了。我们必须停止。我会气得难以想象，但我还是会投票给卡玛拉·哈里斯，无论如何。得了吧，如果我能做到这一点。
+
+00:14:12.580 --> 00:14:23.380
+<v Ben Terris>By the second day of the convention, Tuesday, it's become clear that Uncommitted isn't going to get much on policy from the Democrats. But what they still might get is a speaker, and so they push on it hard.
+<v Ben Terris>到大会第二天，即周二，很明显“未承诺”派从民主党那里得不到太多政策上的承诺。但他们可能仍然能得到一个发言人，所以他们对此施加了很大压力。
+
+00:14:23.380 --> 00:14:36.220
+<v Zoe Chace>Abbas is asked about it all the time. He's constantly on his phone, calling people, trying to make it happen, talking to Congress members, people on the Harris campaign, high-ranking DNC officials.
+<v Zoe Chace>阿巴斯一直被问及此事。他一直在打电话，联系人们，试图促成此事，与国会议员、哈里斯竞选团队的人、DNC高层官员交谈。
+
+00:14:36.220 --> 00:14:57.670
+<v Abbas Alawieh>Hello, my friend. How are you? Just checking in on the Palestinian-American speaker request because we've got a press availability at 6 o'clock, and I know there's going to be a ton of reporters who ask me about it. And I want to be able to say yes, but we don't have a yes yet, so I thought I'd check in.
+<v Abbas Alawieh>你好，我的朋友。你好吗？只是跟进一下巴勒斯坦裔美国人发言人的请求，因为我们在6点有媒体见面会，我知道会有很多记者问我这件事。我希望能回答“是”，但我们还没得到“是”，所以我想跟进一下。
+
+00:14:57.670 --> 00:15:12.940
+<v Abbas Alawieh>OK. Well, I mean, I'll say that. Yeah, I mean, that's what I've been saying, honestly. I'm saying, we don't have a yes, but we don't have a no. And we remain hopeful. So I'll keep saying that. OK. Great.
+<v Abbas Alawieh>好的。好吧，我的意思是，我会那样说的。是的，说实话，我一直都是这么说的。我说，我们没有得到“是”，但也没有得到“否”。我们仍然充满希望。所以我还是会这么说。好的。太棒了。
+
+00:15:12.940 --> 00:15:33.840
+<v Abbas Alawieh>Well, is there any indication of who specifically there's an openness to? That's the problem you said? OK. I mean, is there a way we can meet while at the convention center and go through some options? Because we can help with that.
+<v Abbas Alawieh>那么，有没有迹象表明他们对谁有开放态度？那是你说的那个问题？好的。我的意思是，我们有没有办法在会展中心见面并讨论一些选择？因为我们可以为此提供帮助。
+
+00:15:33.840 --> 00:15:36.560
+<v Zoe Chace>The call wraps up without more to it.
+<v Zoe Chace>通话结束了，没有更多进展。
+
+00:15:36.560 --> 00:15:38.840
+<v Abbas Alawieh>I think they haven't settled on a name.
+<v Abbas Alawieh>我想他们还没定下人选。
+
+00:15:38.840 --> 00:15:39.940
+<v Zoe Chace>Yeah.
+<v Zoe Chace>是的。
+
+00:15:39.940 --> 00:15:52.550
+<v Abbas Alawieh>I don't know, which it's not a bad thing. We can help them. Like, we know plenty of Palestinian. [LAUGHS]
+<v Abbas Alawieh>我不知道，这不是坏事。我们可以帮他们。就像，我们认识很多巴勒斯坦人。[笑]
+
+00:15:52.550 --> 00:15:56.510
+<v Zoe Chace>You sounded a little discouraged in your voice. So--
+<v Zoe Chace>你的声音听起来有点沮丧。所以——
+
+00:15:56.510 --> 00:16:27.900
+<v Abbas Alawieh>We have such stellar leaders, within the Arab-American community and within the Palestinian-American community that-- I don't want to feel like they have a problem with all of us. You know what I mean? And that's certainly not what they're saying. If they say no, it could be evidence that might be the case. But I really don't think that the folks we're talking to, that that's how they feel.
+<v Abbas Alawieh>我们在阿拉伯裔美国人社区和巴勒斯坦裔美国人社区中拥有如此杰出的领袖，以至于——我不想觉得他们对我们所有人都有意见。你知道我的意思吗？这肯定不是他们所说的。如果他们说“不”，这可能是证据，证明情况确实如此。但我真的不认为我们交谈的那些人是那样想的。
+
+00:16:27.900 --> 00:16:41.640
+<v Zoe Chace>Abbas is always balancing two very different worlds through his phone. The first, his insider world. He has lots of contacts inside the DNC. He's heard that they're close to getting what he wants, but they can't get to yes.
+<v Zoe Chace>阿巴斯一直在通过电话平衡两个截然不同的世界。第一个，他的内部人士世界。他在DNC内部有很多联系人。他听说他们快要得到他想要的东西了，但他们就是无法给出肯定的答复。
+
+00:16:41.640 --> 00:16:52.360
+<v Ben Terris>The other kind of call he's getting is from friends and family, people in Michigan wanting to know, how are you? How is it? Are you going to get us something? Family back in Lebanon call a lot, too.
+<v Ben Terris>他接到的另一种电话是来自朋友和家人的，密歇根州的人想知道，你怎么样？情况如何？你能为我们争取到什么吗？黎巴嫩的家人也经常打电话来。
+
+00:16:52.360 --> 00:17:07.780
+<v Ben Terris>This was back in August, when Lebanese militants from Hezbollah and Israel had been trading rocket fire across the border for months. At one point, Abbas hears from his aunt, who sleeps with slippers under her pillow every night, just in case. She had just fled her home in Southern Lebanon and gone north.
+<v Ben Terris>那是八月份的事了，当时真主党的黎巴嫩武装分子与以色列已经在边境进行了数月的火箭弹交火。有一次，阿巴斯接到他姑妈的电话，她每天晚上睡觉时枕头下都放着拖鞋，以防万一。她刚从黎巴嫩南部的家中逃往北方。
+
+00:17:07.780 --> 00:17:30.590
+<v Abbas Alawieh>And so, yeah, I guess, last night, I got news from my aunt that she couldn't stand the bombing around her anymore, that there was a particular bombing that happened, airstrike that happened that felt too close. She'll say, I'm such a scaredy cat, I couldn't take it anymore.
+<v Abbas Alawieh>所以，是的，我想，昨晚，我收到我姑妈的消息，说她再也无法忍受周围的轰炸了，说发生了一次特别的空袭，感觉太近了。她说，我是个胆小鬼，我再也受不了了。
+
+00:17:30.590 --> 00:17:56.620
+<v Abbas Alawieh>But then she turned serious when she was telling me about how my dad was telling her that I'm going on TV and trying to get them to stop the bombings. And she expressed concern for my safety. She said, is it safe for you to talk about these things? I said, oh, don't worry. I'm an American. I'm allowed to say whatever I want here. [LAUGHS]
+<v Abbas Alawieh>但当她告诉我我爸爸告诉她我正在上电视并试图让他们停止轰炸时，她变得严肃起来。她表达了对我安全的担忧。她说，你谈论这些事情安全吗？我说，哦，别担心。我是美国人。我在这里可以畅所欲言。[笑]
+
+00:17:56.620 --> 00:18:11.470
+<v Zoe Chace>So his family, they're watching him on the news. They're talking about him in the group chat. They're telling him what they think of his tactics and his demands. And they're also telling him how scared they are. He's holding all these things in his head, which he says can be dizzying.
+<v Zoe Chace>所以他的家人正在新闻上看着他。他们在群聊里讨论他。他们告诉他他们对他策略和要求的看法。他们也告诉他他们有多么害怕。他把所有这些事情都放在心里，他说这让人头晕目眩。
+
+00:18:11.470 --> 00:18:25.780
+<v Zoe Chace>He knows just getting a speaker at the DNC doesn't change anything for his family, of course. But he believes it would be a powerful symbol that there is a political party in America that sees them, that's listening to them.
+<v Zoe Chace>他知道仅仅在DNC上找个发言人当然改变不了家人的处境。但他相信这将是一个强有力的象征，表明美国有一个政党能看到他们，正在倾听他们的声音。
+
+00:18:25.780 --> 00:18:51.860
+<v Ben Terris>By midweek, Uncommitted is trying to make the request for a speaker as acceptable as possible. They'd initially asked for two speakers on the stage-- one Uncommitted supporter and a doctor who treated patients in Gaza. But now they simplified that to one speaker. How about just any Palestinian? They suggest a few Palestinian-American elected Democrats, and they prepare their speeches to be vetted. Still, nothing.
+<v Ben Terris>到了周中，“未承诺”派试图让发言人请求变得尽可能容易被接受。他们最初要求在台上安排两位发言人——一位“未承诺”支持者和一位在加沙治疗病人的医生。但现在他们简化为一个。哪怕只是一位巴勒斯坦人呢？他们建议了几个当选民主党人的巴勒斯坦裔美国人，并准备好了演讲稿供审核。然而，什么也没有。
+
+00:18:51.860 --> 00:19:01.950
+<v Ben Terris>Finally, it's Wednesday night, one more day left of the convention. They still haven't heard yes, and they still haven't heard no. So, yet another press conference outside the arena.
+<v Ben Terris>终于到了周三晚上，大会还剩最后一天。他们仍然没有得到“是”，也没有得到“否”。所以，在会场外又举行了一次新闻发布会。
+
+00:19:01.950 --> 00:19:12.050
+<v Abbas Alawieh>Is there room for Palestinian-Americans in this party? Is there room for Palestinian human rights in this party? I sure hope, I sure hope that the answer is yes.
+<v Abbas Alawieh>这个党里有巴勒斯坦裔美国人的位置吗？这个党里有巴勒斯坦人权的位置吗？我确信，我确信答案是肯定的。
+
+00:19:12.050 --> 00:19:33.160
+<v Ben Terris>And with that, all the Uncommitted delegates head inside because there's a speech they want to see. The parents of an Israeli hostage kidnapped by Hamas take the stage. The Uncommitted delegates tell me it's important to them to be here for this. They think the war is a tragedy. They want to honor the Israeli victims during their moment. And yeah, they also want to signal solidarity.
+<v Ben Terris>随着这些话，所有“未承诺”代表进入室内，因为有一场他们想看的演讲。被哈马斯绑架的以色列人质的父母登上了舞台。那些“未承诺”代表告诉我，能在这里见证这一刻对他们很重要。他们认为战争是一场悲剧。他们想在这一刻向以色列受害者致敬。是的，他们也想表达团结。
+
+00:19:33.160 --> 00:19:49.160
+<v Zoe Chace>The parents walk out holding hands. The father stooped like he's got a weight on him. The feeling in the room is like heart in mouth. This is really different from most of the speakers so far, who were basically hype men. The audience breaks into this chant.
+<v Zoe Chace>这对父母手牵手走出来。父亲弯着腰，仿佛背负着沉重的负担。房间里的气氛让人揪心。这与目前为止的大多数发言人真的很不同，后者基本上是煽动者。观众开始齐声高呼。
+
+00:19:49.160 --> 00:19:55.280
+<v Zoe Chace>[AUDIENCE CHANTING "BRING THEM HOME"]
+<v Zoe Chace>[观众齐声高呼“带他们回家”]
+
+00:19:55.280 --> 00:20:07.640
+<v Rachel Goldberg>At this moment, 109 treasured human beings are being held hostage by Hamas in Gaza.
+<v Rachel Goldberg>此时此刻，109名宝贵的生命正被哈马斯扣押在加沙。
+
+00:20:07.640 --> 00:20:24.240
+<v Zoe Chace>Cameras swivel not to the crowd, but directly up at Abbas. They're snapping pictures of him watching. I'm standing next to him in the corner of the arena with the rest of the Michigan delegates. Remember, he's 6' 6". He's so tall with his keffiyeh.
+<v Zoe Chace>摄像机转动的方向不是对着人群，而是直接对着阿巴斯。他们拍下了他观看演讲的样子。我站在会场角落，和密歇根州的其他代表在一起。记住，他身高6英尺6英寸。戴着凯非亚头巾的他非常高。
+
+00:20:24.240 --> 00:20:42.770
+<v Zoe Chace>Everyone is standing. He, of course, is standing. For some reason, they really want to capture his reaction, if he has any, to the parents, watching him watching them. His face is expressionless but wet, tears-- tears all over the room, as far as I can tell.
+<v Zoe Chace>每个人都在站着。他当然也在站着。出于某种原因，他们真的很想捕捉他的反应（如果他有的话），捕捉他看着那些父母的样子。他的脸没有表情，但湿润了，眼泪——据我所见，整个房间里都是泪水。
+
+00:20:42.770 --> 00:20:58.760
+<v Zoe Chace>At the time the parents were speaking, there was good reason to assume their son, Hersh, was still alive. His death was announced almost a week after the convention. One part of this speech in particular will hit Abbas hard. I know it.
+<v Zoe Chace>在父母发言时，有充分的理由假设他们的儿子赫什（Hersh）仍然活着。他的死讯是在大会结束近一周后宣布的。这次演讲中有一部分会让阿巴斯深受打击。我知道。
+
+00:20:58.760 --> 00:21:12.020
+<v Jon Polin>There is a surplus of agony on all sides of the tragic conflict in the Middle East. In a competition of pain, there are no winners.
+<v Jon Polin>在中东这场悲剧冲突的各方，都有过剩的痛苦。在痛苦的竞争中，没有赢家。
+
+00:21:12.020 --> 00:21:16.290
+<v Jon Polin>[APPLAUSE]
+<v Jon Polin>[掌声]
+
+00:21:16.290 --> 00:21:30.220
+<v Jon Polin>In our Jewish tradition, we say [HEBREW]. Every person is an entire universe. We must save all these universes.
+<v Jon Polin>在我们的犹太传统中，我们说[希伯来语]。每个人都是一个完整的宇宙。我们必须拯救所有这些宇宙。
+
+00:21:30.220 --> 00:21:35.660
+<v Jon Polin>[APPLAUSE]
+<v Jon Polin>[掌声]
+
+00:21:35.660 --> 00:21:56.910
+<v Jon Polin>In an inflamed Middle East, we know the one thing that can most immediately release pressure and bring calm to the entire region-- a deal that brings this diverse group of 109 hostages home and ends the suffering of the innocent civilians in Gaza.
+<v Jon Polin>在一个因炎症而动荡的中东，我们知道唯一能最直接地释放压力并为整个地区带来平静的事情——一项能将这109名人质带回家并结束加沙无辜平民苦难的协议。
+
+00:21:56.910 --> 00:21:59.760
+<v Jon Polin>[APPLAUSE]
+<v Jon Polin>[掌声]
+
+00:21:59.760 --> 00:22:04.510
+<v Zoe Chace>The parents leave the stage, followed by an inexplicable choice of music.
+<v Zoe Chace>父母们离开舞台，伴随着一种令人费解的音乐选择。
+
+00:22:04.510 --> 00:22:09.780
+<v Zoe Chace>[SMOOTH JAZZ]
+<v Zoe Chace>[轻柔的爵士乐]
+
+00:22:09.780 --> 00:22:34.050
+<v Zoe Chace>And just then, Abbas kind of tears out of the convention hall, as best you can through incredibly crowded, narrow stairs, just makes a break for it. I see him stop just outside the arena. He's in this one weird quiet space, just before the hallway outside. He's alone, which he never is. He covers his face and sobs hard into the wall.
+<v Zoe Chace>就在那时，阿巴斯像是从大会堂里冲了出去，在极其拥挤、狭窄的楼梯上拼命奔跑。我看到他就在会场外停了下来。他在走廊外一个古怪而安静的空间里。他独自一人，这是他从未有过的状态。他用手捂住脸，对着墙大声抽泣。
+
+00:22:34.050 --> 00:22:51.150
+<v Zoe Chace>Then he's basically running out through the doors of the venue, through throngs of people outside, trying to talk to him. And he's rushing past them. I see we're headed to the security gate. We go through the security gate, and we're on the street. He doesn't look ready to talk. But I have to say something.
+<v Zoe Chace>然后他基本上是冲出了会场大门，穿过外面熙熙攘攘的人群，人们试图和他交谈。但他匆匆走过。我看到我们要前往安全门。我们穿过安全门，到了街上。他看起来还没准备好交谈。但我必须说点什么。
+
+00:22:51.150 --> 00:23:01.240
+<v Zoe Chace>I just got to ask you, why was that so hard?
+<v Zoe Chace>我一定要问你，为什么这那么难？
+
+00:23:01.240 --> 00:23:23.480
+<v Abbas Alawieh>Maybe I can collect myself and we could talk about it later, but what I was thinking about during the speech was, in our tradition, it's essentially if you harm or kill any one person, it's like you've harmed or killed all of humanity.
+<v Abbas Alawieh>也许我可以平复一下情绪，我们以后再谈，但我演讲时在想的是，在我们的传统中，基本上如果你伤害或杀害任何一个人，就像你伤害或杀害了全人类一样。
+
+00:23:23.480 --> 00:23:39.360
+<v Abbas Alawieh>And that's what they spoke about from the stage, about every person being the universe in the Jewish tradition. And I believe that. I believe that with all my heart. I'm just-- I'm feeling really helpless. I'm feeling hopeless.
+<v Abbas Alawieh>这就是他们从舞台上讲的，关于在犹太传统中每个人都是一个宇宙。我相信这一点。我全心全意地相信。我只是——我感到非常无助。我感到绝望。
+
+00:23:39.360 --> 00:24:11.740
+<v Abbas Alawieh>I'm feeling like, [SNIFFLING] of course. Of course, we need to hear from these parents. What about the Palestinians? What about the over 40,000 who've been killed, who've been obliterated, the 40,000 universes? There's an active suppression of a giant part of this story.
+<v Abbas Alawieh>我感到，[抽泣声] 当然。当然，我们需要倾听这些父母的声音。那巴勒斯坦人呢？那超过4万名被杀害、被湮灭的人呢，那4万个宇宙呢？这个故事的巨大一部分正被积极掩盖。
+
+00:24:11.740 --> 00:24:30.250
+<v Abbas Alawieh>I can only imagine what they must have been feeling. It must have been very lonely up there. And I felt very lonely in that arena. I gotta go, Zoe.
+<v Abbas Alawieh>我只能想象他们当时的感觉。站在那里一定非常孤独。而我在那个会场里也感到非常孤独。我得走了，佐伊。
+
+00:24:30.250 --> 00:24:44.490
+<v Zoe Chace>I think at that moment, Abbas knew that was all that was going to be said on the stage about the war in Gaza from the people directly affected by the war.
+<v Zoe Chace>我想那一刻，阿巴斯知道这就是战争中直接受影响的人们在加沙战争问题上，在舞台上所能说的全部了。
+
+00:24:44.490 --> 00:25:00.300
+<v Zoe Chace>I head back to the convention hall. I see a bunch of other Uncommitted delegates outside. They're from all over-- Hawaii, Washington State, Rhode Island. Some are Arab-American, but not all. They got a text to come out and meet.
+<v Zoe Chace>我回到大会会场。我看到外面还有一群“未承诺”代表。他们来自各地——夏威夷、华盛顿州、罗德岛。有些是阿拉伯裔美国人，但并非全部。他们收到短信出来见面。
+
+00:25:00.300 --> 00:25:21.480
+<v Zoe Chace>There's a weird empty feeling. Nobody's talking much. It seems like they're all just waiting for Abbas to come back. There's a physical energy shift out here, a loss of power, a loss of relevance, kind of, in the air, like the opposite of an adrenaline surge, a lonely exhale when the doors close behind you.
+<v Zoe Chace>有一种怪异的空虚感。没人多说话。他们似乎都在等阿巴斯回来。这里有一种物理能量的变化，一种力量的丧失，一种相关性的丧失，在空气中，就像肾上腺素激增的反面，一种当你身后的大门关闭时的孤独叹息。
+
+00:25:21.480 --> 00:25:38.640
+<v Zoe Chace>But just then, speaking of adrenaline, Abbas rushes back into the scene looking very intense. He grabs me by the arm and pulls me into a bus shelter that's right in front of the arena so that I'll be able to hear him. And he's speaking in this uncharacteristically quiet, angry way.
+<v Zoe Chace>但就在那时，提到肾上腺素，阿巴斯冲回了现场，表情非常凝重。他抓住我的胳膊，把我拉进会场前的一个公交候车亭，这样我就能听清他说话了。他正以一种不同寻常的、压抑的愤怒语气说话。
+
+00:25:38.640 --> 00:26:07.890
+<v Abbas Alawieh>I'm an insider, OK? People I'm making this ask of are people I know personally. I've looked them in the face, and I've made a very reasonable ask for us not to be suppressed. If you're not going to agree with us on policy, at least, at least, don't suppress our voices. OK? I think I've made a very reasonable ask. And they called and said the answer is no, point blank. The answer is no.
+<v Abbas Alawieh>我是内部人士，OK？我提出这一要求的人是我个人认识的人。我看着他们的脸，我提出了一个非常合理的请求，即我们不要被压制。如果你不同意我们的政策，至少，至少，不要压制我们的声音。OK？我想我已经提出了一个非常合理的请求。他们打来电话说答案是“不”，直截了当。答案是“不”。
+
+00:26:07.890 --> 00:26:08.770
+<v Zoe Chace>They didn't say anything else?
+<v Zoe Chace>他们没说别的？
+
+00:26:08.770 --> 00:26:32.050
+<v Abbas Alawieh>I said, why-- all that stuff. They said, I was just told to tell you, the answer is no. And so I have no options left through the way that I am told this is the way to make your voice heard. You engage the system. So that's what I got to do. I got to step into my power as a regular, everyday person.
+<v Abbas Alawieh>我说，为什么——所有这些事情。他们说，我只是被告知告诉你，答案是“不”。所以我通过被告知的这种让你的声音被听到的方式已经没有选择了。你参与了这个系统。所以这就是我要做的。我必须作为一个普通的、日常的人，发挥我的权力。
+
+00:26:32.050 --> 00:26:51.800
+<v Zoe Chace>I have no idea what that means. And then Abbas turns and strides away, like if he were wearing a cape, it would have swirled behind his body. My co-reporter Ben is out here, of course. And he comes over to me. I just talked to Waleed, he says, one of the leaders and the unofficial press guy for the Uncommitted.
+<v Zoe Chace>我完全不知道这意味着什么。然后阿巴斯转身大步走开，仿佛他披着一件斗篷，会跟在他的身体后面旋舞。我的联合记者本当然在外面。他朝我走过来。他说，我刚和瓦利德（Waleed）谈过，他是“未承诺”运动的领导人之一，也是非官方的媒体联络人。
+
+00:26:51.800 --> 00:26:59.470
+<v Ben Terris>Waleed just told me that people have been calling Abbas to tell him to not say what he's about to say right now, but he won't be talked down.
+<v Ben Terris>瓦利德刚才告诉我，人们一直在给阿巴斯打电话，叫他不要说出他现在马上要说的话，但他不会被劝阻。
+
+00:26:59.470 --> 00:27:00.310
+<v Zoe Chace>OK, got it.
+<v Zoe Chace>好的，明白了。
+
+00:27:00.310 --> 00:27:02.450
+<v Ben Terris>So whatever he's about to say, he's been told not to say.
+<v Ben Terris>所以无论他要说什么，他都被告知不要说。
+
+00:27:02.450 --> 00:27:03.590
+<v Zoe Chace>OK.
+<v Zoe Chace>好的。
+
+00:27:03.590 --> 00:27:06.200
+<v Ben Terris>Then Abbas calls people over for a press conference.
+<v Ben Terris>然后阿巴斯叫人过来召开新闻发布会。
+
+00:27:06.200 --> 00:27:07.060
+<v Ben Terris>All right, let's get started.
+<v Ben Terris>好了，我们开始吧。
+
+00:27:07.060 --> 00:27:31.850
+<v Ira Glass>There's a huge mass of press, like five different mics, it seems, from Democracy Now alone. He asks for a moment of silence for all the lives that have been lost in the Gaza War. He recaps the ask for the Palestinian speaker, recaps the no, and then he sits down on the sidewalk and whips out his phone in front of all the reporters. And he calls a DNC official he's been talking to.
+<v Ira Glass>那里有大量的媒体，看起来光是《民主现在》（Democracy Now）就有五个不同的麦克风。他要求为在加沙战争中失去的所有生命默哀一分钟。他回顾了关于巴勒斯坦发言人的请求，回顾了被拒绝的过程，然后他坐在人行道上，在所有记者面前掏出手机。他给一位他一直在交谈的DNC官员打了电话。
+
+00:27:31.850 --> 00:27:43.710
+<v Abbas Alawieh>I gotta make a call. Hey, Roger, how are you? We're at a press conference right outside. OK? We tried everything we can. OK, we're just asking to be heard. We're asking for our voices not to be suppressed.
+<v Abbas Alawieh>我得打个电话。嘿，罗杰，你好吗？我们就在外面的新闻发布会上。OK？我们尝试了一切可能。OK，我们只是要求被听到。我们要求我们的声音不被压制。
+
+00:27:43.710 --> 00:27:58.590
+<v Abbas Alawieh>And, Roger, you know I'm someone who works within the system. OK? And the vice president's decision to suppress us is unacceptable. And so I've run out of options from my position as a delegate. And so I'm leaning into my power as a regular, everyday person.
+<v Abbas Alawieh>而且，罗杰，你知道我是一个在系统内工作的人。OK？副总统决定压制我们是不可接受的。所以我作为代表的位置已经没有选择了。所以我正在依靠我作为一个普通的、日常的人的权力。
+
+00:27:58.590 --> 00:28:10.530
+<v Abbas Alawieh>And I'm sitting here, and I'm not going anywhere, Roger. I'm not going anywhere. You all need to change your mind. I hope you change your mind. Call me if you change your mind. Yeah, call me if you change your mind, Roger. Thank you. Thank you.
+<v Abbas Alawieh>我正坐在这里，我哪儿也不去，罗杰。我哪儿也不去。你们都需要改变主意。我希望你们改变主意。如果你改变主意，请给我打电话。是的，罗杰，如果你改变主意，请给我打电话。谢谢。谢谢。
+
+00:28:10.530 --> 00:28:22.660
+<v Abbas Alawieh>Please pass it along. Tell the vice president that I'm sitting outside. I'm not going anywhere. I hope she changes her mind. OK, thank you. OK, I'm going to be sitting down right here. I'm not going anywhere. If any of my--
+<v Abbas Alawieh>请转达一下。告诉副总统我正坐在外面。我哪儿也不去。我希望她改变主意。OK，谢谢。OK，我将坐在里。我哪儿也不去。如果我的任何——
+
+00:28:22.660 --> 00:28:25.580
+<v Abbas Alawieh>[CHEERING, APPLAUSE]
+<v Abbas Alawieh>[欢呼，掌声]
+
+00:28:25.580 --> 00:28:34.520
+<v Abbas Alawieh>--if any of my Uncommitted delegate siblings choose to sit down with me, please say your name, say who you are, and feel free to take a seat. And also--
+<v Abbas Alawieh>——如果我的任何“未承诺”代表手足选择和我一起坐下，请说出你的名字，说出你是谁，请随意坐下。还有——
+
+00:28:34.520 --> 00:28:56.870
+<v Ben Terris>Abbas had pulled his whole community into this effort. He drew tremendous attention to the Democratic Party's lack of interest in what mattered most to them. Now he's drawing attention to a tremendous failure. Is it his own? The Democratic Party's? Either way, it's got to be crushing.
+<v Ben Terris>阿巴斯把他的整个社区都拉进了这项努力。他让民主党对他们最关心的事缺乏兴趣受到了极大关注。现在他正在引起对一个巨大失败的关注。是由于他自己吗？是由于民主党吗？无论如何，这一定是毁灭性的。
+
+00:28:56.870 --> 00:29:21.770
+<v Zoe Chace>What follows is a long night. Inside the convention center-- Oprah speaks, Tim Walz speaks. The whole thing is being broadcast on a big screen that hangs on the United Center wall, just behind the sit-in. The screen keeps showing images of the crowd dancing and laughing and giving standing ovations. But the press has noticed the sit-in, and so had the Harris campaign.
+<v Zoe Chace>接下来的漫漫长夜。在会展中心内——奥普拉发言了，蒂姆·沃尔兹（Tim Walz）发言了。整件事都在挂在联合中心墙上的大屏幕上播放，就在静坐现场的后方。屏幕不断播放人群跳舞、欢笑和起立鼓掌的画面。但媒体注意到了静坐，哈里斯竞选团队也注意到了。
+
+00:29:21.770 --> 00:29:28.230
+<v Ben Terris>At one point, Waleed, the Uncommitted press guy, comes over to us and says, can I tell you something?
+<v Ben Terris>有一次，瓦利德，“未承诺”派的媒体联络人向我们走来，说，我能告诉你们一件事吗？
+
+00:29:28.230 --> 00:29:29.720
+<v Waleed>Can I tell you all something?
+<v Waleed>我能告诉你们所有人一件事吗？
+
+00:29:29.720 --> 00:29:30.240
+<v Zoe Chace>Yeah.
+<v Zoe Chace>是的。
+
+00:29:30.240 --> 00:29:46.580
+<v Waleed>Let's go over here. Every one of the DNC senior staff is standing right there and are trying to make a deal. And the deal is not-- none of the proposals have anything to do with the speaker or policy change.
+<v Waleed>我们去那边。DNC的每一位高级职员都站在那里，试图达成一项交易。而这笔交易不是——没有任何提案与发言人或政策改变有关。
+
+00:29:46.580 --> 00:30:02.990
+<v Ben Terris>Waleed motions at one of those outdoor bus shelters, and sure enough, there's a clutch of people-- two women and three men-- on their phones, looking in our direction. One of them was hitting a vape like a steam engine locomotive. It was pretty funny, actually, watching them on their phone with people who were like 100 feet away.
+<v Ben Terris>瓦利德指了指户外的一个公交候车亭，果不其然，有一群人——两名女性和三名男性——在打电话，看着我们的方向。其中一个人像蒸汽机车一样吞云吐雾（抽电子烟）。事实上，看着他们和相距100英尺远的人通话，真是挺有趣的。
+
+00:30:02.990 --> 00:30:04.610
+<v Zoe Chace>What kind of deals are there?
+<v Zoe Chace>有什么样的交易？
+
+00:30:04.610 --> 00:30:08.880
+<v Waleed>They're like, a meeting with the campaign manager, a meeting with this person, a meeting with that person--
+<v Waleed>他们像说，安排与竞选经理会面，与这个人会面，与那个人会面——
+
+00:30:08.880 --> 00:30:10.830
+<v Ben Terris>What about a meeting with Harris? Would that be enough?
+<v Ben Terris>那与哈里斯会面呢？那够吗？
+
+00:30:10.830 --> 00:30:18.720
+<v Waleed>Not happening, they said. Yeah. So we said it's going to be a speaker. They said no. And--
+<v Waleed>他们说不会发生。是的。所以我们说那必须是一个发言人。他们说不。还有——
+
+00:30:18.720 --> 00:30:20.340
+<v Ben Terris>Have they said why at all?
+<v Ben Terris>他们有说为什么吗？
+
+00:30:20.340 --> 00:30:43.080
+<v Waleed>Uh, no. They said, how can we get this to end? And I said, well, [CHUCKLES] he wants a speaker. And then they said, what else? And I was like an arms embargo. And they were like, well, that's not going to happen. And so I was like, all right. And I'm like, exactly. That's why we're asking for a speaker. [LAUGHS] We've tried to make it easy.
+<v Waleed>呃，没说。他们说，我们怎么才能结束这一切？我说，好吧，[轻笑] 他想要一个发言人。然后他们说，还有别的吗？我说，武器禁运。他们就像，好吧，那不会发生。所以我说，好吧。我的意思是，准确地说。这就是为什么我们要求发言人。[笑] 我们试图让事情简单化。
+
+00:30:43.080 --> 00:31:11.340
+<v Waleed>And so they asked, what's your plan after Thursday, after the convention's over? And I was like, well, I think he's betting that you guys will be so embarrassed that he'll give a speaker. And they're like, well-- I mean, the other thing was they were like, well, she can't give in on the last day of her-- she can't let the last day of the convention be that she's been bullied by young activists and Arab-Americans. And I was like, that was your decision to wait until the very last minute, so.
+<v Waleed>他们问，周四大会结束后，你们有什么计划？我回答说，我认为他赌的是你们会感到非常尴尬，以至于他会给一个发言人。他们就像——我的意思是，另一件事是他们说，好吧，她不能在她的最后一天让步——她不能让大会的最后一天变成她被年轻活动家和阿拉伯裔美国人欺负。我回答说，那是你们决定等到最后一分钟的决定，所以。
+
+00:31:11.340 --> 00:31:12.130
+<v Zoe Chace>Like to talk this through?
+<v Zoe Chace>想讨论一下吗？
+
+00:31:12.130 --> 00:31:18.990
+<v Waleed>I mean, we are-- I don't know. They found themselves in this position.
+<v Waleed>我的意思是，我们是——我不知道。他们发现自己处于这种境地。
+
+00:31:18.990 --> 00:31:23.230
+<v Zoe Chace>Can you picture how it ends at this point?
+<v Zoe Chace>你能想象到目前为止它会怎么结束吗？
+
+00:31:23.230 --> 00:31:23.860
+<v Waleed>I think--
+<v Waleed>我想——
+
+00:31:23.860 --> 00:31:29.700
+<v Zoe Chace>Or are you just as curious as us?
+<v Zoe Chace>或者你和我们一样好奇？
+
+00:31:29.700 --> 00:31:48.300
+<v Waleed>I think we're going to get a speaker. I think you can find a Palestinian-American who is palatable for the Democratic Party. I mean, this was also like-- I told you this, but several people called me and him to tell us-- allies who've been standing with us told us not to do this.
+<v Waleed>我想我们会得到一个发言人。我想你可以找到一位民主党能接受的巴勒斯坦裔美国人。我的意思是，这也是——我告诉过你这个，但好几个人打电话给我和他，告诉我们——一直和我们站在一起的盟友告诉我们不要这么做。
+
+00:31:48.300 --> 00:31:48.980
+<v Ben Terris>Did they say why?
+<v Ben Terris>他们有说为什么吗？
+
+00:31:48.980 --> 00:31:49.440
+<v Zoe Chace>Yeah.
+<v Zoe Chace>是的。
+
+00:31:49.440 --> 00:31:54.420
+<v Waleed>That they thought it made us look fringe and small and-- yeah.
+<v Waleed>他们认为这让我们看起来边缘化、渺小，等等——是的。
+
+00:31:54.420 --> 00:32:18.600
+<v Ben Terris>Fringe and small, not like organizers who could turn out 100,000 votes in a swing state. We've reached out to the Harris campaign about why they didn't agree to a speaker. They declined to do an interview. Usually, when they talk about this issue, all they'll say is that they're working around the clock on a ceasefire. But they were clearly doing some political calculations on this question around a speaker.
+<v Ben Terris>边缘且渺小，不像能在摇摆州动员10万张选票的组织者。我们就为什么他们不同意发言人一事联系了哈里斯竞选团队。他们拒绝接受采访。通常，当他们谈论这个问题时，他们只会说他们正在夜以继日地进行停火谈判。但很明显，他们在发言人问题上进行了一些政治计算。
+
+00:32:18.600 --> 00:32:43.510
+<v Ben Terris>My best guess? They worry that agreeing to a speaker would risk controversy and turn off as many voters as it might appease, including Republicans they hoped to win over. Also, they might not feel like they need an endorsement from Uncommitted. They feel like they'll be able to pick up a bunch of their voters anyway. And they might be right about all that.
+<v Ben Terris>我最好的猜测？他们担心同意一位发言人会冒引起争议的风险，并疏远他们可能争取到的选民，包括他们希望争取的共和党人。此外，他们可能觉得不需要“未承诺”派的背书。他们觉得无论如何都能争取到他们的大部分选民。关于这些，他们可能是对的。
+
+00:32:43.510 --> 00:33:06.850
+<v Zoe Chace>The sit-in goes all night without too much drama. They keep sitting the next day in the August heat. It's tiring. They look a little defeated at times. They're getting a lot of press attention, though, which is a small win for them. In the evening, they give one last press conference. They end the sit-in, and they head back inside the convention.
+<v Zoe Chace>静坐持续了一整晚，没有太多戏剧性。第二天他们在八月的酷暑中继续静坐。这很累人。有时他们看起来有点失败。然而，他们得到了很多媒体的关注，这对他们来说是一个小的胜利。晚上，他们举行了最后一次新闻发布会。他们结束了静坐，回到了大会内部。
+
+00:33:06.850 --> 00:33:13.680
+<v Lil Jon>Help me sing it now, nice and loud. Y'all ready to get down and party with me one time? DNC, say--
+<v Lil Jon>帮我唱出来，唱得响亮些。你们准备好和我一起去派对狂欢一次了吗？DNC，说——
+
+00:33:13.680 --> 00:33:19.090
+<v Audience>Go, Walz.
+<v Audience>去吧，沃尔兹。
+
+00:33:19.090 --> 00:33:24.600
+<v Zoe Chace>Why are you crying?
+<v Zoe Chace>你为什么哭？
+
+00:33:24.600 --> 00:33:28.090
+<v Attendee>Just not in the mood to party. [CHUCKLES]
+<v Attendee>只是没心情去派对。[轻笑]
+
+00:33:28.090 --> 00:33:36.260
+<v Zoe Chace>The party is winding down. Kamala Harris speaks, and then the convention is over.
+<v Zoe Chace>派对即将结束。卡玛拉·哈里斯发言，然后大会结束了。
+
+00:33:36.260 --> 00:33:52.940
+<v Ben Terris>We head outside while people are streaming out of the United Center. They're carrying giant signs that say "Kamala" and are popping balloons on the street. Abbas has barely slept in days, but he's still standing. He's in a bind at this point. He came here with leverage, sent by a voting bloc in a swing state.
+<v Ben Terris>当人们从联合中心涌出时，我们走向外面。他们拿着印有“卡玛拉”字样的巨大标语，在街上戳破气球。阿巴斯已经好几天没怎么睡觉了，但他仍然站着。此时他陷入了困境。他带着筹码来到这里，是由一个摇摆州的投票集团派来的。
+
+00:33:52.940 --> 00:34:07.510
+<v Ben Terris>He said they could be convinced to turn out for Harris if the Harris campaign gave them something in return. But what did they give them? No policy change, no speaker. It was a big risk that these voters could be left even angrier or more hurt or more unheard than they were before.
+<v Ben Terris>他说，如果哈里斯竞选团队给他们一些回报，他们可能会被说服支持哈里斯。但他们给了他们什么？没有政策改变，没有发言人。这面临巨大的风险，即这些选民可能会比以前更加愤怒、更加受伤或更加被忽视。
+
+00:34:07.510 --> 00:34:08.240
+<v Supporter>Thank you.
+<v Supporter>谢谢。
+
+00:34:08.240 --> 00:34:08.720
+<v Abbas Alawieh>And thank you.
+<v Abbas Alawieh>也谢谢你。
+
+00:34:08.720 --> 00:34:09.620
+<v Supporter>You don't even know. And--
+<v Supporter>你根本不知道。而且——
+
+00:34:09.620 --> 00:34:28.310
+<v Ben Terris>Amidst the celebrating from the DNC faithful, a number of people come up to Abbas-- many of them wearing keffiyehs, which have emerged as a sort of visual symbol in support of a ceasefire-- to thank him, to embrace, to tell him to keep up the fight. And then a woman dressed in all white comes up. Abbas tells us she's a friend.
+<v Ben Terris>在DNC忠实拥护者的庆祝声中，一些人走近阿巴斯——他们中的许多人戴着凯非亚头巾，这已成为支持停火的一种视觉象征——感谢他，拥抱他，告诉他继续战斗。然后一位身着全白衣服的女士走近。阿巴斯告诉我们她是位朋友。
+
+00:34:28.310 --> 00:34:29.680
+<v Abbas Alawieh>Hanging on. You good?
+<v Abbas Alawieh>坚持住。你还好吗？
+
+00:34:29.680 --> 00:34:30.920
+<v Friend>Yeah, I'm good.
+<v Friend>是的，我很好。
+
+00:34:30.920 --> 00:34:38.490
+<v Ben Terris>She's Arab-American, a friend from Capitol Hill. And she didn't want us to use her name. She's an aide to a Democratic member of Congress.
+<v Ben Terris>她是阿拉伯裔美国人，是国会山的朋友。她不想让我们用她的名字。她是国会一位民主党议员的助理。
+
+00:34:38.490 --> 00:34:40.710
+<v Friend>I have a little bit more hope.
+<v Friend>我有了一点点希望。
+
+00:34:40.710 --> 00:34:42.210
+<v Abbas Alawieh>OK, let's build on it.
+<v Abbas Alawieh>好的，我们继续努力。
+
+00:34:42.210 --> 00:34:42.810
+<v Friend>'Cause I'm tired--
+<v Friend>因为我累了——
+
+00:34:42.810 --> 00:34:43.220
+<v Abbas Alawieh>Yeah.
+<v Abbas Alawieh>是的。
+
+00:34:43.220 --> 00:34:44.820
+<v Friend>--of not having hope.
+<v Friend>——不再有希望。
+
+00:34:44.820 --> 00:34:47.010
+<v Abbas Alawieh>Yeah.
+<v Abbas Alawieh>是的。
+
+00:34:47.010 --> 00:34:59.040
+<v Friend>What scares me is what if this movement doesn't move them? And if we don't succeed, Trump, he's going to destroy the entire Middle East, Abbas.
+<v Friend>让我害怕的是，如果这场运动无法推动他们怎么办？如果我们不成功，特朗普，他会摧毁整个中东，阿巴斯。
+
+00:34:59.040 --> 00:35:01.980
+<v Abbas Alawieh>They have so offended our people. They have so--
+<v Abbas Alawieh>他们太冒犯我们的人民了。他们太——
+
+00:35:01.980 --> 00:35:02.230
+<v Friend>Yeah, I know.
+<v Friend>是的，我知道。
+
+00:35:02.230 --> 00:35:05.770
+<v Abbas Alawieh>--offended our people, our people being people for whom Gaza is a top policy issue.
+<v Abbas Alawieh>——冒犯我们的人民了，我们的人民是指那些将加沙视为最高政策议题的人。
+
+00:35:05.770 --> 00:35:05.880
+<v Friend>I know.
+<v Friend>我知道。
+
+00:35:05.880 --> 00:35:26.520
+<v Abbas Alawieh>They have so offended them that, in my opinion, the people who we're inspiring and we're animating and we're motivating are so pissed off-- are so pissed off by 16,000 children dead and not have that mentioned from the stage, that this is like-- they're like, I don't want anything to do with any of this. I don't even want to vote.
+<v Abbas Alawieh>他们太冒犯他们了，以至于在我看来，那些我们正在激励、鼓舞和动员的人是如此愤怒——对于1.6万名儿童死亡却没有从舞台上提及这一点感到如此愤怒——以至于他们就像——他们说，我不想要这些。我甚至不想投票。
+
+00:35:26.520 --> 00:35:32.550
+<v Friend>Abbas, we don't want that. Abbas, we don't want that. We can't have people think that. People have to come out.
+<v Friend>阿巴斯，我们不想要那样。阿巴斯，我们不想要那样。我们不能让人那样想。人们必须出来。
+
+00:35:32.550 --> 00:35:34.320
+<v Abbas Alawieh>You gotta give them something to vote for.
+<v Abbas Alawieh>你必须给他们投票的理由。
+
+00:35:34.320 --> 00:35:47.100
+<v Friend>I'm sorry. We know what to not vote for. Staying inside is like-- and I know with Trump, he's going to fuck us over. There is no Palestinian anymore. It's destroyed. The entire Middle East is done. We're done.
+<v Friend>我很抱歉。我们知道不该投给谁。留在家里就像——我知道特朗普，他会毁了我们。已经没有巴勒斯坦了。它被摧毁了。整个中东完了。我们完了。
+
+00:35:47.100 --> 00:35:59.190
+<v Friend>Yes, create this movement. Create this platform for us. Give us this national recognition, a platform, which this has done. But we can't have people not go out and vote. There needs to be--
+<v Friend>是的，创造这场运动。为我们创造这个平台。给我们这种全国性的认可，一个平台，这就是它所做的。但我们不能让人不出来投票。必须有——
+
+00:35:59.190 --> 00:36:08.510
+<v Abbas Alawieh>But what I'm telling you is unless we unless we intervene, those people aren't going to go out and vote right now. If the election was tomorrow, they're not convinced that Trump is going to be different on this issue.
+<v Abbas Alawieh>但我告诉你的是，除非我们干预，否则这些人现在不会去投票。如果明天就是选举，他们并不相信特朗普在这个问题上会有所不同。
+
+00:36:08.510 --> 00:36:09.580
+<v Friend>No, but he will be.
+<v Friend>不，但他会的。
+
+00:36:09.580 --> 00:36:10.410
+<v Abbas Alawieh>I know. I know that.
+<v Abbas Alawieh>我知道。我知道。
+
+00:36:10.410 --> 00:36:11.050
+<v Friend>Abbas, he will be.
+<v Friend>阿巴斯，他会的。
+
+00:36:11.050 --> 00:36:11.350
+<v Abbas Alawieh>I know that.
+<v Abbas Alawieh>我知道。
+
+00:36:11.350 --> 00:36:16.290
+<v Friend>So but this movement has a responsibility to make sure our people know.
+<v Friend>所以——但这运动有责任确保我们的人民知道。
+
+00:36:16.290 --> 00:36:16.770
+<v Abbas Alawieh>I hear you.
+<v Abbas Alawieh>我听到了。
+
+00:36:16.770 --> 00:36:18.420
+<v Friend>[CRYING] We can't have Trump.
+<v Friend>[哭泣] 我们不能让特朗普上台。
+
+00:36:18.420 --> 00:36:19.150
+<v Abbas Alawieh>I hear you.
+<v Abbas Alawieh>我听到了。
+
+00:36:19.150 --> 00:36:19.500
+<v Friend>So--
+<v Friend>所以——
+
+00:36:19.500 --> 00:36:21.570
+<v Abbas Alawieh>I'm a million percent with you.
+<v Abbas Alawieh>我百分之一百万和你站在一起。
+
+00:36:21.570 --> 00:36:36.730
+<v Friend>But if our people can't get what we want-- and we're used to that-- we still have to go out and vote. And we try again next election cycle. We keep trying. But we can't have Trump win. And you got to make sure. You've led this. You've led this amazing, beautiful movement. You created this.
+<v Friend>但如果我们要不到我们想要的——我们习惯了这一点——我们仍然必须去投票。下个选举周期我们再试。我们继续尝试。但我们不能让特朗普赢。你必须确保。你领导了这一切。你领导了这场令人惊叹、美丽的运动。你创造了它。
+
+00:36:36.730 --> 00:36:38.360
+<v Abbas Alawieh>Well, I'm doing everything that I can.
+<v Abbas Alawieh>好吧，我正在做我能做的一切。
+
+00:36:38.360 --> 00:36:39.790
+<v Friend>I know. I know you have. I know.
+<v Friend>我知道。我知道你做到了。我懂。
+
+00:36:39.790 --> 00:36:45.870
+<v Abbas Alawieh>And that includes necessarily having the tough conversations about Trump. I mean--
+<v Abbas Alawieh>而且这必然包括进行关于特朗普的艰难对话。我的意思是——
+
+00:36:45.870 --> 00:36:48.230
+<v Friend>But our people can't just be sitting home.
+<v Friend>但我们的人民不能只是坐在家里。
+
+00:36:48.230 --> 00:36:52.450
+<v Abbas Alawieh>Come spend some time with me in Michigan and hear about how people are talking about Trump.
+<v Abbas Alawieh>来跟我去密歇根花点时间，听听人们是怎么谈论特朗普的。
+
+00:36:52.450 --> 00:36:53.610
+<v Friend>Well, I want to, but I know--
+<v Friend>好吧，我想去，但我知道——
+
+00:36:53.610 --> 00:37:24.170
+<v Zoe Chace>Now Abbas has to go home to Michigan, Dearborn, and have the hard conversations. He wants Harris to win. He convinced a lot of people to vote uncommitted so they could nudge her position on Gaza and Israel. They didn't succeed at that. How can he possibly get them to vote for Harris when he's coming back empty-handed?
+<v Zoe Chace>现在阿巴斯必须回家去密歇根州迪尔伯恩，进行艰难的对话。他希望哈里斯获胜。他成功说服了很多人投给“未承诺”票，这样他们就能推动她在加沙和以色列问题上的立场。他们没能做到这一点。当他空手而归时，他怎么可能让他们投票给哈里斯？
+
+00:37:24.170 --> 00:37:34.220
+<v Ira Glass>Zoe Chace and Ben Terris. We go to Michigan in a minute from Chicago Public Radio when our program continues.
+<v Ira Glass>佐伊·蔡斯和本·特里斯。我们一会儿从芝加哥公共广播电台前往密歇根，我们的节目继续。
+
+00:37:34.220 --> 00:37:54.880
+<v Ira Glass>It's This American Life. I'm Ira Glass. Today's show, "A Little Bit of Power." Ben Terris and Zoe Chace now continue their story about Abbas Alawieh and his bloc of uncommitted voters. They pick up the story three weeks after the Democratic National Convention. It's now mid-September. Abbas and other uncommitted leaders organize a community meeting in Michigan.
+<v Ira Glass>这是《美国生活》。我是艾拉·格拉斯。今天的节目是“一点点权力”。本·特里斯和佐伊·蔡斯现在继续他们的关于阿巴斯·阿拉维和他那一群“未承诺”选民的故事。他们在民主党全国代表大会之后三周继续讲述这个故事。现在是九月中旬。阿巴斯和其他“未承诺”领导人在密歇根州组织了一次社区会议。
+
+00:37:54.880 --> 00:38:10.690
+<v Ben Terris>Remember, Abbas helped convince 100,000 Michigan voters to check the box for uncommitted in the primary. Now, if they don't flip back and vote Democratic, it could really determine the results in Michigan. And without Michigan, Harris could really lose.
+<v Ben Terris>记住，阿巴斯帮助说服了10万名密歇根选民在初选中勾选“未承诺”。现在，如果他们不转而支持民主党，这真的可能决定密歇根州的选举结果。没有密歇根州，哈里斯真的可能会输。
+
+00:38:10.690 --> 00:38:26.470
+<v Zoe Chace>That little bit of power it felt like they had back in February has not gotten them an arms embargo, a ceasefire, any suggestion of a policy change from Kamala Harris, or even a speaker on the stage of the Democratic National Convention.
+<v Zoe Chace>他们二月份感觉到的那一点点权力并没有为他们带来武器禁运、停火，卡玛拉·哈里斯的任何政策建议，甚至在民主党全国代表大会舞台上的发言人席位。
+
+00:38:26.470 --> 00:38:34.550
+<v Zoe Chace>Still, Abbas and the Uncommitted leadership need to deliver some kind of guidance about what to do to these same voters.
+<v Zoe Chace>尽管如此，阿巴斯和“未承诺”领导层仍然需要为这些选民提供关于该怎么做的指导。
+
+00:38:34.550 --> 00:38:46.310
+<v Ben Terris>So we're in Dearborn, where this movement began in the first place. Many people here have family in the Middle East and lots, like Abbas, in Lebanon, which has been bombed and invaded by Israeli ground forces.
+<v Ben Terris>所以我们在迪尔伯恩，这个运动最初开始的地方。这里的许多人在中东有亲戚，很多人像阿巴斯一样在黎巴嫩，而那里遭到了以色列地面部队的轰炸和入侵。
+
+00:38:46.310 --> 00:39:07.070
+<v Ben Terris>The day we arrive is just before that. It's the day a bunch of pagers exploded all over Lebanon in an Israeli attack that killed dozens of people and injured thousands. Abbas's phone is flooded with messages from his family in Lebanon, who are really frightened. Even people in Dearborn seem freaked out by their phones. Abbas has this dread hanging over him of what's to come.
+<v Ben Terris>我们到达的那天就在那之前。那天，黎巴嫩各地发生了传呼机爆炸事件，以色列的一次袭击造成数十人死亡，数千人受伤。阿巴斯的手机收到了黎巴嫩家人的大量信息，他们非常害怕。甚至迪尔伯恩的人似乎也被他们的手机吓坏了。阿巴斯内心深处怀着对未来的恐惧。
+
+00:39:07.070 --> 00:39:15.560
+<v Zoe Chace>Before the meeting, we meet Abbas at the coffee shop in town he calls "the office." He's scrolling through his laptop, through the statement he's going to read.
+<v Zoe Chace>在会议前，我们在镇上一家他称之为“办公室”的咖啡店见到阿巴斯。他在笔记本电脑上滚动浏览他将要宣读的声明。
+
+00:39:15.560 --> 00:39:20.740
+<v Ben Terris>Are you nervous at all going into tonight?
+<v Ben Terris>今晚要去参加会议，你紧张吗？
+
+00:39:20.740 --> 00:39:33.260
+<v Abbas Alawieh>I didn't think I was. And then I felt like I was going to throw up earlier, and I don't know if it was related to this, but it might have been. [LAUGHS]
+<v Abbas Alawieh>我以前以为我不紧张。然后我感觉之前想呕吐，我不知道这是否与此有关，但这可能是。[笑]
+
+00:39:33.260 --> 00:39:34.220
+<v Ben Terris>I think it might have been.
+<v Ben Terris>我想这可能是。
+
+00:39:34.220 --> 00:39:37.070
+<v Abbas Alawieh>[LAUGHS]
+<v Abbas Alawieh>[笑]
+
+00:39:37.070 --> 00:39:56.690
+<v Zoe Chace>This is a tough crowd he's about to face. It's a bunch of people who are going to render a verdict on what he's been doing, and he's balancing a lot at once. He does still want people to vote for Harris, but Uncommitted promised they wouldn't mobilize Get Out the Vote operations for Harris without getting something from the campaign.
+<v Zoe Chace>他即将面对一群棘手的听众。这是一群将要对他所做的一切进行评判的人，他同时权衡很多事情。他确实仍然希望人们投票给哈里斯，但“未承诺”派承诺过，如果得不到竞选团队的任何回应，就不会为哈里斯动员投票。
+
+00:39:56.690 --> 00:40:20.660
+<v Ben Terris>Later that evening, Abbas joins Uncommitted voters and organizers at this huge Islamic community center in town. It's got tiled floors. It's very echoey. Chairs are set up in rows facing a panel of speakers. It definitely does not have a cozy vibe. It does not feel like it's set up for a discussion. Maybe 50 people show up. They're primarily older Arab men from the area, and it feels a bit like a meeting of the dads.
+<v Ben Terris>那天晚上晚些时候，阿巴斯在镇上一个巨大的伊斯兰社区中心加入了“未承诺”选民和组织者的行列。那里有瓷砖地板。回声很大。椅子排列成行，面对着一排发言人。这里绝对没有舒适的气氛。感觉不像是一个讨论的场所。大约有50人到场。他们主要是该地区的老年阿拉伯男性，这感觉有点像一场父亲们的会议。
+
+00:40:20.660 --> 00:40:31.850
+<v Ben Terris>The organizers sit at a long table with microphones and talk for a while about what they have accomplished and how they got here. And finally, they talk about what's next. Abbas delivers Uncommitted's official word.
+<v Ben Terris>组织者坐在长桌旁，拿着麦克风，谈了一会儿他们取得了什么成就以及如何走到这一步。最后，他们谈到了下一步。阿巴斯传达了“未承诺”派的官方声音。
+
+00:40:31.850 --> 00:40:41.730
+<v Abbas Alawieh>At this time, our movement, number one, cannot endorse Vice President Harris. We've been very clear that the word "endorse" is a very specific thing.
+<v Abbas Alawieh>此时，我们的运动，第一，不能背书副总统哈里斯。我们一直很清楚，“背书”这个词是一个非常具体的词。
+
+00:40:41.730 --> 00:41:04.410
+<v Abbas Alawieh>It means our organization that did 1.5 million voter contacts, that proactively reached out to people and told them to vote uncommitted, we had said very clearly, publicly-- publicly to our community and to the vice president's team-- if you change your policy, we will endorse. And endorsing means we'll get out the vote for Vice President Harris. Her campaign made it impossible for us to endorse.
+<v Abbas Alawieh>这意味着我们组织了150万次选民联系，主动接触人们并告诉他们投“未承诺”票，我们已经非常明确地、公开地——对我们的社区和副总统的团队——说了，如果你改变政策，我们就背书。而背书意味着我们会动员投票给副总统哈里斯。她的竞选团队让我们无法背书。
+
+00:41:04.410 --> 00:41:16.680
+<v Abbas Alawieh>Now, that might mean that some of us still vote for Kamala Harris. Some of us vote against her. Some of us might not vote at the top of the ticket. And that's the conversation we want to invite. But an endorsement would mean us mobilizing.
+<v Abbas Alawieh>现在，这可能意味着我们中的一些人仍然会投票给卡玛拉·哈里斯。我们中的一些人投票反对她。我们中的一些人可能不会在选票首位投票。这就是我们想要邀请大家进行的对话。但背书意味着我们动员起来。
+
+00:41:16.680 --> 00:41:28.470
+<v Abbas Alawieh>Number two, we oppose a Donald Trump presidency, whose agenda includes plans to accelerate the killing in Gaza while intensifying the suppression of anti-war organizing.
+<v Abbas Alawieh>第二，我们反对唐纳德·特朗普的总统任期，他的议程包括加速在加沙的杀戮，同时加强对反战组织的镇压。
+
+00:41:28.470 --> 00:41:57.290
+<v Abbas Alawieh>And number three, we are not recommending a third party vote in the presidential election, especially as a third party vote in key swing states like Michigan could help inadvertently deliver a Trump presidency given our country's broken electoral college system. OK, so that's what the statement says. And I wanted to make sure that you all hear it. And I want--
+<v Abbas Alawieh>第三，我们不推荐在总统选举中投给第三方，特别是在密歇根州这样的关键摇摆州，投给第三方可能会因我们国家破败的选举人团制度而无意中帮助特朗普当选。好的，这就是声明的内容。我想确保你们所有人都听到了。我想——
+
+00:41:57.290 --> 00:42:21.880
+<v Ben Terris>Huh? The feeling in the room is people are confused at this muddled statement, which does not endorse Harris but seems to be telling them to vote for her anyway, and definitely do not vote for Trump or a third party. When it's finally time for questions, many hands go up. An early question is about strategy. Are we throwing away the power of our voting bloc by not recommending one person for us all to vote for?
+<v Ben Terris>啊？房间里的感觉是人们对这个模糊的声明感到困惑，声明没有背书哈里斯，但似乎仍在告诉他们投票给她，而且绝对不要投给特朗普或第三方。当终于轮到提问时，许多人举手了。一个早期的问题是关于策略的。我们是否通过不推荐一个人让我们所有人投票而浪费了我们投票集团的力量？
+
+00:42:21.880 --> 00:42:46.170
+<v Man>So now how are you going to count our votes? The second thing is why don't we-- I know the third party is not viable, but isn't it better that we put our vote there so we can count them, the percentage at least? We can say that 1%, 2%, 3%, especially in our community in Michigan.
+<v Man>所以现在你们要怎么计算我们的选票？第二件事是为什么我们不——我知道第三方不可行，但如果我们把票投在那里以便我们能计算它们，至少百分比，不是更好吗？我们可以说那是1%，2%，3%，尤其是在我们在密歇根的社区里。
+
+00:42:46.170 --> 00:42:52.030
+<v Ben Terris>Abbas is pretty mad about the way the Green Party has been talking to voters in this part of the state. And he jumps in.
+<v Ben Terris>阿巴斯对绿党在这个州这一地区与选民交谈的方式感到非常生气。他插话说。
+
+00:42:52.030 --> 00:43:18.490
+<v Abbas Alawieh>I want to take a moment specifically to address the third party question, because I know it's a question that folks might have. My concern is with any candidate that comes to our community and says things like, I have a shot at winning. And if you vote for Trump or for Harris, you endorse the genocide. And the only way not to endorse the genocide is to vote for me. I am very concerned about that.
+<v Abbas Alawieh>我想花点时间专门解决第三方问题，因为我知道这是人们可能有的问题。我关心的是任何来到我们社区并说类似“我有机会赢。如果你投票给特朗普或哈里斯，你就背书了种族灭绝。不背书种族灭绝的唯一方法是投给我”的候选人。我对此非常担心。
+
+00:43:18.490 --> 00:43:42.820
+<v Zoe Chace>They get asked about a third party over and over again-- Jill Stein, the Green Party-- she says no more war; we're going to stop Israel. And she's been making a real play in this area, Southern Michigan, committing to no more war specifically. And another thing people are asking-- Democrats need to learn to listen to us. How else will they listen if we don't withhold our vote from them?
+<v Zoe Chace>他们一遍又一遍地被问到第三方问题——吉尔·斯坦（Jill Stein），绿党——她说不再有战争；我们要阻止以色列。她在这一地区，密歇根南部，做出了真诚的尝试，专门承诺不再有战争。人们问的另一件事——民主党需要学会倾听我们。如果我们不把票扣住不投给他们，他们还会怎么听？
+
+00:43:42.820 --> 00:43:46.450
+<v Ben Terris>Some people at the meeting are sick of listening to Abbas altogether.
+<v Ben Terris>会议上有些人对听阿巴斯讲话彻底厌烦了。
+
+00:43:46.450 --> 00:43:52.060
+<v Physician>And I'm voting my conscience as a physician, which means no genocide.
+<v Physician>我作为一名医生投票凭的是我的良心，这意味着没有种族灭绝。
+
+00:43:52.060 --> 00:43:56.840
+<v Ben Terris>I'm voting my conscience as a physician, which means no genocide, he says.
+<v Ben Terris>他说：“我作为一名医生投票凭的是我的良心，这意味着没有种族灭绝。”
+
+00:43:56.840 --> 00:44:12.970
+<v Physician>We as a community see that the Uncommitted now itself doesn't know what it's doing. If you, by next week, don't come up with a clear ask-- no to genocide-- then you don't represent us. Please dissolve.
+<v Physician>我们作为一个社区看到，“未承诺”派现在自己都不知道在做什么。如果到下周你们拿不出一个明确的要求——对种族灭绝说“不”——那么你们就不代表我们。请解散。
+
+00:44:12.970 --> 00:44:28.730
+<v Physician>And going forward, you do not represent us. You represent your interests, your individuals. And that is my goal. Vote third party. And we know Trump is terrible. We are not stupid. But he will stop the genocide. He might do worse things, but he will stop the genocide.
+<v Physician>未来，你们不代表我们。你们代表你们的利益，你们的个人。这就是我的目标。投第三方。我们知道特朗普很糟糕。我们不蠢。但他会阻止种族灭绝。他可能会做更糟的事情，但他会阻止种族灭绝。
+
+00:44:28.730 --> 00:44:32.410
+<v Abbas Alawieh>Thank you. Thank you so much. We're going to do one more comment over here.
+<v Abbas Alawieh>谢谢。非常感谢。我们在这里再做一个评论。
+
+00:44:32.410 --> 00:44:56.120
+<v Zoe Chace>The meeting ends pretty abruptly, but no one leaves. People stay trying to talk to Abbas and the other organizers. They have a lot of feedback. Remember, most of these guys voted uncommitted in the primary. Some of them volunteered, organized, phone banked, like this guy Amin Hashmi, who's one of many swarming Abbas after the meeting is over. He's considering voting for Trump.
+<v Zoe Chace>会议结束得非常突然，但没人离开。人们留下来试图与阿巴斯和其他组织者交谈。他们有很多反馈。记住，大多数这些人都在初选中投了“未承诺”。他们中的一些人像这个在会议结束后围住阿巴斯的家伙阿明·哈什米（Amin Hashmi）一样，曾经自愿参与、组织、打过电话。他正在考虑投票给特朗普。
+
+00:44:56.120 --> 00:45:09.230
+<v Amin Hashmi>I've been praying for the last two months. I'm going to pray more. Make sure in three weeks, I'm telling you, Trump will change his position. I'm guaranteeing you because he's changing already. Do you remember in the second debate, he said, Arabs are also dying?
+<v Amin Hashmi>我过去两个月一直在祈祷。我会更多祈祷。相信我，在三周内，特朗普会改变他的立场。我向你保证，因为他已经在改变了。你还记得在第二次辩论中，他说，阿拉伯人也正在死去吗？
+
+00:45:09.230 --> 00:45:11.600
+<v Abbas Alawieh>Yeah, yeah, yeah. No, I saw. He was trying to speak to us.
+<v Abbas Alawieh>是的，是的，是的。不，我看到了。他在试图和我们对话。
+
+00:45:11.600 --> 00:45:12.400
+<v Amin Hashmi>Right.
+<v Amin Hashmi>对。
+
+00:45:12.400 --> 00:45:15.580
+<v Abbas Alawieh>But what Trump says? We can't believe what Trump says.
+<v Abbas Alawieh>但特朗普说什么？我们不能相信特朗普说的话。
+
+00:45:15.580 --> 00:45:18.280
+<v Amin Hashmi>Yeah, but come on. I mean, Democrats also do the same thing.
+<v Amin Hashmi>是的，但得了吧。我的意思是，民主党人也做同样的事情。
+
+00:45:18.280 --> 00:45:19.510
+<v Abbas Alawieh>True, true.
+<v Abbas Alawieh>真的，真的。
+
+00:45:19.510 --> 00:45:27.110
+<v Amin Hashmi>Let's see if he comes up openly and says something, instead of private, let's see if he does that. If he does that, I would vote for Trump, man.
+<v Amin Hashmi>看看他是否会公开说点什么，而不是私下，让我们看看他是否那样做。如果他那样做了，我会投票给特朗普的，伙计。
+
+00:45:27.110 --> 00:45:30.260
+<v Abbas Alawieh>I wouldn't recommend it. I think he's a bad guy.
+<v Abbas Alawieh>我不推荐。我认为他是个坏人。
+
+00:45:30.260 --> 00:45:34.400
+<v Amin Hashmi>But what else do you have? I mean, they have not changed their position. Neither have not moved.
+<v Amin Hashmi>但你还有什么？我的意思是，他们没有改变他们的立场。都没有动摇。
+
+00:45:34.400 --> 00:45:37.880
+<v Abbas Alawieh>It's going to be one or the other. And under Trump, it would be a lot worse, in my opinion.
+<v Abbas Alawieh>要么选这个要么选那个。而在特朗普领导下，在我看来会糟得多。
+
+00:45:37.880 --> 00:45:41.590
+<v Amin Hashmi>Right, but how would you change Kamala? I mean, has not done-- 10 months, didn't do anything.
+<v Amin Hashmi>对，但你打算怎么改变卡玛拉？我的意思是，什么都没做——10个月，什么都没做。
+
+00:45:41.590 --> 00:45:42.020
+<v Abbas Alawieh>Right.
+<v Abbas Alawieh>对。
+
+00:45:42.020 --> 00:45:44.060
+<v Amin Hashmi>What strategy do you have left?
+<v Amin Hashmi>你还剩下什么策略？
+
+00:45:44.060 --> 00:45:44.710
+<v Abbas Alawieh>I think our--
+<v Abbas Alawieh>我认为我们的——
+
+00:45:44.710 --> 00:45:46.240
+<v Amin Hashmi>You have only four weeks left. You are hoping against hope.
+<v Amin Hashmi>你只剩下四周了。你在绝望中怀揣希望。
+
+00:45:46.240 --> 00:45:48.830
+<v Abbas Alawieh>And here's what-- no, no, no. I'm not hoping. I'm organizing, OK?
+<v Abbas Alawieh>这是什么——不，不，不。我不是在怀揣希望。我是在组织，OK？
+
+00:45:48.830 --> 00:45:49.270
+<v Amin Hashmi>I know.
+<v Amin Hashmi>我知道。
+
+00:45:49.270 --> 00:45:51.520
+<v Abbas Alawieh>Because here's what we've been doing in the meantime.
+<v Abbas Alawieh>因为这是我们在此期间一直在做的。
+
+00:45:51.520 --> 00:45:54.140
+<v Amin Hashmi>Whatever happened with DNC, it's a shame for us, man. I'm telling you.
+<v Amin Hashmi>DNC发生了什么，对我们来说真是耻辱，伙计。我告诉你。
+
+00:45:54.140 --> 00:45:54.890
+<v Abbas Alawieh>Right, right. No, but what I'm telling you--
+<v Abbas Alawieh>对，对。不，但我告诉你的是——
+
+00:45:54.890 --> 00:46:06.410
+<v Amin Hashmi>I felt bad for you sitting outside, like encamping outside. I mean, this is nonsense. It doesn't look good. And it's already showing they're neck to neck right now, right?
+<v Amin Hashmi>我为你坐在外面、露营在外感到难过。我的意思是，这是胡说八道。看起来不好。而且这已经表明他们现在势均力敌了，对吧？
+
+00:46:06.410 --> 00:46:06.610
+<v Abbas Alawieh>Yeah.
+<v Abbas Alawieh>是的。
+
+00:46:06.610 --> 00:46:27.340
+<v Amin Hashmi>All the polls are showing it's back and forth. It's swinging, three or four states. So it's already there. Why she is not feeling the pain? She doesn't want White House? What is her strategy? Who is telling her behind that, no, it's OK-- you can live without Muslims or Arab votes?
+<v Amin Hashmi>所有的民调都显示它在来回波动。它是摇摆不定的，三四个州。所以它已经在那里了。为什么她没有感到痛苦？她不想要白宫吗？她的策略是什么？是谁在她背后说，不，没关系——你可以没有穆斯林或阿拉伯选票生活？
+
+00:46:27.340 --> 00:46:29.340
+<v Abbas Alawieh>Let's keep the conversation going. Great to see you.
+<v Abbas Alawieh>让我们继续保持对话。很高兴见到你。
+
+00:46:29.340 --> 00:46:31.150
+<v Amin Hashmi>Thank you.
+<v Amin Hashmi>谢谢。
+
+00:46:31.150 --> 00:46:46.870
+<v Ben Terris>Abbas knows pretty much everyone in this room, and some for sure are offering their support, like nice job. I get the feeling that most of these guys, though, are thinking like this voter, Rifaat Dika. He's Lebanese, lived in Dearborn for 40 years now, and he's not convinced.
+<v Ben Terris>阿巴斯认识这个房间里的几乎每个人，有些人无疑是在提供支持，比如“干得好”。不过，我感觉这些人中的大多数人像这个选民里法特·迪卡（Rifaat Dika）一样。他是黎巴嫩人，在迪尔伯恩住了40年了，他并没有被说服。
+
+00:46:46.870 --> 00:46:59.230
+<v Rifaat Dika>I am voting third party. I'm not part of a third party. I'm not the Green. But I'm a Democrat. But if I want to vote my conscience this time without political calculations--
+<v Rifaat Dika>我投给第三方。我不是第三方的一员。我不是绿党。但我是一名民主党人。但如果这次我想在没有政治计算的情况下投票凭我的良心——
+
+00:46:59.230 --> 00:47:17.650
+<v Zoe Chace>I mean, I don't mean to say the most obvious thing. I just want to know what you think. Michigan went to Trump 2016 by 10,000 votes. If you vote third party, you're not voting for Harris. So you're taking a vote away from Harris.
+<v Zoe Chace>我的意思是，我不想说最显而易见的事情。我只是想知道你怎么看。密歇根州在2016年以1万票之差投给了特朗普。如果你投给第三方，你就不是投给哈里斯。所以你是在从哈里斯那里分走一票。
+
+00:47:17.650 --> 00:47:20.400
+<v Rifaat Dika>That's their problem, not mine.
+<v Rifaat Dika>那是他们的问题，不是我的。
+
+00:47:20.400 --> 00:47:35.280
+<v Ben Terris>As Abbas heads for the door, people are still coming up to him, making the case for voting third party.
+<v Ben Terris>当阿巴斯走向门口时，人们仍然走近他，为投票给第三方进行辩护。
+
+00:47:35.280 --> 00:47:57.660
+<v Zoe Chace>One Uncommitted leader I talked to worried that maybe this whole thing had backfired, that by making it so visible that the Democrats weren't listening, by asking so publicly for a speaker and then not getting it, they lost more votes for Harris. Who's going to support a party that humiliated us like that? I asked Abbas about this.
+<v Zoe Chace>我和一位“未承诺”领导人谈过，他担心这一切可能适得其反，通过让民主党不倾听变得如此可见，通过公开要求发言人然后却没得到，他们失去了更多哈里斯的选票。谁会支持一个那样羞辱我们的政党？我问阿巴斯这件事。
+
+00:47:57.660 --> 00:48:08.250
+<v Zoe Chace>And so it's arguable that maybe people got more turned off by the Democratic Party because of that whole thing. And do you think about that, and how do you think about it?
+<v Zoe Chace>所以可以说也许人们因为整件事对民主党更加反感了。你考虑过这一点吗，你对此怎么看？
+
+00:48:08.250 --> 00:48:16.050
+<v Abbas Alawieh>Yeah, I do think about it. And I think that's why the Democratic Party shouldn't continue engaging in this kind of discrimination.
+<v Abbas Alawieh>是的，我的确考虑过。我认为这就是为什么民主党不应该继续进行这种歧视。
+
+00:48:16.050 --> 00:48:22.870
+<v Zoe Chace>But you don't think that it possibly turned off more voters?
+<v Zoe Chace>但你不认为它可能疏远了更多选民吗？
+
+00:48:22.870 --> 00:48:27.790
+<v Abbas Alawieh>I mean, I think it's possible that it turned off more voters. That's why the Democratic Party shouldn't have made that decision.
+<v Abbas Alawieh>我的意思是，我认为有可能疏远了更多选民。这就是为什么民主党不应该做出那个决定。
+
+00:48:27.790 --> 00:48:35.580
+<v Zoe Chace>But it never makes you question your tactics.
+<v Zoe Chace>但这从来没让你质疑过你的策略。
+
+00:48:35.580 --> 00:49:06.690
+<v Abbas Alawieh>I didn't make that decision, Zoe. I don't think they should have done it. For me, as someone who experienced the discrimination, I don't think it's appropriate for me to be asked and for our group to be asked. But don't you think that you shouldn't have put the group that discriminated against you in a position to discriminate against you? I don't think that's a fair thing to ask of us.
+<v Abbas Alawieh>我没做那个决定，佐伊。我不认为他们应该那样做。对我来说，作为一个经历过歧视的人，我不认为要求我和我们的团队这样做是合适的。但你不觉得你不应该把你歧视的群体置于一个让你歧视他们的位置吗？我不认为要求我们这样做是公平的。
+
+00:49:06.690 --> 00:49:18.790
+<v Zoe Chace>Abbas had hoped that the Uncommitted movement would be out now, making calls, knocking on doors, mobilizing people, like they did in the primary, but for Harris this time. That's not happening.
+<v Zoe Chace>阿巴斯曾希望“未承诺”运动现在走出来，打电话、敲门、动员人们，像他们在初选中那样，但这回是为哈里斯。这种情况并没有发生。
+
+00:49:18.790 --> 00:49:38.320
+<v Zoe Chace>He figures the best thing he can do with the time left is talk to people, person by person in his life, to convince people not to vote for Trump or for a third party. One of those people is his own dad. He was at that community meeting and still isn't sure how he's going to vote.
+<v Zoe Chace>他认为在剩余的时间里他能做的最好的事情就是与人交谈，在他生活中与人们面对面，说服人们不要投给特朗普或第三方。其中一个人是他自己的爸爸。他在那次社区会议上，仍然不确定该怎么投票。
+
+00:49:38.320 --> 00:49:45.610
+<v Ben Terris>We meet up with his dad at his warehouse in town. He is in sales, not car sales, though. Abbas was trying to convince him.
+<v Ben Terris>我们在他镇上的仓库里见到了他爸爸。他是做销售的，虽然不是汽车销售。阿巴斯正在试图说服他。
+
+00:49:45.610 --> 00:49:55.340
+<v Abbas Alawieh>It's two options. One of them is going to be president, so we have to vote against Trump and for Harris. That's how I feel about it. But do you think that resonates? Do you think people are going to understand that?
+<v Abbas Alawieh>有两个选择。其中一个将成为总统，所以我们必须投票反对特朗普并投票给哈里斯。这就是我的感受。但你觉得这能引起共鸣吗？你觉得人们会理解吗？
+
+00:49:55.340 --> 00:50:12.470
+<v Baba>No. Baba, even me, you know how much I love you. And even if you want blood, I will give you my blood. But for this one, I'm not convinced to give her my voice. I'm not convinced.
+<v Baba>不。巴巴（Baba，父亲），即使是我，你知道我有多爱你。即使你想要血，我也会给你我的血。但对于这个，我没被说服给她我的投票。我没被说服。
+
+00:50:12.470 --> 00:50:15.730
+<v Abbas Alawieh>Do you think if she moves before November 5, you might?
+<v Abbas Alawieh>你觉得如果她在11月5日前采取行动，你可能会吗？
+
+00:50:15.730 --> 00:50:34.000
+<v Baba>If she gives, we will give. But if she wants only to take, we are not going to give. That's it. You stand with my people, I will give you my vote. You stand against my people, you are not going to see my vote. That's it. Easy. And--
+<v Baba>如果她给，我们就会给。但如果她只想拿，我们是不会给的。就是这样。你站在我人民这边，我会给你我的投票。你站在我人民对立面，你就看不到我的投票。就是这样。简单。而且——
+
+00:50:34.000 --> 00:50:35.650
+<v Abbas Alawieh>Well, we'll keep talking, Baba.
+<v Abbas Alawieh>好吧，我们会继续谈，巴巴。
+
+00:50:35.650 --> 00:50:36.640
+<v Baba>OK.
+<v Baba>好的。
+
+00:50:36.640 --> 00:50:40.090
+<v Baba>[LAUGHTER]
+<v Baba>[笑]
+
+00:50:40.090 --> 00:50:57.830
+<v Baba>Abbas is one of our leaders that we are so proud of him-- and not as a dad, but as a community. And because we are proud of him, we don't want him to fall in a hole in losing his principles.
+<v Baba>阿巴斯是我们的一位领袖，我们为他感到骄傲——不是作为父亲，而是作为一个社区。因为我们为他感到骄傲，我们不希望他掉进失去原则的坑里。
+
+00:50:57.830 --> 00:50:58.320
+<v Zoe Chace>Yeah.
+<v Zoe Chace>是的。
+
+00:50:58.320 --> 00:51:03.530
+<v Abbas Alawieh>Yeah. Do you think me voting for Harris means I'm losing my principles?
+<v Abbas Alawieh>是的。你觉得我投票给哈里斯意味着我失去了我的原则吗？
+
+00:51:03.530 --> 00:51:12.070
+<v Baba>For right now, I'm not happy with that. That's what I want to say.
+<v Baba>就目前而言，我不高兴。这就是我想说的。
+
+00:51:12.070 --> 00:51:26.470
+<v Zoe Chace>Conversations like that have only gotten harder to have. The war in Lebanon has escalated. It all feels very close to home in Dearborn. Abbas was recently at the funeral of a friend's father who was killed in Lebanon.
+<v Zoe Chace>像那样的对话越来越难进行了。黎巴嫩的战争升级了。在迪尔伯恩，这一切感觉离家非常近。阿巴斯最近参加了一位在黎巴嫩被杀的朋友父亲的葬礼。
+
+00:51:26.470 --> 00:51:41.170
+<v Zoe Chace>Honestly, every day feels like a funeral, some people told us. People are so upset and so consumed by what's happening overseas, it really doesn't feel like a time to have these difficult conversations about the presidential election.
+<v Zoe Chace>老实说，人们告诉我们，每一天都像葬礼。人们对海外发生的事情感到非常不安和沉迷，这真的感觉不是进行关于总统选举这些艰难对话的时候。
+
+00:51:41.170 --> 00:52:04.450
+<v Ben Terris>Still, the polls in Michigan continue to be incredibly close. The Harris campaign has made some attempts to reach out to Arab and Muslim voters recently. VP nominee Tim Walz met with a Muslim political organization which endorsed Harris. A group of 25 imams threw their support behind Harris, saying in an open letter that she represents, quote, "the best option for ending the bloodshed in Gaza and now Lebanon."
+<v Ben Terris>尽管如此，密歇根州的民调仍然非常接近。哈里斯竞选团队最近做出了一些接触阿拉伯裔和穆斯林选民的尝试。副总统候选人蒂姆·沃尔兹会见了一个穆斯林政治组织，该组织支持了哈里斯。25名伊玛目表示支持哈里斯，在一封公开信中称她代表，引用：“结束加沙和现在黎巴嫩流血事件的最佳选择。”
+
+00:52:04.450 --> 00:52:39.430
+<v Zoe Chace>One Uncommitted organizer told us, listen, it's just too late to change minds. People she's talking to are sure they will not be supporting Kamala Harris, no matter what she does. Abbas was not impressed by those gestures from the Harris campaign. He said that is an insular, limited, and woefully inadequate approach that does not do much of anything to persuade people.
+<v Zoe Chace>一位“未承诺”组织者告诉我们，听着，改变主意已经太晚了。与她交谈的人确信他们无论她做什么都不会支持卡玛拉·哈里斯。阿巴斯对哈里斯竞选团队的那些姿态印象不深。他说那是一种狭隘、有限且极其不足的方法，对说服人们没起到多大作用。
+
+00:52:39.430 --> 00:52:57.130
+<v Ira Glass>Ben Terris with Zoe Chace. Zoe is a producer on our show. Ben is a political reporter for The Washington Post and the author of the book, The Big Break, The Gamblers, Party Animals, and True Believers Trying to Win Washington While America Loses Its Mind.
+<v Ira Glass>本·特里斯和佐伊·蔡斯。佐伊是我们节目的制作人。本是《华盛顿邮报》的政治记者，也是《大突破》、《赌徒》、《派对动物》和《当美国失去理智时试图赢得华盛顿的忠实信徒》一书的作者。
+
+00:52:57.130 --> 00:53:15.650
+<v Ira Glass>Well, our program was produced today by Lilly Sullivan. The people who put together today's show include Jendayi Bonds, Sean Cole, Michael Comite, Valerie Kipnis, Henry Larson, Tobin Low, Katherine Rae Mondo, Stowe Nelson, Nadia Reiman, Ryan Rumery, Ike Sriskandarajah, Laura Starecheski, Frances Swanson, Christopher Swetala, Matt Tierney, Nancy Updike, Julie Whitaker, and Diane Wu.
+<v Ira Glass>好吧，我们的节目今天由莉莉·沙利文（Lilly Sullivan）制作。今天参与制作节目的人包括简达伊·邦兹（Jendayi Bonds）、肖恩·科尔（Sean Cole）、迈克尔·科米特（Michael Comite）、瓦莱丽·基普尼斯（Valerie Kipnis）、亨利·拉尔森（Henry Larson）、托宾·洛（Tobin Low）、凯瑟琳·雷·蒙多（Katherine Rae Mondo）、斯托·尼尔森（Stowe Nelson）、纳迪亚·雷曼（Nadia Reiman）、瑞安·鲁梅里（Ryan Rumery）、艾克·斯里斯坎达拉贾（Ike Sriskandarajah）、劳拉·斯塔雷切斯基（Laura Starecheski）、弗朗西丝·斯旺森（Frances Swanson）、克里斯托弗·斯韦塔拉（Christopher Swetala）、马特·蒂尔尼（Matt Tierney）、南希·厄普代克（Nancy Updike）、朱莉·惠特克（Julie Whitaker）和黛安·吴（Diane Wu）。
+
+00:53:15.650 --> 00:53:37.370
+<v Ira Glass>Our managing editor is Sarah Abdurrahman. Our senior editor is David Kestenbaum. Our executive editor is Emanuele Berry. Special thanks today to Asma Mohammad, Layla Elabed, Lexi Zeidan, Abbas Al Haj Ahmad, Saul Levin, Jeremiah Ellison, Bernie Porn, Rima Mohammad, Bilal Bedoun, Jordan Acker, The Washington Post Style Section, and The Post Reports podcast.
+<v Ira Glass>我们的总编辑是莎拉·阿卜杜拉赫曼（Sarah Abdurrahman）。我们的资深编辑是戴维·凯斯滕鲍姆（David Kestenbaum）。我们的执行编辑是埃马努埃莱·贝里（Emanuele Berry）。今天特别感谢阿斯玛·穆罕默德（Asma Mohammad）、莱拉·埃拉贝德（Layla Elabed）、莱克西·泽丹（Lexi Zeidan）、阿巴斯·阿尔·哈吉·艾哈迈德（Abbas Al Haj Ahmad）、索尔·莱文（Saul Levin）、杰里迈亚·埃里森（Jeremiah Ellison）、伯尼·庞（Bernie Porn）、里马·穆罕默德（Rima Mohammad）、比拉尔·贝敦（Bilal Bedoun）、乔丹·阿克（Jordan Acker）、《华盛顿邮报》风格版面以及《邮报报告》播客。
+
+00:53:37.370 --> 00:53:58.200
+<v Ira Glass>Our website, thisamericanlife.org, where you can stream our archive of over 800 episodes for absolutely free. This American Life is delivered to public radio stations by PRX, the Public Radio Exchange. Thanks, as always, to our program's confounder, Mr. Torey Malatia. He got a Rolex the other day. All he does now is party with his new Rolex friends.
+<v Ira Glass>我们的网站，thisamericanlife.org，在那里你可以完全免费在线收听我们800多集的档案。《美国生活》由PRX（公共广播交换中心）分发给公共广播电台。像往常一样，感谢我们节目的创始人托里·马拉蒂亚（Torey Malatia）先生。他前几天买了一块劳力士。他现在所做的就是和他的新劳力士朋友们聚会。
+
+00:53:58.200 --> 00:54:01.580
+<v Reporter>Overnight, an extremely unusual watch party.
+<v Reporter>一夜之间，极其罕见的守夜派对。
+
+00:54:01.580 --> 00:54:06.580
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯。下周回来，带来更多《美国生活》的故事。
