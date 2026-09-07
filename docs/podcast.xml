@@ -2021,6 +2021,51 @@ language="en"
 <item>
 
 <title>
+449: Middle School
+</title>
+
+<link>
+https://www.thisamericanlife.org/449/middle-school
+</link>
+
+<guid isPermaLink="true">
+https://www.thisamericanlife.org/449/middle-school
+</guid>
+
+<description>
+The awkward, confusing, hormonally charged world of middle school.
+</description>
+
+<itunes:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/iStock-115093587.jpg?itok=YK6k8LHe"
+/>
+
+<podcast:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/iStock-115093587.jpg?itok=YK6k8LHe"
+/>
+
+<pubDate>
+Fri, 28 Oct 2011 00:00:00 -0400
+</pubDate>
+
+<enclosure
+url="https://npr.simplecastaudio.com/d3081dd9-fcaf-445a-977c-4f56c28f5a6e/episodes/a631bda2-b83f-4e2c-99c5-8344e637a322/audio/128/default.mp3?awCollectionId=d3081dd9-fcaf-445a-977c-4f56c28f5a6e&amp;awEpisodeId=a631bda2-b83f-4e2c-99c5-8344e637a322&amp;nocache"
+type="audio/mpeg"
+/>
+
+<podcast:transcript
+url="https://lzoreal.github.io/TMLT/transcripts/449.vtt"
+type="text/vtt"
+language="en"
+/>
+
+</item>
+
+
+
+<item>
+
+<title>
 443: Amusement Park
 </title>
 
