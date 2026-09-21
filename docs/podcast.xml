@@ -41,6 +41,51 @@ TMLT Transcript Generator
 <item>
 
 <title>
+897: Intergenerational Space Travel
+</title>
+
+<link>
+https://www.thisamericanlife.org/897/intergenerational-space-travel
+</link>
+
+<guid isPermaLink="true">
+https://www.thisamericanlife.org/897/intergenerational-space-travel
+</guid>
+
+<description>
+People braving the true final frontier — the gap between people born at slightly different times.
+</description>
+
+<itunes:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/tal-897-intergenerationaltravel-valero.jpg?itok=bBKV-zIn"
+/>
+
+<podcast:image
+href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/tal-897-intergenerationaltravel-valero.jpg?itok=bBKV-zIn"
+/>
+
+<pubDate>
+Fri, 04 Sep 2026 09:25:07 -0400
+</pubDate>
+
+<enclosure
+url="https://npr.simplecastaudio.com/d3081dd9-fcaf-445a-977c-4f56c28f5a6e/episodes/05f5064e-96a9-467e-952d-a6c1fe5a06c3/audio/128/default.mp3?awCollectionId=d3081dd9-fcaf-445a-977c-4f56c28f5a6e&amp;awEpisodeId=05f5064e-96a9-467e-952d-a6c1fe5a06c3&amp;nocache"
+type="audio/mpeg"
+/>
+
+<podcast:transcript
+url="https://lzoreal.github.io/TMLT/transcripts/897.vtt"
+type="text/vtt"
+language="en"
+/>
+
+</item>
+
+
+
+<item>
+
+<title>
 896: I Know What You Need
 </title>
 

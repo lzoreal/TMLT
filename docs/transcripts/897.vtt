@@ -1,0 +1,1027 @@
+WEBVTT
+
+00:00:00.770 --> 00:00:11.760
+<v Announcer>A quick warning-- there are curse words that are unbeeped in today's episode of the show. If you prefer a beeped version, you can find that at our website, thisamericanlife.org.
+
+00:00:11.760 --> 00:00:37.400
+<v Ira Glass>Dave Blanchard runs the public radio show Wild Card. And one of the less exciting and, in fact, rather tedious parts of his job is that he has to keep an eye on the comments that people post about the show online. And one day last fall on Spotify, he saw all this activity about this episode they did with the writer Elizabeth Gilbert. And Dave thought, oh, her book was controversial. It must have struck a nerve, this episode. And then he looked at the comments.
+
+00:00:37.400 --> 00:01:10.020
+<v Dave Blanchard>And it was just, like, gibberish. There was a bunch of new comments, but I couldn't make heads or tail of any of them. They're just these clipped, weird, incoherent postings that I was just like-- it screamed bots, just because anytime that I see just gibberish in a comment on the internet, I assume it's a bot. But the fact that they were all from different accounts seemed very weird. And the fact that they also maybe seemed to be interacting in some way also seemed weird and not like typical bot behavior.
+
+00:01:10.020 --> 00:01:12.260
+<v Ira Glass>Can I ask you to read some of those comments?
+
+00:01:12.260 --> 00:01:36.220
+<v Dave Blanchard>So yeah, I've got some from a later batch. We've got some where it's like, someone says, "Ah, OK, M-H." And two people have hearted that. Someone says, "Gilgamesh quit and I'm crying." "Last Friday I broke up with my GF." "Your cats are so cute." "You're gorgeous in that dress. OML, pink heart."
+
+00:01:36.220 --> 00:01:43.340
+<v Ira Glass>So OK, bots, he thought, some newfangled kind of bots that respond to each other somehow. He deleted the posts.
+
+00:01:43.340 --> 00:02:05.670
+<v Dave Blanchard>And I went back to the Spotify comments again. And there was a new comment that said, uh, so it deleted my com. And that felt not botty. That felt very strange that a bot would be able to recognize that the thread got deleted and post it, letting people know that it had been deleted.
+
+00:02:05.670 --> 00:02:08.230
+<v Ira Glass>And then there were other responses to that.
+
+00:02:08.230 --> 00:02:21.150
+<v Dave Blanchard>So someone says, username cotton/amity, parentheses, I'm back, bitches, commented, "Weird." Aubrey commented, "That's weirdss," two S's.
+
+00:02:21.150 --> 00:02:45.030
+<v Ira Glass>This is really not looking like any bot behavior he'd ever seen. So he goes to NPR's Slack channels, post some screenshots, describes what these comments are. And one of the higher-ups, Matilde, suggests reporting it to Spotify, which Dave does. And then somebody younger at NPR reads the thread. They're 10 years younger than Dave-- Gen Z, not millennial, named Hannah Chinn.
+
+00:02:45.030 --> 00:03:08.390
+<v Hanna Chinn>And I click into the screenshots, and almost immediately I'm like, oh. My conclusion is really, really different than Dave's and Matilde's, because I'm like, these are kids. And I think that part of that is because I was a middle schooler on the internet, posting on forums and stuff.
+
+00:03:08.390 --> 00:03:29.090
+<v Hanna Chinn>And so I look at their display names. Their display names are, like, Ella with five emojis. And they're the special character emojis. They're the ones that you have to go onto the internet and type your name into a special text generator, and then it comes out as a special character, and then you have to special paste it into your profile.
+
+00:03:29.090 --> 00:03:49.490
+<v Ira Glass>Their profile pictures are all cartoon characters Hannah's never seen before. And then there's the way that they're commenting back and forth with each other, short little phrases. I'm sorry. That's weird. Lots of hi's, lots of extra exclamation points. Hannah recognized it. They grew up in a conservative home, was homeschooled, with limited access to social media.
+
+00:03:49.490 --> 00:04:13.030
+<v Hanna Chinn>And so I was a kid who used weird parts of the internet not as they were originally designed to talk to my friends. I talked back and forth with my friends on Google Docs. And we would type things and then delete them, and then type things and then make them invisible by making the text white on the white background. So I think this is familiar behavior to me.
+
+00:04:13.030 --> 00:04:25.350
+<v Ira Glass>So Hannah writes out a comment to post on Slack, shows it to their housemate before posting because they're worried about coming off maybe too harsh with these much higher-ranking, older NPR bosses who Hannah had never met in person.
+
+00:04:25.350 --> 00:04:46.630
+<v Hanna Chinn>And I say, OK, maybe I'm wrong, but I think these are just kids hanging out and we shouldn't report them as bots. My guess is that they're just using Spotify comment threads as their group chat, maybe because other apps on their phones are blocked. Who knows? And they happen to have chosen a wild card episode to do it, LOL. These are middle schoolers.
+
+00:04:46.630 --> 00:04:49.590
+<v Ira Glass>Middle schoolers specifically, not high schoolers?
+
+00:04:49.590 --> 00:05:13.040
+<v Hanna Chinn>Yeah, these are people who are new to chatting with each other on the internet and in real life. They're kids who are excited to talk to other people on the internet. The goal is just to connect with people. You have nothing to talk about. You don't know each other very well. You're just seeing each other and acknowledging each other's presence in the chat.
+
+00:05:13.040 --> 00:05:20.280
+<v Ira Glass>Dave reads Hannah's Slack message. And, well, he is not convinced. He posts--
+
+00:05:20.280 --> 00:05:22.040
+<v Dave Blanchard>That's an interesting theory.
+
+00:05:22.040 --> 00:05:27.560
+<v Ira Glass>Yeah, that's an interesting theory. There's an exclamation point at the end of it, at least to give it that much credit.
+
+00:05:27.560 --> 00:05:50.060
+<v Dave Blanchard>Yes. Admittedly, I was still like, really? Again, this is Wild Card with Rachel Martin on NPR-- not our target demo to have a bunch of middle schoolers in our comment section. It just felt so completely implausible that these people would have found this particular episode as their place to chat.
+
+00:05:50.060 --> 00:06:03.820
+<v Hanna Chinn>Dave is like, oh, that's an interesting theory. And I, at this point-- sorry, Dave. I don't know you in real life. I'm a little bit annoyed. Because I'm like, I know that I said "maybe I'm wrong," but I was so sure that I was right.
+
+00:06:03.820 --> 00:06:18.060
+<v Ira Glass>Hannah does more digging, which makes them even more convinced than before. What the kids seemed to be doing was one kid would create a playlist on Spotify with a name like "Let's chat here." And inside that playlist would be one podcast episode.
+
+00:06:18.060 --> 00:06:31.940
+<v Ira Glass>And you know how you can see other people's playlists on Spotify if they make them public? Other kids would see that playlist. They'd see the episode. And then they would go to the podcast episode and start posting in the comments.
+
+00:06:31.940 --> 00:06:44.900
+<v Ira Glass>Hannah got back on Slack and pointed out that the kids were using a playlist that was named New Chat. The kids had also posted a Google Form with some kind of quiz on it and said, "Fill this out. Only cool people can fill this out."
+
+00:06:44.900 --> 00:06:55.280
+<v Hanna Chinn>Bots don't really spam Google Forms in my experience, whereas Gen Alpha might use them in the same way that my generation would use uQuiz or the BuzzFeed Make Your Own Personality Quiz feature.
+
+00:06:55.280 --> 00:06:58.120
+<v Ira Glass>And reading that was the turning point for Dave.
+
+00:06:58.120 --> 00:07:14.380
+<v Dave Blanchard>When they were like, this is something that I did, that's what unlocked it. I think it was so implausible to me. And then when Hannah was like, no, I did this, I was like, oh, wow. I guess it makes sense.
+
+00:07:14.380 --> 00:07:28.680
+<v Dave Blanchard>And then it was like, I could go back and look at it again. And it was like, I had the lens on to see it. And I was like, oh, my god, they are kids. In retrospect, it looks so obvious.
+
+00:07:28.680 --> 00:07:40.000
+<v Ira Glass>So how exactly did those commenters end up in the comment section of an NPR podcast? What exactly happened here? Well, we reached out to a bunch of the commenters. Only one of them agreed to talk to us.
+
+00:07:40.000 --> 00:07:53.330
+<v Ira Glass>As suspected, she is not a bot. She's a 14-year-old girl who talked to me from the car with her parents' permission and her dad at the wheel. Her name is Ella. When I asked her to describe herself, she said this.
+
+00:07:53.330 --> 00:08:07.410
+<v Ella>I would say that I'm definitely a bit hard to get to know because I don't know a lot about myself yet. But I think if you do get to know me, you'll find out I'm a pretty cool person.
+
+00:08:07.410 --> 00:08:31.130
+<v Ira Glass>Ella says this all started with a video podcast that played TikTok videos. Ella thinks a kid started it. The video seemed to be chosen specifically for kids who weren't allowed on TikTok, but were allowed on Spotify. That was Ella. She was allowed on Spotify, but on no social media. And she and the other kids would watch this girl's podcast on Spotify and then chat in the comments of the podcast.
+
+00:08:31.130 --> 00:08:40.630
+<v Ella>And her podcast ended up getting banned. And we wanted to keep talking to each other, so people would make playlists.
+
+00:08:40.630 --> 00:09:00.630
+<v Ira Glass>She described exactly the system that Hannah figured out. Kids would name their playlist "chat here" or something like that, and then there'd be some podcast, and everybody would go to that podcast and talk in the comments. She says it was maybe 20 kids in the core group-- lots of theater kids, she says, mostly girls, most of them with strict parents who didn't let them on regular social media.
+
+00:09:00.630 --> 00:09:08.870
+<v Ira Glass>And can I ask, why did you guys pick NPR shows to be the ones where you went to in the comments?
+
+00:09:08.870 --> 00:09:15.030
+<v Ella>I think we just looked for podcasts that didn't have many comments.
+
+00:09:15.030 --> 00:09:19.910
+<v Ira Glass>I see. So you picked NPR because it didn't seem very popular.
+
+00:09:19.910 --> 00:09:24.710
+<v Ella>Yeah, so that we wouldn't get caught up in other people's comments.
+
+00:09:24.710 --> 00:09:28.770
+<v Ira Glass>I tell you, buddy, I do a public radio show, and that hurts a little to hear it.
+
+00:09:28.770 --> 00:09:32.070
+<v Ella>[CHUCKLES]
+
+00:09:32.070 --> 00:09:32.910
+<v Ella>Sorry.
+
+00:09:32.910 --> 00:09:37.670
+<v Ira Glass>That's OK. Are your parents NPR listeners?
+
+00:09:37.670 --> 00:09:41.630
+<v Ella>Yeah, my mom is. She listens to podcasts all the time.
+
+00:09:41.630 --> 00:09:52.380
+<v Ira Glass>Was any of this that your parents were NPR listeners, and this felt like this is the perfect cover? Like, if they catch you doing this, you can be like, look, I'm just doing this for an NPR show.
+
+00:09:52.380 --> 00:09:52.850
+<v Ella>Yeah.
+
+00:09:52.850 --> 00:09:55.530
+<v Ira Glass>Is that true? Did you think about that?
+
+00:09:55.530 --> 00:09:57.810
+<v Ella>Yeah, a little bit.
+
+00:09:57.810 --> 00:10:14.370
+<v Ira Glass>It's funny. There was this guy named Dave who works for NPR, and he's in his 30s. And he saw the comments that you guys were doing. And they made no sense to him at all. He really had no idea what they were. And he thought you guys were all bots.
+
+00:10:14.370 --> 00:10:30.530
+<v Ella>Yeah. Some of them were really young, like 11 years old and stuff. So some of them definitely were a little bit not good at talking English that well. Or using slang.
+
+00:10:30.530 --> 00:10:52.950
+<v Ira Glass>I got to say, I thought that was a very generous answer. Dave thought they were bots. And she was like, yeah, well, some of us kind of talked like bots. Ella told me she's sure someday she'll be clueless like Dave is now, which, of course, isn't much comfort if you're Dave. Dave says that once he understood that it was kids writing all those comments, it didn't feel great.
+
+00:10:52.950 --> 00:11:16.790
+<v Dave Blanchard>One, I felt bad for having reported them. I definitely felt guilty. And two, old. I just felt very old, very dumb, very out of touch. I literally needed Hannah to be my generational translator. It was such a clarifying realization of my age and obsolescence.
+
+00:11:16.790 --> 00:12:02.480
+<v Ira Glass>Well, today on our program, people from one generation trying to cross the vast, vast distance that divides the young and the old with a message that they hope will get heard by the people on the other side. We have stories today of a wedding toast and of childhood hair care, and of the greatest job in the world, as seen from the eyes of a teenager, anyway. Intergenerational space travel this hour. From WBEZ Chicago, it's This American Life. I'm Ira Glass. Climb aboard this rocket with us, if you dare, and stay with us.
+
+00:12:02.480 --> 00:12:25.040
+<v Ira Glass>It's This American Life. Act One-- The Wedding Zinger. So let's start today with a story that is both intergenerational space and time travel. When Courtney Maum was 18, her mom got remarried. Courtney despised the guy, did not want the marriage to go through. But she was her mom's maid of honor, and she gave a speech at her mother's request.
+
+00:12:25.040 --> 00:12:56.820
+<v Ira Glass>And the speech she gave at 18 years old, her mom never forgave her for it, brought it up for years after. And then recently, after three tumultuous decades, her mom's relationship with this man fell apart. For Courtney, this was the opening, the chance to finally ask her mom across the divide between them about this marriage she never understood, and to try one more time to lay this infamous wedding speech to rest. Here's Courtney.
+
+00:12:56.820 --> 00:13:09.580
+<v Courtney Maum>At 18, I thought I was kind of hot stuff-- a writer in the making, a die-hard feminist, a student capable of bringing freedom to Tibet. Here's how my mom Linda saw me.
+
+00:13:09.580 --> 00:13:29.940
+<v Linda Maum>What I remember is at that point in your life, you were extremely selfish. And you didn't want anybody else in my life. You asked me not to even date until after you went off to college, and certainly not even think of getting married before that.
+
+00:13:29.940 --> 00:13:39.000
+<v Courtney Maum>Is that true? I'm sure it's true. The thing is, I loved being with my mother. Everybody did. I didn't want to share her.
+
+00:13:39.000 --> 00:14:03.320
+<v Courtney Maum>She was fun, beautiful, stylish, like a woman out of Knight Rider. She had a Harley-Davidson and a boating license. We were always on adventures. In the summer, I loved to watch her steer our little Boston Whaler, wearing these massive dangly earrings that sparkled in the sun. It was a fairy tale existence, a childhood of privilege, growing up like this in Greenwich, Connecticut, with parents I adored.
+
+00:14:03.320 --> 00:14:16.040
+<v Courtney Maum>But when I was eight and my brother Brendan was three, my father asked my mom for a divorce. My mother was devastated. But like I said, she was a hot item. So the suitors came a-calling.
+
+00:14:16.040 --> 00:14:30.480
+<v Courtney Maum>I can't say I was a fan. One laughed like a hyena. One was so heartsick with love for her, his longing made everyone embarrassed for him, my mother included. There were others, also memorable.
+
+00:14:30.480 --> 00:14:36.970
+<v Courtney Maum>Do you remember the man who whipped out a ventriloquist doll at Benihana's?
+
+00:14:36.970 --> 00:14:41.410
+<v Linda Maum>Yeah. Who the hell was that? But that was one date.
+
+00:14:41.410 --> 00:14:49.610
+<v Courtney Maum>We go into the Benihana's, and he's already seated. And this is family-style seating. So we're sitting with strangers. And we sit down.
+
+00:14:49.610 --> 00:15:12.710
+<v Courtney Maum>And course number one-- you know when they do the little joke and they flip the shrimp into people's mouths? This guy pulls a ventriloquist doll from out under the table, and he's like, give me some of that shrimp! Remember? Brendan was, what, six years old. We were dying. The whole table was like, no. No, this isn't it.
+
+00:15:12.710 --> 00:15:15.070
+<v Linda Maum>Brendan liked it. He liked it.
+
+00:15:15.070 --> 00:15:24.190
+<v Courtney Maum>Well, he probably stopped liking it once I rained on everyone's parade, but you know. And I remember going to the parking lot with you, and I was like, never again. Mom, that guy, never again.
+
+00:15:24.190 --> 00:15:27.010
+<v Linda Maum>And it was. Never again, never again.
+
+00:15:27.010 --> 00:15:45.990
+<v Courtney Maum>There was one final suitor, the man my mom would marry when I was a senior in high school. My mother has asked me to refer to him as Mr. X in this story. I didn't trust Mr. X from the start. He seemed to show up out of nowhere with no comprehensible backstory, like he was born out of the ether.
+
+00:15:45.990 --> 00:16:04.310
+<v Courtney Maum>One day, he pulled into our driveway in a rundown car and never left again. The old suitors had been annoying, but they were innocent. Mr. X was different. He put me on edge. He claimed he was an architect, but he never seemed to have any work. And he appeared to have no friends.
+
+00:16:04.310 --> 00:16:33.850
+<v Courtney Maum>I bugged my mom about his past. She explained she'd met him years before when she was pregnant with me, that he'd been part of a crew working on a renovation to the house my parents lived in. Whenever she told this story, I imagined my unborn self kicking from within her body, kicking in his direction, saying, no, not him, no. But I'd never heard the full story of their meeting until now. It happened back when my mother was still married to my father, Bob.
+
+00:16:33.850 --> 00:16:52.290
+<v Linda Maum>So I was just redoing the house, and I hired him as an architect or a builder, or whatever I thought he was. So here I was. I was pregnant. And he came into the driveway for me to interview him.
+
+00:16:52.290 --> 00:17:25.370
+<v Linda Maum>He drove in in an old, beat-up car, but he was so adorable, and he was also six years younger than I was. So at that point, that's a big difference between 30 and 24. That's a huge difference. And I interviewed other people, and I decided because he was cheaper, for one-- and I had a little-- he's so cute-- never in my life ever thinking I'd ever cheat on Bob, but you know, imagining.
+
+00:17:25.370 --> 00:17:44.520
+<v Linda Maum>So I remember in this one point, there was a bathroom in one of the guest rooms. And we were debating putting a skylight in it. And I got in the bathtub to show how high the ceiling had to go, and he got in behind me.
+
+00:17:44.520 --> 00:17:47.940
+<v Courtney Maum>Oh, boy. We're going to have a Ghost moment here.
+
+00:17:47.940 --> 00:17:57.180
+<v Linda Maum>No. And I just remember thinking, why did he get in so close to me? I don't remember. Why did he do that?
+
+00:17:57.180 --> 00:18:10.300
+<v Linda Maum>Anyway, the end of the story is that he got in a car accident. A car hit him. He almost lost his leg. So obviously, he took off with the money.
+
+00:18:10.300 --> 00:18:12.340
+<v Courtney Maum>The money she'd already paid him.
+
+00:18:12.340 --> 00:18:15.140
+<v Courtney Maum>Oh, God. I didn't know this part of the story.
+
+00:18:15.140 --> 00:18:26.720
+<v Linda Maum>So I had to go to court and prove that he had indeed been paid. So that put a very bad taste in my mouth.
+
+00:18:26.720 --> 00:18:58.000
+<v Courtney Maum>When my producers contacted him, Mr. X remembered the story differently. He said the car accident happened before he met my mom and that he didn't run off with the money, that he doesn't know what happened to it. There was no financial grift. He also said he didn't do anything untoward in the bathtub. Still, my mom got a bad feeling from their first interaction. There shouldn't have been a second one, but there was, after she was divorced and had all these suitors peacocking around.
+
+00:18:58.000 --> 00:19:08.760
+<v Courtney Maum>It was 15 years after the bathtub incident. She was picking up my brother from summer camp. Mr. X was picking up his son. She didn't recognize him at first.
+
+00:19:08.760 --> 00:19:13.200
+<v Linda Maum>I had seen Mr. X in the distance and thought, oh, he's so good-looking.
+
+00:19:13.200 --> 00:19:23.500
+<v Courtney Maum>She learned from a mutual friend that he was going through a divorce. Still, she didn't recognize him as the man from the botched reno. He was just some handsome stranger.
+
+00:19:23.500 --> 00:19:41.220
+<v Linda Maum>I was so excited he was going to be available. And so when I left, I gave him my phone number. And I said, if you ever want to talk, because it is a very difficult thing to go through, call me. Of course, it's a line.
+
+00:19:41.220 --> 00:19:52.160
+<v Linda Maum>And he did indeed call me, probably within a week. And that's how we started dating. But I didn't know who he was at the beginning. I mean--
+
+00:19:52.160 --> 00:19:56.240
+<v Courtney Maum>You didn't know that it was the same guy who snuck up behind you in the bathtub?
+
+00:19:56.240 --> 00:19:57.460
+<v Linda Maum>No, no, no.
+
+00:19:57.460 --> 00:19:58.260
+<v Courtney Maum>For a little frottage.
+
+00:19:58.260 --> 00:20:04.890
+<v Linda Maum>And you know why I didn't know? This is horrible to admit-- because he had a toupée on.
+
+00:20:04.890 --> 00:20:06.260
+<v Courtney Maum>[WHIMPERS]
+
+00:20:06.260 --> 00:20:07.100
+<v Linda Maum>And when--
+
+00:20:07.100 --> 00:20:10.660
+<v Courtney Maum>Wait. He had a toupée at the camp?
+
+00:20:10.660 --> 00:20:20.340
+<v Linda Maum>Yeah. So he had much more hair than I remember him having. And it was darker. He was blonde when I knew him.
+
+00:20:20.340 --> 00:20:43.350
+<v Linda Maum>And then he came over to me and said, I know who you are. And I said, you look familiar, but I don't know you. And he said, I'm Mr. X. [CHUCKLES] And I slammed him in the chest and said, Jesus Christ, I don't want to talk. I shouldn't want to talk to you. But that's what happened.
+
+00:20:43.350 --> 00:21:01.950
+<v Courtney Maum>My mom told me that on their first real date, she did ask Mr. X why he never paid the subcontractors at my parents' house. She said he told her he'd been in a car accident, was on heavy drugs and hospitalized. She decided to forgive him. I'd never heard about that moment in the bathtub or the missing money.
+
+00:21:01.950 --> 00:21:09.930
+<v Courtney Maum>Listen, what's surprising to me about hearing this full story, you remembered that and thought, you know what, this is the guy to pursue.
+
+00:21:09.930 --> 00:21:14.270
+<v Linda Maum>I'm going to let it go. Just forget about it. Yep.
+
+00:21:14.270 --> 00:21:16.290
+<v Courtney Maum>No red flags were waving around?
+
+00:21:16.290 --> 00:21:19.810
+<v Linda Maum>Of course they were.
+
+00:21:19.810 --> 00:21:26.730
+<v Courtney Maum>No further comment. [LAUGHS]
+
+00:21:26.730 --> 00:21:49.890
+<v Ira Glass>Before Mr. X, my mom was super social. When my parents were married, our house was like Studio frickin' 54. They had these awesome dinner parties where everybody looked nice, and my mom would serve this Martha Stewart-level cuisine with ease and panache that really impressed me as a kid. I remember going to sleep to the sound of people clinking glasses, enjoying each other's company.
+
+00:21:49.890 --> 00:22:08.170
+<v Ira Glass>When she got together with Mr. X, though, her life started to narrow. People didn't really come by our house much anymore. My sense is that Mr. X made people uncomfortable. Though he presented OK, in conversation he was gruff and socially awkward, a wild animal in deck shorts.
+
+00:22:08.170 --> 00:22:23.190
+<v Ira Glass>In public, he treated strangers badly-- barking at waiters, yelling at gas station attendants. In private, it was worse. He was clingy and possessive with my mother, cutting her down with hurtful comments.
+
+00:22:23.190 --> 00:22:39.270
+<v Ira Glass>The drinking stopped being social. Dinners were served on a tray in front of Fox News, the volume blaring, with him hollering for more. I graduated college still not understanding what the hell my mom saw in this man or why she'd let him come between us.
+
+00:22:39.270 --> 00:22:46.110
+<v Courtney Maum>What were other positive things that drew you to Mr. X in the beginning?
+
+00:22:46.110 --> 00:22:54.710
+<v Linda Maum>I had a partner. I was up at Candlewood Lake, and everything was husband and wives, or boyfriends and girlfriends.
+
+00:22:54.710 --> 00:22:57.450
+<v Courtney Maum>Candlewood Lake is where my mom was living at this point.
+
+00:22:57.450 --> 00:23:05.630
+<v Linda Maum>I had somebody that I was proud to be seen with, and he was a so-called architect.
+
+00:23:05.630 --> 00:23:11.790
+<v Courtney Maum>OK, so he was handsome. He was available as a partner.
+
+00:23:11.790 --> 00:23:14.950
+<v Linda Maum>Good sex partner, good sex partner.
+
+00:23:14.950 --> 00:23:15.880
+<v Courtney Maum>Oh, god.
+
+00:23:15.880 --> 00:23:19.160
+<v Linda Maum>Sorry. It's true.
+
+00:23:19.160 --> 00:23:25.840
+<v Courtney Maum>Let me just digest that. OK, but you just really didn't want to be alone, it sounds like.
+
+00:23:25.840 --> 00:23:31.360
+<v Linda Maum>I didn't like being alone, but I don't think I got married so I wouldn't be alone.
+
+00:23:31.360 --> 00:23:41.520
+<v Courtney Maum>I drilled into my mom about this. She said it was as simple as her wanting someone handsome on her arm. Everyone was coupled. She wanted something for herself.
+
+00:23:41.520 --> 00:23:45.760
+<v Courtney Maum>Why him, though? Because you had all these other offers. Why him?
+
+00:23:45.760 --> 00:23:50.160
+<v Linda Maum>Well, I guess because he didn't offer.
+
+00:23:50.160 --> 00:23:52.140
+<v Courtney Maum>Well, how did you get engaged?
+
+00:23:52.140 --> 00:23:53.740
+<v Linda Maum>I told him we were getting married.
+
+00:23:53.740 --> 00:24:03.980
+<v Courtney Maum>Oh, god, it was you? You were the motor behind this? My life is coming undone right here in the living room. You asked for his hand in marriage?
+
+00:24:03.980 --> 00:24:12.400
+<v Linda Maum>No, I did not ask. I told him that we might just as well get married, period.
+
+00:24:12.400 --> 00:24:15.340
+<v Courtney Maum>Romantic. And what did he say?
+
+00:24:15.340 --> 00:24:21.820
+<v Linda Maum>Yay.
+
+00:24:21.820 --> 00:24:41.500
+<v Courtney Maum>So this speech I gave at my mother's wedding that made her so upset, I remember her complaining about it to strangers, people at the grocery store, airline stewards for over a decade. If a waitress said something nice about mothers and daughters spending time together, she'd be like, ha, you should have heard how she talked about me at my wedding.
+
+00:24:41.500 --> 00:25:11.640
+<v Linda Maum>I thought I was going to get a how wonderful my mother was growing up and how happy I was to see her happy, but what I remember about that speech is it was more about the negative things that I did in my life, like, i.e., smoking-- at my wedding. And I remember standing there, and my heart just sunk. And I just thought, oh, my god, she really hates me.
+
+00:25:11.640 --> 00:25:38.880
+<v Courtney Maum>That's what she heard, but it's not what I remember saying. Here's where I admit that my speech was actually a poem written by me. I was super into poetry as a teenager, poetry as homage. When my best friend moved away, for example, I wrote her an ode that her mother had professionally calligraphied and framed, and that our school asked me to set to music and perform at assembly.
+
+00:25:38.880 --> 00:26:14.980
+<v Courtney Maum>For better or for worse, my visions of myself as a great American writer were clearly being indulged. So when my mom asked me to say something at her wedding, I cracked open my diary and set about writing something major, something so revealing it would cause the ground to crack beneath the altar or inspire someone to rise from the pews and speak out against their marriage, to make the whole thing stop there and then. I really wanted that. In preparation for this conversation with my mom, I dug the poem out. Neither of us had seen it in 30 years.
+
+00:26:14.980 --> 00:26:26.380
+<v Courtney Maum>I am looking at a piece of paper that has 1, 2, 3, 4-- like, seven stanzas on it. "Wedding Day Poem for My Mother."
+
+00:26:26.380 --> 00:26:50.340
+<v Courtney Maum>She walks through realms of habituated darkness. And can you see the tumble stones that mar her rocky path? She is pushing, she is pulling, she is moving through the darkness. And oh, the road is long, and every breath feels like her last. O, Mother, Mother, Mother, behind my lids I see you smiling at the bow within a boat above the sea.
+
+00:26:50.340 --> 00:26:56.780
+<v Ira Glass>In retrospect, there's no chance anyone understood this fucking poem. I'll skip ahead a bit.
+
+00:26:56.780 --> 00:27:03.500
+<v Courtney Maum>Other times I see you and often you are lonely, standing by our counter with a cigarette in hand.
+
+00:27:03.500 --> 00:27:07.460
+<v Ira Glass>There it is, the cigarette of my mother's discontent.
+
+00:27:07.460 --> 00:27:20.210
+<v Courtney Maum>And in my head I hear you wishing body beyond boundaries, somewhere another place, another time, another land. Mother, the time has come for laying down roots.
+
+00:27:20.210 --> 00:27:28.270
+<v Ira Glass>Right here, halfway through the poem, something weird occurs. My tone shifts in a way I don't remember at all.
+
+00:27:28.270 --> 00:27:43.430
+<v Courtney Maum>No longer do I see you glancing out beyond our window, wishing yourself other places very far from here. I think you found contentment. I think you found belonging. I think you have found a refuge where safety subdues fear.
+
+00:27:43.430 --> 00:27:55.630
+<v Ira Glass>Why had my mom given me such hell over this thing? The poem wasn't incendiary, nor was it damning of my mother. If anything, it seemed to wish her well. Here are the last lines.
+
+00:27:55.630 --> 00:28:03.510
+<v Courtney Maum>Look no more out the window. Look no more through the door. Look not beyond horizon. It's not foreign anymore.
+
+00:28:03.510 --> 00:28:14.250
+<v Courtney Maum>You found what you've been wanting. Your roots grow deep and true. You found a soul to worship and someone who loves you too.
+
+00:28:14.250 --> 00:28:16.470
+<v Linda Maum>OK. The ending was good.
+
+00:28:16.470 --> 00:28:18.450
+<v Courtney Maum>[LAUGHS]
+
+00:28:18.450 --> 00:28:45.610
+<v Linda Maum>But I will say that at that point, I probably wasn't listening anymore. And that's why I didn't hear the positiveness of it. You no longer have to look. You can go out and be happy with this person that's going to smoke with you. I wasn't going to be alone in this dark age of sin. It's negative to me.
+
+00:28:45.610 --> 00:28:46.150
+<v Courtney Maum>Still?
+
+00:28:46.150 --> 00:28:51.450
+<v Linda Maum>Yeah. Yeah, the beginning is definitely negative still.
+
+00:28:51.450 --> 00:29:09.870
+<v Courtney Maum>OK, so for me that's painful to hear, because I was really acknowledging how much you were struggling. And to me, that was what I was trying to do with the beginning, was acknowledge everything that you were going through that was so, so hard.
+
+00:29:09.870 --> 00:29:21.550
+<v Linda Maum>I could see that. You tell me that, and I can understand it. I'm sorry that I didn't hear the positiveness in it.
+
+00:29:21.550 --> 00:29:24.430
+<v Courtney Maum>I accept your apology. Thank you.
+
+00:29:24.430 --> 00:29:30.070
+<v Linda Maum>[CHUCKLES] [SIGHS] Oh, phew.
+
+00:29:30.070 --> 00:29:59.870
+<v Courtney Maum>I probably owe my mom an apology as well. I mean, now that I'm rereading it for the first time since the wedding, I get why she was so upset and hurt. It's a pretty dark picture to present of someone on their wedding day. I also get how she couldn't hear the nice things I was saying. Frankly, I didn't remember at all writing the end with that much compassion toward my mom and graciousness toward Mr. X, but hearing it, I do remember feeling that way.
+
+00:29:59.870 --> 00:30:17.080
+<v Courtney Maum>We were dealing with hard things as a family before my mom got remarried. My brother Brendan had gotten really sick. He basically moved into the Yale New Haven Children's Hospital when he was 10 years old because he was seizing uncontrollably. His heart would stop out of nowhere. It was a terrifying time.
+
+00:30:17.080 --> 00:30:47.360
+<v Courtney Maum>Mr. X was intolerant of everyone, but he was gentle with my brother, kind. He helped calm my mom down. I know this meant a lot to her and also to Brendan, especially because our father was sort of checked out emotionally from what was going on. I do remember thinking, this is a thing to hold on to here. This is his saving grace.
+
+00:30:47.360 --> 00:31:08.220
+<v Courtney Maum>I wish I'd made things simpler for my mom back then. I wish I could have said more clearly, I'm worried about you. But anger is the teenage version of worry, and I was very angry. My mom wouldn't tolerate me saying negative things about her partner, so I bottled them inside, which made me snippy and resentful.
+
+00:31:08.220 --> 00:31:16.900
+<v Courtney Maum>I stopped being nice to my mom. I stopped being light and silly with her. And as it turns out, I had reason to be worried.
+
+00:31:16.900 --> 00:31:34.740
+<v Courtney Maum>Two days after the wedding, at the age of 49, my mom had a massive stroke. There had been signs she wasn't well on her wedding day already. And in the days following her hospitalization I developed a theory that her body, not her mind, knew that the marriage was a mistake. I ran this by my mom.
+
+00:31:34.740 --> 00:31:46.100
+<v Linda Maum>I think that's true. I mean, why was I sweating so much? Why was I-- I think it's true.
+
+00:31:46.100 --> 00:32:00.840
+<v Linda Maum>I knew. I knew when I was buying my dress. I knew when I wasn't as happy. I do believe that I anticipated this awfulness ahead of time.
+
+00:32:00.840 --> 00:32:02.400
+<v Courtney Maum>In your body?
+
+00:32:02.400 --> 00:32:04.040
+<v Linda Maum>In every fiber.
+
+00:32:04.040 --> 00:32:13.120
+<v Courtney Maum>Oh, jeez. I mean, I think to me that's heartbreaking to hear, because that's what I thought was happening.
+
+00:32:13.120 --> 00:32:16.620
+<v Linda Maum>Oh, no. I'm just going to start crying.
+
+00:32:16.620 --> 00:32:19.140
+<v Courtney Maum>That's all right. You can cry, Mom. It's all right.
+
+00:32:19.140 --> 00:32:34.080
+<v Linda Maum>OK, I'm crying, so put that in. OK, so I should have called off the wedding. And I knew that, because I was just overwhelmed with everything, end of story.
+
+00:32:34.080 --> 00:32:39.920
+<v Courtney Maum>I entered this conversation with a bunch of questions from my mother, but it was coming down to one.
+
+00:32:39.920 --> 00:32:48.920
+<v Courtney Maum>How come you didn't listen to your guts? I think there were a lot of moments where you could have, and you didn't. Were you raised to defer to men, or?
+
+00:32:48.920 --> 00:32:53.780
+<v Linda Maum>I was raised that I knew nothing. I mean, I was always wrong.
+
+00:32:53.780 --> 00:32:56.100
+<v Courtney Maum>You were raised to believe you knew nothing?
+
+00:32:56.100 --> 00:32:57.610
+<v Linda Maum>Right.
+
+00:32:57.610 --> 00:32:58.970
+<v Courtney Maum>Because you're a woman?
+
+00:32:58.970 --> 00:33:23.550
+<v Linda Maum>My mother told me this. So my mother was very domineering. And she made me believe that I was worthless and everything else. And so when I married Mr. X, I think that came back to haunt me, all my negativity against myself. And I think I didn't listen to myself because I couldn't be right. I couldn't be right.
+
+00:33:23.550 --> 00:33:56.990
+<v Courtney Maum>That's so wild to hear. Because when I was little, my mom was the most capable person-- physically, socially, financially, a total financial whiz, the best dressed, the best looking, the best driver, the most fun, all of these fantastic things. And she had a real reputation still among my friends in school. Yeah, it's emotional to think of. Among my friends in school, it was just like, how everyone looked up to Linda Maum.
+
+00:33:56.990 --> 00:34:13.110
+<v Linda Maum>Well, to me this is all very sad. Because, again, it goes back to my mother-- and I hate doing this-- going back to my mother and blaming my mother for some of the things I became.
+
+00:34:13.110 --> 00:34:15.490
+<v Courtney Maum>And she was a huge smoker, if I'm remembering correctly.
+
+00:34:15.490 --> 00:34:25.230
+<v Linda Maum>Oh, giant, giant, giant. I was so angry at myself for being a smoker. I just didn't want to smoke, and then you made it a--
+
+00:34:25.230 --> 00:34:26.330
+<v Courtney Maum>So I hit a nerve?
+
+00:34:26.330 --> 00:34:32.230
+<v Linda Maum>Yep. Yep.
+
+00:34:32.230 --> 00:34:35.990
+<v Courtney Maum>My mom also had one main question for me.
+
+00:34:35.990 --> 00:34:43.750
+<v Linda Maum>Why did you dislike me so much as a teenager? You kind of have answered that, really, with all the things that were going on.
+
+00:34:43.750 --> 00:34:46.430
+<v Courtney Maum>But do you want to stop there and let me answer it?
+
+00:34:46.430 --> 00:34:47.990
+<v Linda Maum>Sure, if you have-- yeah.
+
+00:34:47.990 --> 00:34:49.050
+<v Courtney Maum>I have additional--
+
+00:34:49.050 --> 00:34:51.430
+<v Linda Maum>[SIGHS]
+
+00:34:51.430 --> 00:35:27.110
+<v Courtney Maum>I'm going to bristle at the word "dislike" because I actually liked you a lot, and I looked up to you in a lot of ways. What I could not stand was that you let yourself be walked all over by lesser men, by men specifically, but also men that either didn't seem to deserve you or were actually bad people that weren't respected. You really were such a strong-- you want to say something?
+
+00:35:27.110 --> 00:35:33.570
+<v Linda Maum>Yeah, I want to know what men they were. I thought it was just Mr. X. I mean, I don't remember anybody.
+
+00:35:33.570 --> 00:35:58.180
+<v Courtney Maum>Out of respect for my father-- I'm still grieving. He just passed. I don't want to talk too much about my dad, but my father did not always treat you with a great amount of respect. So I do include him in some of the men that I feel you were subservient to.
+
+00:35:58.180 --> 00:36:50.360
+<v Courtney Maum>What I saw growing up in Greenwich, Connecticut in the '80s and '90s when Greenwich was truly the bedroom town of Wall Street, what I saw was a lot of vivacious men who got to go somewhere else all day long and come home to children that were bathed and these beautiful women that were their wives-- put out fresh flowers, had dinner out. And the man just came and put his feet under the table, ate the food, and then got to go take a load off in a study. And so growing up, I was like, well, I'll be my dad. I'll be the man. I want to come home and have dinner at the table. I want to drive a cool car to work.
+
+00:36:50.360 --> 00:37:27.080
+<v Courtney Maum>And so something I bristled against with you is at a certain point, you were taking on so much, and it didn't necessarily seem to be bringing you joy. And Mr. X came into the picture. And in the beginning, I think he did-- he seemed to really worship you. But certainly, as the years went by, I saw a man who demanded to be served and did not fetch as much as his own ice cubes. And that made me really angry at you. I wanted you to stand up for yourself.
+
+00:37:27.080 --> 00:37:50.620
+<v Linda Maum>Well, I think it's-- in my mind it was dislike of me because of the way you talked to me and the way you avoided me. I could never see it any other way. Your tone of voice, I mean, I don't know how it could understand that that was because of my lack of respect for myself.
+
+00:37:50.620 --> 00:37:54.220
+<v Courtney Maum>Yeah. No, I don't think you could have. I mean, I was a B.
+
+00:37:54.220 --> 00:38:10.940
+<v Ira Glass>My mom's got a point here. I was sending mixed signals. I loved her. I was mean to her. I wanted her to be a feminist baddie who kicked out Mr. X, but I also benefited from her commitment to homemaking-- the awesome dinners, her driving me around.
+
+00:38:10.940 --> 00:38:22.820
+<v Ira Glass>It was confusing. I was confusing. But I was clear on one thing, Mom. You chose him over us. You kept on choosing him.
+
+00:38:22.820 --> 00:38:48.590
+<v Ira Glass>But one night last October, she made a different choice. In the kitchen of the house that Mr. X had designed to look art deco in style, but instead came out looking like a White Castle burger joint, my mom fell and broke her back. Though it was early in the evening, Mr. X was too drunk to help her. She lay on the floor for hours. Finally, he brought her her cell phone so she could call an ambulance herself.
+
+00:38:48.590 --> 00:38:56.030
+<v Linda Maum>When I was on that floor, I swore I was going to do everything I could to get rid of him.
+
+00:38:56.030 --> 00:39:11.390
+<v Courtney Maum>She was hospitalized for months, unable to walk. Before the accident, I'd almost given up on my mom, but now she told me that she'd reached a turning point. She gave me power of attorney to fight in court on her behalf to evict Mr. X.
+
+00:39:11.390 --> 00:39:22.990
+<v Courtney Maum>For months, I went everywhere with legal paperwork in case I was called into court. It was hard, and it was ugly. It was the hardest thing I've ever done in my life, actually. But we won.
+
+00:39:22.990 --> 00:39:39.990
+<v Courtney Maum>Mr. X left the house in an unholy state. I spent weeks cleaning up after him, boxing up his possessions. My mom came home from the hospital. My brother and his wife moved in with their cat, who took a particular liking to my mom.
+
+00:39:39.990 --> 00:40:04.200
+<v Linda Maum>I didn't know how complicated it was going to be to get about. And at that point, I didn't know you were going to be so instrumental in doing it. Because of the amount of time you spent down here, I realized how much you cared about me. Until then, I really didn't know. I didn't.
+
+00:40:04.200 --> 00:40:26.850
+<v Courtney Maum>Mr. X drove us apart, and kicking him out is what brought us back together. It's a strange thing to rally around, but this is where we are. My mom is 79. I'm nearly 50. We have the rest of our lives to catch up on what we've missed.
+
+00:40:26.850 --> 00:40:32.730
+<v Ira Glass>Courtney Maum. Her latest novel is called Alan Opts Out. Dana Chivvis produced this story.
+
+00:40:32.730 --> 00:40:44.030
+<v Ira Glass>We did reach out to Mr. X. And he told us he's designed hundreds of houses. He had lots of friends. He says he never left any house in any kind of disrepair in his life.
+
+00:40:44.030 --> 00:40:59.830
+<v Ira Glass>Coming up, a man goes back to the job of his teenage dreams to see what is the same and what is gone forever with the passage of time. That's in a minute on Chicago Public Radio when our program continues.
+
+00:40:59.830 --> 00:41:18.630
+<v Ira Glass>It's This American Life. I'm Ira Glass. Today's program, intergenerational space travel, stories of people braving the vast distances that separate young and old, trying to understand life on the other side of the divide. We've arrived at Act Two of our program. Act Two-- Cinema Veri-teen.
+
+00:41:18.630 --> 00:41:48.370
+<v Ira Glass>So when one of our producers, Ike Sriskandarajah, was a teenager, he had the greatest job he could humanly imagine. And that was, he worked at a movie theater. Wore a cummerbund to work every day, snuck around the managers with secret schemes of his own. This was back in 2003, more than 20 years ago. And Ike wanted to know, is the job still the best? He traveled back to his hometown in Wisconsin and spent some time at his old movie theater, the Marcus Point Cinema in Madison.
+
+00:41:48.370 --> 00:42:22.970
+<v Ike Sriskandarajah>My friend Marc vouched for me to his manager. That's how I got hired there. And Marc knew how to make the most of the job. He taught me which door was the easiest to let your friends in, how to give away free popcorn by filling up discarded plastic bags so you don't mess up your popcorn tub count, and why volunteering to clean the bathroom was actually secretly a great job, because you got out of the concession stand, and you could sneak into a movie for a scene or two on the clock.
+
+00:42:22.970 --> 00:42:41.420
+<v Ike Sriskandarajah>By senior year, I stacked lunch and study hall together in my schedule, and I'd treat friends to a school day matinee with popcorn and soda. I felt like a teen god, second to none in the pantheon of high school jobs, except maybe drug dealer.
+
+00:42:41.420 --> 00:42:57.300
+<v Ike Sriskandarajah>When I got back to my old theater, the outside looked the same-- classic old Hollywood movie marquee, and inside there's still busy, stain-masking carpet and the long tunnel with theaters on either side. It even smelled the same.
+
+00:42:57.300 --> 00:43:27.040
+<v Ike Sriskandarajah>I had asked to speak to teens, employees who were the same age I was when I started, but the company's comms team and their HR department said no. Instead, I could talk to a 26-year-old assistant manager named Darren Klingaman. He was behind the ticket booth when I arrived-- clean shaven, wearing a dress shirt with little flowers and a tie to match. Darren told me he did not apply for the same reasons I did, namely free movies.
+
+00:43:27.040 --> 00:43:31.400
+<v Darren Klingaman>No, it was just-- I just lucked out that that was a perk. I didn't know about it until afterwards.
+
+00:43:31.400 --> 00:43:31.920
+<v Ike Sriskandarajah>Oh, wow. OK.
+
+00:43:31.920 --> 00:43:33.640
+<v Darren Klingaman>It was a nice surprise.
+
+00:43:33.640 --> 00:43:34.480
+<v Ike Sriskandarajah>Nice surprise.
+
+00:43:34.480 --> 00:43:51.240
+<v Ira Glass>Darren was just looking for any job. Besides getting to see movies, what about the other things that made the job so fun back in the early aughts? Are they still part of it? I ran all my favorite hijinks we pulled at the movie theater by Darren.
+
+00:43:51.240 --> 00:44:17.880
+<v Ira Glass>Before I tell you about the first thing, I just want you to remember our brains were still developing when we thought this was so funny. So basically, if you were the person who ripped tickets, you were supposed to say, enjoy your show. But some genius came up with a twist that involved referencing male genitalia of specific dimensions. I told Darren about this.
+
+00:44:17.880 --> 00:44:23.480
+<v Ike Sriskandarajah>We'd mumble under our breaths, enjoy your chode.
+
+00:44:23.480 --> 00:44:25.280
+<v Darren Klingaman>OK.
+
+00:44:25.280 --> 00:44:27.300
+<v Ike Sriskandarajah>I was wondering if that's still happening.
+
+00:44:27.300 --> 00:44:28.720
+<v Darren Klingaman>Not that I'm aware of.
+
+00:44:28.720 --> 00:44:32.000
+<v Ike Sriskandarajah>You've never heard somebody say, enjoy your chode?
+
+00:44:32.000 --> 00:44:34.540
+<v Darren Klingaman>No, I have not.
+
+00:44:34.540 --> 00:44:36.580
+<v Ike Sriskandarajah>Do you think that joke's funny?
+
+00:44:36.580 --> 00:44:39.740
+<v Darren Klingaman>[SIGHS] I mean, I didn't laugh.
+
+00:44:39.740 --> 00:44:41.100
+<v Ike Sriskandarajah>I noticed that.
+
+00:44:41.100 --> 00:44:46.860
+<v Ira Glass>In the early aughts, it killed, at least with the kids working at the concession stand.
+
+00:44:46.860 --> 00:44:49.820
+<v Darren Klingaman>How many people just said, excuse me?
+
+00:44:49.820 --> 00:44:52.470
+<v Ike Sriskandarajah>I think that was the most common, because we're mumbling it.
+
+00:44:52.470 --> 00:44:58.340
+<v Darren Klingaman>You're mumbling it, right. Yeah, OK. Yeah. I mean, I think it could use some work.
+
+00:44:58.340 --> 00:45:10.020
+<v Ike Sriskandarajah>So that's a change. In 2026, chode's over, folks.
+
+00:45:10.020 --> 00:45:34.910
+<v Ike Sriskandarajah>Another thing that I thought was so fun was volunteering to flatten boxes out back. If that sounds boring, you don't know the WrestleMania technique that my friend taught me. Basically, you could fill up the industrial dumpster out back with unflattened boxes, pull yourself up to balance on the metal edge, and then launch yourself into the air and drop the People's Elbow on a box.
+
+00:45:34.910 --> 00:45:41.950
+<v Tom Reichilt>Well, I tell you, that sounds like a very interesting workman's comp issue, getting ready.
+
+00:45:41.950 --> 00:46:11.550
+<v Ike Sriskandarajah>That's area general manager Tom Reichilt, who corporate PR asked to join. So many things I loved about this job are gone. We wore tuxedos to work made of this magical material that was impervious to nacho cheese stains. During a tornado, we got evacuated into the manager's office, where we took an ID from the lost and found that looked enough like me to buy malt liquor exactly once.
+
+00:46:11.550 --> 00:46:24.870
+<v Ike Sriskandarajah>Now, kids are never let anywhere near the lost and found. The mini donut machine burned me, but it made delicious donuts. Back in the day, it burned Area General Manager Tom Reichilt too.
+
+00:46:24.870 --> 00:46:30.450
+<v Tom Reichilt>I probably have one here somewhere, maybe there. A little different these days.
+
+00:46:30.450 --> 00:47:05.270
+<v Ike Sriskandarajah>That's gone too. But what about the big one, my favorite benefit of the job-- letting my friends in for free? It really was the coolest thing I could think of, to be able to grant this wish to anybody-- a free night at the movies, a drink, popcorn. We were allowed to bring in one guest, but I was always happy to let in more friends through the back door near the dumpster. Darren says that, yes, that perk is still around, but these days, the back door is not necessary.
+
+00:47:05.270 --> 00:47:17.710
+<v Tom Reichilt>Just have them walk in the front door, come greet them over here, and we'll hook them up. I always let them all know that there's no reason to be sneaky in any way. If you want your friends to come see a movie, tell me, and I'll get them in. I mean, it's a perk.
+
+00:47:17.710 --> 00:47:52.950
+<v Ike Sriskandarajah>So they're allowed to bring in their friends. But calling out to an unscientific survey I did of three teens around America who work in movie theaters right now, I learned they don't want to. One 18-year-old in Kansas City says she prefers watching movies at home, where you can talk to your friends during the show and watch basically any movie ever made. What a waste. Darren at least understands how bringing someone in for free has the power to actually change your life.
+
+00:47:52.950 --> 00:48:02.870
+<v Darren Klingaman>When I first started here, a couple months later, I met my girlfriend. I brought her to a date here after hours. That might not technically be allowed.
+
+00:48:02.870 --> 00:48:04.530
+<v Ike Sriskandarajah>What do you mean, after hours?
+
+00:48:04.530 --> 00:48:13.150
+<v Darren Klingaman>Oh, everything was closed. We were closed down. I asked her if she wanted to come see a movie. So we watched Wicked.
+
+00:48:13.150 --> 00:48:17.610
+<v Ike Sriskandarajah>Whoa, you brought your girlfriend here because you had the keys to the place.
+
+00:48:17.610 --> 00:48:23.290
+<v Darren Klingaman>I did. I had the keys. She wasn't actually my girlfriend quite yet. Good first date.
+
+00:48:23.290 --> 00:48:32.440
+<v Darren Klingaman>I knew Wicked was one of her favorite musicals. So it was like, perfect thing. Wicked just came out. Why don't we watch it? Private showing and the biggest screen we can.
+
+00:48:32.440 --> 00:48:54.000
+<v Ike Sriskandarajah>Darren ushered her into an empty theater. Sat her down in the best seat in the house. Popcorn, Diet Coke in the cup holder. Brought a sweater because theaters get chilly. And then he ran up to the projectionist booth, fast forwarded through the ads, and ran back down to sit with her just in time for the show to start.
+
+00:48:54.000 --> 00:49:02.800
+<v Ike Sriskandarajah>That was two years ago. Now they're engaged. What other job would let you pull off a first date like that?
+
+00:49:02.800 --> 00:49:06.920
+<v Darren Klingaman>Honestly, I mean, it was so memorable. We still think about it.
+
+00:49:06.920 --> 00:49:13.960
+<v Ike Sriskandarajah>Now, tell me if I'm overstating it, but would you guys be getting married if it wasn't for that?
+
+00:49:13.960 --> 00:49:38.980
+<v Darren Klingaman>I would hope so, but I don't know. It's a good question because of how big of a thing it was and how meaningful and unique it was that it definitely bumped me up some points. So hopefully, but definitely not as easily.
+
+00:49:38.980 --> 00:49:41.680
+<v Ike Sriskandarajah>It's really similar to the thing that happened to me.
+
+00:49:41.680 --> 00:49:42.380
+<v Darren Klingaman>OK.
+
+00:49:42.380 --> 00:49:42.920
+<v Ike Sriskandarajah>When I was here--
+
+00:49:42.920 --> 00:50:20.260
+<v Ira Glass>I told Darren that I also once tried to impress a girl while on the job. When I met her, I filled up a discarded plastic bag with popcorn and slipped it to her. Another time, I let her and her friend in the back. I'm no longer wearing a tuxedo to work, but that girl I snuck in, we're married and have two children. The job today definitely seems less fun, but there's still a little movie magic left.
+
+00:50:20.260 --> 00:50:35.000
+<v Ira Glass>Ike Sriskandarajah. He's one of the producers of our show. By the way, none of the three teenagers I talked to knew what chode meant, but some of them thought it was funny anyway.
+
+00:50:35.000 --> 00:50:57.000
+<v Ira Glass>Act Three-- Mama, Can You Hair Me? Myra Flynn is in her 40s, and the person across the divide in this story is six. It's her daughter. The two of them have been in a bit of a standoff when it comes to getting ready for school in the morning. It was going so badly, Myra started recording these morning showdowns, trying to figure out if there was some way to fix things. Here she is.
+
+00:50:57.000 --> 00:51:14.160
+<v Myra Flynn>My mornings used to look so different. In my younger days as a touring musician, I'd greet the sunrise on my way home from a gig in some random city and face plant into my bed. But now I start my day at 7:10 AM, engaged in a battle of wills with my daughter Avalon over her hair.
+
+00:51:14.160 --> 00:51:20.890
+<v Myra Flynn>Hey, baby. It's time to do your hair. No, we're going to do it because you got to be at school in 10 minutes.
+
+00:51:20.890 --> 00:51:23.090
+<v Avalon>But Mommy.
+
+00:51:23.090 --> 00:51:47.730
+<v Myra Flynn>When I was a kid, my mom and I had a similar hair routine. She would sit me down at the breakfast table every morning, grab a cup of water and a hard bristle brush, and rake through my curls. It hurt like hell, but there was no point in complaining because my mom made it clear we didn't have time for any of that. My hair had to get done. That's just how it was. And that's just how it is for Avalon.
+
+00:51:47.730 --> 00:52:00.970
+<v Myra Flynn>Black hair is Black hair. And look, I'm not doing box braids or knotless styles, or writing her name in the side of her head with cornrows. I'm just trying to comb through it and put it in a ponytail so that no one looks at us crazy.
+
+00:52:00.970 --> 00:52:20.710
+<v Myra Flynn>So every morning, I take her hair out of whatever shape it's landed in after a night of sleep without a bonnet. I still haven't found one that stays on her head. Then I grab three different brushes, a big jar of leave-in conditioner, a spray bottle full of water, and get to work, which Avalon, who's six, hates.
+
+00:52:20.710 --> 00:52:22.430
+<v Avalon>Ow.
+
+00:52:22.430 --> 00:52:33.210
+<v Myra Flynn>Stop, baby. Avi, it's not that bad. Stop, stop, stop. No, no. I can't use that brush. I have to use this brush.
+
+00:52:33.210 --> 00:52:35.070
+<v Avalon>I just wanted to hold it.
+
+00:52:35.070 --> 00:52:42.510
+<v Myra Flynn>No, baby. You need to just-- please, can you just look forward, and bend your neck for me. Bend your neck down.
+
+00:52:42.510 --> 00:52:54.230
+<v Ira Glass>For the record, holding this brush is a stalling tactic for Avalon. She wants to hold it so I can't use it. And I see straight through you, Avalon Mathis Wills. I know my daughter.
+
+00:52:54.230 --> 00:53:04.230
+<v Ira Glass>Avalon, by all intents and purposes, seems impervious to pain. I've literally watched her face plant from the top of monkey bars onto the grass, only to bounce up and try it again.
+
+00:53:04.230 --> 00:53:19.690
+<v Ira Glass>This is a kid who doesn't want to wait for her teeth to fall out naturally. As soon as they're loose, she's trying to pull them out of her head. And she won't even let the tooth fairy take her teeth. She wants to make jewelry out of them. She's perfectly weird and brave in all the best ways.
+
+00:53:19.690 --> 00:53:32.710
+<v Ira Glass>So for her to shake and cry only with me is devastating. But also-- and I'm not proud of this-- a big part of me is like, girl, nobody's dying here. Suck it up.
+
+00:53:32.710 --> 00:53:34.650
+<v Avalon>It hurts.
+
+00:53:34.650 --> 00:53:39.450
+<v Myra Flynn>Baby, I'm sorry. I have to get it.
+
+00:53:39.450 --> 00:53:41.070
+<v Avalon>You already did.
+
+00:53:41.070 --> 00:53:46.850
+<v Myra Flynn>I didn't.
+
+00:53:46.850 --> 00:53:49.010
+<v Avalon>Will it hurt always?
+
+00:53:49.010 --> 00:54:03.250
+<v Myra Flynn>Probably, baby. Sometimes the things that we need are not comfortable.
+
+00:54:03.250 --> 00:54:09.130
+<v Ira Glass>Hold up. Did I just actually say that? I'm not even sure I believe it.
+
+00:54:09.130 --> 00:54:27.020
+<v Ira Glass>You know that moment when you open your mouth to say something and out comes your mother? This is one of the few times I heard that in my life, and it really stuck with me. My mom was the Black female dean of a military college. She taught me that sometimes in life, there are things like hair that you just have to tough out.
+
+00:54:27.020 --> 00:54:42.820
+<v Ira Glass>In so much of my parenting, I've tried to be a little different, do it my way. I don't know if I totally believe that Black kids should just have to tough it out when they're in pain. I also don't want to be a parent that teaches their Black kid that everything in life should feel like a lukewarm bath.
+
+00:54:42.820 --> 00:55:03.020
+<v Ira Glass>When it comes to Avalon's hair, I feel so conflicted, like my two parenting styles are at war. And when I heard myself say, sometimes the things we need are not comfortable, I felt like I had to talk to my mom about it. I needed her to back me up on this. So I called her, Miss Martha Mathis herself.
+
+00:55:03.020 --> 00:55:13.560
+<v Ira Glass>I walked her through what had been going on with Avalon, the battle with her hair every day right before school. And I asked her, this is just the way it is, right, to which she said--
+
+00:55:13.560 --> 00:55:33.160
+<v Martha Mathis>No. I think I've found that's what you want to avoid. Because at some point, if you're rushing and you're trying to do our hair, then it's going to hurt. If it's going to sit up there for days without anybody doing anything, then you're going to get what you get.
+
+00:55:33.160 --> 00:55:41.720
+<v Myra Flynn>My mom saying pain was something that you should or even could avoid was wild to me. She did my hair up so tightly I got migraines at school.
+
+00:55:41.720 --> 00:55:54.440
+<v Myra Flynn>Mama, do you remember one time when you were doing my hair, and you were doing it and doing it, and I was like, ow, ow! And I was eating breakfast at the breakfast table, and then I threw up?
+
+00:55:54.440 --> 00:55:55.160
+<v Martha Mathis>No.
+
+00:55:55.160 --> 00:55:56.480
+<v Myra Flynn>You don't remember that?
+
+00:55:56.480 --> 00:56:01.720
+<v Martha Mathis>I don't, but that doesn't mean it didn't happen. It just means I don't remember it.
+
+00:56:01.720 --> 00:56:02.160
+<v Myra Flynn>Yeah.
+
+00:56:02.160 --> 00:56:03.580
+<v Martha Mathis>Then what did we do?
+
+00:56:03.580 --> 00:56:15.500
+<v Myra Flynn>Oh, you went and grabbed the trash can, just in case I had to again. But yeah, I just remember it hurting a lot.
+
+00:56:15.500 --> 00:56:16.620
+<v Martha Mathis>Oh, yeah.
+
+00:56:16.620 --> 00:56:30.140
+<v Myra Flynn>My mom once described my parenting style as permissive. Sometimes I feel like I have to be firmer when she's around so she'll be proud of me, or something like that. So I couldn't quite wrap my head around what I was hearing.
+
+00:56:30.140 --> 00:56:38.520
+<v Myra Flynn>I'm kind of surprised to hear you say that, no, it doesn't have to hurt. I feel like you're a tough cookie, Mama.
+
+00:56:38.520 --> 00:56:38.980
+<v Martha Mathis>I am.
+
+00:56:38.980 --> 00:56:58.560
+<v Myra Flynn>Yeah. And I feel like you raised me to be one. And I can feel that lesson starting as early as my hair, just as I can feel like I'm doing that with Avalon. Do you think that I should be making her tough for the world? Like the way I'm talking about hair is a gateway into, like, toughen up. Do you think that--
+
+00:56:58.560 --> 00:57:10.360
+<v Martha Mathis>No. I wouldn't use hair as a gateway to toughen up because it has too many other racist and sexist implications.
+
+00:57:10.360 --> 00:57:14.940
+<v Myra Flynn>Did you want me to toughen up in those moments when I was crying and like, ouch, this hurts?
+
+00:57:14.940 --> 00:57:20.200
+<v Martha Mathis>No, no. It hurt. No. Why would you-- no.
+
+00:57:20.200 --> 00:57:24.200
+<v Myra Flynn>You didn't want me to toughen up and just be like, we got to get used to this because we're on a schedule. We got places to go.
+
+00:57:24.200 --> 00:58:02.360
+<v Martha Mathis>Well, it was going to happen whether you were tough or not. And at six-- I'll use Avalon's age-- she's as tough as she's going to be right now. And she can't be any tougher. I think she's the toughest little girl I know. So no, I would not have equated doing your hair with tough or not. I always felt bad that for those 10, 15, how many ever minutes it was, that that's how you were starting your day.
+
+00:58:02.360 --> 00:58:31.610
+<v Myra Flynn>I didn't know that she'd had any feelings about our mornings. My mother told me it was the same for her when she was young. She sat between her mother's knees, and out came the hot combs, the hair grease, the brushes, the pain, which she likes to remind me was far worse than mine, as I remind my daughter, and we copy and paste. But instead of giving me the validation I wanted and letting me know that the way she'd done my hair is really the only way, my mom gave me some advice I really wasn't looking for.
+
+00:58:31.610 --> 00:58:34.290
+<v Martha Mathis>Give her some of her own hair.
+
+00:58:34.290 --> 00:58:38.930
+<v Myra Flynn>Oh, to take care of? Yes, I've tried this. We've tried this, yes.
+
+00:58:38.930 --> 00:58:39.970
+<v Martha Mathis>Oh, you have?
+
+00:58:39.970 --> 00:58:43.730
+<v Myra Flynn>Oh, yeah. We've tried-- it's do-your-own-hair day.
+
+00:58:43.730 --> 00:58:55.770
+<v Ira Glass>Do-your-own-hair day in my house means we give Avalon a brush and some bows, and 15 minutes later, absolutely nothing has happened. But it turned out that wasn't what my mother was suggesting.
+
+00:58:55.770 --> 00:58:59.250
+<v Martha Mathis>No, I mean, have her do her own kitchen.
+
+00:58:59.250 --> 00:59:00.010
+<v Myra Flynn>Well.
+
+00:59:00.010 --> 00:59:02.130
+<v Martha Mathis>She'll be gentle with herself.
+
+00:59:02.130 --> 00:59:07.230
+<v Myra Flynn>If she does her own hair at this age, Mama, she's avoiding her kitchen altogether.
+
+00:59:07.230 --> 00:59:16.190
+<v Martha Mathis>What? OK. So it looks like-- I don't know-- a rat's nest. Nobody's going to see it.
+
+00:59:16.190 --> 00:59:16.930
+<v Myra Flynn>Yeah.
+
+00:59:16.930 --> 00:59:28.470
+<v Martha Mathis>And if you remind her now, get in there, because you don't want me in there. Would you remind her of that? It's going to be your hand or mine.
+
+00:59:28.470 --> 00:59:29.150
+<v Myra Flynn>Yeah.
+
+00:59:29.150 --> 00:59:43.430
+<v Martha Mathis>I think if you give her something that she owns and if it's just this little bit back there, my goodness, let her have it. What would happen if you parted that off, though, seriously?
+
+00:59:43.430 --> 00:59:54.910
+<v Myra Flynn>I'm hearing you. I just don't-- I'm like-- when you're saying, why don't you try this, why don't you try giving Avalon a little section for herself, why didn't you try that with me?
+
+00:59:54.910 --> 01:00:25.050
+<v Martha Mathis>Because no one told me that. That's how messages are passed on. The women my age, they were not brought up to even have these kind of conversations. And I don't even know if I had them in my brain, I mean, back then. But I'm saying for you, I would think you do have options. When you know better, you do better.
+
+01:00:25.050 --> 01:00:28.970
+<v Myra Flynn>The next time I did Avalon's hair, I let her do some of it.
+
+01:00:28.970 --> 01:00:44.550
+<v Myra Flynn>You ready to get the back just a little bit right here? Good job. Back here. Look at that. Why are you smiling? Whenever Mama's doing it, you're crying.
+
+01:00:44.550 --> 01:00:46.770
+<v Avalon>[LAUGHS]
+
+01:00:46.770 --> 01:00:49.530
+<v Myra Flynn>What's it feel like to do your own hair?
+
+01:00:49.530 --> 01:00:50.730
+<v Avalon>Soft.
+
+01:00:50.730 --> 01:00:53.170
+<v Myra Flynn>It feels soft, huh?
+
+01:00:53.170 --> 01:00:58.410
+<v Avalon>It doesn't feel hard like a rock. But when Mama does it, it feels hard like a rock.
+
+01:00:58.410 --> 01:01:02.680
+<v Myra Flynn>Your hair feels hard like a rock, or my brushing feels hard like a rock?
+
+01:01:02.680 --> 01:01:05.740
+<v Avalon>The brushing feels hard like a rock.
+
+01:01:05.740 --> 01:01:08.180
+<v Myra Flynn>Does this part hurt?
+
+01:01:08.180 --> 01:01:09.140
+<v Avalon>No.
+
+01:01:09.140 --> 01:01:18.360
+<v Myra Flynn>Oh, good. I don't think I've ever seen your kitchen look so good. Should we show Papa?
+
+01:01:18.360 --> 01:01:20.060
+<v Avalon>Mm-hmm.
+
+01:01:20.060 --> 01:01:24.460
+<v Myra Flynn>Papa Bear! Do you want to tell him? Want to tell him?
+
+01:01:24.460 --> 01:01:27.580
+<v Avalon>Look at my kitchen.
+
+01:01:27.580 --> 01:01:29.740
+<v Phil>[GASPS] Wow.
+
+01:01:29.740 --> 01:01:31.660
+<v Myra Flynn>What about your kitchen?
+
+01:01:31.660 --> 01:01:32.960
+<v Avalon>I did it.
+
+01:01:32.960 --> 01:01:33.760
+<v Phil>You did it?
+
+01:01:33.760 --> 01:01:34.380
+<v Avalon>Yes.
+
+01:01:34.380 --> 01:01:37.160
+<v Phil>Good job, baby.
+
+01:01:37.160 --> 01:02:18.480
+<v Myra Flynn>As a parent, you're always looking for your failures. There are so many ways to fall short. But every once in a while, if you're lucky, the evidence is clear. You did something really good for your kid. And with my mom's help, I was able to change this one thing in the wheel of my own motherhood, and maybe one day, Avalon's. I want her to know what my mother knew and her mother before her, that when you're doing your hair some parts need someone else's hands, and some parts we can learn to hold ourselves.
+
+01:02:18.480 --> 01:02:53.480
+<v Ira Glass>Myra Flynn. She's the host of the podcast Homegoings with Myra Flynn, which is available wherever you get your podcasts. Her story was produced by Emmanuel Dzotsi.
+
+01:02:53.480 --> 01:03:21.100
+<v Ira Glass>Well, our program was produced today by Dana Chivvis and Valerie Kipnis, who, by the way, produced the show across an intergenerational divide. It was edited by David Kestenbaum. The people who put together today's show include Adriene Lilly, Seth Lind, Katherine Rae Mondo, Stowe Nelson, Ruthie Petitto, Nadia Reiman, Ryan Rumery, Ruby Schwartz, Lilly Sullivan, Alissa Shipp, Frances Swanson, Nancy Updike, and Julie Whitaker. Our managing editor is Sarah Abdurrahman. Our senior editors, David Kestenbaum and Nancy Updike. Our executive editor is Emanuele Berry.
+
+01:03:21.100 --> 01:03:40.820
+<v Ira Glass>Special thanks today to Diego Ongaro, Brendan Maum, Jaime Ardolino, Eileen and Marc Civin, Rebecca Babcock, Shane Manship, B.A. Parker, Phil Wills, Sam Yellowhorse Kessler, Meghan Keane, Laurie Laz, Dan Sinykin, Ray Tintori, Ben Mossman, Brian Houston, Cora Bruce, Ingrid Haftel, and Ellis Retzer.
+
+01:03:40.820 --> 01:04:06.870
+<v Ira Glass>This American Life is delivered to public radio stations by PRX, the Public Radio Exchange. Thanks also to all of our This American Life Partners for helping us make the show with their contributions. Life Partners get bonus episodes. They get this newsletter where I and other staffers recommend films and TV shows and other stuff. They listen ad-free. Join at thisamericanlife.org/lifepartners. That link is also in the show notes.
+
+01:04:06.870 --> 01:04:19.830
+<v Ira Glass>Thanks as always to our program's co-founder, Mr. Torey Malatia. You know, no matter what kind of restaurant we go to-- Italian, Mexican, Thai-- his order is always, always, always the same.
+
+01:04:19.830 --> 01:04:21.890
+<v Courtney Maum>Give me some of that shrimp!
+
+01:04:21.890 --> 01:04:26.890
+<v Ira Glass>I'm Ira Glass. I'll be seeing you, of course, in the comments on Spotify. And I will be back next week with more stories of This American Life.
