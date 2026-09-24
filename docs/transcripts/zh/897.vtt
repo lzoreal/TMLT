@@ -1,0 +1,1369 @@
+WEBVTT
+
+00:00:00.770 --> 00:00:11.760
+<v Announcer>A quick warning-- there are curse words that are unbeeped in today's episode of the show. If you prefer a beeped version, you can find that at our website, thisamericanlife.org.
+<v Announcer>简短警告——本期节目中包含未经消音的脏话。如果您更喜欢消音版本，可以访问我们的网站 thisamericanlife.org。
+
+00:00:11.760 --> 00:00:37.400
+<v Ira Glass>Dave Blanchard runs the public radio show Wild Card. And one of the less exciting and, in fact, rather tedious parts of his job is that he has to keep an eye on the comments that people post about the show online. And one day last fall on Spotify, he saw all this activity about this episode they did with the writer Elizabeth Gilbert. And Dave thought, oh, her book was controversial. It must have struck a nerve, this episode. And then he looked at the comments.
+<v Ira Glass>戴夫·布兰查德负责运营公共广播节目《外卡》（Wild Card）。他工作中一项不太令人兴奋、实际上甚至相当乏味的任务，就是必须盯着人们在网上对该节目的评论。去年秋天的一天，他在 Spotify 上看到这期采访作家伊丽莎白·吉尔伯特的节目有大量互动。戴夫心想，她的书很有争议，这期节目肯定触动了大家的神经。然后他查看了那些评论。
+
+00:00:37.400 --> 00:01:10.020
+<v Dave Blanchard>And it was just, like, gibberish. There was a bunch of new comments, but I couldn't make heads or tail of any of them. They're just these clipped, weird, incoherent postings that I was just like-- it screamed bots, just because anytime that I see just gibberish in a comment on the internet, I assume it's a bot. But the fact that they were all from different accounts seemed very weird. And the fact that they also maybe seemed to be interacting in some way also seemed weird and not like typical bot behavior.
+<v Dave Blanchard>简直就是胡言乱语。出现了一堆新评论，但我根本看不出它们在说什么。它们只是一些零碎、古怪、不连贯的帖子，我当时觉得——这太像机器人发出的了，因为每次我在网上看到评论里出现乱码，我都会假设是机器人干的。但它们来自不同账户这一事实看起来非常奇怪。而且它们似乎还在以某种方式互动，这看起来很怪，不像典型的机器人行为。
+
+00:01:10.020 --> 00:01:12.260
+<v Ira Glass>Can I ask you to read some of those comments?
+<v Ira Glass>我能请你读一下其中的一些评论吗？
+
+00:01:12.260 --> 00:01:36.220
+<v Dave Blanchard>So yeah, I've got some from a later batch. We've got some where it's like, someone says, "Ah, OK, M-H." And two people have hearted that. Someone says, "Gilgamesh quit and I'm crying." "Last Friday I broke up with my GF." "Your cats are so cute." "You're gorgeous in that dress. OML, pink heart."
+<v Dave Blanchard>好吧，我这有一些后来批次的评论。比如有人说：“啊，好的，M-H。” 有两个人点了赞。有人说：“吉尔伽美什退出了，我哭了。” “上周五我和我女朋友分手了。” “你的猫太可爱了。” “你穿那件裙子真漂亮。OML，粉色爱心。”
+
+00:01:36.220 --> 00:01:43.340
+<v Ira Glass>So OK, bots, he thought, some newfangled kind of bots that respond to each other somehow. He deleted the posts.
+<v Ira Glass>好吧，他想，是机器人，某种能以某种方式互相回应的新型机器人。于是他删除了这些帖子。
+
+00:01:43.340 --> 00:02:05.670
+<v Dave Blanchard>And I went back to the Spotify comments again. And there was a new comment that said, uh, so it deleted my com. And that felt not botty. That felt very strange that a bot would be able to recognize that the thread got deleted and post it, letting people know that it had been deleted.
+<v Dave Blanchard>我又回到了 Spotify 的评论区。出现了一条新评论说，呃，所以它删除了我的评论。这感觉不像机器人。如果机器人能识别出帖子被删除了并发布信息告诉大家它被删了，那感觉非常奇怪。
+
+00:02:05.670 --> 00:02:08.230
+<v Ira Glass>And then there were other responses to that.
+<v Ira Glass>然后还有其他人对那条评论的回复。
+
+00:02:08.230 --> 00:02:21.150
+<v Dave Blanchard>So someone says, username cotton/amity, parentheses, I'm back, bitches, commented, "Weird." Aubrey commented, "That's weirdss," two S's.
+<v Dave Blanchard>有人说，用户名是 cotton/amity，括号里写着“我回来了，婊子们”，评论道：“怪。” 奥布里评论道：“太怪了”（weirdss，有两个s）。
+
+00:02:21.150 --> 00:02:45.030
+<v Ira Glass>This is really not looking like any bot behavior he'd ever seen. So he goes to NPR's Slack channels, post some screenshots, describes what these comments are. And one of the higher-ups, Matilde, suggests reporting it to Spotify, which Dave does. And then somebody younger at NPR reads the thread. They're 10 years younger than Dave-- Gen Z, not millennial, named Hannah Chinn.
+<v Ira Glass>这看起来根本不像他见过的任何机器人行为。于是他去了 NPR 的 Slack 频道，发布了一些截图，描述了这些评论的内容。其中一位高管马蒂尔德建议向 Spotify 举报，戴夫照做了。然后，一位更年轻的 NPR 员工阅读了那个讨论串。她比戴夫年轻十岁——属于 Z 世代，不是千禧一代，名叫汉娜·钦。
+
+00:02:45.030 --> 00:03:08.390
+<v Hanna Chinn>And I click into the screenshots, and almost immediately I'm like, oh. My conclusion is really, really different than Dave's and Matilde's, because I'm like, these are kids. And I think that part of that is because I was a middle schooler on the internet, posting on forums and stuff.
+<v Hanna Chinn>我点击查看了截图，几乎立刻就想，哦。我的结论与戴夫和马蒂尔德的完全不同，因为我觉得，这些都是小孩子。我觉得部分原因是，我在上初中时也混迹互联网，在论坛之类的平台上发帖。
+
+00:03:08.390 --> 00:03:29.090
+<v Hanna Chinn>And so I look at their display names. Their display names are, like, Ella with five emojis. And they're the special character emojis. They're the ones that you have to go onto the internet and type your name into a special text generator, and then it comes out as a special character, and then you have to special paste it into your profile.
+<v Hanna Chinn>所以我看了他们的显示名称。他们的显示名称看起来像这样：艾拉，后面跟着五个表情符号。而且都是那种特殊字符表情。你需要上网找到一个特殊文本生成器输入名字，生成后作为特殊字符，然后再粘贴到个人资料里。
+
+00:03:29.090 --> 00:03:49.490
+<v Ira Glass>Their profile pictures are all cartoon characters Hannah's never seen before. And then there's the way that they're commenting back and forth with each other, short little phrases. I'm sorry. That's weird. Lots of hi's, lots of extra exclamation points. Hannah recognized it. They grew up in a conservative home, was homeschooled, with limited access to social media.
+<v Ira Glass>他们的头像都是汉娜从未见过的卡通人物。还有他们互相评论的方式，都是简短的小短语。对不起。好奇怪。好多“嗨”，还有好多多余的感叹号。汉娜认出来了。他们是在保守家庭中长大的，接受在家教育，接触社交媒体的机会有限。
+
+00:03:49.490 --> 00:04:13.030
+<v Hanna Chinn>And so I was a kid who used weird parts of the internet not as they were originally designed to talk to my friends. I talked back and forth with my friends on Google Docs. And we would type things and then delete them, and then type things and then make them invisible by making the text white on the white background. So I think this is familiar behavior to me.
+<v Hanna Chinn>所以我是一个会使用互联网奇怪角落的人，而不是按原定设计来和朋友聊天。我和朋友会在 Google Docs 上聊天。我们会打字，然后删除，或者把文字变成白色，让它在白色背景下消失。所以我认为这种行为对我来说很熟悉。
+
+00:04:13.030 --> 00:04:25.350
+<v Ira Glass>So Hannah writes out a comment to post on Slack, shows it to their housemate before posting because they're worried about coming off maybe too harsh with these much higher-ranking, older NPR bosses who Hannah had never met in person.
+<v Ira Glass>于是汉娜在 Slack 上写了一条评论，在发布前给室友看了，因为她担心对自己从未谋面、地位高得多的 NPR 老板们显得太唐突。
+
+00:04:25.350 --> 00:04:46.630
+<v Hanna Chinn>And I say, OK, maybe I'm wrong, but I think these are just kids hanging out and we shouldn't report them as bots. My guess is that they're just using Spotify comment threads as their group chat, maybe because other apps on their phones are blocked. Who knows? And they happen to have chosen a wild card episode to do it, LOL. These are middle schoolers.
+<v Hanna Chinn>我说，好吧，也许是我错了，但我认为这些只是聚在一起玩的孩子，我们不应该把他们举报为机器人。我猜他们只是把 Spotify 的评论区当作群聊，也许是因为他们手机里的其他应用被封锁了。谁知道呢？而且他们恰好选了《外卡》的一期节目来做这件事，哈哈。这些都是初中生。
+
+00:04:46.630 --> 00:04:49.590
+<v Ira Glass>Middle schoolers specifically, not high schoolers?
+<v Ira Glass>是初中生，而不是高中生？
+
+00:04:49.590 --> 00:05:13.040
+<v Hanna Chinn>Yeah, these are people who are new to chatting with each other on the internet and in real life. They're kids who are excited to talk to other people on the internet. The goal is just to connect with people. You have nothing to talk about. You don't know each other very well. You're just seeing each other and acknowledging each other's presence in the chat.
+<v Hanna Chinn>是的，这些人刚开始在网上和现实生活中与人交流。他们是渴望在网上与其他人交流的孩子。目标只是与人建立联系。你们没什么可聊的，彼此也不太了解。你们只是看到了对方，并在聊天中承认了彼此的存在。
+
+00:05:13.040 --> 00:05:20.280
+<v Ira Glass>Dave reads Hannah's Slack message. And, well, he is not convinced. He posts--
+<v Ira Glass>戴夫读了汉娜的 Slack 消息。嗯，他不太相信。他回复了——
+
+00:05:20.280 --> 00:05:22.040
+<v Dave Blanchard>That's an interesting theory.
+<v Dave Blanchard>那是个有趣的理论。
+
+00:05:22.040 --> 00:05:27.560
+<v Ira Glass>Yeah, that's an interesting theory. There's an exclamation point at the end of it, at least to give it that much credit.
+<v Ira Glass>是的，那是个有趣的理论。最后有个感叹号，至少要给它这点面子。
+
+00:05:27.560 --> 00:05:50.060
+<v Dave Blanchard>Yes. Admittedly, I was still like, really? Again, this is Wild Card with Rachel Martin on NPR-- not our target demo to have a bunch of middle schoolers in our comment section. It just felt so completely implausible that these people would have found this particular episode as their place to chat.
+<v Dave Blanchard>是的。不得不承认，我当时还是想，真的吗？再说一次，这是 NPR 的《外卡》，由雷切尔·马丁主持——让一群初中生在我们的评论区里聊天并不是我们的目标受众。这些人会发现这个特定的节目并把它当作聊天场所，这感觉太不可思议了。
+
+00:05:50.060 --> 00:06:03.820
+<v Hanna Chinn>Dave is like, oh, that's an interesting theory. And I, at this point-- sorry, Dave. I don't know you in real life. I'm a little bit annoyed. Because I'm like, I know that I said "maybe I'm wrong," but I was so sure that I was right.
+<v Hanna Chinn>戴夫说，哦，那是个有趣的理论。此时我——对不起，戴夫，我在现实中不认识你。我有点恼火。因为我当时想，虽然我说过“也许是我错了”，但我非常确定我是对的。
+
+00:06:03.820 --> 00:06:18.060
+<v Ira Glass>Hannah does more digging, which makes them even more convinced than before. What the kids seemed to be doing was one kid would create a playlist on Spotify with a name like "Let's chat here." And inside that playlist would be one podcast episode.
+<v Ira Glass>汉娜进行了更深入的挖掘，这让她比以前更加确信。孩子们似乎在做的是，一个孩子会在 Spotify 上创建一个名为“在这里聊天”的播放列表，里面只有一期播客节目。
+
+00:06:18.060 --> 00:06:31.940
+<v Ira Glass>And you know how you can see other people's playlists on Spotify if they make them public? Other kids would see that playlist. They'd see the episode. And then they would go to the podcast episode and start posting in the comments.
+<v Ira Glass>你知道如果别人把播放列表设为公开，你就能看到吗？其他孩子会看到那个播放列表，看到那期节目。然后他们就会去那期播客的评论区开始留言。
+
+00:06:31.940 --> 00:06:44.900
+<v Ira Glass>Hannah got back on Slack and pointed out that the kids were using a playlist that was named New Chat. The kids had also posted a Google Form with some kind of quiz on it and said, "Fill this out. Only cool people can fill this out."
+<v Ira Glass>汉娜回到 Slack 上指出，这些孩子正在使用一个名为“新聊天”的播放列表。孩子们还发布了一个包含某种小测验的 Google 表单，并说：“填一下这个。只有酷的人才能填。”
+
+00:06:44.900 --> 00:06:55.280
+<v Hanna Chinn>Bots don't really spam Google Forms in my experience, whereas Gen Alpha might use them in the same way that my generation would use uQuiz or the BuzzFeed Make Your Own Personality Quiz feature.
+<v Hanna Chinn>以我的经验，机器人不会到处发 Google 表单的垃圾信息，而 Alpha 世代使用它们的方式，就像我们这一代使用 uQuiz 或 BuzzFeed 的“制作你自己的性格测试”功能一样。
+
+00:06:55.280 --> 00:06:58.120
+<v Ira Glass>And reading that was the turning point for Dave.
+<v Ira Glass>读到这一点是戴夫态度的转折点。
+
+00:06:58.120 --> 00:07:14.380
+<v Dave Blanchard>When they were like, this is something that I did, that's what unlocked it. I think it was so implausible to me. And then when Hannah was like, no, I did this, I was like, oh, wow. I guess it makes sense.
+<v Dave Blanchard>当他们说这是我曾经做过的事情时，那才是解开疑惑的关键。我觉得这对我来说太不可思议了。然后当汉娜说，不，我就是这么做的，我当时就想，哦，哇。我想这确实说得通。
+
+00:07:14.380 --> 00:07:28.680
+<v Dave Blanchard>And then it was like, I could go back and look at it again. And it was like, I had the lens on to see it. And I was like, oh, my god, they are kids. In retrospect, it looks so obvious.
+<v Dave Blanchard>然后我就能回过头来重新审视它了。就像是我戴上了眼镜才能看清一样。我心想，天哪，他们真的是孩子。回想起来，这显而易见。
+
+00:07:28.680 --> 00:07:40.000
+<v Ira Glass>So how exactly did those commenters end up in the comment section of an NPR podcast? What exactly happened here? Well, we reached out to a bunch of the commenters. Only one of them agreed to talk to us.
+<v Ira Glass>那么这些评论者到底是怎么出现在 NPR 播客的评论区的呢？这到底是怎么回事？我们联系了其中的几位评论者。只有一个人同意和我们谈谈。
+
+00:07:40.000 --> 00:07:53.330
+<v Ira Glass>As suspected, she is not a bot. She's a 14-year-old girl who talked to me from the car with her parents' permission and her dad at the wheel. Her name is Ella. When I asked her to describe herself, she said this.
+<v Ira Glass>正如所料，她不是机器人。她是一个 14 岁的女孩，在父母允许的情况下，由父亲开车，在车里接受了我的采访。她的名字叫艾拉。当我请她描述自己时，她是这么说的。
+
+00:07:53.330 --> 00:08:07.410
+<v Ella>I would say that I'm definitely a bit hard to get to know because I don't know a lot about myself yet. But I think if you do get to know me, you'll find out I'm a pretty cool person.
+<v Ella>我会说我确实有点难了解，因为我自己还不怎么了解自己。但我想如果你真的了解我，你会发现我是一个很酷的人。
+
+00:08:07.410 --> 00:08:31.130
+<v Ira Glass>Ella says this all started with a video podcast that played TikTok videos. Ella thinks a kid started it. The video seemed to be chosen specifically for kids who weren't allowed on TikTok, but were allowed on Spotify. That was Ella. She was allowed on Spotify, but on no social media. And she and the other kids would watch this girl's podcast on Spotify and then chat in the comments of the podcast.
+<v Ira Glass>艾拉说这一切始于一个播放 TikTok 视频的视频播客。艾拉认为是一个孩子发起的。这些视频似乎是专门为那些不被允许使用 TikTok 但被允许使用 Spotify 的孩子选择的。那就是艾拉。她可以使用 Spotify，但不能使用任何社交媒体。她和其他孩子会在 Spotify 上看这个女孩的播客，然后在评论区聊天。
+
+00:08:31.130 --> 00:08:40.630
+<v Ella>And her podcast ended up getting banned. And we wanted to keep talking to each other, so people would make playlists.
+<v Ella>结果她的播客被封禁了。我们想继续聊天，所以人们就会制作播放列表。
+
+00:08:40.630 --> 00:09:00.630
+<v Ira Glass>She described exactly the system that Hannah figured out. Kids would name their playlist "chat here" or something like that, and then there'd be some podcast, and everybody would go to that podcast and talk in the comments. She says it was maybe 20 kids in the core group-- lots of theater kids, she says, mostly girls, most of them with strict parents who didn't let them on regular social media.
+<v Ira Glass>她描述了汉娜发现的那个系统。孩子们会把他们的播放列表命名为“在这里聊天”之类的名字，然后放上一期播客，大家就会去那期播客的评论区说话。她说核心群体大概有 20 个孩子——很多戏剧社的孩子，她说，大部分是女孩，她们中大多数父母管教很严，不允许她们使用常规社交媒体。
+
+00:09:00.630 --> 00:09:08.870
+<v Ira Glass>And can I ask, why did you guys pick NPR shows to be the ones where you went to in the comments?
+<v Ira Glass>我能问一下，你们为什么选 NPR 的节目作为你们去评论的地方？
+
+00:09:08.870 --> 00:09:15.030
+<v Ella>I think we just looked for podcasts that didn't have many comments.
+<v Ella>我想我们只是在找评论不多的播客。
+
+00:09:15.030 --> 00:09:19.910
+<v Ira Glass>I see. So you picked NPR because it didn't seem very popular.
+<v Ira Glass>我明白了。所以你们选 NPR 是因为看起来不太受欢迎。
+
+00:09:19.910 --> 00:09:24.710
+<v Ella>Yeah, so that we wouldn't get caught up in other people's comments.
+<v Ella>是的，这样我们就不会被别人的评论打扰。
+
+00:09:24.710 --> 00:09:28.770
+<v Ira Glass>I tell you, buddy, I do a public radio show, and that hurts a little to hear it.
+<v Ira Glass>老兄，我告诉你，我是做公共广播节目的，听到这个有点受伤。
+
+00:09:28.770 --> 00:09:32.070
+<v Ella>[CHUCKLES]
+<v Ella>[轻笑]
+
+00:09:32.070 --> 00:09:32.910
+<v Ella>Sorry.
+<v Ella>抱歉。
+
+00:09:32.910 --> 00:09:37.670
+<v Ira Glass>That's OK. Are your parents NPR listeners?
+<v Ira Glass>没关系。你的父母是 NPR 的听众吗？
+
+00:09:37.670 --> 00:09:41.630
+<v Ella>Yeah, my mom is. She listens to podcasts all the time.
+<v Ella>是的，我妈妈是。她总是听播客。
+
+00:09:41.630 --> 00:09:52.380
+<v Ira Glass>Was any of this that your parents were NPR listeners, and this felt like this is the perfect cover? Like, if they catch you doing this, you can be like, look, I'm just doing this for an NPR show.
+<v Ira Glass>这其中有没有是因为你们的父母是 NPR 的听众，所以觉得这是完美的掩护？就像，如果他们发现你在做这个，你可以说，看，我只是在为一个 NPR 节目做这个。
+
+00:09:52.380 --> 00:09:52.850
+<v Ella>Yeah.
+<v Ella>是的。
+
+00:09:52.850 --> 00:09:55.530
+<v Ira Glass>Is that true? Did you think about that?
+<v Ira Glass>这是真的吗？你想过这一点吗？
+
+00:09:55.530 --> 00:09:57.810
+<v Ella>Yeah, a little bit.
+<v Ella>嗯，稍微想过。
+
+00:09:57.810 --> 00:10:14.370
+<v Ira Glass>It's funny. There was this guy named Dave who works for NPR, and he's in his 30s. And he saw the comments that you guys were doing. And they made no sense to him at all. He really had no idea what they were. And he thought you guys were all bots.
+<v Ira Glass>真逗。有个叫戴夫的人在 NPR 工作，他三十多岁。他看到了你们发的评论。对他来说完全没有任何意义。他根本不知道那是什么。他以为你们都是机器人。
+
+00:10:14.370 --> 00:10:30.530
+<v Ella>Yeah. Some of them were really young, like 11 years old and stuff. So some of them definitely were a little bit not good at talking English that well. Or using slang.
+<v Ella>是啊。他们中有些人确实很小，比如 11 岁左右。所以有些人确实不太擅长说英语，或者不太会用俚语。
+
+00:10:30.530 --> 00:10:52.950
+<v Ira Glass>I got to say, I thought that was a very generous answer. Dave thought they were bots. And she was like, yeah, well, some of us kind of talked like bots. Ella told me she's sure someday she'll be clueless like Dave is now, which, of course, isn't much comfort if you're Dave. Dave says that once he understood that it was kids writing all those comments, it didn't feel great.
+<v Ira Glass>我得说，我觉得这是一个非常大度的回答。戴夫以为他们是机器人。而她说，是啊，好吧，我们有些人说话确实有点像机器人。艾拉告诉我，她确信有一天她也会像现在的戴夫一样一无所知，当然，如果你是戴夫，这可算不上什么安慰。戴夫说，当他明白原来是孩子们在写那些评论时，感觉并不好。
+
+00:10:52.950 --> 00:11:16.790
+<v Dave Blanchard>One, I felt bad for having reported them. I definitely felt guilty. And two, old. I just felt very old, very dumb, very out of touch. I literally needed Hannah to be my generational translator. It was such a clarifying realization of my age and obsolescence.
+<v Dave Blanchard>第一，我为举报了他们感到难过。我确实感到愧疚。第二，我感觉自己老了。我只是觉得非常老、非常笨、非常脱节。我确实需要汉娜来做我的代际翻译。这是一次对我年龄和落伍的清醒认识。
+
+00:11:16.790 --> 00:12:02.480
+<v Ira Glass>Well, today on our program, people from one generation trying to cross the vast, vast distance that divides the young and the old with a message that they hope will get heard by the people on the other side. We have stories today of a wedding toast and of childhood hair care, and of the greatest job in the world, as seen from the eyes of a teenager, anyway. Intergenerational space travel this hour. From WBEZ Chicago, it's This American Life. I'm Ira Glass. Climb aboard this rocket with us, if you dare, and stay with us.
+<v Ira Glass>好吧，今天在我们的节目中，来自不同代际的人试图跨越横亘在年轻人和老年人之间那道巨大的鸿沟，传达他们希望对方能听到的信息。今天我们有关于婚礼祝酒、童年护发的故事，还有从青少年眼中看到的世界上最棒的工作。本小时的主题是代际空间旅行。来自 WBEZ 芝加哥，这是《美国生活》。我是艾拉·格拉斯。如果你们敢，就和我们一起登上这艘火箭，留下来陪我们吧。
+
+00:12:02.480 --> 00:12:25.040
+<v Ira Glass>It's This American Life. Act One-- The Wedding Zinger. So let's start today with a story that is both intergenerational space and time travel. When Courtney Maum was 18, her mom got remarried. Courtney despised the guy, did not want the marriage to go through. But she was her mom's maid of honor, and she gave a speech at her mother's request.
+<v Ira Glass>这是《美国生活》。第一幕——婚礼搅局者。让我们从一个既是代际空间旅行又是时间旅行的故事开始。考特尼·毛姆 18 岁时，她的妈妈再婚了。考特尼鄙视那个男人，不想让这段婚姻发生。但她是她妈妈的伴娘，应母亲的要求，她发表了演讲。
+
+00:12:25.040 --> 00:12:56.820
+<v Ira Glass>And the speech she gave at 18 years old, her mom never forgave her for it, brought it up for years after. And then recently, after three tumultuous decades, her mom's relationship with this man fell apart. For Courtney, this was the opening, the chance to finally ask her mom across the divide between them about this marriage she never understood, and to try one more time to lay this infamous wedding speech to rest. Here's Courtney.
+<v Ira Glass>而她 18 岁时发表的那次演讲，她妈妈从来没有原谅她，事后多年还提起。最近，在经历了三十年的动荡之后，她妈妈和那个男人的关系破裂了。对考特尼来说，这是一个切入点，一个终于可以跨越代沟，询问妈妈关于这段她从未理解的婚姻的机会，并试图再次平息那场臭名昭著的婚礼演讲。这是考特尼。
+
+00:12:56.820 --> 00:13:09.580
+<v Courtney Maum>At 18, I thought I was kind of hot stuff-- a writer in the making, a die-hard feminist, a student capable of bringing freedom to Tibet. Here's how my mom Linda saw me.
+<v Courtney Maum>在 18 岁时，我自以为很了不起——一个初出茅庐的作家、一个坚定的女权主义者、一个有能力为西藏带来自由的学生。这是我妈妈琳达眼中的我。
+
+00:13:09.580 --> 00:13:29.940
+<v Linda Maum>What I remember is at that point in your life, you were extremely selfish. And you didn't want anybody else in my life. You asked me not to even date until after you went off to college, and certainly not even think of getting married before that.
+<v Linda Maum>我记得那时你的人生阶段，你极度自私。你不想让任何人进入我的生活。你要求我甚至在你离家上大学之前不要约会，更不用说在那之前考虑结婚了。
+
+00:13:29.940 --> 00:13:39.000
+<v Courtney Maum>Is that true? I'm sure it's true. The thing is, I loved being with my mother. Everybody did. I didn't want to share her.
+<v Courtney Maum>那是真的吗？我敢肯定是真的。问题是，我喜欢和我的母亲在一起。每个人都喜欢她。我不想分享她。
+
+00:13:39.000 --> 00:14:03.320
+<v Courtney Maum>She was fun, beautiful, stylish, like a woman out of Knight Rider. She had a Harley-Davidson and a boating license. We were always on adventures. In the summer, I loved to watch her steer our little Boston Whaler, wearing these massive dangly earrings that sparkled in the sun. It was a fairy tale existence, a childhood of privilege, growing up like this in Greenwich, Connecticut, with parents I adored.
+<v Courtney Maum>她有趣、漂亮、时髦，就像《霹雳游侠》里的女人。她有一辆哈雷摩托车和游艇驾照。我们总是充满冒险。在夏天，我喜欢看着她驾驶我们的小波士顿捕鲸船，戴着那些在阳光下闪闪发光的巨大垂坠耳环。那是一个童话般的生存状态，一个充满特权的童年，就像这样在康涅狄格州的格林威治长大，拥有我崇拜的父母。
+
+00:14:03.320 --> 00:14:16.040
+<v Courtney Maum>But when I was eight and my brother Brendan was three, my father asked my mom for a divorce. My mother was devastated. But like I said, she was a hot item. So the suitors came a-calling.
+<v Courtney Maum>但当我 8 岁、我哥哥布伦丹 3 岁时，我的父亲向我妈妈提出了离婚。我母亲崩溃了。但就像我说的，她是个抢手货。所以追求者络绎不绝。
+
+00:14:16.040 --> 00:14:30.480
+<v Courtney Maum>I can't say I was a fan. One laughed like a hyena. One was so heartsick with love for her, his longing made everyone embarrassed for him, my mother included. There were others, also memorable.
+<v Courtney Maum>我不能说我是他们的粉丝。有一个笑起来像土狼。有一个对她的爱如此深切，他的渴望让所有人都为他感到尴尬，包括我母亲。还有其他的，也令人难忘。
+
+00:14:30.480 --> 00:14:36.970
+<v Courtney Maum>Do you remember the man who whipped out a ventriloquist doll at Benihana's?
+<v Courtney Maum>你还记得那个在贝尼汉纳餐厅突然掏出一个腹语木偶的男人吗？
+
+00:14:36.970 --> 00:14:41.410
+<v Linda Maum>Yeah. Who the hell was that? But that was one date.
+<v Linda Maum>是啊。那到底是谁？但那只是约会一次。
+
+00:14:41.410 --> 00:14:49.610
+<v Courtney Maum>We go into the Benihana's, and he's already seated. And this is family-style seating. So we're sitting with strangers. And we sit down.
+<v Courtney Maum>我们走进贝尼汉纳餐厅，他已经坐好了。那是家庭式的座位。所以我们和陌生人坐在一起。我们坐了下来。
+
+00:14:49.610 --> 00:15:12.710
+<v Courtney Maum>And course number one-- you know when they do the little joke and they flip the shrimp into people's mouths? This guy pulls a ventriloquist doll from out under the table, and he's like, give me some of that shrimp! Remember? Brendan was, what, six years old. We were dying. The whole table was like, no. No, this isn't it.
+<v Courtney Maum>第一道菜——你知道他们开玩笑把虾扔进人们嘴里的时候吗？这家伙从桌下掏出一个腹语木偶，他说，给我点虾！记得吗？布伦丹当时几岁，6 岁吧。我们简直快死了。整桌人都像，不。不，不是这样。
+
+00:15:12.710 --> 00:15:15.070
+<v Linda Maum>Brendan liked it. He liked it.
+<v Linda Maum>布伦丹喜欢。他喜欢。
+
+00:15:15.070 --> 00:15:24.190
+<v Courtney Maum>Well, he probably stopped liking it once I rained on everyone's parade, but you know. And I remember going to the parking lot with you, and I was like, never again. Mom, that guy, never again.
+<v Courtney Maum>好吧，他可能在我扫了大家的兴之后就不喜欢了，但是你知道。我记得和你一起走到停车场，我就说，绝不再有下次了。妈妈，那个人，绝不再有下次。
+
+00:15:24.190 --> 00:15:27.010
+<v Linda Maum>And it was. Never again, never again.
+<v Linda Maum>确实是这样。再也没有过，再也没有过。
+
+00:15:27.010 --> 00:15:45.990
+<v Courtney Maum>There was one final suitor, the man my mom would marry when I was a senior in high school. My mother has asked me to refer to him as Mr. X in this story. I didn't trust Mr. X from the start. He seemed to show up out of nowhere with no comprehensible backstory, like he was born out of the ether.
+<v Courtney Maum>最后还有一位追求者，那个在我高三时我妈妈要嫁给的男人。我母亲要求我在故事里称他为 X 先生。我从一开始就不信任 X 先生。他似乎凭空出现，没有可理解的背景故事，就像从以太中诞生一样。
+
+00:15:45.990 --> 00:16:04.310
+<v Courtney Maum>One day, he pulled into our driveway in a rundown car and never left again. The old suitors had been annoying, but they were innocent. Mr. X was different. He put me on edge. He claimed he was an architect, but he never seemed to have any work. And he appeared to have no friends.
+<v Courtney Maum>有一天，他开着一辆破车驶进我们的车道，就再也没离开过。以前的追求者很烦人，但他们是无辜的。 X 先生不同。他让我感到紧张。他声称自己是建筑师，但他似乎从没工作。而且他似乎没有朋友。
+
+00:16:04.310 --> 00:16:33.850
+<v Courtney Maum>I bugged my mom about his past. She explained she'd met him years before when she was pregnant with me, that he'd been part of a crew working on a renovation to the house my parents lived in. Whenever she told this story, I imagined my unborn self kicking from within her body, kicking in his direction, saying, no, not him, no. But I'd never heard the full story of their meeting until now. It happened back when my mother was still married to my father, Bob.
+<v Courtney Maum>我缠着妈妈问他的过去。她解释说，她在他还在怀着我的时候就认识他了，他是给父母住的房子进行翻修的施工队的一员。每当她讲这个故事时，我就想象着未出世的自己还在她体内踢腿，朝着他的方向踢，仿佛在说，不，不是他，不。但我直到现在才听到他们相遇的完整故事。那是发生在我母亲还和我父亲鲍勃结婚的时候。
+
+00:16:33.850 --> 00:16:52.290
+<v Linda Maum>So I was just redoing the house, and I hired him as an architect or a builder, or whatever I thought he was. So here I was. I was pregnant. And he came into the driveway for me to interview him.
+<v Linda Maum>所以我当时刚翻修房子，我雇他当建筑师或建筑工，或我以为他是什么。所以我在那儿。我怀孕了。他开车进车道让我面试他。
+
+00:16:52.290 --> 00:17:25.370
+<v Linda Maum>He drove in in an old, beat-up car, but he was so adorable, and he was also six years younger than I was. So at that point, that's a big difference between 30 and 24. That's a huge difference. And I interviewed other people, and I decided because he was cheaper, for one-- and I had a little-- he's so cute-- never in my life ever thinking I'd ever cheat on Bob, but you know, imagining.
+<v Linda Maum>他开着一辆破旧的车进来，但他太可爱了，而且他比我小六岁。所以在当时，30岁和24岁之间是一个巨大的差异。这是一个巨大的差距。我面试了其他人，我决定选他，因为他更便宜——而且我有一点——他太可爱了——我这辈子从没想过我会背叛鲍勃，但是你知道，想象一下。
+
+00:17:25.370 --> 00:17:44.520
+<v Linda Maum>So I remember in this one point, there was a bathroom in one of the guest rooms. And we were debating putting a skylight in it. And I got in the bathtub to show how high the ceiling had to go, and he got in behind me.
+<v Linda Maum>所以我记得在某一点上，客房里有一个浴室。我们在争论要不要在里面装个天窗。我坐在浴缸里展示天花板需要多高，他进到我身后。
+
+00:17:44.520 --> 00:17:47.940
+<v Courtney Maum>Oh, boy. We're going to have a Ghost moment here.
+<v Courtney Maum>天哪。我们要在现实生活中上演《人鬼情未了》了。
+
+00:17:47.940 --> 00:17:57.180
+<v Linda Maum>No. And I just remember thinking, why did he get in so close to me? I don't remember. Why did he do that?
+<v Linda Maum>不。我只记得我想，他为什么要靠我那么近？我不记得了。他为什么要那么做？
+
+00:17:57.180 --> 00:18:10.300
+<v Linda Maum>Anyway, the end of the story is that he got in a car accident. A car hit him. He almost lost his leg. So obviously, he took off with the money.
+<v Linda Maum>无论如何，故事的结局是他遭遇了一场车祸。一辆车撞了他。他差点丢了腿。所以很明显，他带着钱逃跑了。
+
+00:18:10.300 --> 00:18:12.340
+<v Courtney Maum>The money she'd already paid him.
+<v Courtney Maum>她已经付给他的钱。
+
+00:18:12.340 --> 00:18:15.140
+<v Courtney Maum>Oh, God. I didn't know this part of the story.
+<v Courtney Maum>天哪。我不知道故事的这一部分。
+
+00:18:15.140 --> 00:18:26.720
+<v Linda Maum>So I had to go to court and prove that he had indeed been paid. So that put a very bad taste in my mouth.
+<v Linda Maum>所以我不得不上法庭证明他确实已经收到了钱。这让我心里很不是滋味。
+
+00:18:26.720 --> 00:18:58.000
+<v Courtney Maum>When my producers contacted him, Mr. X remembered the story differently. He said the car accident happened before he met my mom and that he didn't run off with the money, that he doesn't know what happened to it. There was no financial grift. He also said he didn't do anything untoward in the bathtub. Still, my mom got a bad feeling from their first interaction. There shouldn't have been a second one, but there was, after she was divorced and had all these suitors peacocking around.
+<v Courtney Maum>当我的制作人联系他时，X 先生对这段故事的记忆不同。他说车祸发生在他遇见我妈妈之前，他并没有卷款潜逃，他不知道钱去了哪里。根本没有什么金融诈骗。他还说他在浴缸里没有做任何不恰当的事情。不过，我妈妈对他第一次接触感觉很不好。本不应该有第二次，但确实有了，在她离婚后，身边围着一堆像孔雀一样的追求者。
+
+00:18:58.000 --> 00:19:08.760
+<v Courtney Maum>It was 15 years after the bathtub incident. She was picking up my brother from summer camp. Mr. X was picking up his son. She didn't recognize him at first.
+<v Courtney Maum>那是浴缸事件 15 年后。她当时要去夏令营接我哥哥。 X 先生正在接他的儿子。她起初没认出他。
+
+00:19:08.760 --> 00:19:13.200
+<v Linda Maum>I had seen Mr. X in the distance and thought, oh, he's so good-looking.
+<v Linda Maum>我曾在远处看到 X 先生，心想，哦，他真好看。
+
+00:19:13.200 --> 00:19:23.500
+<v Courtney Maum>She learned from a mutual friend that he was going through a divorce. Still, she didn't recognize him as the man from the botched reno. He was just some handsome stranger.
+<v Courtney Maum>她从一位共同朋友那里得知他正在闹离婚。她仍然没有认出他就是那个翻修搞砸的男人。他只是某个英俊的陌生人。
+
+00:19:23.500 --> 00:19:41.220
+<v Linda Maum>I was so excited he was going to be available. And so when I left, I gave him my phone number. And I said, if you ever want to talk, because it is a very difficult thing to go through, call me. Of course, it's a line.
+<v Linda Maum>我太兴奋他居然恢复单身了。所以当我离开时，我给了他我的电话号码。我说，如果你想找人谈谈，因为这是一件非常困难的事情，打给我。当然，那是一句台词。
+
+00:19:41.220 --> 00:19:52.160
+<v Linda Maum>And he did indeed call me, probably within a week. And that's how we started dating. But I didn't know who he was at the beginning. I mean--
+<v Linda Maum>他确实给我打了电话，大概一周之内。这就是我们开始约会的方式。但我一开始不知道他是谁。我的意思是——
+
+00:19:52.160 --> 00:19:56.240
+<v Courtney Maum>You didn't know that it was the same guy who snuck up behind you in the bathtub?
+<v Courtney Maum>你不知道他就是那个在浴缸里偷偷溜到你身后的男人？
+
+00:19:56.240 --> 00:19:57.460
+<v Linda Maum>No, no, no.
+<v Linda Maum>不，不，不。
+
+00:19:57.460 --> 00:19:58.260
+<v Courtney Maum>For a little frottage.
+<v Courtney Maum>为了那一点摩擦。
+
+00:19:58.260 --> 00:20:04.890
+<v Linda Maum>And you know why I didn't know? This is horrible to admit-- because he had a toupée on.
+<v Linda Maum>你知道为什么我不知道吗？承认这一点太可怕了——因为他戴着假发。
+
+00:20:04.890 --> 00:20:06.260
+<v Courtney Maum>[WHIMPERS]
+<v Courtney Maum>[呜咽]
+
+00:20:06.260 --> 00:20:07.100
+<v Linda Maum>And when--
+<v Linda Maum>当——
+
+00:20:07.100 --> 00:20:10.660
+<v Courtney Maum>Wait. He had a toupée at the camp?
+<v Courtney Maum>等等。他在夏令营戴着假发？
+
+00:20:10.660 --> 00:20:20.340
+<v Linda Maum>Yeah. So he had much more hair than I remember him having. And it was darker. He was blonde when I knew him.
+<v Linda Maum>是的。所以他的头发比我记忆中多得多。而且颜色更深。我认识他的时候他是金发。
+
+00:20:20.340 --> 00:20:43.350
+<v Linda Maum>And then he came over to me and said, I know who you are. And I said, you look familiar, but I don't know you. And he said, I'm Mr. X. [CHUCKLES] And I slammed him in the chest and said, Jesus Christ, I don't want to talk. I shouldn't want to talk to you. But that's what happened.
+<v Linda Maum>然后他走到我身边说，我知道你是谁。我说，你看起来很面熟，但我不知道你是谁。他说，我是 X 先生。[轻笑] 我打在他的胸口上说，天哪，我不想谈。我不应该想和你说话。但这就是发生的事情。
+
+00:20:43.350 --> 00:21:01.950
+<v Courtney Maum>My mom told me that on their first real date, she did ask Mr. X why he never paid the subcontractors at my parents' house. She said he told her he'd been in a car accident, was on heavy drugs and hospitalized. She decided to forgive him. I'd never heard about that moment in the bathtub or the missing money.
+<v Courtney Maum>我妈妈告诉我，在他们第一次正式约会时，她确实问过 X 先生为什么他从没付钱给父母房子的分包商。她说他告诉她他出了一场车祸，服用了强力药物并住了院。她决定原谅他。我从没听说过浴缸里的那一幕或失踪的钱。
+
+00:21:01.950 --> 00:21:09.930
+<v Courtney Maum>Listen, what's surprising to me about hearing this full story, you remembered that and thought, you know what, this is the guy to pursue.
+<v Courtney Maum>听着，听到这个完整的故事，最让我惊讶的是，你记住了那一幕，还想，你知道吗，这就是要追求的男人。
+
+00:21:09.930 --> 00:21:14.270
+<v Linda Maum>I'm going to let it go. Just forget about it. Yep.
+<v Linda Maum>我打算放手了。忘了它吧。是的。
+
+00:21:14.270 --> 00:21:16.290
+<v Courtney Maum>No red flags were waving around?
+<v Courtney Maum>没有任何红旗警告吗？
+
+00:21:16.290 --> 00:21:19.810
+<v Linda Maum>Of course they were.
+<v Linda Maum>当然有。
+
+00:21:19.810 --> 00:21:26.730
+<v Courtney Maum>No further comment. [LAUGHS]
+<v Courtney Maum>不做进一步评论。[大笑]
+
+00:21:26.730 --> 00:21:49.890
+<v Ira Glass>Before Mr. X, my mom was super social. When my parents were married, our house was like Studio frickin' 54. They had these awesome dinner parties where everybody looked nice, and my mom would serve this Martha Stewart-level cuisine with ease and panache that really impressed me as a kid. I remember going to sleep to the sound of people clinking glasses, enjoying each other's company.
+<v Ira Glass>在 X 先生之前，我妈妈超级爱社交。当我父母结婚时，我们家就像是工作室 54 号。他们举办了很棒的晚餐聚会，每个人看起来都很体面，我妈妈可以轻松地端上玛莎·斯图尔特级别的佳肴，那种风度让小时候的我印象深刻。我记得是在人们碰杯、享受彼此陪伴的声音中入睡的。
+
+00:21:49.890 --> 00:22:08.170
+<v Ira Glass>When she got together with Mr. X, though, her life started to narrow. People didn't really come by our house much anymore. My sense is that Mr. X made people uncomfortable. Though he presented OK, in conversation he was gruff and socially awkward, a wild animal in deck shorts.
+<v Ira Glass>然而，当她和 X 先生在一起后，她的生活开始缩小。人们不再经常来我们家了。我的感觉是，X 先生让大家感到不舒服。虽然他看起来还可以，但在交谈中他粗鲁且社交尴尬，一个穿着平底短裤的野兽。
+
+00:22:08.170 --> 00:22:23.190
+<v Ira Glass>In public, he treated strangers badly-- barking at waiters, yelling at gas station attendants. In private, it was worse. He was clingy and possessive with my mother, cutting her down with hurtful comments.
+<v Ira Glass>在公共场合，他对待陌生人很糟糕——对服务员大喊大叫，对加油站服务员咆哮。在私下里，更糟。他对我的母亲纠缠不清且占有欲极强，用伤人的言语贬低她。
+
+00:22:23.190 --> 00:22:39.270
+<v Ira Glass>The drinking stopped being social. Dinners were served on a tray in front of Fox News, the volume blaring, with him hollering for more. I graduated college still not understanding what the hell my mom saw in this man or why she'd let him come between us.
+<v Ira Glass>喝酒不再是社交性的了。晚餐放在福克斯新闻前的托盘上，音量震耳欲聋，他大声叫喊着要更多。我大学毕业时仍然不明白我妈妈到底看中了这个男人什么，或者为什么她会让他介入我们之间。
+
+00:22:39.270 --> 00:22:46.110
+<v Courtney Maum>What were other positive things that drew you to Mr. X in the beginning?
+<v Courtney Maum>最初吸引你追求 X 先生的其他积极因素是什么？
+
+00:22:46.110 --> 00:22:54.710
+<v Linda Maum>I had a partner. I was up at Candlewood Lake, and everything was husband and wives, or boyfriends and girlfriends.
+<v Linda Maum>我有个伴侣。我在蜡烛木湖，周围全是夫妻，或者男朋友和女朋友。
+
+00:22:54.710 --> 00:22:57.450
+<v Courtney Maum>Candlewood Lake is where my mom was living at this point.
+<v Courtney Maum>蜡烛木湖就是我妈妈当时住的地方。
+
+00:22:57.450 --> 00:23:05.630
+<v Linda Maum>I had somebody that I was proud to be seen with, and he was a so-called architect.
+<v Linda Maum>我有人可以带出去，我感到很自豪，他还是所谓的建筑师。
+
+00:23:05.630 --> 00:23:11.790
+<v Courtney Maum>OK, so he was handsome. He was available as a partner.
+<v Courtney Maum>好的，所以他英俊。他是个可以陪伴的伴侣。
+
+00:23:11.790 --> 00:23:14.950
+<v Linda Maum>Good sex partner, good sex partner.
+<v Linda Maum>很好的性伴侣，很好的性伴侣。
+
+00:23:14.950 --> 00:23:15.880
+<v Courtney Maum>Oh, god.
+<v Courtney Maum>噢，上帝。
+
+00:23:15.880 --> 00:23:19.160
+<v Linda Maum>Sorry. It's true.
+<v Linda Maum>抱歉。这是真的。
+
+00:23:19.160 --> 00:23:25.840
+<v Courtney Maum>Let me just digest that. OK, but you just really didn't want to be alone, it sounds like.
+<v Courtney Maum>让我消化一下。好的，但这听起来你只是不想独自一人。
+
+00:23:25.840 --> 00:23:31.360
+<v Linda Maum>I didn't like being alone, but I don't think I got married so I wouldn't be alone.
+<v Linda Maum>我不喜欢孤独，但我不认为我结婚是为了不孤独。
+
+00:23:31.360 --> 00:23:41.520
+<v Courtney Maum>I drilled into my mom about this. She said it was as simple as her wanting someone handsome on her arm. Everyone was coupled. She wanted something for herself.
+<v Courtney Maum>我追问了我妈妈关于这件事。她说这很简单，她就是想让身边有一个英俊的男人。每个人都成双成对。她想为自己争取点什么。
+
+00:23:41.520 --> 00:23:45.760
+<v Courtney Maum>Why him, though? Because you had all these other offers. Why him?
+<v Courtney Maum>可为什么是他呢？因为你还有这么多其他的追求。为什么是他？
+
+00:23:45.760 --> 00:23:50.160
+<v Linda Maum>Well, I guess because he didn't offer.
+<v Linda Maum>好吧，我猜是因为他没有追求。
+
+00:23:50.160 --> 00:23:52.140
+<v Courtney Maum>Well, how did you get engaged?
+<v Courtney Maum>好吧，你们是怎么订婚的？
+
+00:23:52.140 --> 00:23:53.740
+<v Linda Maum>I told him we were getting married.
+<v Linda Maum>我告诉他我们要结婚了。
+
+00:23:53.740 --> 00:24:03.980
+<v Courtney Maum>Oh, god, it was you? You were the motor behind this? My life is coming undone right here in the living room. You asked for his hand in marriage?
+<v Courtney Maum>噢，上帝，是你？你是背后的推动者？我的人生就在这间客厅里分崩离析了。你向他求婚？
+
+00:24:03.980 --> 00:24:12.400
+<v Linda Maum>No, I did not ask. I told him that we might just as well get married, period.
+<v Linda Maum>不，我没有求婚。我告诉他我们不妨结婚，就这么定了。
+
+00:24:12.400 --> 00:24:15.340
+<v Courtney Maum>Romantic. And what did he say?
+<v Courtney Maum>浪漫啊。那他怎么说？
+
+00:24:15.340 --> 00:24:21.820
+<v Linda Maum>Yay.
+<v Linda Maum>好耶。
+
+00:24:21.820 --> 00:24:41.500
+<v Courtney Maum>So this speech I gave at my mother's wedding that made her so upset, I remember her complaining about it to strangers, people at the grocery store, airline stewards for over a decade. If a waitress said something nice about mothers and daughters spending time together, she'd be like, ha, you should have heard how she talked about me at my wedding.
+<v Courtney Maum>所以我在我母亲婚礼上发表的那篇让她如此生气的演讲，我记得她向陌生人、杂货店的人、航空公司空乘抱怨了十多年。如果女服务员说了关于母女一起度过时光的好话，她会说，哈，你应该听听她在我的婚礼上是怎么说我的。
+
+00:24:41.500 --> 00:25:11.640
+<v Linda Maum>I thought I was going to get a how wonderful my mother was growing up and how happy I was to see her happy, but what I remember about that speech is it was more about the negative things that I did in my life, like, i.e., smoking-- at my wedding. And I remember standing there, and my heart just sunk. And I just thought, oh, my god, she really hates me.
+<v Linda Maum>我以为我会得到一个关于我母亲在成长过程中是多么美妙以及看到她快乐我有多高兴的演讲，但我记得那个演讲的内容更多是关于我生活中做的负面事情，比如，吸烟——在我的婚礼上。我记得站在那里，我的心一下子沉了下去。我当时想，天哪，她真的讨厌我。
+
+00:25:11.640 --> 00:25:38.880
+<v Courtney Maum>That's what she heard, but it's not what I remember saying. Here's where I admit that my speech was actually a poem written by me. I was super into poetry as a teenager, poetry as homage. When my best friend moved away, for example, I wrote her an ode that her mother had professionally calligraphied and framed, and that our school asked me to set to music and perform at assembly.
+<v Courtney Maum>那是她听到的，但这不是我记得说的。在这里我承认我的演讲实际上是我写的一首诗。作为一个青少年，我非常喜欢诗歌，把诗歌当作一种致敬。例如，当我最好的朋友搬走时，我给她写了一首颂诗，她母亲专门请人书法装裱起来，而且我们学校还要求我给它配乐并在集会上表演。
+
+00:25:38.880 --> 00:26:14.980
+<v Courtney Maum>For better or for worse, my visions of myself as a great American writer were clearly being indulged. So when my mom asked me to say something at her wedding, I cracked open my diary and set about writing something major, something so revealing it would cause the ground to crack beneath the altar or inspire someone to rise from the pews and speak out against their marriage, to make the whole thing stop there and then. I really wanted that. In preparation for this conversation with my mom, I dug the poem out. Neither of us had seen it in 30 years.
+<v Courtney Maum>不管好坏，我作为美国伟大作家的愿景显然正在被放纵。所以当妈妈让我说点什么时，我打开日记本，开始写点重头戏，一些如此揭露的内容，会引发祭坛下的地面开裂，或者激励某人从长椅上站起来反对他们的婚姻，让这一切在此时此地停止。我真的很想那样。为了这次对话，我挖出了那首诗。我们俩都已经 30 年没见过它了。
+
+00:26:14.980 --> 00:26:26.380
+<v Courtney Maum>I am looking at a piece of paper that has 1, 2, 3, 4-- like, seven stanzas on it. "Wedding Day Poem for My Mother."
+<v Courtney Maum>我正在看一张纸，上面有 1、2、3、4——大概七个诗节。“给母亲的结婚诗”。
+
+00:26:26.380 --> 00:26:50.340
+<v Courtney Maum>She walks through realms of habituated darkness. And can you see the tumble stones that mar her rocky path? She is pushing, she is pulling, she is moving through the darkness. And oh, the road is long, and every breath feels like her last. O, Mother, Mother, Mother, behind my lids I see you smiling at the bow within a boat above the sea.
+<v Courtney Maum>她走过习惯性黑暗的领域。你能看到那块磨损她岩石路径的滚石吗？她在推动，她在拉动，她在黑暗中穿行。噢，路很长，每一次呼吸都像是最后一次。噢，母亲，母亲，母亲，在我的眼睑后我看到你在船上的船头微笑，在海上。
+
+00:26:50.340 --> 00:26:56.780
+<v Ira Glass>In retrospect, there's no chance anyone understood this fucking poem. I'll skip ahead a bit.
+<v Ira Glass>回想起来，没人听得懂这首该死的诗。我跳过一点。
+
+00:26:56.780 --> 00:27:03.500
+<v Courtney Maum>Other times I see you and often you are lonely, standing by our counter with a cigarette in hand.
+<v Courtney Maum>其他时候我看到你，你经常很孤独，拿着烟站在柜台旁。
+
+00:27:03.500 --> 00:27:07.460
+<v Ira Glass>There it is, the cigarette of my mother's discontent.
+<v Ira Glass>就是那个，我母亲不满的烟草。
+
+00:27:07.460 --> 00:27:20.210
+<v Courtney Maum>And in my head I hear you wishing body beyond boundaries, somewhere another place, another time, another land. Mother, the time has come for laying down roots.
+<v Courtney Maum>在我的脑海里我听到你渴望身体超越边界，在某个别的地方，另一个时间，另一片土地。母亲，扎根的时间到了。
+
+00:27:20.210 --> 00:27:28.270
+<v Ira Glass>Right here, halfway through the poem, something weird occurs. My tone shifts in a way I don't remember at all.
+<v Ira Glass>就在这儿，诗写了一半，发生了奇怪的事情。我的语调发生了变化，我自己完全不记得了。
+
+00:27:28.270 --> 00:27:43.430
+<v Courtney Maum>No longer do I see you glancing out beyond our window, wishing yourself other places very far from here. I think you found contentment. I think you found belonging. I think you have found a refuge where safety subdues fear.
+<v Courtney Maum>我不再看到你瞥向窗外，渴望自己去离这很远的地方。我想你找到了满足。我想你找到了归属。我想你找到了一个安全压倒恐惧的避难所。
+
+00:27:43.430 --> 00:27:55.630
+<v Ira Glass>Why had my mom given me such hell over this thing? The poem wasn't incendiary, nor was it damning of my mother. If anything, it seemed to wish her well. Here are the last lines.
+<v Ira Glass>为什么我妈妈会因为这件事如此折磨我？这首诗既没有煽动性，也没有谴责我母亲。如果有的话，它似乎是在祝福她。这是最后几行。
+
+00:27:55.630 --> 00:28:03.510
+<v Courtney Maum>Look no more out the window. Look no more through the door. Look not beyond horizon. It's not foreign anymore.
+<v Courtney Maum>不要再向窗外看。不要再透过门看。不要超越地平线看。那不再是陌生的了。
+
+00:28:03.510 --> 00:28:14.250
+<v Courtney Maum>You found what you've been wanting. Your roots grow deep and true. You found a soul to worship and someone who loves you too.
+<v Courtney Maum>你找到了你想要的。你的根扎得又深又正。你找到了一个崇拜的灵魂，还有爱你的人。
+
+00:28:14.250 --> 00:28:16.470
+<v Linda Maum>OK. The ending was good.
+<v Linda Maum>好的。结尾写得不错。
+
+00:28:16.470 --> 00:28:18.450
+<v Courtney Maum>[LAUGHS]
+<v Courtney Maum>[大笑]
+
+00:28:18.450 --> 00:28:45.610
+<v Linda Maum>But I will say that at that point, I probably wasn't listening anymore. And that's why I didn't hear the positiveness of it. You no longer have to look. You can go out and be happy with this person that's going to smoke with you. I wasn't going to be alone in this dark age of sin. It's negative to me.
+<v Linda Maum>但我得说，在那一点上，我可能已经没在听了。这就是为什么我没有听到其中的积极性。你不再需要寻找。你可以出去和这个和你一起吸烟的人快乐了。我不会再在这个罪恶的黑暗时代孤独一人了。对我来说这是负面的。
+
+00:28:45.610 --> 00:28:46.150
+<v Courtney Maum>Still?
+<v Courtney Maum>现在还这么觉得？
+
+00:28:46.150 --> 00:28:51.450
+<v Linda Maum>Yeah. Yeah, the beginning is definitely negative still.
+<v Linda Maum>是啊。是啊，开头的部分依然肯定是负面的。
+
+00:28:51.450 --> 00:29:09.870
+<v Courtney Maum>OK, so for me that's painful to hear, because I was really acknowledging how much you were struggling. And to me, that was what I was trying to do with the beginning, was acknowledge everything that you were going through that was so, so hard.
+<v Courtney Maum>好的，所以这对我来说很痛苦，因为我真的很认可你当时在努力应对的一切。对我来说，我当时试图在开头做的，就是承认你所经历的所有非常非常艰难的事情。
+
+00:29:09.870 --> 00:29:21.550
+<v Linda Maum>I could see that. You tell me that, and I can understand it. I'm sorry that I didn't hear the positiveness in it.
+<v Linda Maum>我能看出这一点。你告诉我，我能理解。我很抱歉我没有听到其中的积极性。
+
+00:29:21.550 --> 00:29:24.430
+<v Courtney Maum>I accept your apology. Thank you.
+<v Courtney Maum>我接受你的道歉。谢谢。
+
+00:29:24.430 --> 00:29:30.070
+<v Linda Maum>[CHUCKLES] [SIGHS] Oh, phew.
+<v Linda Maum>[轻笑][叹息] 噢，呼。
+
+00:29:30.070 --> 00:29:59.870
+<v Courtney Maum>I probably owe my mom an apology as well. I mean, now that I'm rereading it for the first time since the wedding, I get why she was so upset and hurt. It's a pretty dark picture to present of someone on their wedding day. I also get how she couldn't hear the nice things I was saying. Frankly, I didn't remember at all writing the end with that much compassion toward my mom and graciousness toward Mr. X, but hearing it, I do remember feeling that way.
+<v Courtney Maum>我可能也欠我妈妈一个道歉。我的意思是，既然我在婚礼后第一次重读它，我明白了她为什么那么生气和受伤。在婚礼当天展示一个人的黑暗图景是很糟糕的。我也明白她为什么听不到我说的好话。坦率地说，我完全不记得我结尾写的时候对妈妈怀有那么多同情，对 X 先生怀有那么多客气，但听到它，我确实记得当时那种感受。
+
+00:29:59.870 --> 00:30:17.080
+<v Courtney Maum>We were dealing with hard things as a family before my mom got remarried. My brother Brendan had gotten really sick. He basically moved into the Yale New Haven Children's Hospital when he was 10 years old because he was seizing uncontrollably. His heart would stop out of nowhere. It was a terrifying time.
+<v Courtney Maum>我妈妈再婚前，我们作为一个家庭正在处理艰难的事情。我哥哥布伦丹病得很重。他 10 岁时基本上就住进了耶鲁大学纽黑文儿童医院，因为他癫痫发作失控。他的心脏会无缘无故停跳。那是一段可怕的时光。
+
+00:30:17.080 --> 00:30:47.360
+<v Courtney Maum>Mr. X was intolerant of everyone, but he was gentle with my brother, kind. He helped calm my mom down. I know this meant a lot to her and also to Brendan, especially because our father was sort of checked out emotionally from what was going on. I do remember thinking, this is a thing to hold on to here. This is his saving grace.
+<v Courtney Maum>X 先生对谁都不宽容，但他对我弟弟很温柔、很友善。他帮助平复了我妈妈的情绪。我知道这对她和布伦丹都意义重大，尤其是因为我们的父亲在情感上对发生的事情有点逃避。我确实记得当时想，这里有个值得坚持的东西。这是他唯一的救赎。
+
+00:30:47.360 --> 00:31:08.220
+<v Courtney Maum>I wish I'd made things simpler for my mom back then. I wish I could have said more clearly, I'm worried about you. But anger is the teenage version of worry, and I was very angry. My mom wouldn't tolerate me saying negative things about her partner, so I bottled them inside, which made me snippy and resentful.
+<v Courtney Maum>我希望当时能让妈妈的事情简单一些。我希望我能更清楚地说，我很担心你。但愤怒是青少年版本的担心，而我当时非常愤怒。我妈妈容不下我说她伴侣的坏话，所以我把它们憋在心里，这让我变得尖刻而怨恨。
+
+00:31:08.220 --> 00:31:16.900
+<v Courtney Maum>I stopped being nice to my mom. I stopped being light and silly with her. And as it turns out, I had reason to be worried.
+<v Courtney Maum>我不再对妈妈好。我不再和她轻快、傻气了。事实证明，我确实有理由担心。
+
+00:31:16.900 --> 00:31:34.740
+<v Courtney Maum>Two days after the wedding, at the age of 49, my mom had a massive stroke. There had been signs she wasn't well on her wedding day already. And in the days following her hospitalization I developed a theory that her body, not her mind, knew that the marriage was a mistake. I ran this by my mom.
+<v Courtney Maum>婚礼后两天，49 岁的妈妈中风了。在婚礼当天，已经有迹象表明她身体不适。在住院后的几天里，我形成了一个理论，她的身体，而不是她的思想，知道这段婚姻是一个错误。我把这个理论告诉了妈妈。
+
+00:31:34.740 --> 00:31:46.100
+<v Linda Maum>I think that's true. I mean, why was I sweating so much? Why was I-- I think it's true.
+<v Linda Maum>我想那是真的。我的意思是，为什么我流那么多汗？为什么我——我想那是真的。
+
+00:31:46.100 --> 00:32:00.840
+<v Linda Maum>I knew. I knew when I was buying my dress. I knew when I wasn't as happy. I do believe that I anticipated this awfulness ahead of time.
+<v Linda Maum>我知道。我在买婚纱时就知道。我不那么开心时就知道。我确实相信我提前预知了这种糟糕。
+
+00:32:00.840 --> 00:32:02.400
+<v Courtney Maum>In your body?
+<v Courtney Maum>在你的身体里？
+
+00:32:02.400 --> 00:32:04.040
+<v Linda Maum>In every fiber.
+<v Linda Maum>在每一根纤维里。
+
+00:32:04.040 --> 00:32:13.120
+<v Courtney Maum>Oh, jeez. I mean, I think to me that's heartbreaking to hear, because that's what I thought was happening.
+<v Courtney Maum>噢，天哪。我的意思是，对我来说这听起来令人心碎，因为这就是我以为正在发生的事情。
+
+00:32:13.120 --> 00:32:16.620
+<v Linda Maum>Oh, no. I'm just going to start crying.
+<v Linda Maum>噢，不。我要开始哭了。
+
+00:32:16.620 --> 00:32:19.140
+<v Courtney Maum>That's all right. You can cry, Mom. It's all right.
+<v Courtney Maum>没关系。你可以哭，妈妈。没关系。
+
+00:32:19.140 --> 00:32:34.080
+<v Linda Maum>OK, I'm crying, so put that in. OK, so I should have called off the wedding. And I knew that, because I was just overwhelmed with everything, end of story.
+<v Linda Maum>好的，我在哭，把它录进去。好的，所以我当时就应该取消婚礼。我知道，因为我被一切压垮了，故事结束。
+
+00:32:34.080 --> 00:32:39.920
+<v Courtney Maum>I entered this conversation with a bunch of questions from my mother, but it was coming down to one.
+<v Courtney Maum>我带着一堆问题开始了这次对话，但归根结底是一个问题。
+
+00:32:39.920 --> 00:32:48.920
+<v Courtney Maum>How come you didn't listen to your guts? I think there were a lot of moments where you could have, and you didn't. Were you raised to defer to men, or?
+<v Courtney Maum>为什么你不听从你的直觉？我想有很多时刻你本可以听的，但你没有。你是被教育要顺从男人，或者？
+
+00:32:48.920 --> 00:32:53.780
+<v Linda Maum>I was raised that I knew nothing. I mean, I was always wrong.
+<v Linda Maum>我被教育得什么都不知道。我的意思是，我总是错的。
+
+00:32:53.780 --> 00:32:56.100
+<v Courtney Maum>You were raised to believe you knew nothing?
+<v Courtney Maum>你被教育得相信你什么都不知道？
+
+00:32:56.100 --> 00:32:57.610
+<v Linda Maum>Right.
+<v Linda Maum>对。
+
+00:32:57.610 --> 00:32:58.970
+<v Courtney Maum>Because you're a woman?
+<v Courtney Maum>因为你是女人？
+
+00:32:58.970 --> 00:33:23.550
+<v Linda Maum>My mother told me this. So my mother was very domineering. And she made me believe that I was worthless and everything else. And so when I married Mr. X, I think that came back to haunt me, all my negativity against myself. And I think I didn't listen to myself because I couldn't be right. I couldn't be right.
+<v Linda Maum>我妈妈告诉我的。所以我的妈妈非常霸道。她让我相信我毫无价值，什么都不行。所以当我嫁给 X 先生时，我想那成了我的噩梦，我对自己所有的消极态度。我想我没有听从自己，因为我不可能正确。我不可能是对的。
+
+00:33:23.550 --> 00:33:56.990
+<v Courtney Maum>That's so wild to hear. Because when I was little, my mom was the most capable person-- physically, socially, financially, a total financial whiz, the best dressed, the best looking, the best driver, the most fun, all of these fantastic things. And she had a real reputation still among my friends in school. Yeah, it's emotional to think of. Among my friends in school, it was just like, how everyone looked up to Linda Maum.
+<v Courtney Maum>这听起来太疯狂了。因为当我小时候，我妈妈是最有能力的人——身体上、社交上、经济上，绝对的理财天才，穿得最好，长得最好，开车最好，最有趣，所有这些美妙的事情。而且她在学校的朋友中仍然有真正的声誉。是的，想到这些很情绪化。在学校的朋友中，大家都很崇拜琳达·毛姆。
+
+00:33:56.990 --> 00:34:13.110
+<v Linda Maum>Well, to me this is all very sad. Because, again, it goes back to my mother-- and I hate doing this-- going back to my mother and blaming my mother for some of the things I became.
+<v Linda Maum>好吧，对我来说这一切都非常可悲。因为，再次回到我母亲身上——我讨厌这样做——回到我母亲身上，指责她导致了我后来成为的一些样子。
+
+00:34:13.110 --> 00:34:15.490
+<v Courtney Maum>And she was a huge smoker, if I'm remembering correctly.
+<v Courtney Maum>而且如果我没记错的话，她是个超级大烟鬼。
+
+00:34:15.490 --> 00:34:25.230
+<v Linda Maum>Oh, giant, giant, giant. I was so angry at myself for being a smoker. I just didn't want to smoke, and then you made it a--
+<v Linda Maum>噢，巨大、巨大、巨大。我因为自己吸烟而对自己非常生气。我根本不想吸烟，然后你把它变成了一个——
+
+00:34:25.230 --> 00:34:26.330
+<v Courtney Maum>So I hit a nerve?
+<v Courtney Maum>所以我触动了你的神经？
+
+00:34:26.330 --> 00:34:32.230
+<v Linda Maum>Yep. Yep.
+<v Linda Maum>是的。是的。
+
+00:34:32.230 --> 00:34:35.990
+<v Courtney Maum>My mom also had one main question for me.
+<v Courtney Maum>我妈妈也有一个主要问题要问我。
+
+00:34:35.990 --> 00:34:43.750
+<v Linda Maum>Why did you dislike me so much as a teenager? You kind of have answered that, really, with all the things that were going on.
+<v Linda Maum>为什么你在青少年时期那么不喜欢我？你其实已经回答了这个问题，因为所有正在发生的事情。
+
+00:34:43.750 --> 00:34:46.430
+<v Courtney Maum>But do you want to stop there and let me answer it?
+<v Courtney Maum>但你想停在那儿让我回答吗？
+
+00:34:46.430 --> 00:34:47.990
+<v Linda Maum>Sure, if you have-- yeah.
+<v Linda Maum>当然，如果你有——是的。
+
+00:34:47.990 --> 00:34:49.050
+<v Courtney Maum>I have additional--
+<v Courtney Maum>我还有额外的——
+
+00:34:49.050 --> 00:34:51.430
+<v Linda Maum>[SIGHS]
+<v Linda Maum>[叹息]
+
+00:34:51.430 --> 00:35:27.110
+<v Courtney Maum>I'm going to bristle at the word "dislike" because I actually liked you a lot, and I looked up to you in a lot of ways. What I could not stand was that you let yourself be walked all over by lesser men, by men specifically, but also men that either didn't seem to deserve you or were actually bad people that weren't respected. You really were such a strong-- you want to say something?
+<v Courtney Maum>我要对“不喜欢”这个词表示抗议，因为我其实很喜欢你，而且我在很多方面都很崇拜你。我不能忍受的是，你让那些不如你的男人随意践踏，特指男人，但也包括那些似乎不值得你尊重或者实际上是坏人、不值得尊重的男人。你确实是一个如此坚强的——你想说什么？
+
+00:35:27.110 --> 00:35:33.570
+<v Linda Maum>Yeah, I want to know what men they were. I thought it was just Mr. X. I mean, I don't remember anybody.
+<v Linda Maum>是的，我想知道是哪些男人。我以为只有 X 先生。我的意思是，我不记得任何人。
+
+00:35:33.570 --> 00:35:58.180
+<v Courtney Maum>Out of respect for my father-- I'm still grieving. He just passed. I don't want to talk too much about my dad, but my father did not always treat you with a great amount of respect. So I do include him in some of the men that I feel you were subservient to.
+<v Courtney Maum>为了尊敬我的父亲——我还在哀悼。他刚过世。我不想谈太多关于我父亲的事，但我父亲并不总是给予你足够的尊重。所以我确实把他算在我觉得你顺从的那些男人里。
+
+00:35:58.180 --> 00:36:50.360
+<v Courtney Maum>What I saw growing up in Greenwich, Connecticut in the '80s and '90s when Greenwich was truly the bedroom town of Wall Street, what I saw was a lot of vivacious men who got to go somewhere else all day long and come home to children that were bathed and these beautiful women that were their wives-- put out fresh flowers, had dinner out. And the man just came and put his feet under the table, ate the food, and then got to go take a load off in a study. And so growing up, I was like, well, I'll be my dad. I'll be the man. I want to come home and have dinner at the table. I want to drive a cool car to work.
+<v Courtney Maum>在 80 和 90 年代的康涅狄格州格林威治长大时，我所看到的——当时格林威治确实是华尔街的卧室城镇——我看到很多充满活力的男人，他们整天去别处，回到家能看到洗过澡的孩子，和妻子们——准备好鲜花，拿出晚餐。男人只是坐下来，把脚塞在桌子下，吃掉食物，然后去书房里休息。所以长大后，我心想，好吧，我要成为我爸爸。我要成为那个男人。我想回家在桌子上吃饭。我想开着酷车去上班。
+
+00:36:50.360 --> 00:37:27.080
+<v Courtney Maum>And so something I bristled against with you is at a certain point, you were taking on so much, and it didn't necessarily seem to be bringing you joy. And Mr. X came into the picture. And in the beginning, I think he did-- he seemed to really worship you. But certainly, as the years went by, I saw a man who demanded to be served and did not fetch as much as his own ice cubes. And that made me really angry at you. I wanted you to stand up for yourself.
+<v Courtney Maum>所以我和你产生反感的一点是，在某一点上，你承担了太多，这并不一定会给你带来快乐。而 X 先生出现在了画面中。起初，我想他确实——他似乎真的很崇拜你。但当然，随着岁月流逝，我看到一个要求被服务、连冰块都不愿意自己去拿的男人。这让我对你很生气。我想要你站起来反抗。
+
+00:37:27.080 --> 00:37:50.620
+<v Linda Maum>Well, I think it's-- in my mind it was dislike of me because of the way you talked to me and the way you avoided me. I could never see it any other way. Your tone of voice, I mean, I don't know how it could understand that that was because of my lack of respect for myself.
+<v Linda Maum>好吧，我认为——在我心目中，这是因为你对我说话的方式以及你避开我的方式而产生的不喜欢。我从来没法从其他角度看。你的语气，我的意思是，我不知道怎么可能理解那是由于我缺乏自尊。
+
+00:37:50.620 --> 00:37:54.220
+<v Courtney Maum>Yeah. No, I don't think you could have. I mean, I was a B.
+<v Courtney Maum>是的。不，我觉得你不可能理解。我的意思是，我那时候是个混蛋。
+
+00:37:54.220 --> 00:38:10.940
+<v Ira Glass>My mom's got a point here. I was sending mixed signals. I loved her. I was mean to her. I wanted her to be a feminist baddie who kicked out Mr. X, but I also benefited from her commitment to homemaking-- the awesome dinners, her driving me around.
+<v Ira Glass>我妈妈这一点说得对。我发出了混合信号。我爱她。我对她刻薄。我希望她成为一个踢走 X 先生的女权主义女坏蛋，但我同时也从她对家务的承诺中受益——很棒的晚餐，她开车带我到处走。
+
+00:38:10.940 --> 00:38:22.820
+<v Ira Glass>It was confusing. I was confusing. But I was clear on one thing, Mom. You chose him over us. You kept on choosing him.
+<v Ira Glass>这很令人困惑。我令人困惑。但我有一点很清楚，妈妈。你选择了他而不是我们。你一直在选择他。
+
+00:38:22.820 --> 00:38:48.590
+<v Ira Glass>But one night last October, she made a different choice. In the kitchen of the house that Mr. X had designed to look art deco in style, but instead came out looking like a White Castle burger joint, my mom fell and broke her back. Though it was early in the evening, Mr. X was too drunk to help her. She lay on the floor for hours. Finally, he brought her her cell phone so she could call an ambulance herself.
+<v Ira Glass>但在去年十月的一个晚上，她做出了不同的选择。在 X 先生设计得看起来像艺术装饰风格，但结果看起来像白色城堡汉堡店的房子的厨房里，我妈妈摔倒了，背部骨折。尽管那天晚上还早，但 X 先生醉得无法帮助她。她在地板上躺了几个小时。最后，他把她的手机拿给她，让她自己叫救护车。
+
+00:38:48.590 --> 00:38:56.030
+<v Linda Maum>When I was on that floor, I swore I was going to do everything I could to get rid of him.
+<v Linda Maum>当我在地板上时，我发誓我要尽一切努力除掉他。
+
+00:38:56.030 --> 00:39:11.390
+<v Courtney Maum>She was hospitalized for months, unable to walk. Before the accident, I'd almost given up on my mom, but now she told me that she'd reached a turning point. She gave me power of attorney to fight in court on her behalf to evict Mr. X.
+<v Courtney Maum>她在医院住了好几个月，无法行走。事故发生前，我几乎已经对我妈妈放弃了，但现在她告诉我她到了转折点。她给了我授权书，让我代表她在法庭上争取驱逐 X 先生。
+
+00:39:11.390 --> 00:39:22.990
+<v Courtney Maum>For months, I went everywhere with legal paperwork in case I was called into court. It was hard, and it was ugly. It was the hardest thing I've ever done in my life, actually. But we won.
+<v Courtney Maum>有好几个月，我随身带着法律文件，以防被传唤到法庭。这很难，很丑陋。事实上，这是我一生中做过的最难的事情。但我们赢了。
+
+00:39:22.990 --> 00:39:39.990
+<v Courtney Maum>Mr. X left the house in an unholy state. I spent weeks cleaning up after him, boxing up his possessions. My mom came home from the hospital. My brother and his wife moved in with their cat, who took a particular liking to my mom.
+<v Courtney Maum>X 先生离开房子时状况凄惨。我花了几周时间清理他留下的烂摊子，打包他的财产。我妈妈从医院回家了。我弟弟和他的妻子带着他们的猫搬进来了，那只猫特别喜欢我妈妈。
+
+00:39:39.990 --> 00:40:04.200
+<v Linda Maum>I didn't know how complicated it was going to be to get about. And at that point, I didn't know you were going to be so instrumental in doing it. Because of the amount of time you spent down here, I realized how much you cared about me. Until then, I really didn't know. I didn't.
+<v Linda Maum>我不知道行动起来会有多复杂。在那一点上，我不知道你会在其中起到如此重要的作用。因为你花在这里的时间，我意识到你有多在乎我。在那之前，我真的不知道。我真的不知道。
+
+00:40:04.200 --> 00:40:26.850
+<v Courtney Maum>Mr. X drove us apart, and kicking him out is what brought us back together. It's a strange thing to rally around, but this is where we are. My mom is 79. I'm nearly 50. We have the rest of our lives to catch up on what we've missed.
+<v Courtney Maum>X 先生把我们分开了，把他踢出去是我们重归于好的原因。这是一种奇怪的凝聚方式，但这就是我们的处境。我妈妈 79 岁。我快 50 了。我们还有余生可以弥补失去的时间。
+
+00:40:26.850 --> 00:40:32.730
+<v Ira Glass>Courtney Maum. Her latest novel is called Alan Opts Out. Dana Chivvis produced this story.
+<v Ira Glass>考特尼·毛姆。她的最新小说叫《艾伦选择退出》。达娜·奇维斯制作了这个故事。
+
+00:40:32.730 --> 00:40:44.030
+<v Ira Glass>We did reach out to Mr. X. And he told us he's designed hundreds of houses. He had lots of friends. He says he never left any house in any kind of disrepair in his life.
+<v Ira Glass>我们确实联系了 X 先生。他告诉我们他设计过几百栋房子。他有很多朋友。他说他这辈子从来没让任何房子出现过任何毁损。
+
+00:40:44.030 --> 00:40:59.830
+<v Ira Glass>Coming up, a man goes back to the job of his teenage dreams to see what is the same and what is gone forever with the passage of time. That's in a minute on Chicago Public Radio when our program continues.
+<v Ira Glass>接下来，一个男人回到他青少年梦想的工作岗位，看看随着岁月的流逝，什么没变，什么永远消失了。这就在芝加哥公共广播电台的节目中，稍后继续。
+
+00:40:59.830 --> 00:41:18.630
+<v Ira Glass>It's This American Life. I'm Ira Glass. Today's program, intergenerational space travel, stories of people braving the vast distances that separate young and old, trying to understand life on the other side of the divide. We've arrived at Act Two of our program. Act Two-- Cinema Veri-teen.
+<v Ira Glass>这是《美国生活》。我是艾拉·格拉斯。今天的节目，代际空间旅行，讲述了人们勇敢跨越隔阂，试图理解隔断那一边的生活的故事。我们已经到达了节目的第二幕。第二幕——电影真人秀。
+
+00:41:18.630 --> 00:41:48.370
+<v Ira Glass>So when one of our producers, Ike Sriskandarajah, was a teenager, he had the greatest job he could humanly imagine. And that was, he worked at a movie theater. Wore a cummerbund to work every day, snuck around the managers with secret schemes of his own. This was back in 2003, more than 20 years ago. And Ike wanted to know, is the job still the best? He traveled back to his hometown in Wisconsin and spent some time at his old movie theater, the Marcus Point Cinema in Madison.
+<v Ira Glass>所以当我们的制作人之一，艾克·斯里斯坎达拉贾还是个青少年时，他拥有一份他能想象到的最棒的工作。那就是，他在电影院工作。每天上班穿着腰封，带着自己的小秘密计划躲避经理。那是 2003 年，20 多年前了。艾克想知道，那份工作现在还是最棒的吗？他回到了家乡威斯康星州，并在他以前的电影院，麦迪逊的马库斯波因特电影院待了一段时间。
+
+00:41:48.370 --> 00:42:22.970
+<v Ike Sriskandarajah>My friend Marc vouched for me to his manager. That's how I got hired there. And Marc knew how to make the most of the job. He taught me which door was the easiest to let your friends in, how to give away free popcorn by filling up discarded plastic bags so you don't mess up your popcorn tub count, and why volunteering to clean the bathroom was actually secretly a great job, because you got out of the concession stand, and you could sneak into a movie for a scene or two on the clock.
+<v Ike Sriskandarajah>我的朋友马克向他的经理担保我。那就是我被录用的原因。马克知道如何充分利用那份工作。他教我哪扇门最容易让朋友溜进来，如何把免费爆米花装进废弃的塑料袋里，这样你就不会搞乱你的爆米花计数，以及为什么主动提出打扫厕所实际上是一个秘密的绝佳工作，因为你可以溜出小卖部，趁上班时间溜进电影看上一两场戏。
+
+00:42:22.970 --> 00:42:41.420
+<v Ike Sriskandarajah>By senior year, I stacked lunch and study hall together in my schedule, and I'd treat friends to a school day matinee with popcorn and soda. I felt like a teen god, second to none in the pantheon of high school jobs, except maybe drug dealer.
+<v Ike Sriskandarajah>高三时，我把午餐时间和自习课安排在一起，我会请朋友们看一场学校日的日场电影，带上爆米花和汽水。我觉得自己就像一个少年神，在高中工作的万神殿里首屈一指，除了可能毒贩。
+
+00:42:41.420 --> 00:42:57.300
+<v Ike Sriskandarajah>When I got back to my old theater, the outside looked the same-- classic old Hollywood movie marquee, and inside there's still busy, stain-masking carpet and the long tunnel with theaters on either side. It even smelled the same.
+<v Ike Sriskandarajah>当我回到以前的电影院，外面看起来一样——经典的旧好莱坞电影招牌，里面依然是繁忙的、能掩盖污渍的地毯和两侧带电影院的长隧道。甚至闻起来都一样。
+
+00:42:57.300 --> 00:43:27.040
+<v Ike Sriskandarajah>I had asked to speak to teens, employees who were the same age I was when I started, but the company's comms team and their HR department said no. Instead, I could talk to a 26-year-old assistant manager named Darren Klingaman. He was behind the ticket booth when I arrived-- clean shaven, wearing a dress shirt with little flowers and a tie to match. Darren told me he did not apply for the same reasons I did, namely free movies.
+<v Ike Sriskandarajah>我曾要求与青少年谈谈，那些和我刚开始时年纪一样的员工，但公司的公关团队和人力资源部门拒绝了。取而代之的是，我可以和一位 26 岁的副经理达伦·克林格曼交谈。当我到达时，他在售票亭后面——面部干净，穿着一件带有小花的衬衫，配着相应的领带。达伦告诉我，他申请工作的理由和我不同，也就是看免费电影。
+
+00:43:27.040 --> 00:43:31.400
+<v Darren Klingaman>No, it was just-- I just lucked out that that was a perk. I didn't know about it until afterwards.
+<v Darren Klingaman>不，只是——我很幸运，那是额外津贴。在那之前我不知道。
+
+00:43:31.400 --> 00:43:31.920
+<v Ike Sriskandarajah>Oh, wow. OK.
+<v Ike Sriskandarajah>噢，哇。好的。
+
+00:43:31.920 --> 00:43:33.640
+<v Darren Klingaman>It was a nice surprise.
+<v Darren Klingaman>那是个不错的惊喜。
+
+00:43:33.640 --> 00:43:34.480
+<v Ike Sriskandarajah>Nice surprise.
+<v Ike Sriskandarajah>不错的惊喜。
+
+00:43:34.480 --> 00:43:51.240
+<v Ira Glass>Darren was just looking for any job. Besides getting to see movies, what about the other things that made the job so fun back in the early aughts? Are they still part of it? I ran all my favorite hijinks we pulled at the movie theater by Darren.
+<v Ira Glass>达伦只是想找份工作。除了能看电影，在零零年代早期让这份工作如此有趣的那些其他事情呢？它们还在吗？我把我们以前在电影院玩的所有恶作剧都告诉了达伦。
+
+00:43:51.240 --> 00:44:17.880
+<v Ira Glass>Before I tell you about the first thing, I just want you to remember our brains were still developing when we thought this was so funny. So basically, if you were the person who ripped tickets, you were supposed to say, enjoy your show. But some genius came up with a twist that involved referencing male genitalia of specific dimensions. I told Darren about this.
+<v Ira Glass>在告诉你第一件事之前，我只想让你记住，当我们觉得这很有趣时，我们的大脑还在发育。基本上，如果你是撕票的人，你本来应该说，享受你的表演。但有个天才想出了一个扭曲的笑话，涉及指代特定尺寸的男性生殖器。我告诉了达伦这件事。
+
+00:44:17.880 --> 00:44:23.480
+<v Ike Sriskandarajah>We'd mumble under our breaths, enjoy your chode.
+<v Ike Sriskandarajah>我们会低声嘟囔，享受你的小鸡鸡。
+
+00:44:23.480 --> 00:44:25.280
+<v Darren Klingaman>OK.
+<v Darren Klingaman>好的。
+
+00:44:25.280 --> 00:44:27.300
+<v Ike Sriskandarajah>I was wondering if that's still happening.
+<v Ike Sriskandarajah>我想知道那种事还在发生吗。
+
+00:44:27.300 --> 00:44:28.720
+<v Darren Klingaman>Not that I'm aware of.
+<v Darren Klingaman>据我所知没有。
+
+00:44:28.720 --> 00:44:32.000
+<v Ike Sriskandarajah>You've never heard somebody say, enjoy your chode?
+<v Ike Sriskandarajah>你从未听过有人说，享受你的小鸡鸡？
+
+00:44:32.000 --> 00:44:34.540
+<v Darren Klingaman>No, I have not.
+<v Darren Klingaman>不，我没有。
+
+00:44:34.540 --> 00:44:36.580
+<v Ike Sriskandarajah>Do you think that joke's funny?
+<v Ike Sriskandarajah>你觉得那个笑话有趣吗？
+
+00:44:36.580 --> 00:44:39.740
+<v Darren Klingaman>[SIGHS] I mean, I didn't laugh.
+<v Darren Klingaman>[叹息] 我的意思是，我没笑。
+
+00:44:39.740 --> 00:44:41.100
+<v Ike Sriskandarajah>I noticed that.
+<v Ike Sriskandarajah>我注意到了。
+
+00:44:41.100 --> 00:44:46.860
+<v Ira Glass>In the early aughts, it killed, at least with the kids working at the concession stand.
+<v Ira Glass>在零零年代早期，那个笑话很火，至少在小卖部工作的孩子们中间是这样。
+
+00:44:46.860 --> 00:44:49.820
+<v Darren Klingaman>How many people just said, excuse me?
+<v Darren Klingaman>有多少人只是说，对不起？
+
+00:44:49.820 --> 00:44:52.470
+<v Ike Sriskandarajah>I think that was the most common, because we're mumbling it.
+<v Ike Sriskandarajah>我想那是最常见的，因为我们在嘟囔。
+
+00:44:52.470 --> 00:44:58.340
+<v Darren Klingaman>You're mumbling it, right. Yeah, OK. Yeah. I mean, I think it could use some work.
+<v Darren Klingaman>你在嘟囔，对吧。是的，好的。我的意思是，我觉得它还需要改进一下。
+
+00:44:58.340 --> 00:45:10.020
+<v Ike Sriskandarajah>So that's a change. In 2026, chode's over, folks.
+<v Ike Sriskandarajah>所以那是一个变化。在 2026 年，小鸡鸡这个词过时了，各位。
+
+00:45:10.020 --> 00:45:34.910
+<v Ike Sriskandarajah>Another thing that I thought was so fun was volunteering to flatten boxes out back. If that sounds boring, you don't know the WrestleMania technique that my friend taught me. Basically, you could fill up the industrial dumpster out back with unflattened boxes, pull yourself up to balance on the metal edge, and then launch yourself into the air and drop the People's Elbow on a box.
+<v Ike Sriskandarajah>我觉得有趣的另一件事是主动提出在后面把盒子压平。如果那听起来很无聊，说明你不知道我朋友教我的摔角狂热技巧。基本上，你可以用未压平的盒子塞满后面的工业垃圾箱，把自己拉到金属边缘保持平衡，然后把自己发射到空中，并在盒子上使出“人民肘击”。
+
+00:45:34.910 --> 00:45:41.950
+<v Tom Reichilt>Well, I tell you, that sounds like a very interesting workman's comp issue, getting ready.
+<v Tom Reichilt>好吧，我告诉你，这听起来像是一个非常有趣的工伤赔偿问题，准备好了吗。
+
+00:45:41.950 --> 00:46:11.550
+<v Ike Sriskandarajah>That's area general manager Tom Reichilt, who corporate PR asked to join. So many things I loved about this job are gone. We wore tuxedos to work made of this magical material that was impervious to nacho cheese stains. During a tornado, we got evacuated into the manager's office, where we took an ID from the lost and found that looked enough like me to buy malt liquor exactly once.
+<v Ike Sriskandarajah>那是区域总经理汤姆·赖希特，企业公关要求他参加的。我喜欢这份工作的那么多事情都不见了。我们上班时穿着那种魔法材料制成的燕尾服，这种材料对玉米片芝士污渍免疫。龙卷风期间，我们被疏散到经理办公室，在那儿我拿了一张失物招领处看起来很像我的证件，买了一次麦芽酒。
+
+00:46:11.550 --> 00:46:24.870
+<v Ike Sriskandarajah>Now, kids are never let anywhere near the lost and found. The mini donut machine burned me, but it made delicious donuts. Back in the day, it burned Area General Manager Tom Reichilt too.
+<v Ike Sriskandarajah>现在，孩子们再也不能靠近失物招领处了。迷你甜甜圈机烫伤过我，但它做的甜甜圈很美味。过去，它也烫伤过区域总经理汤姆·赖希特。
+
+00:46:24.870 --> 00:46:30.450
+<v Tom Reichilt>I probably have one here somewhere, maybe there. A little different these days.
+<v Tom Reichilt>我可能在哪里有它，也许在那儿。现在这些天有点不同了。
+
+00:46:30.450 --> 00:47:05.270
+<v Ike Sriskandarajah>That's gone too. But what about the big one, my favorite benefit of the job-- letting my friends in for free? It really was the coolest thing I could think of, to be able to grant this wish to anybody-- a free night at the movies, a drink, popcorn. We were allowed to bring in one guest, but I was always happy to let in more friends through the back door near the dumpster. Darren says that, yes, that perk is still around, but these days, the back door is not necessary.
+<v Ike Sriskandarajah>那也消失了。但是那件大事呢，我最喜欢的工作福利——免费让朋友们进来？能够满足任何人的这个愿望，真的是我能想到的最酷的事情——一个免费的电影之夜，饮料，爆米花。我们被允许带一名客人，但我总是乐于通过垃圾箱旁边的后门让更多的朋友进来。达伦说，是的，那个津贴仍然存在，但现在，后门不再是必须的了。
+
+00:47:05.270 --> 00:47:17.710
+<v Tom Reichilt>Just have them walk in the front door, come greet them over here, and we'll hook them up. I always let them all know that there's no reason to be sneaky in any way. If you want your friends to come see a movie, tell me, and I'll get them in. I mean, it's a perk.
+<v Tom Reichilt>让他们直接走前门就行，过来在这儿打招呼，我会安排他们的。我总是告诉他们不需要偷偷摸摸。如果你想让朋友来看电影，告诉我，我会让他们进来。我的意思是，这是一个福利。
+
+00:47:17.710 --> 00:47:52.950
+<v Ike Sriskandarajah>So they're allowed to bring in their friends. But calling out to an unscientific survey I did of three teens around America who work in movie theaters right now, I learned they don't want to. One 18-year-old in Kansas City says she prefers watching movies at home, where you can talk to your friends during the show and watch basically any movie ever made. What a waste. Darren at least understands how bringing someone in for free has the power to actually change your life.
+<v Ike Sriskandarajah>所以他们被允许带朋友。但根据我对美国三个在电影院工作的青少年进行的一项非科学调查，我了解到他们不想。堪萨斯城的一位 18 岁女孩说她更喜欢在家看电影，在那里你可以在放映时和朋友聊天，而且几乎可以看有史以来任何一部电影。真是浪费。达伦至少明白免费带人进来确实有改变生活的能力。
+
+00:47:52.950 --> 00:48:02.870
+<v Darren Klingaman>When I first started here, a couple months later, I met my girlfriend. I brought her to a date here after hours. That might not technically be allowed.
+<v Darren Klingaman>刚开始在这里工作几个月后，我遇到了我的女朋友。下班后我带她在这里约会。这在技术上可能不被允许。
+
+00:48:02.870 --> 00:48:04.530
+<v Ike Sriskandarajah>What do you mean, after hours?
+<v Ike Sriskandarajah>你说的下班后是什么意思？
+
+00:48:04.530 --> 00:48:13.150
+<v Darren Klingaman>Oh, everything was closed. We were closed down. I asked her if she wanted to come see a movie. So we watched Wicked.
+<v Darren Klingaman>噢，一切都关了。我们打烊了。我问她想不想来看电影。所以我们看了《魔法坏女巫》。
+
+00:48:13.150 --> 00:48:17.610
+<v Ike Sriskandarajah>Whoa, you brought your girlfriend here because you had the keys to the place.
+<v Ike Sriskandarajah>哇，你带女朋友来这儿是因为你有这地方的钥匙。
+
+00:48:17.610 --> 00:48:23.290
+<v Darren Klingaman>I did. I had the keys. She wasn't actually my girlfriend quite yet. Good first date.
+<v Darren Klingaman>是的。我有钥匙。她当时其实还不是我的女朋友。不错的初次约会。
+
+00:48:23.290 --> 00:48:32.440
+<v Darren Klingaman>I knew Wicked was one of her favorite musicals. So it was like, perfect thing. Wicked just came out. Why don't we watch it? Private showing and the biggest screen we can.
+<v Darren Klingaman>我知道《魔法坏女巫》是她最喜欢的音乐剧之一。所以这就像是，完美的事情。正好上映。《魔法坏女巫》刚出。为什么我们不看它呢？私人放映，我们能用的最大屏幕。
+
+00:48:32.440 --> 00:48:54.000
+<v Ike Sriskandarajah>Darren ushered her into an empty theater. Sat her down in the best seat in the house. Popcorn, Diet Coke in the cup holder. Brought a sweater because theaters get chilly. And then he ran up to the projectionist booth, fast forwarded through the ads, and ran back down to sit with her just in time for the show to start.
+<v Ike Sriskandarajah>达伦把她领进了一个空的电影院。让她坐在最好的位置上。爆米花，杯托里有健怡可乐。带了一件毛衣，因为电影院很冷。然后他跑回放映室，快进掉广告，又跑回台下，在节目开始前及时和她坐在一起。
+
+00:48:54.000 --> 00:49:02.800
+<v Ike Sriskandarajah>That was two years ago. Now they're engaged. What other job would let you pull off a first date like that?
+<v Ike Sriskandarajah>那是两年前的事了。现在他们订婚了。还有什么工作能让你搞定那样的初次约会？
+
+00:49:02.800 --> 00:49:06.920
+<v Darren Klingaman>Honestly, I mean, it was so memorable. We still think about it.
+<v Darren Klingaman>老实说，我的意思是，这太难忘了。我们现在还在想这件事。
+
+00:49:06.920 --> 00:49:13.960
+<v Ike Sriskandarajah>Now, tell me if I'm overstating it, but would you guys be getting married if it wasn't for that?
+<v Ike Sriskandarajah>现在，告诉我如果我夸大了，但如果没有那个，你们还会结婚吗？
+
+00:49:13.960 --> 00:49:38.980
+<v Darren Klingaman>I would hope so, but I don't know. It's a good question because of how big of a thing it was and how meaningful and unique it was that it definitely bumped me up some points. So hopefully, but definitely not as easily.
+<v Darren Klingaman>我希望会，但我不知道。这是一个好问题，因为它是一件大事，而且它是如此有意义和独特，绝对让我加了分。所以希望会，但肯定不会那么容易。
+
+00:49:38.980 --> 00:49:41.680
+<v Ike Sriskandarajah>It's really similar to the thing that happened to me.
+<v Ike Sriskandarajah>这真的和我经历的很像。
+
+00:49:41.680 --> 00:49:42.380
+<v Darren Klingaman>OK.
+<v Darren Klingaman>好的。
+
+00:49:42.380 --> 00:49:42.920
+<v Ike Sriskandarajah>When I was here--
+<v Ike Sriskandarajah>当我在那里时——
+
+00:49:42.920 --> 00:50:20.260
+<v Ira Glass>I told Darren that I also once tried to impress a girl while on the job. When I met her, I filled up a discarded plastic bag with popcorn and slipped it to her. Another time, I let her and her friend in the back. I'm no longer wearing a tuxedo to work, but that girl I snuck in, we're married and have two children. The job today definitely seems less fun, but there's still a little movie magic left.
+<v Ira Glass>我告诉达伦，我也曾在工作时试图打动一个女孩。当我遇到她时，我装了一塑料袋废弃的爆米花滑给她。还有一次，我让她和她的朋友从后门进来。我不再穿燕尾服上班，但我偷偷放进来的那个女孩，我们结婚了，有两个孩子。今天这份工作看起来确实没那么有趣，但还剩下一点电影魔法。
+
+00:50:20.260 --> 00:50:35.000
+<v Ira Glass>Ike Sriskandarajah. He's one of the producers of our show. By the way, none of the three teenagers I talked to knew what chode meant, but some of them thought it was funny anyway.
+<v Ira Glass>艾克·斯里斯坎达拉贾。他是我们节目的制片人之一。顺便说一句，我交谈的三个青少年里没有一个知道“小鸡鸡”是什么意思，但有些人觉得它依然很有趣。
+
+00:50:35.000 --> 00:50:57.000
+<v Ira Glass>Act Three-- Mama, Can You Hair Me? Myra Flynn is in her 40s, and the person across the divide in this story is six. It's her daughter. The two of them have been in a bit of a standoff when it comes to getting ready for school in the morning. It was going so badly, Myra started recording these morning showdowns, trying to figure out if there was some way to fix things. Here she is.
+<v Ira Glass>第三幕——妈妈，你能听见我吗？迈拉·弗林 40 多岁，在这个故事里坐在隔阂对面的是 6 岁。那是她的女儿。她们俩在早上准备上学的时候一直处于僵持状态。情况太糟了，迈拉开始记录这些早晨的摊牌，试图弄清楚是否有什么办法可以解决问题。她在这儿。
+
+00:50:57.000 --> 00:51:14.160
+<v Myra Flynn>My mornings used to look so different. In my younger days as a touring musician, I'd greet the sunrise on my way home from a gig in some random city and face plant into my bed. But now I start my day at 7:10 AM, engaged in a battle of wills with my daughter Avalon over her hair.
+<v Myra Flynn>我的早晨过去看起来大不相同。年轻时作为巡演音乐人，我会顺路在随机的城市表演回家迎接日出，然后一头栽进床上。但现在我在早上 7:10 开始我的一天，投入到与我女儿阿瓦隆关于她头发的意志之战中。
+
+00:51:14.160 --> 00:51:20.890
+<v Myra Flynn>Hey, baby. It's time to do your hair. No, we're going to do it because you got to be at school in 10 minutes.
+<v Myra Flynn>嘿，宝贝。该做头发了。不，我们要做的，因为你 10 分钟后得去学校。
+
+00:51:20.890 --> 00:51:23.090
+<v Avalon>But Mommy.
+<v Avalon>但是妈妈。
+
+00:51:23.090 --> 00:51:47.730
+<v Myra Flynn>When I was a kid, my mom and I had a similar hair routine. She would sit me down at the breakfast table every morning, grab a cup of water and a hard bristle brush, and rake through my curls. It hurt like hell, but there was no point in complaining because my mom made it clear we didn't have time for any of that. My hair had to get done. That's just how it was. And that's just how it is for Avalon.
+<v Myra Flynn>当我还是个孩子时，我和我妈妈有类似的头发程序。她每天早上让我坐在早餐桌旁，拿一杯水和一把硬毛刷，耙梳我的卷发。疼得要命，但抱怨没有意义，因为我妈清楚地表明我们没有时间纠结那些。我的头发必须弄好。就是这样。这对阿瓦隆来说也是如此。
+
+00:51:47.730 --> 00:52:00.970
+<v Myra Flynn>Black hair is Black hair. And look, I'm not doing box braids or knotless styles, or writing her name in the side of her head with cornrows. I'm just trying to comb through it and put it in a ponytail so that no one looks at us crazy.
+<v Myra Flynn>黑人的头发就是黑人的头发。听着，我不会做编织辫或无结编发，或者在头侧编出名字。我只是想把它梳理好扎个马尾，这样别人就不会盯着我们看，觉得奇怪。
+
+00:52:00.970 --> 00:52:20.710
+<v Myra Flynn>So every morning, I take her hair out of whatever shape it's landed in after a night of sleep without a bonnet. I still haven't found one that stays on her head. Then I grab three different brushes, a big jar of leave-in conditioner, a spray bottle full of water, and get to work, which Avalon, who's six, hates.
+<v Myra Flynn>所以每天早上，我都会把她睡了一晚没带睡帽后乱七八糟的头发拆开。我还没找到那种能戴在她头上的。然后我拿三把不同的刷子，一大瓶免洗护发素，一瓶水，开始工作，这让 6 岁的阿瓦隆讨厌。
+
+00:52:20.710 --> 00:52:22.430
+<v Avalon>Ow.
+<v Avalon>哎。
+
+00:52:22.430 --> 00:52:33.210
+<v Myra Flynn>Stop, baby. Avi, it's not that bad. Stop, stop, stop. No, no. I can't use that brush. I have to use this brush.
+<v Myra Flynn>别动，宝贝。阿维，没那么糟。停下，停下，停下。不，不。我不能用那个刷子。我得用这个刷子。
+
+00:52:33.210 --> 00:52:35.070
+<v Avalon>I just wanted to hold it.
+<v Avalon>我只是想拿住它。
+
+00:52:35.070 --> 00:52:42.510
+<v Myra Flynn>No, baby. You need to just-- please, can you just look forward, and bend your neck for me. Bend your neck down.
+<v Myra Flynn>不，宝贝。你只需要——拜托，你能看着前面，为我弯下脖子吗。低下头。
+
+00:52:42.510 --> 00:52:54.230
+<v Ira Glass>For the record, holding this brush is a stalling tactic for Avalon. She wants to hold it so I can't use it. And I see straight through you, Avalon Mathis Wills. I know my daughter.
+<v Ira Glass>记录在案，拿住刷子对阿瓦隆来说是一种拖延战术。她想拿住它所以我不能用它。我一眼就看穿你了，阿瓦隆·马蒂斯·威尔斯。我了解我女儿。
+
+00:52:54.230 --> 00:53:04.230
+<v Ira Glass>Avalon, by all intents and purposes, seems impervious to pain. I've literally watched her face plant from the top of monkey bars onto the grass, only to bounce up and try it again.
+<v Ira Glass>阿瓦隆，从各方面来看，似乎对疼痛免疫。我亲眼看着她从猴架顶部脸着地摔在草地上，结果弹起来又要试一次。
+
+00:53:04.230 --> 00:53:19.690
+<v Ira Glass>This is a kid who doesn't want to wait for her teeth to fall out naturally. As soon as they're loose, she's trying to pull them out of her head. And she won't even let the tooth fairy take her teeth. She wants to make jewelry out of them. She's perfectly weird and brave in all the best ways.
+<v Ira Glass>这是一个不想等牙齿自然脱落的孩子。一旦松动，她就试图把它从头上拔下来。而且她甚至不让牙仙子带走她的牙齿。她想用它们做首饰。她在所有最好的方面都非常古怪和勇敢。
+
+00:53:19.690 --> 00:53:32.710
+<v Ira Glass>So for her to shake and cry only with me is devastating. But also-- and I'm not proud of this-- a big part of me is like, girl, nobody's dying here. Suck it up.
+<v Ira Glass>所以她只跟我发抖哭泣是令人崩溃的。但同时——我不以此为荣——我有很大一部分想法是，姑娘，没人会死在这里。忍着点。
+
+00:53:32.710 --> 00:53:34.650
+<v Avalon>It hurts.
+<v Avalon>它疼。
+
+00:53:34.650 --> 00:53:39.450
+<v Myra Flynn>Baby, I'm sorry. I have to get it.
+<v Myra Flynn>宝贝，我很抱歉。我必须得弄。
+
+00:53:39.450 --> 00:53:41.070
+<v Avalon>You already did.
+<v Avalon>你已经弄了。
+
+00:53:41.070 --> 00:53:46.850
+<v Myra Flynn>I didn't.
+<v Myra Flynn>我还没。
+
+00:53:46.850 --> 00:53:49.010
+<v Avalon>Will it hurt always?
+<v Avalon>会一直疼吗？
+
+00:53:49.010 --> 00:54:03.250
+<v Myra Flynn>Probably, baby. Sometimes the things that we need are not comfortable.
+<v Myra Flynn>可能会，宝贝。有时我们需要的不是舒服的。
+
+00:54:03.250 --> 00:54:09.130
+<v Ira Glass>Hold up. Did I just actually say that? I'm not even sure I believe it.
+<v Ira Glass>等等。我刚才真的说了吗？我甚至不确定我是否相信这一点。
+
+00:54:09.130 --> 00:54:27.020
+<v Ira Glass>You know that moment when you open your mouth to say something and out comes your mother? This is one of the few times I heard that in my life, and it really stuck with me. My mom was the Black female dean of a military college. She taught me that sometimes in life, there are things like hair that you just have to tough out.
+<v Ira Glass>你知道当你张嘴说话，然后蹦出你母亲的腔调的那一刻吗？这是我一生中为数不多听到这个的时候，它真的让我印象深刻。我妈是一所军事学院的黑人女院长。她教我，有时在生活中，有些东西就像头发一样，你只需要硬挺过去。
+
+00:54:27.020 --> 00:54:42.820
+<v Ira Glass>In so much of my parenting, I've tried to be a little different, do it my way. I don't know if I totally believe that Black kids should just have to tough it out when they're in pain. I also don't want to be a parent that teaches their Black kid that everything in life should feel like a lukewarm bath.
+<v Ira Glass>在我育儿的很大一部分中，我试图变得有点不同，按照我的方式做。我不确定我是否完全相信黑人孩子在感到疼痛时就应该硬挺过去。我也不想成为那种教导黑人孩子生活中一切都应该像温水澡一样的父母。
+
+00:54:42.820 --> 00:55:03.020
+<v Ira Glass>When it comes to Avalon's hair, I feel so conflicted, like my two parenting styles are at war. And when I heard myself say, sometimes the things we need are not comfortable, I felt like I had to talk to my mom about it. I needed her to back me up on this. So I called her, Miss Martha Mathis herself.
+<v Ira Glass>谈到阿瓦隆的头发，我感到非常矛盾，就像我的两种育儿风格在交战。当我听到自己说，“有时我们需要的不是舒服的”，我觉得我必须和妈妈谈谈。我需要她在这点上支持我。所以我打电话给她，马莎·马蒂斯女士本人。
+
+00:55:03.020 --> 00:55:13.560
+<v Ira Glass>I walked her through what had been going on with Avalon, the battle with her hair every day right before school. And I asked her, this is just the way it is, right, to which she said--
+<v Ira Glass>我带她经历了阿瓦隆最近发生的事情，每天上学前关于头发的战斗。我问她，这就是必然的方式，对吧，她对此说道——
+
+00:55:13.560 --> 00:55:33.160
+<v Martha Mathis>No. I think I've found that's what you want to avoid. Because at some point, if you're rushing and you're trying to do our hair, then it's going to hurt. If it's going to sit up there for days without anybody doing anything, then you're going to get what you get.
+<v Martha Mathis>不。我发现这就是你想避免的。因为在某种程度上，如果你很赶，试图做头发，那就会疼。如果它几天没人打理，那结果就是你应得的。
+
+00:55:33.160 --> 00:55:41.720
+<v Myra Flynn>My mom saying pain was something that you should or even could avoid was wild to me. She did my hair up so tightly I got migraines at school.
+<v Myra Flynn>我妈妈说疼痛是可以避免的东西，对我来说太疯狂了。她把我的头发梳得太紧，导致我在学校里偏头痛。
+
+00:55:41.720 --> 00:55:54.440
+<v Myra Flynn>Mama, do you remember one time when you were doing my hair, and you were doing it and doing it, and I was like, ow, ow! And I was eating breakfast at the breakfast table, and then I threw up?
+<v Myra Flynn>妈妈，你记得有一次你给我做头发，你一直在做一直在做，我一直在叫，哎哟，哎哟！我当时坐在餐桌旁吃早餐，然后我就吐了？
+
+00:55:54.440 --> 00:55:55.160
+<v Martha Mathis>No.
+<v Martha Mathis>不记得。
+
+00:55:55.160 --> 00:55:56.480
+<v Myra Flynn>You don't remember that?
+<v Myra Flynn>你不记得那个了？
+
+00:55:56.480 --> 00:56:01.720
+<v Martha Mathis>I don't, but that doesn't mean it didn't happen. It just means I don't remember it.
+<v Martha Mathis>我不记得，但这并不意味着它没发生。只是意味着我不记得了。
+
+00:56:01.720 --> 00:56:02.160
+<v Myra Flynn>Yeah.
+<v Myra Flynn>是啊。
+
+00:56:02.160 --> 00:56:03.580
+<v Martha Mathis>Then what did we do?
+<v Martha Mathis>然后我们做了什么？
+
+00:56:03.580 --> 00:56:15.500
+<v Myra Flynn>Oh, you went and grabbed the trash can, just in case I had to again. But yeah, I just remember it hurting a lot.
+<v Myra Flynn>噢，你拿了垃圾桶，以防我再次呕吐。但我记得它真的很疼。
+
+00:56:15.500 --> 00:56:16.620
+<v Martha Mathis>Oh, yeah.
+<v Martha Mathis>噢，是的。
+
+00:56:16.620 --> 00:56:30.140
+<v Myra Flynn>My mom once described my parenting style as permissive. Sometimes I feel like I have to be firmer when she's around so she'll be proud of me, or something like that. So I couldn't quite wrap my head around what I was hearing.
+<v Myra Flynn>我妈妈曾形容我的育儿方式是纵容的。有时我觉得在她身边时我必须更坚定一些，这样她才会为我骄傲，或者之类的。所以我无法理解我听到的内容。
+
+00:56:30.140 --> 00:56:38.520
+<v Myra Flynn>I'm kind of surprised to hear you say that, no, it doesn't have to hurt. I feel like you're a tough cookie, Mama.
+<v Myra Flynn>听到你这么说我有点惊讶，不，它不一定非要疼。我觉得你是个坚强的人，妈妈。
+
+00:56:38.520 --> 00:56:38.980
+<v Martha Mathis>I am.
+<v Martha Mathis>我是。
+
+00:56:38.980 --> 00:56:58.560
+<v Myra Flynn>Yeah. And I feel like you raised me to be one. And I can feel that lesson starting as early as my hair, just as I can feel like I'm doing that with Avalon. Do you think that I should be making her tough for the world? Like the way I'm talking about hair is a gateway into, like, toughen up. Do you think that--
+<v Myra Flynn>是的。而且我觉得你把我培养成了那样的人。我能感觉到那个课程从我的头发就开始了，正如我感觉到我正在对阿瓦隆做一样。你觉得我应该让她为世界变得坚强吗？就像我谈论头发的方式是通向硬挺的入口。你觉得——
+
+00:56:58.560 --> 00:57:10.360
+<v Martha Mathis>No. I wouldn't use hair as a gateway to toughen up because it has too many other racist and sexist implications.
+<v Martha Mathis>不。我不会把头发作为硬挺的入口，因为它有太多其他的种族主义和性别歧视暗示。
+
+00:57:10.360 --> 00:57:14.940
+<v Myra Flynn>Did you want me to toughen up in those moments when I was crying and like, ouch, this hurts?
+<v Myra Flynn>当我在哭泣说哎哟这很疼的时候，你希望我坚强吗？
+
+00:57:14.940 --> 00:57:20.200
+<v Martha Mathis>No, no. It hurt. No. Why would you-- no.
+<v Martha Mathis>不，不。它疼。不。你为什么会——不。
+
+00:57:20.200 --> 00:57:24.200
+<v Myra Flynn>You didn't want me to toughen up and just be like, we got to get used to this because we're on a schedule. We got places to go.
+<v Myra Flynn>你没想要我坚强，只是说，我们得习惯这个，因为我们有日程。我们有地方要去。
+
+00:57:24.200 --> 00:58:02.360
+<v Martha Mathis>Well, it was going to happen whether you were tough or not. And at six-- I'll use Avalon's age-- she's as tough as she's going to be right now. And she can't be any tougher. I think she's the toughest little girl I know. So no, I would not have equated doing your hair with tough or not. I always felt bad that for those 10, 15, how many ever minutes it was, that that's how you were starting your day.
+<v Martha Mathis>好吧，不管你坚不坚强它都会发生。而且在 6 岁——我会用阿瓦隆的年纪——她现在已经足够坚强了。她不能再强硬了。我认为她是我认识的最坚强的女孩。所以不，我不会把做头发等同于坚强与否。我一直觉得很糟糕，在那 10 分钟、15 分钟，无论多少分钟里，那是你开始一天的方式。
+
+00:58:02.360 --> 00:58:31.610
+<v Myra Flynn>I didn't know that she'd had any feelings about our mornings. My mother told me it was the same for her when she was young. She sat between her mother's knees, and out came the hot combs, the hair grease, the brushes, the pain, which she likes to remind me was far worse than mine, as I remind my daughter, and we copy and paste. But instead of giving me the validation I wanted and letting me know that the way she'd done my hair is really the only way, my mom gave me some advice I really wasn't looking for.
+<v Myra Flynn>我不知道她对我们的早晨有任何感觉。我母亲告诉我她年轻时也是这样。她坐在她母亲的膝盖之间，热梳、发油、刷子、疼痛都出来了，她喜欢提醒我那远比我的糟糕，正如我提醒我女儿一样，我们复制粘贴。但妈妈没有给我想要的验证，让我知道她给我做头发的方式真的是唯一的方式，而是给了我一些我真的没在寻找的建议。
+
+00:58:31.610 --> 00:58:34.290
+<v Martha Mathis>Give her some of her own hair.
+<v Martha Mathis>给她一些她自己的头发。
+
+00:58:34.290 --> 00:58:38.930
+<v Myra Flynn>Oh, to take care of? Yes, I've tried this. We've tried this, yes.
+<v Myra Flynn>噢，去打理？是的，我试过了。我们试过了，是的。
+
+00:58:38.930 --> 00:58:39.970
+<v Martha Mathis>Oh, you have?
+<v Martha Mathis>噢，你试过？
+
+00:58:39.970 --> 00:58:43.730
+<v Myra Flynn>Oh, yeah. We've tried-- it's do-your-own-hair day.
+<v Myra Flynn>噢，是的。我们试过了——这是我家的“自己做头发日”。
+
+00:58:43.730 --> 00:58:55.770
+<v Ira Glass>Do-your-own-hair day in my house means we give Avalon a brush and some bows, and 15 minutes later, absolutely nothing has happened. But it turned out that wasn't what my mother was suggesting.
+<v Ira Glass>在家里自己做头发日意味着我们给阿瓦隆一把刷子和一些蝴蝶结，15 分钟后，绝对什么都没发生。但事实证明，那不是我母亲建议的。
+
+00:58:55.770 --> 00:58:59.250
+<v Martha Mathis>No, I mean, have her do her own kitchen.
+<v Martha Mathis>不，我的意思是，让她打理自己的厨房。
+
+00:58:59.250 --> 00:59:00.010
+<v Myra Flynn>Well.
+<v Myra Flynn>好吧。
+
+00:59:00.010 --> 00:59:02.130
+<v Martha Mathis>She'll be gentle with herself.
+<v Martha Mathis>她会对她自己温柔的。
+
+00:59:02.130 --> 00:59:07.230
+<v Myra Flynn>If she does her own hair at this age, Mama, she's avoiding her kitchen altogether.
+<v Myra Flynn>如果她在这个年纪自己做头发，妈妈，她根本不会打理。
+
+00:59:07.230 --> 00:59:16.190
+<v Martha Mathis>What? OK. So it looks like-- I don't know-- a rat's nest. Nobody's going to see it.
+<v Martha Mathis>什么？好吧。所以看起来——我不知道——像个老鼠窝。没人会看见它。
+
+00:59:16.190 --> 00:59:16.930
+<v Myra Flynn>Yeah.
+<v Myra Flynn>是啊。
+
+00:59:16.930 --> 00:59:28.470
+<v Martha Mathis>And if you remind her now, get in there, because you don't want me in there. Would you remind her of that? It's going to be your hand or mine.
+<v Martha Mathis>如果你现在提醒她，进去吧，因为你不想我进去。你会提醒她吗？要么是你的手，要么是我的。
+
+00:59:28.470 --> 00:59:29.150
+<v Myra Flynn>Yeah.
+<v Myra Flynn>是啊。
+
+00:59:29.150 --> 00:59:43.430
+<v Martha Mathis>I think if you give her something that she owns and if it's just this little bit back there, my goodness, let her have it. What would happen if you parted that off, though, seriously?
+<v Martha Mathis>我想如果你给她一些她拥有的东西，如果只是后面那一小部分，天哪，让她拥有吧。说真的，如果把那部分分开会发生什么？
+
+00:59:43.430 --> 00:59:54.910
+<v Myra Flynn>I'm hearing you. I just don't-- I'm like-- when you're saying, why don't you try this, why don't you try giving Avalon a little section for herself, why didn't you try that with me?
+<v Myra Flynn>我听到了。我只是不——我像——当你说，为什么不尝试这个，为什么不尝试给阿瓦隆一小块留给她自己，为什么你当初不那样对我？
+
+00:59:54.910 --> 01:00:25.050
+<v Martha Mathis>Because no one told me that. That's how messages are passed on. The women my age, they were not brought up to even have these kind of conversations. And I don't even know if I had them in my brain, I mean, back then. But I'm saying for you, I would think you do have options. When you know better, you do better.
+<v Martha Mathis>因为没有人告诉我。信息就是这样传递的。我这个年纪的女性，她们甚至没有被培养去进行这种对话。而且我不知道当时我脑子里有没有这些，我的意思是，那时。但我说的是为你，我认为你有选择。当你了解得更好，你就会做得更好。
+
+01:00:25.050 --> 01:00:28.970
+<v Myra Flynn>The next time I did Avalon's hair, I let her do some of it.
+<v Myra Flynn>下次给阿瓦隆做头发时，我让她做了一部分。
+
+01:00:28.970 --> 01:00:44.550
+<v Myra Flynn>You ready to get the back just a little bit right here? Good job. Back here. Look at that. Why are you smiling? Whenever Mama's doing it, you're crying.
+<v Myra Flynn>准备好弄后面那一点点了吗？做得好。这后面。看那个。你为什么在笑？每当妈妈在弄的时候，你就在哭。
+
+01:00:44.550 --> 01:00:46.770
+<v Avalon>[LAUGHS]
+<v Avalon>[大笑]
+
+01:00:46.770 --> 01:00:49.530
+<v Myra Flynn>What's it feel like to do your own hair?
+<v Myra Flynn>自己做头发是什么感觉？
+
+01:00:49.530 --> 01:00:50.730
+<v Avalon>Soft.
+<v Avalon>软。
+
+01:00:50.730 --> 01:00:53.170
+<v Myra Flynn>It feels soft, huh?
+<v Myra Flynn>感觉很软，是吗？
+
+01:00:53.170 --> 01:00:58.410
+<v Avalon>It doesn't feel hard like a rock. But when Mama does it, it feels hard like a rock.
+<v Avalon>它感觉不像石头一样硬。但当妈妈做的时候，它感觉像石头一样硬。
+
+01:00:58.410 --> 01:01:02.680
+<v Myra Flynn>Your hair feels hard like a rock, or my brushing feels hard like a rock?
+<v Myra Flynn>你的头发感觉像石头一样硬，还是我的梳理感觉像石头一样硬？
+
+01:01:02.680 --> 01:01:05.740
+<v Avalon>The brushing feels hard like a rock.
+<v Avalon>梳理感觉像石头一样硬。
+
+01:01:05.740 --> 01:01:08.180
+<v Myra Flynn>Does this part hurt?
+<v Myra Flynn>这个部分疼吗？
+
+01:01:08.180 --> 01:01:09.140
+<v Avalon>No.
+<v Avalon>不。
+
+01:01:09.140 --> 01:01:18.360
+<v Myra Flynn>Oh, good. I don't think I've ever seen your kitchen look so good. Should we show Papa?
+<v Myra Flynn>噢，太好了。我觉得我从来没见过你的厨房看起来这么好。我们要展示给爸爸看吗？
+
+01:01:18.360 --> 01:01:20.060
+<v Avalon>Mm-hmm.
+<v Avalon>嗯哼。
+
+01:01:20.060 --> 01:01:24.460
+<v Myra Flynn>Papa Bear! Do you want to tell him? Want to tell him?
+<v Myra Flynn>爸爸熊！你想告诉他吗？想告诉他吗？
+
+01:01:24.460 --> 01:01:27.580
+<v Avalon>Look at my kitchen.
+<v Avalon>看我的厨房。
+
+01:01:27.580 --> 01:01:29.740
+<v Phil>[GASPS] Wow.
+<v Phil>[喘气] 哇。
+
+01:01:29.740 --> 01:01:31.660
+<v Myra Flynn>What about your kitchen?
+<v Myra Flynn>你的厨房怎么了？
+
+01:01:31.660 --> 01:01:32.960
+<v Avalon>I did it.
+<v Avalon>我弄的。
+
+01:01:32.960 --> 01:01:33.760
+<v Phil>You did it?
+<v Phil>你弄的？
+
+01:01:33.760 --> 01:01:34.380
+<v Avalon>Yes.
+<v Avalon>是的。
+
+01:01:34.380 --> 01:01:37.160
+<v Phil>Good job, baby.
+<v Phil>干得好，宝贝。
+
+01:01:37.160 --> 01:02:18.480
+<v Myra Flynn>As a parent, you're always looking for your failures. There are so many ways to fall short. But every once in a while, if you're lucky, the evidence is clear. You did something really good for your kid. And with my mom's help, I was able to change this one thing in the wheel of my own motherhood, and maybe one day, Avalon's. I want her to know what my mother knew and her mother before her, that when you're doing your hair some parts need someone else's hands, and some parts we can learn to hold ourselves.
+<v Myra Flynn>作为父母，你总是寻找你的失败。有很多方式落空。但每隔一段时间，如果你幸运的话，证据是明确的。你为你的孩子做了一些真正好的事情。在妈妈的帮助下，我能够改变我个人母亲身份轮子里的这一件事，也许有一天，阿瓦隆也会。我希望她知道我妈妈和她之前的妈妈所知道的，当你做头发时，有些部分需要别人的手，而有些部分我们可以学会自己把持。
+
+01:02:18.480 --> 01:02:53.480
+<v Ira Glass>Myra Flynn. She's the host of the podcast Homegoings with Myra Flynn, which is available wherever you get your podcasts. Her story was produced by Emmanuel Dzotsi.
+<v Ira Glass>迈拉·弗林。她是播客《迈拉·弗林的回家》的主持人，该播客在任何你能获取播客的地方都可以听到。她的故事由伊曼纽尔·佐齐制作。
+
+01:02:53.480 --> 01:03:21.100
+<v Ira Glass>Well, our program was produced today by Dana Chivvis and Valerie Kipnis, who, by the way, produced the show across an intergenerational divide. It was edited by David Kestenbaum. The people who put together today's show include Adriene Lilly, Seth Lind, Katherine Rae Mondo, Stowe Nelson, Ruthie Petitto, Nadia Reiman, Ryan Rumery, Ruby Schwartz, Lilly Sullivan, Alissa Shipp, Frances Swanson, Nancy Updike, and Julie Whitaker. Our managing editor is Sarah Abdurrahman. Our senior editors, David Kestenbaum and Nancy Updike. Our executive editor is Emanuele Berry.
+<v Ira Glass>好吧，我们今天的节目由达娜·奇维斯和瓦莱丽·基普尼斯制作，她们顺便说一下，是在代际隔阂下制作了节目。由大卫·凯斯滕鲍姆编辑。参与制作今天节目的人包括阿德里安·莉莉、赛斯·林德、凯瑟琳·雷·蒙多、斯托·尼尔森、鲁西·佩蒂托、纳迪亚·雷曼、瑞安·鲁梅里、鲁比·施瓦茨、莉莉·沙利文、阿丽莎·希普、弗朗西斯·斯旺森、南希·厄普代克和朱莉·惠特克。我们的主编是萨拉·阿卜杜拉赫曼。高级编辑大卫·凯斯滕鲍姆和南希·厄普代克。执行主编是埃马努埃莱·贝里。
+
+01:03:21.100 --> 01:03:40.820
+<v Ira Glass>Special thanks today to Diego Ongaro, Brendan Maum, Jaime Ardolino, Eileen and Marc Civin, Rebecca Babcock, Shane Manship, B.A. Parker, Phil Wills, Sam Yellowhorse Kessler, Meghan Keane, Laurie Laz, Dan Sinykin, Ray Tintori, Ben Mossman, Brian Houston, Cora Bruce, Ingrid Haftel, and Ellis Retzer.
+<v Ira Glass>今天特别感谢迭戈·昂加罗、布伦丹·毛姆、杰米·阿尔多利诺、艾琳和马克·西文、丽贝卡·巴布科克、谢恩·曼希普、B.A. 帕克、菲尔·威尔斯、萨姆·耶洛霍斯·凯斯勒、梅根·基恩、劳里·拉兹、丹·西尼金、雷·廷托里、本·莫斯曼、布莱恩·休斯顿、科拉·布鲁斯、英格丽德·哈夫特尔和埃利斯·雷策。
+
+01:03:40.820 --> 01:04:06.870
+<v Ira Glass>This American Life is delivered to public radio stations by PRX, the Public Radio Exchange. Thanks also to all of our This American Life Partners for helping us make the show with their contributions. Life Partners get bonus episodes. They get this newsletter where I and other staffers recommend films and TV shows and other stuff. They listen ad-free. Join at thisamericanlife.org/lifepartners. That link is also in the show notes.
+<v Ira Glass>《美国生活》由公共广播交流平台 PRX 分发给公共广播电台。还要感谢我们所有的《美国生活》合作伙伴，他们通过贡献帮助我们制作了这个节目。生活合作伙伴获得额外剧集。他们会收到这份时事通讯，我和其他工作人员在其中推荐电影、电视节目和其他内容。他们可以无广告收听。加入请访问 thisamericanlife.org/lifepartners。该链接也在节目说明中。
+
+01:04:06.870 --> 01:04:19.830
+<v Ira Glass>Thanks as always to our program's co-founder, Mr. Torey Malatia. You know, no matter what kind of restaurant we go to-- Italian, Mexican, Thai-- his order is always, always, always the same.
+<v Ira Glass>像往常一样感谢我们节目的联合创始人托里·马拉蒂亚先生。你知道，无论我们去什么样的餐厅——意大利、墨西哥、泰国——他的点餐永远、永远、永远是一样的。
+
+01:04:19.830 --> 01:04:21.890
+<v Courtney Maum>Give me some of that shrimp!
+<v Courtney Maum>给我点虾！
+
+01:04:21.890 --> 01:04:26.890
+<v Ira Glass>I'm Ira Glass. I'll be seeing you, of course, in the comments on Spotify. And I will be back next week with more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯。我当然会在 Spotify 的评论区见你们。下周我将回来带给大家更多《美国生活》的故事。
