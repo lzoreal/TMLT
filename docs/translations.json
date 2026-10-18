@@ -115,7 +115,7 @@
     "updated": "2026-08-21T03:12:30.203405+00:00"
   },
   "__meta__": {
-    "date": "2026-10-10",
+    "date": "2026-10-18",
     "daily_requests": 3
   },
   "11": {
@@ -4357,5 +4357,15 @@
     "hash": "1810c3fee490d44cc6028b93e3ea7b8312a2cc30e983ccbc2e770590cd3ad4fa",
     "translated": true,
     "updated": "2026-10-10T06:56:10.289990+00:00"
+  },
+  "249": {
+    "hash": "b570bd00324f134f06de8654e7127bbdf19eb1a13c959b00c113bfc2831654af",
+    "translated": true,
+    "updated": "2026-10-18T12:58:07.629613+00:00"
+  },
+  "640": {
+    "hash": "af44dfa0ad569953171a824bcc71657fdfb92f766edbffd020d10a0a021fb0b8",
+    "translated": true,
+    "updated": "2026-10-18T12:59:08.516066+00:00"
   }
 }
