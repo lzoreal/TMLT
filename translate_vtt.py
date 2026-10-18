@@ -708,8 +708,6 @@ def translate_episode(
 
     log(f"Translating {source.name}")
 
-    separator()
-
     content = source.read_text(encoding="utf-8-sig")
 
     cues = parse_vtt_cues(content)
@@ -720,75 +718,120 @@ def translate_episode(
         raise RuntimeError("Source VTT contains no subtitle cues")
 
     translated = {}
-
     batches = chunk_cues_by_chars(cues)
 
-    log(f"Batches: {len(batches)} " f"(dynamic by ~{MAX_BATCH_CHARS} chars)")
+    log(f"Initial batches: {len(batches)} " f"(max ~{MAX_BATCH_CHARS} chars)")
 
-    for batch_idx, batch in enumerate(
-        batches,
-        1,
-    ):
-        group(f"Batch {batch_idx}/{len(batches)} " f"({batch[0][0]}-{batch[-1][0]})")
+    # --------------------------------------------------------
+    # 1. 首轮分批翻译
+    # --------------------------------------------------------
+
+    for batch_idx, batch in enumerate(batches, 1):
+        group(
+            f"Initial batch {batch_idx}/{len(batches)} "
+            f"({batch[0][0]}-{batch[-1][0]})"
+        )
 
         try:
             result = gemini_batch_translate(
                 batch,
                 cache_meta,
             )
+
+            for idx, value in result.items():
+                if not (0 <= idx < len(cues)):
+                    continue
+
+                original = prepare_gemini_text(cues[idx]["text"])
+
+                if validate_translation(original, value):
+                    translated[idx] = value
+
         finally:
             endgroup()
 
-        for idx, value in result.items():
-            if 0 <= idx < len(cues):
-                if validate_translation(
-                    prepare_gemini_text(cues[idx]["text"]),
-                    value,
-                ):
-                    translated[idx] = value
-
     # --------------------------------------------------------
-    # Retry missing blocks individually
+    # 2. 收集所有缺失片段，批量重试
     # --------------------------------------------------------
 
     missing = [i for i in range(len(cues)) if i not in translated]
 
-    if missing:
-        log(f"Missing {len(missing)} blocks; " "retrying individually")
+    log(f"Missing after first pass: {len(missing)}")
 
-        for idx in missing:
-            single = [
-                (
-                    idx,
-                    prepare_gemini_text(cues[idx]["text"]),
+    for retry_round in range(1, 4):
+        if not missing:
+            break
+
+        log(f"Batch retry round {retry_round}/3: " f"{len(missing)} missing cues")
+
+        # 只对缺失片段分批，不再逐条请求。
+        retry_cues = [
+            {
+                "timestamp": cues[i]["timestamp"],
+                "text": cues[i]["text"],
+                "identifier": cues[i].get("identifier"),
+                "_original_index": i,
+            }
+            for i in missing
+        ]
+
+        retry_batches = chunk_cues_by_chars(
+            retry_cues,
+            max_chars=MAX_BATCH_CHARS,
+        )
+
+        log(f"Retry batches: {len(retry_batches)}")
+
+        for batch_idx, batch in enumerate(
+            retry_batches,
+            1,
+        ):
+            group(f"Retry {retry_round}, " f"batch {batch_idx}/{len(retry_batches)}")
+
+            try:
+                # chunk_cues_by_chars 返回的是
+                # (retry_cues 内的索引, 文本)。
+                result = gemini_batch_translate(
+                    batch,
+                    cache_meta,
                 )
-            ]
 
-            result = gemini_batch_translate(
-                single,
-                cache_meta,
-            )
+                for local_idx, value in result.items():
+                    if not (0 <= local_idx < len(retry_cues)):
+                        continue
 
-            value = result.get(idx)
+                    original_idx = retry_cues[local_idx]["_original_index"]
 
-            if value and validate_translation(
-                prepare_gemini_text(cues[idx]["text"]),
-                value,
-            ):
-                translated[idx] = value
+                    original_text = prepare_gemini_text(cues[original_idx]["text"])
 
-    still_missing = [i for i in range(len(cues)) if i not in translated]
+                    if validate_translation(
+                        original_text,
+                        value,
+                    ):
+                        translated[original_idx] = value
 
-    if still_missing:
-        for i in still_missing[:10]:
-            log(f"Missing block {i}: " f"{cues[i]['text'][:60]}...")
+            finally:
+                endgroup()
+
+        missing = [i for i in range(len(cues)) if i not in translated]
+
+        log(f"Remaining missing cues: {len(missing)}")
+
+    # --------------------------------------------------------
+    # 3. 如果仍有缺失，放弃本集输出
+    # --------------------------------------------------------
+
+    if missing:
+        for i in missing[:10]:
+            log(f"Missing cue {i}: " f"{cues[i]['text'][:80]}...")
 
         raise RuntimeError(
-            "Translation incomplete: " f"{len(still_missing)} blocks missing"
+            "Translation incomplete after 3 batch retries: "
+            f"{len(missing)} cues missing"
         )
 
     # --------------------------------------------------------
-    # Generate bilingual VTT
+    # 4. 生成双语 VTT
     # --------------------------------------------------------
 
     output = [
@@ -798,7 +841,6 @@ def translate_episode(
 
     for i, cue in enumerate(cues):
         output.append(cue["timestamp"])
-
         output.append(cue["text"])
 
         output.append(
