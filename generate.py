@@ -210,88 +210,71 @@ def resolve_audio_url(url):
 # ============================================================
 
 def get_archive():
+    """
+    按年份抓取 This American Life 全部归档节目。
+    从 1995 年开始，自动抓取到当前年份。
+    使用 ?year=YYYY，不再依赖分页链接。
+    """
 
     episodes = {}
 
-    archive_page = "/archive"
+    current_year = datetime.now().year
+    failed_years = []
 
-    visited_pages = set()
+    for year in range(1995, current_year + 1):
+        archive_page = f"/archive?year={year}"
 
-    while True:
+        print("\n" + "=" * 70)
+        print(f"Fetching archive year: {year}")
+        print(f"URL: {BASE + archive_page}")
 
-        if archive_page in visited_pages:
-            break
+        try:
+            content = fetch(BASE + archive_page)
+            soup = BeautifulSoup(content, "html.parser")
 
-        visited_pages.add(archive_page)
+            year_episodes = {}
 
-        print(
-            "Fetching archive:",
-            archive_page
-        )
+            for a in soup.select("a.goto-episode"):
+                href = a.get("href", "").strip()
 
-        content = fetch(
-            BASE + archive_page
-        )
+                if not href:
+                    continue
 
-        soup = BeautifulSoup(
-            content,
-            "html.parser"
-        )
+                match = re.search(r"^/(\d+)/", href)
 
-        found = 0
+                if not match:
+                    continue
 
-        for a in soup.select(
-            "a.goto-episode"
-        ):
+                episode = match.group(1)
+                year_episodes[episode] = BASE + href
 
-            href = a.get("href")
+            print(f"Year {year}: found {len(year_episodes)} episodes")
 
-            if not href:
-                continue
+            if year_episodes:
+                episodes.update(year_episodes)
+            else:
+                # 空结果不一定代表该年份没有节目，
+                # 也可能是页面结构变化或请求异常。
+                print(f"WARNING: No episodes found for {year}")
+                failed_years.append(year)
 
-            m = re.search(
-                r"^/(\d+)/",
-                href
-            )
+        except Exception as e:
+            print(f"ERROR: Failed to fetch year {year}: {e}")
+            failed_years.append(year)
 
-            if not m:
-                continue
+        time.sleep(random.uniform(2, 5))
 
-            episode = m.group(1)
+    print("\n" + "=" * 70)
+    print(f"Total unique episodes found: {len(episodes)}")
 
-            episodes[episode] = (
-                BASE + href
-            )
+    if failed_years:
+        print(f"WARNING: Failed or empty years: {failed_years}")
 
-            found += 1
-
-        print(
-            "Found:",
-            found
-        )
-
-        pager = soup.select_one(
-            "a.pager"
-        )
-
-        if not pager:
-            break
-
-        next_page = pager.get("href")
-
-        if not next_page:
-            break
-
-        if next_page == archive_page:
-            break
-
-        archive_page = next_page
-
-        time.sleep(
-            random.uniform(
-                5,
-                10
-            )
+        # 不允许某些年份抓取失败后继续生成可能不完整的 RSS。
+        raise RuntimeError(
+            "Archive crawl incomplete. "
+            f"Failed or empty years: {failed_years}. "
+            "Existing RSS should not be replaced."
         )
 
     return episodes
