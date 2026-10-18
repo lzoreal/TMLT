@@ -9,6 +9,7 @@ import hashlib
 import traceback
 import logging
 import random
+import tempfile
 
 from pathlib import Path
 from datetime import datetime, timezone
@@ -23,36 +24,45 @@ INPUT_DIR = Path("docs/transcripts")
 OUTPUT_DIR = Path("docs/transcripts/zh")
 CACHE_FILE = Path("docs/translations.json")
 
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.1-flash-lite")
+MODEL = os.environ.get(
+    "GEMINI_MODEL",
+    "gemini-3.1-flash-lite",
+)
+
 MAX_FILES = int(os.environ.get("MAX_FILES", "10"))
 
-# 按字符数分批，替代固定 BATCH_SIZE
 MAX_BATCH_CHARS = int(os.environ.get("MAX_BATCH_CHARS", "120000"))
 
 RETRY_COUNT = 5
 RETRY_BASE = 20
 
-# RPM 限流：14 RPM（配额 15，留 1 个缓冲）
 RPM_LIMIT = int(os.environ.get("RPM_LIMIT", "14"))
+
+if RPM_LIMIT < 1:
+    raise ValueError("RPM_LIMIT must be >= 1")
+
 MIN_REQUEST_INTERVAL = 60.0 / RPM_LIMIT
 
-# RPD 硬上限（免费层 500）
 DAILY_REQUEST_LIMIT = int(os.environ.get("DAILY_REQUEST_LIMIT", "500"))
 
-# GitHub Actions 检测
 IN_ACTIONS = os.environ.get("GITHUB_ACTIONS") == "true"
+
 
 # ============================================================
 # Logging
 # ============================================================
 
 if IN_ACTIONS:
-    # Actions 里不需要日期前缀，用 GitHub 自带时间戳即可
     fmt = "[%(levelname)s] %(message)s"
 else:
     fmt = "%(asctime)s [%(levelname)s] %(message)s"
 
-logging.basicConfig(level=logging.INFO, format=fmt, datefmt="%H:%M:%S")
+logging.basicConfig(
+    level=logging.INFO,
+    format=fmt,
+    datefmt="%H:%M:%S",
+)
+
 logger = logging.getLogger("vtt_translator")
 
 
@@ -65,7 +75,6 @@ def separator():
 
 
 def group(title):
-    """GitHub Actions 日志分组"""
     if IN_ACTIONS:
         print(f"::group::{title}", flush=True)
     else:
@@ -82,32 +91,28 @@ def endgroup():
 # ============================================================
 
 group("Initializing Gemini")
+
 try:
-    # 添加 120 秒 HTTP 超时，防止服务端无响应时无限挂死
+    api_key = os.environ.get("GEMINI_API_KEY")
+
+    if not api_key:
+        raise RuntimeError("GEMINI_API_KEY environment variable is missing")
+
     client = genai.Client(
-        api_key=os.environ["GEMINI_API_KEY"],
-        http_options={"timeout": 120000}
+        api_key=api_key,
+        http_options={"timeout": 120000},
     )
-    log("✅ Gemini initialized")
-except Exception as e:
-    log("❌ Gemini initialization failed")
+
+    log("Gemini initialized")
+
+except Exception:
+    log("Gemini initialization failed")
     endgroup()
-    raise e
+    raise
+
 endgroup()
 
 _last_request_time = 0.0
-
-
-def _rate_limit_wait():
-    """确保请求间隔满足 RPM 限制"""
-    global _last_request_time
-    now = time.time()
-    elapsed = now - _last_request_time
-    if elapsed < MIN_REQUEST_INTERVAL:
-        sleep_time = MIN_REQUEST_INTERVAL - elapsed
-        log(f"⏳ Rate limit: sleeping {sleep_time:.2f}s")
-        time.sleep(sleep_time)
-    _last_request_time = time.time()
 
 
 # ============================================================
@@ -116,8 +121,54 @@ def _rate_limit_wait():
 
 
 class DailyLimitReached(Exception):
-    """日 API 限额达到，需要优雅停止，不是真正的错误"""
+    """每日 API 请求上限已达到。"""
+
     pass
+
+
+# ============================================================
+# Atomic file writing
+# ============================================================
+
+
+def atomic_write_text(path: Path, content: str):
+    """
+    写入临时文件，成功后再替换目标文件。
+    """
+
+    path = Path(path)
+    path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    fd, temp_name = tempfile.mkstemp(
+        prefix=path.name + ".",
+        suffix=".tmp",
+        dir=str(path.parent),
+    )
+
+    temp_path = Path(temp_name)
+
+    try:
+        with os.fdopen(
+            fd,
+            "w",
+            encoding="utf-8",
+            newline="",
+        ) as file:
+            file.write(content)
+            file.flush()
+            os.fsync(file.fileno())
+
+        temp_path.replace(path)
+
+    except Exception:
+        try:
+            temp_path.unlink(missing_ok=True)
+        except OSError:
+            pass
+        raise
 
 
 # ============================================================
@@ -127,31 +178,58 @@ class DailyLimitReached(Exception):
 
 def load_cache():
     if not CACHE_FILE.exists():
-        log("ℹ️ Cache not found")
+        log("Cache not found")
         return {}
+
     try:
         data = json.loads(CACHE_FILE.read_text(encoding="utf-8"))
-        meta = data.get("__meta__", {})
+
+        if not isinstance(data, dict):
+            raise ValueError("Cache must be a JSON object")
+
+        meta = data.setdefault(
+            "__meta__",
+            {},
+        )
+
+        if not isinstance(meta, dict):
+            raise ValueError("Cache metadata is invalid")
+
         today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
         if meta.get("date") != today:
             meta["date"] = today
             meta["daily_requests"] = 0
-            data["__meta__"] = meta
-            log("🌅 New day detected, resetting daily request counter")
-        episode_count = len(data) - (1 if "__meta__" in data else 0)
-        log(f"💾 Cache loaded: {episode_count} episodes")
+
+            log("New day detected, resetting daily request counter")
+
+        episode_count = len(data) - 1
+
+        log(f"Cache loaded: {episode_count} episodes")
+
         return data
-    except Exception as e:
-        log(f"⚠️ Cache load failed: {e}")
-        return {}
+
+    except Exception as exc:
+        # 不要在缓存损坏时直接返回空缓存并覆盖原文件。
+        raise RuntimeError(f"Cache load failed: {exc}") from exc
 
 
 def save_cache(cache):
-    CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
-    CACHE_FILE.write_text(
-        json.dumps(cache, indent=2, ensure_ascii=False), encoding="utf-8"
+    CACHE_FILE.parent.mkdir(
+        parents=True,
+        exist_ok=True,
     )
-    log("💾 Cache saved")
+
+    atomic_write_text(
+        CACHE_FILE,
+        json.dumps(
+            cache,
+            indent=2,
+            ensure_ascii=False,
+        ),
+    )
+
+    log("Cache saved")
 
 
 # ============================================================
@@ -159,15 +237,87 @@ def save_cache(cache):
 # ============================================================
 
 
-def file_hash(path):
+def file_hash(path: Path):
     sha = hashlib.sha256()
-    with path.open("rb") as f:
+
+    with path.open("rb") as file:
         while True:
-            chunk = f.read(8192)
+            chunk = file.read(8192)
+
             if not chunk:
                 break
+
             sha.update(chunk)
+
     return sha.hexdigest()
+
+
+# ============================================================
+# VTT validation
+# ============================================================
+
+
+def is_valid_vtt(path: Path) -> bool:
+    """
+    检查本地 VTT 文件：
+    1. 文件存在。
+    2. 文件非空。
+    3. 包含 WEBVTT 标记。
+    4. 至少包含一条时间轴。
+    5. 至少有一条非空字幕内容。
+    """
+
+    path = Path(path)
+
+    if not path.is_file():
+        return False
+
+    try:
+        content = path.read_text(encoding="utf-8-sig")
+
+        if not content.strip():
+            return False
+
+        if not content.lstrip().startswith("WEBVTT"):
+            return False
+
+        timestamp_pattern = (
+            r"(?m)^\d{2,}:\d{2}:\d{2}\.\d{3}" r"\s+-->\s+" r"\d{2,}:\d{2}:\d{2}\.\d{3}"
+        )
+
+        if not re.search(
+            timestamp_pattern,
+            content,
+        ):
+            return False
+
+        cues = parse_vtt_cues(content)
+
+        return bool(cues)
+
+    except (OSError, UnicodeError, ValueError):
+        return False
+
+
+# ============================================================
+# Rate limit
+# ============================================================
+
+
+def _rate_limit_wait():
+    global _last_request_time
+
+    now = time.time()
+    elapsed = now - _last_request_time
+
+    if elapsed < MIN_REQUEST_INTERVAL:
+        sleep_time = MIN_REQUEST_INTERVAL - elapsed
+
+        log(f"Rate limit: sleeping {sleep_time:.2f}s")
+
+        time.sleep(sleep_time)
+
+    _last_request_time = time.time()
 
 
 # ============================================================
@@ -177,10 +327,13 @@ def file_hash(path):
 
 def build_prompt(blocks):
     content = []
+
     for idx, text in blocks:
         content.append(f"{idx}|||{text}")
+
     joined = "\n\n".join(content)
-    prompt = f"""You are translating podcast subtitles.
+
+    return f"""You are translating podcast subtitles.
 
 Translate English subtitles into Simplified Chinese.
 
@@ -207,39 +360,59 @@ Important:
 Subtitle blocks:
 {joined}
 """
-    return prompt
 
 
 def parse_translation_response(text):
     result = {}
+
     if not text:
         return result
+
     for line in text.splitlines():
         line = line.strip()
+
         if not line:
             continue
-        line = re.sub(r"^[\-\*\s]+", "", line)
+
+        line = re.sub(
+            r"^[\-\*\s]+",
+            "",
+            line,
+        )
+
         try:
             if "|||" in line:
-                idx, value = line.split("|||", 1)
+                idx, value = line.split(
+                    "|||",
+                    1,
+                )
             elif "|" in line:
-                idx, value = line.split("|", 1)
+                idx, value = line.split(
+                    "|",
+                    1,
+                )
             else:
                 continue
-            idx = re.sub(r"[^0-9]", "", idx.strip())
-            if not idx:
+
+            idx = idx.strip()
+
+            if not re.fullmatch(r"\d+", idx):
                 continue
+
             value = value.strip()
+
             if value:
                 result[int(idx)] = value
+
         except Exception:
             continue
+
     return result
 
 
 def is_retryable_error(error) -> bool:
-    """只重试可恢复的服务端/网络错误"""
     err_str = str(error).lower()
+
     retryable = [
         "429",
         "too many requests",
@@ -259,112 +432,165 @@ def is_retryable_error(error) -> bool:
         "network",
         "unreachable",
     ]
-    return any(kw in err_str for kw in retryable)
+
+    return any(keyword in err_str for keyword in retryable)
 
 
-def validate_translation(original: str, translated: str) -> bool:
-    """简单验证翻译结果质量"""
+def validate_translation(
+    original: str,
+    translated: str,
+) -> bool:
     if not translated or len(translated) < 2:
         return False
+
     if translated.lower().strip(".,!?") == original.lower().strip(".,!?"):
         return False
-    if not re.search(r"[\u4e00-\u9fff]", translated):
+
+    if not re.search(
+        r"[\u4e00-\u9fff]",
+        translated,
+    ):
         return False
+
     return True
 
 
-def gemini_batch_translate(blocks, cache_meta):
-    """带限流、RPD 检查、错误分类的翻译"""
-    global _last_request_time
+def gemini_batch_translate(
+    blocks,
+    cache_meta,
+):
+    """
+    带 RPM 限流、RPD 检查和重试的翻译。
+    """
+
     prompt = build_prompt(blocks)
 
-    for attempt in range(1, RETRY_COUNT + 1):
-        # RPD 硬上限检查
-        daily_used = cache_meta.get("daily_requests", 0)
+    for attempt in range(
+        1,
+        RETRY_COUNT + 1,
+    ):
+        daily_used = int(
+            cache_meta.get(
+                "daily_requests",
+                0,
+            )
+        )
+
         if daily_used >= DAILY_REQUEST_LIMIT:
             raise DailyLimitReached(
-                f"Daily request limit reached: {daily_used}/{DAILY_REQUEST_LIMIT}"
+                "Daily request limit reached: " f"{daily_used}/{DAILY_REQUEST_LIMIT}"
             )
-        cache_meta["daily_requests"] = daily_used + 1
 
         _rate_limit_wait()
+
         start = time.time()
 
+        # 每次实际尝试都计入本地请求预算，
+        # 包括失败请求，避免重试导致预算失真。
+        cache_meta["daily_requests"] = daily_used + 1
+
         log(
-            f"🤖 Request #{cache_meta['daily_requests']}/{DAILY_REQUEST_LIMIT} "
-            f"(attempt {attempt}/{RETRY_COUNT}), blocks: {len(blocks)}"
+            f"Request #{cache_meta['daily_requests']}/"
+            f"{DAILY_REQUEST_LIMIT} "
+            f"(attempt {attempt}/{RETRY_COUNT}), "
+            f"blocks: {len(blocks)}"
         )
 
         try:
             response = client.models.generate_content(
                 model=MODEL,
-                contents=prompt
+                contents=prompt,
             )
+
             elapsed = time.time() - start
             raw = response.text or ""
+
             parsed = parse_translation_response(raw)
 
-            log(f"✅ Success {elapsed:.2f}s, parsed: {len(parsed)}")
+            log(f"Success {elapsed:.2f}s, " f"parsed: {len(parsed)}")
+
             if not parsed:
-                log("⚠️ Empty parse result")
+                log("Empty parse result")
                 log(raw[:500])
+
                 if attempt < RETRY_COUNT:
-                    raise Exception("Empty parse result")
+                    raise RuntimeError("Empty parse result")
+
             return parsed
 
-        except Exception as e:
-            if isinstance(e, DailyLimitReached):
+        except DailyLimitReached:
+            raise
+
+        except Exception as exc:
+            log(f"Gemini error: {exc}")
+
+            if (
+                not is_retryable_error(exc)
+                and "empty parse result" not in str(exc).lower()
+            ):
                 raise
-            log(f"❌ Error: {e}")
-            if not is_retryable_error(e) or attempt >= RETRY_COUNT:
+
+            if attempt >= RETRY_COUNT:
                 raise
-            # 指数退避 + 抖动，应对服务端高负载
+
             wait = RETRY_BASE * (2 ** (attempt - 1)) + random.uniform(0, 5)
-            log(f"⏳ Retryable, waiting {wait:.1f}s...")
+
+            log(f"Retryable error, waiting {wait:.1f}s")
+
             time.sleep(wait)
 
     return {}
 
 
 # ============================================================
-# VTT Parser (重写，更健壮)
+# VTT Parser
 # ============================================================
 
 
 def parse_vtt_cues(content: str) -> list[dict]:
     """
-    健壮的 WebVTT 解析器。
-    正确处理 cue 标识符、多行文本、内部空行、NOTE/STYLE/REGION 区域。
+    解析 WebVTT cue。
+    支持 cue 标识符、多行文本和 NOTE/STYLE/REGION 区域。
     """
+
     cues = []
     lines = content.splitlines()
+
     i = 0
     n = len(lines)
 
-    # 跳过 WEBVTT 头和所有元数据区域
     while i < n:
-        line_stripped = lines[i].strip()
-        if line_stripped in ("WEBVTT", ""):
+        stripped = lines[i].strip()
+
+        if stripped in ("WEBVTT", ""):
             i += 1
             continue
-        if line_stripped.startswith(("NOTE", "STYLE", "REGION")):
+
+        if stripped.startswith(("NOTE", "STYLE", "REGION")):
             i += 1
+
             while i < n and lines[i].strip() != "":
                 i += 1
+
             continue
-        if "-->" in line_stripped:
+
+        if "-->" in stripped:
             break
+
         if i + 1 < n and "-->" in lines[i + 1]:
             break
+
         i += 1
 
     while i < n:
         while i < n and lines[i].strip() == "":
             i += 1
+
         if i >= n:
             break
 
         identifier = None
+
         if i + 1 < n and "-->" in lines[i + 1]:
             identifier = lines[i].strip()
             i += 1
@@ -377,73 +603,94 @@ def parse_vtt_cues(content: str) -> list[dict]:
         i += 1
 
         text_lines = []
+
         while i < n and lines[i].strip() != "":
             text_lines.append(lines[i])
             i += 1
 
         text = "\n".join(text_lines).strip()
+
         if text:
             cues.append(
-                {"timestamp": timestamp, "text": text, "identifier": identifier}
+                {
+                    "timestamp": timestamp,
+                    "text": text,
+                    "identifier": identifier,
+                }
             )
 
     return cues
 
 
 # ============================================================
-# WebVTT Speaker handling
+# Speaker handling
 # ============================================================
 
 
 def extract_speaker(text):
-    match = re.match(r"<v\s+([^>]+)>(.*)", text, re.DOTALL)
+    match = re.match(
+        r"<v\s+([^>]+)>(.*)",
+        text,
+        re.DOTALL,
+    )
+
     if match:
-        return (match.group(1).strip(), match.group(2).strip())
-    return (None, text)
+        return (
+            match.group(1).strip(),
+            match.group(2).strip(),
+        )
+
+    return None, text
 
 
 def prepare_gemini_text(text):
-    speaker, content = extract_speaker(text)
-    if speaker:
-        return content
-    return text
+    _, content = extract_speaker(text)
+    return content
 
 
-def restore_speaker_translation(original, translated):
+def restore_speaker_translation(
+    original,
+    translated,
+):
     speaker, _ = extract_speaker(original)
+
     if speaker:
         return f"<v {speaker}>{translated}"
+
     return translated
 
 
 # ============================================================
-# Batch chunking (按字符数动态分批)
+# Batch chunking
 # ============================================================
 
 
-def chunk_cues_by_chars(cues, max_chars=MAX_BATCH_CHARS):
-    """
-    按字符数分批，替代固定 BATCH_SIZE。
-    最大化利用 TPM，减少总请求数（对 500 RPD 免费层至关重要）。
-    """
+def chunk_cues_by_chars(
+    cues,
+    max_chars=MAX_BATCH_CHARS,
+):
     batches = []
     current = []
-    current_len = 500  # prompt 模板本身约 500 字符开销
+    current_len = 500
 
     for i, cue in enumerate(cues):
         text = prepare_gemini_text(cue["text"])
-        # 每个条目：序号 + "|||" + 文本 + 换行，估算 +15 字符开销
+
         item_len = len(text) + 15
-        if current and (current_len + item_len > max_chars):
+
+        if current and current_len + item_len > max_chars:
             batches.append(current)
+
             current = [(i, text)]
             current_len = 500 + item_len
+
         else:
             current.append((i, text))
             current_len += item_len
 
     if current:
         batches.append(current)
+
     return batches
 
 
@@ -452,69 +699,131 @@ def chunk_cues_by_chars(cues, max_chars=MAX_BATCH_CHARS):
 # ============================================================
 
 
-def translate_episode(source, target, cache_meta):
-    separator()
-    log(f"📄 Translating {source.name}")
+def translate_episode(
+    source,
+    target,
+    cache_meta,
+):
     separator()
 
-    content = source.read_text(encoding="utf-8")
+    log(f"Translating {source.name}")
+
+    separator()
+
+    content = source.read_text(encoding="utf-8-sig")
+
     cues = parse_vtt_cues(content)
 
     log(f"Cue blocks: {len(cues)}")
+
     if not cues:
-        log("⚠️ No cues found, skipping")
-        return
+        raise RuntimeError("Source VTT contains no subtitle cues")
 
     translated = {}
 
-    # 按字符数动态分批
     batches = chunk_cues_by_chars(cues)
-    log(f"Batches: {len(batches)} (dynamic by ~{MAX_BATCH_CHARS} chars)")
 
-    for batch_idx, batch in enumerate(batches, 1):
-        group(f"Batch {batch_idx}/{len(batches)} ({batch[0][0]}-{batch[-1][0]})")
-        result = gemini_batch_translate(batch, cache_meta)
-        endgroup()
+    log(f"Batches: {len(batches)} " f"(dynamic by ~{MAX_BATCH_CHARS} chars)")
+
+    for batch_idx, batch in enumerate(
+        batches,
+        1,
+    ):
+        group(f"Batch {batch_idx}/{len(batches)} " f"({batch[0][0]}-{batch[-1][0]})")
+
+        try:
+            result = gemini_batch_translate(
+                batch,
+                cache_meta,
+            )
+        finally:
+            endgroup()
+
         for idx, value in result.items():
-            translated[idx] = value
+            if 0 <= idx < len(cues):
+                if validate_translation(
+                    prepare_gemini_text(cues[idx]["text"]),
+                    value,
+                ):
+                    translated[idx] = value
 
-    # ------------------------------
-    # 缺失块检测与单独重试
-    # ------------------------------
+    # --------------------------------------------------------
+    # Retry missing blocks individually
+    # --------------------------------------------------------
+
     missing = [i for i in range(len(cues)) if i not in translated]
-    if missing:
-        log(f"⚠️ Missing {len(missing)} blocks, retrying individually...")
-        for idx in missing:
-            single = [(idx, prepare_gemini_text(cues[idx]["text"]))]
-            result = gemini_batch_translate(single, cache_meta)
-            if idx in result:
-                translated[idx] = result[idx]
 
-        still_missing = [i for i in range(len(cues)) if i not in translated]
-        if still_missing:
-            for i in still_missing[:10]:
-                log(f"Still missing block {i}: {cues[i]['text'][:60]}...")
-            raise RuntimeError(
-                f"Translation incomplete: {len(still_missing)} blocks still missing"
+    if missing:
+        log(f"Missing {len(missing)} blocks; " "retrying individually")
+
+        for idx in missing:
+            single = [
+                (
+                    idx,
+                    prepare_gemini_text(cues[idx]["text"]),
+                )
+            ]
+
+            result = gemini_batch_translate(
+                single,
+                cache_meta,
             )
 
-    # ------------------------------
-    # 生成标准双语 VTT
-    # 原文在上 (line:0%)，译文在下 (line:80%)
-    # ------------------------------
-    output = ["WEBVTT", ""]
+            value = result.get(idx)
+
+            if value and validate_translation(
+                prepare_gemini_text(cues[idx]["text"]),
+                value,
+            ):
+                translated[idx] = value
+
+    still_missing = [i for i in range(len(cues)) if i not in translated]
+
+    if still_missing:
+        for i in still_missing[:10]:
+            log(f"Missing block {i}: " f"{cues[i]['text'][:60]}...")
+
+        raise RuntimeError(
+            "Translation incomplete: " f"{len(still_missing)} blocks missing"
+        )
+
+    # --------------------------------------------------------
+    # Generate bilingual VTT
+    # --------------------------------------------------------
+
+    output = [
+        "WEBVTT",
+        "",
+    ]
 
     for i, cue in enumerate(cues):
         output.append(cue["timestamp"])
+
         output.append(cue["text"])
-        output.append(restore_speaker_translation(cue["text"], translated[i]))
+
+        output.append(
+            restore_speaker_translation(
+                cue["text"],
+                translated[i],
+            )
+        )
+
         output.append("")
 
-    target.parent.mkdir(parents=True, exist_ok=True)
-    temp = target.with_suffix(".tmp")
-    temp.write_text("\n".join(output), encoding="utf-8")
-    temp.replace(target)
-    log(f"✅ Saved: {target}")
+    target.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    atomic_write_text(
+        target,
+        "\n".join(output),
+    )
+
+    if not is_valid_vtt(target):
+        raise RuntimeError(f"Generated bilingual VTT is invalid: {target}")
+
+    log(f"Saved: {target}")
 
 
 # ============================================================
@@ -524,17 +833,28 @@ def translate_episode(source, target, cache_meta):
 
 def main():
     separator()
-    log("🚀 Translate VTT started")
-    separator()
+
+    log("Translate VTT started")
     log(f"Model: {MODEL}")
     log(f"Input: {INPUT_DIR}")
     log(f"Output: {OUTPUT_DIR}")
     log(f"Max files: {MAX_FILES}")
     log(f"Max batch chars: {MAX_BATCH_CHARS}")
-    log(f"RPM limit: {RPM_LIMIT} (interval: {MIN_REQUEST_INTERVAL:.2f}s)")
+    log(f"RPM limit: {RPM_LIMIT} " f"(interval: {MIN_REQUEST_INTERVAL:.2f}s)")
     log(f"Daily request limit: {DAILY_REQUEST_LIMIT}")
 
+    if MAX_FILES < 0:
+        raise ValueError("MAX_FILES must be >= 0")
+
+    if MAX_BATCH_CHARS < 1000:
+        raise ValueError("MAX_BATCH_CHARS must be >= 1000")
+
+    if not INPUT_DIR.is_dir():
+        log(f"Input directory does not exist: {INPUT_DIR}")
+        return 1
+
     cache = load_cache()
+
     meta = cache.setdefault(
         "__meta__",
         {
@@ -543,99 +863,184 @@ def main():
         },
     )
 
-    # 日期检查（跨天时重置计数器）
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
     if meta.get("date") != today:
         meta["date"] = today
         meta["daily_requests"] = 0
-        log("🌅 New day, daily counter reset")
 
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        log("New day, daily counter reset")
+
+    meta.setdefault(
+        "daily_requests",
+        0,
+    )
+
+    OUTPUT_DIR.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
     files = sorted(
         INPUT_DIR.glob("*.vtt"),
-        key=lambda x: int(x.stem) if x.stem.isdigit() else 999999,
+        key=lambda path: (int(path.stem) if path.stem.isdigit() else 999999),
     )
-    log(f"Found VTT: {len(files)}")
+
+    log(f"Found source VTT files: {len(files)}")
 
     processed = 0
+    skipped = 0
     errors = []
     stopped_by_limit = False
 
     try:
         for source in files:
             episode = source.stem
-
-            separator()
-            log(f"Processing episode {episode}")
-
-            sha = file_hash(source)
-            old = cache.get(episode)
             target = OUTPUT_DIR / source.name
 
-            if (
-                old
-                and old.get("hash") == sha
-                and old.get("translated")
-                and target.exists()
-            ):
-                log("⏭ Already translated")
+            separator()
+
+            log(f"Processing episode {episode}")
+
+            # ------------------------------------------------
+            # 1. Validate source VTT
+            # ------------------------------------------------
+
+            if not is_valid_vtt(source):
+                log(f"Invalid source VTT; skipping: {source}")
+                skipped += 1
                 continue
+
+            sha = file_hash(source)
+
+            old = cache.get(episode)
+
+            if not isinstance(old, dict):
+                old = {}
+
+            # ------------------------------------------------
+            # 2. Check local translated VTT
+            # ------------------------------------------------
+
+            if is_valid_vtt(target):
+                old_hash = old.get("hash")
+
+                # 只有原文哈希一致时才直接跳过。
+                if old_hash == sha and old.get("translated"):
+                    log(
+                        "Local bilingual VTT valid "
+                        "and source hash unchanged; skipping"
+                    )
+
+                    skipped += 1
+                    continue
+
+                # 缓存丢失时，不足以证明本地双语文件对应
+                # 当前原文，因此不能盲目认定为最新译文。
+                if old_hash is None:
+                    log(
+                        "Local bilingual VTT exists, "
+                        "but no matching source hash is available"
+                    )
+
+                else:
+                    log("Source hash changed; " "retranslation required")
+
+            # ------------------------------------------------
+            # 3. Restore cache if local file matches source
+            # ------------------------------------------------
+
+            # 上面的逻辑已覆盖哈希匹配的有效双语文件。
+            # 只有没有有效目标文件时才需要调用 Gemini。
 
             if processed >= MAX_FILES:
                 log("MAX_FILES reached")
                 break
 
-            if meta["daily_requests"] >= DAILY_REQUEST_LIMIT:
-                log("⚠️ Daily request limit reached, stopping gracefully")
+            if int(meta.get("daily_requests", 0)) >= DAILY_REQUEST_LIMIT:
+                log("Daily request limit reached; stopping")
+
                 stopped_by_limit = True
                 break
 
+            # ------------------------------------------------
+            # 4. Translate
+            # ------------------------------------------------
+
+            group(f"Episode {episode}")
+
             try:
-                group(f"Episode {episode}")
-                translate_episode(source, target, meta)
-                endgroup()
+                translate_episode(
+                    source,
+                    target,
+                    meta,
+                )
+
+                # 翻译成功后再验证文件。
+                if not is_valid_vtt(target):
+                    raise RuntimeError("Output VTT failed validation")
 
                 cache[episode] = {
                     "hash": sha,
                     "translated": True,
                     "updated": datetime.now(timezone.utc).isoformat(),
                 }
+
                 processed += 1
 
-            except DailyLimitReached as e:
-                endgroup()
-                log(f"⚠️ {e}")
+                log(f"Translation completed: {episode}")
+
+            except DailyLimitReached as exc:
+                log(f"Daily API limit reached: {exc}")
+
                 stopped_by_limit = True
                 break
 
-            except Exception as e:
-                endgroup()
-                log(f"❌ Episode {episode} failed: {e}")
+            except Exception as exc:
+                log(f"Episode {episode} failed: {exc}")
+
                 traceback.print_exc()
-                errors.append((episode, str(e)))
-                continue  # 跳过失败的集数，继续下一集
+
+                errors.append((episode, str(exc)))
+
+                continue
+
+            finally:
+                endgroup()
 
     finally:
-        # 统一保存缓存，确保即使中断也能把 daily_requests 写回仓库
+        # 即使遇到 API 限额，也保存每日请求计数。
         save_cache(cache)
 
+    # --------------------------------------------------------
+    # Summary
+    # --------------------------------------------------------
+
     separator()
+
     log("Finished")
     log(f"Translated episodes: {processed}")
+    log(f"Skipped episodes: {skipped}")
+
     if errors:
         log(f"Failed episodes: {len(errors)}")
-        for ep, err in errors:
-            log(f"  - {ep}: {err}")
-    log(f"Daily requests used: {meta['daily_requests']}/{DAILY_REQUEST_LIMIT}")
+
+        for episode, error in errors:
+            log(f"  - {episode}: {error}")
+
+    log("Daily requests used: " f"{meta['daily_requests']}/{DAILY_REQUEST_LIMIT}")
+
     separator()
 
     if stopped_by_limit:
-        log("⛔ Stopped due to daily API limit. Run again tomorrow to continue.")
-        return 0  # Actions 里返回 0，workflow 继续提交进度
-    elif errors:
-        log("⚠️ Completed with errors.")
+        log("Stopped due to daily API limit. " "Run again later to continue.")
+
+        return 0
+
+    if errors:
+        log("Completed with errors.")
         return 1
+
     return 0
 
 
