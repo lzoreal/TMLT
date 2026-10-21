@@ -9,7 +9,7 @@ import time
 import os
 import tempfile
 
-from datetime import datetime
+from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
 from urllib.parse import urljoin
@@ -22,6 +22,12 @@ FIRST_YEAR = 1995
 
 # 归档总集数低于历史缓存的这个比例时，中止更新。
 ARCHIVE_MIN_RATIO = 0.90
+
+# 按年份缓存归档列表，避免每次重新抓取 1995 至今的所有页面。
+ARCHIVE_CACHE_VERSION = 1
+
+# 上一年度只在缓存超过该天数时重新抓取，用于捕捉年末补发的节目。
+PREVIOUS_YEAR_REFRESH_DAYS = 30
 
 # 连续失败时的重试次数。
 REQUEST_RETRIES = 5
@@ -256,7 +262,165 @@ def resolve_audio_url(url):
 # ============================================================
 
 
-def get_archive():
+def parse_archive_year(content):
+    """
+    解析单个年份的 archive 页面。
+    """
+
+    soup = BeautifulSoup(
+        content,
+        "html.parser",
+    )
+
+    year_episodes = {}
+
+    for anchor in soup.select("a.goto-episode"):
+        href = anchor.get("href", "").strip()
+
+        if not href:
+            continue
+
+        # 只接受节目页面路径，例如 /123/episode-title
+        match = re.search(
+            r"^/(\d+)/",
+            href,
+        )
+
+        if not match:
+            continue
+
+        episode = match.group(1)
+
+        episode_url = urljoin(
+            BASE + "/",
+            href,
+        )
+
+        year_episodes[episode] = episode_url
+
+    return year_episodes
+
+
+def archive_cache_years(cache):
+    years = cache.get("years")
+
+    if not isinstance(years, dict):
+        years = {}
+        cache["years"] = years
+
+    return years
+
+
+def get_cached_year(cache, year, current_year):
+    """
+    返回 (episodes, entry)。
+
+    episodes 为 None 表示缓存不可用；空缓存只对当前年份合法
+    （跨年后第一集发布前 archive 可能为空）。
+    """
+
+    entry = archive_cache_years(cache).get(str(year))
+
+    if not isinstance(entry, dict):
+        return None, None
+
+    episodes = entry.get("episodes")
+
+    if not isinstance(episodes, dict):
+        return None, None
+
+    if not episodes and year != current_year:
+        return None, None
+
+    return episodes, entry
+
+
+def archive_cache_age_days(entry):
+    if not isinstance(entry, dict):
+        return float("inf")
+
+    fetched_at = entry.get("fetched_at")
+
+    if not isinstance(fetched_at, str) or not fetched_at:
+        return float("inf")
+
+    try:
+        fetched = datetime.fromisoformat(fetched_at.replace("Z", "+00:00"))
+
+        if fetched.tzinfo is None:
+            fetched = fetched.replace(tzinfo=timezone.utc)
+
+        return max(
+            0.0,
+            (datetime.now(timezone.utc) - fetched).total_seconds() / 86400,
+        )
+
+    except Exception:
+        return float("inf")
+
+
+def seed_archive_cache(cache, episodes_cache):
+    """
+    用 episodes.json 中已有的 pubDate/url 初始化按年缓存。
+
+    这样从旧版本升级到缓存版本后，第一次运行也不需要
+    重新抓取 1995 至今的全部 archive 页面。
+    """
+
+    years = archive_cache_years(cache)
+
+    seeded = 0
+
+    for episode, item in (episodes_cache or {}).items():
+        if not isinstance(item, dict):
+            continue
+
+        url = item.get("url")
+        pub_date = item.get("pubDate")
+
+        if not url or not isinstance(pub_date, str):
+            continue
+
+        match = re.match(r"^(\d{4})-", pub_date)
+
+        if not match:
+            continue
+
+        year = match.group(1)
+
+        entry = years.setdefault(
+            year,
+            {
+                "fetched_at": None,
+                "episodes": {},
+            },
+        )
+
+        if not isinstance(entry, dict):
+            continue
+
+        episodes = entry.get("episodes")
+
+        if not isinstance(episodes, dict):
+            episodes = {}
+            entry["episodes"] = episodes
+
+        key = str(episode)
+
+        if episodes.get(key) == url:
+            continue
+
+        episodes[key] = url
+        seeded += 1
+
+    return seeded
+
+
+def get_archive(
+    cache_file=None,
+    refresh_all=False,
+    episodes_cache=None,
+):
     """
     按年份遍历官网归档：
 
@@ -265,10 +429,16 @@ def get_archive():
         ...
         /archive?year=当前年份
 
-    不依赖 a.pager。
+    历史年份的结果缓存在 archive_years.json 中：
+    - 首次运行会用 episodes.json 的 pubDate/url 初始化缓存；
+    - 当前年份每次都重新抓取；
+    - 上一年度缓存超过 30 天时重新抓取，捕捉年末补发的节目；
+    - 更早的年份直接使用缓存；
+    - --refresh-archive 可强制全部重新抓取。
 
-    如果任何年份请求失败或返回空结果，
-    抛出异常，阻止本次 RSS 更新。
+    不依赖 a.pager。
+    如果某个年份既没有可用缓存、请求又失败，抛出异常，
+    阻止本次 RSS 更新。
     """
 
     episodes = {}
@@ -276,70 +446,167 @@ def get_archive():
 
     current_year = datetime.now().year
 
+    cache_path = Path(cache_file) if cache_file else None
+
+    if refresh_all or cache_path is None:
+        cache = {
+            "version": ARCHIVE_CACHE_VERSION,
+            "years": {},
+        }
+    else:
+        try:
+            cache = load_json(cache_path, {})
+
+        except RuntimeError as exc:
+            print(f"⚠️ 归档缓存无法读取，重新建立: {exc}")
+
+            cache = {
+                "version": ARCHIVE_CACHE_VERSION,
+                "years": {},
+            }
+
+        if cache.get("version") != ARCHIVE_CACHE_VERSION:
+            if cache.get("version") is not None:
+                print("⚠️ 归档缓存版本变化，重新建立缓存")
+
+            cache = {
+                "version": ARCHIVE_CACHE_VERSION,
+                "years": {},
+            }
+
+        cache["version"] = ARCHIVE_CACHE_VERSION
+
+        seeded = seed_archive_cache(
+            cache,
+            episodes_cache,
+        )
+
+        if seeded:
+            print(f"Seeded archive cache from episodes.json: {seeded} episodes")
+
+            save_json(
+                cache_path,
+                cache,
+            )
+
     for year in range(FIRST_YEAR, current_year + 1):
+        cached_episodes, cached_entry = get_cached_year(
+            cache,
+            year,
+            current_year,
+        )
+
+        should_fetch = (
+            refresh_all
+            or year == current_year
+            or cached_episodes is None
+        )
+
+        if (
+            year == current_year - 1
+            and cached_episodes is not None
+            and archive_cache_age_days(cached_entry) > PREVIOUS_YEAR_REFRESH_DAYS
+        ):
+            should_fetch = True
+
+        if not should_fetch:
+            print(
+                f"Year {year}: using cached "
+                f"{len(cached_episodes)} episodes (no request)"
+            )
+
+            episodes.update(cached_episodes)
+            continue
+
         archive_url = f"{BASE}/archive?year={year}"
 
         print("\n" + "=" * 70)
         print(f"Fetching archive year: {year}")
         print(f"URL: {archive_url}")
 
+        fetched_episodes = None
+        fetch_ok = False
+
         try:
             content = fetch(archive_url)
 
-            soup = BeautifulSoup(
-                content,
-                "html.parser",
-            )
+            fetched_episodes = parse_archive_year(content)
+            fetch_ok = True
 
-            year_episodes = {}
-
-            for anchor in soup.select("a.goto-episode"):
-                href = anchor.get("href", "").strip()
-
-                if not href:
-                    continue
-
-                # 只接受节目页面路径，例如 /123/episode-title
-                match = re.search(
-                    r"^/(\d+)/",
-                    href,
-                )
-
-                if not match:
-                    continue
-
-                episode = match.group(1)
-
-                episode_url = urljoin(
-                    BASE + "/",
-                    href,
-                )
-
-                year_episodes[episode] = episode_url
-
-            print(f"Year {year}: " f"found {len(year_episodes)} episodes")
-
-            if not year_episodes:
-                if year == current_year:
-                    # 跨年后第一集发布前，当前年份 archive 可能为空。
-                    # 这不是错误，不应阻止其他年份的更新。
-                    print(
-                        f"⚠️ Current year {year} returned no episodes; "
-                        "allowing empty current year"
-                    )
-                else:
-                    print(f"⚠️ Year {year} returned no episodes")
-
-                    failed_years.append(year)
-
-            else:
-                episodes.update(year_episodes)
+            print(f"Year {year}: " f"found {len(fetched_episodes)} episodes")
 
         except Exception as exc:
             print(f"❌ Failed to fetch year {year}: {exc}")
 
-            failed_years.append(year)
+        year_episodes = fetched_episodes or {}
 
+        # 刷新某一年时保留缓存中已有的条目，避免 archive 页面
+        # 临时不完整（或分页变化）导致已收录节目被丢掉。
+        if fetch_ok and fetched_episodes and cached_episodes:
+            merged_episodes = dict(cached_episodes)
+            merged_episodes.update(fetched_episodes)
+            year_episodes = merged_episodes
+
+        if fetch_ok and not fetched_episodes:
+            if year == current_year:
+                # 跨年后第一集发布前，当前年份 archive 可能为空。
+                # 这不是错误，不应阻止其他年份的更新。
+                print(
+                    f"⚠️ Current year {year} returned no episodes; "
+                    "allowing empty current year"
+                )
+
+                if cached_episodes:
+                    print(f"↩️ Using cached episodes for current year {year}")
+
+                    year_episodes = cached_episodes
+
+            elif cached_episodes is not None:
+                print(f"↩️ Year {year} returned no episodes; using cached data")
+
+                year_episodes = cached_episodes
+
+            else:
+                print(f"⚠️ Year {year} returned no episodes")
+
+                failed_years.append(year)
+
+        elif not fetch_ok:
+            if cached_episodes is not None:
+                print(f"↩️ Using cached episodes for year {year}")
+
+                year_episodes = cached_episodes
+
+            else:
+                failed_years.append(year)
+
+        episodes.update(year_episodes)
+
+        if fetch_ok and fetched_episodes:
+            cached_for_compare = cached_episodes or {}
+            changed = year_episodes != cached_for_compare
+
+            # 当前年份每次都抓取；内容没变时不要更新 fetched_at，
+            # 否则每周都会产生一次只含时间戳的 commit。
+            current_unchanged = (
+                year == current_year
+                and cached_episodes is not None
+                and not changed
+            )
+
+            if not current_unchanged:
+                archive_cache_years(cache)[str(year)] = {
+                    "fetched_at": datetime.now(timezone.utc).isoformat(),
+                    "episodes": year_episodes,
+                }
+
+                if cache_path is not None:
+                    save_json(
+                        cache_path,
+                        cache,
+                    )
+
+        # 只有真正发起过请求才等待；使用缓存不需要限速。
         time.sleep(
             random.uniform(
                 MIN_DELAY,
@@ -1002,6 +1269,12 @@ def main():
         default="public",
     )
 
+    parser.add_argument(
+        "--refresh-archive",
+        action="store_true",
+        help="忽略 archive_years.json，重新抓取所有年份的归档",
+    )
+
     args = parser.parse_args()
 
     output = Path(args.output)
@@ -1020,6 +1293,7 @@ def main():
 
     cache_file = output / "episodes.json"
     rss_file = output / "podcast.xml"
+    archive_cache_file = output / "archive_years.json"
 
     # ========================================================
     # Load cache
@@ -1041,7 +1315,11 @@ def main():
 
     # get_archive() 失败时会抛出异常。
     # 此时不会覆盖缓存和 RSS。
-    archive = get_archive()
+    archive = get_archive(
+        archive_cache_file,
+        refresh_all=args.refresh_archive,
+        episodes_cache=episodes_cache,
+    )
 
     print(
         "Archive episodes:",
