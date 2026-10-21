@@ -30,6 +30,16 @@ REQUEST_RETRIES = 5
 MIN_DELAY = 2
 MAX_DELAY = 5
 
+# 字幕在长静音/音乐段最多停留的估算时长。
+MAX_CUE_SECONDS = 45.0
+
+# 只有间隔超过该值时才缩短字幕，避免影响正常段落。
+CUE_GAP_BEFORE_CAP = 60.0
+
+
+class PermanentHTTPError(RuntimeError):
+    """4xx 错误，重试没有意义。"""
+
 
 # ============================================================
 # Session
@@ -61,7 +71,9 @@ session.headers.update(
 def fetch(url, retries=REQUEST_RETRIES):
     """
     请求网页。
-    对 429、网络错误及 HTTP 错误进行重试。
+
+    429、5xx、超时和网络错误会重试；其他 4xx 是永久错误，
+    立即失败，避免对 404 等地址做无意义的退避等待。
     """
 
     last_error = None
@@ -84,9 +96,15 @@ def fetch(url, retries=REQUEST_RETRIES):
                 time.sleep(wait)
                 continue
 
+            if 400 <= response.status_code < 500:
+                raise PermanentHTTPError(f"HTTP {response.status_code} for {url}")
+
             response.raise_for_status()
 
             return response.text
+
+        except PermanentHTTPError:
+            raise
 
         except Exception as exc:
             last_error = exc
@@ -210,7 +228,6 @@ def resolve_audio_url(url):
     marker = "/s/"
 
     if marker not in url:
-        print("ℹ️ 未找到 /s/，保留原 audio")
         return url
 
     _, rest = url.split(marker, 1)
@@ -303,9 +320,17 @@ def get_archive():
             print(f"Year {year}: " f"found {len(year_episodes)} episodes")
 
             if not year_episodes:
-                print(f"⚠️ Year {year} returned no episodes")
+                if year == current_year:
+                    # 跨年后第一集发布前，当前年份 archive 可能为空。
+                    # 这不是错误，不应阻止其他年份的更新。
+                    print(
+                        f"⚠️ Current year {year} returned no episodes; "
+                        "allowing empty current year"
+                    )
+                else:
+                    print(f"⚠️ Year {year} returned no episodes")
 
-                failed_years.append(year)
+                    failed_years.append(year)
 
             else:
                 episodes.update(year_episodes)
@@ -632,6 +657,19 @@ def create_vtt(lines):
                 start + 0.5,
             )
 
+            # 如果下一句在很久以后（音乐、静音段），不要让当前字幕
+            # 停留十几分钟。正常段落仍使用下一句的开始时间。
+            if end - start > CUE_GAP_BEFORE_CAP:
+                estimated = min(
+                    MAX_CUE_SECONDS,
+                    max(
+                        8.0,
+                        len(text) / 12.0 + 1.0,
+                    ),
+                )
+
+                end = start + estimated
+
         else:
             end = start + 5
 
@@ -766,23 +804,32 @@ def update_resolved_audio(episodes_cache):
             "",
         )
 
-        if not audio:
-            print(f"[{episode}] ⚠️ 没有 audio")
+        if not isinstance(audio, str) or not audio:
+            print(f"[{episode}] ⚠️ 没有可用 audio")
             continue
 
         resolved_audio = item.get("resolved_audio")
 
-        if not resolved_audio or resolved_audio == audio:
-            print(f"[{episode}] 🔄 解析 audio")
+        # 没有 /s/ 标记时 resolve_audio_url() 会原样返回 audio。
+        # 这类条目已经处理过，不需要每周重新解析并刷日志。
+        needs_resolve = (
+            not resolved_audio
+            or (
+                resolved_audio == audio
+                and "/s/" in audio
+            )
+        )
 
-            new_resolved = resolve_audio_url(audio)
+        if not needs_resolve:
+            continue
 
-            if new_resolved != resolved_audio:
-                item["resolved_audio"] = new_resolved
-                changed += 1
+        print(f"[{episode}] 🔄 解析 audio")
 
-        else:
-            print(f"[{episode}] ✅ resolved_audio 已存在")
+        new_resolved = resolve_audio_url(audio)
+
+        if new_resolved != resolved_audio:
+            item["resolved_audio"] = new_resolved
+            changed += 1
 
     print(f"历史缓存更新: {changed} 条")
 
@@ -794,10 +841,10 @@ def update_resolved_audio(episodes_cache):
 # ============================================================
 
 
-def create_rss(episodes, base_url):
+def create_rss(episodes, base_url, transcript_dir):
     """
     生成 RSS 2.0。
-    最新 episode 在前。
+    最新 episode 在前；只有本地存在有效 VTT 时才写字幕标签。
     """
 
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -828,6 +875,14 @@ type="application/rss+xml"/>
 <description>Unofficial This American Life feed with VTT transcripts</description>
 
 <language>en-us</language>
+
+<itunes:author>This American Life</itunes:author>
+
+<itunes:explicit>no</itunes:explicit>
+
+<itunes:category text="Society &amp; Culture"/>
+
+<itunes:type>episodic</itunes:type>
 
 <generator>TMLT Transcript Generator</generator>
 
@@ -877,6 +932,17 @@ type="application/rss+xml"/>
             quote=True,
         )
 
+        if is_valid_vtt(Path(transcript_dir) / f"{episode}.vtt"):
+            transcript_block = f"""
+<podcast:transcript
+url="{transcript_url}"
+type="text/vtt"
+language="en"/>
+"""
+        else:
+            transcript_block = ""
+            print(f"⚠️ No valid transcript; omit tag: {episode}")
+
         rss += f"""
 <item>
 
@@ -898,11 +964,7 @@ type="application/rss+xml"/>
 url="{resolved_audio}"
 type="audio/mpeg"/>
 
-<podcast:transcript
-url="{transcript_url}"
-type="text/vtt"
-language="en"/>
-
+{transcript_block}
 </item>
 
 """
@@ -1219,6 +1281,7 @@ def main():
     rss = create_rss(
         episodes_cache,
         args.base_url,
+        transcript_dir,
     )
 
     # 先在内存中验证 XML，再原子替换旧 RSS。

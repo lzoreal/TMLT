@@ -1,0 +1,11 @@
+# Keep generated text artifacts stable across Windows/Linux checkouts.
+# VTT files are hashed by translate_vtt.py; CRLF would invalidate every cache entry.
+* text=auto eol=lf
+
+*.py text eol=lf
+*.json text eol=lf
+*.vtt text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf

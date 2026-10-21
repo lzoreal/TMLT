@@ -12,9 +12,32 @@ import traceback
 import tempfile
 
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from google import genai
+
+
+def _quota_timezone():
+    """
+    Gemini 的每日配额按太平洋时间午夜重置。
+    Windows 缺少 IANA 时区数据库时退化为固定 UTC-8。
+    """
+
+    try:
+        from zoneinfo import ZoneInfo
+
+        return ZoneInfo("America/Los_Angeles")
+
+    except Exception:
+        return timezone(timedelta(hours=-8))
+
+
+QUOTA_TZ = _quota_timezone()
+
+
+def quota_today():
+    return datetime.now(QUOTA_TZ).strftime("%Y-%m-%d")
+
 
 # ============================================================
 # Configuration
@@ -50,6 +73,13 @@ if RPM_LIMIT < 1:
 
 if MAX_BATCH_CHARS < 1000:
     raise ValueError("MAX_BATCH_CHARS must be >= 1000")
+
+# 过大的批次容易触发输出截断或客户端超时。
+if MAX_BATCH_CHARS > 60000:
+    raise ValueError("MAX_BATCH_CHARS must be <= 60000")
+
+# 个别无法翻译的 cue 允许回退为原文，但比例过高说明 API/校验异常。
+MAX_FALLBACK_RATIO = 0.10
 
 if MAX_FILES < 0:
     raise ValueError("MAX_FILES must be >= 0")
@@ -204,7 +234,7 @@ def load_cache():
         if not isinstance(meta, dict):
             raise ValueError("Cache metadata is invalid")
 
-        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        today = quota_today()
 
         if meta.get("date") != today:
             meta["date"] = today
@@ -245,18 +275,16 @@ def save_cache(cache):
 
 
 def file_hash(path: Path):
-    sha = hashlib.sha256()
+    """
+    计算源文件 hash。
 
-    with path.open("rb") as file:
-        while True:
-            chunk = file.read(8192)
+    统一 CRLF/LF，避免 Windows 与 Linux 的换行符差异
+    把未修改的源文件误判为“已变化”。
+    """
 
-            if not chunk:
-                break
+    data = Path(path).read_bytes().replace(b"\r\n", b"\n")
 
-            sha.update(chunk)
-
-    return sha.hexdigest()
+    return hashlib.sha256(data).hexdigest()
 
 
 # ============================================================
@@ -619,6 +647,26 @@ def is_retryable_error(error) -> bool:
     return any(keyword in text for keyword in retryable_keywords)
 
 
+def is_daily_quota_error(error) -> bool:
+    """
+    区分“每日配额耗尽”和普通的 RPM 限流。
+
+    每日配额耗尽重试没有意义，应立即停止本次运行。
+    """
+
+    text = str(error).lower()
+
+    daily_keywords = [
+        "perday",
+        "per day",
+        "requests per day",
+        "daily quota",
+        "daily limit",
+    ]
+
+    return any(keyword in text for keyword in daily_keywords)
+
+
 def retry_wait(attempt):
     return RETRY_BASE * (2 ** (attempt - 1)) + random.uniform(0, 5)
 
@@ -822,6 +870,9 @@ def gemini_batch_translate(
         raise
 
     except Exception as exc:
+        if is_daily_quota_error(exc):
+            raise DailyLimitReached(str(exc)) from exc
+
         if not is_retryable_error(exc):
             raise
 
@@ -878,6 +929,9 @@ def gemini_batch_translate(
                 raise
 
             except Exception as exc:
+                if is_daily_quota_error(exc):
+                    raise DailyLimitReached(str(exc)) from exc
+
                 if not is_retryable_error(exc):
                     raise
 
@@ -912,6 +966,9 @@ def gemini_batch_translate(
             raise
 
         except Exception as exc:
+            if is_daily_quota_error(exc):
+                raise DailyLimitReached(str(exc)) from exc
+
             if not is_retryable_error(exc):
                 raise
 
@@ -930,6 +987,7 @@ def gemini_batch_translate(
 def chunk_cues_by_chars(
     cues,
     max_chars=MAX_BATCH_CHARS,
+    skip_indices=None,
 ):
     """
     按字符数拆分字幕。
@@ -938,6 +996,7 @@ def chunk_cues_by_chars(
         (原始字幕索引, 发送给 Gemini 的文本)
 
     保留原始索引，便于将结果放回正确的字幕位置。
+    skip_indices 中的 cue 不参与请求（例如纯数字/符号）。
     """
 
     batches = []
@@ -946,6 +1005,9 @@ def chunk_cues_by_chars(
     current_len = 500
 
     for i, cue in enumerate(cues):
+        if skip_indices and i in skip_indices:
+            continue
+
         text = prepare_gemini_text(cue["text"])
 
         item_len = len(text) + 20
@@ -991,6 +1053,17 @@ def translate_episode(
 
     translated = {}
 
+    # 纯数字、电话号码、符号等 cue 没有可翻译语言内容。
+    # 直接复制原文，既不请求 API，也不会被“必须包含汉字”的校验拒绝。
+    for index, cue in enumerate(cues):
+        text = prepare_gemini_text(cue["text"])
+
+        if not re.search(r"[A-Za-z]", text):
+            translated[index] = text
+
+    if translated:
+        log(f"Pre-filled non-linguistic cues: {len(translated)}")
+
     # --------------------------------------------------------
     # 1. Initial translation
     # --------------------------------------------------------
@@ -998,6 +1071,7 @@ def translate_episode(
     batches = chunk_cues_by_chars(
         cues,
         max_chars=MAX_BATCH_CHARS,
+        skip_indices=set(translated),
     )
 
     log(f"Initial batches: {len(batches)}; " f"max chars per batch: {MAX_BATCH_CHARS}")
@@ -1099,15 +1173,34 @@ def translate_episode(
     missing = [i for i in range(len(cues)) if i not in translated]
 
     if missing:
-        log(f"Translation incomplete: " f"{len(missing)} cues missing")
+        missing_ratio = len(missing) / len(cues)
+
+        log(
+            f"Translation incomplete: {len(missing)} cues missing "
+            f"({missing_ratio:.1%})"
+        )
 
         for i in missing[:10]:
-            log(f"Missing cue {i}: " f"{cues[i]['text'][:80]}")
+            log(f"Missing cue {i}: {cues[i]['text'][:80]}")
 
-        raise RuntimeError(
-            "Translation incomplete after batch retries: "
-            f"{len(missing)} cues missing"
+        # 少量专名、拟声词、无法翻成中文的短句允许回退为原文；
+        # 比例过高则说明 API/校验异常，不能悄悄生成一份半英文文件。
+        # 短集允许最多 3 条绝对缺失，避免 1 条专名就导致整集失败。
+        if len(missing) > 3 and missing_ratio > MAX_FALLBACK_RATIO:
+            raise RuntimeError(
+                "Translation incomplete after batch retries: "
+                f"{len(missing)} cues missing ({missing_ratio:.1%})"
+            )
+
+        for i in missing:
+            translated[i] = prepare_gemini_text(cues[i]["text"])
+
+        log(
+            f"Fallback to English for {len(missing)} cues "
+            f"({missing_ratio:.1%})"
         )
+
+    fallback_count = len(missing)
 
     # --------------------------------------------------------
     # 4. Build bilingual VTT
@@ -1149,6 +1242,8 @@ def translate_episode(
 
     log(f"Saved bilingual VTT: {target}")
 
+    return fallback_count
+
 
 # ============================================================
 # Main
@@ -1185,7 +1280,7 @@ def main():
         {},
     )
 
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = quota_today()
 
     if meta.get("date") != today:
         meta["date"] = today
@@ -1198,12 +1293,13 @@ def main():
 
     # 只读取输入目录顶层的 VTT 文件，
     # 避免把 zh 子目录里的双语文件再次作为源文件。
+    # 新集（编号更大）优先处理，积压时不会一直翻译旧集。
     files = sorted(
         INPUT_DIR.glob("*.vtt"),
         key=lambda path: (
             (
                 0,
-                int(path.stem),
+                -int(path.stem),
             )
             if path.stem.isdigit()
             else (
@@ -1297,7 +1393,7 @@ def main():
             group(f"Episode {episode}")
 
             try:
-                translate_episode(
+                fallback_count = translate_episode(
                     source,
                     target,
                     meta,
@@ -1310,12 +1406,16 @@ def main():
                 cache[episode] = {
                     "hash": sha,
                     "translated": True,
+                    "fallback": fallback_count,
                     "updated": datetime.now(timezone.utc).isoformat(),
                 }
 
                 processed += 1
 
                 log(f"Episode completed: {episode}")
+
+                # 逐集保存，进程被硬中断时不会丢掉已消耗的配额和已完成集。
+                save_cache(cache)
 
             except DailyLimitReached as exc:
                 log(f"Daily API limit reached: {exc}")
@@ -1329,6 +1429,8 @@ def main():
                 traceback.print_exc()
 
                 errors.append((episode, str(exc)))
+
+                save_cache(cache)
 
                 continue
 

@@ -5,9 +5,14 @@ on:
   # 手动运行
   workflow_dispatch:
 
-  # 每天自动更新（UTC 03:00）
+  # 每周一自动更新（UTC 05:00）
   schedule:
   - cron: "0 5 * * 1"
+
+# 与 translate.yml 共用同一并发组，避免同时推送/部署 Pages
+concurrency:
+  group: tmlt-pages
+  cancel-in-progress: false
 
 permissions:
 

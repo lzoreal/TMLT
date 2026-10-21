@@ -8,9 +8,9 @@ on:
         required: false
         default: "10"
 
-# 防止多个 workflow 并发运行，避免同时消耗 Gemini RPD
+# 防止多个 workflow 并发运行，避免同时消耗 Gemini RPD 或同时推送 docs
 concurrency:
-  group: translate-and-deploy
+  group: tmlt-pages
   cancel-in-progress: false
 
 permissions:
@@ -45,7 +45,7 @@ jobs:
           # 免费层配额，写在这里方便随时改
           DAILY_REQUEST_LIMIT: 500
           RPM_LIMIT: 14
-          MAX_BATCH_CHARS: 120000
+          MAX_BATCH_CHARS: 15000
           # 让脚本知道自己在 Actions 里，启用日志分组
           GITHUB_ACTIONS: "true"
         run: |
