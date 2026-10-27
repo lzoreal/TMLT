@@ -105,7 +105,7 @@ jobs:
     needs: [check, prepare]
     if: needs.check.outputs.pending != '0' || inputs.force == true
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 340
     strategy:
       fail-fast: false
       max-parallel: 20
@@ -167,19 +167,27 @@ jobs:
           start=$(date +%s)
           budget=$(( ${MAX_MINUTES%.*} * 60 ))
           while :; do
+            # 每块按剩余时间定预算；剩余不足一集（最慢约 25 分钟）就收尾，
+            # 否则最后一块会拿满 40 分钟再撞上 job 超时。
+            remaining=$(( budget - ( $(date +%s) - start ) ))
+            if [ "$remaining" -lt 1800 ]; then
+              echo "剩余 ${remaining}s 不足一集，结束本 job"
+              break
+            fi
+            chunk_min=$(( remaining / 60 ))
+            if [ "$chunk_min" -gt 40 ]; then chunk_min=40; fi
             before=$(ls docs/timings/*.json 2>/dev/null | wc -l)
             python -u align_timings.py \
               --shard ${{ matrix.shard }} \
               --shards "$SHARDS" \
               --episodes "$EPISODES" \
               --latest "$LATEST" \
-              --max-minutes 40 \
+              --max-minutes "$chunk_min" \
               ${{ inputs.force && '--force' || '' }} || echo "chunk exited non-zero, committing what exists"
             after=$(ls docs/timings/*.json 2>/dev/null | wc -l)
             commit_chunk || true
-            echo "chunk done: $before -> $after files, $(( $(date +%s) - start ))s elapsed"
+            echo "chunk done: $before -> $after files, chunk=${chunk_min}min, total=$(( $(date +%s) - start ))s"
             if [ "$after" -eq "$before" ]; then break; fi
-            if [ $(( $(date +%s) - start )) -ge "$budget" ]; then break; fi
           done
 
       - name: Upload partial results
