@@ -2,6 +2,8 @@
 """以官网 begin 为锚点、窗口化对齐校对过的 transcript，产出逐词时间轴 sidecar。
 
 文本一个字节都不改：cue 的切分和文字保持原样，只补真实 end 和逐词时间。
+sidecar 记录 complete/attempts：少量缺口视为完成；大比例失败或被拒绝的集
+最多自动重试 MAX_ATTEMPTS 次，避免确定性失败每轮重跑。
 
 整集单次 align 会崩：align() 内部先跑一遍 ASR 再 DTW，遇到几分钟的音乐/演唱段
 时间戳不可信，会把后面所有 cue 一起拽走（实测漂移 -140 秒）。这里按官网 begin
@@ -17,9 +19,6 @@ import sys
 import time
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-
-import numpy as np
-import requests
 
 BASE = Path(__file__).resolve().parent
 TRANSCRIPT_DIR = BASE / "docs/transcripts"
@@ -39,9 +38,18 @@ PAD = 3.0
 AUDIO_MISMATCH_SECONDS = 3.0
 
 # 单句合理性：对齐偶尔会把某句贴到窗口边缘（词整体落在本句 begin 之前，
-# 或越过下句 begin 太多）。这类 cue 不写逐词，保留原来的合成 end。
+# 或越过下句 begin 太多）。这类 cue 不写逐词，end 置空由消费方回退到 VTT。
 MAX_EARLY = 8.0
 MAX_LATE = 8.0
+
+# 官网 end 是合成的：标签 cue 能虚报几十秒，片尾字幕又会短于真实语音。
+# 末句窗口按文本长度估算语音时长，并额外留出尾量，避免截尾或超长窗口。
+NOMINAL_CHARS_PER_SECOND = 15.0
+SLOWEST_CHARS_PER_SECOND = 4.0
+TAIL_PAD = 8.0
+
+# 未完成的 sidecar 最多自动重试次数；超过即放弃，避免确定性失败每轮重跑。
+MAX_ATTEMPTS = 2
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -190,6 +198,8 @@ def resolve_archive(session, episode, retries=3):
 
 
 def make_session(proxy):
+    import requests
+
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT})
     if proxy:
@@ -228,6 +238,7 @@ def decode_audio(path):
     """PyAV 自带 ffmpeg，不需要系统装 ffmpeg。"""
 
     import av
+    import numpy as np
 
     chunks = []
     with av.open(str(path)) as container:
@@ -246,13 +257,27 @@ def decode_audio(path):
 # ============================================================
 
 
+def cue_span(cue):
+    """本句语音时长的合理上界。
+
+    官网 end 是合成的：标签 cue 能虚报几十秒，片尾字幕又会短于真实语音。
+    取声明时长与按文本长度估算的区间交集，避免单句把窗口撑爆或截断。
+    """
+
+    declared = max(0.0, cue["end"] - cue["start"])
+    natural = len(cue["text"]) / NOMINAL_CHARS_PER_SECOND
+    ceiling = len(cue["text"]) / SLOWEST_CHARS_PER_SECOND + 5.0
+    return min(max(declared, natural), ceiling)
+
+
 def group_cues(cues):
     groups = []
     current = []
     for cue in cues:
         if current:
             chars = sum(len(c["text"]) for c in current)
-            span = cue["start"] - current[0]["start"]
+            cue_end = max(cue["start"], cue["end"])
+            span = cue_end - current[0]["start"]
             if chars + len(cue["text"]) > MAX_CHARS or span > MAX_SPAN:
                 groups.append(current)
                 current = []
@@ -272,7 +297,10 @@ def align_episode(model, audio, cues, total_seconds):
 
     for group in group_cues(speech):
         lo = max(0.0, group[0]["start"] - PAD)
-        hi = min(total_seconds, group[-1]["end"] + PAD)
+        # 不能只看最后一句：cue 时序会重叠，前一句的长台词可能延伸到后面。
+        hi = min(total_seconds, max(
+            c["start"] + cue_span(c) for c in group
+        ) + TAIL_PAD)
         clip = audio[int(lo * SR): int(hi * SR)]
         text_block = "\n".join(c["text"] for c in group)
         try:
@@ -310,16 +338,29 @@ def percentile(values, q):
 # ============================================================
 
 
-def plausible_words(cue_start, next_start, words):
-    """词位置是否可信；不可信时调用方丢弃逐词而不是写错的数据。"""
+def plausible_words(cue, next_start, words):
+    """词集与词位置是否可信；不可信时调用方丢弃逐词而不是写错的数据。"""
 
     if not words:
         return False
+
+    cue_start = cue["start"]
     first = words[0][1]
     last = words[-1][2]
+
+    # 整句被压成 instant，或末词落在窗口截断点，都没有可用的逐词信息。
+    if last - first <= 0:
+        return False
+    if words[-1][2] - words[-1][1] <= 0:
+        return False
+    # 对齐是库对给定文本做的；词表一旦和原文不一致（常见为重复末词），整句不可信。
+    if [w[0] for w in words] != cue["text"].split():
+        return False
     if last < cue_start + 0.2:
         return False
     if first < cue_start - MAX_EARLY:
+        return False
+    if first > cue_start + MAX_EARLY:
         return False
     if next_start is not None:
         if first > next_start + 0.5:
@@ -329,14 +370,16 @@ def plausible_words(cue_start, next_start, words):
     return True
 
 
-def write_sidecar(path, episode, cues, results, audio_seconds):
+def build_segments(cues, results):
+    """返回 (segments, dropped)；dropped 只统计有词但被判定不可信的 cue。"""
+
     segments = []
     dropped = 0
     for index, cue in enumerate(cues):
         aligned = results.get(cue["i"])
         words = aligned["words"] if aligned else []
         next_start = cues[index + 1]["start"] if index + 1 < len(cues) else None
-        if words and not plausible_words(cue["start"], next_start, words):
+        if words and not plausible_words(cue, next_start, words):
             words = []
             dropped += 1
         start_ms = int(round(cue["start"] * 1000))
@@ -358,21 +401,69 @@ def write_sidecar(path, episode, cues, results, audio_seconds):
                 "words": word_payload,
             }
         )
+    return segments, dropped
 
+
+def write_document(path, episode, audio_seconds, segments, attempts,
+                   complete=False, rejected=None):
     document = {
         "version": 1,
         "episode": episode,
         "vtt": f"transcripts/{episode}.vtt",
         "audio_seconds": round(audio_seconds, 2),
+        "complete": complete,
+        "attempts": attempts,
         "segments": segments,
     }
+    if rejected:
+        document["rejected"] = rejected
 
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
     tmp.write_text(json.dumps(document, ensure_ascii=False, separators=(",", ":")),
                    encoding="utf-8")
     tmp.replace(path)
-    return dropped
+
+
+def mark_attempt(path, episode, attempts, rejected):
+    """保留已有 segments，只更新尝试次数/拒绝原因（用于无法重新对齐的集）。"""
+
+    try:
+        old = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        old = {}
+    if not isinstance(old, dict):
+        old = {}
+    write_document(
+        path,
+        episode,
+        float(old.get("audio_seconds") or 0.0),
+        old.get("segments") or [],
+        attempts,
+        rejected=rejected,
+    )
+
+
+def read_status(path):
+    """返回 (complete, attempts, rejected)；缺失或损坏按未完成处理。"""
+
+    try:
+        document = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(document, dict):
+            return False, 0, ""
+        attempts = int(document.get("attempts") or 0)
+    except Exception:
+        return False, 0, ""
+    return (
+        document.get("complete") is True,
+        attempts,
+        str(document.get("rejected") or ""),
+    )
+
+
+def is_done(path):
+    complete, attempts, _ = read_status(path)
+    return complete or attempts >= MAX_ATTEMPTS
 
 
 # ============================================================
@@ -385,14 +476,26 @@ def run_episode(model, session, source, args, workdir, tag=""):
     vtt_path = TRANSCRIPT_DIR / f"{episode}.vtt"
     out_path = args.out / f"{episode}.json"
 
-    if out_path.exists() and not args.force:
-        log(f"{tag}#{episode} skip (already done)")
-        return None
+    prev_attempts = 0
+    if out_path.exists():
+        complete, prev_attempts, rejected = read_status(out_path)
+        if not args.force:
+            if complete:
+                log(f"{tag}#{episode} skip (already done)")
+                return None
+            if prev_attempts >= MAX_ATTEMPTS:
+                suffix = f", rejected={rejected}" if rejected else ""
+                log(f"{tag}#{episode} skip (gave up after {prev_attempts} attempts{suffix})")
+                return None
+            log(f"{tag}#{episode} retry incomplete "
+                f"(attempt {prev_attempts + 1}/{MAX_ATTEMPTS})")
+    attempts = prev_attempts + 1
 
     cues = parse_vtt(vtt_path)
     if not cues:
+        mark_attempt(out_path, episode, attempts, "empty_transcript")
         log(f"{tag}#{episode} skip (empty transcript)")
-        return None
+        return 1
 
     if args.audio:
         audio_path = Path(args.audio)
@@ -403,6 +506,7 @@ def run_episode(model, session, source, args, workdir, tag=""):
             source_url = resolve_archive(session, episode)
             if source_url is None:
                 if not args.allow_rss_audio:
+                    mark_attempt(out_path, episode, attempts, "no_archive")
                     log(f"{tag}#{episode} REJECT no archive audio; skip "
                         "(RSS 音频按地区插播，时间轴不可信；确需回退加 --allow-rss-audio)")
                     return 1
@@ -455,8 +559,10 @@ def run_episode(model, session, source, args, workdir, tag=""):
 
     median_abs = percentile([abs(e) for e in begin_errors], 0.5) if begin_errors else float("nan")
     if median_abs > AUDIO_MISMATCH_SECONDS:
-        # 宁可这一集不做，也不要把整体错位的时间轴写进仓库
-        out_path.unlink(missing_ok=True)
+        # 宁可这一集不做，也不要把整体错位的时间轴写进仓库。
+        # 留一个空 sidecar 记录尝试次数，避免同一份错音频每轮重跑。
+        write_document(out_path, episode, audio_seconds, [], attempts,
+                       rejected="audio_mismatch")
         if args.audio is None:
             audio_path.unlink(missing_ok=True)
         log(
@@ -465,16 +571,27 @@ def run_episode(model, session, source, args, workdir, tag=""):
         )
         return 1
 
-    dropped = write_sidecar(out_path, episode, cues, results, audio_seconds)
+    segments, dropped = build_segments(cues, results)
 
     if results and dropped > 0.10 * len(results):
         # 丢弃率过高说明整集对齐不稳（多半是阶梯偏移漏过 3 秒阈值），
-        # 整集留给两遍对齐的补跑，而不是交出一份半对半错的数据。
-        out_path.unlink(missing_ok=True)
+        # 不交半对半错的数据；空 sidecar 记录尝试次数，有限次后放弃。
+        write_document(out_path, episode, audio_seconds, [], attempts,
+                       rejected="high_drop_rate")
         if args.audio is None:
             audio_path.unlink(missing_ok=True)
         log(f"{tag}#{episode} REJECT per-cue: {dropped}/{len(results)} cues implausible")
         return 1
+
+    # 少量缺口（交叉说话、无法对齐的标签句）重试也修不好，按整集比例判定；
+    # 只有大比例失败才值得再跑一次。
+    speech_total = len(cues) - skipped
+    complete = (
+        speech_total > 0
+        and dropped <= 0.10 * len(results)
+        and failures <= 0.10 * speech_total
+    )
+    write_document(out_path, episode, audio_seconds, segments, attempts, complete)
 
     try:
         shown = out_path.relative_to(BASE)
@@ -487,14 +604,16 @@ def run_episode(model, session, source, args, workdir, tag=""):
         f"decode={decode_seconds:.0f}s align={align_seconds:.0f}s "
         f"({audio_seconds / max(align_seconds, 1e-6):.2f}sec/s) "
         f"begin_err_p50={percentile(begin_errors, .5):+.2f}s "
-        f"end_saved={end_saved:.0f}s dropped={dropped} -> {shown}"
+        f"end_saved={end_saved:.0f}s dropped={dropped} "
+        f"complete={complete} attempt={attempts}/{MAX_ATTEMPTS} -> {shown}"
     )
 
     if args.audio is None:
         audio_path.unlink(missing_ok=True)
 
     if failures:
-        log(f"    {failures} cue 未对齐，保留原 end；下次运行会重试")
+        log(f"    {failures} cue 未对齐，保留原 end；sidecar 标记未完成，"
+            f"最多重试 {MAX_ATTEMPTS} 次")
     return failures
 
 
@@ -512,6 +631,10 @@ def main():
     parser.add_argument("--cpu-threads", type=int, default=0)
     parser.add_argument("--force", action="store_true", help="忽略已有结果重新对齐")
     parser.add_argument(
+        "--status", action="store_true",
+        help="只统计完成/待办并输出 pending=N，不加载模型或第三方依赖",
+    )
+    parser.add_argument(
         "--debug-errors", action="store_true", help="按四分位打印首词偏移，诊断音频版本差异"
     )
     parser.add_argument(
@@ -524,13 +647,36 @@ def main():
     args.out = Path(args.out)
     if args.shards < 1 or not 0 <= args.shard < args.shards:
         parser.error("需要 1 <= shards 且 0 <= shard < shards")
-    workdir = Path(args.workdir)
-    workdir.mkdir(parents=True, exist_ok=True)
 
     sources = load_sources(RSS_FILE)
     episodes = select_episodes(sources, args)
+
+    if args.status:
+        selected = [
+            e for pos, e in enumerate(episodes) if pos % args.shards == args.shard
+        ]
+        done = refused = pending = 0
+        for episode in selected:
+            path = args.out / f"{episode}.json"
+            if not path.exists():
+                pending += 1
+                continue
+            complete, attempts, rejected = read_status(path)
+            if complete or attempts >= MAX_ATTEMPTS:
+                done += 1
+                refused += bool(rejected)
+            else:
+                pending += 1
+        log(f"transcript={len(selected)} done={done} refused={refused} pending={pending}")
+        print(f"pending={pending}")
+        return 0
+
+    workdir = Path(args.workdir)
+    workdir.mkdir(parents=True, exist_ok=True)
+
+    done_paths = {e: args.out / f"{e}.json" for e in episodes}
     global_pending = sum(
-        1 for e in episodes if args.force or not (args.out / f"{e}.json").exists()
+        1 for e in episodes if args.force or not is_done(done_paths[e])
     )
     # 按"完整选中列表"切片而不是按待办切片：待办会随其他分片提交而变化，
     # 那样两个分片可能在不同时刻把同一集分给自己，导致 rebase 冲突。
@@ -538,7 +684,7 @@ def main():
         e for pos, e in enumerate(episodes) if pos % args.shards == args.shard
     ]
     pending = [
-        e for e in shard_episodes if args.force or not (args.out / f"{e}.json").exists()
+        e for e in shard_episodes if args.force or not is_done(done_paths[e])
     ]
     log(f"shard {args.shard}/{args.shards}: 全局待办 {global_pending} 集"
         f"（选中 {len(episodes)} 集，已完成 {len(episodes) - global_pending} 集）；"
@@ -546,6 +692,7 @@ def main():
         f"本段 {len(pending)} 集")
     if not pending:
         log("nothing to do")
+        log("run_summary attempted=0 left=0")
         return 0
 
     import stable_whisper as sw
@@ -587,9 +734,13 @@ def main():
                 failures += 1
         except Exception as exc:
             failures += 1
+            path = args.out / f"{episode}.json"
+            prev = read_status(path)[1] if path.exists() else 0
+            mark_attempt(path, episode, prev + 1, f"error:{type(exc).__name__}")
             log(f"{tag}#{episode} ERROR {type(exc).__name__}: {exc}")
         done += 1
 
+    log(f"run_summary attempted={done} left={total - done}")
     log(f"done {done}/{total} episodes, {failures} with failures, "
         f"elapsed {human(time.time() - started)}")
     return 0
