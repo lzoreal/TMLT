@@ -150,9 +150,7 @@ def select_episodes(sources, args):
         dated = [e for e in episodes if when(e) is not None]
         episodes = sorted(dated, key=when, reverse=True)[: args.latest]
         episodes.sort()
-    episodes = [e for pos, e in enumerate(episodes) if pos % args.shards == args.shard]
     return episodes
-
 
 # ============================================================
 # 官网静态母带：archive（地区无关，无广告插入）
@@ -352,18 +350,18 @@ def write_sidecar(path, episode, cues, results, audio_seconds):
 # ============================================================
 
 
-def run_episode(model, session, source, args, workdir):
+def run_episode(model, session, source, args, workdir, tag=""):
     episode = source["id"]
     vtt_path = TRANSCRIPT_DIR / f"{episode}.vtt"
     out_path = args.out / f"{episode}.json"
 
     if out_path.exists() and not args.force:
-        log(f"#{episode} skip (already done)")
+        log(f"{tag}#{episode} skip (already done)")
         return None
 
     cues = parse_vtt(vtt_path)
     if not cues:
-        log(f"#{episode} skip (empty transcript)")
+        log(f"{tag}#{episode} skip (empty transcript)")
         return None
 
     if args.audio:
@@ -375,19 +373,19 @@ def run_episode(model, session, source, args, workdir):
             source_url = resolve_archive(session, episode)
             if source_url is None:
                 if not args.allow_rss_audio:
-                    log(f"#{episode} REJECT no archive audio; skip "
+                    log(f"{tag}#{episode} REJECT no archive audio; skip "
                         "(RSS 音频按地区插播，时间轴不可信；确需回退加 --allow-rss-audio)")
                     return 1
                 audio_path = workdir / f"{episode}_rss.mp3"
                 source_url = source["audio"]
                 log(
-                    f"#{episode} WARNING: archive unavailable, using RSS audio; "
+                    f"{tag}#{episode} WARNING: archive unavailable, using RSS audio; "
                     "inserted breaks may shift the timeline"
                 )
         if source_url is not None:
             started = time.time()
             size = download(session, source_url, audio_path)
-            log(f"#{episode} downloaded {size / 1e6:.1f}MB in {time.time() - started:.0f}s")
+            log(f"{tag}#{episode} downloaded {size / 1e6:.1f}MB in {time.time() - started:.0f}s")
 
     started = time.time()
     audio = decode_audio(audio_path)
@@ -413,7 +411,7 @@ def run_episode(model, session, source, args, workdir):
         if args.audio is None:
             audio_path.unlink(missing_ok=True)
         log(
-            f"#{episode} REJECT audio mismatch: median|begin_err|={median_abs:.1f}s "
+            f"{tag}#{episode} REJECT audio mismatch: median|begin_err|={median_abs:.1f}s "
             f"> {AUDIO_MISMATCH_SECONDS:.0f}s, ok={len(results)}/{len(cues) - skipped}"
         )
         return 1
@@ -426,7 +424,7 @@ def run_episode(model, session, source, args, workdir):
         shown = out_path
 
     log(
-        f"#{episode} audio={human(audio_seconds)} ok={len(results)}/{len(cues) - skipped} "
+        f"{tag}#{episode} audio={human(audio_seconds)} ok={len(results)}/{len(cues) - skipped} "
         f"bracket={skipped} fail={failures} words={words} "
         f"decode={decode_seconds:.0f}s align={align_seconds:.0f}s "
         f"({audio_seconds / max(align_seconds, 1e-6):.2f}sec/s) "
@@ -470,9 +468,20 @@ def main():
 
     sources = load_sources(RSS_FILE)
     episodes = select_episodes(sources, args)
-    pending = [e for e in episodes if args.force or not (args.out / f"{e}.json").exists()]
-    log(f"shard {args.shard}/{args.shards}: {len(episodes)} 集待查, "
-        f"{len(episodes) - len(pending)} 集已有结果, 本次处理 {len(pending)} 集")
+    global_pending = sum(
+        1 for e in episodes if args.force or not (args.out / f"{e}.json").exists()
+    )
+    # 按"完整选中列表"切片而不是按待办切片：待办会随其他分片提交而变化，
+    # 那样两个分片可能在不同时刻把同一集分给自己，导致 rebase 冲突。
+    shard_episodes = [
+        e for pos, e in enumerate(episodes) if pos % args.shards == args.shard
+    ]
+    pending = [
+        e for e in shard_episodes if args.force or not (args.out / f"{e}.json").exists()
+    ]
+    log(f"shard {args.shard}/{args.shards}: 全局待办 {global_pending} 集"
+        f"（选中 {len(episodes)} 集，已完成 {len(episodes) - global_pending} 集）"
+        f"，本分片本段 {len(pending)} 集")
     if not pending:
         log("nothing to do")
         return 0
@@ -497,19 +506,26 @@ def main():
     deadline = time.time() + args.max_minutes * 60
     failures = 0
     done = 0
+    total = len(pending)
+    run_started = time.time()
+    log(f"budget {args.max_minutes:.0f}min, 本分片 {total} 集")
     for episode in pending:
         if time.time() > deadline:
-            log(f"时间预算用完，剩 {len(pending) - done} 集留给下次运行")
+            log(f"时间预算用完，剩 {total - done} 集留给下次运行")
             break
+        elapsed = time.time() - run_started
+        eta = elapsed / done * (total - done) if done else float("nan")
+        tag = f"[{done + 1:>3}/{total} {100 * (done + 1) / total:3.0f}% eta " \
+              f"{'--' if done == 0 else human(eta)}] "
         try:
-            if run_episode(model, session, sources[episode], args, workdir):
+            if run_episode(model, session, sources[episode], args, workdir, tag):
                 failures += 1
         except Exception as exc:
             failures += 1
-            log(f"#{episode} ERROR {type(exc).__name__}: {exc}")
+            log(f"{tag}#{episode} ERROR {type(exc).__name__}: {exc}")
         done += 1
 
-    log(f"done {done} episodes, {failures} with failures, "
+    log(f"done {done}/{total} episodes, {failures} with failures, "
         f"elapsed {human(time.time() - started)}")
     return 0
 
