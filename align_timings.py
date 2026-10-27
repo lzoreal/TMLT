@@ -38,6 +38,11 @@ PAD = 3.0
 # 窗口是按官网 begin 切的，版本不对时首词会成片偏出去，中位偏差立刻暴露。
 AUDIO_MISMATCH_SECONDS = 3.0
 
+# 单句合理性：对齐偶尔会把某句贴到窗口边缘（词整体落在本句 begin 之前，
+# 或越过下句 begin 太多）。这类 cue 不写逐词，保留原来的合成 end。
+MAX_EARLY = 8.0
+MAX_LATE = 8.0
+
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 Chrome/126.0 Safari/537.36"
@@ -305,11 +310,35 @@ def percentile(values, q):
 # ============================================================
 
 
+def plausible_words(cue_start, next_start, words):
+    """词位置是否可信；不可信时调用方丢弃逐词而不是写错的数据。"""
+
+    if not words:
+        return False
+    first = words[0][1]
+    last = words[-1][2]
+    if last < cue_start + 0.2:
+        return False
+    if first < cue_start - MAX_EARLY:
+        return False
+    if next_start is not None:
+        if first > next_start + 0.5:
+            return False
+        if last > next_start + MAX_LATE:
+            return False
+    return True
+
+
 def write_sidecar(path, episode, cues, results, audio_seconds):
     segments = []
-    for cue in cues:
+    dropped = 0
+    for index, cue in enumerate(cues):
         aligned = results.get(cue["i"])
         words = aligned["words"] if aligned else []
+        next_start = cues[index + 1]["start"] if index + 1 < len(cues) else None
+        if words and not plausible_words(cue["start"], next_start, words):
+            words = []
+            dropped += 1
         start_ms = int(round(cue["start"] * 1000))
         if words:
             end_ms = int(round(words[-1][2] * 1000))
@@ -343,6 +372,7 @@ def write_sidecar(path, episode, cues, results, audio_seconds):
     tmp.write_text(json.dumps(document, ensure_ascii=False, separators=(",", ":")),
                    encoding="utf-8")
     tmp.replace(path)
+    return dropped
 
 
 # ============================================================
@@ -435,7 +465,16 @@ def run_episode(model, session, source, args, workdir, tag=""):
         )
         return 1
 
-    write_sidecar(out_path, episode, cues, results, audio_seconds)
+    dropped = write_sidecar(out_path, episode, cues, results, audio_seconds)
+
+    if results and dropped > 0.10 * len(results):
+        # 丢弃率过高说明整集对齐不稳（多半是阶梯偏移漏过 3 秒阈值），
+        # 整集留给两遍对齐的补跑，而不是交出一份半对半错的数据。
+        out_path.unlink(missing_ok=True)
+        if args.audio is None:
+            audio_path.unlink(missing_ok=True)
+        log(f"{tag}#{episode} REJECT per-cue: {dropped}/{len(results)} cues implausible")
+        return 1
 
     try:
         shown = out_path.relative_to(BASE)
@@ -448,7 +487,7 @@ def run_episode(model, session, source, args, workdir, tag=""):
         f"decode={decode_seconds:.0f}s align={align_seconds:.0f}s "
         f"({audio_seconds / max(align_seconds, 1e-6):.2f}sec/s) "
         f"begin_err_p50={percentile(begin_errors, .5):+.2f}s "
-        f"end_saved={end_saved:.0f}s -> {shown}"
+        f"end_saved={end_saved:.0f}s dropped={dropped} -> {shown}"
     )
 
     if args.audio is None:
