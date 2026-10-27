@@ -146,8 +146,7 @@ def select_episodes(sources, args):
         dated = [e for e in episodes if when(e) is not None]
         episodes = sorted(dated, key=when, reverse=True)[: args.latest]
         episodes.sort()
-    if args.shards > 1:
-        episodes = [e for pos, e in enumerate(episodes) if pos % args.shards == args.shard]
+    episodes = [e for pos, e in enumerate(episodes) if pos % args.shards == args.shard]
     return episodes
 
 
@@ -439,6 +438,8 @@ def main():
     args = parser.parse_args()
 
     args.out = Path(args.out)
+    if args.shards < 1 or not 0 <= args.shard < args.shards:
+        parser.error("需要 1 <= shards 且 0 <= shard < shards")
     workdir = Path(args.workdir)
     workdir.mkdir(parents=True, exist_ok=True)
 
