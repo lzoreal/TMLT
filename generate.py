@@ -18,6 +18,7 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE = "https://www.thisamericanlife.org"
+ARCHIVE_MARKER = "/sites/default/files/audio/"
 FIRST_YEAR = 1995
 
 # 归档总集数低于历史缓存的这个比例时，中止更新。
@@ -666,6 +667,7 @@ def get_episode_info(url):
     # --------------------------------------------------------
 
     audio = ""
+    archive = ""
 
     playlist = soup.select_one("script#playlist-data")
 
@@ -678,6 +680,11 @@ def get_episode_info(url):
 
                 audio = data.get(
                     "audio",
+                    "",
+                )
+
+                archive = data.get(
+                    "archive",
                     "",
                 )
 
@@ -755,9 +762,16 @@ def get_episode_info(url):
             audio,
         )
 
+    if archive:
+        archive = urljoin(
+            BASE + "/",
+            archive,
+        )
+
     return {
         "title": title,
         "audio": audio,
+        "archive": archive,
         "url": url,
         "pubDate": pub_date,
         "description": description,
@@ -1039,6 +1053,76 @@ def rss_date(date_string):
 # ============================================================
 # Migrate / resolve old cache
 # ============================================================
+
+
+def migrate_archive_audio(episodes_cache):
+    """
+    给历史缓存补上静态 archive。feed 的 enclosure 用它，
+    保证播放音频与逐词时间轴出于同一份母带。
+    """
+
+    for item in episodes_cache.values():
+        if not isinstance(item, dict) or item.get("archive"):
+            continue
+        resolved = item.get("resolved_audio") or ""
+        if ARCHIVE_MARKER in resolved:
+            item["archive"] = resolved
+
+    missing = [
+        episode
+        for episode, item in episodes_cache.items()
+        if isinstance(item, dict)
+        and item.get("url")
+        and not item.get("archive")
+    ]
+
+    if not missing:
+        return 0
+
+    print("\n" + "=" * 70)
+    print(f"补抓静态母带地址: {len(missing)} 集")
+
+    changed = 0
+
+    for index, episode in enumerate(
+        sorted(
+            missing,
+            key=lambda value: (int(value) if str(value).isdigit() else 0),
+            reverse=True,
+        ),
+        1,
+    ):
+        item = episodes_cache[episode]
+
+        try:
+            info = get_episode_info(item["url"])
+
+            archive = info.get("archive")
+
+            if not archive:
+                print(f"[{episode}] ⚠️ 没有 archive，保留现有 audio")
+
+            else:
+                item["archive"] = archive
+                item["resolved_audio"] = archive
+                changed += 1
+
+        except Exception as exc:
+            print(f"[{episode}] ❌ archive 获取失败: {exc}")
+
+        if index % 25 == 0 or index == len(missing):
+            print(f"  进度 {index}/{len(missing)}")
+
+        time.sleep(
+            random.uniform(
+                MIN_DELAY,
+                MAX_DELAY,
+            )
+        )
+
+    print(f"静态母带地址更新: {changed}/{len(missing)}")
+
+    return changed
 
 
 def update_resolved_audio(episodes_cache):
@@ -1366,6 +1450,12 @@ def main():
     )
 
     # ========================================================
+    # Migrate cached episodes to static archive audio
+    # ========================================================
+
+    migrate_archive_audio(episodes_cache)
+
+    # ========================================================
     # Process episodes and local VTT
     # ========================================================
 
@@ -1418,14 +1508,16 @@ def main():
             else:
                 info = get_episode_info(url)
 
-                if not info.get("audio"):
+                if not info.get("audio") and not info.get("archive"):
                     print(
                         "❌ No audio:",
                         episode,
                     )
                     continue
 
-                info["resolved_audio"] = resolve_audio_url(info["audio"])
+                info["resolved_audio"] = info.get(
+                    "archive"
+                ) or resolve_audio_url(info["audio"])
 
                 episodes_cache[episode] = info
                 new_count += 1
@@ -1487,8 +1579,12 @@ def main():
             # 4. Resolve missing audio URL
             # ------------------------------------------------
 
-            if info.get("audio") and not info.get("resolved_audio"):
-                info["resolved_audio"] = resolve_audio_url(info["audio"])
+            if (
+                info.get("audio") or info.get("archive")
+            ) and not info.get("resolved_audio"):
+                info["resolved_audio"] = info.get(
+                    "archive"
+                ) or resolve_audio_url(info["audio"])
 
             episodes_cache[episode] = info
 
