@@ -404,6 +404,25 @@ def run_episode(model, session, source, args, workdir, tag=""):
         c["end"] - results[c["i"]]["words"][-1][2] for c in cues if c["i"] in results
     )
 
+    if args.debug_errors and begin_errors:
+        pairs = [
+            (c["i"], c["start"], results[c["i"]]["words"][0][1] - c["start"])
+            for c in cues
+            if c["i"] in results
+        ]
+        step = max(1, len(pairs) // 4)
+        for q in range(4):
+            part = pairs[q * step:(q + 1) * step] if q < 3 else pairs[3 * step:]
+            if not part:
+                continue
+            vals = [e for _, _, e in part]
+            log(f"{tag}  q{q + 1} t={human(part[0][1])}-{human(part[-1][1])} n={len(vals)} "
+                f"median={percentile(vals, .5):+.2f}s "
+                f"p10={percentile(vals, .1):+.2f}s p90={percentile(vals, .9):+.2f}s")
+        worst = sorted(pairs, key=lambda x: -abs(x[2]))[:6]
+        log(f"{tag}  worst: " + ", ".join(
+            f"cue{i}@{human(t)} {e:+.1f}s" for i, t, e in worst))
+
     median_abs = percentile([abs(e) for e in begin_errors], 0.5) if begin_errors else float("nan")
     if median_abs > AUDIO_MISMATCH_SECONDS:
         # 宁可这一集不做，也不要把整体错位的时间轴写进仓库
@@ -453,6 +472,9 @@ def main():
     parser.add_argument("--workdir", default="/tmp/tmlt-audio")
     parser.add_argument("--cpu-threads", type=int, default=0)
     parser.add_argument("--force", action="store_true", help="忽略已有结果重新对齐")
+    parser.add_argument(
+        "--debug-errors", action="store_true", help="按四分位打印首词偏移，诊断音频版本差异"
+    )
     parser.add_argument(
         "--allow-rss-audio",
         action="store_true",
