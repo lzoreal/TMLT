@@ -15,6 +15,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 from email.utils import parsedate_to_datetime
@@ -466,6 +467,53 @@ def is_done(path):
     return complete or attempts >= MAX_ATTEMPTS
 
 
+def persist_progress(path, episode):
+    """把刚写完的 sidecar 立刻提交并推送。
+
+    超时或 runner 被回收时，最多只丢正在处理的那一集；已完成的结果
+    不会等到 40 分钟分段提交才落盘。
+    """
+
+    if os.environ.get("COMMIT_RESULTS") != "true":
+        return
+    try:
+        rel = path.resolve().relative_to(BASE.resolve()).as_posix()
+    except ValueError:
+        return
+
+    def git(*args):
+        return subprocess.run(
+            ("git", *args), cwd=BASE, capture_output=True, text=True
+        )
+
+    def push():
+        for attempt in range(1, 3):
+            if (git("pull", "--rebase", "--autostash").returncode == 0
+                    and git("push").returncode == 0):
+                return True
+            git("rebase", "--abort")
+            time.sleep(5 * attempt)
+        return False
+
+    def ahead():
+        result = git("rev-list", "--count", "@{u}..HEAD")
+        return result.returncode == 0 and result.stdout.strip() not in ("", "0")
+
+    if git("add", "--", rel).returncode != 0:
+        return
+    if git("diff", "--cached", "--quiet").returncode == 0:
+        # 没有新文件，但可能有上次 push 失败留下的本地提交
+        if ahead():
+            push()
+        return
+    shard = os.environ.get("SHARD", "?")
+    if git("commit", "-m",
+           f"Add word-level timings (shard {shard}, #{episode})").returncode != 0:
+        return
+    if not push():
+        log(f"    #{episode} sidecar committed locally; push will retry")
+
+
 # ============================================================
 # 单集
 # ============================================================
@@ -738,6 +786,7 @@ def main():
             prev = read_status(path)[1] if path.exists() else 0
             mark_attempt(path, episode, prev + 1, f"error:{type(exc).__name__}")
             log(f"{tag}#{episode} ERROR {type(exc).__name__}: {exc}")
+        persist_progress(args.out / f"{episode}.json", episode)
         done += 1
 
     log(f"run_summary attempted={done} left={total - done}")

@@ -123,7 +123,7 @@ jobs:
     needs: [check, prepare]
     if: needs.check.outputs.pending != '0' || inputs.force == true
     runs-on: ubuntu-latest
-    timeout-minutes: 340
+    timeout-minutes: 360
     strategy:
       fail-fast: false
       max-parallel: 20
@@ -152,39 +152,51 @@ jobs:
           python -c "import stable_whisper, faster_whisper, av; print('deps ok')"
 
       - name: Align and commit in chunks
-        # 每 40 分钟一段、段段提交：被超时掐断或 push 失败时最多丢一段。
-        # 各 shard 只写自己的集号，文件互不相交；push 冲突用 rebase 重试。
+        # 每集写完即提交/推送（align_timings.py 内），超时最多丢正在处理的那一集；
+        # 每 40 分钟再兜底提交一段。各 shard 只写自己的集号，push 冲突用 rebase 重试。
         env:
           SHARDS: ${{ inputs.shards || '20' }}
           EPISODES: ${{ inputs.episodes || '' }}
           LATEST: ${{ inputs.latest || '0' }}
           MAX_MINUTES: ${{ inputs.max_minutes || '300' }}
+          SHARD: ${{ matrix.shard }}
           COMMIT_RESULTS: ${{ github.event_name == 'schedule' || inputs.commit }}
         run: |
           set -o pipefail
           git config user.name "github-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          push_retry() {
+            for i in 1 2 3 4 5; do
+              if git pull --rebase --autostash && git push; then
+                return 0
+              fi
+              git rebase --abort 2>/dev/null || true
+              sleep $((i * 15))
+            done
+            echo "push failed after 5 attempts; keeping commit for next chunk" >&2
+            return 1
+          }
+
           commit_chunk() {
             if [ "$COMMIT_RESULTS" != "true" ]; then
               echo "commit disabled; results only in artifact"
               return 0
             fi
-            git add docs/timings
+            if ls docs/timings/*.json >/dev/null 2>&1; then
+              git add -- 'docs/timings/*.json' || return 1
+            fi
             if git diff --cached --quiet; then
+              # 每集提交在 Python 内完成；这里只补推它没推成功的本地提交
+              ahead=$(git rev-list --count '@{u}..HEAD' 2>/dev/null || echo 0)
+              if [ "$ahead" -gt 0 ]; then push_retry || true; fi
               return 0
             fi
             local count
             count=$(git diff --cached --name-only | wc -l)
-            git commit -m "Add word-level timings (shard ${{ matrix.shard }}, $count eps)"
-            for i in 1 2 3 4 5; do
-              if git pull --rebase --autostash && git push; then
-                return 0
-              fi
-              sleep $((i * 15))
-            done
-            echo "push failed after 5 attempts; keeping commit for next chunk" >&2
-            return 1
+            git commit -m "Add word-level timings (shard ${{ matrix.shard }}, $count eps)" \
+              || { echo "commit failed; keeping files for next chunk" >&2; return 1; }
+            push_retry
           }
 
           start=$(date +%s)
