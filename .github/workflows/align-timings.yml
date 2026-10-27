@@ -54,11 +54,21 @@ jobs:
           # 否则上一轮提交的 sidecar 在快照里看不到，会被重做。
           ref: main
       - id: count
+        # 按 sidecar 的 complete/attempts 统计，而不是按文件数：
+        # 未完成或被拒绝的 sidecar 仍算待办，否则空句永远补不上。
+        env:
+          EPISODES: ${{ inputs.episodes || '' }}
+          LATEST: ${{ inputs.latest || '0' }}
         run: |
-          total=$(ls docs/transcripts/*.vtt | wc -l)
-          done=$(ls docs/timings/*.json 2>/dev/null | wc -l)
-          echo "pending=$((total - done))" >> "$GITHUB_OUTPUT"
-          echo "transcript=$total done=$done pending=$((total - done))" >> "$GITHUB_STEP_SUMMARY"
+          status=$(python3 align_timings.py --status --episodes "$EPISODES" --latest "$LATEST")
+          echo "$status"
+          pending=$(printf '%s\n' "$status" | sed -n 's/^pending=//p')
+          if [ -z "$pending" ]; then
+            echo "failed to compute pending" >&2
+            exit 1
+          fi
+          echo "pending=$pending" >> "$GITHUB_OUTPUT"
+          echo "$status" >> "$GITHUB_STEP_SUMMARY"
 
   # 先把 1.6GB 模型填进缓存，避免每个 job 同时冷拉
   prepare:
@@ -151,6 +161,7 @@ jobs:
           MAX_MINUTES: ${{ inputs.max_minutes || '300' }}
           COMMIT_RESULTS: ${{ github.event_name == 'schedule' || inputs.commit }}
         run: |
+          set -o pipefail
           git config user.name "github-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -188,18 +199,31 @@ jobs:
             fi
             chunk_min=$(( remaining / 60 ))
             if [ "$chunk_min" -gt 40 ]; then chunk_min=40; fi
-            before=$(ls docs/timings/*.json 2>/dev/null | wc -l)
+            # 重试已有 sidecar 不会新增文件，不能再用文件数判断是否还有活。
+            before=$(python3 align_timings.py --status \
+              --shard ${{ matrix.shard }} --shards "$SHARDS" \
+              --episodes "$EPISODES" --latest "$LATEST" \
+              | sed -n 's/^pending=//p')
+            run_log=$(mktemp)
             python -u align_timings.py \
               --shard ${{ matrix.shard }} \
               --shards "$SHARDS" \
               --episodes "$EPISODES" \
               --latest "$LATEST" \
               --max-minutes "$chunk_min" \
-              ${{ inputs.force && '--force' || '' }} || echo "chunk exited non-zero, committing what exists"
-            after=$(ls docs/timings/*.json 2>/dev/null | wc -l)
+              ${{ inputs.force && '--force' || '' }} 2>&1 | tee "$run_log" \
+              || echo "chunk exited non-zero, committing what exists"
+            attempted=$(sed -n 's/^run_summary attempted=\([0-9]*\).*/\1/p' "$run_log" | tail -1)
+            rm -f "$run_log"
+            after=$(python3 align_timings.py --status \
+              --shard ${{ matrix.shard }} --shards "$SHARDS" \
+              --episodes "$EPISODES" --latest "$LATEST" \
+              | sed -n 's/^pending=//p')
             commit_chunk || true
-            echo "chunk done: $before -> $after files, chunk=${chunk_min}min, total=$(( $(date +%s) - start ))s"
-            if [ "$after" -eq "$before" ]; then break; fi
+            echo "chunk done: pending $before -> $after, attempted=${attempted:-0}, chunk=${chunk_min}min, total=$(( $(date +%s) - start ))s"
+            # 待办清空、或这一段一集都没处理（预算/异常）就收尾；重试已有 sidecar
+            # 不新增文件，所以不能再用文件数判断。
+            if [ -z "$after" ] || [ "$after" -eq 0 ] || [ -z "$attempted" ] || [ "$attempted" -eq 0 ]; then break; fi
           done
 
       - name: Upload partial results
