@@ -1,0 +1,141 @@
+name: Align transcript timings
+
+# 以官网 begin 为锚点、窗口化对齐校对过的 transcript，产出逐词时间轴。
+# 音频优先取官网静态 archive（地区无关、无广告插入）；解析失败才回退 RSS 音源并告警。
+#
+# 断点续跑：每集写 docs/timings/<集号>.json，已存在即跳过。重复 dispatch 会自动接着做。
+
+on:
+  workflow_dispatch:
+    inputs:
+      episodes:
+        description: "逗号分隔的集号（留空则按 latest / 全量选）"
+        default: ""
+      latest:
+        description: "只处理最近发布的 N 集（0 = 全部）"
+        default: "0"
+      shards:
+        description: "并行分片数（1-10）；冒烟测试填 1"
+        default: "10"
+      max_minutes:
+        description: "每个 job 的时间预算（分钟）"
+        default: "285"
+      force:
+        description: "重跑已有结果的集"
+        type: boolean
+        default: false
+      commit:
+        description: "提交 docs/timings（冒烟测试关掉，避免直连音频的无效结果入库）"
+        type: boolean
+        default: true
+
+concurrency:
+  group: tmlt-align
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  # 先把 1.6GB 模型填进缓存，避免 10 个 job 同时冷拉
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - id: model
+        uses: actions/cache/restore@v4
+        with:
+          path: models/ct2-turbo
+          key: ct2-turbo-v1
+
+      - name: Download model
+        if: steps.model.outputs.cache-hit != 'true'
+        run: |
+          pip install --quiet huggingface_hub
+          python - <<'PY'
+          from pathlib import Path
+          from huggingface_hub import snapshot_download
+
+          target = Path("models/ct2-turbo")
+          snapshot_download(
+              "deepdml/faster-whisper-large-v3-turbo-ct2",
+              local_dir=str(target),
+              allow_patterns=["model.bin", "config.json", "tokenizer.json",
+                              "vocabulary.json", "preprocessor_config.json"],
+          )
+          config = (target / "config.json").read_text()
+          assert "alignment_heads" in config, "模型缺 alignment_heads，逐词对齐不可用"
+          print("model right:", sorted(p.name for p in target.glob("*.bin")))
+          PY
+
+      - name: Save model cache
+        if: steps.model.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: models/ct2-turbo
+          key: ct2-turbo-v1
+
+  align:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/cache/restore@v4
+        with:
+          path: models/ct2-turbo
+          key: ct2-turbo-v1
+
+      - name: Install dependencies
+        run: |
+          pip install --quiet --index-url https://download.pytorch.org/whl/cpu torch torchaudio
+          pip install --quiet -r requirements-align.txt
+          python -c "import stable_whisper, faster_whisper, av; print('deps ok')"
+
+      - name: Align
+        env:
+          TAL_PROXY_URL: ${{ secrets.TAL_PROXY_URL }}
+        run: |
+          python -u align_timings.py \
+            --shard ${{ matrix.shard }} \
+            --shards ${{ inputs.shards }} \
+            --episodes "${{ inputs.episodes }}" \
+            --latest ${{ inputs.latest }} \
+            --max-minutes ${{ inputs.max_minutes }} \
+            ${{ inputs.force && '--force' || '' }}
+
+      - name: Commit results
+        # 各 shard 只写自己的集号，文件互不相交；push 冲突用 rebase 重试
+        if: ${{ inputs.commit }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/timings
+          if git diff --cached --quiet; then
+            echo "no new timings in shard ${{ matrix.shard }}"
+            exit 0
+          fi
+          git commit -m "Add word-level timings (shard ${{ matrix.shard }})"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash && git push; then
+              exit 0
+            fi
+            sleep $((i * 15))
+          done
+          echo "push failed after 5 attempts" >&2
+          exit 1

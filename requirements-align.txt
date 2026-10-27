@@ -1,0 +1,9 @@
+# 逐词对齐依赖（align_timings.py）
+# torch 走 CPU 轮子单独装，见 .github/workflows/align-timings.yml
+stable-ts==2.19.1
+faster-whisper==1.2.1
+ctranslate2==4.8.4
+av==17.1.0
+numpy>=1.26
+requests>=2.32.0
+huggingface_hub>=0.23
