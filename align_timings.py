@@ -34,6 +34,10 @@ MAX_CHARS = 900
 MAX_SPAN = 100.0
 PAD = 3.0
 
+# 音频版本守卫：RSS/播放器音频按地区插播广告，相对母版偏移可达 +25~+97 秒。
+# 窗口是按官网 begin 切的，版本不对时首词会成片偏出去，中位偏差立刻暴露。
+AUDIO_MISMATCH_SECONDS = 3.0
+
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 Chrome/126.0 Safari/537.36"
@@ -370,6 +374,10 @@ def run_episode(model, session, source, args, workdir):
         if not audio_path.exists():
             source_url = resolve_archive(session, episode)
             if source_url is None:
+                if not args.allow_rss_audio:
+                    log(f"#{episode} REJECT no archive audio; skip "
+                        "(RSS 音频按地区插播，时间轴不可信；确需回退加 --allow-rss-audio)")
+                    return 1
                 audio_path = workdir / f"{episode}_rss.mp3"
                 source_url = source["audio"]
                 log(
@@ -397,6 +405,18 @@ def run_episode(model, session, source, args, workdir):
     end_saved = sum(
         c["end"] - results[c["i"]]["words"][-1][2] for c in cues if c["i"] in results
     )
+
+    median_abs = percentile([abs(e) for e in begin_errors], 0.5) if begin_errors else float("nan")
+    if median_abs > AUDIO_MISMATCH_SECONDS:
+        # 宁可这一集不做，也不要把整体错位的时间轴写进仓库
+        out_path.unlink(missing_ok=True)
+        if args.audio is None:
+            audio_path.unlink(missing_ok=True)
+        log(
+            f"#{episode} REJECT audio mismatch: median|begin_err|={median_abs:.1f}s "
+            f"> {AUDIO_MISMATCH_SECONDS:.0f}s, ok={len(results)}/{len(cues) - skipped}"
+        )
+        return 1
 
     write_sidecar(out_path, episode, cues, results, audio_seconds)
 
@@ -435,6 +455,11 @@ def main():
     parser.add_argument("--workdir", default="/tmp/tmlt-audio")
     parser.add_argument("--cpu-threads", type=int, default=0)
     parser.add_argument("--force", action="store_true", help="忽略已有结果重新对齐")
+    parser.add_argument(
+        "--allow-rss-audio",
+        action="store_true",
+        help="archive 取不到时回退 RSS 音频（默认跳过：RSS 音频按地区插播，会写坏时间轴）",
+    )
     args = parser.parse_args()
 
     args.out = Path(args.out)
