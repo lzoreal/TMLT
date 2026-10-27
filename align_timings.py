@@ -480,8 +480,9 @@ def main():
         e for e in shard_episodes if args.force or not (args.out / f"{e}.json").exists()
     ]
     log(f"shard {args.shard}/{args.shards}: 全局待办 {global_pending} 集"
-        f"（选中 {len(episodes)} 集，已完成 {len(episodes) - global_pending} 集）"
-        f"，本分片本段 {len(pending)} 集")
+        f"（选中 {len(episodes)} 集，已完成 {len(episodes) - global_pending} 集）；"
+        f"本分片共 {len(shard_episodes)} 集，已完成 {len(shard_episodes) - len(pending)} 集，"
+        f"本段 {len(pending)} 集")
     if not pending:
         log("nothing to do")
         return 0
@@ -507,15 +508,18 @@ def main():
     failures = 0
     done = 0
     total = len(pending)
+    shard_total = len(shard_episodes)
+    shard_done_before = shard_total - total
     run_started = time.time()
-    log(f"budget {args.max_minutes:.0f}min, 本分片 {total} 集")
+    log(f"budget {args.max_minutes:.0f}min, 本分片共 {shard_total} 集，已完成 {shard_done_before} 集")
     for episode in pending:
         if time.time() > deadline:
-            log(f"时间预算用完，剩 {total - done} 集留给下次运行")
+            log(f"时间预算用完，本段剩 {total - done} 集，交给下一段继续")
             break
         elapsed = time.time() - run_started
-        eta = elapsed / done * (total - done) if done else float("nan")
-        tag = f"[{done + 1:>3}/{total} {100 * (done + 1) / total:3.0f}% eta " \
+        position = shard_done_before + done + 1
+        eta = elapsed / done * (shard_total - position + 1) if done else float("nan")
+        tag = f"[{position:>3}/{shard_total} {100 * position / shard_total:3.0f}% eta " \
               f"{'--' if done == 0 else human(eta)}] "
         try:
             if run_episode(model, session, sources[episode], args, workdir, tag):
