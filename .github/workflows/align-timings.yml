@@ -1,9 +1,11 @@
 name: Align transcript timings
 
 # 以官网 begin 为锚点、窗口化对齐校对过的 transcript，产出逐词时间轴。
-# 音频优先取官网静态 archive（地区无关、无广告插入）；解析失败才回退 RSS 音源并告警。
+# 音频只认 transcript 页的 playlist-data.archive 静态母带（跨区一致、无插播）；
+# RSS 音频按地区插播广告，回退会写错时间轴，所以默认跳过。
 #
-# 断点续跑：每集写 docs/timings/<集号>.json，已存在即跳过。重复 dispatch 会自动接着做。
+# 断点续跑：每集写 docs/timings/<集号>.json，已存在即跳过。
+# cron 每 6 小时接一轮；没有待办时 check job 直接退出，align 不会启动。
 
 on:
   workflow_dispatch:
@@ -15,19 +17,23 @@ on:
         description: "只处理最近发布的 N 集（0 = 全部）"
         default: "0"
       shards:
-        description: "并行分片数（1-10）；冒烟测试填 1"
-        default: "10"
+        description: "并行分片数（1-20）；冒烟测试填 1"
+        default: "20"
       max_minutes:
         description: "每个 job 的时间预算（分钟）"
-        default: "285"
+        default: "300"
       force:
         description: "重跑已有结果的集"
         type: boolean
         default: false
       commit:
-        description: "提交 docs/timings（冒烟测试关掉，避免直连音频的无效结果入库）"
+        description: "提交 docs/timings（冒烟测试关掉，避免无效结果入库）"
         type: boolean
         default: true
+
+  # 全量跑批自动接续：有剩余集就继续，跑完就空跑退出
+  schedule:
+    - cron: "0 */6 * * *"
 
 concurrency:
   group: tmlt-align
@@ -37,8 +43,23 @@ permissions:
   contents: write
 
 jobs:
-  # 先把 1.6GB 模型填进缓存，避免 10 个 job 同时冷拉
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      pending: ${{ steps.count.outputs.pending }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: count
+        run: |
+          total=$(ls docs/transcripts/*.vtt | wc -l)
+          done=$(ls docs/timings/*.json 2>/dev/null | wc -l)
+          echo "pending=$((total - done))" >> "$GITHUB_OUTPUT"
+          echo "transcript=$total done=$done pending=$((total - done))" >> "$GITHUB_STEP_SUMMARY"
+
+  # 先把 1.6GB 模型填进缓存，避免每个 job 同时冷拉
   prepare:
+    needs: check
+    if: needs.check.outputs.pending != '0' || inputs.force == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -81,14 +102,15 @@ jobs:
           key: ct2-turbo-v1
 
   align:
-    needs: prepare
+    needs: [check, prepare]
+    if: needs.check.outputs.pending != '0' || inputs.force == true
     runs-on: ubuntu-latest
     timeout-minutes: 330
     strategy:
       fail-fast: false
-      max-parallel: 10
+      max-parallel: 20
       matrix:
-        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     steps:
       - uses: actions/checkout@v4
 
@@ -109,19 +131,22 @@ jobs:
 
       - name: Align
         env:
-          TAL_PROXY_URL: ${{ secrets.TAL_PROXY_URL }}
+          SHARDS: ${{ inputs.shards || '20' }}
+          EPISODES: ${{ inputs.episodes || '' }}
+          LATEST: ${{ inputs.latest || '0' }}
+          MAX_MINUTES: ${{ inputs.max_minutes || '300' }}
         run: |
           python -u align_timings.py \
             --shard ${{ matrix.shard }} \
-            --shards ${{ inputs.shards }} \
-            --episodes "${{ inputs.episodes }}" \
-            --latest ${{ inputs.latest }} \
-            --max-minutes ${{ inputs.max_minutes }} \
+            --shards "$SHARDS" \
+            --episodes "$EPISODES" \
+            --latest "$LATEST" \
+            --max-minutes "$MAX_MINUTES" \
             ${{ inputs.force && '--force' || '' }}
 
       - name: Commit results
         # 各 shard 只写自己的集号，文件互不相交；push 冲突用 rebase 重试
-        if: ${{ inputs.commit }}
+        if: ${{ github.event_name == 'schedule' || inputs.commit }}
         run: |
           git config user.name "github-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -130,7 +155,8 @@ jobs:
             echo "no new timings in shard ${{ matrix.shard }}"
             exit 0
           fi
-          git commit -m "Add word-level timings (shard ${{ matrix.shard }})"
+          count=$(git diff --cached --name-only | wc -l)
+          git commit -m "Add word-level timings (shard ${{ matrix.shard }}, $count eps)"
           for i in 1 2 3 4 5; do
             if git pull --rebase --autostash && git push; then
               exit 0
