@@ -129,39 +129,65 @@ jobs:
           pip install --quiet -r requirements-align.txt
           python -c "import stable_whisper, faster_whisper, av; print('deps ok')"
 
-      - name: Align
+      - name: Align and commit in chunks
+        # 每 40 分钟一段、段段提交：被超时掐断或 push 失败时最多丢一段。
+        # 各 shard 只写自己的集号，文件互不相交；push 冲突用 rebase 重试。
         env:
           SHARDS: ${{ inputs.shards || '20' }}
           EPISODES: ${{ inputs.episodes || '' }}
           LATEST: ${{ inputs.latest || '0' }}
           MAX_MINUTES: ${{ inputs.max_minutes || '300' }}
-        run: |
-          python -u align_timings.py \
-            --shard ${{ matrix.shard }} \
-            --shards "$SHARDS" \
-            --episodes "$EPISODES" \
-            --latest "$LATEST" \
-            --max-minutes "$MAX_MINUTES" \
-            ${{ inputs.force && '--force' || '' }}
-
-      - name: Commit results
-        # 各 shard 只写自己的集号，文件互不相交；push 冲突用 rebase 重试
-        if: ${{ github.event_name == 'schedule' || inputs.commit }}
+          COMMIT_RESULTS: ${{ github.event_name == 'schedule' || inputs.commit }}
         run: |
           git config user.name "github-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/timings
-          if git diff --cached --quiet; then
-            echo "no new timings in shard ${{ matrix.shard }}"
-            exit 0
-          fi
-          count=$(git diff --cached --name-only | wc -l)
-          git commit -m "Add word-level timings (shard ${{ matrix.shard }}, $count eps)"
-          for i in 1 2 3 4 5; do
-            if git pull --rebase --autostash && git push; then
-              exit 0
+
+          commit_chunk() {
+            if [ "$COMMIT_RESULTS" != "true" ]; then
+              echo "commit disabled; results only in artifact"
+              return 0
             fi
-            sleep $((i * 15))
+            git add docs/timings
+            if git diff --cached --quiet; then
+              return 0
+            fi
+            local count
+            count=$(git diff --cached --name-only | wc -l)
+            git commit -m "Add word-level timings (shard ${{ matrix.shard }}, $count eps)"
+            for i in 1 2 3 4 5; do
+              if git pull --rebase --autostash && git push; then
+                return 0
+              fi
+              sleep $((i * 15))
+            done
+            echo "push failed after 5 attempts; keeping commit for next chunk" >&2
+            return 1
+          }
+
+          start=$(date +%s)
+          budget=$(( ${MAX_MINUTES%.*} * 60 ))
+          while :; do
+            before=$(ls docs/timings/*.json 2>/dev/null | wc -l)
+            python -u align_timings.py \
+              --shard ${{ matrix.shard }} \
+              --shards "$SHARDS" \
+              --episodes "$EPISODES" \
+              --latest "$LATEST" \
+              --max-minutes 40 \
+              ${{ inputs.force && '--force' || '' }} || echo "chunk exited non-zero, committing what exists"
+            after=$(ls docs/timings/*.json 2>/dev/null | wc -l)
+            commit_chunk || true
+            echo "chunk done: $before -> $after files, $(( $(date +%s) - start ))s elapsed"
+            if [ "$after" -eq "$before" ]; then break; fi
+            if [ $(( $(date +%s) - start )) -ge "$budget" ]; then break; fi
           done
-          echo "push failed after 5 attempts" >&2
-          exit 1
+
+      - name: Upload partial results
+        # 兜底：即使 job 被掐断、push 一直失败，也能从 artifact 捞回
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: timings-shard-${{ matrix.shard }}
+          path: docs/timings
+          if-no-files-found: ignore
+          retention-days: 7
