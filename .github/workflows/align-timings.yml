@@ -5,7 +5,7 @@ name: Align transcript timings
 # RSS 音频按地区插播广告，回退会写错时间轴，所以默认跳过。
 #
 # 断点续跑：每集写 docs/timings/<集号>.json，已存在即跳过。
-# cron 每 6 小时接一轮；没有待办时 check job 直接退出，align 不会启动。
+# cron 每小时探一次；没有待办时 check job 直接退出，align 不会启动。
 
 on:
   workflow_dispatch:
@@ -31,9 +31,12 @@ on:
         type: boolean
         default: true
 
-  # 全量跑批自动接续：有剩余集就继续，跑完就空跑退出
+  # 全量跑批自动接续：有剩余集就继续，跑完就空跑退出。
+  # 间隔必须远小于单轮时长（一轮约 5.9h）：concurrency 组只留一个排队 run，
+  # 落在运行中那几小时里的 schedule 事件会被丢弃，所以靠密集触发保证
+  # 任意一轮里至少有一次被留在队列里，一轮结束立刻接上下一个触发。
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 * * * *"
 
 concurrency:
   group: tmlt-align
