@@ -6,6 +6,8 @@ name: Align transcript timings
 #
 # 断点续跑：每集写 docs/timings/<集号>.json，已存在即跳过。
 # cron 每小时探一次；没有待办时 check job 直接退出，align 不会启动。
+# 分片由 check job 每轮按当时的待办现算（align 只认自己那份 --episodes），
+# 这样先跑完的档位下一轮会分到别人的剩余集，不会被空档拖住整轮。
 
 on:
   workflow_dispatch:
@@ -17,7 +19,7 @@ on:
         description: "只处理最近发布的 N 集（0 = 全部）"
         default: "0"
       shards:
-        description: "并行分片数（1-20）；冒烟测试填 1"
+        description: "把待办摊到几档（1-20，矩阵固定 20 个 job，多余档位空跑退出）；冒烟测试填 1"
         default: "20"
       max_minutes:
         description: "每个 job 的时间预算（分钟）"
@@ -50,6 +52,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       pending: ${{ steps.count.outputs.pending }}
+      plan: ${{ steps.count.outputs.plan }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -59,10 +62,20 @@ jobs:
       - id: count
         # 按 sidecar 的 complete/attempts 统计，而不是按文件数：
         # 未完成或被拒绝的 sidecar 仍算待办，否则空句永远补不上。
+        # 计划也在这里一次算完：矩阵 20 个 job 之前只有本 job 跑，
+        # 每个集号只会出现在一个档位里，同轮内仍然互斥。
         env:
           EPISODES: ${{ inputs.episodes || '' }}
           LATEST: ${{ inputs.latest || '0' }}
+          SHARDS: ${{ inputs.shards || '20' }}
         run: |
+          set -o pipefail
+          # 档位上限就是矩阵规模；填大了会漏集，所以钳到 20。
+          slots=$SHARDS
+          if [ "$slots" -gt 20 ]; then
+            echo "inputs.shards=$SHARDS 超过矩阵 20 档，按 20 分摊" >&2
+            slots=20
+          fi
           status=$(python3 align_timings.py --status --episodes "$EPISODES" --latest "$LATEST")
           echo "$status"
           pending=$(printf '%s\n' "$status" | sed -n 's/^pending=//p')
@@ -72,6 +85,29 @@ jobs:
           fi
           echo "pending=$pending" >> "$GITHUB_OUTPUT"
           echo "$status" >> "$GITHUB_STEP_SUMMARY"
+
+          # 计划补齐 20 项：矩阵固定 20 个 job，shards 填小时多出来的档位拿到空串自己
+          # 退出，而不是下标越界把 job 判成失败。坏计划必须在这里拦住，
+          # 否则下游会把空串读成"本档没活"，整轮静默空跑。
+          plan=$(python3 align_timings.py --plan --shards "$slots" \
+            --episodes "$EPISODES" --latest "$LATEST" ${{ inputs.force && '--force' || '' }} \
+            | python3 -c '
+          import json, sys
+
+          data = json.loads(sys.stdin.read())
+          if not isinstance(data, list) or not 1 <= len(data) <= 20:
+              raise SystemExit("计划档位数异常")
+          print(json.dumps(data + [""] * (20 - len(data))))
+          ')
+          if [ -z "$plan" ]; then
+            echo "plan 生成失败，拒绝继续" >&2
+            exit 1
+          fi
+          echo "plan=$plan" >> "$GITHUB_OUTPUT"
+          printf '分档集数：%s\n' "$(printf '%s' "$plan" | python3 -c '
+          import json, sys
+          print([len(s.split(",")) if s else 0 for s in json.loads(sys.stdin.read())])
+          ')" >> "$GITHUB_STEP_SUMMARY"
 
   # 先把 1.6GB 模型填进缓存，避免每个 job 同时冷拉
   prepare:
@@ -156,11 +192,9 @@ jobs:
 
       - name: Align and commit in chunks
         # 每集写完即提交/推送（align_timings.py 内），超时最多丢正在处理的那一集；
-        # 每 40 分钟再兜底提交一段。各 shard 只写自己的集号，push 冲突用 rebase 重试。
+        # 每 40 分钟再兜底提交一段。各 shard 只写自己分到的集号，push 冲突用 rebase 重试。
         env:
-          SHARDS: ${{ inputs.shards || '20' }}
-          EPISODES: ${{ inputs.episodes || '' }}
-          LATEST: ${{ inputs.latest || '0' }}
+          PLAN: ${{ needs.check.outputs.plan }}
           MAX_MINUTES: ${{ inputs.max_minutes || '300' }}
           SHARD: ${{ matrix.shard }}
           COMMIT_RESULTS: ${{ github.event_name == 'schedule' || inputs.commit }}
@@ -168,6 +202,21 @@ jobs:
           set -o pipefail
           git config user.name "github-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 取本轮分给本档的集号。解析失败必须硬停：空串和坏计划都到这里，
+          # 若当成"没活"退出，整轮会静默空跑。
+          if ! EP_LIST=$(printf '%s' "$PLAN" | python3 -c '
+          import json, sys
+          print(json.load(sys.stdin)[int(sys.argv[1])])
+          ' "$SHARD"); then
+            echo "plan 解析失败（档位 $SHARD），退出以免误判为空档" >&2
+            exit 1
+          fi
+          if [ -z "$EP_LIST" ]; then
+            echo "档位 $SHARD 本轮没分到集，直接结束"
+            exit 0
+          fi
+          echo "档位 $SHARD 分到 $(awk -F',' '{print NF}' <<<"$EP_LIST") 集"
 
           push_retry() {
             for i in 1 2 3 4 5; do
@@ -216,24 +265,17 @@ jobs:
             if [ "$chunk_min" -gt 40 ]; then chunk_min=40; fi
             # 重试已有 sidecar 不会新增文件，不能再用文件数判断是否还有活。
             before=$(python3 align_timings.py --status \
-              --shard ${{ matrix.shard }} --shards "$SHARDS" \
-              --episodes "$EPISODES" --latest "$LATEST" \
-              | sed -n 's/^pending=//p')
+              --episodes "$EP_LIST" | sed -n 's/^pending=//p')
             run_log=$(mktemp)
             python -u align_timings.py \
-              --shard ${{ matrix.shard }} \
-              --shards "$SHARDS" \
-              --episodes "$EPISODES" \
-              --latest "$LATEST" \
+              --episodes "$EP_LIST" \
               --max-minutes "$chunk_min" \
               ${{ inputs.force && '--force' || '' }} 2>&1 | tee "$run_log" \
               || echo "chunk exited non-zero, committing what exists"
             attempted=$(sed -n 's/^run_summary attempted=\([0-9]*\).*/\1/p' "$run_log" | tail -1)
             rm -f "$run_log"
             after=$(python3 align_timings.py --status \
-              --shard ${{ matrix.shard }} --shards "$SHARDS" \
-              --episodes "$EPISODES" --latest "$LATEST" \
-              | sed -n 's/^pending=//p')
+              --episodes "$EP_LIST" | sed -n 's/^pending=//p')
             commit_chunk || true
             echo "chunk done: pending $before -> $after, attempted=${attempted:-0}, chunk=${chunk_min}min, total=$(( $(date +%s) - start ))s"
             # 待办清空、或这一段一集都没处理（预算/异常）就收尾；重试已有 sidecar

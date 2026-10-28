@@ -467,6 +467,19 @@ def is_done(path):
     return complete or attempts >= MAX_ATTEMPTS
 
 
+def build_plan(pending, shards):
+    """把当前待办按轮转摊成 shards 份集号表，供 check job 一次算完、各档取自己那份。
+
+    静态 pos % shards 切片会让先跑完的一档永久空转、慢档被钉在同一批剩余集上；
+    计划每轮重算，档位拿到的是别人的 leftovers。一份集号只出现在一个档位里，
+    所以同轮内仍然互斥，不会撞 rebase。
+    """
+    buckets = [[] for _ in range(shards)]
+    for index, episode in enumerate(pending):
+        buckets[index % shards].append(str(episode))
+    return [",".join(bucket) for bucket in buckets]
+
+
 def persist_progress(path, episode):
     """把刚写完的 sidecar 立刻提交并推送。
 
@@ -683,6 +696,11 @@ def main():
         help="只统计完成/待办并输出 pending=N，不加载模型或第三方依赖",
     )
     parser.add_argument(
+        "--plan", action="store_true",
+        help="按 --shards 把待办摊成 JSON 数组（下标=档位，值=逗号分隔集号）后退出，"
+             "stdout 只有一行 JSON，供 check job 写进 output",
+    )
+    parser.add_argument(
         "--debug-errors", action="store_true", help="按四分位打印首词偏移，诊断音频版本差异"
     )
     parser.add_argument(
@@ -698,6 +716,11 @@ def main():
 
     sources = load_sources(RSS_FILE)
     episodes = select_episodes(sources, args)
+
+    if args.plan:
+        todo = [e for e in episodes if args.force or not is_done(args.out / f"{e}.json")]
+        print(json.dumps(build_plan(todo, args.shards)))
+        return 0
 
     if args.status:
         selected = [
