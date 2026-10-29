@@ -293,6 +293,33 @@ def group_cues(cues):
     return groups
 
 
+def align_group(model, audio, group, total_seconds):
+    """对一个 cue 组切窗、对齐，返回 {cue 序号: {"words": [...]}}；窗口按官网 begin。"""
+
+    lo = max(0.0, group[0]["start"] - PAD)
+    # 不能只看最后一句：cue 时序会重叠，前一句的长台词可能延伸到后面。
+    hi = min(total_seconds, max(
+        c["start"] + cue_span(c) for c in group
+    ) + TAIL_PAD)
+    clip = audio[int(lo * SR): int(hi * SR)]
+    text_block = "\n".join(c["text"] for c in group)
+    aligned = model.align(clip, text_block, language="en", original_split=True)
+
+    by_local_id = {segment.id: segment for segment in aligned.segments}
+    results = {}
+    for position, cue in enumerate(group):
+        segment = by_local_id.get(position)
+        words = list(segment.words) if segment is not None and segment.words else []
+        if not words:
+            continue
+        results[cue["i"]] = {
+            "words": [
+                (w.word.strip(), w.start + lo, w.end + lo) for w in words
+            ],
+        }
+    return results
+
+
 def align_episode(model, audio, cues, total_seconds):
     """返回 {cue 序号: {"begin": 秒, "end": 秒, "words": [...]}}；非语音 cue 不出现。"""
 
@@ -302,34 +329,58 @@ def align_episode(model, audio, cues, total_seconds):
     failures = 0
 
     for group in group_cues(speech):
-        lo = max(0.0, group[0]["start"] - PAD)
-        # 不能只看最后一句：cue 时序会重叠，前一句的长台词可能延伸到后面。
-        hi = min(total_seconds, max(
-            c["start"] + cue_span(c) for c in group
-        ) + TAIL_PAD)
-        clip = audio[int(lo * SR): int(hi * SR)]
-        text_block = "\n".join(c["text"] for c in group)
         try:
-            aligned = model.align(clip, text_block, language="en", original_split=True)
+            aligned = align_group(model, audio, group, total_seconds)
         except Exception as exc:
             failures += len(group)
             log(f"    align failed on cue {group[0]['i']}-{group[-1]['i']}: "
                 f"{type(exc).__name__}: {exc}")
             continue
-
-        by_local_id = {segment.id: segment for segment in aligned.segments}
-        for position, cue in enumerate(group):
-            segment = by_local_id.get(position)
-            words = list(segment.words) if segment is not None and segment.words else []
-            if not words:
-                failures += 1
-                continue
-            results[cue["i"]] = {
-                "words": [
-                    (w.word.strip(), w.start + lo, w.end + lo) for w in words
-                ],
-            }
+        results.update(aligned)
+        failures += len(group) - len(aligned)
     return results, skipped, failures
+
+
+def probe_offsets(model, audio, cues, total_seconds, samples):
+    """对整集均匀采样 samples 段做同样窗口对齐，返回每段的偏移统计。
+
+    用来判断被拒集的偏移形状：全段相等=官网时间戳整体平移，单调递增=线性漂移，
+    中途断层=少/多一段内容。只读：不写 sidecar、不提交。
+    """
+
+    speech = [c for c in cues if not BRACKET.match(c["text"])]
+    groups = group_cues(speech)
+    if not groups:
+        return []
+
+    count = max(1, min(samples, len(groups)))
+    if count == 1:
+        picks = [groups[0]]
+    else:
+        span = len(groups) - 1
+        picks = [groups[int(round(k * span / (count - 1)))] for k in range(count)]
+
+    rows = []
+    for k, group in enumerate(picks):
+        t = group[0]["start"]
+        try:
+            results = align_group(model, audio, group, total_seconds)
+        except Exception as exc:
+            rows.append((k + 1, t, None, f"{type(exc).__name__}"))
+            continue
+        errors = sorted(
+            results[c["i"]]["words"][0][1] - c["start"]
+            for c in group if c["i"] in results
+        )
+        if not errors:
+            rows.append((k + 1, t, None, "无对齐结果"))
+            continue
+        rows.append((
+            k + 1, t, len(errors),
+            f"median={percentile(errors, .5):+7.2f}s p10={percentile(errors, .1):+7.2f}s "
+            f"p90={percentile(errors, .9):+7.2f}s max_abs={max(abs(e) for e in errors):5.1f}s",
+        ))
+    return rows
 
 
 def percentile(values, q):
@@ -540,6 +591,40 @@ def persist_progress(path, episode):
 # ============================================================
 
 
+def probe_episode(model, session, source, args, workdir, tag=""):
+    """诊断：采样对齐若干段并打印偏移曲线，不写 sidecar。"""
+
+    episode = source["id"]
+    cues = parse_vtt(TRANSCRIPT_DIR / f"{episode}.vtt")
+    if not cues:
+        log(f"{tag}#{episode} 稿件为空，跳过")
+        return
+
+    if args.audio:
+        audio_path = Path(args.audio)
+    else:
+        audio_path = workdir / f"{episode}_archive.mp3"
+        if not audio_path.exists():
+            source_url = resolve_archive(session, episode)
+            if source_url is None:
+                log(f"{tag}#{episode} 取不到 archive，跳过")
+                return
+            download(session, source_url, audio_path)
+
+    audio = decode_audio(audio_path)
+    total_seconds = audio.size / SR
+    log(f"{tag}#{episode} probe: 音频 {human(total_seconds)}，采样 {args.offset_probe} 段")
+    for k, t, n, detail in probe_offsets(model, audio, cues, total_seconds,
+                                         args.offset_probe):
+        if n is None:
+            log(f"{tag}  probe {k} t={human(t):>7} {detail}")
+        else:
+            log(f"{tag}  probe {k} t={human(t):>7} n={n:>2} {detail}")
+
+    if args.audio is None:
+        audio_path.unlink(missing_ok=True)
+
+
 def run_episode(model, session, source, args, workdir, tag=""):
     episode = source["id"]
     vtt_path = TRANSCRIPT_DIR / f"{episode}.vtt"
@@ -715,6 +800,10 @@ def main():
         "--debug-errors", action="store_true", help="按四分位打印首词偏移，诊断音频版本差异"
     )
     parser.add_argument(
+        "--offset-probe", type=int, default=0, metavar="N",
+        help="诊断：每集只采样对齐 N 段并打印偏移曲线，不写 sidecar、不提交",
+    )
+    parser.add_argument(
         "--allow-rss-audio",
         action="store_true",
         help="archive 取不到时回退 RSS 音频（默认跳过：RSS 音频按地区插播，会写坏时间轴）",
@@ -812,6 +901,10 @@ def main():
         tag = f"[{position:>3}/{shard_total} {100 * position / shard_total:3.0f}% eta " \
               f"{'--' if done == 0 else human(eta)}] "
         try:
+            if args.offset_probe:
+                probe_episode(model, session, sources[episode], args, workdir, tag)
+                done += 1
+                continue
             if run_episode(model, session, sources[episode], args, workdir, tag):
                 failures += 1
         except Exception as exc:
