@@ -35,6 +35,9 @@ on:
       probe:
         description: "诊断：每集只采样对齐 N 段并打印偏移曲线，不写结果（0 = 正常跑）"
         default: "0"
+      lane:
+        description: "手工 run 的独立队列名（留空=跟随 cron 的 tmlt-align；探针/验证/恢复填 lane 免得被 schedule 顶掉）"
+        default: ""
 
   # 全量跑批自动接续：有剩余集就继续，跑完就空跑退出。
   # 间隔必须远小于单轮时长（一轮约 5.9h）：concurrency 组只留一个排队 run，
@@ -44,9 +47,10 @@ on:
     - cron: "0 * * * *"
 
 concurrency:
-  # 探针是只读诊断，另开一组：否则它排进 tmlt-align 队列后，
-  # 会被下一小时的 schedule 顶掉（同组里待起的 run 会被新 run 取代）。
-  group: tmlt-align${{ (inputs.probe || '0') != '0' && '-probe' || '' }}
+  # 探针、验证、恢复这类手工 run 用 lane 单开一组：否则它们排进 tmlt-align
+  # 队列后会被下一小时的 schedule 顶掉（同组里待起的 run 会被新 run 取代）。
+  # schedule 没有 inputs.lane，组名仍是原来的 tmlt-align。
+  group: tmlt-align${{ inputs.lane && format('-{0}', inputs.lane) || '' }}
   cancel-in-progress: false
 
 permissions:

@@ -49,6 +49,16 @@ NOMINAL_CHARS_PER_SECOND = 15.0
 SLOWEST_CHARS_PER_SECOND = 4.0
 TAIL_PAD = 8.0
 
+# 母带与稿件在段落交界处有几秒级的内容差（剪辑、垫乐长短不同），表现为阶梯状平移：
+# 实测 #477 在 23 分钟处跳 +5 秒、30 分钟到 +8 秒、35 分钟回落 +5 秒，每段内部
+# 稳定在 ±0.3 秒。窗口留了 -3/+8 秒余量，第一遍对齐本来就落在正确位置，错的是
+# "拿官网 begin 当期望起点"这一步。所以按邻域实测偏移重算期望值，不重跑对齐。
+LOCAL_SHIFT_WINDOW = 90.0
+MIN_LOCAL_SAMPLES = 3
+# 超过这个量级说明第一遍的窗口根本兜不住（RSS 插播广告是 +25~+97 秒），
+# 实测值也不可信，仍然整集拒绝。
+MAX_LOCAL_SHIFT = 15.0
+
 # 未完成的 sidecar 最多自动重试次数；超过即放弃，避免确定性失败每轮重跑。
 MAX_ATTEMPTS = 2
 
@@ -390,18 +400,54 @@ def percentile(values, q):
     return values[min(len(values) - 1, int(len(values) * q))]
 
 
+def local_shifts(cues, results):
+    """每个 cue 的本地平移：所在对齐组的实测首词偏移中位数。
+
+    以组为单位而不是以单句为单位，是因为段界的几秒差正好落在组与组之间：
+    按单句取邻域中位数会把跨界的相邻两句分到不同阶梯，两句都判错。
+    组内不足 MIN_LOCAL_SAMPLES 句时，借用时间最近的已知组。
+    """
+
+    speech = [c for c in cues if not BRACKET.match(c["text"])]
+    shifts = {}
+    known = []
+    for group in group_cues(speech):
+        offsets = sorted(results[c["i"]]["words"][0][1] - c["start"]
+                         for c in group if c["i"] in results)
+        if len(offsets) < MIN_LOCAL_SAMPLES:
+            continue
+        shift = percentile(offsets, .5)
+        known.append((group[0]["start"], shift))
+        for cue in group:
+            shifts[cue["i"]] = shift
+
+    if not known:
+        return {}
+    for cue in speech:
+        if cue["i"] in shifts:
+            continue
+        anchor = min(known, key=lambda item: abs(item[0] - cue["start"]))
+        if abs(anchor[0] - cue["start"]) <= 2 * LOCAL_SHIFT_WINDOW:
+            shifts[cue["i"]] = anchor[1]
+    return shifts
+
+
 # ============================================================
 # 写 sidecar
 # ============================================================
 
 
-def plausible_words(cue, next_start, words):
-    """词集与词位置是否可信；不可信时调用方丢弃逐词而不是写错的数据。"""
+def plausible_words(cue, next_start, words, expected=None):
+    """词集与词位置是否可信；不可信时调用方丢弃逐词而不是写错的数据。
+
+    expected 是本地平移后的期望起点（母带与稿件在段界处有几秒差），
+    缺省退回官网 begin。
+    """
 
     if not words:
         return False
 
-    cue_start = cue["start"]
+    cue_start = cue["start"] if expected is None else expected
     first = words[0][1]
     last = words[-1][2]
 
@@ -427,16 +473,20 @@ def plausible_words(cue, next_start, words):
     return True
 
 
-def build_segments(cues, results):
+def build_segments(cues, results, shifts=None):
     """返回 (segments, dropped)；dropped 只统计有词但被判定不可信的 cue。"""
 
+    shifts = shifts or {}
     segments = []
     dropped = 0
     for index, cue in enumerate(cues):
         aligned = results.get(cue["i"])
         words = aligned["words"] if aligned else []
-        next_start = cues[index + 1]["start"] if index + 1 < len(cues) else None
-        if words and not plausible_words(cue, next_start, words):
+        expected = cue["start"] + shifts.get(cue["i"], 0.0)
+        next_cue = cues[index + 1] if index + 1 < len(cues) else None
+        next_start = (next_cue["start"] + shifts.get(next_cue["i"], 0.0)
+                      if next_cue is not None else None)
+        if words and not plausible_words(cue, next_start, words, expected):
             words = []
             dropped += 1
         start_ms = int(round(cue["start"] * 1000))
@@ -714,7 +764,31 @@ def run_episode(model, session, source, args, workdir, tag=""):
         log(f"{tag}  worst: " + ", ".join(
             f"cue{i}@{human(t)} {e:+.1f}s" for i, t, e in worst))
 
-    median_abs = percentile([abs(e) for e in begin_errors], 0.5) if begin_errors else float("nan")
+    # 母带与稿件在段界处有几秒差，先按邻域实测偏移重算期望起点，
+    # 再看残差是"对齐不稳"还是"官网 begin 不准"。
+    shifts = local_shifts(cues, results)
+    residuals = [
+        results[c["i"]]["words"][0][1] - (c["start"] + shifts.get(c["i"], 0.0))
+        for c in cues if c["i"] in results
+    ]
+    median_abs = percentile([abs(e) for e in residuals], 0.5) if residuals else float("nan")
+    raw_median = percentile([abs(e) for e in begin_errors], 0.5) if begin_errors else float("nan")
+    worst_shift = max((abs(v) for v in shifts.values()), default=0.0)
+
+    if shifts and (median_abs > AUDIO_MISMATCH_SECONDS or worst_shift > MAX_LOCAL_SHIFT):
+        log(f"{tag}#{episode} 局部平移 {min(shifts.values()):+.1f}s…{max(shifts.values()):+.1f}s "
+            f"（原始中位 {raw_median:.1f}s → 校正后 {median_abs:.1f}s）")
+    if worst_shift > MAX_LOCAL_SHIFT:
+        # 窗口余量兜不住这么大的偏移，实测的平移本身也不可信（多见于 RSS 插播音频）。
+        write_document(out_path, episode, audio_seconds, [], attempts,
+                       rejected="audio_mismatch")
+        if args.audio is None:
+            audio_path.unlink(missing_ok=True)
+        log(
+            f"{tag}#{episode} REJECT audio mismatch: 局部平移 {worst_shift:.1f}s "
+            f"> {MAX_LOCAL_SHIFT:.0f}s, ok={len(results)}/{len(cues) - skipped}"
+        )
+        return 1
     if median_abs > AUDIO_MISMATCH_SECONDS:
         # 宁可这一集不做，也不要把整体错位的时间轴写进仓库。
         # 空 sidecar 标上原因即终局：同一份母带重跑必然同样拒绝。
@@ -723,15 +797,16 @@ def run_episode(model, session, source, args, workdir, tag=""):
         if args.audio is None:
             audio_path.unlink(missing_ok=True)
         log(
-            f"{tag}#{episode} REJECT audio mismatch: median|begin_err|={median_abs:.1f}s "
+            f"{tag}#{episode} REJECT audio mismatch: median|residual|={median_abs:.1f}s "
             f"> {AUDIO_MISMATCH_SECONDS:.0f}s, ok={len(results)}/{len(cues) - skipped}"
         )
         return 1
 
-    segments, dropped = build_segments(cues, results)
+    segments, dropped = build_segments(cues, results, shifts)
 
     if results and dropped > 0.10 * len(results):
-        # 丢弃率过高说明整集对齐不稳（多半是阶梯偏移漏过 3 秒阈值），
+        # 局部平移已经扣掉段界处的几秒差，仍有这么多句对不上，
+        # 说明是内容真的不一致（重剪、垫乐段落），不交半对半错的数据。
         # 不交半对半错的数据；空 sidecar 标上原因即终局，不再重跑一遍同样的对齐。
         write_document(out_path, episode, audio_seconds, [], attempts,
                        rejected="high_drop_rate")
@@ -761,6 +836,8 @@ def run_episode(model, session, source, args, workdir, tag=""):
         f"decode={decode_seconds:.0f}s align={align_seconds:.0f}s "
         f"({audio_seconds / max(align_seconds, 1e-6):.2f}sec/s) "
         f"begin_err_p50={percentile(begin_errors, .5):+.2f}s "
+        f"shift={min(shifts.values(), default=0.0):+.1f}/{max(shifts.values(), default=0.0):+.1f}s "
+        f"resid_p50={median_abs:.2f}s "
         f"end_saved={end_saved:.0f}s dropped={dropped} "
         f"complete={complete} attempt={attempts}/{MAX_ATTEMPTS} -> {shown}"
     )
