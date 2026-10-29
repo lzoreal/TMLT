@@ -323,6 +323,10 @@ def align_group(model, audio, group, total_seconds, shift=0.0):
         c["start"] + cue_span(c) for c in group
     ) + shift + TAIL_PAD)
     clip = audio[int(lo * SR): int(hi * SR)]
+    # 夹到片尾/平移过头时会切出空片段，交给 FFmpeg 只会抛
+    # RuntimeError: FFmpeg failed to read "[]"，按"这句没对上"处理。
+    if clip.size == 0:
+        return {}
     text_block = "\n".join(c["text"] for c in group)
     aligned = model.align(clip, text_block, language="en", original_split=True)
 
