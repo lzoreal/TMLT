@@ -401,15 +401,20 @@ def percentile(values, q):
 
 
 def local_shifts(cues, results):
-    """每个 cue 的本地平移：所在对齐组的实测首词偏移中位数。
+    """返回 (shifts, untrusted)：每个 cue 的本地平移，以及实测不可信的 cue。
 
     以组为单位而不是以单句为单位，是因为段界的几秒差正好落在组与组之间：
     按单句取邻域中位数会把跨界的相邻两句分到不同阶梯，两句都判错。
     组内不足 MIN_LOCAL_SAMPLES 句时，借用时间最近的已知组。
+
+    某组实测平移超过 MAX_LOCAL_SHIFT，说明第一遍窗口兜不住（RSS 插播是
+    +25~+97 秒），这一组的 cue 不借任何平移、直接按不可信丢弃；
+    整集是否还能用，交给丢弃率和残差去判。
     """
 
     speech = [c for c in cues if not BRACKET.match(c["text"])]
     shifts = {}
+    untrusted = set()
     known = []
     for group in group_cues(speech):
         offsets = sorted(results[c["i"]]["words"][0][1] - c["start"]
@@ -417,19 +422,20 @@ def local_shifts(cues, results):
         if len(offsets) < MIN_LOCAL_SAMPLES:
             continue
         shift = percentile(offsets, .5)
+        if abs(shift) > MAX_LOCAL_SHIFT:
+            untrusted.update(c["i"] for c in group)
+            continue
         known.append((group[0]["start"], shift))
         for cue in group:
             shifts[cue["i"]] = shift
 
-    if not known:
-        return {}
     for cue in speech:
-        if cue["i"] in shifts:
+        if cue["i"] in shifts or cue["i"] in untrusted or not known:
             continue
         anchor = min(known, key=lambda item: abs(item[0] - cue["start"]))
         if abs(anchor[0] - cue["start"]) <= 2 * LOCAL_SHIFT_WINDOW:
             shifts[cue["i"]] = anchor[1]
-    return shifts
+    return shifts, untrusted
 
 
 # ============================================================
@@ -764,31 +770,22 @@ def run_episode(model, session, source, args, workdir, tag=""):
         log(f"{tag}  worst: " + ", ".join(
             f"cue{i}@{human(t)} {e:+.1f}s" for i, t, e in worst))
 
-    # 母带与稿件在段界处有几秒差，先按邻域实测偏移重算期望起点，
+    # 母带与稿件在段界处有几秒差，先按对齐组实测偏移重算期望起点，
     # 再看残差是"对齐不稳"还是"官网 begin 不准"。
-    shifts = local_shifts(cues, results)
+    shifts, untrusted = local_shifts(cues, results)
     residuals = [
         results[c["i"]]["words"][0][1] - (c["start"] + shifts.get(c["i"], 0.0))
         for c in cues if c["i"] in results
     ]
     median_abs = percentile([abs(e) for e in residuals], 0.5) if residuals else float("nan")
     raw_median = percentile([abs(e) for e in begin_errors], 0.5) if begin_errors else float("nan")
-    worst_shift = max((abs(v) for v in shifts.values()), default=0.0)
 
-    if shifts and (median_abs > AUDIO_MISMATCH_SECONDS or worst_shift > MAX_LOCAL_SHIFT):
+    if shifts and median_abs > AUDIO_MISMATCH_SECONDS:
         log(f"{tag}#{episode} 局部平移 {min(shifts.values()):+.1f}s…{max(shifts.values()):+.1f}s "
             f"（原始中位 {raw_median:.1f}s → 校正后 {median_abs:.1f}s）")
-    if worst_shift > MAX_LOCAL_SHIFT:
-        # 窗口余量兜不住这么大的偏移，实测的平移本身也不可信（多见于 RSS 插播音频）。
-        write_document(out_path, episode, audio_seconds, [], attempts,
-                       rejected="audio_mismatch")
-        if args.audio is None:
-            audio_path.unlink(missing_ok=True)
-        log(
-            f"{tag}#{episode} REJECT audio mismatch: 局部平移 {worst_shift:.1f}s "
-            f"> {MAX_LOCAL_SHIFT:.0f}s, ok={len(results)}/{len(cues) - skipped}"
-        )
-        return 1
+    if untrusted:
+        log(f"{tag}#{episode} {len(untrusted)} 句所在组实测平移超 {MAX_LOCAL_SHIFT:.0f}s，"
+            "按不可信丢弃")
     if median_abs > AUDIO_MISMATCH_SECONDS:
         # 宁可这一集不做，也不要把整体错位的时间轴写进仓库。
         # 空 sidecar 标上原因即终局：同一份母带重跑必然同样拒绝。
