@@ -46,6 +46,10 @@ on:
         description: "诊断：只跑 ASR 定位并打印覆盖率与偏移分布（不对齐、不写结果）"
         type: boolean
         default: false
+      rescue:
+        description: "第二轮恢复：定位后对没对上的组用邻句平移做多候选重试（额外对齐成本）"
+        type: boolean
+        default: false
 
   # 全量跑批自动接续：有剩余集就继续，跑完就空跑退出。
   # 间隔必须远小于单轮时长（一轮约 5.9h）：concurrency 组只留一个排队 run，
@@ -291,7 +295,8 @@ jobs:
               --offset-probe "$PROBE" \
               ${{ inputs.force && '--force' || '' }} \
               ${{ inputs.locate && '--locate-first' || '' }} \
-              ${{ inputs.locate_only && '--locate-only' || '' }} 2>&1 | tee "$run_log" \
+              ${{ inputs.locate_only && '--locate-only' || '' }} \
+              ${{ inputs.rescue && '--rescue' || '' }} 2>&1 | tee "$run_log" \
               || echo "chunk exited non-zero, committing what exists"
             attempted=$(sed -n 's/^run_summary attempted=\([0-9]*\).*/\1/p' "$run_log" | tail -1)
             left=$(sed -n 's/^run_summary attempted=[0-9]* left=\([0-9]*\).*/\1/p' "$run_log" | tail -1)

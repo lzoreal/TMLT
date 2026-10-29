@@ -570,6 +570,71 @@ def realign_shifted(model, audio, cues, total_seconds, results, shifts,
     return redone
 
 
+def _group_hits(group, aligned, shift):
+    """这一组在给定平移下能对上几句（按组内共同平移判断合理带）。"""
+
+    hits = 0
+    for pos, cue in enumerate(group):
+        words = (aligned.get(cue["i"]) or {}).get("words") or []
+        next_start = (group[pos + 1]["start"] + shift) if pos + 1 < len(group) else None
+        if words and plausible_words(cue, next_start, words, cue["start"] + shift):
+            hits += 1
+    return hits
+
+
+def rescue_groups(model, audio, cues, total_seconds, results, shifts, tries=3):
+    """对没对上的组，用邻句实测到的平移做多候选重试，取对上最多句的一版。
+
+    定位覆盖率 56-75% 时，没定位到的句沿用最近邻组的平移；如果那股偏差在段界
+    换过一次，这些句就会整组对不上（实测 #69/#74/#192 都卡在丢弃 11.6-11.7%，
+    只比 10% 线高一点点）。这里只对失败的组重试，候选值来自附近已经对上的句，
+    所以不会把窗口挪到没有依据的位置。
+    """
+
+    speech = [c for c in cues if not BRACKET.match(c["text"])]
+    good = []
+    for index, cue in enumerate(cues):
+        aligned = results.get(cue["i"])
+        if not aligned:
+            continue
+        next_cue = cues[index + 1] if index + 1 < len(cues) else None
+        next_start = (next_cue["start"] + shifts.get(next_cue["i"], 0.0)
+                      if next_cue is not None else None)
+        if plausible_words(cue, next_start, aligned["words"],
+                           cue["start"] + shifts.get(cue["i"], 0.0)):
+            good.append((cue["start"], shifts.get(cue["i"], 0.0)))
+    if not good:
+        return 0
+
+    redone = 0
+    for group in group_cues(speech):
+        base = shifts.get(group[0]["i"], 0.0)
+        current = _group_hits(group, results, base)
+        if current == len(group):
+            continue
+        candidates = [base]
+        for _, value in sorted(good, key=lambda item: abs(item[0] - group[0]["start"])):
+            if all(abs(value - seen) > 1.0 for seen in candidates):
+                candidates.append(value)
+            if len(candidates) > tries:
+                break
+        best = (current, None, base)
+        for shift in candidates[1:]:
+            try:
+                aligned = align_group(model, audio, group, total_seconds, shift)
+            except Exception:
+                continue
+            hits = _group_hits(group, aligned, shift)
+            if hits > best[0]:
+                best = (hits, aligned, shift)
+        if best[1] is not None:
+            results.update(best[1])
+            for cue in group:
+                shifts[cue["i"]] = best[2]
+            redone += 1
+    return redone
+
+
 def judge(cues, results, shifts):
     """按平移重算残差、写 segments；返回 (残差中位, segments, dropped)。"""
 
@@ -988,6 +1053,17 @@ def run_episode(model, session, source, args, workdir, tag=""):
         else:
             log(f"{tag}#{episode} ASR 定位覆盖率 {coverage:.0%}，不足 60%，不重锚")
 
+    # 第二轮恢复：定位之后仍有一小撮句对不上（实测 #69/#74/#192 卡在 11.6-11.7%），
+    # 用邻句实测到的平移做多候选重试。只重跑失败的组，不扩大搜索范围。
+    if (args.rescue and shifts and results
+            and dropped > 0.10 * len(results)
+            and median_abs <= AUDIO_MISMATCH_SECONDS):
+        rescued = rescue_groups(model, audio, cues, audio_seconds, results, shifts)
+        if rescued:
+            median_abs, segments, dropped = judge(cues, results, shifts)
+            log(f"{tag}#{episode} 多候选重试 {rescued} 组 → "
+                f"残差中位 {median_abs:.1f}s，丢弃 {dropped}/{len(results)}")
+
     if median_abs > AUDIO_MISMATCH_SECONDS:
         # 宁可这一集不做，也不要把整体错位的时间轴写进仓库。
         # 空 sidecar 标上原因即终局：同一份母带重跑必然同样拒绝。
@@ -1083,6 +1159,10 @@ def main():
     parser.add_argument(
         "--locate-only", action="store_true",
         help="诊断：只跑 ASR 定位并打印覆盖率与偏移分布，不对齐、不写 sidecar",
+    )
+    parser.add_argument(
+        "--rescue", action="store_true",
+        help="定位对齐后，对没对上的组用邻句平移做多候选重试（第二轮恢复用）",
     )
     parser.add_argument(
         "--allow-rss-audio",
