@@ -44,7 +44,9 @@ on:
     - cron: "0 * * * *"
 
 concurrency:
-  group: tmlt-align
+  # 探针是只读诊断，另开一组：否则它排进 tmlt-align 队列后，
+  # 会被下一小时的 schedule 顶掉（同组里待起的 run 会被新 run 取代）。
+  group: tmlt-align${{ (inputs.probe || '0') != '0' && '-probe' || '' }}
   cancel-in-progress: false
 
 permissions:
