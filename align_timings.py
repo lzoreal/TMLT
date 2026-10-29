@@ -455,10 +455,12 @@ def local_shifts(cues, results):
 # ============================================================
 
 
-def locate_cues(model, audio, cues, prefix=6, threshold=0.6, slack=3000):
+def locate_cues(model, audio, cues, min_ratio=0.5, window=400, max_window=3000):
     """整集粗 ASR 一遍，把每句校对稿按词元匹配钉到真实位置。
 
     只用来定位：ASR 自己的文字不参与输出，校对稿一个字节都不改。
+    匹配用 difflib 找"最长公共片段"，比逐词前缀相等宽容——ASR 与校对稿常在
+    数字、缩写、口语写法上不一致，逐词全等只能匹配到 43%（实测 #192）。
     返回 (anchors, 覆盖率)：anchors 是 {cue 序号: 该句首词的真实起点}。
     """
 
@@ -473,25 +475,35 @@ def locate_cues(model, audio, cues, prefix=6, threshold=0.6, slack=3000):
         return {}, 0.0
     log(f"    ASR 定位：{len(tokens)} 词，用时 {time.time() - started:.0f}s")
 
+    import difflib
+
     anchors = {}
     pointer = 0
     for cue in cues:
         wanted = WORD_TOKEN.findall(cue["text"].lower())
         if not wanted:
             continue
-        probe = wanted[:prefix]
         best_score, best_pos = 0.0, None
-        limit = min(len(tokens), pointer + slack)
-        for pos in range(pointer, max(pointer, limit - len(probe) + 1)):
-            score = sum(1 for k, token in enumerate(probe)
-                        if tokens[pos + k][0] == token) / len(probe)
+        for size in (window, max_window):
+            end = min(len(tokens), pointer + size)
+            if end <= pointer:
+                break
+            asr = [token for token, _ in tokens[pointer:end]]
+            matcher = difflib.SequenceMatcher(None, wanted, asr, autojunk=False)
+            blocks = [b for b in matcher.get_matching_blocks() if b.size >= 3]
+            if not blocks:
+                continue
+            block = max(blocks, key=lambda b: b.size)
+            score = block.size / len(wanted)
             if score > best_score:
-                best_score, best_pos = score, pos
-                if score == 1.0:
-                    break
-        if best_pos is not None and best_score >= threshold:
+                # 命中段之前的词按每词 0.4 秒倒推，首词位置才能对上
+                start = pointer + block.b - block.a
+                best_score, best_pos = score, max(pointer, start)
+            if best_score >= 0.7:
+                break
+        if best_pos is not None and best_score >= min_ratio:
             anchors[cue["i"]] = tokens[best_pos][1]
-            pointer = best_pos + 1
+            pointer = best_pos
 
     sought = sum(1 for c in cues if WORD_TOKEN.search(c["text"].lower()))
     coverage = len(anchors) / sought if sought else 0.0
@@ -772,6 +784,38 @@ def probe_episode(model, session, source, args, workdir, tag=""):
         audio_path.unlink(missing_ok=True)
 
 
+def locate_only(model, session, source, args, workdir, tag=""):
+    """诊断：只做整集 ASR 定位并打印覆盖率与偏移分布，不对齐、不写 sidecar。"""
+
+    episode = source["id"]
+    cues = parse_vtt(TRANSCRIPT_DIR / f"{episode}.vtt")
+    if not cues:
+        log(f"{tag}#{episode} 稿件为空")
+        return
+
+    if args.audio:
+        audio_path = Path(args.audio)
+    else:
+        audio_path = workdir / f"{episode}_archive.mp3"
+        if not audio_path.exists():
+            source_url = resolve_archive(session, episode)
+            if source_url is None:
+                log(f"{tag}#{episode} 取不到 archive")
+                return
+            download(session, source_url, audio_path)
+
+    audio = decode_audio(audio_path)
+    anchors, coverage = locate_cues(model, audio, cues)
+    offsets = sorted(anchors[c["i"]] - c["start"] for c in cues if c["i"] in anchors)
+    if offsets:
+        far = sum(1 for v in offsets if abs(v) > MAX_LOCAL_SHIFT)
+        log(f"{tag}#{episode} 覆盖 {coverage:.0%}，偏移 p10={percentile(offsets, .1):+.1f}s "
+            f"p50={percentile(offsets, .5):+.1f}s p90={percentile(offsets, .9):+.1f}s "
+            f"范围 {offsets[0]:+.1f}…{offsets[-1]:+.1f}s，超 {MAX_LOCAL_SHIFT:.0f}s 的 {far} 句")
+    if args.audio is None:
+        audio_path.unlink(missing_ok=True)
+
+
 def run_episode(model, session, source, args, workdir, tag=""):
     episode = source["id"]
     vtt_path = TRANSCRIPT_DIR / f"{episode}.vtt"
@@ -998,6 +1042,10 @@ def main():
         help="先整集粗 ASR 定位每句的真实位置，再按定位切窗对齐（恢复被拒集用）",
     )
     parser.add_argument(
+        "--locate-only", action="store_true",
+        help="诊断：只跑 ASR 定位并打印覆盖率与偏移分布，不对齐、不写 sidecar",
+    )
+    parser.add_argument(
         "--allow-rss-audio",
         action="store_true",
         help="archive 取不到时回退 RSS 音频（默认跳过：RSS 音频按地区插播，会写坏时间轴）",
@@ -1095,6 +1143,10 @@ def main():
         tag = f"[{position:>3}/{shard_total} {100 * position / shard_total:3.0f}% eta " \
               f"{'--' if done == 0 else human(eta)}] "
         try:
+            if args.locate_only:
+                locate_only(model, session, sources[episode], args, workdir, tag)
+                done += 1
+                continue
             if args.offset_probe:
                 probe_episode(model, session, sources[episode], args, workdir, tag)
                 done += 1
@@ -1110,8 +1162,8 @@ def main():
         persist_progress(args.out / f"{episode}.json", episode)
         done += 1
 
-    # 探针不写 sidecar，pending 永远不会降；报 left=0 让分段循环收尾。
-    left = 0 if args.offset_probe else total - done
+    # 探针/定位不写 sidecar，pending 永远不会降；报 left=0 让分段循环收尾。
+    left = 0 if (args.offset_probe or args.locate_only) else total - done
     log(f"run_summary attempted={done} left={left}")
     log(f"done {done}/{total} episodes, {failures} with failures, "
         f"elapsed {human(time.time() - started)}")
