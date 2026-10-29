@@ -73,6 +73,8 @@ USER_AGENT = (
 )
 
 BRACKET = re.compile(r"^\s*\[.*\]\s*$", re.DOTALL)
+# 定位用的词元：小写字母数字加撇号，标点不参与匹配。
+WORD_TOKEN = re.compile(r"[a-z0-9']+")
 TIMESTAMP = re.compile(
     r"^(\d{2,}):(\d{2}):(\d{2})\.(\d{3})\s*-->\s*(\d{2,}):(\d{2}):(\d{2})\.(\d{3})"
 )
@@ -303,14 +305,18 @@ def group_cues(cues):
     return groups
 
 
-def align_group(model, audio, group, total_seconds):
-    """对一个 cue 组切窗、对齐，返回 {cue 序号: {"words": [...]}}；窗口按官网 begin。"""
+def align_group(model, audio, group, total_seconds, shift=0.0):
+    """对一个 cue 组切窗、对齐，返回 {cue 序号: {"words": [...]}}。
 
-    lo = max(0.0, group[0]["start"] - PAD)
+    shift 是这一组相对官网 begin 的实测位移：母带与稿件在段界处有几秒差，
+    窗口和合理带都要跟着挪，否则 DTW 会对着错误的音频硬贴。
+    """
+
+    lo = max(0.0, group[0]["start"] + shift - PAD)
     # 不能只看最后一句：cue 时序会重叠，前一句的长台词可能延伸到后面。
     hi = min(total_seconds, max(
         c["start"] + cue_span(c) for c in group
-    ) + TAIL_PAD)
+    ) + shift + TAIL_PAD)
     clip = audio[int(lo * SR): int(hi * SR)]
     text_block = "\n".join(c["text"] for c in group)
     aligned = model.align(clip, text_block, language="en", original_split=True)
@@ -330,9 +336,10 @@ def align_group(model, audio, group, total_seconds):
     return results
 
 
-def align_episode(model, audio, cues, total_seconds):
+def align_episode(model, audio, cues, total_seconds, shifts=None):
     """返回 {cue 序号: {"begin": 秒, "end": 秒, "words": [...]}}；非语音 cue 不出现。"""
 
+    shifts = shifts or {}
     speech = [c for c in cues if not BRACKET.match(c["text"])]
     skipped = len(cues) - len(speech)
     results = {}
@@ -340,7 +347,8 @@ def align_episode(model, audio, cues, total_seconds):
 
     for group in group_cues(speech):
         try:
-            aligned = align_group(model, audio, group, total_seconds)
+            aligned = align_group(model, audio, group, total_seconds,
+                                  shifts.get(group[0]["i"], 0.0))
         except Exception as exc:
             failures += len(group)
             log(f"    align failed on cue {group[0]['i']}-{group[-1]['i']}: "
@@ -445,6 +453,85 @@ def local_shifts(cues, results):
 # ============================================================
 # 写 sidecar
 # ============================================================
+
+
+def locate_cues(model, audio, cues, prefix=6, threshold=0.6, slack=3000):
+    """整集粗 ASR 一遍，把每句校对稿按词元匹配钉到真实位置。
+
+    只用来定位：ASR 自己的文字不参与输出，校对稿一个字节都不改。
+    返回 (anchors, 覆盖率)：anchors 是 {cue 序号: 该句首词的真实起点}。
+    """
+
+    started = time.time()
+    result = model.transcribe(audio, language="en", word_timestamps=True)
+    tokens = []
+    for segment in result.segments:
+        for word in segment.words or []:
+            for token in WORD_TOKEN.findall(word.word.lower()):
+                tokens.append((token, float(word.start)))
+    if not tokens:
+        return {}, 0.0
+    log(f"    ASR 定位：{len(tokens)} 词，用时 {time.time() - started:.0f}s")
+
+    anchors = {}
+    pointer = 0
+    for cue in cues:
+        wanted = WORD_TOKEN.findall(cue["text"].lower())
+        if not wanted:
+            continue
+        probe = wanted[:prefix]
+        best_score, best_pos = 0.0, None
+        limit = min(len(tokens), pointer + slack)
+        for pos in range(pointer, max(pointer, limit - len(probe) + 1)):
+            score = sum(1 for k, token in enumerate(probe)
+                        if tokens[pos + k][0] == token) / len(probe)
+            if score > best_score:
+                best_score, best_pos = score, pos
+                if score == 1.0:
+                    break
+        if best_pos is not None and best_score >= threshold:
+            anchors[cue["i"]] = tokens[best_pos][1]
+            pointer = best_pos + 1
+
+    sought = sum(1 for c in cues if WORD_TOKEN.search(c["text"].lower()))
+    coverage = len(anchors) / sought if sought else 0.0
+    log(f"    ASR 定位：{len(anchors)}/{sought} 句匹配成功（{coverage:.0%}），"
+        f"总用时 {time.time() - started:.0f}s")
+    return anchors, coverage
+
+
+def realign_shifted(model, audio, cues, total_seconds, results, shifts,
+                    min_shift=2.0):
+    """按定位出的位移重切窗口，只重跑位移明显的组；返回重跑的组数。"""
+
+    speech = [c for c in cues if not BRACKET.match(c["text"])]
+    redone = 0
+    for group in group_cues(speech):
+        shift = shifts.get(group[0]["i"], 0.0)
+        if abs(shift) < min_shift or abs(shift) > MAX_LOCAL_SHIFT:
+            continue
+        try:
+            aligned = align_group(model, audio, group, total_seconds, shift)
+        except Exception as exc:
+            log(f"    realign failed on cue {group[0]['i']}: {type(exc).__name__}")
+            continue
+        for cue in group:
+            if cue["i"] in aligned:
+                results[cue["i"]] = aligned[cue["i"]]
+        redone += 1
+    return redone
+
+
+def judge(cues, results, shifts):
+    """按平移重算残差、写 segments；返回 (残差中位, segments, dropped)。"""
+
+    residuals = [
+        results[c["i"]]["words"][0][1] - (c["start"] + shifts.get(c["i"], 0.0))
+        for c in cues if c["i"] in results
+    ]
+    median_abs = percentile([abs(e) for e in residuals], 0.5) if residuals else float("nan")
+    segments, dropped = build_segments(cues, results, shifts)
+    return median_abs, segments, dropped
 
 
 def plausible_words(cue, next_start, words, expected=None):
@@ -744,7 +831,17 @@ def run_episode(model, session, source, args, workdir, tag=""):
     decode_seconds = time.time() - started
 
     align_started = time.time()
-    results, skipped, failures = align_episode(model, audio, cues, audio_seconds)
+    located = {}
+    if args.locate_first:
+        anchors, coverage = locate_cues(model, audio, cues)
+        if coverage >= 0.6:
+            located = {c["i"]: anchors[c["i"]] - c["start"]
+                       for c in cues if c["i"] in anchors}
+            log(f"{tag}#{episode} 先定位再对齐：覆盖 {coverage:.0%}，"
+                f"平移 {min(located.values()):+.1f}…{max(located.values()):+.1f}s")
+        else:
+            log(f"{tag}#{episode} 定位覆盖率 {coverage:.0%}，退回官网时间轴")
+    results, skipped, failures = align_episode(model, audio, cues, audio_seconds, located)
     align_seconds = time.time() - align_started
 
     words = sum(len(r["words"]) for r in results.values())
@@ -774,14 +871,14 @@ def run_episode(model, session, source, args, workdir, tag=""):
         log(f"{tag}  worst: " + ", ".join(
             f"cue{i}@{human(t)} {e:+.1f}s" for i, t, e in worst))
 
-    # 母带与稿件在段界处有几秒差，先按对齐组实测偏移重算期望起点，
+    # 母带与稿件在段界处有几秒差，先按邻域实测偏移重算期望起点，
     # 再看残差是"对齐不稳"还是"官网 begin 不准"。
-    shifts, untrusted = local_shifts(cues, results)
-    residuals = [
-        results[c["i"]]["words"][0][1] - (c["start"] + shifts.get(c["i"], 0.0))
-        for c in cues if c["i"] in results
-    ]
-    median_abs = percentile([abs(e) for e in residuals], 0.5) if residuals else float("nan")
+    if located:
+        # 已经按 ASR 定位对齐过，定位结果就是期望起点，不再从残差反推。
+        shifts, untrusted = dict(located), set()
+    else:
+        shifts, untrusted = local_shifts(cues, results)
+    median_abs, segments, dropped = judge(cues, results, shifts)
     raw_median = percentile([abs(e) for e in begin_errors], 0.5) if begin_errors else float("nan")
 
     if shifts and median_abs > AUDIO_MISMATCH_SECONDS:
@@ -790,6 +887,24 @@ def run_episode(model, session, source, args, workdir, tag=""):
     if untrusted:
         log(f"{tag}#{episode} {len(untrusted)} 句所在组实测平移超 {MAX_LOCAL_SHIFT:.0f}s，"
             "按不可信丢弃")
+
+    # 第一遍按官网时间轴 + 邻域平移仍判不过：整集粗 ASR 一遍，把每句钉到真实位置，
+    # 再按定位出的位移重切窗口。ASR 的文字不参与输出，校对稿一个字节都不改。
+    if (not located
+            and (median_abs > AUDIO_MISMATCH_SECONDS
+                 or (results and dropped > 0.10 * len(results)))):
+        anchors, coverage = locate_cues(model, audio, cues)
+        if coverage >= 0.6:
+            located = {c["i"]: anchors[c["i"]] - c["start"]
+                       for c in cues if c["i"] in anchors}
+            redone = realign_shifted(model, audio, cues, audio_seconds, results, located)
+            shifts = {**shifts, **located}
+            median_abs, segments, dropped = judge(cues, results, shifts)
+            log(f"{tag}#{episode} 按定位重锚：重跑 {redone} 组，残差中位 {median_abs:.1f}s，"
+                f"丢弃 {dropped}/{len(results)}")
+        else:
+            log(f"{tag}#{episode} ASR 定位覆盖率 {coverage:.0%}，不足 60%，不重锚")
+
     if median_abs > AUDIO_MISMATCH_SECONDS:
         # 宁可这一集不做，也不要把整体错位的时间轴写进仓库。
         # 空 sidecar 标上原因即终局：同一份母带重跑必然同样拒绝。
@@ -803,12 +918,9 @@ def run_episode(model, session, source, args, workdir, tag=""):
         )
         return 1
 
-    segments, dropped = build_segments(cues, results, shifts)
-
     if results and dropped > 0.10 * len(results):
-        # 局部平移已经扣掉段界处的几秒差，仍有这么多句对不上，
-        # 说明是内容真的不一致（重剪、垫乐段落），不交半对半错的数据。
-        # 不交半对半错的数据；空 sidecar 标上原因即终局，不再重跑一遍同样的对齐。
+        # 定位之后仍有这么多句对不上，说明内容真的不一致（重剪、垫乐段落），
+        # 不交半对半错的数据；空 sidecar 标上原因即终局。
         write_document(out_path, episode, audio_seconds, [], attempts,
                        rejected="high_drop_rate")
         if args.audio is None:
@@ -880,6 +992,10 @@ def main():
     parser.add_argument(
         "--offset-probe", type=int, default=0, metavar="N",
         help="诊断：每集只采样对齐 N 段并打印偏移曲线，不写 sidecar、不提交",
+    )
+    parser.add_argument(
+        "--locate-first", action="store_true",
+        help="先整集粗 ASR 定位每句的真实位置，再按定位切窗对齐（恢复被拒集用）",
     )
     parser.add_argument(
         "--allow-rss-audio",
