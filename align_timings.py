@@ -464,7 +464,7 @@ def local_shifts(cues, results):
 # ============================================================
 
 
-def match_cues(tokens, cues, min_ratio=0.5, window=400, max_window=3000):
+def match_cues(tokens, cues, block_ratio=0.35, window=400, max_window=3000):
     """把每句校对稿按词元匹配钉到 ASR 词流里的真实位置。
 
     tokens 是 [(词元, 起点秒)]；只做匹配，不碰音频，便于拿缓存的词流离线迭代。
@@ -495,7 +495,7 @@ def match_cues(tokens, cues, min_ratio=0.5, window=400, max_window=3000):
             if not blocks:
                 continue
             block = max(blocks, key=lambda b: b.size)
-            if block.size < max(3, int(round(0.35 * len(wanted)))):
+            if block.size < max(3, int(round(block_ratio * len(wanted)))):
                 continue
             score = block.size / len(wanted)
             if score > best_score:
@@ -509,7 +509,10 @@ def match_cues(tokens, cues, min_ratio=0.5, window=400, max_window=3000):
                 best_score, best_pos = score, max(pointer, start)
             if best_score >= 0.7:
                 break
-        if best_pos is not None and best_score >= min_ratio:
+        # 只留一道门：连续 ≥3 词且覆盖整句 ≥35% 就算定位成功。
+        # 之前外层还有 score ≥ 0.5 的第二道门，长句连续片段 48% 会被它挡掉，
+        # 三集实测把能救回的 58/50 句拦在门外（覆盖率 68/61/64% → 83/71/72%）。
+        if best_pos is not None:
             anchors[cue["i"]] = tokens[best_pos][1]
             pointer = best_pos
 
@@ -664,15 +667,11 @@ def judge(cues, results, shifts):
     return median_abs, segments, dropped
 
 
-def plausible_words(cue, next_start, words, expected=None):
-    """词集与词位置是否可信；不可信时调用方丢弃逐词而不是写错的数据。
-
-    expected 是本地平移后的期望起点（母带与稿件在段界处有几秒差），
-    缺省退回官网 begin。
-    """
+def plausible_reason(cue, next_start, words, expected=None):
+    """返回空串表示可信，否则返回失败原因代码（便于逐句取证）。"""
 
     if not words:
-        return False
+        return "no-words"
 
     cue_start = cue["start"] if expected is None else expected
     first = words[0][1]
@@ -680,24 +679,55 @@ def plausible_words(cue, next_start, words, expected=None):
 
     # 整句被压成 instant，或末词落在窗口截断点，都没有可用的逐词信息。
     if last - first <= 0:
-        return False
+        return "instant"
     if words[-1][2] - words[-1][1] <= 0:
-        return False
+        return "zero-last"
     # 对齐是库对给定文本做的；词表一旦和原文不一致（常见为重复末词），整句不可信。
     if [w[0] for w in words] != cue["text"].split():
-        return False
+        return "word-mismatch"
     if last < cue_start + 0.2:
-        return False
+        return "before-start"
     if first < cue_start - MAX_EARLY:
-        return False
+        return "too-early"
     if first > cue_start + MAX_EARLY:
-        return False
+        return "too-late"
     if next_start is not None:
         if first > next_start + 0.5:
-            return False
+            return "after-next"
         if last > next_start + MAX_LATE:
-            return False
-    return True
+            return "over-next"
+    return ""
+
+
+def plausible_words(cue, next_start, words, expected=None):
+    """词集与词位置是否可信；不可信时调用方丢弃逐词而不是写错的数据。
+
+    expected 是本地平移后的期望起点（母带与稿件在段界处有几秒差），
+    缺省退回官网 begin。
+    """
+
+    return not plausible_reason(cue, next_start, words, expected)
+
+
+def dump_cues(path, cues, results, shifts):
+    """逐句落盘：官网起点、期望起点、对齐首词/末词、失败原因。"""
+
+    shifts = shifts or {}
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write("i\tsite\texpected\tfirst\tlast\twords\treason\ttext\n")
+        for index, cue in enumerate(cues):
+            aligned = results.get(cue["i"])
+            words = aligned["words"] if aligned else []
+            expected = cue["start"] + shifts.get(cue["i"], 0.0)
+            next_cue = cues[index + 1] if index + 1 < len(cues) else None
+            next_start = (next_cue["start"] + shifts.get(next_cue["i"], 0.0)
+                          if next_cue is not None else None)
+            reason = plausible_reason(cue, next_start, words, expected)
+            first = f"{words[0][1]:.2f}" if words else ""
+            last = f"{words[-1][2]:.2f}" if words else ""
+            text = cue["text"].replace("\t", " ").replace("\n", " ")
+            fh.write(f"{cue['i']}\t{cue['start']:.2f}\t{expected:.2f}\t{first}\t{last}\t"
+                     f"{len(words)}\t{reason}\t{text}\n")
 
 
 def build_segments(cues, results, shifts=None):
@@ -1104,6 +1134,9 @@ def run_episode(model, session, source, args, workdir, tag=""):
         log(f"{tag}#{episode} REJECT per-cue: {dropped}/{len(results)} cues implausible")
         return 1
 
+    if args.dump_cues:
+        dump_cues(args.dump_cues, cues, results, shifts)
+
     # 少量缺口（交叉说话、无法对齐的标签句）重试也修不好，按整集比例判定；
     # 只有大比例失败才值得再跑一次。
     speech_total = len(cues) - skipped
@@ -1176,6 +1209,10 @@ def main():
     parser.add_argument(
         "--locate-only", action="store_true",
         help="诊断：只跑 ASR 定位并打印覆盖率与偏移分布，不对齐、不写 sidecar",
+    )
+    parser.add_argument(
+        "--dump-cues", metavar="FILE",
+        help="逐句落盘对齐诊断（官网起点/期望/首末词/失败原因），本地取证用",
     )
     parser.add_argument(
         "--rescue", action="store_true",
