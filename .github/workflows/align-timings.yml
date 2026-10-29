@@ -278,14 +278,16 @@ jobs:
               ${{ inputs.force && '--force' || '' }} 2>&1 | tee "$run_log" \
               || echo "chunk exited non-zero, committing what exists"
             attempted=$(sed -n 's/^run_summary attempted=\([0-9]*\).*/\1/p' "$run_log" | tail -1)
+            left=$(sed -n 's/^run_summary attempted=[0-9]* left=\([0-9]*\).*/\1/p' "$run_log" | tail -1)
             rm -f "$run_log"
             after=$(python3 align_timings.py --status \
               --episodes "$EP_LIST" | sed -n 's/^pending=//p')
             commit_chunk || true
             echo "chunk done: pending $before -> $after, attempted=${attempted:-0}, chunk=${chunk_min}min, total=$(( $(date +%s) - start ))s"
             # 待办清空、或这一段一集都没处理（预算/异常）就收尾；重试已有 sidecar
-            # 不新增文件，所以不能再用文件数判断。
-            if [ -z "$after" ] || [ "$after" -eq 0 ] || [ -z "$attempted" ] || [ "$attempted" -eq 0 ]; then break; fi
+            # 不新增文件，所以不能再用文件数判断。left=0 是探针模式的收尾信号。
+            if [ -z "$after" ] || [ "$after" -eq 0 ] || [ -z "$attempted" ] || [ "$attempted" -eq 0 ] \
+              || [ "${left:-x}" = "0" ]; then break; fi
           done
 
       - name: Upload partial results
