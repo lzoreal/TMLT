@@ -916,7 +916,9 @@ def main():
         persist_progress(args.out / f"{episode}.json", episode)
         done += 1
 
-    log(f"run_summary attempted={done} left={total - done}")
+    # 探针不写 sidecar，pending 永远不会降；报 left=0 让分段循环收尾。
+    left = 0 if args.offset_probe else total - done
+    log(f"run_summary attempted={done} left={left}")
     log(f"done {done}/{total} episodes, {failures} with failures, "
         f"elapsed {human(time.time() - started)}")
     return 0
