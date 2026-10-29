@@ -464,25 +464,11 @@ def local_shifts(cues, results):
 # ============================================================
 
 
-def locate_cues(model, audio, cues, min_ratio=0.5, window=400, max_window=3000):
-    """整集粗 ASR 一遍，把每句校对稿按词元匹配钉到真实位置。
+def match_cues(tokens, cues, min_ratio=0.5, window=400, max_window=3000):
+    """把每句校对稿按词元匹配钉到 ASR 词流里的真实位置。
 
-    只用来定位：ASR 自己的文字不参与输出，校对稿一个字节都不改。
-    匹配用 difflib 找"最长公共片段"，比逐词前缀相等宽容——ASR 与校对稿常在
-    数字、缩写、口语写法上不一致，逐词全等只能匹配到 43%（实测 #192）。
-    返回 (anchors, 覆盖率)：anchors 是 {cue 序号: 该句首词的真实起点}。
+    tokens 是 [(词元, 起点秒)]；只做匹配，不碰音频，便于拿缓存的词流离线迭代。
     """
-
-    started = time.time()
-    result = model.transcribe(audio, language="en", word_timestamps=True)
-    tokens = []
-    for segment in result.segments:
-        for word in segment.words or []:
-            for token in WORD_TOKEN.findall(word.word.lower()):
-                tokens.append((token, float(word.start)))
-    if not tokens:
-        return {}, 0.0
-    log(f"    ASR 定位：{len(tokens)} 词，用时 {time.time() - started:.0f}s")
 
     import difflib
 
@@ -499,14 +485,27 @@ def locate_cues(model, audio, cues, min_ratio=0.5, window=400, max_window=3000):
                 break
             asr = [token for token, _ in tokens[pointer:end]]
             matcher = difflib.SequenceMatcher(None, wanted, asr, autojunk=False)
-            blocks = [b for b in matcher.get_matching_blocks() if b.size >= 3]
+            # 判据：最长连续匹配段 ≥ 整句的 35%，且至少 3 词。
+            # 最初要求 50% 会把长句判死（一句 40 词的台词中间夹一处 ASR 差异就掉到
+            # 一半以下）；改成"所有匹配段之和 ≥50%"又太松，零散的小片段能凑够分数，
+            # 本地实测覆盖率反而掉到 37% 并出现 +1900 秒的荒谬锚点。
+            # 35% + 保底 3 词在本地 #69 上把覆盖率从 30% 提到 68%，且没有野值。
+            blocks = [b for b in matcher.get_matching_blocks()
+                      if b.size >= 2 and b.a < len(wanted)]
             if not blocks:
                 continue
             block = max(blocks, key=lambda b: b.size)
+            if block.size < max(3, int(round(0.35 * len(wanted)))):
+                continue
             score = block.size / len(wanted)
             if score > best_score:
-                # 命中段之前的词按每词 0.4 秒倒推，首词位置才能对上
                 start = pointer + block.b - block.a
+                if start >= len(tokens):
+                    continue
+                # 定位平移本身有量级上限（RSS 插播也就 +25~+97 秒），
+                # 超出说明匹配跑到别处去了，宁可不要这个锚点。
+                if abs(tokens[start][1] - cue["start"]) > MAX_LOCATED_SHIFT:
+                    continue
                 best_score, best_pos = score, max(pointer, start)
             if best_score >= 0.7:
                 break
@@ -516,7 +515,25 @@ def locate_cues(model, audio, cues, min_ratio=0.5, window=400, max_window=3000):
 
     sought = sum(1 for c in cues if WORD_TOKEN.search(c["text"].lower()))
     coverage = len(anchors) / sought if sought else 0.0
-    log(f"    ASR 定位：{len(anchors)}/{sought} 句匹配成功（{coverage:.0%}），"
+    return anchors, coverage
+
+
+def locate_cues(model, audio, cues, **kwargs):
+    """整集粗 ASR 一遍再匹配。只用来定位：ASR 的文字不参与输出，校对稿不改。"""
+
+    started = time.time()
+    result = model.transcribe(audio, language="en", word_timestamps=True)
+    tokens = []
+    for segment in result.segments:
+        for word in segment.words or []:
+            for token in WORD_TOKEN.findall(word.word.lower()):
+                tokens.append((token, float(word.start)))
+    if not tokens:
+        return {}, 0.0
+    log(f"    ASR 定位：{len(tokens)} 词，用时 {time.time() - started:.0f}s")
+
+    anchors, coverage = match_cues(tokens, cues, **kwargs)
+    log(f"    ASR 定位：{len(anchors)} 句匹配成功（{coverage:.0%}），"
         f"总用时 {time.time() - started:.0f}s")
     return anchors, coverage
 
