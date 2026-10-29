@@ -53,7 +53,7 @@ TAIL_PAD = 8.0
 # 实测 #477 在 23 分钟处跳 +5 秒、30 分钟到 +8 秒、35 分钟回落 +5 秒，每段内部
 # 稳定在 ±0.3 秒。窗口留了 -3/+8 秒余量，第一遍对齐本来就落在正确位置，错的是
 # "拿官网 begin 当期望起点"这一步。所以按邻域实测偏移重算期望值，不重跑对齐。
-LOCAL_SHIFT_WINDOW = 90.0
+LOCAL_SHIFT_WINDOW = 45.0
 MIN_LOCAL_SAMPLES = 3
 # 超过这个量级说明第一遍的窗口根本兜不住（RSS 插播广告是 +25~+97 秒），
 # 实测值也不可信，仍然整集拒绝。
@@ -403,38 +403,42 @@ def percentile(values, q):
 def local_shifts(cues, results):
     """返回 (shifts, untrusted)：每个 cue 的本地平移，以及实测不可信的 cue。
 
-    以组为单位而不是以单句为单位，是因为段界的几秒差正好落在组与组之间：
-    按单句取邻域中位数会把跨界的相邻两句分到不同阶梯，两句都判错。
-    组内不足 MIN_LOCAL_SAMPLES 句时，借用时间最近的已知组。
+    官网 end 是合成的、常虚报几十秒，group_cues 因此切出大量 1-3 句的小组
+    （实测 119 个采样里 73 个只有 2-3 句），用组中位数噪声太大、跨段界还会
+    借错邻组。所以按"时间邻域内其他句的实测偏移中位数"来定，邻句不足就把
+    窗口逐级放宽，仍不够才退回全集中位数。
 
-    某组实测平移超过 MAX_LOCAL_SHIFT，说明第一遍窗口兜不住（RSS 插播是
-    +25~+97 秒），这一组的 cue 不借任何平移、直接按不可信丢弃；
-    整集是否还能用，交给丢弃率和残差去判。
+    留一法（不含本句）是关键：期望值不能由被测样本自己决定，
+    否则散乱的错误对齐会把自己解释成零残差。
     """
 
-    speech = [c for c in cues if not BRACKET.match(c["text"])]
+    samples = sorted(
+        (c["start"], c["i"], results[c["i"]]["words"][0][1] - c["start"])
+        for c in cues if c["i"] in results
+    )
+    if len(samples) < MIN_LOCAL_SAMPLES + 1:
+        return {}, set()
+
     shifts = {}
     untrusted = set()
-    known = []
-    for group in group_cues(speech):
-        offsets = sorted(results[c["i"]]["words"][0][1] - c["start"]
-                         for c in group if c["i"] in results)
-        if len(offsets) < MIN_LOCAL_SAMPLES:
+    for cue in cues:
+        if cue["i"] not in results:
             continue
-        shift = percentile(offsets, .5)
+        window = LOCAL_SHIFT_WINDOW
+        near = []
+        while True:
+            near = [v for t, i, v in samples
+                    if i != cue["i"] and abs(t - cue["start"]) <= window]
+            if len(near) >= MIN_LOCAL_SAMPLES or window >= 8 * LOCAL_SHIFT_WINDOW:
+                break
+            window *= 2
+        if not near:
+            continue
+        shift = percentile(near, .5)
         if abs(shift) > MAX_LOCAL_SHIFT:
-            untrusted.update(c["i"] for c in group)
+            untrusted.add(cue["i"])
             continue
-        known.append((group[0]["start"], shift))
-        for cue in group:
-            shifts[cue["i"]] = shift
-
-    for cue in speech:
-        if cue["i"] in shifts or cue["i"] in untrusted or not known:
-            continue
-        anchor = min(known, key=lambda item: abs(item[0] - cue["start"]))
-        if abs(anchor[0] - cue["start"]) <= 2 * LOCAL_SHIFT_WINDOW:
-            shifts[cue["i"]] = anchor[1]
+        shifts[cue["i"]] = shift
     return shifts, untrusted
 
 
