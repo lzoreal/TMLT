@@ -38,6 +38,10 @@ on:
       lane:
         description: "手工 run 的独立队列名（留空=跟随 cron 的 tmlt-align；探针/验证/恢复填 lane 免得被 schedule 顶掉）"
         default: ""
+      locate:
+        description: "恢复被拒集：先整集粗 ASR 定位再切窗对齐（有额外 ASR 成本，日常跑别开）"
+        type: boolean
+        default: false
 
   # 全量跑批自动接续：有剩余集就继续，跑完就空跑退出。
   # 间隔必须远小于单轮时长（一轮约 5.9h）：concurrency 组只留一个排队 run，
@@ -281,7 +285,8 @@ jobs:
               --episodes "$EP_LIST" \
               --max-minutes "$chunk_min" \
               --offset-probe "$PROBE" \
-              ${{ inputs.force && '--force' || '' }} 2>&1 | tee "$run_log" \
+              ${{ inputs.force && '--force' || '' }} \
+              ${{ inputs.locate && '--locate-first' || '' }} 2>&1 | tee "$run_log" \
               || echo "chunk exited non-zero, committing what exists"
             attempted=$(sed -n 's/^run_summary attempted=\([0-9]*\).*/\1/p' "$run_log" | tail -1)
             left=$(sed -n 's/^run_summary attempted=[0-9]* left=\([0-9]*\).*/\1/p' "$run_log" | tail -1)
