@@ -2,8 +2,8 @@
 """以官网 begin 为锚点、窗口化对齐校对过的 transcript，产出逐词时间轴 sidecar。
 
 文本一个字节都不改：cue 的切分和文字保持原样，只补真实 end 和逐词时间。
-sidecar 记录 complete/attempts：少量缺口视为完成；大比例失败或被拒绝的集
-最多自动重试 MAX_ATTEMPTS 次，避免确定性失败每轮重跑。
+sidecar 记录 complete/attempts：少量缺口视为完成；对齐不上的（GIVE_UP_REASONS）
+一次判定就放弃，其余未完成的最多重试 MAX_ATTEMPTS 次，避免确定性失败每轮重跑。
 
 整集单次 align 会崩：align() 内部先跑一遍 ASR 再 DTW，遇到几分钟的音乐/演唱段
 时间戳不可信，会把后面所有 cue 一起拽走（实测漂移 -140 秒）。这里按官网 begin
@@ -51,6 +51,11 @@ TAIL_PAD = 8.0
 
 # 未完成的 sidecar 最多自动重试次数；超过即放弃，避免确定性失败每轮重跑。
 MAX_ATTEMPTS = 2
+
+# 这两类拒绝由音频母带本身决定（对齐落到错误位置、母带与 transcript 不同版），
+# 同一份音频重跑必然同样失败，所以一次判定后不再占用重试机会：
+# 单次尝试在 CI 上要 30-50 分钟，重试等于白烧一个机时。
+GIVE_UP_REASONS = frozenset({"audio_mismatch", "high_drop_rate"})
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -462,9 +467,12 @@ def read_status(path):
     )
 
 
+def status_is_done(complete, attempts, rejected):
+    return complete or rejected in GIVE_UP_REASONS or attempts >= MAX_ATTEMPTS
+
+
 def is_done(path):
-    complete, attempts, _ = read_status(path)
-    return complete or attempts >= MAX_ATTEMPTS
+    return status_is_done(*read_status(path))
 
 
 def build_plan(pending, shards):
@@ -544,6 +552,9 @@ def run_episode(model, session, source, args, workdir, tag=""):
             if complete:
                 log(f"{tag}#{episode} skip (already done)")
                 return None
+            if rejected in GIVE_UP_REASONS:
+                log(f"{tag}#{episode} skip (rejected={rejected}, 确定性失败，不再重试)")
+                return None
             if prev_attempts >= MAX_ATTEMPTS:
                 suffix = f", rejected={rejected}" if rejected else ""
                 log(f"{tag}#{episode} skip (gave up after {prev_attempts} attempts{suffix})")
@@ -621,7 +632,7 @@ def run_episode(model, session, source, args, workdir, tag=""):
     median_abs = percentile([abs(e) for e in begin_errors], 0.5) if begin_errors else float("nan")
     if median_abs > AUDIO_MISMATCH_SECONDS:
         # 宁可这一集不做，也不要把整体错位的时间轴写进仓库。
-        # 留一个空 sidecar 记录尝试次数，避免同一份错音频每轮重跑。
+        # 空 sidecar 标上原因即终局：同一份母带重跑必然同样拒绝。
         write_document(out_path, episode, audio_seconds, [], attempts,
                        rejected="audio_mismatch")
         if args.audio is None:
@@ -636,7 +647,7 @@ def run_episode(model, session, source, args, workdir, tag=""):
 
     if results and dropped > 0.10 * len(results):
         # 丢弃率过高说明整集对齐不稳（多半是阶梯偏移漏过 3 秒阈值），
-        # 不交半对半错的数据；空 sidecar 记录尝试次数，有限次后放弃。
+        # 不交半对半错的数据；空 sidecar 标上原因即终局，不再重跑一遍同样的对齐。
         write_document(out_path, episode, audio_seconds, [], attempts,
                        rejected="high_drop_rate")
         if args.audio is None:
@@ -733,7 +744,7 @@ def main():
                 pending += 1
                 continue
             complete, attempts, rejected = read_status(path)
-            if complete or attempts >= MAX_ATTEMPTS:
+            if status_is_done(complete, attempts, rejected):
                 done += 1
                 refused += bool(rejected)
             else:
