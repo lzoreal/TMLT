@@ -58,6 +58,11 @@ MIN_LOCAL_SAMPLES = 3
 # 超过这个量级说明第一遍的窗口根本兜不住（RSS 插播广告是 +25~+97 秒），
 # 实测值也不可信，仍然整集拒绝。
 MAX_LOCAL_SHIFT = 15.0
+# ASR 定位出来的平移是直接测量（不是从残差反推），可以放宽到整段错位的量级：
+# 实测 #168 全片 −65 秒、#192 −57 秒——官网时间戳整体差了一分钟，
+# ±11 秒的窗口永远看不见，只能靠定位。
+MAX_LOCATED_SHIFT = 300.0
+LOCATED_GAP = 180.0
 
 # 未完成的 sidecar 最多自动重试次数；超过即放弃，避免确定性失败每轮重跑。
 MAX_ATTEMPTS = 2
@@ -512,15 +517,42 @@ def locate_cues(model, audio, cues, min_ratio=0.5, window=400, max_window=3000):
     return anchors, coverage
 
 
+def fill_gaps(shifts, cues, max_gap=LOCATED_GAP):
+    """没定位到的句沿用时间上最近的已定位句的平移。
+
+    母带的偏差通常是整段一致的（实测 #168 全片 −65 秒），所以邻句的平移
+    比"退回官网时间轴"更可信；超过 max_gap 就不硬套。
+    """
+
+    import bisect
+
+    known = sorted((c["start"], shifts[c["i"]]) for c in cues if c["i"] in shifts)
+    if not known:
+        return {}
+    times = [t for t, _ in known]
+    filled = dict(shifts)
+    for cue in cues:
+        if cue["i"] in filled:
+            continue
+        pos = bisect.bisect_left(times, cue["start"])
+        near = [known[k] for k in (pos - 1, pos) if 0 <= k < len(known)]
+        if not near:
+            continue
+        when, value = min(near, key=lambda pair: abs(pair[0] - cue["start"]))
+        if abs(when - cue["start"]) <= max_gap:
+            filled[cue["i"]] = value
+    return filled
+
+
 def realign_shifted(model, audio, cues, total_seconds, results, shifts,
-                    min_shift=2.0):
+                    min_shift=2.0, max_shift=MAX_LOCAL_SHIFT):
     """按定位出的位移重切窗口，只重跑位移明显的组；返回重跑的组数。"""
 
     speech = [c for c in cues if not BRACKET.match(c["text"])]
     redone = 0
     for group in group_cues(speech):
         shift = shifts.get(group[0]["i"], 0.0)
-        if abs(shift) < min_shift or abs(shift) > MAX_LOCAL_SHIFT:
+        if abs(shift) < min_shift or abs(shift) > max_shift:
             continue
         try:
             aligned = align_group(model, audio, group, total_seconds, shift)
@@ -598,7 +630,7 @@ def build_segments(cues, results, shifts=None):
         if words and not plausible_words(cue, next_start, words, expected):
             words = []
             dropped += 1
-        start_ms = int(round(cue["start"] * 1000))
+        start_ms = int(round((cue["start"] + shifts.get(cue["i"], 0.0)) * 1000))
         if words:
             end_ms = int(round(words[-1][2] * 1000))
             word_payload = [
@@ -881,6 +913,7 @@ def run_episode(model, session, source, args, workdir, tag=""):
         if coverage >= 0.6:
             located = {c["i"]: anchors[c["i"]] - c["start"]
                        for c in cues if c["i"] in anchors}
+            located = fill_gaps(located, cues)
             log(f"{tag}#{episode} 先定位再对齐：覆盖 {coverage:.0%}，"
                 f"平移 {min(located.values()):+.1f}…{max(located.values()):+.1f}s")
         else:
@@ -941,7 +974,9 @@ def run_episode(model, session, source, args, workdir, tag=""):
         if coverage >= 0.6:
             located = {c["i"]: anchors[c["i"]] - c["start"]
                        for c in cues if c["i"] in anchors}
-            redone = realign_shifted(model, audio, cues, audio_seconds, results, located)
+            located = fill_gaps(located, cues)
+            redone = realign_shifted(model, audio, cues, audio_seconds, results, located,
+                                     max_shift=MAX_LOCATED_SHIFT)
             shifts = {**shifts, **located}
             median_abs, segments, dropped = judge(cues, results, shifts)
             log(f"{tag}#{episode} 按定位重锚：重跑 {redone} 组，残差中位 {median_abs:.1f}s，"
