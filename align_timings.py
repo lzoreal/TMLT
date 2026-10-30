@@ -21,6 +21,10 @@ import time
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
+# tqdm 的进度条按帧写 \r，一集就能把 CI 日志刷成几 MB 的乱码；进度改由
+# Heartbeat 和分组循环打成文字行。必须在导入 stable_whisper 之前设置。
+os.environ.setdefault("TQDM_DISABLE", "1")
+
 BASE = Path(__file__).resolve().parent
 TRANSCRIPT_DIR = BASE / "docs/transcripts"
 TIMING_DIR = BASE / "docs/timings"
@@ -103,6 +107,32 @@ def log(message=""):
 
 def human(seconds):
     return f"{int(seconds // 3600)}:{int(seconds % 3600 // 60):02d}:{int(seconds % 60):02d}"
+
+
+class Heartbeat:
+    """长调用（整集 ASR、对齐库内部）期间每 interval 秒打一行文字进度。"""
+
+    def __init__(self, message, interval=120.0):
+        self.message = message
+        self.interval = interval
+        self._stop = None
+
+    def __enter__(self):
+        import threading
+
+        self._stop = threading.Event()
+        started = time.time()
+
+        def run():
+            while not self._stop.wait(self.interval):
+                log(f"    {self.message}（已用 {human(time.time() - started)}）")
+
+        threading.Thread(target=run, daemon=True).start()
+        return self
+
+    def __exit__(self, *exc):
+        self._stop.set()
+        return False
 
 
 # ============================================================
@@ -392,7 +422,8 @@ def align_episode(model, audio, cues, total_seconds, shifts=None):
     results = {}
     failures = 0
 
-    for group in group_cues(speech):
+    groups = group_cues(speech)
+    for position, group in enumerate(groups, 1):
         try:
             aligned = align_group(model, audio, group, total_seconds,
                                   shifts.get(group[0]["i"], 0.0),
@@ -404,6 +435,7 @@ def align_episode(model, audio, cues, total_seconds, shifts=None):
             continue
         results.update(aligned)
         failures += len(group) - len(aligned)
+        log(f"    对齐 {position}/{len(groups)} 组")
     return results, skipped, failures
 
 
@@ -601,7 +633,8 @@ def locate_cues(model, audio, cues, cache=None, **kwargs):
         tokens = [(row[0], row[1]) for row in raw]
         log(f"    ASR 词流缓存命中：{len(tokens)} 词")
     if tokens is None:
-        result = model.transcribe(audio, language="en", word_timestamps=True)
+        with Heartbeat(f"ASR 定位进行中（音频 {human(audio.size / SR)}）"):
+            result = model.transcribe(audio, language="en", word_timestamps=True)
         tokens = []
         for segment in result.segments:
             for word in segment.words or []:
@@ -652,11 +685,13 @@ def realign_shifted(model, audio, cues, total_seconds, results, shifts,
     """按定位出的位移重切窗口，只重跑位移明显的组；返回重跑的组数。"""
 
     speech = [c for c in cues if not BRACKET.match(c["text"])]
+    groups = [
+        group for group in group_cues(speech)
+        if min_shift <= abs(shifts.get(group[0]["i"], 0.0)) <= max_shift
+    ]
     redone = 0
-    for group in group_cues(speech):
+    for position, group in enumerate(groups, 1):
         shift = shifts.get(group[0]["i"], 0.0)
-        if abs(shift) < min_shift or abs(shift) > max_shift:
-            continue
         try:
             aligned = align_group(model, audio, group, total_seconds, shift,
                                   per_cue=shifts)
@@ -667,6 +702,7 @@ def realign_shifted(model, audio, cues, total_seconds, results, shifts,
             if cue["i"] in aligned:
                 results[cue["i"]] = aligned[cue["i"]]
         redone += 1
+        log(f"    重锚 {position}/{len(groups)} 组")
     return redone
 
 
@@ -707,10 +743,12 @@ def rescue_groups(model, audio, cues, total_seconds, results, shifts, tries=3):
         return 0
 
     redone = 0
-    for group in group_cues(speech):
+    groups = group_cues(speech)
+    for index, group in enumerate(groups, 1):
         base = shifts.get(group[0]["i"], 0.0)
         current = _group_hits(group, results, base)
         if current == len(group):
+            log(f"    rescue 检查 {index}/{len(groups)} 组")
             continue
         candidates = [base]
         for _, value in sorted(good, key=lambda item: abs(item[0] - group[0]["start"])):
@@ -746,6 +784,7 @@ def retry_dropped(model, audio, cues, total_seconds, results, shifts):
 
     speech = [c for c in cues if not BRACKET.match(c["text"])]
     fixed = 0
+    tried = 0
     for position, cue in enumerate(speech):
         if (results.get(cue["i"]) or {}).get("words"):
             continue
@@ -770,6 +809,8 @@ def retry_dropped(model, audio, cues, total_seconds, results, shifts):
             got = align_window(model, audio, lo, hi, [cue])
         except Exception:
             continue
+        tried += 1
+        log(f"    单句补对齐 {tried} 句")
         words = (got.get(cue["i"]) or {}).get("words") or []
         if not words:
             continue
