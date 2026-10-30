@@ -1293,8 +1293,10 @@ def run_episode(model, session, source, args, workdir, tag=""):
     out_path = args.out / f"{episode}.json"
 
     prev_attempts = 0
+    prev_complete = False
     if out_path.exists():
         complete, prev_attempts, rejected = read_status(out_path)
+        prev_complete = complete
         if not args.force:
             if complete:
                 log(f"{tag}#{episode} skip (already done)")
@@ -1475,6 +1477,10 @@ def run_episode(model, session, source, args, workdir, tag=""):
     if median_abs > AUDIO_MISMATCH_SECONDS:
         # 宁可这一集不做，也不要把整体错位的时间轴写进仓库。
         # 空 sidecar 标上原因即终局：同一份母带重跑必然同样拒绝。
+        # 但 force 重跑已有 complete 的集时，失败不能把可用结果覆盖成空。
+        if prev_complete:
+            log(f"{tag}#{episode} REJECT audio mismatch，但已有 complete 结果，保留旧结果")
+            return 1
         write_document(out_path, episode, audio_seconds, [], attempts,
                        rejected="audio_mismatch")
         if args.audio is None:
@@ -1488,6 +1494,10 @@ def run_episode(model, session, source, args, workdir, tag=""):
     if results and dropped > 0.10 * len(results):
         # 定位之后仍有这么多句对不上，说明内容真的不一致（重剪、垫乐段落），
         # 不交半对半错的数据；空 sidecar 标上原因即终局。
+        if prev_complete:
+            log(f"{tag}#{episode} REJECT per-cue {dropped}/{len(results)}，"
+                "但已有 complete 结果，保留旧结果")
+            return 1
         write_document(out_path, episode, audio_seconds, [], attempts,
                        rejected="high_drop_rate")
         if args.audio is None:
