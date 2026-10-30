@@ -313,6 +313,29 @@ def group_cues(cues):
     return groups
 
 
+def align_window(model, audio, lo, hi, group):
+    """对齐 [lo, hi] 这一段音频里的一个 cue 组，返回 {cue 序号: {"words": [...]}}。"""
+
+    clip = audio[int(lo * SR): int(hi * SR)]
+    if clip.size == 0:
+        return {}
+    text_block = "\n".join(c["text"] for c in group)
+    aligned = model.align(clip, text_block, language="en", original_split=True)
+    by_local_id = {segment.id: segment for segment in aligned.segments}
+    results = {}
+    for position, cue in enumerate(group):
+        segment = by_local_id.get(position)
+        words = list(segment.words) if segment is not None and segment.words else []
+        if not words:
+            continue
+        results[cue["i"]] = {
+            "words": [
+                (w.word.strip(), w.start + lo, w.end + lo) for w in words
+            ],
+        }
+    return results
+
+
 def align_group(model, audio, group, total_seconds, shift=0.0, per_cue=None):
     """对一个 cue 组切窗、对齐，返回 {cue 序号: {"words": [...]}}。
 
@@ -334,27 +357,9 @@ def align_group(model, audio, group, total_seconds, shift=0.0, per_cue=None):
             lo = max(0.0, cue_lo)
             hi = cue_hi
     hi = min(total_seconds, hi)
-    clip = audio[int(lo * SR): int(hi * SR)]
     # 夹到片尾/平移过头时会切出空片段，交给 FFmpeg 只会抛
     # RuntimeError: FFmpeg failed to read "[]"，按"这句没对上"处理。
-    if clip.size == 0:
-        return {}
-    text_block = "\n".join(c["text"] for c in group)
-    aligned = model.align(clip, text_block, language="en", original_split=True)
-
-    by_local_id = {segment.id: segment for segment in aligned.segments}
-    results = {}
-    for position, cue in enumerate(group):
-        segment = by_local_id.get(position)
-        words = list(segment.words) if segment is not None and segment.words else []
-        if not words:
-            continue
-        results[cue["i"]] = {
-            "words": [
-                (w.word.strip(), w.start + lo, w.end + lo) for w in words
-            ],
-        }
-    return results
+    return align_window(model, audio, lo, hi, group)
 
 
 def align_episode(model, audio, cues, total_seconds, shifts=None):
@@ -679,6 +684,61 @@ def rescue_groups(model, audio, cues, total_seconds, results, shifts, tries=3):
                 shifts[cue["i"]] = best[2]
             redone += 1
     return redone
+
+
+def retry_dropped(model, audio, cues, total_seconds, results, shifts):
+    """对没对上的单句，用左右邻居的实测词边界框一个小窗口再对齐一次。
+
+    实证（816 集、6992 个丢弃句）：36% 是 ≤3 词的对白短句，63% 左右邻居都已
+    对齐，35% 落在邻居之间 0.3–10 秒的空隙里（中位 1.7 秒）。这类不是内容不
+    一致，而是整组切窗时短句被邻近长句吞掉或压扁。邻居窗口只有几秒，单独
+    对齐很便宜；词表、词长、与邻居的位置关系全部过关才采纳。
+    """
+
+    speech = [c for c in cues if not BRACKET.match(c["text"])]
+    fixed = 0
+    for position, cue in enumerate(speech):
+        if (results.get(cue["i"]) or {}).get("words"):
+            continue
+        previous = speech[position - 1] if position else None
+        following = speech[position + 1] if position + 1 < len(speech) else None
+        prev_words = (results.get(previous["i"]) or {}).get("words") if previous else None
+        next_words = (results.get(following["i"]) or {}).get("words") if following else None
+
+        lo = hi = None
+        if prev_words and next_words:
+            gap = next_words[0][1] - prev_words[-1][2]
+            if 0.3 <= gap <= 10.0:
+                lo, hi = prev_words[-1][2] - 0.5, next_words[0][1] + 0.5
+        if lo is None:
+            shift = shifts.get(cue["i"], 0.0)
+            lo = max(0.0, cue["start"] + shift - PAD)
+            hi = min(total_seconds, cue["start"] + cue_span(cue) + shift + TAIL_PAD)
+        if hi - lo < 0.3 or hi - lo > 30.0:
+            continue
+
+        try:
+            got = align_window(model, audio, lo, hi, [cue])
+        except Exception:
+            continue
+        words = (got.get(cue["i"]) or {}).get("words") or []
+        if not words:
+            continue
+        if [w[0] for w in words] != cue["text"].split():
+            continue
+        first, last = words[0][1], words[-1][2]
+        natural = len(cue["text"]) / NOMINAL_CHARS_PER_SECOND
+        # 一句 "Yes?" 的正常时长只有 0.2 秒左右，下限按文本长度取，不设绝对秒数。
+        if last - first <= 0 or last - first < max(0.1, 0.5 * natural):
+            continue
+        if prev_words and first < prev_words[-1][1]:
+            continue
+        if next_words and last > next_words[0][1] + MAX_LATE:
+            continue
+        results[cue["i"]] = {"words": words}
+        shifts[cue["i"]] = first - cue["start"]
+        fixed += 1
+    return fixed
 
 
 def adopt_measured_shifts(cues, results, shifts, min_gap=MAX_EARLY):
@@ -1204,6 +1264,14 @@ def run_episode(model, session, source, args, workdir, tag=""):
         if rescued:
             median_abs, segments, dropped = refresh()
             log(f"{tag}#{episode} 多候选重试 {rescued} 组 → "
+                f"残差中位 {median_abs:.1f}s，丢弃 {dropped}/{len(results)}")
+
+    # 组级重试之后仍没对上的零散句：左右邻居已经给出实测边界，单独再对齐一次。
+    if args.rescue and results:
+        fixed = retry_dropped(model, audio, cues, audio_seconds, results, shifts)
+        if fixed:
+            median_abs, segments, dropped = refresh()
+            log(f"{tag}#{episode} 单句补对齐 {fixed} 句 → "
                 f"残差中位 {median_abs:.1f}s，丢弃 {dropped}/{len(results)}")
 
     # 取证落盘要放在拒绝判定之前：被拒的集正是要看的那批。
