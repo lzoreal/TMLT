@@ -50,6 +50,10 @@ on:
         description: "第二轮恢复：定位后对没对上的组用邻句平移做多候选重试（额外对齐成本）"
         type: boolean
         default: false
+      dump:
+        description: "诊断：逐句落盘对齐取证（不提交，TSV 作为 artifact 上传）"
+        type: boolean
+        default: false
 
   # 全量跑批自动接续：有剩余集就继续，跑完就空跑退出。
   # 间隔必须远小于单轮时长（一轮约 5.9h）：concurrency 组只留一个排队 run，
@@ -299,7 +303,9 @@ jobs:
               ${{ inputs.force && '--force' || '' }} \
               ${{ inputs.locate && '--locate-first' || '' }} \
               ${{ inputs.locate_only && '--locate-only' || '' }} \
-              ${{ inputs.rescue && '--rescue' || '' }} 2>&1 | tee "$run_log" \
+              ${{ inputs.rescue && '--rescue' || '' }} \
+              ${{ inputs.dump && '--dump-cues /tmp/timings-diag' || '' }} \
+              2>&1 | tee "$run_log" \
               || echo "chunk exited non-zero, committing what exists"
             attempted=$(sed -n 's/^run_summary attempted=\([0-9]*\).*/\1/p' "$run_log" | tail -1)
             left=$(sed -n 's/^run_summary attempted=[0-9]* left=\([0-9]*\).*/\1/p' "$run_log" | tail -1)
@@ -319,6 +325,14 @@ jobs:
               break
             fi
           done
+
+      - name: Upload cue diagnostics
+        if: ${{ always() && inputs.dump }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: timings-diag-${{ matrix.shard }}
+          path: /tmp/timings-diag
+          if-no-files-found: ignore
 
       - name: Upload partial results
         # 兜底：即使 job 被掐断、push 一直失败，也能从 artifact 捞回
