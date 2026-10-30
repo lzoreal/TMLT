@@ -521,16 +521,28 @@ def match_cues(tokens, cues, block_ratio=0.35, window=400, max_window=3000):
     return anchors, coverage
 
 
-def locate_cues(model, audio, cues, **kwargs):
-    """整集粗 ASR 一遍再匹配。只用来定位：ASR 的文字不参与输出，校对稿不改。"""
+def locate_cues(model, audio, cues, cache=None, **kwargs):
+    """整集粗 ASR 一遍再匹配。只用来定位：ASR 的文字不参与输出，校对稿不改。
+
+    cache 是词流缓存路径：命中就不转写，只在没有模型或本地迭代时用。
+    """
 
     started = time.time()
-    result = model.transcribe(audio, language="en", word_timestamps=True)
-    tokens = []
-    for segment in result.segments:
-        for word in segment.words or []:
-            for token in WORD_TOKEN.findall(word.word.lower()):
-                tokens.append((token, float(word.start)))
+    tokens = None
+    if cache is not None and Path(cache).exists():
+        raw = json.loads(Path(cache).read_text(encoding="utf-8"))
+        tokens = [(row[0], row[1]) for row in raw]
+        log(f"    ASR 词流缓存命中：{len(tokens)} 词")
+    if tokens is None:
+        result = model.transcribe(audio, language="en", word_timestamps=True)
+        tokens = []
+        for segment in result.segments:
+            for word in segment.words or []:
+                for token in WORD_TOKEN.findall(word.word.lower()):
+                    tokens.append((token, float(word.start)))
+        if cache is not None:
+            Path(cache).parent.mkdir(parents=True, exist_ok=True)
+            Path(cache).write_text(json.dumps(tokens, ensure_ascii=False), encoding="utf-8")
     if not tokens:
         return {}, 0.0
     log(f"    ASR 定位：{len(tokens)} 词，用时 {time.time() - started:.0f}s")
@@ -1023,9 +1035,12 @@ def run_episode(model, session, source, args, workdir, tag=""):
     decode_seconds = time.time() - started
 
     align_started = time.time()
+    token_cache = None
+    if args.token_cache:
+        token_cache = Path(args.token_cache) / f"tokens_{episode}.json"
     located = {}
     if args.locate_first:
-        anchors, coverage = locate_cues(model, audio, cues)
+        anchors, coverage = locate_cues(model, audio, cues, cache=token_cache)
         if coverage >= 0.6:
             located = {c["i"]: anchors[c["i"]] - c["start"]
                        for c in cues if c["i"] in anchors}
@@ -1086,7 +1101,7 @@ def run_episode(model, session, source, args, workdir, tag=""):
     if (not located
             and (median_abs > AUDIO_MISMATCH_SECONDS
                  or (results and dropped > 0.10 * len(results)))):
-        anchors, coverage = locate_cues(model, audio, cues)
+        anchors, coverage = locate_cues(model, audio, cues, cache=token_cache)
         if coverage >= 0.6:
             located = {c["i"]: anchors[c["i"]] - c["start"]
                        for c in cues if c["i"] in anchors}
@@ -1111,6 +1126,10 @@ def run_episode(model, session, source, args, workdir, tag=""):
             log(f"{tag}#{episode} 多候选重试 {rescued} 组 → "
                 f"残差中位 {median_abs:.1f}s，丢弃 {dropped}/{len(results)}")
 
+    # 取证落盘要放在拒绝判定之前：被拒的集正是要看的那批。
+    if args.dump_cues:
+        dump_cues(args.dump_cues, cues, results, shifts)
+
     if median_abs > AUDIO_MISMATCH_SECONDS:
         # 宁可这一集不做，也不要把整体错位的时间轴写进仓库。
         # 空 sidecar 标上原因即终局：同一份母带重跑必然同样拒绝。
@@ -1133,9 +1152,6 @@ def run_episode(model, session, source, args, workdir, tag=""):
             audio_path.unlink(missing_ok=True)
         log(f"{tag}#{episode} REJECT per-cue: {dropped}/{len(results)} cues implausible")
         return 1
-
-    if args.dump_cues:
-        dump_cues(args.dump_cues, cues, results, shifts)
 
     # 少量缺口（交叉说话、无法对齐的标签句）重试也修不好，按整集比例判定；
     # 只有大比例失败才值得再跑一次。
@@ -1205,6 +1221,10 @@ def main():
     parser.add_argument(
         "--locate-first", action="store_true",
         help="先整集粗 ASR 定位每句的真实位置，再按定位切窗对齐（恢复被拒集用）",
+    )
+    parser.add_argument(
+        "--token-cache", metavar="DIR",
+        help="ASR 词流缓存目录（本地迭代用：命中就跳过转写）",
     )
     parser.add_argument(
         "--locate-only", action="store_true",
