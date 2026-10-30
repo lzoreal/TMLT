@@ -88,6 +88,14 @@ USER_AGENT = (
 # "[SPEAKING TIGRINYA]."），旧正则只认纯方括号，这些句被当成台词，其中 199 句
 # 还被写进了伪造的词时间（"[LAUGHTER]." 成了逐词），89 句直接判失败。
 BRACKET = re.compile(r"^\s*\[.*\]\s*[.!?]?\s*$", re.DOTALL)
+# 说话人标签不是台词："(INTERVIEWER) IRA GLASS: " / "IRA GLASS: "。
+# 把它们塞进对齐文本会挤占句首词的时长（实测 #206 词长中位 0.05 秒 vs 去标签后
+# 0.46 秒），所以只在对齐输入里剥掉，sidecar 的 text 保持原文。
+# 只剥带括号的类型标签（(HOST)/(SUBJECT)/(INTERVIEWER) …），共 1,123 句。
+# 裸 "NAME:" 只有 56 句，且混着 "OUR WEBSITE:"、"PRI:" 这类会被念出来的开头，不碰。
+LABEL_PREFIX = re.compile(
+    r"^\s*\([A-Za-z ]{2,20}\)\s*[A-Z][A-Z .'\-]{1,30}:\s+"
+)
 # 定位用的词元：小写字母数字加撇号，标点不参与匹配。
 WORD_TOKEN = re.compile(r"[a-z0-9']+")
 TIMESTAMP = re.compile(
@@ -107,6 +115,33 @@ def log(message=""):
 
 def human(seconds):
     return f"{int(seconds // 3600)}:{int(seconds % 3600 // 60):02d}:{int(seconds % 60):02d}"
+
+
+def spoken_text(text):
+    """对齐输入用：剥掉句首说话人标签；剥完为空就保留原文。"""
+
+    stripped = LABEL_PREFIX.sub("", text, count=1).strip()
+    return stripped or text.strip()
+
+
+def silence_tqdm():
+    """强制关闭 tqdm：TQDM_DISABLE 只是默认值，stable-ts 会显式传 disable=False。"""
+
+    try:
+        import tqdm.std as tqdm_std
+    except Exception:
+        return
+    bar = tqdm_std.tqdm
+    if getattr(bar, "_tmlt_silenced", False):
+        return
+    original = bar.__init__
+
+    def init(self, *args, **kwargs):
+        kwargs["disable"] = True
+        original(self, *args, **kwargs)
+
+    bar.__init__ = init
+    bar._tmlt_silenced = True
 
 
 class Heartbeat:
@@ -370,7 +405,7 @@ def align_window(model, audio, lo, hi, group):
     clip = audio[int(lo * SR): int(hi * SR)]
     if clip.size == 0:
         return {}
-    text_block = "\n".join(c["text"] for c in group)
+    text_block = "\n".join(spoken_text(c["text"]) for c in group)
     aligned = model.align(clip, text_block, language="en", original_split=True)
     by_local_id = {segment.id: segment for segment in aligned.segments}
     results = {}
@@ -546,7 +581,7 @@ def match_cues(tokens, cues, block_ratio=0.35, window=400, max_window=3000):
     anchors = {}
     pointer = 0
     for cue in cues:
-        wanted = WORD_TOKEN.findall(cue["text"].lower())
+        wanted = WORD_TOKEN.findall(spoken_text(cue["text"]).lower())
         if not wanted:
             continue
         best_score, best_pos = 0.0, None
@@ -814,10 +849,10 @@ def retry_dropped(model, audio, cues, total_seconds, results, shifts):
         words = (got.get(cue["i"]) or {}).get("words") or []
         if not words:
             continue
-        if [w[0] for w in words] != cue["text"].split():
+        if [w[0] for w in words] != spoken_text(cue["text"]).split():
             continue
         first, last = words[0][1], words[-1][2]
-        natural = len(cue["text"]) / NOMINAL_CHARS_PER_SECOND
+        natural = len(spoken_text(cue["text"])) / NOMINAL_CHARS_PER_SECOND
         # 一句 "Yes?" 的正常时长只有 0.2 秒左右，下限按文本长度取，不设绝对秒数。
         if last - first <= 0 or last - first < max(0.1, 0.5 * natural):
             continue
@@ -889,7 +924,7 @@ def plausible_reason(cue, next_start, words, expected=None):
     if last - first <= 0:
         return "instant"
     # 对齐是库对给定文本做的；词表一旦和原文不一致（常见为重复末词），整句不可信。
-    if [w[0] for w in words] != cue["text"].split():
+    if [w[0] for w in words] != spoken_text(cue["text"]).split():
         return "word-mismatch"
     if last < cue_start + 0.2:
         return "before-start"
@@ -1580,6 +1615,7 @@ def main():
         log("run_summary attempted=0 left=0")
         return 0
 
+    silence_tqdm()
     import stable_whisper as sw
 
     threads = args.cpu_threads or min(16, (os.cpu_count() or 4))
