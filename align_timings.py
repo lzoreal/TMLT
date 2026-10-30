@@ -689,11 +689,11 @@ def plausible_reason(cue, next_start, words, expected=None):
     first = words[0][1]
     last = words[-1][2]
 
-    # 整句被压成 instant，或末词落在窗口截断点，都没有可用的逐词信息。
+    # 整句被压成 instant 就没有可用信息；但"末词零长度"是库的常见产物
+    # （本地 #74 实测 11/31 的失败句其实首词偏差 <0.4 秒，末词只是被压成零长），
+    # 只影响 end 的取法，不该整句作废。
     if last - first <= 0:
         return "instant"
-    if words[-1][2] - words[-1][1] <= 0:
-        return "zero-last"
     # 对齐是库对给定文本做的；词表一旦和原文不一致（常见为重复末词），整句不可信。
     if [w[0] for w in words] != cue["text"].split():
         return "word-mismatch"
@@ -760,7 +760,9 @@ def build_segments(cues, results, shifts=None):
             dropped += 1
         start_ms = int(round((cue["start"] + shifts.get(cue["i"], 0.0)) * 1000))
         if words:
-            end_ms = int(round(words[-1][2] * 1000))
+            # 末词可能是零长度（库的产物），end 取最后一个有正时长的词。
+            last_word = next((w for w in reversed(words) if w[2] > w[1]), words[-1])
+            end_ms = int(round(last_word[2] * 1000))
             word_payload = [
                 [text, int(round(s * 1000)), int(round((e - s) * 1000))]
                 for text, s, e in words
