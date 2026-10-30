@@ -1316,7 +1316,12 @@ def run_episode(model, session, source, args, workdir, tag=""):
 
     # 少量缺口（交叉说话、无法对齐的标签句）重试也修不好，按整集比例判定；
     # 只有大比例失败才值得再跑一次。
+    # failures 要按最终 results 重算：首轮失败后 realign/rescue/补对齐救回来的句
+    # 不再算失败，否则补对齐写回了词也仍然判不完整。
     speech_total = len(cues) - skipped
+    failures = sum(
+        1 for c in cues if not BRACKET.match(c["text"]) and c["i"] not in results
+    )
     complete = (
         speech_total > 0
         and dropped <= 0.10 * len(results)
