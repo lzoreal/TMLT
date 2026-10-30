@@ -63,6 +63,9 @@ MAX_LOCAL_SHIFT = 15.0
 # ±11 秒的窗口永远看不见，只能靠定位。
 MAX_LOCATED_SHIFT = 300.0
 LOCATED_GAP = 180.0
+# 定位覆盖率低于此值时退回官网时间轴。60% 会把只差几个百分点的集挡在门外
+# （实测 #9 匹配 57%，70 个锚点被整批丢掉，整集只能按错误的时间轴对齐）。
+MIN_LOCATE_COVERAGE = 0.5
 
 # 未完成的 sidecar 最多自动重试次数；超过即放弃，避免确定性失败每轮重跑。
 MAX_ATTEMPTS = 2
@@ -310,18 +313,27 @@ def group_cues(cues):
     return groups
 
 
-def align_group(model, audio, group, total_seconds, shift=0.0):
+def align_group(model, audio, group, total_seconds, shift=0.0, per_cue=None):
     """对一个 cue 组切窗、对齐，返回 {cue 序号: {"words": [...]}}。
 
     shift 是这一组相对官网 begin 的实测位移：母带与稿件在段界处有几秒差，
     窗口和合理带都要跟着挪，否则 DTW 会对着错误的音频硬贴。
+    per_cue 是逐句位移：组内正好跨过段界时，只用组首那一句的位移会把后半组
+    切到窗口外（实测 #74 27:40 那簇因此整体偏 16 秒），窗口按每句的期望位置取并集。
     """
 
     lo = max(0.0, group[0]["start"] + shift - PAD)
     # 不能只看最后一句：cue 时序会重叠，前一句的长台词可能延伸到后面。
-    hi = min(total_seconds, max(
-        c["start"] + cue_span(c) for c in group
-    ) + shift + TAIL_PAD)
+    hi = max(c["start"] + cue_span(c) for c in group) + shift + TAIL_PAD
+    if per_cue:
+        cue_lo = min(c["start"] + per_cue.get(c["i"], shift) for c in group) - PAD
+        cue_hi = max(c["start"] + cue_span(c) + per_cue.get(c["i"], shift)
+                     for c in group) + TAIL_PAD
+        # 个别锚点离谱时窗口会横跨两段不相干的音频，这时退回组首估计。
+        if cue_hi - cue_lo <= MAX_SPAN + PAD + TAIL_PAD + 3 * MAX_EARLY:
+            lo = max(0.0, cue_lo)
+            hi = cue_hi
+    hi = min(total_seconds, hi)
     clip = audio[int(lo * SR): int(hi * SR)]
     # 夹到片尾/平移过头时会切出空片段，交给 FFmpeg 只会抛
     # RuntimeError: FFmpeg failed to read "[]"，按"这句没对上"处理。
@@ -357,7 +369,8 @@ def align_episode(model, audio, cues, total_seconds, shifts=None):
     for group in group_cues(speech):
         try:
             aligned = align_group(model, audio, group, total_seconds,
-                                  shifts.get(group[0]["i"], 0.0))
+                                  shifts.get(group[0]["i"], 0.0),
+                                  per_cue=shifts or None)
         except Exception as exc:
             failures += len(group)
             log(f"    align failed on cue {group[0]['i']}-{group[-1]['i']}: "
@@ -591,7 +604,8 @@ def realign_shifted(model, audio, cues, total_seconds, results, shifts,
         if abs(shift) < min_shift or abs(shift) > max_shift:
             continue
         try:
-            aligned = align_group(model, audio, group, total_seconds, shift)
+            aligned = align_group(model, audio, group, total_seconds, shift,
+                                  per_cue=shifts)
         except Exception as exc:
             log(f"    realign failed on cue {group[0]['i']}: {type(exc).__name__}")
             continue
@@ -667,6 +681,36 @@ def rescue_groups(model, audio, cues, total_seconds, results, shifts, tries=3):
     return redone
 
 
+def adopt_measured_shifts(cues, results, shifts, min_gap=MAX_EARLY):
+    """把"对齐结果与定位估计矛盾、但词长合理"的句改成实测位置。
+
+    定位估计是切窗前的推断，段界处会落后一步：实测 #74 在 27:40 一簇句的估计比
+    实际位置早 16 秒、34:43 一簇早 26 秒，对齐本身是连续单调的，被拒只是因为离
+    估计值太远。矛盾超过 MAX_EARLY 且词长与文本相符时，实测位置才是证据。
+
+    词长守卫防的是另一种错：窗口切错时 DTW 会把整句压进错误音频，词长明显短于
+    文本应有的时长，这种矛盾句保持原估计、交给合理性检查丢弃。
+    """
+
+    adopted = 0
+    for cue in cues:
+        aligned = results.get(cue["i"])
+        words = aligned["words"] if aligned else []
+        if not words:
+            continue
+        measured = words[0][1] - cue["start"]
+        if abs(measured - shifts.get(cue["i"], 0.0)) <= min_gap:
+            continue
+        if abs(measured) > MAX_LOCATED_SHIFT:
+            continue
+        natural = len(cue["text"]) / NOMINAL_CHARS_PER_SECOND
+        if words[-1][2] - words[0][1] < max(0.3, 0.5 * natural):
+            continue
+        shifts[cue["i"]] = measured
+        adopted += 1
+    return adopted
+
+
 def judge(cues, results, shifts):
     """按平移重算残差、写 segments；返回 (残差中位, segments, dropped)。"""
 
@@ -719,6 +763,30 @@ def plausible_words(cue, next_start, words, expected=None):
     """
 
     return not plausible_reason(cue, next_start, words, expected)
+
+
+def drop_reasons(cues, results, shifts):
+    """统计被丢弃的句按原因分类，附三个例子；拒绝时写进日志。"""
+
+    shifts = shifts or {}
+    counts = {}
+    examples = []
+    for index, cue in enumerate(cues):
+        aligned = results.get(cue["i"])
+        words = aligned["words"] if aligned else []
+        if not words:
+            continue
+        expected = cue["start"] + shifts.get(cue["i"], 0.0)
+        next_cue = cues[index + 1] if index + 1 < len(cues) else None
+        next_start = (next_cue["start"] + shifts.get(next_cue["i"], 0.0)
+                      if next_cue is not None else None)
+        reason = plausible_reason(cue, next_start, words, expected)
+        if not reason:
+            continue
+        counts[reason] = counts.get(reason, 0) + 1
+        if len(examples) < 3:
+            examples.append(f"cue{cue['i']}@{human(cue['start'])} {reason}")
+    return counts, examples
 
 
 def dump_cues(path, cues, results, shifts):
@@ -1043,14 +1111,15 @@ def run_episode(model, session, source, args, workdir, tag=""):
     located = {}
     if args.locate_first:
         anchors, coverage = locate_cues(model, audio, cues, cache=token_cache)
-        if coverage >= 0.6:
+        if coverage >= MIN_LOCATE_COVERAGE:
             located = {c["i"]: anchors[c["i"]] - c["start"]
                        for c in cues if c["i"] in anchors}
             located = fill_gaps(located, cues)
             log(f"{tag}#{episode} 先定位再对齐：覆盖 {coverage:.0%}，"
                 f"平移 {min(located.values()):+.1f}…{max(located.values()):+.1f}s")
         else:
-            log(f"{tag}#{episode} 定位覆盖率 {coverage:.0%}，退回官网时间轴")
+            log(f"{tag}#{episode} 定位覆盖率 {coverage:.0%}，"
+                f"不足 {MIN_LOCATE_COVERAGE:.0%}，退回官网时间轴")
     results, skipped, failures = align_episode(model, audio, cues, audio_seconds, located)
     align_seconds = time.time() - align_started
 
@@ -1084,11 +1153,19 @@ def run_episode(model, session, source, args, workdir, tag=""):
     # 母带与稿件在段界处有几秒差，先按邻域实测偏移重算期望起点，
     # 再看残差是"对齐不稳"还是"官网 begin 不准"。
     if located:
-        # 已经按 ASR 定位对齐过，定位结果就是期望起点，不再从残差反推。
+        # 定位结果是切窗前的估计，不是最终事实：对齐落点与它矛盾时要重新取证据。
         shifts, untrusted = dict(located), set()
     else:
         shifts, untrusted = local_shifts(cues, results)
-    median_abs, segments, dropped = judge(cues, results, shifts)
+
+    def refresh():
+        adopted = adopt_measured_shifts(cues, results, shifts) if located else 0
+        if adopted:
+            log(f"{tag}#{episode} 采纳实测位置 {adopted} 句"
+                f"（与定位估计差 >{MAX_EARLY:.0f}s，词长合理）")
+        return judge(cues, results, shifts)
+
+    median_abs, segments, dropped = refresh()
     raw_median = percentile([abs(e) for e in begin_errors], 0.5) if begin_errors else float("nan")
 
     if shifts and median_abs > AUDIO_MISMATCH_SECONDS:
@@ -1104,18 +1181,19 @@ def run_episode(model, session, source, args, workdir, tag=""):
             and (median_abs > AUDIO_MISMATCH_SECONDS
                  or (results and dropped > 0.10 * len(results)))):
         anchors, coverage = locate_cues(model, audio, cues, cache=token_cache)
-        if coverage >= 0.6:
+        if coverage >= MIN_LOCATE_COVERAGE:
             located = {c["i"]: anchors[c["i"]] - c["start"]
                        for c in cues if c["i"] in anchors}
             located = fill_gaps(located, cues)
             redone = realign_shifted(model, audio, cues, audio_seconds, results, located,
                                      max_shift=MAX_LOCATED_SHIFT)
             shifts = {**shifts, **located}
-            median_abs, segments, dropped = judge(cues, results, shifts)
+            median_abs, segments, dropped = refresh()
             log(f"{tag}#{episode} 按定位重锚：重跑 {redone} 组，残差中位 {median_abs:.1f}s，"
                 f"丢弃 {dropped}/{len(results)}")
         else:
-            log(f"{tag}#{episode} ASR 定位覆盖率 {coverage:.0%}，不足 60%，不重锚")
+            log(f"{tag}#{episode} ASR 定位覆盖率 {coverage:.0%}，"
+                f"不足 {MIN_LOCATE_COVERAGE:.0%}，不重锚")
 
     # 第二轮恢复：定位之后仍有一小撮句对不上（实测 #69/#74/#192 卡在 11.6-11.7%），
     # 用邻句实测到的平移做多候选重试。只重跑失败的组，不扩大搜索范围。
@@ -1124,13 +1202,26 @@ def run_episode(model, session, source, args, workdir, tag=""):
             and median_abs <= AUDIO_MISMATCH_SECONDS):
         rescued = rescue_groups(model, audio, cues, audio_seconds, results, shifts)
         if rescued:
-            median_abs, segments, dropped = judge(cues, results, shifts)
+            median_abs, segments, dropped = refresh()
             log(f"{tag}#{episode} 多候选重试 {rescued} 组 → "
                 f"残差中位 {median_abs:.1f}s，丢弃 {dropped}/{len(results)}")
 
     # 取证落盘要放在拒绝判定之前：被拒的集正是要看的那批。
     if args.dump_cues:
-        dump_cues(args.dump_cues, cues, results, shifts)
+        target = Path(args.dump_cues)
+        if not target.suffix:
+            target.mkdir(parents=True, exist_ok=True)
+            target = target / f"{episode}.tsv"
+        dump_cues(target, cues, results, shifts)
+
+    reject = (median_abs > AUDIO_MISMATCH_SECONDS
+              or (results and dropped > 0.10 * len(results)))
+    if reject:
+        counts, examples = drop_reasons(cues, results, shifts)
+        if counts:
+            summary = ", ".join(f"{k} {v}" for k, v in
+                                sorted(counts.items(), key=lambda kv: -kv[1]))
+            log(f"{tag}#{episode} 丢弃原因: {summary}；例 {', '.join(examples)}")
 
     if median_abs > AUDIO_MISMATCH_SECONDS:
         # 宁可这一集不做，也不要把整体错位的时间轴写进仓库。
@@ -1233,8 +1324,8 @@ def main():
         help="诊断：只跑 ASR 定位并打印覆盖率与偏移分布，不对齐、不写 sidecar",
     )
     parser.add_argument(
-        "--dump-cues", metavar="FILE",
-        help="逐句落盘对齐诊断（官网起点/期望/首末词/失败原因），本地取证用",
+        "--dump-cues", metavar="PATH",
+        help="逐句落盘对齐诊断（官网起点/期望/首末词/失败原因）；给目录名则按集号分文件",
     )
     parser.add_argument(
         "--rescue", action="store_true",
