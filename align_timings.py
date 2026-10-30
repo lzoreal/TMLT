@@ -774,7 +774,7 @@ def adopt_measured_shifts(cues, results, shifts, min_gap=MAX_EARLY):
     return adopted
 
 
-def judge(cues, results, shifts):
+def judge(cues, results, shifts, audio_ms=None):
     """按平移重算残差、写 segments；返回 (残差中位, segments, dropped)。"""
 
     residuals = [
@@ -782,7 +782,7 @@ def judge(cues, results, shifts):
         for c in cues if c["i"] in results
     ]
     median_abs = percentile([abs(e) for e in residuals], 0.5) if residuals else float("nan")
-    segments, dropped = build_segments(cues, results, shifts)
+    segments, dropped = build_segments(cues, results, shifts, audio_ms=audio_ms)
     return median_abs, segments, dropped
 
 
@@ -873,8 +873,13 @@ def dump_cues(path, cues, results, shifts):
                      f"{len(words)}\t{reason}\t{text}\n")
 
 
-def build_segments(cues, results, shifts=None):
-    """返回 (segments, dropped)；dropped 只统计有词但被判定不可信的 cue。"""
+def build_segments(cues, results, shifts=None, audio_ms=None):
+    """返回 (segments, dropped)；dropped 只统计有词但被判定不可信的 cue。
+
+    start 必须早于本句第一词的起点：官网 begin 本身常晚 1-3 秒（实测 816 集里
+    47,693 段的估算起点落在首词之后），播放器会先漏掉开头一小段字幕。
+    无词占位段的 start 只是估计值，夹在前后邻居与音频范围内，避免负值或越界。
+    """
 
     shifts = shifts or {}
     segments = []
@@ -891,9 +896,14 @@ def build_segments(cues, results, shifts=None):
             dropped += 1
         start_ms = int(round((cue["start"] + shifts.get(cue["i"], 0.0)) * 1000))
         if words:
-            # 末词可能是零长度（库的产物），end 取最后一个有正时长的词。
-            last_word = next((w for w in reversed(words) if w[2] > w[1]), words[-1])
-            end_ms = int(round(last_word[2] * 1000))
+            start_ms = min(start_ms, int(round(words[0][1] * 1000)))
+        start_ms = max(0, start_ms)
+        if audio_ms:
+            start_ms = min(start_ms, int(audio_ms))
+        if words:
+            # 末词可能是零长度（库的产物）；end 取所有词里最晚的结束时间，
+            # 只取"最后一个有正时长的词"会漏掉排在它之后、起点更晚的零长词。
+            end_ms = int(round(max(w[2] for w in words) * 1000))
             word_payload = [
                 [text, int(round(s * 1000)), int(round((e - s) * 1000))]
                 for text, s, e in words
@@ -910,6 +920,19 @@ def build_segments(cues, results, shifts=None):
                 "words": word_payload,
             }
         )
+
+    # 无词占位段（舞台提示、被丢句）的 start 只是估计值：夹在前一段起点与下一段
+    # 起点之间，否则一个野平移会让时间轴倒退几十秒或跳到片尾之后（实测 #145/#164）。
+    previous = 0
+    for index, segment in enumerate(segments):
+        if not segment["words"]:
+            start = max(segment["start"], previous)
+            if index + 1 < len(segments):
+                upper = segments[index + 1]["start"]
+                if upper >= previous:
+                    start = min(start, upper)
+            segment["start"] = start
+        previous = segment["start"]
     return segments, dropped
 
 
@@ -1226,7 +1249,7 @@ def run_episode(model, session, source, args, workdir, tag=""):
         if adopted:
             log(f"{tag}#{episode} 采纳实测位置 {adopted} 句"
                 f"（与定位估计差 >{MAX_EARLY:.0f}s，词长合理）")
-        return judge(cues, results, shifts)
+        return judge(cues, results, shifts, audio_ms=int(audio_seconds * 1000))
 
     median_abs, segments, dropped = refresh()
     raw_median = percentile([abs(e) for e in begin_errors], 0.5) if begin_errors else float("nan")
