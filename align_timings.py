@@ -264,20 +264,38 @@ def download(session, url, dest, retries=4):
 
 
 def decode_audio(path):
-    """PyAV 自带 ffmpeg，不需要系统装 ffmpeg。"""
+    """PyAV 自带 ffmpeg，不需要系统装 ffmpeg。
+
+    母带里可能有损坏的包：实测 #566 每次都在 avcodec_send_packet 抛
+    av.error.InvalidDataError，整集永远失败。faster_whisper 自己的解码器也是
+    跳过坏帧继续读，这里照做；跳过量在日志里可见，真有成片损坏会被对齐判据拦下。
+    """
 
     import av
     import numpy as np
 
     chunks = []
-    with av.open(str(path)) as container:
+    skipped = 0
+    with av.open(str(path), metadata_errors="ignore") as container:
         stream = container.streams.audio[0]
         resampler = av.AudioResampler(format="flt", layout="mono", rate=SR)
-        for frame in container.decode(stream):
-            for out in resampler.resample(frame):
-                chunks.append(out.to_ndarray().reshape(-1))
+        # 按包解码：container.decode() 一旦吃到坏包就整体结束（#566 只解出 589 秒），
+        # 逐包用 packet.decode() 才能丢掉那一个包继续往下读。
+        for packet in container.demux(stream):
+            try:
+                frames = packet.decode()
+            except av.error.InvalidDataError:
+                skipped += 1
+                continue
+            for frame in frames:
+                for out in resampler.resample(frame):
+                    chunks.append(out.to_ndarray().reshape(-1))
         for out in resampler.resample(None):
             chunks.append(out.to_ndarray().reshape(-1))
+    if skipped:
+        log(f"    跳过 {skipped} 个损坏的音频帧")
+    if not chunks:
+        raise RuntimeError(f"no audio decoded from {path.name}")
     return np.concatenate(chunks).astype("float32")
 
 
