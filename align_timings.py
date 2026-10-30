@@ -950,21 +950,54 @@ def plausible_words(cue, next_start, words, expected=None):
     return not plausible_reason(cue, next_start, words, expected)
 
 
+def next_starts(cues, results, shifts, trusted=None):
+    """每句的"下句起点"：下句有可信实测词时用首词，否则用平移估计。
+
+    实测 #528 的 32 条 after-next 里有 28 条是因为下句估计值偏早；换算成下句实测
+    首词后整集丢弃从 68 降到 48。trusted=None 表示完全按估计（用于第一遍判定）。
+    """
+
+    starts = []
+    for index, cue in enumerate(cues):
+        following = cues[index + 1] if index + 1 < len(cues) else None
+        if following is None:
+            starts.append(None)
+            continue
+        words = (results.get(following["i"]) or {}).get("words") or []
+        if words and (trusted is None or following["i"] in trusted):
+            starts.append(words[0][1])
+        else:
+            starts.append(following["start"] + shifts.get(following["i"], 0.0))
+    return starts
+
+
+def trusted_cues(cues, results, shifts):
+    """第一遍按估计判一遍，返回词可用的句；它们的实测首词才拿来当下句起点。"""
+
+    estimated = next_starts(cues, results, shifts)
+    trusted = set()
+    for index, cue in enumerate(cues):
+        words = (results.get(cue["i"]) or {}).get("words") or []
+        if words and plausible_words(cue, estimated[index], words,
+                                     cue["start"] + shifts.get(cue["i"], 0.0)):
+            trusted.add(cue["i"])
+    return trusted
+
+
 def drop_reasons(cues, results, shifts):
     """统计被丢弃的句按原因分类，附三个例子；拒绝时写进日志。"""
 
     shifts = shifts or {}
     counts = {}
     examples = []
+    starts = next_starts(cues, results, shifts, trusted_cues(cues, results, shifts))
     for index, cue in enumerate(cues):
         aligned = results.get(cue["i"])
         words = aligned["words"] if aligned else []
         if not words:
             continue
         expected = cue["start"] + shifts.get(cue["i"], 0.0)
-        next_cue = cues[index + 1] if index + 1 < len(cues) else None
-        next_start = (next_cue["start"] + shifts.get(next_cue["i"], 0.0)
-                      if next_cue is not None else None)
+        next_start = starts[index]
         reason = plausible_reason(cue, next_start, words, expected)
         if not reason:
             continue
@@ -1004,15 +1037,15 @@ def build_segments(cues, results, shifts=None, audio_ms=None):
     """
 
     shifts = shifts or {}
+    starts = next_starts(cues, results, shifts,
+                         trusted_cues(cues, results, shifts))
     segments = []
     dropped = 0
     for index, cue in enumerate(cues):
         aligned = results.get(cue["i"])
         words = aligned["words"] if aligned else []
         expected = cue["start"] + shifts.get(cue["i"], 0.0)
-        next_cue = cues[index + 1] if index + 1 < len(cues) else None
-        next_start = (next_cue["start"] + shifts.get(next_cue["i"], 0.0)
-                      if next_cue is not None else None)
+        next_start = starts[index]
         if words and not plausible_words(cue, next_start, words, expected):
             words = []
             dropped += 1
