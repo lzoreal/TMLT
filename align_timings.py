@@ -80,7 +80,10 @@ USER_AGENT = (
     "AppleWebKit/537.36 Chrome/126.0 Safari/537.36"
 )
 
-BRACKET = re.compile(r"^\s*\[.*\]\s*$", re.DOTALL)
+# 舞台提示按设计不参与对齐；但官网有 288 句带尾标点（"[INAUDIBLE]."、
+# "[SPEAKING TIGRINYA]."），旧正则只认纯方括号，这些句被当成台词，其中 199 句
+# 还被写进了伪造的词时间（"[LAUGHTER]." 成了逐词），89 句直接判失败。
+BRACKET = re.compile(r"^\s*\[.*\]\s*[.!?]?\s*$", re.DOTALL)
 # 定位用的词元：小写字母数字加撇号，标点不参与匹配。
 WORD_TOKEN = re.compile(r"[a-z0-9']+")
 TIMESTAMP = re.compile(
