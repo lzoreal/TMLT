@@ -537,9 +537,37 @@ def match_cues(tokens, cues, block_ratio=0.35, window=400, max_window=3000):
             anchors[cue["i"]] = tokens[best_pos][1]
             pointer = best_pos
 
+    anchors = drop_outlier_anchors(anchors, cues)
+
     sought = sum(1 for c in cues if WORD_TOKEN.search(c["text"].lower()))
     coverage = len(anchors) / sought if sought else 0.0
     return anchors, coverage
+
+
+def drop_outlier_anchors(anchors, cues, neighbours=3, tolerance=90.0):
+    """剔除与邻域中位平移相差过大的锚点。
+
+    误匹配通常来自重复语句：实测 #192 有两个锚点比邻域偏 127 秒和 224 秒，
+    CI 上 #447 也出现过一个 +119 秒的锚点（邻域在 −21…+36 秒），它们会被
+    "邻句填充"扩散到一小段，把整集丢弃率顶到 10% 以上。
+    真实段界阶梯实测最大 55 秒（#69），所以 90 秒能分开两者：
+    离群锚点丢弃后，该句改用邻句平移，比对到一个错误位置安全。
+    """
+
+    if not anchors:
+        return anchors
+    ordered = sorted((cue["start"], cue["i"]) for cue in cues if cue["i"] in anchors)
+    values = [anchors[i] - t for t, i in ordered]
+
+    kept = {}
+    for idx, (when, cue_index) in enumerate(ordered):
+        near = values[max(0, idx - neighbours):idx] + values[idx + 1:idx + 1 + neighbours]
+        if len(near) >= 2:
+            median = percentile(near, .5)
+            if abs(values[idx] - median) > tolerance:
+                continue
+        kept[cue_index] = anchors[cue_index]
+    return kept
 
 
 def locate_cues(model, audio, cues, cache=None, **kwargs):
