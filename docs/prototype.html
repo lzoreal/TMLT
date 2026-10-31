@@ -191,7 +191,8 @@ button{cursor:pointer;background:none;border:0;padding:0}
 .cue.active .word.pending{opacity:var(--pending-op)}
 .word.past{opacity:1}
 .word.active{
-  color:var(--wordactive);font-weight:600;
+  color:var(--wordactive);
+  -webkit-text-stroke-width:.4px;-webkit-text-stroke-color:currentColor;
   background-image:linear-gradient(180deg,transparent 56%,color-mix(in srgb,color-mix(in srgb,var(--accent) 70%,#fff4dc) 52%,transparent) 56%,color-mix(in srgb,color-mix(in srgb,var(--accent) 70%,#fff4dc) 44%,transparent) 95%,transparent 95%);
   text-shadow:0 0 24px color-mix(in srgb,var(--accent) 34%,transparent);
 }
@@ -446,6 +447,14 @@ html[data-scheme="light"] .themebtn .ico-moon{display:block}
 }
 .switch[aria-checked="true"]{background:color-mix(in srgb, var(--accent) 22%, transparent);border-color:color-mix(in srgb, var(--accent) 55%, transparent)}
 .switch[aria-checked="true"]::after{transform:translateX(16px);background:var(--accent)}
+.importrow{align-items:center;gap:8px;margin-bottom:12px}
+.import-actions{display:flex;gap:6px;justify-self:end}
+.import-actions .textbtn{padding:5px 7px;font-size:11px}
+.import-note{grid-column:1/-1;font-size:10.5px;color:var(--dim);line-height:1.55;margin-top:2px;word-break:break-all;letter-spacing:.02em}
+.import-note.on{color:var(--accent)}
+.import-note.err{color:var(--warn)}
+#restoreBtn[disabled]{opacity:.35;pointer-events:none}
+.transcript.drop{outline:2px dashed color-mix(in srgb, var(--accent) 60%, transparent);outline-offset:-10px}
 .rrow input[type=range]{
   grid-column:1/-1;width:100%;height:2px;margin:1px 0 0;border-radius:2px;background:var(--track);
   appearance:none;-webkit-appearance:none;outline:none;cursor:pointer;
@@ -696,6 +705,15 @@ body.playing .eq i{animation:eq .9s ease-in-out infinite alternate}
   <label class="rrow"><span>段间距</span><output id="outGap">4 px</output><input id="rdGap" type="range" min="0" max="32" step="1" value="4" aria-label="段间距"></label>
   <label class="rrow"><span>字间距</span><output id="outLs">0.06 px</output><input id="rdLs" type="range" min="0" max="2" step="0.02" value="0.06" aria-label="字间距"></label>
   <label class="rrow"><span>未读文字</span><output id="outPending">42%</output><input id="rdPending" type="range" min="15" max="80" step="1" value="42" aria-label="未读文字强度"></label>
+  <div class="rrow importrow">
+    <span>实验数据</span>
+    <div class="import-actions">
+      <button id="importBtn" class="textbtn">导入 JSON…</button>
+      <button id="restoreBtn" class="textbtn" disabled>还原</button>
+    </div>
+    <div class="import-note" id="importNote">timings sidecar，或 {vtt, zh, segments} 实验包；也可把 JSON 拖进正文。</div>
+  </div>
+  <input id="importFile" type="file" accept=".json,application/json" hidden>
 </div>
 
 <button class="coverframe" id="frameBtn" aria-label="退出沉浸模式" title="回到播放器" inert>
@@ -766,7 +784,7 @@ const $ = id => document.getElementById(id);
 const audio = (() => { const a = document.createElement('audio'); a.preload = 'metadata'; document.body.append(a); return a; })();
 const listBox = $('epList'), box = $('transcript');
 const state = { episodes: [], current: null, cues: [], nodes: [], activeCue: -1, wordIdx: -1,
-  vtt: null, sidecar: null, zhVtt: null,
+  vtt: null, sidecar: null, zhVtt: null, base: null, experiment: null,
   mode: 'word', scroll: 'center', offset: 0, userScrollUntil: 0, immersive: false };
 
 const themeBtns = [...document.querySelectorAll('.swatch')];
@@ -889,6 +907,77 @@ $('typeReset').onclick = () => {
   applyReader();
   rebuildCues();
 };
+function setImportNote(text, cls = '') {
+  const n = $('importNote');
+  n.textContent = text;
+  n.className = 'import-note' + (cls ? ' ' + cls : '');
+}
+function resetImportUI() {
+  setImportNote('timings sidecar，或 {vtt, zh, segments} 实验包；也可把 JSON 拖进正文。');
+  $('restoreBtn').disabled = true;
+  $('importFile').value = '';
+}
+function applyExperiment(obj, name) {
+  const looksVtt = s => typeof s === 'string' && (/^\s*WEBVTT/.test(s) || s.includes('-->'));
+  const sc = (Array.isArray(obj?.segments)) ? obj
+    : (Array.isArray(obj?.sidecar?.segments)) ? obj.sidecar
+    : (Array.isArray(obj?.timings?.segments)) ? obj.timings : null;
+  const vttText = looksVtt(obj?.vtt) ? obj.vtt
+    : looksVtt(obj?.vttText) ? obj.vttText : null;
+  const zhText = looksVtt(obj?.zh) ? obj.zh
+    : looksVtt(obj?.zhText) ? obj.zhText : null;
+  const base = state.base;
+  if (!sc && !vttText) throw new Error('找不到 segments 或 vtt 字段');
+  let vtt;
+  if (vttText) {
+    vtt = parseVTT(vttText);
+    if (!vtt.length) throw new Error('VTT 解析为空');
+  } else {
+    vtt = base?.vtt || state.vtt;
+    if (!vtt || !vtt.length) throw new Error('当前没有可套用的 VTT');
+  }
+  const zh = zhText ? parseZhVTT(zhText) : (vttText ? null : (base ? base.zhVtt : state.zhVtt));
+  state.vtt = vtt; state.sidecar = sc; state.zhVtt = zh; state.experiment = name;
+  state.cues = mergeCues(vtt, sc, zh);
+  renderCues();
+  status('实验数据：' + name + ' · ' + vtt.length + ' 段' + (sc ? ' · ' + sc.segments.length + ' 组词级' : ' · 无词级'), 'good');
+  setImportNote('已导入 ' + name, 'on');
+  $('restoreBtn').disabled = !base;
+}
+function restoreExperiment() {
+  if (!state.base) return;
+  state.vtt = state.base.vtt; state.sidecar = state.base.sidecar; state.zhVtt = state.base.zhVtt;
+  state.experiment = null;
+  state.cues = mergeCues(state.vtt, state.sidecar, state.zhVtt);
+  renderCues();
+  status('已还原剧集数据', 'good');
+  resetImportUI();
+}
+function importExperimentFile(file) {
+  if (!file) return;
+  if (!/\.json$/i.test(file.name)) { setImportNote('请选择 .json 文件', 'err'); return; }
+  file.text().then(txt => {
+    let obj;
+    try { obj = JSON.parse(txt); } catch (e) { throw new Error('JSON 解析失败：' + e.message); }
+    applyExperiment(obj, file.name);
+  }).catch(err => {
+    setImportNote(err.message, 'err');
+    status('实验数据导入失败：' + err.message, 'warn');
+  });
+}
+$('importBtn').onclick = () => $('importFile').click();
+$('importFile').addEventListener('change', e => { importExperimentFile(e.target.files[0]); e.target.value = ''; });
+$('restoreBtn').onclick = restoreExperiment;
+['dragenter', 'dragover'].forEach(t => box.addEventListener(t, e => { e.preventDefault(); box.classList.add('drop'); }));
+box.addEventListener('dragleave', e => { if (!box.contains(e.relatedTarget)) box.classList.remove('drop'); });
+box.addEventListener('drop', e => {
+  e.preventDefault();
+  box.classList.remove('drop');
+  const f = e.dataTransfer?.files?.[0];
+  if (f) importExperimentFile(f);
+});
+document.addEventListener('dragover', e => { if (e.dataTransfer?.types?.includes('Files')) e.preventDefault(); });
+document.addEventListener('drop', e => { if (e.dataTransfer?.types?.includes('Files')) e.preventDefault(); });
 document.addEventListener('click', e => {
   if (!$('typeSheet').contains(e.target) && e.target !== $('typeBtn')) closeTypeSheet();
 });
@@ -1402,6 +1491,7 @@ function selectEpisode(item) {
   $('seek').value = '0'; $('pfill').style.width = '0%';
   box.innerHTML = '<div class="empty">' + loaderHTML('正在加载 VTT 与时间轴…') + '</div>';
   state.cues = []; state.nodes = []; state.activeCue = -1; state.vtt = null; state.sidecar = null; state.zhVtt = null;
+  state.base = null; state.experiment = null; resetImportUI();
   syncJumpPill();
   closeDrawer();
   status('正在加载 #' + item.ep + ' 的 VTT 与时间轴…');
@@ -1414,6 +1504,7 @@ function selectEpisode(item) {
     const vtt = parseVTT(vttText);
     state.vtt = vtt; state.sidecar = sidecar;
     state.zhVtt = zhText ? parseZhVTT(zhText) : null;
+    state.base = { vtt, sidecar, zhVtt: state.zhVtt };
     state.cues = mergeCues(vtt, sidecar, state.zhVtt);
     const aligned = sidecar && Array.isArray(sidecar.segments) && sidecar.segments.length === vtt.length;
     const complete = sidecar?.complete === true;
