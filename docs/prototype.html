@@ -785,7 +785,8 @@ const audio = (() => { const a = document.createElement('audio'); a.preload = 'm
 const listBox = $('epList'), box = $('transcript');
 const state = { episodes: [], current: null, cues: [], nodes: [], activeCue: -1, wordIdx: -1,
   vtt: null, sidecar: null, zhVtt: null, base: null, experiment: null,
-  mode: 'word', scroll: 'center', offset: 0, userScrollUntil: 0, immersive: false };
+  mode: 'word', scroll: 'center', offset: 0, userScrollUntil: 0, immersive: false,
+  timeScale: 1, audioSeconds: 0 };
 
 const themeBtns = [...document.querySelectorAll('.swatch')];
 const LIGHT_THEMES = new Set(['paper', 'mist']);
@@ -1419,7 +1420,16 @@ function renderCues() {
   paint(false);
 }
 
-function seekTo(t) { if (!state.current) return; audio.currentTime = Math.max(0, t); audio.play().catch(() => {}); paint(true); }
+function updateTimeScale() {
+  const duration = audio.duration;
+  const real = state.audioSeconds;
+  state.timeScale = (Number.isFinite(duration) && duration > 0
+      && Number.isFinite(real) && real > 0
+      && Math.abs(real - duration) > 0.5) ? real / duration : 1;
+  $('total').textContent = fmt(real || duration || 0);
+}
+
+function seekTo(t) { if (!state.current) return; audio.currentTime = Math.max(0, t / (state.timeScale || 1)); audio.play().catch(() => {}); paint(true); }
 
 function locateCue(t) {
   // 当前句还覆盖播放头就保持不动：相邻句常有词级重叠，按 start 切会提前跳句。
@@ -1440,7 +1450,8 @@ function locateCue(t) {
 
 function paint(force = false) {
   if (!state.cues.length) { syncJumpPill(); return; }
-  const t = audio.currentTime || 0;
+  const raw = audio.currentTime || 0;
+  const t = raw * state.timeScale;
   let ci = locateCue(t);
   // 未开始播放时定位不到任何句，默认高亮第一句
   if (ci < 0 && t < 0.001) ci = 0;
@@ -1456,7 +1467,7 @@ function paint(force = false) {
   if (ci >= 0 && state.mode === 'word') paintWords(ci, t);
   $('now').textContent = fmt(t);
   if (Number.isFinite(audio.duration) && audio.duration > 0) {
-    const pct = Math.min(100, Math.max(0, t / audio.duration * 100));
+    const pct = Math.min(100, Math.max(0, raw / audio.duration * 100));
     $('seek').value = String(Math.round(pct * 10));
     $('pfill').style.width = pct + '%';
   }
@@ -1547,6 +1558,7 @@ function selectEpisode(item) {
   frameCover.onerror = () => { frameCover.onerror = null; frameCover.src = coverFallback; };
   frameCover.src = item.img || coverFallback;
   audio.src = item.url; audio.load();
+  state.audioSeconds = 0; state.timeScale = 1;
   $('total').textContent = '00:00'; $('now').textContent = '00:00';
   $('seek').value = '0'; $('pfill').style.width = '0%';
   box.innerHTML = '<div class="empty">' + loaderHTML('正在加载 VTT 与时间轴…') + '</div>';
@@ -1565,6 +1577,8 @@ function selectEpisode(item) {
     state.vtt = vtt; state.sidecar = sidecar;
     state.zhVtt = zhText ? parseZhVTT(zhText) : null;
     state.base = { vtt, sidecar, zhVtt: state.zhVtt };
+    state.audioSeconds = Number(sidecar?.audio_seconds) || 0;
+    updateTimeScale();
     state.cues = mergeCues(vtt, sidecar, state.zhVtt);
     const aligned = sidecar && Array.isArray(sidecar.segments) && sidecar.segments.length === vtt.length;
     const complete = sidecar?.complete === true;
@@ -1637,10 +1651,16 @@ audio.addEventListener('playing', () => setBuffering(false));
 audio.addEventListener('canplay', () => setBuffering(false));
 audio.addEventListener('pause', () => setBuffering(false));
 audio.addEventListener('emptied', () => setBuffering(false));
-audio.addEventListener('loadedmetadata', () => { $('total').textContent = fmt(audio.duration || 0); paint(false); });
+audio.addEventListener('loadedmetadata', () => { updateTimeScale(); paint(false); });
 audio.addEventListener('timeupdate', () => paint());
-$('back').onclick = () => { audio.currentTime = Math.max(0, audio.currentTime - 5); paint(true); };
-$('forward').onclick = () => { audio.currentTime = Math.min(audio.duration || Infinity, audio.currentTime + 5); paint(true); };
+function seekBy(seconds) {
+  const t = (audio.currentTime || 0) * state.timeScale + seconds;
+  audio.currentTime = Math.min(audio.duration || Infinity,
+      Math.max(0, t / (state.timeScale || 1)));
+  paint(true);
+}
+$('back').onclick = () => seekBy(-5);
+$('forward').onclick = () => seekBy(5);
 const speedBtn = $('speedBtn'), speedMenu = $('speedMenu');
 function closeSpeedMenu() { speedMenu.classList.remove('on'); speedBtn.setAttribute('aria-expanded', 'false'); }
 speedBtn.onclick = e => {
@@ -1755,8 +1775,8 @@ document.addEventListener('keydown', e => {
   }
   if (e.target.closest('input, select, textarea')) return;
   if (e.code === 'Space') { e.preventDefault(); $('play').click(); }
-  else if (e.code === 'ArrowLeft') { e.preventDefault(); audio.currentTime = Math.max(0, audio.currentTime - 5); paint(true); }
-  else if (e.code === 'ArrowRight') { e.preventDefault(); audio.currentTime = Math.min(audio.duration || Infinity, audio.currentTime + 5); paint(true); }
+  else if (e.code === 'ArrowLeft') { e.preventDefault(); seekBy(-5); }
+  else if (e.code === 'ArrowRight') { e.preventDefault(); seekBy(5); }
 });
 (function loop() { if (!audio.paused) paint(); requestAnimationFrame(loop); })();
 loadFeed();
