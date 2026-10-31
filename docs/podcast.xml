@@ -40,6 +40,30 @@ type="application/rss+xml"/>
 
 <item>
 
+<title>900: Talk Me Into It</title>
+
+<link>https://www.thisamericanlife.org/900/talk-me-into-it</link>
+
+<guid isPermaLink="true">https://www.thisamericanlife.org/900/talk-me-into-it</guid>
+
+<description>It’s the midterms! This week’s show is about people changing their minds and not changing their minds — and the people trying to do the persuading.</description>
+
+<itunes:image href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/tal-900-timpeacock.jpg?itok=1NGyL35U"/>
+
+<podcast:image href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/tal-900-timpeacock.jpg?itok=1NGyL35U"/>
+
+<pubDate>Fri, 16 Oct 2026 11:21:15 -0400</pubDate>
+
+<enclosure
+url="https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/900.mp3"
+type="audio/mpeg"/>
+
+
+</item>
+
+
+<item>
+
 <title>899: Reaching Out</title>
 
 <link>https://www.thisamericanlife.org/899/reaching-out</link>
