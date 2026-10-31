@@ -1,0 +1,126 @@
+name: Mirror masters to audio vault
+
+# 877 集母带 39 GB 不进任何 git 历史：TMLT 是 public 且 docs/ 就是 Pages 根，
+# 音频一旦进主仓库，一次投诉会把站点和 873 集逐词时间轴一起带走。
+# 所以本 workflow 只做「下载 → 原样校验 → 上传到 private 保险库的 release」。
+#
+# 为什么两头都要：release 的容量政策不分 public/private（单文件 <2 GiB、
+# 每个 release ≤1000 资产、总大小与带宽都不限，877 集一个 release 装得下），
+# 但 Actions 分钟数分——public 仓库的 Linux job 免费且不占月度配额，
+# private 仓库要消耗套餐分钟数。任务跑在 public 的 TMLT，产物传去 private 的 vault。
+#
+# 幂等：release 上已有同名资产且 size+digest 都对得上就跳过，重跑只补漏。
+# 冒烟：commit 关掉时只下载并算 sha256，不创建 tag、不传资产。
+
+on:
+  workflow_dispatch:
+    inputs:
+      shards:
+        description: "并行几档（1-10；账号同时运行的 job 有上限）"
+        default: "10"
+      episodes:
+        description: "逗号分隔的集号（留空 = 清单里全部）"
+        default: ""
+      repo:
+        description: "保险库仓库 owner/name（private）"
+        default: "lzoreal/tmlt-audio-vault"
+      tag:
+        description: "逗号分隔的卷；新集只传到最后一卷，前面的卷仍算已备份"
+        default: "audio-vault"
+      target:
+        description: "tag 落在保险库的哪条分支"
+        default: "audio"
+      commit:
+        description: "真的上传 release（冒烟测试关掉：只下载校验，不碰 release）"
+        type: boolean
+        default: false
+
+concurrency:
+  group: tmlt-audio-vault
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      lanes: ${{ steps.split.outputs.lanes }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: python -m pip install --quiet requests
+      - id: split
+        env:
+          EPISODES: ${{ inputs.episodes || '' }}
+          SHARDS: ${{ inputs.shards || '10' }}
+        run: |
+          set -o pipefail
+          if [ -n "$EPISODES" ]; then
+            lanes=$(python -X utf8 audio_backup.py plan --shards "$SHARDS" --episodes "$EPISODES")
+          else
+            lanes=$(python -X utf8 audio_backup.py plan --shards "$SHARDS")
+          fi
+          # 坏计划必须在这里拦住：矩阵少一项就少一档，多一项会超账号的并行 job 上限。
+          printf '%s' "$lanes" | python -c '
+          import json, sys
+          lanes = json.load(sys.stdin)
+          assert len(lanes) == 20, f"计划应为 20 档，实际 {len(lanes)}"
+          '
+          echo "lanes=$lanes" >> "$GITHUB_OUTPUT"
+
+  mirror:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: ${{ fromJSON(inputs.shards) }}
+    matrix:
+      lane: ${{ fromJSON(needs.plan.outputs.lanes) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: python -m pip install --quiet requests
+      - name: Mirror this lane
+        env:
+          GH_TOKEN: ${{ secrets.AUDIO_VAULT_TOKEN }}
+          VAULT_REPO: ${{ inputs.repo }}
+          TAG: ${{ inputs.tag }}
+          TARGET: ${{ inputs.target }}
+          EPISODES: ${{ matrix.lane }}
+          COMMIT: ${{ inputs.commit }}
+          OUT: ${{ runner.temp }}/vault
+        run: |
+          set -o pipefail
+          if [ -z "$EPISODES" ]; then
+            echo "空档，本档没分到集"
+            exit 0
+          fi
+          if [ -z "$GH_TOKEN" ]; then
+            echo "缺少 secrets.AUDIO_VAULT_TOKEN：需要一个只对保险库仓库有 Contents 写权限的 fine-grained token" >&2
+            exit 1
+          fi
+          ARGS=(release --out "$OUT" --repo "$VAULT_REPO" --tag "$TAG" --target "$TARGET" --episodes "$EPISODES")
+          if [ "$COMMIT" != "true" ]; then
+            ARGS+=(--no-push)
+          fi
+          python -X utf8 audio_backup.py "${ARGS[@]}"
+      - name: Upload lane index
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-index-lane-${{ strategy.job-index }}
+          path: ${{ runner.temp }}/vault/release-index.json
+          if-no-files-found: ignore
+          retention-days: 30
