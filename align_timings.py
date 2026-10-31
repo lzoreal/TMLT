@@ -1037,6 +1037,60 @@ def dump_cues(path, cues, results, shifts):
                      f"{len(words)}\t{reason}\t{text}\n")
 
 
+def lead_word_too_long(text, duration_ms):
+    """首词时长是否离谱：短词被拉成 1.2 秒以上就是对齐把上一句尾巴粘过来。"""
+
+    return duration_ms > max(1200, len(text) * 150 + 600)
+
+
+def natural_word_ms(text):
+    return min(max(80, len(text) * 60), 500)
+
+
+def normalize_leading_words(words, previous_end_ms):
+    """把压住上一句句尾的前导词重排到「上一句结束 → 第一个正常词」之间。
+
+    实测 872 集里 18,571 段有同一模式：新句首词被拉长（#500 的 "And" 2.74 秒），
+    起点落在上一句最后几个词中间。这里只处理首词确实超长且压住上一句的句子，
+    按文本长度给前导词重新分配时长，不改变后面的词。
+    """
+
+    if len(words) < 2 or previous_end_ms is None:
+        return words
+    lead = None
+    for i, w in enumerate(words):
+        if w[1] * 1000 >= previous_end_ms:
+            lead = i
+            break
+    if not lead:  # 0 或 None：首词没有压住上一句
+        return words
+    first = words[0]
+    if not lead_word_too_long(first[0], (first[2] - first[1]) * 1000):
+        return words
+    limit_ms = words[lead][1] * 1000
+    available = limit_ms - previous_end_ms
+    if available < 60:
+        return words
+
+    fixed = list(words)
+    texts = [w[0] for w in words[:lead]]
+    weights = [natural_word_ms(t) for t in texts]
+    total = sum(weights) or 1
+    if total <= available:
+        cursor = limit_ms
+        for j in range(lead - 1, -1, -1):
+            start = max(previous_end_ms, cursor - weights[j])
+            fixed[j] = (texts[j], start / 1000.0, cursor / 1000.0)
+            cursor = start
+    else:
+        cursor = previous_end_ms
+        for j in range(lead):
+            duration = available * weights[j] / total
+            fixed[j] = (texts[j], cursor / 1000.0, (cursor + duration) / 1000.0)
+            cursor += duration
+    return fixed
+
+
 def build_segments(cues, results, shifts=None, audio_ms=None):
     """返回 (segments, dropped)；dropped 只统计有词但被判定不可信的 cue。
 
@@ -1050,6 +1104,7 @@ def build_segments(cues, results, shifts=None, audio_ms=None):
                          trusted_cues(cues, results, shifts))
     segments = []
     dropped = 0
+    previous_end_ms = None
     for index, cue in enumerate(cues):
         aligned = results.get(cue["i"])
         words = aligned["words"] if aligned else []
@@ -1058,6 +1113,8 @@ def build_segments(cues, results, shifts=None, audio_ms=None):
         if words and not plausible_words(cue, next_start, words, expected):
             words = []
             dropped += 1
+        if words and previous_end_ms is not None:
+            words = normalize_leading_words(words, previous_end_ms)
         start_ms = int(round((cue["start"] + shifts.get(cue["i"], 0.0)) * 1000))
         if words:
             start_ms = min(start_ms, int(round(words[0][1] * 1000)))
@@ -1075,6 +1132,8 @@ def build_segments(cues, results, shifts=None, audio_ms=None):
         else:
             end_ms = None
             word_payload = []
+        if end_ms is not None:
+            previous_end_ms = end_ms
         segments.append(
             {
                 "start": start_ms,
