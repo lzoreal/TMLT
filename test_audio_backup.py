@@ -1,0 +1,308 @@
+"""Audio cold-backup core: pure-logic tests.
+
+Run: python -m unittest test_audio_backup -v
+"""
+
+import hashlib
+import json
+import tempfile
+import unittest
+from pathlib import Path
+
+import audio_backup as ab
+
+
+SAMPLE_FEED = """<rss>
+<channel>
+<item>
+<title>513: 129 Cars</title>
+<link>https://www.thisamericanlife.org/513/129-cars</link>
+<enclosure
+url="https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/513_0.mp3"
+type="audio/mpeg"/>
+</item>
+<item>
+<title>1: Somewhere in the Arabian Sea</title>
+<enclosure
+url="https://www.thisamericanlife.org/sites/default/files/audio/1/f4vcq5NjNe6sLhpHCrnrYIwy4MDsnHERXNinV2Es-cg/1.mp3"
+type="audio/mpeg"/>
+</item>
+<item>
+<title>489: Good Name</title>
+<enclosure
+url="https://www.thisamericanlife.org/sites/default/files/audio/upload/promos/489.mp3"
+type="audio/mpeg"/>
+</item>
+<item>
+<title>900: Still Making News</title>
+</item>
+</channel>
+</rss>"""
+
+
+def probes():
+    return [
+        ab.Probe(episode=513, url="https://x/513_0.mp3", status=200, size=1000, etag=None),
+        ab.Probe(episode=1, url="https://x/1.mp3", status=200, size=2000, etag=None),
+        ab.Probe(episode=9, url="https://x/9.mp3", status=404, size=0, etag=None),
+    ]
+
+
+class ParseFeedTest(unittest.TestCase):
+    def test_episode_numbers_come_from_the_title_not_the_url(self):
+        self.assertEqual([r.episode for r in ab.parse_feed(SAMPLE_FEED)], [513, 1, 489])
+
+    def test_drupal_duplicate_suffix_stays_intact_in_the_url(self):
+        refs = {r.episode: r.url for r in ab.parse_feed(SAMPLE_FEED)}
+        self.assertTrue(refs[513].endswith("/audio/upload/archive/513_0.mp3"))
+
+    def test_items_without_an_enclosure_are_skipped(self):
+        self.assertNotIn(900, [r.episode for r in ab.parse_feed(SAMPLE_FEED)])
+
+
+class EtagSizeTest(unittest.TestCase):
+    def test_nginx_etag_carries_the_byte_size(self):
+        self.assertEqual(ab.etag_size('"648b67b6-1ca88d2"'), 30050514)
+
+    def test_etag_without_a_size_part_is_ignored(self):
+        self.assertIsNone(ab.etag_size('"648b67b6"'))
+        self.assertIsNone(ab.etag_size('W/"zz"'))
+        self.assertIsNone(ab.etag_size(None))
+
+
+class LocalNameTest(unittest.TestCase):
+    def test_local_file_is_named_by_episode_number(self):
+        self.assertEqual(ab.local_name(513), "513.mp3")
+
+
+class PlanBackupTest(unittest.TestCase):
+    def test_skips_files_that_already_match_the_remote_size(self):
+        plan = ab.plan_backup(probes(), {513: 1000})
+        self.assertEqual([p.episode for p in plan], [1])
+
+    def test_requeues_a_local_file_with_the_wrong_size(self):
+        plan = ab.plan_backup(probes(), {513: 999})
+        self.assertEqual([p.episode for p in plan], [513, 1])
+
+    def test_unreachable_episodes_are_never_queued(self):
+        plan = ab.plan_backup(probes(), {})
+        self.assertNotIn(9, [p.episode for p in plan])
+
+
+class PlausibilityTest(unittest.TestCase):
+    def test_master_sized_file_passes(self):
+        self.assertTrue(ab.size_is_plausible(30_050_514, 3755.96))
+
+    def test_low_bitrate_vintage_episode_passes(self):
+        self.assertTrue(ab.size_is_plausible(27_767_641, 3487))
+
+    def test_high_bitrate_modern_episode_passes(self):
+        self.assertTrue(ab.size_is_plausible(81_244_770, 3378))
+
+    def test_promo_clip_standing_in_for_the_master_fails(self):
+        self.assertFalse(ab.size_is_plausible(273_971, 3526.14))
+
+    def test_an_unknown_duration_is_never_a_failure(self):
+        self.assertTrue(ab.size_is_plausible(50_000_000, None))
+
+
+class ImplausibleTest(unittest.TestCase):
+    def test_only_entries_whose_size_contradicts_the_timing_are_selected(self):
+        entries = [
+            {"episode": 489, "size": 273_971, "audio_seconds": 3526.14},
+            {"episode": 1, "size": 30_050_514, "audio_seconds": 3755.96},
+            {"episode": 7, "size": 12_000_000, "audio_seconds": None},
+        ]
+        self.assertEqual([e["episode"] for e in ab.implausible(entries)], [489])
+
+
+class MergePreviousTest(unittest.TestCase):
+    def test_a_changed_url_drops_the_stale_fingerprint(self):
+        entry = {"url": "https://x/489/master.mp3", "sha256": None}
+        merged = ab.merge_previous(entry, {"url": "https://x/489/promo.mp3", "sha256": "deadbeef"})
+        self.assertIsNone(merged["sha256"])
+
+    def test_an_unchanged_url_keeps_the_fingerprint(self):
+        entry = {"url": "https://x/1.mp3", "sha256": None}
+        merged = ab.merge_previous(entry, {"url": "https://x/1.mp3", "sha256": "abc"})
+        self.assertEqual(merged["sha256"], "abc")
+
+
+class LoadManifestTest(unittest.TestCase):
+    def test_a_missing_manifest_reads_as_no_previous_run(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertIsNone(ab.load_manifest(Path(tmp) / "absent.json"))
+
+    def test_a_truncated_manifest_is_refused_instead_of_silently_reset(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "m.json"
+            path.write_text('{"version": 1, "epi', encoding="utf-8")
+            with self.assertRaises(ab.ManifestCorrupt):
+                ab.load_manifest(path)
+
+    def test_a_whole_manifest_round_trips(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "m.json"
+            ab.write_manifest([{"episode": 1, "sha256": "abc"}], path=path)
+            self.assertEqual(ab.load_manifest(path)["episodes"][0]["sha256"], "abc")
+
+
+class Sha256Test(unittest.TestCase):
+    def test_hashes_the_whole_file(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "a.bin"
+            path.write_bytes(b"hello")
+            self.assertEqual(ab.sha256_of(path), hashlib.sha256(b"hello").hexdigest())
+
+    def test_a_one_byte_change_moves_the_digest(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "a.bin"
+            path.write_bytes(b"hello")
+            before = ab.sha256_of(path)
+            path.write_bytes(b"hellp")
+            self.assertNotEqual(ab.sha256_of(path), before)
+
+
+class ParseAssetsTest(unittest.TestCase):
+    def test_digest_prefix_is_stripped_to_plain_hex(self):
+        pages = [
+            [{"id": 1, "name": "1.mp3", "size": 100, "digest": "sha256:" + "ab" * 32}],
+        ]
+        assets = ab.parse_assets(pages)
+        self.assertEqual(assets["1.mp3"]["digest"], "ab" * 32)
+
+    def test_pages_merge_into_one_lookup(self):
+        assets = ab.parse_assets(
+            [
+                [{"id": 1, "name": "1.mp3", "size": 100, "digest": "sha256:aa"}],
+                [{"id": 2, "name": "2.mp3", "size": 200, "digest": None}],
+            ]
+        )
+        self.assertEqual(sorted(assets), ["1.mp3", "2.mp3"])
+        self.assertIsNone(assets["2.mp3"]["digest"])
+
+
+class SplitTagsTest(unittest.TestCase):
+    def test_blank_and_repeated_tags_collapse_to_one_ledger_entry(self):
+        self.assertEqual(
+            ab.split_tags("audio-vault, audio-vault-2 ,,audio-vault"),
+            ["audio-vault", "audio-vault-2"],
+        )
+
+    def test_a_lone_tag_is_still_a_list(self):
+        self.assertEqual(ab.split_tags("audio-vault"), ["audio-vault"])
+
+    def test_nothing_but_commas_is_an_empty_plan(self):
+        self.assertEqual(ab.split_tags(" , "), [])
+
+
+class MergeLedgersTest(unittest.TestCase):
+    def test_every_volume_contributes_its_own_assets(self):
+        assets, conflicts = ab.merge_ledgers(
+            [
+                ("audio-vault", {"1.mp3": {"id": 1, "size": 100, "digest": "aa"}}),
+                ("audio-vault-2", {"2.mp3": {"id": 2, "size": 200, "digest": "bb"}}),
+            ]
+        )
+        self.assertEqual(sorted(assets), ["1.mp3", "2.mp3"])
+        self.assertEqual(conflicts, [])
+
+    def test_each_asset_remembers_which_volume_holds_it(self):
+        # 下载链接得指向真正存着字节的那一卷。
+        assets, _ = ab.merge_ledgers(
+            [("audio-vault-2", {"2.mp3": {"id": 2, "size": 200, "digest": "bb"}})]
+        )
+        self.assertEqual(assets["2.mp3"]["tag"], "audio-vault-2")
+
+    def test_one_name_with_two_digests_is_a_conflict_not_a_silent_pick(self):
+        assets, conflicts = ab.merge_ledgers(
+            [
+                ("audio-vault", {"1.mp3": {"id": 1, "size": 100, "digest": "aa"}}),
+                ("audio-vault-2", {"1.mp3": {"id": 2, "size": 100, "digest": "bb"}}),
+            ]
+        )
+        self.assertEqual(conflicts, [("1.mp3", "audio-vault", "audio-vault-2")])
+        self.assertEqual(assets["1.mp3"]["digest"], "aa")
+
+
+class CapacityCheckTest(unittest.TestCase):
+    def test_passing_the_slot_line_stops_before_a_single_upload(self):
+        stop, note = ab.capacity_check(["audio-vault"], present=999, pending=2)
+        self.assertTrue(stop)
+        self.assertIn("--tag", note)
+
+    def test_the_last_tenth_of_a_volume_is_a_warning_not_a_stop(self):
+        stop, note = ab.capacity_check(["audio-vault"], present=950, pending=0)
+        self.assertFalse(stop)
+        self.assertIn("950", note)
+
+    def test_room_to_grow_says_nothing(self):
+        self.assertEqual(ab.capacity_check(["audio-vault"], present=877, pending=20), (False, None))
+
+    def test_a_second_volume_doubles_the_room(self):
+        self.assertEqual(
+            ab.capacity_check(["a", "b"], present=1500, pending=0), (False, None)
+        )
+
+
+class NeedsUploadTest(unittest.TestCase):
+    def setUp(self):
+        self.assets = {"1.mp3": {"id": 1, "size": 1000, "digest": "good"}}
+
+    def entry(self, size=1000, sha256="good"):
+        return {"episode": 1, "size": size, "sha256": sha256}
+
+    def test_an_asset_with_matching_size_and_digest_is_not_reuploaded(self):
+        self.assertFalse(ab.needs_upload(self.entry(), self.assets))
+
+    def test_a_size_change_forces_a_reupload(self):
+        self.assertTrue(ab.needs_upload(self.entry(size=999), self.assets))
+
+    def test_a_digest_mismatch_forces_a_reupload(self):
+        self.assertTrue(ab.needs_upload(self.entry(sha256="other"), self.assets))
+
+    def test_a_missing_asset_is_queued(self):
+        self.assertTrue(ab.needs_upload({"episode": 7, "size": 5, "sha256": None}, self.assets))
+
+    def test_an_unknown_local_fingerprint_still_trusts_the_remote_asset(self):
+        self.assertFalse(ab.needs_upload(self.entry(sha256=None), self.assets))
+
+
+class BalanceTest(unittest.TestCase):
+    def test_heavy_items_land_on_lanes_of_equal_total_weight(self):
+        sizes = {1: 100, 2: 100, 3: 100, 4: 100}
+        lanes = ab.balance(list(sizes.items()), 2)
+        self.assertEqual([sum(sizes[e] for e in lane) for lane in lanes], [200, 200])
+
+    def test_the_indivisible_remainder_stays_on_the_lighter_side(self):
+        # 100/90/10/10 摊两档，最好也只能是 110 与 100：贪心不该更差。
+        sizes = {1: 100, 2: 90, 3: 10, 4: 10}
+        lanes = ab.balance(list(sizes.items()), 2)
+        totals = sorted(sum(sizes[e] for e in lane) for lane in lanes)
+        self.assertEqual(totals, [100, 110])
+
+    def test_fewer_items_than_lanes_leaves_empty_lanes(self):
+        self.assertEqual(ab.balance([(1, 5), (2, 5)], 4), [[1], [2], [], []])
+
+    def test_lanes_are_clamped_to_at_least_one(self):
+        self.assertEqual(ab.balance([(1, 5)], 0), [[1]])
+
+    def test_every_item_appears_exactly_once(self):
+        items = [(n, n * 7) for n in range(1, 31)]
+        lanes = ab.balance(items, 6)
+        self.assertEqual(sorted(e for lane in lanes for e in lane), [n for n, _ in items])
+
+
+class PadLanesTest(unittest.TestCase):
+    def test_short_runs_are_padded_up_to_the_matrix_slots(self):
+        lanes = ab.pad_lanes([[1, 2], [3]])
+        self.assertEqual(lanes, ["1,2", "3"] + [""] * (ab.MATRIX_SLOTS - 2))
+
+    def test_more_lanes_than_the_matrix_has_slots_is_refused(self):
+        # 静默截断等于让多出来的档永不镜像，必须炸在计划阶段。
+        with self.assertRaises(ValueError):
+            ab.pad_lanes([[n] for n in range(ab.MATRIX_SLOTS + 1)])
+
+
+if __name__ == "__main__":
+    unittest.main()
