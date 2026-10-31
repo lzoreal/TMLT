@@ -81,8 +81,8 @@ jobs:
     strategy:
       fail-fast: false
       max-parallel: ${{ fromJSON(inputs.shards) }}
-    matrix:
-      lane: ${{ fromJSON(needs.plan.outputs.lanes) }}
+      matrix:
+        lane: ${{ fromJSON(needs.plan.outputs.lanes) }}
     steps:
       - uses: actions/checkout@v4
         with:
