@@ -1146,6 +1146,26 @@ function finalizeCues(cues) {
   }
   return cues;
 }
+function smoothCompressedWords(words) {
+  let i = 0;
+  while (i < words.length) {
+    let j = i;
+    while (j < words.length && (words[j].e - words[j].s) < 0.12) j++;
+    const n = j - i;
+    if (n >= 3 && j < words.length) {
+      const start = words[i].s, runEnd = words[j - 1].e, next = words[j].s;
+      const gap = next - runEnd;
+      if (gap > 0.8 && (runEnd - start) < 0.4) {
+        const step = Math.min(0.6, Math.max(0.18, gap / n));
+        for (let k = i; k < j; k++) {
+          words[k].s = start + step * (k - i);
+          words[k].e = Math.min(next, start + step * (k - i + 1));
+        }
+      }
+    }
+    i = j > i ? j : i + 1;
+  }
+}
 function mergeCues(vtt, sidecar, zhVtt) {
   const segs = Array.isArray(sidecar?.segments) ? sidecar.segments : [];
   const aligned = segs.length === vtt.length;
@@ -1154,6 +1174,7 @@ function mergeCues(vtt, sidecar, zhVtt) {
   let cues = vtt.map((c, i) => {
     const s = aligned ? segs[i] : (segs[i] && Math.abs((segs[i].start||0)/1000 - c.start) < 1 ? segs[i] : null);
     const words = (s?.words || []).map(([t, st, dur]) => ({ t, s: st/1000, e: (st + Math.max(0, dur))/1000 }));
+    smoothCompressedWords(words);
     for (let k = 0; k < words.length; k++) {
       if (words[k].e <= words[k].s) {
         const nx = words.slice(k+1).find(w => w.s > words[k].s);
