@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>TAL Transcript Player</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#0a0e15">
 <style>
 /* Design tokens — design skill palette "Dark Academia":
    #0D0D0D ink · #594636 brown · #4B3E15 olive · #2C3850 navy · #DEB887 parchment */
@@ -29,6 +32,7 @@
   --mono:"SFMono-Regular",Consolas,"Liberation Mono",monospace;
   --ease:cubic-bezier(.25,.6,.2,1);
   --bottom:136px;
+  --reader-w:780px;--cue-scale:1;--cue-lh:1.78;--cue-gap:4px;--cue-ls:.06px;--pending-op:.42;
 }
 [data-theme="midnight"]{
   --bg:#080b12;--ink:#e6e9f1;--muted:#98a3b8;--dim:#66718a;
@@ -153,14 +157,15 @@ button{cursor:pointer;background:none;border:0;padding:0}
 .reader{position:fixed;left:0;right:0;top:0;bottom:var(--bottom);z-index:1;overflow:hidden;transition:bottom .32s var(--ease)}
 .transcript{
   position:absolute;inset:0;overflow:auto;overscroll-behavior:contain;
-  padding:48px max(22px,calc((100vw - 780px)/2)) 70px;
+  padding:48px max(22px,calc((100vw - var(--reader-w))/2)) 70px;
   -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 30px,#000 calc(100% - 38px),transparent 100%);
   mask-image:linear-gradient(180deg,transparent 0,#000 30px,#000 calc(100% - 38px),transparent 100%);
 }
 .cue{
-  position:relative;padding:11px 0 11px 26px;margin:4px 0;
+  position:relative;padding:11px 0 11px 26px;margin:var(--cue-gap) 0;
   color:color-mix(in srgb, var(--ink) 46%, transparent);
-  font-family:var(--serif);font-size:clamp(18.5px,1.5vw,25px);line-height:1.78;letter-spacing:.003em;
+  font-family:var(--serif);font-size:calc(clamp(18.5px,1.5vw,25px) * var(--cue-scale));
+  line-height:var(--cue-lh);letter-spacing:var(--cue-ls);
   cursor:pointer;border-radius:6px;transition:color .2s var(--ease),background .2s var(--ease);
 }
 .cue::before{
@@ -183,7 +188,7 @@ button{cursor:pointer;background:none;border:0;padding:0}
 }
 .word{white-space:pre-wrap;transition:color .14s linear,opacity .14s linear}
 .word.pending{opacity:.4}
-.cue.active .word.pending{opacity:.72}
+.cue.active .word.pending{opacity:var(--pending-op)}
 .word.past{opacity:1}
 .word.active{
   color:var(--wordactive);font-weight:600;
@@ -191,12 +196,28 @@ button{cursor:pointer;background:none;border:0;padding:0}
   text-shadow:0 0 24px color-mix(in srgb,var(--accent) 34%,transparent);
 }
 .label{color:var(--dim);font-size:.76em;font-style:italic;letter-spacing:.01em}
+.cue .zh{
+  display:block;margin-top:6px;font-size:.82em;line-height:1.72;letter-spacing:.01em;
+  color:color-mix(in srgb, var(--ink) 60%, transparent);transition:color .2s var(--ease);
+}
+.cue.active .zh{color:color-mix(in srgb, var(--ink) 84%, transparent)}
 .badge{
   margin-left:10px;vertical-align:4px;font:9px/1 var(--mono);letter-spacing:.12em;
   color:var(--dim);border-bottom:1px solid var(--line);padding-bottom:2px;text-transform:uppercase;
 }
 .empty{min-height:300px;display:grid;place-items:center;text-align:center;color:var(--dim);padding:24px;font-size:13px;line-height:1.9}
 .empty b{display:block;font-family:var(--serif);font-size:17px;font-weight:400;color:var(--muted);margin-bottom:6px}
+.loader{display:flex;flex-direction:column;align-items:center;gap:13px;color:var(--dim);font-size:12px;letter-spacing:.1em}
+.loader .bars{display:flex;align-items:flex-end;gap:4px;height:18px}
+.loader .bars i{
+  display:block;width:2px;height:100%;border-radius:1px;background:var(--accent);opacity:.85;
+  transform-origin:bottom;animation:loadbars .9s ease-in-out infinite alternate;
+}
+.loader .bars i:nth-child(2){animation-delay:.15s;background:var(--accent2)}
+.loader .bars i:nth-child(3){animation-delay:.3s}
+@keyframes loadbars{from{transform:scaleY(.28);opacity:.4}to{transform:scaleY(1);opacity:.95}}
+.epList .loader{gap:10px}
+.epList .loader .bars{height:14px}
 
 /* ---------- floating dock ---------- */
 .dock{
@@ -307,6 +328,25 @@ body.playing .cover{filter:none}
 .playbtn .ico-pause{display:none}
 .playbtn.playing .ico-play{display:none}
 .playbtn.playing .ico-pause{display:block}
+.playbtn.buffering .ico{display:none}
+.playbtn .spin{
+  display:none;width:17px;height:17px;border-radius:50%;
+  border:2px solid color-mix(in srgb, var(--accentText) 22%, transparent);
+  border-top-color:var(--accentText);animation:spin .8s linear infinite;
+}
+.playbtn.buffering .spin{display:block}
+.coverframe .spinbadge{
+  position:absolute;right:-7px;bottom:-7px;width:22px;height:22px;border-radius:50%;display:none;place-items:center;
+  background:var(--glass);border:1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  box-shadow:0 6px 14px -8px rgba(0,0,0,.6);
+}
+.coverframe .spinbadge i{
+  display:block;width:11px;height:11px;border-radius:50%;
+  border:1.5px solid color-mix(in srgb, var(--accent) 28%, transparent);
+  border-top-color:var(--accent);animation:spin .8s linear infinite;
+}
+body.buffering .coverframe .spinbadge{display:grid}
+@keyframes spin{to{transform:rotate(360deg)}}
 .pright{display:flex;align-items:center;gap:3px;justify-self:end}
 .vsep{width:1px;height:17px;background:var(--line2);margin:0 10px;flex:0 0 auto}
 select{
@@ -354,7 +394,6 @@ option{background:var(--menu);color:var(--ink)}
   border:1px solid transparent;border-radius:2px;transition:color .16s var(--ease),border-color .16s var(--ease),background .16s var(--ease);
 }
 .textbtn:hover{color:var(--ink);border-color:var(--line);background:var(--hover)}
-.imm-glyph{display:none;font:11px/1 var(--mono);letter-spacing:0}
 .themebtn{
   width:28px;height:28px;display:grid;place-items:center;color:var(--soft);padding:0;
   border:1px solid transparent;border-radius:50%;
@@ -365,6 +404,59 @@ option{background:var(--menu);color:var(--ink)}
 .themebtn .ico-moon{display:none}
 html[data-scheme="light"] .themebtn .ico-sun{display:none}
 html[data-scheme="light"] .themebtn .ico-moon{display:block}
+.typebtn{font-family:var(--serif);font-size:14px;letter-spacing:0;line-height:1;padding:6px 7px}
+.dockicon{
+  width:30px;height:30px;border-radius:50%;display:grid;place-items:center;padding:0;
+  border:1px solid transparent;background:none;color:var(--soft);
+  transition:color .16s var(--ease),border-color .16s var(--ease),background .16s var(--ease);
+}
+.dockicon:hover{color:var(--ink);border-color:var(--line);background:var(--hover)}
+.dockicon svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.typesheet{
+  position:fixed;right:max(20px,calc((100vw - 1040px)/2 + 26px));bottom:calc(var(--bottom) + 8px);z-index:47;
+  width:min(320px,calc(100vw - 40px));max-height:calc(100vh - var(--bottom) - 32px);overflow:auto;
+  padding:14px 16px 6px;border-radius:8px;border:1px solid var(--edge2);
+  background:linear-gradient(180deg,var(--menu1),var(--menu2));
+  box-shadow:0 28px 60px -28px rgba(0,0,0,.95),inset 0 1px 0 var(--inset);
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  opacity:0;transform:translateY(8px);pointer-events:none;
+  transition:opacity .18s var(--ease),transform .22s var(--ease);
+}
+.typesheet.on{opacity:1;transform:none;pointer-events:auto}
+.tshead{display:flex;align-items:center;gap:8px;margin-bottom:12px;padding-bottom:9px;border-bottom:1px solid var(--line2)}
+.tshead h4{margin:0;flex:1;font:600 10px/1 var(--sans);letter-spacing:.2em;color:var(--muted);text-transform:uppercase}
+.tshead .textbtn{padding:4px 6px;font-size:11px}
+.rrow{display:grid;grid-template-columns:1fr auto;gap:6px 10px;margin-bottom:12px}
+.rrow span{font-size:11.5px;color:var(--dim);letter-spacing:.05em}
+.rrow output{font:10.5px/1 var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.rrow.toggle{align-items:center;margin-bottom:14px}
+.langrow{align-items:center;margin-bottom:14px}
+.langseg{display:flex;border:1px solid var(--line);border-radius:4px;overflow:hidden;justify-self:end}
+.langseg button{padding:5px 9px;font-size:11px;letter-spacing:.04em;color:var(--muted);transition:background .14s var(--ease),color .14s var(--ease)}
+.langseg button + button{border-left:1px solid var(--line)}
+.langseg button.on{background:color-mix(in srgb, var(--accent) 16%, transparent);color:var(--ink)}
+.switch{
+  width:36px;height:20px;border-radius:10px;border:1px solid var(--line);background:var(--track);
+  position:relative;padding:0;justify-self:end;
+  transition:background .18s var(--ease),border-color .18s var(--ease);
+}
+.switch::after{
+  content:"";position:absolute;left:2px;top:50%;width:14px;height:14px;margin-top:-7px;border-radius:50%;
+  background:var(--muted);transition:transform .18s var(--ease),background .18s var(--ease);
+}
+.switch[aria-checked="true"]{background:color-mix(in srgb, var(--accent) 22%, transparent);border-color:color-mix(in srgb, var(--accent) 55%, transparent)}
+.switch[aria-checked="true"]::after{transform:translateX(16px);background:var(--accent)}
+.rrow input[type=range]{
+  grid-column:1/-1;width:100%;height:2px;margin:1px 0 0;border-radius:2px;background:var(--track);
+  appearance:none;-webkit-appearance:none;outline:none;cursor:pointer;
+}
+.rrow input[type=range]::-webkit-slider-thumb{
+  -webkit-appearance:none;width:12px;height:12px;border-radius:50%;background:var(--accent);border:0;
+  box-shadow:0 0 0 3px color-mix(in srgb, var(--accent) 16%, transparent);cursor:pointer;
+}
+.rrow input[type=range]::-moz-range-thumb{width:12px;height:12px;border-radius:50%;background:var(--accent);border:0;cursor:pointer}
+.rrow input[type=range]::-moz-range-track{height:2px;border-radius:2px;background:var(--track)}
+.rrow input[type=range]:focus-visible{outline:1px solid var(--accent);outline-offset:4px}
 :focus-visible{outline:1px solid var(--accent);outline-offset:3px}
 
 /* ---------- drawer ---------- */
@@ -479,7 +571,7 @@ body.playing .eq i{animation:eq .9s ease-in-out infinite alternate}
 /* ---------- mobile ---------- */
 @media(max-width:820px){
   .transcript{padding:26px 18px 60px}
-  .cue{font-size:18.5px;padding:9px 0 9px 18px;line-height:1.72}
+  .cue{font-size:calc(18.5px * var(--cue-scale));padding:9px 0 9px 18px;line-height:var(--cue-lh);letter-spacing:var(--cue-ls);margin:var(--cue-gap) 0}
   .dock{width:calc(100% - 16px);bottom:8px;border-radius:16px;padding:10px 12px 12px}
   body.immersive{--bottom:12px}
   body.immersive .transcript{
@@ -499,23 +591,24 @@ body.playing .eq i{animation:eq .9s ease-in-out infinite alternate}
   .seg{grid-area:seg;border-left:0;padding-left:0;gap:14px;justify-self:start}
   .seg button{padding:4px 0;font-size:11.5px}
   .pright{grid-area:right;justify-self:end;gap:0}
-  .vsep{margin:0 4px}
+  .vsep{margin:0 2px}
   .mob-hide{display:none}
-  .imm-label{display:none}
-  .imm-glyph{display:inline}
-  #immersiveBtn{padding:6px 4px}
-  .themebtn{width:26px;height:26px}
-  .themebtn svg{width:14px;height:14px}
+  .themebtn{width:24px;height:24px}
+  .themebtn svg{width:13px;height:13px}
+  .dockicon{width:26px;height:26px}
+  .dockicon svg{width:14px;height:14px}
+  .typebtn{font-size:12px;padding:5px 2px}
+  .typesheet{left:10px;right:10px;width:auto;bottom:calc(var(--bottom) + 8px);max-height:58vh}
   .ptitle{font-size:14px}
   .pmeta{font-size:10.5px}
-  .textbtn{font-size:10px;letter-spacing:.1em;padding:6px 6px}
+  .textbtn{font-size:10px;letter-spacing:.08em;padding:6px 4px}
   .details{right:10px;left:10px;width:auto;bottom:calc(var(--bottom) + 8px)}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 </style></head>
 <body>
 <main class="reader">
-  <div id="transcript" class="transcript"><div class="empty"><div><b>等待选择剧集</b>feed 读取后会自动选中最新一集。</div></div></div>
+  <div id="transcript" class="transcript"><div class="empty"><div class="loader"><span class="bars"><i></i><i></i><i></i></span><span>正在读取 feed…</span></div></div></div>
 </main>
 
 <footer class="dock">
@@ -540,6 +633,7 @@ body.playing .eq i{animation:eq .9s ease-in-out infinite alternate}
       <button id="play" class="playbtn" aria-label="播放">
         <svg class="ico ico-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.4 5.2c0-.9 1-1.4 1.7-.9l9.1 6.1c.7.5.7 1.5 0 2l-9.1 6.1c-.7.5-1.7 0-1.7-.9V5.2z"/></svg>
         <svg class="ico ico-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.6" y="4.6" width="3.9" height="14.8" rx="1.4"/><rect x="13.5" y="4.6" width="3.9" height="14.8" rx="1.4"/></svg>
+        <span class="spin" aria-hidden="true"></span>
       </button>
       <button id="forward" class="skipbtn" aria-label="前进 5 秒">+5″</button>
     </div>
@@ -560,19 +654,53 @@ body.playing .eq i{animation:eq .9s ease-in-out infinite alternate}
         </div>
       </div>
       <span class="vsep"></span>
-      <button id="detailsBtn" class="textbtn">信息</button>
-      <button id="drawerBtn" class="textbtn">剧集</button>
-      <button id="immersiveBtn" class="textbtn" aria-label="沉浸模式" title="沉浸模式"><span class="imm-label">沉浸</span><span class="imm-glyph" aria-hidden="true">⤢</span></button>
+      <button id="detailsBtn" class="dockicon" aria-label="剧集信息" title="剧集信息">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.2M12 7.8h.01"/></svg>
+      </button>
+      <button id="drawerBtn" class="dockicon" aria-label="剧集列表" title="剧集列表">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+      </button>
+      <button id="immersiveBtn" class="dockicon" aria-label="沉浸模式" title="沉浸模式">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5M15 4h5v5M9 20H4v-5M15 20h5v-5"/></svg>
+      </button>
       <button id="themeBtn" class="themebtn" aria-label="切换到浅色主题" title="切换到浅色主题">
         <svg class="ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5.2 5.2l1.7 1.7M17.1 17.1l1.7 1.7M18.8 5.2l-1.7 1.7M6.9 17.1l-1.7 1.7"/></svg>
         <svg class="ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.6 6.6 0 0 0 10.5 10.5z"/></svg>
       </button>
+      <button id="typeBtn" class="textbtn typebtn" aria-label="阅读排版" aria-haspopup="dialog" aria-expanded="false">Aa</button>
     </div>
   </div>
 </footer>
 
+<div class="typesheet" id="typeSheet" role="dialog" aria-label="阅读排版" aria-hidden="true">
+  <div class="tshead">
+    <h4>阅读排版</h4><span class="spacer"></span>
+    <button id="typeReset" class="textbtn">重置</button>
+    <button id="typeClose" class="iconbtn" aria-label="关闭">✕</button>
+  </div>
+  <div class="rrow langrow">
+    <span>字幕语言</span>
+    <div class="langseg" id="langSeg" role="radiogroup" aria-label="字幕语言">
+      <button data-lang="en" class="on" role="radio" aria-checked="true">EN</button>
+      <button data-lang="zh" role="radio" aria-checked="false">中文</button>
+      <button data-lang="both" role="radio" aria-checked="false">双语</button>
+    </div>
+  </div>
+  <div class="rrow toggle">
+    <span>按句拆分 · AntennaPod</span>
+    <button id="rdSegment" class="switch" role="switch" aria-checked="true" aria-label="按 AntennaPod 规则分句"></button>
+  </div>
+  <label class="rrow"><span>阅读宽度</span><output id="outWidth">780 px</output><input id="rdWidth" type="range" min="560" max="1100" step="10" value="780" aria-label="阅读宽度"></label>
+  <label class="rrow"><span>字号</span><output id="outScale">100%</output><input id="rdScale" type="range" min="85" max="140" step="1" value="100" aria-label="字号缩放"></label>
+  <label class="rrow"><span>行距</span><output id="outLh">1.78</output><input id="rdLh" type="range" min="1.4" max="2.2" step="0.02" value="1.78" aria-label="行距"></label>
+  <label class="rrow"><span>段间距</span><output id="outGap">4 px</output><input id="rdGap" type="range" min="0" max="32" step="1" value="4" aria-label="段间距"></label>
+  <label class="rrow"><span>字间距</span><output id="outLs">0.06 px</output><input id="rdLs" type="range" min="0" max="2" step="0.02" value="0.06" aria-label="字间距"></label>
+  <label class="rrow"><span>未读文字</span><output id="outPending">42%</output><input id="rdPending" type="range" min="15" max="80" step="1" value="42" aria-label="未读文字强度"></label>
+</div>
+
 <button class="coverframe" id="frameBtn" aria-label="退出沉浸模式" title="回到播放器" inert>
   <img id="frameCover" alt="" referrerpolicy="no-referrer" draggable="false">
+  <span class="spinbadge" aria-hidden="true"><i></i></span>
 </button>
 <button class="jumppill" id="jumpPill" aria-label="回到当前句" inert>
   <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6.5"/><path d="M12 2.5v4M12 17.5v4M2.5 12h4M17.5 12h4"/></svg>
@@ -589,7 +717,7 @@ body.playing .eq i{animation:eq .9s ease-in-out infinite alternate}
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
     <input id="search" type="search" placeholder="搜索集号或标题…" autocomplete="off">
   </label>
-  <div class="epList" id="epList"><div class="empty">正在读取 feed…</div></div>
+  <div class="epList" id="epList"><div class="empty"><div class="loader"><span class="bars"><i></i><i></i><i></i></span><span>正在读取 feed…</span></div></div></div>
 </aside>
 
 <section class="details" id="details" aria-hidden="true">
@@ -638,6 +766,7 @@ const $ = id => document.getElementById(id);
 const audio = (() => { const a = document.createElement('audio'); a.preload = 'metadata'; document.body.append(a); return a; })();
 const listBox = $('epList'), box = $('transcript');
 const state = { episodes: [], current: null, cues: [], nodes: [], activeCue: -1, wordIdx: -1,
+  vtt: null, sidecar: null, zhVtt: null,
   mode: 'word', scroll: 'center', offset: 0, userScrollUntil: 0, immersive: false };
 
 const themeBtns = [...document.querySelectorAll('.swatch')];
@@ -654,6 +783,11 @@ function setTheme(id, persist = true) {
     const label = light ? '切换到深色主题' : '切换到浅色主题';
     btn.setAttribute('aria-label', label);
     btn.title = label;
+  }
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) {
+    const bg = getComputedStyle(document.documentElement).getPropertyValue('--bg').trim();
+    if (bg) meta.setAttribute('content', bg);
   }
   if (persist) {
     try {
@@ -675,15 +809,100 @@ try {
   setTheme(savedTheme && themeBtns.some(b => b.dataset.theme === savedTheme) ? savedTheme : 'brass', false);
 } catch (e) { setTheme('brass', false); }
 
+const READER_DEFAULTS = { width: 780, scale: 100, lh: 1.78, gap: 4, ls: 0.06, pending: 42, segment: true, lang: 'en' };
+const readerFields = [
+  ['width', 'rdWidth', 'outWidth', v => v + ' px'],
+  ['scale', 'rdScale', 'outScale', v => v + '%'],
+  ['lh', 'rdLh', 'outLh', v => Number(v).toFixed(2)],
+  ['gap', 'rdGap', 'outGap', v => v + ' px'],
+  ['ls', 'rdLs', 'outLs', v => Number(v).toFixed(2) + ' px'],
+  ['pending', 'rdPending', 'outPending', v => v + '%'],
+];
+let reader = { ...READER_DEFAULTS };
+function applyReader(persist = true) {
+  const rs = document.documentElement.style;
+  rs.setProperty('--reader-w', reader.width + 'px');
+  rs.setProperty('--cue-scale', String(reader.scale / 100));
+  rs.setProperty('--cue-lh', String(reader.lh));
+  rs.setProperty('--cue-gap', reader.gap + 'px');
+  rs.setProperty('--cue-ls', Number(reader.ls).toFixed(2) + 'px');
+  rs.setProperty('--pending-op', String(reader.pending / 100));
+  readerFields.forEach(([k, inp, out, fmt]) => { $(inp).value = reader[k]; $(out).textContent = fmt(reader[k]); });
+  $('rdSegment').setAttribute('aria-checked', String(!!reader.segment));
+  [...$('langSeg').children].forEach(b => {
+    const on = b.dataset.lang === reader.lang;
+    b.classList.toggle('on', on);
+    b.setAttribute('aria-checked', String(on));
+  });
+  if (persist) { try { localStorage.setItem('tal-reader', JSON.stringify(reader)); } catch (e) {} }
+  syncJumpPill();
+}
+function rebuildCues() {
+  if (!state.vtt) return;
+  state.cues = mergeCues(state.vtt, state.sidecar, state.zhVtt);
+  renderCues();
+}
+readerFields.forEach(([k, inp]) => $(inp).addEventListener('input', e => { reader[k] = Number(e.target.value); applyReader(); }));
+$('rdSegment').onclick = () => {
+  reader.segment = !reader.segment;
+  applyReader();
+  rebuildCues();
+};
+$('langSeg').addEventListener('click', e => {
+  const b = e.target.closest('button[data-lang]');
+  if (!b) return;
+  reader.lang = b.dataset.lang;
+  applyReader();
+  rebuildCues();
+});
+try {
+  const saved = JSON.parse(localStorage.getItem('tal-reader') || 'null');
+  if (saved && typeof saved === 'object') {
+    readerFields.forEach(([k, inp]) => {
+      const v = Number(saved[k]);
+      if (Number.isFinite(v)) reader[k] = Math.min(Number($(inp).max), Math.max(Number($(inp).min), v));
+    });
+    if (typeof saved.segment === 'boolean') reader.segment = saved.segment;
+    if (['en', 'zh', 'both'].includes(saved.lang)) reader.lang = saved.lang;
+  }
+} catch (e) {}
+applyReader(false);
+
+function openTypeSheet() {
+  closeDetails(); closeSpeedMenu();
+  $('typeSheet').classList.add('on');
+  $('typeSheet').setAttribute('aria-hidden', 'false');
+  $('typeBtn').setAttribute('aria-expanded', 'true');
+}
+function closeTypeSheet() {
+  $('typeSheet').classList.remove('on');
+  $('typeSheet').setAttribute('aria-hidden', 'true');
+  $('typeBtn').setAttribute('aria-expanded', 'false');
+}
+$('typeBtn').onclick = e => {
+  e.stopPropagation();
+  $('typeSheet').classList.contains('on') ? closeTypeSheet() : openTypeSheet();
+};
+$('typeClose').onclick = closeTypeSheet;
+$('typeReset').onclick = () => {
+  reader = { ...READER_DEFAULTS };
+  applyReader();
+  rebuildCues();
+};
+document.addEventListener('click', e => {
+  if (!$('typeSheet').contains(e.target) && e.target !== $('typeBtn')) closeTypeSheet();
+});
+
 const fmt = s => { s = Math.max(0, Number(s) || 0); const h = Math.floor(s/3600), m = Math.floor(s%3600/60), x = Math.floor(s%60);
   return h ? `${h}:${String(m).padStart(2,'0')}:${String(x).padStart(2,'0')}` : `${String(m).padStart(2,'0')}:${String(x).padStart(2,'0')}`; };
 const tsec = t => { const m = /^(\d+):(\d{2}):(\d{2})\.(\d{3})$/.exec(t); return m ? (+m[1])*3600 + (+m[2])*60 + (+m[3]) + (+m[4])/1000 : NaN; };
 const isBracket = t => /^\s*\[.*\]\s*[.!?]?\s*$/.test(t);
 const esc = t => String(t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const loaderHTML = text => '<div class="loader"><span class="bars"><i></i><i></i><i></i></span><span>' + esc(text) + '</span></div>';
 function status(t, cls='') { $('status').textContent = t; $('status').className = 'status ' + cls; }
-function openDrawer(){ closeDetails(); $('drawer').classList.add('on'); $('scrim').classList.add('on'); $('drawer').setAttribute('aria-hidden','false'); $('search').focus(); }
+function openDrawer(){ closeDetails(); closeTypeSheet(); $('drawer').classList.add('on'); $('scrim').classList.add('on'); $('drawer').setAttribute('aria-hidden','false'); $('search').focus(); }
 function closeDrawer(){ $('drawer').classList.remove('on'); $('scrim').classList.remove('on'); $('drawer').setAttribute('aria-hidden','true'); }
-function openDetails(){ closeDrawer(); $('details').classList.add('on'); $('details').setAttribute('aria-hidden','false'); }
+function openDetails(){ closeDrawer(); closeTypeSheet(); $('details').classList.add('on'); $('details').setAttribute('aria-hidden','false'); }
 function closeDetails(){ $('details').classList.remove('on'); $('details').setAttribute('aria-hidden','true'); }
 function closeOverlays(){ closeDrawer(); closeDetails(); }
 function setImmersive(on) {
@@ -691,7 +910,7 @@ function setImmersive(on) {
   document.body.classList.toggle('immersive', on);
   document.querySelector('.dock').toggleAttribute('inert', on);
   $('frameBtn').toggleAttribute('inert', !on);
-  if (on) { closeOverlays(); closeSpeedMenu(); }
+  if (on) { closeOverlays(); closeSpeedMenu(); closeTypeSheet(); }
   if (on && framePos) placeFrame(framePos.x, framePos.y);
   setTimeout(() => {
     if (state.activeCue >= 0) { stopScroll(); scrollCue(state.nodes[state.activeCue].el, true); }
@@ -734,28 +953,188 @@ function parseVTT(text) {
   return out;
 }
 
-function mergeCues(vtt, sidecar) {
-  const segs = Array.isArray(sidecar?.segments) ? sidecar.segments : [];
-  const aligned = segs.length === vtt.length;
-  const cues = vtt.map((c, i) => {
-    const s = aligned ? segs[i] : (segs[i] && Math.abs((segs[i].start||0)/1000 - c.start) < 1 ? segs[i] : null);
-    const words = (s?.words || []).map(([t, st, dur]) => ({ t, s: st/1000, e: (st + Math.max(0, dur))/1000 }));
-    for (let k = 0; k < words.length; k++) {
-      if (words[k].e <= words[k].s) {
-        const nx = words.slice(k+1).find(w => w.s > words[k].s);
-        words[k].e = nx ? nx.s : Math.max(words[k].s + 0.12, (s?.end ? s.end/1000 : c.end));
-      }
+function parseZhVTT(text) {
+  const out = [];
+  for (const block of text.replace(/\r/g,'').split(/\n{2,}/)) {
+    const lines = block.split('\n').filter(l => l.trim() !== '');
+    if (!lines.length || /^WEBVTT/.test(lines[0])) continue;
+    let i = 0;
+    if (!lines[i].includes('-->') && /^\d+$/.test(lines[i].trim())) i++;
+    const line = lines[i];
+    if (!line || !line.includes('-->')) continue;
+    const m = line.match(/(\d+:\d{2}:\d{2}\.\d{3})\s*-->\s*(\d+:\d{2}:\d{2}\.\d{3})/);
+    if (!m) continue;
+    const parsed = lines.slice(i + 1).map(l => {
+      const v = l.match(/^<v\s+([^>]+)>\s*([\s\S]*)$/);
+      return { speaker: v ? v[1].trim() : '', text: (v ? v[2] : l).replace(/<[^>]+>/g, '').trim() };
+    }).filter(l => l.text);
+    const zh = parsed.find(l => scriptOf(l.text) === 'cjk') || null;
+    out.push({ start: tsec(m[1]), end: tsec(m[2]), speaker: zh ? zh.speaker : '', text: zh ? zh.text : '' });
+  }
+  return out;
+}
+
+function scriptOf(text) {
+  let latin = 0, cjk = 0, other = 0;
+  for (const ch of text) {
+    if (!/\p{L}/u.test(ch)) continue;
+    const cp = ch.codePointAt(0);
+    if (/\p{Script=Latin}/u.test(ch)) latin++;
+    else if ((cp >= 0x3040 && cp <= 0x9fff) || (cp >= 0xac00 && cp <= 0xd7af)) cjk++;
+    else other++;
+  }
+  if (!latin && !cjk) return other ? 'other' : 'unknown';
+  if (cjk >= latin && cjk >= other) return 'cjk';
+  if (latin >= cjk && latin >= other) return 'latin';
+  return 'other';
+}
+function languageSplitIndex(text) {
+  const first = text.indexOf('\n');
+  if (first < 0) return -1;
+  let firstScript = 'unknown', lineStart = 0;
+  while (lineStart <= text.length) {
+    let lineEnd = text.indexOf('\n', lineStart);
+    if (lineEnd < 0) lineEnd = text.length;
+    firstScript = scriptOf(text.slice(lineStart, lineEnd));
+    if (firstScript !== 'unknown') break;
+    if (lineEnd === text.length) break;
+    lineStart = lineEnd + 1;
+  }
+  if (firstScript === 'unknown') return first;
+  let logicalEnd = text.length;
+  while (logicalEnd > 0 && text[logicalEnd - 1] === '\n') logicalEnd--;
+  let lastLineEnd = logicalEnd;
+  while (lastLineEnd > 0) {
+    const lastLineStart = text.lastIndexOf('\n', lastLineEnd - 1) + 1;
+    if (scriptOf(text.slice(lastLineStart, lastLineEnd)) === firstScript) {
+      return lastLineEnd === logicalEnd ? -1 : lastLineEnd;
     }
-    const start = s && Number.isFinite(s.start) ? s.start/1000 : c.start;
-    const end = s && s.end != null ? s.end/1000 : null;
-    const fallbackEnd = end != null ? end : start + Math.max(2, (c.text || '').length/15);
-    let speechStart = words.length ? words[0].s : start;
+    if (lastLineStart === 0) break;
+    lastLineEnd = lastLineStart - 1;
+  }
+  return first;
+}
+function isTrailingChar(c) {
+  return '"\'”“’!?)]】」』》。！？…'.includes(c);
+}
+function isSentenceEnd(text, index, length) {
+  const c = text[index];
+  if ('。！？…!?'.includes(c)) return true;
+  if (c !== '.') return false;
+  if (index + 1 >= length) return true;
+  const prev = text[index - 1], next = text[index + 1];
+  if (index > 0 && /\d/.test(prev) && /\d/.test(next)) return false;
+  return /\s/.test(next) || next === '\u00a0' || '"”“\''.includes(next);
+}
+function chunkStarts(text, length) {
+  const starts = [0];
+  let last = 0;
+  for (let i = 0; i < length; i++) {
+    if (!isSentenceEnd(text, i, length)) continue;
+    let boundary = i + 1;
+    while (boundary < length && isTrailingChar(text[boundary])) boundary++;
+    if (boundary > last) { starts.push(boundary); last = boundary; }
+  }
+  if (length > last) starts.push(length);
+  return starts;
+}
+function sentenceRanges(text) {
+  const out = [];
+  const split = languageSplitIndex(text);
+  const blocks = split >= 0 ? [[0, split], [split + 1, text.length]] : [[0, text.length]];
+  for (const [bs, be] of blocks) {
+    if (be <= bs) continue;
+    const block = text.slice(bs, be);
+    const starts = chunkStarts(block, block.length);
+    for (let i = 0; i + 1 < starts.length; i++) {
+      let s = bs + starts[i], e = bs + starts[i + 1];
+      while (s < e && /\s/.test(text[s])) s++;
+      while (e > s && /\s/.test(text[e - 1])) e--;
+      if (e > s) out.push({ s, e, text: text.slice(s, e) });
+    }
+  }
+  return out;
+}
+function wordOffsets(text, words) {
+  if (!words.length) return null;
+  const toks = [];
+  const re = /\S+/g;
+  let m;
+  while ((m = re.exec(text))) toks.push({ t: m[0], s: m.index, e: m.index + m[0].length });
+  const wt = words.map(w => w.t);
+  let base = -1;
+  for (let k = 0; k + wt.length <= toks.length && base < 0; k++) {
+    let ok = true;
+    for (let j = 0; j < wt.length; j++) if (toks[k + j].t !== wt[j]) { ok = false; break; }
+    if (ok) base = k;
+  }
+  if (base < 0) return null;
+  return words.map((w, j) => ({ w, s: toks[base + j].s, e: toks[base + j].e }));
+}
+function splitCueIntoSentences(cue) {
+  const ranges = sentenceRanges(cue.text);
+  if (ranges.length < 2) return [cue];
+  const total = Math.max(1, cue.text.length);
+  const start = cue.start;
+  const end = cue.end != null ? cue.end : start + Math.max(2, total / 15);
+  const bounds = ranges.map(r => start + (end - start) * (r.s / total));
+  const parts = ranges.map((r, i) => ({
+    i: 0, start: bounds[i], end: i + 1 < ranges.length ? bounds[i + 1] : end,
+    speaker: cue.speaker, text: r.text, words: [], fromJson: cue.fromJson, hasWords: false
+  }));
+  const mapped = wordOffsets(cue.text, cue.words);
+  if (mapped) {
+    for (const { w, s } of mapped) {
+      let k = ranges.findIndex(r => s >= r.s && s < r.e);
+      if (k < 0) k = ranges.length - 1;
+      parts[k].words.push(w);
+    }
+  } else {
+    for (const w of cue.words) {
+      let k = -1;
+      for (let j = 0; j < parts.length; j++) {
+        if (w.s >= parts[j].start && w.s < parts[j].end) { k = j; break; }
+      }
+      if (k < 0) k = w.s < parts[0].start ? 0 : parts.length - 1;
+      parts[k].words.push(w);
+    }
+  }
+  parts.forEach(p => {
+    if (p.words.length) {
+      p.start = Math.min(...p.words.map(w => w.s));
+      p.end = Math.max(...p.words.map(w => w.e));
+    } else p.quiet = true;
+  });
+  return parts;
+}
+function splitCueZh(cue) {
+  const ranges = sentenceRanges(cue.zh);
+  if (ranges.length < 2) return [{ ...cue, text: cue.zh, words: [], quiet: true }];
+  const total = Math.max(1, cue.zh.length);
+  const start = cue.start;
+  const end = cue.end != null ? cue.end : start + Math.max(2, total / 8);
+  const bounds = ranges.map(r => start + (end - start) * (r.s / total));
+  return ranges.map((r, i) => ({
+    i: 0, start: bounds[i], end: i + 1 < ranges.length ? bounds[i + 1] : end,
+    speaker: cue.speaker, text: r.text, words: [], fromJson: cue.fromJson, hasWords: false, quiet: true
+  }));
+}
+function attachZh(parts, cue) {
+  if (!cue.zh) return;
+  const zs = sentenceRanges(cue.zh).map(r => r.text);
+  if (!zs.length) return;
+  parts.forEach((p, i) => { p.zh = zs[i] || ''; });
+  if (zs.length > parts.length) parts[parts.length - 1].zh = zs.slice(parts.length - 1).join('');
+}
+function finalizeCues(cues) {
+  cues.forEach((c, i) => {
+    const fallbackEnd = c.end != null ? c.end : c.start + Math.max(2, (c.text || '').length/15);
+    let speechStart = c.words.length ? c.words[0].s : c.start;
     // 句首孤立长词常常是对齐把上一句的尾巴粘了过来（899 的 "And" 长 2.7 秒），
     // 判定激活起点时跳过它，避免下一句提前把上一句的句尾顶掉。
-    if (words.length > 1 && words[1].s - words[0].e > 1.0) speechStart = words[1].s;
-    const speechEnd = words.length ? Math.max(...words.map(w => w.e)) : fallbackEnd;
-    return { i, start, end, speechStart, speechEnd, speaker: s?.speaker || c.speaker || '',
-             text: c.text || s?.text || '', words, fromJson: !!s, hasWords: words.length > 0 };
+    if (c.words.length > 1 && c.words[1].s - c.words[0].e > 1.0) speechStart = c.words[1].s;
+    const speechEnd = c.words.length ? Math.max(...c.words.map(w => w.e)) : fallbackEnd;
+    c.i = i; c.speechStart = speechStart; c.speechEnd = speechEnd; c.hasWords = c.words.length > 0;
   });
   // 首词被拉成 >1.5 秒、且压住上一句的句尾：它是对齐粘过来的上一句尾巴，
   // 实际语音从第二个词开始（899 的 "And" 2.7 秒）。激活起点跳过它。
@@ -766,6 +1145,46 @@ function mergeCues(vtt, sidecar) {
     }
   }
   return cues;
+}
+function mergeCues(vtt, sidecar, zhVtt) {
+  const segs = Array.isArray(sidecar?.segments) ? sidecar.segments : [];
+  const aligned = segs.length === vtt.length;
+  const zh = Array.isArray(zhVtt) ? zhVtt : [];
+  const zhAligned = zh.length === vtt.length ? zh : vtt.map(c => zh.find(z => Math.abs(z.start - c.start) < 1) || null);
+  let cues = vtt.map((c, i) => {
+    const s = aligned ? segs[i] : (segs[i] && Math.abs((segs[i].start||0)/1000 - c.start) < 1 ? segs[i] : null);
+    const words = (s?.words || []).map(([t, st, dur]) => ({ t, s: st/1000, e: (st + Math.max(0, dur))/1000 }));
+    for (let k = 0; k < words.length; k++) {
+      if (words[k].e <= words[k].s) {
+        const nx = words.slice(k+1).find(w => w.s > words[k].s);
+        words[k].e = nx ? nx.s : Math.max(words[k].s + 0.12, (s?.end ? s.end/1000 : c.end));
+      }
+    }
+    const start = s && Number.isFinite(s.start) ? s.start/1000 : c.start;
+    const end = s && s.end != null ? s.end/1000 : null;
+    return { i, start, end, speaker: s?.speaker || c.speaker || '',
+             text: c.text || s?.text || '', zh: zhAligned[i]?.text || '',
+             words, fromJson: !!s, hasWords: words.length > 0 };
+  });
+  let lang = reader.lang;
+  if (lang === 'zh' && !cues.some(c => c.zh)) lang = 'en';
+  if (lang === 'zh') {
+    const out = [];
+    for (const cue of cues) {
+      if (!cue.zh) { out.push({ ...cue, words: [], quiet: true }); continue; }
+      out.push(...(reader.segment ? splitCueZh(cue) : [{ ...cue, text: cue.zh, words: [], quiet: true }]));
+    }
+    cues = out;
+  } else if (reader.segment) {
+    const out = [];
+    for (const cue of cues) {
+      const parts = splitCueIntoSentences(cue);
+      if (lang === 'both' && cue.zh) attachZh(parts, cue);
+      out.push(...parts);
+    }
+    cues = out;
+  }
+  return finalizeCues(cues);
 }
 
 function splitLabel(text, words) {
@@ -805,12 +1224,16 @@ function renderCues() {
       } else { wrap.textContent = cue.text; wordEls = []; }
     } else {
       wrap.textContent = cue.text;
-      if (wordMode && !isBracket(cue.text)) {
+      if (wordMode && !isBracket(cue.text) && !cue.quiet) {
         const b = document.createElement('span'); b.className = 'badge'; b.textContent = cue.fromJson ? '句级' : '官网';
         wrap.append(b); fallback++;
       }
     }
     el.append(wrap);
+    if (reader.lang === 'both' && cue.zh) {
+      const z = document.createElement('span'); z.className = 'zh'; z.textContent = cue.zh;
+      el.append(z);
+    }
     el.addEventListener('click', () => seekTo(cue.start + state.offset));
     box.append(el);
     state.nodes.push({ el, wrap, words: wordEls, lastIdx: -1 });
@@ -956,18 +1379,21 @@ function selectEpisode(item) {
   audio.src = item.url; audio.load();
   $('total').textContent = '00:00'; $('now').textContent = '00:00';
   $('seek').value = '0'; $('pfill').style.width = '0%';
-  box.innerHTML = '<div class="empty">正在加载 VTT 与时间轴…</div>';
-  state.cues = []; state.nodes = []; state.activeCue = -1;
+  box.innerHTML = '<div class="empty">' + loaderHTML('正在加载 VTT 与时间轴…') + '</div>';
+  state.cues = []; state.nodes = []; state.activeCue = -1; state.vtt = null; state.sidecar = null; state.zhVtt = null;
   syncJumpPill();
   closeDrawer();
   status('正在加载 #' + item.ep + ' 的 VTT 与时间轴…');
 
   Promise.all([
     fetch('transcripts/' + item.ep + '.vtt').then(r => { if (!r.ok) throw new Error('VTT ' + r.status); return r.text(); }),
-    fetch('timings/' + item.ep + '.json').then(r => r.ok ? r.json() : null).catch(() => null)
-  ]).then(([vttText, sidecar]) => {
+    fetch('timings/' + item.ep + '.json').then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch('transcripts/zh/' + item.ep + '.vtt').then(r => r.ok ? r.text() : null).catch(() => null)
+  ]).then(([vttText, sidecar, zhText]) => {
     const vtt = parseVTT(vttText);
-    state.cues = mergeCues(vtt, sidecar);
+    state.vtt = vtt; state.sidecar = sidecar;
+    state.zhVtt = zhText ? parseZhVTT(zhText) : null;
+    state.cues = mergeCues(vtt, sidecar, state.zhVtt);
     const aligned = sidecar && Array.isArray(sidecar.segments) && sidecar.segments.length === vtt.length;
     const complete = sidecar?.complete === true;
     if (!vtt.length) { box.innerHTML = '<div class="empty">VTT 为空。</div>'; status('该集没有可用 VTT。', 'warn'); return; }
@@ -975,7 +1401,8 @@ function selectEpisode(item) {
     if (!sidecar) status('未找到 timings JSON，整集按官网 VTT 句级时间显示。', 'warn');
     else if (!complete) status('该集的修正时间轴尚未完成（' + (sidecar.rejected || '未完成') + '），按官网 VTT 句级时间显示。', 'warn');
     else if (!aligned) status('JSON 与 VTT 段落数不一致（' + (sidecar.segments?.length || 0) + ' vs ' + vtt.length + '），已按可匹配部分合并。', 'warn');
-    else status('已加载 ' + vtt.length + ' 段，' + state.cues.reduce((n,c)=>n+c.words.length,0).toLocaleString() + ' 个词级时间点。', 'good');
+    else status('已加载 ' + vtt.length + ' 段，' + state.cues.reduce((n,c)=>n+c.words.length,0).toLocaleString() + ' 个词级时间点。' +
+      (reader.lang !== 'en' && !state.zhVtt ? ' 该集暂无中文 VTT，已显示英文。' : ''), 'good');
   }).catch(err => {
     box.innerHTML = '<div class="empty"><div><b>加载失败</b>' + esc(err.message) + '<br><span style="font-size:12px">若用 file:// 打开，请从 docs/ 目录运行 python -m http.server 再访问。</span></div></div>';
     status('加载失败：' + err.message + '（请用 HTTP 服务预览）', 'warn');
@@ -1023,6 +1450,21 @@ function loadFeed() {
 $('play').onclick = () => audio.paused ? audio.play().catch(e => status('播放失败：' + e.message, 'warn')) : audio.pause();
 audio.addEventListener('play', () => { $('play').classList.add('playing'); $('play').setAttribute('aria-label','暂停'); document.body.classList.add('playing'); });
 audio.addEventListener('pause', () => { $('play').classList.remove('playing'); $('play').setAttribute('aria-label','播放'); document.body.classList.remove('playing'); });
+let buffering = false;
+function setBuffering(on) {
+  if (buffering === on) return;
+  buffering = on;
+  document.body.classList.toggle('buffering', on);
+  $('play').classList.toggle('buffering', on);
+  $('play').setAttribute('aria-label', on ? '正在缓冲' : (audio.paused ? '播放' : '暂停'));
+}
+audio.addEventListener('waiting', () => { if (!audio.paused) setBuffering(true); });
+audio.addEventListener('stalled', () => { if (!audio.paused) setBuffering(true); });
+audio.addEventListener('seeking', () => { if (!audio.paused) setBuffering(true); });
+audio.addEventListener('playing', () => setBuffering(false));
+audio.addEventListener('canplay', () => setBuffering(false));
+audio.addEventListener('pause', () => setBuffering(false));
+audio.addEventListener('emptied', () => setBuffering(false));
 audio.addEventListener('loadedmetadata', () => { $('total').textContent = fmt(audio.duration || 0); paint(false); });
 audio.addEventListener('timeupdate', () => paint());
 $('back').onclick = () => { audio.currentTime = Math.max(0, audio.currentTime - 5); paint(true); };
@@ -1032,6 +1474,7 @@ function closeSpeedMenu() { speedMenu.classList.remove('on'); speedBtn.setAttrib
 speedBtn.onclick = e => {
   e.stopPropagation();
   const on = !speedMenu.classList.contains('on');
+  if (on) closeTypeSheet();
   speedMenu.classList.toggle('on', on);
   speedBtn.setAttribute('aria-expanded', String(on));
 };
@@ -1132,7 +1575,8 @@ box.addEventListener('wheel', () => { stopScroll(); state.userScrollUntil = Date
 box.addEventListener('touchmove', () => { stopScroll(); state.userScrollUntil = Date.now() + 3000; }, { passive: true });
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
-    if (speedMenu.classList.contains('on')) closeSpeedMenu();
+    if ($('typeSheet').classList.contains('on')) closeTypeSheet();
+    else if (speedMenu.classList.contains('on')) closeSpeedMenu();
     else if ($('drawer').classList.contains('on') || $('details').classList.contains('on')) closeOverlays();
     else if (state.immersive) setImmersive(false);
     return;
