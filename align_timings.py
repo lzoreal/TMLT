@@ -1059,6 +1059,38 @@ def compressed_runs(words, min_run=3, max_word_ms=120, min_gap=1.0, max_ratio=0.
     return out
 
 
+def _match_run_times(pattern, window_tokens):
+    """在窗口词流里模糊匹配 pattern，返回每个 pattern token 的时间。
+
+    ASR 与校对稿之间常有漏词/错词，精确匹配的命中率只有 ~25%；这里取最长公共块
+    作为锚点，未锚定的 token 在相邻锚点之间线性插值。要求首尾都锚定、覆盖率
+    ≥50%，否则视为没匹配上。
+    """
+
+    from difflib import SequenceMatcher
+
+    window = [token for token, _ in window_tokens]
+    matcher = SequenceMatcher(None, pattern, window, autojunk=False)
+    anchors = {}
+    for block in matcher.get_matching_blocks():
+        for delta in range(block.size):
+            anchors[block.a + delta] = window_tokens[block.b + delta][1]
+    if 0 not in anchors or (len(pattern) - 1) not in anchors:
+        return None
+    if len(anchors) < max(3, int(round(0.5 * len(pattern)))):
+        return None
+    known = sorted(anchors)
+    times = [None] * len(pattern)
+    for index, when in anchors.items():
+        times[index] = when
+    for a, b in zip(known, known[1:]):
+        for index in range(a + 1, b):
+            times[index] = anchors[a] + (anchors[b] - anchors[a]) * (index - a) / (b - a)
+    if any(times[i] > times[i+1] + 0.001 for i in range(len(times) - 1)):
+        return None
+    return times
+
+
 def repair_compressed_runs(cues, results, tokens):
     """用 ASR 词流给句内被压成近零时长的 run 重新定时。
 
@@ -1091,26 +1123,21 @@ def repair_compressed_runs(cues, results, tokens):
             hi = words[k+1][1] + 0.5
             left = bisect.bisect_left(starts, lo)
             right = bisect.bisect_right(starts, hi)
-            best = None
-            for pos in range(left, max(left, right - len(pattern) + 1)):
-                if pos + len(pattern) > len(tokens):
-                    break
-                if [tokens[pos + m][0] for m in range(len(pattern))] == pattern:
-                    distance = abs(tokens[pos][1] - words[j][1])
-                    if best is None or distance < best[0]:
-                        best = (distance, pos)
-            if best is None:
+            window_tokens = tokens[left:right]
+            if len(window_tokens) < 3:
                 continue
-            pos = best[1]
+            times = _match_run_times(pattern, window_tokens)
+            if times is None:
+                continue
+            natural_total = sum(natural_word_ms(text) for text in texts) / 1000.0
+            if times[-1] - times[0] > natural_total * 3 + 2:
+                continue
             placed = []
             for wi, text in enumerate(texts):
                 first = owner.index(wi)
                 last = len(owner) - 1 - owner[::-1].index(wi)
-                begin = tokens[pos + first][1]
-                if pos + last + 1 < len(tokens):
-                    finish = tokens[pos + last + 1][1]
-                else:
-                    finish = hi
+                begin = times[first]
+                finish = times[last + 1] if last + 1 < len(times) else hi
                 finish = max(begin + 0.06, min(finish, hi - 0.01))
                 natural = natural_word_ms(text) / 1000.0
                 if finish - begin > natural * 3 + 0.5:
