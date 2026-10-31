@@ -708,12 +708,12 @@ body.playing .eq i{animation:eq .9s ease-in-out infinite alternate}
   <div class="rrow importrow">
     <span>实验数据</span>
     <div class="import-actions">
-      <button id="importBtn" class="textbtn">导入 JSON…</button>
+      <button id="importBtn" class="textbtn">导入 JSON / VTT…</button>
       <button id="restoreBtn" class="textbtn" disabled>还原</button>
     </div>
-    <div class="import-note" id="importNote">timings sidecar，或 {vtt, zh, segments} 实验包；也可把 JSON 拖进正文。</div>
+    <div class="import-note" id="importNote">timings sidecar、实验包 JSON，或本地 .vtt；也可直接拖进正文。</div>
   </div>
-  <input id="importFile" type="file" accept=".json,application/json" hidden>
+  <input id="importFile" type="file" accept=".json,.vtt,application/json,text/vtt" hidden>
 </div>
 
 <button class="coverframe" id="frameBtn" aria-label="退出沉浸模式" title="回到播放器" inert>
@@ -913,7 +913,7 @@ function setImportNote(text, cls = '') {
   n.className = 'import-note' + (cls ? ' ' + cls : '');
 }
 function resetImportUI() {
-  setImportNote('timings sidecar，或 {vtt, zh, segments} 实验包；也可把 JSON 拖进正文。');
+  setImportNote('timings sidecar、实验包 JSON，或本地 .vtt；也可直接拖进正文。');
   $('restoreBtn').disabled = true;
   $('importFile').value = '';
 }
@@ -928,20 +928,53 @@ function applyExperiment(obj, name) {
     : looksVtt(obj?.zhText) ? obj.zhText : null;
   const base = state.base;
   if (!sc && !vttText) throw new Error('找不到 segments 或 vtt 字段');
+  const parsed = vttText ? parseVttSmart(vttText) : null;
   let vtt;
   if (vttText) {
-    vtt = parseVTT(vttText);
-    if (!vtt.length) throw new Error('VTT 解析为空');
+    if (parsed.hasLatin) vtt = parsed.primary;
+    else if (parsed.hasCjk) vtt = base?.vtt || state.vtt;
+    else vtt = [];
+    if (!vtt || !vtt.length) {
+      throw new Error(parsed.hasCjk && !base?.vtt ? '这是中文字幕，请先加载一集再导入' : 'VTT 解析为空');
+    }
   } else {
     vtt = base?.vtt || state.vtt;
     if (!vtt || !vtt.length) throw new Error('当前没有可套用的 VTT');
   }
-  const zh = zhText ? parseZhVTT(zhText) : (vttText ? null : (base ? base.zhVtt : state.zhVtt));
-  state.vtt = vtt; state.sidecar = sc; state.zhVtt = zh; state.experiment = name;
-  state.cues = mergeCues(vtt, sc, zh);
+  const sameAsBase = !!(base?.vtt && base.vtt.length === vtt.length &&
+    Math.abs((base.vtt[0]?.start || 0) - (vtt[0]?.start || 0)) < 1);
+  const sidecar = sc || (sameAsBase ? base.sidecar : null);
+  const zhFromVtt = parsed?.hasCjk ? parsed.zh : null;
+  const zh = zhText ? parseZhVTT(zhText)
+    : (zhFromVtt || (sameAsBase ? base.zhVtt : (vttText ? null : state.zhVtt)));
+  state.vtt = vtt; state.sidecar = sidecar; state.zhVtt = zh; state.experiment = name;
+  state.cues = mergeCues(vtt, sidecar, zh);
   renderCues();
-  status('实验数据：' + name + ' · ' + vtt.length + ' 段' + (sc ? ' · ' + sc.segments.length + ' 组词级' : ' · 无词级'), 'good');
-  setImportNote('已导入 ' + name, 'on');
+  status('实验数据：' + name + ' · ' + vtt.length + ' 段' + (sidecar ? ' · ' + sidecar.segments.length + ' 组词级' : ' · 无词级') + (zh ? ' · 含中文' : ''), 'good');
+  setImportNote('已导入 ' + name + (zh && reader.lang === 'en' ? '（切到中文/双语查看译文）' : ''), 'on');
+  $('restoreBtn').disabled = !base;
+}
+function applyVttExperiment(text, name) {
+  const parsed = parseVttSmart(text);
+  if (!parsed.hasLatin && !parsed.hasCjk) throw new Error('VTT 解析为空');
+  const base = state.base;
+  let vtt, sidecar = null, zhVtt = null;
+  if (!parsed.hasLatin) {
+    if (!base?.vtt) throw new Error('这是中文字幕，请先加载一集再导入');
+    vtt = base.vtt; sidecar = base.sidecar; zhVtt = parsed.zh;
+  } else {
+    vtt = parsed.primary;
+    const same = !!(base?.vtt && base.vtt.length === vtt.length &&
+      Math.abs((base.vtt[0]?.start || 0) - (vtt[0]?.start || 0)) < 1);
+    sidecar = same ? base.sidecar : null;
+    zhVtt = parsed.hasCjk ? parsed.zh : (same ? base.zhVtt : null);
+  }
+  state.vtt = vtt; state.sidecar = sidecar; state.zhVtt = zhVtt; state.experiment = name;
+  state.cues = mergeCues(vtt, sidecar, zhVtt);
+  renderCues();
+  const tag = !parsed.hasLatin ? '中文字幕' : parsed.hasCjk ? '双语字幕' : '英文字幕';
+  status('实验数据：' + name + ' · ' + vtt.length + ' 段 · ' + tag + (sidecar ? ' · 词级保留' : ' · 无词级'), 'good');
+  setImportNote('已导入 ' + name + '（' + tag + '）' + (zhVtt && reader.lang === 'en' ? '，切到中文/双语查看译文' : ''), 'on');
   $('restoreBtn').disabled = !base;
 }
 function restoreExperiment() {
@@ -955,8 +988,11 @@ function restoreExperiment() {
 }
 function importExperimentFile(file) {
   if (!file) return;
-  if (!/\.json$/i.test(file.name)) { setImportNote('请选择 .json 文件', 'err'); return; }
+  const isJson = /\.json$/i.test(file.name) || file.type === 'application/json';
+  const isVtt = /\.vtt$/i.test(file.name) || file.type === 'text/vtt';
+  if (!isJson && !isVtt) { setImportNote('请选择 .json 或 .vtt 文件', 'err'); return; }
   file.text().then(txt => {
+    if (isVtt) { applyVttExperiment(txt, file.name); return; }
     let obj;
     try { obj = JSON.parse(txt); } catch (e) { throw new Error('JSON 解析失败：' + e.message); }
     applyExperiment(obj, file.name);
@@ -1061,6 +1097,30 @@ function parseZhVTT(text) {
     out.push({ start: tsec(m[1]), end: tsec(m[2]), speaker: zh ? zh.speaker : '', text: zh ? zh.text : '' });
   }
   return out;
+}
+
+function parseVttSmart(text) {
+  const primary = [], zh = [];
+  for (const block of text.replace(/\r/g,'').split(/\n{2,}/)) {
+    const lines = block.split('\n').filter(l => l.trim() !== '');
+    if (!lines.length || /^WEBVTT/.test(lines[0])) continue;
+    let i = 0;
+    if (!lines[i].includes('-->') && /^\d+$/.test(lines[i].trim())) i++;
+    const line = lines[i];
+    if (!line || !line.includes('-->')) continue;
+    const m = line.match(/(\d+:\d{2}:\d{2}\.\d{3})\s*-->\s*(\d+:\d{2}:\d{2}\.\d{3})/);
+    if (!m) continue;
+    const parsed = lines.slice(i + 1).map(l => {
+      const v = l.match(/^<v\s+([^>]+)>\s*([\s\S]*)$/);
+      return { speaker: v ? v[1].trim() : '', text: (v ? v[2] : l).replace(/<[^>]+>/g, '').trim() };
+    }).filter(l => l.text);
+    const lat = parsed.filter(l => scriptOf(l.text) !== 'cjk');
+    const cjk = parsed.filter(l => scriptOf(l.text) === 'cjk');
+    const start = tsec(m[1]), end = tsec(m[2]);
+    if (lat.length) primary.push({ start, end, speaker: lat[0].speaker, text: lat.map(x => x.text).join(' ') });
+    if (cjk.length) zh.push({ start, end, speaker: cjk[0].speaker, text: cjk.map(x => x.text).join(' ') });
+  }
+  return { primary, zh, hasLatin: primary.length > 0, hasCjk: zh.length > 0 };
 }
 
 function scriptOf(text) {
