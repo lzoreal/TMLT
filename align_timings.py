@@ -688,13 +688,13 @@ def locate_cues(model, audio, cues, cache=None, **kwargs):
             Path(cache).parent.mkdir(parents=True, exist_ok=True)
             Path(cache).write_text(json.dumps(tokens, ensure_ascii=False), encoding="utf-8")
     if not tokens:
-        return {}, 0.0
+        return {}, 0.0, []
     log(f"    ASR 定位：{len(tokens)} 词，用时 {time.time() - started:.0f}s")
 
     anchors, coverage = match_cues(tokens, cues, **kwargs)
     log(f"    ASR 定位：{len(anchors)} 句匹配成功（{coverage:.0%}），"
         f"总用时 {time.time() - started:.0f}s")
-    return anchors, coverage
+    return anchors, coverage, tokens
 
 
 def fill_gaps(shifts, cues, max_gap=LOCATED_GAP):
@@ -1037,6 +1037,94 @@ def dump_cues(path, cues, results, shifts):
                      f"{len(words)}\t{reason}\t{text}\n")
 
 
+def compressed_runs(words, min_run=3, max_word_ms=120, min_gap=1.0, max_ratio=0.3):
+    """返回 [(j, k)]：一段被压扁的词（远快于正常语速），且后面有明显空档。"""
+
+    out = []
+    j = 0
+    while j < len(words):
+        if (words[j][2] - words[j][1]) * 1000 <= max_word_ms:
+            k = j
+            while k + 1 < len(words) and (words[k+1][2] - words[k+1][1]) * 1000 <= max_word_ms:
+                k += 1
+            if k - j + 1 >= min_run and k + 1 < len(words):
+                if words[k+1][1] - words[k][2] >= min_gap:
+                    span = words[k][2] - words[j][1]
+                    natural = sum(natural_word_ms(w[0]) for w in words[j:k+1]) / 1000.0
+                    if natural > 0 and span < max_ratio * natural:
+                        out.append((j, k))
+            j = k + 1
+        else:
+            j += 1
+    return out
+
+
+def repair_compressed_runs(cues, results, tokens):
+    """用 ASR 词流给句内被压成近零时长的 run 重新定时。
+
+    全库 712 处（469 集）都有「一串 0 时长词 + 后面大空档」：DTW 在窗口里
+    找不到对应语音时会把这段压进极短槽。ASR 词流里有这些词的真实位置，按
+    前后词的实测边界框出窗口做连续匹配，命中就替换时间；不命中保持原样。
+    """
+
+    if not tokens:
+        return 0
+    import bisect
+
+    starts = [start for _, start in tokens]
+    repaired = 0
+    for cue in cues:
+        aligned = results.get(cue["i"])
+        words = aligned["words"] if aligned else None
+        if not words:
+            continue
+        for j, k in compressed_runs(words):
+            texts = [w[0] for w in words[j:k+1]]
+            pattern, owner = [], []
+            for wi, text in enumerate(texts):
+                for token in WORD_TOKEN.findall(text.lower()):
+                    pattern.append(token)
+                    owner.append(wi)
+            if len(pattern) < 3:
+                continue
+            lo = (words[j-1][2] - 0.5) if j else max(0.0, cue["start"])
+            hi = words[k+1][1] + 0.5
+            left = bisect.bisect_left(starts, lo)
+            right = bisect.bisect_right(starts, hi)
+            best = None
+            for pos in range(left, max(left, right - len(pattern) + 1)):
+                if pos + len(pattern) > len(tokens):
+                    break
+                if [tokens[pos + m][0] for m in range(len(pattern))] == pattern:
+                    distance = abs(tokens[pos][1] - words[j][1])
+                    if best is None or distance < best[0]:
+                        best = (distance, pos)
+            if best is None:
+                continue
+            pos = best[1]
+            placed = []
+            for wi, text in enumerate(texts):
+                first = owner.index(wi)
+                last = len(owner) - 1 - owner[::-1].index(wi)
+                begin = tokens[pos + first][1]
+                if pos + last + 1 < len(tokens):
+                    finish = tokens[pos + last + 1][1]
+                else:
+                    finish = hi
+                finish = max(begin + 0.06, min(finish, hi - 0.01))
+                natural = natural_word_ms(text) / 1000.0
+                if finish - begin > natural * 3 + 0.5:
+                    finish = begin + natural
+                if wi == len(texts) - 1:
+                    finish = max(begin + 0.06, min(finish, words[k+1][1]))
+                placed.append((text, begin, finish))
+            if any(placed[i][1] < placed[i-1][2] - 0.001 for i in range(1, len(placed))):
+                continue
+            words[j:k+1] = placed
+            repaired += 1
+    return repaired
+
+
 def lead_word_too_long(text, duration_ms):
     """首词时长是否离谱：短词被拉成 1.2 秒以上就是对齐把上一句尾巴粘过来。"""
 
@@ -1348,7 +1436,7 @@ def locate_only(model, session, source, args, workdir, tag=""):
             download(session, source_url, audio_path)
 
     audio = decode_audio(audio_path)
-    anchors, coverage = locate_cues(model, audio, cues)
+    anchors, coverage, _ = locate_cues(model, audio, cues)
     offsets = sorted(anchors[c["i"]] - c["start"] for c in cues if c["i"] in anchors)
     if offsets:
         far = sum(1 for v in offsets if abs(v) > MAX_LOCAL_SHIFT)
@@ -1424,8 +1512,9 @@ def run_episode(model, session, source, args, workdir, tag=""):
     if args.token_cache:
         token_cache = Path(args.token_cache) / f"tokens_{episode}.json"
     located = {}
+    tokens = []
     if args.locate_first:
-        anchors, coverage = locate_cues(model, audio, cues, cache=token_cache)
+        anchors, coverage, tokens = locate_cues(model, audio, cues, cache=token_cache)
         if coverage >= MIN_LOCATE_COVERAGE:
             located = {c["i"]: anchors[c["i"]] - c["start"]
                        for c in cues if c["i"] in anchors}
@@ -1495,7 +1584,7 @@ def run_episode(model, session, source, args, workdir, tag=""):
     if (not located
             and (median_abs > AUDIO_MISMATCH_SECONDS
                  or (results and dropped > 0.10 * len(results)))):
-        anchors, coverage = locate_cues(model, audio, cues, cache=token_cache)
+        anchors, coverage, tokens = locate_cues(model, audio, cues, cache=token_cache)
         if coverage >= MIN_LOCATE_COVERAGE:
             located = {c["i"]: anchors[c["i"]] - c["start"]
                        for c in cues if c["i"] in anchors}
@@ -1527,6 +1616,14 @@ def run_episode(model, session, source, args, workdir, tag=""):
         if fixed:
             median_abs, segments, dropped = refresh()
             log(f"{tag}#{episode} 单句补对齐 {fixed} 句 → "
+                f"残差中位 {median_abs:.1f}s，丢弃 {dropped}/{len(results)}")
+
+    # 句内被压成近零时长的 run：用 ASR 词流回填真实位置（需要定位阶段的词流）。
+    if tokens:
+        runs = repair_compressed_runs(cues, results, tokens)
+        if runs:
+            median_abs, segments, dropped = refresh()
+            log(f"{tag}#{episode} 压缩 run 回填 {runs} 处 → "
                 f"残差中位 {median_abs:.1f}s，丢弃 {dropped}/{len(results)}")
 
     # 取证落盘要放在拒绝判定之前：被拒的集正是要看的那批。
