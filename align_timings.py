@@ -1048,27 +1048,31 @@ def natural_word_ms(text):
 
 
 def normalize_leading_words(words, previous_end_ms):
-    """把压住上一句句尾的前导词重排到「上一句结束 → 第一个正常词」之间。
+    """把被拉长的前导词重排到「上一句结束（或音频起点）→ 第一个正常词」之间。
 
-    实测 872 集里 18,571 段有同一模式：新句首词被拉长（#500 的 "And" 2.74 秒），
-    起点落在上一句最后几个词中间。这里只处理首词确实超长且压住上一句的句子，
-    按文本长度给前导词重新分配时长，不改变后面的词。
+    实测两类同源问题：
+    - 压住上一句句尾：首词起点落在上一句最后几个词中间（872 集 18,487 段）；
+    - 吞掉停顿：首词从上一句结束后开始，一直拉到下一个词（#72 的 "This" 9.78 秒）。
+    只处理首词确实超长的句子，按文本长度重排前导词，后面的词不动。
     """
 
-    if len(words) < 2 or previous_end_ms is None:
-        return words
-    lead = None
-    for i, w in enumerate(words):
-        if w[1] * 1000 >= previous_end_ms:
-            lead = i
-            break
-    if not lead:  # 0 或 None：首词没有压住上一句
+    if len(words) < 2:
         return words
     first = words[0]
     if not lead_word_too_long(first[0], (first[2] - first[1]) * 1000):
         return words
+    lower_ms = previous_end_ms if previous_end_ms is not None else 0
+    lead = None
+    for i, w in enumerate(words):
+        if w[1] * 1000 >= lower_ms:
+            lead = i
+            break
+    if lead is None or lead >= len(words):
+        return words
+    if lead == 0:  # 首词没压住上一句，只是被拉长吞了停顿
+        lead = 1
     limit_ms = words[lead][1] * 1000
-    available = limit_ms - previous_end_ms
+    available = limit_ms - lower_ms
     if available < 60:
         return words
 
@@ -1079,11 +1083,11 @@ def normalize_leading_words(words, previous_end_ms):
     if total <= available:
         cursor = limit_ms
         for j in range(lead - 1, -1, -1):
-            start = max(previous_end_ms, cursor - weights[j])
+            start = max(lower_ms, cursor - weights[j])
             fixed[j] = (texts[j], start / 1000.0, cursor / 1000.0)
             cursor = start
     else:
-        cursor = previous_end_ms
+        cursor = lower_ms
         for j in range(lead):
             duration = available * weights[j] / total
             fixed[j] = (texts[j], cursor / 1000.0, (cursor + duration) / 1000.0)
