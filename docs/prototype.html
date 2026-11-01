@@ -786,7 +786,7 @@ const listBox = $('epList'), box = $('transcript');
 const state = { episodes: [], current: null, cues: [], nodes: [], activeCue: -1, wordIdx: -1,
   vtt: null, sidecar: null, zhVtt: null, base: null, experiment: null,
   mode: 'word', scroll: 'center', offset: 0, userScrollUntil: 0, immersive: false,
-  timeScale: 1, audioSeconds: 0 };
+  timeScale: 1, audioSeconds: 0, seekRaw: 0 };
 
 const themeBtns = [...document.querySelectorAll('.swatch')];
 const LIGHT_THEMES = new Set(['paper', 'mist']);
@@ -1443,7 +1443,13 @@ function updateTimeScale() {
   $('total').textContent = fmt(real || duration || 0);
 }
 
-function seekTo(t) { if (!state.current) return; audio.currentTime = Math.max(0, t / (state.timeScale || 1)); audio.play().catch(() => {}); paint(true); }
+function rawSeek(r) {
+  const max = Number.isFinite(audio.duration) && audio.duration > 0 ? audio.duration : Infinity;
+  const x = Math.max(0, Math.min(max, r));
+  state.seekRaw = x;
+  audio.currentTime = x;
+}
+function seekTo(t) { if (!state.current) return; rawSeek(t / (state.timeScale || 1)); audio.play().catch(() => {}); paint(true); }
 
 function locateCue(t) {
   // 当前句还覆盖播放头就保持不动：相邻句常有词级重叠，按 start 切会提前跳句。
@@ -1465,7 +1471,9 @@ function locateCue(t) {
 function paint(force = false) {
   if (!state.cues.length) { syncJumpPill(); return; }
   const raw = audio.currentTime || 0;
-  const t = raw * state.timeScale;
+  // 浏览器按标称码率估算时长，seek 落点会超前，但播放时钟仍与音频 1:1；
+  // 所以补偿量由最后一次 seek 的 raw 目标决定，而不是持续缩放时钟。
+  const t = raw + (state.timeScale - 1) * state.seekRaw;
   let ci = locateCue(t);
   // 未开始播放时定位不到任何句，默认高亮第一句
   if (ci < 0 && t < 0.001) ci = 0;
@@ -1572,7 +1580,7 @@ function selectEpisode(item) {
   frameCover.onerror = () => { frameCover.onerror = null; frameCover.src = coverFallback; };
   frameCover.src = item.img || coverFallback;
   audio.src = item.url; audio.load();
-  state.audioSeconds = 0; state.timeScale = 1;
+  state.audioSeconds = 0; state.timeScale = 1; state.seekRaw = 0;
   $('total').textContent = '00:00'; $('now').textContent = '00:00';
   $('seek').value = '0'; $('pfill').style.width = '0%';
   box.innerHTML = '<div class="empty">' + loaderHTML('正在加载 VTT 与时间轴…') + '</div>';
@@ -1668,9 +1676,8 @@ audio.addEventListener('emptied', () => setBuffering(false));
 audio.addEventListener('loadedmetadata', () => { updateTimeScale(); paint(false); });
 audio.addEventListener('timeupdate', () => paint());
 function seekBy(seconds) {
-  const t = (audio.currentTime || 0) * state.timeScale + seconds;
-  audio.currentTime = Math.min(audio.duration || Infinity,
-      Math.max(0, t / (state.timeScale || 1)));
+  const t = (audio.currentTime || 0) + (state.timeScale - 1) * state.seekRaw + seconds;
+  rawSeek(t / (state.timeScale || 1));
   paint(true);
 }
 $('back').onclick = () => seekBy(-5);
@@ -1694,7 +1701,7 @@ speedMenu.addEventListener('click', e => {
   closeSpeedMenu();
 });
 document.addEventListener('click', e => { if (!e.target.closest('.speed')) closeSpeedMenu(); });
-$('seek').addEventListener('input', () => { if (audio.duration > 0) { audio.currentTime = Number($('seek').value)/1000 * audio.duration; paint(true); } });
+$('seek').addEventListener('input', () => { if (audio.duration > 0) { rawSeek(Number($('seek').value)/1000 * audio.duration); paint(true); } });
 $('scroll').onchange = e => {
   state.scroll = e.target.value;
   if (state.scroll === 'off') return;
