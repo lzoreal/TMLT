@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-31T23:28:08+00:00",
+  "generated": "2026-11-01T00:01:10+00:00",
   "episodes": [
     {
       "episode": 1,
@@ -2444,7 +2444,7 @@
       "etag_size_matches": true,
       "audio_seconds": 3483.38,
       "plausible_master": true,
-      "sha256": null
+      "sha256": "136b9219c902a8f75d674c18c1fde9a01f5ac2f6725a9912749447aea41fc99e"
     },
     {
       "episode": 193,
