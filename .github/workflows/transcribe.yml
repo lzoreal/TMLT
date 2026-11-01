@@ -72,7 +72,12 @@ jobs:
           print(f"count={len(episodes)}")
           print(f"shards={json.dumps(plan)}")
           PY
-      - run: echo "待听写 ${{ steps.plan.outputs.count }} 集，分 ${{ steps.plan.outputs.shards }} 档" >> "$GITHUB_STEP_SUMMARY"
+      - name: Summarize plan
+        env:
+          PLAN: ${{ steps.plan.outputs.shards }}
+          COUNT: ${{ steps.plan.outputs.count }}
+        run: |
+          printf '待听写 %s 集：%s\n' "$COUNT" "$PLAN" >> "$GITHUB_STEP_SUMMARY"
 
   # 先把 3.1 GB 模型填进缓存，避免每个 job 同时冷拉
   prepare:
