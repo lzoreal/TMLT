@@ -1,0 +1,1147 @@
+WEBVTT
+
+00:00:00.520 --> 00:00:15.940
+<v Ira Glass>It's hard to remember now just how often we were hearing about them. How they were being blamed for the entire economic mess, collapsing all around us. And I think it's hard to remember just what a big deal they were, because we never quite understood, not then, not now, what they are.
+
+00:00:15.940 --> 00:00:20.710
+<v Man 1>The treasury launched the TARP last fall to help rid the nation's banks of toxic assets.
+
+00:00:20.710 --> 00:00:23.090
+<v Man 2>These toxic assets are the cancer in the balance sheet.
+
+00:00:23.090 --> 00:00:27.440
+<v Man 3>The President opened up by talking about the importance of dealing with toxic assets.
+
+00:00:27.440 --> 00:00:31.530
+<v Barack Obama>Banks aren't the only institutions affected by these toxic assets.
+
+00:00:31.530 --> 00:00:32.430
+<v Woman 1>Toxic assets.
+
+00:00:32.430 --> 00:00:33.570
+<v Man 4>Toxic assets.
+
+00:00:33.570 --> 00:00:39.480
+<v Man 5>Toxic assets.
+
+00:00:39.480 --> 00:01:01.890
+<v Ira Glass>Our Planet Money team has been covering the financial crisis for two years, and they felt like one way to understand what is happening in our economy-- right now, today-- was to become intimately acquainted with the source of its demise. The toxic asset. And so back in January, reporters David Kestenbaum and Chana Joffe-Walt convinced three of their colleagues that they should purchase one. Purchase one for themselves, pitch in together $1,000.
+
+00:01:01.890 --> 00:01:03.090
+<v Man 6>All right, so how much do we owe you?
+
+00:01:03.090 --> 00:01:06.850
+<v Chana Joffe-Walt>All right, you guys each owe me $202. Pay up.
+
+00:01:06.850 --> 00:01:08.370
+<v Caitlin Kenney>No change? Even $202?
+
+00:01:08.370 --> 00:01:08.870
+<v Chana Joffe-Walt>$202.
+
+00:01:08.860 --> 00:01:09.910
+<v Man 6>There's no change.
+
+00:01:09.910 --> 00:01:21.520
+<v Ira Glass>That's right, buy one of the things that nearly brought down the global financial system. That blew up major Wall Street banks, that plunged the world into an economic collapse from which it is still struggling to recover. They wanted to buy one of those.
+
+00:01:21.520 --> 00:01:23.850
+<v Chana Joffe-Walt>Caitlin, you're dragging over there.
+
+00:01:23.850 --> 00:01:37.480
+<v Caitlin Kenney>I'm writing a check, I have to be precise. I'm putting toxic asset as the memo on my check.
+
+00:01:37.480 --> 00:01:54.030
+<v Ira Glass>Today we're going to be hearing the surprisingly riveting tale of a single toxic asset. The Planet Money team has rolled out installments of the story one at a time over the course of the last year, on the Planet Money podcasts and on some of the NPR news shows-- serialized like a Dicken's novel, published one chapter at a time.
+
+00:01:54.030 --> 00:02:09.260
+<v Ira Glass>But today for the first time, we bring you the whole story. Great Expectations , Little Dorrit, Bleak House, the full novel, beginning to end, in one place for the first time, so you can actually follow the entire tale. And to kick us off, I am now joined in the studio by David and Chana.
+
+00:02:09.260 --> 00:02:09.760
+<v Ira Glass>Hello.
+
+00:02:09.600 --> 00:02:10.380
+<v Chana Joffe-Walt>Hello.
+
+00:02:10.380 --> 00:02:20.500
+<v David Kestenbaum>Hey, Ira. All right, so I brought it in. Here it is, this is what we bought. That's chapter one, volume two.
+
+00:02:20.500 --> 00:02:23.220
+<v Ira Glass>It's just a pile of papers.
+
+00:02:23.220 --> 00:02:39.130
+<v David Kestenbaum>Written by a lot of lawyers, yeah. So technically, this thing is called a mortgage backed security. Basically, a bunch of Wall Street guys grabbed up thousands of mortgages from all over the country, threw them in a pile, and sold off pieces to investors. So big pension funds bought them, insurance funds bought them, banks bought them.
+
+00:02:39.130 --> 00:02:40.250
+<v Ira Glass>And you guys bought them?
+
+00:02:40.250 --> 00:02:50.680
+<v Chana Joffe-Walt>Well that part happened much later. We bought ours in January of this year, and by that point, things had degraded so much that they were so cheap even a bunch of reporters could afford one.
+
+00:02:50.680 --> 00:03:17.760
+<v Ira Glass>And your goal in buying this toxic asset-- I thought of it as somebody who's a fan of these stories when I would hear them-- you're like archaeologists in this project. You're like forensic doctors trying to reconstruct how the housing market collapsed and the economy died, and truly understand what happened by carefully picking apart the corpse of one financial instrument. And I remember at the beginning, your hope was that this one toxic asset would be like an encyclopedia of the entire financial crisis.
+
+00:03:17.760 --> 00:03:31.910
+<v Chana Joffe-Walt>Yeah, it has. This thing has everything. There are homeowners and foreclosure, there is crime, there are the unintended consequences of bailing out both huge corporations and individual homeowners. There are questions of morality.
+
+00:03:31.910 --> 00:03:33.690
+<v David Kestenbaum>And there's a dog named Muffin.
+
+00:03:33.690 --> 00:03:36.590
+<v Ira Glass>All right, well let's get to it. Our show in five acts.
+
+00:03:36.590 --> 00:03:48.610
+<v Ira Glass>Act One, Fire Sale in Kansas City. Take it away.
+
+00:03:48.610 --> 00:03:59.140
+<v Chana Joffe-Walt>So we've got our $1,000, we've got the will. Now we just have to buy one. But it turns out, it's not so easy to buy a toxic asset. You kind of need to know a guy. But, David, you knew a guy.
+
+00:03:59.140 --> 00:04:14.590
+<v David Kestenbaum>Wit Solberg, he used to work on Wall Street, now he'd set up shop in Kansas City, his hometown. He was helping small community banks that got stuck with toxic assets. So I called him, and I said, "How can we buy one of these things?" And Wit said, "I can help you. Come on down." So we did.
+
+00:04:14.590 --> 00:04:16.310
+<v Chana Joffe-Walt>This is it?
+
+00:04:16.310 --> 00:04:18.490
+<v David Kestenbaum>Yeah. Hey, Chana?
+
+00:04:18.490 --> 00:04:19.630
+<v Chana Joffe-Walt>Yeah?
+
+00:04:19.630 --> 00:04:22.040
+<v David Kestenbaum>I forgot my check book.
+
+00:04:22.040 --> 00:04:23.000
+<v Chana Joffe-Walt>I got you.
+
+00:04:23.000 --> 00:04:23.500
+<v David Kestenbaum>All right.
+
+00:04:23.400 --> 00:04:35.300
+<v Chana Joffe-Walt>So David, you took me to Kansas City to what feels like an abandoned alley. There's no one around, it's like an unmarked brick building. I feel like we're buying drugs.
+
+00:04:35.300 --> 00:04:37.870
+<v Chana Joffe-Walt>Wait, this is really it? Just in one of these little buildings?
+
+00:04:37.870 --> 00:04:40.450
+<v David Kestenbaum>Yeah, it used to be a barber shop I think.
+
+00:04:40.450 --> 00:04:58.130
+<v Chana Joffe-Walt>So we go upstairs and it looks more legit inside. There are maybe a dozen guys in a big open office, white boards with numbers and lists. And each desk has several computer monitors sort of floating on a sea of crap-- potato chip bags, Snapple bottles, toothpaste, chewing tobacco.
+
+00:04:58.130 --> 00:05:01.050
+<v David Kestenbaum>Chewing tobacco that gets spit out into the Snapple bottle.
+
+00:05:01.050 --> 00:05:14.190
+<v Chana Joffe-Walt>That would be Wit. Wit Solberg. He's got a blond buzz cut, he's very charming and completely all over the place. Wit is always telling you several things at once. Just getting him to sit down and say his name is tough.
+
+00:05:14.190 --> 00:05:16.060
+<v Wit Solberg>OK, so we--
+
+00:05:16.060 --> 00:05:17.020
+<v Chana Joffe-Walt>What's your name?
+
+00:05:17.020 --> 00:05:23.050
+<v Wit Solberg>Oh, OK, that's a good point. So my name's Wit.
+
+00:05:23.050 --> 00:05:32.180
+<v Chana Joffe-Walt>OK, so a bit about what we're buying. A long time ago, before toxic assets were toxic, they were called-- and you've heard this phrase-- mortgaged backed securities.
+
+00:05:32.180 --> 00:05:48.800
+<v David Kestenbaum>What that means is that these are thousands of mortgages all bundled together. And every month when people send in their mortgage payments, think of that money as going into one big pot. And then the money in the pot gets used to pay the investors, the owners of this thing. They each get a monthly payment.
+
+00:05:48.800 --> 00:06:03.110
+<v Chana Joffe-Walt>Of course, we all know what happened. People stopped paying their mortgages. And the amount of money coming in started to dwindle. So there was no way investors are going to get all their money back. At this point, the mortgage backed security has officially become a toxic asset.
+
+00:06:03.110 --> 00:06:15.740
+<v David Kestenbaum>And now, lots of investors are trying to unload these things at steep discounts, which is a buying opportunity for us. We want to make some money on this. And we can, if we pick the right one at the right price.
+
+00:06:15.740 --> 00:06:38.540
+<v Chana Joffe-Walt>So we're sitting here in Wit's office about to start bidding on toxic assets that people are trying to dump. Wit's going to look at the toxic assets, analyze them, and help us choose what to buy. He's got three computer monitors on his desk, and brokers send him emails about what toxic assets are for sale today. Only they don't call them toxic assets, they call them bonds. Wit gets lots of emails from guys in New York.
+
+00:06:38.540 --> 00:06:48.300
+<v Wit Solberg>Bobby sends a lot of email. And Cliff, and Dwayne, and Adam, and Cliff again, and Chris, and, you know.
+
+00:06:48.300 --> 00:06:50.030
+<v Chana Joffe-Walt>These are guys that you trust?
+
+00:06:50.030 --> 00:06:52.290
+<v Wit Solberg>They're guys that sell bonds.
+
+00:06:52.290 --> 00:06:56.860
+<v David Kestenbaum>The emails have subject lines like, super senior steal. One says, cheaper.
+
+00:06:56.860 --> 00:07:16.780
+<v Chana Joffe-Walt>It takes us a long time to even find a bond Wit wants to make an offer on. But finally, he picks one he thinks looks good. And then he asks this guy Rob-- who kind of looks like he stuck his finger in a light socket-- to go and analyze it with a computer model in the back room. Actually, what Wit specifically says is, "Hey Rob, go back to the bond cave and check this out."
+
+00:07:16.780 --> 00:07:41.420
+<v David Kestenbaum>And back in the bond cave, Rob is going to run a bunch of fancy software to try and answer one deceptively simple question. How much should we pay for this bond? Remember, the bond is a pile of mortgages. Imagine that pile. The value of the pile depends on the health of those mortgages. As people's houses get foreclosed on, repossessed, and sold for a loss, pop, one of the mortgages disappears. The pile shrinks.
+
+00:07:41.420 --> 00:07:53.420
+<v Chana Joffe-Walt>Right now, whoever owns the bond that Rob is looking at is receiving monthly payments. But once that pile of mortgages shrinks enough, those payments will stop. This bond will die.
+
+00:07:53.420 --> 00:08:04.220
+<v David Kestenbaum>So Rob is trying to figure out, if we spend $1,000 to own a piece of this bond now, will those payments continue long enough for us to make our money back, plus some.
+
+00:08:04.220 --> 00:08:28.220
+<v Chana Joffe-Walt>Rob comes back and says, "Yeah, this one could be OK." And then Wit says something that blows me away. He says we should bid half a cent on the bond. As in one half of one penny on the dollar. Meaning at some point, probably the height of the bubble, say this was worth a full dollar, now we're going to offer to buy it for half a cent-- less than one percent of what someone originally bought it for.
+
+00:08:28.220 --> 00:08:46.120
+<v David Kestenbaum>So Wit calls Cliff, one of those brokers who sent him the emails. And he says, "Hey man, half a cent on the bond." That's the way these guys talk when they're bidding on something. Two cents, mid teens, twenties. So Cliff says, OK, let me check with whoever's selling it. We hang up, wait, and wait. And finally, Cliff calls back.
+
+00:08:46.120 --> 00:08:46.800
+<v Wit Solberg>Hey, Cliff.
+
+00:08:46.800 --> 00:08:47.300
+<v Cliff>Hey.
+
+00:08:47.220 --> 00:08:47.720
+<v Wit Solberg>What's happening?
+
+00:08:47.620 --> 00:08:52.020
+<v Cliff>They're saying high teens on that.
+
+00:08:52.020 --> 00:08:58.840
+<v Wit Solberg>That's [BLEEP]. That's ridiculous.
+
+00:08:58.840 --> 00:09:01.980
+<v Chana Joffe-Walt>So what happened now? Somebody bought it for high teens?
+
+00:09:01.980 --> 00:09:05.380
+<v Wit Solberg>No, that's what they're telling the trader.
+
+00:09:05.380 --> 00:09:07.960
+<v Chana Joffe-Walt>And you bid half a cent?
+
+00:09:07.960 --> 00:09:10.580
+<v David Kestenbaum>So there's real disagreement about what these things are worth?
+
+00:09:10.580 --> 00:09:13.740
+<v Wit Solberg>There's huge disagreement. I mean, honestly, this is not uncommon.
+
+00:09:13.740 --> 00:09:49.070
+<v David Kestenbaum>Chana, we got outbid by someone offering 30 times more than we did. You think these toxic assets are plentiful and they're cheap, it should be easy to pick one up. But it's not easy. It takes a really long time because no one really knows what they're worth. Remember TARP, the government program? A $700 billion dollar toxic asset relief program. The government's original plan was to use that money to buy up toxic assets, just vacuum up the whole problem. But it changed its mind. One reason, it was too hard to figure out what price to buy them for. Turns out, it's still a problem today.
+
+00:09:49.070 --> 00:10:01.600
+<v Chana Joffe-Walt>We're basically buying garbage, and it ends up taking us two full days.
+
+00:10:01.600 --> 00:10:06.850
+<v Wit Solberg>So why don't we run the 051MV8. OK, so the 1030 prime's no.
+
+00:10:06.850 --> 00:10:13.900
+<v David Kestenbaum>OK, it's now day two of toxic asset shopping, late in the day, Wit says, "I think I found it. This one looks good."
+
+00:10:13.900 --> 00:10:29.690
+<v Chana Joffe-Walt>And it is a beautiful, totally toxic asset. Wit shows it to us on the computer screen. It contains mortgages on 2,000 homes. Wit scrolls through them. There's a house in Arizona, California-- oh, there's a big one, someone paid more than $2 million for that place.
+
+00:10:29.690 --> 00:10:40.930
+<v Wit Solberg>Now this house is located in Florida, and it's a planned urban development in Sarasota. All right? Pretty nice Sarasota place, right?
+
+00:10:40.930 --> 00:10:42.130
+<v David Kestenbaum>You can tell the zip code.
+
+00:10:42.130 --> 00:10:44.270
+<v Wit Solberg>Yeah, there's a zip code.
+
+00:10:44.270 --> 00:10:47.520
+<v David Kestenbaum>34240.
+
+00:10:47.520 --> 00:11:04.300
+<v Wit Solberg>Yeah, golf course community, maybe a cul-de-sac, something. There's another guy in Sarasota, there's another guy in Sarasota, so you can start to get a feel that there was a guy in Sarasota who had a billboard, who gave big loans, and those big loans went into this pool.
+
+00:11:04.300 --> 00:11:19.780
+<v Chana Joffe-Walt>This toxic asset, it originally cost $75,000. We get it for $1,000. Wit thinks that's a good price. And it says, right there on the computer screen, that there could be enough monthly payments left in it for us to double our money.
+
+00:11:19.780 --> 00:11:20.960
+<v Banker>Wit, how you doing?
+
+00:11:20.960 --> 00:11:22.010
+<v Wit Solberg>Good.
+
+00:11:22.010 --> 00:11:24.710
+<v David Kestenbaum>Wit calls a friend at a local bank to make it official.
+
+00:11:24.710 --> 00:11:35.360
+<v Banker>All right, so that's all square-cornered. OK. Proud owner of a bouncy little private label mortgage backed security.
+
+00:11:35.360 --> 00:11:37.020
+<v David Kestenbaum>We prefer toxic asset.
+
+00:11:37.020 --> 00:11:43.620
+<v Banker>Maturity value purchased for the cheap, cheap value of $1012.09. So if anybody has any questions, holler back at me.
+
+00:11:43.620 --> 00:11:44.120
+<v Wit Solberg>Later.
+
+00:11:44.070 --> 00:11:45.220
+<v Chana Joffe-Walt>Thanks.
+
+00:11:45.220 --> 00:11:46.500
+<v Banker>Bye.
+
+00:11:46.500 --> 00:11:48.010
+<v Chana Joffe-Walt>All right, there it is.
+
+00:11:48.010 --> 00:11:52.440
+<v Wit Solberg>There you go. We will print screen on the settlement, you can take it home with you.
+
+00:11:52.440 --> 00:11:55.580
+<v Chana Joffe-Walt>Thank you. Are you going to affirm? Can I click affirm?
+
+00:11:55.580 --> 00:11:58.350
+<v Wit Solberg>You can click affirm.
+
+00:11:58.350 --> 00:12:07.280
+<v Chana Joffe-Walt>Here we go. It's ours.
+
+00:12:07.280 --> 00:12:24.140
+<v David Kestenbaum>At some point, I realized I was the only one clapping, so I stopped. But I am feeling good about our investment. I figured, everyone's afraid of these things, only a handful of people are analyzing them and looking for bargains. We got it for 99% off. We are definitely going to make money. I felt confident.
+
+00:12:24.140 --> 00:12:32.660
+<v Chana Joffe-Walt>We all did.
+
+00:12:32.660 --> 00:12:50.350
+<v Ira Glass>Act Two, An Old Man Chooses Between Logic and Morals, Logic Wins. On January 22, David and Chana took their toxic asset back to the New York office, introduced it around to their colleagues, created a place on the corner window sill for the stack of paperwork. And then stared at it, flipped through it.
+
+00:12:50.350 --> 00:13:12.170
+<v Ira Glass>They considered some questions that in the end took them eight months to answer. What did they just buy? Who did they buy it from? Whose mortgages were actually in it? It was time to begin their archaeological investigation of their own toxic asset. Somewhere inside there, there were real people, real homeowners, with real houses. The stack of 300 pages did not identify who those real people were.
+
+00:13:12.170 --> 00:13:21.240
+<v Chana Joffe-Walt>It's actually kind of fun having a toxic asset. David set up a live toxic asset web cam so he could stare at it all the time, just gaze at the stack of paper.
+
+00:13:21.240 --> 00:13:26.420
+<v David Kestenbaum>I thought other people might want to see it too. Sometimes I'd sit things on it, like flowers, or a bottle of Tylenol.
+
+00:13:26.420 --> 00:13:31.920
+<v Chana Joffe-Walt>We go to a toxic asset investor conference, we start reading obscure trade publications.
+
+00:13:31.920 --> 00:13:41.860
+<v David Kestenbaum>And the toxic asset starts to feel like a pet. We ask our listeners what we should call it and it gets a name, Toxie. And it gets a gender-- we all start referring to it as she for some reason.
+
+00:13:41.860 --> 00:13:57.830
+<v Chana Joffe-Walt>Which always seemed completely unfair to me, since the one thing we can be almost 100% sure of is that this thing was created by men. But whatever, yes, it's nice that people start to connect with her slash it. One listener wrote a song for Toxie.
+
+00:13:57.830 --> 00:14:17.720
+<v Chana Joffe-Walt>[MUSIC - "THE TOXIE SONG" BY JAMES GAMMON]
+
+00:14:17.720 --> 00:14:34.830
+<v Ira Glass>We spend a lot of time staring at this spreadsheet that came with Toxie. It lists all the mortgages, 2,000 of them, and financial data about the loans, but it doesn't give us what we need-- addresses and names. It just has zip codes. It's sort of like this map that you can't quite read.
+
+00:14:34.830 --> 00:14:56.380
+<v David Kestenbaum>So in the spring, we call an investigative reporter to help us find some of the people in the spreadsheet. Michael Braga with the Sarasota Herald Tribune in Florida. Sarasota, the very city that popped up over and over again when Wit showed us the loans and Toxie on his computer screen. So Michael went through public records databases, took him about a day, and he came up with nine names.
+
+00:14:56.380 --> 00:15:06.850
+<v Chana Joffe-Walt>Nine precious names of Sarasotans with homes in Toxie. We printed out the list and then stared at it. And then we stared at the phone.
+
+00:15:06.850 --> 00:15:09.960
+<v David Kestenbaum>OK, so the first person on the list--
+
+00:15:09.960 --> 00:15:16.140
+<v Chana Joffe-Walt>What are we going to say to them? You're part of our toxic asset?
+
+00:15:16.140 --> 00:15:21.040
+<v David Kestenbaum>Can we come swim in your pool? Yeah.
+
+00:15:21.040 --> 00:15:22.990
+<v Chana Joffe-Walt>All right, let's call.
+
+00:15:22.990 --> 00:15:35.270
+<v Ira Glass>We got wrong numbers, we left a lot of voice mails for people who didn't call us back. We called this one dentist who didn't call us back. And we left a voice mail for this one very nice sounding couple.
+
+00:15:35.270 --> 00:15:44.240
+<v Sylvia>Hi, you've reached Sylvia and George, we can't get to the phone right now, but leave a message and we'll get back to you. Thank you.
+
+00:15:44.240 --> 00:15:52.510
+<v David Kestenbaum>Hi, George and Sylvia, this is David Kestenbaum, I'm a reporter with National Public Radio. I'm calling to-- I'm calling to see if you own or purchased--
+
+00:15:52.510 --> 00:15:53.260
+<v Chana Joffe-Walt>You sound nervous.
+
+00:15:53.260 --> 00:16:09.660
+<v David Kestenbaum>Well, there's a lot to explain, right? In a voice mail you have to say, oh, I'm a reporter for NPR, which you may not have heard of, and we bought a toxic asset, which, by the way, is a complicated bond, which has mortgages in it, and one of them is yours, and we want to talk to you and-- you know.
+
+00:16:09.660 --> 00:16:11.630
+<v Chana Joffe-Walt>You made me leave the next voice mail.
+
+00:16:11.630 --> 00:16:41.750
+<v David Kestenbaum>What's so awkward about this is this is probably the first time someone who invested in a toxic asset, who actually owned a homeowner's mortgage as part of one of these massive bonds, actually tried to get in touch with the homeowners. And think about what that means. The genius of these mortgage backed securities was that they connected people with money to people who wanted to borrow. This happen to the tune of $3 trillion. Hundreds of thousands of investors, millions of home buyers, but the two sides never met. Until now.
+
+00:16:41.750 --> 00:17:01.990
+<v Chana Joffe-Walt>Eventually, we found a homeowner, Richard Koenig. And this was very exciting. Half the homeowners in our toxic asset had stopped paying their mortgages-- half-- and Richard Koenig was one of them--he was not paying us. When we got him on the phone, he said, "Sure, come on down." So we flew to Sarasota to meet him and drove to his house.
+
+00:17:01.990 --> 00:17:03.200
+<v Chana Joffe-Walt>It says their house is on the corner--
+
+00:17:03.200 --> 00:17:05.500
+<v David Kestenbaum>1792.
+
+00:17:05.500 --> 00:17:10.940
+<v Chana Joffe-Walt>There he is.
+
+00:17:10.940 --> 00:17:20.440
+<v David Kestenbaum>Hi, Richard. Nice to meet you. He's getting his mail. What if there's a statement from the bank in there.
+
+00:17:20.440 --> 00:17:30.140
+<v Chana Joffe-Walt>Richard Koenig is 81 years old, lives in Sarasota, owes us money, and is nothing like we expected. First of all, he doesn't look like a deadbeat.
+
+00:17:30.140 --> 00:17:37.000
+<v Richard Koenig>I don't have horns. I don't have much hair. Still have a good sense of humor.
+
+00:17:37.000 --> 00:17:40.210
+<v David Kestenbaum>And he has a dog named Muffin.
+
+00:17:40.210 --> 00:17:44.000
+<v Richard Koenig>My baby. I love my baby.
+
+00:17:44.000 --> 00:17:59.610
+<v Chana Joffe-Walt>I know some dog lovers, I have never met somebody as in love with their dog as Richard is with Muffin. So Richard Koenig took us to the actual house that is in our toxic asset, the one that we've been looking at on this spreadsheet. We got to see it.
+
+00:17:59.610 --> 00:18:01.040
+<v David Kestenbaum>Oh, it's nice.
+
+00:18:01.040 --> 00:18:03.640
+<v Chana Joffe-Walt>Very nice.
+
+00:18:03.640 --> 00:18:06.290
+<v Richard Koenig>You cannot believe what was done to this place.
+
+00:18:06.290 --> 00:18:17.670
+<v David Kestenbaum>Maybe when you think about toxic assets you picture rundown homes falling apart, overgrown lawns. Uh-uh, this place is really lovely. It's a condo on a little pond in a tidy housing development.
+
+00:18:17.670 --> 00:18:29.610
+<v Chana Joffe-Walt>It's Richard second home. He planned to move out of his bigger place with his wife and into the condo. That'd be more manageable as he grows older. So in 2005, Richard took out a $300,000 mortgage.
+
+00:18:29.610 --> 00:18:39.520
+<v David Kestenbaum>And then the housing market fell apart, and Richard found he owed more on this house than it's worth. So he decided to stay in the house he already lives in and walk away from the condo by the pond.
+
+00:18:39.520 --> 00:19:03.330
+<v Chana Joffe-Walt>After Richard showed us his real live house, we showed him what it looked like from our end. There he is just this little line in our spreadsheet that reads, CCC36999. And that nine stands for 90 days delinquent or more, so a bunch of nines in a row means he hasn't been paying his mortgage for a long time. So we show him all of the toxic asset paperwork, all 300 pages.
+
+00:19:03.330 --> 00:19:06.670
+<v David Kestenbaum>This is what it looks like. This is where your mortgage ended up.
+
+00:19:06.670 --> 00:19:17.940
+<v Richard Koenig>Unbelievable, isn't it? My God. My eyes couldn't accommodate it. I'm not going to live long enough to go through that pile of-- pile of poop.
+
+00:19:17.940 --> 00:19:24.170
+<v Chana Joffe-Walt>Did you have a picture of us? Like when you were writing your checks, who you were sending them to?
+
+00:19:24.170 --> 00:19:36.950
+<v Richard Koenig>Oh, you mean at the bank. No. No, to me, banks-- unless I know the individual, a bank is a blank face. It's a non-living creature.
+
+00:19:36.950 --> 00:19:39.780
+<v David Kestenbaum>Of course, it wasn't a bank, or a non-living creature.
+
+00:19:39.780 --> 00:19:41.430
+<v Chana Joffe-Walt>You were writing checks to us.
+
+00:19:41.430 --> 00:20:09.410
+<v Richard Koenig>Yeah, but not you personally. Now, had you been the recipients on a personal basis, after having met you, I'd write you the check. How's that? And do I feel sorry for the investors? Sure I do. I'm a sensitive person, you know? I really am. I love my wife, I love my dog, I love my children and my grandkids. Yeah, I'd feel badly.
+
+00:20:09.410 --> 00:20:10.870
+<v David Kestenbaum>We don't hold it against you.
+
+00:20:10.870 --> 00:20:13.000
+<v Richard Koenig>Good. Please don't.
+
+00:20:13.000 --> 00:20:30.900
+<v David Kestenbaum>And really, I don't. Richard is under water on the house. He owes more than it's worth, and he has a home, so he can walk away from this second house. It's going to kill his perfect credit rating, but he doesn't really need good credit anymore. He's 81 years old, he's probably never going to need to borrow money again. So it makes sense for him to just walk away.
+
+00:20:30.900 --> 00:20:41.060
+<v Chana Joffe-Walt>Well, maybe logically it makes sense, but he did make a commitment. He gave his word. That's not nothing, that's what it means to be an adult, someone gives you money, you pay it back.
+
+00:20:41.060 --> 00:20:48.970
+<v David Kestenbaum>And if the value of his house kept going up, he probably would have continued to pay it back. That would have been the logical thing to do. But the logic changed.
+
+00:20:48.970 --> 00:20:51.300
+<v Chana Joffe-Walt>So his morals changed too.
+
+00:20:51.300 --> 00:20:56.300
+<v David Kestenbaum>Was it a hard emotional decision to walk away from that house?
+
+00:20:56.300 --> 00:21:24.910
+<v Richard Koenig>Well, yeah, it went against everything that I was ever taught to believe. You know, you just don't turn your back and say, goodbye, good luck. So from that perspective, yes, it did bother me. But if I have to compromise the way I live, I'm really not going to do that. Not at almost 82 years old. I really had no choice.
+
+00:21:24.910 --> 00:21:28.280
+<v Chana Joffe-Walt>Well, you did have a choice. You could have kept paying it.
+
+00:21:28.280 --> 00:21:44.990
+<v Richard Koenig>I could have kept paying for it? Not really. You know, at my age, to have payments like that, and a large income no longer a large income, it didn't make any sense at all.
+
+00:21:44.990 --> 00:21:50.580
+<v David Kestenbaum>There are lots of Richards these days. In fact, the moral compass of the entire country is shifting.
+
+00:21:50.580 --> 00:21:58.850
+<v Chana Joffe-Walt>So much so that there is a name for what Richard is doing. Walking away from your home like this? It's called a strategic default.
+
+00:21:58.850 --> 00:22:06.890
+<v Mary Kinsley>I'm unaware of strategic default from the residential sector happening on this scale in American history.
+
+00:22:06.890 --> 00:22:15.650
+<v Chana Joffe-Walt>This is Mary Kinsley, a lawyer in Arizona. And Mary talked to our Planet Money colleague and co-toxic asset investor, Alex Blumberg.
+
+00:22:15.650 --> 00:22:29.070
+<v Alex Blumberg>Mary's job is to answer phones at a help line for people with real estate questions. She says just two years ago, people would call up in tears facing foreclosure, agonizing about how to save their homes. Then, just one year later, everything changed.
+
+00:22:29.070 --> 00:22:53.000
+<v Mary Kinsley>Now, it's almost a reverse. I'm speaking to people, for the most part, who want to know, "How can I make the bank foreclose on this faster?" And I talk to quite a few people who say, "Hm, perfect credit score versus $80,000 in my pocket and not upside down on this house anymore." It's really not-- it's a business decision, rather than emotional decisions.
+
+00:22:53.000 --> 00:22:56.490
+<v Alex Blumberg>And these are people who could continue to pay their mortgage?
+
+00:22:56.490 --> 00:23:12.830
+<v Mary Kinsley>Yes. It's not illegal to breach a contract. And that's essentially what it is, it's a breach of contract. And one of the dirty little secrets of real estate is businesses do it all the time.
+
+00:23:12.830 --> 00:23:27.800
+<v Chana Joffe-Walt>Strategic defaults are going to happen anytime you have plunging home values. But they were particularly bad because of something else that was going on-- another feature of the housing crisis that also shows up in our toxic asset-- speculation.
+
+00:23:27.800 --> 00:23:30.370
+<v Michael Braga>This house is in your toxic asset.
+
+00:23:30.370 --> 00:23:31.900
+<v Chana Joffe-Walt>This is one of ours?
+
+00:23:31.900 --> 00:23:33.770
+<v Michael Braga>Yeah, this is one of yours, that's your house.
+
+00:23:33.770 --> 00:23:54.390
+<v David Kestenbaum>This is Michael Braga, the investigative reporter who's been helping us. This house we're looking at was bought in 2005, at the height of the bubble. But it seems like no one ever moved in, and unlike Richard's condo, it looks like no one ever intended to. Today there are dead palm trees in the front yard with the tops cut off, just eight feet of trunk sticking out of the ground. But the house has promise.
+
+00:23:54.390 --> 00:23:56.200
+<v Chana Joffe-Walt>Oh wow, they have an ocean view?
+
+00:23:56.200 --> 00:24:05.410
+<v Michael Braga>Yeah, that's Sarasota Bay. And the pool is a little green, which means that they haven't put chlorine in it. And all the blinds are down.
+
+00:24:05.410 --> 00:24:07.400
+<v Chana Joffe-Walt>I can peek inside.
+
+00:24:07.400 --> 00:24:19.620
+<v Michael Braga>Inside, there's some nice white couches, and a bar that looks into the kitchen, oh, and it looks like a Brady Bunch stair case that leads up to the second floor.
+
+00:24:19.620 --> 00:24:33.990
+<v David Kestenbaum>This house was bought not as a dream home, not even as a second home-- it was bought in 2005 by a man named Derek Taaca. Braga tells us Taaca is a local lawyer, a purple belt Jiu Jitsu martial artist, and a real estate speculator.
+
+00:24:33.990 --> 00:24:44.850
+<v Michael Braga>Derek Taaca ultimately defaulted on five loans, totaling $3.6 million, including the $991,000 loan that is in your toxic asset.
+
+00:24:44.850 --> 00:24:54.570
+<v Chana Joffe-Walt>Taaca did not return our phone calls. But his story is not unusual. Of the nine people we tracked down in Florida, three were investors like Taaca-- they were speculators.
+
+00:24:54.570 --> 00:25:09.040
+<v David Kestenbaum>And it turns out, three out of nine was typical all over the country. According to one estimate, a third of homes bought during the bubble were investments. Waitresses, cab drivers, executives all bought homes, not to live in, but to make them money.
+
+00:25:09.040 --> 00:25:20.690
+<v Chana Joffe-Walt>In Florida, you can see it all over. Homes built, dry wall hung, air conditioners installed, and no one ever moved in. They were empty in 2005, and they're still empty now.
+
+00:25:20.690 --> 00:25:41.570
+<v David Kestenbaum>So if one third were speculators, that still leaves 2/3. 2/3 of the people in our toxic asset probably bought their homes to live in. Some are still making their payments, some are going through defaults-- not strategic defaults, they don't have a choice.
+
+00:25:41.570 --> 00:26:07.350
+<v Ira Glass>Act Three, Flipper: Not the Dolphin. When David and Chana went to Florida to find some of the home owners in their toxic asset, they were not expecting speculators, or an 81 year old with a new set of morals. And they certainly didn't expect to walk into a crime scene, which is what happened next. I should just say that, if you've heard a little bit about mortgage fraud in this crisis, this next story will finally explain exactly what mortgage fraud means. Here's David and Chana.
+
+00:26:07.350 --> 00:26:31.220
+<v David Kestenbaum>So I'm sitting at my desk, right around the time of our trip to Florida, looking through some court documents, you know, just doing some reporting for our trip. And there's this affidavit filed by an FBI agent listing a handful of mortgages that are apparently fraudulent. There's 202 Island Circle, 1628 Bay Winds Lane-- I'm sort of half paying attention. And then I see this one address-- it's George and Sylvia Bobka. Remember them?
+
+00:26:31.220 --> 00:26:38.010
+<v Sylvia>Hi, you've reached Sylvia and George, we can't get to the phone right now, but leave a message and we'll get back to you. Thank you.
+
+00:26:38.010 --> 00:26:42.330
+<v Chana Joffe-Walt>I remember you sent me a heavily exclamation pointed text when that happened, David.
+
+00:26:42.330 --> 00:26:55.280
+<v David Kestenbaum>It was so surprising. I mean there are thousands and thousands of homes in the county, a handful end up listed in this affidavit, and one of them is in our Toxie? We got the court documents from Michael Braga at the Sarasota Herald Tribune .
+
+00:26:55.280 --> 00:27:12.230
+<v Chana Joffe-Walt>And it turns out, our Toxie is linked to what could be a $100 million mortgage fraud scheme they've been reporting on. Michael told us the whole thing was masterminded by one guy, a guy the folks at the Herald Tribune called the king of the flip.
+
+00:27:12.230 --> 00:27:38.540
+<v Michael Braga>He just may be the biggest case of mortgage fraud in US history. And his name is Craig Adams. And he engineered more than 80 deals, which he has told the FBI about, that were in some way fraudulent. Those 80 deals, properties, were worth about $200 million.
+
+00:27:38.540 --> 00:27:48.030
+<v David Kestenbaum>So Chana, before when I'd heard about mortgage fraud, I always thought of some couple fudging something on their mortgage application, but this is much, much larger.
+
+00:27:48.030 --> 00:28:13.400
+<v Chana Joffe-Walt>No, in Florida, mortgage fraud appears to have been pretty widespread and organized. The reporters at the Sarasota Herald Tribune have been looking into this one circle, led by Craig Adams, the king of the flip. And it was a kind of fraud scheme based on flipping houses back and forth for higher and higher prices. So people taking out larger and larger loans from the bank, and dividing that money up amongst themselves, among the people in the circle.
+
+00:28:13.400 --> 00:28:27.430
+<v David Kestenbaum>We're going to look at how this apparently worked by following one house, this is a house on Cove Terrace in Sarasota, Florida. This one is not in our toxic asset, but George and Sylvia Bobka's house is connected to the same scheme, and their house is right down the street.
+
+00:28:27.430 --> 00:28:38.780
+<v Chana Joffe-Walt>So the story of what happened at Cove Terrace begins with a man who may be the very last person to have truly loved this house. The last percent to own it before it was sold into the circle of flippers.
+
+00:28:38.780 --> 00:28:40.380
+<v Fred Bloom>Fred Bloom is my name.
+
+00:28:40.380 --> 00:28:41.260
+<v Chana Joffe-Walt>Fred Bloom?
+
+00:28:41.260 --> 00:28:46.150
+<v Fred Bloom>Fred Bloom. Isn't Dr. Bloom a perfect name for an allergist?
+
+00:28:46.150 --> 00:28:47.030
+<v Chana Joffe-Walt>Are you an allergist?
+
+00:28:47.030 --> 00:28:48.010
+<v Fred Bloom>I am.
+
+00:28:48.010 --> 00:29:03.670
+<v Chana Joffe-Walt>Dr. Bloom, the allergist, raised his two daughters in this house. And it's a really nice place, it's on a quiet street, on a cul-de-sac, it's got four bedrooms, red tile roof, it's painted sort of like, you know that Florida, salmoney kind of color? And it has a pool and a boat dock.
+
+00:29:03.670 --> 00:29:27.630
+<v Fred Bloom>We had a little boat, and my kids enjoyed water skiing, and fishing, and family activities. At the time I owned it, it was a two story family room, with windows up above, and you could sit there and watch lightning, and you could watch the sky. Just a warm, warm feeling room, with the big windows and light. So they were good years. You can hear them sort of winding up now.
+
+00:29:27.630 --> 00:29:29.690
+<v Chana Joffe-Walt>That's right, because the kids grow up, huh?
+
+00:29:29.690 --> 00:29:33.900
+<v Fred Bloom>Exactly. It was a good time in our lives.
+
+00:29:33.900 --> 00:29:45.710
+<v Chana Joffe-Walt>And there, appropriately, are the cicadas-- or whatever they are-- right as we get to the drama. The drama began the moment Dr. Bloom decided to sell this house that he had loved.
+
+00:29:45.710 --> 00:30:08.580
+<v Fred Bloom>It occurred after my wife and I got divorced, and she moved out of town, and I stayed in the house trying to sell it, because she had half equity in the house. And it didn't sell, and it didn't sell, and it didn't sell. My wife wanted to get another Realtor, and we did, and she had the house for a three month contract. And then towards the end of her contract, she became very intent on trying to lower the price so we could sell it.
+
+00:30:08.580 --> 00:30:09.680
+<v Chana Joffe-Walt>What'd you think about that?
+
+00:30:09.680 --> 00:30:20.970
+<v Fred Bloom>I wasn't happy about lowering the price, but my former wife was saying, I want my money, and the Realtor was saying, let's get it sold. And I wasn't happy about that, I was not happy about lowering the price.
+
+00:30:20.970 --> 00:30:23.530
+<v Candy Swick>And then we had an offer from Craig Adams.
+
+00:30:23.530 --> 00:30:25.660
+<v Chana Joffe-Walt>This is the Realtor, Candy Swick.
+
+00:30:25.660 --> 00:30:41.000
+<v David Kestenbaum>Now, we should just point out here that this was the year 2000. Craig Adams was not known at this time as the king of the flip, or as the alleged ring leader of the largest mortgage fraud scheme in Florida history. People called him something else. They called him real estate genius.
+
+00:30:41.000 --> 00:30:54.870
+<v Candy Swick>Craig's offer was very good. It was right on the mark, and when he made the offer it was a fair price. It was like, this is good, take it and run. It's been enough time. This is a very good offer.
+
+00:30:54.870 --> 00:31:05.560
+<v Fred Bloom>And I resisted as long as I could, and then decided the fight is over, so I caved in.
+
+00:31:05.560 --> 00:31:21.300
+<v Chana Joffe-Walt>Dr. Bloom sold the house for $600,000, much less than he wanted for it. And then a few weeks later, he's at the grocery store buying groceries, and he runs into his former Cove Terrace neighbors, and he asks them, "Hey, how you doing? How are the new people on the block?"
+
+00:31:21.300 --> 00:31:32.990
+<v Fred Bloom>And they told me that my house had sold again, and he mentioned the price of $725,000. And I was really upset. I said, that's $125,000 more than I got for it, and that was only a matter of a couple of weeks.
+
+00:31:32.990 --> 00:31:34.240
+<v Chana Joffe-Walt>Oh, it was weeks?
+
+00:31:34.240 --> 00:31:37.210
+<v Fred Bloom>It was just a matter of a couple of weeks. I was not happy.
+
+00:31:37.210 --> 00:31:55.840
+<v David Kestenbaum>Dr. Bloom had no idea what was going on, and he didn't for 10 years, until he gets a phone call from one of the reporters at the Sarasota Herald Tribune . So the Sarasota Herald Tribune was looking into what seemed like a lot of illegal flipping around Florida, and Craig Adams's name came up several times including, on the Cove Terrace house.
+
+00:31:55.840 --> 00:32:24.960
+<v David Kestenbaum>So one of the reporters, Matthew Doig, calls up Dr. Bloom, and he says, "Do you remember the details of selling that house?" Thinking Bloom probably won't remember anything, it's been 10 years. But Bloom remembered every detail of the sale, he had held onto this resentment and to this mystery for 10 years. Why did he try to sell, for over a year, try to sell his house for $700,000, and eventually have to sell it for $600,000, and then weeks later, this guy Craig Adams turns around and sells it for $725,000. Here's that reporter, Matthew Doig.
+
+00:32:24.960 --> 00:32:38.250
+<v Matthew Doig>After Dr. Bloom is out of the picture, that house is completely controlled by Craig Adams, and every time it is sold, Adams is representing both the buyer and the seller. So he's completely controlling the process.
+
+00:32:38.250 --> 00:33:10.110
+<v Chana Joffe-Walt>And that house sold many, many times. And in fact, to Dr. Bloom, it looked like he sold the house to Craig Adams, but Craig Adams actually got his friend Steve Wexler to sign for it. So Steve Wexler buys it from Dr. Bloom, and then Steve Wexler sells it to John Keyworth for $725,000, who sells it to Craig Adams-- who actually buys it at one point-- for $1.1 million, who sells it to Kelly West for almost one and a half million, who sells it again to Charles Scott Abel for close to $2 million.
+
+00:33:10.110 --> 00:33:14.380
+<v David Kestenbaum>So it sells five times in four years, and basically triples in price.
+
+00:33:14.380 --> 00:33:25.200
+<v Chana Joffe-Walt>Yeah, and Dr. Bloom the whole time is really perplexed about what is happening. He still lives in the neighborhood, and the house keeps going up in price, but it doesn't look better. It kind of looks worse.
+
+00:33:25.200 --> 00:33:31.650
+<v Fred Bloom>Occasionally I would drive by the house and drive through the neighborhood, and at various times the yard was really in disrepair.
+
+00:33:31.650 --> 00:33:34.110
+<v Chana Joffe-Walt>When it was in disrepair, did it look like no one was living here?
+
+00:33:34.110 --> 00:33:36.730
+<v Fred Bloom>Yes. It looked like it was vacant.
+
+00:33:36.730 --> 00:33:57.620
+<v David Kestenbaum>So the way the Tribune lays this out, Keyworth, Wexler, all these guys were connected to Adams. They were part of his circle. The idea here is that with each sale, the new owner would take out a mortgage loan and use that to pay the previous owner for the house. The previous owner has now made money, because he sold it for more than he bought it for. And that profit, allegedly, gets split among the players.
+
+00:33:57.620 --> 00:34:19.120
+<v Chana Joffe-Walt>So I borrow $600,000 from the bank to buy the house, and then a year later, I sell it to my buddy Keyworth for $800,000. Keyworth gets a loan from the bank, $800,000. And since we're working together, we now have just made $200,000 to split between us. That's the allegation anyway, it's still working its way through the legal system.
+
+00:34:19.120 --> 00:34:30.790
+<v David Kestenbaum>When the housing bubble popped in 2007, the Cove Terrace house was owned by yet another associate of Craig Adams's, and he defaults on more than $2 million in loans. The bank forecloses on the house.
+
+00:34:30.790 --> 00:34:44.180
+<v Chana Joffe-Walt>And this is when Candy Swick, Dr. Bloom's real estate agent, finally figures out something funny has been going on. She has another client interested in the Cove Terrace house, and for the second time, 10 years later, she pulls up the listing.
+
+00:34:44.180 --> 00:34:45.270
+<v Candy Swick>Oh my gosh.
+
+00:34:45.270 --> 00:34:46.030
+<v Chana Joffe-Walt>What did it look like?
+
+00:34:46.030 --> 00:34:59.860
+<v Candy Swick>It looked like it had been sold every couple of years. And I see, Craig Adams, listed and sold. Craig Adams, listed and sold. Craig Adams, listed and sold. Craig Adams, listed and sold. And it's like, this is not right.
+
+00:34:59.860 --> 00:35:17.560
+<v David Kestenbaum>Not right and isn't it also stupid? This is the thing that always confused me about this kind of fraud. Because at the end of the day, all you've done is inflate the value of a house and take out larger and larger loans. And at the end, you've just got this bigger loan than you started with. You've still got to repay that. What the hell were the people in this circle thinking?
+
+00:35:17.560 --> 00:35:38.810
+<v Chana Joffe-Walt>Well, in some ways, it could be the perfect crime. The last guy defaults on the house, as he did with Craig Adams's house, and that guy's credit is ruined, but he and everyone else gets to keep the money from the sales. And it's a lot of money. Though Guy Cecala, publisher of Inside Mortgage Finance , says he doesn't think these guys were that methodical.
+
+00:35:38.810 --> 00:35:55.060
+<v Guy Cecala>There wasn't a great exit strategy. In hindsight, these weren't geniuses figuring out these plans, because they had a lot of pitfalls. Most of them saw quick money right away and weren't figuring out how it was going to play out over time.
+
+00:35:55.060 --> 00:36:13.640
+<v David Kestenbaum>Craig Adams, the king of the flip, is now an FBI informant, helping the feds investigate the circle, according to the guys at the Herald Tribune . The closing agent, who did a lot of the paper work for Craig Adams's deals on this, has been arrested. Adams did not return our calls.
+
+00:36:13.640 --> 00:36:21.340
+<v David Kestenbaum>[MUSIC - "THE TOXIE SONG" BY JAMES GAMMON]
+
+00:36:21.340 --> 00:36:28.760
+<v Chana Joffe-Walt>So, David, I think we can say that our dream that Toxie would be an encyclopedia of the financial crisis, that part's working out.
+
+00:36:28.760 --> 00:36:38.680
+<v David Kestenbaum>Yeah, she's got a retired guy walking away from his home, speculators, possibly fraud, and of course, some investors who bought the toxic asset without really knowing what the hell they were doing.
+
+00:36:38.680 --> 00:36:55.330
+<v Chana Joffe-Walt>Us.
+
+00:36:55.330 --> 00:37:24.450
+<v Ira Glass>Coming up, why carpenters in New Jersey hate Toxie. That's in a minute, from Chicago Public Radio and Public Radio International when our program continues. It's This American Life, I'm Ira Glass. Each week on our show, of course, we choose a theme, bring you different kinds of stories on that theme. Today's show, Toxie. We try to understand the entire economic crisis through the story of a single toxic asset. The reporters on our story today are Planet Money's David Kestenbaum and Chana Joffe-Walt. We've arrived at act four of our show.
+
+00:37:24.450 --> 00:37:53.890
+<v Ira Glass>Act Four, Villains and How to Sue Them. January, February, these were happy months for Toxie, the toxic asset. Our team bought it in January for a thousand. In February, just like they hoped, first payment came in, a check for $141. And then, things started to take a turn. March's check was a lot less-- $44.81. Toxie was getting sick, quickly. So David and Chana called Wit Solberg in Kansas City, the guy who helped them buy Toxie in the first place.
+
+00:37:53.890 --> 00:37:55.680
+<v Chana Joffe-Walt>We have a lot of questions for you.
+
+00:37:55.680 --> 00:37:59.160
+<v Wit Solber>Yeah. I imagine you do.
+
+00:37:59.160 --> 00:38:05.340
+<v Ira Glass>Questions with no clear answer. Meanwhile, other things were happening. Chana got an email. Looked urgent.
+
+00:38:05.340 --> 00:38:25.750
+<v Chana Joffe-Walt>Subject, do you know your toxic asset is being sued. Immediate thought, what the hell does that mean? In a moment of confusion, I thought, wait, are we being sued? In the end, it turns out the lawsuit is against the creators of our toxic asset. And the man doing the suing is as close as we could ever get to Toxie's previous owner.
+
+00:38:25.750 --> 00:38:49.080
+<v David Kestenbaum>When we bought Toxie in Kansas City, we had no idea who we were buying her from. We pictured a bank, we pictured a Wall Street guy with a nice car driving down the West Side Highway. And we kept searching for him. We called out for him on national radio, on television. If you owned this bond, please get in touch with us. We didn't hear anything. We put an ad in what we imagined was his favorite publication, a newsletter called Asset Backed Alert, nothing.
+
+00:38:49.080 --> 00:39:02.730
+<v Chana Joffe-Walt>But this law suit, this law suit got us someone close, a toxic asset investor who bought a close sibling of Toxie. His name is George Laufenberg. And meeting him, we realized, maybe we were looking in the wrong circles.
+
+00:39:02.730 --> 00:39:13.570
+<v George Laufenberg>I'm actually a carpenter out of Local 623, Atlantic City, and I've been a member of the Carpenters Union since 1972, which puts me at about 38 years.
+
+00:39:13.570 --> 00:39:31.870
+<v David Kestenbaum>George is the administrative manager of the New Jersey Carpenters Funds. He manages their pension fund, their health benefits, and their vacation fund. He bought his Toxie as an investment for the vacation fund. And that is the last you're going to hear from George, because George, in his effort to sue Toxie's creators, has hired a lawyer, who prefers to speak for him.
+
+00:39:31.870 --> 00:39:55.090
+<v Chana Joffe-Walt>George owns what you could call Toxie's younger sister. So Toxie's real name is HVMLT2005, that stands for Harbor View Mortgage Loan Trust 2005, because all the mortgages in ours were from 2005. The carpenters have HVMLT2006, so they bought the 2006 model with 2006 mortgages. Same people put her together just a year later.
+
+00:39:55.090 --> 00:40:18.570
+<v David Kestenbaum>Though as George's lawyer is quick to point out, George bought his Toxie way back when no one knew she was Toxie. He did not, like us, buy his as an experiment. He didn't go to Kansas City to rifle through the bargain basement. He bought what he thought was a pristine investment grade bond and paid full price. The carpenters spent $100,000, and that investment is now worth just $5,000.
+
+00:40:18.570 --> 00:40:27.190
+<v Chana Joffe-Walt>So George the carpenter is furious, and he's trying to do something we've been trying to do-- figure out what's going on inside a single toxic asset.
+
+00:40:27.190 --> 00:40:34.450
+<v David Kestenbaum>The only difference is, we have Google and a phone, the carpenters have a team of fancy Manhattan lawyers, including Joel Laitman.
+
+00:40:34.450 --> 00:40:38.030
+<v Joel Laitman>It's a complex chain of people involved.
+
+00:40:38.030 --> 00:40:41.880
+<v Chana Joffe-Walt>So is it hard sometimes to figure out who to sue?
+
+00:40:41.880 --> 00:40:45.040
+<v Joel Laitman>You just have to read the offering documents very carefully.
+
+00:40:45.040 --> 00:40:47.140
+<v Chana Joffe-Walt>Just like 5,000 pages, right?
+
+00:40:47.140 --> 00:40:49.870
+<v Joel Laitman>Yeah. Just read them and read them again.
+
+00:40:49.870 --> 00:41:17.890
+<v Chana Joffe-Walt>We're sitting in this conference room, and in front of Joel Laitman there is a huge stack of papers, almost up to my collar bone, with colored tabs, big blocked out, highlighted sections, basically reconstructing, in more detail than what we have done, who made this monster? Who is at fault? He's asking the question most of us would love to know an answer to. Who is to blame for these things? Though, as a lawyer, he's asking that with a definite goal in mind-- who can he sue?
+
+00:41:17.890 --> 00:41:33.880
+<v David Kestenbaum>Well, let's run through the possible suspects. Toxie's life, and the life of her sibling that the carpenters bought, started with a huge subprime mortgage lender, Countrywide. Countrywide gave out all the loans in Toxie, all those loans that are going bad. But Countrywide collapsed. They're not around anymore.
+
+00:41:33.880 --> 00:41:52.990
+<v Chana Joffe-Walt>OK, so how about the rating agencies? They rated this stuff as very good investments. Maybe you can sue them. The lawyers tried that. The judge dismissed it. Like most cases against rating agencies, the rating agencies argue, "We're just like movie critics or restaurant reviewers, we're expressing an opinion protected by the First Amendment."
+
+00:41:52.990 --> 00:42:08.360
+<v David Kestenbaum>So that leaves the sellers of the toxic asset. In this case, the Royal Bank of Scotland, RBS. They bought mortgages from Countrywide, packaged them into complex securities, and they were the guys who sold them as super safe investments to people like George the carpenter and his pension fund.
+
+00:42:08.360 --> 00:42:30.190
+<v Chana Joffe-Walt>The problem with that is you can't just say, look, RBS sold me this thing that's now worthless. RBS could always argue, we didn't know it was going to be worthless. No, you have to show-- you have to prove-- they misled you in some way. And so Joel, the carpenters' lawyer, went on a quest for what is the smoking gun of securities lawyerdom-- a misstatement.
+
+00:42:30.190 --> 00:42:38.070
+<v David Kestenbaum>A misstatement. Not a bunch of secret emails conspiring against the carpenters, not a clandestine recording of an RBS banker plot.
+
+00:42:38.070 --> 00:42:48.030
+<v Chana Joffe-Walt>No, a tiny technical phrase, maybe a couple, buried deep in documents that came with the toxic asset that the lawyers can prove would mislead an investor.
+
+00:42:48.030 --> 00:42:53.920
+<v Joel Laitman>To find a misstatement or omission, you have to read the whole thing, many times.
+
+00:42:53.920 --> 00:42:55.560
+<v Chana Joffe-Walt>Where is that, do you actually have that tagged?
+
+00:42:55.560 --> 00:42:58.040
+<v Joel Laitman>Yeah, sure.
+
+00:42:58.040 --> 00:43:00.220
+<v Chana Joffe-Walt>So here we're on page 81.
+
+00:43:00.220 --> 00:43:07.410
+<v Joel Laitman>It starts at 80-- this is mortgage loan origination is the section, Countrywide. All of this.
+
+00:43:07.410 --> 00:43:10.190
+<v Chana Joffe-Walt>And you're underlining over here.
+
+00:43:10.190 --> 00:43:14.820
+<v Joel Laitman>Yeah, very exciting. It actually was exciting.
+
+00:43:14.820 --> 00:43:38.610
+<v Chana Joffe-Walt>Page 81 of the offering document put out by RBS when they sold the toxic asset, Laitman found what he thinks is his misstatement. Three lines stating that the underlying collateral in the mortgage backed securities had underwriting guidelines that required a credit check-- a credit check that does not seem to have been performed on all of these loans. Ladies and gentlemen, we have a case.
+
+00:43:38.610 --> 00:44:00.480
+<v David Kestenbaum>There are offices of lawyers throughout the country searching for their page 81 right now. Because it's not just carpenters in New Jersey who want their money back. PIMCO, which manages the world's largest mutual fund, does too. So do Fannie Mae and Freddie Mac, those huge government sponsored mortgage lenders that ended up with toxic assets. And the Federal Reserve Bank of New York. The Fed, by the way, owns another of Toxie's close siblings.
+
+00:44:00.480 --> 00:44:12.980
+<v David Kestenbaum>Investors all over the globe want their money back, potentially, $200 billion they believe they are owed, because somewhere, in some document, someone misrepresented what they were selling. These investors lost a lot of money, and they want someone to pay.
+
+00:44:12.980 --> 00:44:15.410
+<v Chana Joffe-Walt>If you win, who pays you?
+
+00:44:15.410 --> 00:44:18.790
+<v Joel Laitman>It'll be the defendants who are in the case, so we're talking about--
+
+00:44:18.790 --> 00:44:19.290
+<v Chana Joffe-Walt>RBS?
+
+00:44:19.180 --> 00:44:21.000
+<v Joel Laitman>RBS.
+
+00:44:21.000 --> 00:44:38.200
+<v David Kestenbaum>And that may sound satisfying, RBS sold these guys a bum investment. Who cares if it's a tiny misstatement in thousands of pages that probably no on ever read? It's like Al Capone getting caught on tax evasion. Justice is still being served, the little guy carpenters are getting justice from the big, rich, international bank.
+
+00:44:38.200 --> 00:44:38.950
+<v Chana Joffe-Walt>But--
+
+00:44:38.950 --> 00:44:40.060
+<v David Kestenbaum>But there's a but.
+
+00:44:40.060 --> 00:44:57.370
+<v Chana Joffe-Walt>Guess who owns RBS? The British taxpayers. RBS, like other big banks, failed. RBS failed so spectacularly that the British government ended up taking over the bank, investing billions of dollars of taxpayer money to keep RBS afloat.
+
+00:44:57.370 --> 00:45:05.740
+<v David Kestenbaum>Which means, if this suit is successful, it won't be fat cat RBS bankers paying back the carpenters, it'll be regular British taxpayers.
+
+00:45:05.740 --> 00:45:07.720
+<v Chana Joffe-Walt>What pub is this?
+
+00:45:07.720 --> 00:45:14.520
+<v Chris Hayes>The Marquis of Westminster, 50 Warwick Way, London, UK.
+
+00:45:14.520 --> 00:45:15.760
+<v Chana Joffe-Walt>You're the manager?
+
+00:45:15.760 --> 00:45:16.890
+<v Chris Hayes>I'm the owner.
+
+00:45:16.890 --> 00:45:18.680
+<v Chana Joffe-Walt>Are you a British tax payer?
+
+00:45:18.680 --> 00:45:19.820
+<v Chris Hayes>I am.
+
+00:45:19.820 --> 00:45:23.810
+<v Chana Joffe-Walt>And what do you know about the bail out of British banks?
+
+00:45:23.810 --> 00:45:34.380
+<v Chris Hayes>What do I know? I know that the banks lost money, and we paid-- I think the Royal Bank of Scotland-- 74% we bought them out. Bought their [UNINTELLIGIBLE].
+
+00:45:34.380 --> 00:45:38.890
+<v Chana Joffe-Walt>So in some senses, you own RBS?
+
+00:45:38.890 --> 00:45:40.600
+<v Chris Hayes>We do, yeah, the tax payer does.
+
+00:45:40.600 --> 00:45:41.680
+<v Chana Joffe-Walt>You and the guys in your pub?
+
+00:45:41.680 --> 00:45:43.650
+<v Chris Hayes>Yeah.
+
+00:45:43.650 --> 00:45:47.290
+<v Chana Joffe-Walt>How did you feel about it?
+
+00:45:47.290 --> 00:46:02.530
+<v Chris Hayes>You know, I think it's outrageous. Because at the end of the day, these guys risk a hell of a lot, and if that risk pays off, they get paid a hell a lot of money. I think it's disgusting, personally.
+
+00:46:02.530 --> 00:46:05.710
+<v Chana Joffe-Walt>Did you feel like it was necessary, though?
+
+00:46:05.710 --> 00:46:11.270
+<v Chris Hayes>What, that we bailed them out? No, I'd let them go under. [BLEEP], that's what I say.
+
+00:46:11.270 --> 00:46:33.940
+<v Chana Joffe-Walt>Chris Hayes, the owner of the Marquis of Westminster pub. And it's actually a lot worse than Chris thought. British taxpayers now have an 84% stake in the bank. I told him about the carpenters and how they lost so much money, how they were suing RBS, which, as a British citizen, Chris the pub owner now partially owns. And when I told him that, he got a little more thoughtful.
+
+00:46:33.940 --> 00:47:04.240
+<v Chris Hayes>When you buy something, I suppose you take the responsibility of what the company's done. So I suppose it's inevitable, really, to a certain degree. We're buying into their mistakes, I suppose. If it's a bunch of average men on the street trying to get their money back, I suppose I wouldn't mind so much. I mean, if American Express or BP or somebody were filing the suit, then I'd be a little bit more reticent in giving the money. But, you know, it's a bunch of carpenters. And good luck to them.
+
+00:47:04.240 --> 00:47:05.640
+<v Chana Joffe-Walt>You don't mind if your money goes to them?
+
+00:47:05.640 --> 00:47:28.140
+<v Chris Hayes>No, I don't mind. I mean, it's far removed from me, isn't it? If I was asked to actually physically put my hand in my pocket and hand the money over, it'd be different, wouldn't it?
+
+00:47:28.140 --> 00:47:33.440
+<v Ira Glass>That brings us to Act Five, Toxie in a Coma. I Know, It's Serious.
+
+00:47:33.440 --> 00:47:48.750
+<v Chana Joffe-Walt>After the initial scare in March, when our monthly check was only $44, Toxie looked like she was recovering. The next check we got in April was for almost double that-- $72. But then, in May, a brutal wake up call from Wit Solberg.
+
+00:47:48.750 --> 00:47:53.690
+<v Wit Solberg>Well the patient, Toxie, didn't get a payment this month.
+
+00:47:53.690 --> 00:47:57.430
+<v David Kestenbaum>In other words-- so we're supposed to get a check every month, how much is our check for this month?
+
+00:47:57.430 --> 00:47:59.060
+<v Wit Solberg>It's for zero.
+
+00:47:59.060 --> 00:47:59.560
+<v David Kestenbaum>Zero?
+
+00:47:59.530 --> 00:48:01.930
+<v Wit Solberg>Yeah, there wasn't a check.
+
+00:48:01.930 --> 00:48:04.250
+<v Chana Joffe-Walt>Wait, wait, nothing? We're not getting anything?
+
+00:48:04.250 --> 00:48:07.860
+<v Wit Solberg>Hey, you're still alive though.
+
+00:48:07.860 --> 00:48:10.030
+<v David Kestenbaum>She's sort of in a coma.
+
+00:48:10.030 --> 00:48:11.160
+<v Wit Solberg>A dazed state.
+
+00:48:11.160 --> 00:48:13.850
+<v David Kestenbaum>A dazed state.
+
+00:48:13.850 --> 00:48:18.310
+<v Chana Joffe-Walt>We have made back half of our money, how should we feel right now?
+
+00:48:18.310 --> 00:48:26.990
+<v Wit Solberg>At least you got half. Right? The glass is half full.
+
+00:48:26.990 --> 00:48:31.530
+<v Chana Joffe-Walt>Seriously? The glass is half full? We got a check for zero this month.
+
+00:48:31.530 --> 00:48:32.120
+<v David Kestenbaum>That's the other half of the glass.
+
+00:48:32.120 --> 00:48:43.880
+<v Wit Solberg>That's the other half of the glass. No, that's right.
+
+00:48:43.880 --> 00:48:56.170
+<v David Kestenbaum>This wasn't the way it was supposed to happen. Back in the bond cave Rob had explained to us that we'd get checks for roughly the same amount each month, and then one day they'd stop. They're not supposed to go up and down, and they're definitely not supposed to be for $0.
+
+00:48:56.170 --> 00:49:18.610
+<v Chana Joffe-Walt>So we spent $1,000. If Toxie stayed in a coma, we'd be out a lot of money. To try to sort out what was going on, we brought in Samir Noriega and Steve Marcus from NPM Capital. Samir used to trade Toxie's ancestors at JP Morgan. And he pulled up Toxie's paperwork and looked at it sort of the way a doctor looks at an x-ray, and pointed.
+
+00:49:18.610 --> 00:49:21.510
+<v Samir Noriega>Here, I'll show you, real quick.
+
+00:49:21.510 --> 00:49:31.570
+<v Chana Joffe-Walt>So he finds a loan in Brentwood, California, for $696,000, and he tells us, something big happened to this Brentwood guy this last month.
+
+00:49:31.570 --> 00:49:37.330
+<v Samir Noriega>In this case, here you have $200,000 that were forgiven, of principal.
+
+00:49:37.330 --> 00:49:42.310
+<v David Kestenbaum>So you can see there, so they really just said, "Don't worry about that $200,000, you don't have to pay it."
+
+00:49:42.310 --> 00:49:45.460
+<v Samir Noriega>Yeah, that was forgiven. This was deferred.
+
+00:49:45.460 --> 00:49:48.020
+<v David Kestenbaum>They forgave $200,000?
+
+00:49:48.020 --> 00:49:48.960
+<v Samir Noriega>That's what it looks like.
+
+00:49:48.960 --> 00:49:55.090
+<v David Kestenbaum>What're they doing? I mean, I feel for that person, but that was money we were supposed to be getting some of.
+
+00:49:55.090 --> 00:50:06.940
+<v Steve Marcus>In essence, because of their forgiving that homeowner that principal balance, it's affecting Toxie. So their forgiving is at your expense.
+
+00:50:06.940 --> 00:50:27.890
+<v Chana Joffe-Walt>Loan modification. This was a real surprise to me, because usually you hear, number one, how loan modifications aren't happening enough, and number two, how they're good for everyone. If you modify a loan, you can keep a family in their home-- that's good for them-- and it's good for the lender, who doesn't have to foreclose on the house and sell it for what could be an even bigger loss.
+
+00:50:27.890 --> 00:50:58.420
+<v David Kestenbaum>But there is one group of people it is not good for-- us. And this is where, I'm afraid, we have to dig into the toxic asset paperwork. We have to explain the line. So the way these mortgage backed securities work is that us and all the other investors who collectively own these 2,000 mortgages, we are basically standing in line to get paid. Every month, money comes in from people's mortgage checks, but that money first gets used to pay the investors standing in front of the line, then the people behind them, then the people behind them.
+
+00:50:58.420 --> 00:51:22.320
+<v Chana Joffe-Walt>And we are standing way at the back of the line. And that's why our slice of this thing is toxic, that's why we got it so cheap. The people in the front paid more than us. So loan modification's bad for us. This Brentwood, California guy, he's got a smaller mortgage now, which means he's writing a smaller mortgage check each month, which means that pile of mortgages is just a little bit smaller, with less money coming in.
+
+00:51:22.320 --> 00:51:31.130
+<v David Kestenbaum>This month, just six mortgages in Toxie got modified, but that was enough so that the money ran out just before it got to us, at the last place in line.
+
+00:51:31.130 --> 00:51:46.480
+<v Chana Joffe-Walt>This is one reason why it's been difficult to arrange loan work outs, to help people who can no longer make their payments, because there's a whole bunch of people like us who lose money when you do. I ask Samir, do investors like us call the bank and say, "Stop doing these modifications, you're killing me."
+
+00:51:46.480 --> 00:51:47.730
+<v Samir Noriega>You could do that.
+
+00:51:47.730 --> 00:51:49.160
+<v David Kestenbaum>Would you do that if you owned this?
+
+00:51:49.160 --> 00:51:53.820
+<v Samir Noriega>I own some of them, so I do that, but they don't care.
+
+00:51:53.820 --> 00:52:09.960
+<v Chana Joffe-Walt>They might care, but there's a lot of pressure the other way. Some investors at the front of the line want the banks to do modifications, because any money that comes in goes to them first. The government wants banks to do modifications and has programs to encourage it, and homeowners want them, too.
+
+00:52:09.960 --> 00:52:17.620
+<v David Kestenbaum>So when Samir is looking at Toxie's numbers on the screen, he's pretty pessimistic. In fact, there's only one way that things are going to turn around.
+
+00:52:17.620 --> 00:52:32.400
+<v Samir Noriega>If everyone won the lottery in this pool, however unlikely that is, and they all pay their mortgage entirely, you'd be getting close to $75,000.
+
+00:52:32.400 --> 00:52:38.020
+<v Chana Joffe-Walt>Excellent. Then Toxie would be alive and healthy again.
+
+00:52:38.020 --> 00:52:55.350
+<v Samir Noriega>It's still alive. As long as you have an outstanding principal balance, there's hope, but it's fading very quickly.
+
+00:52:55.350 --> 00:53:04.290
+<v Chana Joffe-Walt>September 19, 2010. It was pretty clear where we were headed. I went through blame, anger, denial, and then we got the call.
+
+00:53:04.290 --> 00:53:11.740
+<v Wit Solberg>Well, the day has come. Toxie has officially died.
+
+00:53:11.740 --> 00:53:12.990
+<v Chana Joffe-Walt>It's over?
+
+00:53:12.990 --> 00:53:15.030
+<v Wit Solberg>It is over.
+
+00:53:15.030 --> 00:53:19.020
+<v Chana Joffe-Walt>That means there's no chance we're getting any more checks?
+
+00:53:19.020 --> 00:53:22.770
+<v Wit Solberg>She's dead, Chana. She's not coming back.
+
+00:53:22.770 --> 00:53:30.300
+<v Chana Joffe-Walt>We'd bought Toxie for $1,000, and at the time of death, we had made back $449.06.
+
+00:53:30.300 --> 00:53:54.920
+<v David Kestenbaum>In trying to find comfort in that moment, I console myself with this thought-- with Toxie's demise, we are one step closer to the end of this financial crisis. Now we have an answer to that big question, what are toxic assets worth? The question that's vexed governments, and big banks, and the world's finance ministers-- at least for our one toxic asset, we now know the answer-- she was worth $449.06.
+
+00:53:54.920 --> 00:54:02.120
+<v Chana Joffe-Walt>Although Wit, who sees these things traded every day-- billions of dollars worth-- did not feel like this meant closure.
+
+00:54:02.120 --> 00:54:17.300
+<v Wit Solberg>We're in like the third inning, if you will, on the toxic asset business. There's still a lot more that's sitting in people's balance sheets, you know, waiting for the day that they're able to sell. They're not going away anytime soon.
+
+00:54:17.300 --> 00:54:39.520
+<v Chana Joffe-Walt>In other words, Toxie is survived by millions of investors and homeowners, who are part of some other toxic asset story. We still don't know how those stories are going to end. The economy's more stable than it was, but housing is still a big, big unknown thing.
+
+00:54:39.520 --> 00:54:50.770
+<v David Kestenbaum>I turned off the live video cam pointing at the stack of paper that was Toxie. And Chana, you scattered the remains. And by that I mean you handed out the money we got back from Toxie to our colleagues at Planet Money.
+
+00:54:50.770 --> 00:54:56.540
+<v Chana Joffe-Walt>85, 86, 87, 88, 89.
+
+00:54:56.540 --> 00:55:00.170
+<v Adam Davidson>So this is it? This is what Toxie has come down to?
+
+00:55:00.170 --> 00:55:03.750
+<v Chana Joffe-Walt>Oh no, wait, here.
+
+00:55:03.750 --> 00:55:06.780
+<v Adam Davidson>She brings out the change.
+
+00:55:06.780 --> 00:55:09.330
+<v Chana Joffe-Walt>And 80 cents, here you go.
+
+00:55:09.330 --> 00:55:10.520
+<v Adam Davidson>This is so depressing.
+
+00:55:10.520 --> 00:55:13.580
+<v Caitlin Kenney>Wait, does that mean we're all only getting that much back?
+
+00:55:13.580 --> 00:55:15.570
+<v Chana Joffe-Walt>$89.80.
+
+00:55:15.570 --> 00:55:18.430
+<v David Kestenbaum>We turned your $200 into $89.
+
+00:55:18.430 --> 00:55:21.990
+<v Caitlin Kenney>It's really depressing that this is all that's left of Toxie.
+
+00:55:21.990 --> 00:55:23.060
+<v Chana Joffe-Walt>That's it.
+
+00:55:23.060 --> 00:55:25.150
+<v Jacob Goldstein>So I've been sitting here lurking--
+
+00:55:25.150 --> 00:55:33.810
+<v David Kestenbaum>That's Planet Money blogger Jacob Goldstein, who wasn't part of the staff when we bought Toxie. And he was sitting in the room, watching us each get our $89.80.
+
+00:55:33.810 --> 00:55:38.580
+<v Jacob Goldstein>So look, I have a proposition, basically. It's very safe.
+
+00:55:38.580 --> 00:55:39.710
+<v Caitlin Kenney>Sounds familiar.
+
+00:55:39.710 --> 00:55:59.960
+<v Jacob Goldstein>And it involves you giving me $89.80, each of you. You have it there sitting in front of you. Adam, you already said it doesn't feel like a lot of money. I want you to take that money right now, put it in my hand, because I have-- what for all of history has been-- the very definition of a sound investment. Gold.
+
+00:55:59.960 --> 00:56:00.600
+<v David Kestenbaum>Gold?
+
+00:56:00.600 --> 00:56:07.210
+<v Jacob Goldstein>One word. We're going to buy whatever, a penny size piece of gold, that will be our rock.
+
+00:56:07.210 --> 00:56:09.600
+<v David Kestenbaum>And you're going to bring in that gold, we're going to see the gold?
+
+00:56:09.600 --> 00:56:13.250
+<v Jacob Goldstein>We are going to have what you call a gold.
+
+00:56:13.250 --> 00:56:35.120
+<v David Kestenbaum>On October 4, Jacob and I went to the diamond district in New York City with Toxie's remains in a mason jar, and we bought a shiny gold coin. It cost $419, twice as much as it would have cost three years ago, which means that yes, it might be a bubble. But this time, if we lose money, at least we got in on the way up instead of the way down.
+
+00:56:35.120 --> 00:56:42.000
+<v David Kestenbaum>[MUSIC - "TOXIC" BY BRITNEY SPEARS]
+
+00:56:42.000 --> 00:56:56.150
+<v Ira Glass>Our program was produced today by Alex Blumberg with Ben Calhoun, Jane Feltes, Sarah Koenig, Jonathan Menjivar, Lisa Pollak, Robyn Semien, Alissa Shipp, Nancy Updike. Senior producer for our show is Julie Snyder. Seth Lind is our production manager. Emily Condon's our office manager. Production help from Shawn Wen.
+
+00:56:56.150 --> 00:57:22.840
+<v Ira Glass>[ACKNOWLEDGEMENTS]
+
+00:57:22.840 --> 00:57:40.940
+<v Ira Glass>Our website, thisamericanlife.org, where you can get the new This American Life app for Android phones. This American Life is distributed by Public Radio International. WBEZ management oversight for our show by Torey Malatia. I have to tell you, I was shocked to find that he's thinking about replacing me with late night TV host Craig Ferguson.
+
+00:57:40.940 --> 00:57:47.910
+<v Woman>Craig's offer was very good. It was right on the mark. And when he made the offer, it was a fair price.
+
+00:57:47.910 --> 00:58:07.510
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life.
+
+00:58:07.510 --> 00:58:12.510
+<v Announcer>PRI. Public Radio International.
