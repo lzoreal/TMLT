@@ -4,6 +4,7 @@ Run: python -m unittest test_align_timings -v
 """
 
 import json
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -84,6 +85,47 @@ class RepairWordOverlapTest(unittest.TestCase):
         self.assertEqual(discarded, 0)
         self.assertEqual(json.dumps(segments, sort_keys=True), before)
         self.assertEqual(at.order_violations(segments, cues), [])
+
+
+class CompressedRunTest(unittest.TestCase):
+    def test_punctuation_only_word_does_not_crash(self):
+        # #528 的 ValueError: 8 is not in list：run 里混了没有字母/数字的词。
+        cues = [{"i": 0, "start": 9.0, "text": "-- alpha beta gamma delta"}]
+        results = {0: {"words": [
+            ("--", 10.00, 10.02), ("alpha", 10.03, 10.05),
+            ("beta", 10.06, 10.08), ("gamma", 10.09, 10.11), ("delta", 12.0, 12.2),
+        ]}}
+        tokens = [("alpha", 10.03), ("beta", 10.06), ("gamma", 10.09)]
+        self.assertEqual(at.repair_compressed_runs(cues, results, tokens), 0)
+
+
+class MarkAttemptTest(unittest.TestCase):
+    def test_keeps_complete_when_rerun_crashes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "1.json"
+            path.write_text(json.dumps({
+                "version": 1, "episode": 1, "audio_seconds": 10.0,
+                "complete": True, "attempts": 1,
+                "segments": [seg(0, 1000, word(100))],
+            }), encoding="utf-8")
+            at.mark_attempt(path, 1, 2, "error:ValueError")
+            document = json.loads(path.read_text(encoding="utf-8"))
+            self.assertTrue(document["complete"])
+            self.assertEqual(document["attempts"], 2)
+            self.assertNotIn("rejected", document)
+            self.assertEqual(len(document["segments"]), 1)
+
+    def test_marks_incomplete_when_no_prior_result(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "2.json"
+            path.write_text(json.dumps({
+                "version": 1, "episode": 2, "audio_seconds": 10.0,
+                "complete": False, "attempts": 1, "segments": [],
+            }), encoding="utf-8")
+            at.mark_attempt(path, 2, 2, "error:ValueError")
+            document = json.loads(path.read_text(encoding="utf-8"))
+            self.assertFalse(document["complete"])
+            self.assertEqual(document["rejected"], "error:ValueError")
 
 
 class RealEpisodeRegressionTest(unittest.TestCase):

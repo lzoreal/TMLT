@@ -1140,10 +1140,21 @@ def repair_compressed_runs(cues, results, tokens):
             natural_total = sum(natural_word_ms(text) for text in texts) / 1000.0
             if times[-1] - times[0] > natural_total * 3 + 2:
                 continue
+            bounds = {}
+            for position, wi in enumerate(owner):
+                span = bounds.get(wi)
+                if span is None:
+                    bounds[wi] = [position, position]
+                else:
+                    span[1] = position
             placed = []
             for wi, text in enumerate(texts):
-                first = owner.index(wi)
-                last = len(owner) - 1 - owner[::-1].index(wi)
+                span = bounds.get(wi)
+                if span is None:
+                    # 纯标点/舞台标签词没有可匹配 token（#528 的 "--"）。
+                    placed = []
+                    break
+                first, last = span
                 begin = times[first]
                 finish = times[last + 1] if last + 1 < len(times) else hi
                 finish = max(begin + 0.06, min(finish, hi - 0.01))
@@ -1153,6 +1164,8 @@ def repair_compressed_runs(cues, results, tokens):
                 if wi == len(texts) - 1:
                     finish = max(begin + 0.06, min(finish, words[k+1][1]))
                 placed.append((text, begin, finish))
+            if len(placed) != len(texts):
+                continue
             if any(placed[i][1] < placed[i-1][2] - 0.001 for i in range(1, len(placed))):
                 continue
             words[j:k+1] = placed
@@ -1521,13 +1534,17 @@ def mark_attempt(path, episode, attempts, rejected):
         old = {}
     if not isinstance(old, dict):
         old = {}
+    # 已有 complete 的集在 force 重跑时崩溃，不能把可用结果降级成未完成；
+    # 与 reject 分支的 prev_complete 保护保持一致。
+    keep_complete = old.get("complete") is True
     write_document(
         path,
         episode,
         float(old.get("audio_seconds") or 0.0),
         old.get("segments") or [],
         attempts,
-        rejected=rejected,
+        complete=keep_complete,
+        rejected=None if keep_complete else rejected,
     )
 
 
