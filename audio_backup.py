@@ -108,6 +108,30 @@ def merge_previous(entry, old):
     return entry
 
 
+def regressions(old_entries, new_entries):
+    """清单会自动提交，所以"从活到死"必须过这道闸：一轮 HEAD 抖动被写成事实之后，
+    下一轮只会照着一个已死的 URL 重探，plan 也会把那一集从待镜像里永久剔掉。
+    只认活→死：变大、新增、本来就死着的换了个死法，都是真变化，不该拦。"""
+    old = {e["episode"]: e for e in old_entries}
+    new = {e["episode"]: e for e in new_entries}
+    rows = []
+    for episode in sorted(old):
+        was = old[episode]
+        if was["status"] != 200:
+            continue
+        now = new.get(episode)
+        if now is not None and now["status"] == 200 and now["size"] > 0:
+            continue
+        rows.append(
+            {
+                "episode": episode,
+                "was": f"HTTP {was['status']}/{was['size']}",
+                "now": f"HTTP {now['status']}/{now['size']}" if now else "feed 里已无此集",
+            }
+        )
+    return rows
+
+
 def load_timed_lengths(directory=TIMINGS_DIR):
     lengths = {}
     for path in sorted(directory.glob("*.json")):
@@ -177,7 +201,7 @@ def capacity_check(tags, present, pending):
         )
     if projected > slots * 0.9:
         return False, (
-            f"{projected}/{slots} 位（本档视角的下界），已用九成——快到另起一卷的时候了。"
+            f"{projected}/{slots} 位，已用九成——快到另起一卷的时候了。"
         )
     return False, None
 
@@ -356,7 +380,7 @@ def manifest_command(args):
             )
         )
 
-    payload = write_manifest(entries)
+    write_manifest(entries)
     reachable = [e for e in entries if e["status"] == 200]
     total = sum(e["size"] for e in reachable)
     print(f"Manifest: {MANIFEST_FILE} | 可达 {len(reachable)} | 合计 {total / 1e9:.2f} GB")
@@ -365,7 +389,14 @@ def manifest_command(args):
     for e in entries:
         if e["status"] != 200:
             print(f"  ⚠️ {e['episode']} HTTP {e['status']} {e['url']}")
-    return payload
+    lost = regressions(previous["episodes"] if previous else [], entries)
+    if lost:
+        print(f"  ⛔ 新增失效 {len(lost)}（清单已写，但自动提交该停在这一步）")
+        for row in lost[:20]:
+            print(f"  #{row['episode']} {row['was']} -> {row['now']}")
+        print("  先分清真失效还是探测抖动：再跑一次 manifest，两次都死才是真没了。")
+        return 1
+    return 0
 
 
 def scan_local(directory):
@@ -801,7 +832,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description="Archive 音频指纹清单与冷备")
     sub = parser.add_subparsers(dest="command", required=True)
     for name, help_text in (
-        ("manifest", "解析 feed 并 HEAD 全部母带，写 docs/audio-manifest.json"),
+        ("manifest", "解析 feed 并 HEAD 全部母带，写 docs/audio-manifest.json（新增失效 → 退出码 1）"),
         ("check", "重发 HEAD 与清单比对，报告链接漂移"),
     ):
         p = sub.add_parser(name, help=help_text)
@@ -833,7 +864,7 @@ def main(argv=None):
     args = parser.parse_args(argv)
     try:
         if args.command == "manifest":
-            manifest_command(args)
+            sys.exit(manifest_command(args))
         elif args.command == "check":
             sys.exit(check_command(args))
         elif args.command == "backup":

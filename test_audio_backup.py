@@ -392,5 +392,72 @@ class PadLanesTest(unittest.TestCase):
             ab.pad_lanes([[n] for n in range(ab.MATRIX_SLOTS + 1)])
 
 
+class RegressionsTest(unittest.TestCase):
+    """定时刷新要自动提交清单，这道闸门判断"这次探测是不是把活着说成了死了"。"""
+
+    def entry(self, episode, status=200, size=1_000_000):
+        return {
+            "episode": episode,
+            "status": status,
+            "size": size,
+            "url": f"https://example/{episode}.mp3",
+        }
+
+    def rows(self, old, new):
+        return ab.regressions(old, new)
+
+    def test_an_unchanged_ledger_is_quiet(self):
+        old = [self.entry(1), self.entry(2)]
+        self.assertEqual(self.rows(old, list(old)), [])
+
+    def test_bytes_got_bigger_is_a_reencode_not_a_death(self):
+        rows = self.rows([self.entry(1)], [self.entry(1, size=2_000_000)])
+        self.assertEqual(rows, [])
+
+    def test_a_live_link_answering_404_is_a_regression(self):
+        rows = self.rows([self.entry(1)], [self.entry(1, status=404, size=0)])
+        self.assertEqual([r["episode"] for r in rows], [1])
+        self.assertIn("HTTP 200", rows[0]["was"])
+        self.assertIn("HTTP 404", rows[0]["now"])
+
+    def test_throttling_and_server_errors_count_too(self):
+        old = [self.entry(1), self.entry(2), self.entry(3)]
+        new = [
+            self.entry(1, status=403, size=0),
+            self.entry(2, status=429, size=1_000_000),
+            self.entry(3, status=500, size=0),
+        ]
+        self.assertEqual([r["episode"] for r in self.rows(old, new)], [1, 2, 3])
+
+    def test_a_200_with_zero_bytes_is_a_regression(self):
+        rows = self.rows([self.entry(1)], [self.entry(1, size=0)])
+        self.assertEqual([r["episode"] for r in rows], [1])
+
+    def test_an_episode_that_vanished_from_the_feed_is_a_regression(self):
+        rows = self.rows([self.entry(1), self.entry(2)], [self.entry(2)])
+        self.assertEqual([r["episode"] for r in rows], [1])
+
+    def test_new_episodes_are_progress_not_regression(self):
+        rows = self.rows([self.entry(1)], [self.entry(1), self.entry(2)])
+        self.assertEqual(rows, [])
+
+    def test_a_link_already_recorded_as_dead_matters_no_more(self):
+        # 老清单就非 200，这次换了个死法不算新增失效——闸门只盯"从活到死"。
+        rows = self.rows(
+            [self.entry(1, status=404, size=0)],
+            [self.entry(1, status=503, size=0)],
+        )
+        self.assertEqual(rows, [])
+
+    def test_the_gate_reaches_the_process_exit_code(self):
+        # CI 只看得见退出码：闸门不落到 exit code 上就等于没有。
+        original = ab.manifest_command
+        ab.manifest_command = lambda args: 1
+        self.addCleanup(setattr, ab, "manifest_command", original)
+        with self.assertRaises(SystemExit) as ctx:
+            ab.main(["manifest"])
+        self.assertEqual(ctx.exception.code, 1)
+
+
 if __name__ == "__main__":
     unittest.main()
