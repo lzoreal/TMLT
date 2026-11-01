@@ -90,6 +90,34 @@ class MergeFragmentsTest(unittest.TestCase):
         self.assertEqual(len(segments[0]["words"]), 1)
 
 
+class AudioPlanTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.local = Path(self.tmp.name)
+
+    def test_repo_copy_wins(self):
+        (self.local / "454.mp3").write_bytes(b"0" * (2 << 20))
+        plan = tx.audio_plan(454, {}, {}, local_dir=self.local)
+        self.assertEqual(plan[0], "local")
+
+    def test_manifest_entry_without_sha_still_used(self):
+        manifest = {495: {"status": 200, "url": "http://x/495.mp3", "size": 123,
+                          "plausible_master": True}}
+        plan = tx.audio_plan(495, {}, manifest, local_dir=self.local)
+        self.assertEqual(plan, ("download", "http://x/495.mp3", 123, ""))
+
+    def test_dead_manifest_entry_falls_back_to_roster(self):
+        manifest = {495: {"status": 200, "url": "http://x/495.mp3", "size": 242,
+                          "plausible_master": False}}
+        roster = {"495": {"resolved_audio": "http://y/495.mp3"}}
+        plan = tx.audio_plan(495, roster, manifest, local_dir=self.local)
+        self.assertEqual(plan, ("download", "http://y/495.mp3", 0, ""))
+
+    def test_nothing_available_means_none(self):
+        self.assertIsNone(tx.audio_plan(495, {}, {}, local_dir=self.local))
+
+
 class RenderVttTest(unittest.TestCase):
     def test_roundtrips_through_the_align_parser(self):
         segments = [

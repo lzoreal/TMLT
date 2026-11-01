@@ -61,22 +61,23 @@ def sha256_of(path):
     return digest.hexdigest()
 
 
-def audio_plan(episode, roster, manifest):
+def audio_plan(episode, roster, manifest, local_dir=LOCAL_AUDIO_DIR):
     """返回 ("local", 路径) 或 ("download", 地址, 字节数, sha256)。
 
     本地副本优先：#454 的母带只在仓库里。否则用清单里已验过字节的 archive
-    地址；清单没有可用条目时退回 episodes.json 的 resolved_audio，但仍会按
-    下载后的真实时长校验。
+    地址；清单条目没有 sha256 但有 size 时也认（校验 size 即可），再退回
+    episodes.json 的 resolved_audio——下载后仍会按真实时长校验。
     """
 
-    local = LOCAL_AUDIO_DIR / f"{episode}.mp3"
+    local = local_dir / f"{episode}.mp3"
     if local.is_file() and local.stat().st_size > 1 << 20:
         return ("local", local)
 
     entry = manifest.get(episode)
-    if entry and entry.get("status") == 200 and entry.get("sha256"):
+    if (entry and entry.get("status") == 200 and entry.get("url")
+            and entry.get("plausible_master") is not False):
         return ("download", entry["url"], int(entry.get("size") or 0),
-                entry["sha256"])
+                entry.get("sha256") or "")
 
     info = roster.get(str(episode)) or {}
     url = info.get("resolved_audio") or info.get("audio")
