@@ -107,6 +107,15 @@ class PlausibilityTest(unittest.TestCase):
     def test_an_unknown_duration_is_never_a_failure(self):
         self.assertTrue(ab.size_is_plausible(50_000_000, None))
 
+    def test_a_tiny_placeholder_is_refused_even_without_a_duration(self):
+        # #454：官网把撤下的集换成 242 字节的 HTML 占位，HEAD 200、ETag 尾也与字节数自洽，
+        # 没有 timings 就没有时长可比，只有"它根本不像一份音频"这条能拦住冷备。
+        self.assertFalse(ab.size_is_plausible(242, None))
+
+    def test_the_floor_leaves_the_smallest_real_master_alone(self):
+        # 现清单里最小的一集（#86，19 MB）必须照常通过：门槛只挡占位，不重判健康条目。
+        self.assertTrue(ab.size_is_plausible(19_070_255, None))
+
 
 class ImplausibleTest(unittest.TestCase):
     def test_only_entries_whose_size_contradicts_the_timing_are_selected(self):

@@ -43,6 +43,10 @@ ASSET_SLOTS_PER_RELEASE = 1000
 MIN_BYTES_PER_SECOND = 4000
 MAX_BYTES_PER_SECOND = 40000
 
+# 没有时长可比时也得有个下限：官网会把撤下的集的母带换成几百字节的 HTML 占位
+# （#454 是 242 字节，HEAD 200 且 ETag 自洽）。真母带最小的是 #86 的 19 MB。
+MIN_MASTER_BYTES = 1_000_000
+
 # 与 generate.py 的礼貌抓取保持一致：重试退避，避开 4xx 的无意义等待。
 REQUEST_RETRIES = 5
 HEAD_TIMEOUT = 30
@@ -92,7 +96,9 @@ def etag_size(etag):
 
 
 def size_is_plausible(size, seconds):
-    """字节数与校对稿时长是否相容；不知道时长就不拦。"""
+    """字节数与校对稿时长是否相容；不知道时长时只要求它像一份音频。"""
+    if size < MIN_MASTER_BYTES:
+        return False
     if not seconds:
         return True
     return MIN_BYTES_PER_SECOND <= size / seconds <= MAX_BYTES_PER_SECOND
