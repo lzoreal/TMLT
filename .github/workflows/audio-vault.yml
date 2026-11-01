@@ -12,8 +12,8 @@ name: Mirror masters to audio vault
 # 幂等：release 上已有同名资产且 size+digest 都对得上就跳过，重跑只补漏。
 # 冒烟：commit 关掉时只下载并算 sha256，不创建 tag、不传资产。
 #
-# 定时：每月 1 日重探全部 URL（发现 TAL 加了新集 / 换了指纹）→ 清单提交回 main
-# → 补传保险库缺的那几集。needs_upload 认远端账本，健康月份待传 0 集，
+# 定时：每月 1 日重探全部 URL（发现 TAL 加了新集 / 换了指纹）→ 补传保险库缺的
+# 那几集 → 把清单连同新基线提交回 main。needs_upload 认远端账本，健康月份待传 0 集，
 # 一轮只花 HEAD 的几分钟，不会重搬 39 GB。
 #
 # 不分片：增量每月只有几集，一个 job 几分钟收工；矩阵只会多开 20 个 job
@@ -70,35 +70,18 @@ jobs:
           python-version: "3.11"
       - name: Install dependencies
         run: python -m pip install --quiet requests
-      - name: Re-probe masters and commit the ledger
+      - name: Re-probe masters and write the ledger
+        id: probe
         if: ${{ github.event_name == 'schedule' || inputs.refresh_ledger }}
         run: |
           set -o pipefail
-          git config user.name "github-actions"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # 退出码 1 = 有母带"从活到死"。清单文件已写但绝不提交：一次 HEAD 抖动
           # 被写成事实，下一轮只会照着死链接重探，待镜像里也永久少了那一集。
           # 这一步失败让整轮变红，红色就是告警本身。
           python -X utf8 audio_backup.py manifest --workers 16 | tee manifest.log
           grep '^Manifest:' manifest.log >> "$GITHUB_STEP_SUMMARY"
-          git add docs/audio-manifest.json
-          git commit -m "Refresh archive audio ledger"
-          pushed=0
-          for i in 1 2 3 4 5; do
-            if git pull --rebase --autostash && git push; then
-              pushed=1
-              break
-            fi
-            git rebase --abort 2>/dev/null || true
-            sleep $((i * 15))
-          done
-          # 没推进 main 就硬停：工作树随 runner 销毁，这轮体检等于什么都没留下，
-          # 而下个月还会在同一处红一次。
-          if [ "$pushed" != 1 ]; then
-            echo "清单提交 5 次都没推上 main" >&2
-            exit 1
-          fi
       - name: Mirror what the vault is missing
+        id: mirror
         env:
           GH_TOKEN: ${{ secrets.AUDIO_VAULT_TOKEN }}
           # 定时触发没有 inputs，一律取仓库里的默认值；空 tag 会被 --tag 至少要有一卷拒掉。
@@ -124,6 +107,43 @@ jobs:
             ARGS+=(--no-push)
           fi
           python -X utf8 audio_backup.py "${ARGS[@]}"
+          # 只有真传的那一轮才记账：--no-push 冒烟不该动 main。
+          if [ "$COMMIT" = "true" ]; then
+            echo "mirrored=true" >> "$GITHUB_OUTPUT"
+            # 保险库里的字节 GitHub 早就算好 sha256。认回清单当基线（来源标 vault），
+            # 下一轮才对得上 899 集的账，而不是只有本地真下过的那几十集。
+            python -X utf8 audio_backup.py sync --repo "$VAULT_REPO" --tag "$TAG"
+          fi
+      - name: Commit the ledger
+        # 提交放在传完之后，不放在重探之后：release 步骤会把本轮真下过的 sha256 写进
+        # 清单，早提交的那些字节随工作树一起销毁，清单就永远只有几十集有基线可比。
+        # probe 红（发现"从活到死"）时不提交；mirror 红但账本已重探过，仍要提交。
+        if: ${{ !cancelled() && (steps.probe.outcome == 'success' || steps.mirror.outputs.mirrored == 'true') }}
+        run: |
+          set -o pipefail
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- docs/audio-manifest.json; then
+            echo "账本没变：本轮没有新账要记"
+            exit 0
+          fi
+          git add docs/audio-manifest.json
+          git commit -m "Refresh archive audio ledger"
+          pushed=0
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash && git push; then
+              pushed=1
+              break
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 15))
+          done
+          # 没推进 main 就硬停：工作树随 runner 销毁，这轮记的账等于什么都没留下，
+          # 而下个月还会在同一处红一次。
+          if [ "$pushed" != 1 ]; then
+            echo "清单提交 5 次都没推上 main" >&2
+            exit 1
+          fi
       - name: Upload release index
         if: ${{ always() }}
         uses: actions/upload-artifact@v4

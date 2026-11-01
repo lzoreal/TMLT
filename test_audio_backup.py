@@ -138,6 +138,21 @@ class MergePreviousTest(unittest.TestCase):
         merged = ab.merge_previous(entry, {"url": "https://x/1.mp3", "sha256": "abc"})
         self.assertEqual(merged["sha256"], "abc")
 
+    def test_a_changed_url_drops_the_stale_provenance(self):
+        # 没有它，下一轮 manifest 会把"保险库自证"的指纹当成"我们手上有这份字节"。
+        entry = {"url": "https://x/489/master.mp3", "sha256": None}
+        merged = ab.merge_previous(
+            entry, {"url": "https://x/489/promo.mp3", "sha256": "deadbeef", "sha256_from": "vault"}
+        )
+        self.assertIsNone(merged["sha256_from"])
+
+    def test_an_unchanged_url_keeps_the_provenance(self):
+        entry = {"url": "https://x/1.mp3", "sha256": None}
+        merged = ab.merge_previous(
+            entry, {"url": "https://x/1.mp3", "sha256": "abc", "sha256_from": "vault"}
+        )
+        self.assertEqual(merged["sha256_from"], "vault")
+
 
 class LoadManifestTest(unittest.TestCase):
     def test_a_missing_manifest_reads_as_no_previous_run(self):
@@ -466,6 +481,96 @@ class RegressionsTest(unittest.TestCase):
         with self.assertRaises(SystemExit) as ctx:
             ab.main(["manifest"])
         self.assertEqual(ctx.exception.code, 1)
+
+
+class SyncDigestsTest(unittest.TestCase):
+    """把 release 的 digest 认作清单基线：纯函数，不发网络请求。"""
+
+    def entry(self, episode, size=50_000_000, sha256=None, status=200, plausible=True):
+        return {"episode": episode, "size": size, "sha256": sha256, "status": status,
+                "plausible_master": plausible, "url": f"https://x/{episode}.mp3"}
+
+    def assets(self, episode, size=50_000_000, digest="a" * 64):
+        return {f"{episode}.mp3": {"size": size, "digest": digest, "tag": "audio-vault", "id": 1}}
+
+    def test_an_unbaselined_episode_takes_the_vault_digest(self):
+        # 清单里 699 集没有本地基线，而 GitHub 早已为每个资产算好 sha256。
+        entries = [self.entry(885)]
+        result = ab.sync_digests(entries, self.assets(885, digest="be" * 32))
+        self.assertEqual(entries[0]["sha256"], "be" * 32)
+        self.assertEqual(result.synced, [885])
+
+    def test_a_vault_digest_is_recorded_as_the_vault_saying_it(self):
+        # 它是 GitHub 的单方陈述，不是"我们下过这份字节"。丢了这层，
+        # release-index 的 checked 会把 699 集集体冒充本地核对。
+        entries = [self.entry(885)]
+        ab.sync_digests(entries, self.assets(885, digest="be" * 32))
+        self.assertEqual(entries[0]["sha256_from"], "vault")
+
+    def test_an_existing_baseline_is_never_overwritten(self):
+        # 已有基线是本地算的，与远端不同就是真冲突，留给 release 的对账报警，不在这里抹平。
+        entries = [self.entry(192, sha256="ff" * 32)]
+        result = ab.sync_digests(entries, self.assets(192, digest="00" * 32))
+        self.assertEqual(entries[0]["sha256"], "ff" * 32)
+        self.assertEqual(result.synced, [])
+
+    def test_a_different_byte_count_is_not_a_baseline(self):
+        # 同名资产字节数不符 = 另一份文件，写进去会把漂移固化成基线。
+        entries = [self.entry(489)]
+        result = ab.sync_digests(entries, self.assets(489, size=273_971))
+        self.assertIsNone(entries[0]["sha256"])
+        self.assertEqual(result.mismatch, [489])
+
+    def test_an_asset_without_a_digest_is_left_alone(self):
+        entries = [self.entry(7)]
+        result = ab.sync_digests(entries, self.assets(7, digest=None))
+        self.assertEqual((result.synced, result.mismatch, result.absent), ([], [], []))
+
+    def test_an_episode_the_vault_does_not_hold_yet_is_reported_not_written(self):
+        entries = [self.entry(901)]
+        result = ab.sync_digests(entries, {})
+        self.assertIsNone(entries[0]["sha256"])
+        self.assertEqual(result.absent, [901])
+
+    def test_a_placeholder_master_is_not_eligible_for_a_baseline(self):
+        # #454 那类 242 字节占位本来就不该进 release，也不该因为账本里有同名资产就拿到基线。
+        entries = [self.entry(454, size=242, plausible=False)]
+        result = ab.sync_digests(entries, self.assets(454, size=242))
+        self.assertEqual((result.synced, result.absent), ([], []))
+        self.assertIsNone(entries[0]["sha256"])
+
+    def test_a_dead_link_is_not_eligible_for_a_baseline(self):
+        entries = [self.entry(490, status=404)]
+        result = ab.sync_digests(entries, self.assets(490))
+        self.assertEqual(result.absent, [])
+        self.assertIsNone(entries[0]["sha256"])
+
+
+class LocallyVerifiedTest(unittest.TestCase):
+    """release-index 的 checked 只能说"我们手上有这份字节"。"""
+
+    def asset(self, digest="a" * 64):
+        return {"digest": digest, "size": 1, "tag": "audio-vault", "id": 1}
+
+    def test_a_locally_computed_baseline_that_agrees_is_verified(self):
+        entry = {"sha256": "a" * 64, "sha256_from": "local"}
+        self.assertTrue(ab.locally_verified(entry, self.asset()))
+
+    def test_a_vault_inherited_baseline_agreeing_is_not_local_proof(self):
+        entry = {"sha256": "a" * 64, "sha256_from": "vault"}
+        self.assertFalse(ab.locally_verified(entry, self.asset()))
+
+    def test_a_baseline_from_before_provenance_is_still_local_proof(self):
+        # 早期本地真下过的 178 集没有 sha256_from 字段，不该被降级成"没核对"。
+        self.assertTrue(ab.locally_verified({"sha256": "a" * 64}, self.asset()))
+
+    def test_a_disagreeing_digest_is_never_verified(self):
+        entry = {"sha256": "f" * 64, "sha256_from": "local"}
+        self.assertFalse(ab.locally_verified(entry, self.asset()))
+
+    def test_no_baseline_is_no_proof(self):
+        # digest 也缺失时 None == None 会假阳性。
+        self.assertFalse(ab.locally_verified({"sha256": None}, {"digest": None}))
 
 
 if __name__ == "__main__":
