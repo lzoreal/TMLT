@@ -190,8 +190,7 @@ def merge_ledgers(pages):
 
 
 def capacity_check(tags, present, pending):
-    """撞线必须在传之前说：传到第 1000 个才被拒，剩下的集要等人工发现，比不传更难查。
-    present 是跨卷的全局数，pending 只是本档的，所以这是下界——矩阵其它档还各有待传。"""
+    """撞线必须在传之前说：传到第 1000 个才被拒，剩下的集要等人工发现，比不传更难查。"""
     slots = ASSET_SLOTS_PER_RELEASE * len(tags)
     projected = present + pending
     if projected > slots:

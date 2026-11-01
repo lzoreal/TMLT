@@ -11,15 +11,24 @@ name: Mirror masters to audio vault
 #
 # 幂等：release 上已有同名资产且 size+digest 都对得上就跳过，重跑只补漏。
 # 冒烟：commit 关掉时只下载并算 sha256，不创建 tag、不传资产。
+#
+# 定时：每月 1 日重探全部 URL（发现 TAL 加了新集 / 换了指纹）→ 清单提交回 main
+# → 补传保险库缺的那几集。needs_upload 认远端账本，健康月份待传 0 集，
+# 一轮只花 HEAD 的几分钟，不会重搬 39 GB。
+#
+# 不分片：增量每月只有几集，一个 job 几分钟收工；矩阵只会多开 20 个 job
+# 各自翻页读同一份账本。真要把 39 GB 重搬一遍（单 job 会撞 6 小时上限），
+# audio_backup.py plan 仍能把集号摊成多档，带矩阵的这版 workflow 在 git 历史里。
 
 on:
+  schedule:
+    # 06:20 而非整点：避开 align-timings 每小时的 cron 波；每月 1 日也避开了
+    # deploy 的周一 05:00（那是 tmlt-pages 组，与本组不冲突，只是少抢 runner）。
+    - cron: "20 6 1 * *"
   workflow_dispatch:
     inputs:
-      shards:
-        description: "并行几档（1-10；账号同时运行的 job 有上限）"
-        default: "10"
       episodes:
-        description: "逗号分隔的集号（留空 = 清单里全部）"
+        description: "逗号分隔的集号（留空 = 按清单全部核对，仍只补传缺的）"
         default: ""
       repo:
         description: "保险库仓库 owner/name（private）"
@@ -30,6 +39,10 @@ on:
       target:
         description: "tag 落在保险库的哪条分支"
         default: "audio"
+      refresh_ledger:
+        description: "先重探全部 URL 并把清单提交回 main（定时触发必做，手工默认不越权）"
+        type: boolean
+        default: false
       commit:
         description: "真的上传 release（冒烟测试关掉：只下载校验，不碰 release）"
         type: boolean
@@ -43,10 +56,11 @@ permissions:
   contents: read
 
 jobs:
-  plan:
+  mirror:
     runs-on: ubuntu-latest
-    outputs:
-      lanes: ${{ steps.split.outputs.lanes }}
+    permissions:
+      # 只有清单那一步需要写 main；传资产用的是 AUDIO_VAULT_TOKEN。
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -56,71 +70,65 @@ jobs:
           python-version: "3.11"
       - name: Install dependencies
         run: python -m pip install --quiet requests
-      - id: split
-        env:
-          EPISODES: ${{ inputs.episodes || '' }}
-          SHARDS: ${{ inputs.shards || '10' }}
+      - name: Re-probe masters and commit the ledger
+        if: ${{ github.event_name == 'schedule' || inputs.refresh_ledger }}
         run: |
           set -o pipefail
-          if [ -n "$EPISODES" ]; then
-            lanes=$(python -X utf8 audio_backup.py plan --shards "$SHARDS" --episodes "$EPISODES")
-          else
-            lanes=$(python -X utf8 audio_backup.py plan --shards "$SHARDS")
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # 退出码 1 = 有母带"从活到死"。清单文件已写但绝不提交：一次 HEAD 抖动
+          # 被写成事实，下一轮只会照着死链接重探，待镜像里也永久少了那一集。
+          # 这一步失败让整轮变红，红色就是告警本身。
+          python -X utf8 audio_backup.py manifest --workers 16 | tee manifest.log
+          grep '^Manifest:' manifest.log >> "$GITHUB_STEP_SUMMARY"
+          git add docs/audio-manifest.json
+          git commit -m "Refresh archive audio ledger"
+          pushed=0
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash && git push; then
+              pushed=1
+              break
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 15))
+          done
+          # 没推进 main 就硬停：工作树随 runner 销毁，这轮体检等于什么都没留下，
+          # 而下个月还会在同一处红一次。
+          if [ "$pushed" != 1 ]; then
+            echo "清单提交 5 次都没推上 main" >&2
+            exit 1
           fi
-          # 坏计划必须在这里拦住：矩阵少一项就少一档，多一项会超账号的并行 job 上限。
-          printf '%s' "$lanes" | python -c '
-          import json, sys
-          lanes = json.load(sys.stdin)
-          assert len(lanes) == 20, f"计划应为 20 档，实际 {len(lanes)}"
-          '
-          echo "lanes=$lanes" >> "$GITHUB_OUTPUT"
-
-  mirror:
-    needs: plan
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      max-parallel: ${{ fromJSON(inputs.shards) }}
-      matrix:
-        lane: ${{ fromJSON(needs.plan.outputs.lanes) }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-      - name: Install dependencies
-        run: python -m pip install --quiet requests
-      - name: Mirror this lane
+      - name: Mirror what the vault is missing
         env:
           GH_TOKEN: ${{ secrets.AUDIO_VAULT_TOKEN }}
-          VAULT_REPO: ${{ inputs.repo }}
-          TAG: ${{ inputs.tag }}
-          TARGET: ${{ inputs.target }}
-          EPISODES: ${{ matrix.lane }}
-          COMMIT: ${{ inputs.commit }}
+          # 定时触发没有 inputs，一律取仓库里的默认值；空 tag 会被 --tag 至少要有一卷拒掉。
+          VAULT_REPO: ${{ inputs.repo || 'lzoreal/tmlt-audio-vault' }}
+          TAG: ${{ inputs.tag || 'audio-vault' }}
+          TARGET: ${{ inputs.target || 'audio' }}
+          EPISODES: ${{ inputs.episodes }}
+          # 定时波是真传：手工 run 才保留"默认冒烟"的保险。
+          COMMIT: ${{ github.event_name != 'workflow_dispatch' || inputs.commit }}
           OUT: ${{ runner.temp }}/vault
         run: |
           set -o pipefail
-          if [ -z "$EPISODES" ]; then
-            echo "空档，本档没分到集"
-            exit 0
-          fi
           if [ -z "$GH_TOKEN" ]; then
             echo "缺少 secrets.AUDIO_VAULT_TOKEN：需要一个只对保险库仓库有 Contents 写权限的 fine-grained token" >&2
             exit 1
           fi
-          ARGS=(release --out "$OUT" --repo "$VAULT_REPO" --tag "$TAG" --target "$TARGET" --episodes "$EPISODES")
+          # 不带 --episodes 就是"整本清单对一遍，只传保险库缺的"——增量的正解。
+          ARGS=(release --out "$OUT" --repo "$VAULT_REPO" --tag "$TAG" --target "$TARGET")
+          if [ -n "$EPISODES" ]; then
+            ARGS+=(--episodes "$EPISODES")
+          fi
           if [ "$COMMIT" != "true" ]; then
             ARGS+=(--no-push)
           fi
           python -X utf8 audio_backup.py "${ARGS[@]}"
-      - name: Upload lane index
+      - name: Upload release index
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
-          name: release-index-lane-${{ strategy.job-index }}
+          name: release-index
           path: ${{ runner.temp }}/vault/release-index.json
           if-no-files-found: ignore
           retention-days: 30
