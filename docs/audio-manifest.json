@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-01T00:01:10+00:00",
+  "generated": "2026-11-01T01:57:19+00:00",
   "episodes": [
     {
       "episode": 1,
@@ -731,6 +731,19 @@
       "sha256": "3deb90543c3d12e0d2f2fecfaad60251bc6b1fd4e5d8190a1ef83d874bc44bb3"
     },
     {
+      "episode": 57,
+      "file": "57.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/57/XB0LJ7bLI_L8uQ9iHLKul7IaZfrnlDlqmptdVZpKsFg/57.mp3",
+      "status": 200,
+      "size": 24908936,
+      "etag": "\"648b67b6-17c1488\"",
+      "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
       "episode": 58,
       "file": "58.mp3",
       "url": "https://www.thisamericanlife.org/sites/default/files/audio/58/5t87QSAPe35zyySmY1VrtxR4u3HJ7_drdr1OrcHh6cY/58.mp3",
@@ -952,6 +965,19 @@
       "sha256": "c02de0a6ef6e63dc712bf467f62c49b9a5c2cc5fab47ae12f8c17ebe14adef4a"
     },
     {
+      "episode": 75,
+      "file": "75.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/75.mp3",
+      "status": 200,
+      "size": 55187746,
+      "etag": "\"69a8874b-34a1922\"",
+      "last_modified": "Wed, 04 Mar 2026 19:26:03 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
       "episode": 76,
       "file": "76.mp3",
       "url": "https://www.thisamericanlife.org/sites/default/files/audio/76/uZtBo9z0dHMKv6h-c_OPES4YDnTJ3ec0hVRUuYhync0/76.mp3",
@@ -989,6 +1015,19 @@
       "audio_seconds": 3548.05,
       "plausible_master": true,
       "sha256": "3ff9276f358e68e8df78e55cacaa3e36e681400b2fee0ce3186ea541617f1224"
+    },
+    {
+      "episode": 79,
+      "file": "79.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/79/a4mPDiOWxE3rRPJkmf8K77zXT7mq9KL4Lo4QaRguSJI/79.mp3",
+      "status": 200,
+      "size": 24308120,
+      "etag": "\"648b67b6-172e998\"",
+      "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
     },
     {
       "episode": 80,
@@ -2391,6 +2430,19 @@
       "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
       "etag_size_matches": true,
       "audio_seconds": 3545.84,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
+      "episode": 188,
+      "file": "188.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/188/WFrvUIl9u8aRvHikmGLfTE327uWQqEm6J_p88XihU9A/188.mp3",
+      "status": 200,
+      "size": 53049444,
+      "etag": "\"64b84cf4-3297864\"",
+      "last_modified": "Wed, 19 Jul 2023 20:52:04 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
       "plausible_master": true,
       "sha256": null
     },
@@ -4813,6 +4865,19 @@
       "sha256": null
     },
     {
+      "episode": 375,
+      "file": "375.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/375/4lwNrUdtVvsPEKMc6D3sgr0lv7fuAMZ48wOL6kiai3E/375.mp3",
+      "status": 200,
+      "size": 55608287,
+      "etag": "\"648b67b6-35083df\"",
+      "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
       "episode": 376,
       "file": "376.mp3",
       "url": "https://www.thisamericanlife.org/sites/default/files/audio/376/3j1aiyz1q-0DR1lUIVRkYiFDbbEjoH7jRvkuW6DdsCc/376.mp3",
@@ -5307,6 +5372,19 @@
       "sha256": null
     },
     {
+      "episode": 414,
+      "file": "414.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/414/o5EqBihplGOlN5OrMqUy2OLsDnxkcoyQu-S29-RnJh8/414.mp3",
+      "status": 200,
+      "size": 55361593,
+      "etag": "\"69e008f1-34cc039\"",
+      "last_modified": "Wed, 15 Apr 2026 21:53:53 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
       "episode": 415,
       "file": "415.mp3",
       "url": "https://www.thisamericanlife.org/sites/default/files/audio/415/oJ1mJdCiKLvWGM4o5hHUHVDCVXi6UPtRG5Hy-8crMt0/415.mp3",
@@ -5333,6 +5411,32 @@
       "sha256": null
     },
     {
+      "episode": 417,
+      "file": "417.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/417/pTauTxEQ9tHa6V0rnH2BA6FnKXxDK2mkyf7Pl6pLWd0/417.mp3",
+      "status": 200,
+      "size": 55058559,
+      "etag": "\"69c465c8-348207f\"",
+      "last_modified": "Wed, 25 Mar 2026 22:46:32 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
+      "episode": 418,
+      "file": "418.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/418/k37XTy27mHfvN5OvxqfpT5kdpXBXl78cXpgqfq1Qg1c/418.mp3",
+      "status": 200,
+      "size": 55739395,
+      "etag": "\"69c2d24a-3528403\"",
+      "last_modified": "Tue, 24 Mar 2026 18:04:58 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
       "episode": 419,
       "file": "419.mp3",
       "url": "https://www.thisamericanlife.org/sites/default/files/audio/419/k2KSmQ6DZpGAZkw6EYSojJsR2O2gWqO21lAXFFAmYek/419.mp3",
@@ -5346,6 +5450,32 @@
       "sha256": null
     },
     {
+      "episode": 420,
+      "file": "420.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/420/XnFofh5k5R-B_87vwHWwK0Cb0pyRMty6GGx0RZ2-HPU/420.mp3",
+      "status": 200,
+      "size": 53342896,
+      "etag": "\"69bc7459-32df2b0\"",
+      "last_modified": "Thu, 19 Mar 2026 22:10:33 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
+      "episode": 421,
+      "file": "421.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/421/N_0ZuOOaDkOWuaasRAc3Klpn0AEmHFIdlp-aKjMNjAI/421.mp3",
+      "status": 200,
+      "size": 54847430,
+      "etag": "\"69a881df-344e7c6\"",
+      "last_modified": "Wed, 04 Mar 2026 19:02:55 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
       "episode": 422,
       "file": "422.mp3",
       "url": "https://www.thisamericanlife.org/sites/default/files/audio/422/y2OX8cXUZBz_5f8C6Rkv5pgNy_48sjofsFPIWY54su0/422.mp3",
@@ -5355,6 +5485,19 @@
       "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
       "etag_size_matches": true,
       "audio_seconds": 3469.68,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
+      "episode": 423,
+      "file": "423.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/423/lMMop2SpyHNlgBT3HLhP-kggqFTwym4klrRzXtKi1WI/423.mp3",
+      "status": 200,
+      "size": 53854553,
+      "etag": "\"69a0e0d8-335c159\"",
+      "last_modified": "Fri, 27 Feb 2026 00:10:00 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
       "plausible_master": true,
       "sha256": null
     },
@@ -5749,6 +5892,19 @@
       "sha256": null
     },
     {
+      "episode": 454,
+      "file": "454.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/454/m1pOLXpzZP1zsAp-CNg8-SjkO6we6N7GIJMI-Y9aAuc/454.mp3",
+      "status": 200,
+      "size": 242,
+      "etag": "\"648b67b6-f2\"",
+      "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": false,
+      "sha256": null
+    },
+    {
       "episode": 455,
       "file": "455.mp3",
       "url": "https://www.thisamericanlife.org/sites/default/files/audio/455/IVQGzPWL7ZBBLxf3jiqpW9Z23kATA2WTXZIthhqqR6k/455.mp3",
@@ -5888,6 +6044,19 @@
       "last_modified": "Thu, 27 Jul 2023 20:38:21 GMT",
       "etag_size_matches": true,
       "audio_seconds": 3559.89,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
+      "episode": 466,
+      "file": "466.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/466/bNwbLqTcApfUoWu2fWPzs_AzXtGehSyF2bkes0Bni70/466.mp3",
+      "status": 200,
+      "size": 58938052,
+      "etag": "\"648b67b6-38352c4\"",
+      "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
       "plausible_master": true,
       "sha256": null
     },
@@ -7686,6 +7855,19 @@
       "sha256": null
     },
     {
+      "episode": 605,
+      "file": "605.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/605.mp3",
+      "status": 200,
+      "size": 55770157,
+      "etag": "\"69a87044-352fc2d\"",
+      "last_modified": "Wed, 04 Mar 2026 17:47:48 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
       "episode": 606,
       "file": "606.mp3",
       "url": "https://www.thisamericanlife.org/sites/default/files/audio/606/Z7grfSN8Njmv0xKsXiJxMfIPhfazs4JZxqw7G8ARfts/606.mp3",
@@ -7968,6 +8150,19 @@
       "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
       "etag_size_matches": true,
       "audio_seconds": 3520.55,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
+      "episode": 628,
+      "file": "628.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/628.mp3",
+      "status": 200,
+      "size": 52157791,
+      "etag": "\"69bc46b9-31bdd5f\"",
+      "last_modified": "Thu, 19 Mar 2026 18:55:53 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
       "plausible_master": true,
       "sha256": null
     },
@@ -9506,6 +9701,19 @@
       "sha256": null
     },
     {
+      "episode": 747,
+      "file": "747.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/747/qBhMBycWyKI6EHT6j_DplHaLZx0W--bh57Bz3NizdPU/747.mp3",
+      "status": 200,
+      "size": 56686989,
+      "etag": "\"648b67b6-360f98d\"",
+      "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
       "episode": 748,
       "file": "748.mp3",
       "url": "https://www.thisamericanlife.org/sites/default/files/audio/748/0QYFhdKnLwPSFkevAQh3xdWaSUF3kg7WWWa8hD9Bq9U/748.mp3",
@@ -10494,6 +10702,19 @@
       "sha256": null
     },
     {
+      "episode": 824,
+      "file": "824.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/824/tgucbMVKDrwcKDR3fmDD7YWsOnYv1hnH7CKkQVNrKdU/824.mp3",
+      "status": 200,
+      "size": 54895018,
+      "etag": "\"65d984dc-345a1aa\"",
+      "last_modified": "Sat, 24 Feb 2024 05:55:40 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
       "episode": 825,
       "file": "825.mp3",
       "url": "https://www.thisamericanlife.org/sites/default/files/audio/825/b7TFyE3Z52phRm3UICpZS4goMGV9NDRIqEYLOrGx_9Y/825.mp3",
@@ -10975,6 +11196,19 @@
       "sha256": null
     },
     {
+      "episode": 862,
+      "file": "862.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/862.mp3",
+      "status": 200,
+      "size": 62485777,
+      "etag": "\"699733fd-3b97511\"",
+      "last_modified": "Thu, 19 Feb 2026 16:02:05 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
       "episode": 863,
       "file": "863.mp3",
       "url": "https://www.thisamericanlife.org/sites/default/files/audio/863/N8g4YyH1S-b64qam6uB32QEC3GFon1VByeG_6MV2ruI/863.mp3",
@@ -11205,6 +11439,71 @@
       "last_modified": "Sat, 31 Jan 2026 04:24:24 GMT",
       "etag_size_matches": true,
       "audio_seconds": 3443.8,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
+      "episode": 881,
+      "file": "881.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/881/V21beK3DC9a3zDLPXX0XYAWe9Os4EYIRsdHNfrf3qlw/881.mp3",
+      "status": 200,
+      "size": 56715636,
+      "etag": "\"69a0997b-3616974\"",
+      "last_modified": "Thu, 26 Feb 2026 19:05:31 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
+      "episode": 882,
+      "file": "882.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/882.mp3",
+      "status": 200,
+      "size": 57949985,
+      "etag": "\"69ab7e9b-3743f21\"",
+      "last_modified": "Sat, 07 Mar 2026 01:25:47 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
+      "episode": 883,
+      "file": "883.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/883.mp3",
+      "status": 200,
+      "size": 55002208,
+      "etag": "\"69bdb91c-3474460\"",
+      "last_modified": "Fri, 20 Mar 2026 21:16:12 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
+      "episode": 884,
+      "file": "884.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/884.mp3",
+      "status": 200,
+      "size": 55247801,
+      "etag": "\"69c6deb9-34b03b9\"",
+      "last_modified": "Fri, 27 Mar 2026 19:47:05 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
+      "plausible_master": true,
+      "sha256": null
+    },
+    {
+      "episode": 885,
+      "file": "885.mp3",
+      "url": "https://www.thisamericanlife.org/sites/default/files/audio/885/x657775Ycv5_4FmgkRX9l4hw3K8M7TUSUAxt-Ry4OHQ/885.mp3",
+      "status": 200,
+      "size": 57582614,
+      "etag": "\"69dd6a22-36ea416\"",
+      "last_modified": "Mon, 13 Apr 2026 22:11:46 GMT",
+      "etag_size_matches": true,
+      "audio_seconds": null,
       "plausible_master": true,
       "sha256": null
     },
