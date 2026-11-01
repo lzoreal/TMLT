@@ -47,6 +47,14 @@ AUDIO_MISMATCH_SECONDS = 3.0
 MAX_EARLY = 8.0
 MAX_LATE = 8.0
 
+# 跨段顺序：音频里后一句不能比前一句早太多。单句 plausibility 只约束句内，
+# 无词邻句又会退回估计值，局部锚错（重复内容、片尾、歌词）因此能整集漏过
+# （实测 #641 回跳 134 秒、#450 113 秒、#192 无词句晚 225 秒）。
+# 超过这些量级不能标 complete；无词段 start 还要夹在前后实测词之间。
+MAX_ORDER_BACK = 20.0
+MAX_ORDER_OVERLAP = 20.0
+MAX_ORDER_DRIFT = 20.0
+
 # 官网 end 是合成的：标签 cue 能虚报几十秒，片尾字幕又会短于真实语音。
 # 末句窗口按文本长度估算语音时长，并额外留出尾量，避免截尾或超长窗口。
 NOMINAL_CHARS_PER_SECOND = 15.0
@@ -1210,6 +1218,220 @@ def normalize_leading_words(words, previous_end_ms):
     return fixed
 
 
+def _word_positions(segments):
+    return [index for index, segment in enumerate(segments) if segment["words"]]
+
+
+def _clamp_silent_segments(segments, audio_ms=None):
+    """无词段的 start 只是估计：夹在前后最近有词段的实测边界之间。
+
+    相邻段本身也可能被错误 shift 拉走（#192/#206 的邻居正是无词段），
+    所以上下界必须找最近的有词段，而不是相邻 segment.start。
+    """
+
+    word_at = _word_positions(segments)
+    position = 0
+    previous_end = None
+    for index, segment in enumerate(segments):
+        if segment["words"]:
+            if segment.get("end") is not None:
+                previous_end = segment["end"]
+            if position < len(word_at) and word_at[position] == index:
+                position += 1
+            continue
+        next_start = (segments[word_at[position]]["words"][0][1]
+                      if position < len(word_at) else None)
+        start = segment["start"]
+        lower = previous_end if previous_end is not None else 0
+        drift = MAX_ORDER_DRIFT * 1000
+        # 只修明显越界的估计；句界处重叠几秒的无词段保持原位，不动正常集。
+        if next_start is not None and start - next_start > drift:
+            start = next_start          # 晚于后句：贴后句，优先消除回跳
+        elif start < lower - drift and (next_start is None or next_start >= lower):
+            start = lower               # 早于前句且区间有效：贴前句
+        if audio_ms:
+            start = min(start, int(audio_ms))
+        segment["start"] = max(0, int(start))
+
+
+def order_violations(segments, cues, audio_ms=None):
+    """跨段顺序体检，返回 [(kind, index, seconds)]；空表示可交付。
+
+    单句 plausibility 管不到这里：后句无词时约束会退回估计值，局部锚错
+    （重复内容/片尾/歌词）仍可能写进 sidecar。播放器按 start 排序显示，
+    回跳就是用户可见的错误。
+    """
+
+    issues = []
+    if len(segments) != len(cues):
+        return [("segment-count", 0, float(abs(len(segments) - len(cues))))]
+
+    previous_start = None
+    for index, segment in enumerate(segments):
+        start = segment.get("start")
+        if start is None:
+            continue
+        if previous_start is not None and previous_start - start > MAX_ORDER_BACK * 1000:
+            issues.append(("start-back", index, (previous_start - start) / 1000))
+        previous_start = start
+
+    previous = None
+    for index, segment in enumerate(segments):
+        words = segment.get("words") or []
+        if not words:
+            continue
+        end = segment.get("end")
+        if end is None:
+            end = max(w[1] + w[2] for w in words)
+        if previous is not None:
+            back = (previous[1] - words[0][1]) / 1000
+            if back > MAX_ORDER_OVERLAP:
+                issues.append(("word-back", index, back))
+        previous = (index, end)
+
+    word_at = _word_positions(segments)
+    position = 0
+    previous_end = None
+    for index, segment in enumerate(segments):
+        if segment["words"]:
+            if segment.get("end") is not None:
+                previous_end = segment["end"]
+            if position < len(word_at) and word_at[position] == index:
+                position += 1
+            continue
+        next_start = (segments[word_at[position]]["words"][0][1]
+                      if position < len(word_at) else None)
+        start = segment["start"]
+        if previous_end is not None and previous_end - start > MAX_ORDER_DRIFT * 1000:
+            issues.append(("silent-before", index, (previous_end - start) / 1000))
+        if next_start is not None and start - next_start > MAX_ORDER_DRIFT * 1000:
+            issues.append(("silent-after", index, (start - next_start) / 1000))
+    return issues
+
+
+def _drop_words(segment):
+    segment["words"] = []
+    segment["end"] = None
+
+
+def _head_deviation(segments, cues):
+    heads = {}
+    for index, segment in enumerate(segments):
+        words = segment.get("words") or []
+        if words and index < len(cues):
+            heads[index] = (words[0][1] - cues[index]["start"] * 1000) / 1000
+    if not heads:
+        return heads, 0.0
+    return heads, percentile(list(heads.values()), 0.5)
+
+
+def _previous_word_index(segments, index):
+    for k in range(index - 1, -1, -1):
+        if segments[k]["words"]:
+            return k
+    return None
+
+
+def _next_word_index(segments, index):
+    for k in range(index + 1, len(segments)):
+        if segments[k]["words"]:
+            return k
+    return None
+
+
+def repair_segment_order(segments, cues, audio_ms=None):
+    """夹取无词段，并丢弃跨段回跳里偏离 cue 更远的一侧；返回丢弃段数。
+
+    顺序既是显示顺序也是播放顺序：回跳两侧只有一侧是局部锚错，保留更接近
+    本集常见 head 的一侧。被丢的段落回退句级 VTT（消费方既有路径），不写
+    错位的逐词；无词段没有词可丢，改夹到前后实测边界之间。
+    """
+
+    discarded = 0
+    _clamp_silent_segments(segments, audio_ms)
+    for _ in range(64):
+        heads, median = _head_deviation(segments, cues)
+        drift = MAX_ORDER_DRIFT * 1000
+        changed = False
+
+        # 1) 有词段回跳：丢偏离本集常见 head 更远的一侧。
+        previous = None
+        for index, segment in enumerate(segments):
+            words = segment.get("words") or []
+            if not words:
+                continue
+            end = segment.get("end")
+            if end is None:
+                end = max(w[1] + w[2] for w in words)
+            if previous is not None:
+                prev_index, prev_end = previous
+                if (prev_end - words[0][1]) / 1000 > MAX_ORDER_OVERLAP:
+                    prev_dev = abs(heads.get(prev_index, 0.0) - median)
+                    cur_dev = abs(heads.get(index, 0.0) - median)
+                    victim = prev_index if prev_dev >= cur_dev else index
+                    _drop_words(segments[victim])
+                    discarded += 1
+                    changed = True
+                    break
+            previous = (index, end)
+        if changed:
+            _clamp_silent_segments(segments, audio_ms)
+            continue
+
+        # 2) 无词段早于前句：区间有效就贴前句；前后有词段真冲突则丢前一段。
+        for kind, index, _ in order_violations(segments, cues, audio_ms):
+            if kind != "silent-before":
+                continue
+            prev_index = _previous_word_index(segments, index)
+            if prev_index is None:
+                break
+            prev_end = segments[prev_index]["end"] or 0
+            next_index = _next_word_index(segments, index)
+            next_start = (segments[next_index]["words"][0][1]
+                          if next_index is not None else None)
+            if next_start is None or next_start >= prev_end:
+                segments[index]["start"] = int(prev_end)
+            else:
+                _drop_words(segments[prev_index])
+                discarded += 1
+            changed = True
+            break
+        if changed:
+            _clamp_silent_segments(segments, audio_ms)
+            continue
+
+        # 3) 段起点倒退：有词段能夹就夹，夹不下就丢词。
+        previous_start = None
+        for index, segment in enumerate(segments):
+            start = segment.get("start")
+            if start is None:
+                continue
+            if previous_start is not None and previous_start - start > MAX_ORDER_BACK * 1000:
+                words = segment.get("words") or []
+                first = words[0][1] if words else None
+                if first is None:
+                    prev_index = _previous_word_index(segments, index)
+                    if (prev_index is not None
+                            and (segments[prev_index]["end"] or 0) > start + drift):
+                        _drop_words(segments[prev_index])
+                        discarded += 1
+                    else:
+                        segment["start"] = int(previous_start)
+                elif previous_start > first:
+                    _drop_words(segment)
+                    discarded += 1
+                else:
+                    segment["start"] = int(previous_start)
+                changed = True
+                break
+            previous_start = start
+        if changed:
+            _clamp_silent_segments(segments, audio_ms)
+            continue
+        break
+    return discarded
+
+
 def build_segments(cues, results, shifts=None, audio_ms=None):
     """返回 (segments, dropped)；dropped 只统计有词但被判定不可信的 cue。
 
@@ -1263,19 +1485,10 @@ def build_segments(cues, results, shifts=None, audio_ms=None):
             }
         )
 
-    # 无词占位段（舞台提示、被丢句）的 start 只是估计值：夹在前一段起点与下一段
-    # 起点之间，否则一个野平移会让时间轴倒退几十秒或跳到片尾之后（实测 #145/#164）。
-    previous = 0
-    for index, segment in enumerate(segments):
-        if not segment["words"]:
-            start = max(segment["start"], previous)
-            if index + 1 < len(segments):
-                upper = segments[index + 1]["start"]
-                if upper >= previous:
-                    start = min(start, upper)
-            segment["start"] = start
-        previous = segment["start"]
-    return segments, dropped
+    # 无词占位段（舞台提示、被丢句）的 start 只是估计值：夹在前后最近有词段之间，
+    # 并清理跨段回跳。只看相邻段的旧做法会被相邻无词段一起带跑（#192/#206）。
+    discarded = repair_segment_order(segments, cues, audio_ms)
+    return segments, dropped + discarded
 
 
 def write_document(path, episode, audio_seconds, segments, attempts,
@@ -1709,10 +1922,17 @@ def run_episode(model, session, source, args, workdir, tag=""):
     failures = sum(
         1 for c in cues if not BRACKET.match(c["text"]) and c["i"] not in results
     )
+    # 跨段顺序是最后一道门：单句 plausibility 放过局部锚错时，这里不给 complete。
+    order_bad = order_violations(segments, cues, int(audio_seconds * 1000))
+    if order_bad:
+        summary = ", ".join(f"{kind}#{index} {amount:.0f}s"
+                            for kind, index, amount in order_bad[:6])
+        log(f"{tag}#{episode} 跨段顺序仍违规 {len(order_bad)} 处：{summary}；不标 complete")
     complete = (
         speech_total > 0
         and dropped <= 0.10 * len(results)
         and failures <= 0.10 * speech_total
+        and not order_bad
     )
     write_document(out_path, episode, audio_seconds, segments, attempts, complete)
 
