@@ -11741,6 +11741,11 @@ url="https://www.thisamericanlife.org/sites/default/files/audio/497/pieEyNneP53z
 type="audio/mpeg"/>
 
 
+<podcast:transcript
+url="https://lzoreal.github.io/TMLT/transcripts/497.vtt"
+type="text/vtt"
+language="en"/>
+
 </item>
 
 
@@ -12809,6 +12814,11 @@ url="https://www.thisamericanlife.org/sites/default/files/audio/460/uIoXkBMTqaK4
 type="audio/mpeg"/>
 
 
+<podcast:transcript
+url="https://lzoreal.github.io/TMLT/transcripts/460.vtt"
+type="text/vtt"
+language="en"/>
+
 </item>
 
 
@@ -12974,9 +12984,14 @@ language="en"/>
 <pubDate>Fri, 06 Jan 2012 00:00:00 -0500</pubDate>
 
 <enclosure
-url="https://www.thisamericanlife.org/sites/default/files/audio/454/m1pOLXpzZP1zsAp-CNg8-SjkO6we6N7GIJMI-Y9aAuc/454.mp3"
+url="https://lzoreal.github.io/TMLT/audio/454.mp3"
 type="audio/mpeg"/>
 
+
+<podcast:transcript
+url="https://lzoreal.github.io/TMLT/transcripts/454.vtt"
+type="text/vtt"
+language="en"/>
 
 </item>
 
@@ -15263,6 +15278,11 @@ language="en"/>
 url="https://www.thisamericanlife.org/sites/default/files/audio/375/4lwNrUdtVvsPEKMc6D3sgr0lv7fuAMZ48wOL6kiai3E/375.mp3"
 type="audio/mpeg"/>
 
+
+<podcast:transcript
+url="https://lzoreal.github.io/TMLT/transcripts/375.vtt"
+type="text/vtt"
+language="en"/>
 
 </item>
 
@@ -23640,6 +23660,11 @@ url="https://www.thisamericanlife.org/sites/default/files/audio/86/Ti60NcyxJhtlk
 type="audio/mpeg"/>
 
 
+<podcast:transcript
+url="https://lzoreal.github.io/TMLT/transcripts/86.vtt"
+type="text/vtt"
+language="en"/>
+
 </item>
 
 
@@ -23837,6 +23862,11 @@ language="en"/>
 url="https://www.thisamericanlife.org/sites/default/files/audio/79/a4mPDiOWxE3rRPJkmf8K77zXT7mq9KL4Lo4QaRguSJI/79.mp3"
 type="audio/mpeg"/>
 
+
+<podcast:transcript
+url="https://lzoreal.github.io/TMLT/transcripts/79.vtt"
+type="text/vtt"
+language="en"/>
 
 </item>
 
@@ -24470,6 +24500,11 @@ language="en"/>
 url="https://www.thisamericanlife.org/sites/default/files/audio/57/XB0LJ7bLI_L8uQ9iHLKul7IaZfrnlDlqmptdVZpKsFg/57.mp3"
 type="audio/mpeg"/>
 
+
+<podcast:transcript
+url="https://lzoreal.github.io/TMLT/transcripts/57.vtt"
+type="text/vtt"
+language="en"/>
 
 </item>
 
