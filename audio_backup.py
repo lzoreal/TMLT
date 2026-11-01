@@ -49,6 +49,13 @@ HEAD_TIMEOUT = 30
 READ_TIMEOUT = 120
 CHUNK = 1 << 16
 
+# 下载时的瞬时判定比 HEAD 时宽：清单已经说过这个 URL 有 N 字节，取的时候突然
+# 403/404 是自相矛盾的抖动，不是"这集没了"。全量波里第 192 集就是这样 404，
+# 单独重派立刻 200 且字节与本机一致。
+DOWNLOAD_RETRIES = 4
+DOWNLOAD_BACKOFF_SECONDS = 10
+TRANSIENT_DOWNLOAD_STATUSES = frozenset({403, 404, 408, 429, 500, 502, 503, 504})
+
 ITEM_RE = re.compile(r"<item>(.*?)</item>", re.S)
 # 集数只认 <title>：archive 形态带 Drupal 的重复上传后缀（513_0.mp3），
 # 从 URL 尾数反推会把这类集数读错。
@@ -370,20 +377,33 @@ def scan_local(directory):
     return present
 
 
-def download(session, probe, target):
-    """先落 .part 再改名：中途断了不会留下半个伪成品。"""
+def download(session, probe, target, wait=time.sleep):
+    """先落 .part 再改名：中途断了不会留下半个伪成品；瞬时错误退避重试。
+    失败抛出时 .part 还没被打开，所以盘上不会多出看起来完整的文件。"""
     part = target.with_suffix(".mp3.part")
-    digest = hashlib.sha256()
-    written = 0
-    with session.get(probe.url, timeout=READ_TIMEOUT, stream=True) as response:
-        response.raise_for_status()
-        with part.open("wb") as handle:
-            for chunk in response.iter_content(CHUNK):
-                handle.write(chunk)
-                digest.update(chunk)
-                written += len(chunk)
-    part.rename(target)
-    return written, digest.hexdigest()
+    for attempt in range(DOWNLOAD_RETRIES):
+        try:
+            with session.get(probe.url, timeout=READ_TIMEOUT, stream=True) as response:
+                response.raise_for_status()
+                digest = hashlib.sha256()
+                written = 0
+                with part.open("wb") as handle:
+                    for chunk in response.iter_content(CHUNK):
+                        handle.write(chunk)
+                        digest.update(chunk)
+                        written += len(chunk)
+            part.rename(target)
+            return written, digest.hexdigest()
+        except requests.HTTPError as exc:
+            status = exc.response.status_code if exc.response is not None else None
+            last_try = attempt == DOWNLOAD_RETRIES - 1
+            if last_try or status not in TRANSIENT_DOWNLOAD_STATUSES:
+                raise
+            wait(DOWNLOAD_BACKOFF_SECONDS * (attempt + 1))
+        except requests.RequestException:
+            if attempt == DOWNLOAD_RETRIES - 1:
+                raise
+            wait(DOWNLOAD_BACKOFF_SECONDS * (attempt + 1))
 
 
 def backup_command(args):

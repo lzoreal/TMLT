@@ -9,6 +9,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
+import requests
+
 import audio_backup as ab
 
 
@@ -291,6 +293,92 @@ class BalanceTest(unittest.TestCase):
         items = [(n, n * 7) for n in range(1, 31)]
         lanes = ab.balance(items, 6)
         self.assertEqual(sorted(e for lane in lanes for e in lane), [n for n, _ in items])
+
+
+class DownloadRetryTest(unittest.TestCase):
+    """全量波里第 192 集：清单说有 55,607,339 字节，runner 拿到 404，
+    单独重派立刻 200。自相矛盾的 404 必须重试，不能一抖就判死整档。"""
+
+    class Response:
+        def __init__(self, body, status_code=200):
+            self.body, self.status_code = body, status_code
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            return False
+
+        def raise_for_status(self):
+            if self.status_code != 200:
+                raise requests.HTTPError(
+                    f"{self.status_code} error", response=self
+                )
+
+        def iter_content(self, size):
+            for start in range(0, len(self.body), size):
+                yield self.body[start:start + size]
+
+    class Session:
+        def __init__(self, outcomes):
+            self.outcomes = list(outcomes)
+            self.calls = 0
+
+        def get(self, url, timeout=None, stream=True):
+            self.calls += 1
+            outcome = self.outcomes.pop(0)
+            if isinstance(outcome, Exception):
+                raise outcome
+            return outcome
+
+    def setUp(self):
+        self.delays = []
+        self.workdir = tempfile.TemporaryDirectory()
+        self.addCleanup(self.workdir.cleanup)
+        self.target = Path(self.workdir.name) / "192.mp3"
+
+    def probe(self, size):
+        return ab.Probe(192, "https://example/192.mp3", 200, size, None, None)
+
+    def test_a_lone_404_retries_and_lands_the_bytes(self):
+        body = b"x" * 5000
+        session = self.Session([
+            self.Response(body, status_code=404),
+            self.Response(body),
+        ])
+        written, digest = ab.download(session, self.probe(len(body)), self.target,
+                                      wait=self.delays.append)
+        self.assertEqual(written, len(body))
+        self.assertEqual(digest, hashlib.sha256(body).hexdigest())
+        self.assertEqual(session.calls, 2)
+        self.assertEqual(len(self.delays), 1)
+
+    def test_a_connection_drop_also_retries(self):
+        body = b"y" * 4096
+        session = self.Session([requests.ConnectionError("boom"), self.Response(body)])
+        written, _ = ab.download(session, self.probe(len(body)), self.target,
+                                 wait=self.delays.append)
+        self.assertEqual(written, len(body))
+        self.assertEqual(session.calls, 2)
+
+    def test_a_persistent_404_gives_up_after_the_budget(self):
+        session = self.Session([self.Response(b"", status_code=404)] * ab.DOWNLOAD_RETRIES)
+        with self.assertRaises(requests.HTTPError):
+            ab.download(session, self.probe(1000), self.target, wait=self.delays.append)
+        self.assertEqual(session.calls, ab.DOWNLOAD_RETRIES)
+
+    def test_giving_up_leaves_no_fake_finished_file(self):
+        session = self.Session([self.Response(b"", status_code=404)] * ab.DOWNLOAD_RETRIES)
+        with self.assertRaises(requests.HTTPError):
+            ab.download(session, self.probe(1000), self.target, wait=self.delays.append)
+        self.assertFalse(self.target.exists())
+
+    def test_the_backoff_grows_instead_of_hammering(self):
+        session = self.Session([self.Response(b"", status_code=503)] * ab.DOWNLOAD_RETRIES)
+        with self.assertRaises(requests.HTTPError):
+            ab.download(session, self.probe(1000), self.target, wait=self.delays.append)
+        self.assertEqual(self.delays, sorted(self.delays))
+        self.assertGreater(self.delays[-1], self.delays[0])
 
 
 class PadLanesTest(unittest.TestCase):
