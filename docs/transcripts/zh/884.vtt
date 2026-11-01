@@ -1,0 +1,1137 @@
+WEBVTT
+
+00:00:11.930 --> 00:00:16.380
+<v Ira Glass>From WBEZ Chicago, it's This American Life. I'm Ira Glass. And I am joined in the studio by M. Gessen.
+<v Ira Glass>来自芝加哥WBEZ电台，这里是《此生美国》。我是艾拉·格拉斯。和我一起在录音室里的是玛莎·盖森。
+
+00:00:16.380 --> 00:00:16.960
+<v Ira Glass>Hello.
+<v Ira Glass>接下来事情发生了。那件事，一颗在我家族中间爆炸的炸弹。
+
+00:00:16.960 --> 00:00:17.700
+<v M. Gessen>Hi, Ira.
+<v M. Gessen>嗨，艾拉。
+
+00:00:17.700 --> 00:00:19.220
+<v Ira Glass>It's so nice to have you back here.
+<v Ira Glass>很高兴你能回到这里。
+
+00:00:19.220 --> 00:00:20.760
+<v M. Gessen>It's always lovely to be here.
+<v M. Gessen>能来到这里总是很开心。
+
+00:00:20.760 --> 00:00:27.160
+<v Ira Glass>And the story that you're about to tell today is one that you've been telling for years?
+<v Ira Glass>你今天要讲的故事，是已经讲了好几年的故事吗？
+
+00:00:27.160 --> 00:00:38.920
+<v M. Gessen>Yeah. First it was just, there was something weird going on in my family, but also insane ways that my family talks about these crazy events.
+<v M. Gessen>对。起初只是觉得我家里发生了一些怪事，而且我家人谈论这些疯狂事件的方式也极其荒唐。
+
+00:00:38.920 --> 00:00:50.480
+<v Ira Glass>And is this story a story that when you would tell it to friends and loved ones, was it a funny story?
+<v Ira Glass>当你把这个故事讲给朋友和亲人听时，这是一个好笑的故事吗？
+
+00:00:50.480 --> 00:01:09.840
+<v M. Gessen>I hesitate to say that it was a funny story, but yes. Yes, Ira, it was a funny story. And I mean, maybe that's also just the only way that we can deal with things that are unbelievable. It wasn't until I started reporting it that I realized how horrible the story actually was.
+<v M. Gessen>我很难说这是一个好笑的故事，但确实是。是的，艾拉，这是一个好笑的故事。我的意思是，也许这也是我们应对那些难以置信的事情的唯一方式。直到我开始对此进行深度报道，我才意识到这个故事实际上有多么可怕。
+
+00:01:09.840 --> 00:01:25.740
+<v Ira Glass>And when you started to report it-- this was years ago-- originally this was going to be a story for This American Life. And then at some point it just got too big. Like, it was like, we cannot contain this in one episode of our show. And you turned it into this podcast with Serial.
+<v Ira Glass>当你开始报道它时——这已经是多年前的事了——最初这本该是《此生美国》的一个故事。但后来在某个时候，它变得太庞大了。就像是，我们无法把它塞进节目的单集里。于是你把它做成了《Serial》的播客。
+
+00:01:25.740 --> 00:01:26.440
+<v M. Gessen>Yes.
+<v M. Gessen>是的。
+
+00:01:26.440 --> 00:01:54.240
+<v Ira Glass>And it's now a five-part series with Serial that was released this week. And you've been doing read throughs of drafts as you've been writing drafts that I've sat in on. And I just want to say, I just, I love this show and feel like this show is so different from other podcasts that I have heard in a bunch of interesting ways. And what we're going to do today on our program is we're going to walk through enough of the story so that listeners here can hear what I'm hearing in it. And then if they want, they can go and listen to the whole thing.
+<v Ira Glass>现在这是《Serial》推出的一部五集系列节目，在本周刚刚发布。在你写稿子的过程中，我也一直在读你写好的初稿。我想说，我真的很喜欢这个节目，我觉得它在很多有趣方面都与我听过的其他播客大不相同。我们今天在节目里要做的是，梳理出足够多的故事内容，让这里的听众能听到我在其中听到的一切。然后如果他们愿意，可以去听完整的节目。
+
+00:01:54.240 --> 00:02:08.580
+<v Ira Glass>From WBEZ Chicago, it's This American Life, I'm Ira Glass. That's going to be our show today, and we're going to begin by playing the first episode of the series, which is almost like a prologue and sets the whole thing up. Is there anything else that we should say before we play that?
+<v Ira Glass>来自芝加哥WBEZ电台，这里是《此生美国》，我是艾拉·格拉斯。这就是我们今天的节目，我们将从播放该系列的第一集开始，它几乎就像是一个序幕，为整个故事奠定了基调。在我们播放之前，还有什么需要补充的吗？
+
+00:02:08.580 --> 00:02:10.800
+<v M. Gessen>No, I think we can jump in.
+<v M. Gessen>没有，我觉得我们可以直接开始了。
+
+00:02:10.800 --> 00:02:14.120
+<v Ira Glass>OK, let's just jump right in with that.
+<v Ira Glass>好的，那我们就直接切入正题吧。
+
+00:02:14.120 --> 00:02:42.600
+<v M. Gessen>My family, if I had to give it an adjective, is elastic. 45 years ago, my parents, my little brother, and I came over to this country from the Soviet Union, extending the family across continents. Over the decades, the family, my father really, stretched to absorb spouses, in-laws, even though they spoke a different language, children, both biological and adopted. Ex-spouses who chose to stick around, and eventually grandchildren.
+<v M. Gessen>我的家庭，如果要用一个形容词来概括，那就是极具弹性。45年前，我的父母、我的小弟弟和我从苏联来到这个国家，将家族的枝叶延伸到了跨越大陆的地方。几十年间，这个家庭——准确地说是我的父亲——不断扩展以接纳新成员：配偶、姻亲（尽管他们说着不同的语言）、亲生及收养的孩子、选择留下来并最终成为家属的前配偶，以及后来的孙辈们。
+
+00:02:42.600 --> 00:03:01.440
+<v M. Gessen>Over those same decades, as in any family, people made bad decisions, said things they hoped no one would remember, got mad at each other, held grudges, came around, and the family stretched as needed. And then it snapped. Someone did something that bad, that shocking.
+<v M. Gessen>在同样的几十年里，就像任何家庭一样，人们做过糟糕的决定，说过希望谁也不要记住的话，对彼此发过火、记过仇、最终又和好如初，这个家庭总能在需要时做出调整。然后，它突然断裂了。有人做出了一件极其恶劣、极其令人震惊的事。
+
+00:03:01.440 --> 00:03:31.240
+<v M. Gessen>That person was my cousin, Allen. He and his mother, my father's sister, Lenna, came to the US from Moscow in 1990, when Allen was 15. They stayed with my parents and brother for almost a year. By the time they arrived, I no longer lived at home, so I didn't have much of a relationship with them. I never really wanted to because I didn't like my aunt. And as Allen grew up, I realized even from a distance that I didn't particularly like him either.
+<v M. Gessen>这个人就是我的堂弟阿伦。1990年，阿伦15岁时，他和他的母亲——也就是我父亲的妹妹列娜——从莫斯科来到美国。他们在我的父母和弟弟家住了将近一年。他们到达时，我已经不在家住了，所以我跟他们的关系并不深。我其实一直不想跟他们亲近，因为我讨厌我的姑姑。随着阿伦渐渐长大，即使保持着距离，我也发现自己特别讨厌他。
+
+00:03:31.240 --> 00:03:51.680
+<v M. Gessen>Allen is a clown, a blowhard, a pompous ass. He would call himself an entrepreneur. He started his first business in college. He hired students to ghostwrite papers for other, wealthier students. He went to law school and got fired from his first job. He later told me this was because his fine legal mind made the other lawyers insecure.
+<v M. Gessen>阿伦是个小丑、吹牛大王、自命不凡的蠢货。他会自称为企业家。他在读大学时创办了第一家公司，雇佣学生为其他更富有的学生代写论文。他读了法学院，结果在第一份工作时就被解雇了。他后来告诉我，这是因为他高超的法律头脑让其他律师感到了不安全。
+
+00:03:51.680 --> 00:04:09.920
+<v M. Gessen>Then he lived in Russia, Ukraine, Zimbabwe, working a series of increasingly shady jobs. In Africa, he was involved with diamonds and worked with an Israeli company that provided security for mining. If someone had set out to write an unlikeable international huckster character, they couldn't have laid it on any thicker.
+<v M. Gessen>后来他住在俄罗斯、乌克兰、津巴布韦，做着一份又一份越来越可疑的工作。在非洲，他涉足钻石业务，并为一家为采矿提供安保的以色列公司工作。如果有人故意要写一个讨人厌的国际骗子角色，也绝对无法把他写得更让人讨厌了。
+
+00:04:09.920 --> 00:04:34.600
+<v M. Gessen>Allen married a Zimbabwean woman. Word in the family was that she had been that country's beauty queen. They had two kids. Last I knew, all of them, including my aunt Lenna, were living in Moscow. And then in the summer of 2019, everyone on the American side of the family got a Facebook message from Allen, informing us that he had arrived in the US with his five-year-old son, who I'm going to call O.
+<v M. Gessen>所以，我不知道该怎么说，但确实有一种更便宜、可能也更彻底的方法来解决这事，不过——
+
+00:04:34.600 --> 00:05:00.600
+<v M. Gessen>Allen wrote they'd come for O to quote, "commence his studies." I repeat, O was five. His wife, he wrote, was still in Russia with their baby daughter. They had separated. Allen added ominously, quote, "things are less than amicable. She might make attempts to contact you with requests detrimental to mine and O's interests," unquote.
+<v M. Gessen>阿伦写道，他们来是为了让O“开始他的学业”。我重申一遍，O当时五岁。他写道，他的妻子和他们的女儿仍留在俄罗斯。他们分居了。阿伦不祥地补充道：“情况不太友好。她可能会试图联系你们，提出损害我和O利益的要求。”
+
+00:05:00.600 --> 00:05:21.960
+<v M. Gessen>I immediately texted my brother Keith, who was closer to Allen. So our cousin has kidnapped his son and abandoned his daughter? "The answer would appear to be maybe," my brother responded. Just a note, this isn't the big shocking thing I was talking about earlier. We're still a few years away from that.
+<v M. Gessen>我立刻给跟我关系更近的弟弟基思发了短信。所以我们的堂弟绑架了他的儿子，抛弃了女儿？“答案似乎是‘有可能’，”我弟弟回复道。顺便说明一下，这还不是我刚才说的那个极其震惊的大事件。离那件事我们还有好几年。
+
+00:05:21.960 --> 00:05:56.480
+<v M. Gessen>I called my dad. He told me that Allen had just shown up at his house on Cape Cod without warning. His five-year-old son was with him, as was Lenna, my dad's sister. I asked my dad if we should do something about the maybe kidnapping. Like, I don't know, contact the FBI? This was the wrong thing to say to a guy who grew up in the Soviet Union. He would never call the authorities on his sister and nephew. What he did do was post a picture of O on Facebook, perhaps a message in a bottle for O's mom. Sure enough, my father immediately heard from her.
+<v M. Gessen>我给爸爸打了电话。他告诉我，阿伦毫无预兆地突然出现在他位于科德角的房子里。他五岁的儿子和他在一起，列娜——我爸爸的妹妹——也在一起。我问爸爸，我们是不是该对这起“可能发生的绑架”做点什么？比如说，联系联邦调查局什么的？对一个在苏联长大的人说这话，可就大错特错了。他绝不可能为了自己的妹妹和侄子去报警。他实际做的是在脸书上发布了一张O的照片，这或许就像是给O的妈妈发出的一封漂流瓶信件。果不其然，我父亲立刻收到了她的回复。
+
+00:05:56.480 --> 00:06:14.600
+<v M. Gessen>Her name is Priscilla. Priscilla wrote to my dad describing the ordeal she was enduring. She said she had gone on a short business trip to Zimbabwe, and when she returned, she discovered that Allen had left with their son. It had been about a week, and only now from seeing my father's Facebook post, was she learning anything more.
+<v M. Gessen>她的名字叫普莉希拉。普莉希拉写信给我的父亲，描述了她正在经受的折磨。她说自己去津巴布韦出了一趟短差，等她回来时，发现阿伦已经带着他们的儿子离开了。大约已经过去了一个星期，直到现在看到我父亲在脸书上发的照片，她才得知了更多消息。
+
+00:06:14.600 --> 00:06:26.640
+<v M. Gessen>Priscilla wrote, "I beg you, please to help me get my son back, or to at least speak to him. Please do not tell them I have written to you. If you are unable to help me, then just ignore my message."
+<v M. Gessen>普莉希拉写道：“我求求你，请帮我把儿子找回来，或者至少让我跟他通个电话。请不要告诉他们我给你写了信。如果你帮不上忙，那就请无视我的信息。”
+
+00:06:26.640 --> 00:06:31.920
+<v Alex>I received a long, long letter from Priscilla, but I just ignored it.
+<v Alex>我收到了普莉希拉写的好长好长的信，但我直接无视了。
+
+00:06:31.920 --> 00:06:34.400
+<v M. Gessen>My father can be quite literal.
+<v M. Gessen>我父亲这个人有时非常死板。
+
+00:06:34.400 --> 00:06:40.960
+<v M. Gessen>So what did you think was going on then? Did you think she was lying or--
+<v M. Gessen>那你当时觉得是怎么回事？你觉得她在撒谎还是——
+
+00:06:40.960 --> 00:06:52.520
+<v Alex>Honestly, I didn't pay much attention. I don't know. No. I understood that something was wrong with their marriage. But beyond that, no.
+<v Alex>老实说，我没太在意。我不知道。没有。我理解他们的婚姻出了问题。但除此之外，没有了。
+
+00:06:52.520 --> 00:07:12.520
+<v M. Gessen>Like I said, my family's elastic. To keep it that way, my father preferred not to know too much. And it wasn't just him. My three younger brothers, their partners, my own grown son, assorted friends of my father's, everyone acted like, hey, sometimes men and their mothers just change continents with a five-year-old in tow.
+<v M. Gessen>就像我说的，我的家庭很有弹性。为了保持这种状态，我父亲选择知道得越少越好。不只是他，我的三个弟弟、他们的伴侣、我成年不久的儿子，以及我父亲的各种朋友，每个人都表现得好像——嘿，有时男人和他们的母亲带着一个五岁小孩换个大陆生活不是很正常吗？
+
+00:07:12.520 --> 00:07:34.800
+<v M. Gessen>And here's the thing. They were fun. My father loves having family around. The whole reason he lives in a big house on Cape Cod is so that his four kids and five grandkids gather around him. But the house has seen better days. And all the kids and some of the grandkids have busy lives. Allen and Lenna and O's arrival on the scene breathed new life into the house and the family.
+<v M. Gessen>关键是，他们很有趣。我父亲喜欢家里热热闹闹的。他住在科德角大房子的全部原因，就是为了让四个孩子和五个孙辈聚在自己身边。但这栋房子已经风光不再。所有的孩子和部分孙辈都有着忙碌的生活。阿伦、列娜和O的到来，为这栋房子和这个家庭注入了新的活力。
+
+00:07:34.800 --> 00:07:50.320
+<v M. Gessen>Lenna would come up with ridiculous activities like let's write the Gessen family anthem, and was always taking black and white pictures that made us all look like more stylish versions of ourselves. Allen was always driving up in his Tesla with new gadgets and tales of new business ventures.
+<v M. Gessen>列娜会想出一些荒谬的活动，比如让我们写一首盖森家族的颂歌，她还总是拍一些黑白照片，让我们看起来都成了自己更具时尚感的版本。阿伦则总是开着他的特斯拉带着新奇的小玩意和新的商业风投故事驶来。
+
+00:07:50.320 --> 00:08:11.360
+<v M. Gessen>I found him ridiculous, but my youngest brothers and my oldest son hung on every word. Allen would sit on the couch with these very young men and scroll through pictures of women on Tinder. They all looked like models. Allen was bald as a billiard ball and had a giant protruding belly. He claimed that he had matched with all of those women.
+<v M. Gessen>我觉得他荒谬透顶，但我最小的弟弟和大儿子却对他的每一句话深信不疑。阿伦会和这些非常年轻的小伙子们一起坐在沙发上，滑动着查看Tinder上的女性照片。她们看起来都像模特。阿伦秃得像个台球，还挺着个巨大的肚子。他声称自己和所有这些女性都配对成功了。
+
+00:08:11.360 --> 00:08:27.320
+<v M. Gessen>After a while, Allen was eager to talk about why he had taken O. He claimed that Priscilla was a bad mother. She partied all the time. She did drugs. She cheated on Allen. To me, these sounded like good reasons to get a divorce, not to take your child from his mother.
+<v M. Gessen>过了一段时间，阿伦迫不及待地开始谈论他为什么要带走O。他声称普莉希拉是个糟糕的母亲。她整天聚会。她吸毒。她背叛了阿伦。在我看来，这些充其量是离婚的好理由，而不是把孩子从母亲身边带走的理由。
+
+00:08:27.320 --> 00:08:51.520
+<v M. Gessen>Lenna had her own complaints. She said Priscilla didn't read to her child, and perhaps even worse, didn't read books herself. The only book she kept in the house, Lenna claimed, was the Bible. I thought, wait, this was why Lenna and Allen took Priscilla's son away? There are few things that I think justify separating a kid from his parent, but Lenna and Allen didn't seem to think that much justification was required.
+<v M. Gessen>列娜也有她自己的抱怨。她说普莉希拉不给孩子读书，甚至更糟的是，她自己根本不读书。列娜声称，家里唯一的一本书就是《圣经》。我想，等等，这就是列娜和阿伦把普莉希拉的儿子带走的理由？我觉得有什么理由能正当化把孩子和父母强行分开的情况少之又少，但列娜和阿伦似乎觉得根本不需要什么充分的理由。
+
+00:08:51.520 --> 00:09:18.840
+<v M. Gessen>I couldn't stop thinking about what Priscilla must be going through. Without telling anyone in the family, I decided to reach out to her. I had met her only a couple of times and barely had a sense of her. I knew that she worked in fashion. I knew from Lenna that Priscilla's father owned a huge farm in Zimbabwe. And I knew that she would have no reason to trust me. I wasn't sure she'd respond. I texted her that I knew only Lenna and Allen's side of the story.
+<v M. Gessen>我脑子里一直想着普莉希拉正在经历什么。在没有告诉家里任何人的情况下，我决定联系她。我只见过她几次，对她几乎没有什么了解。我知道她从事时尚行业。我从列娜那里得知，普莉希拉的父亲在津巴布韦拥有一座大农场。我也知道她没有任何理由信任我。我不确定她是否会回复。我给她发短信，说我只知道列娜和阿伦这一方的说法。
+
+00:09:18.840 --> 00:09:36.680
+<v M. Gessen>Priscilla wrote back right away. She was stuck in Russia. Her daughter, whom I'll call L, had been born via surrogacy because Priscilla was unable to carry a pregnancy to term. The baby was eight months old, but Priscilla still didn't have a birth certificate for her, which meant that they couldn't leave the country.
+<v M. Gessen>普莉希拉立刻回了信。她被困在了俄罗斯。她的女儿（我称她为L）是通过代孕出生的，因为普莉希拉无法正常怀孕。孩子八个月大了，但普莉希拉仍然没有给她办出生证明，这意味着他们无法离开这个国家。
+
+00:09:36.680 --> 00:10:00.850
+<v M. Gessen>We traded short messages back and forth. Our exchange was friendly, but guarded. I didn't want to overstep, and I think Priscilla tried to say only what needed to be said. It was enough for me to sense that she was in anguish, and I was horrified. How could this woman's child just be taken away from her? How could my family just sit by? And what was going to happen to O now?
+<v M. Gessen>我们来来回回发了简短的短信。我们的交流很友好，但有所保留。我不想越界，我想普莉希拉也尽量只说必要的话。这足以让我感觉到她处于极度的痛苦之中，我感到震惊。这个女人的孩子怎么能就这样被夺走？我的家人怎么能坐视不管？O现在会怎么样？
+
+00:10:00.850 --> 00:10:19.330
+<v M. Gessen>Priscilla told me that the Russian police would not help her. The Zimbabwean embassy said that she could file a petition under the Hague Convention, a treaty that specifically addresses situations when one parent abducts a child and takes them to another country. But Priscilla needed legal help in the US. I could be useful here.
+<v M. Gessen>普莉希拉告诉我，俄罗斯警方不会帮她。津巴布韦大使馆表示，她可以根据《海牙公约》提起诉讼，这是一项专门针对父母一方绑架儿童并将其带到另一个国家的条约。但普莉希拉需要美国的法律援助。我在这里可以派上用场。
+
+00:10:19.330 --> 00:10:39.650
+<v M. Gessen>I called a friend who connected Priscilla with a person in the Justice Department who specializes in these kinds of cases. Priscilla also needed Lenna, Allen, and O's physical address in the States so she could begin the Hague process. This I could definitely help with. I knew that they'd left Cape Cod for New York, which is where I live.
+<v M. Gessen>我给一个朋友打了电话，他把普莉希拉和司法部一位专门处理此类案件的人联系上了。普莉希拉还需要列娜、阿伦和O在美国的实际住址，以便启动海牙公约程序。这我绝对能帮上忙。我知道他们已经从科德角搬到了纽约，也就是我住的地方。
+
+00:10:39.650 --> 00:11:01.970
+<v M. Gessen>I invited my aunt, cousin, and nephew over for dinner. Allen was away on business, so Lenna arrived with O, who got conscripted into a human pyramid by the young people of my household. As I slid turkey steaks into the oven, I asked Lenna the question all New York City parents ask all other New York City parents, where will O go to school? He was about to turn six.
+<v M. Gessen>我邀请了我的姑姑、堂弟和侄子来家里吃晚饭。阿伦外出出差了，所以列娜带着O一起来的，O被我家里的年轻人拉去搭人肉金字塔。我把火烤牛排推入烤箱时，向列娜问了所有纽约市父母都会问所有其他纽约市父母的问题：O要去哪里上学？他快六岁了。
+
+00:11:01.970 --> 00:11:26.450
+<v M. Gessen>Lenna said that she had no idea how schools even functioned in the city. Do let me explain this to you, I said, and took out my phone. What is your address? Let's see what district that is. Bingo. I had their address. I sent it to Priscilla. Some weeks later, apparently on a lark, they moved to Massachusetts. I figured out that address, too.
+<v M. Gessen>列娜说她根本不知道学校在城里是怎么运作的。我来跟你解释一下吧，我说道，并掏出了手机。你们的地址是什么？让我们看看那是哪个学区。太棒了。我得到了他们的地址。我把它发给了普莉希拉。几个星期后，显然是一时兴起，他们搬到了马萨诸塞州。我也弄清了那个地址。
+
+00:11:26.450 --> 00:11:45.170
+<v M. Gessen>I was a double agent now. I tracked Lenna, Allen, and O through their Facebook posts, messages to the family chat, and occasional weekends at my father's house on Cape Cod. When they moved to a new house, I let Priscilla know. If I had news about O, I texted Priscilla. Sometimes she'd just ask for reassurance that he was all right.
+<v M. Gessen>我现在是个双重间谍了。我通过列娜、阿伦和O的脸书动态、家庭群聊信息以及偶尔在科德角我父亲家的周末来追踪他们的行踪。当他们搬进新家时，我会通知普莉希拉。如果我有关于O的消息，我就会给普莉希拉发短信。有时她只是要求得到安慰，确认他一切都好。
+
+00:11:45.170 --> 00:12:05.250
+<v M. Gessen>From all the men in my family, my father, my three brothers, and my son, I hid the fact that I was in touch with Priscilla. I thought they'd see what I was doing as disloyal and might rat me out to Allen. My daughter knew. It was a little bit exciting, but it also gave me an excuse for maintaining peace with my newly enlarged family.
+<v M. Gessen>我向家里所有的男性——我的父亲、三个弟弟和我的儿子——隐瞒了我和普莉希拉保持联系的事。我想他们会认为我的所作所为是不忠的，并且可能会向阿伦告发我。我的女儿知道。这稍微有点刺激，但也为我和我新扩大的家庭维持和平提供了一个借口。
+
+00:12:05.250 --> 00:12:34.410
+<v M. Gessen>But the more I hung out with them, the more I just hung out with them. O was growing. Allen and Lenna were building a life. I watched. Sometimes I caught myself thinking that it was a pretty good life. Allen, Lenna, and O moved into a farmhouse in Concord, Massachusetts. Lenna furnished it stylishly. They seemed to spend most of their time actively raising O. They enrolled him in Jewish school, violin lessons, fencing, horseback riding. And I'm sure I'm still forgetting something.
+<v M. Gessen>但我和他们待得越久，就真的只是和他们待在一起。O在长高。阿伦和列娜在构建生活。我看着。有时我甚至发现自己觉得这过得还挺不错。阿伦、列娜和O搬进了马萨诸塞州康科德的一座农舍。列娜把那里布置得很时尚。他们的大部分时间似乎都花在积极抚育O上。他们给他报名了犹太学校、小提琴课、击剑课、骑马课。我确信我还漏掉了一些。
+
+00:12:34.410 --> 00:13:10.490
+<v M. Gessen>They dressed O like a tiny little gentleman, complete with brogues and fedora hats. And by some sort of miracle, the result wasn't annoying. O was a delight, curious, entertaining without being overbearing, and unfailingly polite. He seemed happy. Whatever damage being separated from his mother had done, I couldn't see it. What I could see was that he was doted on and thriving. To put it another way, and it wasn't easy for me to admit that I was seeing this, Allen seemed like a great dad, kind, attentive, devoted, and fun.
+<v M. Gessen>他们把O打扮成一个小绅士，穿着雕花皮鞋，戴着呢帽。不知怎么的，结果竟然一点也不让人厌烦。O非常招人喜欢，既好奇又懂事，既不傲慢又始终温和有礼。他看起来很快乐。与母亲分离所造成的任何伤害，我都看不出来。我能看到的是，他备受宠爱且茁壮成长。换句话说——要承认我看到了这一点对我来说并不容易——阿伦看起来是个好爸爸，善良、体贴、专一且有趣。
+
+00:13:10.490 --> 00:13:33.690
+<v M. Gessen>Two years passed like this. Eventually, Priscilla and L, who was now a toddler, made it to the United States. I hadn't messaged with Priscilla in over a year, but I heard from my father that Priscilla's claim, filed under the Hague Convention, was going to be heard in federal court in Boston. The case would probably drag on for a while, but I assumed that Priscilla would now be able to see her son.
+<v M. Gessen>两年就这样过去了。最终，普莉希拉和现在已经是个幼儿的L成功来到了美国。我有一年多没和普莉希拉发过短信了，但我从父亲那里听说，普莉希拉根据《海牙公约》提起的诉讼将在波士顿的联邦法院开庭审理。这个案子可能会拖延一段时间，但我认为普莉希拉现在终于可以见到她的儿子了。
+
+00:13:33.690 --> 00:13:48.970
+<v M. Gessen>And then there it was on social media. Priscilla posted a picture of herself embracing O. I liked the picture. I figured my job was done, my time as a double agent long over.
+<v M. Gessen>然后它就出现在了社交媒体上。普莉希拉发布了一张她拥抱O的照片。我给这张照片点了赞。我想我的任务完成了，我作为双重间谍的时期早就结束了。
+
+00:13:48.970 --> 00:13:57.450
+<v M. Gessen>About four months later, Allen was arrested for kidnapping O. Not for the time he took O from Russia. This was new.
+<v M. Gessen>大约四个月后，阿伦因绑架O被捕。不是因为他从俄罗斯带走O的那次。这是新的。
+
+00:13:57.450 --> 00:14:09.250
+<v Ira Glass>That incident, which I need to say, is still not the big shocking thing that rocked Masha's family. That's coming up. Stay with us.
+<v Ira Glass>那起事件——我必须说，依然不是震撼玛莎一家的那个惊天大事件。那件事马上就来。请继续收听。
+
+00:14:09.250 --> 00:14:17.210
+<v Ira Glass>This is American Life. Let's just pick up with M. Gessen's story where we left off-- Allen taking O a second time.
+<v Ira Glass>这里是《此生美国》。让我们从玛莎·盖森故事中断的地方继续——阿伦第二次带走了O。
+
+00:14:17.210 --> 00:14:34.890
+<v M. Gessen>Allen was arrested in Montreal at the airport when he, Lenna, and O were waiting to board a flight to London without, apparently, Priscilla's knowledge. This time Allen went to jail. But no, this arrest and what Allen did to get himself arrested weren't the things that shocked my family.
+<v M. Gessen>艾伦在蒙特利尔机场被捕，当时他和琳娜以及O正准备登机飞往伦敦，显然普莉希拉对此并不知情。这一次，艾伦进了监狱。但是，这次被捕以及艾伦为让自己被捕所做的事，并不是最让我家人震惊的地方。
+
+00:14:34.890 --> 00:14:54.970
+<v M. Gessen>We didn't exactly act like Allen's arrest was normal. We acted like it was absurd. I entertained my friends with stories of my serial kidnapper cousin. Lenna kept the family updated with over-dramatic notes on the Facebook family chat, and at least one video from Canada in which Allen, wearing a striped uniform, sings her a Russian prison song.
+<v M. Gessen>我们并没有表现得好像艾伦被捕是一件正常的事。我们的反应是觉得荒谬绝伦。我用我连环绑架犯表弟的故事来取悦朋友。琳娜则在脸书家族群里不断更新那些充满夸张戏剧色彩的文字，并分享了至少一段来自加拿大的视频，视频中穿着条纹囚服的艾伦为她唱了一首俄罗斯监狱歌曲。
+
+00:14:54.970 --> 00:14:57.130
+<v M. Gessen>[RUSSIAN SINGING]
+<v M. Gessen>[俄罗斯歌曲歌唱]
+
+00:14:57.130 --> 00:15:01.690
+<v M. Gessen>It looked like a cartoon.
+<v M. Gessen>这看起来就像卡通片一样。
+
+00:15:01.690 --> 00:15:16.090
+<v M. Gessen>Allen spent a couple of weeks in Canadian detention, then another few weeks in a jail in upstate New York, and was finally released on his own recognizance to await trial in Massachusetts. O was now living with Priscilla.
+<v M. Gessen>艾伦在加拿大的羁押所度过了几周，接着又在纽约州北部的一所监狱里待了几周，最后在马萨诸塞州获准取保候审以等待审判。此时，O已经和普莉希拉住在一起了。
+
+00:15:16.090 --> 00:15:38.410
+<v M. Gessen>Allen got out of jail in February 2022. A couple of months after that, he sent out a missive on the family chat, as self-important as the one that began this whole story. This time, he was telling us that he and Priscilla had resolved their battle, which actually turned out to be true. They would now have shared custody of both kids. Allen said he was very pleased.
+<v M. Gessen>艾伦于2022年2月出狱。几个月后，他在家族群里发了一条长信，其自命不凡的程度不亚于开启整个故事的那一条。这一次，他和我们说他和普莉希拉已经化解了他们的矛盾，而这后来证明居然是真的。他们现在将共同拥有两个孩子的抚养权。艾伦说他非常高兴。
+
+00:15:38.410 --> 00:16:01.890
+<v M. Gessen>I thought, my God, did you have to go through all this, absconding with your son twice, keeping him separated from his mother for more than two years, just to arrive at a standard 50/50 custody agreement? This, child support and shared custody, is the boring end of this crazy story? I felt a little relieved and a little dumb, like maybe I bought too fully into other people's drama.
+<v M. Gessen>我想，我的天啊，难道你们非得经历这一切——两次拐走儿子，让他和母亲分离两年多——就为了达成一个标准的一半对一半的抚养权协议吗？这就是这个疯狂故事的无聊结局——抚养费和共同抚养权？我感到既有点如释重负，又有点像个傻瓜，仿佛我太深地卷入了别人的戏剧之中。
+
+00:16:01.890 --> 00:16:17.970
+<v M. Gessen>Kidnapping charges against Allen were pending. They would later be dropped. And still, Priscilla was able to reach a peace agreement with Allen, after all he'd apparently put her and their son through. Well, maybe this was just the way they did things, with extreme flair.
+<v M. Gessen>针对艾伦的绑架指控原本处于未决状态。后来这些指控被撤销了。即便如此，普莉希拉还是能够与艾伦达成和平协议，尽管艾伦显然曾让她和他们的儿子经历过那么多磨难。好吧，也许这就是他们做事的方式，充满了极致的戏剧性。
+
+00:16:17.970 --> 00:16:26.850
+<v Alex>Then, yeah, a kind of exotic part started.
+<v Alex>然后，没错，某种富有异国情调的部分开始了。
+
+00:16:26.850 --> 00:16:33.290
+<v M. Gessen>Then it happened. The thing, the bomb that went off in the middle of my family.
+<v M. Gessen>然后事情就发生了。那件事，就像在我家里引爆的一颗炸弹。
+
+00:16:33.290 --> 00:16:45.090
+<v Alex>So the day before, Allen called me and said that he promised his kids to take them camping.
+<v Alex>就在前一天，艾伦给我打电话说，他答应了孩子们带他们去露营。
+
+00:16:45.090 --> 00:16:56.770
+<v M. Gessen>July 2022. Under the new custody arrangement, it was Allen's weekend with the kids. He asked my dad, hey, do you mind if me, my mom, and the kids camp out in your backyard on Cape Cod?
+<v M. Gessen>2022年7月。根据新的抚养权安排，这个周末轮到艾伦陪伴孩子。他问我爸爸：“嘿，我和我妈还有孩子们能去你在科德角的后院露营吗，你介意吗？”
+
+00:16:56.770 --> 00:17:10.690
+<v Alex>I said, of course. So they came. They brought some huge, huge tent. I never saw such a tent before, with a lot of furniture, and lights, and devices.
+<v Alex>我说，当然可以。于是他们来了。他们带来了一个超级巨大的帐篷。我以前从未见过这样的帐篷，里面有许多家具、灯光和各种设备。
+
+00:17:10.690 --> 00:17:29.850
+<v M. Gessen>Solar chargers, rugs, two full mattresses, a treasure trunk with, uh, treasures, I guess? It was very Allen-- awesome, spectacular, ridiculous. Though later it occurred to me that this time, at least, there may have been a point to this. He wanted everyone to remember his camping trip to my father's backyard.
+<v M. Gessen>太阳能充电器、地毯、两张全尺寸床垫，还有一个装着……嗯，我猜是宝藏的宝箱？这非常符合艾伦的作风——酷炫、壮观、荒谬。不过后来我突然想到，至少这一次，他这么做可能是有目的的。他想让所有人都记住这次在我父亲后院的露营之旅。
+
+00:17:29.850 --> 00:17:52.090
+<v M. Gessen>Because it was summer, my father's house was full. Two of my younger brothers, one of them with his girlfriend, were there. Everyone had a nice dinner together and then went to bed, some people in the house, and Allen, Lenna, and the kids in the tent. And then around 6:00 the next morning, the dog, Alton, started going nuts. Someone was banging on the front door.
+<v M. Gessen>因为正值夏天，父亲的房子里住满了人。我的两个弟弟，其中一个还带着女朋友，都在那里。大家一起享用了美好的晚餐，然后就去睡觉了，有些人睡在屋里，艾伦、琳娜和孩子们则睡在帐篷里。接着大约第二天早上6点，那只名叫奥尔顿的狗开始疯狂狂吠。有人在猛烈敲打前门。
+
+00:17:52.090 --> 00:18:10.890
+<v Alex>So I opened the door a bit because not to let Alton out. Also, I didn't put my trousers on yet. And the guy, the policeman said, we are state police. Could you step out with your phone?
+<v Alex>于是我把门开了一条缝，因为不想让奥尔顿跑出去。而且，我当时还没穿好裤子。那个警察说，我们是州警察。你能拿着手机出来一下吗？
+
+00:18:10.890 --> 00:18:15.730
+<v M. Gessen>My dad is surprised, but he's not panicking. He goes to get his pants and his phone.
+<v M. Gessen>我父亲很惊讶，但他并没有惊慌。他去拿了他的裤子和手机。
+
+00:18:15.730 --> 00:18:25.410
+<v Alex>But by that time, because of all this noise and commotion and Alton's barking, Allosha woke up.
+<v Alex>但就在那时，由于这所有的噪音、骚动以及奥尔顿的狂吠，阿洛沙醒了。
+
+00:18:25.410 --> 00:18:27.960
+<v M. Gessen>Allosha is my cousin's Russian diminutive.
+<v M. Gessen>阿洛沙是我表弟名字的俄罗斯语爱称。
+
+00:18:27.960 --> 00:18:39.690
+<v Alex>Allen, and he came to the house to see what is going on. And the police figured out that they are looking for him and not for me.
+<v Alex>艾伦，他来到屋里查看发生了什么。警察这才发现他们要找的是他，而不是我。
+
+00:18:39.690 --> 00:18:56.650
+<v M. Gessen>FBI agents go around the house, banging on doors, and make everyone sit down on the couches in the living room. No one understands what's going on. But soon, through the picture windows that look out on the backyard, they see two male FBI agents take Allen away in handcuffs.
+<v M. Gessen>联邦调查局特工在房子四周巡视，猛力敲门，并让所有人都坐在起居室的沙发上。没有人明白发生了什么。但很快，透过望向后院的落地窗，他们看到两名男联邦调查局特工给艾伦戴上手铐，把他带走了。
+
+00:18:56.650 --> 00:19:05.410
+<v M. Gessen>Then a female agent escorts the kids to another car. They all drive off. State troopers follow. Lenna leaves too.
+<v M. Gessen>接着一名女特工护送孩子们上另一辆车。他们都开车离去了。州警紧随其后。琳娜也离开了。
+
+00:19:05.410 --> 00:19:12.610
+<v M. Gessen>And did you know, once everybody left, did you have any idea what he had been arrested for?
+<v M. Gessen>你知道吗，一旦大家都离开后，你有没有任何头绪他究竟是因为什么被捕的？
+
+00:19:12.610 --> 00:19:31.650
+<v Alex>Not immediately, but then I learned from Lenna about that. She was-- she was totally lost. But the only thing she knew that what was in this paper they gave her.
+<v Alex>不是立刻知道的，但后来我从琳娜那里得知了。她当时——她完全不知所措。她唯一知道的就是他们给她的那张纸上写的内容。
+
+00:19:31.650 --> 00:19:34.130
+<v M. Gessen>What was in the paper?
+<v M. Gessen>纸上写了什么？
+
+00:19:34.130 --> 00:19:43.170
+<v Alex>Well, that he is arrested for-- I don't remember. But murder for hire was there. Yes.
+<v Alex>嗯，他是因为……我不记得了。但里面有“雇凶杀人”这几个字。是的。
+
+00:19:43.170 --> 00:19:54.210
+<v M. Gessen>And did you have any idea who he might have hired somebody to murder?
+<v M. Gessen>你有没有猜到他可能雇了什么人去谋杀谁？
+
+00:19:54.210 --> 00:19:58.410
+<v Alex>Uh, it didn't take long.
+<v Alex>嗯，没花多长时间就知道了。
+
+00:19:58.410 --> 00:20:04.730
+<v M. Gessen>It was Priscilla. Allen, it seemed, had hired someone to kill Priscilla.
+<v M. Gessen>是普莉希拉。看样子，艾伦雇人去谋杀普莉希拉。
+
+00:20:04.730 --> 00:20:10.930
+<v Alex>The question was if it was true or not. That's another story.
+<v Alex>问题在于这是真是假。那是另一个故事了。
+
+00:20:10.930 --> 00:20:37.810
+<v M. Gessen>Some of us took the news in faster than others. The day after Allen's arrest, my brother Keith and I had a fight over the Justice Department press release, which identified the target only as PC. I was saying that it was obviously Priscilla, whose last name begins with a C. He was saying that it was obviously not Priscilla. Lenna kept telling everyone that Allen had been set up by business rivals, or Russian agents, or the FBI, or someone.
+<v M. Gessen>我们当中有些人接受这个消息的速度比其他人更快。在艾伦被捕的第二天，我和我弟弟基思为了司法部的通告吵了一架，通告中将目标仅标识为PC。我说这显然是普莉希拉（Priscilla），她的姓氏以C开头。他说这显然不是普莉希拉。琳娜则一直对所有人说，艾伦是被商业竞争对手、俄罗斯特工、联邦调查局或者别的什么人陷害的。
+
+00:20:37.810 --> 00:21:05.810
+<v M. Gessen>But over the course of a few days, it sank in. My cousin had been caught hiring someone to murder his ex-wife, the mother of his children. This was when it felt like we snapped. I certainly snapped. I was shocked at how shocked I was. It's not that I felt bad for Allen or Lenna. It's just, how does something like this happen? How had it happened right here in my family, in between our silly dinners, and chess games, and kids' birthday parties?
+<v M. Gessen>但在几天的时间里，这个事实沉甸甸地压在了我们心头。我的表弟竟然雇人谋杀他的前妻、他孩子们的母亲，这件事败露了。就在那时，我们感觉自己崩溃了。我确实崩溃了。我对自己的震惊程度感到震惊。倒不是说我为艾伦或琳娜感到难过，而是，怎么会发生这种事？它怎么会就发生在我的家族里，在我们那些愚蠢的晚餐、下棋局和孩子们的生日派对之间？
+
+00:21:05.810 --> 00:21:23.210
+<v M. Gessen>In theory, I knew that this kind of thing can happen in any family. Anyone's first cousin could be plotting murder. Upstanding citizens are always turning out to be secret criminals, and I wouldn't even call Allen an upstanding citizen. But it's one thing to know and another thing to understand.
+<v M. Gessen>从理论上讲，我知道这种事可能会发生在任何家庭里。任何人的堂兄弟都可能在策划谋杀。正派公民总是不断被发现是秘密罪犯，而我甚至都不会称艾伦为正派公民。但知道是一回事，理解又是另一回事。
+
+00:21:23.210 --> 00:22:01.850
+<v M. Gessen>I'm a reporter. At some of the hardest times in my life, when I faced a dire medical diagnosis, I put on my reporter's hat and asked everyone a lot of questions. It has allowed me to wrap my mind around unthinkable things before. Allen was in jail awaiting trial, so my project had to begin with Priscilla, who was thankfully alive. What she told me was so much worse than what I thought I knew. That's next time. From Serial Productions and The New York Times I'm M. Gessen, and this is The Idiot.
+<v M. Gessen>我是一名记者。在我人生的某些最艰难时刻，当我面对可怕的疾病诊断时，我戴上记者的帽子，向所有人提出大量问题。这曾让我能够坦然面对以前不可想象的事情。艾伦当时身在狱中等待审判，所以我的调查项目必须从普莉希拉开始，谢天谢地她还活着。她告诉我的一切，比我以为自己知道的要糟糕得多。下期节目再见。我是M·盖森，来自Serial Productions和《纽约时报》，这里是《白痴》。
+
+00:22:01.850 --> 00:22:09.170
+<v Ira Glass>OK, so that is the first episode of your new podcast, The Idiot. Does Allen know the name of the show yet?
+<v Ira Glass>好的，这就是你的新播客《白痴》的第一集。艾伦现在知道这个节目的名字了吗？
+
+00:22:09.170 --> 00:22:21.110
+<v M. Gessen>You know-- I mean, obviously there are some parts of that title that might be appealing to Allen. It's reference to a classic work of Russian literature.
+<v M. Gessen>你知道的——我的意思是，很显然这个标题的某些部分可能会吸引艾伦。这是对俄罗斯文学经典著作的致敬。
+
+00:22:21.110 --> 00:22:21.810
+<v Ira Glass>Dostoyevsky.
+<v Ira Glass>陀思妥耶夫斯基。
+
+00:22:21.810 --> 00:23:02.450
+<v M. Gessen>Dostoyevsky's novel, The Idiot. And I think there's a little bit of kindness in that title. I think that I'm giving him the grace of perceiving what he did is just an incredibly dumb thing, and not only a very scary, mean, and evil thing. And also, he's very lucky that he was bad enough at trying to hire a killer that everyone, in the end, is alive, and he's serving only a 10-year sentence.
+<v M. Gessen>陀思妥耶夫斯基的小说《白痴》。而且我认为这个标题里包含着一丝善意。我觉得我赋予了他一种体谅，即把他的所作所为视为一件极其愚蠢的事，而不仅仅是一件非常可怕、卑鄙和邪恶的事。而且，他也非常幸运，他在试图雇凶杀人这方面笨手笨脚，以至于到头来所有人都还活着，而他只需服刑10年。
+
+00:23:02.450 --> 00:23:12.410
+<v Ira Glass>Yeah. So after that, you began reporting, and as you say at the end of episode one, you start with Priscilla. What happens?
+<v Ira Glass>是的。所以在那之后，你开始进行报道，正如你在第一集结尾所说的那样，你从普莉希拉开始。发生了什么？
+
+00:23:12.410 --> 00:23:45.050
+<v M. Gessen>I'd only met Priscilla a couple of times in my life. I didn't know her. I just knew she was this sort of beautiful, poised woman who'd been through hell at this point and had come to the US to try to get custody back of her child. But I didn't know how the story had unfolded for her. So let me play an excerpt from that conversation. I started with something that had mystified me for a long time.
+<v M. Gessen>我一生中只见过普莉希拉几次。我不了解她。我只知道她是一个美丽、沉着稳重的女人，当时已经历了人间炼狱，并来到美国试图夺回孩子的抚养权。但我不知道这个故事对她而言是如何展开的。所以让我播放一段我们那次对话的节子。我从一个让我困惑了很久的问题开始。
+
+00:23:45.050 --> 00:23:51.490
+<v M. Gessen>So can you tell me what you saw in Allen when you first met him?
+<v M. Gessen>那你能不能告诉我，你第一次见到艾伦时，在他身上看到了什么？
+
+00:23:51.490 --> 00:23:59.190
+<v Priscilla>[LAUGHS] Wow. I think, like most people that meet him, the first time you meet him, he's very charismatic.
+<v Priscilla>[笑] 哇。我想，就像大多数见到他的人一样，你第一次见到他时，会觉得他极具个人魅力。
+
+00:23:59.190 --> 00:24:13.970
+<v M. Gessen>This was 2011 at a party in Harare, the capital of Zimbabwe. Allen was there on business, scoping out investment opportunities for Ukrainian oligarchs. He was hustling. As my son described him once, he was an egg who knows how to talk to people.
+<v M. Gessen>那是2011年，在津巴布韦首都哈拉雷的一个派对上。艾伦当时在出差，为乌克兰寡头物色投资机会。他一直在四处奔忙。正如我儿子曾对他的评价那样，他是一个懂得如何与人交流的“聪明蛋”。
+
+00:24:13.970 --> 00:24:17.130
+<v M. Gessen>And did that seem appealing?
+<v M. Gessen>这看起来很有吸引力吗？
+
+00:24:17.130 --> 00:24:36.130
+<v Priscilla>It did. I'll be honest, I was 30 when I met him. It seemed very appealing, and it was very different from anybody that I had met. So different was interesting. He came from a very different part of the world, which I knew nothing about, which was also exciting in its own regard.
+<v Priscilla>确实有。老实说，我遇到他时30岁。这看起来非常吸引人，而且与我见过的任何人都不一样。如此不同便意味着有趣。他来自一个我一无所知的世界截然不同的角落，这本身也令人兴奋。
+
+00:24:36.130 --> 00:25:00.090
+<v M. Gessen>It wasn't just exciting. It was convenient in a way. Allen was unreadable to Priscilla the way someone from Zimbabwe might be. She could project her desires onto him, including her desire for success. Priscilla was working at a new lifestyle magazine and had launched Zimbabwe's annual Fashion Week. She wanted a life that was big and fast, like Allen's. And it's true that Allen seemed to know how to make big, fast money and spend it.
+<v M. Gessen>这不仅仅是令人兴奋。在某种程度上也很方便。在普莉希拉看来，艾伦是个让人捉摸不透的人，就像来自津巴布韦的人对她来说可能那样。她可以将自己的愿望投射到他身上，包括她对成功的渴望。普莉希拉当时在一家新的生活方式杂志工作，并推出了津巴布韦的年度时装周。她想要一种盛大而快节奏的生活，就像艾伦那样。而且事实也确实如此，艾伦似乎知道如何赚取巨大而快速的财富，又如何将其挥霍掉。
+
+00:25:00.090 --> 00:25:18.170
+<v Priscilla>It's like, oh, let's go to Joburg. I'm like, OK. You get up and you go, just at the drop of a hat. And then we would go here and there, and here and there. So it was very exciting. The only strange thing that happened at the beginning of our relationship when his mom came.
+<v Priscilla>这就像是，哦，我们去约堡吧。我说，好的。你随时起身说走就走，说走就走。然后我们会去这儿，去那儿，去这儿，去那儿。所以非常令人兴奋。在我们关系刚开始时唯一奇怪的事情是他的妈妈来了。
+
+00:25:18.170 --> 00:25:35.130
+<v M. Gessen>Right. One of those hiccups that happen early on in a romance and should raise a giant red flag, but somehow never do. My aunt Lenna came to visit a few months into their relationship. She joined Allen and Priscilla on a trip to the countryside.
+<v M. Gessen>没错。那是浪漫关系初期经常会出现的小波折之一，本该拉起巨大的红色警报，但不知为何却从没有过。在我姑妈琳娜和他们确立恋爱关系几个月后，她来探望他们。她加入了艾伦和普莉希拉的一次乡村之旅。
+
+00:25:35.130 --> 00:26:08.970
+<v Priscilla>We went on a trip to Kariba. It's a big lake in Zimbabwe. And I think it was like on the second day or something. We had a disagreement, like a fight. And he left our room and I didn't know that he had done this, but he went to his mom's room. And I found him later, I was walking past her room and she had these doors that opened out. So I just looked in and I saw him, like lying on her bed, and she was like, lying there, like stroking his hair. I found that-- well, his head.
+<v Priscilla>我们去卡里巴进行了一次旅行。那是津巴布韦的一个大湖。我想大约是在第二天左右。我们产生了分歧，就像吵了一架一样。他离开了我们的房间，我不知道他做了这个举动，但他去了他妈妈的房间。我后来找到他时，我路过她的房门，她的门是向外开的。所以我朝里面看了一眼，看到他躺在她的床上，而她就那样躺在那儿，抚摸着他的头发。我觉得——嗯，摸着他的头。
+
+00:26:08.970 --> 00:26:41.070
+<v Priscilla>I found that so weird. I was like, wow, this is a grown man. And it seemed a little too intimate for me. In my culture, I guess maybe because we're very distant, you don't even hug. Like you wouldn't hug your father, because it's a little too intimate. So for an adult to be lying on his mother's bed, and for her to actually be, it just seemed very peculiar. I saw that, and I was like, OK.
+<v Priscilla>我觉得这太诡异了。我想，哇，这是一个成年男子。对我来说，这似乎显得过于亲密了。在我的文化里，我想也许是因为我们的关系很疏离，你甚至都不会拥抱。比如你不会拥抱你的父亲，因为这有点过于亲密了。所以一个成年人躺在母亲的床上，而母亲居然也这么做，这看起来实在太奇怪了。我看到了那一幕，然后我想，好吧。
+
+00:26:41.070 --> 00:26:48.770
+<v Ira Glass>And as the series unfolds, Lenna and Allen's relationship is one of the things that you talk about more. Did you talk to Lenna for this story?
+<v Ira Glass>随着节目的深入，琳娜和艾伦的关系成了你探讨得更多的内容之一。你为了这个故事采访过琳娜吗？
+
+00:26:48.770 --> 00:26:52.190
+<v M. Gessen>I didn't. She didn't want to talk to me.
+<v M. Gessen>我没有。她不想跟我说话。
+
+00:26:52.190 --> 00:27:06.650
+<v Ira Glass>And so you're interviewing Priscilla. And the stories that she's telling you, you knew the basic plot points of-- the first time they took O, the second time they took O. What did you learn that you hadn't known?
+<v Ira Glass>所以你在采访普莉希拉。她对你讲述的故事，你已经知道了基本的情节脉络——第一次他们带走O，第二次他们带走O。你了解到了什么以前不知道的事情？
+
+00:27:06.650 --> 00:27:47.090
+<v M. Gessen>So now I realize that knowing those two plot points, which were two and a half years apart, is a little bit like knowing the date the war began and the date the war ended. And like, I didn't know about all the carnage that had happened in between. At first, she was stranded in Moscow. She didn't really have any way to support herself in Moscow. She's a Zimbabwean woman who doesn't speak Russian. And that dragged on for months. And then she got back to Zimbabwe. She thought she was getting back to her regular life, from which she was going to try to make it to the US to get O back.
+<v M. Gessen>所以现在我意识到，了解那两个相隔两年半的情节节点，有点像是知道战争开始的日期和战争结束的日期。而我，并不知道这期间发生的所有惨剧。起初，她被困在莫斯科。她在莫斯科没有任何维持生计的途径。她是一个不会说俄语的津巴布韦女人。这种情况持续了好几个月。然后她回到了津巴布韦。她以为自己回到了正常的生活中，并准备从那里设法去美国把O夺回来。
+
+00:27:47.090 --> 00:28:04.270
+<v M. Gessen>And then things just start happening to her in Zimbabwe. She gets beaten up by thugs. She gets picked up on drug charges. She gets picked up again and thrown into prison for two weeks. And she thinks that Allen is behind all of this. Allen denies that he had any involvement.
+<v M. Gessen>接着，各种事情开始在津巴布韦降临到她头上。她遭到暴徒殴打。她因涉毒被抓。她再次被捕并被投入监狱两周。她认为这一切背后都是艾伦在搞鬼。艾伦则否认自己参与其中。
+
+00:28:04.270 --> 00:28:09.850
+<v Ira Glass>And then eventually, she goes through all of this, and she eventually gets to the United States, right?
+<v Ira Glass>然后最终，她经历了这一切，最终来到了美国，对吗？
+
+00:28:09.850 --> 00:28:29.210
+<v M. Gessen>She eventually gets to the United States. It doesn't mean that she's going to get custody or even visits with her son because at this point, it's been two and a half years. But she does get to see him for the first time since he was taken from her.
+<v M. Gessen>她最终来到了美国。这并不意味着她能获得抚养权，甚至都不能探望她的儿子，因为此时已经过去两年半了。但她确实见到了儿子，这是自从他被从她身边带走以来的第一次。
+
+00:28:29.210 --> 00:28:31.650
+<v Ira Glass>Wait, and so now he's how old?
+<v Ira Glass>等等，那他现在多大了？
+
+00:28:31.650 --> 00:28:35.390
+<v M. Gessen>So now he is like eight years old.
+<v M. Gessen>所以现在他大约八岁了。
+
+00:28:35.390 --> 00:28:38.970
+<v Ira Glass>Oh my God, so from five to eight, she hadn't seen him?
+<v Ira Glass>哦，天哪，从五岁到八岁，她都没有见过他？
+
+00:28:38.970 --> 00:28:46.010
+<v M. Gessen>And also, she doesn't know what his grandmother and his father have been telling him about her.
+<v M. Gessen>而且，她也不知道他的祖母和父亲一直在向他灌输关于她的什么事情。
+
+00:28:46.010 --> 00:28:59.330
+<v Ira Glass>Yeah, let's play an excerpt of this part of the episode. So this is Priscilla explaining about seeing her son for the first time after that two-year year absence.
+<v Ira Glass>是的，让我们播放这集节目中这一部分的节选。这是普莉希拉在讲述在长达两年的分离后，第一次见到儿子的情景。
+
+00:28:59.330 --> 00:29:01.610
+<v M. Gessen>When did you see him for the first time?
+<v M. Gessen>你是什么时候第一次见到他的？
+
+00:29:01.610 --> 00:29:23.610
+<v Priscilla>I saw him that weekend on the Sunday for the first time. It's so strange. I almost can't remember how I felt. I know I didn't cry. I couldn't cry. I think I just looked at him. I just stared at him for a while.
+<v Priscilla>我在那个周末的星期天第一次见到了他。太奇怪了。我几乎记不清自己当时是什么感觉了。我知道我没有哭。我哭不出来。我想我只是看着他。我盯着他看了一会儿。
+
+00:29:23.610 --> 00:29:28.430
+<v M. Gessen>Can you describe that meeting? I mean, you had to meet outside, I think, right?
+<v M. Gessen>你能描述一下那次见面吗？我的意思是，你们必须在外面见面，我想是的吧？
+
+00:29:28.430 --> 00:30:02.540
+<v Priscilla>Yeah. We met at a little tea house in the town where Allen was living, Concord. It's called Concord Tea Cakes, actually. So he was sitting outside. I saw him sitting there, and he was sitting by himself. Allen was inside the shop. When I approached him, I could actually see that he was shaking. He just seemed so small and so scared.
+<v Priscilla>是的。我们在艾伦居住的城镇康科德的一家小茶馆见面。其实它叫康科德茶点屋（Concord Tea Cakes）。所以他当时坐在外面。我看到他坐在那儿，他一个人坐着。艾伦在店里面。当我走近他时，我实际上能看到他在发抖。他看起来那么弱小，那么害怕。
+
+00:30:02.540 --> 00:30:15.420
+<v M. Gessen>What had her little boy been thinking for the past two years? Why did he think his mother wasn't with him? What had Allen told him? O knew that Priscilla had been in prison. What other stories about her had taken hold in his mind?
+<v M. Gessen>在过去的两年里，她的宝贝儿子一直在想些什么？为什么他会认为他的母亲没有陪在他身边？艾伦对他说过什么？O知道普莉希拉曾经入狱。关于她的其他什么传言已经在他的脑海中扎根了？
+
+00:30:15.420 --> 00:30:37.260
+<v Priscilla>And I kind of felt-- I felt helpless in a way, you know? I just said, hi. I didn't try to touch him because I could tell that he was scared. So I just said, hi. And then I just sat next to him, and I let him come to me.
+<v Priscilla>我当时感觉——某种程度上我觉得很无助，你知道吗？我只是说，嗨。我没有试着去碰他，因为我看得出来他很害怕。所以我只是说，嗨。然后我就在他旁边坐下，让他自己向我走来。
+
+00:30:37.260 --> 00:30:40.100
+<v M. Gessen>Do you remember anything he said to you?
+<v M. Gessen>你还记得他对你说过什么吗？
+
+00:30:40.100 --> 00:31:23.500
+<v Priscilla>He asked me for this porridge that he used to like. He had loved it since he was a baby, and he called it blue porridge. He just said to me, did you bring blue porridge? I said, yeah. They make it in Zimbabwe. And I had carried it with me. He asked me to make it for him, immediately. And I did, like in a little cup with warm water. I made it for him and he ate it. And yeah, I knew that he would slowly remember me and things would get back to where they were, if he could remember simple things like that. Yeah.
+<v Priscilla>他向我要那种他以前很喜欢吃的粥。他从小就喜欢吃，他管它叫蓝色的粥。他只是对我说，你带蓝色的粥了吗？我说，带了。津巴布韦那边能做。而且我都随身带着呢。他让我马上给他做。我照做了，用一个小杯子装了点温水。我给他泡好了，他就吃了。然后，是的，我知道他会慢慢记起我，事情会回到从前的样子，如果他能记住这样简单的事情的话。是的。
+
+00:31:23.500 --> 00:31:30.140
+<v M. Gessen>That was just so heartbreaking to listen and to imagine.
+<v M. Gessen>听到这些、想象当时的场景，真的太让人心碎了。
+
+00:31:30.140 --> 00:31:39.620
+<v Ira Glass>Yeah. And then you also talked about the second time Allen and Lenna take O, the one for which he was charged with kidnapping.
+<v Ira Glass>是的。然后你们还谈到了艾伦和莱娜第二次带走O的那次事件，也就是他被指控绑架的那次。
+
+00:31:39.620 --> 00:32:07.820
+<v M. Gessen>Yeah. So this is the scene at the Montreal airport where they think they're going to board a flight to London, and instead Allen gets arrested. And it had been reduced to this ridiculous story that Lenna told in this over-the-top way. And I would quote from her wacky Facebook messages-- to close friends.
+<v M. Gessen>对。所以这是在蒙特利尔机场的场景，当时他们以为自己要登机去伦敦，结果艾伦被捕了。这件事后来被简化成了一个荒谬的故事，是莱娜用那种极其夸张的方式讲出来的。我还会引用她发给亲密朋友的那些古怪的Facebook消息——
+
+00:32:07.820 --> 00:32:09.460
+<v Ira Glass>Yeah.
+<v Ira Glass>对。
+
+00:32:09.460 --> 00:32:47.540
+<v M. Gessen>And hearing the story from Priscilla's perspective, which is really O's perspective, just how absolutely terrifying it was for him. He's a little boy. That's his dad, who gets tackled by several armed, uniformed men and thrown to the ground. He gets dragged off. O gets taken into foster care for two days before Priscilla can come and pick him up. And again, she's separated from him. Like, it's the distance. It's the International border. It's just the pain of it is kind of unbearable.
+<v M. Gessen>而从普莉希ラの角度——也就是O的角度——听到这个故事时，才知道这对他来说是多么绝对的恐怖。他还是个小男孩。那是他的爸爸，却被几个全副武装、穿着制服的男人扑倒并按在地上。他被强行拖走了。在普莉希拉赶来接他之前，O被送去寄养了两天。而且再次地，她又和他分开了。就像那种距离感。那是国际边境。那种痛苦简直让人难以承受。
+
+00:32:47.540 --> 00:32:56.220
+<v Ira Glass>Yeah. And so then another thing that you did in your reporting is that you went to Allen's trial for attempted murder.
+<v Ira Glass>对。所以在报道中，你做的另一件事就是去旁听了艾伦谋杀未遂案的审判。
+
+00:32:56.220 --> 00:33:32.300
+<v M. Gessen>So the trial didn't happen for another 10 months, which is pretty normal. It's in federal court in San Francisco. So I went to the trial. And by that point, I think I fully believed that Allen had taken out a hit on Priscilla. I had tried and convicted him in my mind. But I think most other members of my family, including Priscilla, were waiting for something to emerge during the trial that would make it easier to take, something that would make it seem like not such a horrible thing.
+<v M. Gessen>所以审判在10个月后才开始，这其实挺正常的。审判在旧金山的联邦法院进行。所以我去旁听了。到那个时候，我想我已经完全相信艾伦确实买凶要杀普莉希拉了。我在心里已经对他进行了审判并判定他有罪。但我想我家族的其他大多数成员，包括普莉希拉在内，都在等待审判期间出现某种转机，好让事情更容易接受一点，某种能让这件事看起来没那么可怕的东西。
+
+00:33:32.300 --> 00:33:38.620
+<v Ira Glass>Like maybe it wasn't true, or maybe it was true in some way that it wasn't quite so bad?
+<v Ira Glass>比如也许这不是真的，或者虽然是真的，但某种程度上没那么糟糕？
+
+00:33:38.620 --> 00:33:49.500
+<v M. Gessen>Which I can't imagine what it would be. And I'm not sure they could either, but they were sort of holding out hope that something would explain it away.
+<v M. Gessen>我简直无法想象那会是什么。而且我不确定他们能不能想象，但他们多少还是抱着一丝希望，希望有什么东西能把这一切合理化。
+
+00:33:49.500 --> 00:33:54.020
+<v Ira Glass>Did you go to Allen's trial partly to convince your family of his guilt?
+<v Ira Glass>你去看艾伦的审判，部分原因是为了说服你的家人他有罪吗？
+
+00:33:54.020 --> 00:33:55.540
+<v M. Gessen>Absolutely.
+<v M. Gessen>完全是的。
+
+00:33:55.540 --> 00:34:11.780
+<v Ira Glass>I have to say that makes this podcast so different from any podcast I've ever heard, that it has this second mission, in addition to the mission of let's find out the truth of what happened. It's so directed at your family to nail this down so everybody can agree on the truth.
+<v Ira Glass>我不得不说，这让这个播客与我听过的任何播客都截然不同，它除了“查明事情真相”这个任务之外，还有第二个任务。它如此针对你的家人，是为了把这件事钉死，好让所有人都能对真相达成一致。
+
+00:34:11.780 --> 00:34:20.620
+<v M. Gessen>Well, it's important in a family to have a common truth, especially about your relatives. But it got weirder as it went on.
+<v M. Gessen>嗯，在一个家庭里拥有一个共同的真相是很重要的，尤其是关于你们亲戚的事。但随着事情的进展，情况变得越来越诡异。
+
+00:34:20.620 --> 00:34:41.100
+<v Ira Glass>OK, so let's just take a break. And when we come back, we'll go to the trial, which includes recordings of Allen arranging for the hit, which feel, I have to say, way less like The Sopranos and way more like Parks and Rec. All of that will be in a minute from Chicago Public Radio when our program continues.
+<v Ira Glass>好的，那我们先休息一下。等我们回来，我们将进入庭审现场，其中包含艾伦安排买凶杀人的录音，我必须说，听起来与其说是《黑道家族》，倒不如说更像是《公园与游憩》。所有这些内容，将在芝加哥公共广播电台的节目继续时为您呈献。
+
+00:34:41.100 --> 00:34:52.780
+<v Ira Glass>It's This American Life. I'm Ira Glass. Today's program, The Idiot. We're playing excerpts from M. Gessen's new podcast, new Serial podcast called The Idiot. And M. Is here with me.
+<v Ira Glass>这里是《美国生活》。我是艾拉·格拉斯。今天的节目是《笨蛋》。我们将播放M·格森的新播客节目——一部全新的连环播客《笨蛋》的精彩片段。M也来到了我的节目现场。
+
+00:34:52.780 --> 00:35:19.260
+<v Ira Glass>And so now we get to an incredible part of the story, which is the trial, because for the first time, Masha, you get to hear the details of how Allen arranged for the hit on his own wife, and you actually get to hear the undercover recordings of Allen meeting with the supposed hitman, who's actually an FBI agent. And just explain, why was this FBI man meeting with Allen in the first place?
+<v Ira Glass>那么现在我们来到了故事中不可思议的一部分，也就是庭审。因为马莎，你第一次听到了艾伦如何筹划买凶谋杀自己妻子的细节，你实际上听到了艾伦与假扮杀手的卧底——其实是一名FBI特工——会面的秘密录音。请给我们解释一下，这个FBI特工一开始为什么要跟艾伦见面？
+
+00:35:19.260 --> 00:35:48.580
+<v M. Gessen>So this is something that began as a money laundering investigation into this guy named Alex Kisolov, who was one of Allen's business partners. And then this business partner asks one of these agents, who he thinks is a mobster, but also maybe connected to the government somehow-- it's not clear what he thinks the guy is. So the business partner asks them to help Allen out because Allen has a problem with his ex-wife.
+<v M. Gessen>这其实是一起洗钱调查的延伸，调查对象是一个叫亚历克斯·基索洛夫的家伙，他是艾伦的商业伙伴之一。然后这个商业伙伴向其中一名特工求助，他以为这个特工是个黑帮分子，但也觉得他可能跟政府有什么关系——目前还不清楚他到底把对方当成了什么人。于是这个商业伙伴请他们帮艾伦一把，因为艾伦和前妻之间有些麻烦。
+
+00:35:48.580 --> 00:36:06.340
+<v M. Gessen>And that's how we get to this meeting between Allen and the undercover, who is going by the name David. And so Allen thinks that he's meeting with David to arrange to bribe a government official to get Priscilla deported.
+<v M. Gessen>这就是为什么会促成艾伦与化名为大卫的卧底特工之间的这次会面。所以艾伦以为他跟大卫见面是为了安排行贿政府官员，好把普莉希拉驱逐出境。
+
+00:36:06.340 --> 00:36:28.300
+<v David>This is UCE 4-7-3-5, and today is Thursday, June 2, 2022. It's approximately 11:55 AM, and this is a recording with Allen Gessen. The meeting is taking place at the Boca Raton Resort, Boca Raton, Florida.
+<v David>这是UCE 4-7-3-5，今天是2022年6月2日，星期四。时间大约是上午11点55分，这是一份与艾伦·格森有关的录音。会面地点位于佛罗里达州博卡拉顿的博卡拉顿度假村。
+
+00:36:28.300 --> 00:36:46.780
+<v M. Gessen>David had told Allen to meet him at the Boca Raton in Boca Raton-- you know those places that added "The" to the name of the actual place to indicate that it's everything you ever imagined, but so much more. This resort has 19 bars and restaurants and four beach options. The Boca Raton.
+<v M. Gessen>大卫让艾伦在博卡拉顿的“博卡拉顿”见——你知道那些喜欢在真实地名前面加个“The”字的地方，以此暗示这里就是你梦寐以求、甚至还要好上无数倍的人间天堂。这个度假村拥有19家酒吧和餐厅，以及4处海滩可供选择。这就是“The Boca Raton”。
+
+00:36:46.780 --> 00:37:02.680
+<v M. Gessen>Allen drives up in a white rental car, an Audi sedan. The jury was shown surveillance photos. He meets David in the lobby, which is like an Italian castle, Florida version. David is wearing a wire, which as you're about to hear, is not great for field recording.
+<v M. Gessen>艾伦开着一辆白色租来的奥迪轿车驶来。陪审团看到了监控照片。他在大堂里见到了大卫，大堂看起来就像是一座意大利城堡的佛罗里达版本。大卫身上带着窃听器，正如你接下来会听到的那样，这对于现场录音来说可算不上什么好事。
+
+00:37:02.680 --> 00:37:05.240
+<v David>Yeah, Allen. Hey sorry. How are you?
+<v David>对，艾伦。嘿，抱歉。你好吗？
+
+00:37:05.240 --> 00:37:05.740
+<v Allen>How are you.
+<v Allen>你好。
+
+00:37:05.640 --> 00:37:06.400
+<v David>How you doing?
+<v David>最近怎么样？
+
+00:37:06.400 --> 00:37:06.980
+<v Allen>Good.
+<v Allen>很好。
+
+00:37:06.980 --> 00:37:21.780
+<v M. Gessen>They fist bump. Allen is wearing what looks like a black cashmere sweater. David is dressed in all black, polo shirt, shiny, pointy black shoes. They're not dressed for Florida. Everyone around them is wearing light colors, but they're dressed to perform their roles.
+<v M. Gessen>他们碰了碰拳。艾伦穿着一件看起来像是黑色羊绒衫的衣服。大卫则是全身黑打扮，穿着Polo衫，脚踩锃亮的尖头皮鞋。他们的穿着一点也不像是在佛罗里达。他们周围的每个人都穿着浅色衣服，但他们俩的穿着显然是为了扮演各自的角色。
+
+00:37:21.780 --> 00:37:32.900
+<v M. Gessen>Allen is being international man of mystery. David is going full mafioso. They're macho. They're gangsters. They are The Allen and The David at The Boca Raton.
+<v M. Gessen>艾伦在扮演国际神秘间谍。大卫则完全进入了黑手党角色。他们都很阳刚。他们是黑帮分子。他们是博卡拉顿的艾伦和大卫。
+
+00:37:32.900 --> 00:37:33.920
+<v David>Yeah, how are you?
+<v David>对，你好吗？
+
+00:37:33.920 --> 00:37:34.420
+<v Allen>Excellent.
+<v Allen>好极了。
+
+00:37:34.340 --> 00:37:35.800
+<v David>Thanks for coming up. I appreciate it.
+<v David>谢谢你赶来。我很感激。
+
+00:37:35.800 --> 00:37:36.680
+<v Allen>No, 100%.
+<v Allen>不，百分之百。
+
+00:37:36.680 --> 00:37:37.480
+<v David>Yeah, yeah.
+<v David>对，对。
+
+00:37:37.480 --> 00:37:40.340
+<v Allen>I realized my picture had a period than this.
+<v Allen>我意识到我的照片比这个要早一段时间。
+
+00:37:40.340 --> 00:37:41.560
+<v David>I was like, what's going on--
+<v David>我当时想，这到底是怎么回事——
+
+00:37:41.560 --> 00:37:54.540
+<v M. Gessen>They take a shuttle to one of The Boca Raton's restaurants, the Marisol, where the seating is couches in earth tones and the view is beach umbrellas as far as the eye can see. On the way, Allen summarizes his very impressive career.
+<v M. Gessen>他们坐摆渡车去博卡拉顿的一家餐厅——玛丽索尔餐厅，那里的座位是大地色系的沙发，放眼望去能看到无边无际的海滩遮阳伞。在路上，艾伦总结了他那非常了不起的职业生涯。
+
+00:37:54.540 --> 00:38:04.500
+<v Allen>In 2010, I started a massive diamond mining project in South Africa, [INAUDIBLE] Congo, Angola, and Namibia. We had several miles--
+<v Allen>2010年，我在南非、[听不清]刚果、安哥拉和纳米比亚启动了一个大规模的钻石开采项目。我们拥有好几英里——
+
+00:38:04.500 --> 00:38:11.300
+<v M. Gessen>Millions of dollars, some misadventures, and a triumph or two later, Allen gets to the story of his marriage.
+<v M. Gessen>几百万美元、几场冒险，以及经历了一两次成功之后，艾伦切入了关于他婚姻的故事。
+
+00:38:11.300 --> 00:38:20.580
+<v Allen>But I got-- but I went to Zimbabwe once to explore some opportunities there and met this incredibly beautiful woman, which was the end of me.
+<v Allen>但我——但我有一次去了津巴布韦去探索一些商机，然后遇到了这个美得不可方物的女人，那就是我这一生的终结。
+
+00:38:20.580 --> 00:38:21.960
+<v David>Miss Priscilla?
+<v David>普莉希拉女士？
+
+00:38:21.960 --> 00:38:23.180
+<v Allen>Yeah.
+<v Allen>对。
+
+00:38:23.180 --> 00:38:28.900
+<v David>Listen, I always say it's the bitches that'll get you. It sounds like your problem. Yeah.
+<v David>听着，我总是说，能毁了你的往往就是这些臭娘们。听起来这就是你的麻烦所在。对。
+
+00:38:28.900 --> 00:38:39.820
+<v M. Gessen>David testified in court that the character he was playing was crass. He seemed to have that part down. At the restaurant, it's David's turn to talk about how impressive and real he is.
+<v M. Gessen>大卫在法庭上作证说，他当时扮演的角色是个粗俗的人。他似乎把这个特点拿捏得很到位。在餐厅里，轮到大卫吹嘘自己有多么牛、背景有多么真实了。
+
+00:38:39.820 --> 00:39:01.080
+<v David>So we have a lot of, obviously, business in South America. I'm sure Alex has told you. So my clients are in Cartagena. They're all-- I'm going to tell you right now, they're all cartel-level guys. They're all badasses. They are the real deal. When I talk-- they don't have "fuck you" money. They have "fuck everyone" money. You're talking hundreds of millions of dollars.
+<v David>所以我们在南美洲显然有很多业务。我确信亚历克斯已经跟你说过。所以我的客户都在卡塔赫纳。他们全都——我直接跟你说吧，他们全都是贩毒集团级别的人物。他们全都是狠角色。他们是来真的。当我说——他们可不是什么有点闲钱的货色。他们是有能力让所有人都滚蛋的钱。那是数以亿计的美元。
+
+00:39:01.080 --> 00:39:17.220
+<v David>I don't touch the product side. I don't want to-- I don't want to have anything fucking to do with the fucking coke. I don't want to do anything with any of that shit. But I just do the money stuff. I set up companies and we launder money and that's it. And it's been great. I've been doing it for 15, 20 years.
+<v David>我可不碰毒品那块。我不想——我他妈才不想跟什么该死的白粉扯上任何狗屁关系。我不想跟任何那种破事沾边。我只负责处理钱的业务。我成立公司，我们洗钱，就这样。而且效果一直很好。我已经干了15年、20年了。
+
+00:39:17.220 --> 00:39:28.220
+<v M. Gessen>Having established they're gangster bonafides, Allen and the undercover talk business. There are two items on the agenda, the bulletproof vest factory Allen wants to build, and Priscilla.
+<v M. Gessen>在确立了彼此的黑帮资历之后，艾伦和卧底开始谈正事。议程上有两项，一是艾伦想要建造的防弹衣工厂，二是普莉希拉。
+
+00:39:28.220 --> 00:39:51.140
+<v David>Look, I understand through Alex that you have some problems. I get it. We have a solution for you. But I guess the question is, in a perfect world, tell me what you want. Tell me what you, like-- and there's a blank slate. Just tell me what you want.
+<v David>听着，我通过亚历克斯了解到你遇到了一些麻烦。我懂。我们有办法为你解决。但我想问题在于，在一个完美的世界里，告诉我你想要什么。告诉我你，比如——这完全是一张白纸。你只要告诉我你想要什么。
+
+00:39:51.140 --> 00:39:55.500
+<v M. Gessen>Allen says he wants Priscilla deported. He needs this for peace of mind.
+<v M. Gessen>艾伦说他想把普莉希拉驱逐出境。他需要这个来换取内心的平静。
+
+00:39:55.500 --> 00:39:57.900
+<v Allen>And not be able to come and harass us.
+<v Allen>而且不能再来骚扰我们。
+
+00:39:57.900 --> 00:39:59.440
+<v David>All right.
+<v David>好的。
+
+00:39:59.440 --> 00:40:23.180
+<v M. Gessen>He doesn't want her to, quote, "be able to come and harass us ever again." He then explains what he means by harass. A few months earlier, Priscilla had the nerve to tell the police that he had kidnapped O. But he had in fact been arrested for taking O across the border to Canada and spent five weeks in jail, and was now awaiting trial on kidnapping charges. He tells David, let's just say that I'm a little bit pissed off.
+<v M. Gessen>他不想让她，引述原话，“再也无法来骚扰我们”。接着他解释了“骚扰”是什么意思。几个月前，普莉希拉竟然有胆量报警说他绑架了O。但事实上，他当时是因为带着O跨越边境去加拿大而被捕的，在监狱里呆了五周，目前正面临绑架罪的指控等待审判。他告诉大卫，咱们这么说吧，我其实有点被惹火了。
+
+00:40:23.180 --> 00:40:25.180
+<v Allen>Let's just say that I'm a little bit pissed off.
+<v Allen>咱们这么说吧，我其实有点被惹火了。
+
+00:40:25.180 --> 00:40:26.720
+<v David>Yeah, yeah, no, I get it. Yeah.
+<v David>对，对，不，我懂。对。
+
+00:40:26.720 --> 00:40:32.920
+<v Allen>But it's a woman who will go the length of the world to make my life miserable.
+<v Allen>但这是一个会为了让我的生活变得痛苦而不惜走遍天涯海角的女人。
+
+00:40:32.920 --> 00:40:33.460
+<v David>Yeah.
+<v David>对。
+
+00:40:33.460 --> 00:40:39.920
+<v M. Gessen>"But it's a woman who will go the length of the world to make my life miserable," Allen says. Women, am I right?
+<v M. Gessen>“但这是一个会为了让我的生活变得痛苦而不惜走遍天涯海角的女人，”艾伦说道。女人嘛，我说的对吧？
+
+00:40:39.920 --> 00:41:12.580
+<v David>Yeah I'm telling you, man. Yeah, like I said, historically, over time, men have made the worst decisions, you know, when it comes to women. You know, I don't know what it is, that aphrodisiac, it's that weakness, our Achilles heel. But yeah, I understand that. I wish I'd have known you earlier, because a lot of that shit we could have cleaned up. There's no doubt about that. Let's just put it this way, that would never have happened in my family.
+<v David>对，我跟你说，老弟。对，就像我说的，从历史上看，随着时间的推移，男人在涉及女人时总是会做出最糟糕的决定，你知道的。你知道，我不知道那是什么，那种催情剂，那就是软肋，我们的阿喀琉斯之踵。但是，是的，我理解。我要是早点认识你就好了，因为那些破事里有很多我们本来都可以帮他清理干净的。毫无疑问。咱们这么说吧，这种事在我的家族里是绝对不会发生的。
+
+00:41:12.580 --> 00:41:30.100
+<v M. Gessen>Amid all this, bro-y, gangstery, hot air, the vaguest outlines of a plan appear. A bribe will be paid. Some government officials will pull some strings, and Priscilla will be ordered to leave the country. And it will cost $100,000. At first, Allen seems taken aback by the price tag.
+<v M. Gessen>在所有这些充满兄弟情、黑帮气派、虚张声势的空话中间，一个计划的最初轮廓浮现了。将支付一笔贿赂。一些政府官员会动用一些关系，普莉希拉将被勒令离开这个国家。这将花费10万美元。起初，艾伦似乎被这个价码吓了一跳。
+
+00:41:30.100 --> 00:41:31.060
+<v David>OK.
+<v David>好的。
+
+00:41:31.060 --> 00:41:42.440
+<v Allen>Now, I'll need to check with Alex because he was going to handle the material side of things. Because he never mentioned to me any-- like, he didn't mention to me the payment side.
+<v Allen>现在，我需要跟亚历克斯确认一下，因为他本来负责处理物质方面的事情。因为他从来没跟我提过任何——比如，他没跟我提过付款这一块。
+
+00:41:42.440 --> 00:41:47.780
+<v M. Gessen>Kisolov didn't discuss the money with Allen, he explains, but he quickly recovers from the sticker shock.
+<v M. Gessen>他解释说，基索洛夫没有和艾伦谈过钱的事，但他很快就从被价格惊到的状态中恢复过来了。
+
+00:41:47.780 --> 00:41:49.520
+<v Allen>The price is eminently reasonable.
+<v Allen>这个价格非常合理。
+
+00:41:49.520 --> 00:41:50.020
+<v David>OK.
+<v David>好的。
+
+00:41:49.900 --> 00:41:52.660
+<v Allen>For what it's worth. So there's no question that it's--
+<v Allen>物有所值。所以毫无疑问——
+
+00:41:52.660 --> 00:41:53.160
+<v David>Right.
+<v David>对。
+
+00:41:52.960 --> 00:41:53.840
+<v Allen>--it's a good investment.
+<v Allen>——这是一笔划算的投资。
+
+00:41:53.840 --> 00:41:59.980
+<v M. Gessen>A good investment. Allen's done the math. He'd pay more in child support.
+<v M. Gessen>一笔划算的投资。艾伦已经算过账了。他付的抚养费会更多。
+
+00:41:59.980 --> 00:42:01.900
+<v Allen>I'll pay more in child support.
+<v Allen>我要付更多的抚养费。
+
+00:42:01.900 --> 00:42:04.740
+<v David>Oh, yeah. You would. Yeah, I can guarantee you.
+<v David>哦，是的。你确实会。对，我向你保证。
+
+00:42:04.740 --> 00:42:06.360
+<v Allen>If it didn't happen--
+<v Allen>如果这件事没办成的话——
+
+00:42:06.360 --> 00:42:07.060
+<v David>Yeah.
+<v David>对。
+
+00:42:07.060 --> 00:42:41.460
+<v M. Gessen>After everything Priscilla had gone through to get to the US to see her son again, Allen was going to send her back to Zimbabwe. After everything O had gone through, being separated from his mother for two and a half years, meeting her again, watching his father get arrested, going to live with his mother and a sister he barely knew, Allen was going to yank him away from Priscilla again. And he was going to deprive L, who was three, of the only parent she had ever known, all for the eminently reasonable price of $100,000.
+<v M. Gessen>在普莉希拉历经千辛万苦来到美国再次见到她的儿子之后，艾伦却要把她送回津巴布韦。在O经历了与母亲分离两年半、再次相见、目睹父亲被捕、和母亲以及一个他几乎不认识的姐姐一起生活之后，艾伦又要残忍地把他从普莉希拉身边夺走。而且他还要剥夺三岁的L唯一认识的父母的陪伴，这一切仅仅是为了一个极其合理的10万美元的价格。
+
+00:42:41.460 --> 00:43:06.460
+<v M. Gessen>And we hadn't even gotten to the murder-for-hire plot yet. So on the tape, Allen and David move on to the details of the bulletproof vest factory scheme. This part of the conversation goes a little less smoothly. Allen had it all figured out. They'd get US government funding and build a factory, and he thought David was in a position to get him that money.
+<v M. Gessen>而我们甚至还没聊到买凶杀人的阴谋。因此在录音中，艾伦和大卫转而讨论防弹衣工厂计划的细节。这部分的谈话就没那么顺利了。艾伦把一切都计划好了。他们会获得美国政府的资金并建起一座工厂，他以为大卫有能力帮他搞到这笔钱。
+
+00:43:06.460 --> 00:43:33.740
+<v M. Gessen>David, though, is much more interested in the bribe part. In court, he testified that he went to the meeting expecting to talk about the deportation scheme, not the factory, but he is nimble. He tells Allen that he could bring in money from the Colombian drug cartels to invest in the factory. Remember, the FBI has been trying for years to get Kisolov and now Allen on money laundering. But Allen isn't really incriminating himself. He actually expresses some concerns about the drug money.
+<v M. Gessen>不过，大卫对行贿部分更感兴趣。在法庭上，他作证说他去开会时以为是来谈驱逐出境计划的，而不是工厂，但他随机应变能力很强。他告诉艾伦，他可以引入哥伦比亚贩毒集团的资金来投资这家工厂。记住，FBI多年来一直试图以洗钱罪逮捕基索洛夫，现在则是艾伦。但艾伦并没有真正自证其罪。他实际上对毒品资金表达了一些担忧。
+
+00:43:33.740 --> 00:43:56.840
+<v M. Gessen>After an hour or so, the conversation turns back to Priscilla. Allen says, quote, "the first order of business is to get her the fuck out of here," end quote. To get Priscilla deported, or-- and this is where he suddenly, offhandedly, turns the conversation in a different direction. This is the heart of the prosecution's case. Let's listen carefully.
+<v M. Gessen>大约一个小时后，谈话重新回到了普莉希拉身上。艾伦说，引述原话，“首要任务是把她他妈的弄出这儿”，引述结束。为了把普莉希拉驱逐出境，或者——也就是在这里，他突然漫不经心地把谈话引向了一个不同的方向。这就是控方证据的核心。让我们仔细听听。
+
+00:43:56.840 --> 00:43:57.580
+<v David>Yeah.
+<v David>对。
+
+00:43:57.580 --> 00:44:00.300
+<v Allen>Incidentally, if there's a cheaper way to get rid of her, I'm happy to do it, of course.
+<v Allen>顺便说一句，如果有更便宜的方法能除掉她，我当然很乐意这么做。
+
+00:44:00.300 --> 00:44:02.860
+<v M. Gessen>If there's a cheaper way to get rid of her.
+<v M. Gessen>如果有更便宜的方法能除掉她。
+
+00:44:02.860 --> 00:44:09.940
+<v David>I mean, listen, I have family in your area.
+<v David>我的意思是，听着，我在你们地区有家人。
+
+00:44:09.940 --> 00:44:25.900
+<v M. Gessen>Remember, David is supposed to be a mafioso. That's the kind of family he's talking about. A minute later, he will refer to friends in the North End, historically an Italian neighborhood in Boston. He is opening, for Allen, a door to the underworld.
+<v M. Gessen>记住，大卫应该扮演一个黑手党成员。这就是他所说的“家人”的意思。一分钟后，他会提到在北区（North End）的朋友，北区在历史上是波士顿的一个意大利人聚居区。他正在为艾伦打开一扇通往地下世界的大门。
+
+00:44:25.900 --> 00:44:35.180
+<v David>So, I don't know how to say this, but there is a cheaper way and probably a more permanent way to do it, but--
+<v David>所以，我不知道该怎么说，但有一个更便宜、可能也更永久的方法可以做到这一点，不过——
+
+00:44:35.180 --> 00:44:39.780
+<v M. Gessen>A more permanent way. In case Allen didn't understand what David was getting at--
+<v M. Gessen>一种更彻底的方法。万一艾伦没听懂大卫的暗示——
+
+00:44:39.780 --> 00:44:40.360
+<v Allen>She's dead.
+<v Allen>她死掉。
+
+00:44:40.360 --> 00:44:42.900
+<v David>Yeah. I mean, that's up to you.
+<v David>对。我的意思是，这取决于你。
+
+00:44:42.900 --> 00:44:45.380
+<v Allen>Uh, I would like to proceed.
+<v Allen>呃，我想继续进行。
+
+00:44:45.380 --> 00:44:46.680
+<v M. Gessen>Allen would like to proceed.
+<v M. Gessen>艾伦想要继续进行。
+
+00:44:46.680 --> 00:44:47.180
+<v David>That route?
+<v David>走那条路？
+
+00:44:47.180 --> 00:44:49.620
+<v Allen>Yeah.
+<v Allen>对。
+
+00:44:49.620 --> 00:45:13.180
+<v M. Gessen>The time that elapses between the agent saying, "that's up to you" and Allen's agreement to "proceed" with the more permanent option is a fraction of a second. He doesn't take a breath. He doesn't pretend to consider the decision. He doesn't double check that he understood the agent correctly. He doesn't even ask how much money he'll save by going for the cheaper option. He jumps right in with both feet.
+<v M. Gessen>卧底特工说“这取决于你”与艾伦同意“继续”采用那个更一劳永逸的方案之间，间隔的时间只有零点几秒。他没有深吸一口气。他没有假装考虑这个决定。他没有再次确认自己是否听懂了特工的话。他甚至没有问选择便宜的方案能省多少钱。他毫不犹豫地一头扎了进去。
+
+00:45:13.180 --> 00:45:40.260
+<v M. Gessen>And then it gets worse. Allen says that he had looked into this more permanent option before, that he talked to Israelis, and Eastern Europeans, and Italians, and the lowest estimate he got was $220,000. The prosecutor stopped the tape and repeated what Allen had said. "I researched my sources. The lowest price was 220. And then that is run through the Israelis and Eastern Europe and Italy."
+<v M. Gessen>然后情况更糟了。艾伦说他以前了解过这个更一劳永逸的方案，他跟以色列人、东欧人和意大利人谈过，他得到的最低报价是22万美元。检察官暂停了录音，重复了艾伦说过的话。“我调查过我的渠道。最低价格是22万。然后这通过以色列人、东欧和意大利人来操作。”
+
+00:45:40.260 --> 00:46:01.700
+<v M. Gessen>She asked the undercover agent what he had understood Allen to be saying. The agent answered, "my understanding was that Mr. Gessen had already researched the option to kill his wife and had been in conversation, or had done some research with other organized crime syndicates, in this case Israelis or Eastern Europe, for the price of $220,000."
+<v M. Gessen>她问卧底特工，他当时理解艾伦在说些什么。特工回答说：“我的理解是，盖森先生已经研究过杀害他妻子的方案，并且已经跟其他有组织犯罪集团沟通过，或者做过一些调查，在这个案子里是以色列人或东欧人，价格是22万美元。”
+
+00:46:01.700 --> 00:46:10.660
+<v M. Gessen>The agent, who had worked on murder-for-hire cases before, testified in court that it was cheap. He'd seen people agree to kill someone for as little as $200.
+<v M. Gessen>这位处理过谋杀雇凶案的特工在法庭上作证说，这很便宜。他见过有人答应杀一个人只要200美元。
+
+00:46:10.660 --> 00:46:12.140
+<v David>If that's what you want you have to tell me.
+<v David>如果你想要那个，你得告诉我。
+
+00:46:12.140 --> 00:46:29.300
+<v M. Gessen>On the tape, David assures Allen that his friends on the north end are more dependable and affordable than those other guys, the Israelis or the Eastern Europeans, and adds that they can get the job done quickly. Allen likes this, and he clarifies, more definite.
+<v M. Gessen>在录音中，大卫向艾伦保证，他在北区的那些朋友比其他人——那些以色列人或东欧人——更靠谱、更实惠，并补充说他们能快刀斩乱麻。艾伦很喜欢这样，他明确指出，要更明确。
+
+00:46:29.300 --> 00:46:31.300
+<v Allen>And more-- and more definite.
+<v Allen>而且更——更明确。
+
+00:46:31.300 --> 00:46:33.460
+<v David>Permanent.
+<v David>一劳永逸。
+
+00:46:33.460 --> 00:46:47.180
+<v M. Gessen>The prosecutor asked, "when you heard Mr. Gessen say, and more definite, what was your understanding of that?" The agent answered, "more definite is permanent, dead."
+<v M. Gessen>检察官问：“当你听到盖森先生说‘更明确’时，你的理解是什么？”特工回答说：“更明确就是一劳永逸，死。”
+
+00:46:47.180 --> 00:47:06.260
+<v M. Gessen>I'd seen FBI agents testify in court before. Often I've been skeptical. Their interpretations of what people say to them can be far-fetched. Their entrapment techniques are often crude and mendacious. I've seen cases where the undercover agent talks a person into a crime they had no intention of committing. But this was different.
+<v M. Gessen>我以前在法庭上见过联邦调查局特工作证。我经常持怀疑态度。他们对别人对他们说的话的解读有时会很牵强。他们的诱捕手段通常也很粗糙、虚伪。我见过卧底特工劝说某人去犯罪，而那个人本无意犯罪。但这次不一样。
+
+00:47:06.260 --> 00:47:24.980
+<v M. Gessen>I couldn't imagine any alternative interpretation of the tape I'd just heard. Allen wanted Priscilla killed, and he wanted David to know that he wanted Priscilla killed. He said that with the bribery scheme, he was worried that Priscilla could fight her deportation in court and maybe even win. Murder is better than deportation that way.
+<v M. Gessen>对于我刚刚听到的录音，我想不出任何别的解释。艾伦想让普莉西拉去死，而且他想让大卫知道他想让普莉西拉去死。他说，相比于贿赂计划，他担心普莉西拉会在法庭上抗争她的驱逐令，甚至可能赢。从这个角度来看，谋杀比驱逐出境更好。
+
+00:47:24.980 --> 00:47:40.980
+<v David>Of course, that's-- we could handle that. I just didn't know what your appetite for that was. But if you feel that way we can make that happen. It will be very clean, it'll be quick, and it will be final. But you gotta tell me if that's the route that you want to take.
+<v David>当然，那是——我们可以处理。我只是不知道你对那种事的胃口有多大。但如果你有这种感觉，我们可以把它变成现实。它会非常干净利落，会很快，而且是最终结果。但你必须告诉我，这是不是你想选的路线。
+
+00:47:40.980 --> 00:47:45.740
+<v Allen>My single concern is, I need to be sure that you cannot possibly [? hurt ?] the kids.
+<v Allen>我唯一的顾虑是，我需要确定你们绝对不会[？伤害？]孩子们。
+
+00:47:45.740 --> 00:47:46.740
+<v David>No.
+<v David>不。
+
+00:47:46.740 --> 00:47:52.420
+<v M. Gessen>This is the only thing that gives Allen pause. He doesn't want the kids to see their mother getting killed.
+<v M. Gessen>这是唯一让艾伦犹豫不决的事情。他不想让孩子们看到他们的母亲被杀。
+
+00:47:52.420 --> 00:47:59.000
+<v David>No, no, no. God, please. Yeah, no, no. No, we're all family men. Like, this is strictly business.
+<v David>不，不，不。天哪，拜托。对，不，不。不，我们都是有家室的男人。就像，这纯粹是生意。
+
+00:47:59.000 --> 00:48:07.160
+<v Allen>OK, because that was my one concern with that route is that I want to make sure that whoever does this, will make sure it's--
+<v Allen>好吧，因为那是我对那条路线唯一的顾虑，我想确保做这件事的人，会确保它——
+
+00:48:07.160 --> 00:48:12.220
+<v David>No, no, no, no, no, no. No. This would be a very clean, professional job.
+<v David>不，不，不，不，不，不。不。这将是一份非常干净利落、专业的工作。
+
+00:48:12.220 --> 00:48:15.380
+<v M. Gessen>Reassured, Allen asks about the cost.
+<v M. Gessen>吃下定心丸后，艾伦打听起费用来。
+
+00:48:15.380 --> 00:48:19.200
+<v David>I think it's probably half the cost, to tell you the truth. Yeah.
+<v David>说实话，我觉得这大概是一半的费用。对。
+
+00:48:19.200 --> 00:48:20.840
+<v Allen>It's much easier, much easier.
+<v Allen>容易得多，容易得多。
+
+00:48:20.840 --> 00:48:21.340
+<v David>OK.
+<v David>好吧。
+
+00:48:21.340 --> 00:48:22.620
+<v Allen>Very happy to proceed with it.
+<v Allen>很高兴继续进行。
+
+00:48:22.620 --> 00:48:23.460
+<v David>OK.
+<v David>好吧。
+
+00:48:23.460 --> 00:48:29.260
+<v M. Gessen>"Very happy to proceed with it."
+<v M. Gessen>“很高兴继续进行。”
+
+00:48:29.260 --> 00:48:56.340
+<v M. Gessen>What a productive meeting for the undercover agent. He came for bribery and was leaving with murder for hire. Now he just needed Allen to confirm that he intended to go through with it so that when Allen eventually went to trial, he couldn't say that he was misunderstood. And now, here we were at that trial, listening to and looking at all the times and all the ways Allen said that, yes, he really meant it. He wanted Priscilla killed.
+<v M. Gessen>对卧底特工来说，这是一次多么富有成效的会面啊。他本来是来查贿赂的，结果却接下了雇凶杀人的活儿。现在他只需要艾伦确认他打算把这事进行到底，这样当艾伦最终受审时，他就不能说自己被误解了。现在，我们来到了那场审判中，听着并看着艾伦说“是的，他是认真的”所有时刻和所有方式。他想要普莉西拉去死。
+
+00:48:56.340 --> 00:48:59.340
+<v David>Well, you have to be sure that this is what you're-- OK, all right.
+<v David>好吧，你得确定这就是你所——好吧，行吧。
+
+00:48:59.340 --> 00:49:06.800
+<v M. Gessen>This is the first time. The agent asks Allen if he is sure. And Allen says, "I'm sure." And he adds--
+<v M. Gessen>这是第一次。特工问艾伦是不是确信。艾伦说：“我很确信。”他还补充说——
+
+00:49:06.800 --> 00:49:08.190
+<v Allen>I'm sure.
+<v Allen>我很确信。
+
+00:49:08.190 --> 00:49:09.390
+<v M. Gessen>I'm sure.
+<v M. Gessen>我很确信。
+
+00:49:09.390 --> 00:49:11.480
+<v Allen>This is not like a spur of the moment or emotional reaction.
+<v Allen>这不像是头脑发热或情绪化的反应。
+
+00:49:11.480 --> 00:49:22.150
+<v David>No, no, no. This sounds like it's been well thought out. Listen yeah, I didn't want to-- I'm glad we talked about it, because that's-- honestly, that's the way I would have handled it. But that's the-- you gotta be comfortable with it, right?
+<v David>不，不，不。这听起来经过了深思熟虑。听着，对，我不想——我很高兴我们谈了谈，因为那是——老实说，这就是我会处理的方式。但那是——你得对此感到自在，对吧？
+
+00:49:22.150 --> 00:49:22.650
+<v Allen>I'm comfortable.
+<v Allen>我很自在。
+
+00:49:22.530 --> 00:49:25.350
+<v David>OK, good. All right.
+<v David>好的，很好。行。
+
+00:49:25.350 --> 00:49:30.450
+<v M. Gessen>Allen says that this is not an emotional decision, not spur of the moment. He is comfortable with it.
+<v M. Gessen>艾伦说这不是一个情绪化的决定，也不是一时冲动。他对此感到心安。
+
+00:49:30.450 --> 00:49:32.750
+<v David>Sometimes they dig their own fucking grave.
+<v David>有时他们是在自掘他妈的坟墓。
+
+00:49:32.750 --> 00:49:33.250
+<v Allen>Don't fuck with me.
+<v Allen>别跟我耍花招。
+
+00:49:33.230 --> 00:49:34.230
+<v David>Right, yeah.
+<v David>对，没错。
+
+00:49:34.230 --> 00:49:48.230
+<v M. Gessen>"Don't fuck with me." There's a bit more back and forth. David will need pictures of Priscilla, location, everything for the people who'll do the job. And then, just like that, Allen is showing David pictures of the kids.
+<v M. Gessen>“别跟我耍花招。”还有一些来来回回的对话。大卫需要普莉西拉的照片、地址，以及执行任务的人所需要的一切。然后，就这样，艾伦开始向大卫展示孩子们的照片。
+
+00:49:48.230 --> 00:49:49.590
+<v Allen>This is my son.
+<v Allen>这是我儿子。
+
+00:49:49.590 --> 00:49:51.030
+<v David>Ah, what's his name?
+<v David>啊，他叫什么名字？
+
+00:49:51.030 --> 00:49:56.400
+<v Allen>His name is [BLEEP] And then here's my daughter.
+<v Allen>他叫[哔]。然后这是我女儿。
+
+00:49:56.400 --> 00:49:59.060
+<v David>Beautiful. Gorgeous.
+<v David>漂亮。美极了。
+
+00:49:59.060 --> 00:50:00.570
+<v Allen>We're just getting to know each other.
+<v Allen>我们才刚开始了解彼此。
+
+00:50:00.570 --> 00:50:02.780
+<v David>Yeah, gorgeous.
+<v David>对，美极了。
+
+00:50:02.780 --> 00:50:04.150
+<v Allen>Beautiful kids.
+<v Allen>漂亮的孩子。
+
+00:50:04.150 --> 00:50:05.750
+<v David>Whose dog is that?
+<v David>那是谁的狗？
+
+00:50:05.750 --> 00:50:27.710
+<v M. Gessen>Beautiful kids, beautiful poodle, beautiful life. The only problem is Priscilla. Surely, after seeing these photos, David would see what a great father Allen was. Surely, he would feel even better about helping Allen get rid of the fly in the ointment. But David has a question. What is this going to do to the kids emotionally?
+<v M. Gessen>漂亮的孩子，漂亮的贵宾犬，美好的生活。唯一的问号是普莉西拉。当然，看了这些照片后，大卫会看出艾伦是个多么伟大的父亲。当然，对于帮艾伦除掉这个绊脚石，他会感觉更好了。但大卫有一个问题。这会对孩子们的情绪造成什么影响？
+
+00:50:27.710 --> 00:50:41.790
+<v David>How do we protect the kids? I guess they're too young too. They're young too. But how do we-- how do we protect the kids? Look, they're going to lose their mother, right? She's fucking gone. How do we protect the kids?
+<v David>我们怎么保护孩子？我猜他们也太小了。他们也很小。但我们怎么——我们怎么保护孩子？听着，他们要失去母亲了，对吧？她他妈的没了。我们怎么保护孩子？
+
+00:50:41.790 --> 00:50:44.070
+<v Allen>As long as they're not witness to violence.
+<v Allen>只要他们没亲眼目睹暴力。
+
+00:50:44.070 --> 00:50:48.790
+<v M. Gessen>"As long as they're not witness to violence." That's the word he used. Violence.
+<v M. Gessen>“只要他们没亲眼目睹暴力。”这是他用的词。暴力。
+
+00:50:48.790 --> 00:51:14.910
+<v David>No. They're not. They won't be. Yeah, they won't be. I mean, she'll be taken out without them present. Then I guess you can explain how you explain it. But just know that now that I'm seeing pictures of that, I just want to make sure that they're OK. I got a heart, too. Like I fucking-- don't get me wrong, I'll flip the light switch when I need to. But when I look at those kids like that, they're beautiful to me. I just want to make sure they're OK.
+<v David>不。他们不会的。他们不会的。对，他们不会的。我的意思是，她会在他们不在场的情况下被带走。然后我想你可以解释你怎么解释。但要知道，现在我看到了这些照片，我只想确保他们没事。我也有心。就像我他妈的——别误会我，需要的时候我能翻脸不认人。但当我看着这样的孩子时，我觉得他们很美。我只想确保他们没事。
+
+00:51:14.910 --> 00:51:35.350
+<v M. Gessen>The undercover agent is methodical. He keeps coming closer to saying "she will be killed." And he keeps pushing Allen to consider the hypothetical stakes. The children will lose their mother forever. Allen blithely keeps incriminating himself. As long as the kids wouldn't see the murder happen, he didn't have other concerns.
+<v M. Gessen>这位卧底特工很有条理。他一步步接近说出“她会被杀”。他不断敦促艾伦考虑假设中的利害关系。孩子们将永远失去母亲。艾伦却轻率地不断自证其罪。只要孩子们看不到谋杀的过程，他就没有别的顾虑了。
+
+00:51:35.350 --> 00:51:41.870
+<v M. Gessen>They wrap up their meeting. Allen has a plane to catch. The undercover agent has a lot to work with.
+<v M. Gessen>他们的会面结束了。艾伦要赶飞机。卧底特工有很多材料可以利用。
+
+00:51:41.870 --> 00:51:56.830
+<v David>This is UC 4735, and today is Thursday, June 2, 2022. And this is the conclusion of a recorded conversation with Allen Gessen.
+<v David>这是UC 4735，今天是2022年6月2日，星期四。这是与艾伦·盖森录音对话的结束。
+
+00:51:56.830 --> 00:52:01.150
+<v Ira Glass>So that all sounds very damning and very conclusive.
+<v Ira Glass>所以这一切听起来都非常罪证确凿，非常具有决定性。
+
+00:52:01.150 --> 00:52:39.290
+<v M. Gessen>Yeah and then a few other people testified against Allen, including Priscilla. And then Allen took the stand, which is also very unusual for a criminal trial. Usually people don't testify in their own defense, and he tried to convince the jury that he had only wanted Priscilla deported, and that he did not want her killed. And so he went through with his attorney all those exchanges on tape and on text, trying to argue that all of them were just sort of vocabulary misunderstandings.
+<v M. Gessen>对，然后还有其他几个人针对艾伦出庭作证，其中包括普莉西拉。接着艾伦出庭作证了，这在刑事审判中也非常罕见。通常人们不会为自己出庭作证，他试图说服陪审团，他当时只想把普莉西拉驱逐出境，而不想杀她。于是他和他的律师一起过了一遍录音和短信中的那些对话，试图辩称所有这些都只是一种词汇上的误解。
+
+00:52:39.290 --> 00:52:41.950
+<v Ira Glass>And that they were just misunderstanding each other somehow.
+<v Ira Glass>并且他们只是不知怎么地互相误解了对方。
+
+00:52:41.950 --> 00:52:44.390
+<v M. Gessen>They were just talking at cross purposes.
+<v M. Gessen>他们只是鸡同鸭讲。
+
+00:52:44.390 --> 00:52:47.830
+<v Ira Glass>And so how does it go over with the jury?
+<v Ira Glass>那陪审团买账吗？
+
+00:52:47.830 --> 00:53:21.710
+<v M. Gessen>The jury doesn't buy it. The jury convicted him pretty fast of murder for hire. And then almost a whole year later, he was finally sentenced. And at the sentencing hearing, his lawyer again tried to say that he was only trying to get Priscilla deported, at which point, the judge said, you know, that crime that you're describing is actually called kidnapping, and it's punishable by up to 20 years in prison. So maybe just stop. And then she sentenced him to the maximum, which is 10 years in prison.
+<v M. Gessen>陪审团不买账。陪审团很快就裁定他雇凶杀人罪名成立。然后差不多整整一年后，他终于被判刑。在量刑听证会上，他的律师再次试图辩称他当时只是想把普莉西拉驱逐出境，此时法官说，你知道，你所描述的那种罪行其实叫绑架，最高可判处20年监禁。所以也许还是闭嘴吧。然后她判处了他最高刑期，即10年监禁。
+
+00:53:21.710 --> 00:53:38.270
+<v Ira Glass>And there's this whole other chapter to this story because once he was incarcerated, you started talking to Allen. You finally talked to Allen, which I feel like when we started on the story, we didn't even know if that would ever happen. We assumed he probably would never talk to you.
+<v Ira Glass>这个故事还有整整另一个篇章，因为他被关进监狱后，你开始跟艾伦交谈。你终于跟艾伦谈了，我觉得当我们开始做这个故事时，我们甚至不知道这是否会发生。我们以为他可能永远不会跟你说话。
+
+00:53:38.270 --> 00:53:45.550
+<v M. Gessen>Yeah, I can't even describe how excited I was when I got an email from him saying that he was happy to talk.
+<v M. Gessen>对，我都无法形容当我收到他的一封电子邮件，说他很高兴聊天时，我是多么兴奋。
+
+00:53:45.550 --> 00:53:58.430
+<v Ira Glass>And it was interesting because once you started talking, I remember this so vividly, you were genuinely surprised where the conversations went and how they nudged your own ideas about Allen and who he is.
+<v Ira Glass>很有趣的是，一旦你们开始交谈，我记得太清楚了，对于谈话走向何方，以及它们如何撼动了你对艾伦及其本人的原有看法，你感到由衷的惊讶。
+
+00:53:58.430 --> 00:54:32.550
+<v M. Gessen>So at first, it didn't. At first, he was just trying to sell me what the jury didn't buy, which was that he was framed. He was only trying to get Priscilla deported. But then I think we both proved to be very stubborn, and I was like, OK, well, maybe his job is to try to bullshit me, and my job is to try to cut through the bullshit. And 35 hours of conversations later, I genuinely felt compassion for him.
+<v M. Gessen>所以一开始并没有。一开始，他只是试图向我兜售陪审团不买账的那套说辞，也就是他是被陷害的。他当时只是想把普莉西拉驱逐出境。但后来我觉得我们俩都证明了自己非常顽固，我就想，好吧，也许他的工作是试图对我满口胡言，而我的工作是试图看穿这些废话。35个小时的对话之后，我由衷地对产生了同情。
+
+00:54:32.550 --> 00:54:40.390
+<v Ira Glass>And then you ran by Allen, and you add for the audience too, your own theory of the case.
+<v Ira Glass>然后你向艾伦，也顺便向听众们，阐述了你对这个案件的个人理论。
+
+00:54:40.390 --> 00:54:49.910
+<v M. Gessen>Which is not Allen's theory, and not exactly the undercover agent David's theory either.
+<v M. Gessen>这既不是艾伦的理论，也不是卧底特工大卫的理论。
+
+00:54:49.910 --> 00:55:04.230
+<v Ira Glass>And we will leave it at that. If people want to hear what that theory is, then they need to listen to the show. The show again, is called The Idiot. It's from Serial Productions and The New York Times. And you can get it wherever you get your podcasts. Masha, thank you so much for doing this.
+<v Ira Glass>我们就说到这儿。如果大家想听听那个理论是什么，那就得去听这个节目。这个节目再次重申，叫做《这个白痴》（The Idiot）。它来自Serial Productions和《纽约时报》。你可以在任何你获取播客的地方收听。玛莎，非常感谢你做这一切。
+
+00:55:04.230 --> 00:55:10.190
+<v M. Gessen>Thank you, Ira.
+<v M. Gessen>谢谢你，艾拉。
+
+00:55:10.190 --> 00:55:52.690
+<v Ira Glass>I'll just say, before we go, to all of you who are listening, you may remember how Serial Productions basically invented and launched the true crime podcast genre back in 2014 with its first season and the story of Adnan Syed, which was kind of a global phenomenon. 20 million people downloaded every episode. This new show, The Idiot, takes Serial back to their true crime roots, but with this very personal story from M. Gessen added to it, which adds so much. All the episodes are out right now.
+<v Ira Glass>我只想说，在我们结束之前，对所有在听的听众，你们可能还记得Serial Productions是如何在2014年凭借其第一季以及阿德南·赛ed（Adnan Syed）的故事，基本发明并开创了真实犯罪播客类型的，那可以说是一个全球现象。2000万人下载了每一集。这部新节目《这个白痴》，让Serial回到了他们的真实犯罪之根，但其中融入了M·盖森这个非常私人的故事，这增添了太多分量。所有剧集现在都已经上线了。
+
+00:56:28.150 --> 00:56:47.910
+<v Ira Glass>The Idiot was produced by Daniel Guillemette, with Phia Bennin and Andrey Borzenko and Lika Kremer of Libo/Libo Studios. The series was edited by Julie Snyder and research and fact checked by Ben Phelan and Marisa Robertson-Textor. Scoring's by Allison Leyton-Brown, with additional music from Dan Powell and Marion Lozano. Phoebe Wang and Catherine Anderson mixed the show.
+<v Ira Glass>《这个白痴》由丹尼尔·吉列梅特（Daniel Guillemette）制作，合作者包括莉博/莉博工作室（Libo/Libo Studios）的菲亚·贝宁（Phia Bennin）、安德烈·博尔赞科（Andrey Borzenko）和莉卡·克雷默（Lika Kremer）。该系列由朱莉·斯奈德（Julie Snyder）剪辑，研究和事实核查由本·菲兰（Ben Phelan）和玛丽莎·罗伯逊-特克斯托（Marisa Robertson-Textor）完成。配乐由艾莉森·莱顿-布朗（Allison Leyton-Brown）负责，丹·鲍威尔（Dan Powell）和马里恩·洛萨诺（Marion Lozano）提供额外音乐。菲比·王（Phoebe Wang）和凯瑟琳·安德森（Catherine Anderson）负责节目混音。
+
+00:56:47.910 --> 00:57:01.270
+<v Ira Glass>The people who helped put together this episode of our program today include Cassie Howley, Seth Lind, Tobin Lowe, Stowe Nelson, and Alissa Shipp. Our managing editor is Sarah Abdurrahman; our senior editor, David Kestenbaum; our executive editor, Emanuele Berry.
+<v Ira Glass>帮助我们制作今天这一期节目的工作人员包括卡西·豪利（Cassie Howley）、赛斯·林德（Seth Lind）、托宾·洛（Tobin Lowe）、斯托·纳尔逊（Stowe Nelson）和艾丽莎·希普（Alissa Shipp）。我们的执行主编是萨拉·阿卜杜拉曼（Sarah Abdurrahman）；我们的高级编辑是大卫·克斯滕鲍姆（David Kestenbaum）；我们的执行主编是埃马努埃莱·贝瑞（Emanuele Berry）。
+
+00:57:01.270 --> 00:57:33.670
+<v Ira Glass>Our website, thisamericanlife.org, where you can stream our archive of over 850 episodes for absolutely free. Have you visited, again thisamericanlife.org? This American Life is delivered to public radio stations by PRX, the Public Radio Exchange. Thanks, as always, to our program's co-founder, Mr. Torey Malatia. He was telling me this week about this time, long ago, his dad took him to see the circus in Queens in New York. And as they left the venue, he overheard another kid, this kid with a puff of blond hair, just amazed.
+<v Ira Glass>我们的网站是thisamericanlife.org，你可以在那里免费在线收听我们超过850集的过往节目。你访问过吗，再重复一遍，thisamericanlife.org？《这个美国生活》由公共广播交流协会（PRX，Public Radio Exchange）分发给公共广播电台。一如既往地感谢我们节目的联合创始人托雷·马拉蒂亚（Torey Malatia）先生。他这周跟我讲起过很久以前的一次经历，他爸爸带他去纽约皇后区看马戏团。当他们离开场地时，他无意中听到另一个小孩，那个留着一蓬金发的小孩，惊叹不已。
+
+00:57:33.670 --> 00:57:38.070
+<v Alex>They brought some huge, huge tent. I never saw such a tent.
+<v Alex>他们带来了一个巨大、巨大的帐篷。我从未见过这样的帐篷。
+
+00:57:38.070 --> 00:57:43.070
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯。下周将带回更多《这个美国生活》的故事。

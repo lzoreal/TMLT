@@ -1,0 +1,1077 @@
+WEBVTT
+
+00:00:05.060 --> 00:00:13.480
+<v Ira Glass>OK, here we go. Blackjack, $10 tables. $10 high limit room, which no one is in.
+<v Ira Glass>好的，我们开始。二十一点，10美元牌桌。10美元的高限额房间里空无一人。
+
+00:00:13.480 --> 00:00:27.470
+<v Ira Glass>Monday, late morning. This American Life producer, Robyn Semien, and I are in a casino that will remain unnamed here on the radio because we did not have permission to record. I did not ask for permission due to the nature of our visit.
+<v Ira Glass>星期一，上午快结束时。《This American Life》的制作人罗宾·瑟米恩和我来到一家赌场。为了在广播中隐去它的名字，我们没有透露赌场名称，因为我们没有获得拍摄许可。鉴于我们此行的性质，我也没有请求批准。
+
+00:00:27.470 --> 00:00:29.290
+<v Ira Glass>Stay over here.
+<v Ira Glass>呆在这边。
+
+00:00:29.290 --> 00:00:33.910
+<v Ira Glass>We stand by one of the blackjack tables, and Robyn does a quick scan of the cards.
+<v Ira Glass>我们站在一张二十一点牌桌旁，罗宾快速扫了一眼牌。
+
+00:00:33.910 --> 00:00:38.350
+<v Ira Glass>What's the count on this table?
+<v Ira Glass>这桌的算牌结果是多少？
+
+00:00:38.350 --> 00:00:39.980
+<v Robyn Semien>I get a six.
+<v Robyn Semien>我算出来是六。
+
+00:00:39.980 --> 00:01:01.880
+<v Ira Glass>We were there to count cards, to play blackjack and count cards while we did it, which gives a player such a big advantage against the house that most casinos ask you to leave the table if they catch you doing it. And how did we end up here? Well, we'd gotten a lesson the day before in how to count cards.
+<v Ira Glass>我们去那是为了算牌——在玩二十一点的同时算牌。这能让玩家在对阵庄家时占得巨大优势，以至于大多数赌场一旦发现就会请你离开牌桌。我们怎么会落到这田地呢？嗯，我们在前一天刚刚学过怎么算牌。
+
+00:01:01.880 --> 00:01:14.000
+<v Andy Bloch>We used to say that you could teach a piece of wood to play blackjack. You just have to be able to keep your wits about you when you're at the table and not make too many mistakes.
+<v Andy Bloch>我们过去常说，你甚至可以教一块木头玩二十一点。你只需要在牌桌上保持清醒头脑，不要犯太多错误就行。
+
+00:01:14.000 --> 00:01:27.590
+<v Ira Glass>We got our lesson from Andy Bloch, who played blackjack for what is possibly the most famous group of blackjack card counters, the so-called "MIT Blackjack Team." Their winnings inspired a best-selling book and a terrible Hollywood film called 21.
+<v Ira Glass>我们的老师是安迪·布洛克，他曾为可能是最有名的二十一点算牌团伙——所谓的“麻省理工学院二十一点团队”——打牌。他们的赢钱经历启发了一本畅销书和一部名为《决胜21点》的糟糕好莱坞电影。
+
+00:01:27.590 --> 00:01:45.530
+<v Ira Glass>These were real MIT students. Andy studied electrical engineering. There is no reliable way to know how much they won. They claim over $8 million between 1994 and 2000. After he quit the team, Andy put out an instructional DVD about how to count cards. He doesn't play much blackjack himself anymore.
+<v Ira Glass>这些都是真正的麻省理工学院学生。安迪学的是电气工程。没有可靠的方法知道他们到底赢了多少钱。他们声称在1994年到2000年间赢了800多万美元。离开团队后，安迪推出了一张关于如何算牌的教学DVD。他自己现在不怎么玩二十一点了。
+
+00:01:45.530 --> 00:01:58.090
+<v Andy Bloch>Once I got known as a part of the MIT Blackjack Team, it became hard to play. And I would get kicked out of just about anywhere I tried to play. And sometimes, I would take friends there. They just wanted to see me get kicked out of some place.
+<v Andy Bloch>自从我被称为麻省理工学院二十一点团队的成员后，玩牌就变得很难了。我去任何地方玩都会被赶出来。有时，我会带朋友去那儿。他们只是想看我被某些地方赶出去。
+
+00:01:58.090 --> 00:01:59.870
+<v Andy Bloch>[LAUGHTER]
+<v Andy Bloch>[笑声]
+
+00:01:59.870 --> 00:02:07.040
+<v Andy Bloch>Play for a little bit. After, you know, 15 minutes, an hour, they'd come over and ask me to leave.
+<v Andy Bloch>玩一会儿。你知道的，15分钟或一个小时后，他们就会过来让我离开。
+
+00:02:07.040 --> 00:02:20.870
+<v Ira Glass>Now, I don't know if I should assume that you've played blackjack or you know rules, but if you haven't played or you don't know, here are the rules. Everybody at the table gets cards. You can ask for more cards if you want. The way that you do that is that you tell the dealer, hit me.
+<v Ira Glass>现在，我不知道我是该假设你玩过二十一点还是懂规则，但如果你没玩过或者不懂，规则是这样的。桌上的每个人都会发到牌。如果你想要，可以要求更多牌。你的做法是告诉发牌员：“要牌（hit me）”。
+
+00:02:20.870 --> 00:02:36.770
+<v Ira Glass>You want your cards to add up as close to 21 as possible without going over. It's very simple, so simple that, when you play, it feels winnable. And it seems like everybody who you meet who plays blackjack has a system. Everyone thinks they can beat it.
+<v Ira Glass>你希望你的牌点数加起来尽可能接近21点又不能爆掉。这很简单，简单到当你玩的时候，你会觉得这是能赢的。而且你遇到的每个玩二十一点的人似乎都有一套系统。每个人都觉得自己能战胜它。
+
+00:02:36.770 --> 00:02:59.300
+<v Andy Bloch>Yeah, I've heard a lot of crazy systems about blackjack. You know, the best myths are the ones that are based in fact. And it is a fact that you can beat blackjack. You can actually beat the casinos. And the idea that it's possible to beat the casino is what made blackjack so popular.
+<v Andy Bloch>是的，我听说过很多关于二十一点的疯狂系统。你知道，最好的神话都是基于事实的。你可以战胜二十一点，这是一个事实。你实际上可以战胜赌场。而“战胜赌场是有可能的”这种想法，正是二十一点如此受欢迎的原因。
+
+00:02:59.300 --> 00:03:28.390
+<v Ira Glass>I think this is what makes blackjack so special, is that you think you can beat it. But, of course, as soon as you start to think you can beat it, it gets you into trouble. Here's how diabolical blackjack is. Unlike most casino games, if you play blackjack correctly, the casino barely has an edge. The odds are very close to 50-50. You win almost half the time. So the dream of winning is right there in front of you, just out of reach.
+<v Ira Glass>我想这正是二十一点如此特别的地方——你觉得自己能战胜它。但是，当然，一旦你开始觉得自己能战胜它，你就会陷入麻烦。二十一点就是这么邪门。不像大多数赌场游戏，如果你正确地玩二十一点，赌场的优势微乎其微。胜率非常接近五五开。你几乎有一半的时间会赢。所以赢钱的梦想就摆在眼前，却又触不可及。
+
+00:03:28.390 --> 00:03:50.130
+<v Ira Glass>And if you did have a system that could beat blackjack, imagine what that would mean. It's like, the money is just sitting there in casinos everywhere, all over the world, huge stacks of chips and $100 bills waiting for you to take them home. No job? Bad economy? If blackjack is beatable, your problems are solved.
+<v Ira Glass>如果你真的有一个能战胜二十一点的系统，想象一下这意味着什么。这就好像，钱就静静地躺在世界各地每个赌场的各个角落，成堆的筹码和100美元大钞等着你拿回家。没有工作？经济不景气？如果二十一点是可以被战胜的，你的问题就都解决了。
+
+00:03:50.130 --> 00:04:05.480
+<v Ira Glass>Today, on our program, we watch people run after that dream, including some fine, upright, God-fearing people, including Robyn and me. Stay with us, and good luck with that ace.
+<v Ira Glass>今天，在我们的节目中，我们看着人们追逐那个梦想，其中包括一些优秀、正直、敬畏上帝的人，包括罗宾和我。请继续收听，祝你拿到那个A好运。
+
+00:04:05.480 --> 00:04:21.170
+<v Ira Glass>OK, so, when Andy Bloch says that you can beat the casinos, he is talking specifically about counting cards to change the odds. The mathematics of counting cards was nailed down in the 1950s and '60s. There is a way to count cards that definitively gives you an edge over the house.
+<v Ira Glass>好的，所以，当安迪·布洛克说你可以战胜赌场时，他具体指的是通过算牌来改变胜率。算牌的数学原理在20世纪50年代和60年代就已经确定了。有一种算牌方法确实能让你对庄家占据优势。
+
+00:04:21.170 --> 00:04:41.780
+<v Ira Glass>And you don't need to be a Rain Man or have a photographic memory to pull this off. A normal person can do it. So Robyn and I decided that we wanted to learn. And I could pretend right now that there is a high-minded, journalistic reason for this. You know, we wouldn't really understand what blackjack is all about if we didn't dive in ourselves. That would be a lie.
+<v Ira Glass>你不需要成为《雨人》或者拥有过目不忘的记忆力就能做到这一点。正常人都能做到。所以罗宾和我决定我们要学。我现在可以假装我们出于某种崇高的、新闻主义的原因。你知道，如果我们不亲自深入了解，我们就不会真正明白二十一点是怎么回事。那将是个谎言。
+
+00:04:41.780 --> 00:05:00.180
+<v Ira Glass>We'd both heard of card counting. We wanted to try for the same reasons that anybody does. We thought it would be so awesome to beat blackjack. And the thought that we would be doing it during our jobs, that we would be in a casino when the rest of the staff was back at the office editing and writing-- amazing.
+<v Ira Glass>我们都听说过算牌。我们想尝试的原因和任何人一样。我们觉得战胜二十一点太酷了。一想到我们是在工作期间做这件事，当其他员工都在办公室里剪辑和写作时，我们却在赌场里——这太棒了。
+
+00:05:00.180 --> 00:05:31.320
+<v Ira Glass>So I can tell you what we learned in, like, two minutes. Here is how card counting works. Please remember this public radio station if it makes you rich. The basic idea is, for lots of reasons that we don't need to get into here, tens and aces are to your advantage as a blackjack player. So, as the cards are dealt, what you want to know is, are there lots of tens and aces left in the deck for you to get? And by tens, I should say I just don't mean, like, the 10 of hearts, and the 10 of spades, and all that, but I mean, like, the face cards that add 10 to your hand when you play blackjack.
+<v Ira Glass>所以我可以告诉你我们在大约两分钟内学到了什么。这就是算牌的工作原理。如果它让你发财，请记住这个公共广播电台。基本思路是——出于我们在这里不需要深入探讨的诸多原因——10和A对作为二十一点玩家的你有利。因此，随着牌的发放，你想知道的是：牌堆里还剩很多10和A供你拿吗？说到10，我不仅仅是指红桃10、黑桃10之类，我是指当你玩二十一点时能让你的手牌增加10点的面牌（J、Q、K）。
+
+00:05:31.320 --> 00:05:52.860
+<v Ira Glass>OK. So still with me? You want tens and aces, and you count. And this is important. You're not going to keep track of the position of every single card. You're not memorizing the deck. That would be insane. They invented something that is way, way easier than that. You just keep a running tally, a very rough one, of tens and aces.
+<v Ira Glass>好的。还跟得上吗？你想要10和A，然后你数数。这很重要。你不需要追踪每一张牌的具体位置。你不是在背牌。那太疯狂了。他们发明了一种比那简单得多、多的方法。你只需要保持一个运行中的总数，一个非常粗略的10和A的总数。
+
+00:05:52.860 --> 00:06:12.640
+<v Ira Glass>You start your tally at zero. When a 10 or an ace is dealt, you subtract one from the tally. When a low card comes out, you add one. That's it. That's the whole thing. The running tally, that one number, that's all you need to know. Again, here's Andy Bloch.
+<v Ira Glass>你的总数从零开始。当发出一张10或A时，你从总数中减去一。当一张小牌出来时，你加一。就是这样。全部就这些。这个运行总数，这一个数字，就是你需要知道的全部。再次请出安迪·布洛克。
+
+00:06:12.640 --> 00:06:20.580
+<v Andy Bloch>It's not a complicated thing. You don't need a great memory. You don't need to know how many queens are left in the deck. You just need to know that one number.
+<v Andy Bloch>这不是一件复杂的事情。你不需要很好的记忆力。你不需要知道牌堆里还剩多少个Q。你只需要知道那一个数字。
+
+00:06:20.580 --> 00:06:46.820
+<v Ira Glass>And when that one number, when you're running tally gets up to seven, or eight, or nine, it means that there are lots of aces and tens left in the deck. So it's good for you, right? It's really, really good for you. And that is the time that you want to start to bet big. Like, your bet should jump up to five times what it was, Andy says. All you have to do is keep your running tally. And Andy demonstrated here. He dealt cards into a pile to demonstrate how that works.
+<v Ira Glass>当这一个数字，当你算出的总数上升到七、八或九时，这意味着牌堆里还剩很多A和10。所以这对你有利，对吧？真的非常对你有利。而这个时候就是你想开始下注大的时候。安迪说，比如，你的下注应该跃升至之前的五倍。你所要做的就是保持你的运行总数。安迪在这里做了示范。他把牌发成一叠来演示这是如何运作的。
+
+00:06:46.820 --> 00:06:56.160
+<v Andy Bloch>So minus one, zero, plus one, plus two, plus one, plus two, plus three, plus two.
+<v Andy Bloch>所以减一，零，加一，加二，加一，加二，加三，加二。
+
+00:06:56.160 --> 00:07:02.870
+<v Ira Glass>Then it was time for Robyn and I to try this. Note that the pace changes just a little.
+<v Ira Glass>然后轮到罗宾和我来尝试了。注意节奏稍微变了一点。
+
+00:07:02.870 --> 00:07:04.610
+<v Robyn Semien>Plus two.
+<v Robyn Semien>加二。
+
+00:07:04.610 --> 00:07:09.970
+<v Ira Glass>Plus two-- it was a three.
+<v Ira Glass>加二——是个三。
+
+00:07:09.970 --> 00:07:11.320
+<v Robyn Semien>Plus one.
+<v Robyn Semien>加一。
+
+00:07:11.320 --> 00:07:13.650
+<v Ira Glass>Plus one. Zero.
+<v Ira Glass>加一。零。
+
+00:07:13.650 --> 00:07:16.120
+<v Robyn Semien>Zero.
+<v Robyn Semien>零。
+
+00:07:16.120 --> 00:07:17.470
+<v Ira Glass>Minus one.
+<v Ira Glass>减一。
+
+00:07:17.470 --> 00:07:17.970
+<v Robyn Semien>Plus one.
+<v Robyn Semien>加一。
+
+00:07:17.920 --> 00:07:18.580
+<v Andy Bloch>Plus one.
+<v Andy Bloch>加一。
+
+00:07:18.580 --> 00:07:21.820
+<v Ira Glass>You know, I'm getting confused over which one gets the plus and which gets the minus.
+<v Ira Glass>你知道，我开始搞混哪个是加哪个是减了。
+
+00:07:21.820 --> 00:07:23.290
+<v Robyn Semien>It's really confusing.
+<v Robyn Semien>真的好容易混淆。
+
+00:07:23.290 --> 00:07:26.560
+<v Andy Bloch>You're sad when tens and aces come out, especially when you don't get them.
+<v Andy Bloch>当10和A出现时你会难过，尤其是当你没拿到它们的时候。
+
+00:07:26.560 --> 00:07:29.560
+<v Ira Glass>You're sad when tens and aces come out, which is why they get subtracted.
+<v Ira Glass>当10和A出现时你会难过，这就是为什么要把它们减掉。
+
+00:07:29.560 --> 00:07:30.700
+<v Robyn Semien>There we go. That helps.
+<v Robyn Semien>原来如此。这有帮助。
+
+00:07:30.700 --> 00:07:31.720
+<v Ira Glass>OK.
+<v Ira Glass>好的。
+
+00:07:31.720 --> 00:07:38.500
+<v Ira Glass>We tried a few more times. Andy would deal. Robyn and I would keep the count in our heads. At the end, he would ask us the count.
+<v Ira Glass>我们又试了几次。安迪发牌。罗宾和我则在脑子里记数。最后，他会问我们总数是多少。
+
+00:07:38.500 --> 00:07:39.550
+<v Andy Bloch>OK, what'd you get?
+<v Andy Bloch>好，你们算出来多少？
+
+00:07:39.550 --> 00:07:41.050
+<v Ira Glass>Minus five.
+<v Ira Glass>负五。
+
+00:07:41.050 --> 00:07:41.980
+<v Robyn Semien>Negative two.
+<v Robyn Semien>负二。
+
+00:07:41.980 --> 00:07:43.630
+<v Andy Bloch>Minus three.
+<v Andy Bloch>负三。
+
+00:07:43.630 --> 00:07:44.600
+<v Andy Bloch>[BLEEP]
+<v Andy Bloch>[哔——]
+
+00:07:44.600 --> 00:07:49.900
+<v Andy Bloch>[LAUGHTER]
+<v Andy Bloch>[笑声]
+
+00:07:49.900 --> 00:07:56.770
+<v Ira Glass>Finally, on our fourth try, Andy dealt the cards, we kept the count in our heads, and at the end--
+<v Ira Glass>最后，在第四次尝试中，安迪发了牌，我们在脑子里记数，最后——
+
+00:07:56.770 --> 00:07:57.760
+<v Robyn Semien>Negative eight.
+<v Robyn Semien>负八。
+
+00:07:57.760 --> 00:07:59.410
+<v Ira Glass>That's what I have too.
+<v Ira Glass>我这也是。
+
+00:07:59.410 --> 00:08:02.320
+<v Andy Bloch>All right. You guys both win. Negative eight.
+<v Andy Bloch>很好。你们俩都赢了。负八。
+
+00:08:02.320 --> 00:08:03.660
+<v Robyn Semien>Shut up!
+<v Robyn Semien>闭嘴！
+
+00:08:03.660 --> 00:08:05.290
+<v Andy Bloch>Well done.
+<v Andy Bloch>干得好。
+
+00:08:05.290 --> 00:08:06.850
+<v Robyn Semien>My heart's racing a little bit.
+<v Robyn Semien>我的心跳有点快。
+
+00:08:06.850 --> 00:08:15.290
+<v Andy Bloch>You're ready to hit the tables.
+<v Andy Bloch>你们准备好上牌桌了。
+
+00:08:15.290 --> 00:08:42.330
+<v Ira Glass>And so, the next day, we headed to Atlantic City. We headed to the casino to hit the tables and try our techniques at the lowest stakes tables possible. We basically went into the kiddie pool. We skied the bunny hill. Did we win? Did the casino notice and send swarms of security guards with walkie-talkies to kindly ask us to play a different game? What happened to us? Later in this hour.
+<v Ira Glass>于是，第二天，我们前往大西洋城。我们前往赌场去牌桌上试试身手，在可能最低的底注牌桌上尝试我们的技术。我们基本上是走进了儿童戏水池。我们在初学者滑雪道滑雪。我们赢了吗？赌场注意到了并派出一群拿着对讲机的保安来礼貌地请我们玩别的游戏吗？我们遭遇了什么？本节目稍后揭晓。
+
+00:08:42.330 --> 00:08:49.520
+<v Ira Glass>Which brings us to Act One. Act One, Render Unto Caesar's Palace What is Due Caesar's Palace.
+<v Ira Glass>这就把我们带到了第一幕。第一幕，凯撒宫的归凯撒宫。
+
+00:08:49.520 --> 00:09:15.840
+<v Ira Glass>When you think professional gamblers, you don't think Christians. But there was a team of blackjack-playing Christians. No joke. There's a documentary about it called Holy Rollers. They took in $3.5 million from casinos. To do that, the entire team had to know how to count cards. They had skills. But beyond that, what did a Christian card-counting team have going for them that gave them an edge? Former Sunday school teacher Jack Hitt decided to find out.
+<v Ira Glass>当你想到职业赌徒时，你不会想到基督徒。但曾经有一个玩二十一点的基督徒团队。没开玩笑。有一部关于他们的纪录片叫《神圣拳手》（Holy Rollers）。他们从赌场捞走了350万美元。要做到这一点，整个团队都必须知道如何算牌。他们有技术。但除此之外，一个基督徒算牌团队有什么优势能让他们占得上风？前主日学老师杰克·希特（Jack Hitt）决定一探究竟。
+
+00:09:15.840 --> 00:09:30.490
+<v Jack Hitt>The way Ben tells the story, it all began where so many great ideas originate, reading in the bathroom. It was a book about gambling, and there was a three-page chapter on blackjack explaining how to count cards. And Ben thought, I could do this.
+<v Jack Hitt>照本（Ben）的说法，这一切都始于许多伟大灵感诞生的地方——在卫生间里读书。那是一本关于赌博的书，里面有一个关于二十一点的三页章节，解释了如何算牌。本当时想：我也能做到。
+
+00:09:30.490 --> 00:09:45.780
+<v Jack Hitt>He waited tables back then, minimum wage work. And he had just had his first kid. He and his wife were broke, and so one day, he came up with a plan to take their last $800 to a dinky Casino outside of Seattle, and he won.
+<v Jack Hitt>他那时候端盘子，拿最低工资。他刚有了第一个孩子。他和妻子身无分文，所以有一天，他想出一个计划，带着他们仅有的800美元去西雅图郊外的一个破旧赌场，然后他赢了。
+
+00:09:45.780 --> 00:10:08.820
+<v Ben>The first day, I remember making, maybe it was $500 or $1,000 in one night. And I've never seen money move like that before. You know, I was used to waiting tables. And every once in a while, I would get a $10 tip and maybe make $100 a night. But I just remember being fascinated by how fast this cash could move back and forth. It was just I started to see money differently.
+<v Ben>第一天，我记得自己可能在一个晚上赚了500或1000美元。我以前从来没见过钱这样流动。你知道的，我习惯了端盘子。偶尔我会得到10美元的小费，一晚上可能赚100美元。但我只记得被这些现金来回流动的速度迷住了。就是……我开始以不同的方式看待金钱了。
+
+00:10:08.820 --> 00:10:19.350
+<v Jack Hitt>Ben formed a small crew of card counters to hit the casinos together, and they did OK for a while. But after three years, that team fell apart. Ben said they just had different values.
+<v Jack Hitt>本组建了一小群算牌员一起去赌场，他们有一段时间做得还不错。但三年后，那个团队解散了。本说他们只是价值观不同。
+
+00:10:19.350 --> 00:10:38.120
+<v Jack Hitt>And so Ben and another player, his good friend Colin, decided that if they were going to create a great team, then they had to find new members they could trust completely. And that's when it hit them. The perfect source of blackjack players. It was right in front of them, at least on Sundays-- church.
+<v Jack Hitt>于是本和另一位玩家、他的好朋友科林（Colin）决定，如果他们要组建一个伟大的团队，就必须找到他们能完全信任的新成员。就在那时，他们灵光一闪。二十一点玩家的完美来源就在他们眼前，至少在星期天——教堂。
+
+00:10:38.120 --> 00:10:55.400
+<v Ben>Basically, all these people had been watching us play blackjack for the last three years. And they didn't know a lot about it, but they knew that I had bought a house with the winnings. So there was all these, kind of, family members that had heard of the story and, I think, frankly, were just excited about the story.
+<v Ben>基本上，所有这些人过去三年一直在看我们打牌。他们对此了解不多，但他们知道我用赢来的钱买了一栋房子。所以有各种各样的家庭成员听说了这个故事，而且我想，坦白说，他们只是对这个故事感到兴奋。
+
+00:10:55.400 --> 00:11:10.460
+<v Ben>And me and my business partner, Colin, we went to different churches, so he had people from his church coming to him. And you know, word was kind of spreading. And people were like, oh, I heard about this blackjack thing. Are you guys hiring people? And if it was the right person, we would never say no.
+<v Ben>我和我的商业伙伴科林去不同的教堂，所以他有他教堂的人来找他。你知道的，消息就这样传开了。人们会说，哦，我听说过这个二十一点的事情。你们招人吗？如果遇到合适的人，我们绝不会拒绝。
+
+00:11:10.460 --> 00:11:48.830
+<v Jack Hitt>Now that Ben and Colin had their players, they needed more money, a lot more money, if they hoped to win big. So they went to the same source. Using PowerPoint presentations, they showed their fellow Christians how much they'd been winning not using luck or prayer, just math. And at the end of this presentation, here's what they pulled off. They convinced churchgoers to cash out their savings and retirement funds and hand them over to a pack of young people to carry straight into the devil's playground and risk at blackjack tables.
+<v Jack Hitt>现在本和科林有了他们的玩家，他们需要更多的钱，多得多的钱，如果他们希望能赢大钱的话。于是他们找到了同一个来源。通过PowerPoint演示文稿，他们向他们的基督徒同胞展示了他们赢了多少钱——不是靠运气或祈祷，而是纯粹靠数学。在这个演示结束时，他们做成了这样一件事：他们说服了教堂信徒取出他们的储蓄和退休金，交由一群年轻人直接带进魔鬼的游乐场，在二十一点牌桌上冒险。
+
+00:11:48.830 --> 00:12:22.370
+<v Jack Hitt>Now, I know what you're thinking. Wait, where's the Christ in cheating at blackjack? And isn't gambling a sin, or just wrong? Turns out all the players asked those questions too. In fact, Ben said part of training a new team member always seemed to involve a moment when the player would be stricken by a crisis of faith. Ben said he got quite good at these rap sessions, and here was his argument. Yes, gambling's wrong. No question about that. But they weren't gambling at all, because they counted cards. Here's one of the players, Mike. He'll explain.
+<v Jack Hitt>现在，我知道你在想什么。等等，在二十一点中作弊怎么就跟基督扯上关系了？而且赌博不是罪过，或者至少是不对的吗？事实证明，所有的玩家也都问过这些问题。事实上，本说，培训新团队成员的过程似乎总包含这样一个时刻：玩家会陷入信仰危机。本说他在应对这些深度谈话方面变得非常有一套，他的论点如下。是的，赌博是不对的。这毫无疑问。但他们根本不是在赌博，因为他们在算牌。这是其中一位玩家迈克（Mike）。他来解释一下。
+
+00:12:22.370 --> 00:12:39.290
+<v Mike>As a card counter, you go in there thinking there's no such thing as luck. There's only math. We're going to sit down and work for eight hours and make money. And that's the exact opposite of what 99.9% of all people do in a casino.
+<v Mike>作为一个算牌员，你进去的时候会认为世上根本没有运气这回事。只有数学。我们要坐下来工作八个小时然后赚钱。这跟赌场里99.9%的人所做的完全相反。
+
+00:12:39.290 --> 00:12:52.460
+<v Jack Hitt>But even if you square in your heart that card counting is not a sin morally, isn't it illegal in some states, or at least considered cheating by the casinos? I ran this by Ben, the founder, who could not wait to correct me.
+<v Jack Hitt>但即使你在内心确信算牌在道德上不是罪过，它在某些州不是违法的吗，或者至少被赌场视为作弊？我把这个问题抛给了创始人本，他迫不及待地纠正了我。
+
+00:12:52.460 --> 00:13:23.030
+<v Ben>No, it's not. No, one of the biggest misconceptions ever-- and this drives me nuts, because it's so fundamental, but people don't get it, and I guess that's to the casino's credit, is people actually think that this is violating the rules of a casino. But we follow every rule the casino has. In fact, if you call up a casino and you ask them, is it against the law to count cards? Is it against your rules to count cards? They'll be like, uh, well, no, not really, but it is kind of frowned upon.
+<v Ben>不，不是的。不，这是最大的误解之一——这把我快逼疯了，因为这是如此基础，但人们就是不明白，我想这要归功于赌场的宣传——人们实际上认为这是在违反赌场的规则。但我们遵守了赌场所有的规则。事实上，如果你打电话给赌场，问他们算牌是违法的吗？算牌违反你们的规则吗？他们会说，呃，好吧，不，不算真的违法，但这种做法确实有点不被赞许。
+
+00:13:23.030 --> 00:13:41.520
+<v Jack Hitt>How could that be? We all know that casinos spend tons of money on overhead cameras and security guys to detect card counters. So I called the MGM Grand in Las Vegas, and Ben was right, card counting isn't illegal. In fact, the spokeswoman said it wasn't even against the rules, though they do discourage it.
+<v Jack Hitt>怎么会这样？我们都知道赌场花巨资在监控摄像头和保安身上来侦探算牌员。所以我打电话给拉斯维加斯的米高梅大酒店（MGM Grand），本是对的，算牌并不违法。事实上，发言人表示这甚至不违反规则，尽管他们确实不鼓励这样做。
+
+00:13:41.520 --> 00:14:08.130
+<v Jack Hitt>She told me that if they catch you, they'll ask you to go play other games, a process known as backing off. Or if they really don't like what you're doing, they will tell you to leave and that you're not allowed back. But for the most part, casinos just don't like to dissuade anyone from gambling, even card counters. Maybe because most of them are so bad at it, they lose money anyway.
+<v Jack Hitt>她告诉我，如果他们抓到你，就会要求你玩别的游戏，这个过程被称为“驱逐”。或者如果他们真的很不喜欢你的所作所为，他们会叫你离开，并不准你再来。但大多数情况下，赌场根本不想打消任何人赌博的念头，哪怕是算牌客。也许是因为大多数人水平太差，反正都会输钱。
+
+00:14:08.130 --> 00:14:35.270
+<v Jack Hitt>And so they pulled it off. Ben and Colin kept training more and more churchgoers, flying the members of their congregation to casinos all over the country. Soon enough, the casinos began to treat them as whales-- that's what they call big-time gamblers-- rewarding them with comps, free rooms, cases of liquor. They'd come home with amazing stories of winning thousands, sometimes tens of thousands on the perfectly laid bet. Bragging rights all around.
+<v Jack Hitt>于是，他们成功了。本和科林不断培训越来越多的教会成员，用飞机把会众送到全国各地的赌场。不久之后，赌场开始把他们当成“大客户”——也就是豪客——用免费筹码、免费房间和一箱箱烈酒来犒劳他们。他们带着在完美下注时赢了几千、有时甚至几万美元的精彩故事回到家中。到处都是吹牛的资本。
+
+00:14:35.270 --> 00:15:04.850
+<v Jack Hitt>In order to convince the casinos that they were reckless high rollers and not card counters, they'd often wear costumes and take on personas, everything from golf pro to what one team member called "gay art collector." In this scene from the documentary, you see Colin dressed as a mechanic in a jumpsuit and baseball cap. Ben, meanwhile, has gone full-on goth, white face paint, black lipstick with black outfit, and even black fingernails.
+<v Jack Hitt>为了让赌场相信他们是鲁莽的豪赌客而不是算牌客，他们经常穿着各种服装，扮演各种角色，从高尔夫球手到团队成员口中的“同性恋艺术收藏家”应有尽有。在纪录片里的这个镜头中，你可以看到科林穿着连身工作服和棒球帽，打扮成机修工。与此同时，本则完全走哥特风，涂着白色面彩、黑色口红，穿着黑色服装，甚至连指甲都是黑色的。
+
+00:15:04.850 --> 00:15:37.490
+<v Jack Hitt>But they never forgot this was a business, and business was good. To give you a sense of just how good, at the height of their team in 2007, Ben and Colin were rotating as many as 30 trained blackjack players through their transcontinental circuit. And remember, they would hand each member of the flock tens of thousands, sometimes as much as $80,000. And because you can't transfer money like that through, say, an ATM, the players carried this cash in envelopes stuffed in their pockets.
+<v Jack Hitt>但他们从未忘记这是一桩生意，而且生意兴隆。为了让你了解究竟有多好，在2007年团队鼎盛时期，本和科林在他们的跨大陆巡回线路中轮换多达30名受过培训的二十一点玩家。记住，他们会给每个信徒几万美元，有时甚至高达8万美元。由于你无法通过自动取款机之类的方式转走这样的巨款，玩家们便把这些现金装在塞进口袋的信封里。
+
+00:15:37.490 --> 00:16:06.530
+<v Jack Hitt>At the end of each trip, the members would return to Ben and Colin and report back their hours and winnings or losses. This was all done on the honor system. You can see why finding trustworthy, churchgoing collaborators was so important. When the whole team achieved a certain goal, $100,000 in winnings, they'd split the profits. And every quarter, Ben and Colin would host a team meeting at one of their houses in Seattle. Here's Colin at the big meeting in 2008.
+<v Jack Hitt>每次行程结束时，成员们会回到本和科林那里，汇报他们的工作时间和输赢情况。这一切都是基于荣誉制度完成的。你可以看出，找到值得信赖的、去教堂的合作者是多么重要。当整个团队达到某个目标（即赢得10万美元的利润）时，他们就会平分利润。每个季度，本和科林都会在他们在西雅图的住所之一举办一次团队会议。这是科林在2008年大型会议上的发言。
+
+00:16:06.530 --> 00:16:12.620
+<v Colin>You know, it's been another good quarter. Any guesses on how much we took from casinos in 2007?
+<v Colin>你知道，这又是一个好季度。大家猜猜我们在2007年从赌场赢了多少钱？
+
+00:16:12.620 --> 00:16:13.600
+<v Man 1>$900,000.
+<v Man 1>$900,000.
+
+00:16:13.600 --> 00:16:16.460
+<v Colin>$900,000, 1.2, a million, something like that.
+<v Colin>90万，1.2亿，100万，差不多吧。
+
+00:16:16.460 --> 00:16:17.760
+<v Man 2>1.5.
+<v Man 2>1.5.
+
+00:16:17.760 --> 00:16:19.510
+<v Colin>Boom! Yeah, you got it.
+<v Colin>太棒了！没错，你答对了。
+
+00:16:19.510 --> 00:16:20.510
+<v Colin>[APPLAUSE]
+<v Colin>[掌声]
+
+00:16:20.510 --> 00:16:29.940
+<v Colin>$1.58 million taken out of casinos this year. I'm excited to take more money from casinos next year.
+<v Colin>今年从赌场卷走了158万美元。我很兴奋明年能从赌场赢更多钱。
+
+00:16:29.940 --> 00:16:33.020
+<v Man 3>So for those of you that hate casinos, we're doing our part.
+<v Man 3>所以对于你们这些讨厌赌场的人来说，我们在尽自己的一份力。
+
+00:16:33.020 --> 00:16:36.170
+<v Man 3>[APPLAUSE]
+<v Man 3>[掌声]
+
+00:16:36.170 --> 00:16:52.400
+<v Jack Hitt>Did you catch that last part? If you hate casinos. Even after all the talk of it being a business and not gambling, there was still this nagging sense that what they were doing was somehow not part of the Christian mission.
+<v Jack Hitt>你捕捉到最后那部分了吗？如果你讨厌赌场的话。尽管人们一直在说这是一门生意而不是赌博，但心里仍然有一种挥之不去的怪异感，觉得他们的所作所为在某种程度上并不属于基督教使命的一部分。
+
+00:16:52.400 --> 00:17:19.070
+<v Jack Hitt>They were bleeding the casinos of evil money, doing their part. But occasionally, some players began to feel there was something wrong with what they were doing. Take Mike. He had joined the team with the most Christian of all intentions. He used to be a youth pastor. His crisis of faith began with the ninth commandment, thou shalt not bear false witness against thy neighbor. Weren't all these costumes and fake biographies bearing false witness?
+<v Jack Hitt>他们在榨干赌场的罪恶金钱，在尽自己的本分。但偶尔，一些玩家开始觉得他们的所作所为有些不对劲。以迈克为例。他加入团队时怀着最纯正的基督教意图。他曾是一名青年牧师。他的信仰危机始于第九诫，不可作假证陷害邻舍。难道所有这些服装和假履历不都是作假证吗？
+
+00:17:19.070 --> 00:17:36.410
+<v Mike>High rollers are never mid-20 white kids. Never. And then they say, so what's your story, man? What do you do? Well, what do I say at that point, you know? Well, in the beginning of the team, I lied. I used to create crazy stories, because I thought it was fun.
+<v Mike>豪客绝对不可能是二十多岁的白人小伙。绝不可能。然后他们会问，嘿，你的故事是什么，兄弟？你是做什么的？好吧，那会儿我该说什么呢，你知道吗？嗯，在团队刚成立的时候，我撒了谎。我经常编造疯狂的故事，因为我觉得这很好玩。
+
+00:17:36.410 --> 00:17:50.870
+<v Mike>I told at Hard Rock-- I remember they said, so, hey, what's your deal? I was like, oh, I work for Fox. I'm an animal agent. I actually do agent stuff for animals in movies. Maybe you've seen Bart the Bear in Legends of the Fall? I do stuff like that.
+<v Mike>我在硬石酒店说过——我记得他们问过，嘿，你是干什么的？我说，哦，我为福克斯工作。我是一个动物经纪人。我其实是专门为电影里的动物当经纪人的。也许你曾在《秋日传奇》里见过巴特熊？我就做那种事。
+
+00:17:50.870 --> 00:18:06.380
+<v Mike>So I'm telling them this story. And the kid next to me playing, he says, no way! I work for Fox too! And he starts describing the offices and asking which building I work out of. And I thought, are you kidding me? The one time I say something off the top of my head, the guy sitting next to me works for Fox.
+<v Mike>所以我正在跟他们讲这个故事。旁边玩牌的小伙子说，不可能！我也为福克斯工作！接着他开始描述办公室，还问我在哪个大楼上班。我想，你在开玩笑吧？我好不容易随口编了一次，结果坐在我旁边的人就在福克斯上班。
+
+00:18:06.380 --> 00:18:09.590
+<v Jack Hitt>Do you think that was some divine intervention there?
+<v Jack Hitt>你觉得那是某种神的干预吗？
+
+00:18:09.590 --> 00:18:21.990
+<v Mike>It probably was. Maybe God saying, shut up. Just tell them the truth. I felt guilty right after I said that. It was wrong, and it was a sin to lie to them.
+<v Mike>很可能是。也许是上帝在说，闭嘴吧。直接告诉他们真相。说完这话我立刻感到一阵内疚。这是不对的，对他们撒谎是一种罪过。
+
+00:18:21.990 --> 00:18:39.230
+<v Jack Hitt>And there were other deceptions too. One involved playing in pairs. One person would count cards at the table, then they'd signal another teammate across the room to join the game and start betting big when the count favored the players. So you had to have a signal that looked like it wasn't a signal at all.
+<v Jack Hitt>还有其他的欺骗手段。其中之一是两人一组。一个人在桌上算牌，然后给房间另一头的另一个队友发信号，让他加入游戏，并在牌面对玩家有利时开始下注。所以你必须设计一个看起来完全不像是信号的信号。
+
+00:18:39.230 --> 00:18:49.400
+<v Shirley>Oh, crossing of the arms. Yeah, it's really subtle. So we would cross our arms if it was a good count, and we would leave our arms open if it wasn't a high enough count.
+<v Shirley>哦，交叉双臂。是的，这真的很微妙。所以如果牌面好，我们就会交叉双臂；如果牌面不够高，我们就把手臂放平。
+
+00:18:49.400 --> 00:19:10.040
+<v Jack Hitt>This is Shirley. Not her real name, by the way. Shirley used this tactic a lot. Among card counters, stepping up to the table right when it's hot is so well-known that it has a name, Wonging, from a famous counter known as Stanford Wong. There was this one time for Shirley, the most nerve-wracking bet of her life, that involved this exact tactic.
+<v Jack Hitt>这是雪莉。顺便说一句，这不是她的真名。雪莉经常使用这种战术。在算牌客中，刚好在牌面大好时走到桌前这种做法非常出名，以至于它甚至有一个专属名字——“黄ing”（Wonging），这个词源于著名的算牌客斯坦福·黄（Stanford Wong）。雪莉曾有一次经历过她一生中最紧张的一次下注，就涉及这种精确的战术。
+
+00:19:10.040 --> 00:19:32.690
+<v Shirley>I was at The Venetian in Las Vegas. I was playing at a table. I had just finished, and there was actually another guy on the team who was playing at the same pit across from me. And he gave me the sign to, what we call, "Wong in." It means you go over and you go to the table, because the count is good, the table's hot.
+<v Shirley>我在拉斯维加斯的威尼斯人酒店。我在一张桌子旁玩。我刚玩完，其实团队里还有另一个家伙正在我正对面的一张赌桌上玩。他向我打了个手势，也就是我们所说的“Wong in”（切入）。意思是你可以走过去加入赌桌，因为牌面很好，这桌很旺。
+
+00:19:32.690 --> 00:19:40.580
+<v Jack Hitt>So Shirley walked up to the table and put down her bet, a massive bet, and then another, and another.
+<v Jack Hitt>于是雪莉走到桌前，下注，这是一笔巨额下注，接着是第二笔、第三笔。
+
+00:19:40.580 --> 00:19:59.480
+<v Shirley>It was phenomenal, because we kept winning and winning. There is layers of people behind us. We've got security around us. It's so intense. So I get two hands of 20. I got four tens, basically, which you think would be a great hand. The dealer pulls up a six. That means I have to split my tens.
+<v Shirley>这太惊人了，因为我们一直在赢。我们身后挤满了人。周围都是保安。气氛太紧张了。我拿到了两手20点。基本上我有四张10点，你可能会觉得这是一手好牌。庄家亮出了一张6点。这意味着我必须把10点拆开。
+
+00:19:59.480 --> 00:20:29.400
+<v Jack Hitt>OK, a quick explanation for those of you who don't play. In blackjack, you're trying to get close to 21. Two tens add up to 20, so that's a really good hand. Splitting tens is crazy, what they call a deviation, and Shirley has just done it, twice. But it's not crazy, if you happen to know that the deck is momentarily packed with high cards and that the dealer probably would bust.
+<v Jack Hitt>好的，为不玩牌的各位简单解释一下。在二十点中，你的目标是接近21点。两张10点加起来是20点，所以这是一手非常好的牌。拆10点是疯狂的做法，也就是所谓的“偏差”，而雪莉刚刚这么做了，而且是两次。但如果你恰好知道这副牌刚刚塞满了大牌，而且庄家很可能会爆牌，那这就一点也不疯狂了。
+
+00:20:29.400 --> 00:20:48.840
+<v Shirley>So I split my tens, and then I put another two grand on the other 10. And people are just like, what's she doing? Whoa! I mean, there's like comments from the crowd. I mean, people-- it's so much adrenaline when you are doing something that is completely against the blackjack book, but it's exactly what you're supposed to be doing. It's the right deviation, and you know you're going to kill it and win.
+<v Shirley>所以我把10点拆开，然后在另一张10点上又押了两千。大家都在想，她在干什么？哇！我的意思是，人群中传出了各种评论。我的意思是，当你做出一件完全违背二十点常规，但又恰恰是你应该做的事情时，肾上腺素飙升得太厉害了。这是正确的偏差打法，而且你知道你一定会大获全胜。
+
+00:20:48.840 --> 00:21:08.070
+<v Shirley>Oh, my goodness, it was crazy. I ended up with $22,000 on that one hand by the time it was over. It was insane, because I kept getting tens, and I kept splitting them. And I'm super, like, excited but nervous at the same time, hoping that this dealer busts out, which he's supposed to do. And the dealer didn't bust.
+<v Shirley>哦，天哪，这太疯狂了。结束时，我那单一手牌最后赢了22,000美元。这太离谱了，因为我一直拿到10点，然后不断把它们拆开。我超级兴奋，但同时又很紧张，祈祷这个本该爆牌的庄家快点爆掉。结果庄家没有爆牌。
+
+00:21:08.070 --> 00:21:17.520
+<v Jack Hitt>Even though the dealer didn't bust as he was supposed to, it didn't matter. Splitting those tens and making such massive bets gave her away to security.
+<v Jack Hitt>尽管庄家没有像预期的那样爆牌，但这并不重要。拆分那些10点并下了如此巨额的赌注，让她在保安面前露出了马脚。
+
+00:21:17.520 --> 00:21:30.810
+<v Shirley>It's a red flag. When you've got 20 and you're splitting it, they know that something's going on. And they can't catch onto it while you're doing your hand that quickly and make it all stop, but no. And I never played at The Venetian after that.
+<v Shirley>这是一个危险信号。当你手握20点还要把它拆开时，他们就知道有问题了。他们不可能在你飞快出牌的时候立刻察觉并阻止这一切，但他们记下了。在那之后，我再也没有去过威尼斯人酒店。
+
+00:21:30.810 --> 00:21:50.850
+<v Jack Hitt>For some of the other card counters, they faced a different crisis of faith, the commandment about stealing. Remember, you're carrying around tens of thousands of dollars in your pocket and winning tens of thousands more. And nobody knows how much you've won or lost, except you. Here's another team member named Dusty.
+<v Jack Hitt>对于其他一些算牌客来说，他们面临着另一种信仰危机——关于偷窃的诫命。记住，你口袋里揣着几万美元，而且还在不断赢得更多的几万美元。除了你自己，没人知道你赢了多少或输了多少。这是另一个团队成员，名叫达斯蒂。
+
+00:21:50.850 --> 00:22:23.470
+<v Dusty>After my very first trip-- I had gone with this guy in California-- we're, like, doing our results after we got home and, like, totaling up our cash, and I'm like, man, I'm off by exactly $10,000. That's weird. I must be missing 10 grand. And he's like, no, what's the likelihood that you just dropped $10,000 somewhere? You probably just miscounted one of your results. So turn one of your losses, you know, into-- just correct the miscalculation, which, you're like, is horrible.
+<v Dusty>在我第一次旅行之后——我和加利福尼亚的这个家伙一起去的——我们回家后核对结果，清点现金，然后我想，天哪，我居然凭空少了整整10,000美元。这太奇怪了。我一定丢了1万美元。他说，不对，你随便在哪把1万美元弄丢的可能性有多大？你可能只是记错了一个结果。所以把你的某一次输局，你知道的，变成——只要纠正这个算错的账目就行了。你会觉得，这太可怕了。
+
+00:22:23.470 --> 00:22:42.220
+<v Dusty>That's, like, falsifying what happened. But this guy's been on the team longer than me. He knows better than me. I'm like, oh, OK, I guess that makes sense. Lo and behold, months later, my niece pulls a couch cushion off of this couch, and there it is, $10,000.
+<v Dusty>这就好比伪造发生过的事情。但这这家伙在队里的时间比我长。他比我懂得多。我想，哦，好吧，我想这说通了。结果几个月后，我侄女从沙发上拿下一个沙发垫，然后它就躺在那里，1万美元。
+
+00:22:42.220 --> 00:23:01.150
+<v Jack Hitt>Which means he was faced with a choice, keep the money or confess the mistake. Dusty confessed. But you can see how easy it would be to steal, and they all knew it. In time, their trust in each other began to fray, and suspicions that some of the members were stealing grew.
+<v Jack Hitt>这意味着他面临着一个选择：把钱留着，或者坦白这个错误。达斯蒂坦白了。但你可以看出偷窃是多么容易，他们心里都清楚。久而久之，他们彼此之间的信任开始瓦解，怀疑某些成员在偷钱的想法也随之滋生。
+
+00:23:01.150 --> 00:23:28.070
+<v Jack Hitt>One player lost big one night and phoned a lot of the other players. He was hysterical that he had cost the team so much. But their reaction? That he probably hadn't lost, but was stealing. Ben, the founder of the group, told me about one time when a team member claimed that he'd never even contemplated stealing. That struck Ben as unusual, and he immediately began suspecting that player of stealing.
+<v Jack Hitt>一天晚上，一名玩家输得很惨，给许多其他玩家打了电话。他歇斯底里地觉得是自己害团队损失了这么多钱。但他们的反应是什么？他们觉得他可能根本没输，而是在偷钱。该团体的创始人文本告诉我，曾有一次，一名团队成员声称他从未考虑过偷钱。本觉得这很不寻常，于是他立刻开始怀疑那名玩家在偷钱。
+
+00:23:28.070 --> 00:23:32.600
+<v Jack Hitt>(INTERVIEWER) JACK HITT: Do you think some of the members of your team did steal money?
+<v Jack Hitt>（采访者）杰克·希特：你认为你们团队的一些成员真的偷过钱吗？
+
+00:23:32.600 --> 00:23:51.330
+<v Ben>Yeah, I know people on this team stole money. In fact, to be really honest, one of the decisions I made very recently was to go back to the founding members of the team before our team took off, and I admitted to them that I stole money from them.
+<v Ben>是的，我知道队里有人偷过钱。事实上，说实话，我最近做出的决定之一，就是在我们的团队起飞之前，回到团队的创始成员那里，我向他们承认我偷了他们的钱。
+
+00:23:51.330 --> 00:23:52.350
+<v Jack Hitt>Oh, wow.
+<v Jack Hitt>哦，哇。
+
+00:23:52.350 --> 00:23:53.130
+<v Ben>Whoops.
+<v Ben>哎呀。
+
+00:23:53.130 --> 00:23:57.890
+<v Jack Hitt>Yeah. Ben? How much did you steal?
+<v Jack Hitt>是的。本？你偷了多少？
+
+00:23:57.890 --> 00:23:59.670
+<v Ben>$8,000, I think.
+<v Ben>我想是8,000美元。
+
+00:23:59.670 --> 00:24:01.510
+<v Jack Hitt>And did you pay it back?
+<v Jack Hitt>你还了吗？
+
+00:24:01.510 --> 00:24:32.160
+<v Ben>Yeah, I paid it back. The money was stolen from me from my car, and I had the choice of whether to report it or not. And at the time, I made a very quick decision, and I decided that our family couldn't afford it. And I just fudged the paperwork, and I said that I lost it at a casino. So those were three of my close friends. And I had to go to those guys years later and tell them the truth.
+<v Ben>是的，我还了。这笔钱是从我的车里被偷的，我当时面临着是否要报警的选择。当时我做了一个非常迅速的决定，我决定我们家承担不起这个损失。我只是篡改了文件，说我在赌场把钱弄丢了。那可是我三个最要好的朋友。几年后，我不得不去找那些家伙，对他们说实话。
+
+00:24:32.160 --> 00:24:56.030
+<v Jack Hitt>Throughout it all, playing blackjack never stopped being a little strange for the Christians, trying to make money surrounded by almost every temptation, free booze, plane tickets, beautiful prostitutes, easy money. But they had to stay focused on their job, counting cards. For some, it was lonesome, like Jesus in the wilderness. Here's Mike, in the desert of Las Vegas.
+<v Jack Hitt>自始至终，对基督徒来说，玩二十点牌从未停止过一丝诡异。他们试图在几乎所有的诱惑——免费美酒、机票、美丽的妓女、唾手可得的金钱——包围下赚钱。但他们必须专注于他们的工作：算牌。对某些人来说，这很孤独，就像旷野中的耶稣一样。这是迈克，在拉斯维加斯的沙漠中。
+
+00:24:56.030 --> 00:25:13.760
+<v Mike>It's funny, I talked to one of the guys on the team about what I did, and he had the exact same experience. Go up to my suite, which was usually, you know, 1,100, 1,200 square feet, gigantic, big TVs everywhere, bars. I had one that had a stripper pole in the bathroom.
+<v Mike>很有趣，我跟队里的一个家伙谈过我的所作所为，他也有过完全相同的经历。回到我的套房，通常你知道的，1100、1200平方英尺，巨大无比，到处都是大电视，还有酒吧。我甚至有一间浴室里装着一根钢管舞杆。
+
+00:25:13.760 --> 00:25:40.740
+<v Mike>But I would be by myself, or with other card counters. I traveled with one or two other of the players. And I would go up into my casino room, and I would order some real simple meal, you know, like a club sandwich. And then I would just sit in the chair, no music, no television, and just look out the window over the Strip and feel lonely, because you felt isolated.
+<v Mike>但我只能独自一人，或者和其他算牌客在一起。我和其他一两个玩家一起旅行。我会回到我的赌场房间，点一份非常简单的饭菜，比如总汇三明治。然后我就坐在椅子上，不放音乐，不看电视，只是隔着窗户看着拉斯维加斯大道，感到孤独，因为你感到了孤立。
+
+00:25:40.740 --> 00:26:01.860
+<v Mike>You know, you can't be open with the casino, who you are. And when you're open with your Christian friends, they're either way too excited about it, or they think you're doing the most evil thing in the world.
+<v Mike>你知道，你不能向赌场坦白你的真实身份。而当你向你的基督徒朋友敞开心扉时，他们要么对此兴奋过度，要么认为你在做世上最邪恶的事情。
+
+00:26:01.860 --> 00:26:30.260
+<v Jack Hitt>In the end, the church team split up in 2011, and not because any of them succumbed to gambling or any other temptation. They believed in God and his glorious gift of math. But apparently, God gave none of them the patience of Job needed to endure the mind-numbing work of card counting. So they all went their separate ways. Even though many worked only half-time, 20-hour weeks, and earned a full-time wage, around $40,000 a year, it wasn't worth it.
+<v Jack Hitt>最终，教会团队在2011年解散了，并不是因为他们中的任何人屈服于赌博或其他任何诱惑。他们信仰上帝和他赐予的伟大的数学天赋。但显然，上帝并没有赐予他们任何人像约伯那样忍受算牌这种枯燥乏味工作所需的耐心。于是他们分道扬镳了。尽管许多人只做半职工作（每周20小时），却赚取了全职工资（每年大约4万美元），但这并不值得。
+
+00:26:30.260 --> 00:26:49.280
+<v Jack Hitt>Mike now sells cell phones to pay for his studies at a pastor's college, and he intends to start a church when he gets out. Shirley returned to being a stay-at-home mom. Even Ben and Colin bailed to take new jobs. Colin starts websites now. And Ben says he makes more money from doing internet marketing than he did from playing blackjack.
+<v Jack Hitt>迈克现在靠卖手机来支付他在牧师学院学习的费用，他打算毕业后开办一座教堂。雪莉回归了全职妈妈的生活。就连本和科林也跳槽去做新工作了。科林现在做网站。本则说他做网络营销赚的钱比他玩二十点牌时赚的还要多。
+
+00:26:49.280 --> 00:27:10.750
+<v Jack Hitt>God works in mysterious ways. Sometimes, he enlightens you, like Paul on the road to Damascus-- a blinding epiphany convincing you to quit your old ways. Other times, God gets you to virtue by boring you to death.
+<v Jack Hitt>上帝的意图总是莫测高深。有时，他会启迪你，就像去大马士革路上的保罗一样——一道耀眼的顿悟，让你痛改前非。而另一些时候，上帝则通过让你感到无聊至死，来引导你走向美德。
+
+00:27:10.750 --> 00:27:21.910
+<v Ira Glass>Jack Hitt, he's the author most recently of the book Bunch of Amateurs. The documentary about card-counting Christians is at HolyRollersTheMovie.com.
+<v Ira Glass>杰克·希特（Jack Hitt），他最近出版了一本书叫《业余爱好者群像》（Bunch of Amateurs）。关于算牌基督徒的纪录片可在 HolyRollersTheMovie.com 观看。
+
+00:27:21.910 --> 00:27:34.510
+<v Ira Glass>Coming up, when you can't bring down the house, just sue it. That's in a minute, from Chicago Public Radio and Public Radio International, when our program continues.
+<v Ira Glass>接下来，当你无法击垮赌场时，那就起诉它。稍后为您播出，本节目由芝加哥公共广播电台和国际公共广播电台联合制作，节目稍后继续。
+
+00:27:34.510 --> 00:27:41.790
+<v Ira Glass>This American Life. I'm Ira Glass. Each week on our program, of course, we choose a theme, bring you different kinds of stories on that theme. Today's show, blackjack.
+<v Ira Glass>这是美国生活。我是艾拉·格拉斯。当然，我们节目的每周都会选择一个主题，为您带来关于该主题的各种故事。今天的节目是：二十点。
+
+00:27:41.790 --> 00:27:42.840
+<v Ira Glass>Ace, eight.
+<v Ira Glass>A，八。
+
+00:27:42.840 --> 00:27:44.220
+<v Robyn Semien>Negative four.
+<v Robyn Semien>负4。
+
+00:27:44.220 --> 00:27:45.720
+<v Ira Glass>10, five.
+<v Ira Glass>10，五。
+
+00:27:45.720 --> 00:27:47.250
+<v Robyn Semien>Negative four.
+<v Robyn Semien>负4。
+
+00:27:47.250 --> 00:27:48.270
+<v Ira Glass>Queen, nine.
+<v Ira Glass>Q，九。
+
+00:27:48.270 --> 00:27:49.570
+<v Robyn Semien>Negative five.
+<v Robyn Semien>负5。
+
+00:27:49.570 --> 00:27:59.140
+<v Ira Glass>On the bus to Atlantic City, This American Life producer, Robyn Semien, and I practiced counting cards on these card-counting apps that we downloaded to our phones. There are dozens of these.
+<v Ira Glass>在大西洋城的公交车上，《美国生活》制作人罗宾·瑟米安和我一起，用下载到手机上的算牌应用练习算牌。这类应用有几十种。
+
+00:27:59.140 --> 00:28:19.000
+<v Ira Glass>If you heard the beginning of today's program, you heard that she and I took a lesson in card counting. Now, we headed to a casino to try it out. Robyn had mastered card counting much better than I had. I was much better at knowing proper blackjack strategy, you know, how to play the cards, when to hit, all that. In other words, as I told Robyn when we got off the bus--
+<v Ira Glass>如果你听了今天节目的开头，你就会知道她和我上了一堂算牌课。现在，我们正前往一家赌场去亲身体验一下。罗宾对算牌的掌握比我好得多。我则更擅长掌握正确的二十点策略，你知道的，如何出牌、什么时候要牌，诸如此类。换句话说，正如我们下车时我对罗宾所说的——
+
+00:28:19.000 --> 00:28:23.830
+<v Ira Glass>So, between the two of us, we comprise one competent player.
+<v Ira Glass>所以，我们两个加起来，才勉强算是一个称职的玩家。
+
+00:28:23.830 --> 00:28:38.560
+<v Ira Glass>Our tutor, Andy Bloch, said that one day of practice before we went into a casino would not be enough, that it would take weeks. And he was right. Robyn could count the cards, but it was so difficult, it required such focus, that she had trouble speaking to anyone at all.
+<v Ira Glass>我们的导师安迪·布洛赫（Andy Bloch）曾说，去赌场前只练一天是远远不够的，得花上好几周。他说得对。罗宾虽然能数牌，但这实在太难了，需要高度的专注，以至于她根本没法和任何人说话。
+
+00:28:38.560 --> 00:28:59.000
+<v Ira Glass>People at the table-- it was all guys-- would say things to Robyn. They asked if we were on our honeymoon at one point. And uncharacteristically, Robyn said nothing. When we took a break after an hour, we found this empty lounge and recapped. She had a headache from all the nonstop counting. It was so hard.
+<v Ira Glass>桌上的人——全都是男的——会对罗宾说三道四。他们一度问我们是不是去度蜜月。而罗宾一反常态，一言不发。一个小时后我们休息时，找到了这个空旷的休息室进行复盘。她因为一刻不停地数牌而头疼欲裂。这太难了。
+
+00:28:59.000 --> 00:29:18.340
+<v Robyn Semien>I can't say a sentence. I can't remember how to play basic blackjack. It's weird, like, I'm looking at these two cards, and I'm like, seven plus five-- that's my hand. What's seven plus five? What does that mean? Like, I can't remember what the basic-- yeah, I just can't remember.
+<v Robyn Semien>我连一句完整的话都说不出来。我甚至记不清二十一点的基本玩法了。这感觉很诡异，就像，我看着这两张牌，心想，七加五——这就是我的手牌。七加五等于几？那是什么意思？就像，我想不起最基本的——对，我就是想不起来。
+
+00:29:18.340 --> 00:29:24.670
+<v Ira Glass>And then, as soon as that happens, everybody at the table starts telling you, oh, you have a 12. Here's what you're supposed to do. Like, I love how everybody's just jumping in.
+<v Ira Glass>然后，只要这种情况一发生，桌上的所有人就开始告诉你，哦，你拿了一个12。你应该这么做。真的，我太喜欢所有人突然都来指手画脚了。
+
+00:29:24.670 --> 00:29:33.310
+<v Robyn Semien>Oh, yeah, they were all there for me. It was a whole team of guys ready to tell me how to play. That's totally comfortable, (COUGHS) yeah.
+<v Robyn Semien>哦，对，他们全都是来帮我的。简直是一整支男士天团随时准备教我怎么玩。那种感觉真是太自在了，（咳嗽）没错。
+
+00:29:33.310 --> 00:29:50.140
+<v Ira Glass>We made mistakes. Our biggest mistake, I think, was that the count at the table we were at was mostly negative. It was mostly against us for most of the time that we sat there. I realized later that Andy would have gotten up and found a different table. The real pros switch tables a lot.
+<v Ira Glass>我们犯了错。我们的最大失误，我觉得，是我们所在的这张牌桌点数大多为负。在我们坐那儿的大部分时间里，形势对我们都很不利。我后来意识到，安迪当时肯定会起身换一张桌子。真正的职业玩家经常换桌。
+
+00:29:50.140 --> 00:30:05.200
+<v Ira Glass>But we held our own. And at the end of two hours, we were in a great situation. The count was seven, and there were two decks left to deal. And if you're not totally following this, all you need to know is that was good. That was good for us. It meant lots of good cards were coming.
+<v Ira Glass>但我们还是坚持了下来。两个小时结束时，我们迎来了绝佳的局面。点数是七，还剩下两副牌没发。如果你没完全听懂也没关系，你只需要知道这是好事。这对我们很有利。这意味着有很多好牌要发了。
+
+00:30:05.200 --> 00:30:20.230
+<v Ira Glass>So we boosted our bets, just like you're supposed to, from the minimum bet at this casino, which was $10 a bet. I bet $50. Robyn bet $30. Cards were dealt. I got a pair of tens. She got a pair of tens.
+<v Ira Glass>于是我们加大了赌注，正如你理应做的那样。这家赌场的最低下注额是每注10美元。我下注50美元。罗宾下注30美元。开始发牌。我拿到了一对十。她也拿到了一对十。
+
+00:30:20.230 --> 00:30:36.520
+<v Ira Glass>These are, by the way, great hands. You're trying to make 21, and we each had 20. The dealer had one card down, and the card that was showing was a five, one of the worst possible hands for the dealer. Robyn and I talked about what happened next on the bus ride home.
+<v Ira Glass>顺便说一句，这是极好的手牌。你的目标是凑到21点，而我们俩都拿到了20点。庄家暗扣了一张牌，明面上的牌是一张五，这是庄家可能拿到的最烂的手牌之一。在回程的公车上，我和罗宾讨论了接下来发生的事。
+
+00:30:36.520 --> 00:30:40.720
+<v Ira Glass>And then the dealer ended up dealing herself 21.
+<v Ira Glass>结果庄家自己发到了一张21点。
+
+00:30:40.720 --> 00:30:58.210
+<v Robyn Semien>Yeah. She flipped her hole card. It was also a five, so then she had 10. And then she dealt herself another card, and it was an ace. 21. We should have split our tens. You would have gotten that ace.
+<v Robyn Semien>对。她翻开了底牌。那也是一张五，所以她当时有10点。接着她给自己发了另一张牌，是一张A。21点。我们当时应该把对十拆开的。那样你就能拿到那张A了。
+
+00:30:58.210 --> 00:31:08.350
+<v Ira Glass>OK, non-blackjack people, splitting tens is something that nobody would ever do, except a card counter. It's what gets the woman kicked out of the casino in Jack Hitt's story.
+<v Ira Glass>好吧，对于不玩二十一点的人来说，拆十是绝对没人会做的事，除了数牌员。杰克·希特（Jack Hitt）的故事里，那个被赶出赌场的女人就是这么干的。
+
+00:31:08.350 --> 00:31:28.240
+<v Ira Glass>At Atlantic City, they don't kick you out. But if they spot you counting cards, they start shuffling the deck after every hand, or they come over and tell you that you can only bet the minimum bet at the table, which is basically telling you, go away. But once Robyn brought up this idea that we should have split our tens, it was hard to let it go.
+<v Ira Glass>在大西洋城，他们不会把你赶出去。但如果他们发现你在数牌，他们就会在每局结束后开始洗牌，或者他们会走过来告诉你，你只能下注桌上的最低限度，这基本上就是在叫你滚蛋。但自从罗宾提出我们当时应该拆对十这个想法后，就再也挥之不去了。
+
+00:31:28.240 --> 00:31:29.740
+<v Ira Glass>I would have gotten the ace, yeah.
+<v Ira Glass>我本来能拿到那张A的，没错。
+
+00:31:29.740 --> 00:31:30.580
+<v Robyn Semien>Yeah.
+<v Robyn Semien>对。
+
+00:31:30.580 --> 00:31:36.700
+<v Ira Glass>It would have stopped her from getting the ace. We would have made all sorts of extra money.
+<v Ira Glass>那样就能阻止她拿到A了。我们本来能赚到各种额外的钱。
+
+00:31:36.700 --> 00:31:43.430
+<v Robyn Semien>And then they would have kicked us out for being so good. That's all I wanted.
+<v Robyn Semien>然后他们就会因为我们太厉害而把我们赶出去了。这正是我想要的。
+
+00:31:43.430 --> 00:31:45.540
+<v Ira Glass>To get kicked out for being good.
+<v Ira Glass>因为太厉害而被赶出去。
+
+00:31:45.540 --> 00:31:47.750
+<v Robyn Semien>Yeah.
+<v Robyn Semien>对。
+
+00:31:47.750 --> 00:31:50.170
+<v Ira Glass>Instead, we walked out in shame.
+<v Ira Glass>结果呢，我们灰溜溜地走了出去。
+
+00:31:50.170 --> 00:31:52.670
+<v Robyn Semien>Instead, we just sucked.
+<v Robyn Semien>结果就是，我们菜得抠脚。
+
+00:31:52.670 --> 00:32:18.260
+<v Ira Glass>We bet high when the count was good, just like you're supposed to. And dumb luck made us lose anyway, which is part of the game. The dealer got 21, which beat our 20. We made big bets, and then lost one more hand after that and walked away down. Total losses-- this is my money, by the way, and it's a lot-- $348 in two hours, first time out.
+<v Ira Glass>点数好的时候我们加大了赌注，完全按规矩办事。结果愚蠢的运气还是让我们输了，这也是游戏的一部分。庄家拿了21点，击败了我们的20点。我们下了大注，然后又输了一局，最后灰头土脸地离开。总共输掉的钱——顺便说一句，这是我的钱，而且数目不小——两个小时里输了348美元，初次出师。
+
+00:32:18.260 --> 00:32:25.940
+<v Robyn Semien>I just feel like we could have done better. I think we should come back next week.
+<v Robyn Semien>我只是觉得我们本来可以表现得更好。我觉得我们下周应该再去。
+
+00:32:25.940 --> 00:32:41.940
+<v Ira Glass>Yeah, me too. We've both been practicing.
+<v Ira Glass>对，我也是。我们俩一直在练习。
+
+00:32:41.940 --> 00:32:59.640
+<v Ira Glass>Act Two, Harrah's Today, Gone Tomorrow. Now we have this story of somebody who thought that she knew how to play blackjack. She played for years. She didn't count cards, but she says that she knew the basic strategy cold. We've changed her name to protect her privacy. Sarah Koenig tells what happened.
+<v Ira Glass>第二幕，哈拉斯赌场：今日挥霍，明日成空。现在我们来讲这样一个故事：有人以为自己懂怎么玩二十一点。她玩了好多年。她不数牌，但她声称自己把基本策略烂熟于心。为了保护她的隐私，我们隐去了她的真实姓名。萨拉·科尼格（Sarah Koenig）为您讲述事情的经过。
+
+00:32:59.640 --> 00:33:25.890
+<v Sarah Koenig>One day in 2006, a woman I'm going to call Angie Bachmann went to the Caesars Indiana Casino and began to lose. She played blackjack. That was always her game. But on this night when she ran out of her own money, the casino offered her what are called counter checks, like a loan from the casino that you're supposed to pay back. She signed a paper for $10,000, $20,000, $30,000-- six checks for a total of $125,000.
+<v Sarah Koenig>2006年的一天，一个我称之为安吉·巴赫曼（Angie Bachmann）的女人去了印第安纳州的凯撒赌场，并开始输钱。她玩二十一点。那是她一贯爱玩的项目。但就在当晚，当她输光了自己的钱时，赌场向她提供了一种名为兑现支票（counter checks）的服务，就像是赌场发放的、本该偿还的贷款。她在一张文件上签了字，1万美元、2万美元、3万美元——一共六张支票，总计12.5万美元。
+
+00:33:25.890 --> 00:33:46.290
+<v Sarah Koenig>This is not a happy gambling story, so you know what happens next. She can't pay back the money, any of it. So the casino takes her to court, says Angie Bachmann owes us $125,000. And not only that, we're suing her for damages tripling that amount, half a million dollars in all. This isn't unusual, that casinos go after debtors like Bachmann in court.
+<v Sarah Koenig>这不是一个快乐的赌博故事，所以你知道接下来会发生什么。她无力偿还这笔钱，一分钱也还不上。于是赌场把她告上法庭，称安吉·巴赫曼欠我们12.5万美元。不仅如此，我们还要起诉她索赔三倍的金额，总共五十万美元。赌场在法庭上追讨像巴赫曼这样债务人的情况并不少见。
+
+00:33:46.290 --> 00:34:01.140
+<v Sarah Koenig>What is somewhat unusual is what happened next. Bachmann hired a lawyer named Terry Noffsinger, who argued that not only did she not owe the casino money, but they owed her money. I put to Noffsinger the question you might be having at this very moment.
+<v Sarah Koenig>略显不同寻常的是接下来发生的事情。巴赫曼雇了一位名叫特里·诺夫辛格（Terry Noffsinger）的律师，他辩称她不仅不欠赌场钱，反而是赌场欠她的钱。我向诺夫辛格提出了你此时此刻可能正在想的问题。
+
+00:34:01.140 --> 00:34:15.850
+<v Sarah Koenig>Wait, what? Why is she not liable? It seems like, if you go to a casino, that's, like, you know what you're doing. Like, what's your best one-sentence argument for why it is that you believe she shouldn't be held responsible?
+<v Sarah Koenig>等等，什么？为什么她不承担法律责任？感觉如果你去赌场，那就应该，你知道自己在做什么。比如，关于你为什么认为她不应该承担责任，你最有力的单句论点是什么？
+
+00:34:15.850 --> 00:34:36.090
+<v Terry Noffsinger>Because, at the time of those losses, she has passed the point of no return to where she has no control over what she's doing, comma, and the casinos know it and take advantage of it. They knew she was a compulsive gambler. They knew she didn't have control.
+<v Terry Noffsinger>因为，在那些输钱的时候，她已经过了不归点，对自己的行为彻底失去了控制，逗号，而赌场心知肚明并利用了这一点。他们知道她是一个强迫性赌徒。他们知道她失去了控制。
+
+00:34:36.090 --> 00:34:50.430
+<v Terry Noffsinger>Now, here's the difficult thing. A lot of people wouldn't believe me, you know? I've even had friends of mine who it took a while to convince them that I was really telling the truth, that this was really what was happening.
+<v Terry Noffsinger>现在，困难的地方在于。很多人不会相信我，你知道吗？甚至我的一些朋友，也花了好一阵子才相信我说的都是真的，这确实是当时发生的事情。
+
+00:34:50.430 --> 00:35:08.820
+<v Sarah Koenig>I heard about this case from New York Times reporter, Charles Duhigg. It's in his new book, called The Power of Habit, which is about how habits form in our brains, and also about how companies tap into those habits to get us to spend money, in Bachmann's case, money she didn't have. Duhigg also calls her Angie Bachmann in his book, by the way.
+<v Sarah Koenig>我是从《纽约时报》记者查尔斯·杜 Duhigg（Charles Duhigg）那里听说这个案子的。它记录在他的新书《习惯的力量》（The Power of Habit）中，这本书讲述了我们的脑海中是如何形成习惯的，以及公司如何利用这些习惯来诱使我们花钱——在巴赫曼的例子里，花她根本没有的钱。顺便说一句，杜 Duhigg 在书中也叫她安吉·巴赫曼。
+
+00:35:08.820 --> 00:35:29.400
+<v Sarah Koenig>Bachmann's lawsuit made news, and some of the reaction was backlash. Nasty online comments lamented the ever increasing abrogation of personal responsibility. One person wrote, "What's next? Suing supermarkets because you eat too much?" And another, "Not unless Lamborghini pays my speeding tickets." And another, "Can I sue Budweiser for getting me drunk?"
+<v Sarah Koenig>巴赫曼的诉讼成了新闻，一些反应引发了强烈反对。网络上尖酸的评论痛心疾首地哀叹个人责任感的日益沦丧。有人写道：“接下来是什么？因为吃得太多而起诉超市吗？”还有人写道：“除非兰博基尼替我付超速罚单。”另一个人则写道：“我能因为百威啤酒让我喝醉而起诉它吗？”
+
+00:35:29.400 --> 00:35:52.670
+<v Sarah Koenig>I have to say, the case initially struck me as flimsy too. And when Noffsinger first heard about gambling addiction, he didn't buy it either. Years earlier, he had gotten a call from a guy named David Williams. Williams had lost everything, including his house, playing slots on a local riverboat casino. He told Noffsinger he'd run red lights driving to the riverboat so he could be there the second the casino opened, that he'd sit at the same slot machine for 20 hours straight.
+<v Sarah Koenig>我必须承认，这个案子起初给我的感觉也很站不住脚。当诺夫辛格第一次听说赌博成瘾时，他也不相信。几年前，他接到过一个名叫大卫·威廉姆斯（David Williams）的男人的电话。威廉姆斯在一艘当地的内河游船赌场玩老虎机，输掉了一切，包括他的房子。他告诉诺夫辛格，他为了能赶在赌场开门的那一秒到达，开车去河船时连闯红灯，他可以在同一台老虎机前连续坐上20个小时。
+
+00:35:52.670 --> 00:36:15.870
+<v Terry Noffsinger>With regard to David Williams, when he came in, he told me the story, and I was incredulous. So I went down to the office that Saturday, I told you, and I read about compulsive gambling. I read DSM IV, and I read some of the other scientific literature that was online. And I thought, this guy, I think he's telling the truth.
+<v Terry Noffsinger>关于大卫·威廉姆斯，他当时来到事务所，把这个故事讲给我听，我对此将信将疑。于是我照我跟你说的，那个星期六去了办公室，阅读了关于病态赌博的资料。我读了《精神疾病诊断与统计手册第四版》（DSM IV），还阅读了网上的一些其他科学文献。我想，这个人，我觉得他说的是真的。
+
+00:36:15.870 --> 00:36:41.390
+<v Terry Noffsinger>And everything I learned from then on confirmed to me that David Williams was telling the truth. And it seemed clear to me that the casino had to know that he was a compulsive gambler and that he was one of their favorites. And they would put him up at night in the fancy suites and give him drinks, and meals, and all these things. So I felt like they were taking advantage of him. And I thought the evidence supported that, and we filed a lawsuit.
+<v Terry Noffsinger>从那以后我学到的一切都向我证实，大卫·威廉姆斯说的是实话。在我看来，赌场肯定知道他是一个病态赌徒，而且他是他们的座上宾。他们会安排他在豪华套房里过夜，给他提供饮料、饭菜以及所有这些东西。所以我觉得他们是在利用他。我认为证据支持这一点，于是我们提起诉讼。
+
+00:36:41.390 --> 00:36:58.790
+<v Sarah Koenig>The lawsuit didn't work. It was rejected in federal court. But afterwards, Noffsinger started to get phone calls, from Arizona, Southern California, Seattle, Mississippi, Massachusetts, all gamblers with similar stories. After a while, he started keeping track. He's got a list now with about 40 names on it.
+<v Sarah Koenig>这起诉讼没有成功。它在联邦法院被驳回了。但在此之后，诺夫辛格开始接到来自亚利桑那州、南加州、西雅图、密西西比州、马萨诸塞州等地的电话，打来电话的全都是有着类似遭遇的赌徒。过了一段时间，他开始做记录。他现在有一个大约有40个名字的名单。
+
+00:36:58.790 --> 00:37:34.790
+<v Sarah Koenig>He told every one of these callers the same thing, I believe you, but I can't help you-- until Bachmann. Since she was already being sued by the casino, he thought maybe his counterargument could get traction in the courts this time. He hoped to make visible the very thing he believes the rest of us don't see or understand, the lengths to which casinos go to keep gamblers playing, including addicted gamblers. His argument boiled down to this. Caesars had a duty not to protect Mrs. Bachmann from herself, from her own gambling habits, but to protect Mrs. Bachmann from itself, from Caesars.
+<v Sarah Koenig>他对这些来电者每个人都说同样的话：我相信你，但我帮不了你——直到巴赫曼出现。既然她已经被赌场起诉了，他觉得这一次他的反诉或许能在法庭上行得通。他希望能让人们看到他认为我们其他人都没有看到或理解的东西——赌场为了让赌徒继续赌博而不择手段，包括对成瘾赌徒也是如此。他的论点归结为一点：凯撒赌场的义务不是保护巴赫曼太太免受她自身的赌博习惯之害，而是保护巴赫曼太太免受赌场自身、免受凯撒赌场之害。
+
+00:37:34.790 --> 00:37:51.030
+<v Sarah Koenig>When her gambling started, Bachmann was a housewife in Iowa, the mother of three girls. She started playing blackjack-- at first, pretty small amounts, just once a week or so. Soon enough, she was hooked, doing all the typical things addicted gamblers do-- chasing losses, borrowing money from her mother to pay her debts.
+<v Sarah Koenig>当她的赌博行为开始时，巴赫曼是爱荷华州的一名家庭主妇，三个女孩的母亲。她开始玩二十一点——起初赌注相当小，差不多一周只玩一次。很快，她就深陷其中，做着成瘾赌徒都会做的典型事情——追逐损失，向母亲借钱来偿还债务。
+
+00:37:51.030 --> 00:38:11.450
+<v Sarah Koenig>Then, at the very end of 2001, she filed for bankruptcy. She says she'd written $20,000 worth of checks to the Harrah's Casino in Council Bluffs, and the checks had bounced. Bachmann says Harrah's knew about the bankruptcy, that even the dealers there knew about the bankruptcy. She remembers having conversations with them about her bankruptcy. Nevertheless, the casino welcomed her back.
+<v Sarah Koenig>然后，在2001年底，她申请了破产。她说她曾向布拉夫斯市（Council Bluffs）的哈拉斯赌场（Harrah's Casino）开出了价值2万美元的支票，结果都跳票了。巴赫曼说哈拉斯赌场知道她破产的事，甚至那里的荷官也知道她破产的事。她记得曾和他们谈论过自己破产的事。尽管如此，赌场还是欢迎她回来。
+
+00:38:11.450 --> 00:38:32.510
+<v Angie Bachmann>What they told me at that point was, it's fine that you continue to come in. It's fine that you play. Just, you know that you can't write a check here. We won't allow you to write checks, but, you know, go ahead and continue to come back. Just bring cash. Just bring cash. So--
+<v Angie Bachmann>他们当时对我说的是，你继续来玩没关系。你继续玩没关系。只是，你知道你不能在这里开支票。我们不允许你开支票，但是，你知道的，尽管继续来吧。只要带现金就行。只要带现金。所以——
+
+00:38:32.510 --> 00:39:06.650
+<v Sarah Koenig>So she did. Then, in 2004, both her parents died, and Bachmann inherited close to $1 million. She says the staff at Harrah's in Council Bluffs figured out she'd come into money, after she stopped in there one day and a host took notice of the amounts she was playing. He invited her into the players lounge, chatted her up. What, did you win the lottery or something? What's going on in your life? Bachmann says she more or less told him what had happened, and kept betting with larger amounts than in the past. After that, she says, vouchers, and coupons, and invitations started coming in the mail, with big offers.
+<v Sarah Koenig>于是她照做了。接着，在2004年，她的父母双双离世，巴赫曼继承了近100万美元。她说，布拉夫斯市哈拉斯赌场的工作人员发现她发了一笔财，起因是她有一天去那儿玩，一个公关经理注意到了她的下注金额。他邀请她去了玩家休息室，和她闲聊。怎么，你中彩票了还是怎么着？你生活里发生什么事了？巴赫曼说她多多少少把发生的事情告诉了他，并且开始用比以往更大的金额下注。在那之后，她说，代金券、优惠券和邀请函开始雪片般寄到家里，全都是丰厚的优惠。
+
+00:39:06.650 --> 00:39:37.580
+<v Sarah Koenig>She'd moved from Iowa to Tennessee by this point, so they offered her hotel rooms for as long as she wanted them, a week, two weeks. And gifts started coming too. But Bachmann says her contact with Harrah's kicked into high gear after her biggest loss up to that point, which might sound counterintuitive. You or I might think, well, after a pummeling, that's the end of that customer. But in the casino industry, the more you lose, the lovelier a prospect you become. So, after Bachmann lost a quarter of a million dollars in one night at the casino in Council Bluffs, the phone calls began.
+<v Sarah Koenig>这时候她已经从爱荷华州搬到了田纳西州，所以他们为她提供想要多久就多久的酒店房间，一周、两周。礼物也开始寄来。但巴赫曼说，她和哈拉斯赌场的联系在经历了一次她有生以来最大的一次惨败后进入了快车道，这听起来可能有点违反直觉。你我可能会想，好吧，经历了一次惨痛的打击后，这个客户就到此为止了。但在赌场行业里，你输得越多，你就越是块令人爱不释手的肥肉。因此，在巴赫曼在布拉夫斯市的赌场一晚上输掉25万美元后，电话轰炸开始了。
+
+00:39:37.580 --> 00:39:52.340
+<v Angie Bachmann>It probably went from a couple of times a week to five times a week from various casino hosts throughout the country, really.
+<v Angie Bachmann>频率大概从一周两三次，变成了来自全国各地不同赌场公关的一周五次，真的。
+
+00:39:52.340 --> 00:39:59.290
+<v Woman>I have been assigned to be your casino host here in Kansas City, and I was just calling. I noticed that you haven't been in for a while--
+<v Woman>我被指派担任您在堪萨斯城的赌场公关，我打电话来是想说，我注意到您已经有一段时间没来了——
+
+00:39:59.290 --> 00:40:02.210
+<v Sarah Koenig>Bachmann played me a few of these messages from her answering machine.
+<v Sarah Koenig>巴赫曼给我放了她答录机里的几条这样的留言。
+
+00:40:02.210 --> 00:40:16.700
+<v Woman>--and that you have a birthday coming up. So I was calling to invite you to come to Kansas City to celebrate your birthday. If you need anything here at Harrah's, please give me a call. And we want to wish you a happy birthday on the 27th.
+<v Woman>——而且您的生日快到了。所以我打电话来邀请您来堪萨斯城庆祝您的生日。如果您在哈拉斯有任何需要，请给我打电话。我们提前祝您27号生日快乐。
+
+00:40:16.700 --> 00:40:27.830
+<v Sarah Koenig>These kinds of calls are standard, apparently. Angie Bachmann always gambled at Harrah's Casinos. The company is now called Caesars Entertainment, since it bought out Caesars. It's the largest gaming company in the world.
+<v Sarah Koenig>这种电话显然是标准流程。安吉·巴赫曼总是在哈拉斯赌场赌博。由于收购了凯撒赌场，这家公司现在被称为凯撒娱乐（Caesars Entertainment）。它是全球最大的博彩公司。
+
+00:40:27.830 --> 00:41:02.600
+<v Sarah Koenig>And Bachmann happened to start gambling at the same time that Harrah's began to overhaul its marketing strategies. Harrah's knew how to track each gambler's habits through Total Rewards cards that each gambler, including Bachmann, would use throughout the casino. And that told the company exactly how much money each player spent on which games and at what frequency. The company would then use that information to tell them exactly what kinds of perks and rewards would keep certain gamblers coming back, and at exactly what juncture to offer those perks and rewards.
+<v Sarah Koenig>而巴赫曼开始赌博的时间，正好赶上哈拉斯赌场开始全面整顿其营销策略。哈拉斯通过每位赌徒（包括巴赫曼）在赌场各处都会使用的“全面回报”卡（Total Rewards cards），知道如何追踪每个赌徒的习惯。这告诉了该公司每个玩家在哪些游戏上花了多少钱、频率如何。然后，该公司会利用这些信息来准确告知他们，什么样的专属福利和奖励能让某些赌徒不断回头，以及在哪个时间点提供这些福利和奖励最为合适。
+
+00:41:02.600 --> 00:41:19.010
+<v Sarah Koenig>I couldn't find a Harrah's host to talk to me in detail about the job, but I did talk to one former casino host in Iowa. He worked at the Isle of Capri riverboat for nine years. He told me he was responsible for a list of about 800 to 1,000 players at any given time. And around half of those, he knew personally.
+<v Sarah Koenig>我找不到哈拉斯的公关经理跟我详细谈谈这份工作，但我确实跟爱荷华州的一位前赌场公关聊过。他在卡普里岛内河游船赌场（Isle of Capri riverboat）工作了九年。他告诉我，他在任何特定时间都负责大约800到1000名玩家的名单。其中大约有一半，他都是亲自认识的。
+
+00:41:19.010 --> 00:41:43.980
+<v Sarah Koenig>Every day, he was supposed to call at least 25 people on his list. For each player, the casino assigned a dollar figure, which was how much a player should theoretically make the casino during each visit. The host's job is to push up these numbers by getting players to visit the casino more often, and once there, to stay longer. These numbers drive everything, this host said, the comps that players get and the host's quarterly bonuses.
+<v Sarah Koenig>每天，他都被要求给名单上的至少25个人打电话。对于每位玩家，赌场都会指定一个美元数字，这代表着理论上玩家每次光临应该为赌场创造多少利润。公关的工作就是通过吸引玩家更频繁地光临赌场，并在来到赌场后停留更长的时间，来推高这些数字。这位公关说，这些数字驱动了一切，包括玩家获得的免费礼遇（comps）以及公关的季度奖金。
+
+00:41:43.980 --> 00:42:17.780
+<v Sarah Koenig>So as Bachmann played more and her bets got bigger, so did her comps. She talks about all the luxuries you've maybe seen in the movies-- first-class plane tickets or trips on charter planes, free meals, a five-bedroom suite at the Palazzo in Vegas for her, and her family, and her friends, with a hot tub off every bedroom, limos, free champagne, clothing, special golf trips for her husband. In Lake Tahoe, the casino gave her and her family front-row tickets to an Eagles concert, and also put them on the same hotel floor as the band. They gave her a room with a grand piano and a butler. Anything she asked for, she got.
+<v Sarah Koenig>随着巴赫曼玩得越来越多，她的下注也越来越大，她获得的免费优待也随之增加。她谈到了所有你可能在电影里见过的奢华享受——头等舱机票或包机旅行、免费餐食、位于拉斯维加斯帕拉佐酒店（Palazzo）供她、她的家人和朋友居住的五居室套房（每个卧室外面都有一个按摩浴缸）、豪华轿车、免费香槟、服装以及为她丈夫安排的特许高尔夫之旅。在太浩湖，赌场赠送她和家人一场老鹰乐队（Eagles）演唱会的前排门票，还将他们的房间安排在与乐队同一楼层的酒店。赌场给她准备了一个带三角钢琴和管家的房间。她要求什么，就能得到什么。
+
+00:42:17.780 --> 00:42:35.760
+<v Angie Bachmann>They never said no. They never said no to anything. No, in Lake Tahoe, they would tell me, go into the gift shop-- anything I wanted, including handbags, jewelry.
+<v Angie Bachmann>他们从不拒绝。他们对任何事情从不拒绝。不，在太浩湖，他们会告诉我，去礼品店吧——任何我想要的东西，包括手提包、珠宝。
+
+00:42:35.760 --> 00:42:38.780
+<v Sarah Koenig>Like, real jewelry? Are we talking, like, gems?
+<v Sarah Koenig>比如，真正的珠宝？我们说的是像宝石这样的东西吗？
+
+00:42:38.780 --> 00:42:48.040
+<v Angie Bachmann>Yes, diamonds. Usually, it would be something for my daughter, diamond earrings for her, or a diamond necklace for her.
+<v Angie Bachmann>是的，钻石。通常是给我女儿买的东西，比如给她买的钻石耳环，或者给她买的钻石项链。
+
+00:42:48.040 --> 00:42:58.100
+<v Sarah Koenig>Bachmann says, at first, she was excited by the phone calls she got from hosts, these friendly people sending her off for free to all these places she'd never been. Later, she says she came to dread the calls.
+<v Sarah Koenig>巴赫曼说，起初，她对博彩公关打来的电话感到兴奋，这些热情的人把她免费送到所有她从未去过的地方。后来，她说她开始害怕这些电话。
+
+00:42:58.100 --> 00:43:13.250
+<v Angie Bachmann>Because towards the end, there were conversations when they would call that, well, you know, last month, we gave you a trip. We offered you the suite. We gave you a golf game. You didn't really play that much.
+<v Angie Bachmann>因为到了后期，当他们打电话来时会有这样的对话：嗯，你知道的，上个月我们给了你一次旅行。我们为你提供了一间套房。我们送了你一场高尔夫球局。你其实没怎么玩。
+
+00:43:13.250 --> 00:43:29.240
+<v Sarah Koenig>She says, one time, when she was back home, despondent after a big loss, a casino host called her and persuaded her to return to the blackjack table, saying, you'll win it back. She didn't, and in fact ended up losing hundreds of thousands more. Another call also stands out for her, from a host in Illinois.
+<v Sarah Koenig>她说，有一次，当她回到家、在一场惨败后陷入沮丧时，一名赌场公关给她打电话，说服她回到二十一点赌桌前，并对她说：“你会赢回来的。”她并没有赢回来，事实上最后又输掉了几十万美元。另一个电话也让她记忆犹新，那是来自伊利诺伊州的一位公关。
+
+00:43:29.240 --> 00:44:04.020
+<v Angie Bachmann>And I said, you know, I really need to not be doing this as much as I'm doing. I really need to slow down. I'm losing way too much money. And he said-- his exact words to me were, "My life depends on you coming up here this weekend." And I took that as his job depended on it, on getting me up there. And I would feel guilty that I owed them more play.
+<v Angie Bachmann>我说，你知道的，我真的需要克制一下，不能像现在这样玩得这么频繁。我真的需要慢下来。我输掉的钱实在是太多了。然后他说——他对我说过原话是：“我的生活全靠你这个周末来这里了。”我当时觉得他的工作就指望这个了，就指望把我弄到那儿去。我会感到内疚，觉得自己欠他们更多的投注。
+
+00:44:04.020 --> 00:44:26.320
+<v Angie Bachmann>I know it sounds insane. It is insane. I mean, I was dealing with the guilt that I wasn't playing enough to repay them what they were giving me, and then the guilt of I shouldn't be doing this.
+<v Angie Bachmann>我知道这听起来很疯狂。这确实很疯狂。我的意思是，我一方面要承受自己玩得不够多、无法回报他们给予我的东西的内疚感，另一方面还要承受我不该这么做的内疚感。
+
+00:44:26.320 --> 00:45:02.510
+<v Sarah Koenig>By early 2006, Bachmann says her nearly $1 million inheritance was gone. She'd spent a few hundred thousand buying a house, and the rest in just two years, poof, playing blackjack all over the country. Even so, in March of that year, she and her husband went out to Indiana. She thinks she probably played what she describes as conservatively around $400 a hand. They were drinking. She says the drinks were strong. Her husband went up to bed, but she gambled all night and into the next morning. At some point, she signed the six counter checks for $125,000. This time, because she knew she didn't have the money, she was frantic.
+<v Sarah Koenig>巴赫曼说，到2006年初，她将近100万美元的遗产已经所剩无几。她花了几十万美元买了一栋房子，剩下的钱在短短两年内，就“砰”地一下，全在全国各地的二十一点赌桌上花光了。即便如此，在当年3月，她和丈夫还是去了印第安纳州。她觉得自己当时的下注额大约是每手400美元，她把这称为保守的玩法。他们当时在喝酒。她说酒很烈。她丈夫上楼睡觉了，但她赌了一整夜，直到第二天早上。在某个时刻，她签下了六张总额达12.5万美元的柜台支票。这一次，因为她知道自己根本没有这笔钱，所以她急得发疯。
+
+00:45:02.510 --> 00:45:23.410
+<v Angie Bachmann>I was in a panic. And I had talked to the host and said, I-- I-- I don't have it. I have to go home and figure it out. They-- all right. Then, you know, we'll-- they said-- they said, all right, do you want to go to the Kentucky Derby? [LAUGHS]
+<v Angie Bachmann>我当时陷入了恐慌。我跟公关沟通过并说，我——我——我没有这笔钱。我得回家去想办法。他们——好吧。然后，你知道，我们会——他们说——他们说，好吧，你想去肯塔基赛马会吗？[笑]
+
+00:45:23.410 --> 00:45:25.240
+<v Sarah Koenig>Wait, what?
+<v Sarah Koenig>等等，什么？
+
+00:45:25.240 --> 00:45:31.990
+<v Angie Bachmann>Yeah. Yeah. If you get that money and then you pay us, then you can go to the Kentucky Derby.
+<v Angie Bachmann>对。对。如果你筹到这笔钱然后付给我们，那你就可以去肯塔基赛马会。
+
+00:45:31.990 --> 00:45:41.260
+<v Sarah Koenig>If this level of cheerful relentlessness sounds far-fetched, well, here's a voicemail from Caesars Indiana, the same Casino she owed $125,000 to. It's from Bachmann's answering machine.
+<v Sarah Koenig>如果这种欢快而执着的死缠烂打听起来有些离谱，好吧，这里有一段来自印第安纳州凯撒娱乐赌场（Caesars Indiana）的语音留言，也就是她欠下12.5万美元的那家赌场。这是留在巴赫曼答录机里的。
+
+00:45:41.260 --> 00:45:56.320
+<v Man>This is from Caesars Indiana. I just wanted to reach out and give you a quick call. We're a few weeks away from the Derby, and just wanted to confirm that you guys are still going to be joining us up here, and just set up any type of golf arrangements or anything like that.
+<v Man>这里是印第安纳州凯撒娱乐。我只是想联系你一下，给你打个简短的电话。距离赛马会只有几周时间了，我们只是想确认一下你们是否仍然打算来这里和我们汇合，顺便安排一下高尔夫球局或类似的事情。
+
+00:45:56.320 --> 00:46:13.990
+<v Sarah Koenig>The Kentucky Derby was in May. Bachmann had been wiped out, remember, back in March. Looking back at it all, she knows she did this to herself, that she's responsible. But Bachmann also thinks the casinos knew what she was doing better than she did, that they sat back and watched it happen. That's why she sued.
+<v Sarah Koenig>肯塔基赛马会在五月份举行。记住，巴赫曼早在三月份就已经被榨干了。回想起这一切，她知道这是她自己干的，责任全在自己。但巴赫曼也认为，赌场比她自己更清楚她在做什么，他们只是坐在一旁眼睁睁地看着这一切发生。这就是她提起诉讼的原因。
+
+00:46:13.990 --> 00:46:29.090
+<v Sarah Koenig>Because of the terms of the settlement Bachmann and Caesars eventually worked out, the company wasn't at liberty to talk about the details of her case. In a statement, a spokesperson from Caesars Entertainment wrote, quote, "There are many specific points we would contest, but we are unable to do so at this point."
+<v Sarah Koenig>由于巴赫曼和凯撒娱乐最终达成的和解条款，该公司无权讨论她案件的细节。凯撒娱乐的一位发言人在一份声明中写道：“有许多具体观点我们会提出异议，但在目前我们无法这样做。”
+
+00:46:29.090 --> 00:46:47.990
+<v Sarah Koenig>The spokesperson pointed out that the conversations Bachmann said she had with casino employees, her dealings with staff, they're all unverified, which is true. But I did talk to several other people, former casino employees and one veteran gambler, who all said that most of the interactions Bachmann says she had with the casino are plausible and pretty typical.
+<v Sarah Koenig>该发言人指出，巴赫曼所说的她与赌场员工的对话以及她与工作人员的往来，都是未经核实的，这确实是事实。但我确实与其他人交谈过，包括前赌场员工和一位资深赌徒，他们都表示，巴赫曼所描述的她与赌场的绝大多数互动都是情理之中，而且相当典型。
+
+00:46:47.990 --> 00:47:14.730
+<v Sarah Koenig>The Caesars statement went on to say that their marketing isn't predatory, they're just doing what any smart company does. Quote, "We look for ways to attract customers, and we make efforts to maintain them as loyal customers. When our customers change their established patterns, we try to understand why and encourage them to return. That's no different than a hotel chain, an airline, or a dry cleaner," unquote.
+<v Sarah Koenig>凯撒娱乐的声明接着说，他们的营销并非掠夺性的，他们只是在做任何一家明智的公司都会做的事情。引述如下：“我们寻找吸引客户的方法，并努力将他们维持为忠实客户。当我们的客户改变了他们既有的模式时，我们试图理解原因并鼓励他们回归。这与连锁酒店、航空公司或干洗店没有什么不同。”引述结束。
+
+00:47:14.730 --> 00:47:41.370
+<v Sarah Koenig>Gary Loveman is the CEO and President of Caesars Entertainment. Loveman was a Harvard professor who came to the company to design and implement the marketing strategies, targeting customers through the Total Rewards cards I mentioned earlier, which changed the industry. Last fall, Loveman talked to our colleagues at Planet Money for a different story about marketing, but he also addressed this problem of addicted gamblers. He was categorical. He said the company does not want them as customers.
+<v Sarah Koenig>加里·洛夫曼（Gary Loveman）是凯撒娱乐的首席执行官兼总裁。洛夫曼曾是一名哈佛教授，他来到该公司旨在设计并实施营销策略，通过我前面提到的“全面奖励”（Total Rewards）会员卡来锁定客户，这改变了整个行业。去年秋天，洛夫曼曾与我们在《金钱星球》（Planet Money）节目的同事探讨过关于营销的另一个话题，但他也谈到了问题赌徒的这一困境。他的态度非常坚决。他说公司根本不希望这些人成为客户。
+
+00:47:41.370 --> 00:48:19.470
+<v Gary Loveman>We do not wish to be in the business of serving addicted gamblers. I have 75,000 people that work with me who go home to their families and kids like I do. None of them want to go home thinking that they've just helped an addicted gambler do further harm to themselves or their families. So our objective is to try to identify addicted gamblers as best we can and encourage them to seek treatment and help, and to the degree they're willing to identify themselves as addicted or troubled gamblers, not serve them in any fashion, not market to them, not lend them money, and where the law allows, not permit them in the casino.
+<v Gary Loveman>我们不希望从事服务于染上赌瘾的赌徒的业务。我有75,000名与我共事的员工，他们像我一样会回到家人和孩子身边。他们中没有人愿意带着这样的想法回家：自己刚刚帮助一个赌瘾患者对他们自己或他们的家人造成了进一步的伤害。因此，我们的目标是尽我们所能识别出赌瘾患者，并鼓励他们寻求治疗和帮助；如果他们愿意表明自己是赌瘾患者或陷入困境的赌徒，我们就以任何形式都不为他们服务，不向他们进行营销，不借钱给他们，并且在法律允许的情况下，不允许他们进入赌场。
+
+00:48:19.470 --> 00:48:28.560
+<v Sarah Koenig>Well, maybe. This is Kristian Kunder. For about six years, he worked at Caesars Palace in Las Vegas, both before and after it was taken over by Harrah's.
+<v Sarah Koenig>好吧，也许吧。这是克里斯蒂安·昆德（Kristian Kunder）。在大约六年的时间里，他在拉斯维加斯的凯撒宫（Caesars Palace）工作过，涵盖了哈拉斯（Harrah's）收购该赌场之前和之后的时期。
+
+00:48:28.560 --> 00:48:36.300
+<v Sarah Koenig>Did you ever serve gamblers that you knew personally, like, you knew or suspected that they were addicted?
+<v Sarah Koenig>你有没有服务过那些你个人认识的赌徒，比如，你知道或怀疑他们上瘾了？
+
+00:48:36.300 --> 00:48:36.990
+<v Kristian Kunder>Yes.
+<v Kristian Kunder>有。
+
+00:48:36.990 --> 00:48:37.940
+<v Sarah Koenig>You did?
+<v Sarah Koenig>你服务过？
+
+00:48:37.940 --> 00:48:50.530
+<v Kristian Kunder>Yes. There's a lot of people that come through who are obvious, obvious-- I've seen players gambling, and I go home, come to work the next night, they're still there in their same clothes, in the same seat.
+<v Kristian Kunder>是的。有很多这样的人经过，显而易见，非常明显——我看到过有玩家在赌博，我下班回家，第二天晚上来上班时，他们竟然还坐在原来的座位上，穿着同样的衣服。
+
+00:48:50.530 --> 00:48:52.980
+<v Sarah Koenig>And no one's saying anything to them?
+<v Sarah Koenig>而且没有人对他们说什么吗？
+
+00:48:52.980 --> 00:48:55.260
+<v Kristian Kunder>Absolutely not.
+<v Kristian Kunder>绝对没有。
+
+00:48:55.260 --> 00:49:07.740
+<v Sarah Koenig>Kunder's title was assistant casino manager, what's more commonly known in casinos as a pit boss. At Caesars, he typically worked the high limit room. Depending on the night, he was in charge of anywhere from 30 to 100 dealers. I asked him about Loveman's quote.
+<v Sarah Koenig>昆德的头衔是赌场助理经理，也就是赌场里俗称的“坑长”（pit boss）。在凯撒宫，他通常负责高额投注区。根据当晚的情况，他要管理30到100名发牌员不等。我向他问起了洛夫曼的那段话。
+
+00:49:07.740 --> 00:49:18.790
+<v Sarah Koenig>So, when he says, "We do everything we can to identify-- our objective is to try to identify addicted gamblers as best we can and encourage them to seek treatment and help," that's not true?
+<v Sarah Koenig>所以，当他说：“我们尽一切努力去识别——我们的目标是尽我们所能识别出赌瘾患者，并鼓励他们寻求治疗和帮助”时，这不是真的？
+
+00:49:18.790 --> 00:49:30.940
+<v Kristian Kunder>Not one bit. Not the slightest part. In no way. The only time they'll approach a player is if they're suicidal or something like that.
+<v Kristian Kunder>一点都不是。连一点点都不是。完全不是。他们唯一会接近玩家的时候是当对方有自杀倾向或者类似情况的时候。
+
+00:49:30.940 --> 00:49:59.080
+<v Sarah Koenig>Kunder says the way it was supposed to work was that a designated person, called a casino ambassador, would respond to any gambler showing a potential sign of addiction. So if a dealer or a floor person heard someone say, how am I going to feed my kids, or, I just lost my house, they were supposed to call over the ambassador, who would then give the player some addiction literature. Kunder remembers a pamphlet called "When the Fun Stops," and a phone number to call. But in practice, Kunder says, it didn't happen. The only exception, he said, was, if someone was suicidal.
+<v Sarah Koenig>昆德说，按照原本的运作方式，应该由一名被指定称为“赌场大使”的人去回应任何表现出潜在赌瘾迹象的赌徒。因此，如果发牌员或楼面巡视人员听到有人说“我该怎么养活我的孩子”或者“我刚输掉了房子”，他们理应把大使叫过来，然后由大使给这位玩家提供一些戒瘾宣传册。昆德记得有一本名为《当乐趣停止时》（When the Fun Stops）的小册子，上面还有一个可以拨打的电话号码。但在实际操作中，昆德说，这根本没有发生。他说，唯一的例外是当某人有自杀倾向时。
+
+00:49:59.080 --> 00:50:31.540
+<v Kristian Kunder>Until they come to us, you can come in every day and there's really-- I could go to my VP and say, listen, this guy's a degenerate. I know he's got a problem. It's not for us to get involved in. What if the guy doesn't have a problem and you're assuming, and he just has a ton of money? You're not going to go and insult somebody like that. Those are people who, a lot of those guys, can have you fired that next morning. So, I mean, nobody's going to take that chance.
+<v Kristian Kunder>除非他们主动找上我们，否则你可以天天来，实际上——我可以去找我的副总裁说，听着，这家伙是个废人。我知道他有问题。但这不关我们的事，我们不该介入。万一这家伙根本没问题，而你只是在妄加揣测，其实他有一大笔钱呢？你不会去侮辱这样的人。那些人，其中很多家伙，第二天早上就能让你丢了饭碗。所以，我的意思是，没有人会去冒这个险。
+
+00:50:31.540 --> 00:50:55.960
+<v Sarah Koenig>But anyway, there's no guarantee that a word of concern would make any difference. The former host at the Isle of Capri in Iowa told me things work differently at his casino. A handful of times, he did try, gently, to help addicts, to talk to them about it. Each time, he said, it was received very badly. Imagine, he said, going up to a drunk in a bar and suggesting he ought to get himself to an AA meeting. It's not going to go over well.
+<v Sarah Koenig>不过话说回来，也没有任何保证说一句关心的话就能起到什么作用。爱荷华州卡普里岛（Isle of Capri）赌场的的前公关告诉我，他的赌场情况有所不同。有过几次，他确实尝试过温和地帮助那些赌瘾患者，跟他们谈谈这件事。他说，每一次，对方的反应都非常糟糕。他说，想象一下，你走到酒吧里一个醉汉面前，建议他应该去参加戒酒互助会（AA）。这绝对不会有什么好结果。
+
+00:50:55.960 --> 00:51:25.930
+<v Sarah Koenig>Still, in Kristian Kunder's mind, there's one case that shows how flagrantly the casino ignores the policy that Loveman claims to live by. In 2007, Kunder witnessed the most spectacular losing streak on record, the case of Omaha businessman Terance Watanabe. Watanabe lost about $200 million in a year-long binge. Until he collapsed into debt, he was the company's most valuable player. Kunder says a picture of Watanabe hung in the serving area of the bar, to make sure every employee knew who he was. Kunder was one of Watanabe's handlers at Caesar's.
+<v Sarah Koenig>尽管如此，在克里斯蒂安·昆德看来，有一个案例表明了赌场是如何公然无视洛夫曼声称要奉行的政策的。2007年，昆德目击了有记录以来最惊人的连输纪录，即奥马哈商人特兰斯·渡边（Terance Watanabe）的案子。渡边在长达一年的疯狂豪赌中输掉了大约2亿美元。在他陷入巨额债务之前，他是该公司最有价值的玩家。昆德说，渡边的一张照片曾挂在酒吧的服务区里，以确保每个员工都知道他是谁。昆德曾是渡边在凯撒宫的负责人之一。
+
+00:51:25.930 --> 00:51:47.530
+<v Kristian Kunder>Nevada Gaming states that you have to be sober to gamble. You can't be intoxicated. It's the casino's responsibility to escort you out if you're impaired in any way. Well, I mean, the guy would fall asleep in the middle of a blackjack hand, and we would just leave him to sit there and wait for him to wake up.
+<v Kristian Kunder>内华达州博彩法规规定，你必须保持清醒才能赌博。你不能处于醉酒状态。如果你在任何方面神志不清，赌场有责任把你护送出去。好吧，我的意思是，这家伙会在二十盘游戏的中间睡着，而我们就只是让他坐在那里，等着他醒过来。
+
+00:51:47.530 --> 00:52:17.410
+<v Kristian Kunder>The fact that we let him play while he was completely intoxicated and obviously on drugs-- I mean, that's just-- I mean, that's just plain taking advantage of people. And, you know, I'm one of the guilty parties, but, you know, my hands were tied as well, as far, you know, you're not going to tell the most valuable-- the biggest player in the company, say, hey, listen, you know, why don't you call it a night?
+<v Kristian Kunder>我们竟然允许他在完全喝醉且明显吸毒的情况下玩牌——我的意思是，这简直——我的意思是，这简直就是赤裸裸地占人便宜。而且，你知道，我也是有罪的当事人之一但你知道，我的手也被绑着，就那种程度，你知道的，你不会去对公司最有价值、下注最大的玩家说，嘿，听着，你知道，你为什么不今晚到此为止呢？
+
+00:52:17.410 --> 00:52:57.970
+<v Sarah Koenig>I ran all this by Caesars Entertainment, the supposed difference between their policy on paper and what actually happens on the casino floor, the Watanabe case. In response, a spokesman wrote to me that diagnosing problem gambling is extremely difficult, even for trained clinicians, and that, quote, "we take responsible gaming seriously, and train our customer-facing employees to listen to things that customers say that raise concerns about their ability to gamble responsibly," unquote. The company also noted that Caesars was the first to have a national self-exclusion program that allows customers to ban themselves from Caesars casinos. And it's true, Bachmann did not ban herself from any Casino.
+<v Sarah Koenig>我把这一切都告诉了凯撒娱乐，包括他们的纸面政策与赌场大厅实际发生的情况之间的所谓差距，以及渡边案。作为回应，一位发言人写信给我说，诊断问题赌博极其困难，即使对训练有素的临床医生来说也是如此，并且引述如下：“我们认真对待负责任博彩，并培训我们直接面对客户的员工，倾听客户所说的话，这些话会引发人们对其负责任博彩能力的担忧。”引述结束。该公司还指出，凯撒是第一家推出全国性自我排除计划的公司，该计划允许客户禁止自己进入凯撒赌场。事实也的确如此，巴赫曼并没有禁止自己进入任何赌场。
+
+00:52:57.970 --> 00:53:27.040
+<v Sarah Koenig>If you're not sold by now on the idea that the casino is partly to blame for Bachmann's losses, that Caesars wronged Bachmann, in the lawsuit's words, quote, "by enticing her to gamble even though it knew that she did not have the capabilities to resist such enticements," unquote, maybe two researchers at Southern Illinois University, Reza Habib and Mark Dixon, can at least persuade you that Bachmann made irrational choices about gambling not because she's an idiot, but because neurons in the reward-seeking part of her brain were overriding her rational decision making.
+<v Sarah Koenig>如果你到现在还对“赌场对巴赫曼的输钱负有部分责任”、“凯撒娱乐用诉讼中的话说就是‘诱导她赌博，尽管它明知她没有能力抵御这种诱惑’从而对巴赫曼造成了不义”这种观点感到怀疑的话，那么南伊利诺伊大学的两名研究人员雷扎·哈比卜（Reza Habib）和马克·迪克森（Mark Dixon）或许至少能说服你：巴赫曼做出关于赌博的非理性选择，并不是因为她是个笨蛋，而是因为她大脑中寻求奖励的区域的神经元凌驾于她的理性决策之上。
+
+00:53:27.040 --> 00:53:44.720
+<v Sarah Koenig>Reza Habib is a neuroscientist, and so, of course, does not like to anthropomorphize the brain, but I don't mind saying it. Her wiring had turned against her. Habib's colleague, Mark Dixon, is a behavioral psychologist. His lab at Southern Illinois is set up like a casino. He's got slots, a roulette table, a blackjack table, a craps table.
+<v Sarah Koenig>雷扎·哈比卜是一名神经科学家，所以他当然不喜欢将大脑拟人化，但我不在乎这么说。她的大脑神经回路已经开始对抗她自己了。哈比卜的同事马克·迪克森是一名行为心理学家。他在南伊利诺伊大学的实验室布置得就像个赌场。他有老虎机、轮盘赌桌、二十一点赌桌、骰宝赌桌。
+
+00:53:44.720 --> 00:53:46.230
+<v Mark Dixon>It looks like a Casino.
+<v Mark Dixon>它看起来就像个赌场。
+
+00:53:46.230 --> 00:53:47.160
+<v Sarah Koenig>Really?
+<v Sarah Koenig>真的吗？
+
+00:53:47.160 --> 00:53:52.920
+<v Mark Dixon>Maybe not a five-star casino, but maybe a two-star casino on the interstate somewhere.
+<v Mark Dixon>也许不是五星级赌场，但可能像是州际公路旁的某个两星级赌场。
+
+00:53:52.920 --> 00:54:08.220
+<v Sarah Koenig>Habib, and especially Dixon, have spent a long time studying what's called the near-miss effect. In slot machines, a near miss is just what it sounds like. It's when, say, two cherries line up on the payoff line, and then the third is about to come, but stops just short or just past the payoff line.
+<v Sarah Koenig>哈比卜，尤其是迪克森，花了很多时间研究所谓的“近失效应”（near-miss effect）。在老虎机中，“近失”正如其字面意思。比方说，当两个樱桃在奖金线上排成一行，而第三个樱桃本该出现却在奖金线刚好停住或刚刚滑过时，这就是近失。
+
+00:54:08.220 --> 00:54:25.900
+<v Sarah Koenig>It's like you almost won, which, of course, in a game of chance like slots, is impossible. The results are random. Despite that, gamblers in Dixon's lab will inevitably say that the near misses are closer to a win than a loss, that they like them more than a loss. That reaction is what Dixon calls maladaptive.
+<v Sarah Koenig>这就像你差点就赢了，当然，在老虎机这种纯靠运气的游戏中，这是不可能的。结果都是随机的。尽管如此，迪克森实验室里的赌徒们仍然不可避免地会说，近失比输钱更接近于赢，他们比讨厌输钱更喜欢近失。这种反应被迪克森称之为“适应不良”。
+
+00:54:25.900 --> 00:54:28.370
+<v Mark Dixon>Because a loss, is a loss, is a loss.
+<v Mark Dixon>因为输就是输，输就是输。
+
+00:54:28.370 --> 00:54:56.250
+<v Sarah Koenig>In 2006, Dixon teamed up with Habib to see if they could figure out what was happening to people neurologically when they saw near misses. They scanned the brains of 22 gamblers-- 11 addicted, or what they called pathological gamblers, and 11 non-pathological gamblers-- as all these people watched near misses on slot machine displays. The results surprised them because, while both addicted and non-addicted gamblers said the near misses felt more like wins, their brains said something different. Here's Reza Habib.
+<v Sarah Koenig>2006年，迪克森与哈比卜合作，想要弄清楚当人们看到近失时，他们的神经系统到底发生了什么。他们扫描了22名赌徒的大脑——其中11名是成瘾赌徒（或者他们所说的病理性赌徒），另外11名是非病理性赌徒——当时这些人正在观看老虎机显示屏上的近失画面。结果让他们感到惊讶，因为尽管成瘾和非成瘾赌徒都表示近失的感觉更像是赢了，但他们的大脑却给出了不同的反应。以下是雷扎·哈比卜的讲述。
+
+00:54:56.250 --> 00:55:13.890
+<v Reza Habib>What you see in the non-pathological gamblers is that the regions that are activated for losses, those same regions tend to be also activated for near misses. And so the brain, at least, processes these near misses in the same way that it processes losses in the non-pathological gamblers.
+<v Reza Habib>你在非病理性赌徒身上看到的是，那些因输钱而被激活的脑区，在面对近失时往往也会被激活。因此，至少在非病理性赌徒的大脑中，处理这些近失的方式与处理输钱的方式是相同的。
+
+00:55:13.890 --> 00:55:39.360
+<v Reza Habib>In pathological gamblers, the same regions that are activated for wins are also activated for near misses. And so these include regions such as the amygdala, which is a region involved in emotional processing, as well as parts of the brain stem, which are involved in reward and dopamine function, which is part of the reward system. So the pathological gamblers are seeing-- or their brains, at least, are responding to these near misses in the same way that they respond to wins.
+<v Reza Habib>在病理性赌徒身上，那些因获胜而激活的脑区，在面对“险胜”时也会被激活。这些脑区包括杏仁核（参与情绪处理的区域），以及脑干的部分区域（参与奖励机制和多巴胺功能，这是奖励系统的一部分）。因此，病理性赌徒在看到——或者说他们的的大脑至少在对这些“险胜”做出反应时，其反应方式与他们面对真正获胜时如出一辙。
+
+00:55:39.360 --> 00:55:55.680
+<v Mark Dixon>This is Mark again. And one of the effects of this, or the implications of these data, are that a pathological gambler going into the casino, who's actually losing, his brain is firing like he's winning. Disturbing, isn't it?
+<v Mark Dixon>这是马克。这种现象产生的影响或数据暗示之一是，一个走进赌场的病理性赌徒，即便实际上在输钱，他的大脑兴奋状态却像是在赢钱一样。这挺让人不安的，对吧？
+
+00:55:55.680 --> 00:55:58.680
+<v Sarah Koenig>Yeah, it's crazy.
+<v Sarah Koenig>对，这太疯狂了。
+
+00:55:58.680 --> 00:56:07.560
+<v Mark Dixon>Oh, it's way crazy. And so you are experiencing those same sensations as a win when you're not winning.
+<v Mark Dixon>哦，简直疯狂透顶。所以，即便你并没有真正赢钱，你却在体验着与赢钱时完全相同的感官刺激。
+
+00:56:07.560 --> 00:56:38.920
+<v Sarah Koenig>Habib and Dixon say the casinos know all about the near-miss effect. And since the '80s, slot machines have been programmed to capitalize on it. Habib and Dixon said that the near-miss effect happens in all kinds of gambling, including blackjack, and that it's possible that even just an enticing phone call from a casino host could have fired up Angie Bachmann's maladaptive brain pathways, that her brain could have been reacting to the phone calls as it would to a near miss, especially if the message was, come win your money back.
+<v Sarah Koenig>哈比卜和迪克森表示，赌场对“险胜效应”了如指掌。自20世纪80年代以来，老虎机就被编程以利用这一心理机制。哈比卜和迪克森指出，“险胜效应”存在于各种赌博中，包括二十一点，甚至赌场经理一个诱人的电话，都可能点燃安吉·巴赫曼（Angie Bachmann）大脑中失常的神经回路，让她的大脑对这些电话产生如同面对“险胜”般的反应，特别是当电话传达的信息是“来把你的钱赢回去”的时候。
+
+00:56:38.920 --> 00:56:53.340
+<v Sarah Koenig>So let's say for a second that Angie Bachmann's case went to trial, and the questions before the jury were, if the casino knew she was addicted, is Caesars really the one responsible? And was Bachmann, as her lawyer contends, quote, "incompetent" in terms of this act of borrowing money?
+<v Sarah Koenig>那么，假设安吉·巴赫曼的案子开庭审理，摆在陪审团面前的问题是：如果赌场明知她有瘾，凯撒真的应该承担责任吗？正如她的律师所言，巴赫曼在借钱这一行为上是否属于所谓的“无民事行为能力”？
+
+00:56:53.340 --> 00:57:13.740
+<v Mark Dixon>You know, whether or not she's completely controlled by or has control over her own behavior, I think, is open to debate. It depends, I guess, on your world view of if you believe in free will and choice, or if you believe that people's behavior is under environmental control.
+<v Mark Dixon>你知道的，她是否完全被自己的行为所控制，或者她是否能控制自己的行为，我认为这还有待讨论。这大概取决于你的世界观：你是相信自由意志和个人选择，还是相信人的行为受环境控制？
+
+00:57:13.740 --> 00:57:16.360
+<v Sarah Koenig>Well, what do you believe?
+<v Sarah Koenig>好吧，那你相信什么？
+
+00:57:16.360 --> 00:57:20.850
+<v Mark Dixon>Well, as a behavioral psychologist, I would tend to believe the latter.
+<v Mark Dixon>作为一名行为心理学家，我倾向于相信后者。
+
+00:57:20.850 --> 00:57:30.470
+<v Sarah Koenig>OK, so, if you're on the jury-- forget me on the jury-- say you're on the jury, how would you decide?
+<v Sarah Koenig>好吧，那么如果你是陪审团成员——先不管我——假设你是陪审团成员，你会怎么裁决？
+
+00:57:30.470 --> 00:57:43.600
+<v Mark Dixon>Well, I think I would probably need to look at the case more. What happened earlier on that led her into this mess that she found satisfaction from gambling away her life savings?
+<v Mark Dixon>嗯，我想我可能需要更多地了解这个案子。是什么早期的经历把她引入了这种困境，让她从赌掉毕生积蓄中获得满足感？
+
+00:57:43.600 --> 00:57:47.520
+<v Sarah Koenig>Yeah, yeah. But as a juror, we don't care about any of that. It's just the crime on the table.
+<v Sarah Koenig>对，对。但作为陪审团成员，我们不在乎那些。我们只看眼前的犯罪事实。
+
+00:57:47.520 --> 00:57:48.460
+<v Mark Dixon>Well, this juror does.
+<v Mark Dixon>好吧，但这个陪审团成员在乎。
+
+00:57:48.460 --> 00:57:52.510
+<v Sarah Koenig>You don't have the luxury of getting into her psychology that way as a juror. You're just sitting there.
+<v Sarah Koenig>作为陪审团成员，你没有那个奢侈去探究她的心理。你只是坐在那里。
+
+00:57:52.510 --> 00:57:56.290
+<v Mark Dixon>OK, well, right. OK, well, I guess, if you're going to push me on this--
+<v Mark Dixon>好吧，对。好吧，我想如果你非要逼我的话——
+
+00:57:56.290 --> 00:57:57.220
+<v Sarah Koenig>I am going to push you.
+<v Sarah Koenig>我就是要逼你。
+
+00:57:57.220 --> 00:57:59.550
+<v Mark Dixon>--I would say that the casinos should not be held accountable.
+<v Mark Dixon>——我会说赌场不应该承担责任。
+
+00:57:59.550 --> 00:58:01.030
+<v Sarah Koenig>Should not be held accountable?
+<v Sarah Koenig>不应该承担责任？
+
+00:58:01.030 --> 00:58:08.410
+<v Mark Dixon>Should not be held accountable, because I think they only played a participating factor in a complex life. Not guilty.
+<v Mark Dixon>不应该承担责任，因为我认为他们只是在一个复杂的人生中起到了参与因素的作用。判决无罪。
+
+00:58:08.410 --> 00:58:11.080
+<v Reza Habib>Yeah, I would say not guilty as well. She's guilty.
+<v Reza Habib>是的，我也会说无罪。她是有罪的。
+
+00:58:11.080 --> 00:58:11.580
+<v Mark Dixon>Pay it back.
+<v Mark Dixon>还钱。
+
+00:58:11.530 --> 00:58:17.770
+<v Sarah Koenig>Just pay it back? That she's guilty? That's so interesting. That's so interesting. It's not what I would have guessed.
+<v Sarah Koenig>只是还钱？她有罪？太有趣了。这太有意思了。这可不是我能猜到的。
+
+00:58:17.770 --> 00:58:32.740
+<v Reza Habib>You know, I mean, it's very difficult. Certainly, it's not moral. I mean, if we talked about it morally, was it right if they knew and they tempted her further? Probably not.
+<v Reza Habib>你知道的，这很难。当然，这并不道德。如果我们从道德层面来谈，如果他们明知故犯并进一步诱惑她，这样做对吗？大概不对吧。
+
+00:58:32.740 --> 00:58:47.540
+<v Sarah Koenig>Judge Terry Crone of the Indiana Court of Appeals agreed. Quote, "From a moral standpoint, Caesars' predation and prosecution of a pathological gambler is repugnant," he wrote. But it was two against one, and Judge Crone was in the minority.
+<v Sarah Koenig>印第安纳州上诉法院法官特里·克龙（Terry Crone）表示赞同。他写道：“从道德角度来看，凯撒集团对病理性赌徒的捕食和起诉令人反感。”但由于两票对一票，克龙法官成了少数派。
+
+00:58:47.540 --> 00:59:19.670
+<v Sarah Koenig>The majority ruled that Bachmann couldn't bring her counterclaim, because, quote, "there is no common law duty obliging a casino operator to refrain from attempting to entice or contact gamblers that it knows, or should know, are compulsive gamblers," unquote. In other words, it's perfectly legal for Caesars to target an addicted gambler, like Angie Bachmann. It might be wrong, but it's legal.
+<v Sarah Koenig>多数意见裁定，巴赫曼无权提出反诉，因为“没有任何普通法义务强制赌场经营者克制自己，不去引诱或联系那些他们已知或是应当知道是病态赌徒的赌客”。换句话说，凯撒集团将安吉·巴赫曼这样的瘾君子作为目标是完全合法的。这可能不对，但它是合法的。
+
+00:59:19.670 --> 00:59:34.420
+<v Ira Glass>Sarah Koenig is one of the producers of our program. Thanks to Charles Duhigg. His book, which is where we heard about this story, is for sale online in many, many places, including his own website, ThePowerOfHabit.com.
+<v Ira Glass>莎拉·科尼格（Sarah Koenig）是我们节目的制作人之一。感谢查尔斯·迪希格（Charles Duhigg）。我们正是从他的书中听到了这个故事，该书在许多地方都有在线售卖，包括他自己的网站ThePowerOfHabit.com。
+
+00:59:34.420 --> 00:59:53.050
+<v Ira Glass>[MUSIC - "ALL I WANNA DO IS PLAY CARDS" BY CORB LUND]
+<v Ira Glass>[音乐 - 科布·伦德 (CORB LUND) 的《我只想打牌》]
+
+00:59:53.050 --> 01:00:16.810
+<v Ira Glass>Well, our program was produced today by Lisa Pollack with Alex Blumberg, Ben Calhoun, Sarah Koenig, Jonathan Menjivar, Brian Reed, Robyn Semien, Alyssa Shipp, and Nancy Updike. Our senior producer is Julie Snyder. Seth Lind is our production manager, Emily Condon, our office manager. Production help from Matt Kilty. Music help from Damien Graef and Rob Geddis. Special thanks today to Alexandra Berzon of the Wall Street Journal, to Katherine Gorman at WYPR, to Michelle Harris, and to Benjamin Anastas.
+<v Ira Glass>我们的节目今天由丽莎·波拉克（Lisa Pollack）与亚历克斯·布隆伯格（Alex Blumberg）、本·卡尔霍恩（Ben Calhoun）、莎拉·科尼格（Sarah Koenig）、乔纳森·门吉瓦尔（Jonathan Menjivar）、布赖恩·里德（Brian Reed）、罗宾·塞米恩（Robyn Semien）、阿丽莎·希普（Alyssa Shipp）和南茜·厄普代克（Nancy Updike）共同制作。我们的资深制作人是朱莉·斯奈德（Julie Snyder）。塞斯·林德（Seth Lind）是我们的制作经理，艾米丽·康顿（Emily Condon）是我们的办公室经理。马特·基尔蒂（Matt Kilty）提供了制作协助。达米安·格雷夫（Damien Graef）和罗布·格迪斯（Rob Geddis）提供了音乐协助。特别感谢《华尔街日报》的亚历山德拉·伯宗（Alexandra Berzon）、WYPR 的凯瑟琳·戈尔曼（Katherine Gorman）、米歇尔·哈里斯（Michelle Harris）以及本杰明·阿纳斯塔斯（Benjamin Anastas）。
+
+01:00:16.810 --> 01:00:43.570
+<v Ira Glass>This American Life is distributed by Public Radio International. WBEZ management oversight for our program by our boss, Mr. Torey Malatia. You know, with the announcement this weekend that the Car Talk guys are retiring, Torey has been reminiscing about how he never figured out why, all these years, WBEZ and all the other public radio stations have to pay for the program in cash. It's so weird, right? When you call CarTalk Plaza, this is what the operator always tells you.
+<v Ira Glass>本美国生活由公共广播国际（Public Radio International）发行。我们节目的 WBEZ 管理监督由我们的老板托雷·马拉蒂亚（Torey Malatia）先生负责。你知道的，随着本周末“汽车谈话”（Car Talk）节目组宣布退休，托雷一直在回忆，为什么这么多年来，WBEZ 和所有其他公共广播电台都必须用现金支付节目费，他怎么也想不通。这太奇怪了，对吧？当你打电话给汽车谈话广场时，接线员总是这样对你说的。
+
+01:00:43.570 --> 01:00:50.350
+<v Woman>You know that you can't write a check here. We won't allow you to write checks. Just bring cash. Just bring cash.
+<v Woman>你知道这里不能开支票。我们不允许你开支票。只要带现金。只要带现金。
+
+01:00:50.350 --> 01:00:54.610
+<v Ira Glass>I'm Ira Glass. Back next week with more stories of This American Life.
+<v Ira Glass>我是艾拉·格拉斯（Ira Glass）。下周将带回更多《美国生活》的故事。
+
+01:00:54.610 --> 01:00:59.610
+<v Ira Glass>[MUSIC - "ALL I WANNA DO IS PLAY CARDS" BY CORB LUND]
+<v Ira Glass>[音乐 - 科布·伦德 (CORB LUND) 的《我只想打牌》]
