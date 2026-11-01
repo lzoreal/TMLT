@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-01T01:57:19+00:00",
+  "generated": "2026-11-01T13:35:50+00:00",
   "episodes": [
     {
       "episode": 1,
@@ -739,7 +739,7 @@
       "etag": "\"648b67b6-17c1488\"",
       "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3113.61,
       "plausible_master": true,
       "sha256": null
     },
@@ -973,7 +973,7 @@
       "etag": "\"69a8874b-34a1922\"",
       "last_modified": "Wed, 04 Mar 2026 19:26:03 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3439.1,
       "plausible_master": true,
       "sha256": null
     },
@@ -1025,7 +1025,7 @@
       "etag": "\"648b67b6-172e998\"",
       "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3038.51,
       "plausible_master": true,
       "sha256": null
     },
@@ -1116,7 +1116,7 @@
       "etag": "\"648b67b6-122fd2f\"",
       "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 2383.78,
       "plausible_master": true,
       "sha256": "587602efcfcc01d35219ddf3c18b9739bd6b2446c3c1e7178251e3b98edc6fd0"
     },
@@ -2442,7 +2442,7 @@
       "etag": "\"64b84cf4-3297864\"",
       "last_modified": "Wed, 19 Jul 2023 20:52:04 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3323.14,
       "plausible_master": true,
       "sha256": null
     },
@@ -4873,7 +4873,7 @@
       "etag": "\"648b67b6-35083df\"",
       "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3483.43,
       "plausible_master": true,
       "sha256": null
     },
@@ -5380,7 +5380,7 @@
       "etag": "\"69e008f1-34cc039\"",
       "last_modified": "Wed, 15 Apr 2026 21:53:53 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3467.99,
       "plausible_master": true,
       "sha256": null
     },
@@ -5419,7 +5419,7 @@
       "etag": "\"69c465c8-348207f\"",
       "last_modified": "Wed, 25 Mar 2026 22:46:32 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3442.13,
       "plausible_master": true,
       "sha256": null
     },
@@ -5432,7 +5432,7 @@
       "etag": "\"69c2d24a-3528403\"",
       "last_modified": "Tue, 24 Mar 2026 18:04:58 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3491.66,
       "plausible_master": true,
       "sha256": null
     },
@@ -5458,7 +5458,7 @@
       "etag": "\"69bc7459-32df2b0\"",
       "last_modified": "Thu, 19 Mar 2026 22:10:33 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3341.53,
       "plausible_master": true,
       "sha256": null
     },
@@ -5471,7 +5471,7 @@
       "etag": "\"69a881df-344e7c6\"",
       "last_modified": "Wed, 04 Mar 2026 19:02:55 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3435.78,
       "plausible_master": true,
       "sha256": null
     },
@@ -5497,7 +5497,7 @@
       "etag": "\"69a0e0d8-335c159\"",
       "last_modified": "Fri, 27 Feb 2026 00:10:00 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3373.58,
       "plausible_master": true,
       "sha256": null
     },
@@ -5894,14 +5894,14 @@
     {
       "episode": 454,
       "file": "454.mp3",
-      "url": "https://www.thisamericanlife.org/sites/default/files/audio/454/m1pOLXpzZP1zsAp-CNg8-SjkO6we6N7GIJMI-Y9aAuc/454.mp3",
+      "url": "https://lzoreal.github.io/TMLT/audio/454.mp3",
       "status": 200,
-      "size": 242,
-      "etag": "\"648b67b6-f2\"",
-      "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
+      "size": 71162084,
+      "etag": "\"6ae6e8c3-43dd8e4\"",
+      "last_modified": "Sun, 01 Nov 2026 07:22:43 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
-      "plausible_master": false,
+      "audio_seconds": 3638.75,
+      "plausible_master": true,
       "sha256": null
     },
     {
@@ -5978,7 +5978,7 @@
       "etag": "\"648b67b6-1a5ee8e\"",
       "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3455.1,
       "plausible_master": true,
       "sha256": null
     },
@@ -6056,7 +6056,7 @@
       "etag": "\"648b67b6-38352c4\"",
       "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3672.89,
       "plausible_master": true,
       "sha256": null
     },
@@ -6459,7 +6459,7 @@
       "etag": "\"648b67b6-34bcbd2\"",
       "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3464.07,
       "plausible_master": true,
       "sha256": null
     },
@@ -7863,7 +7863,7 @@
       "etag": "\"69a87044-352fc2d\"",
       "last_modified": "Wed, 04 Mar 2026 17:47:48 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3486.77,
       "plausible_master": true,
       "sha256": null
     },
@@ -8162,7 +8162,7 @@
       "etag": "\"69bc46b9-31bdd5f\"",
       "last_modified": "Thu, 19 Mar 2026 18:55:53 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3248.22,
       "plausible_master": true,
       "sha256": null
     },
@@ -9709,7 +9709,7 @@
       "etag": "\"648b67b6-360f98d\"",
       "last_modified": "Thu, 15 Jun 2023 19:34:14 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3530.87,
       "plausible_master": true,
       "sha256": null
     },
@@ -10710,7 +10710,7 @@
       "etag": "\"65d984dc-345a1aa\"",
       "last_modified": "Sat, 24 Feb 2024 05:55:40 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3419.9,
       "plausible_master": true,
       "sha256": null
     },
@@ -11204,7 +11204,7 @@
       "etag": "\"699733fd-3b97511\"",
       "last_modified": "Thu, 19 Feb 2026 16:02:05 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3896.27,
       "plausible_master": true,
       "sha256": null
     },
@@ -11451,7 +11451,7 @@
       "etag": "\"69a0997b-3616974\"",
       "last_modified": "Thu, 26 Feb 2026 19:05:31 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3534.81,
       "plausible_master": true,
       "sha256": null
     },
@@ -11464,7 +11464,7 @@
       "etag": "\"69ab7e9b-3743f21\"",
       "last_modified": "Sat, 07 Mar 2026 01:25:47 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3612.13,
       "plausible_master": true,
       "sha256": null
     },
@@ -11477,7 +11477,7 @@
       "etag": "\"69bdb91c-3474460\"",
       "last_modified": "Fri, 20 Mar 2026 21:16:12 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3427.47,
       "plausible_master": true,
       "sha256": null
     },
@@ -11490,7 +11490,7 @@
       "etag": "\"69c6deb9-34b03b9\"",
       "last_modified": "Fri, 27 Mar 2026 19:47:05 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3442.86,
       "plausible_master": true,
       "sha256": null
     },
@@ -11503,7 +11503,7 @@
       "etag": "\"69dd6a22-36ea416\"",
       "last_modified": "Mon, 13 Apr 2026 22:11:46 GMT",
       "etag_size_matches": true,
-      "audio_seconds": null,
+      "audio_seconds": 3588.86,
       "plausible_master": true,
       "sha256": null
     },
