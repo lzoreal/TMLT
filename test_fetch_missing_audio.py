@@ -77,6 +77,18 @@ class ArchiveItemCandidatesTest(unittest.TestCase):
         ranked = fa.archive_item_candidates(items, ["daisey", "apple", "factory"])
         self.assertEqual(ranked[0][0], "tal")
 
+    def test_episode_number_in_identifier_wins(self):
+        items = [
+            ("thisamericanlife-misterdaisey",
+             "This American Life: Mr. Daisey and the Apple Factory", ""),
+            ("ThisAmericanLife454Mr.DaiseyAndTheAppleFactory",
+             "454 Mr. Daisey and the Apple Factory", ""),
+        ]
+        ranked = fa.archive_item_candidates(
+            items, ["daisey", "apple", "factory"], episode=454)
+        self.assertEqual(ranked[0][0],
+                         "ThisAmericanLife454Mr.DaiseyAndTheAppleFactory")
+
 
 if __name__ == "__main__":
     unittest.main()

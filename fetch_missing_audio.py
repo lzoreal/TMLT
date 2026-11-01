@@ -95,20 +95,27 @@ def pick_archive_files(files):
     return picked
 
 
-def archive_item_candidates(items, title_words):
-    """按标题/描述命中度排序，返回 [(identifier, score)]，最像的在前。
+def archive_item_candidates(items, title_words, episode=None):
+    """按相关度排序，返回 [(identifier, score)]，最像的在前。
 
     IA 上同名条目可能是 Daisey 的舞台独角戏录音，不是 TAL 这期节目，所以
-    至少要命中两个标题词，提到 "this american life" 的再加一分。
+    至少要命中两个标题词，提到 "this american life" 的加分，标识/标题里带
+    集号的再加 3 分（`ThisAmericanLife454…` 比 `thisamericanlife-misterdaisey`
+    更确定就是这一期）。
     """
 
+    number = str(episode) if episode else None
     scored = []
     for identifier, title, description in items:
-        lowered = f"{title or ''} {description or ''}".lower()
+        lowered = f"{identifier or ''} {title or ''} {description or ''}".lower()
         hits = sum(1 for word in title_words if word in lowered)
         if hits < 2 and "this american life" not in lowered:
             continue
-        score = hits + (2 if "this american life" in lowered else 0)
+        score = hits
+        if "this american life" in lowered.replace("-", " "):
+            score += 2
+        if number and number in lowered:
+            score += 3
         scored.append((score, identifier))
     scored.sort(reverse=True)
     return [(identifier, score) for score, identifier in scored]
@@ -154,19 +161,18 @@ def archive_org_candidates(session, episode, title):
     items = [(doc.get("identifier"), doc.get("title"), doc.get("description"))
              for doc in document.get("response", {}).get("docs", [])]
     candidates = []
-    for identifier, score in archive_item_candidates(items, words):
+    for identifier, score in archive_item_candidates(items, words, episode):
         log(f"    IA 候选 {identifier}（相关度 {score}）")
         try:
             metadata = get_json(session, f"https://archive.org/metadata/{identifier}")
         except Exception as exc:
             log(f"    metadata {identifier} 失败：{type(exc).__name__}")
             continue
-        server = (metadata.get("d1") or metadata.get("d2")
-                  or "https://archive.org")
-        for name, path in pick_archive_files(metadata.get("files")):
-            url = path if path.startswith("http") else (
-                f"{server.rstrip('/')}/download/{identifier}/"
-                + urllib.parse.quote(name))
+        for name, _path in pick_archive_files(metadata.get("files")):
+            # metadata 的 url 字段是没带协议的节点路径（dn601707.us.archive.org/…），
+            # 直接用会 MissingSchema；archive.org/download 会自己重定向到数据节点。
+            url = (f"https://archive.org/download/{identifier}/"
+                   + urllib.parse.quote(name))
             candidates.append((f"archive.org {identifier}/{name}", url))
     return candidates
 
