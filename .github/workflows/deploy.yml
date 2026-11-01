@@ -5,6 +5,16 @@ on:
   # 手动运行
   workflow_dispatch:
 
+    inputs:
+
+      refresh_archive:
+
+        description: "重抓全部年份的 archive 页（默认只用缓存）。改过 parse_archive_year 后要跑一次，缓存里那些年被丢弃的行才会补回来。"
+
+        type: boolean
+
+        default: false
+
   # 每周一自动更新（UTC 05:00）
   schedule:
   - cron: "0 5 * * 1"
@@ -74,9 +84,20 @@ jobs:
 
         run: |
 
+          ARGS=()
+
+          if [ "${{ inputs.refresh_archive }}" = "true" ]; then
+
+            ARGS+=(--refresh-archive)
+
+          fi
+
+
+
           python generate.py \
           --base-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" \
-          --output docs
+          --output docs \
+          "${ARGS[@]}"
 
 
 
