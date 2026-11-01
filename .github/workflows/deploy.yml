@@ -120,7 +120,18 @@ jobs:
           git diff --cached --quiet || git commit -m "Update TAL transcript feed"
 
 
-          git push
+          # align 的 cron 每隔几分钟就往 main 推一次 sidecar，裸 push 撞上
+          # non-fast-forward 会把整次部署打掉（实测两次都停在这里）。按
+          # align-timings 的做法 rebase 重试。
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 15))
+          done
+          echo "push failed after 5 attempts" >&2
+          exit 1
 
 
 
