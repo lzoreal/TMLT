@@ -1369,6 +1369,19 @@ function splitLabel(text, words) {
   return { label: '', words, mismatch: true };
 }
 
+// 双语行对齐到英文列：时间戳和说话人的宽度逐条不同，只能按实际布局补左边距。
+function alignZhLines() {
+  const items = [];
+  for (const el of box.querySelectorAll('.cue')) {
+    const z = el.querySelector('.zh');
+    if (!z) continue;
+    const wrap = z.previousElementSibling;
+    if (!wrap) continue;
+    const pad = parseFloat(getComputedStyle(el).paddingLeft) || 0;
+    items.push([z, Math.max(0, wrap.offsetLeft - pad)]);
+  }
+  for (const [z, d] of items) z.style.marginLeft = d ? d + 'px' : '';
+}
 function renderCues() {
   box.innerHTML = ''; state.nodes = []; state.activeCue = -1; state.wordIdx = -1;
   if (!state.cues.length) { box.innerHTML = '<div class="empty">没有可显示的逐字稿。</div>'; syncJumpPill(); return; }
@@ -1409,6 +1422,7 @@ function renderCues() {
     box.append(el);
     state.nodes.push({ el, wrap, words: wordEls, lastIdx: -1 });
   });
+  alignZhLines();
   $('statCues').textContent = state.cues.length.toLocaleString();
   $('statWords').textContent = wordCount.toLocaleString();
   $('statFallback').textContent = fallback.toLocaleString();
@@ -1756,6 +1770,7 @@ frameEl.onclick = () => { if (frameMoved) { frameMoved = false; return; } setImm
 $('jumpPill').onclick = () => returnToCue();
 addEventListener('resize', () => {
   if (framePos && state.immersive) placeFrame(framePos.x, framePos.y);
+  alignZhLines();
   syncJumpPill();
 });
 document.addEventListener('click', e => {
