@@ -1,0 +1,61 @@
+name: Fetch archived master audio
+
+# 官网母带已下线的集（目前只有 #454）：从 Wayback / Internet Archive 取回整集录音，
+# 落到 docs/audio/ 随 Pages 部署，并把来源登记进 docs/audio-manifest.json。
+# 取回的副本就是 feed 将引用的那份音频，时间轴直接对着它算。
+
+on:
+  workflow_dispatch:
+    inputs:
+      episodes:
+        description: "逗号分隔的集号（必填）"
+        default: "454"
+      tries:
+        description: "最多尝试几个候选来源"
+        default: "6"
+      commit:
+        description: "提交 docs/audio 与清单"
+        type: boolean
+        default: true
+
+concurrency:
+  group: tmlt-fetch-audio
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --quiet -r requirements-align.txt
+          python -c "import av, requests; print('deps ok')"
+
+      - name: Fetch archived audio
+        env:
+          EPISODES: ${{ inputs.episodes || '454' }}
+          TRIES: ${{ inputs.tries || '6' }}
+          COMMIT_RESULTS: ${{ inputs.commit }}
+        run: |
+          set -o pipefail
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python -u fetch_missing_audio.py --episodes "$EPISODES" --tries "$TRIES"
+
+      - name: Report
+        if: always()
+        run: |
+          ls -lh docs/audio/ || true
+          du -sh docs/

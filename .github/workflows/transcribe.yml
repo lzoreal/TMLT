@@ -1,0 +1,173 @@
+name: Transcribe episodes without official transcripts
+
+# 官网没有校对稿的集（57/79/86/375/454/460/497）：整集 Whisper 听写，一次产出
+# 句级 VTT 与词级 sidecar。和 align-timings 不同，这里没有可对齐的文本，
+# 听写结果直接成为 feed 的 transcript。
+#
+# 模型走缓存：prepare 只冷拉一次 large-v3（3.1 GB），矩阵各档 restore。
+# 每集写完即提交（transcribe_episodes.py 内），超时最多丢正在处理的那一集。
+
+on:
+  workflow_dispatch:
+    inputs:
+      episodes:
+        description: "逗号分隔的集号（必填）"
+        default: ""
+      shards:
+        description: "把集号摊到几档（1-20，默认每集一档）"
+        default: "20"
+      max_minutes:
+        description: "每个 job 的时间预算（分钟）"
+        default: "300"
+      force:
+        description: "重跑已有结果的集"
+        type: boolean
+        default: false
+      commit:
+        description: "提交 docs/transcripts 与 docs/timings（冒烟时关掉）"
+        type: boolean
+        default: true
+      language:
+        description: "听写语言"
+        default: "en"
+      lane:
+        description: "独立队列名，避免手工 run 被别的 run 顶掉"
+        default: ""
+
+concurrency:
+  group: tmlt-transcribe${{ inputs.lane && format('-{0}', inputs.lane) || '' }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.plan.outputs.shards }}
+      count: ${{ steps.plan.outputs.count }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - id: plan
+        env:
+          EPISODES: ${{ inputs.episodes }}
+          SHARDS: ${{ inputs.shards || '20' }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+
+          episodes = [e.strip() for e in os.environ["EPISODES"].split(",") if e.strip()]
+          if not episodes:
+              raise SystemExit("inputs.episodes 为空：听写必须显式指定集号")
+          slots = max(1, min(20, int(os.environ["SHARDS"] or 20)))
+          buckets = [[] for _ in range(slots)]
+          for index, episode in enumerate(episodes):
+              buckets[index % slots].append(episode)
+          plan = [f"{index}|{','.join(bucket)}"
+                  for index, bucket in enumerate(buckets) if bucket]
+          print(f"count={len(episodes)}")
+          print(f"shards={json.dumps(plan)}")
+          PY
+      - run: echo "待听写 ${{ steps.plan.outputs.count }} 集，分 ${{ steps.plan.outputs.shards }} 档" >> "$GITHUB_STEP_SUMMARY"
+
+  # 先把 3.1 GB 模型填进缓存，避免每个 job 同时冷拉
+  prepare:
+    needs: plan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - id: model
+        uses: actions/cache/restore@v4
+        with:
+          path: models/ct2-large-v3
+          key: ct2-large-v3-v1
+
+      - name: Download model
+        if: steps.model.outputs.cache-hit != 'true'
+        run: |
+          pip install --quiet huggingface_hub
+          python - <<'PY'
+          from pathlib import Path
+          from huggingface_hub import snapshot_download
+
+          target = Path("models/ct2-large-v3")
+          snapshot_download(
+              "Systran/faster-whisper-large-v3",
+              local_dir=str(target),
+              allow_patterns=["model.bin", "config.json", "tokenizer.json",
+                              "vocabulary.json", "preprocessor_config.json"],
+          )
+          config = (target / "config.json").read_text()
+          assert "alignment_heads" in config, "模型缺 alignment_heads，逐词时间戳不可用"
+          print("model right:", sorted(p.name for p in target.glob("*.bin")))
+          PY
+
+      - name: Save model cache
+        if: steps.model.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: models/ct2-large-v3
+          key: ct2-large-v3-v1
+
+  transcribe:
+    needs: [plan, prepare]
+    if: needs.plan.outputs.shards != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        entry: ${{ fromJSON(needs.plan.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/cache/restore@v4
+        with:
+          path: models/ct2-large-v3
+          key: ct2-large-v3-v1
+
+      - name: Install dependencies
+        run: |
+          pip install --quiet --index-url https://download.pytorch.org/whl/cpu torch torchaudio
+          pip install --quiet -r requirements-align.txt
+          python -c "import stable_whisper, faster_whisper, av; print('deps ok')"
+
+      - name: Transcribe and commit per episode
+        env:
+          ENTRY: ${{ matrix.entry }}
+          MAX_MINUTES: ${{ inputs.max_minutes || '300' }}
+          LANGUAGE: ${{ inputs.language || 'en' }}
+          FORCE: ${{ inputs.force || 'false' }}
+          COMMIT_RESULTS: ${{ inputs.commit }}
+        run: |
+          set -o pipefail
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          export SHARD="${ENTRY%%|*}"
+          EPISODES="${ENTRY#*|}"
+          echo "档位 $SHARD：$EPISODES"
+          python -u transcribe_episodes.py \
+            --episodes "$EPISODES" \
+            --model models/ct2-large-v3 \
+            --max-minutes "$MAX_MINUTES" \
+            --language "$LANGUAGE" \
+            ${{ inputs.force && '--force' || '' }}
