@@ -170,9 +170,25 @@ jobs:
           export SHARD="${ENTRY%%|*}"
           EPISODES="${ENTRY#*|}"
           echo "档位 $SHARD：$EPISODES"
+          # 冒烟（commit=false）把结果写到仓库外，只从 artifact 取；
+          # 否则会覆盖 docs/transcripts 里的校对稿，却不进提交。
+          OUT_ARGS=""
+          if [ "$COMMIT_RESULTS" != "true" ]; then
+            OUT_ARGS="--out /tmp/tmlt-canary/timings --vtt-dir /tmp/tmlt-canary/transcripts"
+          fi
           python -u transcribe_episodes.py \
             --episodes "$EPISODES" \
             --model models/ct2-large-v3 \
             --max-minutes "$MAX_MINUTES" \
             --language "$LANGUAGE" \
+            $OUT_ARGS \
             ${{ inputs.force && '--force' || '' }}
+
+      - name: Upload canary results
+        if: ${{ always() && inputs.commit == false }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: transcribe-canary-${{ strategy.job-index }}
+          path: /tmp/tmlt-canary
+          if-no-files-found: ignore
+          retention-days: 7

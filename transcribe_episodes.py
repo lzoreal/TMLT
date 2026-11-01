@@ -6,6 +6,9 @@ align_timings.py 的前提是"已有校对稿，只补时间"。这 7 集（57/7
 只能由模型听写。因此这里产出的 VTT 就是 feed 里的 transcript，sidecar 直接标
 complete，不再走 align_timings 的对齐与拒收集流程。
 
+官网稿与音频不是同一剪辑的集（#420：VTT 3481 秒 / 母带 3341 秒，整段错位）
+也走这里重出稿；旧校对稿留在 git 历史。
+
 音频只认 archive 母带（见 AGENTS.md 铁律 2）：先用 docs/audio-manifest.json 里
 带 sha256 的地址；#454 的母带已下线，改用 docs/audio/454.mp3（随 Pages 部署）。
 """
@@ -266,7 +269,7 @@ def transcribe(model, audio, language):
 
 
 def run_episode(model, session, episode, roster, manifest, args):
-    vtt_path = VTT_DIR / f"{episode}.vtt"
+    vtt_path = args.vtt_dir / f"{episode}.vtt"
     out_path = args.out / f"{episode}.json"
 
     if not args.force and at.is_done(out_path) and vtt_path.exists():
@@ -319,6 +322,8 @@ def main():
     parser.add_argument("--episodes", required=True, help="逗号分隔的集号")
     parser.add_argument("--model", default=str(DEFAULT_MODEL))
     parser.add_argument("--out", type=Path, default=TIMING_DIR)
+    parser.add_argument("--vtt-dir", type=Path, default=VTT_DIR,
+                        help="VTT 输出目录（冒烟时指到仓库外，结果只进 artifact）")
     parser.add_argument("--workdir", type=Path, default=Path("/tmp/tmlt-transcribe"))
     parser.add_argument("--language", default="en")
     parser.add_argument("--max-minutes", type=float, default=300.0)

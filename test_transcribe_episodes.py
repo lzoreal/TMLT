@@ -174,6 +174,24 @@ class WriteEpisodeTest(unittest.TestCase):
             self.assertEqual(document["segments"], segments)
             self.assertTrue(at.is_done(out_path))
 
+    def test_written_vtt_matches_the_sidecar_order(self):
+        # 听写结果不走 align_timings 的修复流程，VTT 与 sidecar 必须自己保持一致。
+        raw = [
+            raw_segment(5.0, 9.0, "Hello there.",
+                        [("Hello", 5.0, 5.6), ("there.", 5.6, 6.1)]),
+            raw_segment(12.0, 15.0, "Second line.",
+                        [("Second", 12.0, 12.6), ("line.", 12.6, 13.0)]),
+        ]
+        segments = tx.merge_fragments(tx.build_segments(raw, 60.0))
+        with tempfile.TemporaryDirectory() as tmp:
+            vtt_path = Path(tmp) / "transcripts" / "420.vtt"
+            out_path = Path(tmp) / "timings" / "420.json"
+            tx.write_episode(420, segments, 60.0, vtt_path, out_path)
+            cues = at.parse_vtt(vtt_path)
+            document = json.loads(out_path.read_text(encoding="utf-8"))
+        self.assertEqual(len(cues), len(document["segments"]))
+        self.assertEqual(at.order_violations(document["segments"], cues, 60000), [])
+
 
 if __name__ == "__main__":
     unittest.main()
