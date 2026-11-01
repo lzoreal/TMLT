@@ -110,9 +110,7 @@ def implausible(entries):
 
 def merge_previous(entry, old):
     """上一轮的 sha256 只在 URL 未变时才可继承：换过源就是另一份文件。"""
-    same = old.get("url") == entry["url"]
-    entry["sha256"] = old.get("sha256") if same else None
-    entry["sha256_from"] = old.get("sha256_from") if same else None
+    entry["sha256"] = old.get("sha256") if old.get("url") == entry["url"] else None
     return entry
 
 
@@ -221,54 +219,6 @@ def needs_upload(entry, assets):
     if entry.get("sha256") and asset["digest"] != entry["sha256"]:
         return True
     return False
-
-
-LedgerSync = namedtuple("LedgerSync", "synced mismatch absent")
-
-
-def sync_digests(entries, assets):
-    """把 release 上 GitHub 自己算好的 sha256 认作清单基线。
-
-    清单里的基线原本只有本地真下过的那一小批，其余集每轮都对不上账（"没基线可比"）。
-    只对字节数一致、且还没有基线的集写；已有基线不动，本地与远端不一致是真冲突，
-    留给 release 末尾的对账报警，不在这里抹平。
-
-    代价要认：基线一旦来自保险库，官网在同一个 URL 上换掉字节时 ensure_local 会拒绝
-    上传而不是静默 clobber——那一次红色就是"母带变了，去看一眼"的信号。
-    """
-    synced, mismatch, absent = [], [], []
-
-    for entry in entries:
-        if entry["status"] != 200 or not entry["plausible_master"]:
-            continue
-
-        asset = assets.get(local_name(entry["episode"]))
-
-        if asset is None:
-            absent.append(entry["episode"])
-            continue
-
-        if asset["size"] != entry["size"]:
-            mismatch.append(entry["episode"])
-            continue
-
-        if not asset.get("digest") or entry.get("sha256"):
-            continue
-
-        entry["sha256"] = asset["digest"]
-        entry["sha256_from"] = "vault"
-        synced.append(entry["episode"])
-
-    return LedgerSync(synced, mismatch, absent)
-
-
-def locally_verified(entry, asset):
-    """基线与远端 digest 一致，且这指纹是本地算出来的 —— 这才证明我们手上有这份字节。
-    从保险库认回的基线只是 GitHub 的自证，不能冒充本地核对。"""
-    digest = entry.get("sha256")
-    return bool(digest) and bool(asset) and digest == asset.get("digest") and entry.get(
-        "sha256_from"
-    ) != "vault"
 
 
 def balance(items, lanes):
@@ -430,7 +380,6 @@ def manifest_command(args):
                     "audio_seconds": seconds,
                     "plausible_master": size_is_plausible(probe.size, seconds),
                     "sha256": None,
-                    "sha256_from": None,
                 },
                 old,
             )
@@ -534,7 +483,6 @@ def backup_command(args):
 
         record = wanted[probe.episode]
         record["sha256"] = sha256
-        record["sha256_from"] = "local"
         record["size"] = written
         # 两小时的作业不能把进度攒到最后一次写盘：断了就白算。
         if index % 25 == 0 or index == len(todo):
@@ -653,7 +601,6 @@ def ensure_local(session, entry, path):
     if entry.get("sha256") and digest != entry["sha256"]:
         raise OSError(f"本地 {digest[:12]} 与清单基线 {entry['sha256'][:12]} 不符")
     entry["sha256"] = digest
-    entry["sha256_from"] = "local"
     return digest
 
 
@@ -729,23 +676,19 @@ def release_command(args):
         print(f"本地校验 {verified} 集，sha256 已写回清单；release 未动")
         return 1 if failures else 0
 
-    # 读回 GitHub 自己算的 digest：本地算过的集才是"两边字节相同"的证明。
-    # 基线可能来自保险库（sync 认回的），那是 GitHub 的自证，另计一档；
-    # 把"没基线"的集当成"损坏"会把整轮刷红。
+    # 读回 GitHub 自己算的 digest：这才证明远端存的字节等于我下载的那份。
+    # 只有本轮真的算过 sha256 的集才有基线可比：清单是本地账本，CI 不回写，
+    # 把 skipped 的集当成"损坏"会把整轮刷红。
     remote, _ = fetch_ledger(args.repo, tags)
     matched = 0
-    attested = 0
     unchecked = 0
     records = []
     for entry in entries:
         asset = remote.get(local_name(entry["episode"]))
         if not asset:
             continue
-        if locally_verified(entry, asset):
+        if entry.get("sha256") and asset["digest"] == entry["sha256"]:
             matched += 1
-        elif asset["digest"] and entry.get("sha256") == asset["digest"]:
-            # 基线来自保险库：GitHub 说自己存的就是这个指纹，但我们没亲手比过。
-            attested += 1
         elif entry.get("sha256"):
             failures.append((entry["episode"], f"远端 digest {asset['digest']} != {entry['sha256']}"))
         else:
@@ -758,8 +701,8 @@ def release_command(args):
                 "size": asset["size"],
                 "sha256": asset["digest"],
                 # checked=true 才是"我们下过这份字节、GitHub 存的 digest 对得上"；
-                # false 只有 GitHub 的单方说法（基线是从保险库认回来的，或根本没基线）。
-                "checked": locally_verified(entry, asset),
+                # false 只有 GitHub 的单方说法。
+                "checked": entry.get("sha256") == asset["digest"],
                 "source": entry["url"],
                 # 下载链接必须指向真正存着这份字节的那一卷。
                 "volume": asset["tag"],
@@ -788,7 +731,7 @@ def release_command(args):
         encoding="utf-8",
     )
     print(
-        f"远端 digest 核对一致 {matched} | 保险库自证 {attested} | 本轮没基线可比 {unchecked} "
+        f"远端 digest 核对一致 {matched} | 本轮没基线可比 {unchecked} "
         f"| release 现有资产 {len(records)} | 索引 {index_path}"
     )
     if failures:
@@ -863,39 +806,6 @@ def verify_command(args):
     return 1 if bad else 0
 
 
-def sync_command(args):
-    """把保险库里 GitHub 自己算好的 digest 认作清单基线：只读账，不下一个字节。"""
-    payload = load_manifest()
-    if payload is None:
-        sys.exit("先跑 manifest。")
-    tags = split_tags(args.tag)
-    if not tags:
-        sys.exit("--tag 至少要有一卷。")
-
-    assets, conflicts = fetch_ledger(args.repo, tags)
-    for name, earlier, later in conflicts:
-        print(f"冲突 {name} 同时存在于 {earlier} 和 {later}，且字节不同：不认基线")
-    for name in {n for n, _, _ in conflicts}:
-        assets.pop(name, None)
-
-    had = sum(1 for e in payload["episodes"] if e.get("sha256"))
-    sync = sync_digests(payload["episodes"], assets)
-    print(
-        f"vault 资产 {len(assets)}（{len(tags)} 卷） | 新写基线 {len(sync.synced)} "
-        f"| 字节数不符 {len(sync.mismatch)} | vault 还没有 {len(sync.absent)} "
-        f"| 清单基线 {had} -> {had + len(sync.synced)}/{len(payload['episodes'])}"
-    )
-    for group in ("mismatch", "absent"):
-        episodes = getattr(sync, group)
-        if episodes:
-            print(f"  {group}: {episodes[:20]}{' …' if len(episodes) > 20 else ''}")
-    if args.dry_run:
-        print("--dry-run：清单未写盘")
-        return 0
-    write_manifest(payload["episodes"])
-    return 1 if sync.mismatch else 0
-
-
 def check_command(args):
     """月度体检：只重发 HEAD，对比清单里的字节数与 ETag，发现漂移就报警。"""
     payload = load_manifest()
@@ -923,16 +833,6 @@ def comma_ints(value):
     return [int(x) for x in value.split(",") if x.strip()]
 
 
-def vault_args(parser):
-    """保险库坐标：release 与 sync 用的是同一本账，参数只能有一处定义。"""
-    parser.add_argument("--repo", required=True, help="保险库仓库 owner/name")
-    parser.add_argument(
-        "--tag",
-        default="audio-vault",
-        help="逗号分隔的卷列表；新集只传到最后一卷，其余卷里的字节仍算已备份",
-    )
-
-
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Archive 音频指纹清单与冷备")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -953,17 +853,18 @@ def main(argv=None):
 
     p = sub.add_parser("release", help="按清单上传原样母带到 release，并读回 digest 校验")
     p.add_argument("--out", required=True)
-    vault_args(p)
+    p.add_argument("--repo", required=True, help="保险库仓库 owner/name")
+    p.add_argument(
+        "--tag",
+        default="audio-vault",
+        help="逗号分隔的卷列表；新集只传到最后一卷，前面的卷仍算已备份",
+    )
     p.add_argument("--target", default="audio", help="tag 落在哪条分支上")
     p.add_argument("--episodes", type=comma_ints)
     p.add_argument("--no-push", action="store_true", help="下载并校验，但不碰 release")
 
     p = sub.add_parser("verify", help="校验冷备目录的字节数与 sha256")
     p.add_argument("--out", required=True)
-
-    p = sub.add_parser("sync", help="把 release 的 digest 写回清单当基线，不下载字节")
-    vault_args(p)
-    p.add_argument("--dry-run", action="store_true", help="只报数，不写清单")
 
     args = parser.parse_args(argv)
     try:
@@ -979,8 +880,6 @@ def main(argv=None):
             sys.exit(release_command(args))
         elif args.command == "verify":
             sys.exit(verify_command(args))
-        elif args.command == "sync":
-            sys.exit(sync_command(args))
     except ManifestCorrupt as exc:
         sys.exit(str(exc))
 
