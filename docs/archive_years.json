@@ -500,7 +500,8 @@
         "401": "https://www.thisamericanlife.org/401/parent-trap",
         "400": "https://www.thisamericanlife.org/400/stories-pitched-by-our-parents",
         "399": "https://www.thisamericanlife.org/399/contents-unknown",
-        "398": "https://www.thisamericanlife.org/398/long-shot"
+        "398": "https://www.thisamericanlife.org/398/long-shot",
+        "397": "https://www.thisamericanlife.org/397/2010"
       }
     },
     "2011": {
@@ -782,7 +783,8 @@
         "638": "https://www.thisamericanlife.org/638/rom-com",
         "637": "https://www.thisamericanlife.org/637/words-you-cant-say",
         "636": "https://www.thisamericanlife.org/636/i-thought-it-would-be-easier",
-        "635": "https://www.thisamericanlife.org/635/chip-in-my-brain"
+        "635": "https://www.thisamericanlife.org/635/chip-in-my-brain",
+        "665": "https://www.thisamericanlife.org/665/before-things-went-to-hell"
       }
     },
     "2019": {
@@ -890,7 +892,8 @@
         "732": "https://www.thisamericanlife.org/732/secrets",
         "731": "https://www.thisamericanlife.org/731/what-lies-beneath-2021",
         "730": "https://www.thisamericanlife.org/730/the-empty-chair",
-        "729": "https://www.thisamericanlife.org/729/making-the-cut"
+        "729": "https://www.thisamericanlife.org/729/making-the-cut",
+        "758": "https://www.thisamericanlife.org/758/talking-while-black"
       }
     },
     "2022": {
@@ -925,7 +928,8 @@
         "761": "https://www.thisamericanlife.org/761/the-trojan-horse-affair",
         "760": "https://www.thisamericanlife.org/760/a-city-walks-into-an-investigation",
         "759": "https://www.thisamericanlife.org/759/a-couple-walks-into-a-house",
-        "758": "https://www.thisamericanlife.org/758/talking-while-black"
+        "758": "https://www.thisamericanlife.org/758/talking-while-black",
+        "788": "https://www.thisamericanlife.org/788/half-baked-stories-about-my-dead-mom"
       }
     },
     "2023": {
@@ -1057,7 +1061,8 @@
         "881": "https://www.thisamericanlife.org/i-want-what-i-want",
         "880": "https://www.thisamericanlife.org/880/what-is-your-emergency",
         "879": "https://www.thisamericanlife.org/879/a-christian-and-a-muslim-walk-into-a-bar",
-        "878": "https://www.thisamericanlife.org/878/new-lore-drop"
+        "878": "https://www.thisamericanlife.org/878/new-lore-drop",
+        "900": "https://www.thisamericanlife.org/900/talk-me-into-it"
       }
     }
   }
