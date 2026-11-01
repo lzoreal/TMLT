@@ -6,9 +6,24 @@ Run: python -m unittest test_generate -v
 别名行（href 不带集号）就是被旧实现整行丢弃的那一类。
 """
 
+import json
+import tempfile
 import unittest
+import xml.etree.ElementTree as ET
+from pathlib import Path
 
 import generate
+
+PODCAST_NS = "https://podcastindex.org/namespace/1.0"
+VTT = "WEBVTT\n\n00:00:00.000 --> 00:00:01.000\nhello\n"
+EPISODE = {
+    "title": "Neighborhood Watch",
+    "url": "https://www.thisamericanlife.org/420/neighborhood-watch",
+    "description": "Stories of neighbors.",
+    "image": "https://www.thisamericanlife.org/420.jpg",
+    "pubDate": "2010-11-19T00:00:00-05:00",
+    "resolved_audio": "https://www.thisamericanlife.org/420.mp3",
+}
 
 
 # 真实 DOM：2026 年页 #885（href 只有别名）与 #899（href 带号），逐字取回。
@@ -71,6 +86,89 @@ class ParseArchiveYearTest(unittest.TestCase):
         # 年页上确实有非集行的 header；号字段不是纯数字就不认，别拿标题里的数字凑。
         broken = ALIAS_ROW.replace(">885</a>", ">Coming soon</a>")
         self.assertEqual(generate.parse_archive_year(page(broken)), {})
+
+
+class TranscriptTagsTest(unittest.TestCase):
+    """主 feed：词级 JSON 优先，其次中文双语 VTT；无中译才回退英文 VTT。"""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.docs = Path(self.tmp.name)
+        self.transcripts = self.docs / "transcripts"
+        (self.transcripts / "zh").mkdir(parents=True)
+        (self.docs / "timings").mkdir()
+        (self.transcripts / "420.vtt").write_text(VTT, encoding="utf-8")
+        (self.transcripts / "zh/420.vtt").write_text(VTT, encoding="utf-8")
+        (self.docs / "timings/420.json").write_text(json.dumps({
+            "complete": True,
+            "segments": [{"start": 0, "end": 1000, "speaker": "",
+                          "text": "hello", "words": [["hello", 0, 900]]}],
+        }), encoding="utf-8")
+
+    def tags(self, episode="420"):
+        block = generate.transcript_tags(episode, "https://example.test/",
+                                         self.transcripts)
+        root = ET.fromstring(
+            f'<rss xmlns:podcast="{PODCAST_NS}"><item>{block}</item></rss>')
+        return root.find("item").findall(f"{{{PODCAST_NS}}}transcript")
+
+    def test_word_level_tag_comes_first_then_bilingual_vtt(self):
+        (json_tag, vtt_tag) = self.tags()
+        self.assertEqual(json_tag.get("type"), "application/json")
+        self.assertEqual(json_tag.get("language"), "en")
+        self.assertEqual(json_tag.get("url"),
+                         "https://example.test/timings/420.json")
+        self.assertEqual(vtt_tag.get("type"), "text/vtt")
+        self.assertEqual(vtt_tag.get("language"), "zh-CN")
+        self.assertEqual(vtt_tag.get("url"),
+                         "https://example.test/transcripts/zh/420.vtt")
+
+    def test_english_vtt_is_not_advertised_when_translation_exists(self):
+        urls = [tag.get("url") for tag in self.tags()]
+        self.assertNotIn("https://example.test/transcripts/420.vtt", urls)
+
+    def test_missing_translation_falls_back_to_english_vtt(self):
+        (self.transcripts / "zh/420.vtt").unlink()
+        (json_tag, vtt_tag) = self.tags()
+        self.assertEqual(json_tag.get("type"), "application/json")
+        self.assertEqual(vtt_tag.get("language"), "en")
+        self.assertEqual(vtt_tag.get("url"),
+                         "https://example.test/transcripts/420.vtt")
+
+    def test_incomplete_timing_is_omitted(self):
+        (self.docs / "timings/420.json").write_text(json.dumps({
+            "complete": False, "segments": [],
+        }), encoding="utf-8")
+        (vtt_tag,) = self.tags()
+        self.assertEqual(vtt_tag.get("type"), "text/vtt")
+
+    def test_corrupt_timing_is_omitted(self):
+        (self.docs / "timings/420.json").write_text("{not json", encoding="utf-8")
+        (vtt_tag,) = self.tags()
+        self.assertEqual(vtt_tag.get("type"), "text/vtt")
+
+    def test_sidecar_without_vtt_still_gets_word_level_tag(self):
+        (self.transcripts / "420.vtt").unlink()
+        (self.transcripts / "zh/420.vtt").unlink()
+        (json_tag,) = self.tags()
+        self.assertEqual(json_tag.get("type"), "application/json")
+
+    def test_episode_without_assets_has_no_transcript(self):
+        (self.transcripts / "420.vtt").unlink()
+        (self.transcripts / "zh/420.vtt").unlink()
+        (self.docs / "timings/420.json").unlink()
+        self.assertEqual(self.tags(), [])
+        self.assertEqual(generate.transcript_tags(
+            "420", "https://example.test/", self.transcripts), "")
+
+    def test_feed_item_uses_the_same_priority_order(self):
+        rss = generate.create_rss({"420": EPISODE}, "https://example.test/",
+                                  self.transcripts)
+        item = ET.fromstring(rss).find("channel/item")
+        tags = item.findall(f"{{{PODCAST_NS}}}transcript")
+        self.assertEqual([tag.get("type") for tag in tags],
+                         ["application/json", "text/vtt"])
 
 
 if __name__ == "__main__":

@@ -135,6 +135,11 @@ jobs:
 
 
 
+      # 英文 VTT 仍留在仓库供翻译/兜底；已被中译取代的不再发布。
+      - name: Stage Pages content
+
+        run: python stage_pages.py docs /tmp/tmlt-pages
+
       # 配置 GitHub Pages
       - name: Setup Pages
 
@@ -149,7 +154,7 @@ jobs:
 
         with:
 
-          path: ./docs
+          path: /tmp/tmlt-pages
 
 
 

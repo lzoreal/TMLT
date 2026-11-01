@@ -1079,6 +1079,19 @@ function parseVTT(text) {
   return out;
 }
 
+// 英文 VTT 已不发布时，用词级 sidecar 的段文本当作 cue 源。
+function vttFromSidecar(sidecar) {
+  const segs = Array.isArray(sidecar?.segments) ? sidecar.segments : [];
+  return segs.map(s => {
+    const words = Array.isArray(s.words) ? s.words : [];
+    const last = words.length ? words[words.length - 1] : null;
+    const start = Number.isFinite(s.start) ? s.start : 0;
+    const fallbackEnd = last ? last[1] + Math.max(0, last[2]) : start + 1000;
+    const end = Number.isFinite(s.end) ? s.end : fallbackEnd;
+    return { start: start / 1000, end: end / 1000, speaker: s.speaker || '', text: s.text || '' };
+  });
+}
+
 function parseZhVTT(text) {
   const out = [];
   for (const block of text.replace(/\r/g,'').split(/\n{2,}/)) {
@@ -1591,11 +1604,12 @@ function selectEpisode(item) {
   status('正在加载 #' + item.ep + ' 的 VTT 与时间轴…');
 
   Promise.all([
-    fetch('transcripts/' + item.ep + '.vtt').then(r => { if (!r.ok) throw new Error('VTT ' + r.status); return r.text(); }),
+    fetch('transcripts/' + item.ep + '.vtt').then(r => r.ok ? r.text() : null).catch(() => null),
     fetch('timings/' + item.ep + '.json').then(r => r.ok ? r.json() : null).catch(() => null),
     fetch('transcripts/zh/' + item.ep + '.vtt').then(r => r.ok ? r.text() : null).catch(() => null)
   ]).then(([vttText, sidecar, zhText]) => {
-    const vtt = parseVTT(vttText);
+    let vtt = vttText ? parseVTT(vttText) : [];
+    if (!vtt.length) vtt = vttFromSidecar(sidecar);
     state.vtt = vtt; state.sidecar = sidecar;
     state.zhVtt = zhText ? parseZhVTT(zhText) : null;
     state.base = { vtt, sidecar, zhVtt: state.zhVtt };
@@ -1604,7 +1618,7 @@ function selectEpisode(item) {
     state.cues = mergeCues(vtt, sidecar, state.zhVtt);
     const aligned = sidecar && Array.isArray(sidecar.segments) && sidecar.segments.length === vtt.length;
     const complete = sidecar?.complete === true;
-    if (!vtt.length) { box.innerHTML = '<div class="empty">VTT 为空。</div>'; status('该集没有可用 VTT。', 'warn'); return; }
+    if (!vtt.length) { box.innerHTML = '<div class="empty">没有可用的 VTT 或时间轴。</div>'; status('该集没有可用 VTT 或 timings JSON。', 'warn'); return; }
     renderCues();
     if (!sidecar) status('未找到 timings JSON，整集按官网 VTT 句级时间显示。', 'warn');
     else if (!complete) status('该集的修正时间轴尚未完成（' + (sidecar.rejected || '未完成') + '），按官网 VTT 句级时间显示。', 'warn');

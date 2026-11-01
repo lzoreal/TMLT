@@ -1197,10 +1197,60 @@ def update_resolved_audio(episodes_cache):
 # ============================================================
 
 
+def timing_complete(path):
+    """词级 sidecar 可用：整集判定完成，且确实带 segments。"""
+
+    try:
+        document = json.loads(Path(path).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return False
+
+    return document.get("complete") is True and bool(document.get("segments"))
+
+
+def transcript_tags(episode, base_url, transcript_dir):
+    """按优先级拼 transcript 标签；返回空串表示该集没有可用稿。
+
+    application/json 是词级 sidecar，也是 AntennaPod 里优先级最高的格式
+    （JSON 4 > VTT 3），所以放第一条；中文双语 VTT 次之；只有该集没有中译时
+    才回退英文 VTT。已被中译取代的英文 VTT 不再写进 feed。
+    """
+
+    transcript_dir = Path(transcript_dir)
+    base = base_url.rstrip("/")
+    timing = transcript_dir.parent / "timings" / f"{episode}.json"
+    zh_vtt = transcript_dir / "zh" / f"{episode}.vtt"
+    en_vtt = transcript_dir / f"{episode}.vtt"
+
+    tags = []
+
+    if timing_complete(timing):
+        url = html.escape(f"{base}/timings/{episode}.json", quote=True)
+        tags.append(
+            f'<podcast:transcript\nurl="{url}"\n'
+            'type="application/json"\nlanguage="en"/>'
+        )
+
+    if is_valid_vtt(zh_vtt):
+        url = html.escape(f"{base}/transcripts/zh/{episode}.vtt", quote=True)
+        tags.append(
+            f'<podcast:transcript\nurl="{url}"\n'
+            'type="text/vtt"\nlanguage="zh-CN"/>'
+        )
+    elif is_valid_vtt(en_vtt):
+        url = html.escape(f"{base}/transcripts/{episode}.vtt", quote=True)
+        tags.append(
+            f'<podcast:transcript\nurl="{url}"\n'
+            'type="text/vtt"\nlanguage="en"/>'
+        )
+
+    return "\n".join(tags)
+
+
 def create_rss(episodes, base_url, transcript_dir):
     """
     生成 RSS 2.0。
-    最新 episode 在前；只有本地存在有效 VTT 时才写字幕标签。
+    最新 episode 在前；每个 item 优先给词级 JSON，其次中文双语 VTT。
     """
 
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -1283,21 +1333,12 @@ type="application/rss+xml"/>
             quote=True,
         )
 
-        transcript_url = html.escape(
-            base_url.rstrip("/") + f"/transcripts/{episode}.vtt",
-            quote=True,
-        )
+        transcript_block = transcript_tags(episode, base_url, transcript_dir)
 
-        if is_valid_vtt(Path(transcript_dir) / f"{episode}.vtt"):
-            transcript_block = f"""
-<podcast:transcript
-url="{transcript_url}"
-type="text/vtt"
-language="en"/>
-"""
+        if transcript_block:
+            transcript_block = "\n" + transcript_block + "\n"
         else:
-            transcript_block = ""
-            print(f"⚠️ No valid transcript; omit tag: {episode}")
+            print(f"⚠️ No valid transcript; omit tags: {episode}")
 
         rss += f"""
 <item>

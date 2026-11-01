@@ -68,6 +68,10 @@ jobs:
           git diff --cached --quiet || git commit -m "Add Chinese transcripts feed"
           git push
 
+      - name: Stage Pages content
+        if: success() || failure()
+        run: python stage_pages.py docs /tmp/tmlt-pages
+
       - name: Setup Pages
         if: success() || failure()
         uses: actions/configure-pages@v5
@@ -76,7 +80,7 @@ jobs:
         if: success() || failure()
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./docs
+          path: /tmp/tmlt-pages
 
       - name: Deploy GitHub Pages
         if: success() || failure()

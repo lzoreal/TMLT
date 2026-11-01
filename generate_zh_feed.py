@@ -221,28 +221,34 @@ def build_feed(docs, base_url):
 
         title_text = title_node.text if title_node is not None else "UNKNOWN"
 
-        transcript = item.find(f"{{{PODCAST_NS}}}transcript")
+        transcripts = item.findall(f"{{{PODCAST_NS}}}transcript")
 
-        if transcript is None:
-            log(f"REMOVE {title_text}: no transcript")
+        # 主 feed 现在同时带词级 JSON 和 VTT；中文 feed 只保留双语文稿。
+        source = None
+        episode = None
+
+        for candidate in transcripts:
+            old_url = candidate.get("url", "")
+
+            match = re.search(
+                r"/transcripts/(?:zh/)?([^/?#]+)\.vtt(?:[?#].*)?$",
+                old_url,
+            )
+
+            if match and candidate.get("type") == "text/vtt":
+                source = candidate
+                episode = match.group(1)
+                break
+
+        if source is None:
+            log(f"REMOVE {title_text}: no transcript VTT")
             channel.remove(item)
             removed += 1
             continue
 
-        old_url = transcript.get("url", "")
-
-        match = re.search(
-            r"/transcripts/([^/?#]+)\.vtt(?:[?#].*)?$",
-            old_url,
-        )
-
-        if not match:
-            log(f"REMOVE {title_text}: bad transcript URL")
-            channel.remove(item)
-            removed += 1
-            continue
-
-        episode = match.group(1)
+        for extra in transcripts:
+            if extra is not source:
+                item.remove(extra)
 
         info = status.get(episode)
 
@@ -279,8 +285,8 @@ def build_feed(docs, base_url):
 
         new_url = f"{base_url}/transcripts/zh/{episode}.vtt"
 
-        transcript.set("url", new_url)
-        transcript.set("language", "zh-CN")
+        source.set("url", new_url)
+        source.set("language", "zh-CN")
 
         log(f"KEEP {episode}: {new_url}")
 
