@@ -266,6 +266,10 @@ def resolve_audio_url(url):
 def parse_archive_year(content):
     """
     解析单个年份的 archive 页面。
+
+    一集 = 一个 episode-number 字段：号取字段文本，URL 取字段里那条链接。
+    不按 href 有没有数字段来认集：官网有些行的链接只有别名（/bless-this-mess），
+    那样会把整行丢掉，已经因此漏过 23 集。
     """
 
     soup = BeautifulSoup(
@@ -275,22 +279,23 @@ def parse_archive_year(content):
 
     year_episodes = {}
 
-    for anchor in soup.select("a.goto-episode"):
-        href = anchor.get("href", "").strip()
+    for field in soup.select(".field-name-field-episode-number"):
+
+        anchor = field.select_one("a[href]")
+
+        if anchor is None:
+            continue
+
+        href = anchor["href"].strip()
 
         if not href:
             continue
 
-        # 只接受节目页面路径，例如 /123/episode-title
-        match = re.search(
-            r"^/(\d+)/",
-            href,
-        )
+        episode = field.get_text(strip=True)
 
-        if not match:
+        # 年页上还有非集行的 header；号不是纯数字就不认，不从标题里凑。
+        if not episode.isdigit():
             continue
-
-        episode = match.group(1)
 
         episode_url = urljoin(
             BASE + "/",
