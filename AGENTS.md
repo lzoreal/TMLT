@@ -20,9 +20,10 @@ TAL（This American Life）的字幕与播客源仓库：抓官网 → 生成 `d
 | `generate.py` | 抓官网 → `docs/podcast.xml`、`docs/transcripts/*.vtt`、`docs/episodes.json`（`--base-url` 必填） |
 | `translate_vtt.py` / `generate_zh_feed.py` | 中文翻译与 `docs/podcast-zh.xml`（Gemini，有 RPD 配额） |
 | `align_timings.py` | 逐词时间轴 sidecar，核心脚本 |
-| `.github/workflows/align-timings.yml` | 20 档矩阵 + 每小时 cron，跑批主力 |
+| `.github/workflows/pipeline.yml` | 每日全流程：抓官网 → 生成 feed → 补词级时间轴 → 发布 Pages（05:00 UTC） |
+| `.github/workflows/align-timings.yml` | 20 档矩阵，被 pipeline 调用；也可手工跑批 |
 | `.github/workflows/deploy.yml` / `translate.yml` | Pages 部署与翻译，共用 `tmlt-pages` 并发组 |
-| `.github/workflows/align-timings.yml` 的 `lane` 输入 | 手工 run 的独立队列，见下 |
+| `.github/workflows/align-timings.yml` 的 `lane` 输入 | 手工 / pipeline 的独立队列，见下 |
 
 ## align_timings.py
 
@@ -54,9 +55,13 @@ PY="C:/Users/游梦/AppData/Local/Programs/Python/Python310/python.exe"   # pyth
 
 ## Actions 运行
 
-- **手工 run 必须带 `lane`**（`probe` / `verify` / `recover`）。不带就会进 `tmlt-align`
-  队列，而同一并发组里**待起的 run 会被下一小时的 schedule 顶掉**（`cancel-in-progress: false`
-  只保住正在跑的那个）。
+- **调度只有 `pipeline.yml`**（每天 05:00 UTC）：`generate` → `align`（`workflow_call`，
+  lane=`pipeline`）→ `feed`（`workflow_call` deploy，重新跑 `generate.py` 让新 sidecar
+  进 feed，再跑 `generate_zh_feed.py` 并发布 Pages）。**align 失败不挡 feed**。
+- `translate.yml`（翻译 + 中文 feed）、`transcribe.yml`（无官网稿集的听写）、
+  `repair-wordless.yml`、`audio-vault.yml` 仍是手工触发。
+- **手工跑 align 要带 `lane`**（`probe` / `verify` / `recover` 等），避免和 pipeline
+  的 `tmlt-align-pipeline` 队列互相挤占，也方便单独取消。
 - 矩阵固定 20 档；`shards` 小于 20 时多余档位拿到空串自己 `exit 0`。
 - 分片计划由 `check` job 每轮按当时的待办现算（`--plan`），align 只认自己那份 `--episodes`。
 - 每集写完即提交推送；推送冲突靠 `git pull --rebase --autostash` 重试。
@@ -70,7 +75,7 @@ PY="C:/Users/游梦/AppData/Local/Programs/Python/Python310/python.exe"   # pyth
 - `python3` 是 WindowsApps 桩 → 用上面的 `PY` 全路径。
 - Git Bash 会把以 `/` 开头的 API 路径改写成 `C:/Program Files/Git/...` → 加 `MSYS2_ARG_CONV_EXCL='*'`（同时脚本路径要用 `D:/...` 形式）。
 - 控制台是 GBK 代码页 → Python 加 `-X utf8`，脚本里 `sys.stdout.reconfigure(encoding="utf-8")`。
-- 往 `main` 推之前先 `git pull --rebase`（cron 波的 runner 也在推同一分支），失败就重试几轮。
+- 往 `main` 推之前先 `git pull --rebase`（pipeline 的 runner 也在推同一分支），失败就重试几轮。
 - **不要**在未提交的工作树上跑 `git reset --hard`（会吃掉未提交改动）。
 
 ## 交接

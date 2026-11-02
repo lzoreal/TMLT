@@ -15,9 +15,18 @@ on:
 
         default: false
 
-  # 每周一自动更新（UTC 05:00）
-  schedule:
-  - cron: "0 5 * * 1"
+  # 由 pipeline.yml 在词级时间轴生成后调用；也可手工单独发布
+  workflow_call:
+
+    inputs:
+
+      refresh_archive:
+
+        description: "重抓全部年份的 archive 页"
+
+        type: boolean
+
+        default: false
 
 # 与 translate.yml 共用同一并发组，避免同时推送/部署 Pages
 concurrency:
@@ -99,6 +108,17 @@ jobs:
           --output docs \
           "${ARGS[@]}"
 
+      # 中文 feed 只依赖已有的 translations.json；失败时保留旧文件，
+      # 不能因此挡住英文 feed 的发布。
+      - name: Generate Chinese feed
+
+        continue-on-error: true
+
+        run: |
+
+          python generate_zh_feed.py \
+          --base-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+
 
 
       # 保存生成结果到仓库
@@ -120,9 +140,8 @@ jobs:
           git diff --cached --quiet || git commit -m "Update TAL transcript feed"
 
 
-          # align 的 cron 每隔几分钟就往 main 推一次 sidecar，裸 push 撞上
-          # non-fast-forward 会把整次部署打掉（实测两次都停在这里）。按
-          # align-timings 的做法 rebase 重试。
+          # 手工 align 可能同时在往 main 推 sidecar，裸 push 撞上
+          # non-fast-forward 会把整次部署打掉。按 align-timings 的做法 rebase 重试。
           for i in 1 2 3 4 5; do
             if git pull --rebase --autostash && git push; then
               exit 0

@@ -5,7 +5,7 @@ name: Align transcript timings
 # RSS 音频按地区插播广告，回退会写错时间轴，所以默认跳过。
 #
 # 断点续跑：每集写 docs/timings/<集号>.json，已存在即跳过。
-# cron 每小时探一次；没有待办时 check job 直接退出，align 不会启动。
+# 由 pipeline.yml 每日调用；没有待办时 check job 直接退出，align 不会启动。
 # 分片由 check job 每轮按当时的待办现算（align 只认自己那份 --episodes），
 # 这样先跑完的档位下一轮会分到别人的剩余集，不会被空档拖住整轮。
 
@@ -55,17 +55,59 @@ on:
         type: boolean
         default: false
 
-  # 全量跑批自动接续：有剩余集就继续，跑完就空跑退出。
-  # 间隔必须远小于单轮时长（一轮约 5.9h）：concurrency 组只留一个排队 run，
-  # 落在运行中那几小时里的 schedule 事件会被丢弃，所以靠密集触发保证
-  # 任意一轮里至少有一次被留在队列里，一轮结束立刻接上下一个触发。
-  schedule:
-    - cron: "0 * * * *"
+  workflow_call:
+    inputs:
+      episodes:
+        description: "逗号分隔的集号（留空则按 latest / 全量选）"
+        default: ""
+        type: string
+      latest:
+        description: "只处理最近发布的 N 集（0 = 全部）"
+        default: "0"
+        type: string
+      shards:
+        description: "把待办摊到几档（1-20，矩阵固定 20 个 job，多余档位空跑退出）"
+        default: "20"
+        type: string
+      max_minutes:
+        description: "每个 job 的时间预算（分钟）"
+        default: "300"
+        type: string
+      force:
+        description: "重跑已有结果的集"
+        type: boolean
+        default: false
+      commit:
+        description: "提交 docs/timings"
+        type: boolean
+        default: true
+      probe:
+        description: "诊断：每集只采样对齐 N 段并打印偏移曲线，不写结果（0 = 正常跑）"
+        default: "0"
+        type: string
+      lane:
+        description: "独立并发队列名（pipeline 用 pipeline，避免和手工 run 互撞）"
+        default: ""
+        type: string
+      locate:
+        description: "恢复被拒集：先整集粗 ASR 定位再切窗对齐"
+        type: boolean
+        default: false
+      locate_only:
+        description: "诊断：只跑 ASR 定位并打印覆盖率与偏移分布"
+        type: boolean
+        default: false
+      rescue:
+        description: "第二轮恢复：定位后对没对上的组用邻句平移重试"
+        type: boolean
+        default: false
+      dump:
+        description: "诊断：逐句落盘对齐取证"
+        type: boolean
+        default: false
 
 concurrency:
-  # 探针、验证、恢复这类手工 run 用 lane 单开一组：否则它们排进 tmlt-align
-  # 队列后会被下一小时的 schedule 顶掉（同组里待起的 run 会被新 run 取代）。
-  # schedule 没有 inputs.lane，组名仍是原来的 tmlt-align。
+  # 手工 run 和 pipeline 各用 lane 单开一组，互不顶掉；没有 lane 时共用 tmlt-align。
   group: tmlt-align${{ inputs.lane && format('-{0}', inputs.lane) || '' }}
   cancel-in-progress: false
 

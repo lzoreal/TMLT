@@ -1,0 +1,99 @@
+name: TAL pipeline (fetch -> align -> feed)
+
+# 每日全流程：抓官网最新集 -> 生成 VTT/feed -> 补词级时间轴 -> 重新生成 feed 并发布 Pages。
+#
+# align 失败不挡 feed：词级时间轴是增强项，已有 VTT 仍然可用；
+# 只要 generate 成功，feed job 就会带着当前仓库里可用的 sidecar 发布。
+#
+# 翻译（translate.yml）与无官网稿集的自动听写（transcribe.yml）仍需手工触发。
+
+on:
+  workflow_dispatch:
+    inputs:
+      refresh_archive:
+        description: "重抓全部年份的 archive 页（改过 parse_archive_year 后勾选）"
+        type: boolean
+        default: false
+      max_minutes:
+        description: "每个对齐 job 的时间预算（分钟）"
+        default: "240"
+        type: string
+
+  schedule:
+    - cron: "0 5 * * *"
+
+concurrency:
+  group: tmlt-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch site and generate feed
+        run: |
+          ARGS=()
+          if [ "${{ inputs.refresh_archive }}" = "true" ]; then
+            ARGS+=(--refresh-archive)
+          fi
+          python generate.py \
+            --base-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" \
+            --output docs \
+            "${ARGS[@]}"
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "Update TAL transcript feed"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 15))
+          done
+          echo "push failed after 5 attempts" >&2
+          exit 1
+
+  align:
+    needs: generate
+    uses: ./.github/workflows/align-timings.yml
+    with:
+      episodes: ""
+      latest: "0"
+      shards: "20"
+      max_minutes: ${{ inputs.max_minutes || '240' }}
+      force: false
+      commit: true
+      probe: "0"
+      lane: pipeline
+      locate: false
+      locate_only: false
+      rescue: false
+      dump: false
+
+  feed:
+    needs: [generate, align]
+    # align 失败也要发布：只要求官网抓取成功。
+    if: always() && needs.generate.result == 'success'
+    uses: ./.github/workflows/deploy.yml
+    with:
+      refresh_archive: ${{ inputs.refresh_archive || false }}
