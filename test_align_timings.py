@@ -147,5 +147,27 @@ class RealEpisodeRegressionTest(unittest.TestCase):
         self.assertLessEqual(segments[242]["start"], 2938000)
 
 
+class LoadSourcesTest(unittest.TestCase):
+    def test_prefers_the_vtt_transcript_over_the_json_sidecar(self):
+        feed = """<rss><channel><item>
+<title>1: test</title>
+<podcast:transcript
+url="https://example.test/timings/1.json"
+type="application/json"/>
+<podcast:transcript
+url="https://example.test/transcripts/zh/1.vtt"
+type="text/vtt"/>
+<enclosure url="https://example.test/archive/1.mp3" type="audio/mpeg"/>
+<pubDate>Fri, 16 Oct 2026 11:21:15 -0400</pubDate>
+</item></channel></rss>"""
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "podcast.xml"
+            path.write_text(feed, encoding="utf-8")
+            sources = at.load_sources(path)
+        self.assertEqual(list(sources), [1])
+        self.assertEqual(sources[1]["audio"], "https://example.test/archive/1.mp3")
+        self.assertEqual(sources[1]["published"], "Fri, 16 Oct 2026 11:21:15 -0400")
+
+
 if __name__ == "__main__":
     unittest.main()

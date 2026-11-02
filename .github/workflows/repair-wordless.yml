@@ -1,0 +1,241 @@
+name: Repair wordless cue timings
+
+# 只补 docs/timings/*.json 里 words=[] 的多词口语句：不重跑整集、不改正文/切分，
+# 也不动 complete/attempts。窗口由左右已实测词的边界框定，结果过同一套
+# plausibility + 邻居顺序门才写回。唱词默认不碰。
+#
+# canary：episodes 填几集、shards=1、commit=false，先看日志里的
+# repaired/attempted 与 reasons，再放波。
+
+on:
+  workflow_dispatch:
+    inputs:
+      episodes:
+        description: "逗号分隔的集号（留空 = 全部有词缺口的集）"
+        default: ""
+      shards:
+        description: "分几档（1-20；canary 填 1）"
+        default: "20"
+      max_minutes:
+        description: "每个 job 的时间预算（分钟）"
+        default: "240"
+      include_sung:
+        description: "连 (SINGING) 唱词一起修（默认不碰）"
+        type: boolean
+        default: false
+      commit:
+        description: "把修好的 sidecar 提交回 main（canary 先关掉）"
+        type: boolean
+        default: false
+
+concurrency:
+  group: tmlt-repair
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      pending: ${{ steps.count.outputs.pending }}
+      plan: ${{ steps.count.outputs.plan }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - id: count
+        env:
+          EPISODES: ${{ inputs.episodes || '' }}
+          SHARDS: ${{ inputs.shards || '20' }}
+          INCLUDE_SUNG: ${{ inputs.include_sung && '--repair-sung' || '' }}
+        run: |
+          set -o pipefail
+          slots=$SHARDS
+          if [ "$slots" -gt 20 ]; then
+            echo "inputs.shards=$SHARDS 超过矩阵 20 档，按 20 分摊" >&2
+            slots=20
+          fi
+          status=$(python3 align_timings.py --repair-wordless --status \
+            --episodes "$EPISODES" $INCLUDE_SUNG)
+          echo "$status"
+          pending=$(printf '%s\n' "$status" | sed -n 's/^pending=//p')
+          if [ -z "$pending" ]; then
+            echo "failed to compute pending" >&2
+            exit 1
+          fi
+          echo "pending=$pending" >> "$GITHUB_OUTPUT"
+          echo "$status" >> "$GITHUB_STEP_SUMMARY"
+
+          plan=$(python3 align_timings.py --repair-wordless --plan \
+            --shards "$slots" --episodes "$EPISODES" $INCLUDE_SUNG \
+            | python3 -c '
+          import json, sys
+
+          data = json.loads(sys.stdin.read())
+          if not isinstance(data, list) or not 1 <= len(data) <= 20:
+              raise SystemExit("计划档位数异常")
+          print(json.dumps(data + [""] * (20 - len(data))))
+          ')
+          if [ -z "$plan" ]; then
+            echo "plan 生成失败，拒绝继续" >&2
+            exit 1
+          fi
+          echo "plan=$plan" >> "$GITHUB_OUTPUT"
+          printf '分档集数：%s\n' "$(printf '%s' "$plan" | python3 -c '
+          import json, sys
+          print([len(s.split(",")) if s else 0 for s in json.loads(sys.stdin.read())])
+          ')" >> "$GITHUB_STEP_SUMMARY"
+
+  prepare:
+    needs: check
+    if: needs.check.outputs.pending != '0'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - id: model
+        uses: actions/cache/restore@v4
+        with:
+          path: models/ct2-turbo
+          key: ct2-turbo-v1
+
+      - name: Download model
+        if: steps.model.outputs.cache-hit != 'true'
+        run: |
+          pip install --quiet huggingface_hub
+          python - <<'PY'
+          from pathlib import Path
+          from huggingface_hub import snapshot_download
+
+          target = Path("models/ct2-turbo")
+          snapshot_download(
+              "deepdml/faster-whisper-large-v3-turbo-ct2",
+              local_dir=str(target),
+              allow_patterns=["model.bin", "config.json", "tokenizer.json",
+                              "vocabulary.json", "preprocessor_config.json"],
+          )
+          config = (target / "config.json").read_text()
+          assert "alignment_heads" in config, "模型缺 alignment_heads，逐词对齐不可用"
+          print("model ready")
+          PY
+
+      - name: Save model cache
+        if: steps.model.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: models/ct2-turbo
+          key: ct2-turbo-v1
+
+  repair:
+    needs: [check, prepare]
+    if: needs.check.outputs.pending != '0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/cache/restore@v4
+        with:
+          path: models/ct2-turbo
+          key: ct2-turbo-v1
+
+      - name: Install dependencies
+        run: |
+          pip install --quiet --index-url https://download.pytorch.org/whl/cpu torch torchaudio
+          pip install --quiet -r requirements-align.txt
+          python -c "import stable_whisper, faster_whisper, av; print('deps ok')"
+
+      - name: Repair and commit
+        env:
+          PLAN: ${{ needs.check.outputs.plan }}
+          CONFIRM_COMMIT: ${{ inputs.commit }}
+          MAX_MINUTES: ${{ inputs.max_minutes || '240' }}
+          SHARD: ${{ matrix.shard }}
+          INCLUDE_SUNG: ${{ inputs.include_sung && '--repair-sung' || '' }}
+        run: |
+          set -o pipefail
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if ! EP_LIST=$(printf '%s' "$PLAN" | python3 -c '
+          import json, sys
+          print(json.load(sys.stdin)[int(sys.argv[1])])
+          ' "$SHARD"); then
+            echo "plan 解析失败（档位 $SHARD），退出以免误判为空档" >&2
+            exit 1
+          fi
+          if [ -z "$EP_LIST" ]; then
+            echo "档位 $SHARD 本轮没分到集，直接结束"
+            exit 0
+          fi
+          echo "档位 $SHARD 分到 $(awk -F',' '{print NF}' <<<"$EP_LIST") 集"
+
+          COMMIT_RESULTS="$CONFIRM_COMMIT" python -u align_timings.py \
+            --repair-wordless \
+            --episodes "$EP_LIST" \
+            --max-minutes "$MAX_MINUTES" \
+            $INCLUDE_SUNG \
+            --repair-report /tmp/repair-report \
+            2>&1 | tee /tmp/repair.log
+
+          mkdir -p /tmp/repair-sidecars
+          git diff --name-only -- docs/timings | while IFS= read -r file; do
+            [ -n "$file" ] && cp --parents "$file" /tmp/repair-sidecars
+          done
+
+          if [ "$CONFIRM_COMMIT" != "true" ]; then
+            echo "commit disabled; changed sidecars are in the artifact"
+            exit 0
+          fi
+          if ls docs/timings/*.json >/dev/null 2>&1; then
+            git add -- 'docs/timings/*.json' || true
+          fi
+          if ! git diff --cached --quiet; then
+            count=$(git diff --cached --name-only | wc -l)
+            git commit -m "Repair wordless cues (shard $SHARD, $count eps)" || true
+          fi
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 15))
+          done
+          echo "push failed after 5 attempts; keeping commit for next run" >&2
+          exit 1
+
+      - name: Upload repair report
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: repair-shard-${{ matrix.shard }}
+          path: |
+            /tmp/repair-report
+            /tmp/repair-sidecars
+            /tmp/repair.log
+          if-no-files-found: ignore
+          retention-days: 7

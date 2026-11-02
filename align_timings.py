@@ -18,6 +18,7 @@ import re
 import subprocess
 import sys
 import time
+from collections import Counter
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
@@ -82,6 +83,12 @@ MIN_LOCATE_COVERAGE = 0.5
 # 未完成的 sidecar 最多自动重试次数；超过即放弃，避免确定性失败每轮重跑。
 MAX_ATTEMPTS = 2
 
+# 逐词缺口修复：只对 words=[] 且正文至少 2 词的口语 cue 重开小窗，窗口由
+# 相邻已实测词的边界框定；正文、切分、complete/attempts 一律不动。
+REPAIR_MIN_TOKENS = 2
+REPAIR_GAP = 0.5
+REPAIR_MIN_WINDOW = 0.3
+
 # 这两类拒绝由音频母带本身决定（对齐落到错误位置、母带与 transcript 不同版），
 # 同一份音频重跑必然同样失败，所以一次判定后不再占用重试机会：
 # 单次尝试在 CI 上要 30-50 分钟，重试等于白烧一个机时。
@@ -106,6 +113,8 @@ LABEL_PREFIX = re.compile(
 )
 # 句首的舞台标签："[LAUGHTER] "、"[SINGING] "、"[MUSIC - ...] "，不是台词。
 LEADING_TAG = re.compile(r"^\s*(?:\[[^\]]*\]\s*)+")
+# 唱词默认不修：Whisper 对演唱的词时间不可靠，强行对齐只会写进看似合理的错时间。
+SUNG_LEAD = re.compile(r"^\s*(?:\[|\()\s*SINGING", re.I)
 # 定位用的词元：小写字母数字加撇号，标点不参与匹配。
 WORD_TOKEN = re.compile(r"[a-z0-9']+")
 TIMESTAMP = re.compile(
@@ -241,11 +250,15 @@ def load_sources(rss_path):
     content = rss_path.read_text(encoding="utf-8")
     sources = {}
     for block in re.findall(r"<item>.*?</item>", content, re.S):
-        transcript = re.search(r'<podcast:transcript[^>]*url="([^"]+)"', block, re.S)
+        # feed 现在先挂 timings/*.json 再挂 VTT；只认集号 .vtt 那一条。
+        transcripts = re.findall(
+            r'<podcast:transcript[^>]*url="([^"]+)"', block, re.S)
+        transcript = next(
+            (url for url in transcripts if EPISODE_VTT.search(url)), None)
         enclosure = re.search(r"<enclosure[^>]*?/?>", block, re.S)
         if not transcript or not enclosure:
             continue
-        episode = EPISODE_VTT.search(transcript.group(1))
+        episode = EPISODE_VTT.search(transcript)
         audio = re.search(r'url="([^"]+)"', enclosure.group(0))
         if not episode or not audio:
             continue
@@ -881,6 +894,255 @@ def retry_dropped(model, audio, cues, total_seconds, results, shifts):
         shifts[cue["i"]] = first - cue["start"]
         fixed += 1
     return fixed
+
+
+# ============================================================
+# 逐词缺口修复（只补 words=[]，不改正文/切分/整集状态）
+# ============================================================
+
+
+def repair_target(text, include_sung=False, min_tokens=REPAIR_MIN_TOKENS):
+    """这句是否值得单独重对：非舞台提示、剥标签后至少 min_tokens 个词。"""
+
+    if BRACKET.match(text):
+        return False
+    if len(spoken_text(text).split()) < min_tokens:
+        return False
+    if not include_sung and SUNG_LEAD.match(text):
+        return False
+    return True
+
+
+def repair_targets(cues, segments, include_sung=False):
+    """返回无词、且正文与 VTT 一致的 segment 下标。"""
+
+    found = []
+    for index, cue in enumerate(cues):
+        if index >= len(segments):
+            break
+        segment = segments[index]
+        if segment.get("words") or segment.get("text") != cue["text"]:
+            continue
+        if repair_target(cue["text"], include_sung):
+            found.append(index)
+    return found
+
+
+def sidecar_results(segments):
+    """把 sidecar 的毫秒词还原成对齐器内部使用的秒。"""
+
+    results = {}
+    for index, segment in enumerate(segments):
+        words = segment.get("words") or []
+        if words:
+            results[index] = {
+                "words": [(w[0], w[1] / 1000.0, (w[1] + w[2]) / 1000.0)
+                          for w in words]
+            }
+    return results
+
+
+def repair_runs(targets):
+    """连续的无词句并成一段，共享一个由邻居框定的大窗口。"""
+
+    runs = []
+    for index in targets:
+        if runs and index == runs[-1][-1] + 1:
+            runs[-1].append(index)
+        else:
+            runs.append([index])
+    return runs
+
+
+def _nearest_word(index, results, step):
+    """最近的已实测句下标（step=-1 向前，+1 向后），没有返回 None。"""
+
+    if step < 0:
+        candidates = [k for k in results if k < index]
+        return max(candidates) if candidates else None
+    candidates = [k for k in results if k > index]
+    return min(candidates) if candidates else None
+
+
+def estimated_shift(index, cues, results, neighbours=2):
+    """用左右最近各 neighbours 句的实测平移取中位数。"""
+
+    values = []
+    for step in (-1, 1):
+        found = 0
+        k = index + step
+        while 0 <= k < len(cues) and found < neighbours:
+            if results.get(k):
+                values.append(results[k]["words"][0][1] - cues[k]["start"])
+                found += 1
+            k += step
+    return percentile(values, .5) if values else 0.0
+
+
+def repair_windows(run, cues, results, audio_seconds):
+    """返回 [(lo, hi, group)]；范围短且有两侧实测邻居时整段一起对齐。"""
+
+    first, last = run[0], run[-1]
+    previous = _nearest_word(first, results, -1)
+    following = _nearest_word(last, results, 1)
+    low = (results[previous]["words"][-1][2] - REPAIR_GAP
+           if previous is not None else None)
+    high = (results[following]["words"][0][1] + REPAIR_GAP
+            if following is not None else None)
+    chars = sum(len(spoken_text(cues[i]["text"])) for i in run)
+    if (low is not None and high is not None
+            and REPAIR_MIN_WINDOW <= high - low <= MAX_SPAN + PAD + TAIL_PAD
+            and chars <= MAX_CHARS):
+        return [(max(0.0, low), min(audio_seconds, high),
+                 [cues[i] for i in run])]
+
+    windows = []
+    for index in run:
+        shift = estimated_shift(index, cues, results)
+        cue = cues[index]
+        lo = max(0.0, cue["start"] + shift - PAD)
+        hi = cue["start"] + cue_span(cue) + shift + TAIL_PAD
+        if low is not None:
+            lo = max(lo, low)
+        if high is not None:
+            hi = min(hi, high)
+        hi = min(hi, audio_seconds, lo + MAX_SPAN + PAD + TAIL_PAD)
+        if hi - lo < REPAIR_MIN_WINDOW:
+            continue
+        windows.append((lo, hi, [cue]))
+    return windows
+
+
+def repair_reject_reason(cue, words, results, index, shift, audio_seconds):
+    """修复结果的最后一道门；返回空串才写回 sidecar。"""
+
+    if not words:
+        return "no-words"
+    previous = _nearest_word(index, results, -1)
+    following = _nearest_word(index, results, 1)
+    previous_words = results[previous]["words"] if previous is not None else None
+    following_words = results[following]["words"] if following is not None else None
+    next_start = following_words[0][1] if following_words else None
+
+    reason = plausible_reason(cue, next_start, words,
+                              cue["start"] + shift)
+    if reason:
+        return reason
+    first, last = words[0][1], words[-1][2]
+    natural = len(spoken_text(cue["text"])) / NOMINAL_CHARS_PER_SECOND
+    if last - first < max(0.1, 0.5 * natural):
+        return "too-short"
+    if previous_words and first < previous_words[-1][2]:
+        return "before-prev"
+    if first < 0 or last > audio_seconds:
+        return "outside-audio"
+    return ""
+
+
+def apply_repair(segments, index, words, audio_seconds):
+    """只改这一段的词/end/start；正文和相邻段保持原样。"""
+
+    segment = segments[index]
+    payload = [[text, int(round(start * 1000)), int(round((end - start) * 1000))]
+               for text, start, end in words]
+    first = payload[0][1]
+    last = max(item[1] + max(0, item[2]) for item in payload)
+    start = min(int(segment.get("start") or first), first)
+    start = max(0, start)
+    if audio_seconds:
+        start = min(start, int(audio_seconds * 1000))
+    segment["words"] = payload
+    segment["start"] = start
+    segment["end"] = last
+
+
+def _previous_end_ms(segments, index):
+    for k in range(index - 1, -1, -1):
+        end = segments[k].get("end")
+        if end is not None:
+            return end
+    return None
+
+
+def snap_silent_tokens(words, max_gap=MAX_LATE):
+    """标点不是发音单位：与上一词隔得离谱时贴回上一词尾部，避免 end 被拉走。"""
+
+    fixed = []
+    for text, start, end in words:
+        if fixed and not re.search(r"\w", text):
+            previous_end = fixed[-1][2]
+            if start - previous_end > max_gap:
+                start = end = previous_end
+        fixed.append((text, start, end))
+    return fixed
+
+
+def repair_segments(segments, cues, model, audio, audio_seconds,
+                    include_sung=False, report=None):
+    """对一份 sidecar 的 segments 就地修复，返回 (修复数, 尝试数, 原因, 结果)。"""
+
+    results = sidecar_results(segments)
+    targets = repair_targets(cues, segments, include_sung)
+    repaired = attempted = 0
+    reasons = Counter()
+    outcomes = []
+    for run in repair_runs(targets):
+        for lo, hi, group in repair_windows(run, cues, results, audio_seconds):
+            try:
+                aligned = align_window(model, audio, lo, hi, group)
+            except Exception as exc:
+                key = f"error:{type(exc).__name__}"
+                reasons[key] += 1
+                for cue in group:
+                    outcomes.append((cue["i"], "error", key))
+                continue
+            for cue in group:
+                index = cue["i"]
+                words = (aligned.get(index) or {}).get("words") or []
+                words = snap_silent_tokens(words)
+                attempted += 1
+                shift = estimated_shift(index, cues, results)
+                reason = repair_reject_reason(
+                    cue, words, results, index, shift, audio_seconds)
+                if reason:
+                    reasons[reason] += 1
+                    outcomes.append((index, "rejected", reason))
+                    continue
+                words = normalize_leading_words(
+                    words, _previous_end_ms(segments, index))
+                apply_repair(segments, index, words, audio_seconds)
+                results[index] = {"words": words}
+                repaired += 1
+                outcomes.append((index, "repaired", ""))
+    if report is not None:
+        report.extend(outcomes)
+    return repaired, attempted, reasons, outcomes
+
+
+def repair_cue_count(out_path, vtt_path, include_sung=False):
+    """sidecar 里还能修的无词句数；sidecar/VTT 对不上按 0 处理。"""
+
+    try:
+        document = json.loads(Path(out_path).read_text(encoding="utf-8"))
+        segments = document.get("segments") or []
+    except Exception:
+        return 0
+    cues = parse_vtt(Path(vtt_path))
+    if not segments or len(cues) != len(segments):
+        return 0
+    return len(repair_targets(cues, segments, include_sung))
+
+
+def fill_repair_report(path, episode, cues, outcomes):
+    """把逐句结果写成 TSV，canary 复核用；不影响 sidecar。"""
+
+    target = Path(path)
+    target.mkdir(parents=True, exist_ok=True)
+    with open(target / f"{episode}.tsv", "w", encoding="utf-8") as file:
+        file.write("index\tresult\treason\ttext\n")
+        for index, result, reason in outcomes:
+            text = cues[index]["text"].replace("\t", " ").replace("\n", " ")
+            file.write(f"{index}\t{result}\t{reason}\t{text}\n")
 
 
 def adopt_measured_shifts(cues, results, shifts, min_gap=MAX_EARLY):
@@ -1586,7 +1848,7 @@ def build_plan(pending, shards):
     return [",".join(bucket) for bucket in buckets]
 
 
-def persist_progress(path, episode):
+def persist_progress(path, episode, message=None):
     """把刚写完的 sidecar 立刻提交并推送。
 
     超时或 runner 被回收时，最多只丢正在处理的那一集；已完成的结果
@@ -1626,8 +1888,8 @@ def persist_progress(path, episode):
             push()
         return
     shard = os.environ.get("SHARD", "?")
-    if git("commit", "-m",
-           f"Add word-level timings (shard {shard}, #{episode})").returncode != 0:
+    subject = message or f"Add word-level timings (shard {shard}, #{episode})"
+    if git("commit", "-m", subject).returncode != 0:
         return
     if not push():
         log(f"    #{episode} sidecar committed locally; push will retry")
@@ -1979,6 +2241,73 @@ def run_episode(model, session, source, args, workdir, tag=""):
     return failures
 
 
+def repair_episode(model, session, source, args, workdir, tag=""):
+    """只补一份现有 sidecar 里的无词句；不重跑整集，也不改 complete/attempts。"""
+
+    episode = source["id"]
+    out_path = args.out / f"{episode}.json"
+    vtt_path = TRANSCRIPT_DIR / f"{episode}.vtt"
+
+    if not out_path.exists():
+        log(f"{tag}#{episode} skip (no sidecar)")
+        return 0
+    try:
+        document = json.loads(out_path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        log(f"{tag}#{episode} skip (unreadable sidecar: {type(exc).__name__})")
+        return 1
+    segments = document.get("segments") or []
+    cues = parse_vtt(vtt_path)
+    if not segments or len(cues) != len(segments):
+        log(f"{tag}#{episode} skip (cue/segment count {len(cues)}/{len(segments)})")
+        return 1
+    targets = repair_targets(cues, segments, args.repair_sung)
+    if not targets:
+        log(f"{tag}#{episode} skip (no wordless cue)")
+        return 0
+
+    if args.audio:
+        audio_path = Path(args.audio)
+    else:
+        audio_path = workdir / f"{episode}_archive.mp3"
+        if not audio_path.exists():
+            url = resolve_archive(session, episode)
+            if url is None:
+                log(f"{tag}#{episode} skip (no archive audio)")
+                return 1
+            started = time.time()
+            size = download(session, url, audio_path)
+            log(f"{tag}#{episode} downloaded {size / 1e6:.1f}MB "
+                f"in {time.time() - started:.0f}s")
+
+    started = time.time()
+    audio = decode_audio(audio_path)
+    audio_seconds = audio.size / SR
+    report = []
+    repaired, attempted, reasons, outcomes = repair_segments(
+        segments, cues, model, audio, audio_seconds, args.repair_sung, report)
+    if args.repair_report:
+        fill_repair_report(args.repair_report, episode, cues, outcomes)
+    if args.audio is None:
+        audio_path.unlink(missing_ok=True)
+
+    if repaired:
+        write_document(
+            out_path, episode,
+            float(document.get("audio_seconds") or audio_seconds),
+            segments,
+            int(document.get("attempts") or 0),
+            complete=document.get("complete") is True,
+            rejected=document.get("rejected"),
+        )
+    summary = ", ".join(f"{k} {v}" for k, v in
+                        sorted(reasons.items(), key=lambda kv: -kv[1]))
+    log(f"{tag}#{episode} repair targets={len(targets)} attempted={attempted} "
+        f"repaired={repaired} reasons={summary or '-'} "
+        f"({time.time() - started:.0f}s)")
+    return 0 if repaired or not attempted else 1
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--episodes", help="逗号分隔的集号，优先于 --latest")
@@ -2029,6 +2358,19 @@ def main():
         help="定位对齐后，对没对上的组用邻句平移做多候选重试（第二轮恢复用）",
     )
     parser.add_argument(
+        "--repair-wordless", action="store_true",
+        help="只修现有 sidecar 里 words=[] 的多词口语句：按邻居实测词边界重开小窗，"
+             "不改正文/切分/complete；--plan/--status 也按这份缺口统计",
+    )
+    parser.add_argument(
+        "--repair-sung", action="store_true",
+        help="连 (SINGING) 唱词一起修（默认不碰：演唱的逐词时间不可靠）",
+    )
+    parser.add_argument(
+        "--repair-report", metavar="DIR",
+        help="把逐句修复结果写成 TSV 到该目录（canary 复核用，不参与提交）",
+    )
+    parser.add_argument(
         "--allow-rss-audio",
         action="store_true",
         help="archive 取不到时回退 RSS 音频（默认跳过：RSS 音频按地区插播，会写坏时间轴）",
@@ -2042,12 +2384,30 @@ def main():
     sources = load_sources(RSS_FILE)
     episodes = select_episodes(sources, args)
 
+    repair_candidates = []
+    repair_cues = 0
+    if args.repair_wordless:
+        for episode in episodes:
+            count = repair_cue_count(args.out / f"{episode}.json",
+                                     TRANSCRIPT_DIR / f"{episode}.vtt",
+                                     args.repair_sung)
+            if count:
+                repair_candidates.append(episode)
+                repair_cues += count
+
     if args.plan:
-        todo = [e for e in episodes if args.force or not is_done(args.out / f"{e}.json")]
+        todo = (repair_candidates if args.repair_wordless
+                else [e for e in episodes
+                      if args.force or not is_done(args.out / f"{e}.json")])
         print(json.dumps(build_plan(todo, args.shards)))
         return 0
 
     if args.status:
+        if args.repair_wordless:
+            log(f"transcript={len(episodes)} repair_episodes={len(repair_candidates)} "
+                f"repair_cues={repair_cues} pending={len(repair_candidates)}")
+            print(f"pending={len(repair_candidates)}")
+            return 0
         selected = [
             e for pos, e in enumerate(episodes) if pos % args.shards == args.shard
         ]
@@ -2070,26 +2430,41 @@ def main():
     workdir = Path(args.workdir)
     workdir.mkdir(parents=True, exist_ok=True)
 
-    done_paths = {e: args.out / f"{e}.json" for e in episodes}
-    global_pending = sum(
-        1 for e in episodes if args.force or not is_done(done_paths[e])
-    )
-    # 按"完整选中列表"切片而不是按待办切片：待办会随其他分片提交而变化，
-    # 那样两个分片可能在不同时刻把同一集分给自己，导致 rebase 冲突。
-    shard_episodes = [
-        e for pos, e in enumerate(episodes) if pos % args.shards == args.shard
-    ]
-    pending = [
-        e for e in shard_episodes if args.force or not is_done(done_paths[e])
-    ]
-    log(f"shard {args.shard}/{args.shards}: 全局待办 {global_pending} 集"
-        f"（选中 {len(episodes)} 集，已完成 {len(episodes) - global_pending} 集）；"
-        f"本分片共 {len(shard_episodes)} 集，已完成 {len(shard_episodes) - len(pending)} 集，"
-        f"本段 {len(pending)} 集")
-    if not pending:
-        log("nothing to do")
-        log("run_summary attempted=0 left=0")
-        return 0
+    if args.repair_wordless:
+        # 修复模式不看 complete/attempts：这是离线补洞，不占整集的重试名额。
+        shard_episodes = [
+            e for pos, e in enumerate(repair_candidates)
+            if pos % args.shards == args.shard
+        ]
+        pending = shard_episodes
+        log(f"repair shard {args.shard}/{args.shards}: "
+            f"{len(repair_candidates)} 集有词缺口（{repair_cues} 句），"
+            f"本分片 {len(pending)} 集")
+        if not pending:
+            log("nothing to do")
+            log("run_summary attempted=0 left=0")
+            return 0
+    else:
+        done_paths = {e: args.out / f"{e}.json" for e in episodes}
+        global_pending = sum(
+            1 for e in episodes if args.force or not is_done(done_paths[e])
+        )
+        # 按"完整选中列表"切片而不是按待办切片：待办会随其他分片提交而变化，
+        # 那样两个分片可能在不同时刻把同一集分给自己，导致 rebase 冲突。
+        shard_episodes = [
+            e for pos, e in enumerate(episodes) if pos % args.shards == args.shard
+        ]
+        pending = [
+            e for e in shard_episodes if args.force or not is_done(done_paths[e])
+        ]
+        log(f"shard {args.shard}/{args.shards}: 全局待办 {global_pending} 集"
+            f"（选中 {len(episodes)} 集，已完成 {len(episodes) - global_pending} 集）；"
+            f"本分片共 {len(shard_episodes)} 集，已完成 {len(shard_episodes) - len(pending)} 集，"
+            f"本段 {len(pending)} 集")
+        if not pending:
+            log("nothing to do")
+            log("run_summary attempted=0 left=0")
+            return 0
 
     silence_tqdm()
     import stable_whisper as sw
@@ -2127,23 +2502,33 @@ def main():
         tag = f"[{position:>3}/{shard_total} {100 * position / shard_total:3.0f}% eta " \
               f"{'--' if done == 0 else human(eta)}] "
         try:
-            if args.locate_only:
+            if args.repair_wordless:
+                repair_episode(model, session, sources[episode], args, workdir, tag)
+            elif args.locate_only:
                 locate_only(model, session, sources[episode], args, workdir, tag)
                 done += 1
                 continue
-            if args.offset_probe:
+            elif args.offset_probe:
                 probe_episode(model, session, sources[episode], args, workdir, tag)
                 done += 1
                 continue
-            if run_episode(model, session, sources[episode], args, workdir, tag):
-                failures += 1
+            else:
+                if run_episode(model, session, sources[episode], args, workdir, tag):
+                    failures += 1
         except Exception as exc:
             failures += 1
-            path = args.out / f"{episode}.json"
-            prev = read_status(path)[1] if path.exists() else 0
-            mark_attempt(path, episode, prev + 1, f"error:{type(exc).__name__}")
-            log(f"{tag}#{episode} ERROR {type(exc).__name__}: {exc}")
-        persist_progress(args.out / f"{episode}.json", episode)
+            if args.repair_wordless:
+                # 离线补洞失败不能占整集的重试名额，sidecar 保持原样。
+                log(f"{tag}#{episode} ERROR {type(exc).__name__}: {exc}")
+            else:
+                path = args.out / f"{episode}.json"
+                prev = read_status(path)[1] if path.exists() else 0
+                mark_attempt(path, episode, prev + 1, f"error:{type(exc).__name__}")
+                log(f"{tag}#{episode} ERROR {type(exc).__name__}: {exc}")
+        persist_progress(
+            args.out / f"{episode}.json", episode,
+            message=(f"Repair wordless cues (shard {os.environ.get('SHARD', '?')}, "
+                     f"#{episode})") if args.repair_wordless else None)
         done += 1
 
     # 探针/定位不写 sidecar，pending 永远不会降；报 left=0 让分段循环收尾。
