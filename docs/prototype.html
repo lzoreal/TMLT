@@ -1293,9 +1293,8 @@ function finalizeCues(cues) {
   cues.forEach((c, i) => {
     const fallbackEnd = c.end != null ? c.end : c.start + Math.max(2, (c.text || '').length/15);
     let speechStart = c.words.length ? c.words[0].s : c.start;
-    // 句首孤立长词常常是对齐把上一句的尾巴粘了过来（899 的 "And" 长 2.7 秒），
-    // 判定激活起点时跳过它，避免下一句提前把上一句的句尾顶掉。
-    if (c.words.length > 1 && c.words[1].s - c.words[0].e > 1.0) speechStart = c.words[1].s;
+    // 不因首词与第二词之间有较长停顿就直接跳过首词：这可能是真实停顿，
+    // 跳过会让整句直到第二个词才激活。真正异常的长首词由下面的重叠检测单独处理。
     const speechEnd = c.words.length ? Math.max(...c.words.map(w => w.e)) : fallbackEnd;
     c.i = i; c.speechStart = speechStart; c.speechEnd = speechEnd; c.hasWords = c.words.length > 0;
   });
@@ -1465,16 +1464,18 @@ function rawSeek(r) {
 function seekTo(t) { if (!state.current) return; rawSeek(t / (state.timeScale || 1)); audio.play().catch(() => {}); paint(true); }
 
 function locateCue(t) {
-  // 当前句还覆盖播放头就保持不动：相邻句常有词级重叠，按 start 切会提前跳句。
-  const cur = state.activeCue;
-  if (cur >= 0) {
-    const c = state.cues[cur];
-    if (t >= c.speechStart + state.offset && t <= c.speechEnd + state.offset) return cur;
-  }
-  let lo = 0, hi = state.cues.length - 1, ans = -1;
-  while (lo <= hi) {
-    const m = (lo + hi) >> 1;
-    if (state.cues[m].speechStart + state.offset <= t) { ans = m; lo = m + 1; } else hi = m - 1;
+  // 选择已经开始的句子中 speechStart 最晚的一句。
+  // 不再无条件锁定上一句：词级时间戳重叠时，这会把下一句的显示推迟到上一句结束。
+  // 这里线性扫描而非二分查找，因为不同说话人的重叠语音可能令 cues 的时间顺序不完全单调。
+  let ans = -1;
+  let latestStart = -Infinity;
+  for (let i = 0; i < state.cues.length; i++) {
+    const c = state.cues[i];
+    const start = c.speechStart + state.offset;
+    if (start <= t && start >= latestStart) {
+      latestStart = start;
+      ans = i;
+    }
   }
   if (ans < 0) return -1;
   const c = state.cues[ans];
