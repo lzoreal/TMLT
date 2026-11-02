@@ -115,6 +115,34 @@ class RepairWindowTest(unittest.TestCase):
         self.assertLessEqual(windows[0][1], 400.5)
 
 
+class VerifyRepairTokensTest(unittest.TestCase):
+    def test_matching_asr_stream_passes(self):
+        words = [("hello", 10.0, 10.5), ("there", 10.5, 11.0), ("friend", 11.0, 11.5)]
+        heard = [("hello", 10.05), ("there", 10.55), ("friend", 11.05)]
+        self.assertEqual(at.verify_repair_tokens(words, heard), "")
+
+    def test_shifted_stream_is_rejected(self):
+        words = [("hello", 10.0, 10.5), ("there", 10.5, 11.0), ("friend", 11.0, 11.5)]
+        heard = [("hello", 20.05), ("there", 20.55), ("friend", 21.05)]
+        self.assertTrue(at.verify_repair_tokens(words, heard).startswith("asr-shift:"))
+
+    def test_unrelated_stream_is_rejected(self):
+        words = [("hello", 10.0, 10.5), ("there", 10.5, 11.0), ("friend", 11.0, 11.5)]
+        heard = [("other", 10.0), ("words", 10.5), ("entirely", 11.0)]
+        self.assertTrue(at.verify_repair_tokens(words, heard).startswith("asr-coverage:"))
+
+    def test_short_cue_skips_verification(self):
+        words = [("hello", 10.0, 10.5), ("there", 10.5, 11.0)]
+        self.assertEqual(at.verify_repair_tokens(words, [("hello", 20.0)]), "")
+
+    def test_number_tokens_are_merged(self):
+        words = [("call", 10.0, 10.2), ("1-800-273-8255.", 10.2, 13.0),
+                 ("now", 13.0, 13.2)]
+        heard = [("call", 10.0), ("1", 10.2), ("800", 10.5), ("273", 11.0),
+                 ("8255", 12.0), ("now", 13.0)]
+        self.assertEqual(at.verify_repair_tokens(words, heard), "")
+
+
 class RepairGateTest(unittest.TestCase):
     def test_clean_words_pass(self):
         c = cue(0, 10.0)
@@ -145,6 +173,13 @@ class RepairGateTest(unittest.TestCase):
         words = [("hello", 10.1, 10.6), ("there", 40.0, 40.5)]
         self.assertEqual(
             at.repair_reject_reason(c, words, {}, 0, 0.0, 100.0), "gap")
+
+    def test_rejects_a_compressed_word_run(self):
+        c = cue(0, 10.0, 20.0, "a b c d e")
+        words = [("a", 10.0, 10.0), ("b", 10.0, 10.0), ("c", 10.0, 10.0),
+                 ("d", 13.0, 13.2), ("e", 13.2, 13.4)]
+        self.assertEqual(
+            at.repair_reject_reason(c, words, {}, 0, 0.0, 100.0), "compressed")
 
     def test_rejects_words_outside_audio(self):
         c = cue(0, 10.0)
@@ -213,7 +248,7 @@ class RepairSegmentsTest(unittest.TestCase):
         segments[2]["words"] = [["good", 25000, 400], ["bye", 25400, 400], ["now", 25800, 400]]
         with mock.patch.object(at, "align_window",
                                return_value={1: {"words": [("hello", 10.5, 11.0),
-                                                          ("there", 11.0, 11.5)]}}):
+                                                          ("there", 11.0, 11.5)]}}), mock.patch.object(at, "verify_repair", return_value=""):
             repaired, attempted, reasons, _ = at.repair_segments(
                 segments, cues, model=None, audio=None, audio_seconds=100.0)
         self.assertEqual((repaired, attempted), (1, 1))
@@ -228,7 +263,7 @@ class RepairSegmentsTest(unittest.TestCase):
                     seg(2952740, None, [], "OK. OK.")]
         with mock.patch.object(at, "align_window",
                                return_value={1: {"words": [("OK.", 2952.74, 2955.10),
-                                                          ("OK.", 2964.38, 2965.16)]}}):
+                                                          ("OK.", 2964.38, 2965.16)]}}), mock.patch.object(at, "verify_repair", return_value=""):
             repaired, _, _, _ = at.repair_segments(
                 segments, cues, model=None, audio=None, audio_seconds=4000.0)
         self.assertEqual(repaired, 1)
@@ -241,7 +276,7 @@ class RepairSegmentsTest(unittest.TestCase):
         segments = [seg(0, 1000, [word(0)], "[MUSIC]"), seg(10000, None, [])]
         with mock.patch.object(at, "align_window",
                                return_value={1: {"words": [("hello", 1.0, 1.5),
-                                                          ("there", 1.5, 2.0)]}}):
+                                                          ("there", 1.5, 2.0)]}}), mock.patch.object(at, "verify_repair", return_value=""):
             repaired, attempted, reasons, _ = at.repair_segments(
                 segments, cues, model=None, audio=None, audio_seconds=100.0)
         self.assertEqual((repaired, attempted), (0, 1))

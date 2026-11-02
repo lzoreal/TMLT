@@ -12,6 +12,8 @@ sidecar 记录 complete/attempts：少量缺口视为完成；对齐不上的（
 """
 
 import argparse
+import contextlib
+import difflib
 import json
 import os
 import re
@@ -92,6 +94,10 @@ REPAIR_MIN_WINDOW = 0.3
 # 中间的 [MUSIC]/[FUNDING CREDITS] 等长音效 cue 也是硬边界。
 REPAIR_MAX_GAP = 20.0
 REPAIR_BARRIER_SECONDS = 3.0
+# 逐词结果还要过一遍独立 ASR：同一段音频转写出的词流里，至少 30% 的词要对上，
+# 且中位时间差不超过 1.5 秒。结构合理不代表贴在了正确的音频上。
+REPAIR_VERIFY_COVERAGE = 0.30
+REPAIR_VERIFY_MEDIAN = 1.5
 
 # 这两类拒绝由音频母带本身决定（对齐落到错误位置、母带与 transcript 不同版），
 # 同一份音频重跑必然同样失败，所以一次判定后不再占用重试机会：
@@ -1047,6 +1053,9 @@ def repair_reject_reason(cue, words, results, index, shift, audio_seconds):
 
     if not words:
         return "no-words"
+    # 一串近零时长的词后又出现大空档：对齐把多词压在了同一个起点。
+    if compressed_runs(words):
+        return "compressed"
     previous = _nearest_word(index, results, -1)
     following = _nearest_word(index, results, 1)
     previous_words = results[previous]["words"] if previous is not None else None
@@ -1081,6 +1090,68 @@ def crosses_repair_barrier(cues, index, words):
         if k != index and is_repair_barrier(cue) and first < cue["start"] < last:
             return True
     return False
+
+
+def repair_token_stream(words):
+    """把词表归一成 (token, start) 并合并相邻数字，供独立 ASR 比对。"""
+
+    stream = []
+    for text, start, _end in words:
+        token = re.sub(r"[^a-z0-9]", "", text.lower())
+        if not token:
+            continue
+        if stream and token.isdigit() and stream[-1][0].isdigit():
+            stream[-1] = (stream[-1][0] + token, stream[-1][1])
+        else:
+            stream.append((token, start))
+    return stream
+
+
+def verify_repair_tokens(words, heard):
+    """独立 ASR 词流是否支持这组词的时间：覆盖率 + 中位偏差。"""
+
+    expected = repair_token_stream(words)
+    if len(expected) < 3:
+        return ""
+    heard_tokens = []
+    for token, start in heard:
+        token = re.sub(r"[^a-z0-9]", "", token.lower())
+        if not token:
+            continue
+        if (heard_tokens and token.isdigit() and heard_tokens[-1][0].isdigit()
+                and start - heard_tokens[-1][1] < 2.0):
+            heard_tokens[-1] = (heard_tokens[-1][0] + token, heard_tokens[-1][1])
+        else:
+            heard_tokens.append((token, start))
+    matcher = difflib.SequenceMatcher(
+        None, [item[0] for item in expected], [item[0] for item in heard_tokens])
+    diffs = []
+    for block in matcher.get_matching_blocks():
+        for k in range(block.size):
+            diffs.append(abs(expected[block.a + k][1] - heard_tokens[block.b + k][1]))
+    coverage = len(diffs) / len(expected)
+    if coverage < REPAIR_VERIFY_COVERAGE:
+        return f"asr-coverage:{coverage:.2f}"
+    median = percentile(diffs, .5) if diffs else float("inf")
+    if median > REPAIR_VERIFY_MEDIAN:
+        return f"asr-shift:{median:.1f}"
+    return ""
+
+
+def verify_repair(model, audio, lo, hi, words):
+    """对同一个窗口做一次独立转写，确认词确实落在这段音频上。"""
+
+    clip = audio[int(lo * SR): int(hi * SR)]
+    if clip.size == 0:
+        return "asr-empty"
+    with open(os.devnull, "w") as sink, contextlib.redirect_stdout(sink), \
+            contextlib.redirect_stderr(sink):
+        result = model.transcribe(clip, language="en", word_timestamps=True)
+    heard = []
+    for segment in result.segments:
+        for word in segment.words or []:
+            heard.append((word.word, word.start + lo))
+    return verify_repair_tokens(words, heard)
 
 
 def apply_repair(segments, index, words, audio_seconds):
@@ -1150,6 +1221,8 @@ def repair_segments(segments, cues, model, audio, audio_seconds,
                     cue, words, results, index, shift, audio_seconds)
                 if not reason and crosses_repair_barrier(cues, index, words):
                     reason = "crosses-non-speech"
+                if not reason:
+                    reason = verify_repair(model, audio, lo, hi, words)
                 if reason:
                     reasons[reason] += 1
                     outcomes.append((index, "rejected", reason))
