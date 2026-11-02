@@ -59,13 +59,17 @@ jobs:
     steps:
 
 
-      # 拉取仓库（包含之前生成的 public）
+      # 拉取仓库（包含之前生成的 public）。
+      # 作为 reusable workflow 调用时默认落在调用方的 SHA，会漏掉 align
+      # 刚提交的 sidecar；必须显式取 main 的最新提交，feed 才会挂上逐词时间轴。
       - name: Checkout repository
 
         uses: actions/checkout@v4
 
         with:
           fetch-depth: 0
+
+          ref: main
 
 
 
