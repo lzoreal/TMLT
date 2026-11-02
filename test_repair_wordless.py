@@ -36,6 +36,9 @@ class RepairTargetTest(unittest.TestCase):
         self.assertFalse(at.repair_target("(SINGING) No, no, no, no."))
         self.assertTrue(at.repair_target("(SINGING) No, no, no, no.", include_sung=True))
 
+    def test_interior_stage_tag_is_not_a_target(self):
+        self.assertFalse(at.repair_target("Now you don't really say [GUNFIRE] that much."))
+
     def test_only_wordless_segments_are_targets(self):
         cues = [cue(0, 0.0), cue(1, 10.0), cue(2, 20.0)]
         segments = [seg(0, 1000, [word(0)]), seg(10000, None, []), seg(20000, 21000, [word(20000)])]
@@ -64,6 +67,32 @@ class RepairWindowTest(unittest.TestCase):
             2: {"words": [("b", 31.0, 32.0)]},
         }
         self.assertEqual(at.repair_windows([1], cues, results, audio_seconds=100.0), [])
+
+    def test_single_target_uses_its_own_span_not_the_neighbours(self):
+        # 单句不能借前后邻居撑成大窗口：后文常有重复句，贴过去就是错时间。
+        cues = [cue(0, 10.0), cue(1, 20.0), cue(2, 31.0)]
+        results = {
+            0: {"words": [("a", 10.0, 12.0)]},
+            2: {"words": [("b", 31.0, 32.0)]},
+        }
+        windows = at.repair_windows([1], cues, results, audio_seconds=100.0)
+        self.assertEqual(len(windows), 1)
+        lo, hi, group = windows[0]
+        self.assertGreaterEqual(lo, 20.0 - at.PAD)
+        self.assertLess(hi, 31.0)
+        self.assertEqual([c["i"] for c in group], [1])
+
+    def test_music_cue_caps_the_window(self):
+        cues = [cue(0, 10.0), cue(1, 20.0), cue(2, 25.0, 30.0, "[MUSIC]"),
+                cue(3, 40.0)]
+        cues[2] = dict(cues[2], text="[MUSIC]", end=30.0)
+        results = {
+            0: {"words": [("a", 10.0, 12.0)]},
+            3: {"words": [("b", 40.0, 41.0)]},
+        }
+        windows = at.repair_windows([1], cues, results, audio_seconds=100.0)
+        self.assertEqual(len(windows), 1)
+        self.assertLessEqual(windows[0][1], 25.0)
 
     def test_without_neighbours_uses_cue_estimate(self):
         cues = [cue(0, 10.0)]
@@ -111,6 +140,12 @@ class RepairGateTest(unittest.TestCase):
         self.assertEqual(at.repair_reject_reason(c, words, results, 1, 0.0, 100.0),
                          "before-prev")
 
+    def test_rejects_words_with_a_huge_interior_gap(self):
+        c = cue(0, 10.0, 50.0)
+        words = [("hello", 10.1, 10.6), ("there", 40.0, 40.5)]
+        self.assertEqual(
+            at.repair_reject_reason(c, words, {}, 0, 0.0, 100.0), "gap")
+
     def test_rejects_words_outside_audio(self):
         c = cue(0, 10.0)
         words = [("hello", 10.1, 10.6), ("there", 10.6, 101.0)]
@@ -128,6 +163,18 @@ class SnapSilentTokensTest(unittest.TestCase):
     def test_adjacent_punctuation_is_untouched(self):
         words = [("Dream", 10.4, 10.8), (".", 10.8, 10.9)]
         self.assertEqual(at.snap_silent_tokens(words), words)
+
+
+class BarrierTest(unittest.TestCase):
+    def test_words_crossing_a_music_cue_are_rejected(self):
+        cues = [cue(0, 10.0, 20.0), cue(1, 25.0, 35.0, "[MUSIC]")]
+        words = [("hello", 10.5, 11.0), ("there", 26.0, 26.5)]
+        self.assertTrue(at.crosses_repair_barrier(cues, 0, words))
+
+    def test_short_laughter_is_not_a_barrier(self):
+        cues = [cue(0, 10.0, 20.0), cue(1, 12.0, 13.0, "[LAUGHTER]")]
+        words = [("hello", 10.5, 11.0), ("there", 13.5, 14.0)]
+        self.assertFalse(at.crosses_repair_barrier(cues, 0, words))
 
 
 class ApplyRepairTest(unittest.TestCase):

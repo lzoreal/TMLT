@@ -88,6 +88,10 @@ MAX_ATTEMPTS = 2
 REPAIR_MIN_TOKENS = 2
 REPAIR_GAP = 0.5
 REPAIR_MIN_WINDOW = 0.3
+# 单句修复绝不跨大窗口：句内词间隔超过这个量级说明贴到了后文的重复句；
+# 中间的 [MUSIC]/[FUNDING CREDITS] 等长音效 cue 也是硬边界。
+REPAIR_MAX_GAP = 20.0
+REPAIR_BARRIER_SECONDS = 3.0
 
 # 这两类拒绝由音频母带本身决定（对齐落到错误位置、母带与 transcript 不同版），
 # 同一份音频重跑必然同样失败，所以一次判定后不再占用重试机会：
@@ -906,7 +910,11 @@ def repair_target(text, include_sung=False, min_tokens=REPAIR_MIN_TOKENS):
 
     if BRACKET.match(text):
         return False
-    if len(spoken_text(text).split()) < min_tokens:
+    body = spoken_text(text)
+    if len(body.split()) < min_tokens:
+        return False
+    # 句中混着 [GUNFIRE] 这类标签时，对齐器会给它编一个词时间。
+    if re.search(r"\[[^\]]*\]", body):
         return False
     if not include_sung and SUNG_LEAD.match(text):
         return False
@@ -979,8 +987,15 @@ def estimated_shift(index, cues, results, neighbours=2):
     return percentile(values, .5) if values else 0.0
 
 
+def is_repair_barrier(cue):
+    """长音效/音乐/片尾 cue 是硬边界；短暂笑声不应挡住正常换气。"""
+
+    return bool(BRACKET.match(cue["text"])
+                and cue["end"] - cue["start"] >= REPAIR_BARRIER_SECONDS)
+
+
 def repair_windows(run, cues, results, audio_seconds):
-    """返回 [(lo, hi, group)]；范围短且有两侧实测邻居时整段一起对齐。"""
+    """返回 [(lo, hi, group)]；只有连续多句才共享邻居窗口，单句永远用本句区间。"""
 
     first, last = run[0], run[-1]
     previous = _nearest_word(first, results, -1)
@@ -990,9 +1005,15 @@ def repair_windows(run, cues, results, audio_seconds):
     high = (results[following]["words"][0][1] + REPAIR_GAP
             if following is not None else None)
     chars = sum(len(spoken_text(cues[i]["text"])) for i in run)
-    if (low is not None and high is not None
-            and REPAIR_MIN_WINDOW <= high - low <= MAX_SPAN + PAD + TAIL_PAD
-            and chars <= MAX_CHARS):
+    barriers = [cue["start"] for cue in cues if is_repair_barrier(cue)]
+    shared_ok = (
+        len(run) > 1
+        and low is not None and high is not None
+        and REPAIR_MIN_WINDOW <= high - low <= MAX_SPAN + PAD + TAIL_PAD
+        and chars <= MAX_CHARS
+        and not any(low < start < high for start in barriers)
+    )
+    if shared_ok:
         return [(max(0.0, low), min(audio_seconds, high),
                  [cues[i] for i in run])]
 
@@ -1002,6 +1023,14 @@ def repair_windows(run, cues, results, audio_seconds):
         cue = cues[index]
         lo = max(0.0, cue["start"] + shift - PAD)
         hi = cue["start"] + cue_span(cue) + shift + TAIL_PAD
+        # 本句区间内的音效 cue 同样是边界：不能把台词贴到音乐另一侧。
+        for barrier in cues:
+            if not is_repair_barrier(barrier):
+                continue
+            if lo < barrier["start"] < hi:
+                hi = barrier["start"]
+            if lo < barrier["end"] < hi:
+                lo = barrier["end"]
         if low is not None:
             lo = max(lo, low)
         if high is not None:
@@ -1032,11 +1061,26 @@ def repair_reject_reason(cue, words, results, index, shift, audio_seconds):
     natural = len(spoken_text(cue["text"])) / NOMINAL_CHARS_PER_SECOND
     if last - first < max(0.1, 0.5 * natural):
         return "too-short"
+    gaps = [words[k + 1][1] - words[k][2] for k in range(len(words) - 1)]
+    if gaps and max(gaps) > REPAIR_MAX_GAP:
+        return "gap"
     if previous_words and first < previous_words[-1][2]:
         return "before-prev"
     if first < 0 or last > audio_seconds:
         return "outside-audio"
     return ""
+
+
+def crosses_repair_barrier(cues, index, words):
+    """台词的首末词之间隔着长音效 cue，说明贴到了另一段音频。"""
+
+    if not words:
+        return False
+    first, last = words[0][1], words[-1][2]
+    for k, cue in enumerate(cues):
+        if k != index and is_repair_barrier(cue) and first < cue["start"] < last:
+            return True
+    return False
 
 
 def apply_repair(segments, index, words, audio_seconds):
@@ -1104,6 +1148,8 @@ def repair_segments(segments, cues, model, audio, audio_seconds,
                 shift = estimated_shift(index, cues, results)
                 reason = repair_reject_reason(
                     cue, words, results, index, shift, audio_seconds)
+                if not reason and crosses_repair_barrier(cues, index, words):
+                    reason = "crosses-non-speech"
                 if reason:
                     reasons[reason] += 1
                     outcomes.append((index, "rejected", reason))
