@@ -40,6 +40,30 @@ type="application/rss+xml"/>
 
 <item>
 
+<title>901: Is Your Blue My Blue?</title>
+
+<link>https://www.thisamericanlife.org/901/is-your-blue-my-blue</link>
+
+<guid isPermaLink="true">https://www.thisamericanlife.org/901/is-your-blue-my-blue</guid>
+
+<description>The doomed project of trying to translate what’s in your head into someone else’s.</description>
+
+<itunes:image href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/tal-900-yourbluemyblue-peteryan.jpg?itok=coom1D_y"/>
+
+<podcast:image href="https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/tal-900-yourbluemyblue-peteryan.jpg?itok=coom1D_y"/>
+
+<pubDate>Fri, 30 Oct 2026 10:58:44 -0400</pubDate>
+
+<enclosure
+url="https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/901.mp3"
+type="audio/mpeg"/>
+
+
+</item>
+
+
+<item>
+
 <title>900: Talk Me Into It</title>
 
 <link>https://www.thisamericanlife.org/900/talk-me-into-it</link>
