@@ -59,6 +59,11 @@ url="https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/9
 type="audio/mpeg"/>
 
 
+<podcast:transcript
+url="https://lzoreal.github.io/TMLT/transcripts/901.vtt"
+type="text/vtt"
+language="en"/>
+
 </item>
 
 
