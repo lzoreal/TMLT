@@ -9008,5 +9008,15 @@
     "description": "The doomed project of trying to translate what’s in your head into someone else’s.",
     "image": "https://www.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/tal-900-yourbluemyblue-peteryan.jpg?itok=coom1D_y",
     "resolved_audio": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/901.mp3"
+  },
+  "902": {
+    "title": "902: The Missing Minutes",
+    "audio": "https://www.thisamericanlife.org/sites/default/files/audio/upload/promos/902.mp3",
+    "archive": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/902.mp3",
+    "url": "https://www.thisamericanlife.org/902/the-missing-minutes",
+    "pubDate": "2026-11-06T10:20:16-05:00",
+    "description": "A woman secretly records a conversation at a hotel bar, hoping to fill a gap in her memory.",
+    "image": "https://www.thisamericanlife.org/sites/default/files/styles/large_portrait/public/episodes/images/tal-902-knownunknowns-stephaniefscholz.jpg?itok=rjBcyGjU",
+    "resolved_audio": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/902.mp3"
   }
 }
