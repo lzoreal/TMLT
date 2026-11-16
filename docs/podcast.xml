@@ -60,6 +60,10 @@ type="audio/mpeg"/>
 
 
 <podcast:transcript
+url="https://lzoreal.github.io/TMLT/timings/902.json"
+type="application/json"
+language="en"/>
+<podcast:transcript
 url="https://lzoreal.github.io/TMLT/transcripts/902.vtt"
 type="text/vtt"
 language="en"/>
